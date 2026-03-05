@@ -5,7 +5,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import os
 import re
 import sys
 import urllib.error
@@ -80,10 +79,29 @@ IRAN_KEYWORDS = (
     "revolutionary guard",
 )
 
+USA_ALLY_KEYWORDS = (
+    "israel",
+    "israeli",
+    "idf",
+)
+
 ATTACK_WORDS = ("strike", "strikes", "attack", "attacks", "hits", "bombs", "launches")
 INTERCEPT_WORDS = ("intercept", "intercepts", "thwarts", "foils", "shoots down")
 LOSS_WORDS = ("destroyed", "killed", "losses", "downed", "sunk")
 DIPLO_WORDS = ("sanction", "talks", "ceasefire", "resolution", "warning", "condemn")
+
+ACTION_PATTERN = (
+    r"(strike|strikes|struck|attack|attacks|hit|hits|bomb|bombs|launches|launched|"
+    r"intercept|intercepts|intercepted|thwart|thwarts|thwarted|foil|foils|foiled|"
+    r"shoots down|shot down|sink|sank|sunk|destroyed|downed)"
+)
+USA_PATTERN = (
+    r"(u\.s\.|united states|american|us military|us navy|us air force|"
+    r"pentagon|washington|israel|israeli|idf)"
+)
+IRAN_PATTERN = r"(iran|iranian|tehran|irgc|revolutionary guard)"
+TARGET_IRAN_PATTERN = r"(iran|iranian|tehran|irgc)"
+TARGET_USA_PATTERN = r"(u\.s\.|united states|american|washington|pentagon)"
 
 
 def now_iso() -> str:
@@ -125,24 +143,40 @@ def determine_event_type(text: str) -> str:
 
 
 def detect_actor_target(text: str) -> tuple[str, str]:
-    us = side_mentioned(text, USA_KEYWORDS)
-    iran = side_mentioned(text, IRAN_KEYWORDS)
-    if not us and not iran:
-        return "unknown", "unknown"
-    if us and not iran:
-        return "usa", "unknown"
-    if iran and not us:
-        return "iran", "unknown"
-
-    attack_regexes = [
-        (r"(iran(?:ian)?)\s+.*(strike|attack|hits|bombs)\s+.*(u\.s\.|american|us)\b", "iran", "usa"),
-        (r"(u\.s\.|united states|american|us)\s+.*(strike|attack|hits|bombs)\s+.*(iran|iranian)\b", "usa", "iran"),
-        (r"(iran(?:ian)?)\s+.*(intercept|thwart|foil|shoots down)\s+.*(u\.s\.|american|us)\b", "iran", "usa"),
-        (r"(u\.s\.|united states|american|us)\s+.*(intercept|thwart|foil|shoots down)\s+.*(iran|iranian)\b", "usa", "iran"),
+    # Explicit directional phrasing first.
+    directional_regexes = [
+        (rf"{USA_PATTERN}.{{0,90}}{ACTION_PATTERN}.{{0,90}}{IRAN_PATTERN}", "usa", "iran"),
+        (rf"{IRAN_PATTERN}.{{0,90}}{ACTION_PATTERN}.{{0,90}}{USA_PATTERN}", "iran", "usa"),
+        (
+            rf"{USA_PATTERN}.{{0,70}}(strike|strikes|attack|attacks|bomb|bombs|launches|launched)"
+            rf".{{0,40}}(in|on|against)\s+(the\s+)?{TARGET_IRAN_PATTERN}",
+            "usa",
+            "iran",
+        ),
+        (
+            rf"{IRAN_PATTERN}.{{0,70}}(strike|strikes|attack|attacks|bomb|bombs|launches|launched)"
+            rf".{{0,40}}(in|on|against)\s+(the\s+)?{TARGET_USA_PATTERN}",
+            "iran",
+            "usa",
+        ),
     ]
-    for regex, actor, target in attack_regexes:
+    for regex, actor, target in directional_regexes:
         if re.search(regex, text):
             return actor, target
+
+    # Loss phrasing where only target is explicit.
+    if re.search(rf"{TARGET_IRAN_PATTERN}.{{0,30}}(sunk|destroyed|downed|losses|killed)", text):
+        return "usa", "iran"
+    if re.search(rf"{TARGET_USA_PATTERN}.{{0,30}}(sunk|destroyed|downed|losses|killed)", text):
+        return "iran", "usa"
+
+    # Diplomatic headlines can still have a single-sided actor.
+    if determine_event_type(text) == "diplomatic":
+        if side_mentioned(text, USA_KEYWORDS) or side_mentioned(text, USA_ALLY_KEYWORDS):
+            return "usa", "unknown"
+        if side_mentioned(text, IRAN_KEYWORDS):
+            return "iran", "unknown"
+
     return "unknown", "unknown"
 
 
@@ -213,7 +247,7 @@ def build_events() -> List[Dict[str, object]]:
             continue
 
         for item in feed_items:
-            text = f"{item['title']} {item['source_name']}".lower()
+            text = item["title"].lower()
             event_type = determine_event_type(text)
             actor, target = detect_actor_target(text)
             points = score_event(text, actor, target, event_type)
