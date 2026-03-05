@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-03-05T02:01:33.483340+00:00",
+  "generated_at": "2026-03-05T04:43:15.118524+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 101,
   "totals": {
-    "usa": 9,
-    "iran": 77,
-    "lead": -68,
-    "lead_side": "Iran"
+    "usa": 80,
+    "iran": 42,
+    "lead": 38,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 9,
-    "iran": 77,
-    "delta": -68
+    "usa": 80,
+    "iran": 42,
+    "delta": 38
   },
   "confidence": {
-    "score": 67.5,
+    "score": 67.9,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 49,
-    "material_loss": 5,
-    "intercept": 1,
-    "other": 44,
+    "attack": 52,
+    "other": 40,
+    "material_loss": 7,
     "diplomatic": 2
   },
   "history": [
@@ -68,42 +67,222 @@
     },
     {
       "date": "2026-02-28",
-      "usa": 3,
-      "iran": 12
+      "usa": 18,
+      "iran": 3
     },
     {
       "date": "2026-03-01",
-      "usa": 0,
+      "usa": 9,
       "iran": 3
     },
     {
       "date": "2026-03-02",
-      "usa": 0,
-      "iran": 0
+      "usa": 15,
+      "iran": 4
     },
     {
       "date": "2026-03-03",
       "usa": 0,
-      "iran": 6
+      "iran": 0
     },
     {
       "date": "2026-03-04",
-      "usa": 6,
-      "iran": 47
+      "usa": 25,
+      "iran": 11
     },
     {
       "date": "2026-03-05",
-      "usa": 0,
-      "iran": 9
+      "usa": 13,
+      "iran": 21
     }
   ],
   "latest_events": [
     {
-      "id": "a438d8e83ab225f7",
-      "published_at": "2026-03-05T01:44:00+00:00",
-      "title": "Maps Show Broader Mideast Fighting as Attacks Continue - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qcUhtUy1idkFpZTFQbi1XVzBjTE9EZ1BlbXVrZHp1MlBtdUJZSko1T0tsbGV5ZHRnRGZldXNScEZ0enMwbmRvbWRhU3ZGSUs0THhvNTJkYXFrZ1FkZ1UzdFNHLTc2dGNhVkxrTjU2UFc?oc=5",
+      "id": "7d01b3b92669a8a8",
+      "published_at": "2026-03-05T04:33:50+00:00",
+      "title": "Pentagon identifies 5th U.S. soldier killed in drone attack - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVkV1dDVtTDkzRlhCUjFyWmZ0ZU1FR2hMVnpFaTVGV1YyOWZjdF9TXzdaY3RxYllSTlpaWGhvX0xiZ1BTOHVnQzl2Mlptc2padUhkVmUxcFV3eXdyNllNY2hhTE1zaGxIQi1OSVdpUGdVbUJXbzRzVkhtMVozNmxUcldTQUJlYkw4aFJmdTluTk50Nk10?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5309be9d95d63ce9",
+      "published_at": "2026-03-05T04:26:14+00:00",
+      "title": "US Senate backs Trump's war powers as Iran launches new missile barrage at Israel - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04RXpna3ZGWTFHMGdKbUd2bDNUX3pCQTdJMUhZTzA5WE9xUzVKcWFzOG1jT2QyZ0hOd0ZzOUpfUEozWGJYRHV5NUVMOTZTemROY0tlRA?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "ae403abc3d105017",
+      "published_at": "2026-03-05T04:14:15+00:00",
+      "title": "Iran live: Senate fails to curb Trump\u2019s war powers; Israel pounds Lebanon - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObXp2QmZBbjJUTGRDY21rV3NRbkkwaTV0VnlrQUdhMXRFOWFSeW1kUG9kbGdCOEh3TjQxbzFRTEhUekZNcVRpc1drSXdtQl9BRHNaV0FwYXNXeTZNTUFpV21kUlJhSVUtQkdXWUM5WjZEY0pRUnJJVF9HSW85dGZUWGRCS2tqUEdKdzZYX1Z1enpfeE1uUU1mVVRvdlZMU2hmLVBqMUpnQUw1clVpb3JjY2d5NFU2bHVhMHJFZXpR0gHDAUFVX3lxTE9IYUVrWjRHdVJPRmVmeDZrVnk0b2dmdjJLNzB2MGNoakdMdWhYZWFGRlBZb2NPNi1PLUFrck5tdVlJV2RkcDkxdy1GNzE0ZV9KanpkcGh6Wk80VDFUeG1ZUzM0OTZSaUdwa1QzeVktT29sT1ZSS3Vham0wbWtDN1N3LTd0T3RXWTVDVFdJNEJ6RWMzVjFLQkVsWHgyQThobmVyS1RwM1RONzRlX1RmQ3NzSTl6eEx2VkxWeHg4emxOaFR0dw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "c3176a28d9600441",
+      "published_at": "2026-03-05T04:08:00+00:00",
+      "title": "Live updates: U.S. has struck or sunk over 20 Iranian ships, CENTCOM says - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZi1ReXgyelZOQ1hhNmNQcy12eU9DMlJhMjJqUTNCSmdCVWdDNUY2YjBiclR1aTUwVXBfSTNPeDRMc3BSMlVNX0thMWd0Q2I0OGJIdHhHQ1MxRjF1c1VyYk1vcVYtNGlKSGJoUWlkbmNMTk1vMHVYUFR0QVBBcUEyNnZ5dWQyUkRJYy0ydFliSjduQUQ1Q0hOeG42SUdBVXVfOFVBbnVyc3BxYk1aYlVqTm1Ha1RnbVR5cTBheFhR?oc=5",
+      "source_name": "NBC News",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "7be3271b76902f7f",
+      "published_at": "2026-03-05T04:03:45+00:00",
+      "title": "U.S. service members killed in the Iran war include a Minnesota mom and an Iowa college student. Here's what we know. - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb3FxeFBwQ3duS2RtXzJldW5vM3VaLTJVbDYwQlBtUllFY0pDN1M4MXJsR3Y3TFA3SjFPVC1zaDFZcFZndEtSN1d4QU5ZaXpjeGJTaFdXSEJkSV9sbHZDdmJTbHJ6dzYxZ3dOaW5KQUFrcW9WVVVPXzNYM3c1dEFVbmprNNIBiAFBVV95cUxPUlpuUnFNbm5iMVJqTHU3dWlLM0pmRW1Wdk1HRzBFZlZzNHhJeGJSTXlmTnpObExQcFYtVldFT1U4TmxSVUpCS0xpUFZzdXliOVNrbkpJQnFQZm4tNFNHdUtKZm03cTFVYW9IZTAzemo4NVdEMlUxWjg5alBVcGdqc1VlVFpBR29j?oc=5",
+      "source_name": "CBS News",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "b94393fb0644a325",
+      "published_at": "2026-03-05T04:02:03+00:00",
+      "title": "Senate rejects resolution to force Trump to end Iran strikes - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbkktSTJoT0owSjlIOGxYMnNHUjB0WnhqaE5ZY0QtZlpGcDZsdFN2c0pNTXVrOTJoeE1aWWk5S3lBb1ptMG01czJUbE1TNE84NFBmSkVTSFl0MmFGcG5PeDd2ZE1wVF9Yc2hZM0dTZzhHUkJ1cXhNSzNtQnNWMjRmY1hJaHVSUQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "c3e6f3bd9d60e273",
+      "published_at": "2026-03-05T03:59:00+00:00",
+      "title": "Israel launches new strikes in Tehran and Beirut as conflict widens in Middle East - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VSGtBLUlqUmJOZWREUmIteG5xZVNZQVNQTnNTZUlsWW5NR2FKZGdtMGY2SUtfbXVmNENyNWdQZ3pOSTR4UTNwNDcwTTBVZU92b1FkdnVjbk9VZWJrQm9YUUVNeFZ5S3FlWVpfVGhwOU5IRXIxTF9IRA?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "fcab0fdf121e7f62",
+      "published_at": "2026-03-05T03:45:00+00:00",
+      "title": "Live Updates: Hegseth says U.S. \"just getting started\" in Iran war as conflict intensifies and spreads - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPNXM5TFNKSmxnUUIyVlVNY1M5Sl9rdkxmSEZ0amVJM1BJQzVLQmNMeENQcDRfLU1TLVh3Ukw4YjRqUnVqM0JOYjV6U0NMVTRrSU8tT2hKOVFqMF82MDNXbjZMRjZvR19lSUFXVTIzQ3pmZTgwTG1PZU1mTVo5cU52TW5aOVJTM1h0QnMxbnFGZm0xdDVIX04xTC1DeGFFa25Oa3VyUWpR0gGrAUFVX3lxTFBUTkdEeHVMREJsUm9qN19tQS1QSllDTVFmdHNFX0I4M3ExQjBOLUxMdlVjQUc3OUJIbi13dzNVSURzX0VncFB0M3IzMmFNUW5hT3ZiZUItckV2cThXdl9yOGVVUUxZRkdyc1B5YWY0aV9GeTdmU2VwcWNTVmdVMXBUTVI0d1JPWkZacURHQ0ctNmhnNjExWlMyb2MxajNiVlhYTVpIWFVGLUtmTQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "1b5b8c084c33a282",
+      "published_at": "2026-03-05T03:40:00+00:00",
+      "title": "Iran war briefing: US reportedly ready to provide support to Kurdish fighters if they enter conflict - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOVEpBTnRTb2FER0E3aDFHbl9ZREdPOEtjNmU4NUF4T0tSOEk3QjBFYm9qaVdJODdaZkJXU0hFTk9CV2JKNzBQVlEzNTRzbDBZenhGdXFJalFJelVmZTVxWmY4Mll3ZkZUV1MtMmRFdFpSbENITHNrZGh1cjVURVFVeVhIdUdlWWhhQ0lOSUdOTlllVjJ0N3BqZEVMY3FUTEVfa1p6TWtjTmZTQkU0a0dFcTQ5MVplVDlXNTU2cUsyS2x4UQ?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fa8d4cfc48424d31",
+      "published_at": "2026-03-05T03:26:00+00:00",
+      "title": "Israel Begins \u2018Broad Wave of Strikes\u2019 on Iran\u2019s Infrastructure - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaFM1X0dITWZ2b2lSOEluZjVabjJnOVA0dmM3VmNWbTFpbFp4TnFOQ1huOWxSeWNZMHlWaTBYakFwX0psTkJJVEo2M3M4X3NudmJQLUdKTFhLa1ZUd2wzOXE5Zl80NDlBX2dGcHVTR1NCOGdlckQ0R0xFQmxZZS11NQ?oc=5",
       "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "026cc697a2aafea4",
+      "published_at": "2026-03-05T03:09:33+00:00",
+      "title": "Hegseth says more US forces arriving in Middle East as Iran war ramps up - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYk15R0xVdHhLdHJ5MEdQRjRmV3J2VGZCYnlJSlB6eGFfbnZpUGdXZFZxc3pBV2hBc0h1U1lEaU1oX0xad1N6SmxUdGs2ZW5PdEw1RHBGNElxZkVRUFNrWHphSE5TREpYSl9pT0pBSFY4UzdVSDBBU0Zvci1tMlBYYm5fSDRtUUw3ZS1XTXFxRVZFYVlUcGFBMTNwM2hjMzJFcmdqQ1JjQm1qYnE1VjRXNHBn0gG3AUFVX3lxTE82MXJjVWh3RUwzQ0FRaHBDUVlCS0tra3R5Ni1ZZDhmMzBlZWI3VFpucHVkTWVUb3NlVkdUOW92MldXU0cwVUZPZVJlM0M4SUQ4ckFFamNUY2U4dVo3bENzZTNmUUpPejNVSzFFcXRFYk9OWG44cVB3aG5VeTFOdno2NzJYUWo0dFBqOFcxbXFjazU5YkNKakJSTEZYcXdDbl9NWEpuRU9CWVFubmF6dnBLTUtiVUs2cw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8bb1237a6e76131e",
+      "published_at": "2026-03-05T03:09:00+00:00",
+      "title": "These American Service Members Died in the Iran Conflict - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOcmVrS2FybHdFeFJYdTd0bG5Zb0E0TXdhNmpMRzBpb0hRSGVJaFJOaWVtVnJVVzdwWE5HOGt4QmxPVHgxVnpkdUx1bWFFNnIzVEwyeFo2X0M1VG9hVEdqMkMyZFMwUjg0cTFoWUVjRERCRl9fTVhNdndKZ2JLRHZrbTU4NVNsYkN2amNlSg?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c504c3695c9ae0a9",
+      "published_at": "2026-03-05T02:30:00+00:00",
+      "title": "Pete Hegseth says US is \u2018investigating\u2019 deadly strike on girls\u2019 school in Iran - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNbVVLT09vVGpoazEwUFZrMFVBcFI5TGNmY1ozMmE1b09ZNVFNVEF2clVpbkRGMFN6dnhMSjFiU0RORVpNbVZfbTRHRC05VE5ITmRYelhnSHdyTmxvRE9jZDFvQUw1RVBBRktIOWdIb2pWZWdENnRYbDVKT0padWtuSXNuWUZ1V2R0cnlyUzFYMm0tRHVWTUo3TWV3OXdDaW5t?oc=5",
+      "source_name": "The Guardian",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -114,32 +293,47 @@
       "confidence": 0.65
     },
     {
-      "id": "dc14f9f5e7303c3f",
-      "published_at": "2026-03-05T01:38:14+00:00",
-      "title": "Israel begins new 'wave of strikes' in Tehran as US Senate bid to limit Trump war powers fails - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE04RXpna3ZGWTFHMGdKbUd2bDNUX3pCQTdJMUhZTzA5WE9xUzVKcWFzOG1jT2QyZ0hOd0ZzOUpfUEozWGJYRHV5NUVMOTZTemROY0tlRA?oc=5",
-      "source_name": "BBC",
+      "id": "a9dcbadde42820c6",
+      "published_at": "2026-03-05T02:03:00+00:00",
+      "title": "Trump news at a glance: Pentagon \u2018taking a look\u2019 at deadly strike on girls\u2019 school in Iran as UN office demands answers - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcW5HMngyeTM0alBvWUNMYXE1dGJkMnl0YUVQZ0g3c0RZelNacHBRdGNSZDMzWkNaaEJ6UWRyX1p5Wi1uMU9HZ2ZPQjBJVDl6b1IyRVpGU2kyVXlxWjJXMmdQdFVyTHg5SlhENGp3THZKbEtfOFpRSk9Hak5mcThBU3BPUTZCMGV6c2NmQ2x3?oc=5",
+      "source_name": "The Guardian",
       "event_type": "attack",
-      "actor": "iran",
-      "target": "unknown",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
-        "iran": 3
+        "usa": 3,
+        "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "id": "c3176a28d9600441",
-      "published_at": "2026-03-05T01:37:00+00:00",
-      "title": "Live updates: U.S. has struck or sunk over 20 Iranian ships, CENTCOM says - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZi1ReXgyelZOQ1hhNmNQcy12eU9DMlJhMjJqUTNCSmdCVWdDNUY2YjBiclR1aTUwVXBfSTNPeDRMc3BSMlVNX0thMWd0Q2I0OGJIdHhHQ1MxRjF1c1VyYk1vcVYtNGlKSGJoUWlkbmNMTk1vMHVYUFR0QVBBcUEyNnZ5dWQyUkRJYy0ydFliSjduQUQ1Q0hOeG42SUdBVXVfOFVBbnVyc3BxYk1aYlVqTm1Ha1RnbVR5cTBheFhR?oc=5",
-      "source_name": "NBC News",
-      "event_type": "material_loss",
+      "id": "aaa191183649dea0",
+      "published_at": "2026-03-05T02:00:00+00:00",
+      "title": "Trump Says US Doing \u2018Very Well\u2019 as Iran War Shakes Region - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNFhtemlXSDhuanpYVzhNcF9RZ3JXQzhoejFQZjR6aF84LUUyVE1Ya2U1SmFuVmwwbWowa1dSb0ZWRll2ZnJkeTR5LUhad2FIUDZBc3gzM2cwdWR6ekR2VUgyVkVZSzhheFRPaW1QTEQwNTgwbGVCUkpZTlhvN2dXTXhNejUtRU51ckw4QWlpMmk3eDBoSTRJYU1aMFFKNmhpMndiWHJiTkdVLWd3YVM3dW5FSjU?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6c1a45cb5842dec2",
+      "published_at": "2026-03-05T01:42:40+00:00",
+      "title": "Pentagon identifies six US soldiers killed in Iran conflict - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56Uzl6eE1teFhHb0o1SkhuS2dsZmhNT21ick5BX3UwZjZhcE1JU2RuX2VmTVdWbEhJSHhXc1c3a3JOZU5idWZVUTFYcUVRdDRnaWN2WVZlZUU1UQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
       },
       "confidence": 0.85
     },
@@ -159,43 +353,13 @@
       "confidence": 0.8
     },
     {
-      "id": "0c69dd2b765751e2",
-      "published_at": "2026-03-05T01:33:50+00:00",
-      "title": "Live updates: Senate rejects war powers resolution; NATO shoots down Iran\u2019s missile heading toward Turkey - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVkV1dDVtTDkzRlhCUjFyWmZ0ZU1FR2hMVnpFaTVGV1YyOWZjdF9TXzdaY3RxYllSTlpaWGhvX0xiZ1BTOHVnQzl2Mlptc2padUhkVmUxcFV3eXdyNllNY2hhTE1zaGxIQi1OSVdpUGdVbUJXbzRzVkhtMVozNmxUcldTQUJlYkw4aFJmdTluTk50Nk10?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "intercept",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "52cbd85ef3aefc1e",
-      "published_at": "2026-03-05T01:27:01+00:00",
-      "title": "Hegseth says U.S. is 'accelerating' war on Iran, as White House demands allied cooperation - Los Angeles Times - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxONTV3TFluWk5TWnBJNGtyR3VNQV8yMVc1WG4xMGJ5azd3WjhkNnFKYXN1MThqTExzZk51OGZCZjZadVFGNmZwTmxFTDY4NDNhN3oycTBoemJrZ1JGeGxmMTJ6WWFjOFhGTTZOcU1sV2FSdXpxNTVXOVZJU0ZpS1pPZzFwcEMzVEJDOTRqWXlJTlJ2bzJaSFpmdXhUdDBhYWtjUE1Db0hlN0RfaUVoYlR0Z3MwV3B2R29falUwWEVhaUlhSGM1eTVMcm4teWhrQQ?oc=5",
-      "source_name": "Los Angeles Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "5b80a52d895e4efd",
       "published_at": "2026-03-05T01:25:04+00:00",
       "title": "Strategic Escalation and Conflict Sustainability in the US-Iran War - Al Jazeera Centre for Studies",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd2l4VEt6LU9MUmZoUExETnE2U3pZX0hSTkVsRE00eWdxTUh4azNsTU1BNTlXc21XZDRpQi1xRmNwSXpxWDJ3THZ0akFGZ2UwTHZoOHNOOXJfLUhHbVhPXzdMSnpoNlhoSk1nMl83MFl2YjZLVnRYUnlieTliNzh3eVFpSHRBTGdOZWJ4UC1talVtM0hEWGRNajF6UHltNVlBazRxSQ?oc=5",
       "source_name": "Al Jazeera Centre for Studies",
       "event_type": "other",
-      "actor": "iran",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
@@ -210,32 +374,17 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOFliVUJLZGh2N2E4eG1DdGIycFItY0pDa09USFgxSHd1RG9jX0FBd2RkNklKdUp2bVQzYXlHVmJtc0ZaMGgwUDJwUy0tVUJIeFA0azhiblRWRE1pVHpvNWF3SG9NRy0ySF9mUXdKaTROZHdxNXM5NVBpdVdaajIxd3BXc9IBiAFBVV95cUxQWHk1UHJweXoyNjZyWllKXzdYM3hCVzlSTFZ4UmY4SEZXWmoyOTNjY2hHZlJVR0tyRkpDRko2TjVRVGxaWEExVHk3Y3QxOE1tYkhMMTA5ekt0QmlJVDk2cEJmZHJaZDVVQXFJNEVCZmMwMzVNRUJ2N0diYloybWNUTGFjNVpVWTJX?oc=5",
       "source_name": "CBS News",
       "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
+      "actor": "iran",
+      "target": "usa",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 4
       },
       "confidence": 0.8
     },
     {
-      "id": "62e8845139ceb7e4",
-      "published_at": "2026-03-05T01:04:00+00:00",
-      "title": "Middle East crisis live: US submarine sank Iranian warship, Hegseth says; Israel launches fresh strikes on Tehran - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRmlVRVd2TlZjNlAtUDF3NnVySF9xS3FEM1NnbWc5b2hOZlRua0Fzcmo4T0hrQmt5SmxZMTk3ZWdPdF80TzFVdHpNMUY0cHg0N2FiUDhzQnhCbVZBYmFjX1c0TFhYZGRSLU1hb0xYc3F6c0pXT0stQWZYQWxkQVM4c1hsQ3dFUGh2bHYtM1JWaHo0NWpVclNmdU5jc1R5R1dUQ19WcDc3bG13SWhrdWRKZTBkckdVTTAzOVdPb1lkNjNacm9uaGlVVC1n?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "2a95c069880e4d5d",
-      "published_at": "2026-03-05T00:58:44+00:00",
+      "published_at": "2026-03-05T01:18:41+00:00",
       "title": "From Hamas attack to U.S. war with Iran, violence forges a new Middle East - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQTd1emx6WGY0TC1jTWtvdmFfSUFWT0VrTFFWZjZYTGpBSGo2SVVXUXVsYmxJYUwtdTFoZWlqZElFRDdRbzgwWWMtS09sRWFCd1BacTBCWWJjU0d0djNRTG1TT1diN1Buc1dhRU1NZEhjSVdYTFNQQjdlQ0dLdGphU2tzTmJCdw?oc=5",
       "source_name": "The Washington Post",
@@ -247,156 +396,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "9b77f2c16c0279db",
-      "published_at": "2026-03-05T00:56:00+00:00",
-      "title": "Live updates: Israel launches new strikes in Tehran and Beirut as conflict widens - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1VSGtBLUlqUmJOZWREUmIteG5xZVNZQVNQTnNTZUlsWW5NR2FKZGdtMGY2SUtfbXVmNENyNWdQZ3pOSTR4UTNwNDcwTTBVZU92b1FkdnVjbk9VZWJrQm9YUUVNeFZ5S3FlWVpfVGhwOU5IRXIxTF9IRA?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ebb89d0c6d4ce98f",
-      "published_at": "2026-03-04T23:56:00+00:00",
-      "title": "Pete Hegseth says Iranian regime is \u2018toast\u2019 as US expands military offensive - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ1lhTTVVSE9Uc29ab0ktbmsyaVp6R0JUWXVCbkRRNTFXWlBZOWtwZEhFYmcwTjM3QWtpRTVHUUpBbVFIRFN4MWxOZC14M0w2Y1ljdTYwTW5XZF9UZk1ZWEZ0N3RIY3VxVGdBOUJ3S0RwRVh1M1V2NkNUTEt1enlhTUItanlqUQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9956ad8bba9ef766",
-      "published_at": "2026-03-04T23:55:16+00:00",
-      "title": "U.S. says it will strike deeper into Iran, saying war has 'only just begun' - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOczVlNExyWE5KMFJLd2R4dFdpWG44ZV9WRkhxcG9FaDAyOTY1TnpjVXlOcUlYT05QNXZQeU5xeFhXV2t3RjRPaTY4T2JGYkF3Zm5idldCdmh0U1lPTXN1R25PZHg5QndTLWxueVlRTU9mbXRnQWFwSUVpblJYc0M5N3FVN0tWZkZOMkhISWFWOVVjaTFfajExaUVVWU1pME5jX1BDOWE1NEQ?oc=5",
-      "source_name": "PBS",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "97da68a16d61b2c9",
-      "published_at": "2026-03-04T23:51:54+00:00",
-      "title": "Experts analyze what the Iran war could mean for U.S. gasoline prices - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNazExUkh6NEViQjJtdGo4U01KeVlBelJQbDR6T05DR05Uck1UR3gxcEFGOGJ4cGVnTWhVT3hsQ0FiYTljOHJBMFNOVFNYSGpvMEdNb2ZDNk8wNTFvRnRhcDRlSW1hX3NNcFpMY213Q2xieVBYdExLdVdUTk44YmJTLTRtU0IyNmNvU2k0azh3aXRwUElNMFk3V3lrelB3WUY5c3Rnempqa0TSAa4BQVVfeXFMTnItaEFRUTNnSUJkXzNlc3JVajBqTnhTV1hMN0x2T05LaURyemlWX2ZEV09CYVBkaUh2Nkw5MHgta1d2MW9VOVIxdkQxbWg5UF9FOF9xek9jeG4tYWMzTWJ5UGsyMnhLQmdaWmVJLXBvLWlxbTBWQjZiUWpFQmtuWVhtLTE4MW1kSXZEOWEwYWVpZF9TVVNJd01kS202VXFQSXpHR0dfdFJidDUtNnN3?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "73f32d9084e94bc0",
-      "published_at": "2026-03-04T23:42:08+00:00",
-      "title": "US Senate vote fails to rein in Trump war powers on Iran - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53YjZmR3dyMnVRNWZFbm0zVkd1MVdqR3N6dC02dzY3MWd0VUNtU3c2aC1JN2Y4bE9Ic0R4bUNRUlFTcW9ZYlRTbDVDSXNJeHktMXhwNmtpdkk0QQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "0bf70eee284d16bb",
-      "published_at": "2026-03-04T23:37:30+00:00",
-      "title": "Spain denies US claim of military cooperation on Iran as rift deepens - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeVd3ZXJVclNsTjBnWHVRbFdxcGIxcjVXVTZ2TG1iYVZmcmstQUQzaElyUUlsZjF4SDhWekVvWGhEajVQbngtelZaUFVMeVJxcEpTdWJaYzhYRFFjTGFKWmFURmNNOUNGRnFuOXAwaERNUGtNU3ZnT1dPSUNaMERuUW9adUNzTUJtV2lrdjFpVVBYSUpGVDZzZ3dJTE1sdmtqbFHSAacBQVVfeXFMT0U0dDRPTldTVWRKcGNlWkhGd2VZU0pvZG1oMGZsX0h0aXN4U19KdnhOeWxuUnBnbjU0VTJUMnh5VUhpbkZOX3lFSEtBV3BZY1B2ZjBpU180NTdCN1ZPX2dpa3FkQVRjejZmZWJBZHktSjhWMU1qajN1MDhCNTdBWjlIX083a0tkQXlHOWJqYmRNTHUyeFBJa0FuYU10dk1BcEROdEx3NG8?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "32b1b08fb39af3b0",
-      "published_at": "2026-03-04T23:35:20+00:00",
-      "title": "State Dept. scrambles to aid stranded Americans amid attacks, airport closures - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdDR1eEozMXQtR3I1OWVucGt4R1k0ZWJ1RmIxY0tQaVVjYXI1MVhURmhIUnpTNGMyQlZ5am1LaDc4eEJ0UVBTUHlLS1M3VnhrdGJSZWE2V0lVVEp2dlN3MTZxVGJTc29xemhQWUlaelRFT0xiMlhUX3l2X1pQV0lhY3d6YlFYS3VUSVNidm9UWW5hamZoMzNjOFg5YkUxaFppT1c0?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "8c17fa8e6855103c",
-      "published_at": "2026-03-04T23:31:07+00:00",
-      "title": "Iran Escalates Retaliatory Strikes as U.S. Signals Long Battle - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE82Ym5OTm4waTQ1akFtS2dJbkszSnp4WXhIMUthZ3VEOTJoYlRZdHJvUFdDd3U2X1JmYmFvblZ5dXZhNDBpaUFqWHl6bWZWLWlFYnFPUEphY1ZrbF9zZVc0V2tlVU9NN2w0N0pqaUl3c0Q2UlRpa0VsNW5NZktOZw?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "8ecb40d0ff8e4b07",
-      "published_at": "2026-03-04T23:26:29+00:00",
-      "title": "Death toll in Iran surpasses 1,000 as Israel-US strikes continue - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZzNDWGp5LWc4U0FDalVMQzdOdzctczZKTWRSemszWXdIMmdtbm56SWY4UlhjN0t3NmJpNWlyNlZ1UHhUY2R0c290MWNFMXpqeWwyelZ5UGpFLU1rUm05YmJtUUcySU9ZR095T3NDRmNsaFliQXo2d2M4eGNDSDdIaWVfcmxBWU1rNGJIem5XSzlEQ195aEtQWEZlR1o4X0Q1WmtudFBB0gGrAUFVX3lxTE0yQUc1aWdvZHZxdGVocWJUc0I3Mklhd1VrbjZLV256Mkc5eHpxdTV6YXhsaFlNaG02b2JlRWR3VjlqUlFpUzlFb0Q2YU40UE1uZHh5YkRIVUMzNGNxRGYwVlNZNFB3bE5UcUxxQ0Njdk9KTzJQSy1UVG1jRFNLbndvWGZySG9tR0JlMkYwMGp5UUppZGR2Z3BWN3pTS2JrV2x2VlNRM0VoemhRcw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "d1a6535ce22d6478",
-      "published_at": "2026-03-04T23:22:00+00:00",
-      "title": "Live updates: War powers vote fails in the Senate, allowing Trump to continue Iran strikes - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uVFNtZ2tVdkJLNzUta19TQmE2Nk9vMHdJeXdQczJGcl9ZcmdsNlNzVWZ4TDV6V3JMcEJ6TUlULWkwU2ZzRW43Rk9nWmJDMnhweWpRNV91WkdMVHBfdGtUM2RiMnAwVG5ZVU9pODVB0gFzQVVfeXFMT2h6Z2dkcVFaVU00ejdiLWhaUmdHSEZ1clVGaG1pdkFCZFA4T1MxSmQ1QnExUVdobXp5cVRhSTRYMmJBYTdQdzVTbXh5SDlrSDJHeFBvSDBqYjkxWDcwLUFYbVFqblo0MG9wUHY1V08xZVRHRQ?oc=5",
-      "source_name": "CNBC",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.7
     }
   ]
 }
