@@ -1,0 +1,440 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>US-Iran Conflict Tracker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <style>
+      :root {
+        --bg: #0f1518;
+        --bg-soft: #172229;
+        --panel: #1e2d35;
+        --panel-2: #243944;
+        --ink: #f3efe7;
+        --muted: #adbbb9;
+        --usa: #48b7ff;
+        --iran: #ff6a3d;
+        --accent: #ffd166;
+        --ring: #294754;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          radial-gradient(circle at 10% 20%, #274250 0%, transparent 35%),
+          radial-gradient(circle at 88% 8%, #4a3028 0%, transparent 30%),
+          linear-gradient(160deg, #0a1115 0%, var(--bg) 60%, #0d1a22 100%);
+        color: var(--ink);
+        font-family: "IBM Plex Sans", sans-serif;
+      }
+
+      .grain::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        opacity: 0.13;
+        background-image: radial-gradient(#ffffff 0.55px, transparent 0.55px);
+        background-size: 3px 3px;
+      }
+
+      .wrap {
+        max-width: 1050px;
+        margin: 0 auto;
+        padding: 28px 18px 64px;
+      }
+
+      .hero {
+        border: 1px solid var(--ring);
+        background: linear-gradient(180deg, #1c2931, #162229);
+        padding: 20px;
+        border-radius: 14px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .hero::after {
+        content: "";
+        position: absolute;
+        inset: auto -5% -45% -5%;
+        height: 180px;
+        background: linear-gradient(90deg, transparent, #ffffff14, transparent);
+        transform: rotate(-3deg);
+      }
+
+      h1 {
+        margin: 0;
+        font-family: "Archivo Black", sans-serif;
+        letter-spacing: 0.04em;
+        font-size: clamp(1.55rem, 5vw, 2.75rem);
+        text-transform: uppercase;
+      }
+
+      .sub {
+        color: var(--muted);
+        margin-top: 8px;
+        font-size: 0.95rem;
+        max-width: 72ch;
+      }
+
+      .disclaimer {
+        margin-top: 12px;
+        display: inline-block;
+        font-family: "IBM Plex Mono", monospace;
+        font-size: 0.76rem;
+        color: #ffd166;
+        border: 1px solid #ffd16666;
+        padding: 4px 7px;
+        border-radius: 6px;
+      }
+
+      .grid {
+        margin-top: 16px;
+        display: grid;
+        gap: 12px;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+      }
+
+      .card {
+        background: linear-gradient(180deg, var(--panel), var(--panel-2));
+        border: 1px solid var(--ring);
+        border-radius: 12px;
+        padding: 14px;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .score-card {
+        grid-column: span 6;
+      }
+
+      .meta-card {
+        grid-column: span 3;
+      }
+
+      .wide-card {
+        grid-column: span 12;
+      }
+
+      .title {
+        font-size: 0.76rem;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: var(--muted);
+      }
+
+      .big {
+        margin-top: 8px;
+        font-family: "Archivo Black", sans-serif;
+        font-size: clamp(1.6rem, 4vw, 2.5rem);
+      }
+
+      .usa {
+        color: var(--usa);
+      }
+
+      .iran {
+        color: var(--iran);
+      }
+
+      .label-row {
+        margin-top: 8px;
+        font-size: 0.9rem;
+        color: var(--muted);
+      }
+
+      .bar {
+        margin-top: 10px;
+        height: 11px;
+        background: #0f171d;
+        border: 1px solid #2d4856;
+        border-radius: 999px;
+        overflow: hidden;
+        display: flex;
+      }
+
+      .bar > span {
+        display: block;
+        height: 100%;
+      }
+
+      .bar-usa {
+        background: linear-gradient(90deg, #2a8bc6, var(--usa));
+      }
+
+      .bar-iran {
+        background: linear-gradient(90deg, #ab3f23, var(--iran));
+      }
+
+      .chart-wrap {
+        margin-top: 14px;
+        height: 280px;
+      }
+
+      .events {
+        margin-top: 10px;
+        display: grid;
+        gap: 8px;
+      }
+
+      .event {
+        border: 1px solid #385462;
+        background: #132028;
+        border-radius: 9px;
+        padding: 10px;
+        transform: translateY(8px);
+        opacity: 0;
+        animation: rise 0.45s ease forwards;
+      }
+
+      .event a {
+        color: var(--ink);
+        text-decoration: none;
+      }
+
+      .event a:hover {
+        text-decoration: underline;
+      }
+
+      .event-meta {
+        margin-top: 7px;
+        display: flex;
+        justify-content: space-between;
+        gap: 8px;
+        color: var(--muted);
+        font-size: 0.8rem;
+        font-family: "IBM Plex Mono", monospace;
+      }
+
+      .chip {
+        display: inline-block;
+        padding: 3px 8px;
+        border-radius: 999px;
+        border: 1px solid #3b5866;
+        font-size: 0.75rem;
+      }
+
+      .footer-note {
+        margin-top: 18px;
+        color: var(--muted);
+        font-size: 0.84rem;
+      }
+
+      @keyframes rise {
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+
+      @media (max-width: 880px) {
+        .score-card,
+        .meta-card {
+          grid-column: span 12;
+        }
+      }
+    </style>
+  </head>
+  <body class="grain">
+    <main class="wrap">
+      <section class="hero">
+        <h1>US-Iran Conflict Tracker</h1>
+        <p class="sub">
+          Lightweight personal dashboard using free RSS feeds and transparent rule-based scoring. This is a signal board, not an objective truth engine.
+        </p>
+        <span class="disclaimer">PRIVATE PROJECT · FOR PERSONAL USE</span>
+      </section>
+
+      <section class="grid">
+        <article class="card score-card">
+          <div class="title">30-Day Score</div>
+          <div class="big"><span class="usa" id="usaScore">0</span> : <span class="iran" id="iranScore">0</span></div>
+          <div class="label-row" id="leadText">Lead: Tied</div>
+          <div class="bar" aria-label="Total score distribution">
+            <span id="usaBar" class="bar-usa" style="width: 50%"></span>
+            <span id="iranBar" class="bar-iran" style="width: 50%"></span>
+          </div>
+        </article>
+
+        <article class="card meta-card">
+          <div class="title">7-Day Momentum</div>
+          <div class="big"><span id="momentumText">0</span></div>
+          <div class="label-row">USA - Iran delta</div>
+        </article>
+
+        <article class="card meta-card">
+          <div class="title">Confidence</div>
+          <div class="big"><span id="confidenceText">0%</span></div>
+          <div class="label-row" id="confidenceLabel">Low</div>
+        </article>
+
+        <article class="card wide-card">
+          <div class="title">Daily Trend (Last 14 Days)</div>
+          <div class="chart-wrap">
+            <canvas id="trendChart"></canvas>
+          </div>
+        </article>
+
+        <article class="card wide-card">
+          <div class="title">Recent Events</div>
+          <div id="events" class="events"></div>
+        </article>
+      </section>
+
+      <p class="footer-note">
+        Last updated: <span id="updatedAt">-</span> · Data source: free RSS aggregation and simple event rules.
+      </p>
+    </main>
+
+    <script>
+      const scorePath = `data/score.json?t=${Date.now()}`;
+      let trendChart = null;
+
+      function percentSplit(a, b) {
+        const total = a + b;
+        if (total <= 0) return [50, 50];
+        return [Math.round((a / total) * 100), Math.round((b / total) * 100)];
+      }
+
+      function fmtDate(iso) {
+        if (!iso) return "-";
+        const dt = new Date(iso);
+        if (Number.isNaN(dt.getTime())) return "-";
+        return dt.toLocaleString();
+      }
+
+      function fmtShort(iso) {
+        const dt = new Date(iso);
+        if (Number.isNaN(dt.getTime())) return "-";
+        return `${dt.toLocaleDateString()} ${dt.toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" })}`;
+      }
+
+      function renderChart(history) {
+        const ctx = document.getElementById("trendChart");
+        if (!ctx) return;
+        if (trendChart) trendChart.destroy();
+        trendChart = new Chart(ctx, {
+          type: "line",
+          data: {
+            labels: history.map((d) => d.date),
+            datasets: [
+              {
+                label: "USA",
+                data: history.map((d) => d.usa),
+                borderColor: "#48b7ff",
+                backgroundColor: "#48b7ff2d",
+                fill: false,
+                tension: 0.25,
+              },
+              {
+                label: "Iran",
+                data: history.map((d) => d.iran),
+                borderColor: "#ff6a3d",
+                backgroundColor: "#ff6a3d30",
+                fill: false,
+                tension: 0.25,
+              },
+            ],
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                labels: {
+                  color: "#dce3df",
+                  font: { family: "IBM Plex Mono" },
+                },
+              },
+            },
+            scales: {
+              x: {
+                ticks: { color: "#98aba8", maxRotation: 40, minRotation: 40 },
+                grid: { color: "#294754" },
+              },
+              y: {
+                ticks: { color: "#98aba8" },
+                grid: { color: "#294754" },
+              },
+            },
+          },
+        });
+      }
+
+      function renderEvents(events) {
+        const el = document.getElementById("events");
+        if (!el) return;
+        el.innerHTML = "";
+        if (!events.length) {
+          el.innerHTML = `<div class="event">No events yet. Wait for the scheduled workflow or run scripts locally.</div>`;
+          return;
+        }
+        events.forEach((event, idx) => {
+          const points = event.points || { usa: 0, iran: 0 };
+          const wrapper = document.createElement("article");
+          wrapper.className = "event";
+          wrapper.style.animationDelay = `${idx * 55}ms`;
+          wrapper.innerHTML = `
+            <a href="${event.url}" target="_blank" rel="noopener noreferrer">${event.title}</a>
+            <div class="event-meta">
+              <span>${fmtShort(event.published_at)} · ${event.source_name || "Unknown source"}</span>
+              <span>
+                <span class="chip">USA +${points.usa || 0}</span>
+                <span class="chip">Iran +${points.iran || 0}</span>
+                <span class="chip">${event.event_type || "other"}</span>
+              </span>
+            </div>
+          `;
+          el.appendChild(wrapper);
+        });
+      }
+
+      async function loadData() {
+        try {
+          const res = await fetch(scorePath);
+          if (!res.ok) throw new Error(`HTTP ${res.status}`);
+          const data = await res.json();
+
+          const usa = data?.totals?.usa || 0;
+          const iran = data?.totals?.iran || 0;
+          const [usaPct, iranPct] = percentSplit(usa, iran);
+          const lead = data?.totals?.lead_side || "Tied";
+          const momentumDelta = data?.momentum?.delta || 0;
+          const confidence = data?.confidence?.score || 0;
+
+          document.getElementById("usaScore").textContent = usa;
+          document.getElementById("iranScore").textContent = iran;
+          document.getElementById("leadText").textContent = `Lead: ${lead}`;
+          document.getElementById("momentumText").textContent = momentumDelta;
+          document.getElementById("confidenceText").textContent = `${confidence}%`;
+          document.getElementById("confidenceLabel").textContent = data?.confidence?.label || "Low";
+          document.getElementById("updatedAt").textContent = fmtDate(data.generated_at);
+          document.getElementById("usaBar").style.width = `${usaPct}%`;
+          document.getElementById("iranBar").style.width = `${iranPct}%`;
+
+          renderChart(data.history || []);
+          renderEvents(data.latest_events || []);
+        } catch (error) {
+          const events = document.getElementById("events");
+          if (events) {
+            events.innerHTML = `<div class="event">Could not load data/score.json (${error.message}).</div>`;
+          }
+        }
+      }
+
+      loadData();
+    </script>
+  </body>
+</html>
