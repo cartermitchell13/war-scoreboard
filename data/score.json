@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-03-05T04:43:15.118524+00:00",
+  "generated_at": "2026-03-05T04:56:26.827805+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 100,
   "totals": {
-    "usa": 80,
-    "iran": 42,
-    "lead": 38,
+    "usa": 73,
+    "iran": 45,
+    "lead": 28,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 80,
-    "iran": 42,
-    "delta": 38
+    "usa": 73,
+    "iran": 45,
+    "delta": 28
   },
   "confidence": {
-    "score": 67.9,
+    "score": 68.1,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 52,
-    "other": 40,
     "material_loss": 7,
-    "diplomatic": 2
+    "attack": 51,
+    "other": 41,
+    "diplomatic": 1
   },
   "history": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-02-28",
-      "usa": 18,
+      "usa": 15,
       "iran": 3
     },
     {
@@ -78,7 +78,7 @@
     {
       "date": "2026-03-02",
       "usa": 15,
-      "iran": 4
+      "iran": 7
     },
     {
       "date": "2026-03-03",
@@ -87,7 +87,7 @@
     },
     {
       "date": "2026-03-04",
-      "usa": 25,
+      "usa": 21,
       "iran": 11
     },
     {
@@ -98,19 +98,19 @@
   ],
   "latest_events": [
     {
-      "id": "7d01b3b92669a8a8",
-      "published_at": "2026-03-05T04:33:50+00:00",
-      "title": "Pentagon identifies 5th U.S. soldier killed in drone attack - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVkV1dDVtTDkzRlhCUjFyWmZ0ZU1FR2hMVnpFaTVGV1YyOWZjdF9TXzdaY3RxYllSTlpaWGhvX0xiZ1BTOHVnQzl2Mlptc2padUhkVmUxcFV3eXdyNllNY2hhTE1zaGxIQi1OSVdpUGdVbUJXbzRzVkhtMVozNmxUcldTQUJlYkw4aFJmdTluTk50Nk10?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
+      "id": "c3176a28d9600441",
+      "published_at": "2026-03-05T04:52:00+00:00",
+      "title": "Live updates: U.S. has struck or sunk over 20 Iranian ships, CENTCOM says - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZi1ReXgyelZOQ1hhNmNQcy12eU9DMlJhMjJqUTNCSmdCVWdDNUY2YjBiclR1aTUwVXBfSTNPeDRMc3BSMlVNX0thMWd0Q2I0OGJIdHhHQ1MxRjF1c1VyYk1vcVYtNGlKSGJoUWlkbmNMTk1vMHVYUFR0QVBBcUEyNnZ5dWQyUkRJYy0ydFliSjduQUQ1Q0hOeG42SUdBVXVfOFVBbnVyc3BxYk1aYlVqTm1Ha1RnbVR5cTBheFhR?oc=5",
+      "source_name": "NBC News",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
-        "iran": 3
+        "usa": 4,
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.85
     },
     {
       "id": "5309be9d95d63ce9",
@@ -128,6 +128,21 @@
       "confidence": 0.7
     },
     {
+      "id": "3ae3128a6120f6c2",
+      "published_at": "2026-03-05T04:16:58+00:00",
+      "title": "Pentagon releases names of U.S. service members killed in Iran war - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOFliVUJLZGh2N2E4eG1DdGIycFItY0pDa09USFgxSHd1RG9jX0FBd2RkNklKdUp2bVQzYXlHVmJtc0ZaMGgwUDJwUy0tVUJIeFA0azhiblRWRE1pVHpvNWF3SG9NRy0ySF9mUXdKaTROZHdxNXM5NVBpdVdaajIxd3BXc9IBiAFBVV95cUxQWHk1UHJweXoyNjZyWllKXzdYM3hCVzlSTFZ4UmY4SEZXWmoyOTNjY2hHZlJVR0tyRkpDRko2TjVRVGxaWEExVHk3Y3QxOE1tYkhMMTA5ekt0QmlJVDk2cEJmZHJaZDVVQXFJNEVCZmMwMzVNRUJ2N0diYloybWNUTGFjNVpVWTJX?oc=5",
+      "source_name": "CBS News",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
+      },
+      "confidence": 0.8
+    },
+    {
       "id": "ae403abc3d105017",
       "published_at": "2026-03-05T04:14:15+00:00",
       "title": "Iran live: Senate fails to curb Trump\u2019s war powers; Israel pounds Lebanon - Al Jazeera",
@@ -141,21 +156,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "c3176a28d9600441",
-      "published_at": "2026-03-05T04:08:00+00:00",
-      "title": "Live updates: U.S. has struck or sunk over 20 Iranian ships, CENTCOM says - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZi1ReXgyelZOQ1hhNmNQcy12eU9DMlJhMjJqUTNCSmdCVWdDNUY2YjBiclR1aTUwVXBfSTNPeDRMc3BSMlVNX0thMWd0Q2I0OGJIdHhHQ1MxRjF1c1VyYk1vcVYtNGlKSGJoUWlkbmNMTk1vMHVYUFR0QVBBcUEyNnZ5dWQyUkRJYy0ydFliSjduQUQ1Q0hOeG42SUdBVXVfOFVBbnVyc3BxYk1aYlVqTm1Ha1RnbVR5cTBheFhR?oc=5",
-      "source_name": "NBC News",
-      "event_type": "material_loss",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 4,
-        "iran": 0
-      },
-      "confidence": 0.85
     },
     {
       "id": "7be3271b76902f7f",
@@ -203,6 +203,36 @@
       "confidence": 0.7
     },
     {
+      "id": "c2da68235e3f1469",
+      "published_at": "2026-03-05T03:58:00+00:00",
+      "title": "Iran launches wave of missiles at Israel; US Republicans block measure to halt US air campaign - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZG9GNmpWbEZQTDU2Ul9jQzE0Tkw0anFFQ3Fackh1R1k4VVNzWVNKZ203Sk1nZzRJLXNUWmFRZUI0MzEtcmJjVGNzZ0VTcFdTYXRxbkpiY0d6UV9qQ2FhaUJQVWlwYkhXM0l1WVdwYWJJRU55NGxoX09fNkctZjBmUUFNdlpMWlU5ckU4WS1uVGI5VlU1c2MwZDdxTjJIZVNNbnJ3dm0zRnNoMVpfODlzRTdpcmRoQ09TYm1iRmZwWE9MeW5TbmJIdUhn?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6f1531aee5b10429",
+      "published_at": "2026-03-05T03:53:00+00:00",
+      "title": "Live updates: War powers vote fails in the Senate, allowing Trump to continue Iran strikes - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9uVFNtZ2tVdkJLNzUta19TQmE2Nk9vMHdJeXdQczJGcl9ZcmdsNlNzVWZ4TDV6V3JMcEJ6TUlULWkwU2ZzRW43Rk9nWmJDMnhweWpRNV91WkdMVHBfdGtUM2RiMnAwVG5ZVU9pODVB0gFzQVVfeXFMT2h6Z2dkcVFaVU00ejdiLWhaUmdHSEZ1clVGaG1pdkFCZFA4T1MxSmQ1QnExUVdobXp5cVRhSTRYMmJBYTdQdzVTbXh5SDlrSDJHeFBvSDBqYjkxWDcwLUFYbVFqblo0MG9wUHY1V08xZVRHRQ?oc=5",
+      "source_name": "CNBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "fcab0fdf121e7f62",
       "published_at": "2026-03-05T03:45:00+00:00",
       "title": "Live Updates: Hegseth says U.S. \"just getting started\" in Iran war as conflict intensifies and spreads - CBS News",
@@ -215,7 +245,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.7
     },
     {
       "id": "1b5b8c084c33a282",
@@ -366,36 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "47bde5cad7f57556",
-      "published_at": "2026-03-05T01:21:00+00:00",
-      "title": "Pentagon releases names of first U.S. service members killed in Iran war - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNOFliVUJLZGh2N2E4eG1DdGIycFItY0pDa09USFgxSHd1RG9jX0FBd2RkNklKdUp2bVQzYXlHVmJtc0ZaMGgwUDJwUy0tVUJIeFA0azhiblRWRE1pVHpvNWF3SG9NRy0ySF9mUXdKaTROZHdxNXM5NVBpdVdaajIxd3BXc9IBiAFBVV95cUxQWHk1UHJweXoyNjZyWllKXzdYM3hCVzlSTFZ4UmY4SEZXWmoyOTNjY2hHZlJVR0tyRkpDRko2TjVRVGxaWEExVHk3Y3QxOE1tYkhMMTA5ekt0QmlJVDk2cEJmZHJaZDVVQXFJNEVCZmMwMzVNRUJ2N0diYloybWNUTGFjNVpVWTJX?oc=5",
-      "source_name": "CBS News",
-      "event_type": "material_loss",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 4
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "2a95c069880e4d5d",
-      "published_at": "2026-03-05T01:18:41+00:00",
-      "title": "From Hamas attack to U.S. war with Iran, violence forges a new Middle East - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQTd1emx6WGY0TC1jTWtvdmFfSUFWT0VrTFFWZjZYTGpBSGo2SVVXUXVsYmxJYUwtdTFoZWlqZElFRDdRbzgwWWMtS09sRWFCd1BacTBCWWJjU0d0djNRTG1TT1diN1Buc1dhRU1NZEhjSVdYTFNQQjdlQ0dLdGphU2tzTmJCdw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
     }
   ]
 }
