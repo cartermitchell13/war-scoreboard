@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-03-09T03:16:50.033701+00:00",
+  "generated_at": "2026-03-09T05:06:08.751454+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 103,
+  "event_count_window": 102,
   "totals": {
-    "usa": 52,
-    "iran": 33,
-    "lead": 19,
+    "usa": 55,
+    "iran": 27,
+    "lead": 28,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 33,
-    "iran": 33,
-    "delta": 0
+    "iran": 27,
+    "delta": 6
   },
   "confidence": {
-    "score": 66.3,
+    "score": 66.8,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 46,
-    "material_loss": 5,
-    "other": 50,
-    "diplomatic": 2
+    "attack": 48,
+    "material_loss": 4,
+    "other": 47,
+    "diplomatic": 3
   },
   "history": [
     {
@@ -52,12 +52,12 @@
     },
     {
       "date": "2026-03-01",
-      "usa": 6,
+      "usa": 9,
       "iran": 0
     },
     {
       "date": "2026-03-02",
-      "usa": 9,
+      "usa": 3,
       "iran": 4
     },
     {
@@ -68,11 +68,11 @@
     {
       "date": "2026-03-04",
       "usa": 3,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-03-05",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -82,24 +82,54 @@
     },
     {
       "date": "2026-03-07",
-      "usa": 3,
+      "usa": 6,
       "iran": 3
     },
     {
       "date": "2026-03-08",
-      "usa": 3,
-      "iran": 11
+      "usa": 6,
+      "iran": 7
     },
     {
       "date": "2026-03-09",
-      "usa": 6,
-      "iran": 9
+      "usa": 9,
+      "iran": 10
     }
   ],
   "latest_events": [
     {
+      "id": "36e26686c2733a8b",
+      "published_at": "2026-03-09T05:03:00+00:00",
+      "title": "US Iran war news LIVE updates: Bahrain's largest oil refinery BAPCO hit by Iran strike, thick smoke seen around facility | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOdGRVT2RPZ01WNjR1ckRMSkMtMHNYTm1nTVA3eVNQNFJPWU5Ta1IxX29jdlpyQUUxWEtTbC1lZ1c3Umd0TXhBRTIwTVFyV1EydE4tc01NNUlWNTlVems4REdleFJ5VEQ0ODdrZTE3TkZ0YzlqVU02MVJZTTM3cE1sSDNqZF9mX0tjcHVkMmliVEJwSUVJR0RIQWtLQkR0akNkdWRqN0toaFI4TVpMeHQ3RXVCV2wyaHc5cERydnpEZlAwZHBiUUxMb0E3cjY1Y0lRZkRQbVVFQ1VfS0pKM01SMjV2LW9qWHJudnN6MTg5TG45aVpCdkozWm1DaWtuQkJwRk44S01XSkU5NlXSAZACQVVfeXFMTzNsMzRESl84T0VTc0dkOUJIZ3VFdkdscTJfcWRvSWpab0I4YkFaUkozd1UyMlpqX2Y3SWhFOVZfTENGTVRaYVBwd2NFUFlqdlN5TDBqX2FZN0txSmZVNWFtZ1JUVE9KOF9JcW5MV1ZuelhwM2xqLTJQWUZkT3VPMmZpVzI0LVgxcnhOZ1ByNWZkcGloY3pXd0EzeEEtbV9XdDNUUUF4NEY1NUJDaVAxTkxPWno3QngzNUc3WVFVUE91d2xKV3hTTUVBOHNTX1BOLXBIV2Z4ZThITGtydDZzVGdFaDhvTnRqUDlqdjllVXI5S2tILWc0Vi1rd1RjZEw5Y1pOdjRGTHBRakY1T085em8?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e4df3823f33cd005",
+      "published_at": "2026-03-09T04:37:07+00:00",
+      "title": "7th U.S. service member killed in war with Iran; Khamenei\u2019s son named supreme leader - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMG9OT2tsWkdSbkRTVkoyd0Q3M2dBS1RhUzBHT01OcDFUMUxlcHpPMmlYc1hKcEhqZWpjVWdKTmpxaVZIRHgwZDFOVjhQVGg2SFBJd3hNMF9aRWhKanF2TmVmU3pUV2pHSjd3eGNVYW9tek1YZzNEcmp3WFpQYlBMb2RPTmVwZUpZ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
+      },
+      "confidence": 0.8
+    },
+    {
       "id": "a20b5a8bb238f03c",
-      "published_at": "2026-03-09T03:13:56+00:00",
+      "published_at": "2026-03-09T04:37:00+00:00",
       "title": "Iran Says It\u2019s Close to Naming New Supreme Leader as Attacks on Infrastructure Grow: Live Updates - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWTF2UmZ4MDRscktJcF9Vdm8ydTZtLTZzMnFRTUhsaUcyR1RoNk9wY0NQT0FLRzZwTlBYb2tfSU5RcWlpYU5qRUpRYUQxWkNDVFV6eWxGdWxHRTJPS2VVOVh0ZlZoWEN3M3dTTWtsWVZzUDBJVHQ1U1E2Z1dVWkZucQ?oc=5",
       "source_name": "The New York Times",
@@ -111,6 +141,96 @@
         "iran": 0
       },
       "confidence": 0.65
+    },
+    {
+      "id": "d5b2892e70648c3f",
+      "published_at": "2026-03-09T04:05:16+00:00",
+      "title": "Video appears to show U.S. Tomahawk hit naval base near Iranian school - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmFvWGJMVS1SSGlNMmtOYUJzcWpHUnNZUVlhU2xzb25sektwNFg0Zk1TOTBlaGFReHFPZWNpSGZWdk1LRjhURkpjTW5GaW5SWTZBcWpfTWhmZEtITUl2TEJzWVRPSGZTZTFrbDZvLUtlQ2oyQjBEQjhCc1RTWVZ1cXB3Q09Ib3d5Q1lKN2MwaXBIUW1GY1E?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3fbe91b8c81c4a80",
+      "published_at": "2026-03-09T04:03:19+00:00",
+      "title": "Iran war live: Mojtaba Khamenei named supreme leader; Israel bombs Tehran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOckZLWHE4WEFvUlZKUlFCNmVvcW50dHlIU3NpZ1EzTUZQVjBtWGtGUmdydGJkQXRFMHhhS2hta1RnWElDcnlNMFZtNnR1bUI5YjJwbi1WcVVsM2E3LVR0Q2RzajdBMnNxSXZoMkNGYzFfTFJOclhZX1pHa1NmaHF2em5GOWZaVURtcjl6TXhlcXA3MGktVTItLTJ0RWFVQ3pzQkZlT25zV1c0NFBvbl8xb2ViNFBOdTV6V1JWb9IBwgFBVV95cUxPSGI4MzhaWFV3RVRUd3o0QnhRcmdMWUZ2eFg4cWFtSzlKVURLOWVZUE9jREdrN1d1aDN4dkJ1a0hXZEFHWmNMYWNJQjR5NjNPWDJUT01VNnJBdnh4WVFwVTV0QzRIb2xaeUFtOUpINng0T2VqOERSODU1ZTFhbVVia2F6TV92dVVnMnp6SU9BU3FVMkhuN0k2eUdpZF9JYjFneF9RbFRiaXRhWHZONXptUTN2dTFwNDdHRGxITGVzeW9QQQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "dc494df25f5ebf51",
+      "published_at": "2026-03-09T03:29:00+00:00",
+      "title": "U.S. orders staff to leave Saudi Arabia as Iran war spreads and oil surges above $110 - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOV9JY0R5Z2x6RGc2YUY2TVBxQlltZDIwZnZQTVVqeWJGd1c3VzVYc042cnYwZlZtSEhoNWs2ZHZoaTdhR05EZUNXeDRCR1Y0Q2huZk5pX2hNZFpvTWx4cWNHU2xVOGdiTWdhX2lKaHVvNnFEbS1zZHFOclVrdXBXaDluclZjZ3JMckRZcG5EcmlTZ0FqOElZQ0NOdWVzNmJic1BtQUNjVUpmeGZyR0NKbVJvaDbSAboBQVVfeXFMT0V4VU8yY0FRVldGd2JyME5ueHBGemZiYy1nU3ZQYkV0QjdaeVlfeGVaMVdNaUFfdTFzRTVEdXFiTnVsRkZqRmFwckJZLUtsaXFoVmFqWDNGR2JwUDJCYzhqM3pCX1R1cnI4TFNDT1czMWZJdmt2bXdBRnhPS3lxNGt6eDFXN3ROVmxaNHF4ODE0S01zeW1sTEZJczg2SVhjT29xdmFvYU5sNC01dlVzZURncXhQeGliSzF3?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "72698649c197f2a3",
+      "published_at": "2026-03-09T03:26:04+00:00",
+      "title": "Trump says decision to end Iran war will be made mutually with Israel - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc1B3cW1JMGpYR2dBUXQ1NkZlUDJxaXBvRVk1eVV5TmxOcEF0M0c2Sm9oQTlXS3dhQkk3YlBtVm8tMnFQaUI5NHB0QlNLc25tTWFmQ2dtOFZDWlBvVlQwb2M3clJhMkM5R0pvdXlMeG1uUXJ4RWh2MEFPNm1VZEpuMEp6X24ySXItZURwbTQ1SkFoYnhLZE1zMjBpRlRjMlZVSVhBcW5uUHdVTHdFMTRMNw?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2894dc850fbbee02",
+      "published_at": "2026-03-09T03:14:29+00:00",
+      "title": "Israel launches new wave of strikes across Iran, warns it will target every successor of Khamenei - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM3I5Um41Y2JVQUhUN0RBSU03SngtWnpicjVyLXhYcTlCUzN1bS04Q2xGN2d5ZG5QaUp1TnpxVWVSSUZzSk9BbEV4SzlubjNBOU95N0NmMmNuS0dCV2RXOS1aUUpuZmxJMjNfYXJIaGdmeG92NW9nV2I0MFdEa2JaRW04UTJsX0HSAYwBQVVfeXFMTWw0U245RnM1MDh1RElDMWZLYlFmV1BvUXhXMVF4MlNHaUVwblh5NmhaelZFbEwzZ0huQlJ6aG4wOVlsTFozNVVod3R2M0JRLTJLek9LUGZqenBpbDlzb0FMd0J4VlhzVWxzMmhCU0ZuOHpGYzRqZDBsQi1udHdiVGpsZkhzVjJHdi1lQ1U?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "68f38a55963f4f8a",
+      "published_at": "2026-03-09T03:12:00+00:00",
+      "title": "What we know on the 10th day of the US and Israel\u2019s war with Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZmVQVDYyakt2RlhIUFRra0dyX0xEMHFzMlRyVEhiXzNDOWtMM0czWkpob0pfY2N0dHFCa2lFMUZaNlZ3ZzltbHJrNUhiTmgtRlF3dXdrY1ZzRDJ6bUd4eDNSTmdQMHpxTzhtZVA1WFg1Rm1nTldiR2NCY0laSDhfSzBfeEplRVBpZ1Jodm9BNXRyYjdab2RhaEZn?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
     },
     {
       "id": "9987026a41055e05",
@@ -128,39 +248,9 @@
       "confidence": 0.65
     },
     {
-      "id": "e4df3823f33cd005",
-      "published_at": "2026-03-09T03:06:51+00:00",
-      "title": "7th U.S. service member killed in war with Iran; Khamenei\u2019s son named supreme leader - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMG9OT2tsWkdSbkRTVkoyd0Q3M2dBS1RhUzBHT01OcDFUMUxlcHpPMmlYc1hKcEhqZWpjVWdKTmpxaVZIRHgwZDFOVjhQVGg2SFBJd3hNMF9aRWhKanF2TmVmU3pUV2pHSjd3eGNVYW9tek1YZzNEcmp3WFpQYlBMb2RPTmVwZUpZ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "material_loss",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 4
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "1be5a5f05a9f86a5",
-      "published_at": "2026-03-09T03:06:00+00:00",
-      "title": "Live updates: Iran war news; Tehran names Mojtaba Khamenei new supreme leader - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE51UG43aXFkYXdqX3dmYXc3R08zeU5keTZISWNabnhncG5GemZlNjFVV1pHcGRUVW1rTzd5djZyZnVtNW1fbjZKOENtS0ZITm0tVEhzRVlualFGVnp5YlRqZlpMMFZnbHVWVEIwVEpXck8xVWFCWFlIUA?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "f938bc8a310021d0",
-      "published_at": "2026-03-09T02:48:45+00:00",
-      "title": "Oil soars past $100 a barrel as Iran war rages - Al Jazeera",
+      "id": "b9de148148c33e5c",
+      "published_at": "2026-03-09T02:58:50+00:00",
+      "title": "Oil soars past $100 a barrel as US-Israel war on Iran rages - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRDB5Y2w4bjdKUXQ2RHJVdDd6b2NubFJGZTZaS1Z6aThMdVhrVGJUaE4xY0pyMkZmcUhKeThHWWpoYldSYmpXaUVFckZsUmhVN0ZlaHVLVHBSQVVwUmwtOHMwaHVUZk5Kd1B3SjBpNjNEcWg1eHZWY1BOSGtUSWdZUEdJT1FWNDlGR0R1cdIBkgFBVV95cUxNWlJTemtJc01fZFo5X2NmZ0ozUHZCREVrZzYzVnNSbjU2RDRHMExfNWlaTTNaOEd3Ny1oTjd6ZmdPWjhKZnJ0ZnJsMkRYNXFXOFVlbDdCSEVCMDRFeEcySVNOMjhBVVBCM2hoR1F6cXFGZVZDQjZJcFVWTE9sSkd6Q1VRRHZYRGNwX3ludW9yUFl3QQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
@@ -173,19 +263,19 @@
       "confidence": 0.55
     },
     {
-      "id": "3fbe91b8c81c4a80",
-      "published_at": "2026-03-09T02:39:58+00:00",
-      "title": "Iran war live: Mojtaba Khamenei named supreme leader; Israel bombs Tehran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOckZLWHE4WEFvUlZKUlFCNmVvcW50dHlIU3NpZ1EzTUZQVjBtWGtGUmdydGJkQXRFMHhhS2hta1RnWElDcnlNMFZtNnR1bUI5YjJwbi1WcVVsM2E3LVR0Q2RzajdBMnNxSXZoMkNGYzFfTFJOclhZX1pHa1NmaHF2em5GOWZaVURtcjl6TXhlcXA3MGktVTItLTJ0RWFVQ3pzQkZlT25zV1c0NFBvbl8xb2ViNFBOdTV6V1JWb9IBwgFBVV95cUxPSGI4MzhaWFV3RVRUd3o0QnhRcmdMWUZ2eFg4cWFtSzlKVURLOWVZUE9jREdrN1d1aDN4dkJ1a0hXZEFHWmNMYWNJQjR5NjNPWDJUT01VNnJBdnh4WVFwVTV0QzRIb2xaeUFtOUpINng0T2VqOERSODU1ZTFhbVVia2F6TV92dVVnMnp6SU9BU3FVMkhuN0k2eUdpZF9JYjFneF9RbFRiaXRhWHZONXptUTN2dTFwNDdHRGxITGVzeW9QQQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "id": "cb5043866d711869",
+      "published_at": "2026-03-09T02:41:00+00:00",
+      "title": "Iran names Mojtaba Khamenei to succeed his father as supreme leader and Saudi sharpens warning - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNMEtyTUJhcmFucEVfZDVZSzUzUm1ub19kc2xDMVNjWVBYUnpYaUJRY281TzI3QlpQdEhvejJNWVhNRDJQcHAzdmN0NmNmZkRMOWxFUXBSSDI3a0xUS05rNkNWd2ROejI2TUVmZEVfcEtXTnBkclNmYzZTaFc1RmlYR0hVdklfSmFVQ1VVMVI5dDA?oc=5",
+      "source_name": "AP News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
       "points": {
-        "usa": 3,
-        "iran": 0
+        "usa": 0,
+        "iran": 1
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "ab7ff37d7f7bfd80",
@@ -203,6 +293,21 @@
       "confidence": 0.65
     },
     {
+      "id": "9b90d7a6cf06cf76",
+      "published_at": "2026-03-09T02:19:19+00:00",
+      "title": "Iran war: Oil prices jump above $100 for first time in four years - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5CSy1lNEhYY3Y0T0N6N0x2OWo4aGNtdElMRnVYMExsbEJ6d3VUbjc1VWlDaWhDVGFWWVFHOTFlZTJCUjZBX3Z5TDJvbkNnRXRGeGwyeURmUFlMZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "b509c80aec0b7a0a",
       "published_at": "2026-03-09T01:55:07+00:00",
       "title": "Another American service member has died in the war with Iran, the Pentagon said on Sunday, bringing the number of American troops killed in the conflict to seven. - facebook.com",
@@ -218,9 +323,9 @@
       "confidence": 0.8
     },
     {
-      "id": "504959a2c9c8d1c1",
-      "published_at": "2026-03-09T01:39:43+00:00",
-      "title": "U.S. Tomahawk Hit Naval Base Beside Iranian School, Video Shows - The New York Times",
+      "id": "6272b4b54b4b40a7",
+      "published_at": "2026-03-09T01:48:29+00:00",
+      "title": "U.S. Tomahawk Hit Naval Base Beside Iranian School, Video Shows - The New York Times - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZWpvOEJSSnVxc0w2QmQyclZZeGVtRUVMWVlVM2RHZkNLdFE5NzFkb203Q2Y0MERlQjhvNlhLNW5hR3FVU215T21uUFB4WE1zU0c5OGRVTkxKWkJ3WmJJU1QzVjF6UllYSnpkd3J4amlBSktqcjdJUmxQVDNtS2Z2WE1WMUZxSDh3?oc=5",
       "source_name": "The New York Times",
       "event_type": "other",
@@ -231,6 +336,36 @@
         "iran": 0
       },
       "confidence": 0.7
+    },
+    {
+      "id": "906436574abdf844",
+      "published_at": "2026-03-09T01:45:00+00:00",
+      "title": "Trump says ending Iran war will be 'mutual' decision with Netanyahu - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUNjTWNHaEdGVXN3NUM1U1I3SE56cE1IU0s2RUx6NVJmUUlKTUllTEQ1cUk2d3duRGlhNUpnTjNUaVFUNVFkaWd0ZFlpU3BCbFJzN0Fvb3ZIMk4zUENZMnBLcWhUaUtUX2ZoQTBqQmpGMDVjb0xaek5McTNiLVFUcWx3V01Eb0lpMjlTUUd6cS04V2JObkpVR3NMWHY5SnpwOEZiSFVPN3VqRi1qcGJuMFYxbWlpSllLaW1r?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6d33d272051f94d1",
+      "published_at": "2026-03-09T01:29:15+00:00",
+      "title": "The Latest: Mojtaba Khamenei, son of Iran\u2019s supreme leader, named his successor, Iran state TV says - WTOP",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxObmVULURlRlpHZDlKUnFNcFktd1NZQlNKS1ljaHR6NnFwUUtLR1RLNkRzYzJOM2dfM0g4REJOZHc3eWRwbDBZMDA3UnBkOGc1SXZUM1B5aFR4bWxvSGVsWS1KeG1PS3RrMWhPT0pNTkNSaF83UFJDazVwQWFoMU5obl8xVGZYNGZSYVFESkVsQTQ3dkYwcGNDT3g4QXZWbFp1Q1dBUmJranRLSDJjSFNYaHA5OHlJUXllRWJjeTM1SlpreEVVM0pPeXNINTU?oc=5",
+      "source_name": "WTOP",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "f3e47a0343c313bf",
@@ -245,154 +380,19 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
-      "id": "7cd0ff3d9672d28c",
-      "published_at": "2026-03-09T00:54:04+00:00",
-      "title": "US war with Iran costing taxpayers billions of dollars - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOU19xcGxnUzQ0TmVSWXhSSnZYTk5LSDd1WVBpa0s5bEUwbG9xOVhUOXg1ZE9NVWNzVm5WUG1URnRvRnlNblJsUklGTUJFR1BUTHdPTkw0S0plQl83MEhHdGpJZjdoM0RyOHNHMXdLTDlLQ0V6bG51UEtEOVJIaFNEZnBWbzUtZUdIUUI3eUsxRdIBlAFBVV95cUxQMUpxZnFHaW1vSDNEcXBwVkRraEZSdC1wV2I1RmQ0c3Mwa2hjYWhWZ1FocmM3QzRiTzNmX0JfMnR3dmFOTUQ2QUtlSEJpT2phLVVRZDRJeU14TXMtaFEtZWZWSzhicU1wZ2wwbWJEOFU1ZkxQMmtiNXdnSHRwNkdiTWFhLUtxaWRIOTZQcjF5eUVIcFFN?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "2894dc850fbbee02",
-      "published_at": "2026-03-09T00:31:14+00:00",
-      "title": "Israel launches new wave of strikes across Iran, warns it will target every successor of Khamenei - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOM3I5Um41Y2JVQUhUN0RBSU03SngtWnpicjVyLXhYcTlCUzN1bS04Q2xGN2d5ZG5QaUp1TnpxVWVSSUZzSk9BbEV4SzlubjNBOU95N0NmMmNuS0dCV2RXOS1aUUpuZmxJMjNfYXJIaGdmeG92NW9nV2I0MFdEa2JaRW04UTJsX0HSAYwBQVVfeXFMTWw0U245RnM1MDh1RElDMWZLYlFmV1BvUXhXMVF4MlNHaUVwblh5NmhaelZFbEwzZ0huQlJ6aG4wOVlsTFozNVVod3R2M0JRLTJLek9LUGZqenBpbDlzb0FMd0J4VlhzVWxzMmhCU0ZuOHpGYzRqZDBsQi1udHdiVGpsZkhzVjJHdi1lQ1U?oc=5",
-      "source_name": "Fox News",
+      "id": "ea15ecb0190bfc9e",
+      "published_at": "2026-03-09T01:00:55+00:00",
+      "title": "Donald Trump attended the transfer of the bodies of six American soldiers killed in the US-Israel war on Iran. They died in an Iranian drone strike on a US base in Kuwait, a day after the US and Israel began attacking Iran. The president warned there would be - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTjUtNHVjamh4bnpoTjZVcjQ3dGpac3AzRGFtMkEwQ0lsVjVZdDRHbHB0bld2Y3F2cWxHXzI2N2txaTlGS3pfNXR4WkdYZjdIV2hGVlNDWlB6VDVZNFlTRGY3UEFsRjluQmZxc2JlcmVvSDZtSWl1bU1jd1ZGWVpQV3prVWZ5ajc0T2p6Y3psYldCbHVYajdrR0cyWmZELXU3WGhXRVpTVENjVV9DYWpVWmhJandrdE1EaXJTdmJHcWgwVTJBR2U0U2I1SEVUaTYwWGpZc2QzWndGSXJ6cWZEWg?oc=5",
+      "source_name": "facebook.com",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
       "points": {
         "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9d335cd78eb2d685",
-      "published_at": "2026-03-08T23:51:52+00:00",
-      "title": "The Latest: Mojtaba Khamenei, son of Iran\u2019s supreme leader, named his successor, Iran state TV says - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQclFNV1lobl9teE0yZ3BSOFZxS3BvVTJNMmszR1ZkSEkyR0VySXR3dGx3MkU1RlJWZXZZbFRDWkJ4Wl91SEJrbHVzSmQ3WHRQYVpHb0R4Uk9WcHM5empiU2gyUW1LMFJsVWZHNklLY0lTNW1NTlZxRFBKcDV4d1ZJLTlQWVhXYmg4U19BSkdWTXZrWlREdllGZ2s4OU1CMlQ3akdBbnVRWENjX1ptLUJlN1BrTU1DRW85TjZJQy1xcnVWN0xqanEwQzlnc0MtTXRxVVhj0gHYAUFVX3lxTE44Qm5oWF9zR0NqcTVXNmhCWUJjSE5TS0JIZm1ySjEwT29HeEp0NGUyVU5CQVo1cU1Wc0E5anBMaXpXVXJfaGZqeUY2YmtvbUlzQzZQWWNJQm0tVTRjSHlkcmxWb3huWm4wMTBFYl80NmJCb3BfY2Z4ODNMTzMxdTVScE80YVpmcGtvZ0FUeHRONFVFUFNrTlJQX05vSlVqMXlybnZHMjVyb2NKV0lEakt1eGRLNVRPbVhDTWRSaXN5Y2g0QWtNQTNJTjdNVDNWQmRwTERLcTI5eA?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "26271ab5a046ce40",
-      "published_at": "2026-03-08T23:51:15+00:00",
-      "title": "Trump vows control over Iran leader as death toll of US soldiers rises - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQWlLZ3BFX044V3dDVDZCRG81WlJab2JpaUpMU1JfM2NmRnlzby14TG02XzlEaF9OVm94YjlpOWNfbm5KUzk4RDFyb0pKSWxMUEJETjZmZWpiYlFuYlVwSDNkNzRfNTkzTTJENVpVaEw2X0xiVGw4VGJOOVdENzBqNHA0QU1Vd2R3aU9GazBvcG0yX3BlS2VIS2FfcTUyRjIzR1Nxejg2OTBaZUZOODF2eDlqUWNsUdIBuwFBVV95cUxOWDhPMVRuUDRkNFdFWl83WE93MUp3NmpKWHh2VmpiMzJwZTMwOGFsOWVOM0lCWnhtODZfN0VHVy1qak5naHZkbkRDX2NzTUlzUERuZHRjWC0ydmItNTZPWV9MVjVWdGQ4M1lXRVhfU1E3dTd3NlhsSnJjTHVBMWplSGtmOThsMGp0MHFfdjR0RDJhYU5Xc2lKbGJtRWNiOEkzZ1hCVjNnZ3dqZzBTT0t2LUktTVE3SkhjeFlz?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "746397aae5718b6b",
-      "published_at": "2026-03-08T23:19:40+00:00",
-      "title": "Seventh American service member dies amid U.S. war with Iran - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX2lYaUxlempRRzBmUU5SOVdkSEZJeUZNb3gwNUwzTkc4bWRvNDJyYVd1dXlLdXBXcWNwc2dfRllYYURiTWtiX05Kc1ZDSVRUQlFyaUROcVFySVlBdVhiWkd4MHVrdmwzeDBQM1hUd0N5NGtQOVpsQV9xWExwazNOYWhhUmo3dDJjVFpkaVpFRmRNSW1qdkh1b0NfR0NYUzBkQUJUWA?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "20ea61f6a0485bad",
-      "published_at": "2026-03-08T23:02:00+00:00",
-      "title": "Khamenei\u2019s son is selected as Iran\u2019s supreme leader; 7th U.S. service member killed - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOejFENFpCMElMRjRnYndfNjhoMkJwQUViblcxQTFYYUJqZzc4eUstekhmaVloZDJlb0g2ZGpSUVRVNjhLWTdRTHZCeFRETlJLTFd2SDJwUngzYm5xZzBkY29Gd281RFNkZDVUdjFpMjdGdlNCZE56RDRPY04wa3JPQ1J4NHN2WS1QQmlYNUJFTFpjRk80SExEb2x5Zw?oc=5",
-      "source_name": "Los Angeles Times",
-      "event_type": "material_loss",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 4
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "ff3ab37b122de08c",
-      "published_at": "2026-03-08T23:02:00+00:00",
-      "title": "On U.S. strikes against Iran, Pete Hegseth says, \"this is only just the beginning\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY0RmUTRaQktNamdYd3NIZWYxamZvLUxlV3pCaWZfNFhWYWdRQ0lrdEdIQXNpajNIaDY5eEQ3MVF1ckw1bFFiSVFTV3l1LUdoYjdRLVh6Q1BIT09BS2RmX3Y1b2pIYzhBRUNWY1k4VHRjZDJXb3duWnRXbnVIVV9NMUUxUkJWVUhpOHhQS1hhaS3SAZYBQVVfeXFMUGt1c3VMMXR2NUptT25lcm9IZ2c1dUJOdVpkLVFVbDdiZTI4SVYwelhscks2YlhXREEwa0lXV1FFZVdLX05JRDgzRDRDaFVJN09GVUFfbF92dnN3SVRSanBycVlrdFRRMzdoRjlzaW5KS2stMnFRcW95THpPNkhTWmNrcnppSGI3Zi0yVXRhaE9DYUNwUFNB?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "c0ea9174409a001d",
-      "published_at": "2026-03-08T22:36:38+00:00",
-      "title": "Pentagon Announces Seventh U.S. Death in War With Iran - The New York Times - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeDlxekJabFMyNDlWRFRyTXVhcXp0SENJTEF0MjN0WTBWVGNXb3ZzNVQ2bXpqeUVLMjgwTm9rQXJrRS1nV0JRYmVKUW1kTkVhbXp2c2J5akkwZXdWYk5YVGQ4b0xUNjNIWmJMS2NrNlRFUUc0OV9BcUVmajAtdUU3TERoVFhoMWxwbmNlWVJZMUtLclk?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "0645385e24f5f61b",
-      "published_at": "2026-03-08T22:31:00+00:00",
-      "title": "Ali Larijani, De Facto Wartime Leader, Steers Iran\u2019s Defiant Response to U.S. - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxPcXJ3RU40ZHhoX3FpTVBjbllFMi1yR0FxX1BockZlcDBWVGdfTGhScmdsbHdENFJmRk9od0EwUEhYd1BIUmpQWjlfLTRPUlU1TEwxLWxUWkxGRllJMTFCUmZtQWZfTUM0QjhwcEhMRUFqdkZTUEpkbjNvVHJuV3F0ZjFqS3Q0bXpkcWFJMmZmV2NOZ0FhZ3JJcW5mY3JJYWUwV2hhT2N1RlVNRHZTS2FhSzlra3lLVmNydEExMlVkbExTZWRXNXRQSVRLakpEZFRNZkdIdVhkNjBZM2p5TF9aQ1RNTW53cGxENnQwdFU4ZmJJd1dWemxwMC04azVTN2dHdmVmWHkxTHN4NjBnLXJGX0VLcHB6OWpHWV9CVV91Y2lPVHdhSjYxS1pKVWZFRnZLYnBuMk9XVGJ1bjVSUFI4NTFqUmNtQnJEVHpYQ1UtZDNLUXo5bUYwVzg4UGM4UXB2R285Xy1Pd2xHV2J5TnNOVU9Nd0k0V1JEa19XY3ZGek1GZ0NYUGMtRmFzYlJ3cHVQN3puSTFRMmJkS2Y3SEdpdG5zLXdLT21OY3JPQ0hCT3o?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "72ba031273d35be5",
-      "published_at": "2026-03-08T22:23:00+00:00",
-      "title": "Pentagon says 7th U.S. service member has died in Mideast war after being injured in Iranian attack on Saudi Arabia - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaUN1eWtYcWc1YW1uYk9vTkNyUjRnNGpHaEZTRFphZDlaaXZCYVBrLU1GR25DeHFhaHNDck1qNTVnYzdQOExZVndTSUFNcFZVbVVLdFBfZzJOS3VyeXdxU1NzeHdTY0QyTzVPMUxTRXlLZEc5WURFb2RkYzA1QnExTWFmWWxnbTk3SVFsbnRkU1VxcXlQdVE3LVA2WWw?oc=5",
-      "source_name": "Fortune",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
         "iran": 0
       },
       "confidence": 0.8
