@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-03-10T04:52:55.540402+00:00",
+  "generated_at": "2026-03-10T07:09:57.265608+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 96,
   "totals": {
-    "usa": 47,
-    "iran": 25,
-    "lead": 22,
+    "usa": 41,
+    "iran": 23,
+    "lead": 18,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 34,
-    "iran": 15,
-    "delta": 19
+    "usa": 28,
+    "iran": 16,
+    "delta": 12
   },
   "confidence": {
-    "score": 65.8,
+    "score": 65.3,
     "label": "Medium"
   },
   "event_types": {
     "other": 50,
-    "attack": 46,
-    "material_loss": 2,
-    "diplomatic": 1
+    "intercept": 1,
+    "diplomatic": 2,
+    "attack": 41,
+    "material_loss": 2
   },
   "history": [
     {
@@ -42,12 +43,12 @@
     },
     {
       "date": "2026-02-28",
-      "usa": 6,
-      "iran": 3
+      "usa": 9,
+      "iran": 0
     },
     {
       "date": "2026-03-01",
-      "usa": 6,
+      "usa": 3,
       "iran": 3
     },
     {
@@ -77,32 +78,32 @@
     },
     {
       "date": "2026-03-07",
-      "usa": 3,
+      "usa": 0,
       "iran": 3
     },
     {
       "date": "2026-03-08",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-03-09",
-      "usa": 16,
+      "usa": 13,
       "iran": 0
     },
     {
       "date": "2026-03-10",
-      "usa": 6,
-      "iran": 12
+      "usa": 3,
+      "iran": 13
     }
   ],
   "latest_events": [
     {
-      "id": "76e8861c0b8a75df",
-      "published_at": "2026-03-10T04:51:26+00:00",
-      "title": "Iran-US war latest: Trump claims conflict will be over soon but US hasn\u2019t \u2018won enough\u2019 yet - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMjJxVFdIenBhY1ViOWt2YmQzUDBYZ25hUHZlYjhvM2dWeHJjelRTQWsyRnM5NUhlVGR5clhzeGh6MEp6MjVTXzYxZTg4LVUwbm5fd09qN3lscDg4dDZpOVBhYkN1cUpwdU1fTjV1QnFacVhjNkpTM3E2TW5sVGp0Qi05VUdPM0VYNGhCU3NBc3c1c2hwdHBqdUUwbzJNWl92QW9ieDQ1TEJ1MGd1YTZiWFdhX3VfTGNxZENaTA?oc=5",
-      "source_name": "The Independent",
+      "id": "552147ba1edbf676",
+      "published_at": "2026-03-10T07:00:18+00:00",
+      "title": "Trump Says Iran War Will Be Over \u2018Very Soon\u2019 - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxQZDc2eDZveGFsbUhrc05YVUx0RENwRVJTbjVqSnpKLVVsQVJPRzBiYVQ0cFVGTXpocWJhWnpCM0d3Vy1xMkExSEtsZTItbnc1SVBVbWd2UDRYV2t0bTNQanZGREZSYVhDOERscFc4bnk5YWVQYTN5RkdvWXZJMnpPVnBERlVfeHIxcE5qUlp5QVlmY1NfMDFBMkZFQm1feVJrcTU3WEFiMGRTX3UwMklrU0JZQXJKYzloMkxjaUZTTGd1TXhvMDVXWVBwMWF5bFBocmVBQk9vREdDZExsQVJiZ0toX3RrY3h1VUl0ei1zNFdfblVfekt0MHFVdldXRzVOVEJyRWxpZ2dHVjJoVHl0cXJKTmhaX014S3V1aGVpdXpmRjhnS21CZXF4eVNCRER0QlBlaHBkVGoydUNNSlhCdnlRNlFXaktkU2JONDNhTjlIcG1RTHd1UTZreWZ4NWY2YWdBcW5wWTdVeVl2ZFJwM2p3dzM?oc=5",
+      "source_name": "WSJ",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -113,11 +114,26 @@
       "confidence": 0.55
     },
     {
-      "id": "e17a92d9c6347974",
-      "published_at": "2026-03-10T04:36:00+00:00",
-      "title": "Live Updates: As U.S.-Israeli war with Iran intensifies, Trump says it is \"very far ahead of schedule\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb3NfZnhLYzh6RGppT19Hdm11blptdDlmYlJvRzliQkxoRWVfR2NaZ21DaDNrQ1ZtaTdVOFl4TVRaTXFZSVZPM09xTDNiYlVWRlJZWEFyOExRM3h3NHAtb0s0eHB2cFdnenUtQk5oS3d3NUVTWDd0ZkktMHBCX2Z5c0h4S0xSYjhtT20yVU5fQ1cwWGtQUmhWYnJwWkUwNDNNSzctdFhOZjU1UVRzUGdCamZKWkPSAboBQVVfeXFMTVVldThkQ284WFkyNmVaVUUtWDZqQldPZlU1c2F3ekdjNmhRUkp1YmxJSnNURHpnakhQcklLOExsa2pGeWV2Zlc5THpEd1BtUGpvM09hci0xcEFmei04dnJ3YkpmdklMczZ0Z0w2SHlmNjdlMFJSZFBpOGVTR0VIdVQyUjdCc3FEclNINm5PRmgxVlJyaEtPcnZNTHpuTEhRLTF1LUdSX1drVWdqV0lGdUpYYnlFM1ZpNE9B?oc=5",
-      "source_name": "CBS News",
+      "id": "f291bef9bb10561c",
+      "published_at": "2026-03-10T06:37:22+00:00",
+      "title": "Woman killed in Bahrain as Gulf states intercept more Iranian missiles - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdkxTelJMRU53NF9uQ0hNUlhGLVdqeDdndXA0ZDB2MG5QTzlhZW8zUloyVEppWEQ5cERzMzBHbmZnZnpLS0FaSHFBTjMxRDBwdFVsdlctQXhaa0tkc1ctdjkxbUZEX3kwUnFGdTRZZ04xR0lQNzN3QWZHZDlrTUtIeUVjTld5Um9zalNVR1Q0cnVsaVphMmNNMlpMamQ4TXF1djVYSzJGak16NnBBRWxzQ01B0gG3AUFVX3lxTE0yYzlhVmdDRm5oUUpsZW9ZZzBpM3FLOV82RV92V0FKd0l0dFNRbEpmZEFGb0t5YXppY1JZNkpjYmNhVEFRRlVGenlKN25NQnF2dl9RMjVmX2RJLVowSFZjUFFnS2ItZnlCd3hlX1RDcUphdW11TkVmaFFmX1RfaXp3M05udWVaS2gyY09RMWxseHdIamxRbTJ5SkpVVThGYV9falhhNU8tWUg2T1BOWnMzQVNyWG8taw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "79bd773b91133270",
+      "published_at": "2026-03-10T06:06:00+00:00",
+      "title": "Live updates: Iran\u2019s next supreme leader is named as oil prices soar - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ScXVRR2t5QzJoZmZ1cHotNnNHcWt3WFBNQUgyS2ExcGZCXzV5dmFza0lNSE1GQ2ZXODFjTUtiQTJsOWxDZTY5MmFQRGVZOXRIeUJPUzRNeU1WTTlFNW45ZF83UVFxbkVKVHUwV1JsNWhlVGJpZkYxeg?oc=5",
+      "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -125,41 +141,26 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.55
     },
     {
-      "id": "3d5ac3bf4bd81a58",
-      "published_at": "2026-03-10T04:11:25+00:00",
-      "title": "More than 1,300 people had already been killed in U.S. and Israeli strikes in Iran as fighting continued into its 10th day, according to the Iranian ambassador to the UN. Follow live updates. https://nyti.ms/46S26KB - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMkZVWDRGSUhhOWRtcnZTVXg5S0hsRXZVcXRvY2RRR3U4aVdWakpmc0pCNlhzUTNpbUdwN1RCeGhrQndIVTlLVFM3eG1PblU2XzE4dDJ6MGtwYWJYZWdGM2lJOGE1bkM2VnV6ZFY1MGs2NGJNNkhYX2VFV2k0eGhhMTVvR3BVTnMtb1V2d2NuQTRzVHl1ZDZxUjJ6MXB4Z0JtNnJxMkhEQWNYWHd5bmZ4X0hfWE9lek5GaDVHT1dFZ1BjVWNXWVg2cUZWdElLeHRRNEI4?oc=5",
-      "source_name": "facebook.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "3f9e77315a3f9526",
-      "published_at": "2026-03-10T04:00:57+00:00",
-      "title": "Iran war live: Trump says conflict will be over soon; Gulf attacks continue - Al Jazeera",
+      "id": "a6263880aac2b4d9",
+      "published_at": "2026-03-10T05:53:14+00:00",
+      "title": "Iran war live: Tehran vows to use powerful missiles, rejects Trump talks - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNbkJDbUR3VWpZUlBoZEFGUkd3ckxnWl9mdGFoQXN0SldON3BXaGp4YnQwWlhtMGdXRUd6VFRNcFhpRWx5Sm9RYzUwMG1GSU5oczJkZFR6WGUwSElSM0FZZ2tqM3hhQk5kSk5ybTJmWklRUjl5Zmc5bHpjX21sakhZX1lBcU92a21razROUWp5OHg3U0drN2tFM1hFTFprVGI5Y05YOWhWazJuakgwV21PVC1QWHBTOG5yVVhqaEtn0gHDAUFVX3lxTE55V01sdC1GWlY1a09fVGF3WG9fUEl1eWVicTJxaU01bnd6M1FDSFdRQjFhYmVfeHhVR013Yy1naHRTN25LUUhPQ3Y1a3ZUZnNiVGh0dXdNY2ZaNm11aER6cjZIVXN6UGVYeFJvNGJQQzQtT2l2cGRDbngyMV9rdGwwYXFnazRja1IxQWY4WnNCTl9HVmJyWDZaejFSbUdkNEtkZmNkV2d2Zm85X3FmWGtxY1M3QS1lU0wyYUxnUlBPeWphQQ?oc=5",
       "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 1
       },
       "confidence": 0.7
     },
     {
       "id": "ef76e040b201864a",
-      "published_at": "2026-03-10T03:55:25+00:00",
+      "published_at": "2026-03-10T04:55:28+00:00",
       "title": "US-Israel strikes on Iran: February/March 2026 - The House of Commons Library",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBLUVlHOWM5XzJtTzd6aW1SZUJfdmRBRmVDcnRjMmZoY1lJbll1UF9zZEkxVVRySzdTaUpzN1lUMlZmN18yOXNfVk5UdU9BNVA5STNSSUZ1Q2pzM0Z4VEFGN21fbi1JMGc4cmJhZk1DaVhCeFIx?oc=5",
       "source_name": "The House of Commons Library",
@@ -170,11 +171,86 @@
         "usa": 3,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.75
+    },
+    {
+      "id": "0ed34797d2a2c771",
+      "published_at": "2026-03-10T04:51:00+00:00",
+      "title": "What we know on the 11th day of the US and Israel\u2019s war with Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUUdYckdOMDlJMDR0LW9UQm1jek40bldjdENaUlBvUXVvWC1RU1M2bGxjendSckJGSjNZZ3dJZEQxZlRrRkxfTWlQYXZ2RmpSMUx5a2w1dEIwaWZVTmdEeV9oRUVDR1VPTkFxaVRqZDlybEJuYVlkaHBlZ2FjcHVlZDhpLUgxUnJHeUxybENQYWtwak0tZXJvd0hB?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "938176640bbd5213",
+      "published_at": "2026-03-10T04:51:00+00:00",
+      "title": "Trump gives conflicting answers on how long the Iran war will last - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lYzVaNzRiRU1vNjF5MWFMb3d4N0VoUlB3UEs0TFpDcjZEZG5JbFRqN2t5Q1lDbFZYSU5hSTZoR1RDYTRHcUgzQ1ZyUXlObmNEdlIzeEdndUxFOEd5SGlPSENZSWJqTVBaV0dLRTVNTTVnLVBpbTV6Qw?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1bd6c22ae78693de",
+      "published_at": "2026-03-10T04:46:00+00:00",
+      "title": "Iran Live Updates: After Global Economy Shudders, Trump Zigzags on Whether War Is Nearing End - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB2Z0U4Z1lhcnBSdUJDZ25fLV93OWd3OWw0dGhCTGpoR1dPdlo4VGpwdDNkU3U4R0h0b0tLOFFwVlJjNGM1czJMZDNhemVlcUFGMS00c2xDNlZ3QXRuQjVrQTdNczRhbVVjZlhzRmlGeU02MjYyOHVEVTN0VQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "53b47fe9e0ef1d1f",
+      "published_at": "2026-03-10T04:25:21+00:00",
+      "title": "Early Iran strikes cost $5.6 billion in munitions, Pentagon estimates - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mSkZhdG55NjdSY2FramFISGttMXVZZnBrTUNETGdxZVU5RmNWZ0pSNTREWVozRzVUemVlOF8xb2FFLUZkQlI3THpRRGtTMlpkUlBOdjBBRTdoWXY2bnlQUTZhbzV6SGtTX2t1UF9XV0VSd1VzT1V2RkQtVVBIcUE?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "c5cf53a13d650901",
+      "published_at": "2026-03-10T04:11:00+00:00",
+      "title": "Middle East crisis live: Trump claims Iran war will be over \u2018very soon\u2019 but Tehran says it will determine when - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOTDVzSTEwa3Q5RjBpV1prTnRTRV9OZ2JmTVRudkIweGtLVm1kc195cDR4LU9oSlRrMGF3Wm5XLW9MaXJXLTJUZHZfNFB6alhIN3BRUzdhZ0lmYTZjQ2ZJamd3R0FvVXVOUmdoWXdfekVVZU9YV1dlVjR1OWtUZUNCa01SaDdsVHFHV3RVcTVWTWo5eFJ4dFJiLXB6dlRaQU5ZbGFOQ0JhSktvVzBkT1B1MnpUbEdMeHpsRl9NekhWa0dDaXZ2Vk5uQVFvUE1aTDMtdUNFQ1JVejh3emtvY01rTW1jeDAybHFoWHc?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "7f7601c0455756d6",
-      "published_at": "2026-03-10T03:45:59+00:00",
+      "published_at": "2026-03-10T03:46:00+00:00",
       "title": "Missile in Deadly Iranian School Strike Appears to Be U.S.-Made, Photos Taken by Iran Show - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaVh2ajROZWZydGhwNXlPYjE0bTZKMkE1b1VBTTJJbEJWVS1ua055SVViNHBPS1BNZ0hUOEZRM2NzLWQ4V08yMkYtLWhHYkJDbmVXU2VtbTVIMTZQUmZ3MGw5MUNubXJkdUowZWdyTXBYWHBfVDQyNVdzcE9neVZWU3ZxNkR6MUNSaDUzdER3UQ?oc=5",
       "source_name": "The New York Times",
@@ -188,9 +264,24 @@
       "confidence": 0.8
     },
     {
-      "id": "21d4c7e2601c96b0",
-      "published_at": "2026-03-10T03:34:00+00:00",
-      "title": "Iran says oil blockade will continue until attacks end, Trump threatens to hit harder - Reuters",
+      "id": "c54d16c548676516",
+      "published_at": "2026-03-10T03:35:30+00:00",
+      "title": "Iran Update Evening Special Report: March 9, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUExqWWRJaFVxNmhodDU1OXdyZjVKMlIxSFgzU3hMZlBsZ0M2a0F3VlhXUEVOVVZzRUVLc0tfRTNiVzM1NG51Z3VubWE2WVU0cEQycS00MWlFOFlORHNoTWJwSVJjSUY4U3MwUk5PX2RGS1oyemVPaHRzeGV1RG5XSDNYeUNSRXRHeVIzVk40ZnhMYUdnLV8wcHdmVmV2Wlk?oc=5",
+      "source_name": "Institute for the Study of War",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "9cd59bd2733ea804",
+      "published_at": "2026-03-10T03:34:55+00:00",
+      "title": "Iran says oil blockade will continue until attacks end, Trump threatens to escalate strikes - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeE03RDlQd01JMVpEZjlxODJDNW1EbHBPSnVUMEdqaFFLN0hrYzRGTzdTT3piWVROaVV5NGtOWEhzY1BiRGNITDB1M3hkbzAzejMtUUsyUHpHSi1JbkVOTDBNMG1FSlN5VENNMDBMeVFrSXMyYU1iNENqalFqUTZ3aWVXejF5NEFRQnNOS0dtbjFaa0U3bmJKVGk4VGNYTU1TTU10Um1OOFRvRjgycEVvR1YtWGJyVWRITFFtS3JPM0dsZERmSXB4Mg?oc=5",
       "source_name": "Reuters",
       "event_type": "attack",
@@ -203,11 +294,26 @@
       "confidence": 0.65
     },
     {
-      "id": "fc4c0893b402ca68",
-      "published_at": "2026-03-10T03:33:22+00:00",
-      "title": "Oil prices fall as Trump threatens Iran with 'fire and fury' over Strait of Hormuz - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Tek5qazh4bTFBR3hzMDVfc1ZJSnZJYU1nak40TE1uRTNLb0dvUU9EMzVjZ1pNU0J3N2ZuZVY3cE5hZVlIbjRDTkFKYWM4R2J2RGRZNA?oc=5",
-      "source_name": "BBC",
+      "id": "a5d1958d633c1ed7",
+      "published_at": "2026-03-10T03:33:45+00:00",
+      "title": "Trump: Iran war could be over soon, but oil disruption would trigger harsher US strikes - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPa2gyZDM2MWVreEVscXdpNTlGLVBONlVvUjU2Z2dJZmxXei1hZDJ3UGItYUVJMjJPbGtXTFBXNGtkRzZOc1gtYy11ZHQwMV9NMDJOOTlZRzJLYXo2b0ZLQ1pQM1J4cFdxUWYySUFabHRacDBkMXloQTJLVWRtZlBHQnhMUzhncG5ULW9vajk0SFJYb0VoamJ4X3VSaVphdUgyV0ZqS09paVU3TzZmS0M4ak1nX2ZCbnfSAbwBQVVfeXFMTWRhZm11VVFPbFBRelZJcWtXekRJb1p6YVdXYy1OS1duY1hIbVBLcHdLMllqY25USG1HdXNialpzMjE2RUFlelA1Z0l6TDhIOXFqVXV4cnJNY0pDM1ZsV0gxcDBRNWcxNjhyRjZhQmp5a2ozczhxODhtMDNuWFFvVFFKRnQzQXhlZk82V056UzFtMEFsdG1BNGpJeFVtek9BUTJXVHpsbFJ0R3VENFVZWFZabVJpZG53WFFLbHo?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "4f9b9a60dbadd3ae",
+      "published_at": "2026-03-10T03:29:18+00:00",
+      "title": "Iran names Mojtaba Khamenei supreme leader as war fuels spike in oil prices - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVHlScW1oZzE1SjFRbjA5M1phUDRJeHhRREo0UmhXdzZwUURSVUl0WGt5cVE2YnJTZFl5LXBRNXdDeVAwNnBVbWNqeThZUjgwSU1sRXBQLWc3ODVfSlp2UjUwb2VSVHRzNmZDVzlObzYxa2VoeGNldzd5aVhVTG5BVTZERVlUZDjSAYwBQVVfeXFMUEhmSmNmSThucmpWNGVtTGJuNm1JWndtQU5uWEpfemRmTThSNmVFQUV4bmhQQi00azZsZm5OUnlhcUY4ekd2TkwtMkNZc296QWFES0IzVmF6a1h0cDRCZUFJak9YSTlMY0FFN2NESld0YVZrVTQ3VVZPZEpRTmpnMEg1X2Z1eGVTYTF5aFQ?oc=5",
+      "source_name": "Fox News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -218,41 +324,11 @@
       "confidence": 0.55
     },
     {
-      "id": "0abd95e3d750cb0b",
-      "published_at": "2026-03-10T03:29:27+00:00",
-      "title": "US-Israel-Iran War News Live Updates: UAE embassy in Iraq attacked, Hezbollah drones target Israel - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxPaXh1d1g3MURtQTdkQzZ0QjBJNlVUeUJQdU9OYjVHcjRPT3hzMWRXOG1ncXk1SDF0SklYdE05TzhiZm1NSmJRZmd3cUFjXy1vSktpclZiSWwwck1HTHFDM0RiRHYyNTFaVFU3RXdmZ1VBU3pWdVpDZEp1R190NEZQOWpPcC03ZHRQQlRWci1rQXN6aWdpV3FyNmNTVjNfY2FxMTRwaF9hSDU0TmkxV0RmNFQtbl9PV29aSkk5RGpyejlaTUpLUjM2S2Z1UFFiVmlyMzJlSGxGWElubmNvVkI3S3I3aU4wY29pNnloaHJTcHFiTUp3QXVxM1RKdjZTWXNJMXM0QlFjdnA0azNvM3J6b1hJRTFxbkFqRlRzd0NQbWxFQ3VMWENNTWVJcGxmUEhZTnZQT2xjUmQtakhsTFl2eXYyODJpcTZTVFNVV3pleXN4TnfSAdgCQVVfeXFMTkpxaDBHV280dGVnalM3NXA5NzF6bGgyTk9wUXFqWExqT3E3aHhEbU1vUjc4OENUOXp0TUFVT0ZCZHRTcDlxQnYzcmZqR212VGo2NV9UWFByeTBpeU56elBlSmFacEdvVkwwS2g0M0hDeDAwSnN2TTdLcGFsZlZIZE1vLVVoNV9pczFCM2YwbW5qM3R4X3VmWmtUdXIzbjBpZDh6MldYMnFXS2tEVWhWX2xfQXFqbnhxaVpkWm1xSmx6SG1YNVNoU29YVUhtTC1LMU1CZUlFZWtoNlVfNEVXSEtJdTVxRUlMVmxZQnFnX2U5SzZFQ05BOENVdHd5QkxXS3RqQTVkT0Q2ZmR1RWRYTWtUdUJoVzlFVWJYQ2Y3eHZJbVhnaG9EbFhIM3ByY3lPQ05TR1pBRVZVZ2xvaVd5WmlVeFFvZ1FteDI4dWw1cDhhdXJkcDdkWEE?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "53b47fe9e0ef1d1f",
-      "published_at": "2026-03-10T03:27:17+00:00",
-      "title": "Early Iran strikes cost $5.6 billion in munitions, Pentagon estimates - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5mSkZhdG55NjdSY2FramFISGttMXVZZnBrTUNETGdxZVU5RmNWZ0pSNTREWVozRzVUemVlOF8xb2FFLUZkQlI3THpRRGtTMlpkUlBOdjBBRTdoWXY2bnlQUTZhbzV6SGtTX2t1UF9XV0VSd1VzT1V2RkQtVVBIcUE?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "938176640bbd5213",
-      "published_at": "2026-03-10T03:16:00+00:00",
-      "title": "Trump gives conflicting answers on how long the Iran war will last - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lYzVaNzRiRU1vNjF5MWFMb3d4N0VoUlB3UEs0TFpDcjZEZG5JbFRqN2t5Q1lDbFZYSU5hSTZoR1RDYTRHcUgzQ1ZyUXlObmNEdlIzeEdndUxFOEd5SGlPSENZSWJqTVBaV0dLRTVNTTVnLVBpbTV6Qw?oc=5",
-      "source_name": "CNN",
+      "id": "7efb9233b8904d02",
+      "published_at": "2026-03-10T03:03:31+00:00",
+      "title": "How much is the Iran conflict costing the US? - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPMlp5RTRMYzg0aWwwNERrbm00YzdJS2FkMFNGMlpuNEx1SzFFSlBkZG9EWk5iZ3d6bjdEclNialZEbUN0VmtXNTFaN0tqVTY1SEk0ekVYQ2J5NzNPLXBvRHZubEpKalQyTTVXLUVreE5Lc2lfWEZvU1dLX0tZalVsa1lUdEREdHhfdjA2Vkt2cmFXVEU?oc=5",
+      "source_name": "Scripps News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -260,7 +336,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
       "id": "39d093de806b25d8",
@@ -290,59 +366,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "3bbc890a83887564",
-      "published_at": "2026-03-10T01:08:47+00:00",
-      "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee (AJC)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
-      "source_name": "American Jewish Committee (AJC)",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "4ad7a245e81906a5",
-      "published_at": "2026-03-10T01:00:00+00:00",
-      "title": "U.S. and Iran Predicted a Very Different War Than the One Now Being Waged - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMigANBVV95cUxPcDVCcG50YzJ5d1hISFd0V0JSdnZxZldOSWxfT1hKRVN5SHlRYnNaaHRNTVplalUzTFFrTXBqbmF4cWxIT2JsYWV3SmJzZXQxcnpzNWZYajE0SmNzMWNHaU9PUEMxWmZuSk03RDhQM3BDN19QUmZ0VHlhQ3lvdUh1a3JCYTlaSEpXRWhPVmRnYzBGaUNGTUgxSVoyS0R6Vi1CMlFZdzZFMm9ZNndlMU9ydmFOSElSVGpLUHF6NzBSTzEza3dyWUFHZE4tMDM4MnMwSDNnVXg3Z1ZQM1NTM05nd1B4dnk0eDYxUy13SkFKaWNMZjgxTkRtWTFpekdVUnZfNmxwdi1McUVuTWJhQnI0MFg2cmg3SVlxdWlnVFFoSjF2dWoyMFRYRllpdzFwb01tSm9sOGQ4d3dpLThYUE94aS14R01qRkk3LWl3UVo2TzBEaXE3UmdveXFIZDZrM1VpVU5LYTJhM2pqdFNkenl2V09HNnpnTzB0UFZEai1WSG4?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ab9243e3429dae37",
-      "published_at": "2026-03-10T00:56:00+00:00",
-      "title": "Trump claims Iran or \u2018somebody else\u2019 could have carried out deadly school strike - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0zR2hwZEJjb0tja2hFdi1LNnpScnNlcjBWUlN4ZDJ1MjVOQVRNQUlTMVBWMi1RLWVGaENpYTBqQXpvWElKNUpDRURlLTFpUGczbEFqRkFMMHFaZTNCOHhzRkZOWFo5Q3FUOEt4STBXQ1ZZWTU2?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d5e59cfbf588fe8d",
-      "published_at": "2026-03-10T00:47:00+00:00",
-      "title": "Iraq war\u2019s aftermath was a disaster for the US \u2013 the Iran war is headed in the same direction - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZjJIZnhJYm0waHIwazQzU0dLMm9oZUF4aFMtQVhXYWF0SERJbmpKci00ZG5MN0pFb2Y1Z2p4cEtCalJ1SkU4X3JGQVRqREljS29oX0dJTGo2ZEJtTFlBRDExVF9GemlDTjdUeHlUalBscU12ZFZJZTB0Zm93TWJ1MWJmWDJQMG1BZGhiVVctLXozNG5XUTNtSERFWkhjcjI3TmhKMzdDVUJCVUJMYnFsbFlNRDdyTV9SLWQ2bnRNRC1tOWc?oc=5",
-      "source_name": "The Conversation",
+      "id": "dd9ca5274441c335",
+      "published_at": "2026-03-10T01:58:13+00:00",
+      "title": "Iran war may end \u2018pretty quickly\u2019: What Trump told Republicans - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQmQwZm51VGlqdGJjUlllZ3BOdndNZVZoMkJHZDh0LWZ4bmxxX3NFcWxURWFvTW9udVdCcG9rT0tIellVZWR1dzF0LWVLODhOcnJiblhhNFdIcUp0QXdySWZRX3AzWGlMOFdlaHhLVkNrN2dIcl81NWltc2Ftck5pWVNBNnBkU1ZTUTA3NE5hdl9wRURKd3ZRTktJeXdnVnRIVFHSAacBQVVfeXFMTkYtOUc5ZExXLUtWR2g4UWx2LWwwV3k4TzdNWXZUdVZlXzJ4ZUc1LVVSSHg5b21sX0hTZWdfeWJhNlZZYTFEN1Fac016V1dEWDZiNTJPNk1DN1RiVlgtbHhtQkZHaGozeVg5OWFBWjlfeV9KNkxEY0loM3VoSDdCdXRyalNaOUVKTXRZZnpFT18yal9wTU9yLVpBYVoxSTctYmw2NzV4dFE?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -353,41 +384,11 @@
       "confidence": 0.55
     },
     {
-      "id": "bcd1471b96c82dd4",
-      "published_at": "2026-03-10T00:44:02+00:00",
-      "title": "WATCH: Trump sidesteps responsibility for deadly strike on Iranian girls' school - PBS",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQX2h3STUtbDhndlZ1UEJ6YW5TSm9rVy1iNk40Y1oyZVhHbldpbmUxS1pDWnVVVWtXdTNBZG9JTUFKa01mUEJFX0wwSks1QVdFUnp6ck9jRFdsalRvX0NkVkRZNFhOSEFpVXRuaTFWVDlBUG51bWdIdjE2NTNUcWpEcVlqaExIYXBpUGFwN2sydkdmYjVuMTFISmc0S2FUY054YlZlbGxBM0pWSm1Hdkx3eVpsOHJvUjTSAbwBQVVfeXFMT0x6c0Y3OFIyR1JZVGJtSDloVHZmN1FJNUZYa0NPbHpJRHl4TlZrNkt4UFZ3c1FWS1FpS2pOVVo2MXBDNkxrak1aS2pzaHNJajgySjFQd3lnMHVyaERhQll2Q2xGR19ZTGUxcVFGRHQ3WDlkUTJRbDBpRngyVjlBUXplZ21LQzYydUgtTEh3cVF0Nklqd2s4R0lueGYyRzFyZUxKOE9DM21RcTdRSmxBWHBRejdEcUpseDNmbHM?oc=5",
-      "source_name": "PBS",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "3a48a45883de061d",
-      "published_at": "2026-03-10T00:34:00+00:00",
-      "title": "Democratic US senators demand immediate hearings on Iran war - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQdmt0VEZWdFJlVk16LVc3dGFrZDBSNDg1WXVsTEtJUDI1b2hpTVpkV3JGb1NTS2FleHZuaUFBeGFMN0lNOWZyeDB5ZjYyTmNFNGo1ZzN0Sm1GZzZJWkhwdWxmTkQxZWRsQUVpeWtIbC1zY2htY0J0OGZFMDA3aWxob1B4a0daLW82cFVPS2hOQ1FCb0JnWnVOWlZnaFd6S0gtLWtqMQ?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "025171ce89c18199",
-      "published_at": "2026-03-10T00:22:00+00:00",
-      "title": "Trump, Pentagon give conflicting signals on end to Iran war - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcXN5WlVTUTA2NHlOTUloZV9CZXp1VEdVTzQ0cU1BQ19tYThlT1p0Wkd4aFhiN3FFZmduOTVwOEsxcHRHbHpld3hUOE1lZGFCd2VTejQzUFJiSTBMTlFFU3NOMXd5TElzZTN2dEY2ZFZqem1yY2YxYno2ZXJ1akFKatIBhgFBVV95cUxQZEdYc2xIeEVpN0F0b2Z2Tmx4Q0RseHFUZTNpSnAyN0FHWE91YVMxOVVtSzFOb291Qi12eUVyOVRvUlJpWDY0bWNQZFpobUdmT0xwb2xxS3Q3ckttay0wWUlUY0dwOS1MbzNIdGJzNXAwUTZUWHNnUllrazVoTlNfS3pGWGRlUQ?oc=5",
-      "source_name": "The Hill",
+      "id": "e5bd3adc3100f9ca",
+      "published_at": "2026-03-10T01:48:49+00:00",
+      "title": "U.S.-Israel-Iran War: Objectives and Conclusions - Rough Draft Atlanta",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE50WVF3a0l3WmkxbTBza2Y0VWVwNFFoZk1sbncyMU5VMkxkYWQxS0Y3eWNVYVJycDBmVUN1SzFzY0ZmYXp4MHhsTnotT2tzSlBwMG10bE9DLXNNbFRGdG9venpvbjV3UnBRSEE2NERDOWpqT3lPMW51T2lWVXJEZFk?oc=5",
+      "source_name": "Rough Draft Atlanta",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
