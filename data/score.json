@@ -1,35 +1,29 @@
 {
-  "generated_at": "2026-03-10T21:44:16.631323+00:00",
+  "generated_at": "2026-03-11T03:07:08.017864+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 97,
+  "event_count_window": 96,
   "totals": {
-    "usa": 52,
-    "iran": 21,
-    "lead": 31,
+    "usa": 45,
+    "iran": 32,
+    "lead": 13,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 33,
-    "iran": 15,
-    "delta": 18
+    "usa": 30,
+    "iran": 22,
+    "delta": 8
   },
   "confidence": {
-    "score": 68.0,
+    "score": 68.7,
     "label": "Medium"
   },
   "event_types": {
+    "other": 45,
     "attack": 47,
-    "other": 48,
-    "material_loss": 1,
-    "diplomatic": 1
+    "material_loss": 4
   },
   "history": [
-    {
-      "date": "2026-02-25",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-02-26",
       "usa": 0,
@@ -52,8 +46,8 @@
     },
     {
       "date": "2026-03-02",
-      "usa": 3,
-      "iran": 0
+      "usa": 0,
+      "iran": 4
     },
     {
       "date": "2026-03-03",
@@ -82,24 +76,44 @@
     },
     {
       "date": "2026-03-08",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-03-09",
-      "usa": 3,
+      "usa": 0,
       "iran": 3
     },
     {
       "date": "2026-03-10",
-      "usa": 21,
-      "iran": 9
+      "usa": 15,
+      "iran": 12
+    },
+    {
+      "date": "2026-03-11",
+      "usa": 9,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "ad4e781da49e50e0",
-      "published_at": "2026-03-10T21:37:30+00:00",
+      "id": "ab9a8b38f2e59fd0",
+      "published_at": "2026-03-11T03:05:15+00:00",
+      "title": "Iran Live Updates: U.S. Says It Struck Iranian Mine-Laying Vessels Near Strait of Hormuz - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5WNnVQWFBRemVmRlkyZnc1OWI4WU03dXJUUVJWWk1VZy16bnZSNDIwemJ4MktZWjRQLXpMSDlqUmtaaVFZLWdvUnVUNTRycGM3V3V1cVYtTU5VNkRXM3dDckdjdXMxMFBDXzZBQkZuUmptUUlWbUR2bUdB?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "279e47ebafc88944",
+      "published_at": "2026-03-11T02:54:00+00:00",
       "title": "Live updates: 'Most intense day' of U.S. strikes on Iran, Hegseth says; Tehran warns it will block oil until attacks end - NBC News",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVnJLS21XV21pOFZYMUh5TThadjJhb01Cb1d2TzlRRE5jLUJmZ1NrNUxZbk9jMzFSQTJfRUFQSkpHMTRDWlJ1NS1id281RUZ1Z2JxNUE2Tm4tMDhyaUl0LUNzcDRrX1h0VFYwcGIzaWpBZFpmdEZaTkFFcGt5d2xSU1R5dkVvbDdpM2NDNUJHWVROLWFGSU5hTThTWURMMVc4Tkh1bkdkOEZrTFRL?oc=5",
       "source_name": "NBC News",
@@ -110,104 +124,29 @@
         "usa": 3,
         "iran": 0
       },
-      "confidence": 0.8
-    },
-    {
-      "id": "bd36b0353090bc8e",
-      "published_at": "2026-03-10T21:37:16+00:00",
-      "title": "U.S. Tomahawk Hit Naval Base Beside Iranian School, Video Shows - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZWpvOEJSSnVxc0w2QmQyclZZeGVtRUVMWVlVM2RHZkNLdFE5NzFkb203Q2Y0MERlQjhvNlhLNW5hR3FVU215T21uUFB4WE1zU0c5OGRVTkxKWkJ3WmJJU1QzVjF6UllYSnpkd3J4amlBSktqcjdJUmxQVDNtS2Z2WE1WMUZxSDh3?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "f5bde0d0c244dba9",
-      "published_at": "2026-03-10T21:22:00+00:00",
-      "title": "Explosions in Tehran as Hegseth says today will be 'most intense' day of strikes on Iran so far - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50UVlTU0FUeDIxZlRJYlBZWThadTVjeWtMNGMwQ0c0WXhNTzltWFAxR2hwdndneW15Vk5ibk4wTktlaC15enFuaHV5elhFLUQ1Tk9Ldg?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ba8cc8040065d5f1",
-      "published_at": "2026-03-10T21:13:42+00:00",
-      "title": "Around 140 US service members wounded in Iran war, Pentagon says - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYndCQkpPSTFoWF9hWUItZ3VqanFSZnRZeDliYjJxRmlKLTVIOUNBdFJ5RVJ6Yno2aEZrdVNUR0c3X2NVLXZJeG01MnJacW5OMWJkdzAwbnNvRVhaZGJJT01QS2Mwckl6NXVFRHZuaDgwTjFJV1puNk5va1BjeVpCQVduS3Z6MndmNkV1NXJXdkpJXzlDc3Y4OVY5cEtlTmtnWWRkcVk4ONIBrAFBVV95cUxON2JVUkU5ektWUGRWTV95QTRlSVUtTVItYlhmZ2N6aEIwcHRodXc3TXhFOV9obE9xS3dKQkxpeDBKekRybGJfNmhkWlN1ZHhLd3hIRE82N0I5WHJEZU1YYklkbFBzdnEyM1duX2RWMC1jUThJQkdDSEtNU0NZbDU0N3pJQmwxNlltVDNzWHRjSlhSaGRMbUpnRlFOZ253WWxEdEktSUNkclc1TWpV?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "47cc1c464aa962db",
-      "published_at": "2026-03-10T21:05:00+00:00",
-      "title": "Live updates: About 140 US service members have been injured since start of Iran war, Pentagon says - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ScXVRR2t5QzJoZmZ1cHotNnNHcWt3WFBNQUgyS2ExcGZCXzV5dmFza0lNSE1GQ2ZXODFjTUtiQTJsOWxDZTY5MmFQRGVZOXRIeUJPUzRNeU1WTTlFNW45ZF83UVFxbkVKVHUwV1JsNWhlVGJpZkYxeg?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "072a13880687a732",
-      "published_at": "2026-03-10T21:05:00+00:00",
-      "title": "US and Iran dig in and ramp up threats as war rages with no end in sight - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM2JpNHRqQXdhRzM3VFNMUFY2MFhXRWduMXE4a1pmbDZsbFRUY3lFdXByek9BY3c4Z0xINFlUVkF4REQ2RDVCcnJZdmJDbGJxX3RkdlpZMlZRSF94MG5YM2FUZEJoYThuZHhjVjFzNGVEc0hTeS1VWjRiS0VzZUpOdWFqeHdRTkZVblBNbHBabmJMQQ?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "c915eecc829ebd32",
-      "published_at": "2026-03-10T20:54:02+00:00",
-      "title": "U.S. Showers Iran With Bombs in Most Intense Strikes of the War, Pentagon Says - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcFhfMnFtZG5MaU81bFZkSURwR3RVdGtXTWgyWE1NWURDOER2Wk9FVTNMMlF6NFpoUmY4dWpYNmt4SlYyQUI0aHJjY05CMHFsXzZOdGRqby1zUGVSUDl5OXZBNGhEeVY2WUFvNEZyM05hSldza0ZEX1RyOG8xeWQ2SkNYeWNTVlZBZmowbGt3?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
       "confidence": 0.85
     },
     {
-      "id": "f7069dedb32a7376",
-      "published_at": "2026-03-10T20:38:57+00:00",
-      "title": "Pentagon says about 140 U.S. troops have been injured in Iran war so far, 8 severely - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRHBMakl1eHFIWU1uS05lQkhPUGx2Sm9PeGpvNVl1bi03akMtek83YUtTZS1xVWo0cEozYVE1Q0p1S2RiRXJQYVFFRUxyRDFRMHN4c29lQmdNX2U2SDB3c0s1UlFUdHJoZHVndzRNbzlyZG5FeEdITUxoZUtELWZhTzNjS2FCNVM5eWIxUTV5dHJUalM4LVc0TUhzWk42NnZZMUhoS0pMcWxweHA1MUVBUEZFR19FTHJyRnc?oc=5",
-      "source_name": "PBS",
+      "id": "882a9a35829dd27e",
+      "published_at": "2026-03-11T02:40:00+00:00",
+      "title": "US says it destroyed 16 mine-laying vessels as Iran threatens to block Gulf oil exports - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQM2JpNHRqQXdhRzM3VFNMUFY2MFhXRWduMXE4a1pmbDZsbFRUY3lFdXByek9BY3c4Z0xINFlUVkF4REQ2RDVCcnJZdmJDbGJxX3RkdlpZMlZRSF94MG5YM2FUZEJoYThuZHhjVjFzNGVEc0hTeS1VWjRiS0VzZUpOdWFqeHdRTkZVblBNbHBabmJMQQ?oc=5",
+      "source_name": "AP News",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "80faf2fa7eea5278",
+      "published_at": "2026-03-11T02:33:13+00:00",
+      "title": "Opinion | Putin\u2019s actions in Iran demand a U.S. response - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeEVuekQ1ejZuRXM3WGZtUHRYM2NUMFE4Q1NhZ2lKbEhkWUFCdXN2blVacjFpY2gzUVA0YlFpaTVldHhUckd5S05ldVhHZ0FUNHMxLU5zQmpxb3VHaVZtYmt5eEk0WjBOUE54ckxBTWVIR1g2cWdSTmJ4UUM1eGstLXE3aWtpclF1MXJlNThzWXpXTTRzQ0Z3?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -218,71 +157,11 @@
       "confidence": 0.7
     },
     {
-      "id": "f4de897645874b93",
-      "published_at": "2026-03-10T20:19:33+00:00",
-      "title": "Pentagon Says 140 Service Members Have Been Injured in Iran War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSUFzLXRYOXVzSkhteWx6SngtQjJjdFlTcUdaR3JzODhsWGJoQ2czTjVGd012czR5WGNmV0t1SG9xdE5xUExyRVQ2MUNlRFhpWG5ZN3FZQzY5V3pJTE91Mmp6WTFkaFc4dWxEV3dlYWlQNzVpR21PbTlGY2lTdGstdFJtMA?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ec31622bbfc2cd07",
-      "published_at": "2026-03-10T20:09:09+00:00",
-      "title": "Around 140 US Troops Wounded in Attacks Since Start of Iran War, Pentagon Says - Kurdistan24",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLXJQWkM1bl94UVk3WDlQNFgzMUhob3U1VlY0Y0NXYUZrSnRlTjdmdnZGb3JSZDVxQlpOR2Zia2pKSVBOdERrRkc3aTdwN1RoWmdsVFRVRHg5R3phTEJlbi1xVms4RGlXZ2oyaWdVMU1uRGR1MC1kUEpRdDNEaVhMSmRKbVdjVGc5bVNqQlgyTTJ1ZmNUdWRMVGRqNkZMeVpfclJZWFlsQ01WeHpkWnljZWpNTk0wMXNfVVpIVFRB?oc=5",
-      "source_name": "Kurdistan24",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "8bcb2dbad89d47e6",
-      "published_at": "2026-03-10T19:37:40+00:00",
-      "title": "When Will the War End? Trump\u2019s Responses Are All Over the Place. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVldSeVR2cDVveEVQcWdLcmFzMmtLMnVwdF9jdU5IUUVvaW9QS2tFUmp4ZzBSVG5qWGIxaVRpT2ZBN21oUWd6MXJDNlFDdVltNVRWUXhRSnd5N0ttM2ZwQWUzTWUxZDZUczZLZmR6T2JCT011TERWajNUb0JHc2NYY1NEb0JoNFh3SzZRNg?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "449d97459a5bba39",
-      "published_at": "2026-03-10T19:29:00+00:00",
-      "title": "Briefing on Trump\u2019s Iran war angers US Senate Dems as Pentagon reports 140 troops injured - News From The States",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOZGpGbjVWV1NNbTZ2N2lNczdfZTFrWVItRWI0WnF6OVpyeW9aV1drUFpwWGxaT1dPWGN1aUZjVzZOVWdlTGpZOTAwdnVxcGtNWmk2S1gtbklGWF9OZTZSc1dKQXEwcTRuczFaNk91N2lGQ1NNcS1tbWRvS2E3dmdNMnRISWxEdlJsT2ZKQ2V3eHVBTG14LUJpOTFuTVc3UGFoVXM4amM3c2xmbzFSalRabHVUb0R4WWFSYUJhMjJSMUhXQQ?oc=5",
-      "source_name": "News From The States",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "6109b8d330ae7123",
-      "published_at": "2026-03-10T19:15:35+00:00",
-      "title": "The US-Iran war has no legal basis \u2014 and no exit strategy - Jurist",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQenNRR3ZKQk91OWpVZS13RUlxV2lqTklmZXJMNVNGak5qcVpKcWNndkM2S3VtejBkTEZTdWdSelpaOS1QM0RGMGNueWp0cElwZ1RKMWY1NGtrVUhZNnFvTnA2Smc1eDVHcHRzUVBPc2NESC1IQkRlbHlmUlZVR1pHa2RJcFY3YVg5VVc0WXY1amMxV0tPVlNMbkFiNkJJWlU?oc=5",
-      "source_name": "Jurist",
+      "id": "4fa05b088d81c981",
+      "published_at": "2026-03-11T02:30:00+00:00",
+      "title": "Iran is becoming more defiant in face of US-Israeli onslaught - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPTFpqMDYtY0tUMlVhbVhVUGFsclNZTG83eDZHQnNrU0t1VXFPM0NRTmN3NEpQSWg5dnR6UmVhVHNFYWc3N3RXU2F4eVl5anQyRFlrNkU2djhHRC14T2tLMm5SSl9OUDdSUDNmeEpvcFVaMWphbkdqVkw5NXJWTnhiUU5iWlQ5YVh1ZWtaNWJ0Ry13bU5pWFg5SllWXzdXeC1xVFRYV1Flc3lXalhtb0wwMzVET2UxbU9TU05kMXp1YlFmbGUxMjVuV2pwYkx5SVE?oc=5",
+      "source_name": "The Guardian",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -293,83 +172,8 @@
       "confidence": 0.55
     },
     {
-      "id": "8259e2e90055dc42",
-      "published_at": "2026-03-10T19:05:08+00:00",
-      "title": "Unlike Past U.S. Conflicts, Iran Attack Is Opposed by Most Americans - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBfc2VPMVdnbUliLTd3VmhlU3lhakpKT2Nrd0hNTVpQbU9ZYzNFaDg4anJXTFlIajUxZGJ4czAxdEdyR2piX01zUmxHNTV6c1pUZVZDRXlkTV90RDFkZlJIQXdfSi03bWZOU3JLclJkYy1ZclJsdnVWamlwWG9ZUQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "06e45c135bd3e687",
-      "published_at": "2026-03-10T18:30:19+00:00",
-      "title": "Scoop: U.S. asks Israel to halt strikes on Iran's energy infrastructure - Axios",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JSkxSUkY5SmdILXg2MjVwNTV4YmhoR2U3bHRWai1aQWJITHRVejZvNnU0eXJKZW90TkFvcWQ5MkY3R1dkSzd1c2dlX0dqWDdHQXR5elVMT2g0eGU2T1VlT1JpM1hydWtEUkh2UlBGQQ?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "06d00fa9e382a129",
-      "published_at": "2026-03-10T18:18:30+00:00",
-      "title": "Polls show what Americans think about the war in Iran - PBS",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMnhPRGdxYWtSdHZFanBOMWhJUDdGU1VnalNEcHc2SHRJVW11VXBYSnlOY2R0LWU0THNOS25LYTJXZ19Nb3hJM1JXTUtXLWg2eW9hS2x3S3BTN2tUUGNQdFNabnV0RFFVUnc3eDJwRENBZ1FkTDdkam1xdmdJRDUyRVhxamJsNjBaMmlWVDRkMVNIbExOdEHSAZsBQVVfeXFMT2tOM0VHRUVqdEpsUmUzQTVwSnpfejhWTWxpdGJreGo3NWxrU0h1RkVQUDJIN0hrRGZ6M1lGRmZFWnRyNy05Nl80ZjhQejQ0dDIyZWJhbEVQQWlKMUtDUkliOWtpWjBvRGZIdG5aeVcyLVhIaHRYZ0ttdWRVS0Y4NFZFZTB6RVZCOHhVMXZlMHV1Yk9HdkFVbk50bDg?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "8e716c6883d8f5de",
-      "published_at": "2026-03-10T18:05:00+00:00",
-      "title": "U.S. launches most intense day of strikes in Iran conflict - localnewslive.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ08tNDRuMTE1S0hhd21kUnhxU2tJLTlLeG82OVdtZ25XNE9QNjZpY1ZmOUYyUVppTXNrdkVrQUIwTEJoRVFYdGVycmw5TUk4ZU5nZVNpdDY0SG84WjhhMTFpcmVoUjhNNDdBbTlNUGdNYmQzanBkRkNSWDNBam1TNEp3NHM2MzhfbGlKb1BETUhjMTd2X2Rj?oc=5",
-      "source_name": "localnewslive.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "252e3d09074da849",
-      "published_at": "2026-03-10T17:48:52+00:00",
-      "title": "Trump\u2019s war against Iran is uniquely unpopular among US military actions of the past century - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPaW4wZWc3NjhxaEdOSEpLTjlDTlNrWTdhWWRDU1J0T1l4WVpVN3E4WUZGdlNsWUZjZ0l0Q1I5eVh3eldiUWpTcWx5SjNMRzlmd2QwNnVxaFJFdEp1NU03OTQzQUF0b2pIZkM3cmZDbk1GYUR3b0kwa1dmS0dxNDE2MWw1aG5LbXBQM2lZMFZJWEtOdEYybEI2cGluRUR4c0lWTk41WWIyZndVc0w4WjU2RThlYWRraXNrd09CVGdXRHhENGlu?oc=5",
-      "source_name": "The Conversation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e7c9ab432107095d",
-      "published_at": "2026-03-10T17:38:00+00:00",
+      "id": "5c566299c861abff",
+      "published_at": "2026-03-11T02:30:00+00:00",
       "title": "Tehran endures \u2018worst night of strikes\u2019 amid mixed US messages about more to come - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWlJWdUkyRFM5ODYyWC1OTjFVaU9scUhUSUhiZmZKWFlQTVQxMFR3QjZuTW5wNWxmemhUNXhlcS05UHlJbEdXNFFFdHZodV9pY3lSMFJnU2RRYVVSdkx1dnEwQ1ItanF0bVJVM2RGV1NiT2w3ZnZEN2hCYnFyZGlnb19XN2Y?oc=5",
       "source_name": "The Guardian",
@@ -383,11 +187,206 @@
       "confidence": 0.65
     },
     {
-      "id": "65717fd3eee75a05",
-      "published_at": "2026-03-10T17:27:55+00:00",
-      "title": "Live updates: About 140 US troops wounded in Iran war, 8 severely, Pentagon says - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UMGVHS1dVaXhGSnQ3dS01V05aSHJxOTllWkI0MlFHWExwem01OWpTZVZMUlhTbTRVZGJRV01FSFNkWjNCVnVQUWFqc2hGOVNQbHd2ZWE0cnItSzE0cXUzQlJmTGZYWE42?oc=5",
-      "source_name": "AP News",
+      "id": "38663f00890bf497",
+      "published_at": "2026-03-11T02:11:59+00:00",
+      "title": "How Trump and His Advisers Miscalculated Iran\u2019s Response to War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRFBuWF9PQjcxbG8ydmNEMGRXdFI4aW5sbEh6aHIwNXlNYjBPeG83VUxlaHZqMnN6WkFPOHRNeXhmUnpCV042bGRjblE5V1R0cG1YbkhST2ptSzdtUkVubnpfMzcwVk1QcDFhVWQtYmROOGVkakN3WGI1dTBkYW9TaTVtLVd3M1J1WXp2b2ZiTDdSNUU?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4aa5ce6608913450",
+      "published_at": "2026-03-11T02:08:19+00:00",
+      "title": "Iran war live: Tehran says US, Israel have hit nearly 10,000 civilian sites - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOc0lINXRiZWpvc0xuYjNKZDBmOTlnanQ2UWpZaGc0dENRQnFGczBpdEdXZ0lNTTh5SzJfNHRuUnNWWFdxYmJoZ3d5WUtiNUZDZjY0cFRrS1huUW1zMHV6bmNjd1FGbFhueUY1YkFMVzA5NTBlYlhRLUQzRnctNFlLSUxJQjRvU3ZmSWJtd0FCMjVhd0VuNVRjSW52b3Bnb3Bkb3FLVmdCeEgxUi1ERWdwTnotMjB4RUhW0gG-AUFVX3lxTE5SRFh5clk0dG43WlQyaHFpcV9MNHpISDB1TS1oU0RGWEJ5cHAtcjVWZzBSZFNvWVhSeTZQcnRUWmNmeC1WZkNLaV9HZko1M1RhaTNJaEJCT3dZSFdDMDg2RHRiUXZGZS1tSkRNbU12a1h3TGVCdFE3RURMTnI3RldpNzZFUk84Rlp0UVpBNldadGluZXdBYTU3RXhBRWgzUEpYSjR5Um1wLUZGM09IRHIyaG1wcmp6SEE2SDRyZVE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "46a1501dc160a3bd",
+      "published_at": "2026-03-11T02:00:00+00:00",
+      "title": "Trump Says the Iran War Is Nearly Won but Israel Has Other Ideas - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitgNBVV95cUxNS1V3RGNfRVNiM3BTTkdTd0w2eWREZFhLUWVYWm5IQWxHak1JQlAzOGN2c0ZlUlF0WnBZRlNCUEhJYWFNajl6ZDg2c3RoLUEtZ1RXUHpiOGtDNUNXNWtaQjY1VWR2d0UxWFdFczhtSjVmYUxBSXd2dFhzX05zOEZQazRWcE1iR01ELXF5R2xxSk02Zkswbnc3RlEwUWYzNXFmdzhLMW9xTjdfRy1iWFJnRFBYSWIyaFE3NnZjMkNxdkFVcWxhVDNFbmxfbGFlMDNnNkR2X05raWJTam1EZDl1SmZ3SDlfLVVzbFBxejNSTGg5NGlTSk55aXRDREtlUk9oTm1pQzVDZDFTM2lqTTBBMDAxWWhUcUMwRV8wczFHclRlWmdjVzVVLVc2R3ZFVEZnS0FWZ2NnQlJhUkNxQUloWVdBWGw3UzMzdVVrWWVMUHFmbmRMb3dENEtROENlc1V4ZEVEUFpJN1R3eFo5SkRGVVhieWpjRno1YUpRY1ktYktHVWJoejlxY05iR0VhcTR4NXVRNWo4OGdVbU9peThOWHNjbEhBRDNaS1VzcDZOdE1aN05faXc?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b235e5dd21758a90",
+      "published_at": "2026-03-11T01:36:34+00:00",
+      "title": "\u2018No endgame\u2019: Why US Democrats say Iran war hearing has them worried - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPN1VxUm1YVDF5NE1VUUF3WnJWVXdrUnBfaTZnUWNydDI4QTF6ZUpfVWVPOU9TNjBWZC1Kemd1cS1aTkdrMVgzYzRndjI4cGgwWS1wc1phbEtQS0ZNeDllbDlSVzZ2SU5lWkIxQkFnTzRpcmY5RDBNLWV2cWtmQUd5VDBRSUF6S3Q2N0hJbGdnN1dKRWNGR3RYNjlkYjRrVWxsN3ZHRU0zaWNVQdIBrwFBVV95cUxOYkVZODQ1dzdsY1F3QUNtYjFyQVpOZEVVT1Z0U2dnaWNsdlU0R2ZwUlBIQmRVOXkxbFFSSXVFM05OWnBSU25LVklSX0xHSVU3UU5jN292eWJ0U2xhMVBYN2UwVjVLNlB1Wmg5OEVpcjRSWGtHenZpcDRRYmhXaTJTQlY3YnNncXJ0cFc3SGFhYll3SGlxRXNuQ0tfODZZMlFZS0U3RjJ1dDVLUUM1OS1n?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6828e3c963931528",
+      "published_at": "2026-03-11T01:36:00+00:00",
+      "title": "Live updates: US says it destroyed Iranian naval ships and minelayers near the Strait of Hormuz - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ScXVRR2t5QzJoZmZ1cHotNnNHcWt3WFBNQUgyS2ExcGZCXzV5dmFza0lNSE1GQ2ZXODFjTUtiQTJsOWxDZTY5MmFQRGVZOXRIeUJPUzRNeU1WTTlFNW45ZF83UVFxbkVKVHUwV1JsNWhlVGJpZkYxeg?oc=5",
+      "source_name": "CNN",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "dbbcadd1cfc36a4f",
+      "published_at": "2026-03-11T01:34:27+00:00",
+      "title": "What We Know About the U.S. Service Members Killed in the Iran War - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUWVwZW1ZcUU1LWJBNGJYd29QWlJGWlpJX1NGQ3R0anFleFdrS2hBVnY1YUZEb1ZUUk92R0ZIZmlsRjNsWmtYNTNBUGdlbWhmYVZYNE5FOC1CX3ctaFh5OS1ocEdJMllCMzFJY0VEVFlERFlTQzA4dEl6dWRBTW1VbW5QTEg0Sy1BZkE?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "b2859e444b544796",
+      "published_at": "2026-03-11T01:34:00+00:00",
+      "title": "Defense Secretary Pete Hegseth vowed that Tuesday would be the \u201cmost intense day\u201d of U.S. strikes against Iran since the start of the war, after President Trump sent mixed signals about a possible end to the conflict. Follow live updates. https://nyti.ms/4ddc0u - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPSTlBM0dtNUtLQVY1OWhCWFN3WGl6dV9nRWN4c2llZThvVjRxcmYyc190dS1IeDdNcjNPV3V2WTFvcE5kRTlGWm96bHdQVVBHYnNZaVduZ0RYaExkbENFQkI3LUo1enNRR2hKcU1YVklkVTgxVHdPXzFEajF2S1Y5T0s4VnB1UHNrdUZhdGRjcjZwYUY2Wmg4LW9Oa1BpUTZhRUFpWlM0cWp3LXdvMzRVY1dHbl8wdWFWTTFmWG9hTm5pcXhmX1BfNXBNd3V0S2dwQjhr?oc=5",
+      "source_name": "Facebook",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "d9fc004ac28627d4",
+      "published_at": "2026-03-11T01:18:07+00:00",
+      "title": "US strikes Iranian mine-laying vessels as Middle East war intensifies - France 24",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOC0zeXc5ZENOZ2lRMk1wUms1QUpvd0JwLVlrNVY2bFZPTm44bE16NDFsRmw5bmNka2dUS2dCLTEzaEJWYTRxajZXb0ZYX2JFSnJGQkcteW9RalZ5WUo3SXlKMC1PWlFVSEd2Wi1yT2MxZTZRNkFSQWRsSGpaOFc0VUNnTXhnTkNqckVjUzN3MlgyaVZla1RTUmZlZVpfdFQyd1lzQjFOQ0o3QzRaeEY1TlpHaVhmY3Y2S2c?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a705fdfbd263f18d",
+      "published_at": "2026-03-11T01:01:05+00:00",
+      "title": "I Was a US Intelligence Analyst. Here's What a Ground Invasion of Iran Could Look Like - Zeteo | Substack",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vVkJPS3hKTDAxclJHZWc0MUZGOXdfZmpqcGVGc1V5aFp5eTdvX2JBdGJxTFI5c3I5RTZoZm82cHNES21FX2Q4VHEtd0o1eUl2djlpSm96bmVta0M3dXBqd1pzX2toNC1YV3kwMUJvNTl3dw?oc=5",
+      "source_name": "Zeteo | Substack",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e542ca242040486f",
+      "published_at": "2026-03-11T00:56:15+00:00",
+      "title": "Why Netanyahu Chose to Strike Iran Now - Arab Center Washington DC",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1yMVZXek5aWmJnYTJycXdQZEF2NDd5dUtDMjl0clRSSTY3cjNxQ2FkMDE5WXFTWkdrTmRUR19zeDZuWlNRcUZXUGVocm16c3hUbHFBem5KdnlhMmRoaGZ6UW0yb3VJYU82UE5qUTVFSFl6N25iYVpmS3IzRUFWZw?oc=5",
+      "source_name": "Arab Center Washington DC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "9f2afe0502bc6b3f",
+      "published_at": "2026-03-11T00:29:06+00:00",
+      "title": "Israel launches new strikes at Iran and Lebanon, as US says it has hit 16 Iranian mine-laying ships - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE50UVlTU0FUeDIxZlRJYlBZWThadTVjeWtMNGMwQ0c0WXhNTzltWFAxR2hwdndneW15Vk5ibk4wTktlaC15enFuaHV5elhFLUQ1Tk9Ldg?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "43a1af50a53bdd9c",
+      "published_at": "2026-03-11T00:06:06+00:00",
+      "title": "US strikes minelaying ships in Iran after warning of 'intense' day of bombing - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zdk9QMUQ5QmNzT0VKMHlyWXhTQlNCOVgtU3ZZOUhQc0FzeUV5dV9RQUVmSVN4VVFtYjdQS0p6MVBubVVTbGdtRjVodjZ5MVpJNlBzWlBQMVB6Zw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "4dc5227e132e5036",
+      "published_at": "2026-03-10T23:44:58+00:00",
+      "title": "Iranian Military Shows It Knows How to Adapt, U.S. Officials Say - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1FblpSZTIyUTZqa2dnSW5ueTMxVDRPTFNkWVlHcWttdDhwdThSNU1jS1lHWVpnMTR3SldfdXBsYk5pMmhSb2M4Y3h0SHZPdl91bFEtaHU4ZlpsZ3FmbUhmbDk0YWxzMXRoTGJwcEdSbFlwbGhEM0VOU05kUUtPZw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "32853ae34490f2b6",
+      "published_at": "2026-03-10T23:36:33+00:00",
+      "title": "The Latest: About 140 US troops injured, 8 severely, so far in Iran war, Pentagon says - MilitaryNews.com",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPV2EwTW1QYzRqS1drdkpvQnExQmFOeWktdTBKWkp2bS1PaXhzb3U1cndadzJXbUIxNkRSSzFkNE1zbzlVZnVxYURXMDE4V3BYMDd2MGhjSXIydWJwV0tDN1hPUVhWZ1NfT2xSQk1lMWd5TjJnS3l0Wm1ueUFkMk1nTDZwVHZUa2s1ZnVwRkxwRnpYeDZOWEJWMWM4SV9NblByWHVvRENUbHpWNVJQTnhCZW41bVI5VVNRTEtHNnV0ZjRvS01UNHpZSmFfMnpNYWJ6Q3VnSklyM0VkQ0FFZ20wUjFGeHV2cWVTbnZ4YXo3RGR5WGZkVEREWkh4RFdrUGs?oc=5",
+      "source_name": "MilitaryNews.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
