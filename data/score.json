@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-03-13T04:56:46.214195+00:00",
+  "generated_at": "2026-03-13T07:13:49.790400+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 96,
   "totals": {
-    "usa": 43,
-    "iran": 16,
+    "usa": 48,
+    "iran": 21,
     "lead": 27,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 31,
-    "iran": 12,
-    "delta": 19
+    "usa": 33,
+    "iran": 17,
+    "delta": 16
   },
   "confidence": {
-    "score": 65.2,
+    "score": 65.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 58,
-    "attack": 38,
-    "material_loss": 2
+    "other": 53,
+    "attack": 41,
+    "intercept": 1,
+    "material_loss": 1
   },
   "history": [
     {
@@ -31,7 +32,7 @@
     },
     {
       "date": "2026-03-01",
-      "usa": 3,
+      "usa": 6,
       "iran": 0
     },
     {
@@ -77,7 +78,7 @@
     {
       "date": "2026-03-10",
       "usa": 6,
-      "iran": 3
+      "iran": 6
     },
     {
       "date": "2026-03-11",
@@ -86,19 +87,19 @@
     },
     {
       "date": "2026-03-12",
-      "usa": 16,
+      "usa": 18,
       "iran": 0
     },
     {
       "date": "2026-03-13",
       "usa": 6,
-      "iran": 3
+      "iran": 5
     }
   ],
   "latest_events": [
     {
       "id": "fb0501012b251d98",
-      "published_at": "2026-03-13T04:30:39+00:00",
+      "published_at": "2026-03-13T07:07:16+00:00",
       "title": "Iran War Live Updates: U.S. Refueling Plane Crashes in Iraq, Military Says - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOS0ZFNVpfQnkwMl9ZdG1rN1hodnNvVnNsYldIY0tqMHJNVFc5Rk04a0FITk0yRFJvTk1Db1FHVVhKcnl5VFloQ2F4YlhfNEJieDk0czZyMVk1cXludERoblRKQmlrYVNSLU1rSXMzWVo4VE1jaVFMYVgtajQ0WDVaUnBn?oc=5",
       "source_name": "The New York Times",
@@ -110,6 +111,171 @@
         "iran": 0
       },
       "confidence": 0.75
+    },
+    {
+      "id": "df15101c2bc9de6a",
+      "published_at": "2026-03-13T06:55:08+00:00",
+      "title": "Iran war live: US-Israeli strikes across Tehran; drones near Riyadh - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaXczNWtBUE9tMUowWTJraUMtOXhEWlNtRmFjb0RpTGZZM18xalhXTjRmQ0ctNGpydHhCNGxNR3k2UHBfOXV4d0VxZUdJOTF1NVZIdEs1QkZfLUd6YW9vUC00RTJ6WENhRUdYaThVdldvZTZPc0JBU0I4eHRIRl9MblNBU2gtcUhxZml5TE5RVUtBLWhVeE5rcmlyN2UtY2gwSTU1Mlp3c2FtU0tvRmJneE84RWlCWHJhNHFR0gHAAUFVX3lxTE5kbk1qc1UzaXBfZnJwX0V3YUtzQ3VqdWNSU0FyNzNObTczTWM3ODNfUkhWdGZWVHVaM3JOLW1na3BVblpqaFd3dkMwTk1DWUdFSko5VXdCNzRuWHg3ZjdyNEhsZENyZlpKQU5paW1lSGpsd3pwTTZrUUVOVUtlSGJhRk9ybl9wLVYzRXZKU2RCd3E5NjQ1RWFoNURtODN4MG5VRXozSE56ZElSOXRNa0ktSkhpSnRlanVDRzVPWG1Heg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "9d395c41fc2d6001",
+      "published_at": "2026-03-13T06:13:36+00:00",
+      "title": "Iran war: What is happening on day 14 of US-Israel attacks? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcTg1a3dRMDlhVU9OQlE3R3VGdW0wZTllRHpicUMxOG9GLWpRdzFlZXZXSFJoN3V6azVMUUg3OVlPVmkwVU9JcV90UzVKU3pLY29ST1NmTmdtYW1QeVI3M25ZQ3hfWVd5anJDTDRwRTR4a2lwWWhjem5rdmY0SjQ4YllubngxN3pPTkhlSlhnVm16azVVa3VudkVGQlNqcDQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f2d121ba87c0573b",
+      "published_at": "2026-03-13T06:09:46+00:00",
+      "title": "How Israel-US war on Iran puts $50bn in Indian remittances at risk - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc2hVZmlvenMyX3phX19RbWNFZUg5cFd2ZEpwaThJaHdaM1NFbjlPNzlUTUFMbXBtbzBxTGVSdzBHOVVMZW5fLWs2U0J6SWU4ZVpCV0VQWW1kWXotVGVKZTRvcHkwa2x1eUVPWG80UmYtWEFzeWFoRlh1VTZDUzNEVGlwclZUQVVYSWxodzMtWFQzS1plelZEVVdsSUczMjRzNmlZN3ByT0xOd9IBrwFBVV95cUxOOUJkaUpMWFBQdVhnWU5kV3hnT2RXei04VGljMlVaLXRFRGszdzQ1SHhMSUN1U2lZTzhyMzZUN1dKOHVGYTl0T3dTT3FXS3NUdXppVm1QVXhleTV4eHV5aHg0QmRpZ0RfYkMtMnVPWTRHRl9iYTNEc3RHVEVTRDkzcF9OQktPM0FiR3RzanBlenRyQkU3dE5hT0lyenlHM1M0SjlIQmhBRkNjSEJoR0Jz?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cd2cb41ff3138570",
+      "published_at": "2026-03-13T05:59:23+00:00",
+      "title": "Live updates: Iran's new supreme leader vows to keep blocking Strait of Hormuz as oil prices spike again - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc2ZoSTBzeGVoVUlXLXFYYjNLN0pWcXh2c3R5anFOTDZoSF9ocVhQVGpHd0FzaXlyeTh6Y2RIeHYzWXpFazJKWS15cmsyRW94Z24yaUtqODc1Zkh4ZmpXNngtWWdyMFFpdV9jQWVPeWdLVm9PMl9oVnlXQngzWGYzdl9kY29Pa3hLNmtyYTV6aml6cFAyVXl4bG5IMDc5cWF5YXdjYm9UVy1XdG9NdjFrZzBGaHNoU2l4LTItYVpIZw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "537555dc05441398",
+      "published_at": "2026-03-13T05:27:00+00:00",
+      "title": "Live Updates: Iran war paralyzes oil trade, U.S. military plane crashes in Iraq - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQk9sOFBIRThfLTJoRjdld3ViaWxrNDZ1R19odFlJRVltczhXdDh5emU5dUFQM1lCOFJfVUhwdk1pb1VZNG9Tc1pGR05id3FodzJBSkRreFU2b0JFa0hXaUNHTmFOcGVxVWdza1FIQUUyUGlkaUlnN1ZFMGZ2VnN6VmtHcm5uUjROWURFT2xqblZOcnBVam5EdE12UU52dllwSnI0cG1VSld1Z0hSRlZzS9IBtgFBVV95cUxNN2N0QTByRHJXNmRKSXdlSlFXTDVDeGtOd1JGQUtodDA4a1oydTZHSFhYQ1AtWE1HXzVHWDBGVk1qS1Y0UXlGVGxFWjIzN1NFRXZjRERRMGhBdVpHTXZHcDZxSGpuSXlOcTM1WDlaUmlOSFdlRWhYQ19IR2p6bFl0eUlQcF9IYTZ5RGxxbWNwQXRWc1p3b0dJR1M4ZFVVWlpyV3J3N0lwU25LNll5SzhhV0dmVThOdw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "71a430201fa298e4",
+      "published_at": "2026-03-13T05:17:00+00:00",
+      "title": "Trump and Iran Strike Defiant Tone as Oil Markets See Little Relief - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSFBSakVBQjhjZHBxX3lUTnM2YjVCMHNaZVlrU3d5ckdWcnAtei1DWUlQWDY4NDEzNURCeXNDQnFzcW93OVRyRjM4ZS0tSjZfaWpCWDVyV21XVXJORDhHRlRtVHRNMzBiYXJoemhBUU5nRk8tSkZuVHJhTGhiZXJBcEpNcktjSDFBWEJZa1dDMmdsci02dW9XZktXblFCdjNMT0M4T0w5S3BMY1hxbWhYRDBYZW4?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d1eab8dd042cc199",
+      "published_at": "2026-03-13T05:15:00+00:00",
+      "title": "Iran war disrupts energy supplies as Iran\u2019s new leader resolves to keep fighting - AP News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT3UyV1FyQ2VRM3VLV2JXaUhzNWpzYUUyYnotbnkybzc2X1Jaakh4ZlRwcE1QaFkwUU94YTN0RVBnVEV1amRPYzd4WFdiczNwTWhtTVZHYXU3NlY3YllCMG9hRkdDUFp0bEdJNnZBX1hXUi1QY1ZoNmNZUGVyTW9rNDQ0ZHNKcHZ0Y2R1OWtheFhkQVVKVWlpU0Z4enFpRVZ1?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "43bad56b1654bcdb",
+      "published_at": "2026-03-13T05:02:10+00:00",
+      "title": "Exclusive: With Iran war exit elusive, Trump aides vie to affect outcome - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMGNvdWxQazMxelV6UklsTUloWlB3SC03cHFkOXVZdmJRMkpLYkFlVHpYODlMOTN5aHVKaUpkQnZ2UUFOazJudzVOQktqYmxFQ2pHeUNNTVBPZEFJeXRVa3NfWEpEZDBMb1o0QXZDOTY1Uk1uTjVnT2M4LUZ0dWc4a2h4WXRYeDB6VkxLOF80NjR6a3M1alpCQVJJQUVsSVJnd3FiNA?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6d96056b4be57c8c",
+      "published_at": "2026-03-13T04:53:33+00:00",
+      "title": "Iran war live: Tehran warns attacks on energy sites will trigger \u2018crushing\u2019 regional response - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FeXpPbkl0TndOTmdVREw1ZUF0MTE1MDd3SXFQWHpWbTBBWEtVWVhlZmZZX2pJZ3BDNERQay1pWW1jbElKNUNEVUFfTVdkTXdaZjB2eUlLblpySXdWN2JLOXUwWWlBRjI2azN0V1V0N1ZZRjg?oc=5",
+      "source_name": "Middle East Eye",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "27732add7a1b2ec0",
+      "published_at": "2026-03-13T04:33:57+00:00",
+      "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee (AJC)",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+      "source_name": "American Jewish Committee (AJC)",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "e81c91eb50d4175e",
+      "published_at": "2026-03-13T04:31:00+00:00",
+      "title": "Day 13 of Middle East conflict \u2014 global economy disruptions, Iranian attacks spread to sea - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WcXdVdFdaMFgtMjZ2WGQxS1I4cG5zYmdUT2hxSzdJY3pJc1RDS3NwTmNhS3Y0QktnVWpoWE9oX3JqcndjUkxxaGlVenFDWllpek5iQ3BOX0JYVEFGRm5xTDVJV2F0cjhCb28taWpYSnpYMGdGVWhFSA?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
     },
     {
       "id": "f65e92ef128914d5",
@@ -127,19 +293,19 @@
       "confidence": 0.65
     },
     {
-      "id": "f55d6a209f0f10f1",
-      "published_at": "2026-03-13T04:25:01+00:00",
-      "title": "Iran war live: Trump says war going \u2018well\u2019 as Gulf under wave of attacks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaXczNWtBUE9tMUowWTJraUMtOXhEWlNtRmFjb0RpTGZZM18xalhXTjRmQ0ctNGpydHhCNGxNR3k2UHBfOXV4d0VxZUdJOTF1NVZIdEs1QkZfLUd6YW9vUC00RTJ6WENhRUdYaThVdldvZTZPc0JBU0I4eHRIRl9MblNBU2gtcUhxZml5TE5RVUtBLWhVeE5rcmlyN2UtY2gwSTU1Mlp3c2FtU0tvRmJneE84RWlCWHJhNHFR0gHAAUFVX3lxTE5kbk1qc1UzaXBfZnJwX0V3YUtzQ3VqdWNSU0FyNzNObTczTWM3ODNfUkhWdGZWVHVaM3JOLW1na3BVblpqaFd3dkMwTk1DWUdFSko5VXdCNzRuWHg3ZjdyNEhsZENyZlpKQU5paW1lSGpsd3pwTTZrUUVOVUtlSGJhRk9ybl9wLVYzRXZKU2RCd3E5NjQ1RWFoNURtODN4MG5VRXozSE56ZElSOXRNa0ktSkhpSnRlanVDRzVPWG1Heg?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
+      "id": "01afe853fe0fae86",
+      "published_at": "2026-03-13T04:27:08+00:00",
+      "title": "What we know on the 14th day of the US and Israel\u2019s war with Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdnA2YktjNXh1Vmx3TzI1TEVKanY5TU1PbGlMNDM5N2lyMG5lVWRlQUNtRlhvM3lMOXdMWUVVdDcwUEdBVEI5RnJ4YUZXd1B3WnZmdmowUUtiU0NMcnZqODg2dV8tVWFzZDFtMDVueGVsUGNnVWdGbmFlZXBOaTF3REFubEhWTHdHdzU4dktXM08zVDVMUWdCWjhB?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
       "id": "0f8cdf4ba08fb0f3",
@@ -157,51 +323,6 @@
       "confidence": 0.55
     },
     {
-      "id": "732e9ca8a1733106",
-      "published_at": "2026-03-13T03:55:00+00:00",
-      "title": "Live updates: Iran threatens energy infrastructure as Middle East conflict roils global economy - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9WcXdVdFdaMFgtMjZ2WGQxS1I4cG5zYmdUT2hxSzdJY3pJc1RDS3NwTmNhS3Y0QktnVWpoWE9oX3JqcndjUkxxaGlVenFDWllpek5iQ3BOX0JYVEFGRm5xTDVJV2F0cjhCb28taWpYSnpYMGdGVWhFSA?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "537555dc05441398",
-      "published_at": "2026-03-13T03:48:00+00:00",
-      "title": "Live Updates: Iran war paralyzes oil trade, U.S. military plane crashes in Iraq - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQk9sOFBIRThfLTJoRjdld3ViaWxrNDZ1R19odFlJRVltczhXdDh5emU5dUFQM1lCOFJfVUhwdk1pb1VZNG9Tc1pGR05id3FodzJBSkRreFU2b0JFa0hXaUNHTmFOcGVxVWdza1FIQUUyUGlkaUlnN1ZFMGZ2VnN6VmtHcm5uUjROWURFT2xqblZOcnBVam5EdE12UU52dllwSnI0cG1VSld1Z0hSRlZzS9IBtgFBVV95cUxNN2N0QTByRHJXNmRKSXdlSlFXTDVDeGtOd1JGQUtodDA4a1oydTZHSFhYQ1AtWE1HXzVHWDBGVk1qS1Y0UXlGVGxFWjIzN1NFRXZjRERRMGhBdVpHTXZHcDZxSGpuSXlOcTM1WDlaUmlOSFdlRWhYQ19IR2p6bFl0eUlQcF9IYTZ5RGxxbWNwQXRWc1p3b0dJR1M4ZFVVWlpyV3J3N0lwU25LNll5SzhhV0dmVThOdw?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "cd2cb41ff3138570",
-      "published_at": "2026-03-13T03:37:00+00:00",
-      "title": "Live updates: Iran's new supreme leader vows to keep blocking Strait of Hormuz as oil prices spike again - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQc2ZoSTBzeGVoVUlXLXFYYjNLN0pWcXh2c3R5anFOTDZoSF9ocVhQVGpHd0FzaXlyeTh6Y2RIeHYzWXpFazJKWS15cmsyRW94Z24yaUtqODc1Zkh4ZmpXNngtWWdyMFFpdV9jQWVPeWdLVm9PMl9oVnlXQngzWGYzdl9kY29Pa3hLNmtyYTV6aml6cFAyVXl4bG5IMDc5cWF5YXdjYm9UVy1XdG9NdjFrZzBGaHNoU2l4LTItYVpIZw?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
       "id": "bad37197641e9283",
       "published_at": "2026-03-13T03:34:39+00:00",
       "title": "US and Israeli forces have hit Tehran with strikes as targets across Iran continue to be taken out. - facebook.com",
@@ -217,26 +338,11 @@
       "confidence": 0.65
     },
     {
-      "id": "71a430201fa298e4",
-      "published_at": "2026-03-13T03:34:00+00:00",
-      "title": "Trump and Iran Strike Defiant Tone as Oil Markets See Little Relief - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSFBSakVBQjhjZHBxX3lUTnM2YjVCMHNaZVlrU3d5ckdWcnAtei1DWUlQWDY4NDEzNURCeXNDQnFzcW93OVRyRjM4ZS0tSjZfaWpCWDVyV21XVXJORDhHRlRtVHRNMzBiYXJoemhBUU5nRk8tSkZuVHJhTGhiZXJBcEpNcktjSDFBWEJZa1dDMmdsci02dW9XZktXblFCdjNMT0M4T0w5S3BMY1hxbWhYRDBYZW4?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b1fed55b4367f390",
-      "published_at": "2026-03-13T02:59:05+00:00",
-      "title": "Iran Update Evening Special Report, March 12, 2026 - Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNU0RGcWF1d2gzUVkwckZSTGtJWFpwU2pJQXQ0ZGo3b3ZEYUpxVWRGdERKbUg3bEhfVERQV0pQTHg3T2otaElEQU01NlNnMXItWHRYenlmLXpMMjQyUFBEdUFEQ0NYUVpYRXVGTHhvM3dmeTBOSC0wTTFnOGhtS3REaUJXWlItN2dkb3NTWkFsLV9uLWtHTmd0ZHBYbkFhZWFX?oc=5",
-      "source_name": "Institute for the Study of War",
+      "id": "721b9ea650e1083b",
+      "published_at": "2026-03-13T02:56:55+00:00",
+      "title": "US President Donald Trump has declared military action against Iran is \"moving along very rapidly\". - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQdFoxdFV0ZkpiWXhfY1k3X0l5WGNOd3JvLThUY1BJMFQxMzJzOFNpU0pwcDJtMkM1QWRqY1ZOQnlPZXRfeDVBaUpXclVfNDJHYVN6WjVfLUQzcUVfTFdIQWwzZHVfa1NvVjZ1aWl6bnZNakZ6Q0t0RWxrNTk2QWw0VGxWODN2V0txVTF2bVd6NXd2eE1tajlGMm5EcU5lMkNBWkVPR2drWVVRdEFIQ0dUbF9xTk84OGVyV1NLNkVIRk5PU0llaWZTRXJBZk5LaWlmMGZ6SVVCNVpTNTVuUEFv?oc=5",
+      "source_name": "facebook.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -244,37 +350,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "a25b93f54b85d3f8",
-      "published_at": "2026-03-13T02:09:00+00:00",
-      "title": "Iran\u2019s supreme leader resolves to keep fighting in his first public remarks - AP News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT3UyV1FyQ2VRM3VLV2JXaUhzNWpzYUUyYnotbnkybzc2X1Jaakh4ZlRwcE1QaFkwUU94YTN0RVBnVEV1amRPYzd4WFdiczNwTWhtTVZHYXU3NlY3YllCMG9hRkdDUFp0bEdJNnZBX1hXUi1QY1ZoNmNZUGVyTW9rNDQ0ZHNKcHZ0Y2R1OWtheFhkQVVKVWlpU0Z4enFpRVZ1?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "27732add7a1b2ec0",
-      "published_at": "2026-03-13T01:33:38+00:00",
-      "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee (AJC)",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
-      "source_name": "American Jewish Committee (AJC)",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
+      "confidence": 0.55
     },
     {
       "id": "c5327cb9dc9f79c1",
@@ -292,6 +368,21 @@
       "confidence": 0.55
     },
     {
+      "id": "f486b988cbbdb850",
+      "published_at": "2026-03-13T01:11:57+00:00",
+      "title": "The pace of Iran\u2019s retaliatory strikes against the US and Israel appears to be slowing 13 days into the war, with most attacks successfully intercepted by American-made air defence systems, statistics and experts say. - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPb0NINjRqcUlQVTNMZTlRX2I5Q21kSDFZandvSnBIc0ZBV3M0RE5vVkY2dnV4WW13RUF2N0tac0lTSFpNSTZRTXo4eHNNMENBS2UyTEZMa3VlZHlXeDBxbF9zeTdwUzRoeVEzRGNuMU41M1pIOHpaaDZJbzJ3dkwzcWJIYUVrRXVJS3l0U2gwNnk1YmVpT0xJUlhsUEZNeWVWTUhxZ2RhX1FBY1VUUU5vRGRYSk1IcldMMDhWVFhPUUYtLTRnSVdkTFoyUWZTSnBQLUppSk1kellaVzB6Vko0?oc=5",
+      "source_name": "facebook.com",
+      "event_type": "intercept",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 2
+      },
+      "confidence": 0.8
+    },
+    {
       "id": "85efa38c14677880",
       "published_at": "2026-03-13T00:55:45+00:00",
       "title": "Pentagon tells lawmakers Iran war costs top $11.3bn \u2013 but true price unknown - The Guardian",
@@ -305,96 +396,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "557e87fef8330c10",
-      "published_at": "2026-03-13T00:49:00+00:00",
-      "title": "Both sides trade strikes and threats as the Iran war approaches the two-week mark - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQ29TOHJ2WnZZdnRxTERSTFBOMHl6dXEyMy1GR1pSVlFpZVhlMWdhZXJaVlFnWTAtYUtrYXlKckNlSGFYcUlna19BUW9sVGxfVXRhRHp1d1FoNFFqOVlyQkpqdzVMYnNOd21MRXNGUDljaVJjWlJLdExQLVgybHRDZTVMOGZQaEZ0bWRxV2pMeDdSS2NWaHc0TzlLeHdDNmo0Q0Z4LQ?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "76d6c0b199d23b06",
-      "published_at": "2026-03-13T00:40:58+00:00",
-      "title": "Mojtaba Khamenei, the newly appointed supreme leader of Iran, issued a defiant statement on Thursday, directing the country\u2019s military to continue blocking a vital oil shipping route and calling for Iran\u2019s neighbors to close U.S. military bases used to attack Iran. - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZWp6MktlYjNqMEhKTHhTemZfeUlKWjZHaG9IbllaUWdpWkFBOW90cFJ0QWpfblJjazlFSDhDcnJJRDVGZV9TMEhhTmxjVWxXVzBwN1lmejJ5YzRrTm1YSlRoSjJIbXNVT1Q3bW0zLWdjbDVibmtIcGs4b29USU4zTG80dEFBRy1QWVplbWx6UkEwc2JjZ1Exc0VzaVJMWUpuRkV4M2dKUUY1b2RiUUcwM1VWM3RieEY5eTFrQS10SHJrZ3ZYYl9Vam10eDg0V3lyVzEw?oc=5",
-      "source_name": "facebook.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "712c6ff74112cbe2",
-      "published_at": "2026-03-13T00:04:03+00:00",
-      "title": "Mission accomplished? The 2003 boast that haunts today's Iran conflict - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfNk9iOW05S24wU3Jld2lKbnZOZWRCRF85Q3dVMk0xSnltS0c0LUJxUHpiblBfZUZFY3ZacThtNnBIeTUxallKbGZndnlxckVqMjFTNHhsdDhjZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b4d0f426154d0d04",
-      "published_at": "2026-03-13T00:03:34+00:00",
-      "title": "Americans on Iran strikes: 'What if this turns into a forever war?' - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OOHdxd2F2NDBXMlJWb0lROFBSOGIyVzJxb1Y1cDU5SEF0cHRtUzBLOENMNTZsS3VjM205eFFnMklSZFNQQkhQVFZNcnVGRmZDZklrMURJbm9UQQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "f34110558665bb12",
-      "published_at": "2026-03-13T00:00:05+00:00",
-      "title": "Live Updates: US-Israeli war against Iran's regime rages on - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB0dGJPYTZUZGVnYXgtNWNEQTY3SWQ3SElWWEloXzVBX0R1V3E3eUxDRHBkSmRFM19RU084UnZwM0FtcFBCLUEwTG15X0FLQmhPXzU1dk5XdUhWbWJoYU9aNnhSSkRHTV9hTHRvNjNNdGc0U1Z5cjBHR3BBbHdSbkk?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "87350333ed1f798c",
-      "published_at": "2026-03-13T00:00:05+00:00",
-      "title": "Live Updates: US-Israel war against Iran's regime rages on - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBuOXJsam9kY21GZDVSeFAydmwtZEtQaVRKUEdNZzR2TE1mQ0VPTEhKZUdNRC1BVEJVTF92NGp3QTJqajRmTkdJLVliVE53TDdPeXhCVF9Vc21VOUFaNVJBLXU3aGJlVWROaE5icEtBQ2FWZnpNWmcxdE5RSTE0Q0E?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
