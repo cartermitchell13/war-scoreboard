@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-03-15T03:32:35.514451+00:00",
+  "generated_at": "2026-03-15T07:15:04.731225+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 94,
+  "event_count_window": 95,
   "totals": {
-    "usa": 64,
-    "iran": 21,
-    "lead": 43,
+    "usa": 52,
+    "iran": 18,
+    "lead": 34,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 43,
-    "iran": 14,
-    "delta": 29
+    "usa": 33,
+    "iran": 11,
+    "delta": 22
   },
   "confidence": {
-    "score": 67.8,
+    "score": 66.5,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 49,
-    "other": 40,
-    "material_loss": 2,
-    "diplomatic": 3
+    "other": 50,
+    "intercept": 1,
+    "attack": 39,
+    "diplomatic": 4,
+    "material_loss": 1
   },
   "history": [
     {
@@ -67,7 +68,7 @@
     },
     {
       "date": "2026-03-10",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -87,35 +88,65 @@
     },
     {
       "date": "2026-03-14",
-      "usa": 21,
-      "iran": 11
+      "usa": 15,
+      "iran": 8
     },
     {
       "date": "2026-03-15",
-      "usa": 10,
+      "usa": 9,
       "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "852b58d6ac90190a",
-      "published_at": "2026-03-15T03:29:22+00:00",
-      "title": "Live Updates: Iran Defies Trump After U.S. Bombs Kharg Island Oil Hub - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFA5TGhOa20zcEI5ZVlpWFJuZmVtWVYwbWk3TlpiUVZvMFJiSmhQX1NLdHl2UHBBU3VFc29sUGRRU05ZZ0F2SE5udHNUT19TdW85d1BILU5helJoNElpMUVBZlQ4bzE0RFMxVXlOY2NBamh4a01ac0RBZ0FCRQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
+      "id": "0a19df7d2561fc74",
+      "published_at": "2026-03-15T07:09:58+00:00",
+      "title": "Two weeks into war with Iran, Trump has been knocked back on his political heels - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU0otVWlsZnB2OGh6a2NSeWdNdWI2bkREeUsybGxFZm9Xbl9CeTV5R0h3UFdnQmhQTTJCWkdNbFl0Y2l2U2RaOFdWR1lrT0hHd1FxTENWakZhMFcxaHMtVW9jZFUtWFhZcFZtYXNLN1kyVUs3YUwwSGFIdi1iUGhhN3pvVWw0d2VIN25rcFFKVVBZNWdNX2hZWHBwN0JDSThXZEhqbUwwS1ZDaW5wRTR3RmFpeWg0SEVsQUVMMmQ3azdRaEt0UGE0QTQzMVk?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.7
     },
     {
-      "id": "c9212d9cac23b837",
-      "published_at": "2026-03-15T03:26:19+00:00",
-      "title": "US tells its citizens to leave Iraq as Trump calls for allies to secure Strait of Hormuz - live updates - BBC",
+      "id": "9809309932f968c0",
+      "published_at": "2026-03-15T07:03:00+00:00",
+      "title": "Live Updates: US-Israel war against Iran's regime rages on - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0Rmx4UjdEMF90WnN3QU9BZUZUNkRDUDlSbGJDUlA0dHRLRHlWMjFSbGRvTnl3aWJUdEF1WXhkRW1SYWNpc0VRY3pjWHRlYm84Nll2OUo1OTBKNFRkSk5LQmhJQ25Idm1uemJjN204SGtwRFU3Nk9TajBzSTBBUE0?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b1f52ef0840d6e26",
+      "published_at": "2026-03-15T06:58:47+00:00",
+      "title": "Iran war live: Trump says not ready for deal; US, Israel pound Isfahan - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObENhTXFldVc1MDVfRWREa1k2UElvYTNfUkxnYVg5LVNyZFIzSDQ2UGdLcC11S2dsRUU4VnFzMjliV0hxbWFyWTJBQ2h2SFBXUjVfLVpUUXRPMjVBTmpib0pFZ3k0bFRZU0hpZHJONl9hMG16ZmN5RXBVbHR5eF9GODZ3aHJtX182TkxPdGo3TFJ6WUI3Z1ZUZE5FUlY4bnpsb2tWLW5YcFZkdGhU0gGyAUFVX3lxTE5PdlUxMlc0VUJYVHVZeVI5blVhX1FGMVVxUy1wYkNoWmVPbEk5d1F6RV9Na1ZMVTdSZmN1NWd0dnF4bDFrQURxZVE3b20tOWtrSjRBQVdZV2dCaGJZSHJYcmNCSzk5cTRzWWJHSVIzcU90TnJfUXUyOEg3ZHJHQ1pVTnIxQmxORHppcUpVb0M4dGtZRGRIbkVUMVJtMENfVTVPcnBQSkU0cFZKRkItbGxKekE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "eda43bab5a90b03d",
+      "published_at": "2026-03-15T06:57:13+00:00",
+      "title": "Trump says US not ready to make deal with Iran as citizens warned to leave Iraq - BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5GSXFnMkpibnc4WHpTZ3ljRGRTaWZ3dUctY0Q5c2hxUDhDc2Voc1VrMk82MWh6bDNqWVlOZHVSUFlST2FsN0M5YXhCOTdhNXZ5czJJRQ?oc=5",
       "source_name": "BBC",
       "event_type": "other",
@@ -128,8 +159,23 @@
       "confidence": 0.6
     },
     {
+      "id": "61f8c9b89d3f65a6",
+      "published_at": "2026-03-15T06:44:30+00:00",
+      "title": "Iran War News Live Updates: Trump Urges Other Countries to Send Warships to Strait of Hormuz - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxQMkZoNjB3cjF3TWJIblk2WlNRWmtJeXJ0Y1hOdzFUSmp2M0docmpOcGQ4NmZPTXBfbllRX2pVTThIWVBkZmk5NC1nRHc5WkZhT2RTQkNJcEhBQTFiaW02ZXJvX3ZRVDJUMlgwaVZ6SzhxX2liZG1VZGdCUHpUaWd6UTdpN3R5NWJWWENYbm9fd2xqanlmVnFfbVMxNEtOYVZ2aEY3TjFCRi1lOXE4ZTRhbjNSVzNqWUFUbURWbFRGMFVSc3gwQVUzeFJJNE56VnU0ZzA5aTltdDNreHcxenBEYTRJRW1ydWdzQW1oQUhjRmd0V0R5cmxEamhkdkQtUlBzdXkwWWM3TVBObGIzNng3cnRWTnZlenVJRmpoZ2RqQ2ZuTUlEWkpWRlctWXFGVDFMaF9scnRDWmVhQ2NNY2phN0xqRjVwYnNHd09pM3J5dzJQNVpQLUlLSUg4bjB6WDdPOHVlYWhURi1GZHhHTGxLa05zaw?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "3b4296e6e6ed7383",
-      "published_at": "2026-03-15T03:22:38+00:00",
+      "published_at": "2026-03-15T06:25:00+00:00",
       "title": "Middle East crisis live: Trump \u2018surprised\u2019 Iran has targeted Gulf countries and claims US \u2018decimated\u2019 Kharg Island - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZ1M3bUpvZzd5dENxOG1xTHdab2ZORWhrUGtZNVNJNDU5dGV5dk9VeUhzWmVYUFY5cUFlUk1MOXRmY0VBZE5nM3AyUDgxX3BKdDhEZUNORVl2cmRWZEpaY0lmeHRWbDcxZjFsbHcxV19IS2syRWtuaDNZbmxqRE5WX3FyclRSLXdKcXpoWGw4OUpKSWNQQ1FYUlNyVlhhaXVGZnlkRnZnNVByYmFhLWRjaFpQcE1pQ2xJMWxOOTE2a2VMQ01N?oc=5",
       "source_name": "The Guardian",
@@ -143,12 +189,132 @@
       "confidence": 0.55
     },
     {
-      "id": "22407a79077c113f",
-      "published_at": "2026-03-15T03:04:15+00:00",
-      "title": "Iran war live: Trump urges allies to keep Hormuz open amid Gulf attacks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObENhTXFldVc1MDVfRWREa1k2UElvYTNfUkxnYVg5LVNyZFIzSDQ2UGdLcC11S2dsRUU4VnFzMjliV0hxbWFyWTJBQ2h2SFBXUjVfLVpUUXRPMjVBTmpib0pFZ3k0bFRZU0hpZHJONl9hMG16ZmN5RXBVbHR5eF9GODZ3aHJtX182TkxPdGo3TFJ6WUI3Z1ZUZE5FUlY4bnpsb2tWLW5YcFZkdGhU0gGyAUFVX3lxTE5PdlUxMlc0VUJYVHVZeVI5blVhX1FGMVVxUy1wYkNoWmVPbEk5d1F6RV9Na1ZMVTdSZmN1NWd0dnF4bDFrQURxZVE3b20tOWtrSjRBQVdZV2dCaGJZSHJYcmNCSzk5cTRzWWJHSVIzcU90TnJfUXUyOEg3ZHJHQ1pVTnIxQmxORHppcUpVb0M4dGtZRGRIbkVUMVJtMENfVTVPcnBQSkU0cFZKRkItbGxKekE?oc=5",
+      "id": "86b25d9801b95e79",
+      "published_at": "2026-03-15T05:50:51+00:00",
+      "title": "Iran war live: Israel running low on missile interceptors - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FeXpPbkl0TndOTmdVREw1ZUF0MTE1MDd3SXFQWHpWbTBBWEtVWVhlZmZZX2pJZ3BDNERQay1pWW1jbElKNUNEVUFfTVdkTXdaZjB2eUlLblpySXdWN2JLOXUwWWlBRjI2azN0V1V0N1ZZRjg?oc=5",
+      "source_name": "Middle East Eye",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "96d87ca362ad3044",
+      "published_at": "2026-03-15T05:27:12+00:00",
+      "title": "Iran is retaliating against the U.S. with strikes on American sites throughout the Middle East. Our reporter Eric Schmitt looks at the damage these attacks have caused and what they say about Iran\u2019s strategy in the war. Read more: https://nyti.ms/4lqYg12 - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRG92TlpPWDJuUjRQMmVZNEJLX2JTbUx0RHBVTTFkVGszMmNraDJzZFlTNGVJNXBJcTNlV3dremxWaXZXLWxscG8tVGwwT1JoMFJuUkotOGFvY2FNWV95bE95OUdOY3FVN2lLM1hybkFBZHp2WGVSd0lINWd2SVZJY08xOFk0V2NiZzA1OW9mMlZyMjNuV2E5WTVFNmh2dFUzamZtY3VJdmZ6V1E0X1dxRFRrV0pTejNWcHhxeHNiRVpNZldRTnlKeUlOSzQ1cmlMZjJF?oc=5",
+      "source_name": "facebook.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "8b3ddf9309d653f0",
+      "published_at": "2026-03-15T04:21:00+00:00",
+      "title": "Day 15 of Middle East conflict \u2014 Trump urges countries to send warships to help secure Strait of Hormuz - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MSHk4Wi0tRXM0VHh6c1Myc0NJakpvUnl5VllrbmtYcGM4R3JaUDVWNW9TdnVDWjlFMGRvXzlHanpiYlctTExOWnZHejBWTGp6dUJoRGpVQWpDYWNfZnVIZW1fZ01jSHN1Tm5wc0IyQWFQZFVNSXlhaA?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "22bbb5a0173d32de",
+      "published_at": "2026-03-15T04:19:23+00:00",
+      "title": "What we know on the 16th day of the US and Israel\u2019s war with Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSHNDdV9GX1ZScnBCc0Y5Y2xJZnBUNUdydFV4UlQxVnBId0JkVDFDVUFJeVRsemtKUUpRSGVDeUtXcFQ2a0xKUzQ4ckRaT3RhOUhyOTFmR19TS05uQjNXRXZuU29IazFoQ2cxMWVyV3dQenlfN0RjZFF0SXNmS3haUElTR3RHZjJvRTVEWndXZFViZ1VrQlhKQ2Rn?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6ba757e02541a0b1",
+      "published_at": "2026-03-15T04:02:44+00:00",
+      "title": "Barrage of US-Israeli strikes target Isfahan - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM2dNNTJfZHJia0JFcXg2dU5kNnoyNVB0aHNxWnpPUl9YM28yYnh2NnNSVEFXYS11dHFsUmdwWkI3OW8zZTJrb1FNVlVxbll1SUNDcElTVVpIWExKOGk1V1RqOGZNdUdlSFBEd08yZkxKU2UxX2gzT1J4MFFJYkdoNFB6YkxQTzFyTFhvbWlTekIzVzRDc29FYVFLQQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4f1e36c5ce0fce0a",
+      "published_at": "2026-03-15T04:00:00+00:00",
+      "title": "For Xi, Iran War Reinforces View of U.S. as Dangerous Superpower - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxOeWhTRG00dGQxRXlNY1hoMzc0Slo1ZWp3RWhSV3hiX0x5d2gzNmZrYmRWLWF3Z3FsT1dkU0pXYW1FTHJwQ01nUkZ1NjJJek1vXzl6b25vU3pnVGdENDl6dDdRNTZ6VEI1TExwM3VKblV1c2kzcmxqZWl3eEc2dG40LVUtWGFEMG9KRm9GVDRUM2NXTGw5LXdxQ0Joemlha0VKLWlEN2VQME43STVxRl9fa1BqV2xkOUFPZERPTnpfa1psT2xaNi1rSm5tRFZnZHc0LWhoaVlqLVM5aDFMb2VNQkVEcDhfRjExUDJPdmRWSVB5WnFGLWVyNWU0ekhtSWEtUmFlcUg0Xy03c29fbVVLZW9XZ29rVW1nUlhuVF9TbGh5SDhJaTR3S2tRTFZPYmxOT0hiNDhfckQ5X1lSTzJrcnV5dDJhbnc0V2RkcG56V0RIaUN5MU9oTE1lc0l6ZGNVeWhya20yZkpLR0xHVTVQOG1kaFNjeFdHd0FiVmlQbzNkSy1ELUNHT0gyV3pLMzRwNU9DVGZKUGNrbU1VMXpsbTR2WQ?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "9ab05623695cbd3a",
+      "published_at": "2026-03-15T03:45:27+00:00",
+      "title": "Iran\u2019s Space Research Centre severely damaged in strikes - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNeVduQUlJWnFTUG5MSklqUE5rUFFWdVk4OTNBTkctTVZLdjRXWm1lR2VkalB2N29WOVlQRjRUSWZrNnhpQng4dWdwZnNuRUxmSHBrZFFNYXY1Z19jNXZiNjA4VUw1cGxhM05CMDN4akpmMU5WYXBsVzlTVHowWVRQQjFxNW4yVGZTYVBObDJRcGJxSW5vVGoxbFl3Z1BOS1BUZVJXQXJCS09nQdIBrwFBVV95cUxQUGxDSUxxeG1NM2pxeUVrNkF4YkhPWXJuWDQ4cUVud0VWSXdoZzFXMXY2LXlMMGNXSHVXb0NCeURHSWRGMmxPbHpzYWxydG5tQnp2R254RHZQYUZReDRJODBzRVN5bWpuM3FOeWNHbUx2SEFwTTN3LUVmT3k2VUtlYlRjTTFCVjQ5R2h3WmRUQzZUaFhKb2FiSS1lWnQwT2N5T09jaFNRWGd3aVJZLWQ0?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3e446700350344d0",
+      "published_at": "2026-03-15T03:31:00+00:00",
+      "title": "Live Updates: Tehran threatens to retaliate after U.S. attacks vital Iranian oil hub - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQWFDRVFIYmlJUWJ4c1VJY1VLS0dEYWF5X3djSXpyNG1jcXJfUWJ5U3hRbzNDMDVkajhyUElRMlJ5OUJiS2I4V2dLUlRYT2l0MkhQaGVTTURPQV8yaWlhcnRELTVlU0FNcU9oSTBYRC1WLTJmOTg0aEFsTUtwTUd4S0VsajliWnNlbFBBaHlqUlpNNkVYVmVuQWlBMXJrWmVZYjFEVFNuQjQwYXhWN1UyVmNrMNIBuAFBVV95cUxQRVFZU2ZINmRNeHFnWGx0aTVhZGdmNi1iYjN2RHVJWllXMEJURl9KbU9kQ01SYzh4TzRGNmZrRkhyLU9tYU5lYm14eEZfWkZTb21uRUFTNEZqdUYzM0Z6TVUya3JUbk1wdXFhcWRpclNiVFFMRTI4YnpGNkVma1ZjSWh3MnF2cE8xVDJCZ0VHbjRLZ1Q3WU03OTl2QjlKcm1TVTlRdUlKTnBPYUFfMzV2RG1jX0lOVEN1?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "3a67dafcea7231f7",
+      "published_at": "2026-03-15T03:09:16+00:00",
+      "title": "Iran Update Special Report, March 14, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZFgxZ3B3aGtnVWhGUVpIUUJueXBvZWdFaDc4TXJTdXJHdVFvQUdDVTVhNFZUc3FlWUdDaGFfR25iNmt0MmYtTTFQTEpOUFBOLUcwR0hhQTBSNWRjUjVTLUxHek9pNEUxLXREZS15ME5RTlZlMHUycVpDTmM1ekxseW4zMHdBamtsY1JMTXZlc1d4UWpXVnc?oc=5",
+      "source_name": "Institute for the Study of War",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -173,36 +339,6 @@
       "confidence": 0.65
     },
     {
-      "id": "94c070fae00d01aa",
-      "published_at": "2026-03-15T02:39:35+00:00",
-      "title": "Iran is retaliating against the U.S. with strikes on American sites throughout the Middle East. Our reporter Eric Schmitt looks at the damage these attacks have caused and what they say about Iran\u2019s strategy in the war. Read more: https://nyti.ms/4lqYg12 - Facebook",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRG92TlpPWDJuUjRQMmVZNEJLX2JTbUx0RHBVTTFkVGszMmNraDJzZFlTNGVJNXBJcTNlV3dremxWaXZXLWxscG8tVGwwT1JoMFJuUkotOGFvY2FNWV95bE95OUdOY3FVN2lLM1hybkFBZHp2WGVSd0lINWd2SVZJY08xOFk0V2NiZzA1OW9mMlZyMjNuV2E5WTVFNmh2dFUzamZtY3VJdmZ6V1E0X1dxRFRrV0pTejNWcHhxeHNiRVpNZldRTnlKeUlOSzQ1cmlMZjJF?oc=5",
-      "source_name": "Facebook",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "9809309932f968c0",
-      "published_at": "2026-03-15T02:33:00+00:00",
-      "title": "Live Updates: US-Israel war against Iran's regime rages on - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0Rmx4UjdEMF90WnN3QU9BZUZUNkRDUDlSbGJDUlA0dHRLRHlWMjFSbGRvTnl3aWJUdEF1WXhkRW1SYWNpc0VRY3pjWHRlYm84Nll2OUo1OTBKNFRkSk5LQmhJQ25Idm1uemJjN204SGtwRFU3Nk9TajBzSTBBUE0?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "8d8ac4d141e8cd70",
       "published_at": "2026-03-15T02:03:15+00:00",
       "title": "\u2018No Ceasefire Now\u2019 \u2013 Iran Says War Will Continue Until \u2018Aggressors Regret\u2019 Attacks - Palestine Chronicle",
@@ -218,26 +354,11 @@
       "confidence": 0.65
     },
     {
-      "id": "2a6c900fe8e04c5e",
-      "published_at": "2026-03-15T01:59:00+00:00",
-      "title": "War with Iran: 6 air crew killed in Iraq plane crash identified, F1 calls off Middle East races - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MSHk4Wi0tRXM0VHh6c1Myc0NJakpvUnl5VllrbmtYcGM4R3JaUDVWNW9TdnVDWjlFMGRvXzlHanpiYlctTExOWnZHejBWTGp6dUJoRGpVQWpDYWNfZnVIZW1fZ01jSHN1Tm5wc0IyQWFQZFVNSXlhaA?oc=5",
-      "source_name": "CNN",
-      "event_type": "material_loss",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 4,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "3e446700350344d0",
-      "published_at": "2026-03-15T01:31:00+00:00",
-      "title": "Live Updates: Tehran threatens to retaliate after U.S. attacks vital Iranian oil hub - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPQWFDRVFIYmlJUWJ4c1VJY1VLS0dEYWF5X3djSXpyNG1jcXJfUWJ5U3hRbzNDMDVkajhyUElRMlJ5OUJiS2I4V2dLUlRYT2l0MkhQaGVTTURPQV8yaWlhcnRELTVlU0FNcU9oSTBYRC1WLTJmOTg0aEFsTUtwTUd4S0VsajliWnNlbFBBaHlqUlpNNkVYVmVuQWlBMXJrWmVZYjFEVFNuQjQwYXhWN1UyVmNrMNIBuAFBVV95cUxQRVFZU2ZINmRNeHFnWGx0aTVhZGdmNi1iYjN2RHVJWllXMEJURl9KbU9kQ01SYzh4TzRGNmZrRkhyLU9tYU5lYm14eEZfWkZTb21uRUFTNEZqdUYzM0Z6TVUya3JUbk1wdXFhcWRpclNiVFFMRTI4YnpGNkVma1ZjSWh3MnF2cE8xVDJCZ0VHbjRLZ1Q3WU03OTl2QjlKcm1TVTlRdUlKTnBPYUFfMzV2RG1jX0lOVEN1?oc=5",
-      "source_name": "CBS News",
+      "id": "3bd47aa9f72fc4cb",
+      "published_at": "2026-03-15T00:56:51+00:00",
+      "title": "U.S. Military Attacks Iran\u2019s Oil Export Hub, Trump Says - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsbTAydmVETEVIUkpKc1NIY1A2RWdwa1pYZkhfckdGNk9UX3pWRlBidlZ0bEhGZnNJR1pPNDdBY2x6N3BrOGphdm56U01CSzBXNWYxSk12OFVSQ1VZZnJ4dGtMUFJoQkl4bkJ0WGpvb2JKUkY1R2tsUVFIaw?oc=5",
+      "source_name": "The New York Times",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -245,7 +366,7 @@
         "usa": 3,
         "iran": 0
       },
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
       "id": "7e7ae66c72cce0d9",
@@ -263,9 +384,9 @@
       "confidence": 0.65
     },
     {
-      "id": "8880fcdbcdb16af2",
+      "id": "0805a31f47e0d9c9",
       "published_at": "2026-03-15T00:01:00+00:00",
-      "title": "Trump threatens more strikes on Iran's Kharg Island, pushes allies on Strait of Hormuz - Reuters",
+      "title": "Trump warns of more strikes on Iran's Kharg Island, pressures allies on Strait of Hormuz - Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS0REc3k5MGJlQkh2MzVHWnFzdGNLWVlQNktONjFqWkJiSHl6OVhLcjd3RUpuS1FMeFBQVnluT1I1N1lreFJYVWpWSng0ZnlyUm8wQmtJbmdtNXBZejRUTkVlZ0FGLXZtXzNSdHdDUF8wanlFcVduUEc3aWNVWk1KOXgwY2FpMWQtLUpLOUN0TmNFLU9idERNRW1wMVZpU1d0MzVYdGpPMmhCWGdocWVlelVBTGxsSEg5LUdoTlpZMXhjUmdEdVZV?oc=5",
       "source_name": "Reuters",
       "event_type": "attack",
@@ -276,126 +397,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "30fea919656e5dbd",
-      "published_at": "2026-03-14T23:51:00+00:00",
-      "title": "Trump says US may strike Iran\u2019s Kharg Island oil export hub \u2018just for fun\u2019 - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNSnIwVG5yQ2NJcnhQYl90XzVJV1dremx6aW1YcU50SDNmeldqMmZVNnNpMXQ4Q2V2VmlyLXdwV0t2ai1JWExMclZlSkVzUC11N3gzZXBmaHVLMkJfV3V4NUdxa2NiTnFQZnZwUnFuUDZTbzRNWndKMVBBeWg4UzMzLUVB?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "bb42239c8e32a16b",
-      "published_at": "2026-03-14T23:31:41+00:00",
-      "title": "Trump says Iran\u2019s Kharg Island \u2018totally demolished,\u2019 but US may strike it again \u2018just for fun\u2019 - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMWc3bVZtWFNTZ0VLeDAtSHhGNEpXWlAxWU1YYXlsVExudXJfYTk0Z0JoaFhCRWFMT1MtbUNLUVdNdC1UZ1FzX2FiS2tzVXVUNTlwUGRGOVE3cFlPekpWYUUydEVFNGNjS044ZjEza09NZEduUlJQYWxGX2hzZnMtSTBuVGhxMkJpRkYzNHk5SzlOV1VKM01lOUs2ZlItR01nYjZ5bjltOFVQaWlSV0ZDOXVXQU4wM0NCOHRZUVV6X210cWlfQkRWek5GZkNOVGM?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d10f54ba3a8564aa",
-      "published_at": "2026-03-14T23:30:00+00:00",
-      "title": "U.S. Military Attacks Iran\u2019s Oil Export Hub, Trump Says - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBsbTAydmVETEVIUkpKc1NIY1A2RWdwa1pYZkhfckdGNk9UX3pWRlBidlZ0bEhGZnNJR1pPNDdBY2x6N3BrOGphdm56U01CSzBXNWYxSk12OFVSQ1VZZnJ4dGtMUFJoQkl4bkJ0WGpvb2JKUkY1R2tsUVFIaw?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.9
-    },
-    {
-      "id": "fb3c1cd7f6b4687e",
-      "published_at": "2026-03-14T23:29:25+00:00",
-      "title": "Trump says U.S. struck Kharg Island, core of Iran\u2019s oil economy - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOTDB3elIzT25OVk8wQnFtMktXWW01QjFSWkNoS2JWZmlrRTE4c1djdFotRUlJWC1wbFRDM0pqMURMSk1SZGdZMjZrX0ozTE82SUFzZ2tjWHZVdm9qUUVMWUhfUVJSd2x5VGMwQ3NkM1dzdjcyel82WWlUamNIajdsdHpsQXZoZDd0UGluX0dLTQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "3f1fd1cef43eb5b3",
-      "published_at": "2026-03-14T23:19:52+00:00",
-      "title": "Trump Orders Iran Strike Despite Hormuz Blockade Risks - \uc870\uc120\uc77c\ubcf4",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZ1hHcHhreFZSanR1ZWxqSjdWX18weDVCM0N5OXZ1dGFLME81WXdTcTkyZDhwTEppUkVQLXdnT3kxMUhicGZvdkhTd2tRd1JTaXQ4SmFiV3hia2tTbkMtb0E1aHNmX1BJVFhpVjZkNGFUX29ubVJIbTluckpNVmNqUDZPSmg?oc=5",
-      "source_name": "\uc870\uc120\uc77c\ubcf4",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f3a8c8032f1bbd22",
-      "published_at": "2026-03-14T23:12:05+00:00",
-      "title": "Trump says Iran is ready to negotiate a ceasefire but he's not ready to make a deal - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQjloT1l2RFpONldNWmQxRi1IQWpFV3N6UldJc1NHcVA2UGZVM3VVRExrRWJjVnd4d3J5LTRrZ2xLZmt3V3NwNURiZHRZNHJzU1BVQm9vMkdXVlQwcmVWc2ZlRlVtbU8zZUk5OV9KOVA5RDdyeXBnUjg0VmZNOHZZb0VnbFhCMGpkcHZDYnQ3X0FOTnJNajBCRF95VURIanJxMm1DZlJCXzVzX290dnc?oc=5",
-      "source_name": "NBC News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "9c27288358b56011",
-      "published_at": "2026-03-14T23:08:00+00:00",
-      "title": "Sunday shows preview: Trump faces questions about length of Iran conflict as war enters third week - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQN0hBV1o1Ti1ERTl0clBTXzRxZkZLQjZTbEx0SnlCME1mZl95TWRBNGtYNnBHUWp1SFV2TXRRRWdFY0pYZWxjT0RqeGstQnp3c2I0TnZDY2RqSmlxQWhBWXVoT1JzYmlZQi1XVGVxZzk5X25kWEpoZS1tT3Bob2xaLUR4OTJMUmsyU3RZTlNMUmlqbjhHYlRFeUtINkNJM2tSdVFuOF9TSEvSAa4BQVVfeXFMTXY0Vm1ValdsVUxwM1dvOVBsWG5Qc3VVMm91U29Ed2FRaF9fam9LTjVvZm5EYjR1TUVBeHJ2Qnh0TUpicE9JajZYNnI5Nk1sVHV6dkVLbThHQmNlWVB3Z3V4Uzd1QVhhOUx4MDlpRmlJbk5jQjIxSlVFc1FVdVpLRFpxNXIzOTZvM01wUUxNTEtYa1pKemkyX1JGdUZvaHFzbTkycDRGSW1YaTEyZndB?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ac9d7ec2a078cc78",
-      "published_at": "2026-03-14T22:26:55+00:00",
-      "title": "Here\u2019s What Happened in the U.S.-Israel War With Iran on Saturday - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQXpxWHh5UHkwcjh1QjVkQThGTy1FYkRRTWF3NWN0ZW9BN1cyci1xQ2Y3U1BuRmY5YU9LOTRVaERMWWdtTnUzdFRqRUhTUG83ZGFXR1JmT0hUN1hkU2d2V05vV2pKd1I0a2wzVmxEcHVBSktBX2F1ak1EUm8zOTBEX0kxdkVSWXd5ZTktcUtFUllVQQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
     }
   ]
 }
