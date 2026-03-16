@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-03-16T10:32:18.185378+00:00",
+  "generated_at": "2026-03-16T13:56:17.108167+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 95,
+  "event_count_window": 93,
   "totals": {
     "usa": 43,
-    "iran": 16,
-    "lead": 27,
+    "iran": 22,
+    "lead": 21,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 18,
-    "iran": 9,
-    "delta": 9
+    "iran": 15,
+    "delta": 3
   },
   "confidence": {
-    "score": 64.4,
+    "score": 65.0,
     "label": "Medium"
   },
   "event_types": {
-    "other": 54,
-    "attack": 35,
+    "other": 52,
+    "attack": 34,
+    "material_loss": 2,
     "diplomatic": 4,
-    "intercept": 1,
-    "material_loss": 1
+    "intercept": 1
   },
   "history": [
     {
@@ -83,25 +83,55 @@
     },
     {
       "date": "2026-03-14",
-      "usa": 6,
+      "usa": 9,
       "iran": 4
     },
     {
       "date": "2026-03-15",
-      "usa": 9,
+      "usa": 6,
       "iran": 1
     },
     {
       "date": "2026-03-16",
       "usa": 0,
-      "iran": 1
+      "iran": 7
     }
   ],
   "latest_events": [
     {
-      "id": "75cb93b373d2f9dc",
-      "published_at": "2026-03-16T10:24:12+00:00",
-      "title": "Iran-US war latest: Nato ally rejects Trump\u2019s demand for help to open Strait of Hormuz after threats - The Independent",
+      "id": "4b2e074174d9c6b9",
+      "published_at": "2026-03-16T13:34:00+00:00",
+      "title": "Middle East crisis live: European countries resist Trump\u2019s demand for help to clear the strait of Hormuz - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWG1qOXZBa2Q1R2NrQ19TenBuYVF0Q1pmZjQ3emROTmNiNnVodkdFTENOWEVoeUp5X25jWXJIVFU1XzdSLVUwazhmQ0lmZy12MHlseEVsX1lBZFpubFctOHNaaHBJc1B4dm5kbkk5Yjc2T0VEX3FLQXFIbWtsZ3NNRVR4TmUzVDRzem1oZzAxUkE5Um1VNGszNUdwSS1wVzRJeENwXzZvUkVaR2VhN1VCUDJhYTRUVldwa0Myb0dKVkE?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f8619768b3172d20",
+      "published_at": "2026-03-16T13:32:20+00:00",
+      "title": "A Timeline of the Tensions Between the Islamic Republic of Iran and the U.S. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZU04SEM4YzM0VWN3bG5LWmFVV1FpMnQwOS1GaDUxY3NONlJWUmFEU3lBQmx1Z3VEb3lTbDJUWDQ4ajRhWG81bDYxVkgtS0J0RWtBSzA5U2owOFdoQjhZMGIzdnU5QmwwRnp0MHRKY1NlbWJOQVJ3cVhjTDhDc0ZWbUJNbmxFbjFkVmxv?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a4b34f5366257e4f",
+      "published_at": "2026-03-16T13:24:12+00:00",
+      "title": "Iran-US war latest: Nato allies reject Trump\u2019s demand for help to open Strait of Hormuz after threats - The Independent",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWDRFWnJLSFlJZzIzS2VzS2FHWS01ZE03V0tKbVJpU2dyM21EbWtjNjJlb3FBX2FOdUdnaGZ6djU3M3JDUFk3R3hpMmduOWhfa3VCOXY2ODFNdS1uMkdmU09NUWdIZ2dPVFgxMlBaMTVldHVqZlA4dmpUX1QwOFZsd3VvZmRBanMwUTlLdTlWWW5RVzZYQWlMamNCR19vYXNWLUZXSkl1cjZXNk1hYVJPbUluWEE1R3RnVTlEMQ?oc=5",
       "source_name": "The Independent",
       "event_type": "other",
@@ -112,6 +142,246 @@
         "iran": 0
       },
       "confidence": 0.6
+    },
+    {
+      "id": "39701969ccb17d20",
+      "published_at": "2026-03-16T13:07:30+00:00",
+      "title": "Live Updates: What's going on in Israel-Iran war? - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5nNzRsUVlkY1lEbTFYTUNES2xhV2xiZ1YtZnQyS1VzT0RrQURJbFlnWTRCT1hxU3dJaEotVWRHU0VlMWcxUV9hUnlfSTZxM253aTR6N2xVX0hndnFlNXdHSlRpcnJOZTRMaFkwWng4SDlyeDZoNUVFUDd5eWItREU?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "05a9b00ff42245b3",
+      "published_at": "2026-03-16T12:54:58+00:00",
+      "title": "USA/Iran: Those Responsible for Deadly and Unlawful U.S. Strike on School that Killed Over 100 Children Must Be Held Accountable - Amnesty International USA",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQc2FwUE1xUFhFS2d2MHpxalNLQ0o4MVk3eThwR2UxRWRDYm13MVE0OUp4QlhjUkJWaWdMeFZJMzZwODVyZ0xoeGtyWTB0aG9OLWp5eUdsQkgwWnhLWUREMkZBN1FrMDBwdDJhX0pPODJKMlplTEwwWXdVdjVHRmxrVUJPdUNwaktSZkdMeEdOQ05uaW5zdnhYcXlqUWlXWThtbU9JOEZ5ci03dFVtREdWN2NFenYxVUhNY2k2UnppcEZyQl9rVXdvbnRRbjJLdjgzWlpTN3FTNm9iOUgxRlQwTFkzZGFvT09MNFFiZmZib3VYa0RiWWdLcVE3MXY4QQ?oc=5",
+      "source_name": "Amnesty International USA",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4fd958306f0abaf1",
+      "published_at": "2026-03-16T12:46:57+00:00",
+      "title": "Opinion | The Iran war is eroding America\u2019s China deterrent - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcnQtWkRNdnFMZjgyNkp3UlRzUzFmeFpqX3k0Vm5TV3VkQVlWY3NCamhLQnMzNkxVWjBjUS1WY21SX3RvXzRubGlLQ01FM2JtUlEwcnJIY1FwaC05dlJ3cThsQzZZdXFNVGVBZjcxSGNnMXE0WElldkNvd0J1M08xendCTkhjSkpWVWZNUFpR?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c8ba04c630d4c36a",
+      "published_at": "2026-03-16T12:36:00+00:00",
+      "title": "Relative of US airman killed in Middle East crash calls war on Iran \u2018uncalled for\u2019 - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcXd3c2pVeGZtN1pGLTdGZnVVWmoxSF84bVNYREtFeHFzVHhOVUduTFEzVzJTVzRMQmpXYkY4QjJmTVRzSm5maDFyTmtTR1hJZF8xdk5LZHQyQVpMQVlLdWwzVjRJb3gzTlZnVW1DcXZuYXNIRFRSdWhiMHNRRUlPUA?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3f06e8a33656829f",
+      "published_at": "2026-03-16T12:33:19+00:00",
+      "title": "Opinion | The Iran war reveals the limits of U.S. military power - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd2t5Z3pveWF1Q3lIbDRmbWJTZmQ2RmRXS2E0THhEZTFTVjBwa19MTnE1aHJQaUpWZ3c5TGpVY2VHTG5KMzFFX21xM0llWXRRZ0VBZXNIeVpveGo5a2JYbVk4UG1WbGd3U1ZTdzk5ZzVWMENha21UWHlEUlBkSXRjazJfc0xTckxVcjZ4OE1n?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "e503dffcc9c2d38b",
+      "published_at": "2026-03-16T12:00:42+00:00",
+      "title": "The Strait That Could Decide the US\u2013Iran War - Hungarian Conservative",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRGg4ZVgzRGJycUZwc3hxR1N1dFUxTy1uT1pOYXNVYklEUTFVRncyVmRNS211VDEteDM2T0JRV29BWlVQTEdQOVF3OFVtRTVOSHRVN1JkM3lvRkdxTUkybVJOaU5HLVZpRy1ZRG96OFZHVFBrSTZiTGNQSWxEcDF1clF6XzFnbWRvTkRLag?oc=5",
+      "source_name": "Hungarian Conservative",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fd7132bdb2bb14c9",
+      "published_at": "2026-03-16T11:54:54+00:00",
+      "title": "Iran war: What is happening on day 17 of US-Israel attacks? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNEFkV3ZGTjg3aXFwdnNtUm5CaS1JWGItZUY2Z1JPZk9zaEpodzFWY29SbElPVTVlNWFidm9NMmRJYTRITjZiMjJ4b3pnSk1PY0g3Q2dqMEN3VFlBd2JuUERpVnVaSGZ0dzU5VksxWU1BSGNmN21DM0lzTURqbTVPeExITGZNeDNZS0dVVGthTE56Z28tYWpCUWljRUxuRTjSAaQBQVVfeXFMUDV1MWkxTlBkaElFSUo2SkFSX0dxOEJZWGFnX2VKTk5uSVJLSGNnN3A3UlA0d2Nma1Y0R0FIcFctaF83SHI2Z2E1dlotWmRpNktPZlpVQnQ4N25pNXZWZVUxb0VTQ0thUDk3ajVSTTRpMFd5bEVHdmtUeHBkZ0ZPSzEyR09yRWFZM0tuazRVSS1LV2NVN08zWmJiUVQ3Q1NxbW9keUo?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d33d1ceb99fc0568",
+      "published_at": "2026-03-16T11:44:54+00:00",
+      "title": "Drone attack disrupts Dubai flights as Iran continues Gulf attacks - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWEZJVlN4NURSU3RUYXg4QzJueHFfc3h6bmM4T3ZoNGhnRkVTLUVIVFB3TDdfN3M4cFJIb3VYNUxZWmpqelJwQXBydHBMdHJjbU9SNW43REpHdnlwaWh1bkt0MHdDb2pjRkxDYk5HVUlTN0dsUzgweFh3Vy1hOVNpcVJWdlhrOXRPdlpraVJncWsyYk5TTUpoZGllNHZ3ekg3THhxLS1BXzNObVXSAbABQVVfeXFMTmItejg1aDdhRF81alZpSFpFNC1td3hEVFFyaU1xTlNyd2x5UTk1VDQxRks1SVFRYlUtX1B5UUYxVFA2NTJKaW9wcFVOblJoZFF4cV80ZFVPajFQZ3VNOWJIXzBjYVFiMFJnd0dhcHNVdm9QTEV2YlYwUk5qZy1vTnZ4X0NUanBGZ1cxeHhLaFo2Q0NfMEFTYm03aC1FOHJKMHc3eWZRMnh5V3RzSkp5dTk?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9bb7aa553c643501",
+      "published_at": "2026-03-16T11:23:03+00:00",
+      "title": "Iran does not seek ceasefire but war must end, FM says - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qMjlRQmdybF8zZEVSUHF6Wlh5bzVWYzBnM2hERG5kVnluNGlSR3Q4Z244dnpZX3UwQkpWZ0dPb0NDb0l6ZDNmZ19wanp1TlNVWkE?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c347e484c590c8fb",
+      "published_at": "2026-03-16T11:17:58+00:00",
+      "title": "Trump demands Iran \u2018surrender,\u2019 says he\u2019s hearing new leader \u2018not alive\u2019 - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13SHkzWnpnV1ZiWlFLTmphZ00xTWowZGFGaDJUbHdQMFB6TkpUWGRJWFdNSEo3OExzZ3pXaDVwR3BYQ0l2R0tKN3dNNnFkd2h4Vk52TE9fSjhCNjFnZjc2Nm5xZjRfTF92N1NNVFYyZGdDeWMycWNZ0gF8QVVfeXFMTlZSOERidTEzM1lnaW1BVlFWRHNkcFV1ckxENDRQaHZ1SVpXY0RhYnNiYWhlY3U0d2R2VElBNE5rNkxqcjRpTmtNdDkyUDhhZlVxb3VRUy1fdG9nZGFPeURZN3JYckxoRVE2cTdpRUFUUjQtdGtxSTkxVTU0ZQ?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4a5eca87259a7976",
+      "published_at": "2026-03-16T11:15:00+00:00",
+      "title": "No, MAGA is not divided on the Iran war - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUUJqUjRmVGtPX2Y3aF9jTlJpVW9JQjRkaV8yV0VBOUFsQV9MS1ZCaTdkUDNidzkzYmJOZmtfOHlJZjUxWmdMd2M0cDdLNVQtdTJvYjZKYkdPRVRackZsSVd3LXRsUXNNeF83bXNZRGJFZG9QOHBoMWJfYXowTVktaUdvMXMxaVNxRXFv0gGQAUFVX3lxTE9BVmtjVERRSVFCTmpUVXNnaURDOXJKQ253b1F1UmVsbmxvcTRiNkZHMGQ0QXFmdUNsNGhnajVLNUttNk9qTTczOE81U09TRzQ0b245YzNSSU9rX0xieFNDWUdVR25QMW0wa045ekxKTV9iUVk3dmE3dmU2TUE1MDFISVN0bXVfZUF1RzRMRDhqNg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6f1aeee11979db4d",
+      "published_at": "2026-03-16T11:00:03+00:00",
+      "title": "Who wants what from the Iran war? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9uYll3YWV5Zy1GS0NvaGM4cjdsd2xNNUl0Y2l3c0dSZWdlY0JwQTB6MnRNOG9CU3dSUHBVc0ZYMEc1UEVlYVRZX0ZIVGxqSERGanlnLW1rek1DZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8e1b70655d945690",
+      "published_at": "2026-03-16T11:00:00+00:00",
+      "title": "How the War With Iran Is Impacting Economies in Asia - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdnQxMFR6cW1KY2pQS2h2ZXdzU3J0dFEyZDBoUjdLTlBjOHBIcktkUV9uYW95eURuOUxTelg1RWxieEtZRjhWc1JJVmVtXzN6d0hla1B3Z3g0NnhjNnh2WENZOWxGem81ajU0UUhqdktGYnJtMWtnNHJRVmJBRkdZcHNYbzktUlVMT3ZIOWNyb3NXNC1jZk56elh5eHlhQlJyNnBuU0czTjY?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "164fea9a46988fd7",
+      "published_at": "2026-03-16T10:57:04+00:00",
+      "title": "Iran warns Romania against allowing US to use bases for operations - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE44X0lfUXY0Zm9PMFEwZEdvalpnU3MyS3lUeENWVmQ2dWpFc0NMenpXaEtRUHl0YW9QTUtiVkpuMmVfeVNyaDNnV3ZtZkNodS1BYUE?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9bdea9f895185744",
+      "published_at": "2026-03-16T10:38:09+00:00",
+      "title": "What impact do Britons think the US-Iran conflict will have? - YouGov",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaXZkZU0yM3lkUWFQUTk3b2pVWEdDbFRXMjFpN0x0VWdpV0RYNmFGbW5Yb2hRSkFncTlkYUE0bjh4U2d6TjRheEMtb09qX1QwaDlrRVE2WjZveFhTMGNvU2JRcFBTSXVXSWFOcWRjTmUyRFRTNmxpOE16WmxPeDBER3JZYzZfYk1sUm1Mbkp5REZDS0VPZDduckFSdzcxdW50?oc=5",
+      "source_name": "YouGov",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "df624d47937cdb42",
+      "published_at": "2026-03-16T10:05:59+00:00",
+      "title": "Trump threatens NATO allies over Strait of Hormuz help - NPR",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRFdvSGxmM01ST1JyV3hvNkxTeTBsd0R0SUZ6MFVYX2lSNjUyQTBaX2xrUDU0QUxWR1pHU2JEZGJQTmdkTEFxc0JETWxXSGpOeWtfcGZ6U1ZVSUk4QjVSZko0Q19nd29zOFhHa1VqaWRQd3hUVWxMWWh2bWtJT25MZ2xJSUVhZ0ZkVlNubVotZXlCZw?oc=5",
+      "source_name": "NPR",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "b419947ffd300b40",
@@ -127,276 +397,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "bf769920a1d54353",
-      "published_at": "2026-03-16T10:00:14+00:00",
-      "title": "16 Reader Questions on the War in Iran and Our Reporting, Answered - The New York Times - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Pb05NTDhiMzk4dDloQ2JhUkZEaUZqajBkU1J4WWxJcnM0MWlvYTh4elU5WnowbC1mV2xXNDUwakk3SEUzeEJKWDYwNW1iUmNwNzZOMzVBWUFIcURSYWtaRk03RWNsQkszRWdyeWNfdEgyVkU?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "39701969ccb17d20",
-      "published_at": "2026-03-16T10:00:05+00:00",
-      "title": "Live Updates: What's going on in Israel-Iran war? - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xVGp5eWlfcnVZa25LX0xMNzl5cFJtdjRfZzdPOUFEZHluTEZlTGdaOTlNbjBUM2ZXbFBpRmw2VFgxVHdmbW5xNE1LNTRCX3lnbGVRLTZwZy1IWHlDbE9JM0xrSUJiY1FfdTVNbHUyUGRXRUExSm1JOHM2Y09lN0k?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "049edbb3638ed37c",
-      "published_at": "2026-03-16T08:47:12+00:00",
-      "title": "Map shows how 16 days of attacks have evolved in US-Israel war on Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZW5IN1czWERXZTdQQUxNRURyRXFBQkhfR0pWZ0MzMjhJaFFsc0pyRGdDNm5RMk5YVzRwX1J5YzdvQVNQb3ZJaVhjYzNZaFFaWGVnZ28zRGg5OHBkZ1d1YkhkOW5hcTFXdFloZ21UZjVLQUJrRG43ZXpFYnhIQTVUNVZmRjFWQ1ItTHRJU3Qxb3NaUWhGdjFFUjJHVXB0MDBRSloxZGduMkZLYVNFVjFsZNIBtgFBVV95cUxQMVA4UDZKdE5oS2VZZ1N0QXJUSjh2NHB6RVhoa08wcjVCSFB0aDl6bDJuSHNhZTlGazR4djd5TXEyTGUxUmhVVjl5Y09acDVUdHNNbGx4UVMtdXdrMUJzUTNUMWJOQzJqazZCQ3A2em5hZEtPSzliSEQzWk40Z0JTekhPU2hRQUFoRjlBazZaU0VyMHlTSkROdXhPVDhJdjNkenJoSmg2V0h0cko5MGxuQlY0V0J4QQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "fd7132bdb2bb14c9",
-      "published_at": "2026-03-16T08:05:11+00:00",
-      "title": "Iran war: What is happening on day 17 of US-Israel attacks? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNEFkV3ZGTjg3aXFwdnNtUm5CaS1JWGItZUY2Z1JPZk9zaEpodzFWY29SbElPVTVlNWFidm9NMmRJYTRITjZiMjJ4b3pnSk1PY0g3Q2dqMEN3VFlBd2JuUERpVnVaSGZ0dzU5VksxWU1BSGNmN21DM0lzTURqbTVPeExITGZNeDNZS0dVVGthTE56Z28tYWpCUWljRUxuRTjSAaQBQVVfeXFMUDV1MWkxTlBkaElFSUo2SkFSX0dxOEJZWGFnX2VKTk5uSVJLSGNnN3A3UlA0d2Nma1Y0R0FIcFctaF83SHI2Z2E1dlotWmRpNktPZlpVQnQ4N25pNXZWZVUxb0VTQ0thUDk3ajVSTTRpMFd5bEVHdmtUeHBkZ0ZPSzEyR09yRWFZM0tuazRVSS1LV2NVN08zWmJiUVQ3Q1NxbW9keUo?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "c405a10dac9a38f3",
-      "published_at": "2026-03-16T07:55:41+00:00",
-      "title": "Drone strike disrupts Dubai flights as Iran continues Gulf attacks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNWEZJVlN4NURSU3RUYXg4QzJueHFfc3h6bmM4T3ZoNGhnRkVTLUVIVFB3TDdfN3M4cFJIb3VYNUxZWmpqelJwQXBydHBMdHJjbU9SNW43REpHdnlwaWh1bkt0MHdDb2pjRkxDYk5HVUlTN0dsUzgweFh3Vy1hOVNpcVJWdlhrOXRPdlpraVJncWsyYk5TTUpoZGllNHZ3ekg3THhxLS1BXzNObVXSAbABQVVfeXFMTmItejg1aDdhRF81alZpSFpFNC1td3hEVFFyaU1xTlNyd2x5UTk1VDQxRks1SVFRYlUtX1B5UUYxVFA2NTJKaW9wcFVOblJoZFF4cV80ZFVPajFQZ3VNOWJIXzBjYVFiMFJnd0dhcHNVdm9QTEV2YlYwUk5qZy1vTnZ4X0NUanBGZ1cxeHhLaFo2Q0NfMEFTYm03aC1FOHJKMHc3eWZRMnh5V3RzSkp5dTk?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e4ea7392b490c404",
-      "published_at": "2026-03-16T07:31:27+00:00",
-      "title": "Don\u2019t Count Launches: Misreading Iran\u2019s Drone Capacity - War on the Rocks",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRnhjSmhVYUFCYkVpNV9YcTdDUDNTUVZyYXI2aDlfRmRaR2pJOUJIRUFVYlNYVC03cDdqS2UxTlZMS1Z1YjNwLWt2a0NrX0NYUHphTE4zcDVHdzRuVXdFbW5UTTk1endFUTIzUE4yZkYtUWN1SHY3V0F4bmQ1TzZ5TnNTbVhkcXZ1d05hbjBFQQ?oc=5",
-      "source_name": "War on the Rocks",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c347e484c590c8fb",
-      "published_at": "2026-03-16T06:34:52+00:00",
-      "title": "Trump demands Iran \u2018surrender,\u2019 says he\u2019s hearing new leader \u2018not alive\u2019 - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13SHkzWnpnV1ZiWlFLTmphZ00xTWowZGFGaDJUbHdQMFB6TkpUWGRJWFdNSEo3OExzZ3pXaDVwR3BYQ0l2R0tKN3dNNnFkd2h4Vk52TE9fSjhCNjFnZjc2Nm5xZjRfTF92N1NNVFYyZGdDeWMycWNZ0gF8QVVfeXFMTlZSOERidTEzM1lnaW1BVlFWRHNkcFV1ckxENDRQaHZ1SVpXY0RhYnNiYWhlY3U0d2R2VElBNE5rNkxqcjRpTmtNdDkyUDhhZlVxb3VRUy1fdG9nZGFPeURZN3JYckxoRVE2cTdpRUFUUjQtdGtxSTkxVTU0ZQ?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5dea46fd4dcd23b7",
-      "published_at": "2026-03-16T06:31:00+00:00",
-      "title": "The Iran War\u2019s Global Reach - The New York Times - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1nUjlkQzJKTndaeGZDeVRHMnhqNEdZZTJXQUhXNm04a0JVUW9XNkJ4UmYta2h2ZHJhMGlXdnFZR3FMalNkVkhRX1d2T0tPU19UaGZZRDNIbnBnMFlpaU41cWtSTTJ5ZzE5OUxXR1VHeTFIVzV3YWRjRThyMk1pZw?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "90db2da9afc576a9",
-      "published_at": "2026-03-16T06:00:00+00:00",
-      "title": "War in Iran, chaos in the Gulf, repression in the west: and the thread that binds them all is Palestine | Nesrine Malik - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQU1k4WXFIVnNQMmp3OE9ydEZxZ0xkYThDaVU3eUdGWjR3cG5rck9yQ1pfcTQ3UkdMWTJNTXJwWjdiUWFzc3kxWDhSODZIUUtpVHBPUk1LV2Q5dDJzWVdOMFc1UFNxeGlJS0FEWFFYLXlPSHk2Q25hTXZqb19MbFFKQThxb2VmLUN2bHJRV3c2ZlJhTW9qaEhRYkM3VjU?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a2d6e41a106b9edb",
-      "published_at": "2026-03-16T05:55:00+00:00",
-      "title": "Day 16 of Middle East conflict \u2014 Trump ramps up call to secure Hormuz strait, says he may delay China summit - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1OelhSNjJxcnZFWGFNZE5BWXgtd1hld0NoR05hcnVtczBMU1Z2UGdBOE1yQ3VBZVFFYjZzYmxxem9mNGRKVzIyYTZnNzd1cmdJb2I2U205bk9vc1VTejBzVzdxN3ZZMk5sMVNvVGx6V3pJOERpYjJ2aw?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bdc89d413c293f06",
-      "published_at": "2026-03-16T05:14:45+00:00",
-      "title": "'A new norm': BBC visits Doha market starting to fill up again two weeks into Iran war - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5aeUhWbWVac2JTSW0yLUdBeGE5LVpLRTA1b3YtLW5ZMUk2ZnpyZ2lEUWp6UWVITlVoTDJnYzhoOG1WU29LU2k1cHpwX25WbGcwTk9tQl9ROA?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "cac0f179f2be3aba",
-      "published_at": "2026-03-16T04:53:33+00:00",
-      "title": "Iran war live: Drone attacks spark fire near Dubai airport and Fujairah - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQbUtXWnY5QlFvUlU4V1QwTGlRZV9MMGpKN2Z4RGpzalNxN0RxNzJvRWM4UVNody1vcnNFbWgzWnpUYW5ZdFdFLXZvT2ctOENKeGFZNlg1ZkNHNllQbEkyc1MxdlUzOG81ZGxfQjdQSTZyTGJWZFRVZnpFVDc3Vzd0MXg0MF9BY0NfQjhIRXdTRHpja1lLWTl1SjdhSnVYc0t2RnZyS3pHWmRMYmljeERUNGhUQUZpME9PX0RiRVN30gHDAUFVX3lxTE5SQWdhOHFuenA4U2VqdnhvSldQMXRPNkE4T1M5SUJKbVhKWW02U1ZTSWwtc3NPaXRUYlJRal94d1E2QUE1c05VWXhNZWkza2lQUmswcnpEZXNlUlZudmptd1dfUWxPX2ZKZ2RZbkExTnZfY0dwVlZLVC03cW4tQ3FieUpib0dDYXk0S3QyYVQwUUk3NlQyTGhPX2lIT3dyUFBFbk1xNmx6eUJXZjd0MXJzYmhlV2xEd2hHbmFxOUNRTkFxVQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "55c222775b4bb31e",
-      "published_at": "2026-03-16T04:52:13+00:00",
-      "title": "What we know on the 17th day of the US and Israel\u2019s war with Iran - CNN",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWUpHNWplS0dnb1V6OXJvTS1FTXprYmZOZ0d2OUNLSFRuUFBkSkJ5RmtIM1pCNEZTRkNMSVdjUmxJWnp0bVNkcEZEZHpiNk4zbUVxTFVReFp3QUFuVGtIblVvOGMtV0JwcDVjUVdZN3o0MW16QWdjeERsMS0yWlN0MGJ4el9oN1Q0NDVvc01HUzNad3o5WXFtNGtB?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b477bf3564f58d78",
-      "published_at": "2026-03-16T04:48:00+00:00",
-      "title": "After Greenland crisis, Trump suggests NATO owes him help on Iran war for U.S. support of Ukraine - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1gyNUZONVpCdUtnNWY1a3p2YWhVNUh4RHBwMWVxWWFOR0RwajkwOHFkSXhXWWFXREVBS0pmZ0g2OEd6ck9MNV9QeThBQzE4dUpXWUNnOFBnZ085bThrdXMzVWxKWTJTVUlYRDNrSkx3Qmo5bkZXOVIyeFo3Sy11NWMxSmJyZzlmeFRLTjhLNzlRVVA5bjhvcHRNaHVRY1AwSHZyc0VrczJ3QW5oVGRR?oc=5",
-      "source_name": "Fortune",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "d2cc04fa28966b21",
-      "published_at": "2026-03-16T04:00:33+00:00",
-      "title": "If Trump has already won the Iran war, why does he need foreign ships to help him end it? - CNN",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNG9FeGd2dVJoWGRyLXpscFBPN216ajI5eTJLSk5OWmVHWG5iSWlQSExrNnNtWi1iMWFKRjZVeEM5V0lXeVljQ3BPdXE5WkVMSHI4RFpYNkU3V2pBSlBJeldFNk9IUGVmdmJhTjl5cFNtNGhhdTZWN1NPY1hUR2U3bUVCRThxbENnTTRTd016X1lxTmxraUpkRy1aRQ?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "d221b0f590ab8dcb",
-      "published_at": "2026-03-16T03:37:20+00:00",
-      "title": "Trump demands other countries help secure vital Strait of Hormuz as Iran vows defiance - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS0REc3k5MGJlQkh2MzVHWnFzdGNLWVlQNktONjFqWkJiSHl6OVhLcjd3RUpuS1FMeFBQVnluT1I1N1lreFJYVWpWSng0ZnlyUm8wQmtJbmdtNXBZejRUTkVlZ0FGLXZtXzNSdHdDUF8wanlFcVduUEc3aWNVWk1KOXgwY2FpMWQtLUpLOUN0TmNFLU9idERNRW1wMVZpU1d0MzVYdGpPMmhCWGdocWVlelVBTGxsSEg5LUdoTlpZMXhjUmdEdVZV?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "74d72c65607d0f60",
-      "published_at": "2026-03-16T03:09:00+00:00",
-      "title": "Trump\u2019s warning over Kharg Island raises the stakes for Iran\u2019s oil exports - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQ2VVZGRwS0VnOEktVE92RDJmMFRKc01FaHdzQ0liRzJqMWZoQWdBbTBBNVJ0MlplRmxiVkNtMUktT29QZjNFLTJ4dUZ0ZmJNclNWbWZWQUtzZXZrZkkxTGlJWGE3Q3cydEhid0R1SkFpa2FrMjVxR0ZmdHhmYmpWR1JCUVpYMnPSAYwBQVVfeXFMTUlrWGVrbURaT1pCTjBabXI5VkQxR1VicGRiTmZYZFBNYUdyVW5fMkpQRGJGcFZzcFR2eFlZNkJBZnhPcHFRVXNpYmNPMVB0RlAxcmpLQ0NWSXY0aEtjU2c0TURjVjRtRm1CQl84QS1EdEZKbnluTFVYbnF1LUhIc3hqM0VENjZPckFoMDE?oc=5",
-      "source_name": "CNBC",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1c6f0ba6fe72477a",
-      "published_at": "2026-03-16T02:25:00+00:00",
-      "title": "Iran War Live Updates: Israel Launches Strikes as Trump Urges World to Defend Strait of Hormuz - The New York Times - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YYzNLRkJjdzFUMVNUS1hrQW5kSkVfYU5qa3ZpVnlwSHdDUDNDRU15NFl0OWpWbW9wRzVLamZ5bTZabUVZVHNycVhGdzJIRmxuWVZRcGxRamd1dG5mekRES0lUbUU0eUhEeUM3U2duVFk4V293MVM4WG1kVQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
