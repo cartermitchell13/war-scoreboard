@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-03-17T21:55:30.054881+00:00",
+  "generated_at": "2026-03-18T03:22:08.181590+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 96,
   "totals": {
-    "usa": 37,
-    "iran": 15,
-    "lead": 22,
+    "usa": 29,
+    "iran": 17,
+    "lead": 12,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 13,
-    "iran": 12,
-    "delta": 1
+    "usa": 14,
+    "iran": 11,
+    "delta": 3
   },
   "confidence": {
-    "score": 63.0,
+    "score": 63.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 58,
-    "attack": 37,
-    "material_loss": 4
+    "other": 56,
+    "attack": 36,
+    "material_loss": 2,
+    "diplomatic": 2
   },
   "history": [
-    {
-      "date": "2026-03-04",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-03-05",
       "usa": 0,
@@ -76,7 +72,7 @@
     },
     {
       "date": "2026-03-14",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -86,22 +82,27 @@
     },
     {
       "date": "2026-03-16",
-      "usa": 3,
-      "iran": 3
+      "usa": 0,
+      "iran": 4
     },
     {
       "date": "2026-03-17",
-      "usa": 7,
-      "iran": 9
+      "usa": 10,
+      "iran": 0
+    },
+    {
+      "date": "2026-03-18",
+      "usa": 4,
+      "iran": 7
     }
   ],
   "latest_events": [
     {
-      "id": "5efd903f7ce245a2",
-      "published_at": "2026-03-17T21:38:46+00:00",
-      "title": "Trump lashes out at Nato allies saying US 'no longer needs' help with Iran war - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5djJqR2YwSG5qVVVhSUZmekNOZHNtN29fdTBmal95Yldwb3I0TGpMZzNQZ0hmM29VaHJBV0lNeEJYcTBVX2V3UndmOTNJWEFCbTdKWA?oc=5",
-      "source_name": "BBC",
+      "id": "adb1ac71f5055a3e",
+      "published_at": "2026-03-18T03:16:03+00:00",
+      "title": "Senior official openly breaks with White House, resigns over war - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOUVWak5QY1dia1Ftb2Noa2k3dkFsazZTRDdqaWpJVHVKU05tYTJxeEJIUXNPTC1XbkdibDJBVXhLd0Qxb09KUUZZMTQ5U2VVUEFxRlJxcG9PcUw1WEdFQXQwY3BqdldKcXh6YTJXQlUzakVmTDRQODVJUXI5NVBxQzV0VGpleGhtbWJiQ1ppMA?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -109,11 +110,11 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "d1b9c1ec9aee0e88",
-      "published_at": "2026-03-17T21:26:50+00:00",
+      "id": "4d46346963d06201",
+      "published_at": "2026-03-18T03:12:55+00:00",
       "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5xcW1ncWg1ZWxBMk42TFVvRF93QTVFbVJWd29OREw0cDFfMFRVSUlvWFR3OU9SOXBXYzQtZlg1N1FFbWxoNEhjODZtdE96MWhqdnp3SmwxbGd2Zk45YVprSzE2MFA2eTNHZXJtWlBGb1hqM2VfNFZVcVNYMHA2VTA?oc=5",
       "source_name": "The Jerusalem Post",
@@ -127,8 +128,38 @@
       "confidence": 0.55
     },
     {
-      "id": "1f28d57143a86e54",
-      "published_at": "2026-03-17T21:25:38+00:00",
+      "id": "a0c51ce1e363bcc9",
+      "published_at": "2026-03-18T03:10:02+00:00",
+      "title": "Iran's army leader vows 'decisive' retaliation for death of security chief in Israeli strikes - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5djJqR2YwSG5qVVVhSUZmekNOZHNtN29fdTBmal95Yldwb3I0TGpMZzNQZ0hmM29VaHJBV0lNeEJYcTBVX2V3UndmOTNJWEFCbTdKWA?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "63a468fc8f37ef1b",
+      "published_at": "2026-03-18T03:03:00+00:00",
+      "title": "Iran launches barrage of missiles after Israel kills 2 of its top officials - AP News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU2ZPWGVKR0E3bXl3SExWdnRrSW96SktTaGh5U2dmN0ZkYlU4UWhVZGpaRmVIMjZmMy1Zc1huaVJSZ0NpOVZSQ2tuTlNMTU1xZEt6b1g2YVlIVzNmcGZvQUh2TFAtUVF0b2lBdk15eVltSUJuWWh6NVFpVlJzTm9uZWRZRGhod1pPUU5uSFhOOHAzRzlJcWdac1RJaU9xbGM2?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "cab6405f0ef01437",
+      "published_at": "2026-03-18T03:02:49+00:00",
       "title": "Iran-US war latest: Tehran confirms death of security chief Ali Larijani as Trump slams Nato for abandoning US - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbFk3aEoyY0U4YkdTNVlkSDJYMldINTJQMU5laXMydnJpU1BPYWFTQnVFUHYzUzY2akRuZEtIcy1KVmZrbjJjX2xQc2dEMFJ6cThFQWc2b29XNDZOUnQ0Q0hCdmJvRDJHNS1lQmV0ZzVQeXR4WC1pX0VJVjdtNjY2Y3JCQXBfaUsxbFJGM3dXanFvZF95Z0JiVlRIWmpJTkJjLXlobWpjV1dzbmIzRHQtSzBuRWFSY3VD?oc=5",
       "source_name": "The Independent",
@@ -139,26 +170,41 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "9c6d593747413afa",
-      "published_at": "2026-03-17T21:25:24+00:00",
-      "title": "U.S. tells all its embassies to \u2018immediately\u2019 review security after strikes - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSTdWYU5mS2FQM0ZZZWRtdU9VaVg5LVJmQUh3akRtaVdzTk80Rkg5aWZQczdvdm1tZ0ctVzhBdXdacVEwUS1pcFpvWmpjMVY2SGxaVW5ZTWRnSlE3MENnUjdVejJVVzBCWmR0NmZMT0RJa3RqNF93bjVQTFdTOFkwdV9ha2dSb2JUcnMxNjJXSGl2T2FLWFFPSGwyc1M4dlBac05QRU5pZGprckE?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "unknown",
+      "id": "11ee12f498329660",
+      "published_at": "2026-03-18T03:00:00+00:00",
+      "title": "Live updates: Iran war news, Iran confirms Iranian security leader Ali Larijani killed, Oil and gas prices remain high - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XVGxBdmFfZm9GbWJDWmdaMUJsdUlfS0x5cEk0YUlzeFM5WWVLTjJFWmlDN0lycDRLdFdmNnd1V0xtUkloazU0cmt6TndnR1Q4R3ZQQS1PV01peXhYLXNIRzdJVWhwY0FiZTVvY212NDRqWXNFTERjdg?oc=5",
+      "source_name": "CNN",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "e732b0ac8167459e",
+      "published_at": "2026-03-18T02:30:00+00:00",
+      "title": "UK security adviser attended US-Iran talks and judged deal was within reach - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTV9IWmJuTm1vWE5jbzg0T2ZwODVJRXRaSk9Cbk05amF6SWFRMXhUZWdiRDBqQk1lLXFDOUpETDFiekFDY0RMVEJOOFdrZ05Xa0ZGcmhSaTZuRFVyV2ZraFVDUmwyMU9ldkdkNjY0RGJFMjRnNjFieW5zUDlBbjMtNXhzLTZRRmVEeUhDWVo0RzdtMHozTEYtRzVHRnlnaDBqMnZhUDIxUHZka01IR3RDVWRYbFFBMnQ0dFlpUXdR?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 1
       },
       "confidence": 0.65
     },
     {
-      "id": "6544022057169c29",
-      "published_at": "2026-03-17T21:25:00+00:00",
+      "id": "3625be155a64e58a",
+      "published_at": "2026-03-18T02:14:00+00:00",
       "title": "Live Updates: Israel kills 2 senior Iran leaders as allies reject Trump's call for Strait of Hormuz help - CBS News",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYkZ5X1ZvQW1nQXFrVC00SFlzWHZTcjYxQnNoYWNEUnd3NnFuMzV6U2hKald6d0ZiSHVHdUxZSm1ST3dfZVRJOXJMZHFlN05EeTFBQ1VBVktTNEE1d01fY0FOVmx4OGNpT3pac1E2QlVtT0pCMkRtRW84dWgzb0pHM0gzeF96dm41b3lPX29pZUcwVzQ1dk42ZjRpaDN4VHdueHBMaXdaOTY5blZINXozRTR5cmhBa0pX0gG-AUFVX3lxTFA3ZFFZZEY0a0c2cHJkVWwxM0FTVzlwWlBnOFd4dUNwWEFLa1l4d2hDV3Nyd29FeWpwdXpuQldGSlI4UnZvQkhZb25jNFFfQjZtaklQY2tUdXZWT2o3NGxaZGpSUFVINF9Zd2p2Wk0xVlFjOW1ycjlOSWxMODFzRmVUQmhFZFJpLTl1aWp2SUVoNDlYa0lmSU92WDZSVEJHbW1OU09NdnRSRWFMNm02WnpnRzBnb3VhTE56RWlxS0E?oc=5",
       "source_name": "CBS News",
@@ -172,27 +218,12 @@
       "confidence": 0.55
     },
     {
-      "id": "31af75cf8c5eb320",
-      "published_at": "2026-03-17T21:21:00+00:00",
-      "title": "Iran keeps up attacks on neighbors after it confirms Israel killed 2 of its top officials - AP News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQU2ZPWGVKR0E3bXl3SExWdnRrSW96SktTaGh5U2dmN0ZkYlU4UWhVZGpaRmVIMjZmMy1Zc1huaVJSZ0NpOVZSQ2tuTlNMTU1xZEt6b1g2YVlIVzNmcGZvQUh2TFAtUVF0b2lBdk15eVltSUJuWWh6NVFpVlJzTm9uZWRZRGhod1pPUU5uSFhOOHAzRzlJcWdac1RJaU9xbGM2?oc=5",
-      "source_name": "AP News",
+      "id": "e4278224fa7ce5e3",
+      "published_at": "2026-03-18T02:02:17+00:00",
+      "title": "U.S. tells all its embassies to \u2018immediately\u2019 review security after strikes - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSTdWYU5mS2FQM0ZZZWRtdU9VaVg5LVJmQUh3akRtaVdzTk80Rkg5aWZQczdvdm1tZ0ctVzhBdXdacVEwUS1pcFpvWmpjMVY2SGxaVW5ZTWRnSlE3MENnUjdVejJVVzBCWmR0NmZMT0RJa3RqNF93bjVQTFdTOFkwdV9ha2dSb2JUcnMxNjJXSGl2T2FLWFFPSGwyc1M4dlBac05QRU5pZGprckE?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b232f8d86151f762",
-      "published_at": "2026-03-17T21:01:00+00:00",
-      "title": "Middle East crisis live: Iranian state media confirms security chief Ali Larijani has been killed - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQTDRXZmp2NV93VjdiNXFHX1hVT3RUOVZZaENaX2g2NmNGOFFTeDZFb3ZYdnVrQjE0YmdtaTZxc0JJQ2l4UzFFQTh5a2UwTm5xd0hOZDJfZzJWdS1MUjZkNVM0OTU3cm1OQnozUGc2WU5BakhCVVBzUkZGMEQyOU5JeV9nYm44V0hNeDZzUmtMSHQxZVVvZlA5OUlFVE5qYkd3dDVJRXRCR3o1ME5rSDlLOEwzX1V2QUJGYlJncFZDZWt6cXJKX0hMbUczV1V1b0hMRElIU0RHemxEU205YU5sbDZza2lwamQ2?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "material_loss",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -202,131 +233,11 @@
       "confidence": 0.65
     },
     {
-      "id": "8569405887ac531c",
-      "published_at": "2026-03-17T20:46:18+00:00",
-      "title": "Senior US official resigns in protest of Iran war - Responsible Statecraft",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aUm5YWGFKVTdYRndMeml0MUZVUFVMUVFsZjl0dHpyT0g3cXZNSEV6SFB1cU5MRThrcGtoZEFiVkNockUxb215VXBEZnNuNnlWeDU4cFR3?oc=5",
-      "source_name": "Responsible Statecraft",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b7d5aeb415e912dc",
-      "published_at": "2026-03-17T20:40:40+00:00",
-      "title": "If the regime survives: Iran war raises the ante for US, Israel - Middle East Institute",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRHd2OVppUHVxRm5xSDQyX20wUGJKQTY0VGJWQVpudGlsMzFZbmdjeHRadkVOb2RuTXo5QjZtT1M2bU03QUg4WWxuNHN6aEZ2N0NpZTRjSG5vc3pyamhFU1hBcVJBLUtvbkhwNHN6dUFGcDR6ZWpJcllFZ3NLNzVFZDRpbWJVODFWZjVaSG1VLVR2MU14?oc=5",
-      "source_name": "Middle East Institute",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9ef0fe1b6c3433f0",
-      "published_at": "2026-03-17T20:38:00+00:00",
-      "title": "Live updates: Israel says it killed Iran\u2019s top security leader;oOil and gas prices remain high - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9XVGxBdmFfZm9GbWJDWmdaMUJsdUlfS0x5cEk0YUlzeFM5WWVLTjJFWmlDN0lycDRLdFdmNnd1V0xtUkloazU0cmt6TndnR1Q4R3ZQQS1PV01peXhYLXNIRzdJVWhwY0FiZTVvY212NDRqWXNFTERjdg?oc=5",
-      "source_name": "CNN",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f31f006e796d1174",
-      "published_at": "2026-03-17T20:34:54+00:00",
-      "title": "Iran war: NATO making 'mistake' on Hormuz, Trump says - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR0NRdjEwcERobXJBdHV0M2RvUVl4akVTaFpxQmhVbFBxZ19qbjhjalN5RXROd0VfS01jdHZRbzcxNGpyUHJLYmY0UnhSN2ZBVE9hYjNCVzRBVmtVWFFpVG1rRUFseTNRTlNPVDdOZFV1VUp2X0VVdEVCTWtrUTh0TXpKOXg5LXNLVTFQYnh3?oc=5",
-      "source_name": "dw.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "ee4842a2c305ba3d",
-      "published_at": "2026-03-17T20:25:27+00:00",
-      "title": "Fact check: Trump\u2019s barrage of false or unproven claims about the Iran war - CNN",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE53Z2JOWHhvcHFIdXJSUk91cTNvOTNPU2NGS3ZxOTc3ek0zWUZOSGM4NEhBVWM4c2JzZlpsU2xncXc4UU5yNEpJNDI2U2JLeTJFcVl2cnpKOGUwbDJOLWFaQWFxZGpDTVBrajQ4T01Kek1scU0?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "06f99b19c8370eb2",
-      "published_at": "2026-03-17T20:08:51+00:00",
-      "title": "Israel says it killed Iranian security chief Ali Larijani in air strike - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tREFqY2plYjg1dUhxaDg4Yk1wV0YwMElCdGlkY0pzT0sydV9CQzNTWDllaWZEc0ZHMzVwbVp6Wk5MdjczXzZSUk85aUtvUExUNW9KWHZJQjBKUQ?oc=5",
+      "id": "2b7c9f0c3471cb70",
+      "published_at": "2026-03-18T01:55:06+00:00",
+      "title": "Top US counterterrorism official resigns over Iran war, urging Trump to 'reverse course' - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XaVNBZXJjNzBGcTcwNFhORFFRUldSd3dyd1FZT1ZIWjE0ZFo3WlJjcnprTnkyTVBWanBveW9hMWZLQkROQXdEVElFTzFQZnpvRXNEQmxveFhIUQ?oc=5",
       "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c6e3378c3355c246",
-      "published_at": "2026-03-17T19:49:04+00:00",
-      "title": "The man leading Iran's response to ongoing airstrikes by the US and Israel has been killed, alongside more than a dozen other senior Islamic Republic leaders. - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOTl9VaHg5TE5DUTJDckhfallZRkJCTlFzaC05M295RDlTajc5SVJJU1NnMHRoZWUzdFRNRnZzdllWZ1IyVk5XMFdYb0tsTWVPcjV0RHNtSnNiTmRnV1h6Y2RQWWhORmFVM0RROUlZMkNqTW9JVHdmbXdvZHU3XzFZVUFjLUo4M3RZeXZ3ZDk0U0piUnoyeHVTekdoQ1lUZUZrSUZkajVxT0xJWWoxemhEOHg3V2x6UGh1WnpsYXYzOVlHTUoxUlRVRTUxY3lGV1l3NHZLcWtHeUg5amowR1JR?oc=5",
-      "source_name": "facebook.com",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4dae5938ad672672",
-      "published_at": "2026-03-17T19:36:57+00:00",
-      "title": "U.N. Says Attacks on Iran Set to Drive Hunger to Record Levels - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcW90d042a1hPVVp1TVpMRmpPdzhZelNkM2xtRl9taHQwTkFXTXNQcmVGenM0R08wb21idTBtUG1yOTZxMjF2Nm5laTh3cEFvbHM4bFJEblVMbFRNOVdFTEhXMXJIY1Y3VGVNNUJKNHBYaVdjY0lmSktLZEZTdkFDQUNLTUQ0RWFlLWxtMXpCbU5FVmlG?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "8a3e5d13627b368a",
-      "published_at": "2026-03-17T19:32:46+00:00",
-      "title": "Trump Ditches Appeal for Help in Iran War, Slamming Allies - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMWdlMEFJWFpaejZvMHJmOVNQbGhNYUdpaW85dVFESUpaNnB4a256aUlZSVYzYm1nMGVYSFI1RnkyeG9fdkpMaGRLLS1MUjdYY3NTc0pDODdjRjVfV0xoXzBYdEdYQXQtRTdvTmtUYzRqd1E3NXNHMEp6YlBkdFoyN0RCWm1fQW1meFE?oc=5",
-      "source_name": "Yahoo Finance",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -337,8 +248,23 @@
       "confidence": 0.55
     },
     {
-      "id": "cc0dadefa03810e8",
-      "published_at": "2026-03-17T19:23:20+00:00",
+      "id": "e029664455cb34b5",
+      "published_at": "2026-03-18T01:19:00+00:00",
+      "title": "CNBC Daily Open: Trump goes alone in the Iran war \u2014 as allies spurn requests to join - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZ090ejZGZTNhVWhCSFFZUWpPaDVUYnlYWmFKZTRYeDhFbjg5emF2c3Y2UTRVcHJmNjktcjh3UlR5U28xOWVRbG5kTVVxWnJNQU13aTQtdnU4SGpyNlVNbHE3TUVieXFOU05zcXFtVEpOcGJ0aE9PckRRcU51ZnFHamNGOGJGRVBQYm9zd1VHYmhKN3V3bElmZ3prV3hMLWM3eHh4V2xlSElnYmYyM3p6WkxVal9UODZaNGM00gHAAUFVX3lxTE9hSkFkbmZ2dUp6QVFVZkRNQXNEck4tblJrWGZKVU54VFprd3F5cTRxZzBhcE1YTnNybGxndHQ1RUxsVS00UFBvcWRzbDFmeFE4YVdXeVBTUTZ4ZjB3QkMtRmIxSE9IQUtwR1hLdi1ZOFJnaE1NVUZJZWFRRWdETDI4NzhTMFhONUUtVjB5V1ZqQUU3emJnM1B2ODVOWG5fTk81cm9fR2VsMDZIMHRaWUFocDh1UzJvQURZRkV4dERMbg?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bcf8d371ada6215c",
+      "published_at": "2026-03-18T01:02:37+00:00",
       "title": "US-Iran War: Nuclear Risks Demand Science, Not Presidential Instinct - Jurist.org",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT1BqY3ZRN3U4M2VSN2FzS2RtYUc2YkcwWkdtN3ZOSWdNdHNtenlXQ2ZiY2J2M3dyWUhDZzU1TDBHTnhkX3FwRzF4VlhtNGx4aEdSd3cwNWdsY2FadndOZk5ha2FkbjZQTmk1LWU2YVNpWk9QeG1CVzk3a1lRc2ltOG90UW9mN1Z6Y3d6RU41Vmw0MG8zbjYtQUp4NzRDTjdDTWFCRkFucGZadWdQRGc?oc=5",
       "source_name": "Jurist.org",
@@ -352,8 +278,23 @@
       "confidence": 0.55
     },
     {
-      "id": "46929feb8296b77c",
-      "published_at": "2026-03-17T18:48:00+00:00",
+      "id": "dca54eb9324a8480",
+      "published_at": "2026-03-18T01:00:00+00:00",
+      "title": "Gulf States Want the U.S. to Cripple Iranian Regime Before Ending War - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOcXVNb3FhQ1ppdzVrTGJlYUZNbUJtakZvZTdMNTBLTjBBRVJKT1JONzM1RVZmVENDWTlEZlU2Rlp2ODlET3daYlZaWVZoZ04weUNZMkRBdUtsWjQ1OVkxdmtRclVoQ2VCRlBrTlA1MXNDMURTbjVMT1B3bTJzWElxRTFCeWF2RjJJSjBNM3d2bklNSTk2WkVVcldUZl9BRHNKRTdmQ1Z4dzA1Z2ZlbVd4c2xTbXlfSFBFNGpJbUR3d2pqZjk2cmM5d3hocnZLQ21nUHNOSV9aLWQ5YjNPOUF1SGVsYnAzem13RUFiSHM2NmpQa251Sl9HYlVNVURER1VoN0lXOExpb3UtdjlIdzBNUTBGcVhWWnZKdFdVLVhzZ2dyVFY2Y1gtRjhxTWZqUUZVdWVEVjRoWTdKanFTeE9wdmRlUkkyZ2pyWS1YY1p0UWg4ODZWR1d4VEVPaWZWTHNCRkQ1bnZ3cWtNU0dhOGFjWFRONVRaVk5lYUJSZWhxTmVTZjVwSzB3c3FR?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "2245b7cc2723d8d8",
+      "published_at": "2026-03-18T00:54:00+00:00",
       "title": "Will the Iran war turn midwest swing states against Trump after his \u2018America first\u2019 promise? - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPeVAxdENKZG9oZE12WjU5enZOR2M0V1Axc25ZNVEwUG16aDVuVHF0T3N6YjhUWnppWUNKREdWSUlHaGN2bjdNd3hGLWptYWdLdU9GVkREVVZMWkplekljRkpYOE50UXV4RHMyU0lyMkcyZ2phWmx4bTVpWjQ5V2pHTmhsQQ?oc=5",
       "source_name": "The Guardian",
@@ -367,11 +308,41 @@
       "confidence": 0.55
     },
     {
-      "id": "8fd2ca15cc686d86",
-      "published_at": "2026-03-17T17:55:19+00:00",
-      "title": "WATCH: Trump addresses Iran strikes, Kent resignation during St. Patrick's Day visit with Irish Taoiseach Martin - PBS",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNdk1OaUhYUWk0dS1PWllhY1h6emh4NFZtRERONVQyWFk1VmlKdmw3ZWIwLWIzN202SElEUTB0S1VDMGI0SnloS1cyQk1XSkcyOERvb1p1QTVHZFFwdjR4QkxaN21GdGdTLW9jN1VFeUdwa0ctNDBEVWMtbXZ1aV90em1IcGM5OFVCNEFYWmVIYWVoMEVXN3lpOUFvbkF1Ym5wcjA2S1ZPakF0YzNuWTlrejM5cnk1bXd3SkVRN2MzR1FKV0xmNmR2c1VfbUVvQzhRZ3B5Y0ZwUEZNYmPSAeABQVVfeXFMT1pmUWk1ejFWeUxvT3ZIOFF2eEFWbzR5ZmhTS0RFOGNydzluZE9KcUFabGpfRWxUNDV5ZTctcnhGN3pFQjVVLWQwcXlYaGdvSG9qaGdPczNiUmRyenJQei1HQkdNX090YlpzNlJmNndnN01FWUFUaTIwbEh6QW50M2IwMTdlZXVUSnZzbkVCS2Y4c19yLXdYNXl6X0NxWGdBbVdOeGt1NFZZdEJPQl9Vek5lcTZHRnJhRnNaVUM1VVRieTVhbWtSb0tIV3h5VEh6UW9iTldxM2htcklJMW52d18?oc=5",
-      "source_name": "PBS",
+      "id": "b1714d592327ceda",
+      "published_at": "2026-03-18T00:40:33+00:00",
+      "title": "Live: Iran confirms killings of Basij force commander Soleimani and security chief Larijani - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FeXpPbkl0TndOTmdVREw1ZUF0MTE1MDd3SXFQWHpWbTBBWEtVWVhlZmZZX2pJZ3BDNERQay1pWW1jbElKNUNEVUFfTVdkTXdaZjB2eUlLblpySXdWN2JLOXUwWWlBRjI2azN0V1V0N1ZZRjg?oc=5",
+      "source_name": "Middle East Eye",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3260c74e1d9027cf",
+      "published_at": "2026-03-18T00:35:00+00:00",
+      "title": "Trump says Nato making 'foolish mistake' over Iran - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBZNlZ4Sl9FaGlSTkQ0emRaWmd3YzVGSXk4X1ViXzdfazhzNlhMRmJhSFFRMm9mZGltWjk1eHVVRkZxZTVZbE5UWk5QYi1uTE9TQUdUVUtjTl9qUQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "5ddcc68185a15bb1",
+      "published_at": "2026-03-18T00:29:38+00:00",
+      "title": "US strikes Iranian missile site in Strait of Hormuz using 5,000-pound deep penetrator munitions - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5idjJ2b3JwZDlkYWlkbmF1QlFIOVNIa2pzcTRKcnpLdDJXYTRyX3paQ2p5dE9IVzYzNTRianhEcFViVl8weGZLZ1N1Tk5VYWFET0d6OUpSV1h2NTZkRHhQTFhwYmk5ckhkNUE?oc=5",
+      "source_name": "The Jerusalem Post",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -382,19 +353,49 @@
       "confidence": 0.65
     },
     {
-      "id": "6e4a8cb75a332804",
-      "published_at": "2026-03-17T17:40:00+00:00",
-      "title": "Trump\u2019s Iran war has no ethical or legal grounds | Letters - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZkttSGFmMUh4ZlpiUTFIQ3VFME9MOG55TGdNdGpIbXRIcmdCZ2c5TVFqZ2ZPdzB2Rm9DYWhtWkxnWG51ME90TUVpV29BaTZ5SlNNWml5T01aVTVod2Z5S1BaVGduYWhYRXA1NTc5aHBjeUZqSkViRFhFV2pYdkxMcDgxTTM5MXFqVXpZN0otbjJrYjQ4bGU5cA?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
+      "id": "a3b43e513ff5f0ee",
+      "published_at": "2026-03-18T00:15:44+00:00",
+      "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+      "source_name": "American Jewish Committee",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "22e5136a87ec97e4",
+      "published_at": "2026-03-18T00:07:36+00:00",
+      "title": "Total repression and air strikes bring unrelenting dread for Iranians - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43TC0xVFlaa0hXZzdJVkJHWmRDV1FXbE9wY0s3XzctLVZJUll1MTVzUV9NdElKaFBHbTNqWjZ5ZS1WYzJzdUFjcjFjc1hOdkVPUUZ0d0tLSlVIQQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.65
+    },
+    {
+      "id": "fbc7264fad33cef1",
+      "published_at": "2026-03-18T00:02:00+00:00",
+      "title": "U.S. embassies ordered to 'immediately' review security as attacks spread - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWmhVdTAzZE1Bb3g4UnBDZjJrOVk0UWllX2dyOWttQmpYRDdDcUhrclBSLVJLQzh1c3pQd2wzcVRyWDlsVEVuOFR3MTZqcGl1QlFDbDh5UnVFZlFmQjBjQk81X0FtN2JPVVVpN05OeS1iWFNMZjJBODRZY0tOdzhuYkh4eU5DM0ZKS2d1Z0RLeE9SRW1nTXNlLWZuaV93dzdmZkhnNEp6N0xRdUxaZTRVUUF6bWo2Vm54dUFEMG5ueVRfRWNpS1Nv?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     }
   ]
 }
