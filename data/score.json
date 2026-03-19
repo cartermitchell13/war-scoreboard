@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-03-19T10:03:05.140680+00:00",
+  "generated_at": "2026-03-19T13:43:33.221784+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 99,
   "totals": {
-    "usa": 54,
-    "iran": 22,
-    "lead": 32,
+    "usa": 39,
+    "iran": 23,
+    "lead": 16,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 31,
-    "iran": 9,
-    "delta": 22
+    "usa": 25,
+    "iran": 10,
+    "delta": 15
   },
   "confidence": {
-    "score": 65.6,
+    "score": 64.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 44,
-    "attack": 53,
-    "material_loss": 2,
-    "diplomatic": 2
+    "other": 51,
+    "attack": 43,
+    "diplomatic": 3,
+    "material_loss": 2
   },
   "history": [
     {
@@ -87,20 +87,110 @@
     },
     {
       "date": "2026-03-18",
-      "usa": 9,
-      "iran": 6
+      "usa": 0,
+      "iran": 0
     },
     {
       "date": "2026-03-19",
-      "usa": 22,
-      "iran": 0
+      "usa": 25,
+      "iran": 7
     }
   ],
   "latest_events": [
     {
-      "id": "664321a7ad2b75b1",
-      "published_at": "2026-03-19T09:14:12+00:00",
-      "title": "Iran-US war latest: Oil prices surge after Trump threatens to \u2018massively blow up\u2019 huge Iranian gas field - The Independent",
+      "id": "c4cc38b2cf5c7cc7",
+      "published_at": "2026-03-19T13:40:03+00:00",
+      "title": "Economic fallout from U.S.-led war is hitting the rest of the world harder - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSHU0N2xXcVU1blRLS0RlaWhQNWpuLUwwclBDZC1LNFZjVjFQa0VKSWtmMXdXZVE4VG1jenVJUFNWUHZZWUpyODlrSXdXcUd5M3d5TlZFVjVhSGF4aTNha1pjWFFGcUJrNWJUWjVpSFBrMGNXTXpiTndkem1GbXFUN2VQVC1fNTg?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7d23bcf262482d5d",
+      "published_at": "2026-03-19T13:28:00+00:00",
+      "title": "Iran intensifies attacks on Gulf energy sites after Israel struck its key gas field - AP News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNN2tEazNreWR3Y21QYktTTDA4YnJwOE5aLVpKck42SVRPWGdDaGlDVWtnU0FqZ0U1MmtuNm9aQTRZeTFTVFA1c1VEVDg3XzJ5MkVFNDBQdFNacjlrSDgtRVdnZXM5dHU0cVItZHQxRWZNTnBDcWYtc05ZYmQ2UU15TFdLcGpxckR0dWIzNnhyN2d4czdvRm1wM3VOT1UwbnNj?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "52be75d01f4a7c8e",
+      "published_at": "2026-03-19T13:24:04+00:00",
+      "title": "Pete Hegseth says \"largest strike package yet\" coming today in Iran war - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQT3Rtb2dwU0xxWVVBclg4cERXS0RoQWJqRFlmRWEtbk83dXdwU2RvOE9lV0NSdHJRc2dMY1Aycm1EUmRqdTVSdXlLZGZPS2Z1dXNJZDJRcUx3UGxPZFJKSTNhaFhUel9vM2UzdGpic1NDNlVoeGZ6ckU3enB6ZUhqQjU2UXVud9IBiwFBVV95cUxOcWVwTFVTa2hTVFFMaFFkWFFtUTduNnRLcFdtY3hEREJodHlRWVcwS1FfTE4tNnFOcUVGMkFCTklSOTQzbTJJQTJJZVE1bkpIM0dScmZyMEMzTWxLaWV4YnM4ckRhUlFQWm85djJEWmQzNzFQamVuTTdsRUxGWVhseXZiNDRPaG1iX0Nz?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "45a70362fe6d41ef",
+      "published_at": "2026-03-19T13:20:07+00:00",
+      "title": "Oil prices soar as Iran targets energy facilities across Persian Gulf - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZm05M1lGcFZGVEVReFcyb3pUWjlEdjRhVHNEeHJYNGhMSHh2b0JLVVZ3eGFzdFNRcWFxekR0clBLNVlYRjl3VFNLYTZ3ZEZNRkwxcUdOamdTU1UzWGVQVXJ2SVBCYTJabmFfdEowZkk5SGotUzUzT0lPV0NSQTN4eUpNclg3QnNpQVpZ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "40ff95400e99783a",
+      "published_at": "2026-03-19T13:07:30+00:00",
+      "title": "China\u2019s silence on Iran reveals its true priorities - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYnF6eEY3WTUzdDdWTW1xSDdCQ01UcV9zYmp1Z1VrbEpOZEZrOEc5MjI0X3FWWnA4QmJGWDlHQjM0M0FSYmdWTXFwMWhWMU1ubGFxa29qT0g3QlVHLV9sU2VwWm8ybVc2alFpdktsc3ItektMak9YQms1VEJ5T0tndHAxNjlwT3hfVzRaN3I1aTVYUzRoWWVPT0xEY9IBoAFBVV95cUxQWjF3VHI3MV9uTll0LUpIVDl5ekJQaW1ZclIxdXFOQlcxV1N6dnh0ejFkLWpFOWNsc1NUS2tjdHpXVWVzRVo0T0QzZTY0RDk4SkFJaVJKVDEtTDM1WkNCN3hXaV9EQWtjY0JVR203NXdrdjJ4cWJpMUxyZXFNS1M5QmdXM3ZRZUdpMlp3SVh3aEtpbV9TcFFjT01lTTNzSmN0?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "337063b3fa67dfa7",
+      "published_at": "2026-03-19T13:07:00+00:00",
+      "title": "Live updates: Energy prices soar as attacks on Middle East gas facilities escalate - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE93V1Y4eHdub05mLVNXM2pBOTZqTXBYXzJFUlpaWC1DMVRzYVlYWHBXci00cVlkV1VZWGpwaFF1ajZ2YmFzMXBwQzFlWE9zUTFMN0hUYWxfcWRYNVVRd2RGT0hLeWRwbmlyRWlDeTdPczBrMlpkZi1qNQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8833913f473200cc",
+      "published_at": "2026-03-19T13:05:43+00:00",
+      "title": "Iran-US war live: Hegseth slams \u2018ungrateful allies who must thank Trump for winning\u2019 - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdlFBMm1pc0NGcHpUaHpCcGc2bGFwVUZFbW12OXFPbEFHRElJUzQxMy1lMXo3TzlEWXFBbnNZaHRQcTc1cllETERJOGE0bXZhTTBZRzNjRjhGRE1BZE9wM1NyQ216U3phenh2ZWFDejY5NG9xaTlvZ2w4T2wzRTAyM184SEZ5MkVzWTFwSFV4eV80dV9PMEpFTVJuRDVHcEZCbnJpeTZhY2VQa2VNZmltSlJTcw?oc=5",
       "source_name": "The Independent",
       "event_type": "other",
@@ -113,74 +203,14 @@
       "confidence": 0.55
     },
     {
-      "id": "0383aa93cb80d90c",
-      "published_at": "2026-03-19T09:01:37+00:00",
-      "title": "Trump Says U.S. and Qatar Not Involved in Strike on Iran\u2019s South Pars Gas Field - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR0p1N1FRZUlYUWpmUFRlZmxaOFE2OFNiOE5OTTNXU0FkYThDcnBCd1EwUWNaZzBaOHRMNE1EQ05qZERfYWZNYW9oMUoyUTg4YUpHZDcwdEYyRHQ2T1NHN2J2azB2WXZpVWhjMkItVDdiMnhCWTNFR0oxMTU0b1U1WXhOaXA0RVdzSU02NWdGZ3cyQQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "39f29e3cb50a6422",
-      "published_at": "2026-03-19T09:00:00+00:00",
-      "title": "Trump started a war with no clear end in sight. They rarely end well for presidents - NPR",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZkU2Qzk2Q1FUZ09veUw2RDdISGhYOVp3RjhXRENNcnZER2dYenpNaG9RS3R3bHlGU0lqU1FwVzFQZHNfQkh1OHZIVDBmaW9yWXJxay00aG8ycmcwY19YTW5tdVBxdDR0TDFCYTdlYzRvdzlFYVJnMFNmMWdjOGZHSWhHWE4?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5252c4ab535e30fb",
-      "published_at": "2026-03-19T09:00:00+00:00",
-      "title": "As overseas terrorists regroup, is the Iran war increasing danger in the U.S.? - NPR",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE83VkVKaXg3SjZOUEpLakUzeTdfc3BvZ3FkUFd2NWwzZFJtR3JkRjNaejl2QzF0NC1oeTFZc0lndm5LdTNNbWlNRHdtU3hrd1NzWk5NMEJMUnR6ZmJnRnFOM0lVaXNfZVNQeFVrVjZSM0IwbFhueVZFYXVnOWg1UQ?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "6529e0924f2726af",
-      "published_at": "2026-03-19T08:47:00+00:00",
-      "title": "Middle East crisis live: Trump threatens to \u2018blow up\u2019 entire South Pars gasfield if Iran strikes Qatar - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUkhXR0pRclZicml3T3dHWVN1Z2tfUzQ4U1R0X25NTGFNVE0tU2pmMkZTOEhDZDV1R09naGVfY2lJZHFlSjlUanpNM3dFcVZGN3hMUmp1Q1JBZmFaeGY4NFpPWHpVZVI5a0ZjajZyUVNLQ2otSUs4YThHUHFORWdLdFlMbDhzRklIcWRJNW0zMnF5cVlDYWUwRnlTWG8tS2FCRFhzVl9oX3dMQTNWZDU3UVYtOF9MZk1va0hoZjF6dFVKV3RUd2g5eDVBeVk?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "8fa36ca0cd40fd93",
-      "published_at": "2026-03-19T08:38:38+00:00",
-      "title": "Trump: Israel will no longer hit Iran gas field \u2013 but US will, if Qatar sites struck again - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTklVelZEMVR6dGZJdkFFQ01NLWVMNmQxc09oUXNWU1pCa1YyZ1VHaTBGTDA1SVgyS1l2MnVLV05PS2dlRVM5QXpKcFY3NWkwREJwRzVCenVKYklRcG9EeFBpT0pZY0tqd05zRmV1YUhMeHFEMFhjU3RsR3prOE5fY1pZYXB2MVNhRHNCTVNkdWRyaml1eUw0TFFScTVUOWZQVlRsbFVkeVBWWHlUUGdCUUtZalpVd3BP?oc=5",
+      "id": "82bbcb7790a58de2",
+      "published_at": "2026-03-19T12:38:38+00:00",
+      "title": "Amid Iran war, US State Department operating with fewer experts after deep job cuts - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTmxRV3JaT2N4TFZZUVlXT29JY0JqSWFOOTJzQjhmV2NfSF9STXFFNFlsZk1aVWd1bDRqSmVpanFaVnJIY0FWZjJqWUxOeGNYRGd1U2lTWmIyRW1oSHM0d2xNNUszZHdsQzB4d3VVMV9BR25OUDJqMmZBbTNVUEUxUHZJM1psSXlBN3V5amhqeXhZTWh4cjBSSzdYTVEyTGpLRERqRmZfZ0hfQnVRQVJVVXhtZ9IBuAFBVV95cUxQZkZDc3p1d1FJRHhQU0M0cENlUHQ2WmN3S1BFY2gxZ3lTR3dPMURsN2ctRnpndm1JRWZVbHBwazZsODZkX016eGctM29FTjVPanBDS2J0UDVPMzl3YkxBTDdoT00zbXgxR1VLZlRaa1FiUlB0ZUZjT3JjMGczR3JHMjAxcTYwbXBNLXhKY09rRnVuZmdfdzk0QUlEeVpqc3htbk5tQWtucFVRMjJrNDZrVThyQk42aTZj?oc=5",
       "source_name": "The Times of Israel",
       "event_type": "other",
-      "actor": "usa",
-      "target": "iran",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
@@ -188,40 +218,10 @@
       "confidence": 0.55
     },
     {
-      "id": "fe2109e85696f1eb",
-      "published_at": "2026-03-19T08:35:23+00:00",
-      "title": "Iran war: Trump says no more Israeli attacks on South Pars - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNXzJaV2p2MU4wYjVfYThJQlozcV9DUUJ5Q3VSOVhwM2xKTmRpaEY0enBtSHp2UkxXWFVRaDJlbk8tSVBPbk9XbENRY1FPQklhU1lQYU1qNVhZVXFYS3hvS2YzNFNpb1dTZmdSRmJjWFdlbDRYZXhWR2UtQVRtUUVnREpWc29EZUNBelFRLTNqMml4Q1hxUHUyNw?oc=5",
-      "source_name": "DW.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6d91f3d47dd91ae2",
-      "published_at": "2026-03-19T08:16:52+00:00",
-      "title": "Israel and Iran attack gas facilities, in a major escalation that rattles markets - NPR",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtNVdmLVU1OS03dE1ic2FzMzUyZm42QTBmSnRuTFVReDEyTjB3LWdBeUdrMVRGaktWdGF4aFFiY1RoVV9FUGRzdTlwcDVUNW52ZlVTQjVKTDk0d2hwbzFUN3NxUXJYdjVJOXRha0J3R3Jjd083bXBHTk5IcTdQajA?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b9b8b6876e146458",
-      "published_at": "2026-03-19T08:11:57+00:00",
-      "title": "US weighs sending thousands of troops to region as Iran war rages: Report - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQd0JEclU2VERvZW5RcjF1dUxQbThENnFnR25wWnp0Q3FwbnM3ZmU1T0lINUQ5QU00NFhqdzNOeC1USDB0WFRNTFBua19QaFVuSTR6Qm1IMzVMV0owZGItZmZlNkMtMEUxaEZzZWkyMFBIaEx6X2NMaVc2M3FIU2N5RjlwSjI2X3hiTkJidTB1cG50aGxXMDA5WTRyNC1vMDRIdEs3djc1SHc4ZjBQRTVZb1pDSdIBuAFBVV95cUxOZVVnN1FpR2lUNV9jWnFKTDdlYnVUVFRsU0hTVi1yVEhrcUNpV3pTNVRmV0hfaUhVcGZzTmJNUW1nd3d1MjFhYkFxbVp3d3VEdEdMVDgtbElhRHpxVm9ET3JPT2NLWUxFX2pBWmVGaDZTNVdiNmpJOFNWaER1QUs4dmdTTWszRldnVG9WZTZtVS1sVUhLa3hvNlV3eWVjUVdmRVN4eC1vMUxzSzN2TE94WFNOckhvWTUt?oc=5",
+      "id": "f365e5f9ba6b354c",
+      "published_at": "2026-03-19T12:38:36+00:00",
+      "title": "The US\u2013Israel war with Iran will not end with a clear victor - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWHRIWVdneHlqb2lodEVQZzBBc2lrYWkwWXVXTy1hQzlaYmVlWjdlUFBOa1l2Q1kzREREZjFwWXBYbmxobDhfSEd4V0RQWU5YR0dxM2NrYk9YM1NkRU9xU0ZkYXpYVS0tVk83TVo3dmI5cVpUSW1JREIwYVI4aTlvV1JFaTdoZEVlVDlqTU96RWVKTG5LaTVmanh6MG1TbGvSAaQBQVVfeXFMT0FWaHExU1R2Vzg5LTgzckh2b3RKTkFDcUU1bWxMVWFsRXAwQ2lGeUhZa1hZaEdMUUZDbHg1ekVqZTlEUWZjb0c2Y3JLcVpBY3NTVTA1ZFlQM1otczkyajJYZ050UGllMk54MlB5aVVGYTBMNS12QzNlcVphSnZUSmI1d2ExeUhnWFE5MFZEeDFvWW5TTVAydDVneEJ4cjM0bWRDbU4?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -233,8 +233,83 @@
       "confidence": 0.6
     },
     {
+      "id": "c4808f4c7ea22c36",
+      "published_at": "2026-03-19T12:33:00+00:00",
+      "title": "Middle East crisis live: Hegseth addresses media after Trump threatens to \u2018blow up\u2019 entire South Pars gasfield - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUkhXR0pRclZicml3T3dHWVN1Z2tfUzQ4U1R0X25NTGFNVE0tU2pmMkZTOEhDZDV1R09naGVfY2lJZHFlSjlUanpNM3dFcVZGN3hMUmp1Q1JBZmFaeGY4NFpPWHpVZVI5a0ZjajZyUVNLQ2otSUs4YThHUHFORWdLdFlMbDhzRklIcWRJNW0zMnF5cVlDYWUwRnlTWG8tS2FCRFhzVl9oX3dMQTNWZDU3UVYtOF9MZk1va0hoZjF6dFVKV3RUd2g5eDVBeVk?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cdcdb7e57d6b46c6",
+      "published_at": "2026-03-19T11:59:07+00:00",
+      "title": "Why did US and Israel attack Iran and how long could the war last? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55MG5wdTJrMFlNLWRENFBMZEFMcW0yN0E5dE1lajB6eGRWU1JNN2Y0cXhkbGlGdEpTcG1naHdqN00yLThGV3Qzd2RmYWhBa0tfS1I5ejRobjVGZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "6725ca72729492ae",
+      "published_at": "2026-03-19T11:51:07+00:00",
+      "title": "Could Iran war trigger the next global food shock? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZ1lPSzNvQzRORFBYb3lpS0VhZ2RzRjJXZkhuRWZnU3JQZDJiaU0yRTR6QjVHeXd0VWNrU2VFVFUtRmNRQ2xjZzBZcEFwMWs4cFBfQXA0YW9sZDZMd1REWWhOeVFPYU1JQkh1OXVVX28wRk9WRkZGN244eXZNcUs5NjZRZl9oc3U2YUk0S1pKVHl1Y3JYSTZObUlPeVZPWm9RTXJmcVcxVjU2RmFncXfSAbMBQVVfeXFMTlFrRkJWcENEUmRZTjlCZnFBUUdQbzFnbGtBVmNlWmd4TjJCdmpoeFRlTHl6X0FVLThQNkVhQ1IzMHpkcVk2eVBOdHRZa2xUaTQzbk9RVjJUZ1R6VHZTVUh3Nk5fdDlZcDh3SkJROHBtYVQ4NlZTWl94cDJFd3pNUXc1ckVLNTVVSW15U05GUmV1MFRkRkpveDc1UzB6Y1B0OHY5TzFDSGw4YjFGb3B1REFBMkE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "015065c5a6fe1172",
+      "published_at": "2026-03-19T11:41:37+00:00",
+      "title": "What did Arab and Muslim ministers discuss in Riyadh meeting on Iran? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYldhdGllRW5WUmVfSEhqREZuc1BhY2kwUzcwTW1VSW5xM2ZXYmhxVUFTZVhvYUgwU3pPNzlFbDhsbE5xc3RFUUN5UExjTjRBSVR6ekNYNnItWi1QMTZlVXZFR2NxcjB3QWQtTmRIMWdNUEZlX0dfQ1pyaVRvYm1CVkh3bXh6ajQ1a3MyWjRrYlY4cXdyN3BkaGhFaHdxNWhVLUtvWGhVaDFBWjAtdGfSAbMBQVVfeXFMTTR6US0yc29QRlZqRDd2clpFM2VxMW9KYVJ6TkFacXRYdlMxSXVuMGZUakNNTGZ3a3d0MHBlN0N3YVBlZGoxUHFlSWRwRTMxeldWUFM2eWdTZDE0SVUxWE5KTEliV2FPeUdlbDZUSDhkSGRxRWJWSXhRaFpiaHVNR2l0TG45Y2tBVkxXZE1rZlZ6RW11Y2M0c1VvSXR6aWxzdXBUcUZZWFRPQkNZaC1CbkdJM2s?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9263d77df0bf555c",
+      "published_at": "2026-03-19T11:40:12+00:00",
+      "title": "Africa to Host BRICS Military Training, with Iran Involved \u2013 What is the US Response? - Modern Diplomacy",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTHVqZkN6ZGt2R1kxYmxHaGRIUFZMZ2Y3OXZYNktTald0MVRQYThYUDN3RGRZREMxOTR2UkRoVHppdVVWc0JXMU1TTUEwbjN5bm51UEdpVWlNd0JhOUhMYmhVcXVmR09ycGFNWE5zNUVvT3FIaEFYbDBTeU9nbFItcHB2MTRiZmlubWZ2UWxKclNSdVd0aWh5TWJYSmJOVndIY05ZVXAwQUJ0ZmxQamktWjNfSUl1RmlhNXBUdA?oc=5",
+      "source_name": "Modern Diplomacy",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "e313187baed052aa",
-      "published_at": "2026-03-19T07:59:57+00:00",
+      "published_at": "2026-03-19T11:36:58+00:00",
       "title": "War enters new phase as Israel attack on Iran gasfield sparks Gulf response - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPa1dWVUFGa1VqTTRFdi15NEVYVEhRUmtqU01wZDZZODZKeXhCV0xGNmIyZVQzcVhGWHRweTRZOXV1a2NHYkp5SnZpYTB3RWpjMzI5NHRvQ1lEN0pabndYM2lRUUZMNkdjRTV2V1pqM2hrUW9hNjNvMnh6cTFkYVpWbUYzWEw4endnYUs4OVlzQdIBlAFBVV95cUxOVzd3WWt1N2J2WUN6TkctLXhQUXp3X2VKZjdqMVdRYlUta3ZHWXJDaF9qZWhqWmhsTHN3NHNqaTBJQkVuUjNralZaQU16X0dnNnFaUjhWUFU3SWw2UjB6M3ZlSG15dklfcXFlTG93Yk0wUkN4dzhjZ2dXZHZ1M29Lcko5RjE0REowX21xRjJGZWNzY0hU?oc=5",
       "source_name": "Al Jazeera",
@@ -248,146 +323,71 @@
       "confidence": 0.75
     },
     {
-      "id": "064aba7b9bec7a33",
-      "published_at": "2026-03-19T07:24:31+00:00",
-      "title": "Trump says US 'knew nothing' about Israel's attack on major Iran gas field - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90Y0ZKbjJMb1V3bkpvN0hveEt1ZFlmU2VseGNOVW52SlBjS2NqakNSZzFaemx3VHQtd0FYc0R3QlJfOG9YaG10dW4yVXBiNFhUTXZVSEFDMmxyZw?oc=5",
+      "id": "6afa235f69a2442b",
+      "published_at": "2026-03-19T11:14:13+00:00",
+      "title": "Trump Vows No More Attacks by Israel on Iran Gas Field After It 'violently Lashed Out' - Global Banking & Finance Review\u00ae",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNUotSDBWU3F5WmIwdDBOQjluUVBSakZ3Z2NNbUItUkJKXzRvNUZLZjd4V3dFZHNBUVFvSnlCYk56ckwzRENBUW02SVdtMnN0MjIxUzJQblphZUp6eXRsX0RTaVFOdTZPQnp0ZG00TnJtX24wQWpZVG1sY3hycUdwdUxoaUxwUi1nOHpiYm1lSU5MZE9lMnlHYWV3NWZ1U0E?oc=5",
+      "source_name": "Global Banking & Finance Review\u00ae",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b75d2ad319abcd0c",
+      "published_at": "2026-03-19T11:06:22+00:00",
+      "title": "Congress won\u2019t be able to avoid the Iran war much longer - Punchbowl News",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ud0QxWURNYVlWNVh1WjJKTjU5V2lXRWtRN1R3aHRRR1kyUHRidWpmM3V4Y0h1eE5lUG9YVVk2NTV0eVFLWkc0WDJTOWE5LU9sUU9iWGNTUm9VbndEaFIteXMwOEEzWHhoSkhv?oc=5",
+      "source_name": "Punchbowl News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "85e506bea245084e",
+      "published_at": "2026-03-19T10:59:32+00:00",
+      "title": "Iran War Causes Trump Woes. Not So Netanyahu - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHA2dGFiZVZ3cnJDV0FzR1BNUlFOUjl4ejJhX1dTMFBjeGtjN2ZJNHVMcl9wN1ZTckpfdkVUTUtINXJFckEyYlYzVDVhYVZMYnctNm9DTFN6Um04S2N0RFFBQzJXeU5oZlN0a1BQRlNGNGtiQlNpSUNmcWdVb0xIbUFqajQ5TGNWbnVHNnNNajlQaDVvU0hnQkYtWHFwMTdFc3VsRzdnZW1MeTNaUGZQelVfcTUteTlSaEZ3TA?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "78e21d530fd42f70",
+      "published_at": "2026-03-19T10:30:42+00:00",
+      "title": "Japan PM to hold 'difficult' talks with Trump as Iran conflict looms large - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VWHQzWE85WmZORjJSXzRxOGRPVzFhSXA0SzdXam1kQ1ZvcVhjOTFCQlFoYzV1ajR1cll0SmQyRWdYSy1FMUdObGoxam5aemNqcWpIYWp4RGRmZw?oc=5",
       "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
       "points": {
-        "usa": 3,
-        "iran": 0
+        "usa": 0,
+        "iran": 1
       },
       "confidence": 0.65
     },
     {
-      "id": "fbc41fa74c128614",
-      "published_at": "2026-03-19T07:12:26+00:00",
-      "title": "Trump attempts to distance US from Israeli strikes on key Iranian gasfield - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTFBtdVhPU0lnc3UxaS1sSHh6amJSMVdpbmUxQnZxX0dZVkdZUHRqWkhfNHRDSmUyTjVnVmpmeVlxSGVLLUZiUHlYR09MQmNHQjNQSUZ1ckk5UUZzSW9mbUp2Qi1ZQm04a05ZU1Q3Y3dLaU9HUWV3d2ttcGtab2FIeHd3dTkxSlcyMk1PXzdyZmdOa2pGeXdELXhWbUdWTnpWVkNndmNNM2JjMVMxcnl4RVhBZFlGQdIBuwFBVV95cUxPWHQ4N2w3Yl9UNUx6ei1vVjJMVDBaOGhqUkFib3VGSFJ0dThwZWw3blAwTlRTbUdzMnQwazJUeDg0VXNZam9IMlZjQm85aXVMTEJOVTdFNjhtRzZxUGw2ZldOY1ZIZXVPemFDOV96eXkzbHh5RXdRMDYxQnc4SkxWdHVLeHpFT3pUWTJzVE5wTlA4VkphVlIyWlJQYWQyOEE1Qm53OHo1M0pnSVYyY0JpbTNpME1nV29jYWJR?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8df6c9d65dce65a3",
-      "published_at": "2026-03-19T06:53:21+00:00",
-      "title": "Iran accuses UAE of aiding US attacks, seeks compensation - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nWndMa01yX1lkQkNiWEgyU3AybmhlWEpRNjJmVGcxMkxEMnN3ZV9ILWZkT1BqaFUxSk14aHFjTE1tRnZzZVk1T2lGZ202R0xWbHJxYTJCSEV1ZjFkbWRieC1TSTBTcG1XR0E?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b8011162b503f6be",
-      "published_at": "2026-03-19T06:48:28+00:00",
-      "title": "Iran war: What is happening on day 20 of US-Israel attacks? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWmJURWNuNE1qQXlDVW9CZ1VsdXg5bFFDazhKdTczM2FNcS1BRzB4YTNSbVcydkZQWFJ6OEZlMk5EbzFzVnpOUlNDVnZQd2hVc053d1QtR2pBUHBPbl8xNzVNVnBtWEdtVFc2RnZldlVvUGU3Z0NUY2QzU1Z6TEd1c0tDUWNhOGlDSExHQ25ydUZSMmloYncyVF9HMWRLYTTSAaQBQVVfeXFMT185TFFjVUItV29qMHhGRmlSRWpMaU9oVzV6RHgzYk0ycjJLZFBHNlRITXhQbWlzdFBNZ2p2MW9BaWJsekJxRHhvTWVPYmRwdWhhTk9lUXh4WDBOZXFtajhuRjN5QWRZNE5OMHhUWndXa3lZQ1BxZFBwbXR2bXhUWndzQ1ZLa1cwRjlydzBHWTFERjExeUs2bTFySzYxd0w4VmhZTVU?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ce8414f61dfd125e",
-      "published_at": "2026-03-19T06:47:32+00:00",
-      "title": "Iran war live: Gulf energy sites targeted after Israeli attack on gasfield - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNGRpTWFCTUtTWHlXOWI5dWlYYUpuLUk4X1NEM05xNnNOa1BleGFWT0pHUTVYYnFWbEV4bThsaDV1UXY0RXZJRDNUa1dvelVxLTNZUHVVa3BLYWU0dVlxQmd6UDRvTVNzYi1lcEEyZ2ZLNHlzTVhDS0gyMW5oUFp0M1lPS3FvU3p6VWJyRnBpNHJMc1F4dlA5ZDJYOGlFRUhTQXlFZlpsREFncWlnRUpZdG9WdUZFTS1KWndBdtIBwgFBVV95cUxQQUlJZTdLLTVKYVM0aFFQRmxMZklINUV2QXJhS1N1NHVMa3RERUJmeVNZWE1qNE1VQ19fQVNrOGJVOTNlOERvMk4yOGQ2NUhYTndzZHVZY2RUSFhPT2ZXMFJ1T1Q4TkViLTItVWVaUGpMUGpVUnR2NnhZanY3ZWQ1YkhWLW41X2dWbC1kaWp6RFh0c1hPa2I3djdoT2RDSlkzZ0YwU0ZjSVhuWEktcTB1WWxnTjRkQzR0c0kxMGNCNG5TZw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "62c3a099f41d0333",
-      "published_at": "2026-03-19T06:34:04+00:00",
-      "title": "Iran\u2019s intelligence minister killed by Israel; U.S. unleashes bunker busters - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWXQ1MnZWVEZ2am9HalQ4QnF4WnpFalotRVRFQlFNOHJEblJkUGR4aUxXX3Jjc2NBY1NzeTNiMENfT2NhX3hUaEVrUE5DUVlJdG1JbjhnZkswVEhtLTlnSDhVSEFvLUNPZktnV1VRTjQ5T3p0OUZHT0Fud0diNW53Smg1TFROazRPZkd3a2NWVUduZHZzMWRhWUtMdDlzazNOTWJMVG81Um03RFZWTC1YRFVsd05ZTFRtaEthbXVjd3B5UQ?oc=5",
-      "source_name": "NBC News",
-      "event_type": "material_loss",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 4,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "1c8d0f0c37bfafa0",
-      "published_at": "2026-03-19T06:21:00+00:00",
-      "title": "Iran seeks compensation from UAE over US strikes on its territory, UN ambassador letter says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQR21FWW5oREZ1UEtJSmdfeVZqRnhxVUwwbUJIa1RmR3ZmS0N2Qm1NZmZobzBmdGdnRUxlLWFTSl8wdEtjeE56UjVIMVhKb2t6RnlQR2JuZU5tU0JxUDN0aURpY1J0UG9JZEFPRHBrQ1VaNWNrQmRLekVtSElzV3dVZjZ5b2o1amwyeHZwYlZIR2FGd2N0SHJ2dW9qNU4tNnUwem5BcHhsZjltTWlZeTAza3FUY1hMNGpVM3pMRnlORXBKNWc2dEZQS0tUSGk?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0f311f6d203819dc",
-      "published_at": "2026-03-19T05:32:12+00:00",
-      "title": "After Tehran strikes, Trump says Israel won't attack Iran gas fields anymore - Axios",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DcDRRQkxfcTVmdVdtejM3QVIyNFhJb2EtV1I3U1djV1JKLWFCME96eWpUUmdSRzA1RWJuWTQ4LWVSQ2VHdWlpNlRubWdqOFJOTUwzSjBudGNKTUdZVnF3UHVHNHJ6bk5YSHB2UGRoX3A3S1E?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "05c34b002afd831d",
-      "published_at": "2026-03-19T05:03:00+00:00",
-      "title": "Day 19 of Middle East conflict \u2014 Trump threatens Iran\u2019s gas fields, Gulf energy sites come under attack - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1rSXdyMHVMV3hxaDJEcFRoVEt5SmRuMFViczdVRUJCeTZYSUJGcEtScVU5Snp0eU1fY0tvRWlwN2l1Z2hXNXUyZk02S1IwdlVPX2phZEFLbGxYYmU5cmkxdkhpTlhCV044N1dyOHpKYXJGTDhjdmZBMw?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a19ffba4ad07a1bd",
-      "published_at": "2026-03-19T05:03:00+00:00",
-      "title": "Trump may push Japan for help with Iran war in White House meeting - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUTdUazA0OE5LTkgzRGhWS0wyZkEwaWZWaHpTQ3FCX1BNUl9URmIwM1ZoM3JlRWJVcFktYzYwQWVMNl8zNUZ1cGx2dDljU1hMUUdtVnlzcDlBeXIxUUhtMUt4VXQ0Nm1QeWdJSkdkb2Rvc1o3V3dDYWxmYUpUUWEzYW1acFBMRERWaEJsTzh2d1RYeXRMQ2JTQVM4Y2JYMHkxYTZKc0hVQmxwRTQ?oc=5",
-      "source_name": "Reuters",
+      "id": "59a654ce2a4f4465",
+      "published_at": "2026-03-19T10:29:44+00:00",
+      "title": "Trump faces his most difficult Iran war decision: Will he deploy US troops to seize uranium? - WSLS",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQU2g1WkpnNUt4eFpXYU9aUWhHLU9JYlYzanVxN1lYbVZTM1IzVUdwdHRIbXU1YlRuV1FTYkpPWUVhcW9jMHV5QnNUVU1NbndDRXNERU9RX0Y1UDZpblBkUGJubUtlNEJhcEEwMEZ2WUZsbTVqS2U3MUttYmhDandTeDdSVDJHUzRSRHFDUjNnU3QtY2xyVTF1dFRHT2cxaUtJWWk3LXZGQm5JazBVWlp2SVVJb2Rxb1hJRld2VDlEMjAyVzBBQk1EdDFnTUZKQ2Q5Wm9V?oc=5",
+      "source_name": "WSLS",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
