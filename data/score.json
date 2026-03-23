@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-03-23T10:16:02.357313+00:00",
+  "generated_at": "2026-03-23T13:51:39.662658+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 96,
+  "event_count_window": 95,
   "totals": {
-    "usa": 31,
-    "iran": 33,
-    "lead": -2,
-    "lead_side": "Iran"
+    "usa": 34,
+    "iran": 22,
+    "lead": 12,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 12,
-    "iran": 27,
-    "delta": -15
+    "usa": 19,
+    "iran": 16,
+    "delta": 3
   },
   "confidence": {
-    "score": 63.8,
+    "score": 65.3,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 39,
-    "other": 55,
-    "material_loss": 1,
-    "diplomatic": 1
+    "other": 44,
+    "attack": 44,
+    "diplomatic": 6,
+    "intercept": 1
   },
   "history": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "date": "2026-03-14",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -83,26 +83,71 @@
     {
       "date": "2026-03-21",
       "usa": 3,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-03-22",
       "usa": 3,
-      "iran": 12
+      "iran": 7
     },
     {
       "date": "2026-03-23",
-      "usa": 3,
-      "iran": 9
+      "usa": 10,
+      "iran": 6
     }
   ],
   "latest_events": [
     {
-      "id": "34a40b8de8e37735",
-      "published_at": "2026-03-23T09:55:54+00:00",
-      "title": "Iran-US war latest: Tehran threatens to lay sea mines across entire Gulf if Trump launches ground invasion - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQS3pIWERDeTU0UUhrMng0amNUOEdQV2NPSV9YRHkzWTlQNUozekZ5Wm1lRkh5WDc5R2xwMEJpalc1OEhqdHFlQWloTGJrSWhteXQ2TUNrMlgyY0dnTGlNWWVJemlBb3hhX2pSN1Y2V3VnZVA0RHMtQ3YwQTN0ZUNWLUI1RXhpekZDZHk5NVVBNkh6QzBZREpPbUZVRjN6S3BVVzlMb1B0R0V0MkJUS2s4Wklua0g0a0R2Tlp1Q2ZrX3NJSU5I?oc=5",
-      "source_name": "The Independent",
+      "id": "353f80c764f86be7",
+      "published_at": "2026-03-23T13:47:13+00:00",
+      "title": "Opinion | Don\u2019t blame Trump\u2019s stupid war on Israel - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQLUpOTjhoRjhVQ1BKaVpiampucFc5TjZTZHdJX3lzQWdDc2VqUzZrbXRMMGpEZFNJVFJGWDZSSVRMR1FjcFd2YXZETzRXNVAtcERvRjQxRDBXZG9kWFd5YUp0LVVmUjE5MFBuWkxXY0ZkRkRMazFLYlgyZXR4R2hxTEduNDN2SlgycnRURFB5Szc?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "237b8290da817963",
+      "published_at": "2026-03-23T13:45:57+00:00",
+      "title": "Trump says U.S. is postponing some strikes as it negotiates end to war with Iran - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYUc0X2w4dWNtMDJ0NlVNRkU3MldsTmFGa2h4VThMd1lOY1UtRzJuN3E4b0g0SGo3Q1FkSFRSQ1Nhcmx3WkJIRGZrSEpUWklPSGFRblpucFFXX01pb0pvc1o4VnktOTlrSHp2RVhPYXJObzdWWFQ0Z3l3bGJ6SGQ3YmlB?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "eff7adc5fd2524df",
+      "published_at": "2026-03-23T13:41:43+00:00",
+      "title": "Iran War Live Updates: Trump Says U.S. and Iran Held \u2018Very Good\u2019 Talks on Ending Conflict - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9hdTVCN19iQlVDTG96U21wcktGU1NoMVBURmtTUERWcDRrTFY4Q0lod21mSmx2alRsWDJPZzNpeEVwY2QzOGVkSE9tbmpwQzdRNlJhMTBNS3NhX3JKYkdlRUE4dzJfNlpBZU1abXFvRnRMZw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "eb53ed3f406519f6",
+      "published_at": "2026-03-23T13:39:15+00:00",
+      "title": "Live updates: Trump says he's postponing attacks on Iran power plants, citing 'productive' talks to end war - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3dsSTBqUVpDeGZzU0g3RHZhREJLa0lvbTRJLTdtaW5CV3BmOU1qemk2TjlHekhURC1vQ3VZSG1BUUdLN1QxWW5JVGNuYm1pT1BEVjVrc1kydUU0LWt6VDVHcXZ1ZGdrMG5CaUJjSHJpVmpuQW1QNWg4aHZicm9SMU5kdkJJdlNCblRTU3gxZGF4QmFTaXhWVGlzOXhLV191LXpxNzVHSzM2NXJfNVpHXzhUeVF4d2hHTkM5MXRQVFRJalRVZGxVdVowMA?oc=5",
+      "source_name": "NBC News",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -113,68 +158,23 @@
       "confidence": 0.7
     },
     {
-      "id": "806607447c675091",
-      "published_at": "2026-03-23T09:46:00+00:00",
-      "title": "Live updates: Iran defiant as IEA warns energy crisis worse than 1970s oil shocks and Trump deadline looms - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zd3ZXaUREMkk4RFRaSzBicG85anNMdmlBdHJZVjlzZmR5UGhVWnpBUGZqX1VkNXpwTzdWWjROeDMtZVM2Z1U4YVNkTlJudW5SRUFyaGhhWDFfcTFKclNhaXJPQ1IwcnpwRDNlMkgwVmV6SWI5YnFUMg?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
+      "id": "48794563c5df0319",
+      "published_at": "2026-03-23T13:37:41+00:00",
+      "title": "Iran US war LIVE updates: Trump maintains 'things going very well' even as Iran denies talks | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQdFdCaEZvOHc1aUlOVzk1S2RVNWJURUt0Nkc2eTNyMUJrUHRLdkg3SGt2TVRhUUxucnhOeGxybkk1NG9nUE5jRkJCYThoRndBZk1xWGVCZFE2VGpkRU5jZmZsSDdfQ1A3TTBiWVQ0Z0xrV29mdDRKOHRBQTRtT0RqdC1xaVgteU15YjY0ZDVRSC1PekFkRV9FWXY5WmdLOFVmUk1fdU9vVExTWHRNdjRxV01qZGdMUHN3MExFVno5ZVFSVmJvOTd5T0lYTEJndzZlNXJGZzd6S1BBTEdkVnNHS3VoMnEwS25nb19VRDQtOFRrSFIzYzNUUll1bWxRZlJQeW1NNW9tcVdBVGVLWlJ30gGUAkFVX3lxTFBrUVdzM0xCcUtocFhCSXprT0V5Q2M4UWJTb3MwNHVnZjlSS0dOX2U3d1ZGWWZGVGw2VS1ZLUtUYlYtdFp6Q0FqdFBnTlFvalBuV1loRFpwLU1VQzJ3SDBmanNsUU9hMjJFZUtsckdlVWE3SE1Ceno4VE0ycWRkRzRRSzk5REhGNzJHNkt6UmQwb1JyMmd1SlhfdVNPM1o2OVpqSWNfcGJIYzVJVFVtQmk4YmFhekk0YTFFZlBNcEgzNjF2ODFDN1dlcGduZFMxSENMd1lGalAtUG9xTXBjRFRsdnhZbEtJZHVHWHlzNVJrVjFqUVgyUUJkdDItaXVrQzlwM0hHQ3dORDJnZ0FaaXdrYU5tTA?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4e42592009ef7d00",
-      "published_at": "2026-03-23T09:42:00+00:00",
-      "title": "Iranian missile strikes injure 180 in Israel, officials say, puncturing air defenses and shocking the public - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ2U0ZGtwWFFXVzBKU3lIU1VfcGRVVEVoT3M4ODh0N3d1S29kbjIyVVRzbERFSktYcE05R044akFnczliNlRFN2RZcVZWRXBBdi01TG9Ud25HNzVJUW9LZGU2dWYxR2FLbW1MQnhnZEM1cE5JdFZ4MnVnNUE1ZUhJOFRnN0NLNEp6dlBFbXNvbmE0SXcyUTJudVpHSFpYdw?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
+        "iran": 1
       },
       "confidence": 0.65
-    },
-    {
-      "id": "df00d987584431cf",
-      "published_at": "2026-03-23T09:29:00+00:00",
-      "title": "Middle East crisis live: Iran threatens to lay mines across entire Gulf if coasts are attacked as Israel warns war could continue for weeks - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNd0RFTDRRX2hEU1BPenRYZnRNWF9xU0ljbzgwdHNRTnNCNmo2VkloUDdBaWhCV1FidEpFMHpvQUY4Q0xuZ3huVzVlekx6NkUwTXdfTUFpSVdhQ0Rpdzc4cnppV0lTQmZPbHMzQjV6ZUIweWNVdmNIMzdUVGtvdUh5MlJid0haRXg2Y2xoQVFwNkxveVkxU2xEUDZmNTZhUjhpXzBHb3JZRW1ZWUFCTEpqZE9IMU1KRG12VVl1djdtRl8tcFZpYnFPSEVjN01YSnhRanJNOWlwTzlGRTA0U2ZkMVZscW1LclQzMG54ZDNRcjNQa3FrN0w3Sw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d0297708b34e23b7",
-      "published_at": "2026-03-23T09:05:48+00:00",
-      "title": "US stock futures fall as escalating Iran conflict dims rate-cut hopes - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdmQ5dTl1Ni1MNnlQODduaV9wU0pNdzJ0LW9VT0U5akt5eWRkZWN4TXkzVlFjUVIyeVV3UjZuVHRmT2ZRTGZPTWgzXzRhbzcwNVp1Vi1MV0NpZ25jLUdyc1d4TGJIWFRiczdJVEotOTNKSmJyQXItMzRKOGVWMUFtU2t6RXZQQ0RMMl9Rb1NQbnRPSnJfV3d3a2RKSnRpSC1JVFp1cHZvNlc2aXVFMGlnbw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "4e76ea77298f1de1",
-      "published_at": "2026-03-23T09:04:14+00:00",
+      "published_at": "2026-03-23T13:31:51+00:00",
       "title": "At least one winner emerges from Iran war: U.S. natural gas exporters - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYzYwSTRRUi1GMVhqX1g4Tng2U0dtSjZwQ2JGdVo0dXY5cjM2N0szZURPSWduWjVqXzh6ZUJRdDRuTllYWjJGcmkzTExGa3M5Sk1RbDBDdzVxazVNQmI1MjNLeFA1WXZxanN4NW9EM2h3aWVXd2N2Q185ZjFpcmg5V09scDRmaXBkVGxLMHVKcU5adGVEZEdRcUdUQmVYTUVjUXNYZA?oc=5",
       "source_name": "The Washington Post",
@@ -188,11 +188,101 @@
       "confidence": 0.7
     },
     {
-      "id": "e86db6a15bfe4de6",
-      "published_at": "2026-03-23T09:00:00+00:00",
-      "title": "Worried about a shaky stock market? This is what financial advisers suggest you do - NPR",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbE1tMXpCak5ydEgxdG95NWJYS01WWUxRN3Q1cDhsV2tkanpDZU1HaEVURXBJX2xrZ0hja0gtR04tM0hYdXhmVnFXOUtxRTBHRGJ4SmlUZVhadE12Vi1RcWVxbmJCNEhCeG9Tc2dURWF4ZE41SmZqazA5Mlg1MUxwVGlTcEprcnZzek8wVktQVWJmMzR5OXBwOQ?oc=5",
-      "source_name": "NPR",
+      "id": "bb7f299f08d853e3",
+      "published_at": "2026-03-23T13:31:35+00:00",
+      "title": "Trump says he's postponing power plant strikes after US-Iran talks - but Tehran denies talks took place - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EajNYQzVGMkZTQ1d1UlR4d0xMYUQtUzBaNk56TjkyQlZ6aThRN2x2VldfWGdQWWN3amsxWF9nU3R4b1h6VlJvbUdvaFY1RjVxaHM4WQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "346bd09bac114091",
+      "published_at": "2026-03-23T13:29:00+00:00",
+      "title": "Middle East crisis live: Trump postpones military strikes on Iranian power plants for a five day period - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNd0RFTDRRX2hEU1BPenRYZnRNWF9xU0ljbzgwdHNRTnNCNmo2VkloUDdBaWhCV1FidEpFMHpvQUY4Q0xuZ3huVzVlekx6NkUwTXdfTUFpSVdhQ0Rpdzc4cnppV0lTQmZPbHMzQjV6ZUIweWNVdmNIMzdUVGtvdUh5MlJid0haRXg2Y2xoQVFwNkxveVkxU2xEUDZmNTZhUjhpXzBHb3JZRW1ZWUFCTEpqZE9IMU1KRG12VVl1djdtRl8tcFZpYnFPSEVjN01YSnhRanJNOWlwTzlGRTA0U2ZkMVZscW1LclQzMG54ZDNRcjNQa3FrN0w3Sw?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "6cb91cdc2c4e35f3",
+      "published_at": "2026-03-23T13:28:33+00:00",
+      "title": "Trump postpones military strikes after 'productive' talks with Tehran. Live war updates - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZ1QtbVlmck5rcG5mcDZldG5KU1cxakZaNGs3b0tIUEZuQ0xzSjc5eVFYdEhHYmdEa3JwZGF0ODNKMk1mZkdxMUhqLW5PVGxRb2JhX2o1LW5uVUd5dnJXZTN1b1Z3eXVHTS1QenVtM0JtWFI5TXBFb3hJb1k5ODc5RV81WVI5a0M5QTVUZWtOeGkzQXNnbS0xenRSTlNCaEliUld0WGZka3BLdw?oc=5",
+      "source_name": "USA Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0d49006f28bc38ed",
+      "published_at": "2026-03-23T13:13:56+00:00",
+      "title": "Trump says strikes on Iranian energy infrastructure paused for 5 days amid US-Iran talks - Politico",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9fMG1zaUdaeWtNRHRRSVRWTk1NbzBoYTEtUGUyOXBmVlhhVjhZbkk5WXJ4bVFnaWJLTkNZd1FkaXZyQTZQQS1jNjMxWFpPRjJsX0NNUThXYXY5TXFkOS1teFZ4Z2ROZ2ltVllXWGRFUm1XbEJvN1R6VE9IUmNIUQ?oc=5",
+      "source_name": "Politico",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "10ab006ad2420038",
+      "published_at": "2026-03-23T13:05:08+00:00",
+      "title": "\u2018False flag attack\u2019: Iran denies claims it fired missiles at Diego Garcia - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNb2h5dkVHN3FrMDB3S2Jsa3JpNDdtUTBPSENRWEdMNnFzZ2c0dnFGMVlITWsxUmYyYm5VZFd5NUItekdEYzk1WDU5Qi1iVl9waFcyS3hNR1ZyeFN3NXdzY1VyVkY3ZE51M2MzMWlla1JiNU5KemNnem5CaGdwWjEtQ0dVOW9nMXdOc0FsdFNINk92eVBkbHlwcFpqakEtdVBsZUpmWkJjRkZpVnA0cU9DYzNpX3PSAboBQVVfeXFMT053RDZTSXlLXzVKOUlxVVRXdmpscVhYZzNlcldvVWFULW9Rd0tqRVgxbFpTcDdzZzJLOVgwRTAwOU1ZblRXZU9HZ3FqeE03b3VPV2dPRkZSa09PSzNJLXYyZXFnd0cweXptMFlqVnVBbVl4ZDNjODRQSG5HcmFnSUlRclR4VF9GNjd2QW5VbUF2U2NKZmxpS0FjS3d0WHpzdUhWRUdpMXFUNmVob3YtZjBTc3YyTjlBMUlB?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8753966ff89f558f",
+      "published_at": "2026-03-23T12:55:54+00:00",
+      "title": "Iran-US war live: Tehran shoots down Trump\u2019s claims of direct talks to end war - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQS3pIWERDeTU0UUhrMng0amNUOEdQV2NPSV9YRHkzWTlQNUozekZ5Wm1lRkh5WDc5R2xwMEJpalc1OEhqdHFlQWloTGJrSWhteXQ2TUNrMlgyY0dnTGlNWWVJemlBb3hhX2pSN1Y2V3VnZVA0RHMtQ3YwQTN0ZUNWLUI1RXhpekZDZHk5NVVBNkh6QzBZREpPbUZVRjN6S3BVVzlMb1B0R0V0MkJUS2s4Wklua0g0a0R2Tlp1Q2ZrX3NJSU5I?oc=5",
+      "source_name": "The Independent",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3cb0bb33430071b3",
+      "published_at": "2026-03-23T12:48:00+00:00",
+      "title": "Iraq pulled into Iran war as US targets Iran-aligned groups - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRGdwNFctYTZzMzhGMWVWSElkQ1N5Q3N3YnVzYWNubEJoWmVqQ090U2E5Ri1LeGdxajNJa0V4MDQyaUtjNTUwbmNRb2ZjVWVlMldYcG9ZRXUzTWI2WXRTOW1pQ2V0cV8tUGEzZlRDWFBYN0NZZS1McS10OWo2cXI5WVR1VVlZdW5KTGhxeU56YWRPYWFlRllSaThycTBINFVHcFHSAacBQVVfeXFMTTZZdEthT29zcW05T3FROTh0N25KMG81eGczXzdXRnBmMGhhT0RDRlNLRGJ4bGtXTE1YakV5bmxIVHJnRlFoWVR5a04zWlVrZDQzWXVLVkNfYmtwMW1oTmh1SnlhZFdqMk5IQ05KdzR6eUJvQTRHVWRvRGpET0F6djlkaEtpcWxZM1FjZ0ZOSGxMUHZ1c1VkVzBtazZQRWJZaVpqNDU0Rms?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -200,11 +290,26 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.6
+    },
+    {
+      "id": "bf0800fd7c11742e",
+      "published_at": "2026-03-23T12:31:00+00:00",
+      "title": "Trump signals five-day pause on US strikes on Iran energy infrastructure - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOQ0dLemNTbWxNb1dxYmFxVzJWcmZBSEswMVhhcGNnYl9FenFZd2xtQW0wdE0wR0lnWnM3QUhHbjM5b1IzTkdXS2xBMjg3U1lFQWN3WG15Z2Y4Y1U0OVNZd1NTeE12cTc0UWZCbTVLTDlkUzhoaEZaM3F4LTAtT2EwR0ctNTJ3ZXJVbWU3d0hjVng1c1JUaU5DQzU2WdIBoAFBVV95cUxPeW5YRHcwRVZBNFJXUVc2OV9EUGZsd3RScHctQjVYQjRqV2p5Z3RYSmNGR1FVVzBJek16THkwTnd5UEh3SlNfNkpPX0NMOWo3QVUyRGo2TmV3cjBQOGkxVy03SjBIUUVaTHlyeHN5bmozSko2cDRhX0V1OFEwbjVnMHlsaWI3NFdvdExpbzF5MkVOVzI3ODVZTm1NYzZTNnd0?oc=5",
+      "source_name": "The Hill",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "ddf48157847b0667",
-      "published_at": "2026-03-23T08:42:47+00:00",
+      "published_at": "2026-03-23T12:30:25+00:00",
       "title": "\u2018Unprecedented\u2019: Israel, US carry out extensive strikes across Iran - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQeFlEVTNsOTdEc0ljS0NNM3hWU2tyN3pDanhRRUI3X1NHazA0QlFZUURfMXJ6aFd5TVRrV3FSNkVUWEU1OEFfZGRFWUtHM2Z3cC1RM0dQTlpWZGNGTmN6RGFIM2kycjhsOU9mMG1SY2s1aTJTTnhOUTd1TWJxSEpFWExvRHV4ZDdhS0s1dEd3dnBMR3VXbUktUEVKNE13MnAwcnFydFVRa9IBrAFBVV95cUxORFlJeVpKaDUxalYzQlEzS2YyNkgwb2xuYVhFWGEzeGg3UXp4b1JVdzVJcTBwRWMwQWtCMjhXN29DNlg1WVdQX0FjbzVoZGlVcm9WYzQ2V3NCOEV0Z1hNTWtJSTJxeEVwR3pjZENmMWZrU29qdFZNWGJaMDdkcmMzUVIzd1g0RFVFMHlfZ0VFOGVqVHBPMzVteHliNjlkWnpxcXBKSHlJRGhHUU5S?oc=5",
       "source_name": "Al Jazeera",
@@ -218,101 +323,41 @@
       "confidence": 0.75
     },
     {
-      "id": "f0cda0b548478979",
-      "published_at": "2026-03-23T08:11:41+00:00",
-      "title": "Iran war: What\u2019s happening on day 24 of US-Israel attacks? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNlpGMWNsaXk4SXhjN3hFWUZDczFWelVTd3AwZ3cxbUFGSllVdHN4a0FLc21tbVJ6MUYwaG55STdWSTVodjUxRFdiVUpoUHNwM1FzdF9vSzNMSVVtVEJ3d1I4bkwxa216NTFBenliUVl1UGw5aU40MW1NMDhpWDFGcHFhWld4eVl6WENaY0RsNVNEVkw2bDIwNFZidFlmZ1hQ0gGmAUFVX3lxTE5vRS15d1dHVXVlR3Fnejc5bnd5VFJXRXF4LWtfV2VaNV9qVHNYVW9GY2NaNy1oYkZOa3Y4bXp2NHgwWWM4WjZEN2J6akxXVHdQV3laQzdjWDhuNEFHdXpMOHFHa2VmLVAyRTNkOVN2OW5iMnZ1OS1IUmVWWURza3JtSnNpSmVleFlSXzFnLUx3c3F6Zk1qa1dHUnMwLS1HUnRiRkFqd3c?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "deeb9b45ad71733a",
-      "published_at": "2026-03-23T08:11:01+00:00",
-      "title": "Asia stocks slide as US and Iran threaten to intensify war - BBC",
+      "id": "5ed21417f3c11dcb",
+      "published_at": "2026-03-23T12:27:28+00:00",
+      "title": "Oil falls and shares rebound after Trump says talks have been held to end war - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBweFJsRVRtMVBmVnhGZXBCUzNSbU9QNWJYdHlicEd2aHQyY250YXg5ZGVNR3NQZnNVUms0azI4Z2FVNWZFQmFXRm5Wd2pTbXdXOTRnQlJTSXF5Zw?oc=5",
       "source_name": "BBC",
-      "event_type": "other",
+      "event_type": "diplomatic",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.65
     },
     {
-      "id": "134e5471f5edc1ca",
-      "published_at": "2026-03-23T07:57:11+00:00",
-      "title": "Live - IEA chief says crisis worse than 1970s oil shocks as US, Iran ramp up rhetoric - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBxeE1Dd3daemlwTGJZZThqak9tZDMyajhQeXhRWnFQUnlvNDNhN25vbUlCcThvRmh2eVZKaXFPQ0R0YjhnVUpwS1F1QTVaMjVlTjBteWxKWGtyOS1zaVE?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b0bbd2122c4396f4",
-      "published_at": "2026-03-23T07:53:57+00:00",
-      "title": "Iran war live: Iran to close Hormuz entirely if US targets power plants - Middle East Eye",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FeXpPbkl0TndOTmdVREw1ZUF0MTE1MDd3SXFQWHpWbTBBWEtVWVhlZmZZX2pJZ3BDNERQay1pWW1jbElKNUNEVUFfTVdkTXdaZjB2eUlLblpySXdWN2JLOXUwWWlBRjI2azN0V1V0N1ZZRjg?oc=5",
-      "source_name": "Middle East Eye",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3ef47e2f6393b0fe",
-      "published_at": "2026-03-23T07:32:56+00:00",
-      "title": "Seoul shares crash over 6 pct on escalating U.S.-Iran conflict - upi.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOakR4X3paRzRmaC12RURSaWZTU25maTVwdHdrRjRGTDh4eUNBMnowQVRDTXl3WXBkMm9RLWpCMV9DVjVXR1FKX28zaFM0M1Nidm82Q3N5ZVdzdnhoN1luT2t2aEEwOWM5eHZ1eHhHd3h2cHc1ZWtPSWRmNzc1anh6RDU3N2FBOFN6aDRCVWh5SE5PUzNwSXAwOWw1QndkVkpXT3dKdXhGb3FCTFVxZGVrQTZkQTBFcnVJcmVTMU1Wa3FPVDDSAcgBQVVfeXFMUDlEQlZMZ3hQa3d3TTNiNWR2R0hBTHRmNDRKMHd5QnhmZ2hTLWNrN0VmOGJvQlE2RDRqbFhPZkY5T0J5MEtjbUdLX1dXbUxRZGNvdjVUVERTa2FGNExGU2R5R0VzamNTV1oxY0xBczdiMWdBTDdyNVVJMUNjOEw1RmtaT2NtOV9DdE40YXgxenJTUDZLc25BQlIxTGRjRVMzVWk0RzFEUlZQYUFXWUdKa00zVldHUk1RRGxTclJQakZPcWFLWVJpUV8?oc=5",
-      "source_name": "upi.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5f2c39f829e1aaaa",
-      "published_at": "2026-03-23T07:24:27+00:00",
-      "title": "Iran war live: Tehran threatens to mine Gulf if coast, islands attacked - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMnUwanRyNGRzOG5DRWFONUNjSFd4bi11WHlQcEJ0akxZZVZzeEI0QUp1cWRkZ2ZFWURqdHJacnFtNmx4RXVRR3hVTnJsa250RTVVLTV6c0xTZ2lIMVB5MEdZMGdHRVlTRGN4UFdXaHhPZVVtUWdodjZKX0IzRmVGdzhxQ2VDc3dNTktWaXlRc1hKRjZNYVNhTVBQb2xJYWx2NW54bE9Sa1pKUjQydUllVmxwN192UGZGVmRKVjZKUdIBxAFBVV95cUxNU2dPMmFCSVFnSVVZNXBDTS1jY2JqWUxFRmkzdkZPQWdGbjBYZTdnVnpLemNGVFNKaG5QYTBMRXYzaEFjMjVLcjRlUkczdG9UdkhrUmF1WjYyLVI2azg3d0FEN3BZV1Rqd2tORHY5NjZlek9zWUpEdVJDbExsZUw0dzhNcWJsb2FyRUZLVFNXemlyMzFHMG9pakU5emlhek43QllTWkRuQjRfU1d4YlRSdWU1Q2hwOHVjekNtd1E4VWpQM3VY?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "70c69a0d0301eedd",
-      "published_at": "2026-03-23T07:20:07+00:00",
-      "title": "Iran Strikes Gulf Targets as Trump\u2019s Hormuz Deadline Approaches - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFBma2Z2eE8zN2Q1STNJYkpNbnhSbXhyUkE4MW1DZXRUcU51NjJaRjNQYUpnNEh5RHNnWHFxN2pDcUlrUkRZcHV4SS1reXViY0JCLUNxQjlvX3ZaNHlRTnItRUQyd2pxd2wxNUFRcXRKNU1zdVZrcXRKRkVIZE1YcEd1SGZIU1l2bHBTc010Zjhwcy03VENWdmdlZ01uVVFfbFdISVRSb192MHZudzUweVpQZzA?oc=5",
+      "id": "2c9d7ffde834d9d3",
+      "published_at": "2026-03-23T12:21:55+00:00",
+      "title": "Trump Backs Off From Iran Threat as Ceasefire Talks Get Underway - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclFjWm9ncUQ3X1huT0lUOXF2dHZoMjZ5Mjh2MnFMTFZOal84ZzFTeUtheGZXNTZ5SGgycDJPT0dqYWxEOGQyYV8xUFRISDJuNjRwWnpuc0JRQ2lOU0VhQ2FNTEhTSkdMSDlleVg2TGo4Ti1GZi1Vd2l5cmN0VUNuOF9EQVZ3NGdHbmdxdnVZMkk5U1VTUk1MbVEwbnNXTUt4ZHdZSXhXSUVURUNNN0FFQ3ZHVmJMZw?oc=5",
       "source_name": "Bloomberg.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0b51a7aa6fee1495",
+      "published_at": "2026-03-23T12:09:00+00:00",
+      "title": "U.S. will hold off on power plant strikes for 5 days, extending Trump deadline on Strait of Hormuz - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcjktYVhYWUJfdFJMM2pCc3FlVm1MTXBnQVRCQko5TmxMRXR5aFYtUGFZXzFBUU9vUEttdlFDaFFxWHJsUFhyM042Rldmb2tNcklOVmEya0o4aGl2YVFIRDZmT1BZX0hJZFNGRkV6TmtsQUhTODBKUzk0SEZIOUtLbUdNeWtSSVNuWTRKZWNmazY1RW1s?oc=5",
+      "source_name": "Los Angeles Times",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -323,11 +368,11 @@
       "confidence": 0.65
     },
     {
-      "id": "45012ffe35024d3a",
-      "published_at": "2026-03-23T06:55:35+00:00",
-      "title": "Iran threatens to retaliate against Gulf energy and water after Trump ultimatum - SMH.com.au",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNRzNENE9oTXhfZ2t0SGxOUENwUmp4c0lKLUotNGtrY1BVckZyN203VXJzTWhRMVZ3WTI0REdIbm1SSXJXazdvbkQzNUVoV1lmVlJobk41azRlbjBLdlZLbk5pSml2RWxfUXFGbzlHSzAzM1QtNEVQbl9KdnJTZ3g0U1VLdkdYU2dJV3FfZ1NrQ3FtSnNWVlgyMEl5akVhQXhpNGViZ1BDWEFKLVhZZFFfSDBWemRqWWpvazRtZXBhSzNfUUpXTWtvUGU1SDJ2Y0ZVTWd0SzJuNlU?oc=5",
-      "source_name": "SMH.com.au",
+      "id": "4cb6043278df6cb8",
+      "published_at": "2026-03-23T12:00:00+00:00",
+      "title": "Trump is fighting two wars with Iran. He needs to win both. - Atlantic Council",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTWRZaDFJQTdJSGQyb1Myc2Y1YldDTDFHalZFRlNGYU56azkyM3JoZFJIVERpOVpEUU9RZFA3bG1ySVNhc2xkSDJMa2JKV0VyMTFQNVI3MC0yVUQzSF9Ram9GWjFPQnFRWkJ1OVVXLXQxV2xSSFpaVndxcXViakdfUXllbVNEZk51X3EtZ1dXSXFwdnk3bk5QWjBORU5PTjhGYnRtNm5Va3NmbUtIUVZOa1docGozYzFUdGxlanN4VFE?oc=5",
+      "source_name": "Atlantic Council",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -338,57 +383,12 @@
       "confidence": 0.55
     },
     {
-      "id": "37d827a10f16c9ee",
-      "published_at": "2026-03-23T05:48:17+00:00",
-      "title": "Trump's deadline on Strait of Hormuz nears, raising stakes in conflict - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQ09lLV93dUl3d3NDNzZ3ckxtN0NNTF9wUE9zejM2M0k3N2JKSG5hcFl2Q1NfQUJxOWl5SkpmbFNQTlB3ZHZsVzgzVEI2RWZHWkQwTFZ0eGhucFMwWHZFRlo3dXZuMnh4a1RTQm1KYmxiOHRvdlhEZi1mM2psSkdZdnZibnFHWUFVX2Vobk13NE91cjQ1cmJQYXVkZ29SU1FDZEozLTdpZmJkRTNRcUJ5UV9hb0liMlJULVNpaVVwUU5HaVpj?oc=5",
-      "source_name": "Euronews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "01e1255c5ded63e6",
-      "published_at": "2026-03-23T04:54:20+00:00",
-      "title": "On The Brink: The Risks Of U.S. Military Escalation In Iran - The Organization for World Peace",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTkxOWDZFb3RXaGhRd18wQzlLNWIyc1hHNmdhRkd4dk1xTVVzNGQ3Nkxfc3NhdFBqTVNLb0hLU0tqSXp1T1VSaXVlYmVYalg2N085MmwyaHJkZ0RoYWRjYW8yRTQ2dkgyaTN1aHdISVV2ZnZUWW5ya2xqTHdtYnNzOXNLWQ?oc=5",
-      "source_name": "The Organization for World Peace",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "496110f5386333cc",
-      "published_at": "2026-03-23T04:54:00+00:00",
-      "title": "What we know on day 24 of the US and Israel\u2019s war with Iran - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNkJjaEpRejZ5aUkxa19iU1NhaE51VHRTV3pjdWdKWXIwMjA0TC1fQjE5bVpSMUNoMnRtSHFpR3RDdGNsbjZIdUhyMmJwb29UVVduTk9DTEdUbVYxaEhtc3hTa1RDd1p2ZVVhWXZqVklOQlM2bVZycHZ5a1B5V3g4MHdMQmFCdy1iV1RWZTBxNVNkX1pWd2xMUkQ1bDZadHpGNF9F?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "a9946c57ec51adaa",
-      "published_at": "2026-03-23T04:29:00+00:00",
-      "title": "Rights group says over 1,400 civilians killed in Iran in three weeks of war - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPZzZkRk5mSTAxc0I1V0Zua0pFRHBQTVNSWDhPcWk2Z0lUNGJHdnJ0NHFqZ2VfZFkyYlM2MmdDNVVZdEhubEdHQURKYUp2OWZmZFE?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "material_loss",
+      "id": "32eca9338a199789",
+      "published_at": "2026-03-23T12:00:00+00:00",
+      "title": "Trump postpones military strikes on Iranian power plants for five days - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2FVUTgxYThtbjhJeFo5YlNmUzliLXhxbERJSUJmZjZyYkdVVUVzOG5CeWYxdWlTdGszb1p2c2NSaVF0Q09YRW5TOU5ZTVdFNlBRdFVpU2FYYkFWZFo0eU5FTW43SDBaYUdxd19WQ00ybVBlUXpRSzN6Z2MxeVpjSVhpMVpXMk9hU293czg2UGpDOVJaYV8xaWhYQ09ld9IBowFBVV95cUxNRlpCS0c2TExzLWQzUjZPV28yZ1NzR3M0aGpySVc3RnBGTGxNUWpTWE5aRl8zNEFhenZiVFhyOEdjTHJmcllRdXYzUHduUEIyT2N5N0RUUHB3Z3F5OXpWQWNXbnFGcFgyR3k2UHVfWG5XTy1rWjltLWZVVmhHeGpqZUVqdUU1T1l4bE9jZEdhQWMzSmJhM3c1VWpyb3R1ZTAtbm1Z?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
