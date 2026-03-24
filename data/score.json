@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-03-24T03:15:26.091141+00:00",
+  "generated_at": "2026-03-24T05:08:21.895565+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 92,
+  "event_count_window": 94,
   "totals": {
     "usa": 26,
-    "iran": 21,
-    "lead": 5,
+    "iran": 22,
+    "lead": 4,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 23,
-    "iran": 18,
-    "delta": 5
+    "iran": 19,
+    "delta": 4
   },
   "confidence": {
     "score": 65.8,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 12,
-    "other": 46,
-    "attack": 34
+    "attack": 38,
+    "diplomatic": 10,
+    "other": 46
   },
   "history": [
     {
@@ -86,22 +86,37 @@
     },
     {
       "date": "2026-03-23",
-      "usa": 10,
-      "iran": 8
+      "usa": 7,
+      "iran": 7
     },
     {
       "date": "2026-03-24",
-      "usa": 7,
-      "iran": 7
+      "usa": 10,
+      "iran": 9
     }
   ],
   "latest_events": [
     {
-      "id": "9ddc1f3b74730bf9",
-      "published_at": "2026-03-24T03:14:13+00:00",
-      "title": "Trump says Iran has 'one more chance at peace' as Tehran calls reports of US talks 'fake news' - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EajNYQzVGMkZTQ1d1UlR4d0xMYUQtUzBaNk56TjkyQlZ6aThRN2x2VldfWGdQWWN3amsxWF9nU3R4b1h6VlJvbUdvaFY1RjVxaHM4WQ?oc=5",
+      "id": "072dac9915c896b7",
+      "published_at": "2026-03-24T05:01:36+00:00",
+      "title": "US and Iran give differing accounts of potential talks as Trump postpones strikes on power plants - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE56dkx0c0Z3Umx4dlBzYzdrdGV6SHM3U3hLRnpDX0tFOC1UeHBiUEJLamlEalBVZUV6d0RsVS13UU5wUldEVm9hNVZ6ekRMOWtyamJMbQ?oc=5",
       "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f1ed414e1998c02d",
+      "published_at": "2026-03-24T04:59:47+00:00",
+      "title": "Iran War Live Updates: Trump and Iran Send Conflicting Signals on Talks - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQSWctbS1xSlVyU2R0QVppLTZWTm9KSlhTZ3pfVGN2WWx0ZjJOTjg2V3J2a1lYNkl0SDhTc1IxR2xqY014c1dBYlVyUTVqN05DeGp4ZXZsaG1oMzZVTGRnanRvNXg4UHdaYk51RUJ2czgzRXRFX3ZHLTVGaUdWYXJoNlR5bkxlb1cxWG5zX2k3Z2g3OEZVeTlZenZJdkZHZm85eEcydDdwLWNVdk9OX0sxVDJCMjJUV3VzQ2U4Q1U0Rl9KWnV5UjE3N2JTOVJsSWpTT2RUZWdpUHBjek10RkVZMmRLdkRQU0lTOVBVXzcyNmRfME03dTZOdXVVSDNBT3ZoTmhwZUFnMEJ5NWp1QnpWUHp3N280U25UelZ4MXpQb0tORklxOEZYV2x1ZDBDa1ZreUNBcjNxTU1HV0tOTnBhekpFZ0l5b3o5ZVZTTXlwbVRvdW8zUndnT1RDQXV5U29vQlc3aGd0NmwydE5iSUdRSV95dGJVdGloZXB2eEZB?oc=5",
+      "source_name": "WSJ",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -109,11 +124,71 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.7
+      "confidence": 0.65
+    },
+    {
+      "id": "f2886ec9c4261778",
+      "published_at": "2026-03-24T04:53:00+00:00",
+      "title": "US to continue Iran strikes, pause applies only to energy sites, Semafor reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWTZDalhVbVAtaHFCZHRjU0Z1NWI1T3lUdjBQUjVkWkRXQXV0Q05sWEt1LXRTYlNOZURmRS1WNElsVlplNXAxcHU2ejBsZ1BkYXVnYVdvV2Zob3lLZ2o0WHNqNEVESDEtbGlNUndERjJmRGV3UEMwX0htYV95VUF1Ulk0ZkNIYl9KTnZoQnhVSHdsWFRYSmpBbVh2NjROeDd0aFExNjBxZlBrX0s1UElQY2ctMG5wRVkzS29peGpUZThUUQ?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e330cfa978121052",
+      "published_at": "2026-03-24T04:28:19+00:00",
+      "title": "Iran war live: Tehran says Trump\u2019s peace talk claims are \u2018fake news\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNUNSX1Ryd2ppQ0xHQjhFMUZfcHJfbUNFSHZVWTBtQ3owbElBeEZjazRnUXhCNkc3MVNzTDlCeHg2V3ZTN3p3OHJKa0hjLVA1R1dzcFdxN2pZMlpoU19PaGNKbGNkWENVLWo1TGhza20yLWtud01sZ210VWY3WldQa1E1WURzaW9kbk5oQ01Nc3hQeHRseGlGTU5vSVpDRHAxVmdqQ2d3TVJFdEkydVHSAbMBQVVfeXFMTmUwZDYzaHlERnRVUlZURHVfNExNNnNJbHI0Y1FlRlVhcjFoMHRFbjhHdFB1akJIZVdYQlh1MlpROG5QSm1wcG5IelAwTVFET2hKNjhJZXZXME4zZWVGTFhhc09yLXZjV0VyTGN2Q28yVzFsMExESDRoNVZTbmRSQkxCQ2F1VXc0enVRT2IzblZ1dzNFeXhsZFFtT2lSbW51LTU3a0ZBUWJ6VFFLTUJUOEdIeVU?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "17c25a331af89a51",
+      "published_at": "2026-03-24T04:28:00+00:00",
+      "title": "What we know on Day 25 of the US and Israel\u2019s war with Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPLTk3RzVPcUhCM3pud0pOaU1NSzlORlhvNFI4TUVxX19GR2ppYmZhOUlHTnFwWmI1OWlURlMzX2piOGhPRWIyeGw4bkRFLVl5NUJHeEdIQ2ZjMlQ2cXRsSVBRSUpEZWFvZDlIc3dqZlJHcEUyYmZXWWEzVkVaeFAtNzEtZ3UwTDlvdS1qNVF3Zmd6ZFRvT29NdmJnclBCSkFwMDlZ?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "78f67a4f5efb54db",
+      "published_at": "2026-03-24T03:50:00+00:00",
+      "title": "Live updates: Trump says he's postponing attacks on Iran power plants, citing 'productive' talks to end war - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3dsSTBqUVpDeGZzU0g3RHZhREJLa0lvbTRJLTdtaW5CV3BmOU1qemk2TjlHekhURC1vQ3VZSG1BUUdLN1QxWW5JVGNuYm1pT1BEVjVrc1kydUU0LWt6VDVHcXZ1ZGdrMG5CaUJjSHJpVmpuQW1QNWg4aHZicm9SMU5kdkJJdlNCblRTU3gxZGF4QmFTaXhWVGlzOXhLV191LXpxNzVHSzM2NXJfNVpHXzhUeVF4d2hHTkM5MXRQVFRJalRVZGxVdVowMA?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "d9b2401802208ba7",
-      "published_at": "2026-03-24T03:08:43+00:00",
+      "published_at": "2026-03-24T03:46:20+00:00",
       "title": "Live Updates: US-Israeli war against Iran rages on in fourth week - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBRcmFpYzN1RnowZ2t5TXFRNlFZNld2YmprZGpxMnFNaGVnM1VTUVc4NF9kREdrQzdrUERUbWIyYm9BR2ZRWjRWbzYyZkptYlZLUVJYaGMzQk5jRDhDdGtUd2Vxd1N2RWRScXhRZ3pGMVRTVThvTTRreDBIRzRZU0E?oc=5",
       "source_name": "The Jerusalem Post",
@@ -125,6 +200,66 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "aa444687b6abc928",
+      "published_at": "2026-03-24T03:43:00+00:00",
+      "title": "Israel launches new strikes on Tehran as Trump pauses Iran energy attacks - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTmVDemJya1pCcFFiaXg4X0tvQzd3dFVwZ3JYcGZPcW0zdDNoeF9TYWNEWWFiZ1BOb214clNtNDgxekt6Y1V1a2pqZENEZ3ZHXzA0SlpiWXgzNnhaTWFHMVh5MXd4ZktUTDFOQTd6QlpHaWU2N250S3ZzZENBMWw4T2g4V0htQW0yazdCYTh6RkFSRzYzazJsdWxNVUhBQjFCZnBNclBYZ1VJd1ZMZl9icjBvWmNSTHpTeXBn?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b67fe482061372fb",
+      "published_at": "2026-03-24T03:43:00+00:00",
+      "title": "\u2018Stop this savage being\u2019: Iranians fear postponed Trump attack is merely disaster delayed - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRWtnS3JYeU8xM3A4S0NCMnA1U0s0QWRZbHpWQm9vVC14QkZCRks1cmU1NGJMbVcwbE41VGkxN1BYS1dwR1BxMkJnaWRab29NSVJwYUNzZlBFQk0zaEJlMmRNdTZwOGdXVjlsRXl3dDBmd0RMTjRtb3d5UnBQMjhCbVNqOFR4am8zWEg5dkNNQW1rdWs1blFGZnVDNUlDbzlUQVF1QXZIb3paYmthTTc0ZmFBb1VSN0RaUGY1eEZqcUVPZGpHRHR4LWJROEhXRmJNaEFF?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f8c4d31d24256721",
+      "published_at": "2026-03-24T03:42:00+00:00",
+      "title": "Surprise US talks with Iran\u2019s fractured leadership offer uncertain path out of conflict - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQS2NLZW0xY3RueTBURHRHUEVUWklyMGJNTzBTdnR3NEZDWUVkNldpbkxTVV83Mk5SamstMWFSOHJwTWk0bjlNQ3p6Z2VPaG9KV0pxQ3J2bHlMcDhKdEVmZTd5V1luMlFKNXR2SFM4bzZMU2M0Y0w1VUdENDNsZjAydlNFdW44UEZ0X3lpeWZJeU5LRUJUQkhxVXJ5SHFNeUFGQjVQWkttZUd2UW5iM2tKd2ZFVjhQRnlYUjJjbm9Ya1JhTXFoTnR0aEFoWmU?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "82c55f6688709468",
+      "published_at": "2026-03-24T03:36:41+00:00",
+      "title": "Strike in Iraq reportedly kills seven fighters \u2013 as it happened - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNd0RFTDRRX2hEU1BPenRYZnRNWF9xU0ljbzgwdHNRTnNCNmo2VkloUDdBaWhCV1FidEpFMHpvQUY4Q0xuZ3huVzVlekx6NkUwTXdfTUFpSVdhQ0Rpdzc4cnppV0lTQmZPbHMzQjV6ZUIweWNVdmNIMzdUVGtvdUh5MlJid0haRXg2Y2xoQVFwNkxveVkxU2xEUDZmNTZhUjhpXzBHb3JZRW1ZWUFCTEpqZE9IMU1KRG12VVl1djdtRl8tcFZpYnFPSEVjN01YSnhRanJNOWlwTzlGRTA0U2ZkMVZscW1LclQzMG54ZDNRcjNQa3FrN0w3Sw?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
     },
     {
       "id": "603cf4cdae2a51d7",
@@ -142,36 +277,6 @@
       "confidence": 0.85
     },
     {
-      "id": "f1ed414e1998c02d",
-      "published_at": "2026-03-24T03:01:46+00:00",
-      "title": "Iran War Live Updates: Trump and Iran Send Conflicting Signals on Talks - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQaXYtU0t6Um5yaW94UGtvQ1l5aUI5cTdSaEE2aUVhdmtobEZaV2xMT1FYTy1KaG1jY05VSVVZcDdJaktRVVA5ZnVPRXpJX1h0ZjMzeVNVOUJ2b1JON1hyMENDNXp4V3pjMjhxR2tXTFFDVUFlWG84MHByZFh2d0plUjlBbkV2TXpLbmxMbWJGUkZuSWQ3U1lfUlJzMFI3RGF1UElmdEJKNUttTXJ2YmNNZjNDTnV5d1NZcU92WGp3MEdDRm96OVRJcVBqVHExcU9yaFJZMEI2bVZHRGl3NUljV0dxSEJzbG8zbmVzUDRjTFhMV2RsaUJmcGhoU1lCbE5OY2l3Vld6VjZ0b3ZuV01HQVh4ZEJmdmF3ei16V3dpRENOZzNISmU3QjNiQ3E2cGcySDZ5TExaMktIblJDTksxdnB1SUFleS0wN3E0Z1FTaHh4eHljMHlwREliRTl5dlJsakpSeDdqX0FzQ05KcGhwWlp5bE41UGxSeXBkdlhn?oc=5",
-      "source_name": "WSJ",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "cc64ea82ec78ac05",
-      "published_at": "2026-03-24T03:00:00+00:00",
-      "title": "Middle East crisis live: Iran dismisses Trump claim of talks; von der Leyen says global energy situation is \u2018critical\u2019 - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNd0RFTDRRX2hEU1BPenRYZnRNWF9xU0ljbzgwdHNRTnNCNmo2VkloUDdBaWhCV1FidEpFMHpvQUY4Q0xuZ3huVzVlekx6NkUwTXdfTUFpSVdhQ0Rpdzc4cnppV0lTQmZPbHMzQjV6ZUIweWNVdmNIMzdUVGtvdUh5MlJid0haRXg2Y2xoQVFwNkxveVkxU2xEUDZmNTZhUjhpXzBHb3JZRW1ZWUFCTEpqZE9IMU1KRG12VVl1djdtRl8tcFZpYnFPSEVjN01YSnhRanJNOWlwTzlGRTA0U2ZkMVZscW1LclQzMG54ZDNRcjNQa3FrN0w3Sw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "ecedee15b3ac5d39",
       "published_at": "2026-03-24T02:58:00+00:00",
       "title": "Live updates: Iran war news, Trump delays strikes on Iranian power plants after \u2018very good\u2019 talks with Tehran - CNN",
@@ -185,6 +290,66 @@
         "iran": 0
       },
       "confidence": 0.7
+    },
+    {
+      "id": "65f01d51d98d1f22",
+      "published_at": "2026-03-24T02:54:00+00:00",
+      "title": "Live Updates: Trump calls off Strait of Hormuz ultimatum as Iran receives U.S. message from mediators - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeUZ0OXdtVlZuZnZadTJ0VjJURkFfcHM3OFBuTEJJeTZvNnBtUXdqeVdZWVVlc3RySXhtbmtqMmlEcDB5OEZEQTk1d3hqeDFvVE1ZbjVvTDFrSHNaWnRzX013QVQybjY0LVJNVVhPQkJBeWJSa3B2UVlqXzhQLVpGM0FySmFZcGVOOFFhSXlWQXJHWWvSAZgBQVVfeXFMUHo4UkM2WUxkNjZ3OXJhRDFxdTJkc1JKUUVxcXJqVkF0S3N3ZU5HYVl0VlRyMG5iRzFIOGRxNVpBS2lFVmRtc2ppYUwwTmRMSmw1LUlfY2pYZ05TZzFrdzQzRWozLWpWZkthanV6ckwzWFhxai1SVDA4dFNMY2FZVHotdWxtYmZxd1pMTkMxa3ZmbHRsQjVQaWc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "415e2ab1188feaf8",
+      "published_at": "2026-03-24T02:47:08+00:00",
+      "title": "Trump says U.S. is postponing some strikes as it negotiates end to war with Iran - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYUc0X2w4dWNtMDJ0NlVNRkU3MldsTmFGa2h4VThMd1lOY1UtRzJuN3E4b0g0SGo3Q1FkSFRSQ1Nhcmx3WkJIRGZrSEpUWklPSGFRblpucFFXX01pb0pvc1o4VnktOTlrSHp2RVhPYXJObzdWWFQ0Z3l3bGJ6SGQ3YmlB?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "9fe1e740f42af288",
+      "published_at": "2026-03-24T02:46:00+00:00",
+      "title": "Asian Equities Rebound After Trump Says U.S. to Delay Strikes on Iran\u2019s Infrastructure - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMizANBVV95cUxPcWFBdUtZT1QyZXc4VXJkM3NSU1pFMGFONVo1NFFmTDUyaWlEVEV0c3FqSXN2bktRZjR5Umt4UFR3SDF4LUJKWE5wQVZhR0RKQnhSdTQ4dy0xel8xSWhJbmxHYU5NZXh2UWZsWERndERESUZZcFVRRGk2OHVWNVJXNktSV1lvSWlrMFdQTkFmeW1UdTFYSUZRZjNJZkZYY2xwdDdwaTJJd3NQSGFRZHpxXzdZWE90d2ExZ3MybmZ4QWU0Yy1rQkRWWE5LRWI1NnVISzFRSEJUaUppc1l3aFd3YU1XVjY3bGlRT1pLYWpuYzVkRS1HWlI3U2xGU1ZoOEZEQTg4aDJld2JkVWFZdVpUVkNzc1Awdmh2QVNVRFZ2WG5XcDhzWHpMeUZ6SmlyNWw0WFNkV19DM09oaHhLaDNqdVpVQ0E0cTJ5cEI3MHd0TTFuNk90SHJjVnMwcldSZ214bUZZSTN3VGNLLTZHY1BvZUNJNFBlWE1XSHVqaDZZNWJpZUVhY0ZNc2lJZ01lUlBDZFNiYVFVMUxaVU1nVmVLNTNqd0E2YjNuZ21FUEx6T3hTcjdXeFdjbzRNWkdVTEpLaHBqdWZGeFduMkc2?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ef9fdde9c95d942a",
+      "published_at": "2026-03-24T02:45:44+00:00",
+      "title": "The Iran Strikes, Explained: How We Got Here and What It Means - American Jewish Committee",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaDVleG42dlJ6RVktQkxYdTYxYVFSNDU3UFFwZHJqQy1VeG5WV2oxc2gyaEhTYlBBNG9OTFFHVkp4aTdqRlFKNWtMLU5QdEllZVdNejNJLWhiTVBwUE9COVZrWUNiNFhCbmZyaEE2YVpVcV9rZzdMSERvWlhGMUg4VDZyb3AyRkhFd21nZGJB?oc=5",
+      "source_name": "American Jewish Committee",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
     },
     {
       "id": "d1446d6e4e08cce4",
@@ -202,161 +367,26 @@
       "confidence": 0.7
     },
     {
-      "id": "31e99841594afec2",
-      "published_at": "2026-03-24T02:38:14+00:00",
-      "title": "US-Israel-Iran War News Live Updates: Israel says more missiles launched from Iran; Kuwait claims drone attacks by Tehran - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOMHBhMTB5Qk1nX0FpbXBDNlY1WE95RXIyNFRnTW5NUUliUzh3cEN3dkVjM29mSmJxTGU2TG5ncXdkUDZsbHBhNHhOTGE4MWRmZ2x6dmR1bVpRQ0p6YTA4SWxRdk1LRXZJZEJDVFQ3ZEM4U1REY0ozaFZBSkVyNndSeWpHTWJzMlAzNXJ4MzhkSTdMNzZMa196eEdGZkR1V2dHdEw0NFhhVVBvWnhYc2pQYm1tMnJ3Vy01Um5CVEFIWXJaY1k0b2pjcEdyS2RHQU0ydmQ2X0l1RDZlWDYyeTBuQzJzbXkxNlBMV2lDUHdOMkkyaDhkWkVsVGkzZHBzY0JDYUlZbGVHQzhGaWU1RmlJQWhpYzRwUWRyV1JyX2tsR1VZOUZpMnZSdjFLU0FnUHllcGN2SXhiamFVem1sV05mQWctQ1NQVlZWSG1xbDdMaTYzQmtxTG81LWhLcUc5czk2Q0dybkl30gHrAkFVX3lxTE5ObWl1XzdDOGZ6ZTZuMUIyajlHYy0zaV9VOFFCSDROQzJtV0RPeTJWN21IRmRteFhvZkZSQmFaazN1MDZvWHdReHl5NzFFZE9NXzMzVEJ4Wm5CQ0hqQW1xdDF5bmtrdWZXYUV1UGR2ZGVHWWhzQlhZM3ZIYmJsTzV0YllGRENsMUxCMTRibC1YTmExZHN2NFFRV2dpZ2ZDdXZzR3pfLVdDSGc3ZDhRM282Mkw3c0JVT2dZWXotaU1JVXlEX0haQko2YXhUV2NoZ2FvTTg2MWRTQ280M1FjZjhWbnFBZVhwZHdrUzJTblFZTlE5RFVGSXpxc3NPYnFWNkc3Z2xWZWlvZnRMR1ozT2tXV1NDR2N1enhUT3NNZkRBaFcyUHB1b2YySVFHRUhRX2duejh1eDkzN01aV2RsWEZpQm9HN1ZaZDVSM212TTczN25MOWhvdFhmcDI0WVJZV2REa2hpT2x5ZkJSTQ?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b67fe482061372fb",
-      "published_at": "2026-03-24T02:30:00+00:00",
-      "title": "\u2018Stop this savage being\u2019: Iranians fear postponed Trump attack is merely disaster delayed - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPRWtnS3JYeU8xM3A4S0NCMnA1U0s0QWRZbHpWQm9vVC14QkZCRks1cmU1NGJMbVcwbE41VGkxN1BYS1dwR1BxMkJnaWRab29NSVJwYUNzZlBFQk0zaEJlMmRNdTZwOGdXVjlsRXl3dDBmd0RMTjRtb3d5UnBQMjhCbVNqOFR4am8zWEg5dkNNQW1rdWs1blFGZnVDNUlDbzlUQVF1QXZIb3paYmthTTc0ZmFBb1VSN0RaUGY1eEZqcUVPZGpHRHR4LWJROEhXRmJNaEFF?oc=5",
-      "source_name": "The Guardian",
+      "id": "eb108c72c8ae10f6",
+      "published_at": "2026-03-24T02:15:00+00:00",
+      "title": "Mohsen Rezaee Threatens to \u201cParalyze\u201d U.S. and Israel if Iran Is Attacked - Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdlNsdFVGYlpDZ1BfcTJVeklVNS1NMEh0TDVQaEdhY0ZmcWpUR2x6TzZmMkRnQk1yY3gtSGFQM0szT0t6Wmh1aWFGcEtONmxRY3ZuN3VwdWVmUEVqcHdJLTNEZXZzVElfaGc0NlFSazJhVGlTNXFqOFJ4MEJhM3l6MUlUSzI0RnpuTEJWZXdVRUwzekVNN0ltZEZ2VExfQ1l6TWR2MFNLZ195azktNUxoMV9Kdw?oc=5",
+      "source_name": "Kurdistan24",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e330cfa978121052",
-      "published_at": "2026-03-24T02:19:37+00:00",
-      "title": "Iran war live: Tehran says Trump\u2019s peace talk claims are \u2018fake news\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNUNSX1Ryd2ppQ0xHQjhFMUZfcHJfbUNFSHZVWTBtQ3owbElBeEZjazRnUXhCNkc3MVNzTDlCeHg2V3ZTN3p3OHJKa0hjLVA1R1dzcFdxN2pZMlpoU19PaGNKbGNkWENVLWo1TGhza20yLWtud01sZ210VWY3WldQa1E1WURzaW9kbk5oQ01Nc3hQeHRseGlGTU5vSVpDRHAxVmdqQ2d3TVJFdEkydVHSAbMBQVVfeXFMTmUwZDYzaHlERnRVUlZURHVfNExNNnNJbHI0Y1FlRlVhcjFoMHRFbjhHdFB1akJIZVdYQlh1MlpROG5QSm1wcG5IelAwTVFET2hKNjhJZXZXME4zZWVGTFhhc09yLXZjV0VyTGN2Q28yVzFsMExESDRoNVZTbmRSQkxCQ2F1VXc0enVRT2IzblZ1dzNFeXhsZFFtT2lSbW51LTU3a0ZBUWJ6VFFLTUJUOEdIeVU?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "415e2ab1188feaf8",
-      "published_at": "2026-03-24T02:16:09+00:00",
-      "title": "Trump says U.S. is postponing some strikes as it negotiates end to war with Iran - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNYUc0X2w4dWNtMDJ0NlVNRkU3MldsTmFGa2h4VThMd1lOY1UtRzJuN3E4b0g0SGo3Q1FkSFRSQ1Nhcmx3WkJIRGZrSEpUWklPSGFRblpucFFXX01pb0pvc1o4VnktOTlrSHp2RVhPYXJObzdWWFQ0Z3l3bGJ6SGQ3YmlB?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "78f67a4f5efb54db",
-      "published_at": "2026-03-24T02:10:00+00:00",
-      "title": "Live updates: Trump says he's postponing attacks on Iran power plants, citing 'productive' talks to end war - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS3dsSTBqUVpDeGZzU0g3RHZhREJLa0lvbTRJLTdtaW5CV3BmOU1qemk2TjlHekhURC1vQ3VZSG1BUUdLN1QxWW5JVGNuYm1pT1BEVjVrc1kydUU0LWt6VDVHcXZ1ZGdrMG5CaUJjSHJpVmpuQW1QNWg4aHZicm9SMU5kdkJJdlNCblRTU3gxZGF4QmFTaXhWVGlzOXhLV191LXpxNzVHSzM2NXJfNVpHXzhUeVF4d2hHTkM5MXRQVFRJalRVZGxVdVowMA?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a5e523b551f93c4e",
-      "published_at": "2026-03-24T01:37:00+00:00",
-      "title": "Gold Steadies as Investors Weigh US Pullback From Iran Strikes - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYnp4Um5kUXM3QS1jTUNqSERfQy1PdUszSkVIemZONnBTTjhJbGE3VGtSd0FzTUIwVTkxVDVjUjBWaWJXcmFxRVAtRW9iXzh5NEtCQkpBSjl0RmhXWk9LeDN5SmtXWHBRaXl4Rm9MUWhjSko3emxTZWdFZmQzZXJRemZ5WHB6ekFkRlhkMG9Nem1YLWp2UUpjemU0QlN6NDd2cjVQTmNQQk1HNG9wSjdCTThKdw?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d9dab3338f48e616",
-      "published_at": "2026-03-24T01:27:57+00:00",
-      "title": "Live: Trump postpones military strikes on Iranian power plants - Middle East Eye",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FeXpPbkl0TndOTmdVREw1ZUF0MTE1MDd3SXFQWHpWbTBBWEtVWVhlZmZZX2pJZ3BDNERQay1pWW1jbElKNUNEVUFfTVdkTXdaZjB2eUlLblpySXdWN2JLOXUwWWlBRjI2azN0V1V0N1ZZRjg?oc=5",
-      "source_name": "Middle East Eye",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "314dfd35ead867ef",
-      "published_at": "2026-03-24T01:18:00+00:00",
-      "title": "Is Trump Actually Having \u2018Very Good\u2019 Talks With Tehran? - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVzVtSzBOQ0g5RkE4QlVDYXFDVzhJSUR4TVVqUHEzYzNlOXhVSERXOUlsOWUyVDR4Sy12QWRGd2gyNkZRTjAxNVFITUNJV2Rwc2VkcVZSd0RvU2dhYUNMR1FESkZ4bjl6TlM0cmhlMHZxXzhxQlpBUVpqR1F6U0dVcDM4MllPbHc5enJhQ2dyTThMMnc?oc=5",
-      "source_name": "The Atlantic",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "decaa848aadb234b",
-      "published_at": "2026-03-24T00:55:54+00:00",
-      "title": "U.S. sent Iran a message through mediators as Trump signals he's open to a deal, Iranian official says - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN2MxV3Bhb2ZtUkF6cmtwVFpVcWlZS2FkMVB6ZGVUeTdaLVhIaGlWRmdjSFgzMmZLNU9sa2JzcUE5QTNDQWFJQS0tRXFGcV92SnltNTYtRklmOEpWVnBibkdMU0p3cVJpVGE1Y0VLYUlqMHdMUzdVLVZ5Q3d3bU9ZdXVBYk9iZm1CU1BXN9IBkgFBVV95cUxNdVhGNlZ2ZUl5YlN6OE92TU1jbTlIX2JsdGtkUmVTZW1GdWNpUnZyZzZNU2xsamlIYTM2MXZaY285eHJac3dEeGNnWE1jVnZkaWhqLVNLRWRSeGluU3FuR2Rtd3N5YTlISGZjSXdSSTdKQzZyc1hsU3VpUWZhZzZfb2FhQXZoNTh3WmVIcU9yTGdTZw?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8028b043428982d6",
-      "published_at": "2026-03-24T00:28:00+00:00",
-      "title": "Iranians grieving over school missile strike express rage at U.S., Trump - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUHpCTlFaaGpzQS1kRVBibkl3OTBHM3MzWVFoYjlFZG5SV2tFbnA1YXozTGJ1eER4dXh4TDE4UGwtRXQya0hIOWIyODBrZW41Sk9PVEV2b3ZVcHVzaHF3dXpUZDVMaEZHYm9XOUVBLXctMk80OExSd0kzT2pUTk1kSFdLakRzS1kxN21wUXJ1U2otOUo1ZTVneWZxSHFyME5QeHFlSkhpcjhRUHc?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
       },
       "confidence": 0.8
     },
     {
-      "id": "c7c37fa1dc63e3eb",
-      "published_at": "2026-03-24T00:14:14+00:00",
-      "title": "Trump Delays Threat to Iran, but War Negotiations Are in Early Stage - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORjcxTFRFX3VudzhUZmJkalZ6SnNxME9pTFdhckdtVlNPMkl4TVVHdWc1Q2RDUWhhVFppdWVacnplYWpDVUtRZE50MDdyVkV3cm94Ylo4Y1JFbWpqSWRSZnprS2hjT2FXWUI3dFB2U3llQ3lrcXV4YzlJcmlqRUFwa18yRQ?oc=5",
-      "source_name": "The New York Times",
+      "id": "b5f543471c9137e2",
+      "published_at": "2026-03-24T02:03:00+00:00",
+      "title": "Trump says Iran is eager for a deal to end the war as he extends deadline to allow for diplomacy - AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNkR6WmVCWTZLY2RBTmwxcXFlMl9YQ3Y5WkZHc0w3ekVrQmp0TEZ5R0E0U2pQN2ZhZ2ZJU1BkOVJWWGJIRllPU1AzblhHU1lOWElQaVI2MlRodTc3blNnQ2lxMXBYUVlhVEphSVBwQ3BDdG1VUmNYc2lVNkdkY1BPRmF2VGdJTWV4dmdvcFZqQkU0SzlZLW9pQldRSEY5MHA4a3ZqUw?oc=5",
+      "source_name": "AP News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -365,36 +395,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "ed62a03322b6d0fa",
-      "published_at": "2026-03-23T23:54:00+00:00",
-      "title": "Israel launches new strikes on Tehran as Trump pauses Iran energy attacks - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTmVDemJya1pCcFFiaXg4X0tvQzd3dFVwZ3JYcGZPcW0zdDNoeF9TYWNEWWFiZ1BOb214clNtNDgxekt6Y1V1a2pqZENEZ3ZHXzA0SlpiWXgzNnhaTWFHMVh5MXd4ZktUTDFOQTd6QlpHaWU2N250S3ZzZENBMWw4T2g4V0htQW0yazdCYTh6RkFSRzYzazJsdWxNVUhBQjFCZnBNclBYZ1VJd1ZMZl9icjBvWmNSTHpTeXBn?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "8cd46eba3976791f",
-      "published_at": "2026-03-23T23:48:51+00:00",
-      "title": "Trump Says U.S. Is Negotiating With Iran, Which Publicly Denies His Claim - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9oSGpNeGEtNnljeVlWLWswUHlwejJERWRoQ2EyVjJZWDZOR1RpV1EwLVhjRV9iQV9PUy1HNUdBVWZCX2tHSTRfTVNVRVJQbjRTa3dtUzZxQkZDaGt3VUxUYkpfSUxRdlp2YWlVdUVmTmY1TUctWk9IeWs5cw?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
