@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-03-25T19:13:06.333321+00:00",
+  "generated_at": "2026-03-25T21:55:23.933657+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 89,
+  "event_count_window": 91,
   "totals": {
-    "usa": 16,
-    "iran": 27,
-    "lead": -11,
+    "usa": 15,
+    "iran": 25,
+    "lead": -10,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 13,
-    "iran": 24,
-    "delta": -11
+    "usa": 12,
+    "iran": 25,
+    "delta": -13
   },
   "confidence": {
-    "score": 64.1,
+    "score": 63.5,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 24,
-    "other": 55,
-    "diplomatic": 10
+    "other": 58,
+    "material_loss": 1,
+    "diplomatic": 12,
+    "attack": 20
   },
   "history": [
     {
@@ -31,7 +32,7 @@
     },
     {
       "date": "2026-03-13",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -87,21 +88,231 @@
     {
       "date": "2026-03-24",
       "usa": 3,
-      "iran": 5
+      "iran": 4
     },
     {
       "date": "2026-03-25",
-      "usa": 7,
-      "iran": 16
+      "usa": 6,
+      "iran": 18
     }
   ],
   "latest_events": [
     {
+      "id": "88a9f62d3c79734f",
+      "published_at": "2026-03-25T21:47:20+00:00",
+      "title": "'No intention of negotiating for now,' says Iranian minister, as US insists war goals almost met - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBKdy1OU2M1aEdBVC1NWW9sQlRDY1hPQWphMVVMRmc0TldhUUpvMVUyYzFfRG82WWtMS1FMUkZxTEF6cG1JX1pVUHAzcDZXTGN5a0FPajRlWEZJNWtwWmc?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "813cabfe1b007535",
+      "published_at": "2026-03-25T21:39:15+00:00",
+      "title": "Iran War News: Most of Iran\u2019s Missile Plants Are Damaged or Destroyed, U.S. Says \u2014 Live Updates - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxQYjhiaHZiN0pzTXpOZ1RHY2U3MGhWWkd5dmRHODhBSXBQcGdPTHBiNkppcXRlT21VaVlnR2NNeE8zeGxHeVlneGNYX2xBUHlKbnZHLUM5bUxTWDFBdTFQV3VXMkh4UUVKMkh3c20xbGJ2MlU3ejRqWmVjYmEtWWw2eUhSMWc5bXVJM0VJUkwzRWZGazVXSnJkUlB2X05LQmsxZnJVMk5JZlVoZ0pBV3U3bjRWcV9fV2Q3dEpPZ0Z2U2d4RnNRQW1MS2ZzSzhwN3loMFBxczVfN2U4aW5GcmlsZ2E2d0JiZG5PYy1zRnQ3bk1FUkIzRWtRRFFDU1R4WnpiM0N2NE1UZFhMb3NXeUNHRXdvdWdXZUFjVUJlcUdoZjBqZ21DVkM1bmNyc3UtaHJySE1sQ2pEWWVmV0JXSEo0SUV2ejdENGQ0T24yWU9Vc2w4VkZoRHJBWjI0SVFIWDdaaU15QzViRkxYOTNjVkU2RXZ5V0NMakU?oc=5",
+      "source_name": "WSJ",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "95d91c2f1339e788",
+      "published_at": "2026-03-25T21:29:00+00:00",
+      "title": "Live updates: White House says Iran talks proceeding as foreign minister denies negotiations - CNN",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONXFtUnI5NFpjTkQ0OXF1YWlxeWlZWERxQklyU1U1U1oxWmNGUm5ob1NvUkFYU3RZSjY5bS1xbF9YdXhCMzVPQ0F6SWEyOXpfMTRqUXRoV0hMQk9OUmlxU3ljU3lvZkxTckJGcEhyTWE1Y0IyYmtYQU82bVNlNUgwN3ZZZTZOUDQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1e9028685fa92f82",
+      "published_at": "2026-03-25T21:28:00+00:00",
+      "title": "Live Updates: White House says Trump will \"unleash hell\" if Iran does not make deal - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVZWRVVrY3Roc2hveGNLNEdBQ2p1VmxZNnE4SWlLZVQ3cUh0dUJScXF6UGtxYjJyTmNOWHNWZUc1d0s5Y19XOTRWWExPLVZhTG9laC1xSDNueWVSeTVyeUZHcFU2TUNWQVFlRC1MdEhHT3VjTXJfVTRlY0ZDMUJFODdBYU9RcDMzRHZXTGRoc2tiZ0RZQUhfdVVrNTdTb1lRb2MtN1ROV3fSAa4BQVVfeXFMTXREQlphZXRFNXhBbXF4d3VicXZhRjByUzJOb25feGNMN2l1dE5QT3dkTFFSOTRFejBsUDA5SDJOQ2F3allOOTdkZ2JRZVdqSHNsOTh2d0pmc3VabU9uUEdNRlVRZGpBQUxkUUdWTkR5U21hNjFNREtIMGMzNElWbXBqd1Fkbk14bWlRYXJoQ3BRdHB5dGphaGJLN1RMMjRlZHZfUWtqdXRMRVJVZWN3?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7e237481a66c528f",
+      "published_at": "2026-03-25T21:24:58+00:00",
+      "title": "Iran-US war live: Tehran reviewing Trump\u2019s peace proposal but won\u2019t talk to US - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTkd6bGswOXRJMFJNajNOTG9XWVRvUXh5REtiNU8yNWZkVWhhaWpwZWlfVU1seFFXQURQUXc1dWlQZVpBdjBFaVdqakg0eEQ0X1NrY1BzS21FZkYyTWI3MDZrMVBib002b2JCVElvTFNfNlYwQWJvNkhvN2xVNDdPMHd1WldWTzd0Mjg2bzhBZzlSaV9DTkhwRjB0cnhrS2FwLWpFaXlWeVlMVk85UjVMXy1wZGhYUzFwS2tNaUMySXNJdTdxbERTOA?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1c871b9026b5b0cd",
+      "published_at": "2026-03-25T21:22:10+00:00",
+      "title": "Live updates: Iran says it has no plans for negotiations with the U.S. - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVVRTUDd5Vkk1bU9MYzUxUV9pMVFfSlJ1N0tDRWNFckxJWlFtdWE5a3RRb2ZaT0t3T0hqZkoySFpLZnllXzRoanBybTV3THFkQVM3Z25OQk1ZRTBDNWtMTmlxREVkSE8yQ1NLQkh4UEJwQzc2akU0Mk9Xa0NOUW1Rd3BncFFWN19pRUlIYjBGSUdBbV9iMDNlT3JEclNZM0JKQzdNOFJhN29ZYTRLbDU1SHNfVVlTcExTZzRpX3dR?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f8e9775d5595f4e1",
+      "published_at": "2026-03-25T21:18:41+00:00",
+      "title": "U.S. plan to end war seeks removal of Iran\u2019s enriched uranium, officials say - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbUtueVh5RnVFcVdsLXA2eDhlS2VIcVBicW5yTGNUVlRSUjlNejYzRkdfZ3pPQTA2X21rNnlxVjBoN3JCcnlOU1JHNnhxOUZaZUl0R1ZwS1ZmYm9pTmE5VnR3V19EaEZ1dzhyVlR4anhQcFBoOVF2TE1zaHNwZ2NLWkhRdEJTYm50?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8f74d559ad32c77a",
+      "published_at": "2026-03-25T20:33:53+00:00",
+      "title": "Iran calls US proposal to end war \u2018maximalist, unreasonable\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWkZGRWkydHZmVHdwcUpGT0xUU3FxUjNiMDVxQjhTNkM3Z0xIdVNLeXduMzZudzFka0x2aTl3N3h6a2M5b3o1MjdKamoyNkEtc2wzWVI4dEZsc1p0ZnVtTVZ0TkhYQWcybVh4eWFlYmF6NHV0UmNHZlZvbmlqV0lkc3Q0bExmNVowaG9LVG0yUUt2Y3FJcC1zb0pkWFZSOUXSAaQBQVVfeXFMT3Z6aXBmNmJrc1NDb2ZIcmo1cnhRczY2a2dtQ3ZrVlFPNWVnWjNpY29hS01KU21jMFdDRUJJNlNfczFST29OOXZTR3piNjVIWjdNT3Y2QUlyemVneTF5aFRoclpZZHZya0RBNzRIeVIxcHlSTXJ6LVU4c1E4TzZyQW82VG1YQTR1REdUTjJBZzZFb1R4azlLSl9WdkVQUFJyTmsyT3A?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ad018beac3dc050f",
+      "published_at": "2026-03-25T20:27:51+00:00",
+      "title": "Trump Says He\u2019s Talking With Iran. Iran Says He\u2019s Not. Here\u2019s Why. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2x4WFBlZnJXMDdDS2R5U3Y5RXI1cDBxV0NFSTRPMVNhZUo2dzd3dEl6SlY1NlVUSGtxbWRPeHhqaTJvZUxtaHhvOXFDSTlVaEp6TlE5Y2Z2cWJ4bDhvaTczWTgtc1R2bUtTQWp2TlNENVp5WXZ0YWFMQVRQSDA3SHpNeFduZzlZMERiekZRWnU?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "dbe475f245799c72",
+      "published_at": "2026-03-25T20:07:01+00:00",
+      "title": "Iran rejects Trump's 15-point peace plan, state media report - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4taVBmcTZpVnJUNHZQXzJ3TDIzZUlXTV93U010ZkdHX043amJrSVVETEc3YXk2bFNrVzMwb21pZzhvdXRvTFdyU1A0NDhhNnhmaUt6UndVWndkUQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
       "id": "88b102803f4dbc01",
-      "published_at": "2026-03-25T18:58:00+00:00",
+      "published_at": "2026-03-25T20:04:00+00:00",
       "title": "Iran rejects US ceasefire plan, issues its own demands as strikes land across the Mideast - AP News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTVVzQjRTdGtHV0k2X0ZQYWRpRXJqMHhpUE80ZUFTZTFadFl3RGZjSWpjV1FTTEJYY1h5WTdwU2d3RWlmdEFGNV9QX3dpaEhFU3QtLVdKQldfUmdqY2JRUjY4SU5SY0NhNFY5WDBQaVlMOUQ4NTdsRXIxZHllOUsxclR4N3JmMTc5Z2NMR2IyZDJ0ZS02M3dzSjdCSFFULWFxeVNrYg?oc=5",
       "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "bd265d46d65ef8e2",
+      "published_at": "2026-03-25T19:37:52+00:00",
+      "title": "\u2018The worst I\u2019ve seen\u2019: Oil industry grapples with the fallout from US-Israel war with Iran - Politico",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQbjVpZTBFbkRONG0xUnpKMmE1aDRoOVNoUER4MTQwRDZXbzFTZ0xraFFieU1Bci1JLWk1TmtyemZJZVo2bFZVQUg2b0pSanFRS2RYNktXTE5vcFpqd3BEZGE4YzBkemJ4ZWpRWmg3Z0lMUl9wcmg2bDEtNDR1QkZ3bnE1Ymdhc2lINzU3U2JWY3EzcUNWaVI1VjFkUTlpcHdCMkZtSVhfQWZCbC1rUndURHA0S0l2c2ZjaWVNdlJvRXBDT3NpTzIyellDVkhtQQ?oc=5",
+      "source_name": "Politico",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0f34cb2aefd620d4",
+      "published_at": "2026-03-25T19:27:41+00:00",
+      "title": "US-Israel war on Iran: What\u2019s happening on day 26 of attacks? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdUtCdTFreDRwM3dONWtPQmFoZF9UNEdUMHhJejF1eUcxZEhHVUQ4XzFJdVZ6OUdkckZ2eDNpODJRSHBYYmxpbC1CS2dSOXgxclR4REhmRWlITjFUS2VnVVE1RXRKa2xtODRTeTlhN2dyWXNMejNmYVE0ZlU4R1RmVjREZGZ3TnFxNXNIYV94Sk92VG44aDZvVnFnUW1iQkdo0gGmAUFVX3lxTE54eGZkajBCaklCOElMT1k5TkVMbXlCUWw2Y2pwbUFvYmlEUTZFb05rejhuRXREajA3UXVqYWRzTlZ0QjhObTlMdkZzMHJieGJnVlF2aUFjM0xUY0pHdEY4TnQ1SE44ZW5tc3R2TlJnc29CYjVwa0lDRk14T3dWY1lZd3YxZnlPeDBkOG5ETWNab194NFAtamJjWGloWjh1Wm8xR1RYUGc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "b8f5e812c2be2a0f",
+      "published_at": "2026-03-25T19:18:45+00:00",
+      "title": "Iran war: Tehran sets own terms to end war, rejects US plan - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPS3ktZmloNGZrM0dubTVxV3pWRTI5UVVQSndCZEhURThIRjA1VFBRX00yZkpzdllNNEpwcF81RFhWVnFnLXB2MFJ6UDREY1loNXQzc2hzV0VjNlQ4Qld5Yi16QjZjTW9FRDJEdkFoWEtZSDJnZjBScHJWcGZtVVB4ZTBzX0VSaXFGRE5ZeU11Tk56MkZ6d2xqLQ?oc=5",
+      "source_name": "DW.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "4ef6e270203749bc",
+      "published_at": "2026-03-25T19:03:25+00:00",
+      "title": "Iran building up defenses of Kharg Island to protect against potential US ground attack, sources say - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZjBYN0lYY3kwRVo0ZWlob3pvUFVTNTNGZS1uUHNZTEI5SkQtcjY2TE91aTVVN0FfLWNWTU52SF9BZEVfY0RLaDlnZS0zUHhtTE9RNE5fQllObm8yUW42RGJ0VFRtcmhidWwtS0gxU0VhMGlWUE1qcl9rNERETF9JQTJ1RGJraGlldFkw?oc=5",
+      "source_name": "CNN",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -127,19 +338,19 @@
       "confidence": 0.8
     },
     {
-      "id": "406a12e47f2921eb",
-      "published_at": "2026-03-25T18:44:31+00:00",
-      "title": "Iran rejects US ceasefire plan, issues its own demands as strikes land across the Mideast - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdy1IVlMxUExEYkpKYVN2ZkxmOTZ4MHNhcDM4dTRDaGRQelVkbUNGQTB5OGJfQ0VJbFVSeThtNWRiV1R2Nm95OC1vNU1BSUFBSHl1QVZZR1ZOU2xjYUJoT2t4ZmhiREZtaUZEWHNyUktvX1V3ak5tQWFKM185YlhYNHlkQWNUNzFSV1RxTmdSczJOWkFfeklsZFkyYS1tYW5reFNTSjVBR0tFY2lxSjhFa1hCeVJqSDQ5Y3dydXc4anU3azViLXFaX0ZITjJLRGI0Q2R5bg?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
+      "id": "9b0efec956576a01",
+      "published_at": "2026-03-25T18:42:35+00:00",
+      "title": "Poll shows most Americans feel war against Iran has gone too far - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbm55RzQ4SFp3ZGZEVVBZMEltc292QU9ZSHd1RTVXS24xQWZpNldmM1BjZXBZOTR1VDA4Q19LcFNERkozWWZrSXJhWmFSQjlRVjdzbnFPSFNKM3ZldHpMdkstUHk3ZkFiY1hldUdRbXpCVmttbFoybmMxRWN4SEJZZ3BWSmhxRTAxVG5MMHhlbGQtZ1A1VzlUMUNYdXdGNjRHLXc?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 3
+        "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.7
     },
     {
       "id": "c9756227985f942f",
@@ -157,26 +368,11 @@
       "confidence": 0.8
     },
     {
-      "id": "1e9028685fa92f82",
-      "published_at": "2026-03-25T18:41:00+00:00",
-      "title": "Live Updates: White House says Trump will \"unleash hell\" if Iran does not make deal - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQLVZWRVVrY3Roc2hveGNLNEdBQ2p1VmxZNnE4SWlLZVQ3cUh0dUJScXF6UGtxYjJyTmNOWHNWZUc1d0s5Y19XOTRWWExPLVZhTG9laC1xSDNueWVSeTVyeUZHcFU2TUNWQVFlRC1MdEhHT3VjTXJfVTRlY0ZDMUJFODdBYU9RcDMzRHZXTGRoc2tiZ0RZQUhfdVVrNTdTb1lRb2MtN1ROV3fSAa4BQVVfeXFMTXREQlphZXRFNXhBbXF4d3VicXZhRjByUzJOb25feGNMN2l1dE5QT3dkTFFSOTRFejBsUDA5SDJOQ2F3allOOTdkZ2JRZVdqSHNsOTh2d0pmc3VabU9uUEdNRlVRZGpBQUxkUUdWTkR5U21hNjFNREtIMGMzNElWbXBqd1Fkbk14bWlRYXJoQ3BRdHB5dGphaGJLN1RMMjRlZHZfUWtqdXRMRVJVZWN3?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "562d93c11bd8aa79",
-      "published_at": "2026-03-25T18:39:14+00:00",
-      "title": "Iran War News Live Updates: Trump White House Hints That Iran War Will End by China Summit - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxQZXIzd0N2S1hNVGd5cFAxQkRUU0tzcjNqZW1YcVZ3V2lPbUc5anNkWjNlVmNtY3NqYTNKa09uemJYNzJreXQ0b3djMnRPTktQcWd4SFMydl92TXNhUHBBYml0N05zY0tBSjB6RXZtMllOME5vTVgyeDNEN01CcW1sbDVoeVl3SjQ3SGdzR0dQdkZhb01NY0IyOV9LTm9YNmg3YW1OSVdEcGl1TEdsRlRKd2RPVVljSFJXYllZSTdiWW1HRjdNUk9HTXVmMFdjM2diUGtBN1BPSXd2VkdqQml2VEtZSFlkdHJPdFlicmRYbzh3bjJ1X084REFBSXNVZFdkalFZZU1VT2YwVkxqZGE3YlNVSDZSM3liTy1TeUxkcTE0X2J4QTZiZ2IycEpYQ1pXZ0o5Z2Y5QmdESFNvU3BJMXB6SVJjZjBKRU1RZ2Q2VWg4Y1N3SUhVa3hvUnFwUWRfZ1FqeVdJYW1JWFFUYWlaMGdBODkyQUE?oc=5",
-      "source_name": "WSJ",
+      "id": "207e33c924e3d4d2",
+      "published_at": "2026-03-25T18:32:35+00:00",
+      "title": "US and Iran peace proposals: Who wants what and why? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA2M0RrX1dINHVwVkN3c210czBRRUpoWmpjRHhDbHY4UXY1eUpHenlhNUUwOWZFbEVINWducHl6c2lQRlJfS0JjenEyYXRoM3ljcWZmUzZHYTZpdw?oc=5",
+      "source_name": "BBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -200,201 +396,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "9249acd226066619",
-      "published_at": "2026-03-25T18:22:04+00:00",
-      "title": "Iran War Live Updates: Tehran Dismisses Trump\u2019s Cease-Fire Offer but Signals Openness to Talks - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhNUprVndUd2RfcjlTX25CYWxQX0FURTZxS0FHNHhMTFZ0ellkb2RUcW1WVE5BUkpEdS1EbzBFaUNJWXZiSGhJYjI4NVN1eGhIcjV2MlhJYV9iS01Sc1J4Q25QWE4xY1RBaWFKNXdIeEp2U21mLUJuTw?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "f8e9775d5595f4e1",
-      "published_at": "2026-03-25T18:18:41+00:00",
-      "title": "U.S. plan to end war seeks removal of Iran\u2019s enriched uranium, officials say - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbUtueVh5RnVFcVdsLXA2eDhlS2VIcVBicW5yTGNUVlRSUjlNejYzRkdfZ3pPQTA2X21rNnlxVjBoN3JCcnlOU1JHNnhxOUZaZUl0R1ZwS1ZmYm9pTmE5VnR3V19EaEZ1dzhyVlR4anhQcFBoOVF2TE1zaHNwZ2NLWkhRdEJTYm50?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "fe208bf01b24921b",
-      "published_at": "2026-03-25T18:07:44+00:00",
-      "title": "What we know and don't know about Iran war negotiations - PBS",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPbnpUM3cxdi1NOFJTc2F6b2tXNXRwU0RtVjZzbmQ2QTYxeUVKVXlrQ1NmcjNpU1BuUExrMXlyNzFBbXhITVBUU0VWV1NqSlNaS2tLYkxmZTc4dmJpTGZIV193RnZFNDhCWEhLYjNGeFcwRkRiaFdjcGZ3eTZrR0pScHQxY0pqeFcwbEhRMVpKSE1laVHSAZgBQVVfeXFMTWRFZE1pbVVzeU1ZUzNkQjdXRGt2aEtuSDVtUlJ0RFBMOFh3OEI0TkZoLWRDcW5kRC1IUXFqcjctaEs2WFkyVGtoZF85bjFXdk9icEJnanR0eVdwYnlSYWhDa25Oby1pTkN0NEhUQkZzbHhUT0VIZl9BWTMxbGhTR3hNd2VhTEJza3ZPakN6RUxWbS1wbDZxZEk?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "8b508f9c0822f105",
-      "published_at": "2026-03-25T17:58:06+00:00",
-      "title": "Middle East crisis live: confusion over Iran\u2019s response to US proposal to end war - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPXzFlbUhpQ2xmVXJWMXI4SWEwU290YVN0dkdJSUdfYWUyZ3RiZW9SNnZNSmI2N0k3cE13T0hMQjNVUk9rMDBHLVZrUFpFblhScnBVX1JSTjViQ01EZUtwNDJkUF96bnNJTHM0ZERnNWNiNE1WS2tFM0p4WFZ6dUx4cXZTZ3dmczBIZjBsLTJKdjRxa0xOWV92WV95RUotcmlneXpVVkpCZEsxMFM0a014Y3RkSnRjTnRWc0Z4dWlYU3RWRkVQZW8xbHQ5MXpSSnRSLUFmMUVmZV92dG1OeFlsQkNEUWpTR2xTMlMySjh1Sjc4Q0U?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "51c389b1ad0d708f",
-      "published_at": "2026-03-25T17:47:00+00:00",
-      "title": "What is the 82nd Airborne Division, preparing to deploy to Iran? - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbzhCUDVaeHh4S1BjNEg1NFVrOWNPME9jajduck5xXzhaSF9QM016U2xlRWhRTU56M2R3UkFzczhncVladERwaXNQN19tWjBibmRLWnJWZWhmVHFhcWZpZFhESnJ0dVRWMmZ2dldkOHpQdnhSRjIta19CRVZocDI5QmRlNTRhTWNZS0RYd2ctaHRqc0tocXVSUmU5aHFndXJaOUFhZDNCTHl0eTFiNmxDTlhR?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2ac38935deea5722",
-      "published_at": "2026-03-25T17:04:58+00:00",
-      "title": "Trump gets Iran war briefings through strike video montages, U.S. officials say - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWDBuek9TSDlCWGNoQW9RRUg4OV9rSHRHdkxqQkhfaHVScHBZaWFDdTlwV0lTMTJ4bU40OUk5N3NQYmlhVjAxRGdUWHo0Q29VdEVXOTBQVTk3Z0lEamJEZDlEYklhRjRzN0dFVUdoYS1oNnZINV9jajZMaEtqV2tGMFFhU1Y1MVNybmxKcExYRi12MUp3WUd3WUFrRm9iWUN5bEEzUjc3YlpWbU4tWUlZQlhzNU9IUEFHLUhOU0JYQUJXQQ?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "ad018beac3dc050f",
-      "published_at": "2026-03-25T16:57:52+00:00",
-      "title": "Trump Says He\u2019s Talking With Iran. Iran Says He\u2019s Not. Here\u2019s Why. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOM2x4WFBlZnJXMDdDS2R5U3Y5RXI1cDBxV0NFSTRPMVNhZUo2dzd3dEl6SlY1NlVUSGtxbWRPeHhqaTJvZUxtaHhvOXFDSTlVaEp6TlE5Y2Z2cWJ4bDhvaTczWTgtc1R2bUtTQWp2TlNENVp5WXZ0YWFMQVRQSDA3SHpNeFduZzlZMERiekZRWnU?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "982699506409e93b",
-      "published_at": "2026-03-25T16:56:10+00:00",
-      "title": "Iran Rejects US Proposal To End War, Sets Conditions For Ceasefire - i24NEWS",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOV1lJT0FIR0kxY3ZJZHI5TS1oY3FqQWhoZVZtampDSDl1bUthdGxDQ2xPZG1FazdwNGZrandiMWlsRE5uYnFiRUVjS0hUdzJ3eE5GYVVZdXloZnF1TGxQNHdGREk4czRad3h0Y2JJWU91cmRjRmhLVzJ1U2NBeGFrTlFCMU1HSTFsUEZKUDlaeG10TkNxY3lzNDRhR1J5WXBpN2NPRzBmMUZkZ1pIV251QzJPY3Fka0tLaHJ2U1JWMEgxSnhHNHdsWnd4TEVsQQ?oc=5",
-      "source_name": "i24NEWS",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7a841d5e1f6912c5",
-      "published_at": "2026-03-25T16:47:59+00:00",
-      "title": "How the Iran war could change the US relationship with Gulf states - Atlantic Council",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTEx4a0ZBNzFhNmdKWVFxck1BZUdtellLM0xvMS1SRGhMOHZtRExyOWNoVzhZbTBobHN3VTdVRUNfYjV0cU1jSkZITjBYR3drbmNqalh4dHUya1ZkVEQyOFdTd2g4SWJxVm83aGpVLUtiZ0JVaWs0dTl3V0owUnBQeFhYZl9VcHE4S05XS0FjUkg5UXRTNjhmV3h5MFJLRTZCYjdYcnp0d2tRZ3RPMERR?oc=5",
-      "source_name": "Atlantic Council",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "16b7238cb8607edf",
-      "published_at": "2026-03-25T16:46:12+00:00",
-      "title": "Iran rejects US 15-point peace plan, state media reports - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4taVBmcTZpVnJUNHZQXzJ3TDIzZUlXTV93U010ZkdHX043amJrSVVETEc3YXk2bFNrVzMwb21pZzhvdXRvTFdyU1A0NDhhNnhmaUt6UndVWndkUQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "dcd47d5a3c395561",
-      "published_at": "2026-03-25T16:37:38+00:00",
-      "title": "What it would take to end the Iran war - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNU3pOVHdTbl9ldzItdzNuaUpaM1RmWUR4WnJZTnhkaHJNLVA5cmxleXhwUXRpT0FMSTFrRTB3YjZQNzMyZ2VJbzJ6TVFSMnIyWkZjcVo3MW1WcnczeUNKckhjTmh6XzREQTlKa1BkWHpMSEVJTHZLaE9KUTFCVmQ0Ykx6OWxwVjBoS1pr0gGQAUFVX3lxTE4yVEhpclM3UG91bXdQd0ozaDdnNlVXYmRyWGZkcGZkV1dhVjlwSnRteWtlZWM4eXY5ZzRmbGhMU2kxTnp5U2V5U3pUU1g4aF92VlpVbWE3Zll2ZTVlTmQ0eUhlQWJSSktGM0Z0ZFJEQURyRlhVQm9HRndTUlM3clczVHhoS2V3RnhXR3g3QTFaMw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "a2f5b7f659eb49e2",
-      "published_at": "2026-03-25T16:34:45+00:00",
-      "title": "U.S. and Iran Are Talking About Ways to End the War: What to Know - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVHFvMDZLZzZLZGRNaFJLMEZsQVcxeHVQOW44SmVUOU5BOFA4NXh2R0NCaHZkcVl4bURLSWQ4UjdpZk5BNms5aTRjUmN0WHZWWlJkSXh1QVlHZ3Z5N1Q0TlM5OWJFbHhCbTdUTVd5WkVtVkpLeGhZNUtwSDMxdl92ejhkN3pCdVk?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "394be6b63a1e21dc",
-      "published_at": "2026-03-25T16:31:47+00:00",
-      "title": "The U.S. and Iran Are Fighting a Massively Asymmetrical War - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSUlObFhFcGl4MGtoTS1yOXNhQk1UUG9ReVh5TklKR0NnQncwWFc0bFhqd1NtRzF6b0hwcEFQcFJXcUZkbG1KTkU1eW04ZXNVSzBzX2E1VlpweHpvNFJWTEdXbHc3OXlITkdsZ0dJNkRDUlpveDVVNFRHb1VsT3k2OUdVLUtsTUVUd2pmNG1iZw?oc=5",
-      "source_name": "The Atlantic",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
