@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-03-26T07:37:36.855765+00:00",
+  "generated_at": "2026-03-26T10:13:44.530419+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 92,
+  "event_count_window": 96,
   "totals": {
-    "usa": 19,
-    "iran": 29,
-    "lead": -10,
-    "lead_side": "Iran"
+    "usa": 23,
+    "iran": 18,
+    "lead": 5,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 19,
-    "iran": 29,
-    "delta": -10
+    "usa": 23,
+    "iran": 18,
+    "delta": 5
   },
   "confidence": {
-    "score": 63.9,
+    "score": 63.5,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 23,
-    "other": 54,
-    "diplomatic": 14,
-    "material_loss": 1
+    "material_loss": 3,
+    "other": 58,
+    "attack": 25,
+    "diplomatic": 10
   },
   "history": [
     {
@@ -88,21 +88,66 @@
     {
       "date": "2026-03-25",
       "usa": 10,
-      "iran": 12
+      "iran": 10
     },
     {
       "date": "2026-03-26",
-      "usa": 3,
-      "iran": 13
+      "usa": 7,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "de2244f0797f5013",
-      "published_at": "2026-03-26T07:34:36+00:00",
-      "title": "Live Updates: Iran Dismisses U.S. Cease-Fire Offer as Israel Orders More Attacks - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBhNUprVndUd2RfcjlTX25CYWxQX0FURTZxS0FHNHhMTFZ0ellkb2RUcW1WVE5BUkpEdS1EbzBFaUNJWXZiSGhJYjI4NVN1eGhIcjV2MlhJYV9iS01Sc1J4Q25QWE4xY1RBaWFKNXdIeEp2U21mLUJuTw?oc=5",
-      "source_name": "The New York Times",
+      "id": "f05d5bc7e45bc80c",
+      "published_at": "2026-03-26T09:58:21+00:00",
+      "title": "US Israel Iran War News Live Updates: Israel claims IRGC Navy commander overseeing Hormuz closure killed; Iran fires missile barrage at Jerusalem - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxOdHJjbXEyZ0syejhKRU5lcm0xRTlqNjhucUxvazFmV1lYS2lZRjZfZzRGcFJMU3NaRmdpSjduZDNQYmZlTlVpdVQxUlpfbHJLck1WaF9NaFd0NkRITkdJMm9rRDFZZXVadWpXZFR0NUpzNUlTLWNnQVFkT3R2Q0F3WVhLY1VKX3BhY2RvUmVyUDNHYnhjSnVRZWxxd3FOaHRBNHRsMXVSVmtPYXZ4NEFsaVM2UHdlNUNQRjhIdHBlcFZWYWE4S2JTN1JlVUlhNHBlbktTekp6Ny1WNkRsMXRxcGtDMEttOS1JRG03SFV0RV9SeVJnakN2T2xHNmR3NzRVRWVfLVQ4b3ZUS3B5dVg0T3c1djY3c3RGbGZTcW9wSEk1Wm5GZVdJTGZDZHVvS2pyRmt3OThfYWlnbkQ0ZkpRLUxJcHVuNWM0UjgtWXQxV0M5SFVna0tCaXdJSk81YjlpOWxHSk84R29fN0FFVDI2Mw?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fcc031363e81813d",
+      "published_at": "2026-03-26T09:54:19+00:00",
+      "title": "Iran US war LIVE updates: Turkish oil tanker hit in Black Sea; Israel took Araghchi off \u2018hit list\u2019 on Pakistan\u2019s request | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPekY5ZzQ4UnZTM0JDWENGbVp4SHRJc1p6eF9kOGR2dlRFczZzZDBGdXJOYXB2T1RwUXJ2eVlOeTVwUV82WHJJMmhNb0VhNVo4Z1NQeXdhZEwtVncwa29ZSldoSlZ2S3VSUWg1U3IwRTJrVm1xaXhOTFRMaVFqUi0xWFNqVWdjZGtCTHFIV1pWVUlZVEFVbm5kellySlFFc0Mza2M3Y0FGTlVUTWwxSEsxUUpTLXZpdllrYk81Mk9ybW5PenZ5c0ozdjRxbUpKenVLNHBpUktOM2tHY2tzaTlkNGE5c05GTGMxM0ExMFhJcDYzemh1YWhsbThPdlh6NjFIT1piTkQ0aVk2WUQy0gGSAkFVX3lxTFBwRkNkM1JkN2oxSENPNDdTVXpvR0FRQXRnM0J1cHBSU2NJUnFjMVFRS095THdudG45cl8tZ0M5Ul91dlhBdWFHVlBQOFpSZUV6RmJZSFV1STdmRlAtMHNScWlabXg2ejJnekw5cng3UjB4ZkVoVWdzSjhrM3NXREdmcXhtcXFSVzR2TmtFNnUwdkowejRhUzRvLVNtZTkxM3ZTWHE5MlMyTUVCWkpXVkJ3UFVVam1TbHpEbWprWVZack9kOWZIUWtIUWdJeW5DcldkNmRVbmUtZ3VvYlZuWDdYUWswMjh0dndKcWxuMDU1RGRxeGVMNVNfdzUxZlF5SzNSSGZ1MS1TOFlORWcxSkJhVlE?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "other",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f8bb16fba61e54d9",
+      "published_at": "2026-03-26T09:52:36+00:00",
+      "title": "US \u2013 Israeli Military Aggression Against Iran - Middle East Political and Economic Institute",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBVbWlIYUhEQlhkemJFNW9aeFJRWmMyMWVqbUlMdTNOOTN1T3hqY3B6ekVlVDgxZ3BVRERzbHJkanBESjJHQTNwd3EyTXZPcGdySWZUd2NwZ1czdkZyRF9kTnhBMllZNTBjREUyOFM3RQ?oc=5",
+      "source_name": "Middle East Political and Economic Institute",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "edfbbed8865b84f6",
+      "published_at": "2026-03-26T09:39:17+00:00",
+      "title": "Iran War News: Iran Launches Fresh Strikes After Trump Says Regime Wants Deal \u2014 Live Updates - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxQNk50R0lRTlBmWjlPRTByX2htUDN2XzhqVS1namw4dzFsRnE0eHFpMU1ndVBWeHA2bm5RTFk5NXR5QTcxbjNybi1fUkwzaGtCYlR1ekc5eFlpbXUwTmJENGJqVzRGbm02emU0RE5xTU5BQlpJYlZIcUV3Zk5vWk5POFB3N3FGbVM1cG5TcnFfR0pjTGVpckZVaTJ0TGV6ZkxkQ1FtZjRVdThoTDJoOVRqdTdCdHlrUWVFaHl0TFdiTzdOXzFneUVJV3EyZmYzOURoOThGb21VTllRVmZWYl9vVE93YUZjS19nMkh2MGEzTC03czZUNHRZWXBnXzYxb0pCUzJTdGY3aVptVFdmZDBwdEZnYWMtWDhKTXhQRXlaeEFaY3pGc1BuYVZCMWg2OS1MQ21OLWlFZGlhSHNKMG5CR2JPNl90eVJHaUJzejBEbXA0aTlzWm9jdEZRRE1idXNHY1JpeVlWcmZrNnFQQW1obHNabXI1ejg?oc=5",
+      "source_name": "WSJ",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -110,11 +155,56 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.85
+      "confidence": 0.7
+    },
+    {
+      "id": "8c4664c953220a21",
+      "published_at": "2026-03-26T09:15:33+00:00",
+      "title": "Iran-US war live: Two killed in Abu Dhabi as Trump says Iran \u2018afraid\u2019 over talks - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkFNM3BvNWRBNUdFR1hKMHFTSnpZdmJCNUtiRzE2dzI0RXBiX0x6VnM3Ri13NkpiZkhfeERLRlNMMzByOXJIcklxY01fMkFNUTNnN2hpNmdrZFpuRDJpZ2tXU3R6S2dHVmoxbUJmMUUwTXViYl9wTE5BRTRTVE8yRFJ0Tm5iVW1xckswVEd5X0FXZUw3QmdNejJZODVCSjM0S081bkxVM3hvdmRqbURzMHJrRmhUVmNKWFQ4aW03YUU?oc=5",
+      "source_name": "The Independent",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7018d6ce87e77097",
+      "published_at": "2026-03-26T08:53:37+00:00",
+      "title": "Israel and Iran Keep Up Strikes With Talks to End War Uncertain - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOTNUN08wd2h5bGlGV0wwTGMtN0wzVWZqQUh6ZGFiQzZKNjlNbjFyRG5ZMHZZZE5IcmxOY2Z2VzRyZEx0QnMtSUhnTWhza1lMdUNuRjRLejNHSElZYjZRRlc2TjI0NnhJNHVTUkpjTjBBeUNoN3ZBQ2hSanFzRTlJeDlBU3FLWEduMThKSV90bUZ5QVEzTnplMDNpVDAtbzd2a3hrQ2xjRHVCaGphZTNnX0hmTTE?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "74794129b24bc56f",
+      "published_at": "2026-03-26T08:45:34+00:00",
+      "title": "Iran war is a 'catastrophe,' G7 ministers warn \u2014 but there's little they can do to stop it - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWlcwZW80ODZhVms4WjBST2V3MlZiR25YeE5RVldxU3pSdWtnU0xTb0dWRlZfZjh1UmdrZENuSXFoOWNoRHhvcTN0d1dKU3lrRkRJOG1WSXpTclFFTC0wX09HazhqVXpfWW9zcTJpb3cwckQ5X2FqMnVDWFE1cWl2TGNYODlCaUlpZjlycERCSFh6alZCUnRESk5hbVZMSFdIY3ROaVJTdkQ4WEpvaXhnM0k2ZlBZZ3lHcnfSAb8BQVVfeXFMTnVfc2c2U0NyT3JwYzc4V25qM0kzWC1aRHNxTVM5UUhNT1dwZWhJbXRIM0hNOXlkTFVhUXFQVUVtRUdpNUpNaEtsRV9kOHM2cG8zSkpKZEpOSDVqWU91dGdzQnFJYmZNQUpvTGltNWZRRVBEWHJabWhUZVlkRW40V2gyUmt1VDZIOWcyZXhsT1ZDUnRBTWVxeHVzVF9hQ0F4NzY5MEsxcjIzcHdtbzFOOHp4Y1FpbUZxNHRpVE9xTzg?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "deb0c822dbdd6c0b",
-      "published_at": "2026-03-26T07:32:15+00:00",
+      "published_at": "2026-03-26T08:32:22+00:00",
       "title": "Live updates: Iran says it has no plans for negotiations with the U.S. - NBC News",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOVVRTUDd5Vkk1bU9MYzUxUV9pMVFfSlJ1N0tDRWNFckxJWlFtdWE5a3RRb2ZaT0t3T0hqZkoySFpLZnllXzRoanBybTV3THFkQVM3Z25OQk1ZRTBDNWtMTmlxREVkSE8yQ1NLQkh4UEJwQzc2akU0Mk9Xa0NOUW1Rd3BncFFWN19pRUlIYjBGSUdBbV9iMDNlT3JEclNZM0JKQzdNOFJhN29ZYTRLbDU1SHNfVVlTcExTZzRpX3dR?oc=5",
       "source_name": "NBC News",
@@ -128,53 +218,8 @@
       "confidence": 0.7
     },
     {
-      "id": "c5747d05396a7a96",
-      "published_at": "2026-03-26T07:28:32+00:00",
-      "title": "Iran US war LIVE updates: US can't impose unilateral peace plan, says Iran envoy; Tehran strikes Israel | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPekY5ZzQ4UnZTM0JDWENGbVp4SHRJc1p6eF9kOGR2dlRFczZzZDBGdXJOYXB2T1RwUXJ2eVlOeTVwUV82WHJJMmhNb0VhNVo4Z1NQeXdhZEwtVncwa29ZSldoSlZ2S3VSUWg1U3IwRTJrVm1xaXhOTFRMaVFqUi0xWFNqVWdjZGtCTHFIV1pWVUlZVEFVbm5kellySlFFc0Mza2M3Y0FGTlVUTWwxSEsxUUpTLXZpdllrYk81Mk9ybW5PenZ5c0ozdjRxbUpKenVLNHBpUktOM2tHY2tzaTlkNGE5c05GTGMxM0ExMFhJcDYzemh1YWhsbThPdlh6NjFIT1piTkQ0aVk2WUQy0gGSAkFVX3lxTFBwRkNkM1JkN2oxSENPNDdTVXpvR0FRQXRnM0J1cHBSU2NJUnFjMVFRS095THdudG45cl8tZ0M5Ul91dlhBdWFHVlBQOFpSZUV6RmJZSFV1STdmRlAtMHNScWlabXg2ejJnekw5cng3UjB4ZkVoVWdzSjhrM3NXREdmcXhtcXFSVzR2TmtFNnUwdkowejRhUzRvLVNtZTkxM3ZTWHE5MlMyTUVCWkpXVkJ3UFVVam1TbHpEbWprWVZack9kOWZIUWtIUWdJeW5DcldkNmRVbmUtZ3VvYlZuWDdYUWswMjh0dndKcWxuMDU1RGRxeGVMNVNfdzUxZlF5SzNSSGZ1MS1TOFlORWcxSkJhVlE?oc=5",
-      "source_name": "Hindustan Times",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "68ad3110eaea48ff",
-      "published_at": "2026-03-26T07:25:00+00:00",
-      "title": "Live updates: Iran denies peace talks with US taking place as Gulf fends off renewed strikes - CNN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5NZFNZQUw3NGJ0Yk5DT3FuTXU4VGJLTFFDZkVGYlY4elhFdkwtdWNzYWRnVzlRV2ZHWUtNcjh3YzVKLWFIblY2M3AwaEw0eEJsYnRadDlBY1c0eVVTbmhOR2lLUUVnSDlyQ1o5NkRUXzBQUk9zcWppR3RUZw?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a211fc4df4d1af8d",
-      "published_at": "2026-03-26T07:22:56+00:00",
-      "title": "Iran-US war latest: Blasts heard in Dubai as Trump says Iran afraid to admit to talks - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTkFNM3BvNWRBNUdFR1hKMHFTSnpZdmJCNUtiRzE2dzI0RXBiX0x6VnM3Ri13NkpiZkhfeERLRlNMMzByOXJIcklxY01fMkFNUTNnN2hpNmdrZFpuRDJpZ2tXU3R6S2dHVmoxbUJmMUUwTXViYl9wTE5BRTRTVE8yRFJ0Tm5iVW1xckswVEd5X0FXZUw3QmdNejJZODVCSjM0S081bkxVM3hvdmRqbURzMHJrRmhUVmNKWFQ4aW03YUU?oc=5",
-      "source_name": "The Independent",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "38fb8071f032638a",
-      "published_at": "2026-03-26T07:01:00+00:00",
+      "published_at": "2026-03-26T08:29:00+00:00",
       "title": "Middle East crisis live: Trump insists Iran wants a deal despite initial rejection; China sees \u2018glimmer of hope\u2019 for talks - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbFVQRWVyYmFzQ1BIUWZjdkkyYzFDaWJ4ZElaa1lrcmVOVHpRQnVZNjh3cEtHaUxKQ2JDX0x3WnlWbEctMjM0WERXMzVzZ3hPYnItdUwwazBacDFUQjVKdVNmbWRuR1hvX290QmwyY21xNmZ2TUctV3hpaGdXeG9GN3N4OVdMVExwajRvajJUMEZwNlMwQTNLam1VdkgtVzRpWGszeTJJemtFbjExR3hJeFFWT1dybmpxTFE1SlRNQ1hMUThQYWlj?oc=5",
       "source_name": "The Guardian",
@@ -186,6 +231,51 @@
         "iran": 1
       },
       "confidence": 0.65
+    },
+    {
+      "id": "adf0a0fa43a9c0ed",
+      "published_at": "2026-03-26T08:27:24+00:00",
+      "title": "Tehran building up Kharg Island for potential US ground invasion - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tLTIzMVp0Q2pxTmtfV1RodGJFbHRVVy1JTmFIaEZna2ZLZzJSVk9lWE5uaklhZGJEMDcwTjhZT185MWhlUnRMdG1XSmZLa2ZxVklva05rQ3l3U2F3ZW9xekpuVjhwR1ItMGc?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b711fe958c0679c6",
+      "published_at": "2026-03-26T07:52:30+00:00",
+      "title": "'Work from Home' for US soldiers? Iran attacks damaged their Gulf bases so much that some now operate from hotels, remote locations: Report - WION",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOLVRJYWt5V3ExQTFUeGxMN3JGcDV1SUxZMTE0NFFvSmJ2Ny1DY24tWndHaUtJcmtEQmxET29pckh1VjBjMlRDY21neWpjUzNfaXM3LS16QVJPU3llaVFpazkyd2hFQVRfYU95ZFJfWXZIejYwVWwwek9fS1NfTV9iS09ISGVMRU93c2ctSEtjTllqSHE4Y3NZNjhrTUI1enJaclFDZi1PeFItZ2k3X2tQMXBhVzRCYjJDSTdGRERDQXZTSzZYUGlTWXJkWlRndTJZRGpRT3o3MmtEeFB6MFpYVnJVMlRNQzZ4QldmaHVIMEZibzZ2NXpXcDdRR3A2ekw3ZjlVcS1wMTRJVlHSAZACQVVfeXFMTzIwUVVvdFMtTnJ5ZzhZRmJUSTI0WUc1aHhESHhkOFN0LUxvQ1JaRDM3Q3JIRXp4VG9EX2lBWkpoaUh4b3hvRjhqWktudTdjNUR4R0o3ME43b0gzVk5LTUdpVjJDZzRDcHZsc1pxb3FaaEowUGw4eGRaRXByLTJyVllQYkNTUnZJTDF3TFd4c014U2toaVhjdnozaU11b1ZiQkc4MEtzODFaN1V5XzZzMG8tWGpQUE9qSzgyTnBKRFQwd3c4N3R5amFILU9mcjROc2Z4dGxldEtLQXpYcnJDZDBZbVFyVHdjeFN0b0ZiNlFHZ1IyQVVrbF9zNjE3bWY3TWN6M1dSQ1hBMkJGMUZHalY?oc=5",
+      "source_name": "WION",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9dc8d9f14090f913",
+      "published_at": "2026-03-26T07:50:09+00:00",
+      "title": "Two teenagers killed in Shiraz, two dead in Abu Dhabi as Iran war expands - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVkhNOWhoX09QdV9XblI4NEJGTUZQZkNrdWI3NE52Y2Z0QUh6bjJxMVU1UElsWTFhVEdrMnE1Tnd1OEQzQjNEcUJYWm44X3BuOEdpYm80dHhhNXg0Tnk5NktQRzF0UUJFQ3RsZHAxbkFBZ3pHaWp0NUNwUVZKektsU1hHUmV2LW5TQXkzdXB5bTRNU1dvUDI2dUlBSkxqUE40OWtuN1dqNTRIRG1iM1FBbi1B0gG3AUFVX3lxTE9kbHk5QzBCVWhqWkxKaV9yNU5hRC1nZ29yVWJHd2E4ZklWWXlBMENYc3pibWpKM0RpbTBVSElEa1Q3R0NLdXRTZkdMVy0yZXhtb3gtU3pnN2JxcW90Nk83c2hFTnZxQXJPU0Q4RjZocEtNUDZWZzFUN2ZWZjBtTFZZamwtcXpsaVN1bE92WEFRN3o2SGNLYjl5MDQ2RWh5NWlXeE5TYndjalFpNDRkVmNOT0pycU0tdw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
     },
     {
       "id": "1e2e80b6c7ab3a6f",
@@ -203,40 +293,25 @@
       "confidence": 0.7
     },
     {
-      "id": "969d4be7d4f42a86",
+      "id": "162f63a193d85802",
       "published_at": "2026-03-26T06:31:29+00:00",
-      "title": "US demands Iran accept defeat as Tehran rejects talks, vows to fight - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ1BNYnlIVXpGeENUOTg5QWNwelNFUVR4Nno0QzVlS3hfalRtdmszb0hEZkNWLVcza3JoRi0zT1VXeEtrTnhmdDQ5bHREWmFjaVFqS2ZwN3hQSUdSeWJrSEJFN0FEUDJNUnZzQlVFSDZDNThuOVg2OS1ZNllQQy0zQVYtOWVPZ3VPX0lOYnI0UDZIUnd6bjhCUXc5cTl6dTluZjJsRUI2TWx5OWhMUWdQeURWbmc1WWd4?oc=5",
+      "title": "Iran war live: GCC officials to meet in Riyadh amid attacks across region - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQ1BNYnlIVXpGeENUOTg5QWNwelNFUVR4Nno0QzVlS3hfalRtdmszb0hEZkNWLVcza3JoRi0zT1VXeEtrTnhmdDQ5bHREWmFjaVFqS2ZwN3hQSUdSeWJrSEJFN0FEUDJNUnZzQlVFSDZDNThuOVg2OS1ZNllQQy0zQVYtOWVPZ3VPX0lOYnI0UDZIUnd6bjhCUXc5cTl6dTluZjJsRUI2TWx5OWhMUWdQeURWbmc1WWd40gG-AUFVX3lxTE5sRHllTUFfYjJGNWI5dGxHa05iQmxacDR0Q2E1NHU4YzFsZGhnY0VmWU5QRVFOVGl6eHZWbnp2YzZmVWNIZ3dtdXF5REFuaHA2QUFONXFxWEZMbk9tTWQxb1lkSFROTHl5d0dlUE5IN3NjZmhOUXF5bkJrMkVGRWRGUk52cml3OUVSazhOX09pR3o5R3d5M3dOOHhpZWdxNHZmbXRSOXhYQ3R1RFpnTDdON3E5UGF2OTBkVUtuNnc?oc=5",
       "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "event_type": "attack",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
       "confidence": 0.7
     },
     {
-      "id": "c4965916985fbb80",
-      "published_at": "2026-03-26T06:27:00+00:00",
-      "title": "Iran War News: Most of Iran\u2019s Missile Plants Are Damaged or Destroyed, U.S. Says \u2014 Live Updates - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxOb081alRhMVVtVWRvZ3o3TDM2MkxVUXd5UmxFY3JzdThJMm9UV1RCZ1hfZ0FFZmxVM0owd3hlcTdoTjh4eVZvM3RaczJ4VHpuOGVXQnhsdUZXRlJkWktuUmlfTVhESGl6VFpreFZDUnJlS09WTWYtT05PVThZazNBMTRKLVk4V1ExeURFWEg5SE5uU0RldEhwS0xSSG93OWNyVi1Bb0twNG5GNjVBTllzMG9ibXFLYXJnY1N4TkxGWWVjSWRUbk1URzdhMXZ3eWtHVnVhM0ZsYjRwVFItc3h1RGNSUjVpNEkwNERYdTU1OGg0UUczLUY1RVJ5ell3V2FmZDR2QjBQTXRwcXJndHFNWHpJVHVOVDFMNXlWT1R0a2VUamFZZ095Q25JaENEdmdpb2ZteDZVRV9LOVNzZWNPQVBhNkV3NzdmRGhPdno0N01jWUhWVmhpdVR1WTFOX01jQkJnSEZQa085LWNjWVNjTU5HMnpIblE?oc=5",
-      "source_name": "WSJ",
-      "event_type": "material_loss",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 4
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "5fae1b4bef88e061",
-      "published_at": "2026-03-26T06:26:56+00:00",
-      "title": "US-Israel war in Iran: How much does it really cost? - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPQ0FCYU5GLXgtbFB6Ums1eDVhVEVnV3JPTW44Yzk3cGVUN0V3aFhVVEZVM1ZnaHNEVHhEcVNMWlVBNGtKSW5kTU5DaWFibUl3UGNVdTZDbmhLYlhrN1JpT3dHdDFlN0hXamoyZ1FwV1lkUFdhbDYweUNicDlmOHFRU2tuUm55WHdZSzhkaHFLNFk?oc=5",
+      "id": "ff5c54030216b043",
+      "published_at": "2026-03-26T06:10:19+00:00",
+      "title": "US-Israel war with Iran: How much does it really cost? - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcFJjbEFpRWVRRWVFclNxVmZCTXlWcmN2QlpNSkNzX1ZIWFJrMWU2NHFNczJtdHZmUTExX3hfWWFUOUNrMGpDc3hwTWZDeG5WYlhfODFDVGFBUE8wZXlkS1cyYVZHRjd6QThwb2Y2MlFlRjI3ckN2N2V1YW0xOW1fX29fR2tKWnhVRko1S2hzdU1SUFE?oc=5",
       "source_name": "DW.com",
       "event_type": "other",
       "actor": "unknown",
@@ -293,11 +368,11 @@
       "confidence": 0.55
     },
     {
-      "id": "adf0a0fa43a9c0ed",
-      "published_at": "2026-03-26T04:06:43+00:00",
-      "title": "Tehran building up Kharg Island for potential US ground invasion - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tLTIzMVp0Q2pxTmtfV1RodGJFbHRVVy1JTmFIaEZna2ZLZzJSVk9lWE5uaklhZGJEMDcwTjhZT185MWhlUnRMdG1XSmZLa2ZxVklva05rQ3l3U2F3ZW9xekpuVjhwR1ItMGc?oc=5",
-      "source_name": "The Jerusalem Post",
+      "id": "52df9dc0a8d0a59f",
+      "published_at": "2026-03-26T04:16:00+00:00",
+      "title": "Day 26 of Middle East conflict \u2014 Tehran says it does not accept 15-point plan by the US - CNN",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONXFtUnI5NFpjTkQ0OXF1YWlxeWlZWERxQklyU1U1U1oxWmNGUm5ob1NvUkFYU3RZSjY5bS1xbF9YdXhCMzVPQ0F6SWEyOXpfMTRqUXRoV0hMQk9OUmlxU3ljU3lvZkxTckJGcEhyTWE1Y0IyYmtYQU82bVNlNUgwN3ZZZTZOUDQ?oc=5",
+      "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -321,81 +396,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "bc32a0965ec27691",
-      "published_at": "2026-03-26T03:55:00+00:00",
-      "title": "Iran says it is reviewing a US ceasefire plan but no talks; Trump says Tehran leaders want a deal - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPS0hIcVlXMlA3NVNtTzZiX2FBSlk0cmtyc2JCdnpNdlB2UFhUTFRWZ3dQZkU4TmtSdjNuWUJ1bm1NblMtWkR6Y3pwV09nRFlneGxBQi1IQWdfLWI2UDd4cGR2ZkJGcndXTy15dGxkMkpjNWd5OU1ZQ2w4X3hLWm16Q0xGd1hRaTFBZXI2UTdWaGNIYkg4SmVMRk55Tlg5c2NCcG95d205SmxWYVdOYW9MOVlQaGNJUlZLMDRxY05aaE5weDVEeFl5ajEwejNrZw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b79f7cf3e7f5234d",
-      "published_at": "2026-03-26T02:00:53+00:00",
-      "title": "Is Trump any closer to an Iran exit strategy? - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XZXhyNC1nZ2p1Vi1rb0JuYlRUOUkxRlRNYjdZcU1DWUlyVW83WlZ4ZVl1VnBIUlU1SFJMc1B0dHhMZjJVYlhRaVc3YklrS1ZDSHZiZHlxNm9IUQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f556ab70483ea68f",
-      "published_at": "2026-03-26T02:00:00+00:00",
-      "title": "Trump Tells Aides He Wants Speedy End to Iran War - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiowNBVV95cUxNWEdiVzRuekVlRzBVcDVHRG9RRjVPbXVndndselVzRzllNDJlTjJGZm9ZbktyRFJzVkxJZmp3Vm5TSXBaZWg5eHk3SmxFc25tRk9SclN6MDhXNDZSU3VBZHhpR2NGUlFGVmRZM19uN2YwWjBDRGdWeUFGRjZxNXdLbVc4cDFhY1VoU05lNVhxNVhEVDFjMldzVUd6MFJMckc0NXkzaVJqOXBaOWhSWW93NE54endCSEg4QkgxSW5abVF4T09xNW00b3M1TE1BNFN0X2R3YzBnaVQ3Q3gyY290UGsta0o1SlFieHNBc0RrUU4wX05aRk9rNkwtcjV6NUlrbUVJaDFkZEdEbmJ5TURlVjUxa2txSHRKbjZDd2VuSWVnWUx3QnhEUnhfM01GTjdZVE1BRk10TlVCMEFFSTdZVXdlaklzUDN5Q1BtTGlGeU13OWRLRVVMR3AtemlfQVdTMlFKYUJ4bENEelYxQU1CbXNBaW15UmRjT0dkRHplS3lueGZiTTVsMFBuRlpscHJ0R3JjRlhMV3FMMEN0MkVKT2ZrUQ?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "997eef6ccd7cc0c1",
-      "published_at": "2026-03-26T01:34:55+00:00",
-      "title": "Tehran issues warning to regional neighbour if Iranian island occupied - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMk9wS2p6VFBJd2I3WEE4czhEaFlCNWJGa0VlaUFyU3JnT1YxZ2xQR2tNVDctSkVmM04xSmVBd25NY2lOMVpfS1JGa3VVRXZ2c0hCTzUzY1RQZGhBcDI5UUxtcHZzSEIzNnZFaHdYVHAzTUp3QjFaLUFVYl8yaHRoX3VNeS1NdGNteVp4WkZJaUoyT2Z6RjhPdE80VjZ3ZVRRRjd1V0R3Q3ZLbnRZMUlMNtIBtgFBVV95cUxPR3JFck4zX2tVNHhIc256MTExcVpwRWd6UkVWOGJLSkNDMTNJZW9qRkl0N1o0R2U4RU5nQ01TdUxvTlpIdDU4Mk9TT0Vnc3JoLUl4OUFyUmQ0c3RkOUVFNmlJUWNQbzlhV1E0d2RvOEozS1NIWWdCQ1dGSm84VFY2cmhWN3UxVWdMV0U2S2psRVRIbndkUF9yOTBfcUlQRjZ4ZnlNbjA0ZGZ5QlRBMEVNRlJPQUcxdw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "c2ee493324ef5bdc",
-      "published_at": "2026-03-26T01:16:52+00:00",
-      "title": "US-Israeli attacks on Iran\u2019s civilian sites intensify as war reaches one-month mark - Peoples Dispatch",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWXFyd3RNcDFSWDRWamROZDNYNTN0d1JLa2RzOHBkY0lEUThOX2ZVNVlDX25PM1Q3YmZfQmtkYnZDekNqcUUzR2QyUUd6elRHUVZXQlV0eXFkSzZHSGNPWnZZeW5yQjJ3WDBlNTQ1RGZrMFAzdGN2Zy14Vm11Vll0ZV9vaUFUQlN5Mm9FNVZlMm5PRlRfRVZvZDBSWHhDMEhGamQ0ZHpvMkxrR0xxNFY4Ymw5NlptX2Z2UVo1S1Vhbw?oc=5",
-      "source_name": "Peoples Dispatch",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
