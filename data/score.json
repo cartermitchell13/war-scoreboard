@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-03-27T13:45:52.809717+00:00",
+  "generated_at": "2026-03-27T16:08:24.990182+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 100,
+  "event_count_window": 98,
   "totals": {
-    "usa": 22,
-    "iran": 24,
-    "lead": -2,
-    "lead_side": "Iran"
+    "usa": 24,
+    "iran": 18,
+    "lead": 6,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 16,
-    "iran": 18,
-    "delta": -2
+    "usa": 18,
+    "iran": 12,
+    "delta": 6
   },
   "confidence": {
-    "score": 63.3,
+    "score": 64.6,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 38,
-    "other": 55,
     "diplomatic": 6,
-    "material_loss": 1
+    "attack": 40,
+    "other": 52
   },
   "history": [
     {
@@ -78,12 +77,12 @@
     {
       "date": "2026-03-24",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-03-25",
       "usa": 0,
-      "iran": 6
+      "iran": 2
     },
     {
       "date": "2026-03-26",
@@ -92,59 +91,14 @@
     },
     {
       "date": "2026-03-27",
-      "usa": 13,
-      "iran": 8
+      "usa": 15,
+      "iran": 5
     }
   ],
   "latest_events": [
     {
-      "id": "2dbfc2d12c013c13",
-      "published_at": "2026-03-27T13:44:06+00:00",
-      "title": "Nearly 1,500 Iranian civilians killed in U.S., Israeli strikes, report says - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU0wxN2RPYk11Zm9KOG1CTkJpaG83Z1dMVER6R1pzVXRRNURSM2pRSDJVcHhEc3BkOHNZZGJFTVVBQ1ZmV2NZbWlhaGkyME5ienR2NXRUZWF2YnNmT0dxUlV0cGdyb3dVTUhhMFp1cmk1NnV6cTUwS281cU9KdERLZmxzXzN0Zy1IcldDNl9B?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "b885bc5b7527e6c5",
-      "published_at": "2026-03-27T13:41:29+00:00",
-      "title": "Why Pakistan has emerged as a mediator between US and Iran - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMThhNE5wZnBHbW14bk84aFkyOTlzMFV0V2FpbEt5OTVDMncwMHJ5SlpDMWhKMmg3aG80OEx4OERvd3RqUUs5VUh2RUxBalJ1LTMtUnBPNllCV3dxU3hHTVJ6MkF0UWJ0eVJnVHdtWFlhWF9qc0huVmR0alZoTUVtdTItNTRCSGJvOWg2eTRVdVF4NzFPazVSTDVIMDE2aDlYMEtPTTZvVl9BOXk5OURRaW5uM0FTT2c2cmhhcjFYWVUyYmFjM3pBZzhjbnVENE5PLVFsWHlNYw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "61362b101d995a81",
-      "published_at": "2026-03-27T13:39:44+00:00",
-      "title": "Iran-US war live: Iran declares Strait of Hormuz closed with \u2018harsh measures\u2019 threat - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMTg0TmJxTnAzVHhsc1F4UzlrQW5JVjdlUHJuMUl5YkJ6elJDUUN4a3Brck5wZHZjYnRmMGVzeks1eW5NT0huMDlDS1FPWV9tcDJKOU5CRF92SDBvZm4xUDRIM0ptdE53ZDlDQmZrbXJULUNHdVhxQVY5WE1HRE95bUxKZXFZTVIydTduMG1LTVJ3NFltaDRTYVprbVNjREktbFozS0FUQUVYUWdTb25iOG51STBqaFllc2c?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "41723b6c54465f08",
-      "published_at": "2026-03-27T13:35:27+00:00",
+      "published_at": "2026-03-27T16:03:04+00:00",
       "title": "Iran War Live Updates: Trump Claims Progress in Talks and Extends Strait of Hormuz Deadline - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PWm1LQkxpaXZGMG4xQ3RlWkV6TnZJWUtWOTFmbEtJUkloUHJnWUxxYjJ3NWF5UGtCZVV6SkFTc25fSDlLaG1hRFQtZEFLR3hHYm9ncnZ0dWdIblNkeGl0Qms2WU1pN3UyVnBSZ19EcEtmektYWVRpRGpwOA?oc=5",
       "source_name": "The New York Times",
@@ -158,8 +112,23 @@
       "confidence": 0.65
     },
     {
+      "id": "870ad59609fbfac0",
+      "published_at": "2026-03-27T16:00:00+00:00",
+      "title": "Israel warns attacks on Iran 'will escalate and expand' as Trump claims advances in ceasefire talks - AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaUZNZWJHMnBzZmtITzU2RFRySm9rbXV1ZDBac2lUbGRLMUtHeXNJVkVtZDZkSkp5aWQzaUhLcjlEYWpGYklSUzBoV0pCM2RXZTNSUlFkdHhTUi0yUVlueDFjcGQ3V0xPSTdjRG5rVHlxcFdlbEdzM0tiQTBqYU1LUDBZNHVNNWZISlN5UU9tSmR6XzM4bHBTMHVlU2ZNWGNXaktRSw?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "8b6eff9c07370602",
-      "published_at": "2026-03-27T13:31:27+00:00",
+      "published_at": "2026-03-27T15:57:07+00:00",
       "title": "As Trump feels pressure to end war, allies fear what Iran may do next - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORHo4M2Q3VVd2UjRoUGxJTkJrMjd0dmFjZy02VjE3bWxwajlwaFdmVWp6SVpyS0FTX1VSM1BqVS1WZnRpcWZKaTAxREdvS29IejBaNWZMUTRDOEF4UHY4WHVBQmZNNUVaeUZ6dElfWTJ2OGhnV0g3aDF3WkR6M0MzX0hDblUxaVNMbm9n?oc=5",
       "source_name": "The Washington Post",
@@ -173,53 +142,8 @@
       "confidence": 0.7
     },
     {
-      "id": "f19678fedeaaeec5",
-      "published_at": "2026-03-27T13:18:45+00:00",
-      "title": "Qatari PM and US officials discuss strategic ties amid Iran war - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWk9OQnQ3OEx1NkViY2Nnb2RkdkVyaHd3YUw4VS1rUmJyMmlGLXdIOXJQcTVuVjdRYUZsaEdaNi1sSTBqQlZHSXpFY3ZWYWhnX3BJV3dMSGlKR1NPM2tLQzFUdzI4WWk0bkNJNVBTWU5pa0dtbWlmRE5ycENYNEJvLWJRVWJSUjQ4cWZURWZMZnVNTGxvMFZDcUpOZWNWb1k5cUxqaHFlWdIBrAFBVV95cUxQSDZ0UjJXek9ld1QwanBUZ0dibWVsZThRQTQ2cFAxVURCcW1UZ0JtYWVEWm9tbmRwdzBpUGxORnhEak5GVkI1dURGTm9iUjVRbEtTM0xKalFMdUk2LWU3SU0zTUY4MWg3ejFQLTYza29CNzhiTUJuWUR4NEJyeUlVeDZtTnRGVU1TV2liTmxNLWlBUWplYmoxTHJpNXNWeXVfNTg2dHJ4emZPOEY5?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "99d9cfb388f8c1d1",
-      "published_at": "2026-03-27T13:16:00+00:00",
-      "title": "Middle East crisis live: Israel to \u2018intensify\u2019 strikes on Iran, says defence minister - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYVNzWXNOZW9VTzRCd1g4ckd4WFBSMlRSMWJYdW9objFZSzhEZTVfSjV0R2hiajV0Z0gxbUVyUllxVTlKZUVsV2J6MHJ2Rm9yWjdoN1JmTHhuV1BhLVN4ZzFfVHhhdGdLNldhUURacmVVNWZiVDY5TEFfUXRxVEhmTTdPNmRobmZOcXM2aTNsdWd5MkNzOEtxRzRNSlAwTDhyLTRGT1JMMFlDWHhsV01TSDBsSXVhNHktSXZYZ0VCeGZVV21sd2VEdktYWFFudHRfcmc?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "bc4feca2ba2003d9",
-      "published_at": "2026-03-27T13:14:25+00:00",
-      "title": "Exclusive: U.S. can only confirm about third of Iran's missile arsenal destroyed, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbUNTSTMyWHI1bGtJdHhmRW9JUGZyTTBiRWRiRkw3TGFaVV9RUVBuRkhSaEN3SGpDbXozQlY2S2xJcEJSVjAxb01NVUFIRXFtdUpPckd5b2tlaTlPU3ZWb19pSWx2WkFEWHdmYVVoZHRFOUVmb1BvTUhCRUhLckxXd1l1RXdVaXdRM2lXMWxXTlNlQ0pIM3RLbXZKVEpGcHljZl9hU0lscjU4VXRpTnBqR3dZQWYxR2xXSlA2WWFfcXotVTNmMzB0Wg?oc=5",
-      "source_name": "Reuters",
-      "event_type": "material_loss",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 4,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
       "id": "86858279b8c87119",
-      "published_at": "2026-03-27T12:53:00+00:00",
+      "published_at": "2026-03-27T15:54:00+00:00",
       "title": "Live updates: Trump says US won\u2019t strike Iranian energy sites for 10 days - CNN",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hdDAzWUpXVmJkOWRUTzV1Q2czV0hIX0VVaThkV05VUTg4ckVGWDR5aHB3Zy12RUsyQnlFWEk4R0NGSlVXa2d1akxockVPSDlRWFByazhxQkJIZERKWlY2LWJjZVV4WWZ6Q1otbmtKdDdvSlc0NXU1WU8zTQ?oc=5",
       "source_name": "CNN",
@@ -233,71 +157,11 @@
       "confidence": 0.7
     },
     {
-      "id": "39d70feb5dafd6b1",
-      "published_at": "2026-03-27T12:48:00+00:00",
-      "title": "Israel targets Tehran as Trump delays strikes on Iran power plants - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFpIZWlackpmY1pKZmo2M3BtNWlCVWZ0alNsYzd1dC0tS25qR2g1QnRfRFpVczdzdlk0TEo0enJ5TnUza2lWSFdPTFY1VW5RWWFTd0ZUR19jYkFTd21zQnNiSFQyeWoxdW9FdVpsUUxzMnU1QVd2bzdOSzVIMW4wVFltZHdOaFhEM25idVROQ3JTbFFw0gGaAUFVX3lxTFA0MlQzblppTGJsQU9tdkotQ2RFcUNPclpIXzlCdzYzOTRxTFVVdTUzUWNOanZ4WndJX3hiMUxoWW54V0g5X3o5LVBRZ3RTb3RZZ29BeDIzUVBjM01mUndqZG0weDlDT1J4OGZPSW9RNko3dU13NS1lazI4OW5PdVRJTV9JYmxyMHh6TndSazlEZDhCUUFaaE1xY0E?oc=5",
-      "source_name": "The Hill",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "23cc2d5d94728216",
-      "published_at": "2026-03-27T12:43:18+00:00",
-      "title": "UN rights chief urges US to conclude probe into deadly Iran school strike - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWjQwLXRlcW1Ud21hTnRGdDdidjZfd1JRdnVIR2dxeDktWVcyenFTMzAyQzJ5d1RyMV9oTno4bzlTN3liXzNsQlJickJJcE5fWUNjOXlTSkszV1o3eVBmUUZveGlJVWlnajJBOUpOemh0ZTBmaVpLVWpVLVM3eEdzSHRoaEFXMXViUERhTlhMSkphSnVUNm9KTl9paURVWmtEN3E5U0RoRHFZNFhQbTNmcWxGLWx1V2lIeUE?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2e53511b29dd85c9",
-      "published_at": "2026-03-27T12:33:45+00:00",
-      "title": "Iran war: Stocks sink as Trump pushes back Hormuz deadline - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ1RObFlmRlVHdTB5aWNEYU51bmFFQXIxLXFtYURBWXZ2WXlrU1lVbXZGZE8xQm9PZHhqSUhtU2pUbTV2LTN4YVNkN21FZjQyYVY2NTRqc3VSS3Bvdnh0eVBrMVM2TmZlcTdtNDNZTURZa3RpRlA4eU01MEJ4SnYzYkw0dG02Unk3clRnN0FIdzNJR18xYXhqYg?oc=5",
-      "source_name": "dw.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "f581392cb96bd8e1",
-      "published_at": "2026-03-27T12:30:00+00:00",
-      "title": "First Thing: Saudi Arabia urging US to keep up Iran attacks, intelligence source confirms - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNamktMWdGRkVGYkxrV0ZYaHNHZ0hMVHJ0N3hXb2hrbGUzclU0TmRLT2xyaFZVQ3B3MHpBNE9CZ0d1b2g4S085R3U2TU9XSDhwX2tXb2hzUkJKN3VTUDAtV3BMQUg3UVQtLTM0VUtSenRXeTdZMnEtTXo1c0FEOVh6NGxPNmxqNlJDT0gzM2s1OFBlQjFaaWdGUjUwU3VMVS12cFg5d3RiajVBdDYyWC1HclFuSjAwZ2lTN2pVZDRCNDcyenRCaE51RXQ3YzNhcU5M?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6f46595d037af077",
-      "published_at": "2026-03-27T12:06:18+00:00",
-      "title": "UN human rights chief calls on US to conclude probe into Iran school strike - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05WW50aXhTdVZoZG1pWThsNDBTSXJrWmFoMThVNnNuMlN5b3A5ZkdpR0JDSGt6bXdaYWtkQWgzd0k5RFJ3MHBIZDItczlpM3NXcldrNS10VDJRdw?oc=5",
-      "source_name": "BBC",
+      "id": "9a635406c8fdcb67",
+      "published_at": "2026-03-27T15:52:36+00:00",
+      "title": "Live updates: Israel vows to 'intensify and expand' Iran attacks; Trump delays Strait of Hormuz deadline - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVFUzN2x3eUpxX3lvQmFUOTBtQVhScXBFRmhpY0YtZ2ROMDE5MnB0bklZQXR2bVlERkt6a0ZQeWVKalNxYnVOZHNxdjFMaC1MWWlMWDVUTEtwSHQtQUJxbEh4UndIamR5T2N3Rk1acWxLcHdNZ3llaHQwWXEzdmVUUHdZck9MWlRLSGVtaWJKWmx6M3BsNFdWN2diU3ppeDc0aWNvSnhtSWhCR1o4YnI5UXJB?oc=5",
+      "source_name": "NBC News",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -308,11 +172,11 @@
       "confidence": 0.7
     },
     {
-      "id": "593d1fd3402ca52b",
-      "published_at": "2026-03-27T11:54:17+00:00",
-      "title": "US burning through Tomahawks at rate that has alarmed some Pentagon officials \u2014 report - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBZeVdEQmRlQUlxc2puS1BkSURUWHhSdS1xd3hRTGJIX2dwSHFUYzR0amVzN1FHQ3Rob0lmcnhmVzVzbDVOYlIxay1kU1p5S2tjcGsyVEdxSUtVXzNYYXZGLXhsd9IBaEFVX3lxTE4zQWhYOFdjeTNGb04tRDBuSGl0dWRJV3FUSTZvSXpTQmpJaXIyZUcxMTN0enJYTGkyd0c3eTRSWW1kOTlRTC1Ra05ydkYwNHBaWXNmRGQzcFYzUGp2OHVIeFVsUWJTcUFW?oc=5",
-      "source_name": "The Times of Israel",
+      "id": "d2a89ea279ed1819",
+      "published_at": "2026-03-27T15:52:19+00:00",
+      "title": "Iran's response to US peace proposal expected Friday, source says - The Straits Times",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVXFJbTNvRmpRWi10cWV5YThDVWNGamZDbTJHZlh0RUdFQWxTNXFJMnQydzBtWkcwbHFTSW85WlJ0NW5iZHRGU3o4WXJueWo3VE4yZGo1bEp6VzdGdk9fajg0OVZ6ZFNtSlNJci05RFZhbEFwb0k1eXRPd29XN0M4VHVPT3BVcU55d0l5Z2JxU1JzMHdEUEYtYjlhZ3dlUQ?oc=5",
+      "source_name": "The Straits Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -323,8 +187,53 @@
       "confidence": 0.55
     },
     {
+      "id": "36d3244e9378a2ce",
+      "published_at": "2026-03-27T15:47:13+00:00",
+      "title": "Pakistan, Playing Mediator Between U.S. and Iran, Is Calling Several Countries - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVE1BQjBHU0JhUEx1ODRySDZMT1J4dndfMm9URTlyU29vaFlFN1g3Rl9KaXFVX0pLRll3ZEtMMXhnMVNCdVFESk5rZDNISVJMS01zNURLNkNlRGZaV0NISWxHOHlJSjB5ZENkLTM5Q1V3VUdGN1ZHQ2lnVXZfRWViT3piQlRzNWt2LXVNTw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5e22e458491d2410",
+      "published_at": "2026-03-27T15:30:47+00:00",
+      "title": "For U.S., war with Iran may come down to \u2018markets and munitions\u2019 - Harvard Gazette",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX1JvRWhFWVo3S0VBV1h2aHNoVHhqVXVTZWlWTS13Y1pqY25CZl92LUVJWEpXSFVaOXp2REJ0YVVPbnhhOVBYTUItb2ZzZC1DVnQwVDhYVjJWdVg1M2FIbElYeENzRlhkZXZUWGVfVF9jcGNIcUh3TXJQT2F4M3lhV1FqcXBuUkMxdzJjaVNhRVVBOFc0WkxES3g5OHRjOXhZYXFZbkY0MFpVOGJH?oc=5",
+      "source_name": "Harvard Gazette",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "2dbfc2d12c013c13",
+      "published_at": "2026-03-27T15:29:13+00:00",
+      "title": "Nearly 1,500 Iranian civilians killed in U.S., Israeli strikes, report says - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOU0wxN2RPYk11Zm9KOG1CTkJpaG83Z1dMVER6R1pzVXRRNURSM2pRSDJVcHhEc3BkOHNZZGJFTVVBQ1ZmV2NZbWlhaGkyME5ienR2NXRUZWF2YnNmT0dxUlV0cGdyb3dVTUhhMFp1cmk1NnV6cTUwS281cU9KdERLZmxzXzN0Zy1IcldDNl9B?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
       "id": "4db434b16660bba8",
-      "published_at": "2026-03-27T11:42:00+00:00",
+      "published_at": "2026-03-27T15:19:00+00:00",
       "title": "A war of regression: how Trump bombed the US into a worse position with Iran - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVzJ3UGtCZk1Rc1pzSjhWV2I2UzFiUVEweVd3LVd1MWQ1ekhaOTlvU0x2Ul9XMEZjV1ZnMm1pY1pzWFRLTTBIR0JKanlFSkhNcFQ4ZTRncktyN0dUbVdtelMyZkJXc2p5SmZTZnZKNzk2ZWt6ZktvNVI5MG1KQXVNY09kVllUZnVxLWxwOS1QckRJV1dsUlN3MTJWX0Qya2dObE82OE5hcjFEeERu?oc=5",
       "source_name": "The Guardian",
@@ -335,14 +244,74 @@
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.55
+    },
+    {
+      "id": "61db3255d318c710",
+      "published_at": "2026-03-27T15:19:00+00:00",
+      "title": "Saudi Arabia urging US to ramp up Iran attacks, intelligence source confirms - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWE9kb2dseFZ0bm1XRlBsc2U5eXIyeEo0clZ5OF9vZWtOZ1Rka3BGSDFQZWcwUG1YOUk0cnlYblhqVU5DSjZ4NlotSXBIbjJsdGM0NGlVRi03anFxZkNkOVNXZG42a3JWczVrT19obGlVMzMxOHVNbFZ6VlMyX0xUSG55Z2Q3QUJlbGc1ZWJKVkxNa0s3akJkaDZB?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "99d9cfb388f8c1d1",
+      "published_at": "2026-03-27T15:15:00+00:00",
+      "title": "Middle East crisis live: Israel to \u2018intensify\u2019 strikes on Iran, says defence minister - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYVNzWXNOZW9VTzRCd1g4ckd4WFBSMlRSMWJYdW9objFZSzhEZTVfSjV0R2hiajV0Z0gxbUVyUllxVTlKZUVsV2J6MHJ2Rm9yWjdoN1JmTHhuV1BhLVN4ZzFfVHhhdGdLNldhUURacmVVNWZiVDY5TEFfUXRxVEhmTTdPNmRobmZOcXM2aTNsdWd5MkNzOEtxRzRNSlAwTDhyLTRGT1JMMFlDWHhsV01TSDBsSXVhNHktSXZYZ0VCeGZVV21sd2VEdktYWFFudHRfcmc?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b885bc5b7527e6c5",
+      "published_at": "2026-03-27T15:11:29+00:00",
+      "title": "Why Pakistan has emerged as a mediator between US and Iran - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMThhNE5wZnBHbW14bk84aFkyOTlzMFV0V2FpbEt5OTVDMncwMHJ5SlpDMWhKMmg3aG80OEx4OERvd3RqUUs5VUh2RUxBalJ1LTMtUnBPNllCV3dxU3hHTVJ6MkF0UWJ0eVJnVHdtWFlhWF9qc0huVmR0alZoTUVtdTItNTRCSGJvOWg2eTRVdVF4NzFPazVSTDVIMDE2aDlYMEtPTTZvVl9BOXk5OURRaW5uM0FTT2c2cmhhcjFYWVUyYmFjM3pBZzhjbnVENE5PLVFsWHlNYw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8d0aef706b0adf12",
+      "published_at": "2026-03-27T14:54:06+00:00",
+      "title": "War on Iran during nuclear negotiations undermines the US\u2019s ability to talk peace around the world \u2212 and the effects won\u2019t end when Trump leaves office - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQQnlyT1hrazZOR1NMQTNNSjJFLUF4d0FrRmFRaThDTl9nUUdlNEhVanFyVURZV25JaW1YdVBuWEtjTzNiUUltSlQ4UVRBajlJUzJfN2duT1Zpamd0OTg1djZELXBURk41a2tFX29Td0o0ZmVwTWFxRVVXbURTNTRZNE85UG40bmZPTGFUNUw1UUNiSHdEWno1Qko5MlZzOXhGR29QNnpYRGstWjk0S0NKRWNMMmFOYU1POGlEVUNMYkdmU1pmRDFPcTJpVnJDUWFYdmo3cmFmc1pXQ2FiVUtYa21OOG5DcVBqMnZDYWdsVXpOOVZVRFFPTmo0bk94OWVsR1lIN1RoWjdxSWxCTmU0?oc=5",
+      "source_name": "The Conversation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
       "confidence": 0.6
     },
     {
-      "id": "929e53b1a6ad3fdc",
-      "published_at": "2026-03-27T11:31:16+00:00",
-      "title": "Yemenis fear economic consequences of being dragged into US-Iran conflict - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOY2xCQWZPZW15RXJpNjY4aGRrLXFWR2h4S0wyeWI5eEM1eEdpZ0NOcE9tOFZZMHU2UFlkQ3BGWnNRQnJjWXdCaW1tMFF2NXY5SG9qLUFZVE9CQmJjUXdtdXI2RzNQUVBWNHVBbmdoRkI5MTJWWVRaa1pUSktYWldLSWpmWUxRRlh3bkFiTnh6cmliRkVKUGhaUlAzME1ETFQ0aTdxN043Zjk0bzhLSldyQVpmVTDSAboBQVVfeXFMTlA4OEtSN2J5MFNVelIxeklWYlhsVXA2WVlvdlNZNDZMWnNMMTJlUEtOcDVRWldTRGdvbDNzOC1zWE5lZG1MTkFFdmt3Q1haVk1Pc0cxUGtEUjJuVW12ZDlQQXZLRl9mRlk5ekFxT1NtZHZoSENwaGNSMVhBZmxmZTZueUlWZmtRWVJnWUFDR1BhdnZoank5NDQxaGRtdnhMNEd2YkRJWkxBYkNfVnFtcU0tRUJqc2hkcm9B?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "61362b101d995a81",
+      "published_at": "2026-03-27T14:43:24+00:00",
+      "title": "Iran-US war live: Iran declares Strait of Hormuz closed with \u2018harsh measures\u2019 threat - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMTg0TmJxTnAzVHhsc1F4UzlrQW5JVjdlUHJuMUl5YkJ6elJDUUN4a3Brck5wZHZjYnRmMGVzeks1eW5NT0huMDlDS1FPWV9tcDJKOU5CRF92SDBvZm4xUDRIM0ptdE53ZDlDQmZrbXJULUNHdVhxQVY5WE1HRE95bUxKZXFZTVIydTduMG1LTVJ3NFltaDRTYVprbVNjREktbFozS0FUQUVYUWdTb25iOG51STBqaFllc2c?oc=5",
+      "source_name": "The Independent",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -353,26 +322,41 @@
       "confidence": 0.55
     },
     {
-      "id": "0e4f84d2974e81c4",
-      "published_at": "2026-03-27T11:25:00+00:00",
-      "title": "Israel hits Tehran with wave of strikes and warns attacks on Iran 'will escalate and expand' - Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQdV80aEhTSjhVYlRIOG5UaERENk4zVGUxVENqemJoaFFyRUU3eTZiRms5bkJyUHQ5cTU3WEtpVlYwUTRTbi1zQTlCb1hwMHV2NDhiRHBlYjN4MW1IQWdIR09QT29MblJZanRqRi1Fd1Z6MU9qTkNEaVBnTmpxWlNVSm11NnJUX3hlYXBRSXVCM0FCeXV6a0JRR0IxX2ZuOXRlOE9aRVg1WTBGeFljUVdhT01WcThpZGM3SXFfMUdyX2dBam15VllIRnBkVjV1OWFYYjhsX3ZUS2ZCUGhfY0h0VUxQbkF0Tmt3TmFaMGhQZXd2Z0dQYXk1WXh1LXFOSFU?oc=5",
-      "source_name": "Spectrum News",
+      "id": "6ded4a192c6c13c7",
+      "published_at": "2026-03-27T14:24:16+00:00",
+      "title": "Katz warns strikes on Iran to intensify as regime keeps up missile fire at Israeli civilian areas - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcWpWZU5DOE5SLWdIYTh1RzlFdm51WjlZNzVJVFdqSUtnOXZFNl96aVJCZm4xZl9sdWZYRERPNW5vNTNjbGVVQUNFcHFtWk5lOHJBMGpxdHd5akwtYnNZS3ZTZEtrRUFIUFpaUkJGMU1BeFkwMGkxUElqNjI0WnlLM0stQm9PQl93dksteUl6aW1kakNOd2RadUtXR3B3aERiZkI0VjNfc3RaQXBUNjdLR2JFQ0tGV1FlOUHSAb8BQVVfeXFMT1MzYnV5aFZqRTV6N2RGTjVDTmd5Y1c5MzNzeTFaOGFZQ3N1aWRKOEowVTQzN0RsbVIwWHRwa083VFg0ZjA2NlBhT0UyRkRrRW1QbmlIRWdmZnFxU0poaUh0d2lQMjd6VUhrX0dtM2wySzIyLTZrZ1dqUjhjRmVBN0ZZVUl0a0ZKTjVBTzB1Uk1XUUhWREJUTnhFcTZXdkdwUi1wNkk2bjdPamVabGxnRlhBdnV6Szl4VjFkSVBJbVE?oc=5",
+      "source_name": "The Times of Israel",
       "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
-        "usa": 3,
+        "usa": 0,
         "iran": 0
       },
       "confidence": 0.65
     },
     {
-      "id": "22cd5f8a769e8b85",
-      "published_at": "2026-03-27T11:11:43+00:00",
-      "title": "More than 1,900 dead in Iran since start of U.S.-Israel strikes, IFRC says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPd3NoQVAzVzBTUlZxcV9mMW9wTm9peWFIV1JrRXdRejRRdnBWMHdwVzQyQTFmOFNlbGdCbFdyLTFFUTdkUVZYdHdCOEJCZzd2R2pwTjZpTzY1dnZOd3JRSjNXNTRuTmJtNklCeVYyZXo1QktjUlNiMF8tNV8yaG5oOGk1WXZuLUx5NC0taXZDZXNnTnl1RXJjS0UySnpfdGtRQi1YdjNoZ2FGZ0tEYmVNSzZGVlk2azQyUHc?oc=5",
-      "source_name": "Reuters",
+      "id": "153ad0d8a1a590e9",
+      "published_at": "2026-03-27T14:19:23+00:00",
+      "title": "WATCH LIVE: Trump expected to offer support to U.S. farmers during Iran war - PBS",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZFZmcEkxeVhxcHUzZTRMekRUUXpUMG9xZ2p4WVBRTmYxU0xyQk5Ea1NHN01aWndLNVJvSUFEY0RoUVhvSzExeGdUOGNGbUxKLWluSHF0VHFfUWtFcVdWclRMU2x4ZnZMWlV6UnFmRUxPcDdWal9FeHFzdFpYVDY4VHM0bnZQZTgzazdYTS1GdGxvdUVJekZJcXMtc25xTUdqRWxRcjJyeFlPSzE0cFBxaQ?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "0fafbfe1af1cbe2b",
+      "published_at": "2026-03-27T14:18:33+00:00",
+      "title": "Iran's Steel Plants Targeted by U.S.-Israeli Aristrikes - Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNQU1PdkZVTnl1Sjl5azJMaDV2OWp6OWVqQ1JBbVRKMmpXNlBiOXpHVFdUZnI1WG5qOS1pSlc2NGFrTkxSOHJJQTJrVEpodlFKdVV2alJNeFBOM3luVXFmdGtNZkdnYUNYclZGT1RwZWpwZHZPdXBRNk9UaDNfYkNMTFpOMlJ0R3lXMkxGSXFwQy1yYU1RMzNUSjhKR1I?oc=5",
+      "source_name": "Kurdistan24",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -383,19 +367,34 @@
       "confidence": 0.8
     },
     {
-      "id": "6ef350267f1e6736",
-      "published_at": "2026-03-27T11:00:03+00:00",
-      "title": "How War With Iran Could Lead to More Nuclear Weapons Around the World - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaFYzTF82enJPSVJqUjJaaUQxalI5djBxLWtOd3RRMnlyakpvUUlTY3VDX2FJdGNxZmRCM3dOR1FoXzBkNDI0R1J3QUtwUE44ZGhPcC1aTDdMWjdwdDJuelR3bElCWHRCRW9YWHBkTjRyckp0NUliR3V2bWV6RzF1YVU3YS1SS0t2dkR3eXZCTWx5SkVEZVFZaWN3?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
+      "id": "6156c0a9cbb4ef4b",
+      "published_at": "2026-03-27T14:13:40+00:00",
+      "title": "The Latest: Israel warns attacks on Iran will expand as Trump delays Strait of Hormuz deadline - WHEC.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNRzU3aFpGdXE1OURuY1ZNcGlBT3ZkWGZjdmU1Qjl0QTc4Q0haMm1WM25jdDFpNXVoclhhZTUteEdtZmk1c0s3ZDNmXzlDYVZpNlBJdDREdkVmZjBYaEIwMjg0RGNWcnNUT3NKUGJ5c09xOWVscDBvTnQ0Z01hN2RwdzFKT215dDRCbmxiZFN6UjNGcV9ucGpYRk1yX1dwc1ZSVkVTWEtMVWxOR3lPbTR4NVZFTEJxOGQ2MnBNcnlST29nckFHTmc?oc=5",
+      "source_name": "WHEC.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.65
+    },
+    {
+      "id": "1baf24c5be6621f3",
+      "published_at": "2026-03-27T14:07:36+00:00",
+      "title": "Israel warns attacks on Iran 'will escalate and expand' as Trump says ceasefire talks are going 'very well' - PBS",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNd21kak50X3VnWWhLYUJtM2VNNlNrRDJjWFRfTHlOUGY2MzVMZW5IeGZMU2NlTkFiejk2enoxeUc2U0pNR3R3SDNtQjMxVEl3bWdIZmM4dTU0NWRYLWE2eXh0V0lKcTZzNlhzWDZkSmFJamJwZzBoaVVCaGFTby1ZUzhaS0xDM2pPZkwxSzRXbDcwTEFUUzdLb09xY3l3S1hWQ0N2QWxzdUFUdzFNRGdoYndFYmFubTZydi1jTlY3YnlrV2FXMHNtcU00TjE1MjRuMkh3a9IB2gFBVV95cUxNUTFqbl9VSDZJV1puTDBLSWltLXh6bGdlOUdtYUdMNVJLUFVnZ0RtNFVCMERxdW9CV0gyRW0zcVJXRlhTZmNmdDBKSzE1NWQzR2ZGVHl2c0UxYVdKVWRPUmtCQmg5ZGxjT2RZanFjenN3RWVfd2dkYjhOODdRMDhPOERjc0NSTjVsQkZQRjFQN3NzLUFDWHB2MWRZNldfaWF6aUtHOWpISUhCUVhPSTRTSTlhVUpGMVdBTDlVX3ltckV1ZnRqWEV5V0dKZ3VNaHc0dnR1MnhwMXQydw?oc=5",
+      "source_name": "PBS",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
     }
   ]
 }
