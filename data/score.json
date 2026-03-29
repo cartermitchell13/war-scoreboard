@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-03-29T07:30:03.439085+00:00",
+  "generated_at": "2026-03-29T09:55:24.830806+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 96,
   "totals": {
-    "usa": 15,
-    "iran": 27,
-    "lead": -12,
+    "usa": 21,
+    "iran": 36,
+    "lead": -15,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 15,
-    "iran": 21,
-    "delta": -6
+    "usa": 21,
+    "iran": 30,
+    "delta": -9
   },
   "confidence": {
-    "score": 63.6,
+    "score": 64.1,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 38,
-    "other": 58
+    "attack": 42,
+    "other": 54
   },
   "history": [
     {
@@ -86,21 +86,51 @@
     {
       "date": "2026-03-28",
       "usa": 3,
-      "iran": 12
+      "iran": 15
     },
     {
       "date": "2026-03-29",
-      "usa": 0,
-      "iran": 3
+      "usa": 6,
+      "iran": 9
     }
   ],
   "latest_events": [
     {
-      "id": "7f2f43a4a6482bf0",
-      "published_at": "2026-03-29T07:18:34+00:00",
-      "title": "Iran War Live Updates: Tehran Hit by Heavy Airstrikes as U.S. Marines Arrive in Middle East - The New York Times",
+      "id": "8469d435eefe9d73",
+      "published_at": "2026-03-29T09:48:35+00:00",
+      "title": "Iran War Live Updates: Israel Strikes Tehran as Regional Diplomats Gather in Pakistan for Talks - nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1SY1lhRXQ1WVhTTThwbXlvdVpwX0JqM3VVNU1qMjhLc0RnVlp0UHBYUmd3ZDZnZzE1TzhCU0Zma280QzZqeHR3R3c2VUhFN1VfUkNtMTJ4aWg4eFNsc2RXTnJLdVNybHBnc3llT2p3azY3VWFxSnhUWXFZcw?oc=5",
-      "source_name": "The New York Times",
+      "source_name": "nytimes.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "02ab5154fa03e1e6",
+      "published_at": "2026-03-29T09:44:32+00:00",
+      "title": "Iran says US seeking to achieve war goals via 15-point plan after military failure - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOSGt5eFNEc3duLUFWM0RRRUdBU3pibkY1M2tKR3RwaTZHbHFickkyQ2hjb3ViWno5Y05feTRUY2M5TXlkWE5iT3k5QTVhZWNIUmpIYUoxTzY2VER5eGlrcERkRkVYeTVNOTg4eHFIUmR6NzJGN3pQTG4wX1Y5UzNUclV3YmpsRHdyeTdJcXRVcFV2VkVLNE5pVzlndkVQWlRVVUx3Zl9reUhBSXloc0hPMnhwZmZxNmR6Vm1IT2pFMldabk9QVXc?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "31478b6eee3412b5",
+      "published_at": "2026-03-29T09:29:32+00:00",
+      "title": "Iran-US war latest: Houthis launch second missile attack on Israel as Trump \u2018prepares for weeks of ground operations\u2019 - independent.co.uk",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWd1UUVMN3NkY0dJN09lZ0ZMQWVHZVJkZ3NENWMtSXA5aUhXSE9zNXBoaGJtb25UaTVxazVheTRtUzQ1YTdQcUtMQmY5aUI5b0taMmg1NnF0REZCdmxIMmxtZ3l3YzcwZ1QtRlFFa2M3VEtQR054M1JfY2dEQnNpc1NXMEJCeVAxRFdsdzBhUW1KLWVRSi05ZUFzeERWSFVxclpYRWV2Sm1YbklhUHk0?oc=5",
+      "source_name": "independent.co.uk",
       "event_type": "attack",
       "actor": "iran",
       "target": "usa",
@@ -108,11 +138,86 @@
         "usa": 0,
         "iran": 3
       },
-      "confidence": 0.85
+      "confidence": 0.7
+    },
+    {
+      "id": "e94936d097e8ff99",
+      "published_at": "2026-03-29T09:19:06+00:00",
+      "title": "Pentagon readies for weeks of US ground operations in Iran: Report - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYUNiczB6R29EbDZybDZ1NVotaWJwb2FWUjlxZUx6dHcwNi10T2g1SFFoMzN3YUcxYVFDNmdqTElCVFBra1NLc3pSWlItRU1xY1JlRUN1VGxBNk9zdmN0SHRxcnc4Z3dETGxwT2puY2xQVTJqc0VpVDJ5ajY4S2F4WUJHZVJ1cVY0NEN2RmR4c0ZyV1ZpSDJNV0xWeENUa2lHU2U0dVBUdU9UQdIBrwFBVV95cUxPNDRyUHc1bllOdmVFOXlFbjN2eWFaeGpQaC0yWTBOcjdoN21ZN1V1bmNCLWNYQlljYkJBNHplZFI0cEhRZVZOUmd6SlhocUFJVEJrTlZjaFhwNU5IMXBrWlYzQXg5aXZqNjJQWTJXU19zcXdnelljUFBPckZ2RHJPOFM4QWFLYmZLTHYwVlhFcFlpSWNyWXRGMGtoZE16SmFDMl9CZWJzWUJzdi1wajFj?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "f921054cee3fdec2",
+      "published_at": "2026-03-29T08:56:03+00:00",
+      "title": "US-Israel war on Iran: What\u2019s happening on day 30 of attacks? - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZmNCbktfRDlmWDJBWU1ENXYyZ0hOM0VocVhyQUpZalJXbHdJUXVJQzR4aUt4a3hmRXduekVvUXA4MXZTQmkxNENKVmViTFVoYTY1ajFrZHFsUmtOZW00eTZvUThvcE9maVVWSHg4SUFyMVM4YUNpMWdmYTBQZERWbzFVVGtYN0lfMXprT2tGWV9uSmNQcjdWMjE1S3N0ekVY0gGmAUFVX3lxTFBNOUZFalRNWVlkaGhKTUp3V1NpT0NJNlpVSmdRbk1WODhYVEVvZlY3eFJ6R2pQQVl2LVZZVWJMUTF4TEZTcTVaN29GN1FIZ3hNeDEzS0JibDBwYlRxaHJWb2xnbVZBVUJaSGJyZURvWHNQU05LQl9pTTNlUHZpU2Zpdno2VV9UNTB0VERpWm1veVhRSnJwN2ZZRGRhMElnODlNNTdqd3c?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b0be7f49a80571ae",
+      "published_at": "2026-03-29T08:50:16+00:00",
+      "title": "Live - Airstrikes hit various parts of Tehran as US Marines arrive in Mideast - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBfR1BERVdWMDV2R2dQMl9qV1NVY09xZ3JaOEhEV0JsNHhja1lLc1BVY0xfT19TR1k2U3F4QlBCY09MUFV1cUVIazc3YkRSdmp1c3BXMUZiZVl5U0czMmc?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "85733d9ea618f2a1",
+      "published_at": "2026-03-29T08:41:00+00:00",
+      "title": "Day 29 of Middle East conflict \u2014 Iran-backed Houthis enter war, firing missiles at Israel - CNN",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44a0tINlhLYXQ3UHo0TGhkNDRBNm80T0picjlkWTY3VzdrbFRZTnVnVDVwWEg4T095MzdfT1FUWTlSWWxxdHgtdGtMRF9IN1pQY19ub0stZXJJbUNLSHA4cGp3Y0xLTXNCbmRqcTAwOF9oT1Nsd1hOYkZmWQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4b9051ea01fcb9e6",
+      "published_at": "2026-03-29T08:31:12+00:00",
+      "title": "Iran war: IRGC says US campuses in Middle East at risk - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeDFtenVuR2lUY1luMmVQZWY0ZFpYb3RUcFFaV216QTBtbGNsXzdHWkIyQUlJMTJReWVWbjFCMGExVHJiOEltV0Y4Wk1iWF8xalFiTlF0cE9EaTdiSlE3U2hTc09GUjU1emRKWlNQWVhNYlZpdko2TUZhay1GNnFsMWRFSUYwQ1J4dkt6elh6VkdXaWs?oc=5",
+      "source_name": "DW.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
     },
     {
       "id": "e94a8b9d53b7188a",
-      "published_at": "2026-03-29T07:16:00+00:00",
+      "published_at": "2026-03-29T08:27:00+00:00",
       "title": "Live updates: Iran war, heavy bombardment in Tehran as conflict expands - CNN",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE80aEc4OWU4TGtJMUw2MTRhWHo1SDgwdVpnTzJ3OEVRT2FGWkVxeHlhNlVxSXI3WnJyRDYtRmhFa0NRdHcwUTBHWTNzYzZoMU5CVEVPT2l5VDZvdVpsTWlLSnBpYU5wLWlEdFh6QUdmVmlKTy1zbFVjTHA3Zw?oc=5",
       "source_name": "CNN",
@@ -126,11 +231,116 @@
       "confidence": 0.55
     },
     {
-      "id": "c1df1dfa7d505f42",
+      "id": "06e7c21287c2cf92",
+      "published_at": "2026-03-29T08:12:49+00:00",
+      "title": "Pakistan hosts top Saudi, Turkish, Egyptian diplomats over war in Iran - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcGpuTWIzY3J2ZGM4amJhdF9LNTVVZlVDMHhPVFk5TWUxcHVva24zUGNIRjZOR2JVeGdtamZVNGRVQV9ockJmVjB5WlRyVnJZZjBvcm8yZklCSi1XMFR2Z19pZkVid1VlWUc1RDRqYjFTRGlGVExiSFZMVmxOZGstS1FQWlJ5N2Rsa3h4NHU5NW51ZTNnRXU5TzlwZW04REVxM2E3OXNpRHZoUW9rMkHSAbMBQVVfeXFMTVFaWTBoTDJTWXM1cTNKTnFEQlFnS2tFN3hOQ2o0X093UmJLNTBTYVNxNmtUMWZNQ3JkdnVDTTdKUDJ1MTlOa05IS19XTlZxTXJDOGpQdmNyRzB4VU92MU9XU2gtakttWUtXQmlWY2ZTay14LWVpSG1udWRRWkxBZ1JjSUJOOU9rRFA2UGtaMVd0aVRWYkN1QjlqUHlNWW5QdFhiTzFzaFlkVWR5VDREOVgzcmM?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cc02ce930edef659",
+      "published_at": "2026-03-29T08:05:34+00:00",
+      "title": "Yemen's Houthis enter Iran war with attacks on Israel, as U.S. Marines arrive in region - japantimes.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12NE5Eb1NPMlMyTnBTUFExWUo3OW5NMTdpRDZ0eTRjSG5CdEdFTXhVQjJiZjlURnRNUjQzMm9oY2NsbGZUTGxIUVVHdEN3RWxiWmYtMVBEOVYtSzVYNHdxelUxR3pLVHNVb2t5cnVlNGttX25QbkNuZU1ZYkFCd28?oc=5",
+      "source_name": "japantimes.co.jp",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "12ee91fb8a09e7b2",
+      "published_at": "2026-03-29T07:45:27+00:00",
+      "title": "Strikes Continue as Houthis Join Iran War and US Troops Arrive - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTjNFQ2VmNDM2NEpZNmtvQ0tpZ0w0YW9BRjFOZm42dGhPT3hjdjVJNS13Um9WYzl0bXBaRFl5cEdNRmY3cUpvd3k1a2ZkNEpZa1QyYVRxWWtYM0pEdXdIaTUyQlpFbm9veFFvemJtdno3ekR2U0hORkU1LVlBcm85eGExYVo5cUV5MElXMFpEd0kxYjg2RGp5WWRXRTBnU1dCR3liWnVmVXE5U3lybFczUGE4aw?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c2d3c9e32c4a82fc",
+      "published_at": "2026-03-29T07:33:54+00:00",
+      "title": "Iran\u2019s IRGC claims attacks on UAE, Bahrain aluminium facilities - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOFBSSDJ4bWNDR2pyS3lMUWpNY1gyc0UzODRremlaWE1FbjlOdFR0aUJGQ1FwMFk1WjdhZzU3OVVmb29qQmNLU29rNjNJNE9pRV83Mk04Z2ZnX1JyOF9jZE5maUw3a1RkMEVuSHlBckxDZEtwZU42TkczUEwwSTNiVkdDQlVMT1YzMzI0R0ExMmZvRDJTQWhOY2daUVZQRk5lYkVzVkxZbWtvYzhG0gGyAUFVX3lxTE5LSG1CU3R0QWJIMi03VGJQdkQ1Z2swTTBfdGtXOTFCc3pSX292Z25RcFVjWkFyaHI5NTBxT2pyeTBicE8tLThMQVktN1dxQXI2OUNFaU5ibzZvRTJRUThlNVFEUkpoT29ybm16aXVRR3U3SktOWl9GVVdZdk1WdGpHRHMtXzFkcDBtWnVSTjFTNDc1NkdWV2RDMG5XZFI4dlpZR1k0YzdSaWFMa0tLLTlTeEE?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d9e5cf76c28587b1",
+      "published_at": "2026-03-29T07:31:44+00:00",
+      "title": "Punish Russia for Helping Iran Target the U.S. Military - War on the Rocks",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQWNHb0dFWllLUTZyMjNaUFRhN190b1M5dHoxS28yeXlXVEM1ZTIxTllMYjQzWkp5M3UxdlcxNXo4ZGZ1SU9BOW16aFBHWnZwNmtMZlQ5WGhqOW5YVEFvOThPWjliMkNkMUIzeFhWQkFYRXpiRGl1dzd6UEpHa0JvWjlGSXN2bjE4RWgzVGYwd1lWNkk?oc=5",
+      "source_name": "War on the Rocks",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "53e8746d35365cb8",
+      "published_at": "2026-03-29T07:29:50+00:00",
+      "title": "Toddler rescued after US-Israeli strike on Iran - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT3UzeVkwQnVzeDBnTTFiYWh2R0dhMzY2cExFa241cHFhNTNCNWpJcmJrVDVKT3V5WG1vTk9LUHg1bkYtS0ZLQVVjbmk5eTlkaEhzNTRGUVZlNEZrZk5BVW9sdHVwSnRXTVZWeXI1THUyRmM2Q3U0ak85WHhZN0lZdDA1MXR5QTNzREtubHAyLWwtZVVYVmZyY0Q1VmdiaFXSAaQBQVVfeXFMUEtmQ0h5M3cxcHlydGhKRkI5UmJBWW1qSS1Za0Vna2xzUG5EZU5xVUNhY29jeUwtMTgyYndxU0Nwb1BPME9uaXRzTFM1VHRGa3BzSHR0QTdiVGx0WVNLSWdsNHhaQXdZQk9Fem1MVXc4aXhZOXdfeTBfTTdhbXhCdi1aSVVVUC1VSEdXaU5Ea1lzQUh1UVcyZXBRWnlYZXNfLXp5b1o?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e76593111f68a9e0",
+      "published_at": "2026-03-29T07:23:48+00:00",
+      "title": "IRGC Targets Two U.S.-Linked Aerospace-Related Industries in the Region - WANA News Agency",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPUXh5a3YwX2pVc0dGWDctbXlQMFcySFBaci0zaXo0VU1VWUdjNmhYTzNMVFNySkcyaXA5Z0Q1elA0ZGhHSS1xa0lWenREaDNOQ0VxUkJNR0lTb3hzM2tZSTlpcGFMTnRleGN5WXpEYzZNQ0owWWpCRVBEUlN2OU9SOGxFSU5uNFNCWXVJOEhGRVpPWGtl?oc=5",
+      "source_name": "WANA News Agency",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c602fcdad20049f6",
       "published_at": "2026-03-29T07:10:38+00:00",
-      "title": "Pakistan, Turkiye, Egypt, Saudi seek to de-escalate US-Israel war on Iran - Al Jazeera",
+      "title": "Iran says US plotting ground invasion despite engaging in diplomatic effort - aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOTXkyOUJUcjBtT0xZck1HdHhYZ05rNFBKWGpFRFpQRTNZRUxqWGdQVWU0amY4c3Q0SDhoNFg3ZFI2YkxmQXRLMkJSekJzamhzLTZHLXJUYUlVZnZPWDAzVnlUb1g1bUZqbmtzLTFfQnFmUDlZa3ZvTHlkRWpWdDN0M0V2VkhVa3RvenZ6R3NYaVpTTmI0RDBVQ3FhTkwwYjRKQkg4Y192dVlhUzNwdV9jTm1mbGVITE56dG5iQmZWOWU?oc=5",
-      "source_name": "Al Jazeera",
+      "source_name": "aljazeera.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -156,26 +366,11 @@
       "confidence": 0.7
     },
     {
-      "id": "cdffd4b374bdc5a6",
-      "published_at": "2026-03-29T06:29:32+00:00",
-      "title": "Iran-US war latest: Ship carrying thousands of Marines arrive as Yemen\u2019s Houthis warn of more attacks - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTWd1UUVMN3NkY0dJN09lZ0ZMQWVHZVJkZ3NENWMtSXA5aUhXSE9zNXBoaGJtb25UaTVxazVheTRtUzQ1YTdQcUtMQmY5aUI5b0taMmg1NnF0REZCdmxIMmxtZ3l3YzcwZ1QtRlFFa2M3VEtQR054M1JfY2dEQnNpc1NXMEJCeVAxRFdsdzBhUW1KLWVRSi05ZUFzeERWSFVxclpYRWV2Sm1YbklhUHk0?oc=5",
-      "source_name": "The Independent",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2e7bd5b4fadea15f",
-      "published_at": "2026-03-29T06:00:00+00:00",
-      "title": "Israeli strikes and US troop buildup put Pakistan\u2019s peacemaker role under pressure - theguardian.com",
+      "id": "ff0423d34930fa76",
+      "published_at": "2026-03-29T06:02:00+00:00",
+      "title": "Israeli strikes and US troop buildup put Pakistan\u2019s peacemaker role under pressure - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPT0RKVk5RWm8wYWJOb2Y0Sy1GQ19jWTFpekxGVlY1dkY3c2JKOEI3U0dXWnFPTUhQb29TQ2VPSVd3dHVabWljYktuOTE3Vy1jMkR5TFNPRnJOaWhLdEpxdEgtUE5rVVNlZG03SlVHNVlvUmgzVTRoU19ZLXgtZ0dhZzBBeGttbnJXVWh6bURLczV0QmlSNER2bjliYTk3RG1qa3J3QllVczlHcjktR2wzWHVVYTctSTdGUEE?oc=5",
-      "source_name": "theguardian.com",
+      "source_name": "The Guardian",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -186,206 +381,11 @@
       "confidence": 0.65
     },
     {
-      "id": "ebbc0445c2d0e1d4",
+      "id": "13a47d33415471cb",
       "published_at": "2026-03-29T04:33:18+00:00",
-      "title": "Houthis join the fray \u2013 as it happened - theguardian.com",
+      "title": "Houthis join the fray \u2013 as it happened - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxONXo0ZUdkaW5rQUh1dmgwR0gxLWVTV3RGdEJQQUFCVFJTZmQ5UUQxMjhHamR4MXpNTGt4UDhqWmFEMnhkQVVXY1MtVEo5di1hV0hnUDcxU3lla3lHc0RmQTJkUm9NUjJ5akFkN3M2RDZwNEItSGhMT3lybDBWSWJnWkZBSktrRy04aktLOTlrQ0szd2x6SGZWRlJnWHJ5d1J0WHYxMWNfYVRwSE5VeDEzUkxKMjBtbVNQZXZGbXhMelJ5SzVvVDNjNE1HaUJpa2VSMkZfenFRcXJ4cWhocDJTVFdwV0tSXzg4ZkNMN2Nyb3R4Zw?oc=5",
-      "source_name": "theguardian.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "1c49d32ebde9b223",
-      "published_at": "2026-03-29T04:01:07+00:00",
-      "title": "A Toothless Iran? Missile and Drone Strikes Show It Can Still Inflict Pain. - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zLU1aRUhfOXRrUjZ4bXRUeE1lTUpxSkVKa3hCWi02Z1hPZm50T2hRMDJNaGJTdDNqaUdMYTFwblBGUG1ob285WjRfaXo2Tm9XMXFVenVMdVcyUThRcE9aLU9wX19hcEtzRE1QSkphdzRMNjIzOUNRcU9QU2M4MFk?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "92659e824bfc288e",
-      "published_at": "2026-03-29T03:47:00+00:00",
-      "title": "What we know on Day 30 of the US and Israel\u2019s war with Iran: More US troops arrive in the region - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPemo4aG92YmVObXh2c2lZeXpZdlFZUUR0S0VEUUF1TWdObEdCMnBOaGJQa2FWS1FjTGRISXhMcjM1bXVpalpPSW9uNG10aC1fNWJ4ay10eHhwZ1JlSGZ6ZUVFSFZqNkJQR3lOMGpQb3Mwbl9qWC1QQUhWTzJiTklIaF9VdlBzMkd6bk1wam1KMGhqX1YzZjVHcWlHTmg0UFByZHRZ?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "45c2de428c95e20c",
-      "published_at": "2026-03-29T03:22:00+00:00",
-      "title": "Pentagon prepares for weeks of ground operations in Iran - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3c2NFJEVi1CSExPRzBITVJncXRRWTNxdk9MUlYzZ2x3ZnNQUjVfRWRoSUJhWk5SQjZBaWNEY1hFaE1PUTlRVmNnaVZkNGhKNnMzbkowbzJTRzN3eXcxcjFROUxEWmQzUnJPNmFsbTNyN0FUXzFUSTM5bmwtcGtMRHJncFpLVzNoMTBRNUkyZUFrRFNQTXRCZQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "4b9051ea01fcb9e6",
-      "published_at": "2026-03-29T03:04:07+00:00",
-      "title": "Iran war: IRGC says US campuses in Middle East at risk - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPeDFtenVuR2lUY1luMmVQZWY0ZFpYb3RUcFFaV216QTBtbGNsXzdHWkIyQUlJMTJReWVWbjFCMGExVHJiOEltV0Y4Wk1iWF8xalFiTlF0cE9EaTdiSlE3U2hTc09GUjU1emRKWlNQWVhNYlZpdko2TUZhay1GNnFsMWRFSUYwQ1J4dkt6elh6VkdXaWs?oc=5",
-      "source_name": "dw.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "52c758ec3f857b7c",
-      "published_at": "2026-03-29T02:38:00+00:00",
-      "title": "How Pakistan Wooed Trump and Styled Itself as a Peace Broker in Iran Conflict - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMi_wJBVV95cUxPOTNRZUFTOEtpOHkyQk5JaFBmc0JRbzVkMkZQN0JwNWZlaG1WUll6WmQyOXNURXAxVE1HYkpFNVBSRlBXcTNvcXNZczNtN0p3MkkzekNreWU1U3RONnB6SDE2V0FfbG5PMmhncDlhS1VrVjM5OVoybC0xekh3blphVDVFVVA1b0hWZ21CNHdmelNvYmRpcEhsUWpPNDFUTTl4SjRsWFI4a1JXQ3ZUWDdWbEEybWRlaFNSR24xcmJHSjBXdnpNdGt4dWwwSV9BakM4WndHSHlEcUk3WUVPYkMxakhJb3JDNXlDaHM0akt2ZEZIM3daa0JMdEpraTJ6RVBwZUpKQlM5UmpkT1VkajFzUDJPeWpzaG1XVXpnU285N05pbFpvTVFVQ2dzbmxWU3BXXzViUWpZTE96cUpHQ2RjYVFSQ18xQkNITGFHZENJTE15VmxzU0xVX2NuQm5kTXR1engtMVdra1RpUVMzbjFqbW5rNTRnZEs0RHZPNkVKNA?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "457dadbbcd700939",
-      "published_at": "2026-03-29T00:54:00+00:00",
-      "title": "Iran-backed Houthis enter the monthlong war and could further threaten global shipping - AP News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOem1yZElXOWQ2OWs2Q0o1Q0hNdFRaRGRiYmtGaUxXODBSQ1VSN3p5T0kzTU1nQVcxeWxydVA3MnlqeHNnNjVnOTRlYTE0Z1RZX2lKeXRTZzBaXzF3bnduMDlZRHcxZU93UE5xT3p6U3ZMVm55ZUxiVHktOW9SZFBLUnQxUlY0M3I0eEpzd0U2a0xONENHYmc3QzRWa2IzY1czYi1RTA?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "5deb27b383347be4",
-      "published_at": "2026-03-29T00:02:46+00:00",
-      "title": "Trump is waging war based on instinct and it isn't working - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tYkhRdG1vcndickhlVmtkcVZLSnJndG5TajdYY0Jzd25UdW1MSUF5d1BRQV9PYlRJdVlNVXZ4NVpUcXpPWVZ2SDhWcWlyUzhMdl9DY010NnFpUQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "e2279a0381e4b447",
-      "published_at": "2026-03-28T23:49:00+00:00",
-      "title": "Iran-backed Houthis join war as more U.S. troops reach region - japantimes.co.jp",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12NE5Eb1NPMlMyTnBTUFExWUo3OW5NMTdpRDZ0eTRjSG5CdEdFTXhVQjJiZjlURnRNUjQzMm9oY2NsbGZUTGxIUVVHdEN3RWxiWmYtMVBEOVYtSzVYNHdxelUxR3pLVHNVb2t5cnVlNGttX25QbkNuZU1ZYkFCd28?oc=5",
-      "source_name": "japantimes.co.jp",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "761ef236d4fff5e2",
-      "published_at": "2026-03-28T23:25:30+00:00",
-      "title": "Iran's Revolutionary Guard threatens US universities in the Middle East - Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNek5nLWF0R0RRVW9oUVpwcm92V3pTZjNZbkdnUUR4WUFkSWNxakx4cmhkOHU5QmhfYV9RNXZPa2dnN2tpS011REVzLUQ0RnhiMUlqeTI3NThUUUZrNmpLUWtLWjMwSWx4Q1FCVEI1Si1NTDVOWkNYel9SSEhLaHFUMmF4N3VjWXNEcXZsNTc4TlNRWmFJSXcweVd1M1FiWHJNdG5JVU5JYVlfM0std2Y5QjZGY2tVeS1SSVBBUGNKVXoxRnNRSWlWNG9hZnRCUnRGVWZRaXVNLUh1OG9VOEE?oc=5",
-      "source_name": "Le Monde.fr",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "fa5aa497431efe0c",
-      "published_at": "2026-03-28T23:16:01+00:00",
-      "title": "Here\u2019s What Happened in the War in the Middle East on Saturday - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORXpieVVKOEt1M3NwTzJscWlXM0pDdjBmMnhockxQQl9UWW9aVVYxbW1heTJGQ25kMUZ0c2hJMHJiZ0ZwR1dTOWNWb1Z3bWtPMUt6U2N2ckJzczlORkVRR0hCcWozUEV6a1lIcmRFWmdYZEhLMDJobzJGdjFiSWJMTHlIS2tCQlQ4VjNCMktId21YcG03NW44?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "754f6437c250c50a",
-      "published_at": "2026-03-28T23:14:00+00:00",
-      "title": "Yemen's Houthis enter Iran war with attacks on Israel, while US Marines arrive in region - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNbGZJMUdyVUtHd0VTaE5QTnhITmJGNE5EMDdwMVZsV2h5UFdDenF6bGpMdVBPdUN0MkZMM1RwOThuVTgxV1dLY0Zsbmdyck5oUUZYd3JSVExjNy1lR0dMZE5KVTdBTjJXeVhWS0J1RlVBOGlReTdpUmJlTThLaEdmVld5S2JYOHB1eTkxSEU0aVNneWlBaVg5RkNFUlprR1I3em41bWtDdXFWUDJZV3czX1hZSktrRDhMWHE5OW03N0pWYUtSX0sxblZPM0lvakZS?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6a5f22f82d1f774c",
-      "published_at": "2026-03-28T23:05:28+00:00",
-      "title": "U.S. economy faces greater risks as Iran war rages in Middle East - nbcnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNb2lHZGNTZDRLcW1UMHh5d0MwSWxkUHl2MC1VV0tsXy0tOEVnaFVyRkRrU0JLLWt5NDRtRWQ2M29zWVBUMW9HUDU2Q2RrajlYSVQ5dFJmdm1SbEhURDJ3RlhVUFNwZmhaeURhRy1JbG5XR1RMMnc0bXdaM1dqRGJTSXdjN1A3T2xuODRDLW1WMlgzYUUyZFRtNkFVX1BZTTMxS0NwdFdEdm5KMVk?oc=5",
-      "source_name": "nbcnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "d096940c60571c7a",
-      "published_at": "2026-03-28T23:00:16+00:00",
-      "title": "Key moments in first month of US-Israeli war on Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPX1FaYXpCeEdKX2pXWFNVVS03b1ZpVUtuaE90RUtCTEdRUE9xb0UzY0RlczgzMGpJb3RGXzJTdlVtSUlWSVZaRlRNSTBkUkQzZEJ1UHVUeWVNcWhBeE9oS1RjVlE3UWtaNEhVemlwSTJNanIyaWNqQTlqXzRnUDdwRzhneUVFTzJqbGpMQ3NBSVlLYkQ0MF9reFdPQ21RSWZUQUpRUUdB0gGrAUFVX3lxTFBzS2ZaUGZ5bXNHRklWcnpVbXRmV04zSlQxQ2RMd1JBS24temtmZ2NQcklwTlZ2R255V054WjRCOWs1WFFXRi15bmlzcFFBem9ybHZMNHNnakZvVk01MXQ3V3pMdllPVW9kbUFXS1h0dlhRYVhJZ1d0Rzg3OFJmUGszbjVJVGJJOU5WdFFnRUt5cG5xSDU2SHZMcF9xaklMMkJqUkdCVWVMOTFVQQ?oc=5",
-      "source_name": "Al Jazeera",
+      "source_name": "The Guardian",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
