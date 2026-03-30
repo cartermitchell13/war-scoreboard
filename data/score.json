@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-03-30T14:03:38.454715+00:00",
+  "generated_at": "2026-03-30T16:14:39.946131+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 96,
+  "event_count_window": 97,
   "totals": {
-    "usa": 24,
-    "iran": 18,
-    "lead": 6,
+    "usa": 22,
+    "iran": 20,
+    "lead": 2,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 21,
-    "iran": 15,
-    "delta": 6
+    "usa": 22,
+    "iran": 14,
+    "delta": 8
   },
   "confidence": {
-    "score": 64.7,
+    "score": 64.0,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 32,
-    "other": 52,
-    "diplomatic": 12
+    "other": 54,
+    "diplomatic": 12,
+    "attack": 31
   },
   "history": [
     {
@@ -82,20 +82,230 @@
     {
       "date": "2026-03-28",
       "usa": 3,
-      "iran": 7
+      "iran": 4
     },
     {
       "date": "2026-03-29",
-      "usa": 6,
-      "iran": 4
+      "usa": 4,
+      "iran": 3
     },
     {
       "date": "2026-03-30",
-      "usa": 9,
-      "iran": 4
+      "usa": 12,
+      "iran": 7
     }
   ],
   "latest_events": [
+    {
+      "id": "f96b2819e7e2f352",
+      "published_at": "2026-03-30T16:09:55+00:00",
+      "title": "Live updates: Trump threatens Iran's energy and water if deal isn't reached soon; Tehran calls U.S. plan 'unrealistic' - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUUVjbmtTMEI3TlZVVk01WTYxaWh0VXhPV0FBNWdJVUs4V1hwdGstcmVlMHI0WVJ4a19VOXFfdUZQYkFnb3NqVE54OVA1eHlleFVMeXVLN082NmVrWmRrZkxDT2VFOTFKcHNxTWEyVGt1YlZDcnZnUFB3bmJUWHRQQlR4OW55dFZPUFM0OWUzOGIwMXJnSHdndGU5Xzl0OFZQZjMxaWRLd0tfWGx0VXF5WWs0Tlg1aE81bFJnaGVrV0I0M0FT?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "2e966e7ed3bc4ee5",
+      "published_at": "2026-03-30T15:59:18+00:00",
+      "title": "Iran War Live Updates: Trump Renews Energy Site Threats After Claiming Progress in Peace Talks - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEY3pMUEo3TXJ1eUVDbjllTHlSekFfallBbm9vTEU5SXJJMVRkRUVfblp3RE5NTnZHTE1CRlljc3lhRU1vcnpkZUFoaU1ydTJmRDF5Ym14Nm54d2lILWROaGlONllDYXJtMjlLaWlnWlNTY3ZIMVBwZQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7d7cfeb222bd75d7",
+      "published_at": "2026-03-30T15:58:00+00:00",
+      "title": "Middle East crisis live: Trump threatens to \u2018obliterate\u2019 Iran\u2019s energy infrastructure if ceasefire deal is not reached \u2018shortly\u2019 - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbFJRQjdPWmFtRS02cV9IM0dtMi1RUURqZW5iMHlhSUFhVjNWbVRLR08xRUZ6OW94QWRqcFp0QXpPa1NGbHVWc3E2azlvNDJqYTVsSUZhclNKWFkyZS10RHRTTzJVRDF5V044Z0k1NkRtTzRHS3dxNEtacEFHazJySVFuN2dMaWgzdTRSV3FBcUVOWnFVZ3lNb3kyc2xrZXBhZ1QyMVNER0lOYTd6RnFpSW41V1IyeDQ3UTJ2QW13OVl0bzlsVHZwTlVR?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "24934f8396f35e1f",
+      "published_at": "2026-03-30T15:49:35+00:00",
+      "title": "Is the US ready to invade Iran? What Trump\u2019s moves tell us so far - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRjg3NGs4MGFVMHVnQThoTmlNOWpKUG1ibkpwcjkzVWt4X0VfRUhXQnR3eGJQYkZBYnBvMU9zN1Q5bTFZMnNyaXRQc0ZkeGw4cHdETUllQW5jbnJFMzBpeElYUjhCR1FGbjFNVVNmVXFtNTY3Sk53TjBOdFZ2Nl8yUktscUZISWlwQ0FBbmlYRG1XLVpWU1VFM3RFQ3NNVldwdF80c2U0d9IBrAFBVV95cUxQejZkZmc1V3hTLWV5QXZ0cGRyc01pcUFBNWxRSTBjTERsMHhHWUNtWFd1TUdneldWdE5YZ19CM09aY2ZXZDhZT2hUZF9EblJFSUtTcmEyMVhIZEY4bExSSm0ybEo1ZEl4NEdsdER3SC1XTXdtWWRtRDNRTWF4RFU1aUxwNkFhRkNZakYyUWJBWFpuUEg5dEtqdGVuTWxtTUEwN1FkTnNXVThkX0Vh?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bf31dfe49827a538",
+      "published_at": "2026-03-30T15:44:35+00:00",
+      "title": "\u2018Loyalty campaign\u2019: Iraqi armed groups in Iran as US talks of ground war - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaVhvT0x6ZDUyal85YU9UWkhxMm5oUlBBdFM1VDNLVDdGMWV0UUxrX25pX1VadkZ0a2lLWW9WTXVoV1ZiYk82SjltV3JkVjRSdTRNS2lVUjI3N05XQ1kxNWxmeEstemN0eXpjMG5mY3hWT0tEZEdnS001ZmI4Y3FrdEExcXdPMkZQTUhvdE4yTmlXY0tNaUJKdnRLZGctcFZfZmxrZnNnNGl1Z9IBrwFBVV95cUxPSUJVWEF1Qm11bmNYS3N1YzQyWklDQkpZdURodVEtSTdhcnA1cFJKVzQ4cW9FcnpQNkJ1QlVRZElfZUdvNkttamlsTXZJZUxpbXVkUHV0eDJQRnZhWV83cUYydDJBa3RMVG1YbmlvVTZVV0FjWi16c1NxTnRjWU5hcWFMSmRha1dsRG5hLTlhajRRT01tbFdMQmtWQ0RPQUNsZUFGTF94UzhpWVEyUjBz?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f9737f54f09ed45f",
+      "published_at": "2026-03-30T15:29:00+00:00",
+      "title": "Iran live updates: Trump threatens Iran infrastructure strikes if talks fail - abcnews.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGlXMGQyQzhocXJVaDhqSkxlTE1PLVZFWm1rOTlrcWxnYUVicTVSblpiRy0zbkdlUUtjT3ozZGVDUjFwMHRobG1ScjFiZmlZOTJ6MjFvc0t0YjhKQ1FkU1ZyblcwVmpzbkozUGlnbm1ldEdwVG9tQU85el9Obk9VbnB2VGdUeXRjYVZ2WW82RWJWTXFxc2ZJNG5XcUI1em5UemNCT05n0gGrAUFVX3lxTE1qQkJFdVphNkliSnB6dzBreFp5OVFqU0lNdlhta3FJMTFZaW9mQnZSU0pQSmpMLXZSZTBsalVMLXdGWEJWcndyR3hTMjduaDdHdzlaZTIzaUVIWkEyU0ExWWZTN004aWd4N3pyc0h2MktCVk9VNE1VT0lIQ3d3dGNHZTVLdGhaUGpwalVSZWN3ektZd3VFSklMYWZRMHg0TnZiQ19BMzNEUjdTTQ?oc=5",
+      "source_name": "abcnews.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ea286bdcb93d0ad8",
+      "published_at": "2026-03-30T15:17:22+00:00",
+      "title": "Trump threatens to 'obliterate' Iran's energy facilities if deal not reached 'shortly' - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0zSDdjTFNGMU9HWS1rX0tMYWFlU3FnbmVpNy1aNGZhWFkwcWlzWnBpWno0THB1YzlHMnh5VDNUb3dEdTRlRVRsd09rM1EtR2JrRl9keA?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "abbd96cbf2b6c63b",
+      "published_at": "2026-03-30T15:09:46+00:00",
+      "title": "Trump Warns Iran of Imminent Response After Oil Refinery Attack - National Today",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcm1pcndBQUx3ZEhRSTI1bzI1QlpRRjh4ZlNwclp2UnNNZkQ3WGxkVkNtNjF4NG1FRmpCcTJsMzBIZkZ5QTZZbFBZYVFnVzhEVXZ4Wjk3bDNrU0VVTXZqcHp2VHgwa2VRVnZiOUh3VG1famFmeXV3Si11b1NMbkUxNk8tT1NaLXcwZFhZSGtRUXRYRnJVa1gtdXRMRXNiUFpGbFVBZVBPSmZyR0hfV3N1UFdmdld0a1B5TEUteGQwOFU?oc=5",
+      "source_name": "National Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9992012bef9cbcd7",
+      "published_at": "2026-03-30T15:03:19+00:00",
+      "title": "The Iran Conflict Is Becoming a Russia-Ukraine Proxy War - Council on Foreign Relations",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOXNOWGVDZm9BZ0FCaXhTYnd0VzNWejlOdExlZUEyRVozdndGUnZXTjUwZS1WMHVxUWRKbU50NU1DWUxMVTlrY0E5YVgteEVRVDdaa21Ebll4NHU1bHlDcnczWmtQZTJ6YXhrdHNCSkFkT3BhMElfVndXR3d5VTh3RDJoQU1HR3lzR2l0VDF3?oc=5",
+      "source_name": "Council on Foreign Relations",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c6e51ec9e7c858e3",
+      "published_at": "2026-03-30T15:02:21+00:00",
+      "title": "Israel targets Iran\u2019s leaders with lethal expertise using new AI platform - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCQ3VVN1daX0g1NlZoVXFwRUNCUFVhT3BRb2VXUmJibXlNZjBNUkc5a3lNQ09sSVIzZnhpT3pqV0dLQWVFTmpGaXM4c1p1S1pRcnQ4Y1dncldXTzNpeGdPa3ktZGkyQ1RIRU85NjFzNzMzdnNGVmhYNV9SRE9OUQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "85bfbe233a916048",
+      "published_at": "2026-03-30T14:45:00+00:00",
+      "title": "Live Updates: Trump renews threat to Iran's power plants as war sends oil prices soaring again - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQaW42THRaWHdQTnN0aVJza1RvX1ZXanNtUFRkMDc2MVdyd0h5LU1qY0RDSEtuOHhzdUdPdC1WalVTb1diS1RaU2ZnYXVZNGVLNC0zaXRnZUd3YnhVNG1uM3k5TGlpcHNhWFBVeHNocmhBOUw2aGN6Y1VGckZCSXFCajFPRVI5NExlSUhlXzVGbnA1WkVxYm90UWJyeWZxbTBwNlQ2bWV4c09sOXBxZjhKRtIBtgFBVV95cUxOS0VRaXBTc1VLRUJjbllVUkN1V0lMclVOUFYybWRMMmNDMDQtQk8zWW9XTmJsUW11SnZnOG12RnlzSW9rVENGWFBoTVoyYjdOZ0cxUnZkU3c3NDFXR0pLcnd0UmRBaG1YVWVpalIzdEdYeFd0LVk3SG5QMk5rQ1NwRFpFRmhIak90ME9XQzZZY1pwczFCTWRXUC11M1dRV1NPRk40OEx4WGtLTW9tMHhxUzlFeTM0Zw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "3ce69cb8a401fea2",
+      "published_at": "2026-03-30T14:30:00+00:00",
+      "title": "Trump is fighting a \u2018boomer war\u2019 in Iran: a relic unpopular with anyone under 60 | Stephen Wertheim - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0dBQXNNZDM1dUVfUGptamxTNGVWVFJoWWE0RDZKZHV1WkVxZXV4YmJPLUVuRV9DdllSYzQzcDJoQ0xVdWFJeHRsZnVuT3AtZlZqQzBoUWZvZFhHUXFSZ2xja3ZGOXdLVVNUUnRQVG9vNFpPQ0ZwUWkxSXJPZUV2VQ?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "65d8cc0ae8ae7c65",
+      "published_at": "2026-03-30T14:06:07+00:00",
+      "title": "Trump issues new threat to Iran's energy infrastructure if a ceasefire isn't reached 'shortly' - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNOTQ4ajVMV21ZT255c3hwT0RDSEhYSVVwX1phOTBBZFRIUXV0X1RLSkhwaVEyeUl5eExIMHNtX18xQlptb1RqYkdVSF8ybENlS3hHZFVFbG5McC1hNTBab1NGM3QzeHYwQmttT3Q1QVc1X25ja2owcmp3YjNnR0tZUTE2WjlnM3dTcGhxT2JnUzNaRzFraUgtYWJPdXlvUnJPdXlTMmpwVVdNdTRqdHg1cnlmTXM3TUZjVElFbjJhZ0dkQVHSAcgBQVVfeXFMUG1Rb1h3UXlDZmgtdTlqanY1eUYycFRLZnV4alFiZmh0TVlkcksyN2IyZGctbUhWdTN5OUpRS2hOZWpLZU1WYmFjZDVrZXg4cEtjU1NIYjFPblZ4eE02cHVwd19LZGd3QmplaVp0dzlyV0FIMU1FcHRCa2pkcXdSN25uSVFhWmQtVFpYMDRGMWU5YVl2NE9IWl9GUFVTdVBRTVBsRFFrNWlvOVA5VmQwd21pSVRKenYyNDVhdmNCNVVFSmF6Rk9YOXg?oc=5",
+      "source_name": "PBS",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "77aa1bbbb9801b10",
+      "published_at": "2026-03-30T14:05:00+00:00",
+      "title": "Trump Weighs Iran Military Options Amid a Weekend of Clashes and Diplomacy - Council on Foreign Relations",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORmdkcVpFMjFOeGxIbVJIbzhERFlWUUFBTkhfX0FybVJOUU4wYlVqallOa3JRRXI4UEdZQ290bkdLdEpDS2JmN0p0ZC1JakdNclhTUlQwM002Q1pmMUJNOFFvWnZfTHlpaS04R0M4bUszZ201b3h5OWl3c3o3d3pQaGktcExST3NvMndXQ2hmNTdON1FEYXF5eldCRWQ5T2lLVHAtTlZn?oc=5",
+      "source_name": "Council on Foreign Relations",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
     {
       "id": "9f4a52af95d1665a",
       "published_at": "2026-03-30T14:01:50+00:00",
@@ -112,26 +322,11 @@
       "confidence": 0.65
     },
     {
-      "id": "19ae86159cb9c1f9",
-      "published_at": "2026-03-30T13:55:48+00:00",
-      "title": "Live updates: Trump threatens Iran's energy and water facilities if deal isn't reached soon; Tehran calls U.S. plan 'unrealistic' - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUUVjbmtTMEI3TlZVVk01WTYxaWh0VXhPV0FBNWdJVUs4V1hwdGstcmVlMHI0WVJ4a19VOXFfdUZQYkFnb3NqVE54OVA1eHlleFVMeXVLN082NmVrWmRrZkxDT2VFOTFKcHNxTWEyVGt1YlZDcnZnUFB3bmJUWHRQQlR4OW55dFZPUFM0OWUzOGIwMXJnSHdndGU5Xzl0OFZQZjMxaWRLd0tfWGx0VXF5WWs0Tlg1aE81bFJnaGVrV0I0M0FT?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a11af414f11f8677",
-      "published_at": "2026-03-30T13:36:02+00:00",
-      "title": "Iran-US war latest: Trump threatens to \u2018end our lovely stay\u2019 by bombing Kharg Island - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeHhGaktuVUtodkZYNkJrYURadUMyRndyYW9qRWNXVmdXYl9IOEVXTzNmaTVqVE5HS0ZweldvTHFkTlFFbHZZeUlEOVpYZ055TTZXa3RGSkt5OGZEZTZnYlNVSlEzMGsxRGZtTUdVa2ZJSVIxZkp2eTE1MF82WU4yQkp6WGxsNWFlUlNKN0puMG03SlVoZE9mRG9DT0VPU2JZUzFwU19OUGotNjU0c0EtYUVHTQ?oc=5",
-      "source_name": "The Independent",
+      "id": "b33899f39c3b0913",
+      "published_at": "2026-03-30T13:40:07+00:00",
+      "title": "Is the US planning a ground invasion of Iran? - WAMU",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZFd2VXVad09XQ0YxdzlRQTRZQlpqTGFCbTBpNVFqMUpmU3BCSElORWZQcWNwRUJtZW1VVWFMX09zanVKaDNSdjZmZXJQeElkaVB1eDBQOUJKY243NjRoS24zQnA1NFdlbWNaZWJSVzltamNCZkNOZkNwa1BGTmFtQ2xiYw?oc=5",
+      "source_name": "WAMU",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -142,11 +337,11 @@
       "confidence": 0.55
     },
     {
-      "id": "aa30dd5e0f557f4b",
-      "published_at": "2026-03-30T13:35:25+00:00",
-      "title": "Spain closes airspace to US planes involved in war on Iran - Al Jazeera",
+      "id": "f240f4bc56fd3671",
+      "published_at": "2026-03-30T13:38:51+00:00",
+      "title": "Spain closes airspace to US planes involved in war on Iran - aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaGFOWXBtMGxJS1BGeml2RmEtVnpjckMwY1B5WEQwYnFubmJmLVZhcDNpYWVQSXVCOTVQbkRRa3p3S1pWdjF2dDM2TEprUTZLaldBWURwN3hMaE8yc3dEaUhYV3ZsQzhoSXl6M0lnbmxacGdRQXptLUU3V08yV2JIcFFncHpfWTUxbVNienRMNmxWVUtpcGNHbk91TllBRldR0gGmAUFVX3lxTE9XZzJ5c3g2QVNiOW9jSGRETTRJNnpqQWtMbmNjUHBwSGhMMmZYSDNVV1lnQmJ1ems4SVdWaTlBd2xlYTZLc2Q2aFVDd19KX0lOS2pHcUFiOVkzbVV5THRhN0NzcFhBc2hDM3AxNE13Vy1MREhGWF9fVng1RkZtRm83d0V2dVlsX1lvZ19CbWpKSHZaMm9KbEdDbnNKSVhnamlCTnJhZ1E?oc=5",
-      "source_name": "Al Jazeera",
+      "source_name": "aljazeera.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -172,161 +367,11 @@
       "confidence": 0.8
     },
     {
-      "id": "c6e51ec9e7c858e3",
-      "published_at": "2026-03-30T13:32:21+00:00",
-      "title": "Israel targets Iran\u2019s leaders with lethal expertise using new AI platform - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBCQ3VVN1daX0g1NlZoVXFwRUNCUFVhT3BRb2VXUmJibXlNZjBNUkc5a3lNQ09sSVIzZnhpT3pqV0dLQWVFTmpGaXM4c1p1S1pRcnQ4Y1dncldXTzNpeGdPa3ktZGkyQ1RIRU85NjFzNzMzdnNGVmhYNV9SRE9OUQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7291a32b31a401c7",
-      "published_at": "2026-03-30T13:22:43+00:00",
-      "title": "Iran War Live Updates: Trump Threatens to Destroy Iran's Energy Sites If Peace Deal Isn't Reached - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEY3pMUEo3TXJ1eUVDbjllTHlSekFfallBbm9vTEU5SXJJMVRkRUVfblp3RE5NTnZHTE1CRlljc3lhRU1vcnpkZUFoaU1ydTJmRDF5Ym14Nm54d2lILWROaGlONllDYXJtMjlLaWlnWlNTY3ZIMVBwZQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5da33a2bda8d1db6",
-      "published_at": "2026-03-30T13:17:00+00:00",
-      "title": "Pakistan says it will host US-Iran talks aimed at ending war - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWdvV2tPRU02VFlTTGl5VHdwWUFLWkRFR1d2NGZlZGdDbXpQOTRSZEFLZEh3S0Z6Xy1RT0hJZm1ranVLYnNWREVGZlg2NUFyc0lnbFpqaTlKbnQyMUtBcF9IaC1xN3BEdHJtVDZTakpNeVZkQkdabFNqMFdDZ243S2xBT2Q?oc=5",
-      "source_name": "The Hill",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7d7cfeb222bd75d7",
-      "published_at": "2026-03-30T12:56:00+00:00",
-      "title": "Middle East crisis live: Trump threatens to \u2018obliterate\u2019 Iran\u2019s energy infrastructure if ceasefire deal is not reached \u2018shortly\u2019 - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbFJRQjdPWmFtRS02cV9IM0dtMi1RUURqZW5iMHlhSUFhVjNWbVRLR08xRUZ6OW94QWRqcFp0QXpPa1NGbHVWc3E2azlvNDJqYTVsSUZhclNKWFkyZS10RHRTTzJVRDF5V044Z0k1NkRtTzRHS3dxNEtacEFHazJySVFuN2dMaWgzdTRSV3FBcUVOWnFVZ3lNb3kyc2xrZXBhZ1QyMVNER0lOYTd6RnFpSW41V1IyeDQ3UTJ2QW13OVl0bzlsVHZwTlVR?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "72533d12e4f24904",
-      "published_at": "2026-03-30T12:31:06+00:00",
-      "title": "Trump \u2018pretty sure\u2019 of Iran deal, but can Pakistan-led efforts end the war? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOFVzdlF5MEdzWXRGODFQSFFnRUF5TzZoWmtXaHMxUHphRzRxSi1VU0VLV1dldWQ5cE1VSXBpd240S0JLTklWOVFESkVYUVJYVzNWWnlYVnFOcnJQazg1cHY5Tk5rV0VuTl9WN19CYVRIckVoSkFZTXFGUmNQZHpPSG5MOXphbWNwU1ZUNG82Wm1jYW1QaDNyeUR0S21haGZBNGRfLUJRSm9RbHFKcTNJVUh30gG3AUFVX3lxTFA5RExWZmFJUkstUVF0NVFIazNMbjNCMXRBSXZ4ckszV0Rhc2htandGTlplVkM3QVBoeGU5UEZQY2oyWFU2Q3Z4UGNDWmgxVWdkSXVhQlZlUml1MGNMNHRXX2pHVU9mSjducFRnbzJIeDJNbUJxdFViZEJ0emZqTEh4ek1yUEVYVW1KNHFGVEFqdnVTbUlZZXlERTRnUXNHQWlOVUNnNzAtbW5JamNSemlRaHg2OGtoRQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d88408c10f0f8a76",
-      "published_at": "2026-03-30T12:27:25+00:00",
-      "title": "Spain closes airspace to US aircraft involved in Iran war - bbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SWVcyVVNGd0hrZmVRWV9LNGxFUTNHZDVIck5xX0lBd0xhNk1EcTNISFdma0dBTS1ZcWx3Qi1pZXVzaEJLWTdGbV9ZaEFwTkRlazNUQ01YbEVkQQ?oc=5",
-      "source_name": "bbc.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b358408d403da631",
-      "published_at": "2026-03-30T12:06:22+00:00",
-      "title": "Iranian attack damages Kuwait power and desalination plant, kills worker - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQY1hHMmtVbEhBNVdtWTllQzVoWXRKczdGcWdhb0JySGdwZldmY21TT091bHVpbjhEUlhXd1FCaXF5Zk8xbmJ1ZTVRMVVKZnoxc29xUFlPb0kxQy1ZYzd0UFgxNHpUaXV6bjhEMm1zRzUwMlVtZmhkblFzeW03MjJqVkJyVmZkMXluYW55aWI3cVd1X1hpc3dOLS00YkhYTlFIbGZZcGpCRElxMDdrbk5IOVdR0gG3AUFVX3lxTFBGOUVLRjg0YTBOanhWUV9yY1kwQ2V1RXlyTUFsWEJaSC1tWkplR1V4UERTRjhBTGNfdWZvWGxURDFSZWNWLXl3UWtvaFFKYnF4VDdDSE5hdGlhbTdFc09WWm5wZmJGajhjSDJhVEZMNmNJekxjLWhkWC04YXhBOVlOTDlIamEzVTVKdm9xajlSeDJUU1BvWF82ZmZNNWdibEwwZHVQX1VxQ2l6d3JPdHBuekdfUkpwWQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "efaca351bd17f8b5",
-      "published_at": "2026-03-30T12:00:00+00:00",
-      "title": "\u2018Battle of the titans\u2019: Trump\u2019s distorted reality on Iran war runs into a brick wall - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1UlYzWVdWbFRuSG5yUW1aTkcxSTJPMi1lNEdadmw5NTZOMUZqRGdJQlpZanF5X2lNcVY2dEE1eW02a1lMMkdBNEFBOUdMRFRvdkdzS1JYLTlfMUZqQWNpVzdWYVZMd0lhYlJ3NkxqU3ZFbmxkN1o1Tnpn?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "551dcddcdfcf502f",
-      "published_at": "2026-03-30T12:00:00+00:00",
-      "title": "Trump is fighting a \u2018Boomer war\u2019 in Iran: a relic unpopular with anyone under 60 - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxON0dBQXNNZDM1dUVfUGptamxTNGVWVFJoWWE0RDZKZHV1WkVxZXV4YmJPLUVuRV9DdllSYzQzcDJoQ0xVdWFJeHRsZnVuT3AtZlZqQzBoUWZvZFhHUXFSZ2xja3ZGOXdLVVNUUnRQVG9vNFpPQ0ZwUWkxSXJPZUV2VQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9435a99ae91d971f",
-      "published_at": "2026-03-30T11:41:00+00:00",
-      "title": "Trump says U.S. will destroy Iran\u2019s oil wells, Kharg Island without deal to 'immediately' reopen Hormuz Strait - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYU5YQXJIWmhkNWdrRVF3dEI3OFVEQ0R0Y1VtVVF4LTdGeG1kTTJQeVRUcXh1S19vQWNGRll6M3dwN05taHhfRTZpeVpBTEJDay1qdGk3S0JHWXBCSGxabjdmNlB4VUVEWi1nb1RDcFFGd1l6SC1tSE4xWThhS1FIQjFfTXV1ZGN0RDhNOEFOaGN1Nnc3c0ZOTG5fRjlub18yZ0s4ZkZ30gGrAUFVX3lxTFBGS2tFUzVzZkNTUmJIUWJUbGF2YXVEQUdhSUV1YnFnOU9ocVctWERUMGZybGpaSmVpRXpPS3E1SENGVWk4OFB3MTYxWVBLcDVldTJ6WDNNUXZHejZDWjBrSDZoYmdKak4zenV2WWJzaVlNUE9HWi1HMTFFSi1HT0tTN2ZWWS0tMHF1UXVYMnltMmxMZXBuZUdxRlVXRlVpYkxIS0NPMElBVHNzWQ?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "dbf507eff2bcee6b",
-      "published_at": "2026-03-30T11:39:28+00:00",
-      "title": "Iran war: Tehran calls Trump's peace demands 'excessive' - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMkI5R1BaVUNNcDBVZHJHYVhwTmNWZllSQXR5YkxVaGxYdkpUT3ZDSEtUVnRKbVBCdXVvclE1bzVRc2pJZDVOcU9Wdk1DSUJRcWhFNU01QjF0c1NPWlh1c2RNN0FjektPSjhTUHM0bFVmYzBPbFYxWFZqSHlzanBqS2FZLTgyaGxyQmV0Q0dQZ1pjQQ?oc=5",
-      "source_name": "dw.com",
+      "id": "f5eb2540a8e87c41",
+      "published_at": "2026-03-30T13:24:35+00:00",
+      "title": "The Iran war risks triggering a new wave of nuclear proliferation - Chatham House",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNWFFTck1GNENObVlaaEZ4d0FhSW5XTW5NMktpVW81ZTZ5SVViWmlFd3BJYnd0Y2EtTXpObWJMaWRmbFVuemMzZDVoSFM2UWpOWjdKeWV0NzFjYWVVSlVOMjRxSkpxMVNBT0ctUVVwSHdPZmc4TWdhbUM5eFFRUXRZakRPaTZJdUVZclo1WnNYRFJBeGU0Sl9VbQ?oc=5",
+      "source_name": "Chatham House",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -337,26 +382,11 @@
       "confidence": 0.6
     },
     {
-      "id": "17ae9c4b10adb33d",
-      "published_at": "2026-03-30T11:30:07+00:00",
-      "title": "Iran war latest: Trump raises the possibility of US taking Kharg Island - LiveNOW from FOX",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YbXBKQl9nRC03dngwZm56cU93U1pPc1JPTU9sUTUySFVjOTdpYzFPVHBDYWs5NXM2c3pvLVpnd0NOUENfVEdqZDRqUzQ3WElzMmttMFZLSVhxOXh5M2tQeE9UYkZKSEsxQ19N0gFwQVVfeXFMTVR0LXpEYTh0TnlaczNVME9WeGpHMVB5VW1ka1l3ckxZTnlTLUVZX2NFR2lRRURtNENLZ0U2bjZoQjF6OWJvXzZ2OTlZTmVodkxCRkx4aVdlczRTQVlMSzZ5ZlFkM1ptNDBTblBJVVVxTA?oc=5",
-      "source_name": "LiveNOW from FOX",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cf640676edea0b56",
-      "published_at": "2026-03-30T11:22:58+00:00",
-      "title": "US-Iran Talks Spur Oil Price Surge, Global Markets React - Global Banking & Finance Review\u00ae",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOHh6cllFeVpHOGJESFhQWkctRlJCRERnRHBudGl1bW90WWtPaFdSNXFBbExkTkJrYlpmU2xhbTMtdk9kQ0lxSWM1dElQY2loR2R6ZGlxc3UtSE5FM0xBOWhLa1ZjQ016OThoY1NJX0dHRTNnVVBGZk16VWJKRE83aHFvSmRnbi1UQ1BWV1k1RURrR3dYcHZRaC1B?oc=5",
-      "source_name": "Global Banking & Finance Review\u00ae",
+      "id": "9110a5a29d7fbb87",
+      "published_at": "2026-03-30T13:17:00+00:00",
+      "title": "Pakistan says it will host US-Iran talks - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRWdvV2tPRU02VFlTTGl5VHdwWUFLWkRFR1d2NGZlZGdDbXpQOTRSZEFLZEh3S0Z6Xy1RT0hJZm1ranVLYnNWREVGZlg2NUFyc0lnbFpqaTlKbnQyMUtBcF9IaC1xN3BEdHJtVDZTakpNeVZkQkdabFNqMFdDZ243S2xBT2TSAYoBQVVfeXFMT3BBbjB4RVNTTzltV2xHdTNyYTJ5YXB3eXRyZndHVGUzYWZ4STVvODhqeDc0emR4Y1QyWUY5MTNoTDVSeGdrT0VXUEgxRWVRUFlKLVBQaDV3WE1zTlJ0MUJNMk42SlhsbVVjUGZMRDdRdTl5emJ3d0lfRnV3dWVDc2sxUmlGM2RmRWpn?oc=5",
+      "source_name": "The Hill",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -365,36 +395,6 @@
         "iran": 1
       },
       "confidence": 0.65
-    },
-    {
-      "id": "d6802b26020664a0",
-      "published_at": "2026-03-30T11:15:00+00:00",
-      "title": "Schools, water, industry: What civilian targets have US, Israel, Iran hit? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNQ0JRRFB1RlFQWGpHYllaZDRxcUt4dnZpektGZ2dPNjZQYjdZcGtxMHNZRlhpenNZd04taGRUS29SUFptQzlDdTd4ekdNdEUzTzVfZWZlLTBxWDNjUU1IMHF4R0pZdWpsWDkzT2hNaE5teTNJMHh0SXY5THVBQlJ6NG84dWc5RUFiRjFYZXhfZUtOb0FqVXg2X1VuYlB6M09haFJwbHNPWlgyMldCWkHSAbMBQVVfeXFMTklwMVpDcDFfX3pKMnpNc2JORU85TkJ6TkotWDYtX0J5Nm91R08xM25EZ1AyQjZ6bkx1czVfTDBOZkJFbVFhSC1VYU9nLThJSGFvYzVPQlVYd0xERTdybEllNm9RWkFJaV9pbWdVVlRYQmYwaFdiT3hJbnZsYl8xUkxEbzVoVWNjTVhwMGFha2FxN1FhSVBmbFI3RXFSTWVLTjhCS3YzbENpWS1NMFY0TlFDQTA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "dfd35fc3b9cfc028",
-      "published_at": "2026-03-30T11:14:57+00:00",
-      "title": "Spain closes airspace to US planes involved in Iran war, defence minister says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUWFhQ05yMEhwVWxrbmRWUnlEZHBGLURTM3JIUzdDWWdEcGQyNGM1VldEazg2VW84cmZGV0JCZ1NhTGFDeVJQRjhnUUhleGRtb0thblFFSno4dWgzNUtNZEp6RmhDWjIzTVNFeTdDY2x3SGdyQktISFpPV1F3RWtnQzBySFh3QVFoaWNMSl9GRVB2QTJicDJULW14Tlk1Rk5BNjc2RnB1T0M1VDh3aTFGdDZldnRnM1lSTTNMcmZSNlNWcFE?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
