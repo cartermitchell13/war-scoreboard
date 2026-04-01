@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-04-01T19:33:25.862602+00:00",
+  "generated_at": "2026-04-01T21:59:27.703223+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 97,
+  "event_count_window": 99,
   "totals": {
-    "usa": 22,
-    "iran": 15,
+    "usa": 24,
+    "iran": 17,
     "lead": 7,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 22,
-    "iran": 9,
-    "delta": 13
+    "usa": 21,
+    "iran": 14,
+    "delta": 7
   },
   "confidence": {
-    "score": 63.1,
+    "score": 62.9,
     "label": "Medium"
   },
   "event_types": {
-    "other": 63,
-    "attack": 30,
-    "diplomatic": 4
+    "diplomatic": 5,
+    "other": 65,
+    "attack": 29
   },
   "history": [
     {
@@ -47,7 +47,7 @@
     {
       "date": "2026-03-23",
       "usa": 0,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-03-24",
@@ -91,14 +91,29 @@
     },
     {
       "date": "2026-04-01",
-      "usa": 10,
-      "iran": 3
+      "usa": 9,
+      "iran": 8
     }
   ],
   "latest_events": [
     {
+      "id": "6d56752474b00dae",
+      "published_at": "2026-04-01T21:49:15+00:00",
+      "title": "Iran denies Trump's claim it requested ceasefire, calling it 'false and baseless' - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43VTBSLTEwZVlycV9SYVNDOUEtb2FRekFMMnM4WTlQSHdxcFhZc3NDcWU1ZlFnanlpVE9fbl9hNEhEeU8teHRIZ2RNZjQ3N2kzckY3bg?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "dabc970f64fe7c37",
-      "published_at": "2026-04-01T19:19:33+00:00",
+      "published_at": "2026-04-01T21:18:09+00:00",
       "title": "Iran War Live Updates: Trump Downplays Nuclear Threat After Saying No Cease-Fire Until Strait of Hormuz Opens - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5FX1k1RVNLZEtqbUY2WnNnc2gyNWs2UkI4WlVFY3oxemhKV04tQ2RacjZyd2JoNDNhRjV0TG9iVUNRbHZSRTFuQU5kS1k0RHd4cmQ3LVRJS3o2Y1pEdWNOYWRvTFNVTXM2TERvd2xTWXhtclkxSTk3SA?oc=5",
       "source_name": "The New York Times",
@@ -110,6 +125,126 @@
         "iran": 0
       },
       "confidence": 0.6
+    },
+    {
+      "id": "0027ff22a5568816",
+      "published_at": "2026-04-01T21:18:09+00:00",
+      "title": "Iran Is Skeptical About Diplomacy for Now, U.S. Intelligence Says - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9nTlZJNTV0Qkt3MTdGZlA3ejhnSXdMd2Y1bDZ0SFAxbWl5Sjl1SHJkNTF5S2RBNkJxbWc2VHY1eEdHaTVTeHJJVVFRWTcxT1BQLXNvSGlWaW9jQ214ZEFUeHBfSHFld29SYkNyRGtmUHo2Z0hZ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "0886a28db3043525",
+      "published_at": "2026-04-01T20:58:00+00:00",
+      "title": "Live updates: Iran and Houthis launch fresh attacks, Trump says war could be over in a few weeks - cnn.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nYllxUnhESkdpaTJVWEh3X2NaRDNaQ1NZZU96dGh4cXk3WjdqVlVrMk1ZS3pTREMyblV2V1k0M2lzLXpLVWZmdWk2YUJ6bW45bUY4SGZaVVozUEdKSFV4THd4dEpkTUNobF9YeFZSeHRzSGRhYUF3?oc=5",
+      "source_name": "cnn.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "03bcf9e95e3d9ceb",
+      "published_at": "2026-04-01T20:49:11+00:00",
+      "title": "\u2018Which interests being served by war?\u2019 Iran\u2019s Pezeshkian asks US public - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVWdJcjdXU3RPVUNZbnRZN2paMVFycEFtU0Y2ckk0YWV2MmNmUUxCSWFTcWg0YkRVZm9RMV9PTE5ZNHVnNExsU19sOXJka2F1S29XN1NwNjdtM0lfMkhCSmRwWDBDM3k5NG1yaVZkdG15bTNoV21faU9ncDlwNjc2aUIySjR6TXZaRklGY05mWFlmQUVhTHlEWU85ZmFQR3RyVnJIbzNkMDZPd3fSAbABQVVfeXFMTzZKajVjZWdMREVOdnIwTTBPNDVYNXVoWndiT192R184bDYzaS1La3NVMlhHeFJ5S1V6R2hXd2c4Z0o3a01NTERiQjRFUDk0a1J0WF9vMVFPdlBnTnhfOC0yTXBZZjN0d1JleDJkeE1vZWZwWG14bmo2VXVhdTlLMUxGVnBQY2M5MDZqNVdnOEdha0htRVUwQmlYdE9oNkZKOUN5R2l0ejlSV3MtWUt4UHE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e01ac3707f39e731",
+      "published_at": "2026-04-01T20:42:00+00:00",
+      "title": "Live Updates: Iran announces new strikes on U.S., Israeli targets hours ahead of Trump speech as he threatens to pull U.S. out of NATO - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTHljMlVvcm1yV2JaNWg3TExNeTVnS2J5SHRCbmJMUF8wOEJOV0NDc3RzdExDT3JXM1k4UzFPb2xMTXBzTDZOaHEwRGhpVXVSckdMYXZIQUhrS2JOS3Y4cjZ5Q0tKMUQzU2tTODRUcFVHZzRQcmFLeEFXeElUY1ZIQkZpby1vU0tmcnBxYzhBcm1tbXRfU2g0WkpwQ2t2LW03WnBTWVRuS1A2SExlbXfSAbMBQVVfeXFMT3lsU0pqWFI0LUstM2phYVNqZkpHdlFuLVhMUzNpSW1xbS1MQWE5ZTd3NHU3SW5zOFRPT2E5OHN2VGkyME50UVJLS1MydUdCZ25VNURITkMwcTVYMDVoa1V2Sm9EWllUUFpRa1lZU3VNLUhuRGEzNDdJUWVZZ0dYRW9UcUxaN0txd2xuM0gzS1VsSzdGWVRpYzJJSEwxVWZXbmlQSXlTblE4Y05PU1d4U2lwY0U?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "45f9f47841944699",
+      "published_at": "2026-04-01T19:49:28+00:00",
+      "title": "Where to Watch FRONTLINE\u2019s Documentary Investigating Claims About Iran\u2019s Nuclear Program - PBS",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOX1JGT0ZJWmNud1lScWhuNTB6VkpBbTJ6aVlsc00zNENxRzRfVDVYVVdwZE5IM1Z0MkZELUxkc1FxR0FNN240NzBzcmxuaDlydG5hY25GQXI5cjYxdUtLeW5ocXA3VkJyek1oZlRBZWFsY0l4MDhEbFJBYzJ0UGVXamV6QktkZXhEOG5kbzBWMlY5SGJUX0E?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "abd29cc71ead9e49",
+      "published_at": "2026-04-01T19:48:00+00:00",
+      "title": "Attacks persist on Iran and across the Mideast as Trump threatens escalation - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQclR3Q2IxbVFJdW5IdVZoM0oyVTNkWDVpS21tQXRvQmJ1LWRKM1lNUFlkMEtJTDNLb2FhWUxEczdrUXBuT1otck1hcnNvV3NUb3p5STRFX0p6Y2pzU0V2Wkt3WXdoNk1ITmVYUjRJTTljZ2d2d1lQOE5FNWhnanRGaUY3cFJ0eFlOTnJlUnRoM1R3Z2RrWFNPMWh6QmJOb1AzVk9j?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "283682d145f20334",
+      "published_at": "2026-04-01T19:39:53+00:00",
+      "title": "Live - Iran president says war \u2018futile\u2019 ahead of Trump address - iranintl.com",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbUxpOWxMUFpVeTVwcmJmeGN4bG5RR3hLWkJaZ2x0NnFOTTF1ZDg2MGh0dE5rOERZZUtrN05YWURsNGEzYjczV2ZreG9CUlV6OG1UejlXVERiaUpEb1E?oc=5",
+      "source_name": "iranintl.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cac8a5cc4b519e95",
+      "published_at": "2026-04-01T19:23:52+00:00",
+      "title": "Israel's perpetual war with Iran may be hard to win with military might alone - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XY3c4aE5zNTBVWlJ0V0VCTjdneGlad3Zscjh1emhpSTgyV1dKdzZ2N3pmTG9vclp6dW5OR3N0V0VvMVRNQl9xcVl1Y0VNeTY3bG5zTThla3Radw?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "ea7551bda0d4c672",
@@ -127,26 +262,11 @@
       "confidence": 0.55
     },
     {
-      "id": "3e6bf024155496c5",
-      "published_at": "2026-04-01T19:06:14+00:00",
-      "title": "Israel strikes Lebanon as Trump is set to deliver a speech on the Iran war - NPR",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55bmNLSjlGODJXSnFUX2EzbEhZeEJqV3BZLWNCSWk5ZXpPMlE1d1JZZkhZWXdicVdEajlUbE5XOGJFOWFvbmdENzdfQlBuYWpKdlJHd05jaUtSNlM2M1ZWZ0JuZWFYMXVOa3Jr?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "81d8b39af6f46a42",
-      "published_at": "2026-04-01T19:00:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LWEU1d2VmSVByVHBnSlRnR3RXMXJodURZa3BLV3MwY08wVGpPRHNRUEt6Q3lzbDI3M3BGN1k3WHR4YkJXcU9WSXFiSDd5WUpzZFAxOXhmeVF4eFhqOERkUDc5dzhsSEUtSmNaLVBzajFhQS1Gakprd01TazNrSGc?oc=5",
-      "source_name": "The Jerusalem Post",
+      "id": "76fd2a5049f70bf7",
+      "published_at": "2026-04-01T19:01:49+00:00",
+      "title": "Trump Set to Address Nation on Iran as US Seeks War Off-Ramp - bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQWYzR1JPeC1IV05DWklvVXdzeHd6cDdZQVloZExqZE9vUDFSLTliNk03NlJiNEpJQUZpMDJKc2loT3JjYnNfTVFaaF9aMUp1WlFSYmVhcmpvWHpvYnVvbURtWko4NXBJNThsSk03QTZMRDZBbzJEZmZFejlZaW1vTkJqajNuTWRtWWRwTUJSak13eHBFS0xlVlY1eEUzcUpwaC0zOUNKVThQbVNTLVcwMQ?oc=5",
+      "source_name": "bloomberg.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -155,21 +275,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "650d99c7baa37feb",
-      "published_at": "2026-04-01T18:51:05+00:00",
-      "title": "Iranian strikes target the infrastructure behind US airpower - Defense News",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUG9zQVFiY0F6cHcxWXVvSTJTVEo0b0Nmdy1pNTVzQWw0Y3liVFBOUjBWbDc3OEJpa3ZlNW0tcjhKUFNQdGlQRU5id29XQ2FiVF8ybExES0dJRUVnQTc2ejAxTWJTc2VTclhHQzRGd01HLXVlLVVCZ0I5UExMRTh5VEVSbTRhamxpLS1Iek9pRnNYb0N5SElFUzdVMGhNOVhRU0sxQkltVFloRVU3SVpaZVpCRzVnVVhnX21FWW1VYw?oc=5",
-      "source_name": "Defense News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     },
     {
       "id": "353340394a4b5613",
@@ -202,56 +307,11 @@
       "confidence": 0.55
     },
     {
-      "id": "260d75f7f47e8872",
-      "published_at": "2026-04-01T18:09:00+00:00",
-      "title": "Live Updates: Trump says Iran has requested a ceasefire as he threatens to pull U.S. out of NATO - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTHljMlVvcm1yV2JaNWg3TExNeTVnS2J5SHRCbmJMUF8wOEJOV0NDc3RzdExDT3JXM1k4UzFPb2xMTXBzTDZOaHEwRGhpVXVSckdMYXZIQUhrS2JOS3Y4cjZ5Q0tKMUQzU2tTODRUcFVHZzRQcmFLeEFXeElUY1ZIQkZpby1vU0tmcnBxYzhBcm1tbXRfU2g0WkpwQ2t2LW03WnBTWVRuS1A2SExlbXfSAbMBQVVfeXFMT3lsU0pqWFI0LUstM2phYVNqZkpHdlFuLVhMUzNpSW1xbS1MQWE5ZTd3NHU3SW5zOFRPT2E5OHN2VGkyME50UVJLS1MydUdCZ25VNURITkMwcTVYMDVoa1V2Sm9EWllUUFpRa1lZU3VNLUhuRGEzNDdJUWVZZ0dYRW9UcUxaN0txd2xuM0gzS1VsSzdGWVRpYzJJSEwxVWZXbmlQSXlTblE4Y05PU1d4U2lwY0U?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "abd29cc71ead9e49",
-      "published_at": "2026-04-01T17:46:34+00:00",
-      "title": "Attacks persist on Iran and across the Mideast as Trump threatens escalation - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQclR3Q2IxbVFJdW5IdVZoM0oyVTNkWDVpS21tQXRvQmJ1LWRKM1lNUFlkMEtJTDNLb2FhWUxEczdrUXBuT1otck1hcnNvV3NUb3p5STRFX0p6Y2pzU0V2Wkt3WXdoNk1ITmVYUjRJTTljZ2d2d1lQOE5FNWhnanRGaUY3cFJ0eFlOTnJlUnRoM1R3Z2RrWFNPMWh6QmJOb1AzVk9j?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "43fa60bd8e1819e2",
-      "published_at": "2026-04-01T17:43:33+00:00",
-      "title": "Iran war: Trump says Iran's president asked for ceasefire - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNcjRCbG93VGRqVlVZeWpyLWtxcXJSbEtFX0d1VE5PQ2VnaGYyVktxMDhFVlQ0a1A4QnlhUjU2SVlSVWlucU5QdkEzZWFMblZQcmVmYVBhN2N4dm52SXRCS0dYZGdmRWdfazNqUU8xZVY0TUY1R3N5czc3MXdWQ2pYLVhWZmlTblIxbm55RFhTdk1FS1Z6THE4MTRTOVp4aWtGdDg3RFhpZEVGaHNmRVB6RHc4ZEVjb2prcXFNa01OVDJFUnY1aEE?oc=5",
-      "source_name": "DW.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "f3c0ca59ddbcf91d",
-      "published_at": "2026-04-01T17:07:51+00:00",
-      "title": "Trump to give primetime address on Iran war as questions swirl over his next move - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HbGdON21FOUs4OGJTcjdEZEQySnNYNWNGdkhmSnJSRHhlcDdMNWRPU2M3Tzk4SFd1V3N4SW1fN0F5SEdoUElkVVRaNHMzbEYzSEVjZ0wwdUUtZw?oc=5",
-      "source_name": "BBC",
+      "id": "fbb6e680515299f1",
+      "published_at": "2026-04-01T17:48:45+00:00",
+      "title": "Trump risks falling in to the \u2018asymmetric resolve\u2019 trap in Iran \u2212 just as presidents before him did elsewhere - theconversation.com",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaXBrZTQyLVFRTFRSUVlzanBqOUxLM2NIZTh1T1J6TV9lZklMbmNuUm1hdlI4VnRVMTRqWVotQnowbmxmcFZMa1AwNEtNZ3pkUnQ2VU1XR3dlQXZQeVRCTWZCcEdldzJ0NEZKdnRIcTNHX3ZhQV9zZVNVYW14UUhNSUttdk1zMkNBZmxiOVJPOFZWeUNNbFQtVC1NcjR5LUlPZTE4dnI2M2lVVTlvbGZUOGZEZVpmU2dWYWtyaGowWjNSbHpzR0ZFU1RZMWxRMl9SZGw2cDBtUQ?oc=5",
+      "source_name": "theconversation.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -275,21 +335,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "c85339eb0a214c97",
-      "published_at": "2026-04-01T16:42:58+00:00",
-      "title": "Live - Strikes continue as diplomacy flickers ahead of Trump Iran address - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbUxpOWxMUFpVeTVwcmJmeGN4bG5RR3hLWkJaZ2x0NnFOTTF1ZDg2MGh0dE5rOERZZUtrN05YWURsNGEzYjczV2ZreG9CUlV6OG1UejlXVERiaUpEb1E?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     },
     {
       "id": "37e38f076fd2076f",
@@ -350,51 +395,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "1316828e9607ed44",
-      "published_at": "2026-04-01T16:16:19+00:00",
-      "title": "Houthis Launch Third Missile Attack On Israel As US Strikes Continue On Iran - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUmIzYmVlX0tJTU8tSUZkNVY5YnlaX2U1Y0VZNnpnX05yYnk2c3RFQ21FQ3NHNDZXS3FMU1paMTdvTFlsdldVYnFuTE5GX3pzWnplMzliQ2JUSzhKNDVFOERYMlpmVzdTZW1iQUVoV1lWRHJORnR6aGM2QjhDbVRzR3ZJWnNMLUZ0S01jb1NSYjBTZWfSAZYBQVVfeXFMTnZMcjViaElva3BkV2VIS3diZEFBa3pzblV5UlFrd2xfdDZ5S1VwV3h2Qk9mczl6XzJPLXduSWJncXdHYzlOckktUVZubjkxWDY0dEVTU1ZQNFFhMTVDQWUtWGNvRVJqdXRlaWJqVjV6NXZQYU5fdzAycnk3LXYwZFE5blVRSF9aRzlNUlR4VlVGT3Z2bzF3?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "908c5155f4db3b64",
-      "published_at": "2026-04-01T16:00:00+00:00",
-      "title": "Americans have little appetite for sending U.S. troops to Iran, polls show - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeXlYcnVmc0lNQ2N0NjhDYnQtOUtfdXBLdVMxQnJWUmF3cmdjdjdrSFVSOVVmV2FBWXE5c2hyell6MjU3dko0V005U3VKdzBod18wZnJhTHgxTDJ0UTFDRENiNUtmaTR5akZoTTRtTEprMDE2Yl94NmY4VzU5RTQ3aXF1bG45SVU?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "05f3a1cf51abff63",
-      "published_at": "2026-04-01T15:56:53+00:00",
-      "title": "Four ways a hasty Trump exit from the Iran war may not end the conflict - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPRkRkR3ZFVU16Rm8temw4dVZYdHNEcmN2VzNvbFZaNmM2ZHd3XzViZUt3bUh0d2F4N2tGZGdheWVsb3pCUFptMl9Mb2VfUnlwZXlhd2hhQzZuY2JRLW42M0l1NDZjVy0wemQ3OElMcHZfT3lTRXJzeWkzMk1mdXRPX0hrV1lVRWhhNUpKSnJ6Ym5yVDJySi1ITDhneG1hX1huRExCYXM0aVdxLTZtdVgza1ZmZWhqOGNjb2c?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
