@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-04-01T07:56:18.494862+00:00",
+  "generated_at": "2026-04-01T10:17:25.462685+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 99,
   "totals": {
-    "usa": 22,
-    "iran": 26,
-    "lead": -4,
+    "usa": 13,
+    "iran": 25,
+    "lead": -12,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 22,
-    "iran": 20,
-    "delta": 2
+    "usa": 13,
+    "iran": 19,
+    "delta": -6
   },
   "confidence": {
-    "score": 64.1,
+    "score": 63.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 62,
-    "attack": 33,
-    "diplomatic": 3
+    "diplomatic": 5,
+    "other": 66,
+    "attack": 28
   },
   "history": [
     {
@@ -86,22 +86,37 @@
     },
     {
       "date": "2026-03-31",
-      "usa": 15,
-      "iran": 13
+      "usa": 9,
+      "iran": 11
     },
     {
       "date": "2026-04-01",
-      "usa": 6,
-      "iran": 0
+      "usa": 3,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "bb2e79413782652e",
-      "published_at": "2026-04-01T07:54:23+00:00",
-      "title": "Trump says US will 'leave' Iran in two to three weeks as Tehran says it has 'necessary will' to end war - BBC",
+      "id": "dc3da9d17408f277",
+      "published_at": "2026-04-01T10:10:01+00:00",
+      "title": "Iran war latest: Trump says he's considering leaving Nato as Starmer says UK will host talks on Strait of Hormuz - BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43VTBSLTEwZVlycV9SYVNDOUEtb2FRekFMMnM4WTlQSHdxcFhZc3NDcWU1ZlFnanlpVE9fbl9hNEhEeU8teHRIZ2RNZjQ3N2kzckY3bg?oc=5",
       "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bce16ad47459d975",
+      "published_at": "2026-04-01T10:02:54+00:00",
+      "title": "Trump to address nation after saying U.S. may leave war within weeks - NPR",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55bmNLSjlGODJXSnFUX2EzbEhZeEJqV3BZLWNCSWk5ZXpPMlE1d1JZZkhZWXdicVdEajlUbE5XOGJFOWFvbmdENzdfQlBuYWpKdlJHd05jaUtSNlM2M1ZWZ0JuZWFYMXVOa3Jr?oc=5",
+      "source_name": "NPR",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -109,12 +124,72 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "38235ae10cd0f403",
-      "published_at": "2026-04-01T07:20:21+00:00",
-      "title": "Oil falls below $100 and shares jump on hopes Iran war will end soon - BBC",
+      "id": "bdd518375c8a9db9",
+      "published_at": "2026-04-01T10:02:00+00:00",
+      "title": "Live updates: Trump says US could be done with Iran war within 2 or 3 weeks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nYllxUnhESkdpaTJVWEh3X2NaRDNaQ1NZZU96dGh4cXk3WjdqVlVrMk1ZS3pTREMyblV2V1k0M2lzLXpLVWZmdWk2YUJ6bW45bUY4SGZaVVozUEdKSFV4THd4dEpkTUNobF9YeFZSeHRzSGRhYUF3?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "908c5155f4db3b64",
+      "published_at": "2026-04-01T09:54:42+00:00",
+      "title": "Americans have little appetite for sending U.S. troops to Iran, polls show - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPeXlYcnVmc0lNQ2N0NjhDYnQtOUtfdXBLdVMxQnJWUmF3cmdjdjdrSFVSOVVmV2FBWXE5c2hyell6MjU3dko0V005U3VKdzBod18wZnJhTHgxTDJ0UTFDRENiNUtmaTR5akZoTTRtTEprMDE2Yl94NmY4VzU5RTQ3aXF1bG45SVU?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "81d8b39af6f46a42",
+      "published_at": "2026-04-01T09:38:20+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LWEU1d2VmSVByVHBnSlRnR3RXMXJodURZa3BLV3MwY08wVGpPRHNRUEt6Q3lzbDI3M3BGN1k3WHR4YkJXcU9WSXFiSDd5WUpzZFAxOXhmeVF4eFhqOERkUDc5dzhsSEUtSmNaLVBzajFhQS1Gakprd01TazNrSGc?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ee6a3fd97b7ca315",
+      "published_at": "2026-04-01T09:03:21+00:00",
+      "title": "Iran threatens Nvidia, Apple and other tech giants with attack - cnbc.com",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kcWxaZEpSbExrbVZFUDcxZ09jNm5pVmcwWUVyRUgyMWNRSWw5a2FhVVhCRE54OFlPX1RIOXg0TFFwZS1ZX2FDWUJ2cFlfcmo0Vmd1VjVFdEs3czJPeXVtcU1sUFNsMUlVXzNBckg0dVZBcnNnbk1fbTU1VmphdlnSAYQBQVVfeXFMUE5SVzR5S1FaMng3TkY5bjQ4WE8xMDJqQlU0MnV0V0dHZk5lLVdNNmtUOWxEbl9peVN2S052dU5nX1VTSjZ4a2FyNjNwQV91NG9sQmtNbGdlY2VpNnRteHE4Qmktd3ZTeWZuMS1wSVhUT0VseTlIa0hJTzgwcWhTUXNFX0Zm?oc=5",
+      "source_name": "cnbc.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bea658e726fcc016",
+      "published_at": "2026-04-01T08:49:19+00:00",
+      "title": "Oil briefly falls below $100 and shares jump on Trump Iran war pledge - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QWDRHUkhOU3JIYVFZbkItQjhtcGhnWHR1TTdacWdMZmJyMFNEaG9DbDhaeWVqZlBFZ2t1V2xDZVMzdTRpbFgyWTF6MFlIVmtvcHRFeVNEdVJoUQ?oc=5",
       "source_name": "BBC",
       "event_type": "other",
@@ -127,11 +202,86 @@
       "confidence": 0.55
     },
     {
-      "id": "fb8a017e8626f77c",
-      "published_at": "2026-04-01T07:16:46+00:00",
-      "title": "The Arsenal as the Battlefield: The War on Iran and the Return of Counter-Industrial Targeting - War on the Rocks",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNkd4cVA3UUhrWXZwNW5uejcxS3puYnFHX0dvYjRjNXlVejFmTG1xYkdsR1hka1NFUGR4bFV2OHFVTU90dEVDSHpqaFJyNmQwNS12bUpYTWdueG5ZbkpkYnVGUXFkdGV4Y2hJb3Rfc196cWZqMUdlZ2l3WTlCRUJWaEpjMzA3X1VyMVdWc1pSUWM1cVhpbmJPVzBhS2F3NTIxTVoyMEhQcEJMaWdRdkRxQ3ZqRVh5SWlpQUQ0V2phZjdFU2lXeDQ4?oc=5",
-      "source_name": "War on the Rocks",
+      "id": "d8604833f651cb0a",
+      "published_at": "2026-04-01T08:28:55+00:00",
+      "title": "War on Iran: Three key takeaways from Araghchi\u2019s interview with Al Jazeera - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPcUNYcDNvZXF5d2pNakJ2NWRSQ3ZUbkFFcDRzeXFDYzBtM1kxSHBtMWR5cnhoemxSM2pUVTI0S3RYc3c1cGNSN1AwYlM4YmpGazdyTlRMRmN1d09IZnRzcWJhVUxYTXBON2ZObGdLRVROSjJNV1BONWZFV2ZlWXNDcVJWcDhHQmR1bjNwS0pvdmo2ZExFcmRoZGFuT1g3Mi04VkVmdW4xZ3FET2dKS012TzBn0gG3AUFVX3lxTE5QTWhZVlk5RGFJY0dKLVp3WWx5aDNsa3dpUk5aT2J1XzJETnB2OWZJaW45TmVWSUlyRklzZ0oyd2lIaFBDZmo0aVp6b1FMcFhhaUhKN2NBeVVQNFdIb1ZXQ3gtdEoyWnN3Q3Q4d3NITGdOZ2ZBdDA2Zk9JYkNMd1hHaFFoYkwtLXYwczNqN09fQWZsSEZNcW42MHhfdEF1NnVPSV9xREtidHlsamYxNjZkT0xZc3czUQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "64f578dd11221b25",
+      "published_at": "2026-04-01T08:03:45+00:00",
+      "title": "Iran attacks cause fire in Kuwait, Bahrain; kill man in UAE - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRVFPZzBHamZadWhINTZOd1lFYUFob3l5LS03RFZoRXEtTmwxVThHY0htVGFYTUxjNDNiaGxnbmxtX2dkUTZkaFdqZW5rTnlKQWVUbkdxZzRVWnFyN21CY2s0NG0tN3Jwdzdld2ZoM3ZoYmlfTkxYRkFhSnRoc01zYzZfeEdNOU9ySlY2X002OExHSUcwYWZ1T194Ymlrdw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "37d9668704078c7c",
+      "published_at": "2026-04-01T08:02:47+00:00",
+      "title": "US could 'finish the job' in Iran in two or three weeks, Trump says - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53ckFySjRWREZRZ203Tklnai1hY3FlNHVQbmxOQ0RELTNRRzlJM0ZnYjlRcG1MOGh6eXFJdHJkMWtTeXkwVVVJSXRJY0h5S1ZhTzRIcFFRQ1FRZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f0ca80aa785576c1",
+      "published_at": "2026-04-01T07:56:36+00:00",
+      "title": "Pakistan is playing peacemaker in one war while fighting another - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQnkyLTNBMEFRcW5aakM5eVd1SG9zOTRZazBnemM4T196YUtmdUxpbC13RTByZERTb0JjVFFxLWFLN29ubUZDWEZnMUVkSkVqaTZsd0E2VTV6ek1lXzV6YlhMdDN1SzBoWVlSTV8zS0tvRlFDbmFOZFNYMTduSlJHU3l1NU10NHdObklSUjNqSlY?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "beeba7cc1d0d4351",
+      "published_at": "2026-04-01T07:46:42+00:00",
+      "title": "Live - Former US embassy in Tehran hit as Trump set to update Americans on war - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbUxpOWxMUFpVeTVwcmJmeGN4bG5RR3hLWkJaZ2x0NnFOTTF1ZDg2MGh0dE5rOERZZUtrN05YWURsNGEzYjczV2ZreG9CUlV6OG1UejlXVERiaUpEb1E?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "other",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "c37950d80b9f5f82",
+      "published_at": "2026-04-01T07:31:00+00:00",
+      "title": "Live Updates: Trump says Iran war could wrap up in 2-3 weeks as conflict pushes gas prices over $4 a gallon - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTkNSR1NUcVd4NEkyRXN6TTVBZFVvNEFKZHRJc0RqMjBmVTR6eXBRVVFKeDcwLXA3YmlrQUYxZDlFa1hSb2h1TS03LXVnNy1SellPczFibzVEWUVfSW1XLThHZkZnWG42WENKN1F0NWtMNTJ3TEotaE5GbFdiVXVjNHdrUkhXaWl2V0pwWU5ucDJoRWs5VUlPVHFvT1k5UTcxMWNXV0FjX2I2b19WMXfSAbMBQVVfeXFMTXhJbl9GLVJLMUJjcExWcENrajJ6UEt3UElaQ01ralJqTG1ibnladEk5ZVdKN1V2T29mRVZpcWFlak9RZDRQVlk4VGpIQklmSkZxVGd3NUk2T1l1dEE3V0JEZDc1VXpfOEhHTU1YSWt0RTV5blRaeEJTSkhmaXBuVmE0RHBNaHJsVlIwNk5XOG01MkxLdTNSVm5JMjdzSk5MMDdDa0djRWdvX3duTlVxT3NHQUk?oc=5",
+      "source_name": "CBS News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -157,51 +307,6 @@
       "confidence": 0.55
     },
     {
-      "id": "8397e964ee9b76a0",
-      "published_at": "2026-04-01T07:01:25+00:00",
-      "title": "Iran war: What is happening on day 33 of US-Israel attacks? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPREVidE5zODlwSDRwWDFJME9jOXlmMjFuYVFROTlKd2xGUkZoRE44NVVxcXBzVkQzcEZJV3Q1ZUFsUzRwX0F6ZGVjc096b1U4QTNvR2xhb1dIVW8tREc2OW5LYzRDR0ltcjFaaGdCLW9lc2cwMlR3eEJwNEpPa1Q4bXFuWDZ6dThKbHpJLUhzdWRGYmJfRXJrdFR2M1JmQdIBowFBVV95cUxQQjZyeVZ3dGg0WXhlWC0zU2l5cGFvRnFMV053QkoyQVVnTWV0TzBLM2c4Uk5UZ25Qb0Q0M0d4ekg5QUlYblZ3MW5TQnJaa2JtYzU3TjFmRUx4MUNRaktxYVh3dTZlWERrV3ZKd19HcjdyWnNKVkpXeGlLQ19kYUNqYnRyZ21sZ2pjYUdWRFl3LWIzRmdYZlBjbjN0VHZHM19kN2JF?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "bdd518375c8a9db9",
-      "published_at": "2026-04-01T06:52:00+00:00",
-      "title": "Live updates: Trump says US could be done with Iran war within 2 or 3 weeks - CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5nYllxUnhESkdpaTJVWEh3X2NaRDNaQ1NZZU96dGh4cXk3WjdqVlVrMk1ZS3pTREMyblV2V1k0M2lzLXpLVWZmdWk2YUJ6bW45bUY4SGZaVVozUEdKSFV4THd4dEpkTUNobF9YeFZSeHRzSGRhYUF3?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1bca8b348d8d126f",
-      "published_at": "2026-04-01T06:45:00+00:00",
-      "title": "Iran war: Trump says US will be 'leaving soon' - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9Jb3FoYTF3RmhXQXdqV3JCa3ZrSGYxdHhBTjFXektTRGZGTmRscUdWXzJWblVwTm9MMmR1Mi0wa1dDSzZtU1VvM291ZjRhWGhkQTE1c0tDb3JnbUlYQ09zNGczNGpiNGFiWlUzcHBwdw?oc=5",
-      "source_name": "DW.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
       "id": "642f90372dfc18af",
       "published_at": "2026-04-01T06:31:42+00:00",
       "title": "Iran war live: \u2018Missile from Iran\u2019 hits oil tanker off Qatar\u2019s coast - Al Jazeera",
@@ -214,14 +319,29 @@
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.7
+    },
+    {
+      "id": "a52f49e829fec492",
+      "published_at": "2026-04-01T06:30:17+00:00",
+      "title": "US attacks Isfahan in Iran as gas price average tops $4 dollars - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMW84NnVkTkZiclZQeS1OTjM0UWdrUktrQVp2cUJNUXAzVzlKN1hRSWlEX2QzNG45QWQ2UWxBc1EtVTFTQllfWTFGSzJ0bl91WmhUWnZONmhnX2s4ZVliSGdURzJobnZaVU0wZTlFMmZPWWhEMkNhbmxCZzBRODRZSU85RDNqMjjSAYwBQVVfeXFMTS1SUHdtSFZ6azBMa1Y5bHc4Zk96WXcyakxVZ3E0N044OUhmbnM0eDdndU15MzlCbWdxTjlXLTJEZHV1UnM0OUEyNXR2Y1dDQmJEemdFUXI4akF4UE5HbnNPckJ1VWRydnlOaG9FdlVJYURBejROWmxfVkdPQzJ4NnhiQ1ZyZEp2bDJGMHI?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
       "confidence": 0.65
     },
     {
-      "id": "b549b53c73a2c90d",
-      "published_at": "2026-04-01T05:31:08+00:00",
-      "title": "Is China positioning itself to become a US-Iran peace broker? - CNN",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMkJDaURzQVVlOFdzVHBuRmloNE10bG9CMTRtYVQ5Q2ZQN1lRVmVMZ1NLWDBzQVNMVVZDMzI1TUhIejVJc1pDcWU3RGUzcXlfYTRHNWVSN05aLWJ1T0Q0RHVQMWQyV251Nm1IT09VeEtLZTIzZG5ISUdlYm4zLXVBR293UG03YVFsTEhlOQ?oc=5",
-      "source_name": "CNN",
+      "id": "6812114e45c6d7f4",
+      "published_at": "2026-04-01T06:24:42+00:00",
+      "title": "Trump tells allies facing high fuel prices to 'get your own oil' from Strait of Hormuz - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUXA4VWtrVjZyLURyQ1M3QVZOc3VuNnZnc1RLU2NRcGJ5N3hsWmRWaWVPQm9DZlpsSTZTalpDbmZwaHNBMHp4dHYzVUNaLVZOczZVUVRrbVpkTnhzQk1MUlVxTnZ6VXpnTWlSOTJ2Ui1XNHhfbDJydUc3cFhyM3Uya3psYVdZX042bVFKa1hBc28xT09DejFRdk1EUFRFdGxKbHVNVFVWTWVaa0t2SWpMTXNDLV81NWM?oc=5",
+      "source_name": "NBC News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -232,11 +352,11 @@
       "confidence": 0.55
     },
     {
-      "id": "c37950d80b9f5f82",
-      "published_at": "2026-04-01T05:17:00+00:00",
-      "title": "Live Updates: Trump says Iran war could wrap up in 2-3 weeks as conflict pushes gas prices over $4 a gallon - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTkNSR1NUcVd4NEkyRXN6TTVBZFVvNEFKZHRJc0RqMjBmVTR6eXBRVVFKeDcwLXA3YmlrQUYxZDlFa1hSb2h1TS03LXVnNy1SellPczFibzVEWUVfSW1XLThHZkZnWG42WENKN1F0NWtMNTJ3TEotaE5GbFdiVXVjNHdrUkhXaWl2V0pwWU5ucDJoRWs5VUlPVHFvT1k5UTcxMWNXV0FjX2I2b19WMXfSAbMBQVVfeXFMTXhJbl9GLVJLMUJjcExWcENrajJ6UEt3UElaQ01ralJqTG1ibnladEk5ZVdKN1V2T29mRVZpcWFlak9RZDRQVlk4VGpIQklmSkZxVGd3NUk2T1l1dEE3V0JEZDc1VXpfOEhHTU1YSWt0RTV5blRaeEJTSkhmaXBuVmE0RHBNaHJsVlIwNk5XOG01MkxLdTNSVm5JMjdzSk5MMDdDa0djRWdvX3duTlVxT3NHQUk?oc=5",
-      "source_name": "CBS News",
+      "id": "b549b53c73a2c90d",
+      "published_at": "2026-04-01T05:31:08+00:00",
+      "title": "Is China positioning itself to become a US-Iran peace broker? - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMkJDaURzQVVlOFdzVHBuRmloNE10bG9CMTRtYVQ5Q2ZQN1lRVmVMZ1NLWDBzQVNMVVZDMzI1TUhIejVJc1pDcWU3RGUzcXlfYTRHNWVSN05aLWJ1T0Q0RHVQMWQyV251Nm1IT09VeEtLZTIzZG5ISUdlYm4zLXVBR293UG03YVFsTEhlOQ?oc=5",
+      "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -262,21 +382,6 @@
       "confidence": 0.7
     },
     {
-      "id": "a52f49e829fec492",
-      "published_at": "2026-04-01T05:12:32+00:00",
-      "title": "US attacks Isfahan in Iran as gas price average tops $4 dollars - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMW84NnVkTkZiclZQeS1OTjM0UWdrUktrQVp2cUJNUXAzVzlKN1hRSWlEX2QzNG45QWQ2UWxBc1EtVTFTQllfWTFGSzJ0bl91WmhUWnZONmhnX2s4ZVliSGdURzJobnZaVU0wZTlFMmZPWWhEMkNhbmxCZzBRODRZSU85RDNqMjjSAYwBQVVfeXFMTS1SUHdtSFZ6azBMa1Y5bHc4Zk96WXcyakxVZ3E0N044OUhmbnM0eDdndU15MzlCbWdxTjlXLTJEZHV1UnM0OUEyNXR2Y1dDQmJEemdFUXI4akF4UE5HbnNPckJ1VWRydnlOaG9FdlVJYURBejROWmxfVkdPQzJ4NnhiQ1ZyZEp2bDJGMHI?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "0bd32b2b887683b2",
       "published_at": "2026-04-01T04:44:39+00:00",
       "title": "Emirates says Iranian nationals are not allowed to enter or transit through UAE \u2013 as it happened - The Guardian",
@@ -290,111 +395,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "2c5d675616036bd7",
-      "published_at": "2026-04-01T04:23:48+00:00",
-      "title": "Live - Trump to give \u2018important\u2019 Iran update as strikes continue in Iranian cities - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wbUxpOWxMUFpVeTVwcmJmeGN4bG5RR3hLWkJaZ2x0NnFOTTF1ZDg2MGh0dE5rOERZZUtrN05YWURsNGEzYjczV2ZreG9CUlV6OG1UejlXVERiaUpEb1E?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c20b6a313c5f7f6e",
-      "published_at": "2026-04-01T04:03:13+00:00",
-      "title": "Sky News Australia. . US and Israeli forces have launched massive strikes on central Iran, hitting key military targets in a coordinated assault. - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUUswdUVDMGFLcWFFc0thU3k3Qi15N1FWVTRPYmpWTk03UkJxS3J1VEVKV05oQTdXRkhRZU9EVF95SnRRaUFxOUQtMHRKeDhKX0cwdGJEb1Y5a1BhclRPam1sVEJwWklRcTB2NWN5N3FEbmJPRGxuaU5JVFFYSXZkNW5jU1lQOGtFeVNLckd0M29jLVJKeXhyZjdRcElhTGRidkxKaVp5cDc5c0pMMVhiUFFCbGJEWkpJeFBjbThwWl95VE1LVm5yNGRJaVRPeUk1eFB1dUVxMllTSnVxekRF?oc=5",
-      "source_name": "facebook.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ecf1ec46065e94cf",
-      "published_at": "2026-04-01T04:00:58+00:00",
-      "title": "Trump might end his war \u2014 but the rest of the world may pay the price - CNN",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQc3Jrcnk5OFlKZWhtclhmZVlsZ1pENFd3N0FPQl9jMzBWdEwxN1Fpdy1rMFZmTkxoc09vRmxsOWVWX25tYjJOUkwwNEtKYlVTd0JSWHBnbjR5WEJJRlNqY0xzVENtSC1BUjVFeEpmRXEyTWlZaGtYN1dWU011Mlc0d3YwWjFUaW51czFNNmI5Y05VUQ?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2826a4641bdf6ecf",
-      "published_at": "2026-04-01T03:33:00+00:00",
-      "title": "Trump slams allies as Europeans show reluctance to aid U.S. in Iran war - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNOWd6NXBhNk5NRzV0cXhoemIzMFFuZ3I1ZWsyQXMyYkhHNTlRLWowbmp5cFZmMFA5N2ZTQ0g2b2NjRlgxYXFWZWgtVjZkWTA0bEtXN09OdW5GQy01VmdqNmswZGVPMk1ocVlLaFEyOU1DaXRrYjFoaHNXOEUtTmpkbTlHVjBnZUpvbXFxWXktOTJadw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5fdf285431cd22a2",
-      "published_at": "2026-04-01T03:28:07+00:00",
-      "title": "Trump says Iran war could end in 'two weeks', with or without deal - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNYUJQYUVGOU84MFA5VURqdVdRc011SUtjZHg0V3NQb1NpV1lfVzg4YXFwSmtFTXZjMXE3dDlpTG5uTllwcWMwdlQ3aC10ZmlQVmVKNjdLcURSd29DZWIwSDc3WWdNVXc3bTdSWXRQUkNNZEhLZUxEelFDR3dLUlgtQmZNWUk3akhtc0txN1RiMHdDeWUtTVRHbHdSUTYxVHhj?oc=5",
-      "source_name": "Euronews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b1defb666a1e1fc6",
-      "published_at": "2026-04-01T02:25:00+00:00",
-      "title": "Trump\u2019s Frustration Over Iran Grows, Signaling Hastened Exit - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdDFiUWdfY0hTd3AxdFcyS0lOWmhpSzJPOUVKcm9wNDB4ZDFDTEZSb1NJNHhSM2NHbmdLRm82dmY3ZVloVGltVFl4SzdyamF0SEtESzhlOVVid0ZWd091OE1sTjhLYU5JNTg0ZGVrOEFPYkdBMDZUS00teTNpX01qWng2MHNhcG5iVk9fSTc2OUhWS1B6aFpuRGo1emlnem5EY3ZXWm05cGtlZUwwU2t6Nw?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "41b885a4f5e033ae",
-      "published_at": "2026-04-01T02:20:00+00:00",
-      "title": "Trump underestimated Iran\u2019s resilience. Now there is only one way out of the war - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOOWhkZ0V4QjJmVUg5bmdfM2hpQUFUQWNOWVM3WEZyNzJTZkdyWFN3NTB2YzZuQjNFWU5Uc1MzZXVmdUVXV1V0RDVIUWNJbWpRMlY3SjhodjVYT0NxOWl3eU80QWlFRl90ZUdxS0VEbHdkem5CV1E2cTZ6cGRHME1Pd3d6eFRfTUU0VWNVR0QtcXI1b1VHR2tXRlhHMFJwUTg0VnhfSVBxUXNtNF9WdTU3eGJFOA?oc=5",
-      "source_name": "The Conversation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
