@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-04-04T07:28:54.505914+00:00",
+  "generated_at": "2026-04-04T09:56:21.727885+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 93,
+  "event_count_window": 92,
   "totals": {
-    "usa": 26,
+    "usa": 29,
     "iran": 17,
-    "lead": 9,
+    "lead": 12,
     "lead_side": "USA"
   },
   "momentum": {
@@ -15,15 +15,14 @@
     "delta": 12
   },
   "confidence": {
-    "score": 64.7,
+    "score": 64.9,
     "label": "Medium"
   },
   "event_types": {
+    "attack": 30,
     "other": 55,
-    "attack": 29,
     "material_loss": 4,
-    "intercept": 1,
-    "diplomatic": 4
+    "diplomatic": 3
   },
   "history": [
     {
@@ -68,7 +67,7 @@
     },
     {
       "date": "2026-03-30",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -88,7 +87,7 @@
     },
     {
       "date": "2026-04-03",
-      "usa": 13,
+      "usa": 14,
       "iran": 8
     },
     {
@@ -99,8 +98,53 @@
   ],
   "latest_events": [
     {
+      "id": "888a57e8bbcf3c79",
+      "published_at": "2026-04-04T09:15:33+00:00",
+      "title": "Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "7451a41960dd99f5",
+      "published_at": "2026-04-04T09:14:48+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9YcVNNeE05SEVvS00wV0dpNkpsYmxKOGQtOTVObjVLc18xRjVjOEVFM2p0TlBkT3doWDZfVm1oSUUwanZ1U2Rud19lUUFIZXROWUxtek9fbnBVYUcxYnZ1UTVYSGlvbjlDQnpxejVWSmRicmNYUUlqRV9TQ0szQUk?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2b32b57322d08835",
+      "published_at": "2026-04-04T09:04:16+00:00",
+      "title": "Chinese firms market Iran war intelligence \u2018exposing\u2019 U.S. forces - washingtonpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOTFDa3lLTUNNS3N4N2lheF9qMjlfTjBiaVpCb1UwazIyTDhoSWVKYVU5ZWRQcEc4cnlvWjJQeHZvMzlnWGh1UTNlNVZsdkFuOU52VXBfTjRqck5KRlU1ZXloTUJ1T1ZJTklaYXVRMks0WWhfOHhnMXNzS2FPeWtWWElMbEg3SmJYeTFfZk4xTjFGelhhNndfS1RHU09tNkdmZmc?oc=5",
+      "source_name": "washingtonpost.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "491115f4f96ee17b",
-      "published_at": "2026-04-04T07:15:50+00:00",
+      "published_at": "2026-04-04T08:45:51+00:00",
       "title": "Iran-US war latest: US and Tehran race to find missing American pilot - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOeExncTAyMW9PR1BKZzk4Z0hHa2tFR0JOXzFxejFYdTFDZjRZeGVhclg0MEw1djZtZWFlckJkbUg3aUhhQWVKY0Ztdi1fWm43ZmY2OThRQ0ktUDhYb0wyNzlFS2YtaWdZWFVJR0JRQU5Za2lPbTZSbFc3YjJFSXBzb3B4SWNudTJrSXFXTFZ0T0l6dVEwMEhtYWxNdnJnVlp2ZDMwSFZqZUZrOXd0UUphdU1sMVdXcEVDek1tUHhUVHI?oc=5",
       "source_name": "The Independent",
@@ -114,14 +158,59 @@
       "confidence": 0.75
     },
     {
-      "id": "888a57e8bbcf3c79",
-      "published_at": "2026-04-04T07:03:32+00:00",
-      "title": "Iran war live: Tehran downs 2 US warplanes; Israel bombs Lebanon bridges - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
+      "id": "17be5c046bd7dfc1",
+      "published_at": "2026-04-04T08:37:13+00:00",
+      "title": "Trump risks falling into \u2018asymmetric resolve\u2019 trap in Iran \u2014 just like presidents before him - Kansas Reflector",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS0lnamY2WlQtTXN0WDhJdl9yZDltNENPQVgtbHlwVkNreWRDRmFwTFFmTWFWNDFpUUp6RnpvNHY5YUNyRm9EVTkwYkZKLURsZ1cycHpqR05pNEJ5TTZXVy03Ni1OSmJDSWdkQ2FkbV95VkRuLWNoWUZIbnJnby03QmhSYTVJOTU0c2p4VG1WekZUek9LQ0k2RHZXT0pUNTQwbDdkcGlKalhhTmFLN1lPb2RzVzF1VllXekNGRkhmOGU4Z25QUV9z?oc=5",
+      "source_name": "Kansas Reflector",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9a8ccb1696a19c6a",
+      "published_at": "2026-04-04T07:52:30+00:00",
+      "title": "Iran war: Search on for missing crew member of downed US jet - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16d3FicmJ2MGxXcVFkd0tjZ1d5dFlMd282VUVBUEtqVUhWbGx6M0NJMkVpTEpORFZ0QWctSkw3cDRLTmtSaXJST1lkbGZpR3dmWnJ1UjNVbkt3ZEpOeWdZdVlkNmNIdEprcGV3X1BYbkRsMTA?oc=5",
+      "source_name": "DW.com",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "1b0192978a895e00",
+      "published_at": "2026-04-04T07:21:06+00:00",
+      "title": "Iran\u2019s Revolutionary Guard would fiercely resist a US ground invasion. History proves it - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdzZFVDF5MGltdTZvTk9rbjZoOTRKeXZMejVTM1d5bDJteXJqc1hBSDhsZi1xdzlKT1RlQmM1R016Q0VNN1VSd2x3OHVjR0hTZnktTGs0X1FFcVp6OGhha19rT29xdWlIRlc0OGN1MGtVRVdWUzBlUGlLejN4Z0V0c0Z6NEQ5eVJ1N0ZSWlk4MHdBZkhwQ1lOcmx1ZlZyZU5UT2tzZFc0NjlEMS16ajRGdE1aM19fcnFyZ2FMcU9B?oc=5",
+      "source_name": "The Conversation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "41abf84173c74ab7",
+      "published_at": "2026-04-04T07:21:00+00:00",
+      "title": "US military aircraft hit in Iran conflict are first shot down by enemy fire in over 20 years - 12onyourside.com",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNNkxfWUt1aDc4b2JTbnlsSGtiLXljQkRxNFQtQnFhaEVlQVpBUmlpM3o4SUl0ZWFhdHlkZ3JJdVAzZWNDSWZoWm5LRC1FYWpuWFJLYWoyalRUcHh3X1FlckxnTndmQ3hFb2tvSHh4SXcxUmpoakZFNGhqZFgtRktpTXBtb2tjOFo5V0FnSmVFZEJyNW1JVmREQWFqbDRpLURtRWd4X1dDNDduZDIzVEpNNWlzaEVOMkVFNGNFOXRvT3QwZGR6Z0HSAdoBQVVfeXFMUGlnQm44Yl95ZC1DcUhFbkF0eC1lSlI1U3JQTWQ4TTlkUTRnMHk1R2FiUndxNi1Mb3pxaU9mYnhpeHJXRGVueGpBcWZoY2VSeUNZUkhNVlRmM0E3ZEdaTVJkbEhPd0ZBMVNUcVFmYWp4S05mc24wS0RDRnY0OXJoVlo3R0ZnSmpOQ2Q4WTFyQ3E5Yk44bDIzYVRhNkRoNXNYSVM5YUVCMzBaeW5ZaHhYMHlYNTZXMFU5SEFzUE16OWgxSTJDNHhyOTdlankyTkRsVWloQy1qZWkzbUE?oc=5",
+      "source_name": "12onyourside.com",
+      "event_type": "other",
+      "actor": "usa",
+      "target": "iran",
       "points": {
         "usa": 0,
         "iran": 0
@@ -144,11 +233,26 @@
       "confidence": 0.65
     },
     {
-      "id": "a6ab27a196b2e522",
-      "published_at": "2026-04-04T05:25:57+00:00",
-      "title": "The war in Iran: is Trump \u2018on the run\u2019? - theweek.com",
+      "id": "05cc584488c8a2c2",
+      "published_at": "2026-04-04T05:46:08+00:00",
+      "title": "US-Iran Conflict: A Strategic Trap for Trump - orfonline.org",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWFRVQnRWWlF1U0JSWDM3TF9MOWNXYVQ0Y0VXRkpqZjg2TFUtYW4xeDYySVNaZkRNTjlwWGpfTk9UQVM4YWFSbTgyeTNWbHlaei1jek8yQzB3UmpURnNrb3dKLVdsRjY0NXh5a1JUa1lGRUZiSlE2QUhvNHRaa0VBVTJoU1k?oc=5",
+      "source_name": "orfonline.org",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4343c7425386189b",
+      "published_at": "2026-04-04T05:25:00+00:00",
+      "title": "The war in Iran: is Trump \u2018on the run\u2019? - The Week",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5JQ0VMVGlmTjhaR2FYR2ljNTZZSTZsOENEbjF5V1h5UVVKLWhGaFFUaUFyS0FMZkUzMDRLb2x2SHFmazdvcjl6Mk1TbEZVY3RpZ19BOFZ5ZXE5QUhoUmlpUklaWms?oc=5",
-      "source_name": "theweek.com",
+      "source_name": "The Week",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -174,26 +278,11 @@
       "confidence": 0.55
     },
     {
-      "id": "9a8ccb1696a19c6a",
-      "published_at": "2026-04-04T04:52:30+00:00",
-      "title": "Iran war: Search on for missing crew member of downed US jet - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16d3FicmJ2MGxXcVFkd0tjZ1d5dFlMd282VUVBUEtqVUhWbGx6M0NJMkVpTEpORFZ0QWctSkw3cDRLTmtSaXJST1lkbGZpR3dmWnJ1UjNVbkt3ZEpOeWdZdVlkNmNIdEprcGV3X1BYbkRsMTA?oc=5",
-      "source_name": "dw.com",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "980d9115e1a227ad",
+      "id": "148ba658e056eadb",
       "published_at": "2026-04-04T04:49:43+00:00",
-      "title": "Two U.S. warplanes shot down, search ongoing in Iran for 1 missing crew member - The Washington Post",
+      "title": "Two U.S. warplanes shot down, search ongoing in Iran for 1 missing crew member - washingtonpost.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNV2k3RzVva0hYbF9UM20yYzBfaVlBOHRVQ1BSQ3NWUU54MlJFM0M4WHRoUm1zSThjUVlxZTNKSnEwNzNlZklDT0RhSVJzanlJdDNoLXNDcGdYT2RxMVZsVTIyUVRJZUZ2Z2xSdm9WVEtvM1dfSkJuV19uQ25HTGNRZ3JaSDVWb1ljQ0EyNg?oc=5",
-      "source_name": "The Washington Post",
+      "source_name": "washingtonpost.com",
       "event_type": "other",
       "actor": "usa",
       "target": "iran",
@@ -219,21 +308,6 @@
       "confidence": 0.55
     },
     {
-      "id": "cddc69171b803ac4",
-      "published_at": "2026-04-04T04:46:15+00:00",
-      "title": "US\u2013Iran war continues uncertainty for global auto industry - S&P Global",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSm41LUR2dURDSERZbzNWQ3lOWEdZd045eFBsclBoME9JQmctOXBpemE5WHM4WHQwQkNzdUFfWGNVejBuWnctS2FmUjhMU3duZk9DUmxEeFU0QjVJemdVLXNOUnBYT0VWd2hXVzZxMWwybWpEQm1LaUMySHk3WmRJby1QZV91akpkMWNDZXhQWlRYam5UaUNmSnRoSzRHSno1NzQ4WUlHSFpma1VhcEE?oc=5",
-      "source_name": "S&P Global",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "bbdb6886d24ec531",
       "published_at": "2026-04-04T03:56:47+00:00",
       "title": "Iran war: What is happening on day 36 of US-Israeli attacks? - Al Jazeera",
@@ -247,21 +321,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "803929162db89265",
-      "published_at": "2026-04-04T03:08:53+00:00",
-      "title": "Trump declines to specify US response if missing airman is harmed in Iran, says 'we hope that's not going - The Economic Times",
-      "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNU3o1WFFld0VHLWFqa0JIWlY3YjRCUFluaklfaTlDbHB6cUU5aU9ZZnhXNmNJanRVY0puQ0ZzR18tbHZIb3BjXzNzaXQ3QU43UmpVaVhOdVJKRk9tTWtSRVNMcWJpSWZYbENyeGpkM1dsNXlYempPU2wwa2loem5NV1M1N0pHZ2x1N1dzanJHc2xneG92NGFxcXo4UzlFSHhNQW9PUlhjUGUwVGNaMXVXUjBFLXJHNUYxRms3WVdiSVdtM1Z2VzljYXZDQm9jd0ZBVXBMTjIzaFZOQ25MWE90Z1llSnNMdFBUSFpzd1ZETjM2aXo2bFVhcU1EYTlxWW45VGtIc2xud3FzNVFKT0QyNndlMURtREMxR0c3MmJXZFY1M1Q3OHfSAasCQVVfeXFMT3NWR1NVUVpMazNLSGxLdk9qczlKWHlSREM2bENacVBmNkJHaTRYUERuMTJVY2J6YWtJN2RXT0ZiajhWdFVKVHpOYTgycEZPQXByZkZmTnFyV3RBcGwtRWpScXBSOFcwZDh5NVN2YUU2MzJ6Mk00NHFnaU5pSlBkNnBvUGhGRDFqdURfNHl5WERXSTRSYXRSS3BrV1otVi1FNnZNRy1ZeVpwOGNPS0tIakdfeWY2cEhZOUNwdkpjYk9aMUQ5Q0dsNEs4MGVhVXRibGVqVnhXWVJ3SUhtTkpycVpOTFZxNFBxbUhlYzBwWF9xZ1R4SUlKOF81c1QzcnJON25ncGxRRFlBMkZwNXlyTzBCU2hfc3RIMW9SWkFLblR6cGE0dTFQeVJmR0E?oc=5",
-      "source_name": "The Economic Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "54a636f93cb25824",
@@ -279,21 +338,6 @@
       "confidence": 0.6
     },
     {
-      "id": "0360b5e9eab977ad",
-      "published_at": "2026-04-04T01:57:53+00:00",
-      "title": "More than 20 attacks on Iranian healthcare facilities since March 1: WHO - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOSDVSTVlINkJNUWVwaENTM0NUci1LZ3BWNDBMMzNveWhYMmFlZkpMTHM4ajVZS0g2R2daaGxMU1lGZlJ3VndHaTYxSmdzLTR2S0FXNEZwU1Rwb3k0b29wSHREd2R2VTRnU21qUmZxV29qV2FvMmFOVHpQS2t6TGMzMk00MXo3OVRESHU3c285cXpZZ3ZYM0FUYV9CTUFnLVRhdG5wa3YtTmc5X1FEVENTbtIBtgFBVV95cUxNYzdJekRoaVk5X2RPOHVvcWlqQ3lnNGtEWk9iUVR4M3kzRmdsemo1MWFxNHFPMnVCQV9ZMnFwcE1mWUl6QXNMR1RqVmxJN1ZaNFlfaGl0MGE1bEpKdnBTQUtTUUJOVEQwMms4Q2NzVkpkNmNmTWxOZUN5cTY0Y0tDeDMzV3A5aFZqdGpoTWZXYm5MOVZnamtrNlV0c0R5R0VXTm5qdDJ2S3Q5OGgwdjBoaFJSUXVCZw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "ec68da7ef85798c3",
       "published_at": "2026-04-04T01:53:37+00:00",
       "title": "Over 100 US legal experts condemn strikes on Iran as possible \u2018war crimes\u2019 - Al Jazeera",
@@ -307,21 +351,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "593ad7ee0a3d076c",
-      "published_at": "2026-04-04T01:43:46+00:00",
-      "title": "'Force Americans To Withdraw': Iran Warns of 'Crushing' Strikes On US Assets, Regional Host Nations - Republic World",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaklTTlFIWTEyckZScnRuc19HVjE2M2VKSXB2M0VUMHNTa1ZtQTlIZmxQUjZ6dlREaUkxV3NCczdaaGtiR0FSN3Fza2JDMHdyeXAtOVFuR1l6TzVyb01vX1FOMXhVSlFPaDQxdXBNZGJvT0ctZkN2TjBmV0VUQkdGbkNaLVUwTlZsUzZEb0Y4YTNfQTFDQXVrVjZFMTJ6N3pkNUZNRjd0SWZyQWw3VG1QeVdOTHhFTE1TX1FXb2JEYnQxYWlWdXNyUUxEZWlKS1HSAdQBQVVfeXFMTW81bDB2d0hsTnkyUklJQjRjZ0NCQUZjRDB5YUg1WWttNW1IRHZTWkVBMVN1Rk14UjlwSnUwNEdSRGlIQkZ5R1pZZVBGUUo5M1kyVU1OZWFSQ01YdTBXbWRpMnAwZHRCVUZOLXVIWGs3OUY4bGJPSzBXWjNvUjh0azZtQWJpSmlaSWh3NmdaQmM5WFk4a1ZLREpPMzNnQXFjbDVRTHRMWGNfbkViaTdsaDBLOTYxRnRxMURHOFFaMloxQkc4dS1xUDM0Uzk0MkNpUE5yam4?oc=5",
-      "source_name": "Republic World",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
     },
     {
       "id": "005a12e59b35ccc1",
@@ -359,36 +388,6 @@
       "title": "Tell Me How This Ends: Six Questions That Will Shape the Outcome of the US-Israeli Operations Against Iran - Modern War Institute -",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOR1M0cU1lazJRV2dUMHA1RjREdlRWNzFWNkpSRUdpd25Mc3dDRTMzMkZzNXQxTmpDWHY1Q1N0SE5MbzF6TFVnbUF1VTBQbVQxM0s1MWdybzZTbmRjWER4VDBnUjVvZGptd3NuaXFUcUNwWkxlT181aUxXWDRhMkV0SEcxYnhDcjEtaExTMjd5U3RXWl9JdDNSblNJNUxMdXVhT1ZSb21fM1JpQVFyTG9MMTlZYURxSTBtblF1MFBwSmVmbXRrTWxLZXRtWGI?oc=5",
       "source_name": "Modern War Institute -",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ce48abe57bd4b6cc",
-      "published_at": "2026-04-04T00:28:56+00:00",
-      "title": "Iran hunts crew member of crashed US jet after one reported rescued - nbcrightnow.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPR2g0ZzZFZDJDNUcwSDhONTdJbldiNVVDQWdlTVZHdjVpN1FkZFkwcVo2WHlnemlqV2NlZjdCU090QWpqdGlCcTZEMmRpbWtJSWFOTUdxZVA5bGRaUDBCX18yczlxeDZ1TV96aDhjQVlhdXQxR2tEa1Nra0g2YTd5T0hLcGgwc3VSQy1jTmVfdnNMSGNUSU5uOUVYTnl0X3ZBbkRqenVDcm9vWnRuMGRoT3JxY1ZZWkNTUzQ1dHh0dm9YeGI0QXBRc1oyemFBUGxwUHR1Y3RMWWo?oc=5",
-      "source_name": "nbcrightnow.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cf9e725c0cddc21e",
-      "published_at": "2026-04-04T00:15:06+00:00",
-      "title": "Search for answers amid reports of US fighter jet shot down in Iran - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQWdJdURPUjVzVkJRenJ2dmxFVlZXUzdXTzI1Rm5wQmJFQzZFZ2xLLUV3WDFid0ltWDRwcThoZlREdjFDVktrMHp5MExGNm9DRmhLZTQwVmpzdUxqSHRhMFJsU3RTSjJaTGxhYnl5T1cxc1ZYbTRGeXdkTXhoVWQ1VTdKTk1JRTlwOHJTNzA5ZmfSAZYBQVVfeXFMUEJNdjdHUXVXM285eXkxclBDYVV0ZkNhUUNWVEl6WHFvdHNZeE1Fb2VwX0ZRUEVoSlNEc0R3SzBkVlFmNFJTLWJ5Tk80ck1CQW51eS14eXRDaWM0NzM0VFFGWjhzY0NXMEdLRG5mMFhlUnJiUFVVc3NxRnZkYU83aXBmblJRRi0zTjlnb2NkRW9VY0pvMzVn?oc=5",
-      "source_name": "NewsNation",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
