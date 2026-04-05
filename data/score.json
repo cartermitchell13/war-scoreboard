@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-04-05T19:05:35.640952+00:00",
+  "generated_at": "2026-04-05T21:48:43.832160+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 88,
+  "event_count_window": 93,
   "totals": {
-    "usa": 21,
+    "usa": 22,
     "iran": 16,
-    "lead": 5,
+    "lead": 6,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 18,
+    "usa": 19,
     "iran": 7,
-    "delta": 11
+    "delta": 12
   },
   "confidence": {
-    "score": 64.4,
+    "score": 64.7,
     "label": "Medium"
   },
   "event_types": {
-    "material_loss": 4,
-    "other": 53,
-    "attack": 31
+    "diplomatic": 1,
+    "other": 56,
+    "material_loss": 3,
+    "attack": 33
   },
   "history": [
     {
@@ -91,14 +92,44 @@
     },
     {
       "date": "2026-04-05",
-      "usa": 6,
+      "usa": 7,
       "iran": 4
     }
   ],
   "latest_events": [
     {
+      "id": "4c2da27d758828fa",
+      "published_at": "2026-04-05T21:26:01+00:00",
+      "title": "Ceasefire initiatives collapse as Israel and US prepare for next phase - www.israelhayom.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcGhIV015U1FMZy1MSkwxSXZjbmdfOWVVbWVleXp6bmhWTmRpYkxpRkYtMXB4YkNDbTN6a3RNVlZ4ekNpMUlfdF9RZFNiVldNR1ctdlkyQUxWaFdxNl9LUnZiSGI2Y3VVU0tValNvaW5HTUdXZEpLWUNtNHNhaHJqaGxGMTByb2RnNFdBbU5rODNQWEEzdU9YdXhRcVYxTkpwMzlCckFHUktIY1d5ZWtr?oc=5",
+      "source_name": "www.israelhayom.com",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "33776cfef3502399",
+      "published_at": "2026-04-05T21:17:02+00:00",
+      "title": "Iran war updates: Tehran rejects Trump\u2019s \u2018helpless, nervous\u2019 ultimatum - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "f6ac6e4bc69bb775",
-      "published_at": "2026-04-05T18:50:07+00:00",
+      "published_at": "2026-04-05T20:42:04+00:00",
       "title": "Iran War Live Updates: Trump Escalates Threats in Truth Social Post After U.S. Rescues Downed Airman - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qSHMxMnFKRTJKM1pOck9RdlVnWjZtMkZMZzNxZ3ZiTWY5eEJkeGlJdm1EQkFnQnBxclFmYmpIS085Z1dtOW1tdEdyQkZIUjdkMU1la0xIUHJFNHlGaEVaVjBteDFNVzRPUlc3bjNKakQtUG8?oc=5",
       "source_name": "The New York Times",
@@ -112,8 +143,23 @@
       "confidence": 0.8
     },
     {
+      "id": "15aee8e5789735c6",
+      "published_at": "2026-04-05T20:29:24+00:00",
+      "title": "US-Iran war LIVE: Iran vows to respond 'in kind\u2019 after Trump's threats to attack power plants | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNVhyc3ZJdUJHa0VOUzhwMk9ucENFcldRZ29Ua1R5ejk4S2VDS1kwX0VWM0c1YXNFd0Rrek1KWDBMS3g5cUFMT1pNMVpSU1k5ckNBdUhRbkN1Ulc2NXpNT0ZfY0VheDJmYlNBWHR4VU9ja1NSbjJxZEloUk5PeUpLYVBTazhjbklSVnM5WE45Sm1pdkczZ0N0S0lPakRWd3g0V09sOVZ1RjVxYkZCRGp3a3R5aDVIdHlscWpWTTdXeTBUR2kzWXh4M0VMa2tFd2xwd2JTakpoY3VreTBnMGxNRUMyXzhfLWsxWWx2NFJEXzY1bmktSk5acVVIazdnQ3NGbVpEeGIzT1hDQkpJRUHSAZMCQVVfeXFMTzRza2tJX2RocWI3SmdoV1h5QXNSakpIOUpVWXpHd3UyOEdBV1NRZzgxdElGcWUtS05IZFhNMnMtWUVVdGxsQVVnd1daQ1YxLXZ0bEFyaDRaZnNjQjd6R2p5RU85algxM28wSm9QZHdNZmN5MkcwTkhTWC1SWFh4MXJQdXA1REdxX29qUFFSUlZBNFh3cmNGZlloLW01NW5mdVRIUzgzeTRTWTY0Q0M1VllfOTRyS2NDQ2FkVVY5YUZWenZXLXdobGE4UGR2YkJZT2ZCZVFOLS00MDZlbkI2YUl5Z3MwWHN1Z2N0T3NWbjVydU42dWp1a0dfeWpETDBvR0tFQTFnaHhCdE9rNzFXejlaWmM?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "2dd2c635b6c229e1",
-      "published_at": "2026-04-05T18:47:16+00:00",
+      "published_at": "2026-04-05T20:28:25+00:00",
       "title": "Iran-US war latest: Trump tells Tehran to \u2018open the Strait or you\u2019ll be living in hell\u2019 in swear-laden rant - The Independent",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWGg5WWVzZFFycG5iaUJDOUx3RzRqVWdOQVhwZG9vMjMxVWtIS3V3UU13TkRXVkc0ZGxiUllnTFRvaVVhZ3ZPS2dHekVFNTRVSjRzTzlLdmdrUzk3QmZVd0JmRnl3Umg2ZTZRcmpvTUlYbXhmOUQzbzR6SlJkaDRySG1wOUtvYVZFWGNZLVdvLTBLUGFmSGVYZWJvVlVUbWUzRmtGbVo4Z0JHZ2Znb0tMM2duYTJJbjNVVUp5ZA?oc=5",
       "source_name": "The Independent",
@@ -125,6 +171,141 @@
         "iran": 0
       },
       "confidence": 0.6
+    },
+    {
+      "id": "722b9d99ad22ce51",
+      "published_at": "2026-04-05T20:27:41+00:00",
+      "title": "How will the Iran war change the Middle East? We asked 5 experts - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSUFRWmJBSVh5OG4zMVpuOWdkWHpEcHRYcGFKNVRNN25rTktrU0lSNzZmSlhBS2c1dWJOQ1FFbFZ5akhqeFdFVGZvbFFmeDBZU3F5bzB2SE5WaXlJU2dSSzRrOC1oMnZDcl8tS1AtRDlQMHBGRnNBTUhYR1NVMU1qeEdUQUZDZk1scDVieWlRUUFvcFRlc05CMWRqanNlWTA?oc=5",
+      "source_name": "The Conversation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1fc930e4d50ea2f0",
+      "published_at": "2026-04-05T20:21:52+00:00",
+      "title": "Iran war latest: Trump hints at Iran deal after threatening new wave of strikes - The National",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOWxvVElTa2JrNHBjUlB0ZkliSEtVZGV3MzdockdZangwSnVRSjFza0ZJY1V0eGs3ZFU4SEstcEVCdDJtRGhzRjJzMER3ZmFMcUNTSEk1YzFhYzJ6My1tcmhyeDlkNU1VRGQtc0N4LVlQVGtDa0FQMS16Q1ZxVl9ERlp2X25Bd2taRmtzQndBZmxNWml2d1BvNUYtNVA?oc=5",
+      "source_name": "The National",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bcf3f936b482d336",
+      "published_at": "2026-04-05T20:15:57+00:00",
+      "title": "Trump Revels in Threats to Commit War Crimes in Iran - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMWFURjBxRi1hTmU2YU9SanFWYWVXX2pGRDMxSE9CRFN6VGppY05LWFJIeG9vOThiWVpmN3A3N2dzbTYzUFRVeU5GLTN5YkxsWnd3el9zNDlaa01yb3hUZVI0dEhSVkxHTVVCVUllOG9aUHpfRTNrSnhVOU4zSHU2Y3BNWng3cExXWDhDZ3MwYw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "2db94397186dffec",
+      "published_at": "2026-04-05T20:14:11+00:00",
+      "title": "How Democrats and Republicans Are Clashing in Week 6 of the Iran War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRThSV2ZkMlhZY0hzSUx0NmNRbEphem80TUFNRFNVZmZBeTdXMFhXZzhhZ2tDMjdqVWk5NzItR1FnUm1IclZUSkZwSVRRaG9tWHdRenZjbHo3d0xfOXF3dDc4WVFpRVJHa0d6SkM0a0VzQ3F4Wi1yTVlRU2kxZE95NkdIdldMT3l0cDdBazF1anpCZw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9bb845783c66492f",
+      "published_at": "2026-04-05T20:02:01+00:00",
+      "title": "Analysis: Trump declares victory in Iran war after rescue, but threats to US operation still loom - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rQkt4YlVRMk9yRkpNcXlYMThERlBOZGV1U29NVHpudTFseUdwXzBNNGZvZkNmeTdaUjR1YWRkVVI0Y2lwQ29PaGFMYXNPaGo5cDFhc0NfMTlBZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "43d900c6d2994592",
+      "published_at": "2026-04-05T19:31:12+00:00",
+      "title": "Trump issues expletive-laden threat against Iran as details of U.S. aviator's rescue emerge - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORmlIR3dHd3hFMHNXSWwtd0s3MlZXcEdZQ0xnRDZzb1hVNUo3RTRrZjB0ODRZQm55MHdtdDFfOEtQbHZrRVFnV0kxZmpHZ3hBamVQdXowMkhjV0FLVTlyVzZESXhDYmJSX2EtVVZ2RUN1YVFGUGdyTko0em52WXo1OFpMUWdzWi1uSHAzNFoydzR6SzRndDltYmE0aXM4azF5TERlV0RySVpJWldObXRSU2FsOGQ5T21BUUF2S3dSTWVLQQ?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "f925290235b575b1",
+      "published_at": "2026-04-05T19:18:45+00:00",
+      "title": "Trump Again Threatens to Bomb Iran's Power Plants if Strait of Hormuz Isn't Reopened - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rdE9SNGh0QXl6dHhaeHVmOURNYWVaYmRSYmRIWUYwaHBjNFJIdUkwNnBGZWI4aGlJNUw2eUJQcUxrWkc4Z3JxdTJWUUZRT0Y1UmM0R290MUtTU1Q1ZlVnNHFCRXF6dXl0NHQtVGVxeFdiQzIyWmc?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9d2657dd6d38e4a6",
+      "published_at": "2026-04-05T19:14:41+00:00",
+      "title": "Plan in place to strike strategic Iran sites if deal not reached, sources tell 'Post' - jpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE82VGlpa05XS0hORmhTckdGWlpEdHl0ZWVXb2ItY0x4UTlGbUFwSU9lekhCNVNHYlRyUGlYUFdtM3BHREo5c3hPWWRwREJfNk5GVjdyVWU4bUhkLW14ZFA0V00xMU13YWVtS0E?oc=5",
+      "source_name": "jpost.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7d1d4b26daf26b4f",
+      "published_at": "2026-04-05T18:57:16+00:00",
+      "title": "Ahead of his latest Strait of Hormuz deadline, Trump threatens Iran's energy infrastructure - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNNllGZkFQWlE4Y0NTMXFDNDhudWdGSnZLMXdFSy1ELVRjUk5UV0JZOXV2TUpRcHlmdXZYNHd6TnRldmV4RW01TEFNZmJCbzlzUFZOSVRxZE9lcjFxVlAtd1RCbTBZai03TTdMbzV1dXlPM3RzQ2dUSDB2bHdxS1lVVWhERTZ2emNsc0pIb3QzU1RpQkE3SDZkZ1dpc0syZXRpTXlFNTBDMHdkaEMzSHVV?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "f3c3faf13e7d13d0",
@@ -142,19 +323,19 @@
       "confidence": 0.6
     },
     {
-      "id": "a8e11e4f3f435cf7",
-      "published_at": "2026-04-05T18:41:57+00:00",
-      "title": "US-Iran war LIVE: Trump says US to attack Iran's power plants if Hormuz remains closed by Tuesday | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQNVhyc3ZJdUJHa0VOUzhwMk9ucENFcldRZ29Ua1R5ejk4S2VDS1kwX0VWM0c1YXNFd0Rrek1KWDBMS3g5cUFMT1pNMVpSU1k5ckNBdUhRbkN1Ulc2NXpNT0ZfY0VheDJmYlNBWHR4VU9ja1NSbjJxZEloUk5PeUpLYVBTazhjbklSVnM5WE45Sm1pdkczZ0N0S0lPakRWd3g0V09sOVZ1RjVxYkZCRGp3a3R5aDVIdHlscWpWTTdXeTBUR2kzWXh4M0VMa2tFd2xwd2JTakpoY3VreTBnMGxNRUMyXzhfLWsxWWx2NFJEXzY1bmktSk5acVVIazdnQ3NGbVpEeGIzT1hDQkpJRUHSAZMCQVVfeXFMTzRza2tJX2RocWI3SmdoV1h5QXNSakpIOUpVWXpHd3UyOEdBV1NRZzgxdElGcWUtS05IZFhNMnMtWUVVdGxsQVVnd1daQ1YxLXZ0bEFyaDRaZnNjQjd6R2p5RU85algxM28wSm9QZHdNZmN5MkcwTkhTWC1SWFh4MXJQdXA1REdxX29qUFFSUlZBNFh3cmNGZlloLW01NW5mdVRIUzgzeTRTWTY0Q0M1VllfOTRyS2NDQ2FkVVY5YUZWenZXLXdobGE4UGR2YkJZT2ZCZVFOLS00MDZlbkI2YUl5Z3MwWHN1Z2N0T3NWbjVydU42dWp1a0dfeWpETDBvR0tFQTFnaHhCdE9rNzFXejlaWmM?oc=5",
-      "source_name": "Hindustan Times",
-      "event_type": "attack",
+      "id": "acd866571f118cb0",
+      "published_at": "2026-04-05T18:39:39+00:00",
+      "title": "6th week of US-Iran conflict | What's Your Point? - FOX 26 Houston",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1vanhUcVhXZ1o3SmRia3RVbHJ3emtvTlVOUmI0M0d0cktqZFdjVjc0Ungyc0NHb2FJV1dWZ2g3dXlTQzFSN0NfT3BURlk0cDRwQXV5a3BtWGlNZWV5eV9UWXp0RmpGQdIBa0FVX3lxTFBhZjNSN2hDa0dKVHFZRkNRajR4Nmp0dmhIOTA1YmM4MnY5X21TaC02Q3NyZmRNTDdJbUJKRWZnWW82N3A5SkltWU1yRmtsbUJpRDd0OENqb2xjRTY1VnpUOHRseUljZHhoc3ZF?oc=5",
+      "source_name": "FOX 26 Houston",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
       "id": "85b971e3a0a96075",
@@ -172,55 +353,10 @@
       "confidence": 0.55
     },
     {
-      "id": "623bbda909f29ad5",
-      "published_at": "2026-04-05T18:19:55+00:00",
-      "title": "Iran war: Trump sees 'good chance' of deal, warns of 'hell' - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZFBXUC0zTU9VNWM2OFF2Z3JnVkE2YkNMUk5fM0NrdlgyOVdUY0NjNHpvaHNYaWRTTlFNSmNxMlBmT1BMRUJUa2lDZEVMZV9SVFQzMWpSRjY5OGtpTU1GWlBhNHdsVGxpZWlVd0hTaDRvM1JDMktMTUhFS2lMVENaQmc2ZlhwS2ZwNUlaSm5mWUNvY2xmZmVuUFFVWUpGQk9KR0E?oc=5",
-      "source_name": "DW.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "33776cfef3502399",
-      "published_at": "2026-04-05T18:16:28+00:00",
-      "title": "Iran war updates: Tehran rejects Trump\u2019s \u2018helpless, nervous\u2019 ultimatum - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa29zMk9Cem13bFBiN0g4NUVKczEtMWw1ZEhoejJtbkNFT1NoUjlKbjdFMnFUUGJvS29acFdUSzIxVlBidU1YblFaRHlWQ0N4SjRyUkc3SHNRTENibFlPLWN0bHFRY2dtZlpLOEdUak11cXJlZmIwc2E1NzNRSTFaeWduUFFNWTFzenkzMVMyQTVEQ0RlWW5tWVdnRmJZVmhCZjI1ZEktdHdncE12Q0V6MTQ1UTNmNUJLZkNR0gHAAUFVX3lxTE82eDNBSl9KRzVNXzM3UnJvTXFpZ0pZb2tqc3VzQU9yczZ0dTVNNU1GNGx0RHQ3MklNdVoyc2hLNWk0aTJaYWxNSklIaDc5WXlmcHcyS0tRZVo3Z0NyRjBXdVgtUlNDS2pVVkRTQk1Qck83akJrTXl6V2hoQXpTTy1SLWpvMDE2UlVGX2RDazJlTDFyZGdrRWQyakxlOURZd3paMFhtQTBaRUgwYzJWZXFnSnpiVXNFU3FTSTR6VEhfQw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "08a02acec2bc3161",
-      "published_at": "2026-04-05T17:49:39+00:00",
-      "title": "Trump Again Threatens to Bomb Iran's Power Plants If Strait of Hormuz Not Open by Tuesday - time.com",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rdE9SNGh0QXl6dHhaeHVmOURNYWVaYmRSYmRIWUYwaHBjNFJIdUkwNnBGZWI4aGlJNUw2eUJQcUxrWkc4Z3JxdTJWUUZRT0Y1UmM0R290MUtTU1Q1ZlVnNHFCRXF6dXl0NHQtVGVxeFdiQzIyWmc?oc=5",
-      "source_name": "time.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bcf3f936b482d336",
-      "published_at": "2026-04-05T17:39:35+00:00",
-      "title": "Trump Revels in Threats to Commit War Crimes in Iran - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMWFURjBxRi1hTmU2YU9SanFWYWVXX2pGRDMxSE9CRFN6VGppY05LWFJIeG9vOThiWVpmN3A3N2dzbTYzUFRVeU5GLTN5YkxsWnd3el9zNDlaa01yb3hUZVI0dEhSVkxHTVVCVUllOG9aUHpfRTNrSnhVOU4zSHU2Y3BNWng3cExXWDhDZ3MwYw?oc=5",
+      "id": "8d64f1ca160f88e2",
+      "published_at": "2026-04-05T17:34:46+00:00",
+      "title": "Iran\u2019s Downing of Plane and U.S. Rescue Leave Both Sides Dangerously Emboldened - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9BUDlXRzdqMjNxYnBnWTc2NFhqVlNTQ1BOZV9id19sYjBZcDR4WHdTOTZNdS1BYUFqRWhfMk1Dd3RkbURDQlJjYXBJVGplcGFDSlpmQjVDNW8wWjczOE9UWWt1WlFpdmRsRHUxVVBHTmpITkxVOU8xOFM5RQ?oc=5",
       "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
@@ -229,37 +365,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "d7ee7b8d1d837a09",
-      "published_at": "2026-04-05T17:31:15+00:00",
-      "title": "US airman rescued from Iran: Trump - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE82NUhtWDhlOWVqLTFEYlQ4dmVReHF6VjBxZ25KUzBMMEtyUmJQZXFwbE1jMm9CeWFhS24tRUY4aldNSnhFOThiRFZ5UXFQXy10SUpiRXNDNEdDYm9BT3BlQ3YwdW9kUTlyTmF4dNIBckFVX3lxTFB4VWRYVzJOdUhkZ1RXUXo0dDdjRE1VSHB3YUlocGFBNEsxVHpZbFJOUm1DMjBYVDFiR3l2cGVFWDZXOWRTVURNeG9ObG5BOHhVT2JqVXFMX0pzSWxON3ZhMlJ2NnVqLTZMdXFBYlJSclJaQQ?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1fc930e4d50ea2f0",
-      "published_at": "2026-04-05T17:21:32+00:00",
-      "title": "Iran war latest: Trump hints at Iran deal after threatening new wave of strikes - The National",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNOWxvVElTa2JrNHBjUlB0ZkliSEtVZGV3MzdockdZangwSnVRSjFza0ZJY1V0eGs3ZFU4SEstcEVCdDJtRGhzRjJzMER3ZmFMcUNTSEk1YzFhYzJ6My1tcmhyeDlkNU1VRGQtc0N4LVlQVGtDa0FQMS16Q1ZxVl9ERlp2X25Bd2taRmtzQndBZmxNWml2d1BvNUYtNVA?oc=5",
-      "source_name": "The National",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "40e2c2ec92187ce0",
@@ -290,111 +396,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "891ea909e974c527",
-      "published_at": "2026-04-05T17:08:31+00:00",
-      "title": "Trump gives Iran 48-hour deadline to reopen Strait of Hormuz or face new strikes - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQOE9SWkFjMWdQR0lKV3AzTHZSamF5YXphMzc1XzlsOXM4b2hPYjBNd25KZ2g0VHhTbUlJdEx2S3BsbGJ3WWRuZk5fNmM5NXFLVlRTUUJaMlFkOFplV0FVNElwekxEeWFVVzJYZXZxUWpJVDRBc3M1Z2R6UkdMZWY5WEpKemtOdTF6cDZudHZiSS1GWXZlaHoxZ3JDQnhWeEJQOEF3OUxLcHRLZ19GNnU4QU13dVp0T1NRZjRZeGEyNGVuM3ZrcXNwZk1MRXluWXpwcUE?oc=5",
-      "source_name": "Yahoo",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ee543ae5259d210a",
-      "published_at": "2026-04-05T16:06:47+00:00",
-      "title": "After Trump\u2019s threat, Iran responds with \u2018don\u2019t forget this failure\u2019 message - Mathrubhumi English",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMTM2SC02Q2dtcDIwb3I1emJnM3NUQmJEU2NzMnhfclJhR3QyYnptMC1FR1RSS0ctUUVJMEJTRWVxUjVhaUtla184UGpzdVBDQTZ0X1ctdTQ1SjdnZG1wZ2JJNUpGcEZzNmRuOEZEWXNpQy1Fd0NtTHIzNjg3UnhSTVpnRzlRckZPd1FROHZOUk4wUWdvR1JDdFg2anlNQlU2emNGS21XYlcwd2loLXduTzJUUzBCcEYxQlktbW84Qm_SAcYBQVVfeXFMTjJZXzNwY2RHZ1QzQnpqSnNvcWxtTHlQWF9yS0FhN1VFOExndUpLLWlCTlZPaGhnS0dNbFB3UWdpUjdPSUhuOTVvaWpvQV83andxTlhaWXF2OVk1QVFtOGVac004aWNmYlEtV2F3cHhNdmw3SmZqT3FMRHpUTnZTbVNFejZUZUIwU25vQmVpTHJQb29hUUdfam9neWljZEZQQjZqVmF1RHc5OVIzeWxxMXZVY0NyWmpYa09FV1hTTnprTmNvNEdn?oc=5",
-      "source_name": "Mathrubhumi English",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2f6cd460d39ac0d5",
-      "published_at": "2026-04-05T15:44:17+00:00",
-      "title": "What to know about the rescue of a U.S. aviator shot down in Iran - PBS",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZW00UUVVamFGbEdDQnNnejJxUDRYbVhwdDlMZ1ZvaWYyWE5GSmVTZERGZndiY2tEWk9UWk40R2JmdWc3Sk45YWRKT3dzUkJDTzhycmJ3RGp0OEpZYkVfcV94NzdKeUZHUXJ0MDJnZVFYa3lBSUlRMl9JSEh4TVFHSXpZOUVRbXBObkpTc0tnYUdpeHVvRU04eXFoc0xOa2lv?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "43d900c6d2994592",
-      "published_at": "2026-04-05T15:41:35+00:00",
-      "title": "Trump issues expletive-laden threat against Iran as details of U.S. aviator's rescue emerge - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRXFmckhWNmJtc2RXLTh2SHQtdmpPcEs2d0hKeTM4YVY4aWtXU3hxRElITFltbXR3ck16WG1UbHdEaFp5WVNKTkMyN2xJZ1h5SzlOeDFJanRNRW9EcjgtM2RpUDU3aUQzdVlnSjMxR050WXFIMU5EdGp0MHI5ajV6c2NIcVhqb2g3QVN6SFg3bDVMdTJFem1ncHBjdDJHOXVLNGNlLTZkZ0RvNVN3ZVhfRFNPUnlTOVZSX2RpelJmYS0wRms?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "0862bae78e49bf9e",
-      "published_at": "2026-04-05T15:41:07+00:00",
-      "title": "Mearsheimer: No signs of quick end to US-Israel war on Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd3JkeDg3M3pXd0FCN00wQjQxbjlMc2EwdlRuZTR0SDVHVF9VRzNPNGxrOFh3QjRkTlZ2Q2V2dm5Xd295TTFEdDhZQm1LZE1XZl9nSW5KTVhDTHpKUGRBSmU3ekEzMkRqVkhxZWduRUtGcUVaUFkzOFlUNkFBM0N0UHBmcUpmWktuQjdoSjN4NFNWWkpOY0F1MElwQUhkc05yRWFlalhfdFNMVkg3Y0M1ZEhMRmdvUdIBuwFBVV95cUxPS2JCcWZvb2JjYkVFU2hLUkxXXzBWam8waHV2TjFxRlIyMF9hRUhadWRtaG9aLXY3QkF6a2RlaFcwR3hLS3lEWExRMXBuOU9qRThYMTJfMDJTZ1ZxU2NuZUo5VXFuRzlwN0xIbHBuWWxNbjlhQkozVnJPcjVfQ3dtV1VxcnRuZXBsYXpBVzdzT3U1a3h1VjF4WVpFcktNV1NrZlkwM0YtZzZZVzdKS1U1SXM1ZHhaUWppYUtr?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "36d6463d69a74e6b",
-      "published_at": "2026-04-05T15:19:26+00:00",
-      "title": "Missing US Airman Rescued as Iran Steps Up Attacks on Neighbors - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV3pSel80WmZqZTBTNzJiTmpkRXlUbk9ibzVkY2lUZzBsN0VvdUh3eklKM21Cd1FRZlp6R3pqb0hDUnBEMlJVMG1ZYjNLbEZWazk5eU5tRjdDa3hXZXNSUzg2UWpfUGNYcEVJMlU5ajI0WHNiLTRaNzZUQWh1ODBxZ0x3THc2dUZINWxTTnM3LWlrOHBiRXB1NThQbE5yQ1p4TFlYS3Nwd2xGMG8?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "69d05863e9c128e3",
-      "published_at": "2026-04-05T15:17:42+00:00",
-      "title": "Why an attack on Bushehr nuclear plant would be catastrophic for the Gulf - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPaFdXUWRySzVXLUstazBJcW80SFFzNFVPeXd6WFNjVkhQMklYdWo2ZHpHc1BXU0hXMWF0YVZmYVV2STQzdFd6cmlVNGlndi1pYnpYVXUweFhOLVJRXzZpYlN2YWRrMngyUVNETnA2X0UwMG5YR3JpSnVTZDJBMHNjM1BMSGVINk1VbThXZ001NEJYWGowaWNXVHJJdE9CdWlIV2xKLW5PSFB1V3JJS3JKRnkxNNIBuAFBVV95cUxORmp6QkxaQlhyTWtCeUFNbUtfQ2Y2NndBMVJxQk1wazVacWZSZ3VmUUFHSnNGaDhHT0Z1TkdhWmZzekxsaHRadU5zUzd4bFZNWUFQbnd3UTh3Q0VkR3p1QTZSNjV2ekJ2Y3dCT2prY1k0d0M3YUFRdGZYQWd0aW9JbE1EcU9nYTZiS0FsWXFCNkEtR3BPS2hfdlpyb0lEb0hCWmhKQ05GdmpJZUNWZmhVQWw4U0o4MzNz?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
