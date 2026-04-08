@@ -1,27 +1,29 @@
 {
-  "generated_at": "2026-04-08T19:42:30.681942+00:00",
+  "generated_at": "2026-04-08T22:01:48.973815+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 96,
+  "event_count_window": 99,
   "totals": {
-    "usa": 35,
-    "iran": 28,
-    "lead": 7,
+    "usa": 44,
+    "iran": 31,
+    "lead": 13,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 32,
+    "usa": 41,
     "iran": 26,
-    "delta": 6
+    "delta": 15
   },
   "confidence": {
-    "score": 66.6,
+    "score": 67.3,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 30,
-    "other": 36,
-    "diplomatic": 30
+    "diplomatic": 33,
+    "attack": 31,
+    "other": 33,
+    "intercept": 1,
+    "material_loss": 1
   },
   "history": [
     {
@@ -87,21 +89,36 @@
     {
       "date": "2026-04-07",
       "usa": 5,
-      "iran": 7
+      "iran": 5
     },
     {
       "date": "2026-04-08",
-      "usa": 21,
-      "iran": 16
+      "usa": 30,
+      "iran": 18
     }
   ],
   "latest_events": [
     {
-      "id": "6a89de4734493c26",
-      "published_at": "2026-04-08T19:38:31+00:00",
-      "title": "Iran War Live Updates: U.S.-Iran Cease-Fire Shaky as Israel Strikes Lebanon and Confusion Grows Over Strait - nytimes.com",
+      "id": "98642bb26ec9ced8",
+      "published_at": "2026-04-08T21:54:00+00:00",
+      "title": "Middle East crisis live: ceasefire must include Lebanon or war will continue, Iran\u2019s foreign minister says - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOUDNTcXdjSjlDNnowZUJfUzVhZzh2Q2VLbUVaYlBmcHJ5QTczbzFKOFBrbDYyM3QySHdSMlJWd184bVZmeHhSRFdYclJhWWt4TjM2bVhTeFZjQVNyT1JZVkgtUVRYZGQ3dmZNQk9pQS1mbHQ2Yk9JdWY4V2tlLTMyYmJFdXdaLW5EeUpETFV4V3VscU1rLVQ3c0dteWJuNFIzLUFKNzdtWk9zUDNxVlZyd0x0TC1EZURheXQ2SE5KM2NTc3BPTWZz?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "64d41f9fec3cb22e",
+      "published_at": "2026-04-08T21:44:17+00:00",
+      "title": "Iran War Live Updates: U.S.-Iran Cease-Fire Shaky as Israel Strikes Lebanon and Confusion Grows Over Strait - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1USHZLemwzUjhuSW9BWnNLSmNVdnBzYzJxSjA4TGpoRHR0WUJ0YnNpaXBELWJCVGdyNFpBcG1NWTAyWFlfMEIzYy1Ga1daVVRjcEVKR1FVSUhuXzB3bTRTMmFfcW1nQXdsQzNBRkxReWFxNTg?oc=5",
-      "source_name": "nytimes.com",
+      "source_name": "The New York Times",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -112,11 +129,26 @@
       "confidence": 0.85
     },
     {
-      "id": "7b4c96c010e2ebbe",
-      "published_at": "2026-04-08T19:36:50+00:00",
-      "title": "Live updates: Iran war ceasefire begins though some new attacks hit Gulf; Israel says Lebanon not included - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMjVHajRMWFhXeW9KaVJzdzBJa2tYOW1lenNNSXYwLVQ1QWdRR1gwSm5IM0ZtX0JTanpRSHY4UUx3VDIzZFVXVWtGVVR5NVFIMFM0VHlXWE5fLVY1cERac3lFZkhhVVVWdVV6WnVjWldSMGpZRzZ2bnBYSDg1R1hkdndZOUFCMHFJNjJGcnktd08tTUxVaXdEaWVFd2pJVGlKU2NiMGk4WFNNYmxsamw5LXIzVmFsdw?oc=5",
-      "source_name": "NBC News",
+      "id": "409eaec9467da5ab",
+      "published_at": "2026-04-08T21:35:00+00:00",
+      "title": "Live updates: White House says Iran war ceasefire will continue if Strait of Hormuz is open - CNN",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45WVdrUzAtbXJoMFBfb3VYWnJZS2M5TVlJYVJ6anZMRmtUak9ITURsNU9QRWY0djJfc2dNQWVpaHhmak1QN1Nmd3ctWWJ6a1k3Tl9iOWJQdkdURTNNc0ZnUHpzQTRzVllkaC10dzRyZEZwc2Q1anJZRHh3alM4Qkk?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "882da191f328559f",
+      "published_at": "2026-04-08T21:33:55+00:00",
+      "title": "The Latest: Iran closes the Strait of Hormuz in response to Israeli attacks on Lebanon - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPT2lOS2pVOTBFQjFtUWhVX0NXY2gtanZHdmRIbEdpUmY1alQ0X01WTC0tWGpkUklWU2pyRHhmME1GT1I1ZTAtb1phTmpBMlNwdUpMczFDbUFQdlczQTdXTE1zWlVzSlk0TFhGbFpZVTRfUm5iVkRvZXFZeFhZTnBycGpmRGlYeERDLUVfNGMzWnhuMFItaGhpMEtPU3lVNUY1WkVmYWN0V25SMVFrdzNxMzQyQU8xeUlSWDN1clZuUld5cjNtdWVmbThySW80UDcyMmtITVNyQXM?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "attack",
       "actor": "iran",
       "target": "usa",
@@ -124,41 +156,11 @@
         "usa": 0,
         "iran": 3
       },
-      "confidence": 0.7
-    },
-    {
-      "id": "afe537990ea1504d",
-      "published_at": "2026-04-08T19:35:00+00:00",
-      "title": "Live Updates: Iran accuses U.S. of violating ceasefire deal framework as Israeli attacks on Lebanon continue - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUllNR1JLdmFuV2FFOTVNQVc0UEFwWkhtbXVxTEJFcVA0bWVKenJJYWlRSElYaDU1WDg4VkVJajZiQ1hNd0d5VWFPNE40YlZYYWhPN0Z5TnZsbksydlplVmU1VWc0Ulc5cEd6MTk0MzhCSWZPX0ViQWc5eldQTUNiMlFmbWRpbC1hWDBRallTeFNsTUpHOWh6Wk0yT0FxOEcta1Y2WWl30gGrAUFVX3lxTE1Ld25rZDRUSWlXSXpGMGtYS2NoeTZPQXRBRXpnVG5ORW03TzVoSWQ2Z3FqWF9yUG0tQmpyeUlGU1pOdWxhTzBuZ1liUWRra2IxZ21iemZGelVwUjRUUk9NOEU0aUNzU3lsdkxPZUlTZDlyNDJpanZrekUtblUwdDA4VFVpVEl1TVZFRXY1LVJvUlZQaExWSVNvRVRzSmRBRldIVFQtN3pLMnZ0OA?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
       "confidence": 0.8
     },
     {
-      "id": "576447d6f416f206",
-      "published_at": "2026-04-08T19:20:50+00:00",
-      "title": "Iran war live: Israel continues to attack Lebanon and Tehran strikes Kuwait after US-Iran ceasefire agreed - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdVRSTU9iT2V4dDBkNU93UUFkclI0VjlJdHhYV2JUUzZvLTlKaVRmTnpyZ1RaOGRWWWF3QzEyMkxzUEVYYm1uZzRHYklpanZEUzBKNW5tVmJhRThKUGs2S0Fzak0xSFhVbHFzOGpfNFFkRkQ5X0E5bkxZcHh5TUFIcU1QcTZUNjd0QWluMjhOSjN6aGxRbkxnZmNwSHVqV0RkTnBUZml0QnhaT0ZHeE1QYkItQ3EtMkFw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "f5c8791bde30dab5",
-      "published_at": "2026-04-08T19:18:45+00:00",
+      "published_at": "2026-04-08T21:22:30+00:00",
       "title": "Live updates: Iran media says Strait of Hormuz closed - NewsNation",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOcUNDRjZOOWtqRTNzOTNBZjl6eUlCS0FTM2pLY29qLXktMGlkTGNxeVBNODk0U2hWZUt6Nlc2MHZPaWNPcUlIMXlESG1sTHVydndYaVBrbVQ2NEpHdnN5WFMyT3J0eU9XWlFNZzFLd0NrSHpzWHdxR3JKNW9KWFZnMFNQeU9ieTBEc0U3aWtEMjVkMGlkcVFVUWFn0gGfAUFVX3lxTE5LYWJqOXQ0WS1fRjZ1azMtVjBFdjUwWU1tUmkyeERyRWJtejBlejE0ZkF6c2E1ZGEwcVdRT0VfUmx3OUU1TUlzQkxaTWlyakd1c3hBeXVFR2dKR3BGSHpjLWdKQ09obElBQmhJbDhSaXZrQVpCVE5oaGx2RU1RQjN4TGV3NWFVYy1aREVOZTcwMWE2TllyQlNmdUU1czBuTQ?oc=5",
       "source_name": "NewsNation",
@@ -169,59 +171,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "1f428c173f94865a",
-      "published_at": "2026-04-08T18:59:38+00:00",
-      "title": "U.S. says Iran ceasefire doesn't apply to Israeli strikes in Lebanon - Axios",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE52VTBDNXRXMGhVa1A5TGppMktITEZibnRHM0ZRSTJnLTg4U0wxdk5KZ2lmek13WTNpSkM0eTdZOE02RXNNYXRFajNsNFh6MTlkb3ZjbEM0RGIyMGdQRUlJVG9PbHRHakdKazNxbWc0cnp3Ynhqa2k0Zw?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "b155533127fb2e69",
-      "published_at": "2026-04-08T18:38:29+00:00",
-      "title": "Trump says Lebanon not included in US-Iran ceasefire amid Israeli assault - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORHhKU1NVeVMyMGVCZVl0dmJtS1FlWldLYWxrbWlNTURhZnRtSUdfb0FBdkR5YXAwSDJUejNLUnFrTjFSX1dBQUdGTHNXRC1LRFdVak5td3lJTnpPbHptaFRWcHhKdGNZQjhsYWJqNzdWZ1E4QUxtTlpnVGYxLUV6enRCVFF3enNBZjBKbU8yNWxGZTNoOGV0V3Bkd0VMTlJlTVJFNjJqZVI1c2lJeHNuS1puONIBuAFBVV95cUxPMTM3M1gtTkRMdFpnYmRuRWVYTjJjR1ZGOS1FdkNEOHd4Yk9qNG5LR3JSell0UWpJLTloNnF2WkV3akpGT08zNUZuR010NS10TnRmbXZNNjVrZmlCQ2M4elkxVXNDang3UElvdzhDbWpYc1VLM2tvMm15R3B6QV9PQnRGaHdvbDdvcUpvbWFwczBEdFFhNHhoLTF6V1AxWFgyNkN6aVJuc0RUaVhEZmY4R2lJVUk4aHdi?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5f48c47b16662765",
-      "published_at": "2026-04-08T18:35:00+00:00",
-      "title": "U.S., Iran and Israel Agree to Cease-Fire - nytimes.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA4NjZQcHJQaDBaRTlzNEZ5dDJTR1UyWUJibWxBWFhFUjdfd1NFdzZpeGF3YUpObHc2OU5sZjNwa2o5dHZXVEViUV9sUTNzR1JCYzI3VWZqUGxaMGxFUDN3VVpVWjdCWjBCV2hzSXI5SzFGVU0?oc=5",
-      "source_name": "nytimes.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "3cf08ae477d8d377",
-      "published_at": "2026-04-08T18:30:00+00:00",
-      "title": "Live updates: Fragile ceasefire in the balance as Iran says it is halting Strait of Hormuz traffic - cnn.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45WVdrUzAtbXJoMFBfb3VYWnJZS2M5TVlJYVJ6anZMRmtUak9ITURsNU9QRWY0djJfc2dNQWVpaHhmak1QN1Nmd3ctWWJ6a1k3Tl9iOWJQdkdURTNNc0ZnUHpzQTRzVllkaC10dzRyZEZwc2Q1anJZRHh3alM4Qkk?oc=5",
-      "source_name": "cnn.com",
+      "id": "1bd33172c8096d4d",
+      "published_at": "2026-04-08T21:12:20+00:00",
+      "title": "Keir Starmer says a lot of work remains to make US-Iran ceasefire hold - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1pdVpJWTdnMlYxd05WTmwwNVZJenc3Uk5Nd0Mzc3hJVEJiQmpqTnphVnBOQmxIYUVIcFRxR0tSSUFwSzJrRXVyaVFGelBfS0IwdmFaRDRwNW9qZw?oc=5",
+      "source_name": "BBC",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -232,11 +189,11 @@
       "confidence": 0.65
     },
     {
-      "id": "375ee02f4d65af14",
-      "published_at": "2026-04-08T18:08:51+00:00",
-      "title": "Halt in strikes mostly holds after Trump, Iran agree to 2-week ceasefire - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON1RZaXV4Q01xMUFoYzJNWS1zTFE1MzBMOHlvTHNadHg3bkxWbVphMTVOdzhoWURXTUhyTXRoOTI3QmYyMzFoMk9ocng0bUpOWC16eWdVcUNzWlNqc1Uzb0hVdGR2LW5EWVJTcnprbFBCWTdHeVE2cTFWMGg0dDJFSHBrZDBuaGM?oc=5",
-      "source_name": "The Washington Post",
+      "id": "79d6d1923a564a12",
+      "published_at": "2026-04-08T21:11:10+00:00",
+      "title": "Live updates: Iran war ceasefire begins, though some new attacks hit Gulf; Trump and Netanyahu say Lebanon not included in ceasefire - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMjVHajRMWFhXeW9KaVJzdzBJa2tYOW1lenNNSXYwLVQ1QWdRR1gwSm5IM0ZtX0JTanpRSHY4UUx3VDIzZFVXVWtGVVR5NVFIMFM0VHlXWE5fLVY1cERac3lFZkhhVVVWdVV6WnVjWldSMGpZRzZ2bnBYSDg1R1hkdndZOUFCMHFJNjJGcnktd08tTUxVaXdEaWVFd2pJVGlKU2NiMGk4WFNNYmxsamw5LXIzVmFsdw?oc=5",
+      "source_name": "NBC News",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -244,14 +201,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.85
+      "confidence": 0.65
     },
     {
-      "id": "9db96c44d228ee4f",
-      "published_at": "2026-04-08T18:02:37+00:00",
-      "title": "Israel backs US-Iran ceasefire but Netanyahu's war goals remain unfulfilled - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43RlpOcVhlOVNmbkFqQThnT0NkYWM2amM2bE1fX29mZmI2TnRWcUw3WjdGWjdkc2ZQT243dVhQTVAxM1k3YUJDa1lRMHFPNFgtMHAyc1dkOWE0UQ?oc=5",
-      "source_name": "BBC",
+      "id": "0e54ef977b09f881",
+      "published_at": "2026-04-08T21:08:51+00:00",
+      "title": "Iran accuses U.S. and Israel of ceasefire violations, threatening truce - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON1RZaXV4Q01xMUFoYzJNWS1zTFE1MzBMOHlvTHNadHg3bkxWbVphMTVOdzhoWURXTUhyTXRoOTI3QmYyMzFoMk9ocng0bUpOWC16eWdVcUNzWlNqc1Uzb0hVdGR2LW5EWVJTcnprbFBCWTdHeVE2cTFWMGg0dDJFSHBrZDBuaGM?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "diplomatic",
       "actor": "usa",
       "target": "unknown",
@@ -259,14 +216,29 @@
         "usa": 1,
         "iran": 0
       },
+      "confidence": 0.8
+    },
+    {
+      "id": "05ae334fa1d5dccd",
+      "published_at": "2026-04-08T21:04:33+00:00",
+      "title": "The US-Iran ceasefire is better than a wider war. That doesn't make it a US victory - Peterson Institute for International Economics",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV3J2ZmQxU2JyaU5lRFpBeTVqOVdNZV9GVTNGVEpoa0lOSWpBZ01DVmd2OExvaUxpLU5ydml3UHA0SmFBRmZWd1IwMWVqYVkzRkdaYmg2SDQzaGFFa3J2YlJYcFNMeHdoaEMyRWNnVy1qcTllc3Jaa1pNOUZlNkRqbDhtd1dRZTZkUk54b19Pa05HRW9mblc0aVVNOGkzTXA3aW0td0Q3dUtUcEMtaFZIMQ?oc=5",
+      "source_name": "Peterson Institute for International Economics",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
       "confidence": 0.65
     },
     {
-      "id": "f51742f1e034ee68",
-      "published_at": "2026-04-08T17:46:49+00:00",
-      "title": "Israeli attacks across Lebanon kill at least 254 after Iran-US ceasefire - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNFllMTE5bTNYNmRmbkNsLU9jQWtvSmxoZWRKOFRoLTlLZEdEQ2NBWDZhbERzM3RnRm1zQ2hlcnFVRlViNHlLZVFTa1k5UURfNF9Mby1Fdk4wUkZHUmFNZktidVFZUnZ5MENLVmpGUGhhcDNKQWlfM0ZlYUp5N0p3NlpKcmdGUHFlQnF2SU16Z25IaG4tR0ZESW0tVXFGaXpiUnpXTWJESnhxTUFuVFM0Z2V30gG3AUFVX3lxTE5wSjNVdDVYeGNtLWhyWjRPSDZvTlNrZlZzWjlaaW5Zc0M5bnRieWJnb1QyMFljRUNDby1sTEpGeXlZR2I4bVdNYURWQ214SFdIV3V4bVUwM0FVcTJHOUZkZjlxY2FncmZSSXdYMm0tNm44ME94alV3OGRaeFV0THJCeGwwT1pnYVUtUnNJX0ZsWHhQZXBBX0l3am9WNlMtUjNRdzVOd05tZlV2eVowTmJkVS1kTHgwcw?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "43b6ea5493567f1d",
+      "published_at": "2026-04-08T21:00:00+00:00",
+      "title": "Ceasefire is threatened as Israel expands Lebanon strikes and Iran closes strait again - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQM0M4QVNLMzRVZGI1YTVINHdJUWZFYU5DbEs5NjBxNVNkXzU2YUw0VDNlMXE3NTg2ZTRucjRaLXVBc19aaTF5RTA5Q1ZFOTlpZ2NYVUpqUFhMMERzRW5SdVV5dzUyajZLaVowRFR6WTM0Sks5MFFsb3NlYnRyR1lsTUdLaVBsejlaamtFcEUtODZHcjk4cjBIa2tnekhrZWpFTDlj?oc=5",
+      "source_name": "AP News",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -277,26 +249,26 @@
       "confidence": 0.65
     },
     {
-      "id": "20eac8b4db7da6bf",
-      "published_at": "2026-04-08T17:34:52+00:00",
-      "title": "US says Lebanon not part of ceasefire deal, Iran says it is - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYm95MnRYRFBuTWM4YkhGNVJaTzNKczlobGR4Uk41eVF2WXZEbnR4WGpId0RRbkJjb3NGNUlETGhEMGVKT1JfSlV2NHVlTWNXX21ERlFNemFJSjRwRFRTc2NQZS02bDlqd0NKb2ZQdkFvZW1COUNDd0I1TlZqOHp5dkpERHRnOUhJSVJ5clZwNjdLemozdm82OUh3?oc=5",
-      "source_name": "DW.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "3a423d629241ed93",
+      "published_at": "2026-04-08T20:59:00+00:00",
+      "title": "Netanyahu: Iran Cease-fire 'Not End of War,' All Goals Will Be Achieved - Haaretz",
+      "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPRkVkMm9QVjdjcjRNOFhDTnNJY0FZR1V0Y0s0MFh6M0hGaU5zR3BCZER2WGJmRDJJb0tUR0JXa3B6Nm9vLVhaUEVGc3BQMHMwLS1QSWNYWW1XMDVlRDBESzQtR0EwRzV4V3NGTGpEaGdnM0RWcmtfUVYtSG1PbDZBQmpIa1NqTV9kd2NpUE1DXzc5WTdfTFlHQzdsRjI4TG9ZNkJ4b2l3RWktb2EwSnU3cW5zQmY3ZFk1alcweXFUV3gxYi1fUk1LX2gwdFkzLWNkYUhHNW9rY0lFd09pVi04WTJUa1Z2U3FiUGNEcHVOWVBhTGkzSDdvU3JMZzhXbEV1a1BMQ3d3cjdSQVFwbS04blJqS202ckNX?oc=5",
+      "source_name": "Haaretz",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
-      "id": "bc0f9363120b8c59",
-      "published_at": "2026-04-08T17:34:08+00:00",
-      "title": "In the News: Shaherzad Ahmadi on U.S. Iran Conflict - Newsroom | University of St. Thomas",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObXdJWjRvWHVxQzdYb19vUHo0bjllMnZhRjVwaDR3WUN4TU9CcjhfVWplYzZHWlZDTnk2U3BpYnV6eGdQc1R4S0NnTUh4b0VpOTA2NnpKMHVOdHhmZ0l5V2U3WkNJU0tJWnpUeEZjajZwcmotcXdSbDd4WUZrcFNyelFB?oc=5",
-      "source_name": "Newsroom | University of St. Thomas",
+      "id": "e03db9ead9626a4d",
+      "published_at": "2026-04-08T20:49:18+00:00",
+      "title": "What has the U.S. war with Iran accomplished? - NPR",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYlBqLWRBRFRrM3gzSnZXSmYtTnZXaUdpOHFqUGIxZFB2VlJwRDYxWTdoUlBEMS1zNFJOS00xNFNObkNrd0tCd3ZDZl92a3dzZG9ScDBSVHB4Mk5WcVJ3SG9xTjUwdXZqYVR4NW0wRkxTaDJmWHNKTS1qRE5JLTh0NlNnVHFtYklVYXFXX3JzOVRPNExnbmxScGJKOA?oc=5",
+      "source_name": "NPR",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -307,39 +279,24 @@
       "confidence": 0.7
     },
     {
-      "id": "1297132f9538c6b5",
-      "published_at": "2026-04-08T17:15:30+00:00",
-      "title": "Opinion | Trump\u2019s Easter tirade reveals what the Iran war has become - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPekMxUC01dmNSRXRXMlBFNXo1amZaSUx1REtnV2lBWE0zVjVTMmprX0lpdW5SbC14UjExd2tkM2Y4OGtxV3dXdldyaFFmVzF0MFFDaHE2VXFrbGJHWnBJaXVUaU40M2lRQlViUktFd0VJUnNDN3oxdGV0RERSRlF1SHRMN1plRUU?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "3f7ae8201afa4059",
-      "published_at": "2026-04-08T17:05:30+00:00",
-      "title": "Sporadic attacks reported in Iran, Gulf countries hours after Trump announces ceasefire - CBC",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sR1ZrZWFnQnFiWGs5X3NzSjJka010a0FDUTFjNkx2VDNVbFJxb0RSbm5PWS1YZ01SMmJEWDluSDRLWXJwTlJnYTNmRWxFNUNsMUlTMlJvZTZsRTI2TTVQbTA0VzJqSW5GdmN1OVktV0xoQlI3YzdWZnpsWQ?oc=5",
-      "source_name": "CBC",
+      "id": "dc42070c27d0a31b",
+      "published_at": "2026-04-08T20:44:00+00:00",
+      "title": "At least 182 killed as Israel strikes central Beirut after saying Iran truce doesn\u2019t apply there - AP News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWS1NZzlDT3Q3Qzk2azVVekRXcG5SLUl1OGVCMUo0S0dPQldxMVBUVU1IN1BHWTBERDZGcUdOTl9FaVM2OHA4OW1XbkQtV3NXQkthYnRLQTFzQm5mdUllOGdpNUVlM0dFVVc1dGllNTRLem92LTFnRndNTHN2ekc1WFNKdDlnMXNTcGE3cWlNMXBxXzVWTU9zMGR0VVFyVG5I?oc=5",
+      "source_name": "AP News",
       "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
       "confidence": 0.65
     },
     {
-      "id": "03bef99ffbf271a3",
-      "published_at": "2026-04-08T16:53:40+00:00",
-      "title": "Israel pounds Lebanon with heaviest airstrikes of war as Hezbollah pauses attacks - Reuters",
+      "id": "c5fd41468de80570",
+      "published_at": "2026-04-08T20:29:17+00:00",
+      "title": "Israeli strikes pummel Lebanon, killing 250 in deadliest day of war - Reuters",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYnlTSjZwS0l0RGROMkRsOEx2RHMxMnRjUGw5a211NkQ1WTdoRHBTS0hHZXczcTJ4NlBHSHllYTY2Z24wdHdFRUNDSEtkUElXWHI2SE9WMUxpbTVBQXBrUko5TENjNFZ5ZEJKSFl4ZDFQTWlfMVVHM25QMDRqWVNOOHUtY3VQMWRWQU85M3pYa0R5U0VFR21NWEhmYUNJSWVCMWFGSnRVZTNaQ0NjaGdacjExWHcwUWpSVnA4bGRJcVptT2c2?oc=5",
       "source_name": "Reuters",
       "event_type": "attack",
@@ -352,12 +309,27 @@
       "confidence": 0.65
     },
     {
-      "id": "9e3a7a0f052e8d9b",
-      "published_at": "2026-04-08T16:41:03+00:00",
-      "title": "S Arabia, UAE, Kuwait, Qatar, Bahrain report attacks after Iran-US truce - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVERocjdSUVJWU0pwTkpNaTI2UXAxNjBabTlpb190WWQ1eThySGNaOHlNTFdEeGhKWVJzNElacjE4WFhHM0tFanJTRnRXX3hHVkxIN3NXTkpJRjhuY1NxRzRlMUlJYk9XSDJ2VHh4Z1VyaXI2UHhueW1nZmdIMTRnNFlhRjd6c2JqRmxwWWl0VUZlVmpnM3VmMWU1dVhzSTg20gGmAUFVX3lxTFBva3hySElBMkRpaVF3bXplQmVhdDRVVjdDaXNTLVRTUTdJMDRBZUdvekEtVnNOQlNqQU93R1Bqb3hhXzI1UnVIWnNPOTBwQm1oY3VyR0ZXNmRTbVpvNm53LTl1bkdlNTZtaERiYUljMWRvSGdfTG9kVllWekFGU0VhM2ZSdndRM1RqVVViZ0ZNV1RxNWxha0lSNER6dTZBQjk4bDh3QVE?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "afe537990ea1504d",
+      "published_at": "2026-04-08T20:29:00+00:00",
+      "title": "Live Updates: Iran accuses U.S. of violating ceasefire deal framework as Israeli attacks on Lebanon continue - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUllNR1JLdmFuV2FFOTVNQVc0UEFwWkhtbXVxTEJFcVA0bWVKenJJYWlRSElYaDU1WDg4VkVJajZiQ1hNd0d5VWFPNE40YlZYYWhPN0Z5TnZsbksydlplVmU1VWc0Ulc5cEd6MTk0MzhCSWZPX0ViQWc5eldQTUNiMlFmbWRpbC1hWDBRallTeFNsTUpHOWh6Wk0yT0FxOEcta1Y2WWl30gGrAUFVX3lxTE1Ld25rZDRUSWlXSXpGMGtYS2NoeTZPQXRBRXpnVG5ORW03TzVoSWQ2Z3FqWF9yUG0tQmpyeUlGU1pOdWxhTzBuZ1liUWRra2IxZ21iemZGelVwUjRUUk9NOEU0aUNzU3lsdkxPZUlTZDlyNDJpanZrekUtblUwdDA4VFVpVEl1TVZFRXY1LVJvUlZQaExWSVNvRVRzSmRBRldIVFQtN3pLMnZ0OA?oc=5",
+      "source_name": "CBS News",
       "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "9beed59dd896efa8",
+      "published_at": "2026-04-08T20:26:00+00:00",
+      "title": "Trump\u2019s ceasefire already under strain - Politico",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOdVpxTnZKTWRTaVVrbmEtMkg3T0J1UUZIZzlKZkV2NEZ2Y2N2VU1YUEU3aVJ0RndRREpVWm4tc3dnYkpmWktfSTdLLW1tbFM1YkZKcm1jQVBFOXA5MGhqaWV1Rjl5akRiN01LOHk3ZTZqMnhKM240NVN3Y0E2dFRJQjFFekFqeUV3?oc=5",
+      "source_name": "Politico",
+      "event_type": "diplomatic",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -367,8 +339,23 @@
       "confidence": 0.65
     },
     {
+      "id": "2933348dd8ef004f",
+      "published_at": "2026-04-08T20:25:49+00:00",
+      "title": "What we know about the two-week ceasefire between the US and Iran - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xVmlCbExfUmNMRy1tTmRPMkhrZm1PUUlpMEs2NHFwdVYtNUlDbkJzLVl0dG5ZbTlLN2FnWVZwVTY2RkQ0YmtuV1JpcVI2Y3lQSjN2NVh0c0h5dw?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "76e5cf87ddcdcc2d",
-      "published_at": "2026-04-08T16:36:29+00:00",
+      "published_at": "2026-04-08T20:15:35+00:00",
       "title": "Oil prices plunge and shares jump on US-Iran ceasefire plan - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5pUlQ5V2huWm9sUVk4cGFJQU5NTFBpYlpCaHotZTJuOUp4THFVNHRGMU1ldWI3eGFxRVVkTUNzWktyUlpBUlczZTVtSzBSWXBDbUplWjhFU0Y2Zw?oc=5",
       "source_name": "BBC",
@@ -382,19 +369,34 @@
       "confidence": 0.65
     },
     {
-      "id": "84338fa9286edd69",
-      "published_at": "2026-04-08T16:27:52+00:00",
-      "title": "Stocks roar higher on U.S.-Iran ceasefire news, but plenty of questions remain - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbWhDam5WbWJmYVVSeU9oTTIyOE5sZmdTZEdjbFFBa0Q4MHp0Ml9RUjhmc1UxdkFkN1BOdDNLbG5HOFJTRk11aUVvUXdtR2MxWERuZy1OaXppb3VrXzl1b2p4MkNtZW9BTlZpQ2tmX2RwQlloOFZrX1kyUERqVnpJVW8zSmtvYUxHNjgxNUhBcm5zeERfU3hGOWxn?oc=5",
-      "source_name": "NBC News",
-      "event_type": "diplomatic",
-      "actor": "usa",
+      "id": "83bb88c822b0cc17",
+      "published_at": "2026-04-08T20:06:38+00:00",
+      "title": "More than 100 killed across Lebanon in large wave of Israeli strikes - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE13LWVXQzlWMFVKRUYxa1o0dElLbktVSkREQlN2SW5KUUw0dF9lWkdNTUV5b01DMGVyUDB4d1NBdTVnRGRURFhzallZT0tneEN1OG1xcUNoUTJSZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
-        "usa": 1,
+        "usa": 0,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.7
+    },
+    {
+      "id": "0f1fe584c9615a82",
+      "published_at": "2026-04-08T20:05:30+00:00",
+      "title": "Strikes continue across Gulf countries amid confusion over status of Strait of Hormuz - CBC",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1sR1ZrZWFnQnFiWGs5X3NzSjJka010a0FDUTFjNkx2VDNVbFJxb0RSbm5PWS1YZ01SMmJEWDluSDRLWXJwTlJnYTNmRWxFNUNsMUlTMlJvZTZsRTI2TTVQbTA0VzJqSW5GdmN1OVktV0xoQlI3YzdWZnpsWQ?oc=5",
+      "source_name": "CBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     }
   ]
 }
