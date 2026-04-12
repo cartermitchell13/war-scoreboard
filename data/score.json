@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-04-12T10:02:46.216578+00:00",
+  "generated_at": "2026-04-12T13:35:59.955031+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 106,
+  "event_count_window": 108,
   "totals": {
-    "usa": 47,
-    "iran": 37,
-    "lead": 10,
+    "usa": 46,
+    "iran": 35,
+    "lead": 11,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 42,
-    "iran": 30,
-    "delta": 12
+    "usa": 44,
+    "iran": 28,
+    "delta": 16
   },
   "confidence": {
-    "score": 67.7,
+    "score": 67.1,
     "label": "Medium"
   },
   "event_types": {
-    "intercept": 1,
     "diplomatic": 42,
-    "other": 38,
-    "attack": 25
+    "other": 43,
+    "attack": 22,
+    "intercept": 1
   },
   "history": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "date": "2026-04-03",
-      "usa": 3,
+      "usa": 0,
       "iran": 3
     },
     {
@@ -72,82 +72,37 @@
     },
     {
       "date": "2026-04-08",
-      "usa": 7,
-      "iran": 0
+      "usa": 6,
+      "iran": 1
     },
     {
       "date": "2026-04-09",
       "usa": 12,
-      "iran": 5
+      "iran": 3
     },
     {
       "date": "2026-04-10",
-      "usa": 2,
-      "iran": 4
+      "usa": 7,
+      "iran": 6
     },
     {
       "date": "2026-04-11",
-      "usa": 11,
-      "iran": 5
+      "usa": 6,
+      "iran": 3
     },
     {
       "date": "2026-04-12",
-      "usa": 9,
-      "iran": 16
+      "usa": 12,
+      "iran": 15
     }
   ],
   "latest_events": [
     {
-      "id": "38a6c49bb9c82bfd",
-      "published_at": "2026-04-12T09:43:00+00:00",
-      "title": "DOGE Cuts Left U.S. Unable to Help Americans Stranded in Iran War Zone - The Intercept",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOczFrQUgtTUlBdTZTRkxKRG44NGZwT2t4TjBDT3FNRXlLeHVoNFBWckFia2w4VGZFb1d2Nk9nNDlMRHJzbHVTY2p0eVJUTDZpODdNeGJvUnAwMnpIZVNFQWNqM2pGeTltclhVVkFCRHpCaDNGQk5XMzZrc0t0SmtfTjVOcmgtS2x4MjBnam5pMA?oc=5",
-      "source_name": "The Intercept",
-      "event_type": "intercept",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "a0fec059a72cccf7",
-      "published_at": "2026-04-12T09:40:24+00:00",
-      "title": "No Deal: U.S.-Iran peace talks in Islamabad collapse - NPR",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNMURTblM1aXB4LUNMLVNXdlEyaUJ2WER3RlFMa3h2U0pjc3MxNGRJU09TWC1oNUlpNWdYMXVPSXhid2J5TW82X21GM19lWi1Sb3VTSWZVdHVUNVdsZmlsQ3lHNllSNjZrbkpieUt2N3dxdDRoZFFJRjVSbWZnTE0zOU95N1hqN0tsR2NJeQ?oc=5",
-      "source_name": "NPR",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "e02ebca7689814c7",
-      "published_at": "2026-04-12T09:28:04+00:00",
-      "title": "US-Iran talks ending without deal disappointing, Streeting says - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oYUVEZ29FZjA2Y1pxYVNuMlBpZmxqVVlZNDV2aHNtaVR6akFZZW5ZYjMwajh6eGd0MVZjSThRS2NPamVzcnI4Qnh0WFFtMnZ0NEdKNk54TzJqdw?oc=5",
-      "source_name": "BBC",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9c0819fae7c7dbe4",
-      "published_at": "2026-04-12T09:23:10+00:00",
-      "title": "US and Iran end ceasefire talks and Vance heads home without an agreement - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNkZQb2ZYTFd2LTRHOWVqaHk0TjR1MTAxTXVGeDVEeTVsRFo1dWtUX2M3MG9BTVIweTFBTVZyTmkyd3lGUWdiQjZ0N1gtaWpZZlB2WXhvUTJobGw4b1hRb2VVT2owNGZEU3R6TXNpZVNWRG0yQkVPa3FZMkJORjVfRmhjNEZNdEJxejBtdWRZWlEtWGVraGIxU3k2T3d6aWJDRzBjWmpFOTFKd1pvdW5aZFE5d1ZwOTdUZGVpemoyUGkxQ0luRG9qQUlGbHY0VEJsZllUWg?oc=5",
-      "source_name": "The Washington Post",
+      "id": "9d1211f853b9b5d4",
+      "published_at": "2026-04-12T13:33:11+00:00",
+      "title": "Iran War Live Updates: Trump Says U.S. Will \u2018Blockade\u2019 Strait of Hormuz After Peace Talks Fail - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNMWhVRWk3TXBnaURHTzJQbWUxTVlFME5NMmRpZVRrRFEtc3puYnNiZUdqSWhLYW1tVzVQSzlLQUwwZkk5VWY2bHJWaU9PQXJINF93VmlBQ3RUSlNSZDZDYnVMSmdYTGVIVHF0SXZaME9oS1NXU0lfY0ZTMWNRbzNjRg?oc=5",
+      "source_name": "The New York Times",
       "event_type": "diplomatic",
       "actor": "usa",
       "target": "unknown",
@@ -159,7 +114,7 @@
     },
     {
       "id": "774870f44e659827",
-      "published_at": "2026-04-12T09:09:23+00:00",
+      "published_at": "2026-04-12T13:31:56+00:00",
       "title": "China, Iran weaponized the global economy to beat the U.S. at its own game - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaGlTTTRONFFaYWx2MV9NZ0ZJdVJySUhqbkJwWlZ3Nk04STZLdDhiRFlfUVJYYVdXQkJzS25aMGI4X2I4LUxFbnZXdXo1VThqTFRXc0JtVzFaMnBjWXp3UkhzYmlPaXVobzhnNk40OXlibHRZQkVHRVMtQzNWTm9icg?oc=5",
       "source_name": "The Washington Post",
@@ -173,38 +128,8 @@
       "confidence": 0.7
     },
     {
-      "id": "373b880ed81bc44d",
-      "published_at": "2026-04-12T09:06:00+00:00",
-      "title": "Middle East crisis live: US and Iran fail to reach a deal after marathon peace talks in Pakistan - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQaTQxazV6MlNqWXFpenozdGFVTzV1ZGdleHctcGJGNVp5Mk5xVmRZdnJqUlAwUUtiQnVfV1lOSDhOODJrU0VkeldCWk5hdVR4ZlhHemplZlJQclhVQkYteW9UVUpCbDZ6TzJMY0FSaGR2UXFuNDFtYzRkSzN6UHZkdnk2LWp4Wmk3Yi1HTDhGWGtiNHRzSXRuYWRPbGNueGdPWDh6WU9uSEFLNS1HM2g5Mk40WE5MQzZfWnM1eDhrT0M3d3lEbWgzczJRRlRLQjBmak9hM1RncFFocUI0aGc?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "41acc8481e2f2be2",
-      "published_at": "2026-04-12T09:00:00+00:00",
-      "title": "Israeli strikes on southern Lebanon intensify amid failed US-Iran peace talks - The National",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNLWotSFFyS2Y1WFFqbFZ2dnJMQVRCd2JuUUdMbm45enljcnY1emVWa2tjd2lSalJJMlp3dWhsSU5PQnJzUE40eC15azFmN0FSbDNJaVJhelVmbUVPYUpaV1hmSW5kNUh6QUQzaEo4dFZma1ZndXNRQU1lc1UxZVVqN28zdUdzeHd3bUNiR29DcTNTQVB0czZZaFF2dHBYWFA1cWhXMjlqVkRfQlZLc01McmZ4ajFhU1Y4QkktSVNRakc5SWhMQ0I0YWNwZw?oc=5",
-      "source_name": "The National",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "698f9c01f40f0403",
-      "published_at": "2026-04-12T08:43:00+00:00",
+      "published_at": "2026-04-12T13:25:00+00:00",
       "title": "Live updates: Iran war news; Vance says no agreement after marathon talks in Pakistan - CNN",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOTVJhU0NGZ21nWU1ka3pKNnNUVHR5ZDZ5YW5UMXJ2RnJlRHNUMks0T1ZWdGtucEx1dmk5ajd3LXNGQy0yMU5Hb0JxeDNXNzlnWnU3aHg5eXRnOTlrVVgyRHdoYXJJZnYycFBBdnNFNWhuYm93MjVteDBR?oc=5",
       "source_name": "CNN",
@@ -218,39 +143,39 @@
       "confidence": 0.65
     },
     {
-      "id": "e04a09539296344a",
-      "published_at": "2026-04-12T08:21:54+00:00",
-      "title": "US-Iran talks in Islamabad stretch on as Hormuz stand-off fuels duelling claims - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ3lOUUVVaXNjNFYyLVdZeWNHR3VaZ01mZkRsZ3B2dXI5X2lzNUdFdzZBbVpCLVFlMjRBWFBaczltdkxCNDZ4Y29JM1YwbDBDV2Y5SEg5MmZjcU5BX0tHc1dmOWdIRnEzUWM3ajlwSWxmZTZ2dkx0dWFFV3NjVVpwdzVJU0ZsUndNTUFORXVBTUQ0c21oaWc1UENaNi1yNTR1dG4xZWZlaVNOTnFSLTZoVW83S0tsUjh0TlR3SDNB0gG-AUFVX3lxTE5CbmtiUE9LMEM0QjRlLWpRRV95LUxmaDh2cTFnQzV1VUJsY0J4cUQ1aWVnNDhhOGZIUW1pcU5SbS05NVVRc3k0OWxob1dvazZYOUtaRGkxdUxhU05HT2pUa0k3dm1IdzNkSXVVdU9HU3hwN2l4VUJIa0lDX3dqYWZjWDA1eG11MWl6Q2pjeDRsZ0VyMXZFSzZOYzZqMC1RT0x3Zy14SGMwUVZwZXpRdll5YV9QeEVxTzVGaDZ5YWc?oc=5",
-      "source_name": "South China Morning Post",
+      "id": "89f62aa308ed0207",
+      "published_at": "2026-04-12T13:16:47+00:00",
+      "title": "Trump threatens Strait of Hormuz blockade after US-Iran ceasefire talks end without agreement - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNkZQb2ZYTFd2LTRHOWVqaHk0TjR1MTAxTXVGeDVEeTVsRFo1dWtUX2M3MG9BTVIweTFBTVZyTmkyd3lGUWdiQjZ0N1gtaWpZZlB2WXhvUTJobGw4b1hRb2VVT2owNGZEU3R6TXNpZVNWRG0yQkVPa3FZMkJORjVfRmhjNEZNdEJxejBtdWRZWlEtWGVraGIxU3k2T3d6aWJDRzBjWmpFOTFKd1pvdW5aZFE5d1ZwOTdUZGVpemoyUGkxQ0luRG9qQUlGbHY0VEJsZllUWg?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "diplomatic",
-      "actor": "iran",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "81e608be3377de15",
+      "published_at": "2026-04-12T13:14:39+00:00",
+      "title": "Lessons from the Iran war - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9kOVh5Y0RRN2wyUmxOM1ByV1BPb2l5QVdiT3phZWNGM1paUWE5NzJ3NEZaVTZnLXFiQ2ZjTjFHQWo0WFRCdEh0MUExMzVBRlZoOWUxWVZ0elV2MHJpdnZ3VFg1VkNLYk03dFc3NHJERjZnRmkzS3RSVWRB0gF_QVVfeXFMT1lEdHVBQUVSQ3k5YzRYN2c5LWgtV2stekEtOVRNcjRGT1lpUWU2Z1Y0X2JudF82WndFU1QxSlpoSHg1bGM5Nkd0Q1E0dHhqWGk5M0ZGVV8tWFl1ai1takh2ZTVHSkdyNUdWaWw1bzJpYXhIRnYtNThuV2tTcG9qaw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
-      "id": "97380b8f88d52936",
-      "published_at": "2026-04-12T08:13:22+00:00",
-      "title": "US, Iran Fail to Reach Peace Agreement After Marathon Talks - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkoteEJSOE9ic1JZbXZnNnJwMXBuUjRRcm82ZVpNWnhFdzVHdThjSGd2S2VNUk9lN2czQVR4V01NanZFYlRXaXNNbGRJSUZES0RYeGZNZzhkMVhmaFN0Z0dGVmJ0bUp4NWN4XzlOa1ZqZzlvUmJRUjZuWWhBcjFsbjBlNTdPaDVsaWZBYWI1Nk1Ja2RIQktDMXM1bWYxY0RU?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "52e6595c8192b0f8",
-      "published_at": "2026-04-12T08:11:52+00:00",
-      "title": "US and Iran fail to reach deal after marathon talks in Pakistan - Al Jazeera",
+      "id": "527d9838db7bd8a1",
+      "published_at": "2026-04-12T13:10:37+00:00",
+      "title": "US and Iran fail to reach a deal after marathon talks in Pakistan - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZW52VVZvLVFodTctMl9ZX3JZQWM1V1RkNGhHMzhJXzdRMWdiYXJra2pHSkh5X2dtMmx1SUh5amtCVmMyM19FcWZZZzNwQUJQZmJUenotNm1YS2JmNUsteXZpenA5ZGY5UkNwbHdJUUlrSVg4b19zalRYWW9UZEdfbGZDUFZHajNOZkdweGk2TUxLdVBkUWtqbktpN1dzeGxyZlJUUVFSeUgyLWV5d0o40gG0AUFVX3lxTE5OQW11Q180MnJHSWk3MHhBVVYyNmJKU1M3LVFFdE56ZGRpcHRuWldmd1VFQUhwd0paNXVScFRXSnVGeHlGNk9pbG41UU5fajNMMTlfNVdlXzhteW5lMGlkTmp2eHo0ZDlmdEp4SUpna2FmZExTbXdmTkl2cmdXY05YSThpMGRfbVY2empxUjU5Y3ZqVTVXX0IyMVBLUmRrZmVMcjVidmd6U0Y2U25Wc0lvVGxvMA?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "diplomatic",
@@ -263,8 +188,203 @@
       "confidence": 0.7
     },
     {
+      "id": "1e2ce85a89d85346",
+      "published_at": "2026-04-12T13:10:36+00:00",
+      "title": "Trump says US to start blockading the Strait of Hormuz immediately - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX3I3U21xU29jUFBkX2loNlFCQ3NsaGhrMHByU2VCTGxuaVowU1JZVEUxNFBhempjenlHRFNOUlpNTml2cXItZGZxMGoyNzlDazhfbmN4d3ItN3otbDBqQkhKeTRwdk9FVTdlRVVJR1VYM1RSeU12MHJJRk1vMVVDRXA1NldxTzRULTJOd3JNZkxNOHJMYXh0OWVCNjU4cmo2?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7f9bb269052f81b5",
+      "published_at": "2026-04-12T13:01:21+00:00",
+      "title": "Trump says U.S. will blockade Strait of Hormuz after Iran peace talks fail - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PbTY2UnlVRmhDNk1JLXJBYTlzUFBPVXZ0VDR5b3htTnpwTGM2bklzdjJZTkNBTGNHUHQ5RE5YNjl6NF9mWl83WVlOU0VqU1Y1SlJBMksxTU12ZFhkR2M2MTRJcVd2cDVVSGxBU196NU82YnVMLUpr0gF8QVVfeXFMT3lmemY2VlRadjc0WlRlemNuQ3pHNWlPMzFyMWZDMEtqUE5odEtNYWxTaWNRNUZQNXZKVXdMVU13Yk53WDZySUZOb1laVkhiVUlmeGtrTDJGeWd3c0o4ZWtJOE1oZFlzbGRMVDFmYjdab0xpMENXaVpWT29zZw?oc=5",
+      "source_name": "CNBC",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "a20dcd6fe7c3955f",
+      "published_at": "2026-04-12T13:00:06+00:00",
+      "title": "Israel and the US Have Been Waging War on Iran\u2019s Development - Jacobin",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY1NpeFU4aWhGNUFaT3d2ejg3TVZmWDNfUTJnc0RUM2pwLVZmZFVFRU9oZlp0eWJBencwd1FhRWFLRGNqYlA3MEUyNlJQQjF4ZlU0X1h2VXZWY3FMQno2V2tkOTdJVk9uNWFwNWJWR2NCYU5zbFlvRnIwT1pqX29vd2JNdmhpRWhBUmpmM3J5OA?oc=5",
+      "source_name": "Jacobin",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b72aa8fbc3deebf7",
+      "published_at": "2026-04-12T13:00:00+00:00",
+      "title": "Few see U.S. goals being met in Iran yet; Americans voice worry and stress in CBS News poll - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1VZFE2N001d3NZX05Uemx0aTcyQ3hNMno5ZWxsak93VmFhU1c4UTlDOGo3U0N0WlRXRk5UNkpkU1ZCU3M2Z0xDNm1URzJwZmRYMUtFeEhiZGN0RGxxR0RoSm1DNnJuUWhMRWhXNDhHONIBdEFVX3lxTE1BMktwWDhmcGNaQ3hFRFZ0dVBYSEZ5LVNQM202UW8zcDJWQzNGVlZlOHJSNUNKMERCbVUySHh1RHNIZ0lDWkRzTFJPMENoMnNzNkJYV2RYcHNxdmtfRGhrOE9ENTFBNHEzTGVZcXRtWWpPUHBE?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "e5449e7986e3f518",
+      "published_at": "2026-04-12T12:49:05+00:00",
+      "title": "US-Iran ceasefire talks: What are the key sticking points? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUzJUM3Y4TkE0RGw3Ml9NYVZzQ0Jkb19OSXBjMXUweWxCc1NUNTZQNWJQVlV4T2dHb2NnWUE5LXd5MGN4cDJ2SXUtTW1vUzYxRE5zbDFPYmVMOVc0RGdOOFBxMlRELUdwUnVUaDFrTkRjdDN1TFZtUGd4ZGhuYUc2REVIaHlpV2h1U0diUlJ3d0FLNjBac1pTaXBSNHJld9IBowFBVV95cUxQc003b1R3TF9YV0hxYk4xcUM4SWZ2ekxIM0hBdTR2TzJ1NmFjcEhubGZQM0dTMlRUaEFTdlI0ekVPOEpNVkxVemhfbXUwczI5ZTQ0R3hZZVJkX2pZYjBEcFA5dmdSY05vWURuYW80eW5tVjRCMXRPZXM0U2Y1Xy04XzV2NUhfSnVZUUs1dk5kN3ZWbjl4cnFFaXN6OG8yZFFKUlNV?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a62ceffa247db845",
+      "published_at": "2026-04-12T12:48:01+00:00",
+      "title": "After Iran talks falter, will Trump escalate or negotiate? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05M2FwazBTUU9UeXFWYUNBUk1OM3hiLTF4cXBYc3FnbHpramhJUXNfSjlHS3MtMzlQM3A1M3gtcFJuUnI1VmxpYzNoRjNKeENvWVoxMjVTSXZwZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8561efa02a298afb",
+      "published_at": "2026-04-12T12:42:00+00:00",
+      "title": "\u2018This is the last warning:\u2019 Iran radioes US during Strait of Hormuz de-mining effort: Report - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOMHcyV012V0lWTm9qbEpNeXM5WFJWRFM1QmR1bnRzZmp3VC14Wl9ISGRNdnZlSEdzSmcyT1ZBcXd1QjJTcWJXZkdnaldGMkhNRVZOLWJ1MFEzaUxmbDlLZTd1TTZCRlczQ2VjUHhlNTdwYmZ5dXJnUmtrM2NQZENWM1NNZ9IBiAFBVV95cUxQQmx5X0VSTWlkcWZ3T2lDQmc1Y2ZsQ0ZINElwSHlOZmVYX3VPUjVaTm9TbTU4c0Y2WUlNV083aHhSdlEyVWRLUUowbTlvSjVjRUZudWF1RHB1MklQeFlWclNoa0k3VUZoWkxubU1KUkY3LXZyb3AwMTVTSjFaM192NXl3OGpwZENI?oc=5",
+      "source_name": "The Hill",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "13383ba858cee7f3",
+      "published_at": "2026-04-12T12:07:00+00:00",
+      "title": "US and Iran end first round of ceasefire talks without agreement - KTVB",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQYWdxdk5rcFAydFZYRkhmaXZ3aTVsdnhBbXBFUjBvb3pKZmd0cjhZc1liNGY0clkxelRfcU5Kd0MwZU1sN0N2NWlzdTY1V2NpOWt3Y19VTTVSUnJtXzVCc21tVWxWelY3QXBqRkxGNEk2c0tHZDBrSWZvQ2tBS1BBcXYyWkxyVXlYWjhraDh1MHFoMjlDOFRXNnhMYV96MS1XcEN2NFIzTlVUaWxtbTBQUGNCN3Y2RFl3ek1sb29QMk9vWkk0UllvYThrS2ZMVDVTMUExZjhDZmp6cFY0ZWxvemRHQ19wTjlEMktKTw?oc=5",
+      "source_name": "KTVB",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1a3b0cf295b58d6a",
+      "published_at": "2026-04-12T12:01:00+00:00",
+      "title": "Wes Streeting attacks Trump\u2019s \u2018outrageous\u2019 Iran war rhetoric - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSko1c0I5ZU1UNTRpcU8xeGwzVzJGRk0zd3BMT19IcjVhc1Vkd1puYnEzU0V2VzFYYzA5UkM1SnlSN19KMjI5NzBMR0lkZ2tuQmxySlYydTZrSjhhUXpKZmU3MTA4TGtla2d4N2l5aFNFckxYV1BielpGRUcyTXBnN0NVaXM4NnZJQ25iUGI4SnFSRjJfVnFuSE9YaXNRMjBBSXVqVA?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5a1deb8dd0c2961d",
+      "published_at": "2026-04-12T12:00:15+00:00",
+      "title": "The Iran War Has Finally Shattered America\u2019s World - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd0VjYkdfVTd1VG94ZDBCTUoxSm5PWE4tTlcwOXozZWVfbFNCd3JFbng5SE9CM1JrT1JGUnlWVkVDYzJQNm51MUlQd1dfX1JLZWozU3lId0VtZWVjTWVDV2FkRFI1eEllbDZjUF9qZjlKVzJNSWxNeHpiSzlHeGJXM21SMUMxUVpxUFV0UXJLbDVDaVA3d0w5VWEzSHBJdE91WF9Qa0RjakZwUQ?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "af83ff37320eee59",
+      "published_at": "2026-04-12T12:00:00+00:00",
+      "title": "What next after failed US-Iran talks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSkpsVzctU2hYZm5PUVowWVlIY2xod2l4WnBaZHNoQjRsNW9aM2Z6WmVPMDdnRWhaaUxNZTNyZGZycktFYzF4V1JNT0pucndwbFNMcjg4NHNQeDRYbkJTVklqcFZkM2VyWWNrMmtOazFZV0ltY0Z0bDVrQnpUeDlFRXhIWDhuT1pHN1ozeg?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b015b750215dbfd9",
+      "published_at": "2026-04-12T11:24:22+00:00",
+      "title": "In Pakistan Talks, Iran Saw a U.S. Trying to Dictate, Not Negotiate - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS1Rra2pEUlRuRU0yeEdRbXE3bmo5T3Yxa0NXdHBHNFhEaC1ud0F6NFlRSUhUUEdzRDUxMWswbDE4STZrNG1lQTl6S19HY0RtVDJ1a1R4c2pUNDJnWkpEWjZ3dTFxTUJ5MlQwd0ZmZmVnLXBzRFZ2aUhTaFdIa1R5a1JWZVpJYVdiSlRHVm11UHV2dw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "b8ad0d0b3c74f78b",
+      "published_at": "2026-04-12T11:14:00+00:00",
+      "title": "Israel Agrees to Talks With Lebanon but Keeps Striking Hezbollah - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TdTYtTGl2Q09qQTdacUpNVUlaN0Vncjg3dS1nMzF6cmo3OEpON0xkRWpJUEFnNWVjOFloQzNsT194ZVRoWW5MZHpsOFowbThfZlA0WkNnVXJlenljQkE1UUw1SG1GbFVIOFNLckMyVVBIV1NNYWpuTFdpT3pITzA?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "1992e2795fc87fd8",
-      "published_at": "2026-04-12T08:10:44+00:00",
+      "published_at": "2026-04-12T11:05:19+00:00",
       "title": "Direct U.S.-Iran talks fail to reach resolution after lengthy negotiation - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUU1YMG9Vc2F0dWZZQjNSXzVHczBYb08waExJeS1DWDA0S0JfQW9kOThuYkNqRzRyRkRtTGhiajlUNUU3TmZVZFdNR0MteVJHWG5ZX0pobnM5Z18xUVlUNVNNMmtvLUMtRDBFb1ZyWmMwQk5Nd2xELTBzazJmUlpOMW9VN1RybjNaVjRn?oc=5",
       "source_name": "The Washington Post",
@@ -276,126 +396,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "27fe1e395755f2f5",
-      "published_at": "2026-04-12T08:07:39+00:00",
-      "title": "Iran war: What is happening on day 44 of the US-Iran conflict? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVmFPb2Y5SnJsdGxtNUpQVlZDcnpuaTExTUtNTnhfQllQemUzX3ZjNU1NYl9fOEZmTzFJTHppUm1tV1pXbk1tUzQwYU1zdTcwbXExQmc5Q3hEcDUzQkI4X242cnR6VDZzMjRoMkZJT0hWVjFoaU1FRV9oSzcyelFhamlhSGxTbkZtcVdBdkEwMWlMVlZhVTJtWko3Zk5LRkxxZXNB0gGoAUFVX3lxTE4xZVA0aFM2Vi1Qb2RIS3l2UDNqS3FHZFlqbTVRWmIzdGFOcU5DTFVnTERyZnRSalpFQUZ6R2Vjc0xGc01URVBQY0tPTkRWVnhILWYyN2wwZl9BdVpYNWpMMkpoNVlFMk0xRGE2WGpRdTZkVWtKeDRJazJHUllacGN1Y0dUMWpaaGJHaVR0ZklFSUtNT0dCZGluQTJvWmh2XzEzb2hfR2h0RA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cf99ba9ba193bb95",
-      "published_at": "2026-04-12T07:38:45+00:00",
-      "title": "Iran war latest: Vance says peace talks with Iran have ended after 21 hours without a deal - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?oc=5",
-      "source_name": "Sky News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1445277806875be4",
-      "published_at": "2026-04-12T07:30:47+00:00",
-      "title": "Iran war live: Ghalibaf blames US for failure of Pakistan ceasefire talks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPSmFwRzdvNDJwdXFsMktMYzZEU1ZOcDhWVldacUQ3a3VlQkY4NEpIZ21qeE9CaFk0aEFQaFFwVUxId2xuclZQemJrczlyQU4xVGlBWHc2UndaODBwaFBJRWoyOUlJZnNzWTd3dUZERkgwbVhfSWFNUlRsQkhxUnZRdjJtbG5vdmE5ckpIVnlYYS0tRlZBazF4TlJpSzRod0Q4bEZqT2liT0lVbG1Jd19zaDV6cGcyb2ZmQjNwcFRB0gHDAUFVX3lxTE56a0JvdEJLTmx5c291OHZPWWU1WnVDSU8zbXN4azZNZzFoTnkwLURNRnA2ZGhqdkdSX3ZmV05DdVJDRldHVW05bXlsYmR1Mk5KTHNtUjZZNGpkSEt0Q2hmR0dBSXdfUkgyb0l2ZWtTV1VQR0tLVmN4VGlhcE1TWEV2T1c2cExCc01rX1BGZ25KSVAyazliOWl1R2o4Y2JxSEhXUHZmMVFZRGU1UHZER09rMUlFaWlmWVVRTUJEMzBMLThzQQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7cebdf727999cb34",
-      "published_at": "2026-04-12T07:18:00+00:00",
-      "title": "Iran warns of firm response to military ships in Strait of Hormuz - annahar.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZ2hWZlJEX0RhM3EzeVJESXZOcHlRWXlvcm9NYVZJTzh0QWtvRkVHTjJKdmlYTml5djhTWk5UakFOWG5FVlFpdFFSRVpmU25kUERqQmJKeHpva0lqMTRtNkJFeVdacHpKbTVIZzBQRU00YVZLMzBjekxpLU9Na3piWjgwTnREenFqeHJsb1cteFdHYU9MeGRDTE42M0xPaG5MdnU1aHllem5nMjVoYXRHal9ISTVKVERJdGNZRGN2ZWkxcG1DSmxmMlNSNA?oc=5",
-      "source_name": "annahar.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "64d575d0958a53d9",
-      "published_at": "2026-04-12T06:45:48+00:00",
-      "title": "'1,000 Troops, Warplanes': Big US Military Deployment Near Iran After Pak-Brokered Peace Talks Fail - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxOV09sTW9wanF1MktGUlJ3VUtnclVIcXFvUm5RZzIzbnpqZ1FuRUtuNkU4MW92djI3YVl0aDBpZmlvNDZZNXl0WDdoOEVUT3oxRVl6c3lvSUJPVXkxT2xzU2ptMnZoZjc3NW03djF1WkZScFVINHI3aVNTSzdLamh0M1JfaGZ6YlJNeHFRcmRzOUxpWFRSTlFvQzJqSWdmWVRNcFpHZVBHWldXcXZheFotUTJLdXlTeTI5UlAxWDItZWxNRy1QSlRaUjVGOXFVbHVJY1gtcUVhSHA4QkpNVGE2RlRLQV9ObzRVY1RUbC1zdUtuVkNtcDNhYS1uQmMzNzdrY1JJSFRR0gGLAkFVX3lxTE9lOUU2VmpWUmF1Q1U0SlMzRjB4UVdYLUpvNllMbnI1MnU2SkVyRy1hNEhqT0F0cnJ4aXZjSUU0YV9rNmVUVlJRNWlJX2ZEV2ljSEZwdkozVzlkby12MHpYSWtQSHZPMkpvN2lRemFvZE8zR3RNR2ZGME41S0xjVWRtQ2dnYkxyXzlTc3VYZHFVQ2pjbWhDWHk1V1hid19RejlUZ0d5MndRam5BOWktd0dpYVZlMC1EaVBKb2J1OHpmMDdkTl9BTVowOUs0VlU1U0VpbHB1akRMTGlVdGg5cDR0NHpuSnRwNmhFN2VXa21RTmdpSVF4OUVrYmpsckY1clB3NzdtSXVXNjY4RQ?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "3ac204ebf197ce2e",
-      "published_at": "2026-04-12T05:42:00+00:00",
-      "title": "US-Iran peace talks falter. What\u2019s changed since the start of the war - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdEZpSXNBOEVfaXZQcEJ5cktET19Ga1EtaG5NVXU1YjBpV1duSWJOd05ZTjliOW9tQldDYjMyVmV2U1N1RkdfLWlyRlNsQXZmem9lVHNZMVFXeU9SM2Y4ZXRMekRZMWlFZ0gzS2tTX1dVejdrclFzbjVyaEdpV3B2OWI3RlhGeVVKdHlBVGRZRUlUQVR3S2l0azBvZk5RbmZrTEh4VnA3bC1LY0ZVQ2hoYm1fd3BnLUE?oc=5",
-      "source_name": "USA Today",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1a0c740e1fc1e808",
-      "published_at": "2026-04-12T05:27:05+00:00",
-      "title": "Iran says no deal with US in single meeting \u2018natural\u2019 amid deep mistrust - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeEVKZDNxS3kySUpxNkdGQXZXak5rQUlHUkZqeWdpSVcxRHRqYXNhUjV5SGNHUXF2aG5QdVhxWUMwWXZSQUxSWndfdzhBaVdzRjVoVXA1akJDLTh1Y3hheXN4ZGhpTV9kSTNldi14bi0zTGowdjh1OWl3TkxLWlp1SnNuQkd2ZlJBQVBxMkhmTTA3c1NVenpMMFpuWktPX1VvOTlwNDBlV1NiMXF2LUJyNXV3dElyQU9oSlpjLW1wRQ?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cb39e83c7aaacead",
-      "published_at": "2026-04-12T05:18:00+00:00",
-      "title": "Breaking down failed US-Iran talks - CNN",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdktpa0pYXzlTaXRQOGNaSXZoUzFSa3ZfMGtuQTVwZ190RlNHLUF1aERpSTM5cUVPazBKTFNiNkI0WXB2emZPS0FHVDhzQ2pMU042dGdsLVh6V0ZVdkVtYmJmUWpMRE9HOFNSR1I2M3JlQ1k3cE9VY283dE9UYUN5OXhSNU04Qy1hMkFlMWZ5b2FjWEJhNnF5RA?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
     }
   ]
 }
