@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-04-13T08:24:42.847609+00:00",
+  "generated_at": "2026-04-13T10:57:07.698600+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 104,
+  "event_count_window": 107,
   "totals": {
-    "usa": 28,
-    "iran": 35,
-    "lead": -7,
-    "lead_side": "Iran"
+    "usa": 30,
+    "iran": 30,
+    "lead": 0,
+    "lead_side": "Tied"
   },
   "momentum": {
-    "usa": 24,
-    "iran": 25,
-    "delta": -1
+    "usa": 25,
+    "iran": 21,
+    "delta": 4
   },
   "confidence": {
-    "score": 67.0,
+    "score": 66.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 40,
-    "intercept": 1,
-    "diplomatic": 40,
-    "attack": 23
+    "other": 49,
+    "attack": 25,
+    "diplomatic": 32,
+    "intercept": 1
   },
   "history": [
     {
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-04-08",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -77,30 +77,30 @@
     },
     {
       "date": "2026-04-10",
-      "usa": 0,
+      "usa": 4,
       "iran": 4
     },
     {
       "date": "2026-04-11",
       "usa": 1,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-04-12",
-      "usa": 11,
-      "iran": 10
+      "usa": 6,
+      "iran": 8
     },
     {
       "date": "2026-04-13",
-      "usa": 5,
-      "iran": 9
+      "usa": 10,
+      "iran": 8
     }
   ],
   "latest_events": [
     {
-      "id": "48f49557ac13ba1f",
-      "published_at": "2026-04-13T08:14:17+00:00",
-      "title": "Donald Trump says US blockade of Iran's ports will start on Monday - follow live - BBC",
+      "id": "dbf90766c4260ecd",
+      "published_at": "2026-04-13T10:52:43+00:00",
+      "title": "US says blockade of Iran's ports will start within hours - follow live - BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
       "source_name": "BBC",
       "event_type": "other",
@@ -111,6 +111,261 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "e486a7e2c51dee08",
+      "published_at": "2026-04-13T10:49:02+00:00",
+      "title": "With U.S set to impose naval blockade, Iran warns it will strike back - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMFhoMDRaMTFyTy1BejgxRXhBYS1ZTDE3WUtwenNnQmZQN0o1NkpIYnZKNnNGN1Ewa1U1R3J5ZFotV04yV2hXS1JmaFdVOUVLYndKY0JEQTZabXkwLVdOeW1ZaVMtVFlzMUFjOWt3QWNrNkEtUWUybGFRVmZ6My1DVEdhT24?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "b411ee066bdc7062",
+      "published_at": "2026-04-13T10:39:00+00:00",
+      "title": "Live updates: Iran war news; US to blockade ships from Iranian ports, Trump claims ceasefire \u2018holding well\u2019 - CNN",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tQVFtT3lHMmxsRlhMRklHUi1YcnJ0c29mSFNrOFhOSFZlUEhLdzRGYkpiNTJVZmJFQW5YdXR6Y2xCZTdrN0czWnBmOGo4M0t4QUUxZWxzRUVtYkdZeTJTRGZvTDJDSy1LV3gtSVY0TUg0eXg1UTg3VVI4VQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "aad7e255c8c5bda0",
+      "published_at": "2026-04-13T10:30:00+00:00",
+      "title": "Trump mulls fresh strikes on Iran after peace talks collapse - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSTBrb21XaE1Bc1c3NXBWbkRvUE0yZ2NmckwwaDM2Sjk4ZzBqSnNHYVVKek1mWU5jRjZZWXpfb0R4MlJEalNfbnpHQmQzeGxiRUdneWFWTENIcHhfOHZRYmpiWEhBVUVEY3dTZ2w2QzhfczZROVY4UERhalN5UXhQQ1E5WHV0WHZWOWF3QzVuUndKUGE1RUcxYmhaTUNrQWRX?oc=5",
+      "source_name": "New York Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1a315a50f9ffb35d",
+      "published_at": "2026-04-13T10:01:12+00:00",
+      "title": "US cardinals speak out against Iran war, mass deportations in 60 Minutes appearance - OSV News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUWt6YUpkS3RmY3pHRW1lQk1fU0tZNFJranlHVlpJSmh0azFHY1dmVmpXRlJ1X2drWldhT2FYRGExUVFaMHdJZ3pKM2tLTm5vYUlJenl6bVRoN1lhQmdFY29nZ3E3UzNFRUFFY3AzVTJhdU5DNUZBM3BrYmNReE1sVlZTQkVDZllJLXpCTEpOS2ZrNlpoeHMzTkRONk5XV184eTZaeExWMnJxVUk?oc=5",
+      "source_name": "OSV News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3000d08f253f92b1",
+      "published_at": "2026-04-13T09:57:19+00:00",
+      "title": "US blockade of Iran would worsen global energy crisis, analysts say - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaHY3QnVKLVppMkE2QldqNDJLRE1ic3d1c1lZeUhoZVF2WmdlaVM2NUU0enFBMWh5RVhBS3dDRU1jcS02Umxib0NnWkc2ckd0YUd6b1BWMmowbmE2cF9NNlhXWFVSVlVDWi00YkREeERYOFp4VW1GQ2RQZHc4R0tuRlpKMzBsNG5QUE5NRnNQQ2RXV0dIUkktSDZjMUVLMGZsWXBRTXNRanNlUE3SAbABQVVfeXFMTnhzdTVsNDFDekk2Q1NZQ01OYlZweXdGbW45bHlodWgwVDhfajZWWGw3dmtuVl9qaTZuRTI0cG9UdnA5SVNzaTFUekFtVzRzczdiajVCbTIyOGFSN1hPdXluRXJJNlhhTlNJUnNYOS1VQmx6eXIzYy05YXZGc3NqbHQxRWRZeS1NRnZobFJJYlQzMk95Zm5ic3lSY042WDBiaEozRDZuR2d5SUNjdHdDQkk?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a5a197364cd43d94",
+      "published_at": "2026-04-13T09:56:03+00:00",
+      "title": "How JD Vance Tried and Failed to End the War in Iran That He Opposed - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb1BtLWZHR293UW9xWWJPV0dMZ0NKS3Zjc1pGX1V5cFcxdlRVaWtpSUU5UTVlUTI4Q0dweTRYSldJdTlrdFhsb1UtZTN4d3pwZ3VnaThJekNCb2J3RlBMTDI5b1VjQkRzQlFvVHl2TnNRdUtIX0FJckktS2ozazQ1cU9waUZOeXV2RVBkYw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "bc59e5bd8b458775",
+      "published_at": "2026-04-13T09:54:55+00:00",
+      "title": "UK 'not supporting' U.S. Iran blockade as France's Macron confirms 'multinational' talks on the Strait of Hormuz - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTERUbHllaF9KQ3MwLUNPV3VYYUpDNjBxQnpKQkYyaW55bnNHZlJwSE0xYTN3UzNMMVcxMkdrN0xvd21KUmlvZUJhQTFnQkVSR3FVOWZoNmo3NGdqbmNEMDRCVWZnWUFnQTdmOEpKX0Q4em5NZHRkWUhCUXNTOGVlVmw2OGgwVjlDaXFn0gGQAUFVX3lxTE1uakREM0pERGJQME10TkJheTlCdUJzdmJhTFRPdHFLemkzdWpQVnp3ZVhqeXd3YlRjMmFYcGFsUTh4UlJnSEswY3J5MHpncXVMb2QxZjk5VnphZlpWY0sydGpIT0Nmc25ZS0hLZldjNmoxTU9yQ2dSakpPejJvQVQ1bEx5MUxUeDNpd1owZWlCbQ?oc=5",
+      "source_name": "CNBC",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4d6aefcf452d1ce7",
+      "published_at": "2026-04-13T09:47:35+00:00",
+      "title": "345 students, teachers killed in US-Israeli attacks, says Iran - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNWENhRmtTZHo4UndRcWduWDBwcDBvZmFkT1VGTFVmN1lvTDNfb1c1b25zZDFFWjhCZVp3Y2hpQmJDUllpYmlUajRobTZBWmxRWXZySUtVUTJleDhhdkJTd0hSeXROVHdUTGNXSFktNHdrLVJ1VUFYS1ZxeDR4YlRDU0FPWGItbEZtVnVXak9tYlNhN3BNZEhIRjcwMzdHZkpheF9MMllXb19RQQ?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "92ea570769655af7",
+      "published_at": "2026-04-13T09:34:00+00:00",
+      "title": "Middle East crisis live: US blockade of Iran\u2019s ports to begin today as Pope Leo says he has \u2018no intention to debate\u2019 Trump over war - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOS2x6Qm9KaU1wNmdPd0FRMjVydXprTWdUT2xKTFMzRnlGM3pqSWxmV3ZyU0VRRXgwekRDaC14cUdZYmVWblIwaXg2UEoyTjAxZ042X1RpU3ExOEotNGExUTJnX3NsWVdILW94eTVoX0FGbWhmVWlDUVRCbE1KM0ZTUzEybVdUM1l0bTM1NXREeVp2bWIxN3ZFdUVkaXJrTGdwTlFnY1lEak5Idm5ZcHZRVDRzSUkxWnYtN3doWmVkMk1kNWtybnNBZlh4V3k5cWppOGo4SFh0SHlYak9QT3hkcEZqckpCX1hHTTRtYm5R?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f2d7e4e9d87996ba",
+      "published_at": "2026-04-13T09:31:36+00:00",
+      "title": "Iran war live: Trump says US to begin naval blockade of Iran's ports in the Strait of Hormuz - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQYUd5aGlUTV8yNEw1cVJkV0pFTGN3bXhOcW5lVDJ3cHBLcExFOXVzcU5adVpLMEZpTzRnT2k2bGV0X0syOU0zQWRnOVRSeUl2UndocDh0YmNYTVRnTGR1QUZXMjV0S1NwSl9PcG5qd1Q1bUxFQTJhNlk1ZjNSNmJaSmk5Z2swTFVxeEFwZWJVeU1zWjd4V0s3VjNGZ3p1cFB2aTd2XzNxQzA0VklyaVN1eFVqZmEtd3c?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c6f3995410c4b3b8",
+      "published_at": "2026-04-13T09:22:16+00:00",
+      "title": "U.S. to begin Hormuz blockade as Trump reportedly weighs limited strikes - Investing.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcmQ0LWF2Tmowenh1WkpybTQ3b2drWnJsWE1vZmpodmMxSy1KZGJwaTgxYmN0Rzc5TVpRVk93akZpUldPOVpEM3J5VGlyc3hZZ1lxbjg2YUhrdzlWVmJXMW1GY2pKOHlGZW4wTndKY3pOdzlFMU1HdEhfeFlvT2VlQzFaX2ZzcEZyc2dUNGxtVDczNVpJQkVTMnY0MjZVQ1NJYWk5eHJn?oc=5",
+      "source_name": "Investing.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e4e406c953413afb",
+      "published_at": "2026-04-13T09:00:54+00:00",
+      "title": "Oil back above $100 as US to blockade Iran's ports after peace talks fail - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EYlhRdTlzeWl3YWp6ZEo2eUJtdUJNeUI5YndBOThfRThxUUxOTGJKWTU5ZjQwT3l2SVpWRnVaZ3BBU3F0SFBkUkE3OFZtWHJJRk5yR2lDWkNiZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8d80942b0b06733a",
+      "published_at": "2026-04-13T09:00:27+00:00",
+      "title": "\"The door is not closed\": Mediators rush to revive U.S.-Iran talks - Axios",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9RcVA5QXZRZm5jMGpiU21kQ1VhemxlWWhNUUhQTVdGbzV6Z2M3X2dBSUJyN0cxS2V1SEk4NlVXVHBaVmRxbUVmMk9CTjR4MF9wMU56Q1kwOWlSVWVTcTlGWW1LcTBwTzBKeWRLUEZhUUkzcnZIZEpLdg?oc=5",
+      "source_name": "Axios",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "2875153ccecec535",
+      "published_at": "2026-04-13T08:49:01+00:00",
+      "title": "Trump Casts God As 'Co-Commander' In Iran War, Pope Says 'No' - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxONnhuekkwSFVFczFMOGNkdWJRSmFCZHZYbTFUNGJPZHFFU2ZlNjJRTDlyUlYycUh0VHRLcmhsU2JDSXpVaUNnSUZLNWt1TnNlQUd4NXpCQ29YdUlwY045SlAzSl9wQ0h2Tk8tdTFoRm9VOE9EV3FDVXJRTVU1RE1CV01nOE1TM2FkcER4M3NmQmFDWGFVZHREOUs1Y2FGX0FiZG93YmdOM29fSHY2UkRrOXBSQUJXei0xWmhHQUpZMVRjNXpjLXJUcExMTkk1UUtybHpLYl9Oajc1SDJob040?oc=5",
+      "source_name": "NDTV",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fef8a3210a914c38",
+      "published_at": "2026-04-13T08:41:41+00:00",
+      "title": "Refugee in my own city: Surviving Tehran\u2019s bombing, with my cat for company - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNExxYWhnUE1LVU1qeTVEdVJKamtJelVzWExrZlowa0VmNGtlX1hERkpVQWh0T3F6cTdwa1NtRzJuLXRweTNCY2s4c3ZCVjdDN3IwTV9oalpIcm1Td3NBdFlOanJZSTZkZ2gxSDlGcDdLUHlWSjdjekNCNmkwV2x3VTBsM2FFaFBmRzBnU3NRZnp6SHIzX292WUpZbV9wNC0yS29oT3VZbEFXNm5tc1l6OVJBVU80YjJH0gG-AUFVX3lxTE1VSWdjRVQ5VnFsM1BvR2h4STg5OGw3VDNQejN3S3VYTFNYQl9JR3lyaEVIemkyb2poaWwzVVNqWlJnMkZqZWFnWkFYSXNyNU92dXdDTXd0V2kwOXlDYnFabXRTb3gwWGI5eER2NS1QRnVGZVpibVpFcXlkVURTaW03cU1zV1JZTVFJYmh1SThxLVdYVnhUUHl5MGZEQ3lDOHlBWldOOFF3Q1lNb0JTRFRXemRQeVZtNTNZeXdEcnc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6a0b8350242d2706",
+      "published_at": "2026-04-13T08:40:00+00:00",
+      "title": "live U.S. set to block Iran's ports, Tehran warns of harsh response - Monday 13 April - AnewZ",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOa0JpdFAwWWRqSWtCU3pmaVJVQUdXVTRLd1hjbUVOVUJxUm9ES1FqcW5NN2pvX05uRVFCYTdiN3JnTmtVc2YxeUdrS25QV1ZobmI1U2ZtdWRsZGRHTkFOeGpqbG1VOFhJbUhZeVZoN3Z5eWF3UktJSGJEWmZORGpUTmlNd1pGWUJsVDl2YmpxUS0teUNVUG9tMQ?oc=5",
+      "source_name": "AnewZ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f647b3bd17d7da2c",
+      "published_at": "2026-04-13T08:17:00+00:00",
+      "title": "U.S. will begin blockading ships in Strait of Hormuz on Monday after Iran talks yield no deal - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNM3BjbS0wbVNsakpHdDNKSDU3aGFWUFg4akhreGM0RVR4MHlneFlhM3kyWllUeWtnZXA2aERjRGZQZlluQlJBMHQ1ZnZGNE9BMER2Wmo2OV9tZW5NNHhHVmk0bHNoZTc5UWhLQlJnMGFxRlptQ0lQd2FEckV3SWhuYjlRZEJHWlQxWTczYnFkSjhGQnZlckMw0gGcAUFVX3lxTE9DVHRIbV92d1JUV1RLRU80S0hRYjREMkhnWkVmYUFub3BXRGwxb3lMdjhJdWxDZ0V6cHVrYnRENHpKWlAxYzdxMDVNZzN0Mk4tZUs3cFVfRW5LMC1OT0ktcE94T3RwaEszSGR0VHB0MlB4bW4yYk5kUk1pTUF5R2tiODFkX0I1cTRMYVc2UXZQQTUtRGhyWmpHTDdNeQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
     },
     {
       "id": "262410d8adad81e4",
@@ -128,26 +383,11 @@
       "confidence": 0.8
     },
     {
-      "id": "b411ee066bdc7062",
-      "published_at": "2026-04-13T07:46:00+00:00",
-      "title": "Live updates: Iran war news; US to blockade ships from Iranian ports, Trump claims ceasefire \u2018holding well\u2019 - CNN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4tQVFtT3lHMmxsRlhMRklHUi1YcnJ0c29mSFNrOFhOSFZlUEhLdzRGYkpiNTJVZmJFQW5YdXR6Y2xCZTdrN0czWnBmOGo4M0t4QUUxZWxzRUVtYkdZeTJTRGZvTDJDSy1LV3gtSVY0TUg0eXg1UTg3VVI4VQ?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "24d97d4ee16fdaa0",
-      "published_at": "2026-04-13T07:34:53+00:00",
-      "title": "Iran war: What is happening on day 45 of the US-Iran conflict? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQcnB0M1VDUDJCOUpYTkNxVXJxTXI5OTlJU3daR2Z3NW81NDE1TlNLRUNYUVAxcVlObUtrT0h5R0Q4Tkk2cjcwdkV6Y2lMWFU4ckJ3QzZvUTZ2TEt1WnpUcTd1SlRhNjNaUVV3WWpjdGN2dDB0dVEzSTBVbWNoQ1VKVHFCTi1zTDJZajBkdmQ3UFY1c1VMU2dWdXloN04xQkR2SWFj0gGoAUFVX3lxTE1vWEhmcjEyR2hpeXJKcDhweWJaMmtFVGZXUmJQQ1N3alhJN1I0S2tQYWFiOG1PdFdiSVhKRk5VX0Y0clJMNnlYMTdPYWpXUlBMX3RKeC1QRUFKdmo1RXZUaWhva3ZUVEFhQWNYbkM0Mmk1Z05SZ3kwbnpTQ1c3X2VFcDY2b3lFUlhRQ0h6XzdVeTRqcHNBcGYzU2hOeVBMbTliMWYxemw1Vw?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "ab3a720dfffc30d4",
+      "published_at": "2026-04-13T07:47:49+00:00",
+      "title": "Trump threatens 50% tariffs on China as report suggests plans for arms shipment to Iran - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRDBCNmhpOU5ZY3ZYZTZZU2FDaHVDc1BhLTl2a2x3c1dOWWd5alQ3SEhlV1VMdjllS19mNXM3a28yMUxtTTJya3EwRTRja0pNNVFPaDMxR0o1NUM2NnlnekV0cGRvaFphbENPYkJLVEs4TlNJSm13ZUJDY3NSWnUxamVZY2QyanlqYkJWZEF5SHpocjVDdDNQTWJfQ1phdUVKSHB5S3BiRzRiM1E2LXRJYUdLU21Nd2l4V1NFYi04cWxUc2NkMDg1S2xn0gHPAUFVX3lxTE84eUxCY1RuTmZ4eWZLbVltZzZKOEJmQmRmM1FNUTZFcTVpWElfR1R3VkVJZFZMazF0dWdLTmYwN1pnY1RVRnZxWDd6am43UDJ4OEtYVjc5bmNjUmJPamVMb0R1TGpNay04Z1NDR1Uyc0Q1Z2tzQ3p0V1JHNDd0WjVWdlBCUnUtVFM0X1dxbnMybHhHN081R2o4a211TUY5NXVIbUpRaVFvdk93UkVCUEZRQzRHSGRqUmJxTXdKR1U2dlV1bWk4N216dTJhQUllQQ?oc=5",
+      "source_name": "CNBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -156,246 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "03522d5660bb64ca",
-      "published_at": "2026-04-13T07:29:21+00:00",
-      "title": "Iran war live: US military says it will block Iranian traffic in Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxORy0tZzdXVnlhNGYtMEpaZVlSRzNIQjBCMHBLUTducXlxSGV2dXhYV3JUMDY2X3FDVV9Tb0hBVUUxZFFjQmItS0JvcVNKNVZ4dUlja0R0Sm5MYVBiMEhnOVRUMDRiOTB2RTZIOVZkdGdEUkh3dVNKWlBMd1huMExMaTBmOV83bWNNSmhrcG1GOVM1eEZuTEoxZi0zVUROUnQ3UDZSNkplWkY2eURLcDJxdFVPd1I5S1h6cnNaZTRsb9IBxAFBVV95cUxNcnNnUENoblNnSGx6aDBpT2JVbjlpLXNmQWRKSzFSMXJBVkdLa2tUM3FkOE5YMGRPZWo3TTNRXzB4M1NpMTRYZHQ0ZTVOc3pqR1ZjalE2aVhGT0RuM3NXNmtTMkc5RFFrNlgtZXA0QzdQem9MeXlwa19BTmlXVlVNQkVNZE45Qm9BYlg3MVlFVlRoRFRYQlFfc1A3eHF4emFNRFU1QUd2WDlsNG1QMmg0S0Vsam02WFAtMGFPYmNIN3ZHUm0y?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "31c2b1c8d7f21bc0",
-      "published_at": "2026-04-13T07:26:00+00:00",
-      "title": "Iran-US war to reignite again? Trump says 'I don't care'; reports claim he may be planning 'limited' strikes - WION",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNVWNwT3hVOVRiWnZQRUFZcHpEenczb2R1MmNEODh6M3lPcmo4M3N0clBIaDk2U2RJVnZidmV6VmF0cmNySGxGejdWdGRBMTdHUzhXZGM3MUJpNDg5aUMyUDEtNlFvYVhhWFBmbGZPb2k4RjFMR1lLenRvb0FtR2x2YXRMSDE5al9iaENUZFRfS1Q3WUYxQVQ5UG5DalpCYjNUX2ZJQnVDNERFYy1WcE9tZnBIMmhKODEzeFg4aFk0bzJoQXk0XzEzS2tLVHFCOEJSaVJjWmdab2dWT21pbG00bA?oc=5",
-      "source_name": "WION",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7a38548a39410e63",
-      "published_at": "2026-04-13T07:22:00+00:00",
-      "title": "Middle East crisis live: US blockade of Iran\u2019s ports to begin later today as Trump says he doesn\u2019t care about further talks - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOS2x6Qm9KaU1wNmdPd0FRMjVydXprTWdUT2xKTFMzRnlGM3pqSWxmV3ZyU0VRRXgwekRDaC14cUdZYmVWblIwaXg2UEoyTjAxZ042X1RpU3ExOEotNGExUTJnX3NsWVdILW94eTVoX0FGbWhmVWlDUVRCbE1KM0ZTUzEybVdUM1l0bTM1NXREeVp2bWIxN3ZFdUVkaXJrTGdwTlFnY1lEak5Idm5ZcHZRVDRzSUkxWnYtN3doWmVkMk1kNWtybnNBZlh4V3k5cWppOGo4SFh0SHlYak9QT3hkcEZqckpCX1hHTTRtYm5R?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "111a9d4e6c221ac9",
-      "published_at": "2026-04-13T07:01:15+00:00",
-      "title": "Trump 'doesn't care' if Iran returns to talks as US weighs new strikes - T\u00fcrkiye Today",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxORURQMV9VMEFWYTY2OE43Nks2dWtURGk0eUF2XzVYUGNTbkJyTkdRSUp1Vzl3NDhYTlRqZHNPYmRiTUpySFFHRmgwaWlPNVZGVWlkWXpJZWZPeVZMNWl4dktGRW80aDFTcmNJejZGbGN3SzlWR0RDSTlRVy0zejhPalhuclhPc0wzM1RSeHIyd1hmcXVIUDhtMV9oU3RfYjJsYmtnR29nWndqRmpHUEJETg?oc=5",
-      "source_name": "T\u00fcrkiye Today",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "74d8a7c1ca5d3182",
-      "published_at": "2026-04-13T06:52:07+00:00",
-      "title": "Iran war latest: US to begin Hormuz blockade today as Iran warns it could become a 'whirlpool of destruction' - The National",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbzg5MUV4Y0xiWURkYUstWXgzYXlzVzItYmcwTnRfbGxxVWwxcXJ4SzhWMTJWNzFEQ01UVW0wZWduMG5oUTRqT1k4NThnSWVZbTVuYWRKOFJJQlNmVktleUZxcUdlYmtvTGxZeHJzM3dWYnZINXNLdUp0R0NPN3JwR3ZHM0V1UlpXNjlOVzJucVdBUQ?oc=5",
-      "source_name": "The National",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0ea5b430900a23aa",
-      "published_at": "2026-04-13T06:22:00+00:00",
-      "title": "Trump weighing limited strikes against Iran after peace talks collapse: Report - Al Arabiya English",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNNGdjOGdaZVhRd0xFVDEyM3N6cU5PTEJVS2JxQW1YdHNscEtDOE0tUEpZUXcwWlBUdklLbEtlOVhoRjJ6cFc0MDhMSUxjWHppb010aEFzZXZzRW1jYUt2SHpydENxcjVpd2Z4WF95WHRDVkVfSE8yU0N3a3g4QzhWa1Q3UUpBYVBIQVhmaWhyY09vSER4aFFQSlhvR3pMZi16MVVXQ3JaeEZoVlotZkxWNDlLYWNBQV8tajdhMVZsUk0wejRqbGsxenpIYk9uMUNTd1HSAdcBQVVfeXFMTTRqclVRMExYaHRvUEtmN001bURYTmpWdkpuVFRNSnJZMGZrdTV1cG4tWEVacWhtaUdQY3NjQ0stbF9STU5BRm5fMWxaMldNa1RTVDlPM1ctZjd2am9aQm9ZR0x6aEJONG5ndWtzZjZUczA5MWFjMzZkS1dnT0Y3Y1dUREV6aHJ4STM0WEs1N1FqVWsxUlo2c3hJN1BIdi1oZE9laXlMdkI0VUxva1lNT0x1UWt1T2tYWTFJMlBLdk8wZkVLbFhyMUNKNmM3cHE3MnZXY2d1TmM?oc=5",
-      "source_name": "Al Arabiya English",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "dd116fb76552bec8",
-      "published_at": "2026-04-13T06:13:39+00:00",
-      "title": "Trump Orders Naval Blockade Targeting Iranian Ports After US-Iran Ceasefire Talks Collapse - Marine Insight",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNT1ZJNGR5a2FLRE1TVzBIR2JneHA5UkpwTjdPeFUyUjgwN1RaSnVSTG5ybDdtYy1mamgwakxUVnlGRWJ6cGV2VGYxN0VOd3B4YWNfTTJxc3A0aDFfSVhyQkUtekFSZEpVRDFfRGFpeVNFN000N3RZMjFXc3pTZkpuTXJwZWZWNXlCYUZfeDVnSnl0VzhKQ1U4aDZIUXlrZFhJdGx1YzdJRzJKRy1vaGpZUlRMbk5ZMUZ6aE5aODVR?oc=5",
-      "source_name": "Marine Insight",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "fe5379dc67e80947",
-      "published_at": "2026-04-13T06:07:21+00:00",
-      "title": "Iran Threatens U.S. Military Retaliation Over Strait of Hormuz Blockade - \uc870\uc120\uc77c\ubcf4",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZWJqS2xnRE1iQ1BFZGttem1FTExYalUtUG1RbG1aLUZNTDhFcV81TFp2OHUzM3N2WGtXQ3I5TVE2alpjTlZQV0NpRUVVTXJ1b0doTTJscDdHY2pjR1p5TlY5X2s3T29RZXNfSkhNR1RyVmNYYTNuSTNPY29TeUNxUkt6MGw?oc=5",
-      "source_name": "\uc870\uc120\uc77c\ubcf4",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "23a7aa58965cc15b",
-      "published_at": "2026-04-13T05:52:16+00:00",
-      "title": "Strikes on alleged drug boats kill 5 in eastern Pacific, U.S. military says - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPd1VmUm1XYkpZWUdUZEpkVWFxckptVnFxa2hoUmVtOXBHYU04WGhCaDl3Ym9BTk4yWjl1STFkSzVtSWxxM0ZOaDE0dHRJY040VFB4bzVBbEllSTlDeVloclRWVDRPZ0s5eFpfcHh2cllHVTFYaVl3TTVwWkNXcFpOSFdR?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "31c59d03f55dd1bc",
-      "published_at": "2026-04-13T05:38:11+00:00",
-      "title": "Trump announces naval blockade of Iran after Islamabad talks yield no deal - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeElGb2lmeEVSdmNsY2JXQnpoSWtBY0hESU5FVXNhNk5vTnJvN25FeFdhbnVXNjNQU1JBaHNGSHMxY2g5MWFlaGdvUmNOeXVhSkF0anNua0hmV0UyWWN5c3RYaUtMNFFUN0N3VXRoek9FN3RUWUVDVHkyaGRMVkhQaG1xTF8?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "faa4defad1f4b441",
-      "published_at": "2026-04-13T05:24:51+00:00",
-      "title": "Oil back above $100 as US to blockade Iranian ports after peace talks fail - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5EYlhRdTlzeWl3YWp6ZEo2eUJtdUJNeUI5YndBOThfRThxUUxOTGJKWTU5ZjQwT3l2SVpWRnVaZ3BBU3F0SFBkUkE3OFZtWHJJRk5yR2lDWkNiZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ab170ecdeb2d0aab",
-      "published_at": "2026-04-13T05:14:21+00:00",
-      "title": "US to blockade Iran\u2019s ports from Monday, Iran threatens \u2018severe\u2019 response: Why the strategy reversal - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOelVmLVczaG9oRklHTzdIRVdFbFRTMFdfNEJSV3NFMU5xWUNuTTQxMEhXdFVQYjNkYVlwQ21BRHMwa0Yza09hZ3ZtOE9DZmh4Sy1sZ1dWbVdRMlZJenh0N0xZREg4QThwbkd3S3ozWFRFNVd1b0dob3FhVTlsa3BocEduSW1BazlTRkZSMklZdkxfb1AwSG1aOEZxN2w0SnllSUE2WDRfV1JIRGdZeUxZX0dlbm9pQdIBvAFBVV95cUxNSXFGeExMckY3WURUdzE0UkNscy1adERYWHFMTTd5emJHTDVkbjRYNEtCRUotRVp2N254cC1vOXc4V0RQbXplLVdiV3JQb1VtaUQ2VXh5eEQxVFdxaHRlM1BCSndwRWR0akdhb21fZWVxNWc2aU9KVDVOSE9pRW8zbFBWa2kxT3VSSXZTaF9oQWlBRVBrV04xX0VZNVdjc0M4SS1udkdINjcwdGpwSFVXZlM2X1BpcnZURHM3Xw?oc=5",
-      "source_name": "The Indian Express",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c0c1e6450de26177",
-      "published_at": "2026-04-13T05:11:25+00:00",
-      "title": "US military says it will blockade Iranian ports after ceasefire talks ended without agreement - Times Republican",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOYmpTUTdnRGxmc0NBTWZLT1lnT2pJQWdLMFhkWlNCRFJvRndNV0plOTA3RGRfbk9MMmJnSng5MkFGN0xRMXRwRkI2SDhLUl92RzRheFktSHRZQ3dxRG1pQ3hjMEZJVEhZRFEzMENvSzZ0dklDVDlZV1FyMG1YQ0hyX2FqWFlVd0hCSTFBeTFDVk5XRlNrMXNGS1kydXoxRmdRQ0xhYzBvbXo2MTN0dE9SWlIyQnktbWUxM1pJcEdzVVoySXdxcVRMTXo0SXFBUmRITjJSR2YybG5QRWRQOExIRTFUTUxUUQ?oc=5",
-      "source_name": "Times Republican",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "7797206776218ed3",
-      "published_at": "2026-04-13T04:32:00+00:00",
-      "title": "Why the Iran-U.S. Peace Talks Failed - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZXlxdXlHa3l6eWdxM3hlRzdjM2VEcmlWem5wMU4xR2VUUXhvVXJHQ0I0U2YzcmlUNGFoZ0ZlSTVwamVGRXRqMWVGY1UzY29xYS1pNzdQenFvaG1nd3NWLU9SV3JyREg4eE1uMktqRDhqLWoxOC05TE5KcTBwVV8tbG1Ld1Q?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "1b33945cf7752c5c",
-      "published_at": "2026-04-13T03:32:17+00:00",
-      "title": "Trump considers new strikes on Iran after peace talks collapse: Report - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcVotRnpYQXFZR1doWmphc2hERnNHdWlSZGdDT0JDd3hPNEZ3OUdyT2MxR0t4eThqdVAwT3VROGc3aWVYVkZKRTU3cURJNURQQU9MRUlScVNXRndkUlNyeG9GSVRLS016ay0wRzlkaTV6dDBPbUNERnc3c19mRm92UDVYOG9yZm82enNuS1dDTm5LUFZPVVdIYVZES1JmYVZrU3A3SGNBMA?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c54c2f3047c565be",
-      "published_at": "2026-04-13T03:21:00+00:00",
-      "title": "Iran war live updates: Trump says U.S. will blockade Strait of Hormuz after peace talks fail - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNS2hsNmdISmJxSGk4RjVtb0ZoTE4zT2lrcmh0NEpQbEVOSW1rNGRCMlk3X3hOVko0bHk0d2lIaVduLWNWRWtFZGItZGFaN0YyRE1tVWNuTFFBUTJzQWVMT0tWRTY1aGxnUXJid1lUbTVaTGdjN3NEQ19CbExPMGFfeVlxU243VEFWS0lucm5wX04xUGl4enRaVzBmRXUyLWZQNkNOVERLUEljWWhvTy1GS2pKdGgxd00yWHNldWtn?oc=5",
-      "source_name": "NBC News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
     }
   ]
 }
