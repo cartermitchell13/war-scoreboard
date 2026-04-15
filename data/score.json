@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-04-14T22:07:14.165245+00:00",
+  "generated_at": "2026-04-15T03:43:24.526572+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 108,
+  "event_count_window": 110,
   "totals": {
-    "usa": 38,
-    "iran": 23,
-    "lead": 15,
+    "usa": 36,
+    "iran": 31,
+    "lead": 5,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 31,
-    "iran": 14,
-    "delta": 17
+    "usa": 26,
+    "iran": 18,
+    "delta": 8
   },
   "confidence": {
-    "score": 65.3,
+    "score": 66.0,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 26,
-    "other": 61,
-    "attack": 21
+    "other": 59,
+    "diplomatic": 28,
+    "attack": 22,
+    "material_loss": 1
   },
   "history": [
-    {
-      "date": "2026-04-01",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-04-02",
       "usa": 0,
@@ -57,11 +53,11 @@
     {
       "date": "2026-04-07",
       "usa": 1,
-      "iran": 0
+      "iran": 4
     },
     {
       "date": "2026-04-08",
-      "usa": 7,
+      "usa": 6,
       "iran": 0
     },
     {
@@ -71,7 +67,7 @@
     },
     {
       "date": "2026-04-10",
-      "usa": 3,
+      "usa": 0,
       "iran": 3
     },
     {
@@ -82,7 +78,7 @@
     {
       "date": "2026-04-12",
       "usa": 1,
-      "iran": 0
+      "iran": 2
     },
     {
       "date": "2026-04-13",
@@ -91,29 +87,19 @@
     },
     {
       "date": "2026-04-14",
-      "usa": 9,
-      "iran": 10
+      "usa": 6,
+      "iran": 7
+    },
+    {
+      "date": "2026-04-15",
+      "usa": 5,
+      "iran": 5
     }
   ],
   "latest_events": [
     {
-      "id": "06ee26f3327a3cdf",
-      "published_at": "2026-04-14T22:00:56+00:00",
-      "title": "Iran War Live Updates: Israel and Lebanon Begin Direct Talks as Hezbollah Signals Its Opposition - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9Dd3pCVzNWNkNLbUtmNnlGSGdlYmhXNXpGMnBDSVFqVmdickxVZDNPVFNDd1ZtSjdlaGNWWDZlUFQzRFdZOGYwMXUtMm80TXlfZVk0YnBtOFQyT1JCV0tNQUJZaVhuNE1Fc0ZxMmx5WnE0Ylk?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "912d64931d5e2397",
-      "published_at": "2026-04-14T21:49:48+00:00",
+      "id": "41a176a78cab1e66",
+      "published_at": "2026-04-15T03:38:56+00:00",
       "title": "Opinion | I am Iranian American. I hate war. I want Iran to be free. - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPSnhlbFlHakhLS09LNXRnNnpzdHRFWU1hWUdndEVON0l4cmlBNE9xTEhoWUhJcmEzQXF5VnpQOXVDX1R2VE1oRktpYXYyNUtIbXRrLXpFNlhFOGhfSUE3akV5VU1DY3NGREFXYnhia3c2Q1FFRFE1NWJfZ2xGSm8tQXNqQWpSdFBQTjlBamRJRVVVQVlMM3QtUG5sVHJ0WlRsd0hVRjZXVQ?oc=5",
       "source_name": "The Washington Post",
@@ -127,41 +113,11 @@
       "confidence": 0.7
     },
     {
-      "id": "47cfd740a9133523",
-      "published_at": "2026-04-14T21:42:00+00:00",
-      "title": "Diplomats try to arrange a second round of US-Iran talks during first full day of American blockade - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVGF4UVRuVk1TZGoyV202ZkpPSFp4MldhZFJKYk5MY0R5dW80UTU3V0wtWW1ORGUtNW1MODlfeTZIWTgzZ3VUdTV6QUJJTmVjdVQ1dHJvOTlaN0dva2VlYlVUdnptTGl3cVFyY2VpTDZzajZxZURRb0RPUXVuSm94SmNMQ3NCdC12eWZ5em44dWlZakppN3dCSXdHQlRuMFluSzVKT194eXlLV3lTQ05MS3FlWQ?oc=5",
-      "source_name": "AP News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "6b20cd44fa35ba87",
-      "published_at": "2026-04-14T21:35:38+00:00",
-      "title": "Trump says Iran talks could resume 'over next two days' as US says ships turned back by blockade - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5SWHk4QUk3ZjVBWGdhVGdXMWc1SHVQQ1ZoSWNFVmZtbk5hMjBVcV9sUDB1UFZWT3NPZW1jU1ZGRHhkeFdDcHBuemltOE1vQWNuemRnVQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c82c1d702372ade9",
-      "published_at": "2026-04-14T21:34:51+00:00",
-      "title": "Live updates: China says Trump blockade is 'dangerous' as Iran-linked ships transit the Strait of Hormuz - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?oc=5",
-      "source_name": "NBC News",
+      "id": "977347cfd85c8f46",
+      "published_at": "2026-04-15T03:32:37+00:00",
+      "title": "Trump says Iran war \u2018close to over\u2019; US claims all Iranian sea trade halted - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNam43bTZtRlVmOGE4Rm56N3NoM1hmN0syZVJHUXVzRS1nVHZIQ1plVnBoRWxveHMyellqcE1sbXVIUWdPa1poVDVkVmItcUJvMFFWM3dRMW9VOGZEWmd4dWpUNGJJNnZJM2doWENiXzlPVlZfTTVPU1phWktJdmQ1UVRHaVBBSWhiUnlTS0dMbGwybXJMakxIbE1wVUNreTZJODNhR2cwdEVSbWdKQ2pXRy13U1FDSnlFVFllRERBWQ?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -172,11 +128,11 @@
       "confidence": 0.55
     },
     {
-      "id": "fc186493638dba61",
-      "published_at": "2026-04-14T21:26:57+00:00",
-      "title": "Iran live updates: Iran rejects U.S. proposal to suspend nuclear activity for 20 years - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1tMm5ILVFLYm9XbnAyMTBSQnRkWDJMRHJ2VjdZbFl6NWJYYW5sdzRZaUlFcUU0OUlUOXA2X2N5RzRZeU9Nbk14Y0d2b2hNNE1ZT3pJQW1Qb2VTb1F3UlF2UmpsOVZhaE1SQUZBd18zcnc1X2dlWTgwaEZ3?oc=5",
-      "source_name": "MS NOW",
+      "id": "0ed574b1bb5b3bad",
+      "published_at": "2026-04-15T03:17:21+00:00",
+      "title": "Iran war: US will make Iran 'thrive' if it ditches nukes - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUm9DTm9obVVHaGJTaHdrX1pIR01NYnd1OUw4UUREdjMxQnV0T2xLc1E1OEEwQ0g0OWNtNGdVRTBOV1QxMTlucXcwU0xnLVhoTkd1TklEZGtRakRTaEVVZWJ0Z21qanpVdUNQeER6bkZHaTBYMm9oWWF2TUFkUFg0ckcyVXVzNnIzUlVRM1lJZlRwTms?oc=5",
+      "source_name": "DW.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -184,11 +140,41 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
-      "id": "aa223f37102698dd",
-      "published_at": "2026-04-14T21:11:00+00:00",
+      "id": "0abe11c5ccd81d0f",
+      "published_at": "2026-04-15T02:55:18+00:00",
+      "title": "Trump says Iran war 'very close' to completion - chinadailyasia.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1GMDNrQmVnMkQxVjVvZHN3emRBc0lGSkxWdXo2c1RMNTN2WmdWbk9hZ3dTTnIxcnBLODRxWDc3WVdwblJOR1dSb2MwTjdSNGE2bElKa2ExLVg?oc=5",
+      "source_name": "chinadailyasia.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "91a4aef103c77cc8",
+      "published_at": "2026-04-15T02:38:37+00:00",
+      "title": "Live updates: Blockade of Iranian ports \u2018fully implemented,\u2019 military officials say - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeTJFUnBnRmdIOExkNk40QngwbDQ0U3dEdUhZM2p1X0lPaEtzUUN2XzdpRkVCVEpwcjQ4bmtlMU5nMlhyUnl0Y1VwaFhDQTcweC1VMWV5Q2VuN2xBOHk2WFlUcVBNR1ZZUHpZeFlYbFpyQ2VNV0hPYmk3eG1MUjVNOEhiMmxpZ0YyWW9Ga2FHc0JFV1g4cUN2eFBncEhHNEp5OTZEN2tDRHJxS2020gGyAUFVX3lxTE91SHBYUXU5d0xUUUlzMXU2bUJuLVVWOWNGV1l1V3htNTlkZ2hSMkdYOThWQUVVa3dCMlF0UTl1eWJfa1FXUnZtSV9tR2pURDVPbkxEakY1cVY1bHpHcmhMMVBEUFVoaEc3STdiVmlWcERSei1SSEd4NjhZODdLcUh2eTZhQnBMUG01SzlZVXdrVnJnODdMQlROZ3JSeV9uYVdUdDF5VmVvSTFkZjZ4Mk9NbUE?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8e4278b168361a2c",
+      "published_at": "2026-04-15T02:20:00+00:00",
       "title": "Live updates: Trump hints US-Iran talks could resume over next two days - CNN",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE50WXdqeGV3VW9WOUQwUFlkbjJPanBBRmRxdUp2WlpIdkVTR0ZWSEh5ekpRUXV6anpFQlc4WW1DcXVVYzc3V0N5WUE4bDNwMXhHZ2w5a1JWbWZTaG9iNVlDWk5rZHl3QlZITGpvTFlkM21Cb2tJLTQzR2oyNGk1QQ?oc=5",
       "source_name": "CNN",
@@ -202,11 +188,26 @@
       "confidence": 0.65
     },
     {
-      "id": "7a6bff3db59261d0",
-      "published_at": "2026-04-14T21:09:00+00:00",
-      "title": "US-Iran peace talks could resume in next two days, Trump says - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSHR1cEZ3dllYT2RkRkJFZmhETUNTUXRlUm5DS3FXTXNrbGMtZVV4bFF0VlZFNjdESmNMdHUtRi0wLUtDTG1DaWlYVnNYbHpad2tLdTg4bTZXaGs1ZDhXUkpYd3lHTDh3dk5faGowYjZiN2pyLWZuVXNSWEdmVjRqNnlRVldIVElGS1o1ZXFza2cxUmR1Slg0OVBLUW50em9GSUFSVjI1cTZuZw?oc=5",
-      "source_name": "The Guardian",
+      "id": "2a1816382bca6391",
+      "published_at": "2026-04-15T02:11:42+00:00",
+      "title": "Buildings destroyed in U.S. and Israeli strikes seen in Tehran, Iran - Xinhua",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iOWdpX0NaQUZJUHRLR2ZrM2Q2R2dJQ1BVRzZaU012RjBva0hBTXZ3anJpd3RuOHY2ZTI4dmRLMFZSUXpVdVF5alQwdDFEdEttdkZCYnA4NFpUYU9uWEd3djVoQnN6TUxva1d0SjF4ekxnb3BidWpMa1RMZ0k?oc=5",
+      "source_name": "Xinhua",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "779ee12581d1e813",
+      "published_at": "2026-04-15T01:59:19+00:00",
+      "title": "Donald Trump signals US-Iran war nearing end as peace talks set to resume - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VR0lzQkJJMEhIdHhJd3dPRjdQajRiRFQxSmtmWWo4OURDYUg4QjRQNXBXMXhma01PS1NUcnUydkRweWxzTFJTSWlwZHpRTGNvZTNjZS05clJQWWtaNnRaU0pVc2Q1eWt6dXc?oc=5",
+      "source_name": "The Jerusalem Post",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -217,68 +218,8 @@
       "confidence": 0.65
     },
     {
-      "id": "32a30cb73e2939fe",
-      "published_at": "2026-04-14T20:35:32+00:00",
-      "title": "Iran war latest: US makes oil sanction decision - and reveals details from Israel-Lebanon meeting - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?oc=5",
-      "source_name": "Sky News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b423f080e547544b",
-      "published_at": "2026-04-14T20:16:00+00:00",
-      "title": "Live Updates: Iran war continues with U.S. blockade of ports; Lebanon and Israel hold direct talks - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlEY3B4eEpDckI2bllJNTJVNzU1SDNMYjlPTzlpTC11UzA0TTRGUWstSnlSeWdsZURiNjBIODNxRmR6d01kbXUtUl95Q1FrSmFpOE9hQVRnZ2QzQWsyMkVnRkIxdHdrWVZqMzNfbXgza0EtZElMaHEyQlZtZzBsR1ppZWVvWWV2R2w5YUZ3ZkVWQdIBlwFBVV95cUxOb0dhOFBmYUVaMFFOMVZISkMzVWk1N2oxZmxiR3QxbjBqZlJXNlBwQ3VVX2VCdWpDbmEtMXFYcEJoYmJiVkJBMXU4bm1LemR5YzRhVHBGcDBQRzJNVkw3a2ZyRDJYSk1nZTdsRS1ZUjNab25aWG10V1RKdllNbFM3bTJ1SDhkN1J3bXlPS2dBbVVpLVRaM3VJ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "8ffbc54edbb444b2",
-      "published_at": "2026-04-14T19:57:53+00:00",
-      "title": "Fact Check Team: How much is the Iran war costing the US? - KOMO",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPOGRkclRSLUYxeHJuZGkyV21QRW5KeEZuczU3ZmZGWl9jMU9xNDRRV1piSEhHOVV2ZldGX2FEWGM4dnJrd1FaNXNFOUFnRkNQakgtUUFSSFAwRTc1YkZOZk95WmdsN0pQckdlSktMb0hpV181eTE1eVBaYU9mbllmZzRmelRRT19PZHVoNnpRYktqV3QyUFE1SjdwZUZ0cnlGV0J3UUdEbXNhemxSUzQwZ2dpN1FvcUt4NGR2bQ?oc=5",
-      "source_name": "KOMO",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e24c9636ed0ee354",
-      "published_at": "2026-04-14T19:44:00+00:00",
-      "title": "Iran tries to cosy up to Europe to increase pressure on US - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEotZzNhb0xOVG5FQzRqY3NOdXg2bGZHQ1BmUjJnLUk3YUVTb253dDNGa0xVWklUNlBqNnZLcDJfMTh4N05wc0tqMDVsYWFGR3hObml3Rnc3RE9IX0xpb0p6ZGNWZEdOdld1UTIzdFNnODJOdDlEa2NFZkVlbERoV09RdkZYbkdJdUNzbEtHYw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "74351e5852c5c64c",
-      "published_at": "2026-04-14T19:43:06+00:00",
+      "id": "4cbd49e7e23c5ee9",
+      "published_at": "2026-04-15T01:51:45+00:00",
       "title": "Fresh Iran talks could begin this week as US continues blockade on ports - Fox News",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwRlMwdTNlQ0JQVFJtWWNLMy01LUFIVlp1UV81N0I0MnZKRzI1Z2RKUU5pYVBrdzF5UW1Id1JjNlFNUUszS3JBX0k4aEhRdXVYX3RqbEZuTklJckhsNmszUFN0UE00cUJUa0QtcDdIRXJtZUhxbkUtN0d5WGhEZ9IBgwFBVV95cUxOcWJ1S041LWtNanlXUjRubnNBeDdOcVpwQURkcmpMSzd1Ml84d2s0SEVlMk4wTkJZTnhWQjBZQkhScEJBNE9QM3NmQWttR3JOeFJiRFhpTDgwRHZZSTJ6OTBzWnVSSGZaVy02WHBpRnQzd0VSelJTUWNNcXdPalNqNHRJbw?oc=5",
       "source_name": "Fox News",
@@ -292,11 +233,11 @@
       "confidence": 0.65
     },
     {
-      "id": "d9e47af282d5fbc0",
-      "published_at": "2026-04-14T19:32:48+00:00",
-      "title": "U.K.'s Top Economic Official Berates Trump for Entering Iran War Without 'Clear Exit Plan' - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ2p3SHdzNHBXMVF3dEdNdFVld1J0VTBsR0ZNZVVMZk9xNXdFLUIxN01KOVE3VkxETFJWcnZWejc0RC1OOFhOZmRVZTMycEVSZm5kU2QxV0YtTUNiSzg3Wk56T3llTmZzZDNEZXdSdFM4NG5fRFVfdUp0N002MkJwR3NMVERsazdqZGZQbDllVzlEUXh4NmR2Rg?oc=5",
-      "source_name": "Time Magazine",
+      "id": "4ca211e40e298081",
+      "published_at": "2026-04-15T01:50:07+00:00",
+      "title": "Trump says Iran war is \u2018close to over\u2019 - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQU9WZ2JWMzlJQ1JWOXNLU2g1cXFhSGhCbUlra3ZGLWMxUmI1NzQ1QWxVd2JkWFhZcXIzYjJYNzQ3Wmhhc2F6Tjl3SC0xUnhFYmgyY2kzQmRiUGxwZ0RzYWl6cXR2Y2QtMlFtZFBLOXJjR0ZEVlMxZGQ5blhGTlBVRkpYUGc1dw?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -307,40 +248,25 @@
       "confidence": 0.55
     },
     {
-      "id": "e26dd074f4c721c3",
-      "published_at": "2026-04-14T19:28:21+00:00",
-      "title": "Pakistan PM headed to Riyadh and Ankara amid prospect of new US-Iran talks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX3AydTNRMFJodmVRYkJIWlN2bmdRYV9VbTVrN2xXNWRqUG9OeG9JVG5Bd0xjMDJvdDlxUFFOeVhETVJfUGRySjNCampnSkFVc0QzbUtxLUtoN2JiN1gtVmNUaFFCSWpVUjhNeThyVkhKTERBWVp6RHVSWTlBc280WERhUlhRMWI4Ql9IVHdiMG16aHBuUzZrQU1SbXBmYjBLdWNPdXJ3NWFKWWI3eWM1ZnFVdXBOd9IBuwFBVV95cUxQYm9Rbl92S2xfdjJNVG96UWpNa2pHcjNMYVZkMVVWNkZ4Si1ROElrSXl5eEJQWm1Ua2dUZTlpcmJpT2NKaXJFcmloXzlndnNyRXRmcUZrTHUtaGtmR1hhMEVxNUgxdnhHaC1LeG91b0JwX2k2a20xSFYzdXJCM3laeFlaOWRTS3ZITlViWWE1SkxkOEZpS2ZHRUtURG9iZmV6RzJYa0JfZGRDWVRhUUV4LS11WGNWdUh5MUM4?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "48181ce80c9b59bc",
-      "published_at": "2026-04-14T19:07:43+00:00",
-      "title": "Tankers, talks and Trump's 'dangerous' blockade: China's Iran war involvement gets louder - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONXRBTTdpTkpIUHM4RWtMc3dGUmZ0VmEwdnJKTmJNQThDNHNmRUIzbEctY3BGOG5iREYydlQ1Smd0ZmQ5Q0FZZDBhVEZrdi1GbWtFUXJDT2pOTkhjcVBNa2E3dkxsa0ktV2VIOHJUcElubnA5U0V4a3p5WDRHRjNfS3pBbnMzOWFfLTFCaDZ0aXR5Tm9YVGtySm02VWxLcG1TS1pyWmdTNW9FNk1uOHBHZGxpTENnRXc?oc=5",
+      "id": "4eaed795cbe29005",
+      "published_at": "2026-04-15T01:46:00+00:00",
+      "title": "Live updates: China says Trump blockade is 'dangerous' as Iran-linked ships transit the Strait of Hormuz - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN1RJR1g3TDBBOE5pNDRKR0FWQnUxS2RUeXpQMlFVWERhRHIxU2doMnFEUjRHelJfeERuM0tOV0h6ZTFtMXY1cjAwUWg4bm9lU2trcTJVcjdEWmlOS2swUUV5bHJLSE14ZHBZVVphZS1aU2t4OUJQU01QUjdTNkg4T1hBVFA2emNOTUF6Y0t5eTJJSXlobjlFS3FZQWRDYW14MkVjcVdEWkRFNTlPc3ZiaGw2VEVGVUNjaXczbA?oc=5",
       "source_name": "NBC News",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
-      "id": "493afdca91311970",
-      "published_at": "2026-04-14T18:30:55+00:00",
-      "title": "As War Chills Economy, Dubai\u2019s Most Vulnerable Bear the Cost - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaDRhVGl1ZzhBV19ZUmo0Q3hlNmZMQ0VIYktZQ0YtMmNHRlZjNzhEUUhPUE94VkJ2NkNKQldVU25BaWxkWld4SnNySGhOR2htTVpVZnVVeHVKYzNfemwzc1RUZlN5a2tQWjJQNnZnMGdUNWZnVEdTenRteW1BMFVOX3V6TWFvX2dvcXc?oc=5",
+      "id": "923ed46d57c36582",
+      "published_at": "2026-04-15T01:45:33+00:00",
+      "title": "China Offers Veiled Criticism of U.S. as Iran War Threatens Oil Imports - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9qQzNKTjhFZHFaeDRtMncyN3d4WHhfanNrc01hS01HWXNyc1RHZGM1S3IxTVRyZ01HLVBpS3I1X3l3eExyUjdJc1dCTnBBMW9yRUFhbnk2dXdFQk9FdC1MS1NyN1FlMUNEREhDaW1PQ2NTRUV0M19NTFFrN3dtVGs?oc=5",
       "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
@@ -349,14 +275,74 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
-      "id": "ac4b37ca1ffa827e",
-      "published_at": "2026-04-14T18:24:18+00:00",
-      "title": "Live updates: US military calls blockade of Iranian ports a success - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeTJFUnBnRmdIOExkNk40QngwbDQ0U3dEdUhZM2p1X0lPaEtzUUN2XzdpRkVCVEpwcjQ4bmtlMU5nMlhyUnl0Y1VwaFhDQTcweC1VMWV5Q2VuN2xBOHk2WFlUcVBNR1ZZUHpZeFlYbFpyQ2VNV0hPYmk3eG1MUjVNOEhiMmxpZ0YyWW9Ga2FHc0JFV1g4cUN2eFBncEhHNEp5OTZEN2tDRHJxS2020gGyAUFVX3lxTE91SHBYUXU5d0xUUUlzMXU2bUJuLVVWOWNGV1l1V3htNTlkZ2hSMkdYOThWQUVVa3dCMlF0UTl1eWJfa1FXUnZtSV9tR2pURDVPbkxEakY1cVY1bHpHcmhMMVBEUFVoaEc3STdiVmlWcERSei1SSEd4NjhZODdLcUh2eTZhQnBMUG01SzlZVXdrVnJnODdMQlROZ3JSeV9uYVdUdDF5VmVvSTFkZjZ4Mk9NbUE?oc=5",
-      "source_name": "NewsNation",
+      "id": "1a107d75900d9326",
+      "published_at": "2026-04-15T01:31:00+00:00",
+      "title": "Live Updates: Iran war continues with U.S. blockade of ports; Lebanon and Israel hold direct talks - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNenlEY3B4eEpDckI2bllJNTJVNzU1SDNMYjlPTzlpTC11UzA0TTRGUWstSnlSeWdsZURiNjBIODNxRmR6d01kbXUtUl95Q1FrSmFpOE9hQVRnZ2QzQWsyMkVnRkIxdHdrWVZqMzNfbXgza0EtZElMaHEyQlZtZzBsR1ppZWVvWWV2R2w5YUZ3ZkVWQdIBlwFBVV95cUxOb0dhOFBmYUVaMFFOMVZISkMzVWk1N2oxZmxiR3QxbjBqZlJXNlBwQ3VVX2VCdWpDbmEtMXFYcEJoYmJiVkJBMXU4bm1LemR5YzRhVHBGcDBQRzJNVkw3a2ZyRDJYSk1nZTdsRS1ZUjNab25aWG10V1RKdllNbFM3bTJ1SDhkN1J3bXlPS2dBbVVpLVRaM3VJ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "36a7568b1a40b39d",
+      "published_at": "2026-04-15T01:28:00+00:00",
+      "title": "Diplomats try to arrange more US-Iran talks during first full day of American blockade - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVGF4UVRuVk1TZGoyV202ZkpPSFp4MldhZFJKYk5MY0R5dW80UTU3V0wtWW1ORGUtNW1MODlfeTZIWTgzZ3VUdTV6QUJJTmVjdVQ1dHJvOTlaN0dva2VlYlVUdnptTGl3cVFyY2VpTDZzajZxZURRb0RPUXVuSm94SmNMQ3NCdC12eWZ5em44dWlZakppN3dCSXdHQlRuMFluSzVKT194eXlLV3lTQ05MS3FlWQ?oc=5",
+      "source_name": "AP News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "b172702f8361f1c5",
+      "published_at": "2026-04-15T01:15:00+00:00",
+      "title": "US-Iran talks back on table as blockade drives tensions higher - Nation Thailand",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rbzNSaVI0dHNQY29LejdjSG9hYmJOZVZQdXlEdFY2dDFyUl9HNEJBcVotS2N6emNlSkNrd08zazFaSHhNb3Z4NVNWNzdYZ29LaC1FaDNmQVN1SVFHdElv?oc=5",
+      "source_name": "Nation Thailand",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "913b66e80d0d3cd6",
+      "published_at": "2026-04-15T01:08:39+00:00",
+      "title": "Iran Update Special Report, April 14, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc1JSQkVxX3NyUEZJRmFrSGRTX1VTU3UxbkhBaWV0T1htTnhGbkRRMkZlMEFjYUZTUGdZMUtIVlpMcElndk9INmw4X0JJNTdIUDJlbGlQQ3dYdHdLMjF4aF9hY3JEWExZckMtQXNUcFgtRXhvcUhSOV9vd1BMeHZWZW1oMWZ2VG45bXMwQmlpT1J1MDlTUGc?oc=5",
+      "source_name": "Institute for the Study of War",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "43f7ab1906149935",
+      "published_at": "2026-04-15T00:52:41+00:00",
+      "title": "Rubio Hosts Israel and Lebanon for Rare Meeting Shadowed by U.S.-Iran War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE84bzZmWXk5RzlmNlZxc1NSZXhMZjA0azgxTkFRRWM1ZThpbEJxeXNYWE4wZm5IRkYzMDhXcTBwWlNFQTNFRUtMSjhmQ2F4V0x5dU0wcVJEcFFWRFNPdWVPM2p5ZF8xOFJLa2xBTXBfem9iN2h2R3BWMmhfdkY?oc=5",
+      "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -367,34 +353,49 @@
       "confidence": 0.7
     },
     {
-      "id": "875a1ce3074f97be",
-      "published_at": "2026-04-14T18:22:00+00:00",
-      "title": "Santa Fe Archbishop weighs in on U.S.-Iran War - KOAT",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSjBvZk93ZTJvMTFqSTE0bGpvbVJmaTF1UWgyd1lMR24tVnlGWGwyRkhWcGp4RlB5aGstZlVNOWtwR3VlYUJIanFaU2drbXBYZG9JZlAwcVVxYmgwcU5uSVdGeDlKQmxPS0QzaWhEVmVQcUd6a1Fvb25XNlZXUXljdHBkdlRoQlhyUDln?oc=5",
-      "source_name": "KOAT",
-      "event_type": "other",
-      "actor": "unknown",
+      "id": "d8b1a29c93069f5a",
+      "published_at": "2026-04-15T00:21:37+00:00",
+      "title": "Trump says Iran war is 'very close to being over' as peace talks are expected to resume - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSnhEZ2g0aWNjYmhYRE0xVS1vckJKdWlmMVNTcGxCdEtCb1c4blQxbnZac2VNU0tfUkdzM05oWHh0am1SYllxWURGc2hwR3cyVEJRd3BIeUM1Sm9MT1p6a2Y2RTIwTFZzTVNSYXRvWkJPTUVsNkhaSUUzUFlXc0Z5bGdEZGlhZG1mUFBqZmdMRF8yUElRWVNkcHFtUHl4aTRKLV9Z0gGoAUFVX3lxTFBkX3JFTVd3WGNuRnUwS3V1WGJFdmhLeENjdy1JNDRNOHdzTklCak90X1ZXUzNCVmxFUjExaS1XU3lSeHdXem0ySlpKSnExWl9lbVJsRVNYNF9uUDBQOXhlSU1MYXZpQkx2ekpwVmlwdDFyU1ZoeG5CTkRFMVpKMHU1UnBlWlFVclBwaF8zc2NXU1RRS2NaczhXU2RHOHBNQldsMF9YVHJDOQ?oc=5",
+      "source_name": "Fox Business",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 1
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
-      "id": "5144f9db49ba53f3",
-      "published_at": "2026-04-14T18:16:44+00:00",
-      "title": "US Treasury secretary tells BBC 'bit of pain' worth long-term security - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9vaTdBYkduU0xQemJnYmV2MG1kRWNDc1ZicmZ5Rlh5NFRsUDNOWmNFYUJ3OVBhWll3WmZZb28wWDY5aE5TWUdINWxvWFBkdXJ3eERqQUpaYVB4UQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
+      "id": "eac9eceeaf081e81",
+      "published_at": "2026-04-14T23:14:00+00:00",
+      "title": "Diplomats try to arrange a second round of US-Iran talks during first full day of American blockade - WBAY",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOYnBEWTlXWkNwRlF0SkVfbEYzbk1POGVERHlCNUctZWk0ZnVhQXVGLXAzLUhkOEFKaHo1dUlDaXpaZEo1N2lYMWRiUVJMNVFfV3hrTEJMc3gtOFd3akNGNGlLbUpUbTh6NktXZmFrLWJQRldEbjh6a2ZjYk9XRlFjelpCNl9YRTNaY3ZTVTVLTHZVRFR0cU8xNk4xVi1BT2tUQW5faEtGR0pYWURXQ1R2ZjZnUnY2WkRmR0J4WHBB?oc=5",
+      "source_name": "WBAY",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "abd0a923b03bc89b",
+      "published_at": "2026-04-14T23:02:28+00:00",
+      "title": "The Latest: Trump hints at new Iran talks as Hormuz standoff intensifies - RochesterFirst",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQc0RsNG1PRHV4LVBhd2x3a0x6dWctN1N4dWNSbnN4NUFRUjVEWWpGWnMzS1IxX3c3M3BlcjhFZmdzaWZhZVRJelBsNGRFV3pjUy1uNUR0YWxEU2lOQzFjbjg2anpjckpuWFVqLVB4T19JVUQ2M1hmN1pYbjVhcVk4Qk1yZk5DWDcwSWdNWWV5SFdkRDhzdFZEUUF6X2gwMm96SVJBVGI2dXNxMTdEYlg4b0lLdndMTHJnam1WZkpoV0MtbGptamZOTGhTOEtaWGFtQ3fSAdcBQVVfeXFMT1hOM25QcXl2clZqZVIyTFJTYjFCNzZaWldVWWVkdnBzY3ZZYlRYc0VuUmVHdWdEVmZWUXAweGlPdFkwWjV2eHgtMERPOERJR2VCR0t0YWQxQU9jVE9ZQWZObzBvN1ExckQwRVFQZzFrQmRSMW92ZlE3ZG9MUHA5eGdMMERfOVpWb202bXdmYkk1T0Z6Tmtoa3pMN3NzREZBdGpQQk1acDlOUDJqSnNrZnluMHpVYVFKMTZlYkFCS0VlYzh1WnFvYko3WkU1TzRURnlyTk5CUmM?oc=5",
+      "source_name": "RochesterFirst",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 1
       },
-      "confidence": 0.55
+      "confidence": 0.65
     }
   ]
 }
