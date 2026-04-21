@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-04-21T10:46:42.268751+00:00",
+  "generated_at": "2026-04-21T14:10:50.039700+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 107,
+  "event_count_window": 104,
   "totals": {
-    "usa": 29,
-    "iran": 34,
-    "lead": -5,
-    "lead_side": "Iran"
+    "usa": 32,
+    "iran": 32,
+    "lead": 0,
+    "lead_side": "Tied"
   },
   "momentum": {
-    "usa": 24,
-    "iran": 24,
-    "delta": 0
+    "usa": 27,
+    "iran": 22,
+    "delta": 5
   },
   "confidence": {
     "score": 65.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 56,
-    "diplomatic": 26,
-    "attack": 23,
+    "diplomatic": 24,
+    "attack": 24,
+    "other": 54,
     "material_loss": 2
   },
   "history": [
     {
       "date": "2026-04-08",
-      "usa": 1,
+      "usa": 2,
       "iran": 0
     },
     {
@@ -82,27 +82,102 @@
     },
     {
       "date": "2026-04-19",
-      "usa": 10,
-      "iran": 2
+      "usa": 9,
+      "iran": 1
     },
     {
       "date": "2026-04-20",
-      "usa": 7,
-      "iran": 8
+      "usa": 4,
+      "iran": 6
     },
     {
       "date": "2026-04-21",
-      "usa": 7,
-      "iran": 11
+      "usa": 14,
+      "iran": 12
     }
   ],
   "latest_events": [
     {
-      "id": "74614706146981a6",
-      "published_at": "2026-04-21T10:45:05+00:00",
-      "title": "Driven by the pressures of war, Iran gives its field commanders more power over militias in Iraq - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNalZSSUp2TzU2VXo0eHRhY1l5RUtOSEJfTTh0MVh2WXZXXzVpMzlpVUVoQkZPeGJXRF85MlBKbGt3M3owajlTZndCbU1lUTdqcFE4YjBISnR0dzZOSmo3MWNzLXRBbGx2a09Ka3JCbVVQUWRMRHVOMVFBamt6Sk5PSDNIRVc3OU1fUWNKdXc5SWJhdGx6VWZXSGV1T0pUck9uVEVlbHFUZUZZT1lIdFc4bWtnaFpFM2VvWkE?oc=5",
-      "source_name": "The Washington Post",
+      "id": "aa8075386a8f55f6",
+      "published_at": "2026-04-21T14:03:00+00:00",
+      "title": "Middle East crisis live: Trump says he does not want to extend ceasefire with Iran - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZktnZk1UOFFHX2VXNHB0TUY0eTczOEZhdHZWX0JEa2RaUTZaZzRqTWowUk5qQnFVUHVJY0hLdlpJLUd5WmJMLVBaOFAwQXZsTUx4eGFyQ1U2aGI2enFLLS1lMFNDcXJJaHJnbW40WUt2UE9xQXhWTk9tai1FTjBLVk9mYUNZR3F0Y2lZU1ZfS3RvM3p0QXNEclJmbWhtOWwtSUZ2U0NRNDlWWUxzeUNIQWxSV1luZw?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "af7c4762244012f9",
+      "published_at": "2026-04-21T13:59:52+00:00",
+      "title": "US seizes Iranian ships as ceasefire expires, Trump threatens strikes - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcUt0bTRfTy1kcFpqVjNzMFhBWUpGYzZCbXBsMERxTjR2Y05Ea1dpTWoyUmNJblQ1cWdiQkRqVVBueWZzVDlEVEE2Yi1mNXdmUlhLNS1sa0RXZ2xzREZoVXBnd2puSzExTDg2Q0gxUDhzVU9oLXRjakJxNTlUdjZ0MTAwYXFIX0JxQm14SE9kdzdDdVQ0eXZrQmM5Rkk?oc=5",
+      "source_name": "Crypto Briefing",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e8ffcba0fc93a9d9",
+      "published_at": "2026-04-21T13:46:59+00:00",
+      "title": "Iran warns of stronger response if faced with renewed attacks - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVG5zVm9RR2dtWmRYWXBPbGljR1QwMi1ZNTBjX3dETTVNcHRtbDJpWlF0akRtVzFpR2ZTcmNyczZVNEtVcHFPTG5MWjR6Y3lsNUlkVjYzSW5mNzdUb2tRLTBKX1V6ajA5WHFNMWgtQXVMV1VnYWh2N3liRG93eTlYS3k0dE1zdmw5M0V1a2hSQktJWFRBUTRSVENXa2xkZmZPVFZBUU92aFFVV0o4bUpPaGZYNA?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5a888de155a53954",
+      "published_at": "2026-04-21T13:42:08+00:00",
+      "title": "Iran War Live Updates: Uncertainty Surrounds U.S.-Iran Talks as Cease-Fire Nears End - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9XcGd5TXRPYXNZYU5GVURhaS1fVmVaQVcybS1HSzlsVVRqbE9hbFVWTHBERVNvUG1NR0h1TE9LaUpnOG5HSEM5dzYyVTFXZlZlOXViV01EYnpTUlBSVE4xU3hESGtRQ1FER1BhdkFqbXBwdkJTcFg4?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "b7708f593cd7491e",
+      "published_at": "2026-04-21T13:33:12+00:00",
+      "title": "The Latest: Vance and Qalibaf expected in Round Two talks, but Trump says \u2018I expect to be bombing\u2019 - InformNNY.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQ2VJTjdpX1hUWloyZFJfenRlb2hoaUJYTW81YzUzRlpHODRicUJ1WkV4RmpNUDFETUpFYW1qcW1QdHRKQkROQWFjNUE5T3pmRzRjVVdRVzhlaHU1RlpsQmtSUTI5MVNVTVg1RE9MSWdwSkxLbG1YLWd4eVR3U2NVbDNfLUtPOG9zVmNXSWVxeDA5Zi1XLVJBeDY1Rk5hajJmSHBhbDQ4SW5PSEhOMmRkaUlHQjdNZzjSAbwBQVVfeXFMTW02M1NoU2hiRDItc19pcTljTWVUd2NURjlGb0taZFVrQmo3LUtfOEZNSjZyUDJiSS1LU0laWElrWGdVVVJmVldUQ2xnZ05lTS1zRWptYU4zb1Rib0RLWWVhMjg1eC1QNEFGQnBWQzVlR1AteE1UVV9OaGozTEg0UE5KUjdCTlNpRkNZRnZObGdyaC1kc04ySFBCTFV5UUVPTXRobWZfNE9sQ3pWVnpDRVNlV0xmMURIdktxbGI?oc=5",
+      "source_name": "InformNNY.com",
+      "event_type": "diplomatic",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e9be615241d826a5",
+      "published_at": "2026-04-21T13:30:00+00:00",
+      "title": "Iran war: What is happening on day 53 of the US-Israel conflict? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOFpLcWtkRW55aHlLLVpBQ0ZwUl9wemlpcngwTmFrbG9Lc1R6WXBVbHNjY1RkcW5lLWw5N1RlTUM3bUl1WkN5bS1wZ3lseHZ2ZXlZc1EzWWk4UHRjeWJpeUotNGR0bjQ0bG9tVmYtMTZZU1dzSmg1a3M2S1pnZ0ZGaTJaUm0yNWlRUGtmSjJlYWtOZ1NXME1oTlRqLTQ0QUw5S3RqQUFn0gGrAUFVX3lxTFB5R3hmZG1jZUwzUlhtM3B2Q2VGMjZ3d1UwcHFDT1g2U21IOWt5Zm1sU01zS2RJSlBueFhMd3NYVnk2Yk9zT1k0UWNqQ0F1YnpRdy1OaUpwMVRXdXZwb19GVWxIbEJ1eUhoRG1uam10MEgtTnM4dm1CZEZiWFAwd3Y2b0hkamZoUkF3TVB0Y2NWOTBGejhTZXJJaHFTRWxXVUFnc3hoTjlmTUpkcw?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -110,13 +185,28 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.6
     },
     {
-      "id": "60c6981b637b9620",
-      "published_at": "2026-04-21T10:33:00+00:00",
-      "title": "Live updates: US-Iran talks in question as ceasefire is set to expire - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5taEZWTnFLWmpxaWVQR0dLOHRLT1A3dDFINmREVjFCRV9ucXdEY1dTRk02aVVnODh0bjB2MHZGRnVWdGhNY2hhdExIQXlSNGJXb1pSamFMUGNMY2hwWHFhS2FveVJGUFU?oc=5",
+      "id": "96d943d9a4ca4089",
+      "published_at": "2026-04-21T13:29:00+00:00",
+      "title": "Live updates: Trump says he expects \u2018to be bombing\u2019 if negotiators can\u2019t reach deal with Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0ydnNDeWV0MjE0RUFOUk9UTDhFMVBZNDFNNTlqTjBSYlRhZkQ5czEwQVFib0duSFpReVRBTnVQQURrUGQ1dWRYX3dhSG85U2c5c1RaY3NxRkljamJPWW9MSm1Za25lMnIwU1dheDg0MHc5U2RVTXlpckkyWQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "437e8b50934ff436",
+      "published_at": "2026-04-21T13:28:00+00:00",
+      "title": "US and Iran signal new ceasefire talks in Islamabad as truce nears end - AP News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYlJNcFN1andQR0xPTWZXX00tcTBuVkRIWGxkSURsb0xkSWNGdmYyM2o3UEZtdUNYNWdrSWRiWDVSYVZOQk1VcWxZSFJGNDRmZm95Q2Y4b3Y0Z1VxQlpuLUZvNTEyMVRfS1JDMXNiSjFycGRPaDJqWEVPT05icFZxcWRncUxQQlNpU2pGb05VbmN4WEJYY3lFSnV3?oc=5",
       "source_name": "AP News",
       "event_type": "diplomatic",
       "actor": "iran",
@@ -128,11 +218,116 @@
       "confidence": 0.65
     },
     {
-      "id": "65f51e0f9dcd1df9",
-      "published_at": "2026-04-21T10:30:54+00:00",
-      "title": "Video | US Iran War | From Strikes To Talks To Naval Blockade: Trump's Many Flip-Flops On Iran Strategy - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOanBXeWRIWDk0cF9WOXlmemROdk1ERVB4WFZaVmY5bXVHZXNXcDYtdERZZS1kRlltc0lWUy1xZExqVXhMRDJFVjNMQ0ExaEpvR0stMng2UmpxVUVRd0QwY2FILXBMZXJ1SFF5RkVJU0o2cEdtQWg2c2p0eVRwVmp4cEpKZWdZRE9jX1A1Nmc1ZzdDYXJfQU02MEM1NmdnM1VRYW9RZzNiNl9kYUlKYjlCX0hwVlgzb01VUnRfejNaOFd5U2hJZ1E?oc=5",
-      "source_name": "NDTV",
+      "id": "676db73c873e143a",
+      "published_at": "2026-04-21T13:08:56+00:00",
+      "title": "Pakistan races against time to get Iran back to US talks as truce end nears - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWQtbEREX1hkdjZCN0ZRTTRvMnlpbnN2Z29FT0VGUGZGbmhxSlhqX0c1QWxQSDN4NF9MN203SmV5Mi0weTI2M0JaaE50UHhEOVkxV1RMN0JTbERQaU1uUS1oR01yNXN0QllvWlJoVEVmMUhZb2cwNUJSWXZBWkZXRGhZU2JMSmJuS2JUbGMzVkhaVThOVzNuWXZoaUx3YldoZUpQcHVQNGNMOWNOZ0J1YXd1bUJWOHfSAbwBQVVfeXFMTlg0Um5abXVqWEpUeXRFOU5NTXBPU3ZEUGlHRVBOMFhyN29rMmlnb19ZdDdxb01pT2lMOHJFUk80TFhXLUVvMk5BcWRpSDdDWU8xVkR1a2MyTnVtSFRZUnBxeUtIRjJUZGlvYldUdjl1N3hXMG9hZC1NRHNPdjFFVFRHMVI3TzE2VElLRHFTV3lPQlY0VEZoNlVzTnlFWWFna3huV0RVMlJWSktSc242eS1QZzhVLWg0enRFNEE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "aa7964ccc4c18494",
+      "published_at": "2026-04-21T12:49:56+00:00",
+      "title": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel\u2019s Campaign - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "c102bc6990407a48",
+      "published_at": "2026-04-21T12:40:33+00:00",
+      "title": "Trump tells CNBC he expects U.S. to make \u2018great deal\u2019 with Iran - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9jbDI4bnlBbExGMEc3d2RMQzFibUJVSHhXVFdTWV80aHBBVVpBMUFOcUtzMDl2Y2ZpeEszUU9vS1J3cElpYzVRYS1XSml2RjlYVGxLWWJzTC0xSDEweEFFMzJtRl9rVkh0VkxaQzEtOFdUbE1NOVdrVHVpLURkQdIBgwFBVV95cUxPdEFFTGFCdjVieFJvQy1OWDhIWEtmMEJGNnRIRmlXQUFuSnZ3Z1BQSmxEOXNuSHpfZTZ2WGI5NG0wRmsyaUdHc1hTVUc3cjJCVFBiZVZVOG9UbXZ1eW1ReTJSdjQzWXJSZExIeEhuR0xLdGlaRnlnblVFM1p2UWliVUp2Zw?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "95cb3cde3e5a34c0",
+      "published_at": "2026-04-21T12:24:45+00:00",
+      "title": "Iran-US war: Four scenarios for what\u2019s next as talks stumble - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNY0NSOXJGM25oWlBxa3ppcTlNbnNNRHRXWGpmNW83S2FwMG1Hd1B3SUQ1NldmRUJjRldmdGhBOGpBa19HdXBHTklzVXBpaXF2UkthNk1xYmVXcTE2cWRnZWI1MVN4dU5icXU1VUs3d1FibGFmWkxnYTFqTFdQbHJCamVwWFRHQ1NnV29rUElfLWNlWWJBZEF3bUpaU3Rja0xz0gGmAUFVX3lxTE9aWE9kVDRsUUJHRDB1V1NiVF9ycGhPaDdsUk5LNmJIbzZRTnJqeWF1TDJNODZDWXoyWXNjRFlmeUV3WXFXRTltZmh3ZC0tYkpLUTFrZkZIMXFuY3QtbjFZV2NJYWRoc2ctTDNZbndPVjVtZEl2Y1lISDVvWkN2dVhQd0tIZ09TOTZLS2drcXo1WllrbjNtWXBDS3NOQnI3elo1NkdIa0E?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d9501fc60fef3735",
+      "published_at": "2026-04-21T12:24:15+00:00",
+      "title": "As the U.S.-Iran ceasefire deadline looms, here are the main sticking points - NPR",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5GV2lrYS02QlJtcmI0QU8wQ1czeXE3NHUzMXNBZ3pfWXVVVlZ4RHB1bHNwdlRQcWVrUjBYMHkxVGpuQmtVUmlWbU1PdllHYk43NXJGTzN3bGhicExfSmFTM2h3UHVvRmU0RHN3ZHluY2FvUzFKb3RaVw?oc=5",
+      "source_name": "NPR",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "c033ff99480e3182",
+      "published_at": "2026-04-21T12:24:00+00:00",
+      "title": "As the U.S.-Iran ceasefire deadline looms, here are the main sticking points - VPM",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQU19mVVhIR2pjbjNSeHExRUJsU1MxZWVqODh3b292bmJ0SWpfQU1tZ0ZaaV9JS1NDbjJPZUw3U3hVVmR0NWFEVlN5a2oyX3lqdHNqUVpZVlVXZnNzR3BYa0tmd1VqTWp4Q3RoN0JSRjhMcVVsV293eU9pdldwNDU1Zkh4N1ZRa1VTWHJNaWhUb2hxTDNOalM5MXlKYXNCcy1Wb1B2VkNYeTJGZG9MMURzZ2hIZmQ?oc=5",
+      "source_name": "VPM",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "2c76835afe947769",
+      "published_at": "2026-04-21T11:12:00+00:00",
+      "title": "U.S. and Iran signal new ceasefire talks in Islamabad as truce nears end - Spectrum News",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNRnhsYXRQSGw1WWRKM05fRVFHN1AxZHBMTVVGbmItSkM1UWtoaWdWSGRnRV9GYjNaM3Jqc3ZaVG42QWtkRnBCUlBPRmtzd1llZHpVVHVfaHR0S1ZkRVhNRlctNHA2T3p4eGtRSlNlQ0V4Tlg2LXhVVk5tcWgxQkpOQnBjanZvbVYtWUp2bDhSOVYyTUZOd0dweHBnZ1VscXNsa2ZvN1Y2ZWxNeGxtaTg1ZlFseENxZlBKV1ZxSjgtRU1oMFpGU1VoTXNoUUZnNVdXOW9yaTdwT1c2LVF3LWFYc3I0VE44RUVqa2E4?oc=5",
+      "source_name": "Spectrum News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "be1da7f43e4d177d",
+      "published_at": "2026-04-21T11:09:39+00:00",
+      "title": "Iran Delays Response to US Attack on Cargo Ship over Crew Family Safety - \u0627\u0633\u0644\u0627\u0645 \u062a\u0627\u064a\u0645\u0632",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOX0VWNHhvVzd4ME9OLTUzQTFucGZrX3lnVGhuMGpuc2czS0tVY0VlN3UtWF9CSFhqb2Z0d09wbTdSMHphSXNKVU9GY3QtZWIzOEhuSFNWUUdjdUtrZHR5VE5IYXZyczBrcFBadHppVjZRNkMtV2hRTTZ4cVRJVVZBWmR6M2Q2NGdOdWswZ2pmU2RQUG9ad1lPbDJSbDJ0YlN5T2JPVEdXYjV2V0FySmpQZjJzMDQ?oc=5",
+      "source_name": "\u0627\u0633\u0644\u0627\u0645 \u062a\u0627\u064a\u0645\u0632",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -143,19 +338,49 @@
       "confidence": 0.65
     },
     {
-      "id": "f664270375a96bc8",
-      "published_at": "2026-04-21T10:22:00+00:00",
-      "title": "Live updates: Iran war, Vance to depart for Iran peace talks in Pakistan, source says - CNN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0ydnNDeWV0MjE0RUFOUk9UTDhFMVBZNDFNNTlqTjBSYlRhZkQ5czEwQVFib0duSFpReVRBTnVQQURrUGQ1dWRYX3dhSG85U2c5c1RaY3NxRkljamJPWW9MSm1Za25lMnIwU1dheDg0MHc5U2RVTXlpckkyWQ?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "8b0df2df4c39e169",
+      "published_at": "2026-04-21T10:59:28+00:00",
+      "title": "Iran war latest: Energy chief warns of 'biggest crisis in history' - as Iran 'prepares new battlefield cards' - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPY3YtWWJnVW54ZDFoaFBUM2hBZXQzT0tsV3d2MnZEbVlSX0Zsck5hWnd5bndqYmVEckwwTW83dGpQSm0zZzZ4X1ljSmI5V1FQc2s3aVcxYW9vQzI1cGVxNFFtY19HNEhZbHo2VEtYRW03YmlDMklSc1drUFJIMTlwYllxcFd5U3VHZGE3Ny11Nk93VmFUZC1PcUVLcUJmNHRtMnBvNTRaWldWOVpCQmJqRHhCaHpHdE8xTzRTb19PUVlHajFRSzJJWThYQ0w?oc=5",
+      "source_name": "Sky News",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
+    },
+    {
+      "id": "af119199c082ee82",
+      "published_at": "2026-04-21T10:59:28+00:00",
+      "title": "Many Americans question Trump\u2019s temperament amid Iran war, pope spat: Reuters/Ipsos poll - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbFBJZGdKSDhCUHNCSmpFdzlNZkY0eXRhemxrc2VWU2RyQnlJcHlZNUh6eUFJX2owU3JfUHU4SVlJM2VyRi03OTlYSHZFUkJXdXQwOGRiRDBIOG1yNW8wYUFXMDQ1dFpWRUVsR0pPclUzNDJYUXRxRzQySjg1VDVIekhZS29RLUF0SlQ4amVPcTBhRVBiY0dWN2Z0SVVRSThNZDRMWTNmRE1hUTJXXy1jV0loUi0zM0o0dmFhLWd6MXRKUQ?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "555491293f54370b",
+      "published_at": "2026-04-21T10:39:06+00:00",
+      "title": "Only 36% of Americans approve of strikes on Iran, many question Trump's temperament -- poll - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWGNlcFV6RXk0WlljUzFvRE9hODBVLVRQbUJLTVlhQWVNSi01TDNFZ1o5bk9wRU5WSTd5UC02U05ySTV1a0p1RzRTWjI0SGdKYkpKRkxKUU8ta1lmNTdwelJxVl95aXRtcVBwWWtHN1d6SV9GYVlsQWtoQV9nNTFPZHd0SjBsSGUwWWlfMmZBRWFWYk5RaktmN0RENDJBeWk0MGE5SXZlLUVGSmdLUnBpN05yc3RlakdBTXFGdEVNMEpLYnpneDJNVlpKaw?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
     },
     {
       "id": "aa91acbd78f46026",
@@ -171,231 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "34e7e4fbb2e59a5e",
-      "published_at": "2026-04-21T09:30:06+00:00",
-      "title": "Live updates: Doubt surrounds Iran-U.S. talks as ceasefire is set to expire - NBC4 Washington",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWnJkRU5tZGFmZkFDSnlOVWNqSU1lTHN1MkxnN3RuV3hfR0dfTFYxa1NzcVUtb0NYbzUzVndDWWwxeFJRWmtGeXZ3R0drb1dwWWNLeU1sY3IwdWl6LXdabTl4OWw0OTRheGlSN2Z0SnRnR09HVXVpVDVqR1g2VW83ZUJSUjQtODMzMVVnV3RSRkc2MzItVGQ0WThBa1ZNMGRCako4eE5PWGhOTDc3YXRBYTVlN0cxXzNNTEJV0gHDAUFVX3lxTE91TVZvbWlVQTlYdUhBS1Q3WDJIVmRsUnh3UDA0cU44ajZyU1h4enpzSW42eFBGTy11UUphZ1RLTVNseDNtQjZlcXBWWUlGVndjNEFaUkRfUlZMUGJERkd5Q3plTUZFdHY2RjdjMGU5YXd2OWtUTUh5cEhmZm9tTGNTNEFLSm5EYXh4WURaS1VqTmE1cUczRlBHMWlGNHo2bzhJRGQ4eTNub0IyWDhjZy1zTjQtOEFaM0U0a2NWM3ZNcVp2Zw?oc=5",
-      "source_name": "NBC4 Washington",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "d8263f8115ff78fc",
-      "published_at": "2026-04-21T09:23:30+00:00",
-      "title": "Xi Calls For Hormuz to Reopen as China Balances Its Gulf Interests - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjI1LVh4Nkg2QWdJdXpZOXlnX1E2RF9BTEx0c2JZcllsSjhVaERxSk9WTUNlV1BfOEM3NDFxZFRCZGFmalR3NXp3NFNkS05yOWpoS3lwYi00TlFXbmRKamJPWV9vY3dBaVdxNVpVbk9hanI5QV93TXFNaThDT2QyTVNSR1pRVjlGVjctYk5JZzBncUE?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0576eee8bf02000e",
-      "published_at": "2026-04-21T09:22:00+00:00",
-      "title": "Middle East crisis live: Iran claims it has \u2018new cards for battlefield\u2019, and weighs talks in Pakistan - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZktnZk1UOFFHX2VXNHB0TUY0eTczOEZhdHZWX0JEa2RaUTZaZzRqTWowUk5qQnFVUHVJY0hLdlpJLUd5WmJMLVBaOFAwQXZsTUx4eGFyQ1U2aGI2enFLLS1lMFNDcXJJaHJnbW40WUt2UE9xQXhWTk9tai1FTjBLVk9mYUNZR3F0Y2lZU1ZfS3RvM3p0QXNEclJmbWhtOWwtSUZ2U0NRNDlWWUxzeUNIQWxSV1luZw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "920afbd5da2d3550",
-      "published_at": "2026-04-21T09:13:36+00:00",
-      "title": "Iran warns of 'immediate response' as ceasefire nears expiry - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9iLXB6MjJ5OVdnMjd2TlQ2dHRIWHFlYzRhNUxXYjVnV2V5SEpIZnVHVVc5c3R0eTJuVmJ6TWd2Q3RPRWszdjk3ZHpzMU1PMkUxNFJ2THBhOFlBcER2am8xMUtra1duSUxRSnc?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2e40c833db51bb43",
-      "published_at": "2026-04-21T09:12:54+00:00",
-      "title": "Iran's military warns of \u201cdecisive\u201d response to any US threats - Caliber.Az",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNLVItUlZyb2YwOUxqcnpkQURnRjRsVl9aQm5MNklOdy0tLTB6c2pDRTZFYm9qaXBid01heWs4dXlERTZLZkpaSkpjTFpmcWNEdm1lZTZkelJQTkduZHlBSWV1eE5zbXRtXzFfV2cyb3ctYXBNUTFmUjdTQm1mTTF5YjA0TXJ3RU5OdFpxR2FaVEM?oc=5",
-      "source_name": "Caliber.Az",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "7812065c2b28b08d",
-      "published_at": "2026-04-21T08:26:19+00:00",
-      "title": "Iran warns of \u2018very dangerous consequences\u2019 after US action against vessel - Latest news from Azerbaijan",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSDVIbW1SSDZqUnd4NnRWaHFoS1lRZE5NZExLeTNwNXpiNldiOVZWQ2c2R09uaGxVbTB1WmFsYzVwTjZNYUkzVUdEQlYzakRZeEZmdWtUb1VmamlOYklOdktSNWtiMDhySDNULVpGT3YxMEkxSlhaY2xLb1JYcTU5Y29oR21jVzlJYjNCSHF5dmhIb3hVdzFvQw?oc=5",
-      "source_name": "Latest news from Azerbaijan",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c03c291fe1ecc7d7",
-      "published_at": "2026-04-21T08:21:53+00:00",
-      "title": "Iran war live: Tehran spurns talks under threats; Trump says blockade stays - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORlVVUnU5bW1tbi1lZUpPeHRVTTlCM0FJX3AtUGhHOXB3Z0llb3ZiUlB3RTM5bEJRMWtWRXNBMU1SSmx0MmtFczh5Z0RqbVE2dWRoQ1RsUUlKWlNtQU1YaVVRUkUxNGFwcGc2WDZGLTZneGNDa3FyQzlCNklMdFlZa0F5R3RJM0pKcmpJdGliU19GN1FkM3RWYVI0ZVBRbVlhNWFyb0VEdUNLcmdENGZVS3UxM0xHd9IBuwFBVV95cUxPWXVzRDJXdnRpbnNRV0VyTzJOMlJySHRnT2ZGQnpWdjRkUmRwaVRwN0tPSk1hVnNWMmNlczRtS2kwaFpDaWtRSUlPaG9LLUxqYUlScEhCUWdRR3pZYjE4WVpFdHdRLXJORWE4bDBtUnpYYk5HSW5leUQzb0Z3TEw1R2l3WUZLZ0Yxd0xlRFF6dnJiNnVfMU03Si1KVElWeVVKdzVCbU9tTmFCVm92aHBXa09QLVpnZGtRYWVn?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1b6e4b773727fa26",
-      "published_at": "2026-04-21T08:20:14+00:00",
-      "title": "Can the US and Iran Agree to a Lasting Deal to End the War? - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaHR0Q0pic1dMZDN2TnM0UWM5YmNPQzJyb0RYYUEtZnJScEk4RUlRQXpHZFpWcVUyWkJ5SHRtZndRc3NRVVktYllWYmJhekh1WkxFMlY1NUhON0JkN2VUUHhNTTE3d1VKeTU4Y3BZc3pmR3R4d0RwN1lxaU1QS09xVE1nLXFGT0pHdFlTdUwxT1d1S3VOclJpY1h3TUhteUJoeXpZdFV2bHpaTWo3bGc5cTlWTTRXWDkyZGF6ODdURkdzMnJMaXVwVA?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "fd98951a91855d11",
-      "published_at": "2026-04-21T08:18:27+00:00",
-      "title": "Iran war latest: Tehran warns it has prepared 'new cards on the battlefield' - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWHRIYzlOVTFXNjhXa1BEY092anhNZ1RPUGtUd1NZT0d6OW91d0pCVkpDTUUyNWstdmxlT2ZRMXZ2Q2FIQnhhM0tmWFlRZGZqUGFJcWRGMkNFZ3pMd3N2SFQzNmE3YUE5RXJEQVZzZW5JVy1WSVdOTFJKdzJ2X3RTQWxzdkJSbkkzZjJ1ZnZOQ0ZKT0NnUXZmLXNaSHMxbjRJendVcld5UGZZblhtNm9kakhXOWprTmtTaUxEajZ5M0pmNm5PTWcw?oc=5",
-      "source_name": "Sky News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b353c4a79571cb9b",
-      "published_at": "2026-04-21T08:17:00+00:00",
-      "title": "Iran War Live News Updates: U.S.-Iran Talks Appear on Track as Cease-Fire Deadline Looms - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50ekRfbXRYTF9wRXBMbU1nM0QySFg1ZTNDUXlKc2RHNnkwUGdQSWFXaTBhdWhyLUxONWRxYndVUE5MX3gwSkZFU0FRRjc5YlBxaXRDV0RLZEpQZkp2VGtIWGtiUTRuaDN1NHpwMy0tYl9kMUEtOU9Kdkh3?oc=5",
-      "source_name": "WSJ",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "03ad5221d9df7c91",
-      "published_at": "2026-04-21T07:58:12+00:00",
-      "title": "US, Iran exchange threats as fragile ceasefire set to expire - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNUTlDTzJnb1lnMUZqZ0Q1UkptUXhYajhFNExjOHYzUUtEdFI5T09lM3g1NlpydFBnaFpGbENscnhrWlRob2RudTl0cUZBNnZiYnV6Z0hQbDVJNzdxN0tNOGZwLTBZRC01cXg1cGZtcHNaNGpibDV2Tl91M0ZmcFJxYmxTX1VZcUk2YW5JaXducWk4cnFjQlVBWnFUQzBPbHprSXNkR3hZZ9IBrAFBVV95cUxQWERRMlBlZUZEeDkyODBDWHdBN3dVWmZ1X20yVGhuMTdJX2ZEanhpS1R2RDFjLWlpOFYzQnZaUE5PeGI2NG9fS0JDanA2WkdUY09fQ2Z2TFlLcXRtenRWN0NvSFpUU0VXS1pXMUFIOE9kQ1dmSjh5RkNXOVZkSTZUYVRuclZtOUxzMGp2QWFTS1d0VHhxVF91LTNPMGJicHA1LXdvejNmeDBiR3d5?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "40cf9dde399b110f",
-      "published_at": "2026-04-21T07:47:31+00:00",
-      "title": "Iran\u2013US Tensions Escalate After Ship Seizure - Savage Minds | Substack",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2c3VvRE5GYVJ3Vy1wdnpQU2p4NDlIMF9HVFd0YVA4THVNSDNPYXlXczdTZlJKSEY3cU5rSWxPYUNaVW9xeDI5Q0M3LXFKalNqUVVWTkVyMEJxa0FXQU9ERGVQdXlHM0RTZzZCcjNnLTNxS0o0X0JqR0Jn?oc=5",
-      "source_name": "Savage Minds | Substack",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e9be615241d826a5",
-      "published_at": "2026-04-21T07:25:33+00:00",
-      "title": "Iran war: What is happening on day 53 of the US-Israel conflict? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOFpLcWtkRW55aHlLLVpBQ0ZwUl9wemlpcngwTmFrbG9Lc1R6WXBVbHNjY1RkcW5lLWw5N1RlTUM3bUl1WkN5bS1wZ3lseHZ2ZXlZc1EzWWk4UHRjeWJpeUotNGR0bjQ0bG9tVmYtMTZZU1dzSmg1a3M2S1pnZ0ZGaTJaUm0yNWlRUGtmSjJlYWtOZ1NXME1oTlRqLTQ0QUw5S3RqQUFn0gGrAUFVX3lxTFB5R3hmZG1jZUwzUlhtM3B2Q2VGMjZ3d1UwcHFDT1g2U21IOWt5Zm1sU01zS2RJSlBueFhMd3NYVnk2Yk9zT1k0UWNqQ0F1YnpRdy1OaUpwMVRXdXZwb19GVWxIbEJ1eUhoRG1uam10MEgtTnM4dm1CZEZiWFAwd3Y2b0hkamZoUkF3TVB0Y2NWOTBGejhTZXJJaHFTRWxXVUFnc3hoTjlmTUpkcw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "2c30f8ea1cc74be7",
-      "published_at": "2026-04-21T07:19:00+00:00",
-      "title": "Live Updates: Trump says he's not under pressure over Iran war deal as status of peace talks remains unclear - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQUjdrNjEwZnFLQ3FrX3hWQ1VsUXpDalBEbVloVHhma25iaFN5WFJNdmpDdF9Oc2k4dTExR3ktR1o1MFF1NmdqLUVVaHdEcHRmU1dmUFdTcVNWQ0pZTUJuakVPSmJTVWxUd012U3ozdHVHcW96T2RkZUxtT2Y5RDdvdXNsdXRlU2FNZ3AtdklkRGpKU0RkSmhsNlVXbmRNRWVBWDl2S1Z3MUVEUy1BaDBJanBR0gG3AUFVX3lxTE5DcXpETi1qR0N1ZWgxY1pfWTJjN0VCTDNfdE5sVndndV9oa1BOc0hla19yb015LS1EUmZ3M1otb1d5djFIX3Iyd0tNeUdtcGtfMUpETVdYdk94cGVoQ1VFU0FQeHUzYkxOMUcxLTV6cVNDWVFhdnc5Zm9NdHlDamwxT05ydnJIMFJEWHNCWk9FNFU1VDViakYxakFuUno4dk55S0VnR3g4VlQ1WHRmZFJ2RzZCU19UTQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "523c91535dc43dce",
-      "published_at": "2026-04-21T06:58:00+00:00",
-      "title": "Tehran and Trump Send Mixed Signals Ahead of Potential Talks - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5GVXBreWhSM3hHQ01wZkdzOHpfeWlHNGF5NV9WdGFIT1Y0SHVPOHYwd3FWbHVWaDgtNnJqQUJnOWxoUEdPRjAzU0E4OEdGUmQ3X3BQY210T2phdjA4ZVNQWTFveFNjeTI2TFBqVVl6dVBWQ1dfaW4wbXJR?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.75
     }
   ]
 }
