@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-04-22T16:34:03.307300+00:00",
+  "generated_at": "2026-04-22T19:41:08.956951+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 74,
+  "event_count_window": 104,
   "totals": {
-    "usa": 21,
-    "iran": 31,
-    "lead": -10,
+    "usa": 20,
+    "iran": 34,
+    "lead": -14,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 10,
-    "iran": 21,
+    "usa": 13,
+    "iran": 24,
     "delta": -11
   },
   "confidence": {
-    "score": 65.2,
+    "score": 64.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 30,
-    "attack": 29,
-    "diplomatic": 14,
+    "other": 49,
+    "attack": 31,
+    "diplomatic": 22,
+    "intercept": 1,
     "material_loss": 1
   },
   "history": [
@@ -88,18 +89,78 @@
     {
       "date": "2026-04-21",
       "usa": 7,
-      "iran": 7
+      "iran": 9
     },
     {
       "date": "2026-04-22",
-      "usa": 0,
-      "iran": 13
+      "usa": 3,
+      "iran": 14
     }
   ],
   "latest_events": [
     {
+      "id": "26ec33477be3587e",
+      "published_at": "2026-04-22T19:38:30+00:00",
+      "title": "Iran War Live Updates: Iranian Forces Claim to Seize 2 Ships Near Strait of Hormuz After Trump Extends Truce - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZDdvSkZRUjFtSXE1QzJwUDFvQUREYXR0UHdBXzcwV0tWVzFOTFN5eDZIY2kwNnlMNW9ZY2lPWjZhQkw3bmpUdHhXcjkxY0JPcmNRa0RjLW9VQzVYUEFqNWx0QWJ6MXNibXdHMFFxM3ZVekF6aXhodlN5WHlQVUhBLXBB?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c326bfb7b35c9d39",
+      "published_at": "2026-04-22T19:38:25+00:00",
+      "title": "War latest: Iran's president lists obstacles to deal with US - as White House gives 'timetable' update - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?oc=5",
+      "source_name": "Sky News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "05a7206d1c4301ed",
+      "published_at": "2026-04-22T19:30:00+00:00",
+      "title": "Live Updates: Iran attacks ships in Strait of Hormuz as thousands more U.S. forces head for Middle East - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUTdJWGw0MnB0amZkdDE2aXVJckZnRlFYd0xfa3RYc2dmTHNFWXVLLWdRb0Nld2otX2tFc0dTclBJdFpYMEtPbnltRXREUV9jdVhTa01lMXl3Rzl2MFV5T29xOWR4b0l0SGpvTzROcWRzZFhpdjNVS0xNMDZjbGI4WXpGZW1USEdKQU9rSG80OWo1bjV0UnJLckh0ZlZPVTVLa2FNcjZmNmtzUEpydmFN0gG0AUFVX3lxTE1tc3Qxd1ZDQnhhcXU0TEs3aFB2aGZMVmhZRzQ2aGU4MkpTTG04YnU5QUpEbG9rTjhFOVBOTm5IMDFWaURnMHhWVXR1R1NSc2xEbktZRXpycUlOcVV1eEVkVEZSdVhneFNSdWF1dWZzWV9mTzlZQnEwa0tmX3hBUFZCWm5zb0dzMTZVbHkzQ09rVGM5dm5ocWc3ZEhtMFlHMTY2RXBuMVJNOXBmbWI1OXk5bFNnSw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "c408ca933c9ae0d7",
+      "published_at": "2026-04-22T19:21:45+00:00",
+      "title": "Iran says it seized 2 ships in Strait of Hormuz, hours after Trump\u2019s ceasefire extension - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTlNBMk9udGNhWHlhazZYWVVNREpNd1prTWRWVlB2NDkwZVpvLUhvWjVhRkt6WTZvLTFodnRrMThMTjZYRnlYWXQzbFE0OEdQX0t3T0Q2THhUdGh4UDhiUlhiV0lLOFlRdTdwTUlIYU5ZV0JaNnNGb3E1Tm1QNnNlUFFRcl83aVE?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
       "id": "28fd2fae01a93b1e",
-      "published_at": "2026-04-22T15:44:00+00:00",
+      "published_at": "2026-04-22T19:16:00+00:00",
       "title": "Iran fires on 3 ships in the Strait of Hormuz as US maintains blockade and diplomacy stalls - AP News",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPUlpoZy1GNFVwRWhTQng2aHctOWVETDJpa2VPSlJ5bWNoVTRFLTYtNFYxMjFUU1hMQVlqZHNGQ3NfbVh4VXRwMW5jODFaT0FJeVB1UGotVEFfT3Y3bm10SzFYMlppcGc1aGhsMHRKdDRrNmx5QS0yVmw0dng5RVMxZU5mSkdCUjZ5V216aGZmZFkyRk84dklGMkt2Y2xMNHFlWm5MeV9xdVV1UUM4OS02OGVOX1kwaU1xY2c?oc=5",
       "source_name": "AP News",
@@ -113,8 +174,38 @@
       "confidence": 0.55
     },
     {
+      "id": "4c175d173b878dbf",
+      "published_at": "2026-04-22T19:05:27+00:00",
+      "title": "Middle East crisis live: Iran says it has seized two ships in strait of Hormuz after Trump extends ceasefire - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYzBweDVLbkNBQzVKQVRTQ3lFWEN4dE9KS25HWFFnTXVKcmFUMWh0RXJmX0FOcWYwYnNUaWtpYnFRblJrSGp0OFFTT3FwQlBOUWZIY1lVdG5TT1JtQzlXeE5CN3J1QzN6akJTbjdrNk9pRGVzcGIteTloQXRaeDh4d2NMNjRMTzM1c1YwLXk2MGdNTDRKX3RhYm8wampnb3dKMmpJOTh2US15eFpVUW85QzNjcDlHY2pJcTZGOF9EdHhybzN3Q1lEdUFvM2RFaDA?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1561dc8436c08913",
+      "published_at": "2026-04-22T18:45:00+00:00",
+      "title": "Iran War Live News Updates: Three Ships Attacked in Strait of Hormuz, Escorting Two to Its Coast - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4UkN3UnZ4bXVpSDJtX0JaOUl5OV9PRF82MnlxNXdxYzJyNEFGWWljTlNuSmxkT1pKcWJmMGxIMTFIYjNzd3NERU5VQ3ozMUZJRDI4TjNnVXpRZzZHd0g3cC1JRHJ2WHFsVEpF?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "4d7335ad8a65329e",
-      "published_at": "2026-04-22T15:06:20+00:00",
+      "published_at": "2026-04-22T18:32:47+00:00",
       "title": "Iran says it has seized two ships in Strait of Hormuz after vessels attacked - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQd0lqZFBDWUhxeVFISmVVdHRoUkR6RUNzVmRQZlVDNE1ZYUszU21oRnlIQmhiQ0psWlJJRGZERVR2aEZfbFVodzBFVldUOUxtOFJudk8tWTk3QQ?oc=5",
       "source_name": "BBC",
@@ -128,86 +219,11 @@
       "confidence": 0.65
     },
     {
-      "id": "67fd998c4a7e344f",
-      "published_at": "2026-04-22T14:48:15+00:00",
-      "title": "3 ships attacked in Strait of Hormuz, complicating efforts to resume U.S.-Iran talks - CBC",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSklOUGtNbW5zNzNmXzN4ZnpxTmhMN3RXYzFiOF9wSndfcGJOX1M1TmpPZUk5UF9OeHRsdk5XRkRYLUhXNHJseVlxN2toZEhZb3JsczdQekp3N2ZiRldfY281d1Y4QV9idmZ0QlRKVi0wSlNFZFhfTzZUaGg0TlNwNG5WWG9PQQ?oc=5",
-      "source_name": "CBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "566eb7d6982fba28",
-      "published_at": "2026-04-22T14:03:07+00:00",
-      "title": "'Good news' of peace talks possible as soon as Friday, Trump tells NY Post - The Express Tribune",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWHFpNE9DRVVQQTh6U1lRYnN4ZnhhU0tCcUUwdlFFd09Bc1Vtd3JMX05tWlBVUnJfVEhCX3djb1BNQjR0Wkx5dUhQeTVDeU1pR3ptRzFRam1ySkUtcGFlbFhQNW9meG4wX3RvY3puN0hTX3EzSEtCb01yazF3RE9Oc0MwRHZBMGc3R1A0VnhSNFNhSmE2ckJFaF9oendZZXRvdlR2d9IBrAFBVV95cUxOWC1VNW9OUncwWXBfeTUtQV9pb2Q1a3h5MXBWZ1kwY3hSdmF3dS00MmE0dW5VVzFIOWExN0o5cTVwVlpwc3ZBYUJKaEh4ZDFjS0NWdnVGYlpfelppNndTSUdYMmJVYlZJbGQ5TTRvT3VpVE9KTllfRVJZU2hHQlN2cGZDUHBhbVZwTWtwZ09SOFNHVTE1T1dyaGllNWtqcjdrQ09KcmV1aTY0QW9Q?oc=5",
-      "source_name": "The Express Tribune",
-      "event_type": "diplomatic",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2fca18f71855d0e9",
-      "published_at": "2026-04-22T14:00:08+00:00",
-      "title": "Iran war: Revolutionary Guard says seizes ships in Hormuz - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPc2xxX3NHOFVaWWhLSE5Nd0FlSS1oNEFpLU5UQXFpWW9LWWJuc2NwVm5wRXl5YU1Yd3pWYjFaYk5qNDhFUy04MUVXZGtlb0dVLVNtSzgzY0loYktLcHNiQXdOUUxoRV9XbjlCN05sTWlEWlgxN1lvTVNZTmhEVnBPNjhoNUl6N1MtaTJKUmJJNUFIS19aMFow?oc=5",
-      "source_name": "dw.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "867c02f17fbc6602",
-      "published_at": "2026-04-22T13:34:10+00:00",
-      "title": "Iran Attacks Three Ships in Hormuz Despite Extended US Ceasefire - ColombiaOne.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNWFCRnlrTjE1SDdKamd2N2hQbWlzLW9vN3RnUG1YZHZWNGlubTNpZGtfUjJBOWhYNG15dkhlS0RuX0tpU0RlMWRJbEY5ODlqLXhobGIxcGpnblhmTWo1dWtoU3l3aHVQbU55cGVtSTMyVXZZMXo1QmprTjA5bHNybFZBUks2enNyTUI3UTZzZDRhUWVXa3JuN3I5UVdZZw?oc=5",
-      "source_name": "ColombiaOne.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b66cdbbfbb0a10ed",
-      "published_at": "2026-04-22T12:59:31+00:00",
-      "title": "LIVE BLOG: Trump Extends Iran Ceasefire in Surprise Move as Military Faces Missile Strain \u2013 Day 53 - Palestine Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXhvZFlpZUpPSU9pN2VpRXVxRDFwTjM5dmJUQm9fVXdJV2tXYXJqM1R5U1Vub1kyTFBVZGxRM1c4RFdrNEwyQU44cjZTSVptUktEb3lHZU0wLXFZdkJTMFZSYjlCQlZaajZ5TWlvNDQ0dmt1Y2JsdDhidENKVHREaUpQTVVsSkxGaVFBNTdvRmdwY09TQ19sVzFPRTJ6Q0xSZTlKd29GeVpsSXBfc3dmenNMUFhaNW5xTVVoVXdB?oc=5",
-      "source_name": "Palestine Chronicle",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a63af88be73817d6",
-      "published_at": "2026-04-22T12:37:59+00:00",
-      "title": "Iran calls US ship seizure \u2018piracy\u2019: Is it? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTTZGbXEzX0YzUy1yX20ySVJjMl9OeWFZZkF2Wi11cEhIMmJZNE5JMkNLMDRSQzdNdmRrZ1pJQ3FaWFFXM0V3NlZ0NlFHSVFRbkJlMTluVVcydTNZLV82LUhZUy1oS2pLVGZzQy1RVTZaMVZOSUczOGtTTE5iVC1TaVdrRkFHNVnSAYwBQVVfeXFMTVVTTUhhcjB1WkEzSEo4UjVRdmFnaVRFQVRiN2VSekVOR2cxZnR1ZXJVR3JabVdCeVdhQ3pfSi1zM3RMRUdKdkpmTTdQbG5va1VuU0xCSVdaQkJkSHZhbzZhME1RNFY2MDloSk9NZURXV3BOYVpNVXNmRElaeUp5YnZGaVlsZWpWQlhXVzA?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "31bb48c81fbaa4be",
+      "published_at": "2026-04-22T18:31:39+00:00",
+      "title": "A 60-Day Deadline Could Pressure Trump on Ending the Iran War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNGw3LWRuRldhbGhjQnQ0cmxVbnllVnhBejdSU2cyS3N2el9DUWRMMVJoS3RtQXpJRWhmQXN4ZWYzcFVtSF9VVk1Dc2FNSnhOR2NwWGVoVFpaR01JT3hDclduRWNxa0E2VFhCRnRTdjB3d0RtaENkcG9JWTNkS0d2TkZMQW8?oc=5",
+      "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -218,26 +234,11 @@
       "confidence": 0.6
     },
     {
-      "id": "6793c2ae178f209a",
-      "published_at": "2026-04-22T11:48:45+00:00",
-      "title": "The Latest: Uncertainty shrouds possible US-Iran talks after Trump extends ceasefire - WRAL",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPaXVlTlJxM0xUUktvd1lHbFdDbHZ1Y0lrSGlwckJwR2llbWZMWUtxZmNLS1dVNTk0X0hCQVBCSzk5RmRPWlZNczFESm1wNHlRNzNFc2c1dzlWTGpoaXNPMXFCanRSei1BRGdQQ05FZTZPdFdjdFNGRUQ0Nkh1cmx4TnhpRVliLTFfMjRSVU11RWlodWZRS2tTTUlPZVRVcUFrdHZWZnhtVXhaNGlpdmkyY3VJRTh0ejFrZk1r?oc=5",
-      "source_name": "WRAL",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9fe418849897cb2e",
-      "published_at": "2026-04-22T11:36:45+00:00",
-      "title": "Exclusive: US turns to Ukrainian counter-drone tech after Iran attacks, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ0Z4RkhlOW1LZGV5cEVVVnpWQkEwTHhZMnhiQ29kU195ZjRYVmZxU3AtUGpaUHlWaTNySmVsQVU5dHlSZ0RFUzdLMFVveWtTcDRBMHNaZm12Z1pLamV1eWVncXprOE5sdkN1bmJyU0ZHTC1ic1E1V3VockhFNWZLMW1rS25yd2NoaU5wbzlxQ3VobTZoY1o5M0E1ekdWRDdPR1QzUzhqRFgzTk54dEJOaHlXSFpvRWgyX2Vva0lVSzRvY0Zha1BjazljTQ?oc=5",
-      "source_name": "Reuters",
+      "id": "79aeeab05eb83c11",
+      "published_at": "2026-04-22T18:21:49+00:00",
+      "title": "At least four killed in Israeli strikes on Lebanon, journalists wounded - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMTRhVl9OYkNEWEczMDZ6YjkzMG1XWHQ0eTl3ejM1emZiWklmUnBBYzhpMUVzN2hFOVpOWlNQbFliR3dNZ1h6b1VsVXhPRnI0ZFVSaHUzb0JYdEtlZUZMTnlnN0ZLMGc0WHE2cjQ1N2VTNC1EdkRmME9ORUhsSmN3SlpIQTJqQldKOWIyb3puUHJsbnF0X01JeXJLU1JFdTltMWN0dGpuUG9Va3lKVTJ5ZdIBtgFBVV95cUxNMU96a2dzRzZtdGNqeHY1ZFhWcmdZeXRveDdSYUFsNXJyWi15UkhhNXZYTGN5MmgwaUVCYlFsQmlLSEgtNXV0eUxtVER4T3BMODlHQ1dXd2pJNEx1UlY5dS1SQmRCWjFLR1NpbHcwWlJQT3g2T0Nrdkgzc3oxSkFMeHZjbHBvOHlVbC1mRXlkZlk3S3NYMzNCTWdvY2N1dDJCUjAzczJlb1RWbFQ5Ml9xOEZCR1JJdw?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -248,131 +249,11 @@
       "confidence": 0.65
     },
     {
-      "id": "eb025ca39b4b9b2e",
-      "published_at": "2026-04-22T11:16:00+00:00",
-      "title": "Iran attacks 3 ships in the Strait of Hormuz, complicating efforts to resume U.S.-Iran talks - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNZ0d6YWtwZDlhTUNPN0tlM19yNXV0VGVfaDJCVzY0OG5hcjNwQUJ1T2U4TjVYb2QyWUl1aURCZ1BNV2NUbFZlbnk3bHN1T3Nid2hGeVJkXzNNQnVHencxekdPdTNwcXhWNzBVajdrTnI3eXlH?oc=5",
-      "source_name": "MS NOW",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "3bec8d69c4b37795",
-      "published_at": "2026-04-22T10:58:00+00:00",
-      "title": "Iran fires on 3 ships in Strait of Hormuz as U.S. maintains blockade and diplomacy stalls - Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZF9mUFRLWDRRa1hrNjQteC1xS1Z5OTlCeHZyYUROZ0l5VUs1YVMzN0FTMWxELVN0LUhNZGJjcUdsRDNhcUpKN3E4MXozMHBNbkR4dXRiNDFLUnU2T3lpUzVGWjlLQXI0Z085RzFXT09CRUJ3Y25ncndiM1cwQXBKNjF1ellnOEZrWWlfdnFFcDlwcWFZV0RuaU9Ob2xzX0NaSHV0UlRma1oyMi1XdGlVenZOTG9fd01uNGQyMmEzQ2lSbWxhX2diR2JlVEhmcUZH?oc=5",
-      "source_name": "Spectrum News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "42402635ee163974",
-      "published_at": "2026-04-22T10:53:59+00:00",
-      "title": "Iran attacks ships in Hormuz Strait as the U.S. continues its blockade amid ceasefire - NPR",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1TNjBjV3AtUjNza3h1NGM1aC1QNGg2WTBJQThUQ3ZuRWVyYWVZakMzVTJKN2R1UHVQcGZndkUweTVmbFJsRTlIbkU3M3oySGJaSjZMZlh4cjJZUTRuQ0ZGRmo1ZDNMa3A2OXRkOTh3S1BpQm82SUFwWg?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "b7f671a32b45d06f",
-      "published_at": "2026-04-22T10:35:00+00:00",
-      "title": "Iran Renews Attacks In Strait As US Blockade Falters And Trump Sends More Troops - Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWnNEeEhvRUVMT2VTbzhnYWpjN3kzRnA4cndpZnBQaGlqSUhrdkItVzlQc0s3eFJZMnd2RmZDLThiMkxycWN4RzNwTVlwLVdjV2ZLQ3JRSFJPdll1NmVOZ0hxSVFCT2U0eXY5a1ZEeV81YWltZzVYNmRzSVFxRGJNeVZGa2ZNdDJNZ3VrZFM0U2EyekE?oc=5",
-      "source_name": "Newsweek",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6499e7eef0153b55",
-      "published_at": "2026-04-22T10:20:00+00:00",
-      "title": "Iran claims US exploited networking equipment backdoors during strikes \u2014 says devices from Cisco and others failed despite blackout in attack that 'indicates deep sabotage' - Tom's Hardware",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObXFtMUFneGt5WE9vTUlzcnA1S2pDaU11TG05RFhBcWpLdEpTckhxSVJPUENmRjB0aXYyR29vc0QtYXkzMlFJYzdZZjdWLVhpMXZvRmVNeFRvRDlBbWYzc09jakphX1VTRW11UDEyNHA2UkM4aXpzenVhMTVmLW1TOE5oV202Nmh2bEhHS3NfeFppUWhZMU1rWktzUm10RzZQWFVFVVdBcXdHZ05DbmpZd2FzZjdYU2lSaWxsWlhBRl9Rd1UwdEdr?oc=5",
-      "source_name": "Tom's Hardware",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a54c92718226b0a4",
-      "published_at": "2026-04-22T09:43:00+00:00",
-      "title": "Iran attacks ships in the Strait of Hormuz, complicating efforts to resume US-Iran talks - KGW",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNZnROd0o5eUtGX09VeGx2WWpRMW5YUUpodmJxNlNxMWdOb2pxVl95blA5dThJZXM1VGc0OGNjOFVMNTJoUGFFN21EVkczMnh4VWthZUdIaHZMMml1WVdjaE1OVnctSXJQYTI1Umg0M0VRVlFzVjZwZUtQcFNPNUJuUS1VTFNJX3RLQm1IMktqSWxkb1FrcWR4LXdGcUZfZkpVS1pTSy1sYktIZjFjdDFkZTA5WHYtczlnbEdwWmhULVhjbnQ4S19IODlhd2N1QV82aDVmenFRcGF0bmItLXlKS3RJV1lIVXJjbm9Ea3FSLUJKMlAtR2NCV1RBeUEyYnpWSktIMXRISQ?oc=5",
-      "source_name": "KGW",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "53ae78221fad7f45",
-      "published_at": "2026-04-22T08:50:59+00:00",
-      "title": "\u2018Hands on Trigger\u2019: Iran Warns Forces Ready to Strike US, Israel Immediately - Palestine Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQNF9iWjNFeDBaVDBnTTRueGhBSTk1RUJVNjVtTllpMjl6VHlUeFEyQVlxQTlNYjhoUEdIUjIzOVY3U01KMkdneldMTUQ1MHYxcjdkTThzMEtMbi12ZWpxSWdCMUtZUVhuZWRVbFNpYTVRbnJ1ME1YRnVxSm5Fa19NdlY1aGk5cVo5Nm83R3RwZGxkT19uaWpOTDFZd212R0FqS1dmMHNvN0VWVDlB?oc=5",
-      "source_name": "Palestine Chronicle",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "98968f019317e84c",
-      "published_at": "2026-04-22T08:40:39+00:00",
-      "title": "Live updates: Iran attacks 3 ships in Strait of Hormuz after Trump extends ceasefire - NBC 6 South Florida",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSjBfdGI0aFd3X2E3WkQ1ellBYXR5eUhpR3g0TXhLVHBvdnJOc2x3SlFDSnNtNnB3X290bnowSDRheVA5cHdxckg3Ti1nTE55NzRmNW52WDZJYURyLXRUTXF2VHczVFI4LTRmOXF3QjJ5aGtvM1JUVWZEUFRJOHhObk9rTXhONTV1ZzdsR2NWY1hkd0VLQ3VkOGZHOG9GM09mN0o5StIBrAFBVV95cUxQeHdQeVJVN1VtbDRlZUlRZHhfOTNSSmNENmZCQUY0Z1BDUHVSdUMtamJTV2tFM1hQX08wYXBWSk1HMDlPbm0xbHpTSEJBR1QwVEZjVTlFcFNUM1o2ODZMU1JNQlhuS3Z0eXV5YkxQRWdHc1VhLUYzYVU1aFNFekJfeElYY1lsN1RtOF9CUDVZeExNelVXVGYxaExBV0Z5NDljaENGQVlHRy1FSGxf?oc=5",
-      "source_name": "NBC 6 South Florida",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "13fba9cc878e72fe",
-      "published_at": "2026-04-22T07:18:57+00:00",
-      "title": "Iran responds after Trump gives new ultimatum and threatens to 'blow up rest' of country - UNILAD",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNLTd6QXplZnhDUWtuZk5BSFNSSTZiOUxHV0ktX0pFOWY5bm83WUpiX3FOald6M0pjLXVYUUlLX2ZoRUlnekZBdlJGSTVDbHgtcUxTcXRiaVNRM3hhQ18zWUZ5YXBLajZYcW5lNGNwWjNGdF9scUhMSTFsaVRqT196OGhBVXBQYVcyRElWeW9ZUzZ4bkF5XzdR?oc=5",
-      "source_name": "UNILAD",
+      "id": "e3766b9bb71d4a46",
+      "published_at": "2026-04-22T18:20:20+00:00",
+      "title": "No Peace Plan, No Problem: Why the Wartime Market Keeps Rising - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE44bWN1Z0tOQjNFUUZHU1VlOUNjbUNLMmRMZnZRcTlfWXlUUHJCV2JIYmdUY2g1VFBwRDBGVzZkam9KWEtlaDBqSXV4bV9tcDVxeUwtUHRmUnVtbnNJQUxReE4xZmVad3Rkb3JwS1lWX2NXX2s?oc=5",
+      "source_name": "WSJ",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -383,11 +264,71 @@
       "confidence": 0.55
     },
     {
-      "id": "c5631b4a6867d873",
-      "published_at": "2026-04-22T06:33:51+00:00",
-      "title": "US Signals Possible Return to Strikes on Iran as Ceasefire Deadline Looms - Politics Today",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNb2RFdXRBVVl4WmtBV0RkaDAwanNZOTd6U2tFa0V1Q0xoY1Z5V3dPRklMY19IOTBjbVNDR2w0OFRodzhjbFhuWEZyRDFUU0NfR2w3LTE4a0x4TzdoclEzYm9BMVJWQlRydDNQZHg2S1JlU3JDNmRBOUdhOEExbUJucWRoRDlGbXVmWFFPQ0w4NVN1emRZNnV4RVlpSU45ZmdvUkE?oc=5",
-      "source_name": "Politics Today",
+      "id": "e83234f5f8731c39",
+      "published_at": "2026-04-22T18:18:20+00:00",
+      "title": "US Withholding Iraq\u2019s Own Oil Money Over Ties to Iran - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOczZUbkpLZlM2Mnl1a0drYTB0Vm45NUxHRkJzVUk4OWhjVU5wM2owODB0eFZPS0NyTVp5NUpVTmxXY0xhSHhnMTROV1IyU2h1Y0FQdzhPSTNCYW82ZVVRZjBmYXRqZjJvR3JLOFR0S3Frem5IWmpBOXdNdHFBQ2dfdFFsV1lhNmwydDVIMjUwSQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "786d5895cbadf841",
+      "published_at": "2026-04-22T18:14:35+00:00",
+      "title": "Bessent says 'many' U.S. allies have asked for currency swaps amid Iran war turbulence - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQks5dDdkTG8ybnNldGMwTGRrM1VqTkMtY0RDZlBLMEtWSlgzSHdWcms5NV9KN2dxTzNhbjliU2tOWm16TmgyZmwyTHNtSUpEcDBpTlV1TE1BMml2NHRXYzh1RFRKRjZPQTJmOHo5TEUxbzJRVk5sZVNhMi00QjlVZWctSmtZa2tQNVhtTUpJZy3SAZYBQVVfeXFMTVBYX3ZqRWZtdTRlQ19YR2M3SVJveTBLYWxoc3FFRG56dUVmRWJrb3c0R084ckJ1VnpWZzJtamNkUWNXWXlvT2lYanYzdnhwSTBHZWp6aU9kdUdHc18zQ0ZjS1Z4RW9fU1pSaG9MZ0phOGJUTTEwMHFsYXd0T2Q2S0YyYmtsei1vRHZtQ2pWZDcwWEZRTjlB?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "57ed7f47ca4f85e8",
+      "published_at": "2026-04-22T18:12:00+00:00",
+      "title": "Live updates: Iran war news, Iran says it has seized two ships crossing Strait of Hormuz - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ1pUcWVOb1k4dUZudVI4ZllXLXlkNDZZOXA4LVpVZVZCQmVSek9KZTFmQnhMQTBvSjE2dGFKZDlKeGVKaktWUEVidnF6MHl6SGNfQ1NjMW9MVzgzaW9hMEx6WTRmQ1dsVHFqZ2JlNkJhTG1uSnlUMHZQdDdubk56MGwzZXoybHozaTRR?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "476159c141a67566",
+      "published_at": "2026-04-22T18:01:46+00:00",
+      "title": "Live updates: US citizens urged to leave Iran immediately - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbkkzZWV6R3BybEthcDU3bmhhSFhSVzdESVd4RzdWN2dzaVhDRUFTYnYySW56Qy11TzZETTBPTDNVZWJGRU5IZnd6VWNBb19GVVQ5SUlBVUU0WjFPV0I3RERxaTVqaUZ2aTB5Y0NERVBxQnhwNEFGQUpnMzBva2VkRFBpZHRneU8yaWFPT2ZXUUpUVWdZVzRmeDRld2EwemfSAaQBQVVfeXFMTWhCUDVlZ2ZIT241dWRnVVU4NGViZ0FUOXEwM1VIMkhzcjRObFhhbkllNWl6cnhqbFg5MHAzV3hXeHViVThGTTE1NzhGUzAyUldvSEdMU2VlRVFjQU9FSzlpbzRsM1ZvTGhURk1vZjRFOHFjTS0zVTlYV05RN1dnNHZBeTdlUXZ2S1Z6di1xNnBaOV9zRkEwendIQ0N2RzZHemYwZXE?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f7c50e16c216b645",
+      "published_at": "2026-04-22T17:21:49+00:00",
+      "title": "Iran attacks vessels in Hormuz, avoids concrete stance on ceasefire extension - Long War Journal",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPU21DR3lJNWJnOGttWklKR0YxVkFhc29MY1lhYl9UQ245Qko2N1QwS3RyR0kzY2NaNVB6VmYwQW5DWGoyVlA0RlZaWlJwLWNTRExRS0Z4MmUyLUNobUN5bU1vcDlxajRnbEJMMTcxdDFUSjJXREJQQXE3MG41UTNEQVhGZmtzT093bFU0RnFhbDRJT2JYZnduRWVCODRHNTRUMlhfV1RxNUwxMUJKRDBFZlBnNkdEeUM4ZVhERWJpUE8tM0Y4SU4w?oc=5",
+      "source_name": "Long War Journal",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -396,6 +337,66 @@
         "iran": 0
       },
       "confidence": 0.65
+    },
+    {
+      "id": "e2b43b1a27b5ac10",
+      "published_at": "2026-04-22T17:01:00+00:00",
+      "title": "Iran Ready to Respond if the US Launches a New Attack - VOI.id",
+      "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBPcFJzX0E4ci0zU1VrckxwTEh0RUVEX2ZJbEYtODltSU9sZE1sYUowM2FFSVBRdTN1R18wQ2NxTEpBbzTSAUJBVV95cUxNRWVCWjZuRU9BVlNyM2hyeUN0OS1wMWtDb19kalJsTnY2SGVHSFpnNldzRjlIVldtMUdnVkZZdm1nMlE?oc=5",
+      "source_name": "VOI.id",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e26b760aa2a86308",
+      "published_at": "2026-04-22T16:28:14+00:00",
+      "title": "The Latest: Iran attacks 3 ships in the Strait of Hormuz as Trump indefinitely extends ceasefire - Times Union",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZHlSUzRpdS1wZm5QWnZOekNtSGdsUlNMb0JTbXFQZmJPb0NRWWw4Nzd2dVhudmFqaFlUN01PTmZXNTk3WjZ0cktrcHdLTjRBSXVCdG9XU0FtWk5HMmdfVkE3VWhpVDhRb0dET2wwZWNBZ2l6SWl3ZGVoN1BuQ3lhMWhMR0luRmdlTUxTazFPanhuSjVHOVQycEV4ZTVvajM0SFFXVjJVWQ?oc=5",
+      "source_name": "Times Union",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2fc0987fb52156d1",
+      "published_at": "2026-04-22T16:19:36+00:00",
+      "title": "US and Iran in blockade standoff as Pakistan pushes for talks - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oYlhjVmVWS2tRdU1KRG1LejBfaUVVcGFHZTQwZXIwZW5pV2ZIYkdxUkprSGpjQV9RS3BkSlhxa0FwMkg1NGhIclFmU25ubWtMVjEzMW9mTmlxQQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "463144e5e8dd9188",
+      "published_at": "2026-04-22T16:05:08+00:00",
+      "title": "Iran\u2019s leaders debate war and peace after Trump ceasefire extension - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQm5nVGRtZHR3azVtMWhybDctQlhaTXVROWFHUHFENXlndnE0OVFqZE5NSXpsUlNYV2RRQU95c3d5T3VmYXlOX2NoZkFOTm8tN1FqZlROdjlfTjFpZGNTTzlieXNwLVRndlE3UmVvSTNhcjI0eTFLMkREREdCeGx1Rm9rNlAzcHFycWJZTVdHVS1zeE9RWVdON2Fuc05QRlpkUm10YVJfd0VwYVHSAbABQVVfeXFMTXQwUzN0Z05ZUlJnZ2R0WjFiX3VLTEdicG55TFl4bjhGc3UtMFU3TktwNlh4cHFDcFM5RHlydXdyMzFCcFpGalYwTDRvamhPTm5UcnNUdEZMMVRiQzNDUWs2WjlaVDFuMHRVSGlKMEpQTlhhX1NjRkE2QndLeThKWE9HT0kyX2ZmY3NVNVNubi1QRVZqaTdCY1U2dFQxM3NYOXJhT2xSQllOZ1dVajI2cHA?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
     }
   ]
 }
