@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-04-23T03:49:01.720693+00:00",
+  "generated_at": "2026-04-23T08:12:58.851876+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 100,
+  "event_count_window": 102,
   "totals": {
-    "usa": 20,
-    "iran": 32,
+    "usa": 22,
+    "iran": 34,
     "lead": -12,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 14,
-    "iran": 23,
-    "delta": -9
+    "usa": 18,
+    "iran": 21,
+    "delta": -3
   },
   "confidence": {
-    "score": 64.8,
+    "score": 65.4,
     "label": "Medium"
   },
   "event_types": {
-    "other": 50,
-    "diplomatic": 20,
-    "attack": 29,
-    "intercept": 1
+    "other": 51,
+    "diplomatic": 22,
+    "attack": 27,
+    "intercept": 1,
+    "material_loss": 1
   },
   "history": [
     {
@@ -78,31 +79,61 @@
     {
       "date": "2026-04-20",
       "usa": 0,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-04-21",
       "usa": 7,
-      "iran": 9
+      "iran": 10
     },
     {
       "date": "2026-04-22",
       "usa": 2,
-      "iran": 8
+      "iran": 5
     },
     {
       "date": "2026-04-23",
-      "usa": 2,
-      "iran": 4
+      "usa": 6,
+      "iran": 5
     }
   ],
   "latest_events": [
     {
-      "id": "bbf7ba33e0c92c26",
-      "published_at": "2026-04-23T03:45:00+00:00",
-      "title": "Middle East crisis live: US and Iran in blockade stalemate; Erdogan says war \u2018starting to weaken Europe\u2019 - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYzBweDVLbkNBQzVKQVRTQ3lFWEN4dE9KS25HWFFnTXVKcmFUMWh0RXJmX0FOcWYwYnNUaWtpYnFRblJrSGp0OFFTT3FwQlBOUWZIY1lVdG5TT1JtQzlXeE5CN3J1QzN6akJTbjdrNk9pRGVzcGIteTloQXRaeDh4d2NMNjRMTzM1c1YwLXk2MGdNTDRKX3RhYm8wampnb3dKMmpJOTh2US15eFpVUW85QzNjcDlHY2pJcTZGOF9EdHhybzN3Q1lEdUFvM2RFaDA?oc=5",
-      "source_name": "The Guardian",
+      "id": "42c2de3e88facd69",
+      "published_at": "2026-04-23T08:11:14+00:00",
+      "title": "Iran war latest: Sailors 'sitting ducks' in Strait of Hormuz - as US navy chief fired - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?oc=5",
+      "source_name": "Sky News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "57566e9446e053a4",
+      "published_at": "2026-04-23T07:51:58+00:00",
+      "title": "Iran war: What\u2019s happening on day 55 after Trump extended ceasefire? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeGlMRFoweE9lM0dxbE9SbVpiYmxGeUZ6c2xKSkZZc3lmS1hVblQ1WlpfT2M1dmV1c0FlTFA4dnpUd1FaNld2ODlUdWZqeGNWbmFfTTdJall3QjQwcEp0SG8tWEMyYmIyQXhXM3A3dUU1OHVVb2VGb280UmxpVFF4YXRIWldJcVN6cTB4Y09sd0h5LWhNV0lBVDEtcUVJX01iU2FEVjBqUk1NUdIBrwFBVV95cUxNNUJPMVE3WTNNMk5CMW81RHRha0ZGWkk4LWhrN1FEQTZJZFBmallBOTJwSzdKVmNlUVV6SkRGcjFIMDVvUVdtd1YzaW5QZzMySXZlQTg4YWU5QW1RSFh3Y0dKdzJ3Tm1xMzdtTlBEVzRxRXVxVllhWFBFcG5LVjVKdXZjSF9pdXY2OUNyWkpiSS1iZDVHVWxFX1BBUF9feHBVbVhWQ2ZCaHJnMVpuZElN?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "309f6851571c5ffd",
+      "published_at": "2026-04-23T07:41:15+00:00",
+      "title": "How China and Russia Can Exploit the Iran War - Foreign Affairs",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRHJJSXI2emE1M1lJb25Rcjhvc2ZUblVuYlNHSDFXWWNEWUl3MnZiVUcySFN2d2ZkcTRkeEI1MHhsR20tQzBBSmc3MmZVOGMtRGdUMDVIUjhMeGo5c3NjeEFPVDl4Y1pKRDV5VnpEdkVTcHUxZm80dXN1dkRYMlBHbVZMWWw0dnhCeHVmWjlybw?oc=5",
+      "source_name": "Foreign Affairs",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -113,8 +144,23 @@
       "confidence": 0.55
     },
     {
+      "id": "32081a5da4ea23c0",
+      "published_at": "2026-04-23T06:55:00+00:00",
+      "title": "Iran War Live News Updates: Three Ships Attacked in Strait of Hormuz, Escorting Two to Its Coast - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4UkN3UnZ4bXVpSDJtX0JaOUl5OV9PRF82MnlxNXdxYzJyNEFGWWljTlNuSmxkT1pKcWJmMGxIMTFIYjNzd3NERU5VQ3ozMUZJRDI4TjNnVXpRZzZHd0g3cC1JRHJ2WHFsVEpF?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "a7cd0e4e83582c9f",
-      "published_at": "2026-04-23T03:30:16+00:00",
+      "published_at": "2026-04-23T06:53:56+00:00",
       "title": "Iran war live: Israel kills Lebanese journalist; Tehran-US talks stalled - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOeVR0dmZBcEtyclJkbWlmT3hTUUlHandkWS1tQXZKX0ZUNC1PMWVGWjRFUW5fb3lEQVNMSmhFRnNSQWo0RVp0b3dZUjZHM3ZVSGN3ZThsZUM4bGxUVUZYdzV6T3lHQk1jemc0blVUVl90eHZnZkRYNmYxUWVncVB3cktRS1VidDV2aTluVHZ5UGcwdTN3RDBvSGl5dmVMbzdudHFENXVobDNkaHlXQ3R6Wk05bEVvTWxGRTZWRtIBwgFBVV95cUxPZXRoSDAyRVUyLVNmSDN4Yi11X1pUQ2plZHJmTE1mQ3QxZEpNQ1Z6QlB2d2VSaV9LeGhuYXZHU2VhNkhLcTM1dGV0R3QxRzc3ZnYwUlByQ2ZRVEtXTjdod05nVDVyZVRROWtET1Q4YUxFeVdCUkRzc3hBYWZibVVFUVdVSGJ5UkJRNC00RS1zX3lzc0JhN1VlWjdsRmFJdmtDeVhlUlVHWWhCYkFrOXVhZlVVUURuYUNPUnN6dElQSGk1dw?oc=5",
       "source_name": "Al Jazeera",
@@ -128,8 +174,98 @@
       "confidence": 0.65
     },
     {
+      "id": "558e7d35398e3991",
+      "published_at": "2026-04-23T06:35:08+00:00",
+      "title": "Iran Increases Control Over Hormuz as US Abandons Plans for Retaliatory Strikes - Caspian Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ3M1anFqbDdjWlhzQVhGMXFBMkJJc3lmbHowWWsxSGVCRG5ocFB2V3Jrb1hNRy1Xc0RDWDdfSUc4SUw2S0MxeG9PMkVYNDIyQURwRTlieXZGTUpBQ0VFSE1yYmh3bzJVV1N5SkZYSE41YnJoY2psazNISVBNbnBDUGw2Tk1YTnVkd1ZDa2E2X0p4WkRCNTMzNmRMSExEMzNlWEc5amFOTTZNNVZY?oc=5",
+      "source_name": "Caspian Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6480bb9e1d9ae973",
+      "published_at": "2026-04-23T06:11:15+00:00",
+      "title": "A Military Balance Sheet in the U.S. and Israeli War With Iran - Carnegie Endowment for International Peace",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQSEZPTmV4ODljNmlvNGZ0SUdPVUJsblNGazZXbmpXd3ZKNUkxT21yeDNQR0pEblRiWUJFcWFiQlhCZmFlRlRfa1ptOXJldmcwcXI4ZHBnRl9GTEFWMGdBSGk0dUpmVjQtajdnWWNOOTdSSTcwd0NUZW1sX1FwTDhRUEoxUUJvNjROeVIwVWtOejBEYXJTekQ0S1hURkl6UQ?oc=5",
+      "source_name": "Carnegie Endowment for International Peace",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "5e57f42006481293",
+      "published_at": "2026-04-23T05:57:29+00:00",
+      "title": "U.S. Deploys Ukraine's Air Defense Against Iranian Drones - \uc870\uc120\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQlNUTG90REJacmtxU25iT0NNck5ZUDJwN3ZhN1dJM045UmlmZjlQOUV5ZlBMbWwxNWJYQm5BOHJtcUs2SzFyYmZGNEg5NHplbTNsYTRDWXFxaWp0Y09iRU5UNzcxSmNkY21IbmEwT1hBcFlWa0lCLUd6RFJVR2R0Q0xtckY?oc=5",
+      "source_name": "\uc870\uc120\uc77c\ubcf4",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "633e3e2ff4ab76cd",
+      "published_at": "2026-04-23T05:55:06+00:00",
+      "title": "The US-Iran War: Cognitive Warfare and the Use of AI-Integrated Systems - Politics Today",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWkZXdkRuS0Q4SDhCZG5YWkZMYnlSanYwVjluT3J5MnZsMlFCLXl6UGVfRzJQaW9Dc1VVYUtjUjB2RldHTnYtMmgzamppeVBSdXI3YlZiTEI1T2lDenBTdTFHMkVES0l3ajNzZEFBZ2RuYkJ6bFpkSXFfU1VRN1ZsQkwxN2JCRnJYTUY3S2tiZGU5Y19oUF9RUHMwR2Vldw?oc=5",
+      "source_name": "Politics Today",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "645456a87175ebc0",
+      "published_at": "2026-04-23T05:54:07+00:00",
+      "title": "US and Israeli strikes damage Iran\u2019s industrial sector, including Mobarakeh Steel - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQQVNpejRpakduSW5odUdoSnVfZm1XYnhLU2RwTWFnUmozd3dCcTFwNW43dnQzTzE2SElTNi11WmE2aktMbmNrYTFKdGZ4VlFEU2VNSktHcXBydzdkWlpPOUY2ZjFJTFhoSmpjMkZIMGJmTFkwdGhXUm9uaGZ4cUxDa1FwWGIwb3ppSnFna0w1TndONWpwVTF3T1UyaFdlSC1sMTViLVJxQXhqNTA?oc=5",
+      "source_name": "Crypto Briefing",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "78671d20614a8848",
+      "published_at": "2026-04-23T04:39:54+00:00",
+      "title": "US told Israel that ceasefire with Iran will expire on Sunday: Media reports - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeWZZZ2ZuREV3TFd3V0dSWFlSRk9nODdMM2Q2YjRKdmRFOEZPeXBDMjY0YXkzN2JQN2h4dnFXYVJkRGJTekdkSzJla3dnVVQtLUhHN2pVLVJ5azhXUGFFLTI3YUtTVk1jQWV0dTB2a1FJbVJCQVdwOHNicmdfN0ZNYmRtTUwxUjYyZHhBNS1fanRqOW1iZXpMUG5pSDJ5VzZ2T2JfMDBwTFd5TjkxUE1XTDFKX3JEVC04UmxVZQ?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "0e2bb8f42cf4a4b2",
-      "published_at": "2026-04-23T03:23:27+00:00",
+      "published_at": "2026-04-23T04:33:05+00:00",
       "title": "Iran says it seized 2 ships in Strait of Hormuz, hours after Trump\u2019s ceasefire extension - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPTlNBMk9udGNhWHlhazZYWVVNREpNd1prTWRWVlB2NDkwZVpvLUhvWjVhRkt6WTZvLTFodnRrMThMTjZYRnlYWXQzbFE0OEdQX0t3T0Q2THhUdGh4UDhiUlhiV0lLOFlRdTdwTUlIYU5ZV0JaNnNGb3E1Tm1QNnNlUFFRcl83aVE?oc=5",
       "source_name": "The Washington Post",
@@ -144,9 +280,9 @@
     },
     {
       "id": "f9fe5f2d0effeefe",
-      "published_at": "2026-04-23T02:51:00+00:00",
+      "published_at": "2026-04-23T04:09:00+00:00",
       "title": "Live updates: Iran war news, Trump says there is \u2018no time frame\u2019 on Iran war and denies midterms driving decisions - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZ1pUcWVOb1k4dUZudVI4ZllXLXlkNDZZOXA4LVpVZVZCQmVSek9KZTFmQnhMQTBvSjE2dGFKZDlKeGVKaktWUEVidnF6MHl6SGNfQ1NjMW9MVzgzaW9hMEx6WTRmQ1dsVHFqZ2JlNkJhTG1uSnlUMHZQdDdubk56MGwzZXoybHozaTRR?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ0c0OWI0WENuQlhSMDBvem9BMS0yQ0NQcFY0Z3V2UmNTdDBUaXRGMkpPckpoR2J3S1pHM3F4YjU3Rl9jUjZOTnpWZF84MUx4VFpkbUlvSnFqY2o3TVdTVnZLZjlDcENWb0txVl9UNEl1M0FPOXE3VHNjaXhXZTB0Vi1RaVdkdUtXd2dxWVZzNEE?oc=5",
       "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
@@ -158,11 +294,11 @@
       "confidence": 0.55
     },
     {
-      "id": "7dfb37d7fc5265bf",
-      "published_at": "2026-04-23T02:46:00+00:00",
-      "title": "Iran War Live Updates: Iranian Forces Claim to Seize 2 Ships Near Strait of Hormuz After Trump Extends Truce - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZDdvSkZRUjFtSXE1QzJwUDFvQUREYXR0UHdBXzcwV0tWVzFOTFN5eDZIY2kwNnlMNW9ZY2lPWjZhQkw3bmpUdHhXcjkxY0JPcmNRa0RjLW9VQzVYUEFqNWx0QWJ6MXNibXdHMFFxM3ZVekF6aXhodlN5WHlQVUhBLXBB?oc=5",
-      "source_name": "The New York Times",
+      "id": "fbee0da8324bf3f3",
+      "published_at": "2026-04-23T04:04:00+00:00",
+      "title": "Middle East crisis live: US and Iran in blockade stalemate as Washington\u2019s navy secretary leaves office \u2018immediately\u2019 - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNQmRpWWZNSWFjRnVHWkhsemFMV0k0SlJNM2tBRU94ZVNOX0R5UXJDUTV0UHRUTF9oYjRLVjRKNFZFSXlKQlRrN0tRbEI2RHhZak1ERDZfbkdlTUpQUzRneHlTcDFGNW9Tam1HWkNieHVjNDZ3TDZ5V1FXTHJBT3lveDU4TUtFdHlkMll0M2loOFBlbVk0OG9qeFlzSGF4T0FGVjZqcHdMM2RuSkV2VHo4SldwcFkwYXVVNVZGdjExcG5manZmaUNFcE5qX3dwVWdhTHgzbF9QTUs4X2Vt?oc=5",
+      "source_name": "The Guardian",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -170,7 +306,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
+    },
+    {
+      "id": "f50b42bd815d1536",
+      "published_at": "2026-04-23T03:18:00+00:00",
+      "title": "Live Updates: Iran attacks ships in Strait of Hormuz as thousands more U.S. forces head for Middle East - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUTdJWGw0MnB0amZkdDE2aXVJckZnRlFYd0xfa3RYc2dmTHNFWXVLLWdRb0Nld2otX2tFc0dTclBJdFpYMEtPbnltRXREUV9jdVhTa01lMXl3Rzl2MFV5T29xOWR4b0l0SGpvTzROcWRzZFhpdjNVS0xNMDZjbGI4WXpGZW1USEdKQU9rSG80OWo1bjV0UnJLckh0ZlZPVTVLa2FNcjZmNmtzUEpydmFN0gG0AUFVX3lxTE1tc3Qxd1ZDQnhhcXU0TEs3aFB2aGZMVmhZRzQ2aGU4MkpTTG04YnU5QUpEbG9rTjhFOVBOTm5IMDFWaURnMHhWVXR1R1NSc2xEbktZRXpycUlOcVV1eEVkVEZSdVhneFNSdWF1dWZzWV9mTzlZQnEwa0tmX3hBUFZCWm5zb0dzMTZVbHkzQ09rVGM5dm5ocWc3ZEhtMFlHMTY2RXBuMVJNOXBmbWI1OXk5bFNnSw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
     },
     {
       "id": "33973c3cf0898978",
@@ -188,19 +339,19 @@
       "confidence": 0.6
     },
     {
-      "id": "32081a5da4ea23c0",
-      "published_at": "2026-04-23T02:39:00+00:00",
-      "title": "Iran War Live News Updates: Three Ships Attacked in Strait of Hormuz, Escorting Two to Its Coast - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4UkN3UnZ4bXVpSDJtX0JaOUl5OV9PRF82MnlxNXdxYzJyNEFGWWljTlNuSmxkT1pKcWJmMGxIMTFIYjNzd3NERU5VQ3ozMUZJRDI4TjNnVXpRZzZHd0g3cC1JRHJ2WHFsVEpF?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
+      "id": "11bb241459baa68d",
+      "published_at": "2026-04-23T02:33:00+00:00",
+      "title": "Iran Conflict Holds Lessons for U.S., Adversaries, INDOPACOM Commander Says - USNI News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRkdxbURJT21OSl9pcG81ZEJiQm5fVFdtNXBSa2gzX2M0Y0QxSTk2MUEzOVI4YzYzVDF4QVFxUU5wY1ktUXJ5allFWm8zdFVPSGliRlQ3RzRmdkgwVXVob0lEZTVQUnA1aVYxZjk4Rkx4SmE2N0xOcXJfWHR1UHpyb0hGTGVZQXNyTDRscnBBQ3hQMmVFam40VXpqRkR2TGVDTVMtaGFtWVo?oc=5",
+      "source_name": "USNI News",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "7f4d3d249eeb4f27",
@@ -218,21 +369,6 @@
       "confidence": 0.65
     },
     {
-      "id": "c28c3f49db49fae3",
-      "published_at": "2026-04-23T01:55:00+00:00",
-      "title": "US Navy chief out as Iran seizes 2 ships amid Hormuz blockade: Live updates - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVHJ2UUtuUDBfR1M5bEdKNnc2NW1GUlREaGxPRG9HV29yaEwtV2J0OEpqLWFXZDlsVGpvSUg2YVNyNEhnV1BDbm05UXltOVl2NVlHNWUyalUyRDlJYlh2aTdRVmdlamlsMTRWRkJkeDJhS09KekVVMmR6WGFlNjd3ZGFDZ2NDYlpNOUV4TTdhTUxFdkVOckFLaGkzLWJpN2lzRFhXTVAtTlJMbGdNN0ItRDNfd0ZaSV8tVS1nSg?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "f1fbe4b9309f4f96",
       "published_at": "2026-04-23T01:38:51+00:00",
       "title": "Sky News Australia. . US President Donald Trump is giving diplomacy more time before resuming military strikes on Iran. - facebook.com",
@@ -248,36 +384,6 @@
       "confidence": 0.65
     },
     {
-      "id": "bd6ecefbdce8e2fd",
-      "published_at": "2026-04-23T01:31:03+00:00",
-      "title": "Not a Deal-Breaker: White House Downplays Iranian Action Near the Strait - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdU5sQ2U0VThyRHo4YTBnUUVmOHRNVEp6bnFZeW00M3FZdGhmRXp5ZjRFX1dyS0U4QkUzNzk5amp1dmRVOEFKLXViR0VQMzlpYWxBYkVlVlMtUmh3VzdkZ08zcWwxNmdFdXR2WFNHZ0ZWMUE1QVQ5cEUzZkN0OHNHZUZudzQ2TEdBT1ZtWExn?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6394ac8a27793437",
-      "published_at": "2026-04-23T01:13:06+00:00",
-      "title": "Pope Leo should 'stay in his lane,' say Donald Trump supporters regarding US-Iran war - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iYmdnLUxCNzYwaGUwYXZHVjlVYklDR1pfZktvaC1BbHh0X01idEVCNVljdWNOMS1TR3RvbkN2VDBuZ2VmbnA3T1hoUUJoQWFsTWJPRjRGci05bWlDNEFN?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "73e70051a2cb2793",
       "published_at": "2026-04-23T01:09:19+00:00",
       "title": "Iran says Strait of Hormuz cannot be opened due to ceasefire breaches - BBC",
@@ -290,112 +396,7 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "f50b42bd815d1536",
-      "published_at": "2026-04-23T01:07:00+00:00",
-      "title": "Live Updates: Iran attacks ships in Strait of Hormuz as thousands more U.S. forces head for Middle East - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUTdJWGw0MnB0amZkdDE2aXVJckZnRlFYd0xfa3RYc2dmTHNFWXVLLWdRb0Nld2otX2tFc0dTclBJdFpYMEtPbnltRXREUV9jdVhTa01lMXl3Rzl2MFV5T29xOWR4b0l0SGpvTzROcWRzZFhpdjNVS0xNMDZjbGI4WXpGZW1USEdKQU9rSG80OWo1bjV0UnJLckh0ZlZPVTVLa2FNcjZmNmtzUEpydmFN0gG0AUFVX3lxTE1tc3Qxd1ZDQnhhcXU0TEs3aFB2aGZMVmhZRzQ2aGU4MkpTTG04YnU5QUpEbG9rTjhFOVBOTm5IMDFWaURnMHhWVXR1R1NSc2xEbktZRXpycUlOcVV1eEVkVEZSdVhneFNSdWF1dWZzWV9mTzlZQnEwa0tmX3hBUFZCWm5zb0dzMTZVbHkzQ09rVGM5dm5ocWc3ZEhtMFlHMTY2RXBuMVJNOXBmbWI1OXk5bFNnSw?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "4dd573e2862582a7",
-      "published_at": "2026-04-23T00:54:06+00:00",
-      "title": "Iran Says It Seized Two Ships Near the Strait of Hormuz - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOQ2NVSVItT1J6TV96SWUxSnRmZEFCZ0ZXaHdEaHlpSk5QT2tCNl9raDd1ZUszUGV4dk8yOXRCelFBMV9IaWxhLXlEMUV0eVBtTHpudHhUWXlhNnAzYWRnVngyaVJKbVZfX09XZHhqZG5lX1VnVE1iRl85OGdWVEtCT2xPSHRXNWoydnI5aQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "7b96fc50965765aa",
-      "published_at": "2026-04-23T00:29:28+00:00",
-      "title": "Iran missile strikes on UAE complicate US-Iran nuclear deal talks - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdUdHRF9JUFBlcWFIWE5CRGVMZmZtWnRkanFZaHBPWFVVa2pPS1pTWk84d242bmtqUU5raVMwdklHeGE2TmhYcF9NQ1QzX2pSOURxMm82VUF4RGFXWlBPbk9Wal9NRVh0NVB6UWYzbGJla1RnemthMndQMnBVWXFLQUw1NXBZUm9mVjZ3ODJkYzl5SEtlUERXMQ?oc=5",
-      "source_name": "Crypto Briefing",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "54a3e7ac4f3ded9f",
-      "published_at": "2026-04-23T00:06:03+00:00",
-      "title": "Live updates: US citizens urged to leave Iran immediately - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbkkzZWV6R3BybEthcDU3bmhhSFhSVzdESVd4RzdWN2dzaVhDRUFTYnYySW56Qy11TzZETTBPTDNVZWJGRU5IZnd6VWNBb19GVVQ5SUlBVUU0WjFPV0I3RERxaTVqaUZ2aTB5Y0NERVBxQnhwNEFGQUpnMzBva2VkRFBpZHRneU8yaWFPT2ZXUUpUVWdZVzRmeDRld2EwemfSAaQBQVVfeXFMTWhCUDVlZ2ZIT241dWRnVVU4NGViZ0FUOXEwM1VIMkhzcjRObFhhbkllNWl6cnhqbFg5MHAzV3hXeHViVThGTTE1NzhGUzAyUldvSEdMU2VlRVFjQU9FSzlpbzRsM1ZvTGhURk1vZjRFOHFjTS0zVTlYV05RN1dnNHZBeTdlUXZ2S1Z6di1xNnBaOV9zRkEwendIQ0N2RzZHemYwZXE?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "81c79e09fd02baab",
-      "published_at": "2026-04-22T22:20:47+00:00",
-      "title": "Iran blames Trump\u2019s blockade for diplomatic impasse as fragile truce holds - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOVmVWTDVkTjd4WEpaRG1Dc19lLVRqbmdpaEo5ZVJjamR3OVhSRWNfekZCOWpEZ0M0aGdwbWIwR1FwUWhBaVVpaXhzMHVRZWVmaGpYZll6SUF2eTJEMmFlN0M1ODNjME1qRXczTHQ5SFRDQmc3dHNWak9JMUxTV2R0NTBJa1lVakcxT05pY18wY2JpUUdxME5ZNWRrbzh2a3N3MmdPelIwSDhnSnZ2dnRmTUNnbVPSAboBQVVfeXFMT1lrSVVmbk9pa1YwcUVOOFVoTUNlQWF2ZW5BNVR5T1c5WXJwMWNBZWdURXFKWVFIS1NjdUJEUENaSXVyNjdLUERReldqVzV1WlY1eHNjVmhsZ1gxQlpYZy0zMzFxTzlWUllWcXBBTmo0Smt3WGJfZWFnQ1psNldIeEUxR0M0OE1UOWNwYW9UMUVDdXV1SzdsOUpBWEpwMFlKa2RqeVpHTE9oM0ZaZXdQUXIzQmx1UXMzSlZn?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9743d73b257c5b1e",
-      "published_at": "2026-04-22T21:43:54+00:00",
-      "title": "How the War Powers Act Could Pressure Trump to End the Iran War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPNGw3LWRuRldhbGhjQnQ0cmxVbnllVnhBejdSU2cyS3N2el9DUWRMMVJoS3RtQXpJRWhmQXN4ZWYzcFVtSF9VVk1Dc2FNSnhOR2NwWGVoVFpaR01JT3hDclduRWNxa0E2VFhCRnRTdjB3d0RtaENkcG9JWTNkS0d2TkZMQW8?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "e66816ddd3e1d9d3",
-      "published_at": "2026-04-22T21:16:53+00:00",
-      "title": "Israeli attacks on Lebanon kill at least five people, including journalist - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMTRhVl9OYkNEWEczMDZ6YjkzMG1XWHQ0eTl3ejM1emZiWklmUnBBYzhpMUVzN2hFOVpOWlNQbFliR3dNZ1h6b1VsVXhPRnI0ZFVSaHUzb0JYdEtlZUZMTnlnN0ZLMGc0WHE2cjQ1N2VTNC1EdkRmME9ORUhsSmN3SlpIQTJqQldKOWIyb3puUHJsbnF0X01JeXJLU1JFdTltMWN0dGpuUG9Va3lKVTJ5ZdIBtgFBVV95cUxNMU96a2dzRzZtdGNqeHY1ZFhWcmdZeXRveDdSYUFsNXJyWi15UkhhNXZYTGN5MmgwaUVCYlFsQmlLSEgtNXV0eUxtVER4T3BMODlHQ1dXd2pJNEx1UlY5dS1SQmRCWjFLR1NpbHcwWlJQT3g2T0Nrdkgzc3oxSkFMeHZjbHBvOHlVbC1mRXlkZlk3S3NYMzNCTWdvY2N1dDJCUjAzczJlb1RWbFQ5Ml9xOEZCR1JJdw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
+      "confidence": 0.7
     }
   ]
 }
