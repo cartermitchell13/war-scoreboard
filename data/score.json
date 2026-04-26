@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-04-25T21:54:27.368203+00:00",
+  "generated_at": "2026-04-26T03:57:38.280198+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 100,
+  "event_count_window": 102,
   "totals": {
-    "usa": 17,
-    "iran": 37,
-    "lead": -20,
+    "usa": 24,
+    "iran": 33,
+    "lead": -9,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 12,
-    "iran": 28,
-    "delta": -16
+    "usa": 10,
+    "iran": 24,
+    "delta": -14
   },
   "confidence": {
-    "score": 64.5,
+    "score": 64.3,
     "label": "Medium"
   },
   "event_types": {
     "diplomatic": 21,
-    "other": 61,
-    "attack": 18
+    "other": 59,
+    "attack": 22
   },
   "history": [
-    {
-      "date": "2026-04-12",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-04-13",
       "usa": 3,
@@ -82,7 +77,7 @@
     {
       "date": "2026-04-23",
       "usa": 5,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-04-24",
@@ -91,14 +86,79 @@
     },
     {
       "date": "2026-04-25",
-      "usa": 6,
-      "iran": 18
+      "usa": 3,
+      "iran": 9
+    },
+    {
+      "date": "2026-04-26",
+      "usa": 1,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "d73fa589d8b776c4",
-      "published_at": "2026-04-25T21:44:43+00:00",
+      "id": "f5f29dafebfc74d8",
+      "published_at": "2026-04-26T02:39:11+00:00",
+      "title": "Iran war live: Tehran rejects talks under siege, Trump cancels envoys\u2019 trip - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUHRKVkdSQmxQT0I2eWRvX2FEOGRBLTRwSUFhcU1Idkw2azF2bzlvUlFWTDY0dDNCaUJMeU5pX0VQZkxaZ3lhUHlrUnBuTHI1bXAwRkNHb2NDenNOci02VDI1ZW9MUW1MdTY5dzZJZ1dnb0VUUkNxMzBGNlhiaVk5dGdHTzczQ25CM2JSR3I0LUdXYmZSX0xQX21naW5kWmdXLTRnbk5RaUtWQnVSOHdfd2paYXNiT2ZHNlJxVFhzQdIBxAFBVV95cUxPVmxjYnJSY2dBbnBKUDNMWmVCcmh3c3Y3Y3phSzRiX1VsYmo1dnhiU3JzbGd1cEoxZWdCbUVfVkpmdndNZFBtWnpoTTFONGJGNzU0dUcyWGN3SVdSQzI5NE40ZDJzY25hTUFtT2xCMEE3NkxrME51WW9iQTJFZnMydGNDay1mRUtHUk92TzdKWFhHUDduOHZ0c0d4VlB5dTg1TXlYei13WDB5WFdwd0hqSDdKUUdaNmhwbmZUMjIybkZYMkU3?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f3081ca19e6f8475",
+      "published_at": "2026-04-26T02:38:00+00:00",
+      "title": "US negotiators stay home after Iran leaves anticipated meeting. Updates - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVEtmTVNMMGJFNkdST0RWZ1dUTDEteWU2Ml9DaWJyZl9Rb1lTdk5NX1EteUhxRVhiRFlETjlvekNlNFh6YTVxb1dEdS1SZmdiLWRtSDFndDB0VTFhYVZBYkxqZElDX0Vwemlua29abTZwWEN5UmpCRW9oOWxSTHBWUnJuR3FnTXMwTUZ0VkthVTVaVGo0MlNtcEM1Zm9WcVA0clNpNXJsU2dnLWJjcG81Qi1B?oc=5",
+      "source_name": "USA Today",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e55c72559ec872ef",
+      "published_at": "2026-04-26T02:35:22+00:00",
+      "title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGJJY1ZGeUpmVWxzNEJNRWNEVDFwV0dCaXJTeF91YlROalBXNWdQeDNsQUV3ckplWGRzaThhbDh6UW80a0pvLVRWRTVsYzJpYjNSTkV6VDktc2xWQXNuWGhzQ1FYYWtqQ21MVVUxTFktd0V5T2Y1V3ZPNVRJM1VmVUlLRi1wWEZw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "a4e6c9f6f7e03b20",
+      "published_at": "2026-04-26T02:34:56+00:00",
+      "title": "US-Iran peace hopes fade as Trump scraps talks - KSL.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdHpqMWtfQ3dGVmF4Wnh4SEc0dEhDNDJ5MEJHYXB3WVJkVjQ0Y1VSSDcwSGtRNWg2TkRoekszMWNBVkowb2Z4T0J1UFlFTUlqYmtBeWp0YzNuNThILWt4U1Q1Rm1aOFU2emMtZi1FTEVTNHFyc210WWRhOTFjZjhDa0piSXFXUEo4V3QzeEVqZTFNMjlQenBkck1MQWtlWUlfdExMdGY3bHdaZGlrYlFn?oc=5",
+      "source_name": "KSL.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b6dcbcd8b6fe909a",
+      "published_at": "2026-04-26T02:24:00+00:00",
       "title": "Iran War Live Updates: Trump Calls Off Witkoff and Kushner\u2019s Travel to Pakistan for Peace Talks - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmMnFTNDNEc1VadmtDdVkwLVprME1QaFl3cHBsSFhtdnB0aHo3YllQQ01LbWVhdEhNd1RYRFVPRDJRZFA0eVJuMkFUNHFDTVRkQUVNbVFNazNPam5zelM0aFNJaGl3SEFaRi1NR0tzVE1zQkR0YW54dlY3X3E?oc=5",
       "source_name": "The New York Times",
@@ -112,11 +172,26 @@
       "confidence": 0.65
     },
     {
-      "id": "e1a71330d635c1fd",
-      "published_at": "2026-04-25T21:28:00+00:00",
-      "title": "April 25: Iran presents workable framework to end war as US sinks deeper into internal turmoil - PressTV",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObXJlOFZvU0VEelJrVnc5M081eE1vQTN1TkxDZDVCWEVEdVhWT25salhLNnpNdmtCS2NQdWE5UFRKZk9wS3VBeUFBVWE1V3piMldPd1ZPeXVhbXJ6eDZfNGNuNVVaeFgyUTNYZDNuMXdfWXNKWmlueVJWQW01OVo0UFRjSHRJVW85bHhPbGpIU3hLNVVhbndDbm1QZTVMVm9VQ3NVR0dXLTF1Znd6YkVwVHJmMmZDRkRPUnRzeUdFdWZZbkVOVkZFVThwX01udHdBNmZhTkczNA?oc=5",
-      "source_name": "PressTV",
+      "id": "6eca53263dfada6b",
+      "published_at": "2026-04-26T00:33:39+00:00",
+      "title": "Trump Cancels Witkoff and Kushner\u2019s Trip for Iran Talks, Saying, \u2018We Have All the Cards.\u2019 - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT3FhUU1GMl95bFhPYkVmd2M3TV9EbVdPbEl2V3ZqRDFQaERXQ1NxNU5DSmdiNXJMT3drQng4Q0kxTXM4R1ZndTVMeG9BaEVDNk5sUzY5U2ExZHBSUFZWV25ZY0pvRVBXbHM5QUJLQ2E5YU91ZEtpQUNYNmswQnloTDgwRFlhVTFGaUFzeHJYZWRWZExZbnhCc0pKMndtWDhPRnlV?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9c813b17c2b0a06e",
+      "published_at": "2026-04-26T00:02:39+00:00",
+      "title": "US calls off Pakistan trip as Iran replies to proposals - Dawn",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1IWmZSME5Rcm4tcUU1RWxoWmdxN2NXYTZENlZ5Xzl4S1Z2WmlMVUVvQ25Jc01aTmNQSFhFT095dFpkc3Q0enM1QtIBTkFVX3lxTE5nb3lfWm5nb013eGlyV0VpUGVodDBOQ1RncDB3RU9WMGlXM0RxQTF2SkFhdFg0cnZXNjZ2R2p6VEM3bFZEOGtiT3ZndThaQQ?oc=5",
+      "source_name": "Dawn",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -127,8 +202,83 @@
       "confidence": 0.55
     },
     {
+      "id": "a128adf9fa0d8c14",
+      "published_at": "2026-04-25T23:04:00+00:00",
+      "title": "Live Updates: Trump says Kushner, Witkoff no longer going to Pakistan for Iran talks - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a887d2f11fff1937",
+      "published_at": "2026-04-25T22:47:00+00:00",
+      "title": "Iran war latest: Trump cancels sending envoys for Iran talks and says 'we have all the cards' - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMHktWWNfVGpzRU93cFZXVWdfVkEweldpVW5yOG9nZlQ0aGxZb2JFNDN6eGNUa0VwRTF4Y1lRZkhZQ1JlS0V1c0J2c01sY2hVVmNRUFlJaHlUUGtfRUxLakhBZU1QcWFDVHE0ZzZVamdoaG9wbFhPX2lfSUo1M1dxZTFUSTdMcGw5aVNKWDRZeVdfVV80eDMwUHRHTUtVMjlLcUtyWQ?oc=5",
+      "source_name": "Sky News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bf12e87f1e42ceb1",
+      "published_at": "2026-04-25T22:46:00+00:00",
+      "title": "Live updates: Trump says US team won\u2019t visit Pakistan as uncertainty surrounds Iran peace talks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlVWLXluZWFWVDAwNDBGWkg2b2dYN3dDNmd3M2tERFI3cHFpdWZZR1ZfclU0elNJWTQ3VUp3WWhlYmh2MUt3dDJVZFBLcGhUUU5aWVhubXg5dmY2UUY0S1N3UVVrZFAtVWUyM0ozaEpQVTlDT1pnVkhiSDRwaVVrdkJlWQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "45403d10844d8533",
+      "published_at": "2026-04-25T21:40:48+00:00",
+      "title": "Iran talks on hold as Tehran's top diplomat leaves Pakistan, Trump tells envoys not to go - CBC",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6ZlFtUEo0SnpUYkNqNTVMb19kaVhkREJHSDJrVldCSGFZTzRibkhSVlBpVGJGN0sxWU9odmE1VHlaTmRwVzduTkU0cjZaQXp5UzJzUEVsbld3ZTFaWUhvQm05OW51VWRjTUhuQkhaNA?oc=5",
+      "source_name": "CBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3d2aa6ad76c91148",
+      "published_at": "2026-04-25T21:34:12+00:00",
+      "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hVUE4YVZvaEdZSHdadncwMlEtWWVUNDNZUnlrb0NYOHFwNFlSdWhtUEpHRjlCRjd4dExQeVFLbkdPMGdnaGJtbzlYajB3T3YwQWR2QXVWZnM3UQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "62294be888f83188",
-      "published_at": "2026-04-25T21:22:30+00:00",
+      "published_at": "2026-04-25T21:33:23+00:00",
       "title": "Trump cancels US envoys\u2019 trip after Iran\u2019s Araghchi leaves Pakistan - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQTZPclg0T0JadDQ0UFFkSnVPZjhzWTU2eE9sTXdNbzdEeVNjdWpKWEUtUE1jN2lwdjhuSUhFQ0d4OGdlQWF1MllsbGt4aW9kWVJjLTB4d0dxTlotM2Q3Z2JRalhncklZS1FIaGNpaWFkay0tVzJncDdSOWcyejNmalhvbXpBMHZBclh3UHRuQVZfb2hrMWExSmZrZ1ZRWUVPMktMWVBQVUtITlg4UGZQMW9kNXbSAboBQVVfeXFMUFlPcTBTRzladl96aVZFVm5lWWJxRTljYW43M05RNTFwWGdNaTVndF9lc2tpdmk5UUVwamQ1MU8zbFFCNlpQSTVJQllsTkVPY2ZfZThQeE5LNFNaUndpcGRvRkNwWl9GQkNucFk0a3VNNG5FSXYyY0NabWY0WldNcU5BN0kzZ0FPVUpmMWpTbWNOMG9MdHVOTzdXSXMycXhERmxacXJ5LTdXZXlwekJvTlo0X2FkNUdjZU5n?oc=5",
       "source_name": "Al Jazeera",
@@ -140,21 +290,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "3d2aa6ad76c91148",
-      "published_at": "2026-04-25T21:14:42+00:00",
-      "title": "Trump cancels US envoys' trip to Pakistan for talks on Iran war - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5hVUE4YVZvaEdZSHdadncwMlEtWWVUNDNZUnlrb0NYOHFwNFlSdWhtUEpHRjlCRjd4dExQeVFLbkdPMGdnaGJtbzlYajB3T3YwQWR2QXVWZnM3UQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
     },
     {
       "id": "c3c6045a0ca3fc8b",
@@ -172,11 +307,11 @@
       "confidence": 0.55
     },
     {
-      "id": "bf12e87f1e42ceb1",
-      "published_at": "2026-04-25T20:34:00+00:00",
-      "title": "Live updates: Trump says US team won\u2019t visit Pakistan as uncertainty surrounds Iran peace talks - CNN",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlVWLXluZWFWVDAwNDBGWkg2b2dYN3dDNmd3M2tERFI3cHFpdWZZR1ZfclU0elNJWTQ3VUp3WWhlYmh2MUt3dDJVZFBLcGhUUU5aWVhubXg5dmY2UUY0S1N3UVVrZFAtVWUyM0ozaEpQVTlDT1pnVkhiSDRwaVVrdkJlWQ?oc=5",
-      "source_name": "CNN",
+      "id": "70b24e987dffb692",
+      "published_at": "2026-04-25T20:18:00+00:00",
+      "title": "Talks stumble as Iran's top diplomat leaves Pakistan and Trump says he told envoys not to go - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVGFHVTN3QXlKR0tYYVdRVi01R2RKZi1USXpmSVRORVdRX2xyQXlnclhQRDhGbDBySTRIZUZIV1Z4TnJUTldZaTJod1dVNF9aWWRHVm1ETm9YZ3RyQnlkTTU2NFZoaHZtUXJuWk1jWUR1NE05M3M3bFF2b2RlSnJBYkdMeG1HT1VCZno1VXBzMXk0aXNlNDZEeFBhRFRITzhJYjZIcDcyNm5rbFRTRkxmVWx4Umt4MHRHdGc?oc=5",
+      "source_name": "AP News",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -187,71 +322,11 @@
       "confidence": 0.65
     },
     {
-      "id": "a887d2f11fff1937",
-      "published_at": "2026-04-25T20:33:18+00:00",
-      "title": "Iran war latest: Trump cancels sending envoys for Iran talks and says 'we have all the cards' - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMHktWWNfVGpzRU93cFZXVWdfVkEweldpVW5yOG9nZlQ0aGxZb2JFNDN6eGNUa0VwRTF4Y1lRZkhZQ1JlS0V1c0J2c01sY2hVVmNRUFlJaHlUUGtfRUxLakhBZU1QcWFDVHE0ZzZVamdoaG9wbFhPX2lfSUo1M1dxZTFUSTdMcGw5aVNKWDRZeVdfVV80eDMwUHRHTUtVMjlLcUtyWQ?oc=5",
-      "source_name": "Sky News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "daab4b7b44f41ef8",
-      "published_at": "2026-04-25T20:05:01+00:00",
-      "title": "Iran\u2019s authorities project hardened stance with more talks on horizon - Al Jazeera",
+      "id": "3c61420ca4c493f4",
+      "published_at": "2026-04-25T20:12:50+00:00",
+      "title": "Trump puts onus on Iran\u2019s authorities as they project hardened stance - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVkN4MnNwcmV5a2M4UE1mRkdPSDY2QTZsT0p4UGhKN0RhSUhXNzE5b09xODF3N2hKaFN0UU1qc3NWd05BUS1FcUVnUnB0X0llWnNHVkthdnBxR1FPSms2eUlQMGhPNnFNcktDYlg3V1B3dUtHbzBwMlNIRkUzazVSaFgyNWlfTzdXSi1SZmJZOHF1b1VtTktEaUJ6elUxMmZyOG5hRFNvay1MZHNUVFHSAbMBQVVfeXFMUFRlVFlHN0xZYjl5MU9GdGZoalRMYks5QlNrd2YyX1dnWjNqbF9iLXBvNkJRZDVNUnZzTk1LVWx3RU1QU1hvYWdBa0VzMGgyZjhrRkhSZWdJQlkzLUF1dzBLcmw0eHRCRWhIdV9qbklhTjZ3eGF5U2I3eF93YVR0cHdXYnhWcVRBTUJPbGxkSlpxelNfVVpNeFBiX2llLXB6ZW5hSnowNjBraW1XWE81NDBRM0U?oc=5",
       "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "875370b5622cf63b",
-      "published_at": "2026-04-25T19:59:59+00:00",
-      "title": "Iran Warns of Retaliation Against U.S., Raising Global Tension Concerns - MEXC",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBPbDE2OVd2eWlnZklPdGdmelJOYVRWVjVGVjM5UTVQTEdjdjVOTnVtSTFTNG9SQnVnRTRlbFRTYVZzWkxubkZFcg?oc=5",
-      "source_name": "MEXC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "60f449f783011514",
-      "published_at": "2026-04-25T19:51:12+00:00",
-      "title": "Iran Strikes Hit U.S. Bases Harder Than Admitted, Costs Could Reach Billions - The Kenya Times",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdmxVaTBxTHNIRER6XzdBQU9PLUFMMXdIb1lXTGpWQjRpV3dMZjV4cVh0elh4NG9vXzU1VGw1ZUpVSmk0TDVMaGVHQUhoTDZtUGFEQTgwcnlTd0kybkstZG1ZNjJ6Vm04RXRQNFNocFJvX0pmUXRWXzJuYXhxMzBQTHpGZXN6REw3aFVHNUN0VFJ4Y2kycWRtc0VQajh0eUJrZEF0RHctbXhzWnd5bGk0?oc=5",
-      "source_name": "The Kenya Times",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "740efe9977349a10",
-      "published_at": "2026-04-25T19:41:07+00:00",
-      "title": "Iran war: Trump cancels envoys' trip to Islamabad - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTHhlYWlWZkVpT21KLWRUSnZ5ZGduU2pnMzAybDJoN0tfMkQtTGtWRDV3eFF3QjJDS1VPZWhiRVJyV1ppVEtrYWc4ekVucHdFNTV3bE01cHIxai05ZjRrWHllZ2ltUlFYOHRPdVlOemZfdU9zWWRzUzdQc2szWnkwbkdTT1k0UFJqT284?oc=5",
-      "source_name": "DW.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -292,36 +367,6 @@
       "confidence": 0.55
     },
     {
-      "id": "45403d10844d8533",
-      "published_at": "2026-04-25T18:43:32+00:00",
-      "title": "Iran talks on hold as Tehran's top diplomat leaves Pakistan, Trump tells envoys not to go - CBC",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6ZlFtUEo0SnpUYkNqNTVMb19kaVhkREJHSDJrVldCSGFZTzRibkhSVlBpVGJGN0sxWU9odmE1VHlaTmRwVzduTkU0cjZaQXp5UzJzUEVsbld3ZTFaWUhvQm05OW51VWRjTUhuQkhaNA?oc=5",
-      "source_name": "CBC",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e8ed9ec5ebd2ea9c",
-      "published_at": "2026-04-25T18:43:29+00:00",
-      "title": "Latest ceasefire talks fail as Iran's top diplomat leaves Pakistan and Trump tells envoys not to go - PBS",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTVR3cXR1TFpGNWFmYVZMek9pMDBhMWZRRk5FYlRMNko2cUhGX05GZldtb0ZNdEx5MjB6emdFWGdOdERrdTI3blB4YmNIVDlQMzE3ak5nS2RGRHh2cUdVNkJ2NGY1TFRqZVg1UDlWVGNIVEF4ZkRmdnFCVUp1a2FEMHl2YW1DU3F6OTJndG9ZVDAyXzlkb3BnV3hZQ0VLVlY2bk1Za2FkNTR5bFlnWDJUTV8xa2kyRllpQXVtZGZ5MTFJVXZlTnAxM2lUQkdJZ9IB0wFBVV95cUxQMDZJM1Q2M3V5WTlBR1lBSm5TY2RfZE0tZDFGRnVrLUl6Wnc2MTQyTGhvM2pud0VUMnNndmFmamo5Nlk5cklsNjJ5UmU3b2VZSnVxZDZkSnRhTGRUdUl6dWk3UGVNRlRaUlRMSjk1Zzl0dDFIR2NsQTdraXZKVjd2ZVpoc1NBVG94elJEOVEwSEJfeTRsX09JeFVhQkpWR2VYVWVIai1WSzFTUmt6aC1jU2NoWWJpWDNBamxJR0tpY2NiSGJFaHdJdXBLVkdmd0wzcEZZ?oc=5",
-      "source_name": "PBS",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "40520a5d895826e0",
       "published_at": "2026-04-25T18:43:05+00:00",
       "title": "SHOCK REVEAL! Iran\u2019s Brutal Strikes WRECKED U.S. Military Bases In Gulf, Real Loss \u2018HIDDEN\u2019 |Report - The Times of India",
@@ -337,56 +382,11 @@
       "confidence": 0.8
     },
     {
-      "id": "a128adf9fa0d8c14",
-      "published_at": "2026-04-25T17:58:01+00:00",
-      "title": "Live Updates: Trump says Kushner, Witkoff no longer going to Pakistan for Iran talks - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "17771ae91c3aac80",
-      "published_at": "2026-04-25T16:39:00+00:00",
-      "title": "Trump scraps latest peace talks after Iranian officials depart Pakistan - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSjFqNU1VSlVISDlpTWM5UHk0aTBBSkpOQlB5bjV5U2phQXY5emtiVnRtRm1BcGJRcWJ2c2JRX3JqU3BKbXlxV01IMUZzNnZRajYxN1czcVJQNE8zSGlXWG41ZUIyaEt6LWwwellSd19JRlFsNlRHWVBhMlNpbWpOQWU1cm5CeUtJTURPd3J30gGTAUFVX3lxTFBzakd5RjNQZzRjTVJIVE5tLWVIY2dIRDJxeVJDWGNwSGxrX2VWaGZRVTFuZUxhQ0w2OXdzbEV5cm5nOXlPQmp5NVRUQzNMdGdDLVJ0cEJEbXJISERjVG9kVzhPTXppQ29meE9rUjhNdU5qN3J6eWVrWkdsTXVqd2hsU201RVNrQTJ4dEFOUnJqU3QyQQ?oc=5",
-      "source_name": "The Hill",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b432c7816065c111",
-      "published_at": "2026-04-25T16:25:07+00:00",
-      "title": "U.S. says it's clearing Iranian mines in latest push to open the Strait of Hormuz - PBS",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMU1sckE4SUhwak1GZGdHN29xVzgzak9iZ21VeVNsYktRX0s1ZDBYdnFZR3g4MF9IekJPM256RTZmT1dfbU0xcWdXYjNEbFFQTTAzWU1WcENIOG5aR1lpTTNIQ3I2ZzVkTXpRNVl6R3N1TFdRZ1VwUDNsaVFWN1ZvNG1RdWM1d0RmNE9weXRhek40X2JhR2dhMk9OdTJXeTNSUEFOWFlhc1FjMDZ2TTMyUWpGeXA?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a3231e32dfe5d411",
-      "published_at": "2026-04-25T16:07:18+00:00",
-      "title": "Iran warns US will face armed forces response if maritime blockade continues - Hasht-e Subh Daily",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01QWNtSjZTMFBqdzJFNUhlY2pSQlpPbTRYajQxNWN3UEp1Z0ZHNG1oODFLZk9MMW9qbEdkRlVoSGs0djk3SGhtT1B2WF9RZEEyVEVHaGQtU3BiN01lLVJqZVFnQnlfYjB3Mms0b01JeUY?oc=5",
-      "source_name": "Hasht-e Subh Daily",
+      "id": "06a184c77d9b6b2e",
+      "published_at": "2026-04-25T18:17:43+00:00",
+      "title": "Iran war impact: Expect 'more Europe and less US in NATO' - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYjV6bzdKOHN6ZllMcGw4WDRBZE5YZ3dXc3dvdS0yaUE0Rlo3SFJJZktNeUIzdlJjYnY4cVlBNlhoTDBoM3JiN3dQS0IybklYWUhBaC1wM1J1eG4xclBOeFVMV0tkTFlYTHFPMU80eThrMS00djA4MFA3VU1qU2Z3ZEFEV0dkQQ?oc=5",
+      "source_name": "DW.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
