@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-04-26T19:14:58.559726+00:00",
+  "generated_at": "2026-04-26T21:55:43.555941+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 103,
+  "event_count_window": 105,
   "totals": {
-    "usa": 35,
-    "iran": 27,
-    "lead": 8,
+    "usa": 32,
+    "iran": 29,
+    "lead": 3,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 17,
-    "iran": 18,
-    "delta": -1
+    "usa": 14,
+    "iran": 19,
+    "delta": -5
   },
   "confidence": {
-    "score": 65.6,
+    "score": 65.2,
     "label": "Medium"
   },
   "event_types": {
+    "diplomatic": 26,
     "other": 52,
-    "diplomatic": 24,
-    "attack": 27
+    "material_loss": 1,
+    "attack": 26
   },
   "history": [
     {
@@ -82,26 +83,41 @@
     {
       "date": "2026-04-24",
       "usa": 0,
-      "iran": 1
+      "iran": 2
     },
     {
       "date": "2026-04-25",
-      "usa": 3,
-      "iran": 7
+      "usa": 0,
+      "iran": 4
     },
     {
       "date": "2026-04-26",
       "usa": 10,
-      "iran": 6
+      "iran": 9
     }
   ],
   "latest_events": [
     {
-      "id": "e8e89649efb4ecf8",
-      "published_at": "2026-04-26T19:08:00+00:00",
-      "title": "Live updates: Iran foreign minister presses on with regional tour despite Trump canceling envoys\u2019 visit - CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1PZXZ0MldnT0lyalk3YXZhbWxzTVUtM3FzS2NfTkdTdjBZOGlaY0QtbE9LaFhkenFUOUU3WUQ4dE0yaVZXTGFtZFMtSG5YTU10U2ozcG05d0p4aElRaXh3bXJCM2ZJQkhTSXc0Z2FqWVZWLWU3UVVN?oc=5",
-      "source_name": "CNN",
+      "id": "8011365e93d4a28a",
+      "published_at": "2026-04-26T21:00:00+00:00",
+      "title": "Iran\u2019s foreign minister leaves Pakistan, heads to Russia for more talks - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYUR4ZGFQQ1d2XzFHaW1vWHkxN2hLTWdrME5fZnNqeHcxRmlfazNuc1R3eDdCYzNycjdWTmtZMnhRb2dfQnFBSDJWZTlQV0JoTWwyTGg0ZFJpRUNUZWIzMGt4dmtlbl93cUJZVkI1Nm9EQkRRSWhOdnAwekZsUjR0eGJfeUMtY1VCSkpSMEt3aUJqZnJVUHItWkNOenM0bWJHVVJacGZWVnJ3R2JjbXJTMGNra9IBuAFBVV95cUxQNnFkU09YVDctT0VwR0NoOFBncXY5TEhxMzVXd2FDNXQxeVk5ZTB4YnJGR3pCZ0JjVDJ4UWsxY18wSjRadVdFTGFvYl9id3luTGhaXzZ2ZXFvaE9BZTFWQ2k3bGhRWUdUUDFRSXJQSmJ2U0tFdTVCZkdhVm1VaGktRHlEYUJKdy1wc19hNTBwUW5xUjVhcWRvQUZSLTlkZlpJWGc4OUE1VWRDbWxDQlEzN0c5Q3F1T01a?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "71b8f78c3e2a329d",
+      "published_at": "2026-04-26T20:37:29+00:00",
+      "title": "Opinion | An End To US-Iran War Is Hiding In Plain Sight - If They Can See It - ndtv.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORU43OEt1czZpQkV6SE10UFNGdXVYbjNIRU1HN2xYX05VcUl2UjVTNmtXOEVlb1c4cXNwM1RtQmY1VE8yTW9vRmZVWWZQTUJaVWNhUzdWa0pfVkNja0IwMkJvTDFMaHNWMFh0TW55VFF5WWpfbEFiS0swNDNuYk1MVVNodE5neENtQlB2WEVXaElaQXVYVl9KdnNwSWZNcnVPbjNoc1hn?oc=5",
+      "source_name": "ndtv.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -112,8 +128,38 @@
       "confidence": 0.55
     },
     {
+      "id": "0867b13a2f83031d",
+      "published_at": "2026-04-26T20:06:36+00:00",
+      "title": "Column: America is already diminished by the Iran war - Daily Press",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQZlVKbjN5Z2pYV0hSY24yWjlNeTE1azNJTXhSekFXUWFnc1NWandJc1JGWkNYaEJfLWM3bEpDajhVb1BLVF90Zk5OQ2VLWUgydVlpRFY0LUdsaE1oTl96a251WVF0czM1MTNsbnF5a2QzMDhrM200MWlvOTJEOG1nbGFXRndHWlZ5dmk1Nms5THk3YTJ1b3c?oc=5",
+      "source_name": "Daily Press",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3f80572a915d8106",
+      "published_at": "2026-04-26T19:58:06+00:00",
+      "title": "These Are the Civilians Who Have Been Killed in the Iran War - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB1WVhTUkJ1QVZEZHJNZk9YU3VYR2ZWeEcyNkZKa1RpcEZFUUlaVlJkOXRaU1RjOXdqTXh4RkJVRGRIWDlGbkdObEdKNEY3cnZKMzRPd2plSERZNGg5eHdENnpOeU04Q203Y2FyU3luVQ?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "e55c72559ec872ef",
-      "published_at": "2026-04-26T19:05:22+00:00",
+      "published_at": "2026-04-26T19:29:41+00:00",
       "title": "Trump calls off Witkoff, Kushner trip to Pakistan for Iran peace talks - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUGJJY1ZGeUpmVWxzNEJNRWNEVDFwV0dCaXJTeF91YlROalBXNWdQeDNsQUV3ckplWGRzaThhbDh6UW80a0pvLVRWRTVsYzJpYjNSTkV6VDktc2xWQXNuWGhzQ1FYYWtqQ21MVVUxTFktd0V5T2Y1V3ZPNVRJM1VmVUlLRi1wWEZw?oc=5",
       "source_name": "The Washington Post",
@@ -127,11 +173,11 @@
       "confidence": 0.8
     },
     {
-      "id": "03990195b156c403",
-      "published_at": "2026-04-26T17:51:00+00:00",
-      "title": "No headway in Middle East peace efforts as US and Iran refuse to yield - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdkl0bFlJb1FNWmNYeUFvYUxlRlJTc3I4R0ZNbzQyUXRRZjVSM05ZSjJ5VmY5elNNT2l5RjRaRi1HQk41MXAxVkxaV0UzSnF3cVRwQjhDN1BrdHZfbFBLR2d2b3VBOVpCNDVYX1g5ZV9QTTlVeWxLc2l5TTVsekpHeFVYREowcnlkekNCQVZDU0ozZnJnd2tmNDJuSjdzZzZybDJuVTlsbWRESGJrUS1SWlo3WDhGRUE?oc=5",
-      "source_name": "The Guardian",
+      "id": "1f55699981fe3e7a",
+      "published_at": "2026-04-26T19:16:58+00:00",
+      "title": "Did Trump save eight Iranian women from execution? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE8zdTdpNGc0YTlIZENyYXN0ZjR1V0JHTENGVXZYUU9WZEZmTzEtMVd0c0hzeXpNckZRT0YxSzV1cU9XdC02dzlsVDRmc29uYVlBdGFrTlpNOA?oc=5",
+      "source_name": "BBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -142,8 +188,68 @@
       "confidence": 0.55
     },
     {
+      "id": "a99b5d03402897cf",
+      "published_at": "2026-04-26T18:26:00+00:00",
+      "title": "Iran\u2019s top diplomat briefly returns to Pakistan but Trump says the sides can talk by phone - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT0Z4cDRwRHZkX1NGeDMzME1LMlZnbmFHUk44YWl4MFhnRk1CcW1xenU1ZUU3dXVVQll6ajZndktDV19TSUcwb1NiU08yOWxRR3VsTzBfYWtBQ0NBQjV6OW5ELWN4NGVFanh4Zy1rcjlrNGN5d0ZBUENXU3F3eC1OdXBPem1oVVItMEhaeDVaT1h5YXpvVjYxWGFpN3o4S2k3TUlJZmxNa1ZpMXM0bU9ieVhxYnNMa3l1VVE?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5b646e53bb46b65c",
+      "published_at": "2026-04-26T18:14:00+00:00",
+      "title": "Live Updates: Iran's foreign minister returns to Pakistan after U.S. envoys' trip canceled - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaldEcGJmb245Z2ZkNVg1c05IaFBQNFQyZ0RJV0pvWDV5Umt5Rm1TRkNXLS14MTdFaUQ0Njk3RGtOdU9CVXVKQ3hybFItNTdnNDFkNGJIVGxNM0FBRXlqeGV2dEhmOE43Z2xDOFFpTXB4anprN1NnOHp5elVxWWR0emJfR2E2anNwX0otdlpYd2tBbXdSRTlrU3ZrSFpNX0xpN0kwNi01dWQ0MEXSAbABQVVfeXFMTmt1ZlhRX2lSeGlOOEI3NTBkbmV1a2tzdDNZdkNGdVZSNmlKbUM0NjQtbkRpaWRTdF90MEN1RG53bVI3MkFJOUItRDA5RUdjczZ4STNSeFdFN2FWS0U5VDhHbUlaM3plUl9YQXNQOXlZNnpDanZ2bEh1TS1tTUNUa1F1UDFpaDVkclRwMkhET2FMRUhfbUxva2pIQWFqSV93cEN0emxwakcwQkZLOUFEcGQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "03990195b156c403",
+      "published_at": "2026-04-26T17:50:00+00:00",
+      "title": "No headway in Middle East peace efforts as US and Iran refuse to yield - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdkl0bFlJb1FNWmNYeUFvYUxlRlJTc3I4R0ZNbzQyUXRRZjVSM05ZSjJ5VmY5elNNT2l5RjRaRi1HQk41MXAxVkxaV0UzSnF3cVRwQjhDN1BrdHZfbFBLR2d2b3VBOVpCNDVYX1g5ZV9QTTlVeWxLc2l5TTVsekpHeFVYREowcnlkekNCQVZDU0ozZnJnd2tmNDJuSjdzZzZybDJuVTlsbWRESGJrUS1SWlo3WDhGRUE?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "0b73bbfd81ee54d2",
+      "published_at": "2026-04-26T17:41:06+00:00",
+      "title": "Iran and U.S. Sink Into Awkward Limbo of \u2018No War, No Peace\u2019 - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXZReTlUSXF2dTRNTjFoVkNYMU93b2Q5YkhWcFhVd2JuYXhKeVdrc1dRN1NhczhHRW5FaW9uVlRPd01iWGRrajVGeDc1V1kzMGJ5V3BmMVlJLXZHYWRWdDhtYUR6bEZyT2lvNzQ2ZmczQnBGc3JBTjBMQWR0Q2hseGJsODJEM0pwemVPUlZGQzlRRUluczJv?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "e53d35f5b39d1a6d",
-      "published_at": "2026-04-26T17:10:12+00:00",
+      "published_at": "2026-04-26T17:10:13+00:00",
       "title": "Iran shifts economic focus to essentials during war uncertainty - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOeDUzdEo3bW5DcXNCZHBlbWdfNU0xOHVESUlqMlpkRWptdkgtdWxfWGVlLWNmRkZUeHp6SDF4VkVBMl9qeURVZEZhOEx0M1RTWWpKTVJneFE1Mjc2dUl2ZGNSRW9SZTN3b1d6bFpXdGx3T2w1a0xVY21aeEpTRDA4VE1CLV9VcDd2cEtoNGltbkdrYnNRUDA2NjdjdTlxazBOakpKS9IBqgFBVV95cUxPOVdibnVSX294NVZBYTEtOURtMjc5UkhkYlBfb3pXc0FRTzV0Y2c3TXJuN3NDM0wyREVMWUFIMHE5VHdaampoT19HQmxvbzF3b0RUX25id2kyWjZIbU1JVTNuQlJqQlR0V1U2U2o1NEU3eWdUUEc1U0MyX3g4MXJKdThvNFdRdUk1T3VuNGpzVVZnaUIyYkZaanNxVDdzTjdXSHN6SG9WcVNCdw?oc=5",
       "source_name": "Al Jazeera",
@@ -172,51 +278,6 @@
       "confidence": 0.55
     },
     {
-      "id": "4ed02bd6edaf3b26",
-      "published_at": "2026-04-26T16:28:00+00:00",
-      "title": "Iran\u2019s top diplomat returns to Pakistan but Trump says the sides can talk by phone - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNT0Z4cDRwRHZkX1NGeDMzME1LMlZnbmFHUk44YWl4MFhnRk1CcW1xenU1ZUU3dXVVQll6ajZndktDV19TSUcwb1NiU08yOWxRR3VsTzBfYWtBQ0NBQjV6OW5ELWN4NGVFanh4Zy1rcjlrNGN5d0ZBUENXU3F3eC1OdXBPem1oVVItMEhaeDVaT1h5YXpvVjYxWGFpN3o4S2k3TUlJZmxNa1ZpMXM0bU9ieVhxYnNMa3l1VVE?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1cd108c8f7b90548",
-      "published_at": "2026-04-26T15:54:03+00:00",
-      "title": "The Latest: Pakistan says US-Iran mediation moving ahead after Trump holds back envoys - Audacy",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPSXlLRHdoYXZtV003U2F1Sm5rUWtTOVRPQ0I0bWw0RU0yZXFheURpN25aNFAtakNEOTNVcEpPNlFpZl92NFRQLXF5OEtDRmhhOHFjX2t5RHpOMTg4d0VKVW1fNnhkX3h0T2ttc1lETlFlRVBySG56Sm50VHNlUy1kRGljLTA2RktiVDRNZWtSbjRheTdSVTN4bVdnMlUwb2JRbFJUUThCNVBZNEl4MlZ6UDlidDZxMkhPNnc?oc=5",
-      "source_name": "Audacy",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "337d10a175f42743",
-      "published_at": "2026-04-26T15:41:00+00:00",
-      "title": "Trump Calls Off Witkoff and Kushner\u2019s Travel to Pakistan for Peace Talks - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBmMnFTNDNEc1VadmtDdVkwLVprME1QaFl3cHBsSFhtdnB0aHo3YllQQ01LbWVhdEhNd1RYRFVPRDJRZFA0eVJuMkFUNHFDTVRkQUVNbVFNazNPam5zelM0aFNJaGl3SEFaRi1NR0tzVE1zQkR0YW54dlY3X3E?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "diplomatic",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "69b577baeffc1f9b",
       "published_at": "2026-04-26T15:04:24+00:00",
       "title": "US-Iran Peace Talks Stall as Conflict Nears Two-Month Mark - Bloomberg.com",
@@ -232,11 +293,11 @@
       "confidence": 0.65
     },
     {
-      "id": "152024a59be3658b",
+      "id": "7d013b835d89810d",
       "published_at": "2026-04-26T15:04:24+00:00",
-      "title": "US-Iran Peace Talks Stall as Conflict Nears Two-Month Mark - Yahoo Finance UK",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE93VC13V09YbkxpVEk2QXJfVHl1Ul9fT1JIVXY0VkM2al9aTGVJb05yUk5MZFJIR2hoS1lza0I1MmNkVDNzSWtYNU80ZGxQWmFVLTNsbVpzWDlqWGp4ZE9rU2RKMkFGQkNoMjY2bm8xUXBySG5QV3c4Nkl0MXlJOW8?oc=5",
-      "source_name": "Yahoo Finance UK",
+      "title": "US-Iran Peace Talks Stall as Conflict Nears Two-Month Mark - Yahoo! Finance Canada",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jdnFyZU1BQUNIRE1Td1U3WFhleVMweDJTM0Nmd2REdEdZQU1GRWFDd015YlAtY2FEQU50Vlp6bk9nejRGVGRMc0Jia0IxSlFIcGhnZXVYdDJiN3haVmg0TmdBQkNTbzhhNTVGTDg3aEhMT3BZSTJrRlZUeVdsTlk?oc=5",
+      "source_name": "Yahoo! Finance Canada",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -292,21 +353,6 @@
       "confidence": 0.55
     },
     {
-      "id": "0b73bbfd81ee54d2",
-      "published_at": "2026-04-26T14:21:36+00:00",
-      "title": "Iran and U.S. Sink Into Awkward Limbo of \u2018No War, No Peace\u2019 - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNXZReTlUSXF2dTRNTjFoVkNYMU93b2Q5YkhWcFhVd2JuYXhKeVdrc1dRN1NhczhHRW5FaW9uVlRPd01iWGRrajVGeDc1V1kzMGJ5V3BmMVlJLXZHYWRWdDhtYUR6bEZyT2lvNzQ2ZmczQnBGc3JBTjBMQWR0Q2hseGJsODJEM0pwemVPUlZGQzlRRUluczJv?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "63fd90f85599ebc3",
       "published_at": "2026-04-26T14:09:46+00:00",
       "title": "US-Iran conflict: What\u2019s the latest as the Islamabad talks stall? - Al Jazeera",
@@ -322,6 +368,21 @@
       "confidence": 0.65
     },
     {
+      "id": "bdf4f97983129738",
+      "published_at": "2026-04-26T13:58:54+00:00",
+      "title": "Higher prices could last for eight months after Iran war, minister says - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41Z0dzSHgydFRsSlpKaUVyTHlVYnRPSi1YeWxXM21lVXJLYlllaXdzZHZVYkJlS2wxX0ZGY0dLSnNNNmRLbmpTV3RsV0N5ZTlmaGFkMHhoenlHUQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "e9e4b1b1f511e17b",
       "published_at": "2026-04-26T13:00:00+00:00",
       "title": "The Iran War Is Accelerating the Renewable Energy Transition \u2014 Just Not in the U.S. - Rolling Stone",
@@ -335,66 +396,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "8f1db17c924d8e6e",
-      "published_at": "2026-04-26T12:52:00+00:00",
-      "title": "One of the greatest tragedies of this war has been the collateral damage inflicted on Iran's medical facilities - Middle East Eye",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOM183a2J0c1FtelRHNGVmWWVDaWVhb3RFT0ZVZTAzWHBOTy0zVlRHYUxvbUZnUW9wY25fUktvSXhiTU92dHljbEp6bHA2TTN0UjZTV0xNbnBSbElGSmhPNGgtUTliamRBZTlMUTNBUjdyc0w4WmFmYXZjNzZkc2ZzMEs5ZkgwclNkQS1JQ1k2a3VVODJ3cWJIN0hZMEhMclR2QVFRTEVuZ2FNVmluZTJ4bV82NllWX2Q4YjktbV9KTnpfZWdFTmc?oc=5",
-      "source_name": "Middle East Eye",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "07e0f8cdc9efc4a2",
-      "published_at": "2026-04-26T12:29:38+00:00",
-      "title": "US and Israeli strikes on Iran halt nuclear deal talks - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWmNCb0g1aWF0ckVpT3BQVDFVaHExdDlJcnhYdEJHZGtEWnhfUVc4QW92eG9ueEtPOXhBaEJib1JUVm5KZllYRjBzTG1Rdm5oRklPUWJ4U21kNlJ4NzBjdFplaWEySFk4cmNfYm5uTzkydk85LTBpSkJNUFoxMG8tR1plTFhXVmRqRXc?oc=5",
-      "source_name": "Crypto Briefing",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5b4f2635a9facba7",
-      "published_at": "2026-04-26T12:21:41+00:00",
-      "title": "US-Iran peace hopes fade as Trump scraps talks - The Arab Weekly",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5HSTVHVk14VzJhdFhFRHFRbUtPaVM5aHMybm8yWXI2RDY5QWprelFWaXN4NlJRM1Boc0lQVE1DbFNYOHN0SzZjYTlwM2ZuVXByd3dZSVl4a2tEMDNuS3k5NER0aDJjSWkxWVJuS0FVQzNqbnVsZG0tVQ?oc=5",
-      "source_name": "The Arab Weekly",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "3ff4b204483ac9e4",
-      "published_at": "2026-04-26T12:05:48+00:00",
-      "title": "US-Israel-Iran War Update: Iranian Strikes Cause Massive Damage to US Bases, Repair Costs May Run Into Billions - Report - The Sunday Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOdGxsTUJ2NzJIUmFMSlRidGcxVGZIdlpMSTRhdGVUSG40X3ZaWmpBM1RYTmo3TEpYZDNqbktsdEFQWUJ4SEl0b0l0Wnl4VHYyWlFIUEtUMVlHUWw0SkpjQjhZVWZGM3FiUmg1UEs1NXMzU3pfb3ZkNGRiMFl1VWY2Rld0S0dKaUI0eG9CbU4wVmNMY2hlNnl3dVdCNVdsU1pSSnoyTGdFNWRSVnZUUkZpWjRycmczNWZQTkZ0dnFac2tWUEpiSVNIc0pBeG1mS0pLdTFnZ3hPU0Q0M3BuVEN3SElQaHZtamFXV1Zuend2QzlZSms?oc=5",
-      "source_name": "The Sunday Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
