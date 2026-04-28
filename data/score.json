@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-04-28T19:57:51.588838+00:00",
+  "generated_at": "2026-04-28T22:13:11.233542+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 88,
+  "event_count_window": 94,
   "totals": {
     "usa": 22,
-    "iran": 20,
-    "lead": 2,
+    "iran": 17,
+    "lead": 5,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 7,
-    "iran": 8,
-    "delta": -1
+    "iran": 5,
+    "delta": 2
   },
   "confidence": {
-    "score": 63.9,
+    "score": 63.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 53,
+    "other": 58,
     "diplomatic": 9,
-    "attack": 26
+    "attack": 27
   },
   "history": [
     {
@@ -56,13 +56,13 @@
     },
     {
       "date": "2026-04-21",
-      "usa": 0,
+      "usa": 1,
       "iran": 3
     },
     {
       "date": "2026-04-22",
       "usa": 0,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-04-23",
@@ -98,10 +98,85 @@
   "latest_events": [
     {
       "id": "bb64558fa95c684f",
-      "published_at": "2026-04-28T19:52:00+00:00",
+      "published_at": "2026-04-28T21:53:00+00:00",
       "title": "Live updates: United Arab Emirates says it will exit OPEC, while US-Iran negotiations stall - AP News",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYdGFWQTUyN193ZzhtMEJRMTI3NG9PNDNxTFJwVEVCbkg3bjlDZVVDdGozdmlBRS1nWVZTenRBc25xNGxfVkQtb1FNdU1TYjc0NTRST0JBU3dBbDlHVlBhSkdGOWctdGM?oc=5",
       "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "60dffa70178e1574",
+      "published_at": "2026-04-28T20:25:13+00:00",
+      "title": "Exclusive: US spy agencies examine how Iran would react to Trump declaring victory - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNakxPaFJWcW50Y0lld2U3MmxqdFBLM1ZibW5QWTRwTlpSUzZBLXRTdlpJTVFSaHhTTHI4Q21UNjZEY0VXN0FCbE0tUWYweGwwM0U5ZWdMMGRTbHNURmotMHhLaTFTZTdGQzJ5SGFEd1diT2xaTUJoM1huTHd1T1VhNW95Q0tZdklQYkFjVHhOZzJFUVJDVnViRE9vUVlKVzZEYk9yRHI1T1RpYlVmWWJFQWlVWQ?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cf893d3e37a3a099",
+      "published_at": "2026-04-28T20:13:48+00:00",
+      "title": "U.S. Gas Prices Hit Highest Level Since Beginning of War in Iran - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VZEtUeU5CbGlKZEFrRkx6VWpnc184eVRBejFtS1AtYXJPV1hycVNPZXhDSndEOV8yWXdXUTVtdkZsTnVOaWFPUVdqRGtMV3BJaXNFRm5BSWpIRy1Fb2JwWUxJNFRzOTZiWTFYS1pSZTFHdHN6akUwLU5DOGY?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "071cc07488bcfc30",
+      "published_at": "2026-04-28T20:03:45+00:00",
+      "title": "Trump scolds Germany\u2019s Merz for criticism of Iran war - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONUhzZDU4RHpXT2hIemhqZW9vOXFZNlRsVEVMYmxtZUNLMThxcUxQcUpQbGZhZVB3REd3bzdlWnpDQXBzSkVWMUNST3hfM0tnNTcyZVh4UTMtNDdtZlZOWk5WbXBtWkk4VGpkYy1pTFAwT0FfVDhpVTZvRUJiOVNqUEFOTjloVDM1SUl5M1pnTnBFVlF4V2ttbNIBngFBVV95cUxNN2VGVlZYTzNacUdoN0trbVgwbUZHZ1o0MVNPU09Wd0szTnlLaVJzMlNEcFVTZ01ZS0JKQ1c2cEpPbE5YNmJTVzdaNFRHdGhsS0M4SjhCM3lFOGFxWlI1SmxmSnlOT1dLeW52SmhjeE1jTzNycVVlMjd4d1NKbTRPNFpwNnhlMGlrdWRkTnNWSVRPaVJWdk16aG1jU2pyZw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d490558486c1c583",
+      "published_at": "2026-04-28T19:55:00+00:00",
+      "title": "Iran live updates: Trump says Iran 'informed' the US that it's in a 'state of collapse' - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNFhuS1FpeHc2X2ppMDVFVGtkMExyZ2hnNjZUeGVjeTFjQ082LUhDM1dQX3BsYXJjaUpoajI4ZVJTNXlNTjNUc0dMWVg0NXktcDFPczZtVHhnSGc1THBMOE5CZGpwNU4xVm9uUHZmUXpzTm9WLS1aQWl6c1FwMmdMcVloWEpTZzR3dkhDUnNoYVFEWS1YbkcxdUNaZzBFTHVJM0c2YlJHTWdlQU1kSkRxdnR0OFTSAboBQVVfeXFMTTB5MkphcnllQWZkREdQM3pBcnFMb194V1Jvc0F3aDAtaE5KUmU1Qlo2SzdVaU90cUE1N2p2eTBDV1RJbEYtMjltODRiaTJRUktBRVdTQ0FtblFGempxRGhQMkQ4ZFU2RndyV3dQZm13enZOWlRVWHNvOWcxRzc0bW1zcm5Ub01SNFptZFFhNC02dHdyZFR2ZnlfMDZWeTdHSk1ieC1fNzMzRFgwekRkSnpHbERjQTI3U1Vn?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5d064b0333d59121",
+      "published_at": "2026-04-28T19:52:50+00:00",
+      "title": "Trump, unhappy with latest peace proposal, says Iran 'figuring out its leadership' - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMzJwYTUtVF9BUVRoM0hkbHlMeXdXaDhVXzk0dUpsYXpBdmNUc2ladEtLT3ZJVk9EeXU3SlVfWlFiWGFYVGRRbXZ5bWtacUVfNElXUHhfVFhQWFZxUnBNaF9hVjBLWkFJR0dsU3hDS0pFanhNSzRaaE5NQmVrcVBFTV9NWHNJSzVYUm1LQ29XN25ZMkk3VEM4UlNnNDUxMUlNRUNDb2sxcmJsSVhQU21sSE8yUVNya1dPdVF4UC13?oc=5",
+      "source_name": "Reuters",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -127,6 +202,21 @@
       "confidence": 0.7
     },
     {
+      "id": "529ac4fe485ffc14",
+      "published_at": "2026-04-28T19:45:00+00:00",
+      "title": "Live Updates: Iran war and Strait of Hormuz stuck in limbo as Trump mulls latest Iranian offer - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVUVySEZPRG5wS2RjMHRuY214Q3dTYldFRzhJaXpuNHZ4a000WHhMWW1XaWQwU01vTERMaUJ6c1g1eV8xTXc2NWk3YzdyMVRIWmdQUEh5Ymp4NURuUGdKOTFyTHJEM2tSdlJ4UnBtOEtVdmI2VEd4RUVfTjZPeVA4elpZN2RseHctRFVab3dkcXp3Q2hKNDRmc1lJSTJ6X3M0RXh5MzBuVjFCdnBZ0gGyAUFVX3lxTE8tWFNWN01Vd1g0TGhLa0x6OURVOV90TUxMTU9VZi1Ma0VadnI1OGwzMmVwZ0NnU3lpVDhQamFBRFpkbXVnQ015UEFLRHIwLW5SZEdsa0hvTjRoOVViak5tdGtFdlRPeElLSUp4S3hPMkEyeERjTHpKVi1MRFhXdFFFeTVJZ1l2dzl3UVZ3VXRHdnBtNXJtNVJMTjItRjg0Y0tTQ3liZTIxa29LTDVqUjhqOEE?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "82141de66da2be1f",
       "published_at": "2026-04-28T19:44:17+00:00",
       "title": "After 60 days of war in Iran, does US Congress want a say? - Al Jazeera",
@@ -140,36 +230,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "19767b1de48ec2dc",
-      "published_at": "2026-04-28T19:30:48+00:00",
-      "title": "The Latest: United Arab Emirates says it will exit OPEC, while US-Iran negotiations stall - WREG.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOcWg0aHNWWlhBRVRGQUVpdl80TzZpVmlrRldUM0N2aUdQdGFDZWlZdTdLT3JqVURvMXlXdGRNTDczaGJmZ1kxd3cxSndvTXB3WTFWMDJRdnU3dWU3Ykk4OUkwd1RuemJ4OGRZSm9RU0p2NW9ydkpMMGF0Zi0zRTRwZllMbEROLWs4ZzcxV3dBWTEtZVBTTGtyNDJJMlU2TWdVUVdLOEZpbHp6Q2NGQ2pTeXFSaVJuWmVESi11emdfNF9LSmQzXzdQMndsN0F6R0hzODBpOVpuMDbSAd4BQVVfeXFMUEFiNXJxUEFnLVlOb2FoMERIcS1UM19TM0FlMTF6aThUUVI4U29rOWtTekU3dFlwa3RHOVY0NkFubDBubTdqVkdEOVNEOU1XQ1FoMkV5c2xyVG1rU0tiYXgtQWxqbWlUdURvQU10a1BRaXdaZG1qWkd4MDV0YjFXaXZPbk5yUG14UmoxZldWRGJNbk9iTE9oU0FRNlpWTGNNUzBSeUZJZHFHLU80SWtyeVRrXzFKYjh5bjhoalh4Q1o2QmZjSEdvOEhya3hqUWJiWTBnbnZ1RXcwMVNid2ZR?oc=5",
-      "source_name": "WREG.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b8eb5ae7e1ac50bd",
-      "published_at": "2026-04-28T19:20:06+00:00",
-      "title": "Trump, unhappy with latest peace proposal, says Iran 'figuring out its leadership' - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWVBoSFlRQmpESmR0eWU2S3VpandrWjNnSHJJRzhvcnJlaE5ybXhXaXdJY2lZT083WV9FVmFOTWxUN0FRRUVodzR6SklEbG5SQS1BVTNZZ1JUWGcxVVJaaUNUZnY2bXVGZ3ZNYmpDanlTUzNndlZId21LRUY0d2xDQldpOW9PdlBDbWxDQ2lyNkFZRGZjNFlKOUtEZkhXV0FtY0VicHowOU92Vzlr?oc=5",
-      "source_name": "Yahoo",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "7edd3e043fd42ebd",
@@ -202,36 +262,6 @@
       "confidence": 0.7
     },
     {
-      "id": "60dffa70178e1574",
-      "published_at": "2026-04-28T18:27:43+00:00",
-      "title": "Exclusive: US spy agencies examine how Iran would react to Trump declaring victory - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNakxPaFJWcW50Y0lld2U3MmxqdFBLM1ZibW5QWTRwTlpSUzZBLXRTdlpJTVFSaHhTTHI4Q21UNjZEY0VXN0FCbE0tUWYweGwwM0U5ZWdMMGRTbHNURmotMHhLaTFTZTdGQzJ5SGFEd1diT2xaTUJoM1huTHd1T1VhNW95Q0tZdklQYkFjVHhOZzJFUVJDVnViRE9vUVlKVzZEYk9yRHI1T1RpYlVmWWJFQWlVWQ?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3372863cdf90e153",
-      "published_at": "2026-04-28T18:18:33+00:00",
-      "title": "Let Iran Defeat Itself - Foreign Affairs",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBwcjlmT2doYW1vRG85U1VnWUtyZEFLZUpUTmJnc1ZfWXI4SWhMODh6dEx2TkVHQTZtbzBtMHk3d0ZCdnJiRGJwR2Y2enNfVXh6NFBGTlFLREt4V3Fta3NyRTJDWENMWnpGaHc?oc=5",
-      "source_name": "Foreign Affairs",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "8702b2ccbc84c054",
       "published_at": "2026-04-28T18:17:25+00:00",
       "title": "Trump Says Iran Has Told Him It's In a 'State of Collapse' Amid Peace Talks Stalemate - Time Magazine",
@@ -244,7 +274,7 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "75217da04d579d5a",
@@ -260,21 +290,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "11e752885b44429d",
-      "published_at": "2026-04-28T17:54:32+00:00",
-      "title": "Deadlock over Iran\u2019s nuclear program and the Strait of Hormuz cripples peace efforts - NPR",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1tQmtzQTBndS0zS0t0TUZMd010bDUybnRSemJJT2d2QTJhRXVZQWR6RVdqY0JhX0UtOHNNeXM3N2JoQkZYbUVkQ3J5VHVESVotaUMwVHJsSnpRcm94WUtoaGJTZGdYRFA5NkZCYjZaM211Z0FwZ19sTw?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     },
     {
       "id": "e40f5e7692cad741",
@@ -307,11 +322,26 @@
       "confidence": 0.55
     },
     {
-      "id": "529ac4fe485ffc14",
-      "published_at": "2026-04-28T17:32:00+00:00",
-      "title": "Live Updates: Iran war and Strait of Hormuz stuck in limbo as Trump mulls latest Iranian offer - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVUVySEZPRG5wS2RjMHRuY214Q3dTYldFRzhJaXpuNHZ4a000WHhMWW1XaWQwU01vTERMaUJ6c1g1eV8xTXc2NWk3YzdyMVRIWmdQUEh5Ymp4NURuUGdKOTFyTHJEM2tSdlJ4UnBtOEtVdmI2VEd4RUVfTjZPeVA4elpZN2RseHctRFVab3dkcXp3Q2hKNDRmc1lJSTJ6X3M0RXh5MzBuVjFCdnBZ?oc=5",
-      "source_name": "CBS News",
+      "id": "2c55fd02f3935b43",
+      "published_at": "2026-04-28T16:45:05+00:00",
+      "title": "Is a US-Iran deal still possible? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWlpVdnVRTHFQRUNRczd0ZWMtcG1ydThPdkFmY3NSa2FfZDU5OWpLemlwdkJtMVJZRFBmZkpuMHlvQ1dPOFlPTXJVb0U5VjBmdlhJYjdjMVZIVEN0cEY3TlQ0Z1ZUMzNIbklKclJZOFFFWFRza3lScjFlUGhqUmZpU3drSnNTSTh6ZEstZF9R0gGTAUFVX3lxTFBLN0V2Y0h1aDFNZXNGUy0tM20ydENqdDdvem94QmFsS25kM3d2Zjd4MWtkREpuLTNMSXh4Q0oxU1NoV2oxSUMwRVRPQUI3N3RabGlKejBaSTBMU3JMUDVYTTRTVFZtTVRCZ2tDNEIwNV83dVBjZFctM0R3UkhHTDlaSlh6UEo1bVIxS3FOTDJla1VHQQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "479d9944279f8bf0",
+      "published_at": "2026-04-28T16:42:05+00:00",
+      "title": "US appears cold to Iranian proposal to end the war without a nuclear deal - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWkdjeFRlOWVzU2ZHbnRUVzBrbFRjZ3hlTE43dThNVEMxUFllYVZ5NWo2OWNYR2JyNmRVall6c3ZYZ1l5cW5veVljNzhpcFBELWNOWG1wTTF5RGJzVm1pd2R3bXloRWdjY0N2d1lsUjZwY0VEYnNNWUhkZ0RrWVNJWkJtTEFIZkhvLXlMN29ON3lEblRwVHlqc21sTUpyemptVEViRmVpTERXdEJOQS1TZVp2TUU5bVQwWE5tUGwwNVBId9IBxwFBVV95cUxOdmZOQ1E3ejZyMzV0RGQ4ZnFKVldYVlp3d3N4eUFtWUVkVHRMUDZnbk9KUDdrRG1NelBrZmJMeHV0ZDJnMmJaWm9VRXVhTlNvdlIwV1lNelF0UlBvTy0wVUdJa0xYU2F3YjU2bEtaSzBNTjY2c21xOUlwd3A4TkRsSmpFTHlSM0RNRmhQNE8wN1pUbkEtS3hraHI2N2tEX1BWUTBmNnJLTjJTTm1CUjBuN1ZZQVRkQzBIYmliQ1lLNE5lZ1JyZFo4?oc=5",
+      "source_name": "NewsNation",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -352,26 +382,11 @@
       "confidence": 0.55
     },
     {
-      "id": "cf893d3e37a3a099",
-      "published_at": "2026-04-28T15:55:57+00:00",
-      "title": "U.S. Gas Prices Hit Highest Level Since Beginning of War in Iran - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5VZEtUeU5CbGlKZEFrRkx6VWpnc184eVRBejFtS1AtYXJPV1hycVNPZXhDSndEOV8yWXdXUTVtdkZsTnVOaWFPUVdqRGtMV3BJaXNFRm5BSWpIRy1Fb2JwWUxJNFRzOTZiWTFYS1pSZTFHdHN6akUwLU5DOGY?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "f3e336922cc6d0e0",
-      "published_at": "2026-04-28T14:47:05+00:00",
-      "title": "What\u2019s in Iran\u2019s latest proposal \u2013 and how has the US responded? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZGZjS0kxdHAzZWlGUTYwQ3FvLXRsc01ycFJscFJRa3hUQWlGdENic25pRkNQNkhHOF83SnRQQTdTR2xXTllOLTdyMmxHcWRMSllBVjRwN3Byc2pteVA5TEJMTE5QdzBsT294S2hVbGdkaUhoNVdCUWt1OFA4UVBvNEo2UlR2VE0wWnFPdUQ4QUUwWkZvVGd3Um5EQzc3RlAzbHfSAacBQVVfeXFMTmVZcjgxVW94eFdLT0Y4eDJMQnV1T3h0aFhQWVJkUDlDWGc4OGlsVFlnZzEyQ2g4X1RiZWRnUXU2bTlhZG5oTnJVRHJERnZOcFIxSXJBTkF6RS1Kc3dnTHhxMmhaTXpLX0F4OXpZQkFJY3NjMkE3Q2g4OG9zZnF4QUZYbVRJdkEydFBBc2hTMGJrREZwZWlPa1lKV0kyYjdXa3VXc1YtRGc?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "31852eb2418c5f2c",
+      "published_at": "2026-04-28T15:36:00+00:00",
+      "title": "U.S.-Iran War\u2019s Next Casualty: Global Food - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQ0VhdmtBOUhUcWlCbkg4QXRfdFhlUi12RHViWldJOVN3elZra3VtNFlhdnVGdHEtMEd0bzZxU1RSNFkxX2NaZXZvRjljSHRIMzR6NmRvVFFsVUZuWVJXbUJJTER2aUhXR3JWZGpTOGwyNzdGNlFpRDZ6MDl6Zk9CYU9RQmFiUQ?oc=5",
+      "source_name": "WSJ",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -379,22 +394,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "f1e7171d140d785c",
-      "published_at": "2026-04-28T14:42:40+00:00",
-      "title": "What to Know About the U.S.-Iran Peace Talks - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPd2Q4RjJxWldmdnJEOHNpNG0yeUJDR3hDVFBoanBrZHVuTFJoSGw3MnN6QllNTVI4dC1LMUsyYWNwMlhkT1RfN3QxanZXYU5QVFZvaklBN3ZVOS1fMHFNVVBPS3pSTTNCS1RiLWhTNm12TTdTRjRnemt0SXA4aXpZSmNDajZOYkFudlB2cEV3?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
+      "confidence": 0.7
     }
   ]
 }
