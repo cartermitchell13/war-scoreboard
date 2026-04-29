@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-04-29T08:34:43.321363+00:00",
+  "generated_at": "2026-04-29T11:08:35.161858+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 105,
+  "event_count_window": 101,
   "totals": {
-    "usa": 27,
-    "iran": 15,
-    "lead": 12,
+    "usa": 23,
+    "iran": 17,
+    "lead": 6,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 15,
-    "iran": 8,
-    "delta": 7
+    "usa": 13,
+    "iran": 7,
+    "delta": 6
   },
   "confidence": {
-    "score": 63.4,
+    "score": 63.2,
     "label": "Medium"
   },
   "event_types": {
-    "other": 67,
-    "attack": 24,
-    "diplomatic": 14
+    "diplomatic": 12,
+    "other": 64,
+    "attack": 25
   },
   "history": [
     {
@@ -51,12 +51,12 @@
     },
     {
       "date": "2026-04-21",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-04-22",
-      "usa": 1,
+      "usa": 0,
       "iran": 3
     },
     {
@@ -82,26 +82,41 @@
     {
       "date": "2026-04-27",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-04-28",
-      "usa": 2,
-      "iran": 3
+      "usa": 1,
+      "iran": 4
     },
     {
       "date": "2026-04-29",
       "usa": 6,
-      "iran": 0
+      "iran": 2
     }
   ],
   "latest_events": [
     {
-      "id": "5f55e72ddf7e2829",
-      "published_at": "2026-04-29T08:26:15+00:00",
-      "title": "How the Iran war is hitting the UK - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdUZPaDc2Q1JIR2hhZVduQzZvd3JKT0xPZGFtOFlybjloQXNMZTJVRk8yZ09BZUE1b2NNRGczamxid2xPM3VYTWV0T2t3WmtmeVZzS0xBSVpVMlBpVzUwNTFtbzhRb3AybXJIQTJ2R1I5RFloSlBHaE5nMDBMaFptUNIBhgFBVV95cUxNdUFuOFFEem04SHhKdGZHLXBJYXRMVzk5Q3dZbnVyZjMwdm11X0E0SGVhcjhYdkNJRldfbGxESURqSnNmUHBwQ2NfbW9ic3dnQnYxeWd6ek5zcDBuM0EwcnBZeW1OcVl3UThKdExNS1FLYXQ1U29uWWVHeUF2UnVuSWM2V2dxUQ?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "6ccc0ee56157a5f1",
+      "published_at": "2026-04-29T11:02:32+00:00",
+      "title": "Live updates: Talks to end the war in Iran stall as economies feel the impact of rising energy costs - NBC10 Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOWpIcFV4dy1yUld0Umk5bmdQYlBpaEt6WGF4UDRtemg4ZHlxZkVSbkJCZ1NHRzhNNkUtcm1sVE4ydF8zUE1oNld0MDJCNmVCamxxZlBuVzJrVVZ5SXNWajg4RjRsZ0JsSTlhdEVsVkNaQ2dESHVDbjZvMEctOXdBVG9Pd0xSZ2dkNmZkY1FGZlhVd0FMd3RmakU3VEJNbFEzWTRwMlVfdEVaLU9uOGgyZTlVMy13YkVLZUlXTXhB0gHGAUFVX3lxTE5lazVPd0Vhb3RMUXB4bDYzS0ZxaWNzaEh5WjQwdjhBSlptRXJFVk84V2xsY1lOX3hFYWVNOGxieEhGUEsyamwwYk9RdGxfQllrV0xUOGkwWjNRZDZqSjkxZ1RRZ3NYSVVNa0o5VUVPVlVsN1FvZjZVZWhyQXNkekg4SUxHSTFfU0tzb0FTR0EzYl84MDZhTG1FY0VlRmZ3NlVIZ2ZOSkx6LTVEMkZJeVBaT0xuT2dJeGpVa0l5YXRRZUVQVk1DZw?oc=5",
+      "source_name": "NBC10 Philadelphia",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4b97c0bbbfb9a1c9",
+      "published_at": "2026-04-29T10:31:36+00:00",
+      "title": "Trump Tells Aides to Prepare for Extended Blockade of Iran - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQkw3T3lOTU1nLVdTclNqNkFtSGYxN2tXcXRQVkJjVXpCanRlTkJnSTdsTG1RSFkwTnVtYlNWcHROUnhBNm5BdWFLMVFQOUNWbU5yY1I3TlJfeXItcVJGN0J3aUxoZ2t0SHNBbkc1T1RvcERYeGQzN1ZVMUhDd2FqNUxHV29acTlBNVl3X2U0V051YTYybVgySnhEZ3BaeF8xMURPalZVREY?oc=5",
+      "source_name": "WSJ",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -112,10 +127,100 @@
       "confidence": 0.55
     },
     {
-      "id": "75636766140e8379",
-      "published_at": "2026-04-29T08:22:13+00:00",
-      "title": "Iran war live: Trump says Tehran wants end to blockade; Israel kills medics - Al Jazeera",
+      "id": "1c2c4ad553c6d1ea",
+      "published_at": "2026-04-29T10:04:00+00:00",
+      "title": "Trump in tough spot as he tries to avoid deal that highlights US failures in Iran - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV0Voamp2V0lzNndJMy16X2R6ZjlCMWl4RFNGQ3NrWlB4ZUV3anNDZzRCZmdzdlp2c2lVRlUzNE91elYzSnpEeklnVGYtM0daa294S1pWdHM4WXFaQ2gwMUF6U2x3THhXN1M5a0gwUU15NUtLTWFHa3NJODdWNUVJODdKRF9OWEp2MVdCSjYxc3hxMkFHdEJsS3NhcURUQVJuLWlkaW9rbk5tWkdJSFNjRFZ6WUc0dHR0bTNWbU9saWFlSVE?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "86b661621c18d3eb",
+      "published_at": "2026-04-29T10:01:37+00:00",
+      "title": "China reiterates call against renewed US-Iran conflict to prevent \u2018greater impact\u2019 on global economy - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZHhpaW1SaDB1Y1ZCNklGM0dzaUZRREdBVTZaZnJFbzVfV3BTbWZzVWJISE9JekZYMDNjQkc4UnJBX29mc3VJcXhoR3VOUDZZa1hHZHk5UzFJeGxMdE1TWVBkTXB2SzNNWE9rdnQ1eXhYUVlUMy1fMTdFY0VjeGljMDVHMldrT09jMGRmQnFjUURXRVJDcjZaUEtJZDgya0I4b3llTXVpbGZnMWZVUGE0THJ5aDM1TUtENXJhbXZsQ2ZfSEFFcWpvZTl4TzFFZ0o5UkU1aDg0NVN4WURU?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "600df5e4b1b7e5ac",
+      "published_at": "2026-04-29T09:52:13+00:00",
+      "title": "Iran war live: Trump threatens Iran to \u2018get smart soon\u2019 amid stalled talks - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNazRKUUN0NHBUOU1xb2NOUmdsOW1LXy1pak80Z0VHallZb2MwV2g5UHVWcU1kRU9uTlpfVmJseDR4bUxjcWQza0t5LTVwNWJRNElob3N6d3ktWk5TSHZrQWZEbE9VMWRiUGtSbWJpdmZLVzRPNXE4MXQ5WlFneGs1ZmVWZlpZU2x4MVY4Rml1QlZOY1dSUGxZRWlPY196YlpUYzhOek1yT2ltLVYyeGluSElBaW1xWFdLS2FTTkJ1STfSAcYBQVVfeXFMUGJtN3Nka2dBOTR2ZjVFblhodXdlcmtVSHFKWElaSDQteDJLYUJoTkQ0UnVfY3RiTkpKVjNOeU92Q3NuN1hycmtrd0RmWFV4WW1sZ1JsQkV2TnhyV0k3MFJmRmFnZ0oxUm1nZGkyUWFLSndia0F0OTFkQ3ZTYnJCWmZfSHZVTHY0ZEMyWW1DdWFsYnZrcG9vMVphMTJZWGswdjU1SzVyak92NWdRNGpPSEQzS1lzWERmbDFOZE5BXzBFTmhFa2NR?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3b2899dbe16ce31a",
+      "published_at": "2026-04-29T09:38:18+00:00",
+      "title": "Stalemate: A Fragile Balance in the Iran War - \u0627\u0644\u062c\u0632\u064a\u0631\u0629 \u0646\u062a",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV0hnelpLYVBJcnJBVTNhT1NvZlZEUmZUZUNKNXJQQzFkaWJPZ3VCNjdJQl83MGFTd0YxTGxaZmFaZE9WWEdIWWRZSm9lTkNHbEE2V1QxMzFyNDc2SlY0YXlxSVdOZElacVVBVTlXdkNlQW9zdG5QQnRhelpaZVV2ZGZwbUZROUNu?oc=5",
+      "source_name": "\u0627\u0644\u062c\u0632\u064a\u0631\u0629 \u0646\u062a",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ae3fd1f5808a6567",
+      "published_at": "2026-04-29T09:22:38+00:00",
+      "title": "\u2018US Warships Will Burn\u2019: Iran Signals New Naval Capabilities - Palestine Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNd0xGSzBUQzVQVThjNVktcWVTQlFXeW8xTVJpeGpBMFVGVkhqUlRkbHNxM3JxWjBUbWJmX2VpaE4zMXRaR0FYQUFDcWZtc05VeHBENXh3bERGanowV0wwRm8zLW1aanhqTVlqZ05UM3ZEVjJta25qZE9XS2pkZzJTanhtUjBSdGRhTUJPOGtSQWgtbWZFT2otbg?oc=5",
+      "source_name": "Palestine Chronicle",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6c082890f48fdbc5",
+      "published_at": "2026-04-29T08:45:00+00:00",
+      "title": "Canada Know-Risk Market Outlook | US-Iran Conflict Coming To A Head? - stonex.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUWoyNDEya0FFaS02aG5Ub1FUWTNTbDRMRG1lYUMxUGhjSklnUlJNY3dZUzlRNXY1R0VPOXdXLWJMZG9yZU92T1VQQnhselB2N2JWYktSbElRWEtNN0FBVWx5TjAzSFRCaEZPdEtzZEQ1cWVFd2t4RThudXU5Y1kydXlvVVUyMVo3U0w2aXVWQTh2VXlpOEUwcTlDWDRmUkxHUFVvamc5MA?oc=5",
+      "source_name": "stonex.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c4d6a2a887ebc5f4",
+      "published_at": "2026-04-29T08:27:32+00:00",
+      "title": "\u2018Particularly badly exposed\u2019: How the Iran war is hitting the UK - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdUZPaDc2Q1JIR2hhZVduQzZvd3JKT0xPZGFtOFlybjloQXNMZTJVRk8yZ09BZUE1b2NNRGczamxid2xPM3VYTWV0T2t3WmtmeVZzS0xBSVpVMlBpVzUwNTFtbzhRb3AybXJIQTJ2R1I5RFloSlBHaE5nMDBMaFptUNIBhgFBVV95cUxNdUFuOFFEem04SHhKdGZHLXBJYXRMVzk5Q3dZbnVyZjMwdm11X0E0SGVhcjhYdkNJRldfbGxESURqSnNmUHBwQ2NfbW9ic3dnQnYxeWd6ek5zcDBuM0EwcnBZeW1OcVl3UThKdExNS1FLYXQ1U29uWWVHeUF2UnVuSWM2V2dxUQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -155,6 +260,21 @@
         "iran": 0
       },
       "confidence": 0.7
+    },
+    {
+      "id": "0770c183a510f0ea",
+      "published_at": "2026-04-29T08:03:06+00:00",
+      "title": "Regional businesses say Iran war, Trump tariffs are increasing prices, hurting the economy - Ohio Capital Journal",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZFVxOEppeHVlX0U3VzVGV1RUUmluMW11aTdlb3Blamd0LUdJOWNCOEM0V2xXSEs4bmdDOFRNclNlTC00dktDc2xJenNZb0tGVWw2MEVfOUZZOVpZNVBEQlJHbGFDN3hFaFkzTzlPVGsxaXEwMU1RSmRHZVBpWkU2RWtobnZLZWVid3E3WHNWanZtRnZKWENwaWFsVnQ5TUk4SkNURllnLTZ5Y0FmN0xwVVRaTk1ZRUhSNnlKQ1FzR1Q0YjhMRTkyQU03RQ?oc=5",
+      "source_name": "Ohio Capital Journal",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "8424819599cf1b68",
@@ -232,161 +352,41 @@
       "confidence": 0.7
     },
     {
+      "id": "90c753fc4af04f40",
+      "published_at": "2026-04-29T04:16:00+00:00",
+      "title": "Day 60 of Middle East conflict - UAE to quit OPEC and OPEC+ this week - CNN",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBKRVUzaXVGUUhtb0lqZ3JGSjNjcnVUX3g5V0RsRDFPeWUyVkhHQTBFcjl0WXBaR2hSWVBQZllEb0JoYmFZSVFmU3J4cjJIajRpcTJVaU1ONnVRMnUzQjRaeU1vTlJ1RzNBRERDOWxOel9XME9GVmJn?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "94345b4052a909d8",
+      "published_at": "2026-04-29T04:00:00+00:00",
+      "title": "How the War Saved the Iranian Regime - Foreign Affairs",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE10cXBKNFpZMF9ZbFFyVHJfVFh5U0Q0UE1tMEVNc0hsRDRTVzhzWjFIRjVSVWYxZ2F6aVZtdzZ1dzRYY3lIc3BQN3JkQjdyS243WTF4M2oxOVdWbEtiM1N1c0ZKbTlDbng0aF94ZzRzcjlDdw?oc=5",
+      "source_name": "Foreign Affairs",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "e4559bb77a545770",
       "published_at": "2026-04-29T02:43:00+00:00",
       "title": "Under US law, Trump faces an impending deadline to end the Iran war. What happens if he ignores it? - The Conversation",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQXU2NU5Qamg3akZ6YXFpSkt3OWotdUZzSUNEVzhoYlRHaEFsb2VqTElFUlk1QUxhYXlsa0poRXFPSG4wSTVwTld6ZGxIQXBveF9GcmYzZEs0RDRuVkVMbkZCb0I3MWdJb29MbWFFOVp6Um9zTG9FREpyR0djZGE3RHFZc09kUEtSR0hRbmJXeGFrdlRDVjl4MzJYQW9hR3NjRk82aWVTNi1QSDBfa083dk9sejQ2V0lzbGNqVm5mTEttOWF0SFE1NE1aWQ?oc=5",
       "source_name": "The Conversation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d6c4bec97105c30c",
-      "published_at": "2026-04-29T02:08:51+00:00",
-      "title": "Iran expected to make new offer to \u2018reluctant\u2019 US - Dawn",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9sT0tqVnpJSURnbUxqZzVNUURXV3RCSjFONUZxdkFLVVk2Tl8zdkY1UFpYZUN4NVNDUURkd3d4dUIxcmdObV9Lc9IBTkFVX3lxTE1hTWI4Y3YtOE42Qi1fb3lIZU81aFlMWUswQXVYaVcyaEh6TUVSWHU0VXhkaDFTLW5zUExKZUFxdFZOX2hjUFBUcEU2ajA2Zw?oc=5",
-      "source_name": "Dawn",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "717a92cdcb591c1f",
-      "published_at": "2026-04-29T02:01:50+00:00",
-      "title": "Weeks of silence over Iran school strike highly unusual, former US officials say - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zMjR2dnZjT0twTGl1V05nQlJJVDdIb3YyOWFIaHZHYnVMdkxtUW1SOFBlcW1hbnJhVmNuVWRQdDNPeGtqcENCbHFlWWNyYWxhMHo3bzlnWjhpUQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "24642b58294b85a3",
-      "published_at": "2026-04-29T01:36:47+00:00",
-      "title": "US-Israel-Iran War News Highlights: Eight killed as Israel attacks south Lebanon despite ceasefire - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNeW1QWU1ickJwTk81enlZMkFFTElyZW9EREJxOUlaR2VnNjl6REwwTkdNQ1loZTdVN2NRdUFxazJCSnlVTmc1NWo3ak5HUG9ieGtYUzZPREdIakk3QVlqRF9oLVFMRFI3WGpERFNRQUM2Ykx3YWVpYnVNcDlIMFd0M0YzVHB5MkdybnlnSVZNUzRZdTNSR1U4NjZJeWlXbTdCbFNTV1A3SUpNQ3huRkgzWjFVQTN0RUc1ZGFlQU9tWFlkdGdMRmIxSHdjMzMyY3h4ZDRUMVBrOHdoYXptNnZWV2VURmN2Z0ZZU05LVV9OUWVJQmVZNlVQaGRsYmJxMlFHUEpvakVINWVVNmRLTXUybGFLVVBiN0JxRmJ1U1ZZVXNZcFA1RjByMVJfM0tHRU51UlJGMWtuRUl5TEFJNGRRbktxc3dramvSAcwCQVVfeXFMT0tzUGtOcGFuV0VDWGt5U3dSSkJSQ1dkb1NVZEdHNzF6Y25vZU1GZ0kzdHYwOTBjWHN2cUw5cWxleTVzZVhsc3R5RGR2cDg4R0FaUl9xTGhhTGphLXdRUjdJS3Z0akExR0EzUkhYa0RFMTQ3MkFsUVJSTmFzRXFqZFBoUlB1OXBvcEVnQ2hMQVFiLVlTV09sbVUtekVEX2ZEbk9ZWi10TlRiSTk0Si1vR0h4MGdzQldDZ1RPWFhwbVl3c2VGb1hCdld4UWxOdktlNkRFdUJYakVEOXY1YjU0ZXVaZEthNV9USFpHckNieFU0UVdHOE85Y0RjMVNkX0NOSW90eGFIQVJkaEtkeWVxWVhmaUJRZ3RHTnNyX2FZa3h0aTJOekVJdDN0RTRWSkREeEJsSG9GbHdQc1pzaWtOUkJkVVplZG1Kc1VRcHQ?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5c09ad427601c6e7",
-      "published_at": "2026-04-29T01:34:41+00:00",
-      "title": "The Latest: United Arab Emirates says it will exit OPEC, while US-Iran negotiations stall - WRAL",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOUHp2Nk1DNGxfdW41R28xMWEzTHJvYkVfNzVzLXVSZ1hsZGFKR0tGOFJhWFZvNEdhUi1qZ0N4NHFSczJfdllaT3hjZ0JpQlp3VllEdERDT19CanN0cEgwTkhQdjVRLVQ1ejUyYWc4eHJvV3YySW1Kd1JVMm0wbTFJMnBuUXhSMkUwc3ZDTkxpXzh5YU5OS0FhUUtaVDJveFctVmJlZkhiemdjclVCZUItajFfZlJxUXRkRDZkZA?oc=5",
-      "source_name": "WRAL",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c27cfaa4b160c079",
-      "published_at": "2026-04-29T01:34:19+00:00",
-      "title": "Coordinated U.S.-Israel strikes on Iran spark wider conflict, ripple effects felt at home - The FAMUAN",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOY05ZMDA2Qk4wSUhhU0VydlpXakRud3NDQVpuaUNXbFNPcWtraVZaaHRUNVI2a0JtLVFlMFhlbUx3czB6VmVmc0hzT1F1ZzRhSzZOWkxXbnpOamhYZFdzeTUzMnk4Q0ZNbjQzZXZQeVB0OUJyQUtrbS1QS19MUG11ZzI4eXF0TnhDOXZwcFRqVzJqTEdhaUtsd3Voc2xydWx5dVcxbnozQTd3cmswZ19WVnJwa2dxMDU4S3pUTTVRRXNVZFJjOUV2ZktXZw?oc=5",
-      "source_name": "The FAMUAN",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "4b97c0bbbfb9a1c9",
-      "published_at": "2026-04-29T01:00:00+00:00",
-      "title": "Trump Tells Aides to Prepare for Extended Blockade of Iran - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQkw3T3lOTU1nLVdTclNqNkFtSGYxN2tXcXRQVkJjVXpCanRlTkJnSTdsTG1RSFkwTnVtYlNWcHROUnhBNm5BdWFLMVFQOUNWbU5yY1I3TlJfeXItcVJGN0J3aUxoZ2t0SHNBbkc1T1RvcERYeGQzN1ZVMUhDd2FqNUxHV29acTlBNVl3X2U0V051YTYybVgySnhEZ3BaeF8xMURPalZVREY?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ae3d1f1ff2d70b73",
-      "published_at": "2026-04-29T00:58:00+00:00",
-      "title": "United Arab Emirates says it will exit OPEC, while US-Iran negotiations stall - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBYdGFWQTUyN193ZzhtMEJRMTI3NG9PNDNxTFJwVEVCbkg3bjlDZVVDdGozdmlBRS1nWVZTenRBc25xNGxfVkQtb1FNdU1TYjc0NTRST0JBU3dBbDlHVlBhSkdGOWctdGM?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a502e4dd93c3b226",
-      "published_at": "2026-04-28T23:28:00+00:00",
-      "title": "Middle East peace talks stall amid Hormuz tensions, ceasefire violations in Lebanon - France 24",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQ2ZkVFZ4MXYwZktmZ1lHMThDTEV4UjdJY19aMjJoRlVlbTgzZDNBZ3gyaWpKRE02eE9id2ZZcWowQkRrU1Q5eXgtSHZTWHllUFBCYU1Qa3psWXNraHZob052amoyRThUSFZWend4RW93ZUh2TGR2dVZqNElzUzhLRjRRalJYYmotQ2FUMWdGRXF4RlZkYm5XdjdRZHRhdmdwN2pqUWZqc1Y3YkcyenBUc2s3dzJGZDZkQ2RPRXFDdw?oc=5",
-      "source_name": "France 24",
-      "event_type": "diplomatic",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ddbacbf545fb89a0",
-      "published_at": "2026-04-28T23:20:37+00:00",
-      "title": "US weighs Iran reaction as Trump eyes \u2018victory\u2019 exit strategy - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ2VaWVc0d3hlNHdkaTlzRWFhSGNHMFRvbnQ3Nk5Fc1lRTEtIWU8zN2xSVTdEU3E2aXNIdzFNN0JlOEZ5cGtHcFA2c29BQUttTW9sY09TM2gyNy1aeHB6SDNLdWJGZlNrTG54OGlyNnNmSGRnVUtZR3FzZXllV0tkQW5PYUdDNEpzQzZ5eDZkVDU?oc=5",
-      "source_name": "\u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0fdf2f5258dcd9d1",
-      "published_at": "2026-04-28T23:15:35+00:00",
-      "title": "US spy agencies examine how Iran would react to Trump declaring victory: Reuters - Roya News",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1qdFh6QlVEbjJjWERtNXRaUjlnWDBwYjQzcXdkWEM0TlZZTkVTU0M3NmlTc2Q0bEVDcWM5U2VTamhNNDNacFd3QQ?oc=5",
-      "source_name": "Roya News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
