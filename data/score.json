@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-04-30T04:06:37.395193+00:00",
+  "generated_at": "2026-04-30T08:36:10.410062+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 108,
   "totals": {
-    "usa": 14,
-    "iran": 20,
-    "lead": -6,
-    "lead_side": "Iran"
+    "usa": 27,
+    "iran": 16,
+    "lead": 11,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 7,
-    "iran": 9,
-    "delta": -2
+    "usa": 14,
+    "iran": 5,
+    "delta": 9
   },
   "confidence": {
     "score": 63.8,
     "label": "Medium"
   },
   "event_types": {
-    "other": 65,
-    "attack": 24,
-    "diplomatic": 9,
-    "material_loss": 1
+    "other": 71,
+    "attack": 28,
+    "material_loss": 2,
+    "intercept": 1,
+    "diplomatic": 6
   },
   "history": [
     {
@@ -37,7 +38,7 @@
     },
     {
       "date": "2026-04-19",
-      "usa": 3,
+      "usa": 6,
       "iran": 0
     },
     {
@@ -83,83 +84,23 @@
     {
       "date": "2026-04-28",
       "usa": 0,
-      "iran": 2
+      "iran": 0
     },
     {
       "date": "2026-04-29",
-      "usa": 1,
-      "iran": 6
+      "usa": 2,
+      "iran": 1
     },
     {
       "date": "2026-04-30",
-      "usa": 0,
-      "iran": 0
+      "usa": 6,
+      "iran": 3
     }
   ],
   "latest_events": [
     {
-      "id": "65aff890f60ed6bc",
-      "published_at": "2026-04-30T03:43:25+00:00",
-      "title": "US military commanders to brief Donald Trump on new options against Iran: Axios - The Business Standard",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQWU1nbUtZVVIwN2VNMTlNUGdzbkNKZHQ1X0ZLS2VmY2FibGJEMVlBaVFZZ09iVmhwM1NuNVk2NUVuWWxqbDBjZG5SVW1janBHQS1rY05PbzV6S2lMclY1Wk5vNGdIckkteWlVOEhiUERsdXdJMU1xUEY3NHNJSmVVbWNIeUpnQXlwbnZRckpWSGhhLVhSVWZmRzFPQkZOTExZSWZHc1I3dTBZdG5lbkJzbGd3Y182V1dY0gG-AUFVX3lxTE5zVThrUzBzOFFyWExRc1NBMURkVmpSR2RRQ2dYdTZBYXdadXoyeXNmalRSY3hERW1DZDY4LUxCVTJsWlp6MU5jaGhyLXFfb1pUTGhMbjN0UjV5X211bkxvMnVxMWI3b0FZN2FOOVNRSE4zbHBuZ1JNZHRjX3ktNjJpdk9wdC1QVWFxYVMxaVpNdm03TmI3SHlPOG9ZakN0QjFhN3RNTW9qWWw1X28tM2tFTWthV0tHMVNuNUJVTWc?oc=5",
-      "source_name": "The Business Standard",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7bc9a296904a80dd",
-      "published_at": "2026-04-30T03:27:14+00:00",
-      "title": "Iran-US war latest: President shares \u2018Strait of Trump\u2019 image after urging Tehran to \u2018get smart\u2019 and sign deal - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNT0M2dU5tc2tJT3RCbXMtdlhxQ2NHWXhXWTFBMmpKNDlMSk84NkU1RUhoWEhHLTNQbTd4T3ZRT3V4VHctaHN3VE9kTU81UnhzcUFPMlltdUZzcjJxRDZnbWZjRnZ2RGZOOGFjYkttSUp1czJadVRXS2t6VDNTMUVQbUhjUWVnWXhlNE51cW5iR01pQmM4SjhSYUFPUTB4Q3l1aGVEU01mdXFfVFpDNnZ2QU5OUGdMOWYzb3UyZ1V5SQ?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "67912cc4d931bbed",
-      "published_at": "2026-04-30T03:23:00+00:00",
-      "title": "US to attack Iran again? 'Short and powerful' wave of strikes may be in store - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOQUZfbG1TREpMdVNlTWJ5YjM1RV8xRG5OQnFXWFdOOVRuMm1RQVFRLXVBd1NTMWdpU25ZaTZWMjRmODgxOW8wR0MyWXpGZVRTM2poSUR6bEVFZmxNNWdiblVuYmJMdVlYcG1famdOSVloZnctbXdwYm82dWFkYzdsQ2VPZnNSaFBkdGx5TjFETEVTSEtYNWVJeFBlckV5VDNaa3pBRGtJV0lKaEJkQWxhcjdVd0VLbDJqOW9pN0c4MVI2UXBzNTEyUjdPak44ZTM4TkxnN253RHZCTFAySnfSAeMBQVVfeXFMTU02YVVneVM2c2FCRXBocHByTnhFWGtpei1vbmlSeXJSX0NkNmR0MS1wZ01aMkdkb0FzaUoteDFLUDVzRVdDbFU4SmVtckphckhuSkFJZ3pqOXg5MjlCU0U2WVFnZ0R6RmpPTXhKOUd2NkNXUXlHcDBJU3IxN3BGaUdxeU9kUEIxZWxpREtiS25RckZUb1o5TF9CS3I5OUtDLVk5WmZqbG8zU0xZNmJKQVE3U0w1WnFfU0dYYVNhNWdSX2ZxSVloNDRxcEkwQTIzdGlkM3JnWUlnV3pVUXZZYnVBcFE?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f995265e818168c7",
-      "published_at": "2026-04-30T02:49:58+00:00",
-      "title": "Middle East War Live: Trump says US may cut troops in Germany as Iran row rages - France 24",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMk4zR1U4QXdKYUlESmJaTHRmMTFRZDNWYzlIWVlZazljSmQyYmgzbnIyS2pvZnR0dUE3UWl6X25oclljWVlMVkZ3UFFwOHZUcDNMa0pLU1hQdTFMVjQ4amJkX2ZQN1VsYjVrOElhSnJSSXVWempIN3kxUU9FbHdPNDh3TmJBbDZaTkRIbldfcC0xU2dJRThpS2xkVEtPOGhPdGxPeGMzZks2cnRSQzBRWjZqRlVVOHhWSVRVdFNlWkgtTVN4UkE?oc=5",
-      "source_name": "France 24",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "cda614099cd0429d",
-      "published_at": "2026-04-30T02:49:48+00:00",
+      "published_at": "2026-04-30T08:24:50+00:00",
       "title": "Iran war live: Trump urges Tehran to \u2018give up\u2019; Ghalibaf mocks US strategy - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZ3VJSDBsM2FwclJ6Q0dRMXNMUE5ZMHhJRXNHREpqaS1XMDBGelJWSGpUcHBPSTBwdDJ6SlpuVXlOOTdqcHdOdWI0RU5ZakwxaEVLVG9CWllqbzVLTmxJQTA4YzVRZi1IUU5MSXlJbjBsUWx3SHZHcU5LM1YySWVtS2xBV29lRHN1ZktzaTZUWFBnbWwwX0RiNXdrSFYySjNTUGtOTV9ESEc5MnMtVUFoRHBpd25CYlAzRkHSAb8BQVVfeXFMUDFyMWl1dXZXdjBWc0JuZ1VUR3pTMVl0WThiY1dUSDNsdGlaTVQ2MWZwNVNKdWNaekI4N0QwZDBqQWFrYk9IeXRMWU1hY0w3WklEeFY5WDFaZXJJdGlXU2RqX0R5V2VKYjFfbGZkYThhZXVGcFF2M29WbTBQVnBub2ljZlVIZnU1dTA5c3JWeWpJbzZpN29kWnZVM3Z6TWRxWkVsNXlPLUs1VzdXMktrem0tNVBMZTRPWEtTRE1YT3c?oc=5",
       "source_name": "Al Jazeera",
@@ -173,41 +114,11 @@
       "confidence": 0.55
     },
     {
-      "id": "12c3473c4be6273a",
-      "published_at": "2026-04-30T02:40:33+00:00",
-      "title": "US preparing for \u2018short and powerful\u2019 wave of strikes on Iran as peace talks stall: Report | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV1lMd2Zlekx4eGVyWTU4NTZGWFI2alRwYUxFUXpHSDAwYkFwUFM4cktad0JtVGZjWVcybmctWklRTGxxMkVZN2JmWGcwWHpLcllTSEJURkdyM2JzYUlId2NkeDlMMHN5SkJqSWtGZk9CMXhZT2Y2OWQyM0VUMk1kdjViSnp4My1KaXpXa0w4b1dsNHM4T3RTNG84UUl0dHd0M0lxenIxcEJ6QUc4MUZ0TEg2eEx2VnJjcjVVS2J2akJtaVlTXzdtRlE5ZlVCd2xIZXFFa25ESGFzU3BscDBEd19JQmbSAeoBQVVfeXFMTndMSFN3ckpCMjhjR0t0WmV4eXpMZGZpVzhWUTNndjdlM3VUVVZUR1psZ3A3aWcxenVtcGxlRW91UTVsN0NRZFRTa2FlSnA0T2NycWpMMnRqdEo0dDBVTXJ4R084LVI0SFBWNUE2N2ZqcjBDTWZYZDB4dnl0QTRZbUZsWnVKRV9YOWhZSjQ2RGhDY2lrUllCeUNFamlDa2lSdWw0THNaLUNiSkQxTWE0TmtHaUVaVDRJaHRJd1pnUUM5U1FLNHlNb1NRVkRxNkM5QUNaUHctd2k3bC1HcWVkUDVBcmRpZmdTNTB3?oc=5",
-      "source_name": "Hindustan Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "02996a334d886dc4",
-      "published_at": "2026-04-30T02:38:26+00:00",
-      "title": "CENTCOM prepares 'short and powerful' wave of strikes on Iran, Trump to be briefed on plan - Axios - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE81R3M5S1dwZXlEcVJ2YUhVYlVXX21vaFhmQlZsQS1RRFVkeGN6NkJlZjlSVE0wU1A3RUwzUFQ1T0U4NVR3SURidU85S2tUYnJzMzhLX0hfLXJXSUFYQ1pGclo4cXhrZmVjaHc?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9385e7fa52b9c14d",
-      "published_at": "2026-04-30T02:15:00+00:00",
-      "title": "Live updates: Hegseth slams opposition to Iran war in hearing as Trump discusses continuing blockade for months - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQlAtanlId2gwMzNWVkgtanI3aE1nZHBhaFJUUlN4MUpadkFBSkdXU2EwZmVWYWZwdThXVUQwRXRXY3JucUtRMGZOcjMwSUpMQUl2UTBfSDZKSEdMR0VhOHUwV2U1aUJQVFl3RWxsU3g3WlpVVjhqTUJhUDVYMmRGNjVR?oc=5",
-      "source_name": "CNN",
+      "id": "722931386561593c",
+      "published_at": "2026-04-30T08:17:01+00:00",
+      "title": "Oil prices surge above $126 as US-Iran conflict continues to intensify - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOdlgyd2Z4SXo3bkVNRnJBUk0zWHlnbER2aEV5X0tpWlV3ZnFCLXJtdFJySnFsX25GRUlkTkJ3Y3ZEZnZDb0p4TGZVVjJ6LXRFN0trSXNuc3o0YVdMOWxvTU92YVl6MTJ6TjJxWjlkaFNpTTltTWFpbTl3MjE0T0FGeU5MaVRCME5yTy01UTRQeWJqaDJPVU41bEdadVdua2Utc0h4aW5XenN6aG04enBCVU9POWNpeVJLdE1NeDJmVDl4V19jRGFlYkNn?oc=5",
+      "source_name": "Euronews.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -218,11 +129,26 @@
       "confidence": 0.55
     },
     {
-      "id": "ca5fd09bf0360cda",
-      "published_at": "2026-04-30T01:44:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA1dHdjdEdzdml6d3NLbTd0R1lsVGt3Y2NzcXZYTjBqRWhLNGhwOVJUNlZ0LU9heHIwM0FXZHU5OW82X1RJYkx1VS1fb25fRmg2M2ZPS0VfQ0FwTVN6YmVoNVVaMThFWTFFOHdhd0EwRHNvb3BZYXRSeU9NTC1oVG8?oc=5",
-      "source_name": "The Jerusalem Post",
+      "id": "272974b12481cdb0",
+      "published_at": "2026-04-30T08:01:59+00:00",
+      "title": "Live - Trump says will keep Iran under blockade until it agrees to deal | Iran International - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ibzNxYWRteWx0MFhhQUJObFZyT0Q4aHR2YlV6dkZJNjNwZGQyYTdJbXluVnE4VWVHUDRUM1JiMFZHd216VzBvYlFhSGR6dFNWbGFDSWstRi1xMFd1cWc?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "356a33bb9efa5dc0",
+      "published_at": "2026-04-30T07:57:51+00:00",
+      "title": "LIVE BLOG: Israel Continues to Kill Civilians in Lebanon as Netanyahu Cancels Planned Washington Visit - Day 60 - Palestine Chronicle",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUWVsYXlvd2Y4a3FLMDV0QmY3RFZmUGlxYTR3RFNlNTZaSkxvZFBXV283YktmYnY5RGZSMi1uSElqLU5IcnZmN2U0Y2c0c2ZZcTEtN3NjczlPMzkyNXUwUm9RWmVZa0twMzFiaFYxNmdOSzd0b2pIYUFSS3JsT3Z1aW9DRzJ4WjdscVYwYlhSbGE4anFMOGgtM2tRcDFQeHBvZmFuSXJGd2xsQmRfT2FTSUl3YmlIcnlRZG9KbFNDOA?oc=5",
+      "source_name": "Palestine Chronicle",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -233,26 +159,11 @@
       "confidence": 0.6
     },
     {
-      "id": "9a18d493daed137e",
-      "published_at": "2026-04-30T01:31:00+00:00",
-      "title": "Trump in tough spot as he tries to avoid deal that highlights US failures in Iran - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPV0Voamp2V0lzNndJMy16X2R6ZjlCMWl4RFNGQ3NrWlB4ZUV3anNDZzRCZmdzdlp2c2lVRlUzNE91elYzSnpEeklnVGYtM0daa294S1pWdHM4WXFaQ2gwMUF6U2x3THhXN1M5a0gwUU15NUtLTWFHa3NJODdWNUVJODdKRF9OWEp2MVdCSjYxc3hxMkFHdEJsS3NhcURUQVJuLWlkaW9rbk5tWkdJSFNjRFZ6WUc0dHR0bTNWbU9saWFlSVE?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "1f0edf0fbb7d49bb",
-      "published_at": "2026-04-30T01:22:11+00:00",
-      "title": "How lawmakers reacted to Hegseth's testimony on Iran War - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPV3ZxYVZfN3VMYUpCOGJjWjk3eGJLVFhaUGxLLTdlQ2F2UzVMZWdFaU5WbUhJNl9LbUJzaXZ2cDY1OEdRNDdiWjZiekwxaFRfOVg4S0Q3ZG5NWnE4VlFYbUxfTXZwVGN1TGJOS2JxMTJINjNOak5SaTh3Ujl2SURhSkloelRSeWxuOE5hMGwtNEVwX3BOY0JxOS1PWTJNdjNkdnpCWldCUkZ2UQ?oc=5",
-      "source_name": "NBC News",
+      "id": "5c2b7651dcddd6a4",
+      "published_at": "2026-04-30T07:40:45+00:00",
+      "title": "Iran war: What\u2019s happening on day 62 as Trump asks Iran to \u2018give up\u2019? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdGFWWkpEb3UtWm9hZHMyOVlnQXVRcXFWQVRLMXI0Y2NsLWdBNTJnVk1IVjlRZTdfUWlsbFpjNGRJeVpYaWJHS3BtZUwwVWZVS2JMdWk1UV9WT19XVGk5YUx2V2h4MUg5ZEp3NzJYX3FveldXX3BWRWRXY3BMTE5HaXpYc1huS0U5dDVveFZzMU9NWjVESXdLdm03OV9KVERBVlR2YXZkclbSAa4BQVVfeXFMTXZoMTFiVG9SUUtfbUNDX25qWm04SGFtLUthOXJ6aWt6RTRoT3RxUjlxWngxZlBwZkZfckVLNi1pVlBEN1JHbnFPRm10OWlUSTB4WGY5YVlYUU0wSS1IUUk2MlpiMnY0QURDcFZBX0pCQk9tenV0MzZsT1hjTnhhbGc1WnRSYUV5Qm96U3IxU2hHakJFOFRyQzd4Smc0QmtMVUNaSl8ycGxBQ015MTFB?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -263,11 +174,11 @@
       "confidence": 0.55
     },
     {
-      "id": "e054f30c5bd7c42a",
-      "published_at": "2026-04-30T01:07:00+00:00",
-      "title": "Oil prices extend gains as US-Iran war deadlock keeps supply off market - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQenNidWVwSUNlZUxVRDFaR3N2NVdjRXdmTmJNZGk2T2prVmh6bTJndHR1bm1PUmhmbjN2dkpMYTN5NG5IZlFNUExLclNlcWJMVzFrd1VjTXoxRlFEWmtPbDlGZ055WlJVbEhESGRob0hPVFVKemt2aDNhaGpDR1RzZmRORVM3M0RmbjhuY0ctSGlYaEJXYkVtbmZtZnZZNnZHX3FVcXNIQm4wOXJ1Mk83dXFILXdmQi0xcFYzMw?oc=5",
-      "source_name": "Reuters",
+      "id": "425a8cbd382aeb07",
+      "published_at": "2026-04-30T07:33:31+00:00",
+      "title": "Trump Tells Aides to Prepare for Extended Blockade of Iran - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNQkw3T3lOTU1nLVdTclNqNkFtSGYxN2tXcXRQVkJjVXpCanRlTkJnSTdsTG1RSFkwTnVtYlNWcHROUnhBNm5BdWFLMVFQOUNWbU5yY1I3TlJfeXItcVJGN0J3aUxoZ2t0SHNBbkc1T1RvcERYeGQzN1ZVMUhDd2FqNUxHV29acTlBNVl3X2U0V051YTYybVgySnhEZ3BaeF8xMURPalZVREY?oc=5",
+      "source_name": "WSJ",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -278,53 +189,8 @@
       "confidence": 0.55
     },
     {
-      "id": "169a6ea0d7a54378",
-      "published_at": "2026-04-30T00:28:00+00:00",
-      "title": "Brent crude hits wartime high, soaring past $123, as U.S. military to reportedly brief Trump on action against Iran - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3pUb240VWdZU2pFXzNDRVpfNGloVkJab0M3RDh4anVCYzFzX01JZEJSREd5Ry1ab0lBOGUxTUh6WkYtMHBzUllsQ01pWHUtZlBwcEZDbDNXMW1fa0haRUpVLTR5dGsxaG1yMmhfTjhkb0JZMDltMFlBWXB3eXNfdzU5b1BfbzBz0gGOAUFVX3lxTFBXWjl6VXdoaU83SDNTM2pfRTZKMV9xeUdJUDQ4TTFhcFY4T0dyM0pvSzE1QmJoQlY0OGJ1eTUtVWgtLXJrejJtZ0hCb05xRFlpRzhWYUlNUnF1bDM2SUtDVndwdHhKR2hiRWhGNkp2eXlIU2Vkb184SnY5SlctY2hmam10cURFOWNyeFJ5WlE?oc=5",
-      "source_name": "CNBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "5b11969f4bae3e4d",
-      "published_at": "2026-04-30T00:17:00+00:00",
-      "title": "Pentagon\u2019s $25 billion cost estimate for Iran war is low and does not include cost of rebuilding US bases, sources say - CNN",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVEtNak5mMUd3MkdabmF1NEtxYW0tc2hKSGZDb2lDQkc2cGJGMlRfQW9RQ1dtb1NYcXhJRUxPVGpCR3VWbkFUZU1Eajlhd3Z0Y1pwYU5UalF0MXdZckktcjlDV1N2T3Fyb0IyMTYwY2ZhcUY1M1ZuX3VUOTRQS3BnSklLWk1tcmc?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "706870ae25052411",
-      "published_at": "2026-04-30T00:01:05+00:00",
-      "title": "Trump weighs pulling US troops from Germany amid clash with chancellor over Iran war - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS3lheWRCT29JT0dPWVZJYUI1ZW8yaGdHUGNnaHhVNmFCaFNoNHpvTmVYVzFUdjN2TU9tZURQeTkxTFk0d0VhMUxydXZ3VjBHLTMzWHFtLTdlTEtZU1RHMEp0dXlnZXRkVDdsNUJPNWhaaC1LLU1ySG5OWGsySWlFR0t5d2hBUUVnLXdlODlFUEZGVENRdnZzUnBuWHAzbnREMVZQTtIBqgFBVV95cUxPcnk3bU12b04zZk1JcjVfclhpNDdXZlZ3eG9mTzBrSTZyVTFXbXpZRHRUbTRTUFVMNHBTX1BuQ3JtZ1BONkkxbXFCUzNoSU4tUmFVNFBFX09pSXExZEFSaHlqSUI4UV9PTTRhR2hvVmRITmJhZTBjd190ZEFKSDR5WjIxR29ZRWxfMkdLUEdlZkZyX0JmN1JMWHJsWjlFNHMxTUZlTFBkUHRidw?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a18bd8417aedf56b",
-      "published_at": "2026-04-29T23:23:00+00:00",
+      "id": "5a47aba72db5a07a",
+      "published_at": "2026-04-30T07:12:00+00:00",
       "title": "Live Updates: U.S. aircraft carrier in Iran war expected to leave Middle East with conflict's estimated cost at $25 billion - CBS News",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTWdKUkZnNkxNSGtMMTh1eTZPN3IzaXlvRnlFejVEZkRBdEhMbHZDT0Exd3dLZWZNVHljbnliTmlKald6RHlDczA3UXQ4andVbno3dFFsdXRoZzNhaV9NQVJJU1lUdVR2R0pEcFBwcjIwYkxFMHQtQXctUmlBLVZyeU16d2JiSDNMWFUwYTRWZmNDakw4QXduLUszQjAtclJFRnEwWFg1M3VnYy1KVXfSAbMBQVVfeXFMUGJxLXFqY05XSlBFVWpRSTQxcjB2cjNOVUU4WWR0eUJCdjB2ZXAtOXlNSFZfZTBvbTNJd1gwLVRyZkNmTHhDSGFrUWlpbHFXalY1QXhGR3FXa0RNaHJhY0lEek5UMjkxS0lkaW9jU2h1RnZUY3ZOS0ZBbHowUzB3LW5zRVpFSGp6QVJ5MjVTQ1hFdXp4Nkl6UkVLRS01VHFNeXJsMzBHdzVGVEw0T3IwczBhSXc?oc=5",
       "source_name": "CBS News",
@@ -338,26 +204,11 @@
       "confidence": 0.7
     },
     {
-      "id": "0b8d15301a730a0a",
-      "published_at": "2026-04-29T22:57:21+00:00",
-      "title": "Trump Says He Is Considering Pulling Troops From Germany After Merz Blasts Iran War - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxORTVobVVxQW5Cc2VYUDRSNV9sRE5yZlRWZGRqVXNmeG9SSUQxbFVsTWVnc1FLV1JZaHlSTkxKU3RVREhhUEJzdFFrczAybk9qRFpkd1lFMUVBMi1ab0tkeU9ocVZiYV94cTFoejZkb2NBa2E5RFpBYUREMzVNSXphRFYydnhsOVlQYmdSVkpxcEFLWUFrNnN6M2xJU1lqSnNVTXpZYUlEa242a3VMaTRTNEhBYnBKSE1EWXBFbU9sRXQ3U21zeU9WZTdxS2lQdzNrbnVVTkJDWC0?oc=5",
-      "source_name": "Forbes",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "18446c4a25203fa2",
-      "published_at": "2026-04-29T22:56:48+00:00",
-      "title": "Democrats press Hegseth for more details on fatal Kuwait attack - Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWtBSFY1Y2RWQU5ERmd1LVZKM29zT0xKTTNIQkJ3cEFVSzhNQU51S2Ffa0MzTFpvdVpQd2NsQnN1SnpwXzdfRlR4QW9rQlFqYUpNeHlRRTF5N19XWWlUdjdXU25uMWtfdlZnTnZldVlRMzBGemZkOWhVSlFQWU44LTAwemVHNmY2bHJZdnd3Y3NQNXM3QkdaYnZR?oc=5",
-      "source_name": "Stars and Stripes",
+      "id": "5e4294168775942e",
+      "published_at": "2026-04-30T07:10:23+00:00",
+      "title": "Trump Weighs 'Short...Powerful' Iran Strikes As War Costs Hit $25 Billion: Report - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObWRwNW1TUEdEVjRETWowckh0dWNSSlhBR3Y5dzhpNlFvMWVyVl9tM0FjSjZnWjczazlpUFhXM3lnVkNkQWtsMnhSakp1VVpDY1hKOVp0MEt0b2dlcnF3TW02RWljYjcyWTNwdHFTQkVRVDhjYTh2ZzBDQmdyV1ZWQkhUZl90SWQ2RG1jU1BqT1dlMUdRaEwxMWdSVmNvY2Iwa3RiNGRCQnNmaG0zemNOU2lpWHpRcDREMDg5clhCN2xLbmdNOWNWeg?oc=5",
+      "source_name": "Benzinga",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -368,11 +219,26 @@
       "confidence": 0.65
     },
     {
-      "id": "4d4db4e612e50ea4",
-      "published_at": "2026-04-29T22:50:10+00:00",
-      "title": "Hegseth\u2019s contentious hearing in Congress reveals partisan divide over Iran war - PBS",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOV2pNdFVGVjg5YUt5Zk05YU9yU2Fhdzc4R3d4YS03TGZleU9vUTBad2tBLWtkcGk1d0FwX05nbUVQSEFudGFZRUpzejlrOU5iUThPRHJLSjMtTldndUhVN2JucDJTalJGYnpDYXhGSHFBQ3k5emIxemRibkhNYVFVbUYzckZJX3F5dUJYWG1HbHpGZTVfTmlxcDdYM1huOHNEck9QdEo1RUJ0Y21UUFlaaENR?oc=5",
-      "source_name": "PBS",
+      "id": "45599a2a7cc939ba",
+      "published_at": "2026-04-30T07:06:01+00:00",
+      "title": "Could the US-Iran war become a protracted \u2018frozen\u2019 conflict? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPODJPdWZ6RGhSMXdCUjV2WjVNQnNMR1U0bjlNOUFoZFRBLU40YlVIYkZteUY0OHNrTmcyUDdEUU5WVUVIQ3I2YXp0bm1pSmdaUTJHU0hrOWRpMk9zUEx1MFVxd2YtaGs3X0VGMm9GdTA3TnRPRVNNb2tqTXU4YUEzTDRzVVdYRnJSNlJvbjh1V3NULV9hRm5XOXpwa29lSW_SAaQBQVVfeXFMUEdZc3NfWjFnZHlwSFhRektmVUN4bFlZblNxcVA2YkRzSmo1NVRhOWVLemJZQXNWV0d0M292bWdVT1o3NmV5cFBmY2pacXpiRlAwS1drcVlaUGxVMmpoc2hxanBILUs4M2I0Y0ZPVGdoZUNpM29hZTQxQzNla1Uyc0Vuc0x1R3hWa01EdG9GWDdFc0hoRlIyb0w4dFJ3LUdPRUI2YUE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "07131d0c509426bc",
+      "published_at": "2026-04-30T07:03:07+00:00",
+      "title": "Could the US-Iran war become a protracted \u2018frozen\u2019 conflict? - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNE5OSUNTZ3B4b01BODRZa213cUx1dzI1YnpaN0tNbUxpTG5nakZuSFlOLXFGWHlyd01aU3hXdlhGVVV3dTFvZkpKeEsya0t6SU45Y3N6SXZ3T25oYm9TRUp1enNuWW5IaHdUQzhWaC1xWU1pTFBXRWpaREF1M2trZQ?oc=5",
+      "source_name": "Yahoo",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -383,11 +249,146 @@
       "confidence": 0.55
     },
     {
-      "id": "79830e4215e0a7c5",
-      "published_at": "2026-04-29T22:49:19+00:00",
-      "title": "Oil price rises above $120 after reports of 'extended' Iran blockade - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53aEJrRTBraHBRbGY5MndDTUxWc1JJWnVKQnlWYmdKUmpCZ2JjbW9wNWxGeHlNTHhTM2d6cG5fbnJ4eTJCSTBVVllCMEJET1c4LWpld2lBZmFiQQ?oc=5",
+      "id": "1fd43336ce275a9a",
+      "published_at": "2026-04-30T07:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzYXJDUmQxVEQzZXl5ajlmS1lWNkE3TzViUEZvQ1NybHJlZDRxZkE2M3cxdmJoM1NvMlNhdEUteVNsbDR1RElSVHA3bmZVUjYyeUloMEFtRFpudG9XelpiVVM2SXI4eldadnoydHVyY09GOWhjdWdkSDZzUmZFbjg?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d14a75cb45a38d88",
+      "published_at": "2026-04-30T06:55:42+00:00",
+      "title": "Oil jumps to highest price since 2022 after report Trump to be briefed on new Iran options - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsbzF3QzZBT2o2cXFBNG5fNGpwYlJwVnhndmg0ZE9DV1hSaTJvXzdsRjVNTEt4cmZqNVJDZjJQamVZYVZFWkc3bE9aS0R6S29VYVFqSy1FU3pUZw?oc=5",
       "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "05772c2623c1716c",
+      "published_at": "2026-04-30T06:51:43+00:00",
+      "title": "Trump to be presented with military options for Iran strikes - www.israelhayom.com",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPa2FVTEJPS29lejlteWZiZC0yckd5eVl3bFlKc1FIcURoZlBVNWZ6VzdkZkJ3LXBaWVRQVlFLSEF5Q0RNWjZlb3N2cXVzRlN3NzFoR3p5SWVXWFJ4R0tUb0YyWlpMbG9DTTZZeWhweFJVbHUzRXhXc2ItRTlBS2dHZ2dDdXJwZnpRaXl1UG12WHRvWUF0UmR1YnJ3OVF0b05GbWc?oc=5",
+      "source_name": "www.israelhayom.com",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5ff9aac0a32b4959",
+      "published_at": "2026-04-30T06:49:00+00:00",
+      "title": "Pentagon\u2019s $25 billion claim masks true cost of war on Iran as US losses mount: Sources - PressTV",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWTZSajlvcl91Y2JHODFwcU02SEwtR0tYYzJxdHFoa2pncXpYZTlDNDI1LWhDRVBpdUExZ2lZanBQZ0lROEtubDFfUXZFcjN4UWxlbEhna3lSOS1qczd4RUJsR0tKOGNsTWl3bjFlUElqd1NOZEFWbm1BMlltZG4za0FobGtqc3liNkVkQlRHemxPUC0tZkhZQkpDQ01CTWNQMUpSUzlaYWQzVVpKUXpmczZLaWhXRDZyd1ZJemZCV1dMTlRqLUZj?oc=5",
+      "source_name": "PressTV",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "f509e100a9249d1e",
+      "published_at": "2026-04-30T06:28:11+00:00",
+      "title": "Oil hits Iran war high on report Trump is weighing strikes - The Times",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNjJxZzJCV2JqZjgydWVQMUZEU0V2Q0l1WmY5bWJVRFhhbERlZTNOUVFmcFVFeUFCNXZtQWlwbTVSdVU5MVd0d3liR2I0OEZIeFFtMURqcWhnYVd1ejRpbTVheE1lT05XbWlSbXVfdWtFMndaQm90NGF3b18wd0hGUXpqalIwQjB6NDlYbW9qT0xCcnp3NUNidjQwUk9DaVIybHdQLXlVZE03Uk05TTdPV0lhWHZvaG80ejZXbA?oc=5",
+      "source_name": "The Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "74cf45a372db0002",
+      "published_at": "2026-04-30T06:26:41+00:00",
+      "title": "Brent crude surges past $126 as US weighs renewed Iran strikes - T\u00fcrkiye Today",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPNGo3cTZ4T0tIS1pvWWFuR1FPTHcxNFV3QmZ4ZVo1cExGbHJMdjlNMDFyczdlTUVUOXdYRExmcy1CMzgtSEFlbDlRQ0NWeXlPM0laWDBzR3lFMU5LaXBRTVMxRXI0WlNlLXJxVDdBcjJfak5PRFF0REZRNE5CaXVKSnJHcDFhZ25mWkJRRkh0Vk1aM3FJTzAzT2ZKVnpyOWszTk1hU2IzQ2dtVTA?oc=5",
+      "source_name": "T\u00fcrkiye Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ecf3cd86c2143e06",
+      "published_at": "2026-04-30T06:11:00+00:00",
+      "title": "'PUNISHING RESPONSE COMING: Iran Military Signals Hormuz Action Against U.S; 'Patience Running Out' - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQU1NiZGhVdWxHV2llTy1uZjNxcElHZmtlRndBc2lYSV9pNDV6NmpZQVB6YXVGcDdMOEFJMEt5SWY4UEd6cFJqdFMyWXpwS25GaE5ZcVFoUmx3UXl0akpDZFUxYmlIUWNQR1pJRmQ1LTlHTUk2R2pxNmhGZHU1NWFtdTZwZU5RWDQxc2t0NV9JdkwxRE13VGMwUzFhbk92emwyNm5sUGV2X1pEaDMyQVNic1pxYWctRDBrRXkwTXY1Nm1zdUgyZXl4R1Z2NVhkS2ItTGk5dDBzNURrc1ZMZWtvU0Nlc3kwVzI1WDRmLXd2NUZvUEZhSERJNkJlY1RyNHM2Y1pnaVlR0gGLAkFVX3lxTE14N0VueEM2ZnFsOUFfUnlzQ1BJcTczQ29sd19VSzA0NXZ0eG9ON212V2RRNTdtQXZqcXp4cWJhc3VQU2VaeWR1SkIxTWhfWURHZVdRMmhlMXhVMm81VnQ1Y21MaVBZVlRkd0tFYW5HWE1jbWN6SmRxcVdNZ1JoQ2lfZGVwMFlWdUNEeTFENjN3YXRjdDJmcFV0QlFobUFPeENQYWlNQmtEcWpQTzV0M2RkU3Uxdk1HLWRKOElmZzV6RGk0RFF1TWlGUy1WQzAwU1NDaDhEZUJ2SzllNHlzbVhaX09hZWRXNXdzX1BoRzI4NW5RVE1wYnQxbFJjZHB2d3ZMc19CeHFyM2ZrQQ?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d6e9e1d6a66c82f2",
+      "published_at": "2026-04-30T06:11:00+00:00",
+      "title": "US military claims 42 vessels intercepted in ongoing blockade of Iranian ports - Mid-day",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQSWhhUHFadjRHV1VRMEJKbXhIQ1ZfVDl6U1V5UVVqclpLX3RrZWs0RFlPTGY2SUpwYUxsQU5udnRtWHJlalBuOGF5Sm8tbnQ3ZVkyRnZXdkRVRjZ0VEpyaDltS2NYeXJIcjlHMzYtVFJtQzBtN1MzbGh1Y1pPNHN3Tloxb01fT0NnVzhuMWtBQ0NLYnRCSkdVTjlkQm1NOEo4THNSTjZydDE5VkNRc3UyMzNCdzVoblpreWwwTHpOdjM1UVZVOFhsRklBQk1WMm020gHWAUFVX3lxTE40bWU1djdoVjR4VENFOHpCb3I3RUNUNHA5d0tBUTVDSldGUjFTMDdEVXo5N1lDNUdaSUszUm1pbTJxQl9yclBpV3k5RlIySEJvQ2ZVTjVFVmFuYS02ZUQ5bG1ialUtVVZCcGI2X2JzaHhwb21SU0JZaFRuN3BMTkFnV0xvUERnVzV3SXhMY3dya1Fac191ckg3cTZRR1UxWlNpWHZicU9rZjhpYTU0elFEWnZZcy1fTExEQnE1czdqSWdaZ3VsUlZfeE5NRHpzUG1NdklVLUE?oc=5",
+      "source_name": "Mid-day",
+      "event_type": "intercept",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 2,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "a4179026d25c5035",
+      "published_at": "2026-04-30T05:31:34+00:00",
+      "title": "Israel\u2019s economy and financial markets are booming \u2014 even as conflict rages in the Middle East - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNHY3Mkpyb19NOTY2Vkw5bE1vdkRvVGhCZVhlOGF0SGFuT1Q1LUJkS3gya1N2TEUwbzJpVnJzektVLWhzTHVrQmh5UGtFY3BpN0hkaVczZjdXWm5EZ0hGOFQ1cVc1N01YNmltU0NFcmJXRm5nOFFCRGRnNER5VzhPbW1ScWtJR0c1TmRGOVpCUkhhdlFhbmR1WE9rbk1sejAzSUJlNnhkLXpNZw?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e371749653e1f963",
+      "published_at": "2026-04-30T04:11:30+00:00",
+      "title": "Oil prices soar on fears of long supply disruption, US siege of Iran ports - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYjctTjZZNnQ5NElPYUZmZDFENEtoLTNRV3NsZ2lHVzVNN3dsSEhzckNZaG5HOGozalVBc1pBb3hUZVBiWnVhM2ZFZkM2by1RWTVhLUp3XzduSWp0RmlFbGZ0eHR1S042MFlWbUZqTlRnVTJUcW8wTkI3TkE5bDNSWl95SkU4Z3YwbThCdjRYY3EzNjdobjNuUG1LdWZvZndRcVJNOWd1T3pkRlN1MzhiLUI5UE_SAboBQVVfeXFMT3Njb3RfOFhZcUpGTktFVDc5S0JsZVVhZnowaUEwSmZWVlZSTnBuS3BTWTByZUlVNFozTnVrZDJ0ZXYxNHRpQTdXaUlyaUMybUJ3Q21aLVFUeDI3SWNlWEZ1LTY5S210TWhMcE96cTZfYnR5QWluZHJYMXlidF9abHltM2tmX0xCVW9BcXpTMnlEMy1KRHo2VU4xbWpQdzBmbnFWZzRJbXpzX3NTbzQtRVYwc0FSVE9GU0t3?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
