@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-05-07T19:56:04.169182+00:00",
+  "generated_at": "2026-05-07T22:18:03.615511+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 95,
   "totals": {
-    "usa": 10,
-    "iran": 33,
-    "lead": -23,
-    "lead_side": "Iran"
+    "usa": 25,
+    "iran": 17,
+    "lead": 8,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 6,
-    "iran": 24,
-    "delta": -18
+    "usa": 25,
+    "iran": 17,
+    "delta": 8
   },
   "confidence": {
-    "score": 64.4,
+    "score": 65.8,
     "label": "Medium"
   },
   "event_types": {
     "other": 63,
-    "diplomatic": 6,
-    "attack": 27,
-    "material_loss": 2
+    "attack": 26,
+    "diplomatic": 4,
+    "intercept": 1,
+    "material_loss": 1
   },
   "history": [
     {
@@ -68,7 +69,7 @@
     {
       "date": "2026-05-02",
       "usa": 0,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-05-03",
@@ -78,12 +79,12 @@
     {
       "date": "2026-05-04",
       "usa": 3,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-05-05",
-      "usa": 2,
-      "iran": 6
+      "usa": 1,
+      "iran": 3
     },
     {
       "date": "2026-05-06",
@@ -92,32 +93,47 @@
     },
     {
       "date": "2026-05-07",
-      "usa": 1,
-      "iran": 11
+      "usa": 21,
+      "iran": 13
     }
   ],
   "latest_events": [
     {
-      "id": "8ff076e483a2e2e6",
-      "published_at": "2026-05-07T19:51:27+00:00",
-      "title": "What\u2019s Going On in Iran? - War on the Rocks",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54QU1vWXpFSHdpSG5WR3JkZ1lyMGFvRjVEeExRNFdTSjM3WFQyUG5Gd0o5d2tnMmE4ck4yb1RVZzFTZ2tJZHFZbTFjZFNhclBUcC1hYlI4R3B6dUN5eVE?oc=5",
-      "source_name": "War on the Rocks",
+      "id": "c1037a48dd676da0",
+      "published_at": "2026-05-07T22:15:48+00:00",
+      "title": "Iran has hit far more U.S. military assets than reported, satellite images show - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZWdLU3d1NG14Nk03RmtNUEs4NDlTdFA3ellOb3ViNUNpSWZOMUZEZ1N5bXRjbm5rRDVxeUJLeE9qRGVnTUdaUzU2VjJrbDRFUUhiZ3hZcnI0bXFHRjBrTUNqTEdMVjBsTXR1ZHM3UDdsU2ZTczRMSHNqNjBBUXgzZFhtUjJkNk5iQ2JTc1pmbjNQQQ?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
+      "actor": "iran",
+      "target": "usa",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.7
     },
     {
-      "id": "17fc959e08cde18d",
-      "published_at": "2026-05-07T19:47:10+00:00",
-      "title": "Iran War Live Updates: U.S. Awaits Tehran\u2019s Response to Peace Proposal - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1RWdobm1aLVIwaTlTTzFoMmhVMzIzdDdiX0FJRy1Ud1ZLQmpBTmNidzBOUnlCQzdORFRUTjBDRzl3eWE2dDhfOWFybEZJUGRlcXh5N3ZUMnV0dVpYVDNqRzdzV0REem9CckpYUTZkRjFWQkZmaF96UGZaVEZ6UGc?oc=5",
-      "source_name": "The New York Times",
+      "id": "aaab3106d15ba3b4",
+      "published_at": "2026-05-07T22:12:46+00:00",
+      "title": "U.S. launches strikes on Iran after attacks on warships, military says - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOb2FzdEttbVlOSzFNc3NMM2xsX1N3bTR2WndUQlJrRElaU0N0NWV6a3lPV1o5MHQxTWRTTUxaOHhmZHFlNXQxWkFiX2ZwTGpaVVNJaXRWWVdJOEw3aEhiazJ5c3pIUUFFeHd2aEZXOTBmbmU5R3JzN1JkeVIyMEhZblN4WnBhdlUyZVo0a1NQSQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "72a3dd0dc67561e3",
+      "published_at": "2026-05-07T22:11:59+00:00",
+      "title": "Opinion | Trump risks snatching defeat from the jaws of victory in Iran - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOWhxM1BZOGNkMGZGNm1zcHc0RFZfNk9ERUJsbG5fUk0tMXBnZXNIek5YZ1Zmb2NsTzdzNWh0MnB3b2luODVqR2QtaDJIc2FyaEtQM2JYeGZoRHU5YVA3ZUVyYnBuZGx2TTB4TFNFMjAtc1RMelBBVFJ4dnR1SkNKR2tNRzN4SGxDOUxUcUtVbENYdlhXY19DXzFHRFp3S0JINWFyNg?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -128,11 +144,11 @@
       "confidence": 0.7
     },
     {
-      "id": "5b0933173180ed8c",
-      "published_at": "2026-05-07T19:38:00+00:00",
-      "title": "Live Updates: Trump says Iran war will \"be over quickly\" as Tehran seeks to lay claim to Strait of Hormuz - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOazFDeWF5OXlhUHFnX01POGI2eWpkSlItaG11T3ZOZ05kSDRVbGcwRTNJTVhBYWE5QzhQRUlCejBmaW9JQ1p6U1U1WkpNdGNqdGkzQmtNVVBTZFZEaDFabHNJemZMSHNzaXpNV2lmZHA1cmFhRXFOVjJBZ25kWTdvUTVHY0RZNjDSAYwBQVVfeXFMTVk1d0s3S3A0VXR0YUhPbkdHdVVGdnZ1ZWhWMUNCX24zT0lzS0xiU1NVQlVzRTJJNU5GRGVURzg5NHBpNXJwMGNRelZFT29NSVJlanBOR1VlUzVTVHJGQmpFdWI2WUNSeEdHQWd0ZXRPYnd1V2gzLTFrMXNQSENCYW42d092UnZBSzlMT3Q?oc=5",
-      "source_name": "CBS News",
+      "id": "0188708eab8fc336",
+      "published_at": "2026-05-07T22:08:47+00:00",
+      "title": "World awaits Iran response to peace deal - The Express Tribune",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORTB4LV82QXJRV2g1a3g0em9qRDNtX085alo2T0I4eFJwaXp4NVA4d0UxVEE5TzlXV0x5RDBVTllheGl5WE9Edkd1blA4Q2I5ZVlDOFFjU1hveEx3cFA3MzJFWm5seUZHNlRlTk1hakVybHJzVkJES3plUllwMEtlV2RpRdIBiwFBVV95cUxPOGFVWEk4M3ZDQ3hJaXVlc1J6T2JITjI3TlNRSFVYV1dsMERVTGQ5aUtLYjk1bld4NEFRX2t3RlBMZ0ZYSmk4Y1lxM0NQYkVnN1NfMzNQY1FPSjBBeS1WQUMwS05SNGJOSHdFT3lIby1tSWNfLTJUZmNhenFFemozRW96ZE9hMHhZODhF?oc=5",
+      "source_name": "The Express Tribune",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -143,11 +159,41 @@
       "confidence": 0.55
     },
     {
-      "id": "f873d3bda9c158f9",
-      "published_at": "2026-05-07T19:33:00+00:00",
-      "title": "US and Iran close to temporary truce, Pakistani officials claim - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPM1RMUUpOMzBTZ0NIZlVUNHJuZGJ2ZTN2eHFLa2djczdhVkIzbkQ5S0pycTBjZnc3WWpGZWRBQ25LNGUzaHJEcEgyNHQyVGN0bkZ1Y1JvR2JRRDdmOFA1TThYWGN3S2ZnZWlxTzAyNXZiaUhqakp1dnVjQ3g0YmlDd1lnOUtnNEdWUEpRWElLVzJFanBmLVNzUDBYTnFyT0VHWmRJV2RiTFh0WTl1?oc=5",
-      "source_name": "The Guardian",
+      "id": "f22725d300969e04",
+      "published_at": "2026-05-07T22:06:10+00:00",
+      "title": "Iran War Live Updates: U.S. and Iran Trade Fire in Strait of Hormuz, Despite Cease-Fire - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1RWdobm1aLVIwaTlTTzFoMmhVMzIzdDdiX0FJRy1Ud1ZLQmpBTmNidzBOUnlCQzdORFRUTjBDRzl3eWE2dDhfOWFybEZJUGRlcXh5N3ZUMnV0dVpYVDNqRzdzV0REem9CckpYUTZkRjFWQkZmaF96UGZaVEZ6UGc?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "67966a804dd57458",
+      "published_at": "2026-05-07T22:05:49+00:00",
+      "title": "Iran war live updates: Iran reviews U.S. proposal for peace deal - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aZnA3clh2OHNlSk8zWERXejh3R0ViWnd5c2lBenF1RTR3TnUyRGloVzVEbXlUVUFNc19LQWJGS3V6LXprU1pyOHJ0TzhldUtLQ01QOU9LTk50Mlo0RnFWS1lTUklQYjRtR1E?oc=5",
+      "source_name": "MS NOW",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "91e0b28fb6c47908",
+      "published_at": "2026-05-07T22:05:00+00:00",
+      "title": "May 7: Iran swiftly responds to new US adventurism in Strait of Hormuz, reasserts dominance - PressTV",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPTUMwVkRuQm5qa3pVOHlPUlI3OEswYnZWdVZyX19CVHZzbDlZb3RJdnB6X2NhLUF4TGI2aWhYS2o0MDdrVXlBekI0c2lDekJVcklsSXVlVFpiS3VzWVlTVHBzVmZpRkhLQVU0d3oyOFp5SVJhRWVnNEJOVDVCUG9zVkxyb3JTeWQ5cWpscUFlZUNfR1ZwWVNRc2NkR1JkdVJkb1RpWVRLemI3R1d0UmcybUJVZ0J1aVdibGZZckRyZ1BJb3pnSnM1Zw?oc=5",
+      "source_name": "PressTV",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -158,56 +204,116 @@
       "confidence": 0.55
     },
     {
-      "id": "224b75bd37d278ef",
-      "published_at": "2026-05-07T19:14:00+00:00",
-      "title": "Iran creates new agency to control shipping in Strait of Hormuz while reviewing peace deal with US - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUkt3M3BQa3VLVHFKQTh3MEhnVHFhZ241MHo2cm8wdnd4S25vdzI5RXRIY3JHVEl4TkliUHgzNkdoZllvSGNUQkxWb093anEyQnZlM25EQzlQSDZuTW5GVzBob29YdktSWWxBUjBSY2l6TlA2dUM3Vk1UT05iZ3daclJ2amNRU0gzNVJfS3FSdXMxWXc?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
+      "id": "6e3bb8051371e9ab",
+      "published_at": "2026-05-07T21:52:00+00:00",
+      "title": "U.S. strikes two locations in Iran near Strait of Hormuz - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbENYUWVWdk8teXh5TnMyTkI0aWpydjlmNHVWaV9weHg1Y285SGxBY2wxVzBneExySE9keFpsRk50dlVHZU82MUprUzZMcHZod2FaSHNNWlg3TjR6ODJCalhzM3M3NUNzVnEtVTllNDdqTUhic0UtbDJUaERaXy1tNkRZazktaTk2X2dTYXJkaGoyRkYwRVVFY0VhUzZ4dEE?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.8
     },
     {
-      "id": "47475fc19967f158",
-      "published_at": "2026-05-07T19:11:09+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9saEpROVFUXzB4QzBtT1Z2ZWlmODQydTdKdG9aRXFPb1BjQWV0LTFNdjAyZGlrTlVMX3Z4NmZTa2VGX0x1WlRrLWZyNUtRUlkwMTdVenNBTFcxR3I1MS1sYmxHRHFKMWtveVFXVUU5bEpOclhhcUl3OFRXVlJ2b1U?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
+      "id": "3a8723a8c0866d58",
+      "published_at": "2026-05-07T21:51:00+00:00",
+      "title": "U.S. strikes at least two locations in Iran, American official says - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwN1o3bExZQUg3UE9UZDdfcW1MWTJ5RWd6QmRIaVk2QUF5aF83SDk0akVCWkpib09QUFlsY0YzU0ZubkZObkUzeTZ5SkZnTFNwQW1HeEpvMlNxak10TzZUZ1JvMVROVk5DZE82MnRR?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.8
     },
     {
-      "id": "df5a8ef01d6bbdd8",
-      "published_at": "2026-05-07T19:02:37+00:00",
-      "title": "Can China help end the Iran war? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMW5rYUZaZ3ZFT0ZaRkUyWnlrdzItcm5wSWp3QjNodENSaXY5cGlCTGg2VEluQmgxWFd1ZTAyMV8wUXVYODg0MHlINzJvLVhma2tlbTJOYlBlR2ZreHMxWGdSZTdOSVRJM2Y2LUhVVngzQVJ6bU1hLXItZVJmNDlCT0lLN3N1NnRjVkQ2VURn0gGTAUFVX3lxTE1BTlNlSzNHZk53ZHNNN0RpTzExbTliZzdzNUM0enJxVV9Ed2x3bGNRUHAwUFYxVHBkdmlZTDJlTi1DSWYxN2lVVzhKUnROVi1FSG1waFo4SHpwcjRSWDJkNm9mdEZka1JBQ05BS1I1ZXZ6T09ZTjNMUWx6WkNwWnRQd1hZRnVjcjIzTEh1Uy1wTW16OA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
+      "id": "22332484c00f6b7b",
+      "published_at": "2026-05-07T21:50:17+00:00",
+      "title": "US forces strike military facilities in Iran as countries exchange fire - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWXUwRGdlNmJ0QlZ4YlNseHlhRFRoZlhxWG1jM0xMZnB0R1lyUVhBcjk2U0Y3U214Yzhib0o2RFF6dW5Hb0lZSkhCRXhBRU9XaTI5RWRMNXdER2RZdDBtT2ZMb01XZU9tRnhJLUNOd0dQTXRzdnNVTGhpcW9LSVF6c3hYSmU1MEN0aWo1QQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
-      "id": "6c10bf46d07d702a",
-      "published_at": "2026-05-07T18:59:13+00:00",
-      "title": "US Awaits Iran Response to Deal Offer - Deccan Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZE9QbkptR2h6b1NZQ0lUeW1zODVjUENXd1JWYm1zNlJjeGpaVUE2X1pSeTdBSk1JYkpKOWhjSEpaM01uaUcxLW1XLTB6a0tMb21Tc0FweG9RTlJqTWhYekFUV3o3RENlZjN2RGVxeDFCWjRkMElfaVVyRl8zUGlKMzFvY0JuUmw0eUk40gGQAUFVX3lxTE4wcWdZandWaUxmYU40cXBoSkhJcmFuelQ2Nkx3cjZTTG95ZW4yX2dIenRDNFZkalNMRFJxLUQ2SV9xRWlrY1J3WW5zZHlIQkRpSnNRSVo3Y0RQYmFqRU0ybjQwNUpBY24yZEdPSFFGYUljb3JscUtjNmZKYy1TUGlKaEtvR09FdEVieGJWX2dpQQ?oc=5",
-      "source_name": "Deccan Chronicle",
+      "id": "6c4b8d7627d9ec82",
+      "published_at": "2026-05-07T21:48:02+00:00",
+      "title": "US carries out retaliatory strikes against Iran, US military says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPOE1uOURBaC03bzROOEdzRzdQOGFvc1hOanMxM2w2NS0wOFc2ei1Ga1JDMHBTd0QtVzh4ZGdXSE16TFhkM1lXTWRZXzZ3bDM1SFo3Y1JfXzRoV09fQmJZSUZmOHNpWVptcjBKanJxM21GUS1Ncjc2Qm1rOTFkTk9yck9XWWRfZVk2QWNrdHZNWGIxUEkwX29aMDZ5em5ZaHZfcWlTQ2tncGh5WXFRT2Q0NnhyOXJZU3dYOWc?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "d67c33b37acdee7b",
+      "published_at": "2026-05-07T21:45:51+00:00",
+      "title": "US says it has targeted Iranian military facilities after responding to attacks on navy ships - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95RHFJYjM2ZkFnRXRTMlVqSmFob0NKdld0Z0ZwMWVhU0FZYmN2VVZtNmZiaEJCTjAxRTg3X2pSMEJqT1VwTWhjam93eGFEdXktM1VJWA?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ce9e9edaecbfb9b1",
+      "published_at": "2026-05-07T21:45:39+00:00",
+      "title": "Mideast Conflict: US, Iran Exchange Strikes in the Strait of Hormuz - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRHZMU3BRWkdKM202dDJkY3ByWm9RLWNIa3hwTjB6T0lXMWpGX000dF9wbDU2TVlyRnk1Skl0aXFyUVhzNS1HU09ES3BIWEliZDRpYUM2YTFUcjBtejVtLWtEZjhLWTVtRGNlbkdGcDEtRFhVOGxoY3lNQXA4U1pMeHcyYXAyZm9EOXVfZV82Q1VKQXdPaTM4UUlfTXozeUNuWGVzRGEtS0Ffb2JhdWx5aWk4bVNobFlsc1BR?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3cc5e47de4ff1828",
+      "published_at": "2026-05-07T21:45:12+00:00",
+      "title": "Iran-US war latest: Iran ceasefire on brink as US strikes Strait of Hormuz - The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0IzZGxmaUR6QUlmTjF2ak5WUUhVc1BrcmRCbmJQQWg1cUF6b1V4TjJmX052cVBuN2tTUE93bFJmR2FYSjAzMk1oV3ltckVwZWU3UW9BdU1OT2xhRVA3T1FrV1ZId2t2RGFIZ095MnJFOHh4amFZUkY0YnpFdzFlYWdJMVdBdXQyVDc2THItT2hlbHZPQ1pkQXBYakxOM1lYRm9N?oc=5",
+      "source_name": "The Telegraph",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "00ce7218b8445da3",
+      "published_at": "2026-05-07T21:43:51+00:00",
+      "title": "Iran creates new agency to control shipping in Strait of Hormuz while reviewing peace deal with U.S. - PBS",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxON09vaHJOY0lrdDhKdFlyOE5LX2ZDTEp1OXZySXZEQ0pzY2gyZWY2bFhMSUpna3hZQ1VfZlYxbGVuVE85LVFPNmJHSzNaQjhPRnpXNjRfajNTQkt3X3pCbXdtLU55aVRRbi11dzl5NlhodUF0bC1UT1lNVndLSnJRNGZianJsVU8xTTJOSWhFNWxXQm8wNm5KY0dwMk8wN1B1NkN3Y2NOM2N0NE9jRC1qVHNaZVNVbFgyTVlWYkl5NGp3dTBiTlNmaDZqdjJTUFnSAdQBQVVfeXFMTzlwakI1S0RNYnhjRkFmb3BlOFZfRmJ4TVVrY2c1MWVVanNUYzZHMGk1TWpzc1lUdVp5dGNBVFNnRlZTWHk1Q1R0RURtSEtHbGJWd3kwWkdmSnZGYlQzTVNzOWItOTJkRnpMYjF2Q2VoZUN4aHFKN3hkbVUxQjdSemdRTDM0THlrYkU2SEwwcVZla3FLTzBfTjk5WFFDZmh1bS10MU1TUUlWNHYyWThyT0ZHd3lJWVVZczB6TloySDBaSTlkYXB4aUx4VkVFQzBqdE9Qdy0?oc=5",
+      "source_name": "PBS",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -215,11 +321,56 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
+    },
+    {
+      "id": "3ed4ee582b5ebe60",
+      "published_at": "2026-05-07T21:43:39+00:00",
+      "title": "U.S. and Iran trade fire in Strait of Hormuz; each claims other shot first - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQc2JaSmgxcjBGamdfUkdjcnRMNFZxT0dHX0ZuSEVQbHdQUkxjZFZrVXhkN1NoMjFnZjRlVElhdGJvaEs0QlI2eEJjUmgybFE0SUNYTlVVZndwNWpYcFcwSHFMX0xGU3FxZE8tVkY4QXZzQ2NwQ00xWmtkcG9kUnEyc9IBhgFBVV95cUxPUnluRmctQlVmd1JjVUI2RkpHakZNcG92WVNwSHB2QklseGY4V0tCTjBybWtYWkNmX01HRjR6VTU5dGl6cGNJTUU5T2dzZkktc1VDUzcxWFhLaDdmbTQwdEdkaGhOb25aNzEwaEZVTjVHZGU4V2p3N0dGZDJMZ1NOVjFiYkd2QQ?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "51dcd62eb5c59f2b",
+      "published_at": "2026-05-07T21:32:31+00:00",
+      "title": "US navy came under missile fire after US attack on Iranian oil tanker, Iran state media says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcnplWTR4X2ZCYk1JNWVNTEkzbXM3WWlEX1BVWW1oREU4UjRCQXp0bU0zSzNZUF91SkZzeWFnQ2RTR0xVck1xTGlwX2JpX0JpVm9QOXVOWTRZdzRUMVZLTTlRUGFCaHBYaHZidUFNWVowc2VacjF6eUwwWTFBeF9tRXJidVQzQ1N3RFdqR2RIejhOcVpxXzNlQ0JOeGdoVkhEZERBMUN1aTRmWkdaN09sSkVKR1M5MGNXZUM0X0Y4TQ?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "acdfea435ea65465",
+      "published_at": "2026-05-07T21:30:00+00:00",
+      "title": "US strikes on Iran came after anger from Gulf states over Tehran\u2019s attacks \u2014 Fox News - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNVTFfbEwwV1c0T0Z4Xy12dEtnRWRIS1RYMzlEdktjRDhrMXI2eEludC16MFVLM0FBOHE1UU1RaWNQcUhrR1JxOHRaaEhYZnVXLVpVZmNTVVUzOTVjUUJYeDFCOUVkaWpJSkdSbzlyOHE2eUtzUmpZYTV2b043UDc5NFdUSjNUUGhuTG5CTC1zNDVUWGNhYXpZNVpZa2wxWVp6bEZlVFljcUtnVHgzYUJNczZGMUZlR0NaSGJtXzBTdG1PVC16X0lN?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
     },
     {
       "id": "58666773040b0eb1",
-      "published_at": "2026-05-07T18:30:00+00:00",
+      "published_at": "2026-05-07T21:24:00+00:00",
       "title": "Live updates: US awaits Iran\u2019s response to latest proposal to end war - CNN",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9JVDFidFVGQUhRSDBTSVE1ZUtIbkFHNFd2d09aY1hVV19PczBxZC1nWmphX3g1dXlSeGs3aXpRWDJleVdUY1BKdVJFN2lRVG1hVkdHMmtBbXplRjdOenhXcl9WclhfRXY3RktGNTlqZXFhY1Fj?oc=5",
       "source_name": "CNN",
@@ -233,146 +384,11 @@
       "confidence": 0.55
     },
     {
-      "id": "902e93a6820b618d",
-      "published_at": "2026-05-07T18:21:00+00:00",
-      "title": "Iran mocks Trump\u2019s \u2018Project Freedom\u2019 as adversaries wrestle over talks to end war - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbnBlcnllR3hWMW1BdThjZV94bUZJcnlYN3ZkTXRpeU4wWnJtdmw5RVVHU3FxRVNUUHZFY3dVbFgyNFd3MG9MRlJIMlM1QU5wS1ViaDJyZE9YUk13UExMcmFaVUx1emdpeER3ODdaS0JvUWNHMUNQS0hwaklJeGFuYXowdzJyNHNuRjF5YTZB?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "72e4d525cb1e8a14",
-      "published_at": "2026-05-07T18:08:50+00:00",
-      "title": "Iran war has shown the limits of US power - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQdGVIdHg3NmVIYlFRZUF6QUpPY1poRURiaG1HYmh5NWhhbXc3Rl95Y0hJbU9YZzUyajZMa2Y4V3Y0bXNUdWJuUnpXQlRCcTY5VlZHaXNBaWdDVGZudzdYbjBtU2ZiRHRRQXQ0OHZUalY1QWNCS0EzV0FtejFsSkhzYzBR?oc=5",
-      "source_name": "The Conversation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2bc960c29066a21b",
-      "published_at": "2026-05-07T18:07:00+00:00",
-      "title": "U.S. Awaiting Iran's Response to Short-term Truce Proposal - Haaretz",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxOOE9MU3ptSHZSUnFQR2JHZnlZTDFPb3hpM3luTzdjVVFwVklPMWQ0ZzJtS2NkV2VEcmpNTmhxelFjaHV6ZXk2TDFwVkhsaW5EOVUtQzdCcFI2S0FidHhKSlZaUHR1akJOQmZPVURiWVd1NVNRYnU2SW83VE9ZTVlIS1lkQmQtSEJRNUlNZ2dOYUpSNFNUNlRyMUxaWDZ2WVhVZnVNZW5WVVhRdXJXdExmTUw3Y1RuQ0JzSUg2M05wWlptVjdjbTNhckRSR3E3OHV6ODN6Z2xoZzV5WDRneVJUQjlxeFhkZUh1NzZaUkdqT2lLV2M?oc=5",
-      "source_name": "Haaretz",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "284e578d24be7dfc",
-      "published_at": "2026-05-07T18:00:00+00:00",
-      "title": "Iran War News Live Updates: U.S. Awaits Iran\u2019s Response to Latest Peace-Talks Proposal - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB0UDIzR2pMTTA1R1BpVmU1Z01nOWhlV0gtR1FwelV6WmxvYUlWR2NzY3IwZkNyT3ptcHJaRGRUSjdObmh4SWlsN0laZGdzOGs1a1gtTnV5SnRfTmhudzFGVFR1TmR4d2VF?oc=5",
-      "source_name": "WSJ",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "ee8642d75b593a9e",
-      "published_at": "2026-05-07T17:24:00+00:00",
-      "title": "Live updates: US awaits Iran response on proposed war-ending deal - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSDZGcHp6WFZpSF84WnBGX2hSb29tS0hhZmNvTmdJRTlNbWQxczg5VU92TjZMMm9OQ25yTGVoNm1tS1dyaWRGaVd4UmFRRFRjNko3WW1NWVIydjBhQjJ2XzZCOG00SzZNdF9DcnF3Z05EUnpUbDZOMTNhTFQtelJrWEN3Q3BtVl9kVmfSAY8BQVVfeXFMUEtfc0lYSnZmcXB5WV9pTHRpVnRVSW4zY29mZmY2ckctb2pQb21IQUdtcnN2N3N4eWd5VVNGSXNaMV9vWEhoUkNqdHJfUEQxSUpoMFE3TDY5cUxPMXpkYUk2amdySEhjYzVYMzF2Z1kwVjgxQV9sVExQNVh1QmJIcFZXdlRCbzljdGJ4SE1qUm8?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "3179d59e85bdae49",
-      "published_at": "2026-05-07T16:51:00+00:00",
-      "title": "Levin: Result of reported US proposal to end Iran war would be \u2018disastrous\u2019 - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfeGdlY2lkOFVjd0JpdzJ1RnoxNmx2Zkhwb2RqQ1Exak9maFBickJFYUpSQ3RUT0otSm5vSG4zM0ZydnBKaklpbGRZUm41UWMzVkc4WVMtNlpvOXdNemVJVFgtV25oSmJBYkRuSGtoY2VkbThH0gF6QVVfeXFMT3loXy1GQTgxaUc2TmNuOGFTeldrTWREdVBJZ3UzbTEwSEdURWE4UXNIZXNlV25HcHhBbXJoNEVXSnl3OTh6ZFpEVXN3bExudW9ySDNlbC1lYVZXSUVZcUg5dk9DRDF1QVhKdzJaMm94ek8xOFNXQUNLRUE?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f28c2c2a04662449",
-      "published_at": "2026-05-07T16:48:36+00:00",
-      "title": "Kalshi traders see odds rising that a U.S.-Iran nuclear deal will be reached by 2027 - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQU2UzOUxOVVZxeFdWNTdiZXE0N3pETmJyYnBxMl93ekE0OUtWNDBxVThwQTByZVctbUhyemNTTFN2UDREbkpJcUhORjZ6bnBKM0NQTHJtempfMlAwTUFaMWNBbTBHc0YzanZhcXh0VGR2ajM4bGgwamJTR0xNZnQ4Wjh2MTV6WW5icG8tWmtmRGstU3hUaGo0MkxhZk84cnd0cjFVU2FEN2lqcTRyeGpkcTFLX1JGeGF0Y2tF0gHAAUFVX3lxTE4zdjBhS3dzRUFhRnFqSVVOYS1MZ2dwbzJuR2tUTnB2NktEeUROcElQMl9PVWEtT1pfLXlvWFc4QnpRQ3FmRlF1VDVjM21UdkpyaFRHdFBfN1lQVU94bFFqSnVhRjc5RkVGNUM1dHk2UmhlMVdRWWh2YWk0VVpLX1RZU1R3Z3FQMDE2anRPcHY2bkdXNldfWHc3eGtRWjUtNjZTaHV2RlJXdkhIQTV5VlNQcU9hR3BCNmRSRjRObHhqeQ?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "28b928e185b38006",
-      "published_at": "2026-05-07T16:45:43+00:00",
-      "title": "House Republican Proposes Bill to Wind Down the Iran War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONUl1cHFiV1lYcnpTbm9OcExpaGw3eUxMXy1OcUlPSV8zRlktSEE0b1NWU1E3OUpLUVRjM2swLWhLcHozSERyekhZSE5BZFowSE1VeVI0b1JDcXh6QUNXRUZFRXdwbFRwOXMyNVRVcEFVYU9nbWFnN2ZjR1AxLTM3dm5nYTVva0Fnd01UZzN1M1Y4MXFfcjBSdTN3?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9f698ccd55bff475",
-      "published_at": "2026-05-07T16:06:15+00:00",
-      "title": "Iran\u2019s President Pezeshkian seeks to quash divided leadership narrative - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaFlDMGlHak9BSE5oNjFUWEhVNGkxUmVsc2hDNkNZSEl5X2hndzBlMnBfaUJubVFzTVdMTGFGRFRIdjdFSFlpNHg5UTQ0azU5Uk9MWHE0SS1QZDV4bWlJLWUyMjJkSE5ZZW9RamRneE1XaVNkWS1pWm1DaHhsLVZKcUZmc1RuWlZ5SjZZdWdsYTJlRkZDeXl3SUZ5VWFuck40cUtKUzZMdXZjaG9YMTdV0gG0AUFVX3lxTFBiaFVDaS1pN0FudUszVXZwaVpPOWNjWW1FaVlnbS1NNFZ2OGxBMWxUeVhGLVRlSk1mWVphcHc0ZEZVdFFNTnFESWs4R1NLLTVIWkdnb2R2SE5GXy03Y0FoYmVkUDlFbGZ3VmNQREtWVmFsWmZzaG9sNlc1WFFPaXB4NEJINFhUMExXVExhUDM2ellxX2lWUTR0RDI0RUFkdzlmM2pNX3ItV1FIaG1McXVXVVItVA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "acdb0f813ba42b80",
-      "published_at": "2026-05-07T15:13:23+00:00",
-      "title": "Iran reviewing U.S. proposal as Trump pressures Tehran for agreement on deal to end war - PBS",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRFRSalJwMmNuSzlVcFdlMS1JZVM1SFJyUE9IbDJnTjZ1Wko1RDZfOFdHXzhTc3dEU0szZFlndWh3ZXdkMTFJeDMxUFFySVpwWmNHWTl2Ny1lS3ZhdTR2cC1aSVFkQWJkOF9sazZ4TWJQZXVGb0tnSFZXdUdjbi10Y0sydTZIREtfNU8tZWU3VWZQVVVrbllmLWFlcDM0YV9ySXZCa0pBOG84ZWxTR2hfWEctM00tLW5oZUtBUXJB0gHDAUFVX3lxTE1Cb19qWl94UDFvMEhlUkJuZkhVX05HeFlLNXJMVWFJOWZFUVNwakpqSUJMRXlMUVgwNzlVOVJOdERpcDF5Nzk4MDdubUNYX2gtNDlvbkpPNC02YlhuNU4tMXRWeWU2TE5RQ01YbUVRMy1NY05ldktVZUFLQ2Y4UVB0QU1hMXNiMnlxMXJRbDRGOFNqRjl2WG50dk1ObWRab2RiR0owUEpROGo1eDdTc2ZkeWRPVXRCdkNjWFJlSTRjQmtXMA?oc=5",
-      "source_name": "PBS",
+      "id": "39c69d49a22aafb3",
+      "published_at": "2026-05-07T21:22:04+00:00",
+      "title": "Iran and U.S. exchange fire in Strait of Hormuz - Axios",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBwQnR2X3ZtNDFrbkQwTTRjcnJtVW8zc2pMTXJxLTFZUDBDOTRGaXhueVVLekZaSVdpNGl3MkpqT29EekY2ejFXSU9PdkpNR1ZNamdBakI4ZUZob253YlIwanVpUndGQ1lETktXLVZtWV8tc1Q2VnVR?oc=5",
+      "source_name": "Axios",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -381,21 +397,6 @@
         "iran": 0
       },
       "confidence": 0.75
-    },
-    {
-      "id": "ae17fe37e601b884",
-      "published_at": "2026-05-07T14:49:56+00:00",
-      "title": "Iranian Attacks on Iraqi Kurdistan Threaten a Vital U.S. Partnership - JINSA",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNR1VWSGtZV0lNV2p6WjFDb2Q1dXJZY0F6MGlSYzFQYkJ1dzdsZmdpajROWXNHLXBCMGU5V0JFV0d2QlA5QWE0OG5UeC0xd0huX0dfR3NVVEEwM0hJeGRFQjdPNjNaSHNOQl9EZTE2RHlRS1VaUUpuZ3RNS2pKRGJCWVhkQ2xBUjExMWFQM3pTdlcyd2NiRzhESk91QWo0MXM0?oc=5",
-      "source_name": "JINSA",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
     }
   ]
 }
