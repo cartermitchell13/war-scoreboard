@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-09T13:54:45.421871+00:00",
+  "generated_at": "2026-05-09T16:10:28.953655+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 77,
+  "event_count_window": 85,
   "totals": {
-    "usa": 30,
-    "iran": 16,
-    "lead": 14,
+    "usa": 27,
+    "iran": 17,
+    "lead": 10,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 30,
-    "iran": 16,
-    "delta": 14
+    "usa": 27,
+    "iran": 17,
+    "delta": 10
   },
   "confidence": {
-    "score": 69.6,
+    "score": 68.4,
     "label": "Medium"
   },
   "event_types": {
-    "other": 34,
-    "attack": 27,
-    "diplomatic": 16
+    "attack": 28,
+    "diplomatic": 17,
+    "other": 40
   },
   "history": [
     {
@@ -77,28 +77,73 @@
     {
       "date": "2026-05-06",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-05-07",
       "usa": 12,
-      "iran": 4
+      "iran": 3
     },
     {
       "date": "2026-05-08",
       "usa": 4,
-      "iran": 7
+      "iran": 8
     },
     {
       "date": "2026-05-09",
-      "usa": 13,
+      "usa": 10,
       "iran": 5
     }
   ],
   "latest_events": [
     {
+      "id": "d2d6e7ff061dd47f",
+      "published_at": "2026-05-09T16:00:00+00:00",
+      "title": "US attacks Iran tankers as deal hangs in balance - Taipei Times",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1yVnEzNzh3c05jcG9fS0hNdlFHWTVCUV9LRGhPczBDWEw2RHNIV2lkSXYzd2dZT1JyakdIZTBJcHBqdWt3a2gxUmhlOGRCTTNBbHVBRXdhaWg0VHBteW1kMHAzd2ExNlg2a2drbHNCbF9kRERhMEdfSg?oc=5",
+      "source_name": "Taipei Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "cd0e9f854546bf96",
+      "published_at": "2026-05-09T15:30:00+00:00",
+      "title": "Live Updates: U.S. awaits Iran's response on peace deal as month-long ceasefire holds - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNNmMzLVFDbWpCaVlOZFB6LUhDN3NMQl9hZ0VrRUxkRWRnWXZKbnBCR0FjZXRaUTBscDM3NnZaemdqcVMwYTFLa0ZvMVhOX202d2p1WWh5RUNMcEtEM1ozM1BVcE0wbENNd0pWeGItUUhwc1ktUElTNGZNMU1ZZGJqSWhXc2VnMEIzeEtVMDNQVdIBlAFBVV95cUxQU0xmeWl4aUpGZ0ROa2RLVkc0VmJia0tXczV0d0hrVXdfUVZ6ZEY2LWVmbFhVNUNwTlNvQ1lfanZ3aENZbmFUYzZvUERZQTJzN2JhNVhiQklzZTlXQW95T3d5anhybzdCVVFwTG00akM2bzJ0R0IwYk9rREJzTXNzVktLN0s1UjV6Q1FJZ09fZDNvVlJR?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "d6c2ef48927608ab",
+      "published_at": "2026-05-09T15:11:00+00:00",
+      "title": "A Fragile Cease-fire Holds as U.S. Awaits Iran Response to Truce Proposal - Haaretz",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTEliMDNRNXZ4eWxpbFdJUkt6eUU5eW8zem9CZHZ4dHdfeGFxVzROOEFlaFdTbzA2dW1kS0F5ZW5jbkVISWJETWhEX09MWlc4WTZuTTVhZHpjcllrYjBqYm9ZMDFmOW44VHdnSExHYWR6eko5QnRLeUQ2QVlienZIWWM3ZWpOSzc3Rm5KTE1ULWp6MFE0aFN0RGJsQzlNLTVNSWZfbFNILWNrczU3QUZBRGF5SGc3ZXNGT2tmQlZxZkN1Zm84bkd4WjBwOGExWVVBRmRzSkVXeFJaX3lvcV9ock53NlRPUktrajRST2hTNS1sUFJBODltS2plTVJHcnZmVWItZ2FDbFc?oc=5",
+      "source_name": "Haaretz",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "f99ff90546de4535",
-      "published_at": "2026-05-09T13:31:31+00:00",
+      "published_at": "2026-05-09T15:01:31+00:00",
       "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBKSnVTU1V5V2paUkdLZzJTMEdTaGVhTVlnMzBLb09FQThKeWlueG5PMlNDdHFwamphVU4tdEh3TWpZOElfOUZNd3AwWnlPTlAta2V1U0JSUzIxWDljdVF3NF9KQTZaS05Ga1pzaldZS1pLd1RfVkp0d0pZTkpGb0U?oc=5",
       "source_name": "The Jerusalem Post",
@@ -112,8 +157,38 @@
       "confidence": 0.55
     },
     {
+      "id": "dffc706db88c3a9d",
+      "published_at": "2026-05-09T15:00:40+00:00",
+      "title": "Iran War May End, but Trump\u2019s Ally Rifts Are Here to Stay - Modern Diplomacy",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSGs2T1RWdUxYcWFzOXU3NFVRVUlDc3RGdzBTdzNWV05nRV81MmxRVWUybUtFNHZVZ2xBbE9udGpfelFlbnExaDN5VDk1aGlIV2VzTld0VlJyR0NOeGRhV3JRekxsc3NCdUkyX0tnTmQ2OXk2ck10d2JoNFJJM3dvRjluaS0xNzdIX0ZBNVpRQVduck45YU9tNnRn?oc=5",
+      "source_name": "Modern Diplomacy",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8b05713814830594",
+      "published_at": "2026-05-09T14:54:00+00:00",
+      "title": "U.S. strikes two Iranian-flagged tankers as tensions continue amid ceasefire - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMElVeDRTT2w1dHJyNjc5TG5wNFd5SUVxdHVMdnJiMUhYSjhnYXRSRE1EcUZFYThPUE5sWWJCcTN0NkJYZk1Sd1E4QUxMaDNQSGs5NU9SY2lNS2wyMWlFV3B5Q0Q0djZkOXZQdlJFZ2cxdXE5cjcxN1pJVVc3cldVRWYyaWtjRng0cVRKc1EwWXdnYm92VUg2Rw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.9
+    },
+    {
       "id": "25d2b3188f46dc84",
-      "published_at": "2026-05-09T13:31:00+00:00",
+      "published_at": "2026-05-09T14:52:00+00:00",
       "title": "Iran War Live News Updates: U.S. Strikes Tankers Trying to Break Blockade, Awaits Iran's Peace Plan Response - WSJ",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5VM05SZEowQ252d3FJcHBUckdrQWpHUkEyZ2FnYWVUSHZDR1RnTm1zU09FaTNZX2g4NV83czhRbHl6UW9IODFFQW92WnB6R0VyNVg0dUdUUF9xdHRtUlpsZUN3?oc=5",
       "source_name": "WSJ",
@@ -127,8 +202,23 @@
       "confidence": 0.85
     },
     {
+      "id": "f085b8799f4bbd2f",
+      "published_at": "2026-05-09T14:38:00+00:00",
+      "title": "Iran ceasefire appears to hold and Bahrain detains dozens over suspected Revolutionary Guard links - AP News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0S2RNMVJ5UEh2ZUpfcHpUZEg5eXRwYlFPYUx4aXBZWmExUWh3dmxCUlc2RlgtS3FzcDhPTERiVm14RmhzSTZEVFZVY1lNbFdhbTBwdWFsbFp4Zjgtc3ZPWkVRSzRXQlo2Tm5oNlRXRWFpeDdYbHJVYl8tdw?oc=5",
+      "source_name": "AP News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "8d2e1ab63fbb3507",
-      "published_at": "2026-05-09T13:26:00+00:00",
+      "published_at": "2026-05-09T14:36:00+00:00",
       "title": "US awaits Iran\u2019s response to proposal to end war, despite exchange of fire - CNN",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jVi1NNmlYMUF0Q041c0JmU3RpSE5seERXZElGUWJsamY1YlotSXdpREw1NUp0aGhmVlp6bE4tWHp0dFhiZ3JkS2VJUVNlcGM4dGNnbm5sY1BQeHBiV1pxdDl5YTlOVUJ2MVhNVg?oc=5",
       "source_name": "CNN",
@@ -140,6 +230,111 @@
         "iran": 0
       },
       "confidence": 0.6
+    },
+    {
+      "id": "fa328906765ae1e9",
+      "published_at": "2026-05-09T14:32:57+00:00",
+      "title": "Iran War Live Updates: Attacks Test Fragile Cease-Fire Amid U.S-Iran Negotiations - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYUlKS2loaWFDU2M5dk02SzBIS1ZYWUhkRUhJVmo2S3ZnSmJSRG40ZUVvdzRfcG4zQjNsWGpzR0NXSGhNVzFHTUZMSEVDNWs3WktEanZkdFJzc0ZDTW91OVdlQXRGRHNPRjNfTTJfOHFOVEdBX3JGYWNNSFA4RjMwXzNmY1BablEx?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a445751c8fe5e1d2",
+      "published_at": "2026-05-09T14:23:10+00:00",
+      "title": "A fragile ceasefire holds as US awaits Iran response, Bahrain detains dozens - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNWJQWVFWQVd4cXB0WHlUdW4tVUsyV2hISzN0V1ZXSk84NkNjMDJrWW84SHZVYzh3aFlDUV9jc2RDTUUwV3p6TGtSdkpEQ196NjB5cjlvYzRBZ2kwU3VleEhmRWhJdnh6d1NQamtfZDRfd002d2VPV1NTSHFYbmZtT29uN093LVlzdUdHWllLQlVQVDVkNFpVZDJDeVNBN04wazF1N0ptTVJDSXdiR1HSAbMBQVVfeXFMTlJ2RUFteHFfb1hPd1loTE9qeGF4bWltYWJURzlKcWNmdUY5RnA5RmF2TW8yMVBpRmJrNVl2S1FVeU1UNzlZY2pLOWQ0eUFCenZHb0dPTmRSbkpPOEJ6aVR2MjNIUG1pQTNTYzRqLTN0dzR5ZTFucWJrV05yQS1mLThDMDF2aGZCZUdIalNwMzFib0ctUVVSWHhFTVNwa2djR05Qc2Rza3YzTlRjYlNaYjMzUHM?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c2d55cc66e42fdb0",
+      "published_at": "2026-05-09T14:04:03+00:00",
+      "title": "Live - US says Iran response expected soon as military tensions simmer near Hormuz | Iran International - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xM0Mza0JVZUVHQzNEcUpFcDEyQTdjU29lZWE0ZEJ1MUZhci1HVU5TVVMwdDEzMm16Y2pINzJpUlJnRWNnY3dEc1cxR0VGY20wMW9Wa3RIWFJNSDZoR2c?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "1d8327ee3cd8f997",
+      "published_at": "2026-05-09T14:03:42+00:00",
+      "title": "Bahrain rounds up dozens over alleged links to Iran\u2019s IRGC - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYnR2US1RWE9OcDYwOENneS1YMFZFQjZqc0hCdk9WT0pHQXgtNURqWjQwckhYdW1JN0pxSUptQWhFRUFKNEFOcldaTTlxbTRVODVCVTc0aFNZSHE4OENUVWRUSUk0elUwMG96RHFVQVZ6N3V3Qk9RUWxYYkpvRG5VVFctSXd2OWJMSmM0V29BMWFRRXlwWUgtUkR0YkdvUdIBowFBVV95cUxQY3MyeWMwUFZkYmRIaTZhcWhDY18zNTllUkJWZlQ5QnhWaUpFakt2RnlTd25zY3d1dXpzdXhjVnh2MDc1VGRrSVBrQnBDMGEwSzhHSW0ybmt3VmxXLWlVRDY3dU5DTzRudk92RkZNaXhoRmdtdjRQaHJ0dFRDdUZISFpsaFAtX21JWkxMTENtWTVSY21iMEVqOEw4Vk9qaEZIMFZV?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "16a4dbd6a5043033",
+      "published_at": "2026-05-09T14:03:16+00:00",
+      "title": "U.S. and Iran are no closer to ending war; Tehran's response awaited - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPSDNpWS1mSk9uNGJFa3ljVm8wWkwzekJreG5kQ0NuQ2pUQjV2aF9VOXZVZW5fWU1ETkhMLXo3eFZMRzdtMF9wZ2xDRWV4bWd4LU9ZWnVJQzQ2M053dERhNmM3WWpSekFGMWNsaENBQkpqRHN1WlU2R3pWSUo5V3JBNW9qVUdZSUVDajNJdmlaMVpscHdGeFh0c25leVlLNkExMU930gGoAUFVX3lxTFBzaVlmamhaVkN4VTVlWnJ3Zl8xNHF5YkR6VDNpVElOZkhEQlpfWFd3czJYR1RjU0VOOC1yRWoyM0lGSzVGU0tpTnZLNnRwS0hnc0xpWkFDU0RpWGVyZDBwOXU2d3E0VVFnbGZ4UUNJX09GaU1zalVnV0JwazBwQTVYc0JMQ3FBZUN2dElZT1JrVURyV0VjdDhaSmFESHdKblRNVHNkQm9FcA?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "4f8008b447a756c4",
+      "published_at": "2026-05-09T14:00:00+00:00",
+      "title": "Neither US nor Iran can sustain strait of Hormuz standoff indefinitely - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOejQ4WmJwUWVWeXdJeTRURk9uZUp0OEltaVFHZ3pqeEdoNkxJMHp6TGlRcWFuNWJlNmVkODV5bzllbVMtdHRaV3hWVnFUemtDYW9vVVRiWnlqeDRYTmc2ZkptRm16cUhCam4tVTlhYnIxYVoxblQ1eXBGZ1lKTm5IWDZrVi11aFRUTmdMZlBxQ2NPUTF4UlF1U0FUV0g5T1BoNmxOdGoxXzhTSGYzVHVlQkw1ejIwT00?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "048889ca6d47419d",
+      "published_at": "2026-05-09T13:30:16+00:00",
+      "title": "Iran keeps US waiting for response on peace plan - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQejhrRU10ME44Ry1qS3RUZHF5ZkJBRHBPSVkyeE5pSVlncnRuc2RSZHE2RG9MN2o3cnFLb2RfRU9qNjlvUkxDUERSNDNwTVhWeEpXSEQzVVJyUDhibU9Mc3FmZmRLQkwxQWlIZC1XbTZVSzBoVWlxQ2xkTFZiRVhTZnV4ZjVlbTI3M1hJSG9KMA?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "2304f7021720329c",
@@ -154,37 +349,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "8b05713814830594",
-      "published_at": "2026-05-09T13:08:47+00:00",
-      "title": "U.S. strikes two Iranian-flagged tankers as tensions continue amid ceasefire - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMElVeDRTT2w1dHJyNjc5TG5wNFd5SUVxdHVMdnJiMUhYSjhnYXRSRE1EcUZFYThPUE5sWWJCcTN0NkJYZk1Sd1E4QUxMaDNQSGs5NU9SY2lNS2wyMWlFV3B5Q0Q0djZkOXZQdlJFZ2cxdXE5cjcxN1pJVVc3cldVRWYyaWtjRng0cVRKc1EwWXdnYm92VUg2Rw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.9
-    },
-    {
-      "id": "88c4eac6135cbdb9",
-      "published_at": "2026-05-09T13:01:31+00:00",
-      "title": "US says the fragile truce with Iran holds as it awaits response to its latest ceasefire proposal - Yahoo News Singapore",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB0bTVmbHBHQ3VtWlJwanNVY0d4bkpWeGY1N0lQa3VqMlR5dFAyMTRkTmFQZ1RDdTlvU1A4Q21qZkF6OXR1cEdtUVd4QnBxdmZfVTBLUm8zX3hycm5xUkFsbWZEdkl5VHFfYU5IV21RaU0tRDEzQmc?oc=5",
-      "source_name": "Yahoo News Singapore",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
       "id": "d08870f84df671a5",
@@ -202,21 +367,6 @@
       "confidence": 0.7
     },
     {
-      "id": "3b899bebecf5cf2e",
-      "published_at": "2026-05-09T12:56:28+00:00",
-      "title": "US-Iran war no closer to ending as Gulf clashes flare - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZll2TkRiRDBaQkNaQ0xuaU5ETkR0V3kxcEJ4LVR0em95djMyZ2czV21qdFMzRjV0MWlfWUp1Y3pISGhYeFV2Znp5SmI1dUV1bHVBV1N5c1FiV3dpaE5SMXpXRE83MEt5OWNqSnhYeUlsVFVkb3FrQ0dsUEpERWJtZUZsY25abWlacUQ1eEVZdG1QZzUwZGJ1QlA4NHlNd2loOF9NV3VrNnM4QkXSAasBQVVfeXFMTmZlQzFKOWVOOS1tY3lrdHlOUmM3X093Y0d3aVQ3ODNrOUQyZGg0NFBRcnh2WWd5ZVNHR2E0LXp2S1d1YkZoU00xSGFXc3ZjbUV6VVhJdHRPRDlSY1NVMTFZV3d0ZFBFYXNnU05EblIzcWxvWTFfVmRZNmVXbmZNYzBNWnkwQnFST19GTmluU2xSanZLYzRMdU16bm91RmQzVW9MY0JqM2RZV0p3?oc=5",
-      "source_name": "South China Morning Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "4ceb9248c6df5cd3",
       "published_at": "2026-05-09T12:49:50+00:00",
       "title": "Iran war latest: Ceasefire appears to hold after US strikes Iranian oil tankers - LiveNOW from FOX",
@@ -232,11 +382,11 @@
       "confidence": 0.75
     },
     {
-      "id": "fa328906765ae1e9",
-      "published_at": "2026-05-09T12:30:29+00:00",
-      "title": "Iran War Live Updates: Attacks Test Fragile Cease-Fire Amid U.S-Iran Negotiations - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYUlKS2loaWFDU2M5dk02SzBIS1ZYWUhkRUhJVmo2S3ZnSmJSRG40ZUVvdzRfcG4zQjNsWGpzR0NXSGhNVzFHTUZMSEVDNWs3WktEanZkdFJzc0ZDTW91OVdlQXRGRHNPRjNfTTJfOHFOVEdBX3JGYWNNSFA4RjMwXzNmY1BablEx?oc=5",
-      "source_name": "The New York Times",
+      "id": "270a6169adf83d90",
+      "published_at": "2026-05-09T12:42:00+00:00",
+      "title": "US strikes Iranian oil tankers while awaiting Tehran response on peace plan - politico.eu",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMFFLUVNtN01CSWM4cFo1T1VMaUFMRExtZGNzZVBTclgzSkgtR0R5d3dzdXhwUGpvdFYwS2swY3FhenhCZ2U3TzhuWk5LVkFlcTFoLWQydEFMN3pscWw5d3VxRWQ5X0xUZThfWGpESC1IbFJUYWpxaU9mUUItNDFMWi1nbzV6MnVUb0U5YVJxYXdKczBRdTFMMDdjQ2x1VmNKQjRNRg?oc=5",
+      "source_name": "politico.eu",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -245,156 +395,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "66ef0fa09b86f9c0",
-      "published_at": "2026-05-09T12:22:04+00:00",
-      "title": "Possible oil spill seen near Iran\u2019s Kharg Island terminal, report says - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd2luQ1RLY0NNb2k5djZCWEtqM1AwRldvR21hVXlReUM4MlFJX1drTTRhY1dmbU5qUzdjcWF1bDlNVmhROUlYY0Vkc1R3LU5jVEY0MGRMcG1zOE1JR0F5Qkp6VGxkLTZfbEFJaGZ6UEFsakpBcDhrYXJFc2FZSUtRRGEwZHl6V1huRXlweXFrR1pfU0pUdHlkX3dXOUdURjg1Qk5NVnB0UdIBrAFBVV95cUxNMDdYQ2hlRVJxYnhZMFRaS3Q5N2EzU3d3RWt2SHpvREF4TnpZUHJnM1VDMm5iSzNaZ1NnMTFSSUw3ZTJGeVVGTDN3cWhJNF91NXJoZXhBT1NFRFRrX1ZHYXRfSGhHVFhhVlhXdlRwSVFUajhLUHZfRXhCa0U1cHh6dFNIYjFWTVFhQ3dVV1hiUlR6cEcwUDFnMldIeVVQdGs0ZGt5R0hLZERzMTJ2?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "40b6bc2168a9c5b7",
-      "published_at": "2026-05-09T12:20:07+00:00",
-      "title": "Iran war live: Israel attacks Lebanon as US expects Iran\u2019s response to deal - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZmpsanI2RlZnQW52VjcwN2w4RXNYN1RJOGNDaFJCSmhBOExiUzJuM3RIcjh4eVd5TC0zTHAwdHhtam5wZFRGX1I4WThJYklza3hlMGFBcThXaE1mWGFWaXM3WnY1YVY4aWxzS0Y3OGVucU43ejhNTEpWU3FjUy0zVkk0Q1VqUi1IeFFDZ2h5aTZCNDRkRkJHWTlqaklVVkJVMmZuUnFwSG1PU29tcTFBMUMyYTBKei1DVVZr0gHAAUFVX3lxTE15eEZPZjVBV0M1V2dQVXJ6X0EwdUhybzNjOEhmb2tiM1hxRTlpM0dCN29DV25jQ1oxb1U0UlcwMGNya2I3ZG5ERU53RGMxZ21WampsQWRwcXJDeUpxNG9MQWx0bjB4Wlh3c3JzdXBzVmFCQ3lOVUxqNzRzQm16RXZCY1pyV3R0Y2JUWFByN2N1WGVYakcwTXRmajFKRTZDc2xZV3E1emtMS3lhdFc1NEdSbjZuRGlDaHRkWUc4UzF6LQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "005eab60f302efe7",
-      "published_at": "2026-05-09T12:13:00+00:00",
-      "title": "Ceasefire appears to hold after US strikes two Iranian oil tankers - 10tv.com",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNY3JndWd4RUMyVTdZdWQyODFNbXRHM0ppZDF1YUViWU81cEc0Skp0dzRpT1pVU0pxQTNpc0xsTXlBSU42SFozTlZhWWhLZVJ1SS04akFQMzF4RnpjMlJOYzcyTk5KX0pkYkVMY2kyckRVTnJGVERFbTEzdHAtZUQwbkVSWm1GSW80SmhYT0lGRG1Nb2pLN043NW1SaXZnclMtN3hxNXFLZTR3S0lZb1dGZWhudzh3YVZrRGRtVVZzMEZ6YnhNRUJnSHQ0b05YeUp0ak1qRlo1X0pncEYzSUMtRmVVWmd5dzl6dGd1UXVn?oc=5",
-      "source_name": "10tv.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7811727abd18fcca",
-      "published_at": "2026-05-09T12:10:40+00:00",
-      "title": "Iran war live: Royal Navy destroyer sent to help ships leave Strait of Hormuz - The Mirror",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQW04NXIwMzRKUnF5MlNBVDh3ejlLWGs2emNNSFRubnhNXy1YUHg2M1ozc2gtbnp2TWY1MXE0dGNvUmdUOVpFVVF6SmZOMF9KWndVNnhieXlack54Wk9QRERzR2RnLXdOQ3d1SnE3SVNpNWtIMElGV3N1UjRYMzFzcVFVR1BsYVXSAYwBQVVfeXFMUHE2VmRmZzY3Z3ZvTDlGa2lyUmNuSXpsSDN0OC1NOEE4dVFkN0VQdUJVWTR1U0hEeVd3MVVPQVQ5RUplV3JrUXpmUzNfTDExVWptRFZPWUVnd2FOZEMzXzBSSGtlM2g4V3pVUUNSN25vRC0tV09QM0pvNmxoS2R0ajk3NTUwbnFuNWd3eVg?oc=5",
-      "source_name": "The Mirror",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cacb84d7b5690d78",
-      "published_at": "2026-05-09T12:09:47+00:00",
-      "title": "The US is expecting Iran\u2019s response to a proposal to end the war. Where things stand now - Egypt Independent",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMHg4OXZxeUpBZmdKM1JMbnQ3UjBCSDRFQnV6OGVXNXpLTlJ5MG0wS0VEb1pPZTIxTWpJNm1zNk5OUFZDcFNwVnduRV9sUkZtdTdXbzZUMWNYTS1tQVpRWWV3cVh0c3F0ZUZlX1F1YkFpZUhlMmxKTlAxcDNfR190RG5vME0ySGlnMkI0c3RzcHRmS0ViU014Ml8wNEw4MFA5ZFFreldaNlF6Z21rSFpkM3dENUdjM1FOTVFqTg?oc=5",
-      "source_name": "Egypt Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1231f4f372e9fe0e",
-      "published_at": "2026-05-09T12:06:56+00:00",
-      "title": "Iran war: US expecting Tehran's response to proposed deal - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLWR0Um1jUktVNV93RlNTNU9nMUFuckxoQXhKVklYUVZJcVdZTHkxY211dmtQU0tCYmVqdDUzV012eDRnLXZBRzZaSTlfNzd0cXJiek5tdG9YenljR0lXSXdfLS1NdlNuZkF6UnBQY2RxTVU3QTdWRlF4RlcwS21qVDRPc1VMY2dHQjYwSl8zZURvbHNCR1E?oc=5",
-      "source_name": "DW.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ce98cd82ac8f4636",
-      "published_at": "2026-05-09T11:52:21+00:00",
-      "title": "What Beijing has learned about the U.S. from the Iran war - Politico",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZXdhVmlxWWtsWEo4cl9lVEc2VXlOQWRhSnRsQU1CTEpUYzAxSDgwcnc1Y0VydFhld0ZCODVxbVo4MlFGOGp0UUlQQXBQVEZiSUNISloxTS05eURkMW5uTTlCUkQ1Y21TbFlLeWp5bUc3c0dqczE0aWlETnFxZEJHUzJsNA?oc=5",
-      "source_name": "Politico",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "20bbf8ee8741d01c",
-      "published_at": "2026-05-09T11:43:27+00:00",
-      "title": "A fragile ceasefire holds as US awaits Iran response, Bahrain detains dozens - AP News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB0S2RNMVJ5UEh2ZUpfcHpUZEg5eXRwYlFPYUx4aXBZWmExUWh3dmxCUlc2RlgtS3FzcDhPTERiVm14RmhzSTZEVFZVY1lNbFdhbTBwdWFsbFp4Zjgtc3ZPWkVRSzRXQlo2Tm5oNlRXRWFpeDdYbHJVYl8tdw?oc=5",
-      "source_name": "AP News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4c2ee28de0b82505",
-      "published_at": "2026-05-09T11:24:13+00:00",
-      "title": "A fragile ceasefire holds as US awaits Iran response, Bahrain detains dozens - The Killeen Daily Herald",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNMjU1YVRkU0t1cVZnRGxDc2NXcGdIaFhIUUNtS2dPSGJxYnJuempEdW01M2t3UU90OG1WVklUMHNheDNKY0w1aXM4R3hqSHRFOWtYRWVVWWlQOUJOR1M0SG1ldGl4ZWlmVnVkcmZDX09SMm42ZFlTeUJPTi1mQnBtRkVwN0NSM3pYdkFXU0FNR2k4UVl5QUlwMGRPanhZX3ZORzdTa2luWTVPN2g1M2pudlZGbVpiU20yUVUzQjVYRk5oSnY3ak9wWFp2Tk96QVNhXzFfczVlWWxnTzZaRmg1ejI1bVZvTF9pU1NLYg?oc=5",
-      "source_name": "The Killeen Daily Herald",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "beaf923aaee69a05",
-      "published_at": "2026-05-09T11:24:12+00:00",
-      "title": "A fragile ceasefire holds as US awaits Iran response, Bahrain detains dozens - ClickOnDetroit | WDIV Local 4",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUkNYUk1wYk13MXp0am9fdjRzZHF0Y2hDR3ZDZzhfbnV0b3lYSHRIS1Q2M202Vy1kbmZxNFdlR2tXR2MwUGhsRzZSU0ljZF9mSnBrZ1NmeUgyLUVBS1ctRHF4Qk1GNnhaUlFMZTZKMlpNUm1pMVMzY0NMZExhRnhYZUx0bXFFdlVZWWtWb2w0U1NPT1VYOF9rQk85cnBuVU4ybDhwLWNucjBsb2Mya3BjTHF1cFpwQTgtUUlqQ2xCdFk4M1AwbUE?oc=5",
-      "source_name": "ClickOnDetroit | WDIV Local 4",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
     }
   ]
 }
