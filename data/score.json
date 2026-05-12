@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-05-11T22:30:07.947027+00:00",
+  "generated_at": "2026-05-12T04:08:22.838563+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 94,
   "totals": {
-    "usa": 23,
-    "iran": 29,
-    "lead": -6,
+    "usa": 24,
+    "iran": 33,
+    "lead": -9,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 23,
-    "iran": 29,
-    "delta": -6
+    "usa": 24,
+    "iran": 33,
+    "delta": -9
   },
   "confidence": {
-    "score": 65.9,
+    "score": 66.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 44,
-    "diplomatic": 26,
-    "attack": 27,
+    "diplomatic": 28,
+    "attack": 24,
+    "other": 41,
     "intercept": 1
   },
   "history": [
-    {
-      "date": "2026-04-28",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-04-29",
       "usa": 0,
@@ -72,18 +67,18 @@
     },
     {
       "date": "2026-05-07",
-      "usa": 11,
+      "usa": 8,
       "iran": 3
     },
     {
       "date": "2026-05-08",
       "usa": 4,
-      "iran": 5
+      "iran": 2
     },
     {
       "date": "2026-05-09",
       "usa": 4,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-05-10",
@@ -92,77 +87,22 @@
     },
     {
       "date": "2026-05-11",
-      "usa": 3,
-      "iran": 16
+      "usa": 6,
+      "iran": 14
+    },
+    {
+      "date": "2026-05-12",
+      "usa": 1,
+      "iran": 10
     }
   ],
   "latest_events": [
     {
-      "id": "dac91de9b5d4734d",
-      "published_at": "2026-05-11T22:28:18+00:00",
-      "title": "Iran war live updates: U.S.., Iran hit snag over dueling peace proposals - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3dzVhQlZ5b1ZlTHpYT0xvcGpHQW9mNjJ4U2VUTW9HV0Q5ckhCbEs4eC1PVHFxbDFfZEt3Nm5TdFhjNVhEN19IR1BZcFcyTmxXdkwzSmJOb3JwTXBUR1hYcFVZcjM5NkJwc013?oc=5",
-      "source_name": "MS NOW",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ad9be894f948e7c1",
-      "published_at": "2026-05-11T22:19:46+00:00",
-      "title": "Trump says Iran ceasefire is on \u2018life support,\u2019 calls latest proposal \u2018garbage\u2019 - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2RSNjhuM1Z2dzB2MmZKbTJybWI2aVFpMFJMdjBHZXk4OXc2UFdkUHdrWWM1enIyckUta1dDV0NiaEtiZnlPeW02UUlSRm5WckVVOUt0SWpHV3RkdHhRN2RVV1ZaMGw0bVdzbWc5OHM2NlhmT2NXOXd4Y1ZraUh5VEUtMGIydHZP?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "c5bff6eb158bc63b",
-      "published_at": "2026-05-11T22:01:04+00:00",
-      "title": "Iran War Live Updates: Trump Says Cease-Fire Is on 'Life Support\u2019 - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1BWHNfdjVuNEI0dW5XU0ZtbjIyMEFwTjFlYzhVTjU1amdvT1dnbDNvQkZicWMyTi1YdkNibmtZZlBwVk5KV1ZHdXV1N3RZRTA2NlExdUZMc0ZRWUxCbjlfTXQtbXJNamo4azh0Y1lHZC1zaG0wNVE?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "faed0c6ff5407045",
-      "published_at": "2026-05-11T22:00:11+00:00",
-      "title": "US Iran war LIVE: UAE has been secretly carrying out military strikes on Iran, says report | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOcFlra2J0VV9hczV5cWdXYVpRZ1RTaVgxVWx1WEwtNUdnbmkzMmF6dHJRMkIxUy1nYTI0d1pHUjRtU1ZQOEdBN051MnVidm40bEMwMlBhU29hc09pMXpWWFlyaUVVd0hyY1JZOXhoTDRvWlBxZndHNGxzRTdOeHh2YkJTM0RyZjVpVEkxLTNJWUJoSmlPU081Wkk2RjctRnAtZ1NJLUctNTdIVkJMZ1dfTlhreFZHZ1YwaTRic1ltUlE4aFJ3a3NFNEpVRTZsbEJDeXZqQnhXa0UtNEFraFJMWXRXMG9nLVEwcHVGZ0NJTWR3YV9GS2M2SEpUTk53WkFoZkV1R29ZV1pqNnNF0gGSAkFVX3lxTE4tRmt3ckI5R19hNlBJQkNGZ1A1cm5qSnQxM1JSQkE4WWtjUjNkejh6UE5hamZtWUlOMnJsWGVQcHN0QW9ZNDR0ZTh2TVlXdDMzX3ppcEE3aWpta0ZfMlZmYU5RSWx0UnhPMU9JVWpEdTZlMjlUVVJCVWVSRGZYamZvNGRXUjdkV0t6ZHp2SmU2TzFnVGNhemVKTVJYRW5nR295UWZhcllyeDR0Wk16NjJuRGhoR1ZxQk9PN0ZGcmd2MkhNVG1xYWNrdXJ6MTktaEFCRUtFeTlxNkVsQmhTU2RzalphWU5fcmdleFdmM2c3UXlMZWRkVVlHUlY2ZW9faWJKY1JmRGFNSEhSTWhINjR0RlE?oc=5",
-      "source_name": "Hindustan Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8232001369b68aef",
-      "published_at": "2026-05-11T21:55:00+00:00",
-      "title": "Iran War Live News Updates: Trump Says Iran Ceasefire Is on \u2018Massive Life Support\u2019 - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85M1pYUzZOd0JOMzRpbGtJQzU3MjA2WFQ4MUJtUzF6X1VwaHVid2JCTkpSV3VXYm9kaTRob0lIUm9IbW1Da1ZUaWdUOE1ZZFdGWUZ0VmNTVFRqOEtYWWJiM3ln?oc=5",
-      "source_name": "WSJ",
+      "id": "7022a74350b6cfd2",
+      "published_at": "2026-05-12T04:05:41+00:00",
+      "title": "Iran war live: Trump slams Iranian proposal as ceasefire hangs by a thread - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRHV6TWptcDFha3dabVhLdUNSenVvRksyam5GYTlqSFptblBoUFJkM0hjX2x3V0h0YnFJU00yT2tFVnY3YmpGNU9JeGJtVm5xZk44RWt4VEZ2VVBBYWZBZHd3OExzX1FLZE8yZGRUeUVlRjVEVGZtWVE0MlhvZGtJdDU4V2lIakRrSUEtUXFtUUdCR2dLU1pvUjdxUmdRQ3VCVVgxSm1pTzVlRmRlSHFzUXRvYmdjWl9teWU0WnpMeW_SAcYBQVVfeXFMTXh0MUYzQ2dPUWdGSVdDcTZyaWNwb2NZTWhuNU1ySDl0SjJud2Q2VjVKRU1wcnhlMUVnMm9sY3E2WEF2TjYxQ25id3Atai1tbWsxcUVwbnJWYmJMMEJlYjBoNDY0OUl0TldNRXFtQWwwUHNDeU5zTldPZHE0QVFlTGpaS3ZSWE0yUEdaNGZuUVpMRkF2YnNVYXZkb3lzTWhEa1o2eElwZVNxbFRaU0lFQVk4SHVWUy1vb3N0RDFIQU92S1EtQlln?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -173,10 +113,10 @@
       "confidence": 0.65
     },
     {
-      "id": "eb517c3d44f33b94",
-      "published_at": "2026-05-11T21:48:57+00:00",
+      "id": "94e3b5f1e0f5c301",
+      "published_at": "2026-05-12T03:33:00+00:00",
       "title": "Iran-US war live: Trump says ceasefire on \u2018massive life support\u2019 as Tehran hits back - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTXNicDBHeHhEdDZhQ3BrTXRBd1pqSDJ3Y1g5TEdyLXhCSjhrSnBYa2FSWWhJdGU2clhlUWczRVQ0Tm9yWnJncEFvUnNhUGFPWTZyeURpR3BBNmIwcXNULWlCdU1sRWNrSkY2YVVnY0htSHpmRzJDRV9rUFYyTm5OU0NGRW1DdEt0eDhCX0k2Wk1RZ1owYS1YQ01ieFlYYUdTN0RzXzRGaldoRllxZlptbHRFcGVBeWROUlBoUVhqVDN5NVdHc2c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSUtzS2lhSnYxX3ptRFh3dlNSbFZlX1FVNkt2STEwOWttdUJRN3ZrdGlkT1dydlhmd2ZlY2VCTkFNTlgzX3dGcEVkQ1BEdVdpQ3VWOGpxbGkybWRyV1BIMG9ELXQyU1Nab0R4bFJTaTJEakdxUm5qb3o0X0hPdUg5T2hnZk1RaVB1TTJ5M0tJaEhnZGYyN2c1Q1FPcGJsOVJMRzQ5ZS1PV3k3UTJaR2U2OGJ2S3VTSmdYU1pVbVJZZUVzRGdFb1E?oc=5",
       "source_name": "The Independent",
       "event_type": "attack",
       "actor": "unknown",
@@ -185,86 +125,11 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
-    },
-    {
-      "id": "5d717b7df2e873f3",
-      "published_at": "2026-05-11T21:48:11+00:00",
-      "title": "Opinion | Trump is stuck in an Iran trap of his making \u2014 with only two options - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOdHZWVGptaFYyWGpVdVhUd18xNkpmQ1FmNy1KN0VFOVU2cnBwQ01TRko2MFhkVndFal94Qld6Mk5vU3RkZ2hjS1JBQ2JhTkJQNWZLRkx0NjNlNGZXdXNqWjJ6M1BQMEhOVUJid1VjT2daS1ZHcHM4Rk9HOFJHWkxRTWNLY2Y1TlFVU2VvLXV3aHNHZw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e814abdabddfc697",
-      "published_at": "2026-05-11T21:43:27+00:00",
-      "title": "US Senate minority leader vows to push new vote to end Iran war - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQc0F2VU9OMGdOUVBHUWlUUGlwcGtPV0VKMGp3aGVYMHA0SHFjVWNVNERaVE9XOVd5YWtLY3BrRm5KSjVIUHE5UU4yUnlINWxRWlFjbHhyS0phWFZGY3pvYTRPU09iYXZPU1N2UVdnZFE5WnVCby1KNDB6YW1zRndNXzJYM254WllBcVEzaXpvOHdSZjg4N0V1QV92TlZpZWVGTlVSTjBCSEc?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "40ae24b6350e0225",
-      "published_at": "2026-05-11T21:17:00+00:00",
-      "title": "Live Updates: Iran vows to fight on as Trump says ceasefire is \"on life support\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYzYzTG4zZ2JxVUxURG8yVi12eWhQa1FiX0VsQ3RPWktva1lOdGxxdlNuWnRkZDNPcEphcnFwdkttTGx6RUpSV3BaOEJHVGhYc0pFN1I5czNTbVlCMVpsU09pX2J5dmJXWVBHYjlYbzFtb0d6US1DaWZQOTBOSEl0ZXpfYVhmZTMyTFJsSGNDMzhFNF9YNWc?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
       "confidence": 0.65
     },
     {
-      "id": "070633f4c9a9f3fc",
-      "published_at": "2026-05-11T20:59:00+00:00",
-      "title": "Trump vows to pause federal gas tax after Iran war boosts US fuel prices to four-year high - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZFUyUjJjWGlOcUVZUTNGbVFSTnBqa2NXdGk2cVB0eUE1bGRLNlFRNVlMYUMzaF9OXzRFVU92Rl9yVVhBcEwxZVdhQWhvYXlIRVk0dk5xSXp2TXJlUm1jOUpPQ2pLMXpCTTNWeUdMY2pwcXcyT1pjbmF3VzFmMU5relZ3?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c46c59a0d606c995",
-      "published_at": "2026-05-11T20:56:21+00:00",
-      "title": "Live Updates: War returns to Iran with Israel, US strikes - Dawn",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
-      "source_name": "Dawn",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "8e40564a35b85ce5",
-      "published_at": "2026-05-11T20:54:00+00:00",
+      "id": "f1d07726ea25d659",
+      "published_at": "2026-05-12T03:23:00+00:00",
       "title": "Live updates: Trump says ceasefire with Iran on \u2018massive life support\u2019 after he rejects Tehran\u2019s proposal - CNN",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1NMnZrT2FJTmdLVExrRU5Sa09MOXRiUWh6ZGxHWXR1dGZoTG0tdGlieXlhYl9tUjlpbUpqWlhjM1BiV3RiampfNFRZTXh0d0t3LXhrcDg5NTZlZjNMcFc1blFfOTRGdExkYXVPOXJVOVIwUm1kbjRpWkpn?oc=5",
       "source_name": "CNN",
@@ -278,86 +143,26 @@
       "confidence": 0.65
     },
     {
-      "id": "062218857d56a3fd",
-      "published_at": "2026-05-11T20:40:00+00:00",
-      "title": "Trump weighs military strikes on Iran, calls ceasefire response \u2018garbage\u2019 - Capital Brief",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbUJqX3gxMnhGWHZMZHE2STZNV3dWYVdYa0Vhc3NsVWV0SDYzbkRTNDZxVExWNzZUUVBMWk1zeERKTjFKbUNtbTByaDBaaDZ6azNMNHhXQ1g2MVF1TWtVc2NOeHoxNFVVcFFVdWlSU0pxelZENTBJYU5EVUw2cUJUZElJV1BXdU9qb2FWamdIQnNuY1VKQmJFVVdvTEM2bU4zX09DenZwX25FTUVTSjlyYTEteU94cHdkVUxtSWo3MlhOV0EwRmUtRE9NeUt6MVYxVmpoMkZNa0ZqNTE1bVRVaUJB?oc=5",
-      "source_name": "Capital Brief",
+      "id": "c34312f23eae8611",
+      "published_at": "2026-05-12T03:05:20+00:00",
+      "title": "Iran says forces ready to respond to attacks as Trump reportedly mulls renewing war - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOUm9aRzMzM0wxWk0zMFBSVXlLTUowbzZ6Z1VrRGVkbWctR09laUh1M1JIU3hvV2tIMWpMYzlVMzZvM0E0WEZnZ2ZMcVBSU0o4cFg1TkZ5YzdjeExJMXVQZ3ptSmlwZEVVZDY1SlRnTEc0T2Mxd1NGWmdiNjVzelVuWU9nSVJDT013ZVozVXFpal90VVJpYXNqMlZnVzFtSTVkZWpsOC1EdzhJbm5IWm5PUzcwdWfSAboBQVVfeXFMTWJXb1Q1cXlqRG1kMXpiQ2dBbUxhRlVjd09KZ0JvNDduM1Y5V1Y3QWxhOFlXeWNjbjN1NVNVeWQwTmtYZm9OSTh5bmFseVhnVTZQMEx1ZkF2bk1fTzZTYlBvejBHNHRGQ1JoVm1mRXNzNDU2ZlNIcFRzcEt5S3o2UzlwanRxa0V1aTB6LW1kWGVlNFhLZThsLVFzdlJoUTlDcENOUTBMSUVnSWFYU0VIZl9lQkNpdmw5OE93?oc=5",
+      "source_name": "The Times of Israel",
       "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
+      "actor": "iran",
+      "target": "usa",
       "points": {
         "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "364837ade6d280e5",
-      "published_at": "2026-05-11T20:38:09+00:00",
-      "title": "\u2018Restraint Is Over\u2019: Iran Vows Decisive Response to Any Attack on Vessels - Orinoco Tribune",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQSk1OZExrRndDeGZlb1VlVkhDMmtDNVp4SkV0al9QMktQYnFGUkZWMHZaTGgtRnlHVlR4OGx0b211X2tSTlFjRXVzbWgySkZNd1M0NGFkbU9HUzlLQkY2NDh5VVpta2ZxbnI0QkR4NmNGeUZQdndHeWVvWjl0UG1qaXY1RnZLcDZOWlZEbmo2LVRMTEdSaGZ1X21CaHJPV28?oc=5",
-      "source_name": "Orinoco Tribune",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5f0311eb3aae29ec",
-      "published_at": "2026-05-11T20:20:13+00:00",
-      "title": "Americans don't think Trump has explained Iran war goals, Reuters/Ipsos poll shows - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQbEJHMXBMVWNQT0J2ZDBwZlNfcFFNb2cxaEFxQ1Mya0dlSnQyMVVmYkxRblNGSHJoZVJUSWNEdHdUaWJwSHZZcXdQYzlqd3hWcEViV05vRTdjMGg0SDJ6dm5tOTlKY3J1T0lHN3pnM082VzJOeVozSUtBNlhwNENnMnZNd19XanBfX1JSX3liNkJScEd2Mjl1clJMM1FVNGJEdGtxZ25CeXlhcVdOV0ViRmowcTNyZ1RWY21ZUUxGbXozUQ?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "0a2fa76104489da7",
-      "published_at": "2026-05-11T20:11:00+00:00",
-      "title": "The U.A.E. Has Been Secretly Carrying Out Attacks on Iran - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQV3Zja29WajNJeTJvT3FaSlZ6ZDZwcXkwakZMZTRHTVg3dEI4WU82UHhOWTkxNzAzc2puQ0dJZEl5XzJfUXdRWlFlai1vanEwUFYzQkdPRmNlUnZXLXBPRFFKUmJRM3dJMVJaZjl4RWk1VzQ1dlRDSXVyOS13ZUxXSUhwZWpaejQzTDlBbGgyOU1uTGd3UlFpMDN3?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c001788f53838d51",
-      "published_at": "2026-05-11T19:43:08+00:00",
-      "title": "Lasting Truce Is Elusive After Week of Traded Attacks - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQYUlKS2loaWFDU2M5dk02SzBIS1ZYWUhkRUhJVmo2S3ZnSmJSRG40ZUVvdzRfcG4zQjNsWGpzR0NXSGhNVzFHTUZMSEVDNWs3WktEanZkdFJzc0ZDTW91OVdlQXRGRHNPRjNfTTJfOHFOVEdBX3JGYWNNSFA4RjMwXzNmY1BablEx?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
+        "iran": 3
       },
       "confidence": 0.75
     },
     {
-      "id": "9b689b21857738b3",
-      "published_at": "2026-05-11T19:43:00+00:00",
-      "title": "Trump says ceasefire with Iran on \u2018life support\u2019 after rejecting peace proposals - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVEVFVWkyREhyZG1rTnNqN1BxY2JRT2VhMDZuaHpTeVlEalowVkhuSlgwWVdwQWx1Q3JzbkV1RGlKUkJkZS1NWGY0dEh0a3hzSDNqOG5WeGsxSXdVYVlSb2NEQ1d1ZjByckcxbXJLQ0EyeGZkMUY3SFFEaXZBdVlTdUlxU0J0U3N3Y3FHUTh6X2ZyYkc4X2I1ZHNtWlI2TE1GZVVuSXFPMWpsV0IzMk5CV2tPVFhkbzN0?oc=5",
-      "source_name": "The Guardian",
+      "id": "788399037825f6da",
+      "published_at": "2026-05-12T02:26:47+00:00",
+      "title": "US-Iran war LIVE: Trump mulling resumption of combat operations, says report; ceasefire on \u2018life support\u2019 | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOVnN6aHZWTWZ4MzR0ZVN0RW5iM0I1aU16OFk2UTY3R2xnZmpVUjJpdDV1V01pTmZVblFkREVpSFZpU25ZbE16cTVRNkNackJCU0haV01iRWJlam1xTEcyalBPbWJFZnpjVW5zTXNnUHFYbkE5ejZaOFNxWFk2amEtQVM3TDUxWkFZVDBiazNnMHE2eTRxOW1rc21xdzB1WEdwUE1vbk1Ib3pKNUFkM0wtT28ybFBJX0F1eUJ6RWNTUnQ1SFBsNW5UaXFPZXF2Qi1QdktGN04tMFY4VVBacGNkaVVPRmgyRlRoOExGR2pZSFVnUkVDLVUzZldPMNIBgAJBVV95cUxOTDdpa2hlQnd3TExYdzd5RWJDdlhidDBMYlUwTWU0WDE5dVQ3V2VnclFEUGRUMndzRm5RMTFkcDFJVVV4WmEzQS1xY1hLU0hnanJ5SExodS15dkJBMkt4VGJfZXhETkw3cHRka0RYb2tzMnY4TU5TNW1XYWJ4bk9rVUpMU180d1lGNFJPLUlCcUtneHMzNVVoSC1JcXRfMHdYenJWVDBpTmxUbjRDUnBZZGFyMlJmTGNfWkRxVEQ5ck9ueDZtYWM1aHZxd1hYZ3JtZWFaUWZHSTNvRlQ5dUNNVVZZSlFibzFmaURSTHlmV3JXdm5xSmlVTllRMXdTYktI?oc=5",
+      "source_name": "Hindustan Times",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -368,11 +173,176 @@
       "confidence": 0.65
     },
     {
-      "id": "a8733137fb9a9bab",
-      "published_at": "2026-05-11T19:36:08+00:00",
-      "title": "Trump says Iran ceasefire is 'on life support' as hopes for a deal fade - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTTFIeHh6enp1TW1pNmRpVy1pZ1ZtaVFvNTF2emxOOUg3VXV1RWE3SkFqb3pwY28yS0pBTDF3MjRFSVNRclFhTWtCZlN0SmQ1MDV2YUZJSXJhdXRUdldyM3VZbEkzYnIxUXlvSk1JREJwVURVVGJhcV9vcEU2WnlLcVZKaXZQX0Fac1VEWW1VZjlwdDNNWHp5ZENCNTROaEhsVFRuQ2ZUd0gwTmc?oc=5",
-      "source_name": "Reuters",
+      "id": "0ec2eb2383b35e71",
+      "published_at": "2026-05-12T02:25:53+00:00",
+      "title": "Live Updates: War returns to Iran with Israel, US strikes - Dawn",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
+      "source_name": "Dawn",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "eca4647439231041",
+      "published_at": "2026-05-12T01:48:35+00:00",
+      "title": "Live updates: Trump keeps Iran plan quiet - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWGROcGk0Tlg4ZlA2aUhRVXVkWHV2VWloeEt4cEdwdTBEekZaRDI4dHdlemI4R3NCU3p0cUFLc2dnUkxBejlDZV9CdE0wT0h2ZDF4QWJ2Wkwxa0swM2xwZ0sxNlptMnEwak54MFAwNEVYY2JHclB1UjU0blBPcDlxRE1RTGpNQVE1VHh1cnQ2MNIBlAFBVV95cUxOMm1UVE96WlJaNWxZVThyZFdEb1RuZDBXOTFUSGt0X0VoYjRvckxBcTVjU3VjSi1mNG56dlhTcVpDYmNvZ0hoN1hUNlA4ZUtqdkluSXlyTS00T0RHcVlmUkt3ZDBOa0VJMzN3S2IzYTNtWjE3ajBUNEdzbXVYd1oyZzJjeU1lQ0dSS05CclFQUkpIMGtG?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6a5ae7a8a971d52b",
+      "published_at": "2026-05-12T01:14:51+00:00",
+      "title": "UAE has been launching secret attacks on Iran amid US-Israeli war: Report - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPOWhTWk9ZV0ZEa05HR1NnWTdwOTNwSzFrT1RqRFotR2VkeG5FbmFtTFp1TlcxdlBPVVdfaUFScFVTb3BPaTVIb2lpLUtBd2VMWjJJOXA1Z2Z4UUJiWHdQeWNULUVIcTl0NUxxbm43anhpeTdDMEM5cFplVEUzeGQ3aDM2aGhXX2xkaXRMZHdlZThLaGRKaEFiNEdFdXZlQng5OEFVVmsyaDlVZHkyU2VSYi1wZXUxSUZq?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "66a11c57b8bec5c9",
+      "published_at": "2026-05-12T01:00:00+00:00",
+      "title": "U.S. and Iran Are Locked in a Stalemate That\u2019s Neither Peace Nor War - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQWgwcE5YX3RHWmlBRUMxTHFZRkl4clQtQ3k4bW5ISDY1Ukp4ZjBTMDRUS3E0azVZYndfbU1uN083NzFVMDJqc291aEw0b3RtQzdOSmwySzZnVVVJM3M0Qi1BZ1FlYXJWeUwzVEJjSVZZUlVKMWw4THlzOG5aZnNreW1WVDZwNnY3UGw2TFl0Q3k0dG9LczN3X3ZRQndxTloyOWZZMmxMOA?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "14cb150a1ff69192",
+      "published_at": "2026-05-12T00:59:12+00:00",
+      "title": "Trump says Iran ceasefire is on 'massive life support' - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tMk5PZHlOR3NZeEZiUzUzWVUzZTBLelBNdndPdENMRS1HNzJJSzV2c2VoYWFudTk4dnp1MFB2QlhJUk9QM1RfZ3ROeGtNU1dIaGRYcGJQVG5IQQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "4e5743388425610c",
+      "published_at": "2026-05-12T00:54:00+00:00",
+      "title": "U.S. unveils new Iran sanctions as Trump says ceasefire on \u2018massive life support\u2019 - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA3dzVhQlZ5b1ZlTHpYT0xvcGpHQW9mNjJ4U2VUTW9HV0Q5ckhCbEs4eC1PVHFxbDFfZEt3Nm5TdFhjNVhEN19IR1BZcFcyTmxXdkwzSmJOb3JwTXBUR1hYcFVZcjM5NkJwc013?oc=5",
+      "source_name": "MS NOW",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "564e610d6b2b78c9",
+      "published_at": "2026-05-12T00:35:00+00:00",
+      "title": "Tehran rejects US terms as hardliners push escalation - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ybFhFU2pQa2oxSl9YNnNnanF3bkN2S1FDSEdnV2NvSkE4a3VXUHV0MkxGWkFMdWp0TnZ1NFQzdFU3VmVtaTVKMnp6WlNPQ1Q0U0E?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "8dbe2732ec3d1538",
+      "published_at": "2026-05-12T00:22:10+00:00",
+      "title": "UAE secretly struck Iran during war, including attack on oil refinery \u2014 report - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMGZaTHQ2QzNRV3F5M2gyMTdERzBxVC1jMzByLUtYYWN3Vl8xSXJZTFVKZ1pVNUxUTUllallITEVublhBUl9FWjFoWWU1WHlIalktR0thTk9sRTUzZnowV1Nqa0lOaS1yakNadnAzZElfWVhpWDJDaWxsRWZweTg0c1NHNVlwNVNORklnc2thci0ybUdDVlQyX1JuTGk0WlhHcUl6WDdiMNIBrAFBVV95cUxOOE1Tcm8xajVaTXp5U25RSjZ3T21jOVpldHBvOEVMemF4WnZxTF9IRGJNbVVyWnZscGlGNjRMM05NVzB6SUFMMk1Ec0ljODVXcUVFUEpPUVpXUU43b01vakVLdWdKLVAxOUxxRjRhQTVMNnFNWjdFWElxOG9HWWRaSG9EWGFpWEtQbTlsWi1URkhmTFd4SUFvdjFMcndPTlNackhWWnJoMDFBTWRH?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "cc67b11500be1d03",
+      "published_at": "2026-05-12T00:21:00+00:00",
+      "title": "Oil prices extend gains as Trump comments diminish hopes for a U.S.-Iran peace deal - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMkxmWTI1ZTZZT1dGX2J3eV9oYXNsc3ltdlJmT1BLY0R3bmczdHFoTm1ESTgtelYtQ3V1bFhRanZkSUV4eHJYYjVqWGljcVFyOWNyN29zRUlQbkxyUFB6R3hEdVhka01weVhLVjUxRnh6eE5CcFk4LXVjVUN5T1hBUWZFRGpIaWx0Vmk1aDFn0gGTAUFVX3lxTE9SUXF1blN0N1cxaE84VVpQWENPS2NMLVZBaTFaR0tBMWpXb3RfeGFveVZCWTd1aG9qNHJPM0ZOcDVkMGhMVjJVaEx3UTVBR3l2ZHROMlJINDRKS2NQcnF4R3Z0S2ZiV0wzS015eGU2VFhIS1p3dnJaN0Q5VFlnYmRNM2VWX1puQ1cycWwzamdWUk5DMA?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "420354ecc8c7941f",
+      "published_at": "2026-05-12T00:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1UZmMzUDVzZEdURDEyTUV2TTRKYzl1R3lVcXUwM2cycFFkZGJYS19sR0NteWw5RkduNkFoXzA1ZENaVXZESExpeDc1UjUzLTk0elZBRTgycjMzTzVzSEp1V3dHWVVQV0Nmc29TSjZSSEo5ZmhLU2dRV1J4Z0VSYlk?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ad9be894f948e7c1",
+      "published_at": "2026-05-11T23:51:38+00:00",
+      "title": "Trump says Iran ceasefire is on \u2018life support,\u2019 calls latest proposal \u2018garbage\u2019 - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxON2RSNjhuM1Z2dzB2MmZKbTJybWI2aVFpMFJMdjBHZXk4OXc2UFdkUHdrWWM1enIyckUta1dDV0NiaEtiZnlPeW02UUlSRm5WckVVOUt0SWpHV3RkdHhRN2RVV1ZaMGw0bVdzbWc5OHM2NlhmT2NXOXd4Y1ZraUh5VEUtMGIydHZP?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "40ae24b6350e0225",
+      "published_at": "2026-05-11T23:47:00+00:00",
+      "title": "Live Updates: Iran vows to fight on as Trump says ceasefire is \"on life support\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOYzYzTG4zZ2JxVUxURG8yVi12eWhQa1FiX0VsQ3RPWktva1lOdGxxdlNuWnRkZDNPcEphcnFwdkttTGx6RUpSV3BaOEJHVGhYc0pFN1I5czNTbVlCMVpsU09pX2J5dmJXWVBHYjlYbzFtb0d6US1DaWZQOTBOSEl0ZXpfYVhmZTMyTFJsSGNDMzhFNF9YNWfSAZsBQVVfeXFMT2Y3U3AtR2VPWVppeS1Dellyb1gwMWpTelk4bHJMVlVTRkNldUpubm5adWZ1VGJneUhpeF9LOFI5eTZqTVhXRVNSQmwzdUtvcXFocElLeloyRmFleDEySndfVnNxWUpHSE1CaHRQWnN5NUN2bGNCd2xHVzRmV3hDalM5bGtKaDZNUExfOXNNR2Q2cVVDeG5tNWpWeTA?oc=5",
+      "source_name": "CBS News",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -384,7 +354,7 @@
     },
     {
       "id": "7c0aa6db86fe3c70",
-      "published_at": "2026-05-11T18:59:58+00:00",
+      "published_at": "2026-05-11T23:41:43+00:00",
       "title": "Trump says ceasefire is 'on life support' after Iran response to peace deal - Scripps News",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTHdIdlRWb0JBQ0dTT3NWZ0g2UVJYS25uVWlILWF3a2ZHRFJONE9qWHh0eU10WUtlN0tOQ0lwQzA2WXhfRmhUSUwtSWRWcUx1cHEyRmdjc0JrUXdROS1IR0p5QWF4aXQ0OWRBaUVmSDZFdjVUZG9aSmNBSXJUb01UY2pzN0lPNlc4WDhiT1dBTFBBaXFHUlR0VnNaWEFuNDNzeXBaNjFwdEN5bkJTQnpuelNTMUQ?oc=5",
       "source_name": "Scripps News",
@@ -396,6 +366,36 @@
         "iran": 1
       },
       "confidence": 0.65
+    },
+    {
+      "id": "dda6b1efa5071041",
+      "published_at": "2026-05-11T23:37:49+00:00",
+      "title": "UAE has been secretly carrying out attacks on Iran, WSJ reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRVR5MnozSldhdWdnVTRZakJJMG8za2l6V0xUSjhFOUwtVTY0aWdJa2U5M1dWM29Qa012QS14ZUxpdWJoUkRuRzBpNXhOR2tyNjZuYUtKYVV1RjM4bExEMWxOZ09MbHhrLXFSdUNYY2tPaUVJTVlqOFhRek5jRnhPTWI2WjdOT1VjTk0tUTV3d29qZm9SVEF4SUdEcTZVRkxFQWpxdU5lOUd3S3hOYmpyN1ZZMA?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d0b0069b1760fa64",
+      "published_at": "2026-05-11T23:16:00+00:00",
+      "title": "Despite mediating in US-Iran war, Pakistan allowed Iranian aircraft use airbases to avoid American strike - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQWUw3T3l5UHVGTkkwenR2cm1TMndwcmx3emVTazFLWWt1dDhSQ0dpNTlOd1NiSmVuTnRZOThjVmtudVFQZjlSem5FYThwd3NBbUZyZTdUZGEwaTdudnBMM2tFdk5XUnpWQ09YaDlvSFdqakwwaURrSUhkZmhEY2lZNmljdGI4XzY0ZEJiOVBkWXl5YU4tbXdBSGlHTGFwcGd1dkpTaWtuX0lLQUwxZzVSejgyZ3ZhN2wzUWtHRS1saldPdjVGTUNwa3NXRzkzMFlfOVExWXVNLTl5cVpSOElpdzBZNjdIeEU5bjBCakppMjlvMVA3VFZFLURLUzlwSmhVbUM3N1hWNGx1cnN5Z0VRR055RdIBmAJBVV95cUxPUmN4T0phcDZSSGdISnNBNU92RUhTUlY5SkphdEhadFVTV2Mxalkwb0ZLaU5jSDczWUwwbVZWM0MzTmkyc3Rockx6RllZc29XODV2QU9OWUFGcl9Dbjl6LUloTWNDMXhxSW5qQlpxVEI0a3h0UzZ1RWVpdk9ma29PdG1oUlBfOHFPVHBSNkJGZVhHWHFIOUZzRlVfYkh6Mm9lNzFhaVc0c3FkcURDcmhkWER2V1JLRXB6UEhxSXNzWTJVUElZeGp0MGJIb2tYWW1LUVJpdVZzTHdsNnRBdmxKOXpkOEFSVEtVSnFiOWtsLVBncmpMeWdRUVBGU2VOZzRLT2lSVjZkY2otaFJDcm9sZkpkYmlfWmxj?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
     }
   ]
 }
