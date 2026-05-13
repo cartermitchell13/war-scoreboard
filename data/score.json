@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-13T17:27:37.188136+00:00",
+  "generated_at": "2026-05-13T20:12:48.466981+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 103,
   "totals": {
-    "usa": 29,
-    "iran": 22,
-    "lead": 7,
-    "lead_side": "USA"
+    "usa": 23,
+    "iran": 25,
+    "lead": -2,
+    "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 29,
-    "iran": 22,
-    "delta": 7
+    "usa": 23,
+    "iran": 25,
+    "delta": -2
   },
   "confidence": {
-    "score": 64.5,
+    "score": 64.0,
     "label": "Medium"
   },
   "event_types": {
-    "other": 57,
-    "attack": 23,
-    "diplomatic": 21
+    "diplomatic": 21,
+    "other": 58,
+    "attack": 24
   },
   "history": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "date": "2026-05-07",
-      "usa": 3,
+      "usa": 6,
       "iran": 3
     },
     {
@@ -81,24 +81,54 @@
     },
     {
       "date": "2026-05-11",
-      "usa": 5,
-      "iran": 3
+      "usa": 1,
+      "iran": 4
     },
     {
       "date": "2026-05-12",
-      "usa": 7,
+      "usa": 6,
       "iran": 9
     },
     {
       "date": "2026-05-13",
-      "usa": 11,
-      "iran": 1
+      "usa": 7,
+      "iran": 3
     }
   ],
   "latest_events": [
     {
+      "id": "64abcecbc0ee0cf2",
+      "published_at": "2026-05-13T20:10:59+00:00",
+      "title": "US-Iran war LIVE: Vance claims US making \u2018progress\u2019 in peace talks with Iran; Netanyahu makes secret UAE visit | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQeVNXby1KOTlERE5nMHdtUlhMdl9pUHFTRUFESmpvSEVJUTNBbDJIZmljTkFmQjVFZ2NES3VqODdIM1ZJTERZa3FwcHlvWDJITDE5NXU3Z2txcHluMUZ4QTFrbmNyOWkyUzFnY0tFal8tMnlDVm9wcnV0YnJick5aajRVRDVNbXMzUzB1aFZXZVZNUHl5QjUzU2ZlOUM1bWNhRm50cEV1clZTRTN2ZzdSMkY1dkowYmptUDFDZTJpS25kN09VWldia29ZbXpnOG82azhYRjhDbmVIS1J2YXl6bS1LNHliX3RxWl84MUZDSjlMLWMtZ2JKYVdHaV9OQ3dLSVg5UTBaTU16T1XSAZACQVVfeXFMTlYzQVpVNVlqQjMwVnBkeVJGRWVqd21oYXBTN0lLNU9GWmxSRTdJTW9SQlh6ZEpjRzIwRkFJSEtjWmY0dm5OemlzU2JxUmxXekMxVGFLMjBlQUljYWtXWmZCbjJ4NkRFNDJMTUxpcVpCblByc2VTTTJHZWFsLUVxUTJWaGk3VF8xSTZfeUYyQ3ZHWDRreFh5dDVhelhyRWt6bEpENkMwMmxDaUt6ck5XRTVXRTJSNF93UGotMjRCY09LamVsaXpLZEFvZWhUQ2tvZndXX3FIdTItcnFmQ1doVlFHR29vejg5cXltbXF3dzFfVVJTeGJkdFNuVHNaQWhiSS02TjBPd0VQTVF4WmNWT0Q?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "60971c48119f41af",
+      "published_at": "2026-05-13T19:49:50+00:00",
+      "title": "Iran war looms over Trump's China visit, shifts alliances - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVHhHazZ0YktlNTZJSWRFUjNtSXR1ZHp6SE9RYWJndFlyT3VoV1p5RDZQU3ppMWtDX1h4MzRvZGtfOUttSG5xWnNvT1dXUDBlZExFUWYyaDYyRWxoWUh0Tmx4SFVoMThxTEtweUplX0t6d1hjVi1Kb0YzQklwbTU4cUIzSGppeHk1akpINFNxVkJIR3BuT01GbXNjX2s?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
       "id": "a31c342c9a88abf0",
-      "published_at": "2026-05-13T17:02:00+00:00",
+      "published_at": "2026-05-13T19:40:00+00:00",
       "title": "Live updates: Cost of Iran war increases to $29 billion so far, Pentagon official says - CNN",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96VXY0akVTOUs2ZzlmWmp6RnkzUzhJZDE0VXpNendWUlFvd2lNSmoweTBSVURScmhZVXo5MWhxSmVfeU1UeHBtQmVRSm52bl9hZmVkSzh6cmRkRDhvMm1NTGtObTNNQ3Jka1NOWHpkOWxjQzlT?oc=5",
       "source_name": "CNN",
@@ -112,11 +142,191 @@
       "confidence": 0.7
     },
     {
+      "id": "0c126398d29971d2",
+      "published_at": "2026-05-13T19:27:13+00:00",
+      "title": "Holding China Accountable for Iran - JINSA",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5WR2d3WFBOd3pCcWt0OU9kRXZBeURlRDFRdFZrMlZWcWVDMGhRRkJJcHA4SGRkbzdPbkktanp3UkRGT2l4dlpYSFhXVUhCc2p1WTRVVVJySjBoT2YyU2ItUk1iRExMeXFFaDdIU0lEWk9iSVFo?oc=5",
+      "source_name": "JINSA",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "da3f8d44c120f897",
+      "published_at": "2026-05-13T19:18:16+00:00",
+      "title": "Trump-Xi Summit: Could China help end the war with Iran? - Northeastern Global News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE94ZG5UZlJWc0lKVmc0UTYtS0dZMkRKWGVMSWVZYWdGODJ5WmFvZDZmTEhvdmxQYXhXTWZ3QXhtUGlIb2dOSl9yclo3cHdnWTc1clNwMENGZGo3UVlTc3BnRU5BWm5EZ04zWU9HUnM1d1Q2c3V1am5pcUJjbw?oc=5",
+      "source_name": "Northeastern Global News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "46d01d24abe9a827",
+      "published_at": "2026-05-13T19:12:28+00:00",
+      "title": "Netanyahu visited UAE in \u2018secret\u2019 during US-Israel war on Iran, office says - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNeWhzNXJJbmtpX1FnS0dyVjdDZ0xIOXc1VTk3TUFLQXpfY0RKVkltdXpIUkQ4YmctTmZBeUpHdTJJNkdHNDB2YXNhT2c0Nld5UHRHRDl5ZVd2QWl4V205ZVVIM2RMa0o0RE5MY1ZHX0hHSVJPRnpnakxMdkZkb0VzeXM4T1VRTjRRQnFLOGxHT2hjeFo1OXR4Q0ZVQzRvUTlUeVJjaGZ3YWN3Z2JCemlyTVh6MNIBuAFBVV95cUxQUzgwdi0tNkh2c21EcnAtQjhTMFdsTkcxMGJ3ZTR4ZjY3Xzl0N19UNVZON1NBRXB5QkZ2blowWmZlWFNCbVBpMUhEc0R0VWc0dGJ2WWg0R3JlSG1kT0lyU0paOXQ4ZVBzNlFnYzN5bjRXazhKb2NpSlI5ZG9MU3laUExHbnRNOTVhWEpHb1I4bEZQZWd6YUJGYmZMLVVtS1hDS3JIQ3FDRUR5bHBMWnNNX1FrY21ZRTVt?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0bc86726f7e46067",
+      "published_at": "2026-05-13T19:11:44+00:00",
+      "title": "Trump wants China's help on Iran. Beijing may have other ideas - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQb2RnNjN4ck5KRVNBV1FNQUVJUTB0M2lIT0VkdUNWU0MtOWVQbFBHT190eUxqTTdtUVdzcnZQV0xNX2g4MmM5VUxqU25UemxVOHpMdEpQVTBCbURGVnJxRm94cS1vX2dzb2xfSzNJM0pRQ09hRnlkMGdvWWtkal8xYkxMNW55NmZmY2FaNHQta2lWRWdpYUkyaFQtbW0zMDgyQkZ6NjA5N2Q?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8628720493644f00",
+      "published_at": "2026-05-13T18:40:00+00:00",
+      "title": "Iran War Updates: Trump Says Iran Must Make Deal or Face Renewed Attacks - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPMXlNSERRU0xnN3FTTVppbW1ITWRjOXVROE1vNndNTXVocVdPVzljQ3Z6Y1pwRWFISm5QUVJocUtPYk5jNWRZdzBTU3pYcDVwdHBLcmV0Sm96MFo4Zm1Zd3ZQVHRiYVJWalg4TWk3a2ZUeUVMSmVfMDUyTUdLQW1GV3Zzaw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "25054a4f4235af09",
+      "published_at": "2026-05-13T18:39:44+00:00",
+      "title": "US Senate blocks latest bid to rein in Trump Iran war powers, support grows - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNdnI0cUJhSmpJU0FZQ3ZWNDA5X1RmZURVRmExNlBfQkJTb05PdTVOWjJyYlpld2FXbXVhYnJfTXpCckZ0Nk1RRUZSd1VVLUpCcTlqUTc2ekhYY3BJaE1oZUxpY29odzhzLXk3M2ZEM3hsU1FuZmVBcjFncC1vbEVRakdSWnRaRXBMRllxSVNwVGI5NDJWb3ZQd3dZeEY2RnUyY2RETHRaNXRFSWNPSV9rSGhvVmdEWHFzSTBsX1BB?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "49936674d1d9696a",
+      "published_at": "2026-05-13T18:37:15+00:00",
+      "title": "Why the U.S. is headed for a long war with Iran - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjlwN3NUZlVsZlNTNnFfdm9wMUhxNmVZOS1pRHk0YW9kSVJfMUhEZVFpZm04ay16QzdSclBzRFdfV2RWUjRDb2tHam8zSEstSURvSnlyUUt3SUdEZkNMNXR3UWoxZ3AxSUQwLVZTTnE0V18xVGVVcUozeHlRc3Fid2JtckR3Nkk1NnpuQnlhaWpGNDRIQnR6dFBxbXBpSEhreGpCeTlvZmttNXlyU1kzcw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "dbcc1a74a1f2c4ea",
+      "published_at": "2026-05-13T18:19:46+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9FZ2lab1lpZWdoZWExTm1GMEI0YmUzMHBYbkpxY3B3LU0zVS1fZ3dwQ3RvS1NaR3hLS0tQU2ZYNXl5X0dhSlZRQXBqR2Nhb2FDSGJCUzRwZi1UVjVGczUzcTg3YkZyMFkzV1hSN0lUT1UxWFo3VGIwOFF2YkFCZkk?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "7495b25fe78968e6",
-      "published_at": "2026-05-13T16:54:38+00:00",
+      "published_at": "2026-05-13T18:06:26+00:00",
       "title": "Exclusive: Saudi warplanes struck militias in Iraq during war, sources say - Reuters",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdm83YUM0dlJzbS1aT2Z0SHg2NUdKMDgyempPa3NKNEpMaXRiQjlhZXktY3IyM0pxTFhyMmtlLVhfZzVZMG8yTTZjZl9nM2tEbHdpWXFNZHJKUHA4LXpsZmJUUWZxSFJlcmttUmY2ZWdOdGZnUzhQQjNJcVhuS1BYVkdwSEJPR0VZd3NlX0JSNHFjYW5wNHBlUE04aFJPVGxWWmhESWZXOU5KRVBudmVXY3ZWVQ?oc=5",
       "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7926f4e2e6e9fe77",
+      "published_at": "2026-05-13T18:06:05+00:00",
+      "title": "Chinese Firms Plot Secret Arms Sales to Iran, U.S. Officials Say - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNHJ3dHFtSGRlb2RUT1RGenJXbVBySWV4MFpsOVhOcXBvSXRjLTRwUnU4elB6WEJBcXpzWmVTbU9HRHZvb21SNVk1TVQxTWZuUjNkYXNlWXBQYzVldHYzOWFZN3QtV0Y2SGhOSGNWY3ZpblRncXpFLUNoaGJLczQtQnRxVXRiQQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "6e4423b5da471456",
+      "published_at": "2026-05-13T18:06:00+00:00",
+      "title": "Trump Says Americans\u2019 Economic Pain Is Not a Consideration for the Iran War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNelNsMC1UblRxcy1saWdQUlZQOTBkR0dveFg5Y1ZOSTgwdGFtQng0bjd2d1d3SjB2RTczVUpXTXlmaHdKZlRRUE9Za09iR3I1LWw1YU9DZDhTRVlDMUJwdDNNd0VQb0tHY25SX05wZ3pUbGM4MFY4emtDQ2xVSEFtR21ybC1FV25ZQ2RDMg?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "6810b462c890b0d8",
+      "published_at": "2026-05-13T17:59:00+00:00",
+      "title": "Live Updates: Iran says it's ready to repel new U.S. attack with peace talks stalled as Trump arrives in China - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjF1VXkyNE50MmtGb2V4TEVEd29UN084a2ZDcW9UQXhBT1p6R1JhZ2RMWWpGeUZBTXdNOXM5TXUydXhOMjZtMkVHTnNkZG51Rm5OTU5qMllQSTJ6c2pMZmhQQnNyd2FrR0tLZkNCLVJwTzl3RGk3ZFZIOEVOTGRVSm03TFZrVW8yTmhrcFA4X0tJT2tOamZ4S3pacW1JdU4wX3RV0gGoAUFVX3lxTE5hT1VlVGZwbDJQQ2NKaV8yNkpBZ2FfUUQtWUZldzBIcmZFaEM4a2NSOTU1aHlVWkpXYk5nbklEemFVYVFNNUNQZkVEVGhRWWdweS0yWVVmVmlyVmt4cDF6a0NTZlBKcnFMWTh2TmJScGJPc3V3aGJ5d1hYN3gwalViZnpYUktrZUxBVkRZbmRQclNzbXU2MDd2V0t5b2NwZDF3ZDBjWU04OQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "8865b330756ab9cc",
+      "published_at": "2026-05-13T17:32:57+00:00",
+      "title": "Trump-Xi summit: China\u2019s help in Iran may require US concessions - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLTBLWkJ2UDF5NXFlS0MzeEN5eTMtY2ZLQWp0TF8tUGZWZzVLM0NrckdhenJFc1Ezb1l1a2FkdGFHQzZMMG9KY29oUGVxODBNeWV5SWZxYXlrQ1NVZno4WjJmbFJQZHZwVmtwSDlHUlprU1pFNTNDVFVLZUF1dHFjRG52M1VFOC1SLXRuMk0wUmNJV0dVS1NhQWpNdzFLQ0U1WU84bGtR0gGrAUFVX3lxTFBVZGlNbXpMSjRwc2c2NXB2RnBZZU5xWHkwUmFacktOLWI3aTdLYUlxcmVZMDVXOVJKRHZPQzhlNVRrQVBIRnR5dnRURGd3ZUlnY2pOUXVhVlpma3NqeFctRlBxT01nRU55MUNmbzlrdDZZRDJaMjhOaUhGUV9yMGdMbDRGc3Z5bUJidmlZMnRwX0lNWlRmSmg3bHJGbmw5TGNYdWJwY3BNRnNfTQ?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -145,7 +355,7 @@
       "id": "27289678935a5956",
       "published_at": "2026-05-13T16:41:21+00:00",
       "title": "Why the Bombing of Iran Tied the U.S. More Closely to China - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRFdSMGFJb2NqY05PU2RteVJvemU0R1g4bFN2N28wZzhfcmJaejNLdTZobmJMUXRvQUdBQXNhZ0dRUUF4djlEUG1vRHpUZUhpVUJmT2lfbE5tSVM3UHdRQlRIS196WnpFWUFKLXJ3SkZEQmV6dUhVX3BjZFBHQkh4bmZNZ1ZLN28xRWxWODJjbU5EUzg2djNtalpFQ0p0NjdlV0RSU1I0c3Z1OEZqbW9iWXh3eXM?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZU44d1h0cXk5TlRBWVRYUmtIX0NxVlZuUWtyZnVpQk55VzZqbXZjLVpnU201SzNaWUFjeUhJZEVkM01DdTd0U1RQLUNkUk9UeERQbDRieFZxZjZIeXF1Y3RTMXFTb2NXQ2NnUmswLTRqX1lkZ1lvdkVSZWlhSms5Z1FCcHhuSTg?oc=5",
       "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
@@ -155,21 +365,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "6810b462c890b0d8",
-      "published_at": "2026-05-13T16:41:00+00:00",
-      "title": "Live Updates: Iran says it's ready to repel new U.S. attack with peace talks stalled as Trump arrives in China - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUjF1VXkyNE50MmtGb2V4TEVEd29UN084a2ZDcW9UQXhBT1p6R1JhZ2RMWWpGeUZBTXdNOXM5TXUydXhOMjZtMkVHTnNkZG51Rm5OTU5qMllQSTJ6c2pMZmhQQnNyd2FrR0tLZkNCLVJwTzl3RGk3ZFZIOEVOTGRVSm03TFZrVW8yTmhrcFA4X0tJT2tOamZ4S3pacW1JdU4wX3RV0gGoAUFVX3lxTE5hT1VlVGZwbDJQQ2NKaV8yNkpBZ2FfUUQtWUZldzBIcmZFaEM4a2NSOTU1aHlVWkpXYk5nbklEemFVYVFNNUNQZkVEVGhRWWdweS0yWVVmVmlyVmt4cDF6a0NTZlBKcnFMWTh2TmJScGJPc3V3aGJ5d1hYN3gwalViZnpYUktrZUxBVkRZbmRQclNzbXU2MDd2V0t5b2NwZDF3ZDBjWU04OQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
     },
     {
       "id": "512746328ab02195",
@@ -187,83 +382,8 @@
       "confidence": 0.55
     },
     {
-      "id": "ebf799486e6a9ab6",
-      "published_at": "2026-05-13T16:13:39+00:00",
-      "title": "Pentagon strikes deal for 10,000 containerized missiles as Iran war eats into stocks - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOYWsxMV96dEg4OUdmTlp5TGFaamRBem9NN2Joenc0SjU2bGloS1FDWEE0RjY0WV9zUS1PSDQwMDNxamlWbENIR3NfNUxnN1NOOHpvbW1LU2pCdjBfR1Ewd295S3hGdEhodTU1U0hvYVQzOUpXdnBQUzRpRzdLZ2lvQTZfWWtIcU80NF9YbU1VcFlHUkJORkMybTR1QW1jZ3g5UWZCUFNWWkhqTGtsVmQ5WUNhMnhuaTE5UUQyVWJmamh3eTE4YWFZcWtuQ09ibzBqQkE?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "49936674d1d9696a",
-      "published_at": "2026-05-13T15:08:13+00:00",
-      "title": "Why the U.S. is headed for a long war with Iran - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjlwN3NUZlVsZlNTNnFfdm9wMUhxNmVZOS1pRHk0YW9kSVJfMUhEZVFpZm04ay16QzdSclBzRFdfV2RWUjRDb2tHam8zSEstSURvSnlyUUt3SUdEZkNMNXR3UWoxZ3AxSUQwLVZTTnE0V18xVGVVcUozeHlRc3Fid2JtckR3Nkk1NnpuQnlhaWpGNDRIQnR6dFBxbXBpSEhreGpCeTlvZmttNXlyU1kzcw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "39ef6f8131caacb0",
-      "published_at": "2026-05-13T15:04:52+00:00",
-      "title": "Trump Is in China as Iran War Continues With No End in Sight - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcHNWZnBXNXc2UUJDdUk0bFJSQWZqTHVjVklXcVBZZnhMVU9UMUZEcGdfOXp1STA5UlNkZnRET2Y2NU9OLVBUUGgxY19RVVVJMkMwbm5zSUYzYW1IZ0ZuaUQ0MWIzbnBERlhjT1pZRDh1ZWh0YTRuZ0RqeEF5MjVJMTNMZw?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f1809e204f31b72e",
-      "published_at": "2026-05-13T14:41:19+00:00",
-      "title": "Trump says no need for China's help on Iran as shippers seek way through Hormuz - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVHhHazZ0YktlNTZJSWRFUjNtSXR1ZHp6SE9RYWJndFlyT3VoV1p5RDZQU3ppMWtDX1h4MzRvZGtfOUttSG5xWnNvT1dXUDBlZExFUWYyaDYyRWxoWUh0Tmx4SFVoMThxTEtweUplX0t6d1hjVi1Kb0YzQklwbTU4cUIzSGppeHk1akpINFNxVkJIR3BuT01GbXNjX2s?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2057ff94fcc1a95e",
-      "published_at": "2026-05-13T14:28:59+00:00",
-      "title": "Israel steps up attacks on Gaza since Iran truce, as military says Hamas rearming - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNX3dnX0wtWFJNMHk3STdHX0hFaXJOYkFHVEhWamxaWnNwbUd6UVROd21xX3ZkZjB0VVlESDc4NlVuZUtiRXVFdnVXUlhwdE5HcTZGNG5VdnUzOF90UjlIR1MzeGhvU2d2c2pTOVpzZDc3WnpsX1luYTJjRGdRNVhHT1FjS2U4SDV0UjJoVWI2UkZnOE9LVFY0VFM0VEdkN3FyNTJSbHJVZ3FtQTJoblVPRmRWSDJsYk5kMlZ2Y0Z3MGV2LUx5eC1n?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "8d32246a5d565c18",
-      "published_at": "2026-05-13T14:04:00+00:00",
+      "published_at": "2026-05-13T16:29:00+00:00",
       "title": "\u2018I don\u2019t think about Americans\u2019 financial situation,\u2019 says Trump amid Iran talks - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQbFRSZkRXXzN3bHhCRGxkVjQxSEVCR2c3eHRhVC1saDQ2MU9WSXI4MEZtQllCT0RuX2RFOUxOallRNndvY25FUFg4amRGMWJwSGJmcElQZ0dfZjdIdHVIakxVQlpCZlFScGZNSE5Ndm1kRTVJako5UzZic3lKQzFfQmtBQ0NMWjVh?oc=5",
       "source_name": "The Guardian",
@@ -275,126 +395,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "c0a59d76b8c2c4f0",
-      "published_at": "2026-05-13T13:57:13+00:00",
-      "title": "Iran preparing for renewed war as IRGC stages drills, reports warn - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWFQ4amNBMVZxYWFmOGNWOVNwUEZkTVJnV1RHNkwwdkdZbnVkUHlYSUdyWUNmWld6MXlOdWZSNDFMM2cyN0EyR09jOVFueWg2eV9lcVFEUFpJOWk5aEJKS1F4YUZGZnJmNkxRRTZaVm1BT1gtM2pDZWNuV1c4NXZkWkJHZ05IdUo5Ujl0emxGNUoxNjlvcmwwbThxSkl3V1BWaGZ3bGhfSDZHRGphcmhwS3NNQUZqNkFtcS1SSA?oc=5",
-      "source_name": "Euronews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "d7ae7543fc919cf6",
-      "published_at": "2026-05-13T13:56:49+00:00",
-      "title": "Chinese supertanker exits Gulf, crossing Hormuz after months of delay - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1BeUpNQWVQX1Azek52UHhvTXc0d0ZGelJsSjlrcWRqMHhvUW5CODUtYThfV0plVERTdk1oaFpIUTBVZmtyelg2RWF4LXpVeDlMb0NXeDJ4QU1vb19QSmhlZnZ5STk1VW8ycmc?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "da0eae9c70349c7d",
-      "published_at": "2026-05-13T12:51:03+00:00",
-      "title": "Israeli attacks on Gaza increased by 35% since Iran ceasefire: Report - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNOXBwcG53TzI1dWdtYW9zc0xfdTFlamZRNWdScWVBVTg5LUdnMjFSU181R1RPZG0tcGJfX3lkRDZaaWhxSG82Z0s3X0pHSGhkV09KRnVFRTNOZlUxMWJ4b2xSLTZkeFVwVWVwOThiUDhVcWxkWW9iUEFma3B1S0xtU3dDQW1GT3I1NFEtcjlUU3FnWU1BdG5LTVZ0T1ZNX0lGMWQtazVMY0VSaWNW0gGyAUFVX3lxTE9kOUFKbnVmVmEyWHhpY0otUlh0OUdsY283VWdublNsVGV4djVBSEZSVjlMeGxmSEFqUm4tWWUtZXlLNFhUWWJhcXYwMFdGbWZlLTlpOEU3RXE3S2RiTUtwV1QtdzFxaXkzOWJrZlo0R2g0ZVlXenNuMTFrdVVfUnlyYkk5U1dsd3pRZDNzamxQX1pNcFpSZVVzcVNsTV91dnhKZXdOMk5qT3pSMW55b2lBWUE?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b17b05dda3e0e1fa",
-      "published_at": "2026-05-13T12:09:15+00:00",
-      "title": "Iran's Missiles Still Flying, So Is Hormuz Threat. US May Be Running Out - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSGtuZlQ5NWdqWno2UWVJaHFHWUFWdHJiSXpudkpOc2VzX3EzOFdUSmNkREkwVk5LZDBCeEd1ZHlyemk3Nk1adWxWbUpQUG1Fa18yWUhuOEIwdXl4UzZhMW41eE05OTcyLU1KNHN3MTNVa2gwYTBTZ3BxcE90c0Zqc1NwODdCekRRTlVnTk9ySEh3QjliTU1FdDBtRDRRM1p0Rk53Z2RVcWs3Z1RRdThYQ0tkMm5wUlBhUTg2dm5fRi1EUzFVZEhxTGlrb2p1dC1RTERVbw?oc=5",
-      "source_name": "NDTV",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "15c533dae199e7a2",
-      "published_at": "2026-05-13T11:46:13+00:00",
-      "title": "Trump faces slew of \u2018bad options\u2019 on Iran as diplomacy falters - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbzdXTGsxTklkQWsxeEEzWDdITnFIVVR5M1pUYWFYblVlNHlKVTBYSzFZN0lwZmxaaU4zNGg5OENyWjI2YTlJcG5CWnNtV3FZUEw0aHJtSS1DR3MtNW9JT192NThUdkhUSlRxdjhKTXM4Z2o3RUJQRW14ejhXNEFtNW42ZHdMNjdnV29xbnpra1MxZ3JibWROVlpjZTM0cDVVRTJn0gGoAUFVX3lxTE9KSVhPTVVwc3hWZ0dmYnJRX056SzNqNHNXT1A4eFZPVy00U19IQzBhZmJUMjZXMmFuS254TWcxVENOempKUi1YS1E1NFlkbklLNXZKTFF2TzdJWmhUYXY3RVBPLVBpTm1mX2J0Vk9QR29DdkdvaXVITW16XzZaXzNCRFRKZHRlYW14cUtDS3dKN2k2UGVpdVU3YmQzT095UDJ4Z2tfRGZCZw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "06065cc3f7b998ee",
-      "published_at": "2026-05-13T11:03:01+00:00",
-      "title": "War in Iran costs $29 billion so far. And, students are finally improving in math - NPR",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOZnNrYUc2Sml4cXhlRWNQVURVYzJoWDhqb1lBamtNbzJUdnFlMUd6VXFhVlBvVTRGa3FTd2dFc3p4ZF9fUlRHam5DdXF5eXlXSFJRcFdCQkhsaEdYbVNEcHNwb3RmS2VlNHZncHdwUV9ZSkdoS3I4Z09Yel9MTFdBdlc5dkRVcmFtS09GeExIVnBzRGM4bjd4SkNaNGpGeTlTcVJtcnFjTGxCTzhiOTZlTXhubXgyM1ZmcVJvYnVkZF9xLV9O?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "766b19e0a1c5c89e",
-      "published_at": "2026-05-13T10:16:33+00:00",
-      "title": "Walking a Tightrope: Scenarios for Iran\u2013US Confrontation - Al Jazeera Centre for Studies",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNNE1sakh3V0gtM3VPSUd5NzJuVmZKeU0yTUpGTFZQLTVYaGlRLVh5QlZkZTJfY1FtdHhvNm1NcVREZlMwQ19xNTB1b2d0cXNCeEhBX2t0OWhnODVTZ2d3VE9rZ1U5NDFXWDNhQ2lQbUExYjl6WnRxZTZrX0dOUnU2aU1leXB0a2JIVklSdmZqY2p2NTgzZFBTY3VpLXUzckJy?oc=5",
-      "source_name": "Al Jazeera Centre for Studies",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "ef3babfea75ebffe",
-      "published_at": "2026-05-13T10:00:03+00:00",
-      "title": "Trump faces split among retired US commanders over whether to resume Iran strikes - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONkpqZmE2UmVwaHlxOXBOemVjbW9BV0dPNDRicVBjeDRPRmRNdG5lek5kb1hiSWI0RHBPRzdoN0ZzNWdSS09MTWViRGV2QUdHRmhkQ3ZXUkk1cW1sQldmbG1wLWZyV3B3MUZ3RnA1XzhKcHNmTU9XM3hTbkh3SzVfM1EzdnJndndNT0VET0puYi1BYzRCSm5WZExULWo4T2J6TW14cHA0THhZa1l50gGyAUFVX3lxTFBzT3JsYlZsd1MtOXoxZ01iQlNySGh2VC1teDFHdEV1alh5SzdsMEw3X3VHQUNUZGRyYjRxd0ZONkFRNkhEUVdZWGNlQW9JSGFVMTBvNjl4VW52Sy1Hck9rSW4ybmYzNml4bUViejdJd19ObnM0b0E5QzRkVWpJVkkxNzcwdzlWVUZ0bmxGcWh6aktTMHBUa194QlFJTnZTMGFBTjg3eGpIeldwbzQ3UmhnaXc?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
