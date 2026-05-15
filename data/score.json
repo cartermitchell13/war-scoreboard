@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-05-15T04:30:12.870384+00:00",
+  "generated_at": "2026-05-15T09:24:54.990084+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 96,
+  "event_count_window": 103,
   "totals": {
-    "usa": 24,
-    "iran": 18,
-    "lead": 6,
-    "lead_side": "USA"
+    "usa": 17,
+    "iran": 20,
+    "lead": -3,
+    "lead_side": "Iran"
   },
   "momentum": {
     "usa": 14,
-    "iran": 15,
-    "delta": -1
+    "iran": 14,
+    "delta": 0
   },
   "confidence": {
-    "score": 64.7,
+    "score": 63.3,
     "label": "Medium"
   },
   "event_types": {
-    "other": 55,
+    "other": 61,
     "material_loss": 2,
-    "diplomatic": 12,
-    "attack": 27
+    "attack": 27,
+    "diplomatic": 13
   },
   "history": [
     {
@@ -32,7 +32,7 @@
     },
     {
       "date": "2026-05-03",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "date": "2026-05-07",
-      "usa": 6,
+      "usa": 3,
       "iran": 3
     },
     {
@@ -62,7 +62,7 @@
     },
     {
       "date": "2026-05-09",
-      "usa": 1,
+      "usa": 4,
       "iran": 0
     },
     {
@@ -73,7 +73,7 @@
     {
       "date": "2026-05-11",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-05-12",
@@ -83,41 +83,26 @@
     {
       "date": "2026-05-13",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-05-14",
-      "usa": 5,
-      "iran": 4
+      "usa": 2,
+      "iran": 2
     },
     {
       "date": "2026-05-15",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "dfaa99b23e7b6712",
-      "published_at": "2026-05-15T04:22:40+00:00",
-      "title": "US-Iran war news LIVE: Xi hosts Trump in private compound in second day of China summit | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTEFDQWJoOHpBaENzRHNKd3JudTVaZ2JGV0MxQlBiOGlXOEpEczMxcHVlTHh4VzZmcTNwWjhaZzdJTVJjR2U5d2NLSXpWZDFOaTNKREtlNUpYY2tfQVFwVTg3TUJtaGdVcHFQTF80bXZRdVVWbmYybHJSZEtlb0ZyT1NyRV8tWUNLdXpyMkxUc2NHSlFPNjlpZjZjMjBuM3VWZXE3ck5jbmZfT18zbERwWWcxc0IzT2t3WllwQzdFZzVOaV9nb0lUUm1KZkUwZ3lDZEE2RXVzNFhsQk5lenplUGhVaWhldEhBMHhHaWtZZXRGenljcmxVRkNEOVQzeko4c2hfbXdTbnlONU560gGSAkFVX3lxTE9xWGdWU2NJY3NkTHM3bkc5bzJsWFB5ZEFkR1oxaEZBbm1ZZDV3TUtrS0ZiT09aT1ZHejdvbHdQWXBBb1Y0dzB3MVVDQmxhYUNBVldkYm5EZEpqdDFEbk5jZF9ZaEpnWmZ6ZGVTb09IYzRxQi10MDlxQWlfLVM5Q1ZPYWd3YWIzbDFFMEc3NHZ5WEF5bEVCZWNJZ0F4YjNoaG1iQVpKY20xckFLQm9kdGZKbWFMeGk3a0tjQ0JCUjBJb3FZN2lLR0JSZk9zYWtnWWlpVE53aUZTN3A4STNxbTVvZWZMaUtUc01uc0lNV0dIMWdPZkx2OGJhM1Jid2o2VVk3T3VfZnA5ZEhTblBYMzB0MlE?oc=5",
-      "source_name": "Hindustan Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "135f63773f16431b",
-      "published_at": "2026-05-15T04:11:50+00:00",
-      "title": "Iran war live: Trump\u2019s visit to China shadowed by conflict with Tehran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "50de360797548eda",
+      "published_at": "2026-05-15T09:18:37+00:00",
+      "title": "US-Iran war live: Iranian military makes new threat in Hormuz after Trump says he wants uranium \u2018for public relations\u2019 - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYUdGTEFoMk9nVXR4dUxPbFFaVTRsSGFwOU5tTUJmaUVXclNnUjV4aWNxblJlNEM5VE82dVoyTGxtR05fNHlDQVQ4aERhZkZlM3BfWnBDZlZvaXg3eS1pQVdwV3haNXR1Sks2Ql9TVDJJN3A3WjVBLWR5cTNyU0dOam9uclplMkkzRG93cWFUc2xGbUVsOXhnODQzeFFiWWx5MFc4MTFpYk04X292Y2ZVN0FGYkQ2VnRyMk5LdjhoTEp1b3ZibE11ZVhEOA?oc=5",
+      "source_name": "The Independent",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -129,7 +114,7 @@
     },
     {
       "id": "cadaf192bd61f341",
-      "published_at": "2026-05-15T03:57:16+00:00",
+      "published_at": "2026-05-15T09:13:42+00:00",
       "title": "US Iran War News Live Updates: Tensions flare near Hormuz as a ship is seized and another is sunk - The Times of India",
       "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQMFFXcnhKRjhzX0ExNjQxVE5LNHdZbUpoUHlKZjl2VktPQ2E3V1ZpNHRTajB1QzIxX1pSRTkzbWVhYlVVclVlWXJxS002R3l4WUYybzBfWWZpNkJqamNYbzh1VWJ4Wm02UGtwMFhpb2x4ek45UXZSRlN6ZldERk5FdTRvVTNNVjl2WkF1ZWVaQkRaSmowSDBEYnlPZUhwLWZNMlctOWpucGpHTHBUVjBpOWVURGRVSWdYb1N3d3pVMlkwWnhqRXZMNWlhNXpJWHQ2TGxJbEFMM3M5RnhvOWJwLU03emZQaXBvVmEwZXpxbFFJbnVXOTVOWXBfdHAtWFVqUXp5SFlpZGpjSFIxNzNvWHJCZzdjQmpkSGhvSWtETkZWdG50SVRKejdoYjZtUnRnMTZHekpzR3V1THJINEdmeDJOdVNBR093azJtUjlPa9IB1AJBVV95cUxOM2I2LTZCaDZVUWt4QVZCZnBLZ2ZWSjBUbG85MUlYVmpjYlpQZ19MaXZ1SmJjcTJic2QyVmpLNGxPS0VaeFg5bF9yVGYza29LdXRsOEZfdDYxQ0VNNWFFRlc4aS01elktREtRZkpEZFNzYTFYaXJnWnYzWTVMNWRuMFhQT3NWWDJSYnVvZ3FtUV9ONXo4cl9haE9yT1JvREhDVzdUMnZqSklUOTJNRWlXRkpEbEpkdHV1X2pPM05RbmUxa2RUd0NScndGQW9wbjZrVGhXSWRhXzZyUHBtZnZPZk5KNGhSNjdJY2s1SHZlTlA2a2c0UTFkSlBTeUhLRGNTb1E3QTlDMlNSQ21LdDZNYk9JSGNTX2JVZXZ1dzEwYlloQi01NGpnTExOdklRUFFFcnFYWVpKR0E1VGdjQ3Fld211TWk3SnVpNlFHelpYUWxUell1?oc=5",
       "source_name": "The Times of India",
@@ -143,11 +128,11 @@
       "confidence": 0.65
     },
     {
-      "id": "8dfc29318474a455",
-      "published_at": "2026-05-15T03:52:33+00:00",
-      "title": "US-Iran War News Live Updates: Trump Says Xi Offered Help To Open Hormuz, Vowed Not To Arm Iran - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNY0V0MnZLZDl5ZnFGRGtlUEY2T1ZBaXgxa1ppOTVxZENKenRTcC1BeUFibkxVVkhvVGVtSS1LdU53cEs5Yko2T2V5UTV0alpWNW9IUTZMY0ZQZXBfaE40b3lzNzdtV3VRWk9uTkdhSzlLeGhEamJRRDZ6VWJacDJzbExFX01JT0NvZjFEcEtsWDQtVi1DV1VqMXV4aDBxV2ZWa0lsWGpPNDJUSmN5cEJJWFBGczBzVG1BaXFmXzJpY2VVYlQwekRjWFMxcTJHNWxYZ0V4dmo1UHVBZUxUOUJTQ1AwWXZIWjktc2VkVUxlQ1ZoVzY2Y1NDbmFWNlZ5LThZeTJBVURIdEdpeHE5OWlEZ1ltZzRoYlhwMlJr0gGjAkFVX3lxTE1nR2VLREU4dGpzSjd1dUtBdkQ4X1FuS08tbXA1czFSX3NDLUwwSXphQ0UySllHZk1EdXduWHBmVlh4NmZPa3FCZVRZOEczdE54SXpUSU5QNTROdTQ2bUF2eVFKZENJTnUtOGEyVmpBeTdJNWRXSFl3SkZMbVQ3eWlldzNGZzEwTGNwYjRiU0daZFllejBSaUpOTXVZUTN1T2hqdENXR2V0LWZjN1AzcG5aOUcwbDlENm92VDBXVUFmWm9teUFyUXNhMVhiRk9TUl9ySVo0TnJISWozV2JsTWdDT1l3TDlNRTJWTFFnOEttaV9MZXVnT3IzRjdtRzZOYnBaZGdxaEhEby1NWGJPOXdJMXEzeEstWnJ5Z2xfOTg5Z3U2OA?oc=5",
-      "source_name": "NDTV",
+      "id": "dc88c19d3882a0b1",
+      "published_at": "2026-05-15T09:11:39+00:00",
+      "title": "PM Modi UAE visit LIVE: PM Modi says India ready to help bring peace to West Asia; Trump concludes China visit | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNTEFDQWJoOHpBaENzRHNKd3JudTVaZ2JGV0MxQlBiOGlXOEpEczMxcHVlTHh4VzZmcTNwWjhaZzdJTVJjR2U5d2NLSXpWZDFOaTNKREtlNUpYY2tfQVFwVTg3TUJtaGdVcHFQTF80bXZRdVVWbmYybHJSZEtlb0ZyT1NyRV8tWUNLdXpyMkxUc2NHSlFPNjlpZjZjMjBuM3VWZXE3ck5jbmZfT18zbERwWWcxc0IzT2t3WllwQzdFZzVOaV9nb0lUUm1KZkUwZ3lDZEE2RXVzNFhsQk5lenplUGhVaWhldEhBMHhHaWtZZXRGenljcmxVRkNEOVQzeko4c2hfbXdTbnlONU560gGSAkFVX3lxTE9xWGdWU2NJY3NkTHM3bkc5bzJsWFB5ZEFkR1oxaEZBbm1ZZDV3TUtrS0ZiT09aT1ZHejdvbHdQWXBBb1Y0dzB3MVVDQmxhYUNBVldkYm5EZEpqdDFEbk5jZF9ZaEpnWmZ6ZGVTb09IYzRxQi10MDlxQWlfLVM5Q1ZPYWd3YWIzbDFFMEc3NHZ5WEF5bEVCZWNJZ0F4YjNoaG1iQVpKY20xckFLQm9kdGZKbWFMeGk3a0tjQ0JCUjBJb3FZN2lLR0JSZk9zYWtnWWlpVE53aUZTN3A4STNxbTVvZWZMaUtUc01uc0lNV0dIMWdPZkx2OGJhM1Jid2o2VVk3T3VfZnA5ZEhTblBYMzB0MlE?oc=5",
+      "source_name": "Hindustan Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -158,10 +143,25 @@
       "confidence": 0.55
     },
     {
-      "id": "a4d4849489f1614b",
-      "published_at": "2026-05-15T03:22:21+00:00",
-      "title": "Effort to halt Iran war stalls in House despite rising GOP frustration - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2xQYmlPWVBqMHZVVnlrMWlSTmpwN1lpMkJTV1Q3UkxzVElNcHA2c3BOYS1oY0toVFVTbzhHZF9KcmtrY1BiOFg3U3lqZ2lNdG0wWkZzazdUZWpZU3l6S0FFOG54QVdCd1Vpd3Q1a1VNTDVzVUgxQXZVblpnTWhyV0h2NjI0VGtLa2VkM0w4ZjRyTWgybXZ6eVhSbHRMWjlyVWpEZkNjdko2ekNIeXljZ3Q4OFJHMHN0UXJYYkd5dXVVRk0?oc=5",
+      "id": "740562a7c53aac11",
+      "published_at": "2026-05-15T09:06:50+00:00",
+      "title": "How Xi-Trump summit failed to yield Iran war breakthrough - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUHZsdmZRczdfOE9GY24zV01Nb2NaWEVtVXlSZGJvNUlxN2xsN3FJb21rd1hNRGo1MzIwWnNIWkVSY3JLUTdNMHZSZ2pCak9DVVFNRWVIall1SU15NWk1SFo2ZTZjWV9XQmlFZFN4OFk1ZzRkT3d0TmFzYkx2NFBUcHhQQnVQY19GRS1HLUxxZHNTX1VoZmFYMzBiVm5ndG_SAaQBQVVfeXFMUDAtR281UXc3aFRqc0Z1QTBXRGtyUktsSmFVUzFXeERzaDdKbUx2Y2ZteXpvYS15bnpDMklTUjY4b3JDRnVPczBhX3hibWtqX2pFR3hUSWxZd01UWC0xekxLSzFULThmV0NnTk1JdndUdF9BRElXMUxzMkVXM3R2eWhZUUJSU1NSMzRkbHRfS1VJZnVUbHQ1OEdaa3pOSVVEOWt2V3I?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c1ed0caba5090ce2",
+      "published_at": "2026-05-15T08:22:52+00:00",
+      "title": "Trump, Xi wrap up summit claiming progress stabilizing US-China relations but differences persist - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZ2RHRFJibTIyODFiLUswcmVJN1BSTlB5UlB1RFZaM1ZuaVNNa0J5bC1WOVhHN2JqV0JpOGlmdnYzUXBlNTF6aHpwakRSSm5FUVQ3R21uVXdRd2FDTFNqdzZVRXVUSm91WnpiOUVVT1FuTlV1U0htUjNfbFdMZ0gtMldfRDNKR1lONWlqLVZ5c2thMjNzUkxjd0V5YWlad0pYOXBWMlFBNXZhU29ELXRkZ1FjZnVhaTVvdmRoRGVkQUdLeTA?oc=5",
       "source_name": "The Washington Post",
       "event_type": "other",
       "actor": "unknown",
@@ -170,11 +170,116 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.55
+    },
+    {
+      "id": "cb442617dffde31a",
+      "published_at": "2026-05-15T08:16:16+00:00",
+      "title": "Iran war live: China wants swift end to war, Israel escalates in Lebanon - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX253cS1CLXNmbVZtQ0Z5bzRudXhYNWVHNmU3QTZIZG0xbzdtRGw1UEYzR1pUdHFsRUdQQURIUllVVDhQekdwOWY2bGhyUU84aGlzV2tGcVRXRzVHU1JfTXFLdWowamtzZnZVVlZZaGpUb0dQMi1aNUFYNXdKamNDa1VabXdOMTJQbEZYcDhDVHVSZDdoaThwdS16allnVU9HNTJLWUViMEt1UjBYQTRVTkRJWWJvUExHbnfSAb8BQVVfeXFMTzkxQS1VbVFiSDZ0bFhCTm1DaHlnaHNUY2NXYVdlZDkweWQ5dUdKTUVCWG5ORi0yTG4tcWRxRjZkbkxLUGYzN3g4VER6aGMzaWVfRjA4RTUyUG9jVHRUbWladlVrZFhtMlcwOUZkblpxMlZmMGRibjA1NEM4UzhjMHdEQ1FSV1cxd0hpRTU2SXBzeXpnNHZSWUtTNGtaT0U0OW1sRXJrUVJRVGZ0UVo3dkZzRVI5eV9QVUt3dEZ0TUk?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2254e41641be3b2d",
+      "published_at": "2026-05-15T08:11:49+00:00",
+      "title": "President Trump Threatens Renewed Strikes on Iran After Talks With Xi in Beijing - The Media Line",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZDZoQnlnODg5ZHhabFBSQ2xlX0Y5SmlPYXZUSWJpeGRpQVRJT1djS2xSdTJSM1BEbE1pVGtocUt5RFdIU3A3YWctNW0zMl9fRjd2RVBmSTdOeXRjcTB2VFhKdnQ5UlpvYkpWRV9yV2JWckxGODB5VmZULUo3MF81bWc0eTdBYjY2U0d4M0xCSTY5ZDA2bWdoWjlmbnZRUVZhaTB4YklJWE9aal9ra29xb1RyNGFMaVU?oc=5",
+      "source_name": "The Media Line",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e75ae76a43e2b56f",
+      "published_at": "2026-05-15T07:32:00+00:00",
+      "title": "Tensions flare near Strait of Hormuz as a ship is seized and another is sunk - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnJadUp3aVhpSTJORmhWczF0ZmYydURqbkE3WnlTcmlFd1g1bkdReVh2aUxVRUxLd1hnQmpLcmpwN2Y2NGJhbXdBa1RRUWpOcHdQYXJGMVZLeGIwby1WV09XT3RVbHlHODMyT1RmLXpQWjczbnYzTXBhcEo4bWxYMVpuQWhqeDNtVk5lcWlXdnd4MHZBZTV5aGp5d2RGcHpiZjlF?oc=5",
+      "source_name": "AP News",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "89956a64767722fe",
+      "published_at": "2026-05-15T07:19:00+00:00",
+      "title": "Live Updates: Seized ship taken toward Iran as Trump and China's Xi agree Strait of Hormuz \"must remain open\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZ3F4RDFfMWRrb1RYQUZiNjRhSk9DZXc3MkFKSjRlck9XamJDYnZFREtrLWdtd21ReW9sckNvWThielVnYnAwbG5HUDlIRDNVRnJWT09zTHg2WDVLQTJxekowMWFSdEhvblluMHdub05CUzkzQnBROTZkZDMxVV9raHgzMWNqRjFCbEhiSC1zSDdkb0paN1paZTV0OFfSAaIBQVVfeXFMUFZ1ZEpKM19xclBhQjVTSmlJVlAyUG14c1ZrY3dVOXlFWWtRYkdxX3BGQlhsUjI0N1pDZUE1QnRGeE43WUthQWkzdExSNkVUakd1dUJ6dndMSGdVV2V3LTBRckx3WERFSHVmbVBGNF90dGE0WWVhU2FrTjdKX0M2S2Q1ZTE0UEVneklPWWZjbUU0eEFvdGNjLTcyZ0NBeWczZzVB?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "be1811799b528864",
+      "published_at": "2026-05-15T06:53:00+00:00",
+      "title": "China renews call for lasting ceasefire in Iran conflict - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcVh3Tmh2SkhLSms4QTBYNTB2NHN0bm1PNGx5S2VhcUhpUjJqLV9ma0FuVjl2V2h0UE1ud1BYdnJaSHpIWmE5eUZiQ3A5ZVlibW9OVm1BdnNUdUpmbVRvanZ2bEZHUVlFVU5qNEJzMUZCd2lqVHVENzNsRU1xSkZTN0Y3ODBkRms4QjZDNFNsbw?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5156678a9e798bb8",
+      "published_at": "2026-05-15T06:27:11+00:00",
+      "title": "Iran war day 77: Trump, Xi discuss Hormuz as Tehran rallies BRICS - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRnVya0Jkc3BGREw0RHlRa1psYktWVXhtUXQzQkNlaVVzRFE0UkUwb3JmOWxrNHVGOEVOTTY1aHNGY1drQlZBbk4wVnRZQmxOTVlIWjA0NHNRcFp5dTdjcndPbXJHVUlORTJXZHI5dDBvMHQ0a1F4a2Q2M2tNWmk3cnRobTVvTm9rbFFmLW5jeTI4bjZoZlBnMFhWekZCWVo1RTBFdzZtRQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0870a4f81a1544be",
+      "published_at": "2026-05-15T06:26:33+00:00",
+      "title": "Trump says he and China's Xi agree Iran cannot have nuclear weapo - Global Banking & Finance Review",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObEx5S1EyLThlaE1ld0Z6RmFIbFR5SHNjMy1sb3hSVlFNQTlLdWhWSzEtbmN1MjRrN2lNZldYT3hub3ltdzdaY1p2bmxfWVFZVkVVZmdkdkpNc2c4UE9iY3MwbjBWcEExSFdKVERRZFo5NUZfYTlBdW9kQmU1WGpIbE5DZ3JVd1h3OTh3MGJCWmFBLTVOVEdwUg?oc=5",
+      "source_name": "Global Banking & Finance Review",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "b4857888ed45f302",
-      "published_at": "2026-05-15T03:14:27+00:00",
+      "published_at": "2026-05-15T06:14:27+00:00",
       "title": "Iran war latest: US has flipped drone war, military chief says - as 'ship taken' off UAE - Sky News",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?oc=5",
       "source_name": "Sky News",
@@ -188,11 +293,26 @@
       "confidence": 0.55
     },
     {
-      "id": "58e7bd8c652c4208",
-      "published_at": "2026-05-15T02:21:32+00:00",
-      "title": "Israel pushing for return to Iran war, weighing options with US: Report - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOQUptTnozOWgxTC1XLVBmT0g0bEI0NFhwQjFodHhNTFdwalQxLXpJcVI1Z21QUDNXblZ0dncyM2plSG1oTWE1eURWVnRNUFJRZko0dHMyclBVOUoxX1dTNFlhR1hHNzB5eUowUmMtZjM4UTJNMGlyZ0FuZUFlUmhrOXVhSVNYM0ktODRDcGxUekQzVXgtQWxza1NMeUtBdGFTdnFjSnR5b0FreHExNzhvZ3JWdDM?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
+      "id": "a4d4849489f1614b",
+      "published_at": "2026-05-15T06:08:22+00:00",
+      "title": "Effort to halt Iran war stalls in House despite rising GOP frustration - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT2xQYmlPWVBqMHZVVnlrMWlSTmpwN1lpMkJTV1Q3UkxzVElNcHA2c3BOYS1oY0toVFVTbzhHZF9KcmtrY1BiOFg3U3lqZ2lNdG0wWkZzazdUZWpZU3l6S0FFOG54QVdCd1Vpd3Q1a1VNTDVzVUgxQXZVblpnTWhyV0h2NjI0VGtLa2VkM0w4ZjRyTWgybXZ6eVhSbHRMWjlyVWpEZkNjdko2ekNIeXljZ3Q4OFJHMHN0UXJYYkd5dXVVRk0?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "cda36bc5857b8927",
+      "published_at": "2026-05-15T05:48:00+00:00",
+      "title": "Trump-Xi accord on Iran elusive as US president\u2019s China trip winds down - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPSnVRYWRxcDFLaWxKQUV0Yjc4U28zdkN3aGtYVXlVbGtjbDI2U2x5SXZZbzZJczBFdERaR28xSUIyUmhpNVdmLVlYdTFFNW9vRlBpOWRKVmlZeC1nUk1kVUFPenI3ald6Y3JGbUpJMWxscEhobUJSRjFwV2ZtZHFRc0VMYWdhYWlCSmlfdVM0SW1uUHE3MXpLUzM0UFJiQQ?oc=5",
+      "source_name": "The Guardian",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -203,12 +323,57 @@
       "confidence": 0.55
     },
     {
-      "id": "e75ae76a43e2b56f",
-      "published_at": "2026-05-15T02:06:00+00:00",
-      "title": "Tensions flare near Strait of Hormuz as a ship is seized and another is sunk - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnJadUp3aVhpSTJORmhWczF0ZmYydURqbkE3WnlTcmlFd1g1bkdReVh2aUxVRUxLd1hnQmpLcmpwN2Y2NGJhbXdBa1RRUWpOcHdQYXJGMVZLeGIwby1WV09XT3RVbHlHODMyT1RmLXpQWjczbnYzTXBhcEo4bWxYMVpuQWhqeDNtVk5lcWlXdnd4MHZBZTV5aGp5d2RGcHpiZjlF?oc=5",
-      "source_name": "AP News",
-      "event_type": "material_loss",
+      "id": "a9b8bbac88ffba72",
+      "published_at": "2026-05-15T04:42:38+00:00",
+      "title": "Top US admiral: Strikes severely degraded Iran\u2019s military, defence - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWFF4TDNLcGJCN19QRU5Gc29tMXBNczdGTlpnanNwSDN3Y19ieFlrd2RWMm5GaUgwX0xBQlMtblh0bXZVbUZxLVlCS0FwN0tmSExvTjNxWi1tTzM4Q3VOOWF6TTRCelRhMW1Qa2x1dktpbGRsV3VaYjRrdGhkOXZaV1VDN1RhOHQwOURNc0M0bjZLenVQZGV1ZXB0Y3dMYmZ5WlFDZFJFYUJYaE9GUjFVcFpsSkLSAboBQVVfeXFMUDU3X3ZoTTlnR0FtTVltZW5PSi16c0xOTW1Mejl3S2hPUWl6c2FWZWlBa0dzNmk1RlJTSkJyMUdIQURSZmRhZHJ5QXRERlZ1S3ZqamlwaVFFVmdocUloODBDR0FmRXRhMXExU1hRQ0dsOEtRYi11cXVrUjhRbGVDbmVEbTBETTB4MWhIV1ZfWWdCZzZXU09OX1MzMnliREZodldvRG9QZDJnaWtiV0hUZHlwWHlkZlZ1S2Jn?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5bead6b571f425ee",
+      "published_at": "2026-05-15T02:25:32+00:00",
+      "title": "The Iran Conflict - Ipsos",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9scUZkd3ZqaGszU3JSSzdXRGxWeWVGWkFNOXA1cmdVYUlzQmFUV0RuZkRaQXkzcC1iTS00NDZFaHNWRlJFaXBOVWNSRm4zMTllcjR3N2xDeldIMHlVb2JKS1J0dHJaby1UaThjYzBrbFo?oc=5",
+      "source_name": "Ipsos",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a78fb7c847d4518b",
+      "published_at": "2026-05-15T02:14:27+00:00",
+      "title": "Trump says \u2018decimation\u2019 of Iran\u2019s army \u2018to be continued\u2019 after he and China\u2019s Xi discuss Hormuz - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNc1pGb3lOOW1kX3k2ZzE4TnFfMTZYV2EzamN4bFhENVlnclk1V1JwQVhRMkkzUElnRnRLS0M1UDR0S2VxS3VEVU0zdGtXam40X3g1YjN3QmdyYkdpN2RzU0NEYjVDY3NiZmMyMHVMN1lqVzVuQzVCR3RBUEI0Ul83WHV4eDBlcWNLc3dTSXVMZ3I2LXdQMGFXUUlSSmhiUm1FV3F5blI0eVFFMTdLMWdvWTlidmV5QlBPVWh4WNIBwgFBVV95cUxQMHc3NlpMb0NXNXo5VmROSFR3ZlBMMEp3cFh4NGdmLUJSRy13a0xxaHp0RDVTdTcwVkZYeHFxMmxodEJjbkt6YTFGOTgyZlFOX2czSzFnYURrVE11QmRPNkpDb2ZoQzlzSXU1bDU2ZXVxNGZJY00wMEFfOHl4MUxWVW8xWng2SEdUQjgwWGk2ZV9hbDBfVTEtTjdvUWtZZmU5LUo0M1VtQlFDRFcyWlV3Si1ZTHVESzE1aUs0UklzYzV5dw?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "54d78f4551da90cf",
+      "published_at": "2026-05-15T00:48:43+00:00",
+      "title": "U.S. and Israeli Strikes Accomplished What the JCPOA Failed To Do - Foundation for Defense of Democracies",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWXU3ZUR2OW1nVFBWZ3VHTDgwcTN4SDNvMFFIMENGc1ZrMkhpSnU4T3Yza1Jyd190bUdEQUJzc20zcFlfek15N3dLRjJqUmRYSndnVkJfRWFMdkpIS1puajdtTmRHQThTWkFSYmN4N0g0SlZJX190ay04RkVCZlhSN0tDWmRQUXU2eE1iUUJieVBtTTlIVTJUMGRNcXhOTGk3NlAyWHo2c0Q?oc=5",
+      "source_name": "Foundation for Defense of Democracies",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -231,171 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "6260310d6f5b7408",
-      "published_at": "2026-05-14T22:49:53+00:00",
-      "title": "A Top U.S. Commander Dismisses Reports of Civilian Deaths in Iran - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNUxhaWhrNm9oeGoxWGJBZExKYkdzQ3hWaEVjOGxzZHIxdmZjNWNIZ2oySXItZ3BwSEU0RWZJNWptMWttNjRPdnlkemNaNmttenJFRFBLRGNOLW5tSFRWbEEwVUJtM3FNdFVZajN2Und0Q0VaeTE1RnptY09nOTlpRjZMczg5aFE?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "13866cb239892a76",
-      "published_at": "2026-05-14T22:03:07+00:00",
-      "title": "Republican-led US House rejects bid to rein in Trump Iran war powers by one vote - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNb2J1dng5Snh6YmtwbklTdFJ0eUhKcjB3anZ5ZUx2cFFtRDR6YUxXX0UyQmMxd3JjMGRESWhBaTNFb2t0TkJ2eE95ZHUwWkFIWEhVRWd6UGl4QzFKZW5RTi1IaEhBWmt4SktTY0laRXF1VC1SY3dGN2tJY0VudXdkNmJQcEptMnAzWnIyc0s5R1d4WUhzaGlaNDNsSVluU1JBQ0UzaV9JOE44X29MREx2d1d3dW5POU5DdEVJVUcyNzJWemF4?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4e5271b7b1df9085",
-      "published_at": "2026-05-14T21:40:03+00:00",
-      "title": "What Will Happen To Gasoline Prices When the Iran War Ends? - FactCheck.org",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQUHlLenYtcHN1TWpZNm5RVTk0NVlFTnhSc1JvdjRiMGx4Sy1NN2Z0RWUzX25QMWZWQUhkQVc5aWtfeFp6Ynk0TU5EdVppSjQxT3M5MnpuTTZUc2tlNDFCakJLcGRaV0ZNcVN4Nnd1dE5uc1pmYVZwbmJkczR1dEFQdl91YjV1QVVIY1ZuZ011dWlXcFIxMU5Paw?oc=5",
-      "source_name": "FactCheck.org",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "22eac1f0e97d61ff",
-      "published_at": "2026-05-14T21:20:08+00:00",
-      "title": "House Again Blocks War Powers Vote to Halt Iran Conflict - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONXFCMURib2tldDREcmwwZzJ0MDlENEtmMGdVTjQ5UzZTbWVsdzJvbGl6ZzhaaG5mTjdPbXJrY3ZsUjJybEdlRmFFTVZkLXc5X0lNeGNhSkNQNHFkNWU1TjNvN1lWRmlVZUctVkdVeXIycmFvRWZGQjl3dFB6OGpjSTFab1ZfVlNpRG53Vg?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "e801d17f6750bc98",
-      "published_at": "2026-05-14T21:16:46+00:00",
-      "title": "US House narrowly rejects bid to rein in Trump Iran war powers - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORDZzNV9seDRFMWdWQ3RJLWFEbWdQVExQOGxyNjBpbUpNZXV3SHF5UXZXdGhTZmE1dWloRkE4ZmlBOWpxLU52OWVwemZoUXBoNTVtRnFWQmdHN0Ywb0pLMWtKcE9OakVoeEZQWHJmQmtEdElISUxvXzFKY1ZIdG82LWZHWVZIZlI1Y1ZfUjAwbmQ1U0tfSjc2blJyS1QyLVhmdDI0?oc=5",
-      "source_name": "Al-Monitor",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bcd9ff296440ea72",
-      "published_at": "2026-05-14T20:58:00+00:00",
-      "title": "House vote on Iran war powers resolution fails for third time - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9IOXI4cFVTd3ZhWDE1WFd0MjdHanQ5QnNDTHh1WG5HY3lGbTRPTU43M3JVRlVIVTA0SlFwTGVtSFU2V3VaRk1uaXBmNk5DQ2dMT2ZmcE1lWTVKM3NtZFdYT3U4b0ZMcUx0WGpjOHVNc9IBdEFVX3lxTE1QNEZMTjNSUnJScktRY1FuQ0YxMXhjNFg3elJhYlZMRW1DTExnSU9aRVNvcnJiZk5FMGowc0tQSmg4bGF3WEFiOXc1Q1VOSWRUa0JZUUpxZkJfdEk0eXZuZEs5VDhmQlg4c09na2RudV9fdjNr?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d346e5afbf6ed49c",
-      "published_at": "2026-05-14T20:36:00+00:00",
-      "title": "Pentagon not investigating reports of US bombs on Iranian schools and hospitals - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPR2tMWnVHc1V2UURSNXRmRXhUdlY0ZHU2RnlReXVKWHJLMmV3WTFIVjcwakhTbUVVNW5mb2JFRGptY3Z5YUZhcU1Odl9zWmZ6T0h5ZW03N0tLZTNkMUU5djljX2FrWEhDNlgycWZOTzhJaXdzampVUHZyWUF2cXZQSWw0MGZ4R3UyalB1QklJT2hDc1JGalVGRjh2bnVKN0lNMTNuNEZidVlOTFhLSTRUSF92a3pXQmc5?oc=5",
-      "source_name": "The Independent",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "3b130dbe7211426e",
-      "published_at": "2026-05-14T20:12:26+00:00",
-      "title": "Is the US running out of weapons in the Iran War? - NPR",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPei1hbllxMVNpTzFNTk41a0hRNWU4SGVzeFR5ZG5FZzVLZDJKTTU5Sy1nanhXLXViQm9udzZBV1RyVGNkQWhwaGhDYUpBV09ZcnFLQUl2MW5XaGR4Z29NMUxKUWNwZVdOZ1IwbGFidmpDb3Q3MHRwRV81Ylh0SXp3X0RTbE5YZGtzUzhxVmNjRTNkYzFIbHZSMQ?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d154f0396defb7e4",
-      "published_at": "2026-05-14T20:08:24+00:00",
-      "title": "White House scrambles for gas-price relief as Iran war drags on - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQR0VjdHVndkRaT0dPYVNNTTAyaHRxdkpxVkVhQlpac3Q3N2JPZ3F2MDk0Q0RlZHc3RjBTb3dTS041OVZvaWdHeUV0TlR6NVROMFVFN3hRUG9CZ2E1UGRjMzJ6X3EzbmVKTG94aGFqdUd3ZFVOT05pVEJjQUtHVlNieGFicjl6T01lMndOT29Ta2pLdzZ2THFoOXdvZ1Q2WjU1dERveHNSNUQ1MmZZMmc?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "593bd5981a476d37",
-      "published_at": "2026-05-14T19:53:00+00:00",
-      "title": "Five ways the Iran war will forever alter the Middle East - Atlantic Council",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemQtcXBhSlRSQk5vMHZRWTNEb2czT3FGSDZjb0tyY2xBckhQeFBXbGRpZWJDb3FfV1BQaHFTVTJCV3k4VE5TQkZMcDUzM1BUQTRadTdsMTFTSHhRU2VXR1ZiVDdRSkRyNTI1TXA1cjEwWU9TQlFLWnVLbjl5TDNjd3otRGRGNWxLRXh3QWU2dDY3TmxJOGZRVDl6TFR5ekZNQzIwRDRfVllvZnc?oc=5",
-      "source_name": "Atlantic Council",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "7daaa918dc4d32b3",
-      "published_at": "2026-05-14T19:50:00+00:00",
-      "title": "CENTCOM head: War massively reduced Iran\u2019s capabilities, but it\u2019s still able to strike - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQko1WklMRGgxR3B1d0Nic1BqY3N1bEJmaGRQZU45eWh6THhETjE0a3JuMnNVSU9GcndEQzVJRGpaa1JfbEpBR2xfYXhzYlVidkZCWXVfNXk1Ny1URjFiR2Y1d245Q2d3NVlFYzJfR3FFLWlMZmgtVlhxLWNMRzFlRERrN2RDcTVjSzJlZG1ldkMzS0xfM1hRRGRvNVdmUEdXM2l6c1V0ZXlPT0U1LWFETGRJb9IBuAFBVV95cUxPRS1fdTdiZkViSHZYTmdsLWN0VjQ1ejFWbmZnTFlOamYwZFhvMU5wWkJUbU5fVXRTd3hkd2ZmaS1KaFNYdDZkbnNWNDMzOG15enJnNXhELXkzTXBMZXN2TUpsVTk0SmRGQUlRTDZtZF83bXJIM0dxdXVDNENHZ0o4ZFZ5WVluc0ZUQ2d2RVRpZnFuTVA2TmhxdVNSTEVnS1EtWmlzY1ZENUhGNU1OcEhsNkhyYTFqVUdD?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
     }
   ]
 }
