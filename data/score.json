@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-05-16T19:35:40.627922+00:00",
+  "generated_at": "2026-05-16T22:06:42.919866+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 106,
+  "event_count_window": 108,
   "totals": {
-    "usa": 36,
-    "iran": 17,
-    "lead": 19,
+    "usa": 28,
+    "iran": 22,
+    "lead": 6,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 22,
-    "iran": 14,
-    "delta": 8
+    "usa": 25,
+    "iran": 16,
+    "delta": 9
   },
   "confidence": {
-    "score": 63.9,
+    "score": 63.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 57,
-    "diplomatic": 17,
+    "other": 54,
+    "attack": 30,
     "material_loss": 1,
-    "attack": 31
+    "diplomatic": 23
   },
   "history": [
     {
@@ -47,23 +47,23 @@
     },
     {
       "date": "2026-05-07",
-      "usa": 6,
+      "usa": 0,
       "iran": 3
     },
     {
       "date": "2026-05-08",
-      "usa": 5,
-      "iran": 0
+      "usa": 3,
+      "iran": 2
     },
     {
       "date": "2026-05-09",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-05-10",
       "usa": 1,
-      "iran": 2
+      "iran": 3
     },
     {
       "date": "2026-05-11",
@@ -92,11 +92,146 @@
     },
     {
       "date": "2026-05-16",
-      "usa": 20,
-      "iran": 4
+      "usa": 23,
+      "iran": 5
     }
   ],
   "latest_events": [
+    {
+      "id": "ed6f47015c1100d6",
+      "published_at": "2026-05-16T21:55:14+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NZ1JwY251MUlRRmI0RUt1OWhveDNMMk5UVy1qNVc5T3JxV21iYkQzdUZXT3BsZjBYVnFjdmhXb3NZbzRNT0I1TGxQZkF6ckJ3bU5xWjdyY19salVCeEczcUxqZGxiUXZlMDBXTjJ4ZVJIRkVkNHNPOVJ2LW05WmM?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "13ff950c258f9b34",
+      "published_at": "2026-05-16T21:36:17+00:00",
+      "title": "Report: US and Israel preparing to renew strikes on Iran - Israel National News",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oMGdmMkZ5MTlndTlPNlR6OWJxRllLQ0t0UjdONFBLR1kzZlM0Q2N3SXU3YUdQZ0hWMHpsMDBMV1hULVhLalp3elFkTHI2VG1NRURFTGFTbFpPbzJaN1E?oc=5",
+      "source_name": "Israel National News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5e7c3e878170e54b",
+      "published_at": "2026-05-16T21:25:00+00:00",
+      "title": "Live Updates: Israel strikes Lebanon as Iran says it \"cannot trust the Americans at all\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWZnWl9iZjVMaE91ZFRYa3JNR2xSMk50eXVCTzZaYWh5TkhYSFUyd0FmbFZqRXg1V3JPOHE3QldoNm9XVlZGdVVqY1NoOEdMelRjZWM1eW84T3k2TkFrYml3cWJ6UklVczJsQ3RySnZ2T0JmNGEwY3NMUFBlSlZpcFVTMFRfLVB4QzRXSHhYdkQzYnF0QzJQSdIBngFBVV95cUxPTWVNNTBmUEtIbXdXMnlFX3E0aHo2U29ZN2xnZ0Rtc3pneV9oc1BhVVFzZEtNeVN1eG9vQTVMaXU1a2JkOXp5bHJXV3NmUHZMejByUTZkNTRtQVRfektVXzM4ZFp6VUdZUjFKeXZCd3RJWEdZNmZGdmFWMUV6bDdmVmRqSVJtSWE3OXJpc2hsNjA2aFVPT3BYYlRGQ1pVUQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "bca334a03812c676",
+      "published_at": "2026-05-16T21:21:23+00:00",
+      "title": "Ghalibaf: US-Iran conflict accelerating shift toward new world order - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZEpqODhIUnZRLXVaUWNpWW9HT2VBaFlwYld5Rmhld0lFWkhwYVRIY1N0NFZaTVdTUUt4Y2ZIcHNvS2oyYkFPd1lyTDhKZGZQWVZiTk56dFRMenZqV3JKcFdqd3lQNjV5VXp4bWlpN24yOHZtS0hrUUl1UkFjUU9xMFJ2T2xtZjh3YlZqRzlzclVyTGlFQW01OFhyQWhVYkZFcWVB?oc=5",
+      "source_name": "\u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "07059927e3f7df93",
+      "published_at": "2026-05-16T21:18:18+00:00",
+      "title": "Trump delivers clear warning to Iran as US begins \u2018intense preparations\u2019 for potential resumption of attacks - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNHVjTW1QRGNlRURQbWV6dVd6ZU9uZC1udzhLRzFNRlpxZl92WGc3eWlRNmFTQ01tbFFwV2E0WFRfZ2ZrODEzQ2JvV3VhX1BQS2g4b1EwTlp5bnRCUUxGMmhRZFdpSTRsVk05Rmp0OTZBbkQ1VEh5QjM4azNISkdxWTVBRXdYc1BGeVkyOFlKZE5vOHkzdlhrY1UwanBhcDQ?oc=5",
+      "source_name": "New York Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bf9cab92385ef77c",
+      "published_at": "2026-05-16T19:49:59+00:00",
+      "title": "US Iran War News Live Updates: USS Gerald R Ford returns after longest deployment since Vietnam war amid Iran conflict - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQMFFXcnhKRjhzX0ExNjQxVE5LNHdZbUpoUHlKZjl2VktPQ2E3V1ZpNHRTajB1QzIxX1pSRTkzbWVhYlVVclVlWXJxS002R3l4WUYybzBfWWZpNkJqamNYbzh1VWJ4Wm02UGtwMFhpb2x4ek45UXZSRlN6ZldERk5FdTRvVTNNVjl2WkF1ZWVaQkRaSmowSDBEYnlPZUhwLWZNMlctOWpucGpHTHBUVjBpOWVURGRVSWdYb1N3d3pVMlkwWnhqRXZMNWlhNXpJWHQ2TGxJbEFMM3M5RnhvOWJwLU03emZQaXBvVmEwZXpxbFFJbnVXOTVOWXBfdHAtWFVqUXp5SFlpZGpjSFIxNzNvWHJCZzdjQmpkSGhvSWtETkZWdG50SVRKejdoYjZtUnRnMTZHekpzR3V1THJINEdmeDJOdVNBR093azJtUjlPa9IB1AJBVV95cUxOM2I2LTZCaDZVUWt4QVZCZnBLZ2ZWSjBUbG85MUlYVmpjYlpQZ19MaXZ1SmJjcTJic2QyVmpLNGxPS0VaeFg5bF9yVGYza29LdXRsOEZfdDYxQ0VNNWFFRlc4aS01elktREtRZkpEZFNzYTFYaXJnWnYzWTVMNWRuMFhQT3NWWDJSYnVvZ3FtUV9ONXo4cl9haE9yT1JvREhDVzdUMnZqSklUOTJNRWlXRkpEbEpkdHV1X2pPM05RbmUxa2RUd0NScndGQW9wbjZrVGhXSWRhXzZyUHBtZnZPZk5KNGhSNjdJY2s1SHZlTlA2a2c0UTFkSlBTeUhLRGNTb1E3QTlDMlNSQ21LdDZNYk9JSGNTX2JVZXZ1dzEwYlloQi01NGpnTExOdklRUFFFcnFYWVpKR0E1VGdjQ3Fld211TWk3SnVpNlFHelpYUWxUell1?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8dd26ba170c5f11b",
+      "published_at": "2026-05-16T19:25:09+00:00",
+      "title": "Trump says Xi agrees Iran must open strait, but no sign China will weigh in - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWhRa0VGSXhNc1pnb0daVmpKM0wzVDJtdzEtLWxlcDdkcHNQNEpyc3NGcmVXMVJ3dUZjTUJSelFBY0lpZVFHMS1iNXFLR0tWWHZmczFTZl9VM3VkS3E2clk5Q2JKazBITTlqQzRhWXdURGMzQXBhOFFieHAxWHhRRGZjZnNodDVwcDhLZm5TMDdUeUFaZVl4dDV4TElWVUVtajlvcGtCekhkVjhSOGk1elotRVVmcVhsRUZFc3UtZm82NGhnM0E?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "71bf7ea8c5782227",
+      "published_at": "2026-05-16T19:16:41+00:00",
+      "title": "Iran war latest: Iran reveals plan to charge fees to use Strait of Hormuz - as Israel confirms killing of military commander - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVDNVeUExc1Z0TFppSTlyY0V5S29aRFpfeEswV1RiTHdhLTRmckN2eUw5SE9ZRmNhWVdKbEp6a0NaNHhoR0NCeXcxYmR6Qm1MT3Rwc000Vko5ZGtMLTZ2ZG1ib2dBMDFqV20zdU1ZOTluaXExRS1hUmo4QTRkdmNpUHRoT2pTNW56M0F3ZkJtMVJrRjNaTEE?oc=5",
+      "source_name": "Sky News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ac6e497bb804cbb0",
+      "published_at": "2026-05-16T19:16:00+00:00",
+      "title": "Iran-US war live: Trump claims world\u2019s \u2018most active terrorist\u2019 has been killed - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFdONWNLY3pKWEVZclBhV3IxY013cWkxMTU2UXh1b2V4U09GdnhKNDZSNU0yZElLRTRBbmJaMFQ3MmQtY0l5N05iQXlvQlk4Y1dBSGxLNzhsQ19kWFhrSVhrSVk4U1F0ZThab1o1djJsS3NuY3ozblB6bThrdUJuU2szdUFFd21TR2w3TzB6TmtmdU1EdWllaW05UVcwQQ?oc=5",
+      "source_name": "The Independent",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
     {
       "id": "b9fc1e15606a2d62",
       "published_at": "2026-05-16T19:15:21+00:00",
@@ -113,53 +248,8 @@
       "confidence": 0.55
     },
     {
-      "id": "e55ab35dc009f133",
-      "published_at": "2026-05-16T19:06:59+00:00",
-      "title": "US Iran War News Live Updates: 'Compromise-based peace agreements': Putin discusses Iran conflict with UAE President - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQMFFXcnhKRjhzX0ExNjQxVE5LNHdZbUpoUHlKZjl2VktPQ2E3V1ZpNHRTajB1QzIxX1pSRTkzbWVhYlVVclVlWXJxS002R3l4WUYybzBfWWZpNkJqamNYbzh1VWJ4Wm02UGtwMFhpb2x4ek45UXZSRlN6ZldERk5FdTRvVTNNVjl2WkF1ZWVaQkRaSmowSDBEYnlPZUhwLWZNMlctOWpucGpHTHBUVjBpOWVURGRVSWdYb1N3d3pVMlkwWnhqRXZMNWlhNXpJWHQ2TGxJbEFMM3M5RnhvOWJwLU03emZQaXBvVmEwZXpxbFFJbnVXOTVOWXBfdHAtWFVqUXp5SFlpZGpjSFIxNzNvWHJCZzdjQmpkSGhvSWtETkZWdG50SVRKejdoYjZtUnRnMTZHekpzR3V1THJINEdmeDJOdVNBR093azJtUjlPa9IB1AJBVV95cUxOM2I2LTZCaDZVUWt4QVZCZnBLZ2ZWSjBUbG85MUlYVmpjYlpQZ19MaXZ1SmJjcTJic2QyVmpLNGxPS0VaeFg5bF9yVGYza29LdXRsOEZfdDYxQ0VNNWFFRlc4aS01elktREtRZkpEZFNzYTFYaXJnWnYzWTVMNWRuMFhQT3NWWDJSYnVvZ3FtUV9ONXo4cl9haE9yT1JvREhDVzdUMnZqSklUOTJNRWlXRkpEbEpkdHV1X2pPM05RbmUxa2RUd0NScndGQW9wbjZrVGhXSWRhXzZyUHBtZnZPZk5KNGhSNjdJY2s1SHZlTlA2a2c0UTFkSlBTeUhLRGNTb1E3QTlDMlNSQ21LdDZNYk9JSGNTX2JVZXZ1dzEwYlloQi01NGpnTExOdklRUFFFcnFYWVpKR0E1VGdjQ3Fld211TWk3SnVpNlFHelpYUWxUell1?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ed6f47015c1100d6",
-      "published_at": "2026-05-16T18:53:14+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1NZ1JwY251MUlRRmI0RUt1OWhveDNMMk5UVy1qNVc5T3JxV21iYkQzdUZXT3BsZjBYVnFjdmhXb3NZbzRNT0I1TGxQZkF6ckJ3bU5xWjdyY19salVCeEczcUxqZGxiUXZlMDBXTjJ4ZVJIRkVkNHNPOVJ2LW05WmM?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "23dfbe47290b73f8",
-      "published_at": "2026-05-16T18:47:00+00:00",
-      "title": "Trump gives Iran reason to worry about punishing new escalation - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNHVjTW1QRGNlRURQbWV6dVd6ZU9uZC1udzhLRzFNRlpxZl92WGc3eWlRNmFTQ01tbFFwV2E0WFRfZ2ZrODEzQ2JvV3VhX1BQS2g4b1EwTlp5bnRCUUxGMmhRZFdpSTRsVk05Rmp0OTZBbkQ1VEh5QjM4azNISkdxWTVBRXdYc1BGeVkyOFlKZE5vOHkzdlhrY1UwanBhcDQ?oc=5",
-      "source_name": "New York Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "21ea84aa01141331",
-      "published_at": "2026-05-16T18:37:00+00:00",
+      "published_at": "2026-05-16T18:58:00+00:00",
       "title": "US, Iran double down as ceasefire future uncertain: Live war updates - USA Today",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUjJmSGlSOVNCX3cwMkF2UDRsR2FGYzkybWZnbTlpWVlCYWNTV0RBSktRb3ozNlN3VFd5MUhjRWs3Y1A5SFlPNW1TR2llYXlQN21wMW1pOW5IOThQbHVwVmhqYTVqZ2NOMWZoam5aZ1k1eWx4bTJ4d0NjLWpGTTVfekEzSVcxenhtQVNVTEZGYlBKLXVjdGVKb0FSNklkVmU5Y0k4WGNWUDVxNl8zVmVtaQ?oc=5",
       "source_name": "USA Today",
@@ -173,41 +263,11 @@
       "confidence": 0.65
     },
     {
-      "id": "0027be7e1dc3561e",
-      "published_at": "2026-05-16T17:59:24+00:00",
-      "title": "Trump warns Iran as it readies Hormuz toll plan - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPM2ZGNHBfOTg0OGZ3OWkteDNGdlkzRDBrSDJ0ZFE2bWhEc2l2YXA2d2szZUR3VWplVjUyVVdFcjlGcndRemFONG9nNVBpTXhtbFlGYW5pZDB6dC1xU3YyWXc0Tlh1N2djMWhNZjJfTjh0d1o2c3gyTkpBdHc5RHZiSG9vOUZQTzVQTjJ4YzlOdWY5Sm9JZXpEOXp3?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ac6e497bb804cbb0",
-      "published_at": "2026-05-16T17:46:00+00:00",
-      "title": "Iran-US war live: Trump claims world\u2019s \u2018most active terrorist\u2019 has been killed - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcFdONWNLY3pKWEVZclBhV3IxY013cWkxMTU2UXh1b2V4U09GdnhKNDZSNU0yZElLRTRBbmJaMFQ3MmQtY0l5N05iQXlvQlk4Y1dBSGxLNzhsQ19kWFhrSVhrSVk4U1F0ZThab1o1djJsS3NuY3ozblB6bThrdUJuU2szdUFFd21TR2w3TzB6TmtmdU1EdWllaW05UVcwQQ?oc=5",
-      "source_name": "The Independent",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0f87b1f44521a1d8",
-      "published_at": "2026-05-16T17:38:56+00:00",
-      "title": "How Iran could fight a shadow war with US for months after Operation Epic Fury failed to destroy missiles - AOL.com",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1GcU1LM3hFcFN0eWFZUFZQRS03YUdrRlRDaU5uaTdBWEpfMnlwSEFTYWNTT2dZejR5dHFWUHB1aVNCOUIwMkROeVJUWmFCWVVGNnhrMU5uMlJtekNMaXVjVUoxRS1XZW80NzZVY05PUHlYT2NkT096UTJtdw?oc=5",
-      "source_name": "AOL.com",
+      "id": "d595169625853f25",
+      "published_at": "2026-05-16T18:46:01+00:00",
+      "title": "Fears Grow That Iran May Be Using Proxy Groups Beyond Mideast - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPenBwbmtnUkEwa21EYXdkZVhvRkdBQy1TblA1LXRKaWF0SkJYRW5sbHRjQkh5aUZOaEhzOWVjYmJUSlByTlUzdmM3UzBnWW5CSW84VW5heEc4VXRlS0gtYjJPSWVmd21iMUExY3dHdTJ2R2dhb2U3Y2NtZEZXenNmQml0bw?oc=5",
+      "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -233,26 +293,11 @@
       "confidence": 0.55
     },
     {
-      "id": "5e7c3e878170e54b",
-      "published_at": "2026-05-16T17:22:00+00:00",
-      "title": "Live Updates: Israel strikes Lebanon as Iran says it \"cannot trust the Americans at all\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMWZnWl9iZjVMaE91ZFRYa3JNR2xSMk50eXVCTzZaYWh5TkhYSFUyd0FmbFZqRXg1V3JPOHE3QldoNm9XVlZGdVVqY1NoOEdMelRjZWM1eW84T3k2TkFrYml3cWJ6UklVczJsQ3RySnZ2T0JmNGEwY3NMUFBlSlZpcFVTMFRfLVB4QzRXSHhYdkQzYnF0QzJQSdIBngFBVV95cUxPTWVNNTBmUEtIbXdXMnlFX3E0aHo2U29ZN2xnZ0Rtc3pneV9oc1BhVVFzZEtNeVN1eG9vQTVMaXU1a2JkOXp5bHJXV3NmUHZMejByUTZkNTRtQVRfektVXzM4ZFp6VUdZUjFKeXZCd3RJWEdZNmZGdmFWMUV6bDdmVmRqSVJtSWE3OXJpc2hsNjA2aFVPT3BYYlRGQ1pVUQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "d595169625853f25",
-      "published_at": "2026-05-16T16:56:14+00:00",
-      "title": "Fears Grow That Iran May Be Using Proxy Groups Beyond Mideast - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPenBwbmtnUkEwa21EYXdkZVhvRkdBQy1TblA1LXRKaWF0SkJYRW5sbHRjQkh5aUZOaEhzOWVjYmJUSlByTlUzdmM3UzBnWW5CSW84VW5heEc4VXRlS0gtYjJPSWVmd21iMUExY3dHdTJ2R2dhb2U3Y2NtZEZXenNmQml0bw?oc=5",
-      "source_name": "The New York Times",
+      "id": "ee2ea39bb614412d",
+      "published_at": "2026-05-16T17:01:29+00:00",
+      "title": "USS Gerald R. Ford returns home after long mission supporting Iran war and Maduro capture - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdkgwY2Zib0xpaDNRdi1QRTh1TkVhVDNkWktsOWxYVzhKQkxVeFdHX0hVa3NSUnloOE13N0tnNDJoMVhDdlc4cUxhNWZuT1hUV1l2Q1VhYWlxaGhzeEF2UnRnYVoyY0FiMDNkdFBlRTR5ckxaS2FxSHM2MkhuMC1LVndjN3dDNjBXZjE0aU16Z2k2MUtrLTlrVDJ3WVlyRUd6Z280VVEzMHJNdXptUGhoQjF0N1RTZkpYOGEzSjl2ODJvUQ?oc=5",
+      "source_name": "PBS",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -261,6 +306,21 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "2f8df11f43b1efb9",
+      "published_at": "2026-05-16T16:56:00+00:00",
+      "title": "Report: US, Israel Preparing for Resumptions of Strikes Against Iran - Algemeiner.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNb2w3Q2pyRUdVWmxILTZVeVV5SW1oUk5IUFotLVZqLVgycHkwV3hrcFJTQVNRWDBETFZYQTRENDk4YkZFTnBOWHhUMzI1VlB2aG82Zm5COFFYeFZrcncxY1BUbUs2SkF4Umlab1hSa0IycURwU0ViaVFqN2U4ektVcVNoWVU1UXU1ckQ4d1MtZDdEbXZpZ1VRMVc5YVpDX3ViZjBFVUlaTUQ?oc=5",
+      "source_name": "Algemeiner.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "4d9c6d5a95078885",
@@ -275,7 +335,7 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "221af24aad6a182a",
@@ -308,19 +368,19 @@
       "confidence": 0.7
     },
     {
-      "id": "8dd26ba170c5f11b",
-      "published_at": "2026-05-16T14:29:15+00:00",
-      "title": "Trump says Xi agrees Iran must open strait, but no sign China will weigh in - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeWhRa0VGSXhNc1pnb0daVmpKM0wzVDJtdzEtLWxlcDdkcHNQNEpyc3NGcmVXMVJ3dUZjTUJSelFBY0lpZVFHMS1iNXFLR0tWWHZmczFTZl9VM3VkS3E2clk5Q2JKazBITTlqQzRhWXdURGMzQXBhOFFieHAxWHhRRGZjZnNodDVwcDhLZm5TMDdUeUFaZVl4dDV4TElWVUVtajlvcGtCekhkVjhSOGk1elotRVVmcVhsRUZFc3UtZm82NGhnM0E?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
+      "id": "6215df242dc76452",
+      "published_at": "2026-05-16T14:44:38+00:00",
+      "title": "US-Iran War News Live Updates: Israel, Lebanon Extend Ceasfire, Trump Plans More Iran Strikes - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxNY0V0MnZLZDl5ZnFGRGtlUEY2T1ZBaXgxa1ppOTVxZENKenRTcC1BeUFibkxVVkhvVGVtSS1LdU53cEs5Yko2T2V5UTV0alpWNW9IUTZMY0ZQZXBfaE40b3lzNzdtV3VRWk9uTkdhSzlLeGhEamJRRDZ6VWJacDJzbExFX01JT0NvZjFEcEtsWDQtVi1DV1VqMXV4aDBxV2ZWa0lsWGpPNDJUSmN5cEJJWFBGczBzVG1BaXFmXzJpY2VVYlQwekRjWFMxcTJHNWxYZ0V4dmo1UHVBZUxUOUJTQ1AwWXZIWjktc2VkVUxlQ1ZoVzY2Y1NDbmFWNlZ5LThZeTJBVURIdEdpeHE5OWlEZ1ltZzRoYlhwMlJr?oc=5",
+      "source_name": "NDTV",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.65
     },
     {
       "id": "6a3bb53391e53e85",
@@ -336,66 +396,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "747e3891fc9f3c9a",
-      "published_at": "2026-05-16T12:42:37+00:00",
-      "title": "US charges alleged Iran-backed \u2060Kataib Hezbollah suspect \u2013 What we know - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOVDlHR3ZtdTk0bUt0YVJTby1lTE1mVmNNckVIR0F5Q05MY3lJMDZobUk5cjZzVWZRYkFEZ0wtU3Axa19rMlFDT3JfaVNGQkdwWGJpLXRNdlNVeTlHc2V5MFFyWHJSZE94SHBReFJ1aUFVcnNURVhmaFcwYXhXY1UweUdsM1NJOXN6RkgxeTJGNEdoaWpwQmVqTlFzaVB3UG5XN2FGSWZIRFNjcnZna255TE1oa1VzNjNwREHSAb8BQVVfeXFMTjB6V3lOYUU5RE9JT3VVQjZoREk3ME51Rmw4VFhjT3JfSDV2R0JSVjlRbmJWX1FEcEVrUVU4T1dkSjg2QktBUzJNVHNXS2hScENaN2RjNlFrdnI1dlZ6dkR0OUI5LUYyNjFiS3dzRWNOdEFiQUl2a3RZMHUxYWhrU2d6MlZPNWhyUnh6NHNseU5aNDlBZ0c2dTBkSmQ1SDNBRXFSOVBlQmJ3UVRVY1F3M1FYOGVjVlZrSXM1VGlvS28?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6c85e75fd9889457",
-      "published_at": "2026-05-16T12:32:00+00:00",
-      "title": "Trump doubles down after dismissing affordability concerns amid Iran war - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWWJ0QTV6UXRXcklUVmozQXhoX1I3Q3Fld1FlZkF4eVNOcXFKcjJiMTlRa1RwSFM2YVRQdlFTQ0tBN2kyNzZ3aDRfSVp0YThXSnl0YldiLVVsVGJmTjB0WE9PdG9feE5rZ1JTTmMtdGFsUzZ6TVNOR2dJWFhwZ1NLQ05CbFNBQkV1bU9KNEd4VS1RMzctbDlISlUtWUQzQdIBowFBVV95cUxOU3dvVDdqQ1RUOUVwRHBROC04dHZEcHlibUZXOXZJOHVReWNvbmtaZGg0WGlxc3Rza2dHUG53blcycWNfbUpaSWFYNHF3LWZnZ3ZJbGdhN0QzdTBva2lIVEpTaUFnaG5EbFd2SzhIVkJmRU9HaEVPMURaWUQwb0NqSC1lN0NRTnRvVlpVRGxkSURjR0NpQjZWc3d0SEFGcTcycGhB?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "24917854bdccf30d",
-      "published_at": "2026-05-16T11:54:31+00:00",
-      "title": "As Iran talks stall, Israel and US prepping to renew war as soon as next week \u2013 report - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNaVhvbjZFQ2JoR0ViVlZKZTBFZ1Q5b0tkeS1CR3I4aEpqeUhJaVoyOVI1ZDc4T2laMWR4T09VbEdhUG9XVnZ6cHQwMTMyTjd6blZXTE85amdBSXVwdS13dzZ4NlVXRGNHSTgtMFFBdWNEd1VXcHc1cVM1Nm1MS3FfcjJ2ZjdHNURCcEhsSy1QUWxpQ0lDODZTRzVHTnpsTkxydlk3UnFQSGlhSEJ0dEk4bmx6NG_SAboBQVVfeXFMTlg4ZVdGZUZ4YWlTbVczdUd3clRSUnpOaEpYcjkzb1RXRV9NUTBNY0NvUWJYR2NWSDg0dFFGTng0ZnNFRFZYVEluVldhZDhEeVJGZGRMbTd5bXRKck9rWXJHSHBGcTgySV9nMVR2SXJaWDVXT0dkS3VGUUVNRk9lWWtvbGF0MzRxaXRVVXRQUHRLUUh0VzNvYU9faGUyaVpGc3dkV1JYODFsX1ZzUzM2QlkwQzJCYmNhQ2ZB?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b55c9d2f098d0472",
-      "published_at": "2026-05-16T10:53:40+00:00",
-      "title": "Iran war live: Iran says it will unveil Hormuz toll mechanism soon - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa28tT0ZnSnBQZjlodFVfRU1DRk9xdGVnVXJVWjNpOWo2SmZha3JnMUF3U1dWVVZ3alY5cTJoQjFsdU92RWgzcmV4U2d4R2hrdDhicTFIRDFfMi1fYmJHT09OclRFeTNPNWk5OFZGY3FMblRlTXVjN3NjcHllRU0wQjBhVVRrS1dYalItbF94Y0RldlI3UE5lbV9Mbkk1d2w1RkRQNmh1UGkzZ3J2VG1GbWtjRi03Uk9zTlhmQmdfd9IBxAFBVV95cUxQZTFTTUlWd2RyeUlzUzRvMWVzRFp1U19zZ19rM1prNXlrZkM0R0ItcVp2bkZ0elRvcnNsWnFUM3FSbFNvd3ZwaW1qUi1mTFFURDh0aHBoSmxnMlM3QmJseUpQdXVQLU9mcnJXUEd2Mlo1Zk5MVVdUMlZUNkhqRlpzeGwtY2U1RUN1czRVWE1LazlCUlRpU1pMLTFDSEFudUt5c0FKMDVCNU1iSzlMcXdBWHVRckY1SExmUDNVUWt4MlF4RXdH?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
