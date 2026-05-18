@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-18T15:57:31.657626+00:00",
+  "generated_at": "2026-05-18T20:04:03.828272+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 104,
+  "event_count_window": 105,
   "totals": {
-    "usa": 16,
-    "iran": 19,
-    "lead": -3,
+    "usa": 10,
+    "iran": 16,
+    "lead": -6,
     "lead_side": "Iran"
   },
   "momentum": {
     "usa": 1,
-    "iran": 12,
-    "delta": -11
+    "iran": 9,
+    "delta": -8
   },
   "confidence": {
-    "score": 63.3,
+    "score": 64.1,
     "label": "Medium"
   },
   "event_types": {
-    "other": 61,
-    "attack": 26,
-    "diplomatic": 17
+    "attack": 36,
+    "other": 55,
+    "diplomatic": 14
   },
   "history": [
     {
@@ -36,7 +36,7 @@
     },
     {
       "date": "2026-05-07",
-      "usa": 3,
+      "usa": 0,
       "iran": 3
     },
     {
@@ -46,7 +46,7 @@
     },
     {
       "date": "2026-05-09",
-      "usa": 3,
+      "usa": 0,
       "iran": 1
     },
     {
@@ -77,7 +77,7 @@
     {
       "date": "2026-05-15",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-05-16",
@@ -87,52 +87,112 @@
     {
       "date": "2026-05-17",
       "usa": 0,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-05-18",
       "usa": 0,
-      "iran": 5
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "3e4532e4e6efe018",
-      "published_at": "2026-05-18T15:26:00+00:00",
-      "title": "Live Updates: Iran war \"re-escalation risks,\" new Trump threat keep oil prices high as diplomacy staggers on - CBS News",
+      "id": "170b70a617780114",
+      "published_at": "2026-05-18T19:59:20+00:00",
+      "title": "Planned US strike on Iran is put on hold, Trump says - Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM0dNY0JndVVpSy1KS2laQjFGbEFMeDRLeGZvcGhBSFFndFQ1ai1JUTl3ZXUwLTU3VEdpR0NXRlNDMWZELUJMTV9BSFdGSWItQ2pKWDJMcU43bjZ3b1czRHoyWTl3NkRSdUpHeW5pdXVtbVlKVTA5WjYwZEpSWkFoNU53dTFvejdEOUdzc3R0R0FTN3ZTVE1iZGFhOFpNMEhjN0ZzSHpPcw?oc=5",
+      "source_name": "Stars and Stripes",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9833ad54c39eb7c4",
+      "published_at": "2026-05-18T19:45:13+00:00",
+      "title": "Trump says delaying Iran attack at request of Gulf leaders - France 24",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUGFPdEJ0QTk4TFFKVFNvbGtWZWg3U2w1eVRMbTR1UndYajNOSEttNEtaTG5zSXRnX0dFTEU4ckZpV25vVjhzQUowZy1JY1E4ekRQamdMOVBnZTVIU3pmdEQtdWhHdDFOX0hUWHpGTXljaVZwb2JyM21mV1p1cHJpRV9zZlNHQkFuQkdMNzJ4RzNpam5QY0NoY29vSkJxSGxZay1wWUkyUGs?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c5a1c1d83937d3eb",
+      "published_at": "2026-05-18T19:38:02+00:00",
+      "title": "Trump delays major strikes on Iran at request of Middle East leaders - Politico",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPOFJRRXpFb0FyeTVZajVUMVhCNktXblkySDNpN2ZLdkp3dXVybEVwTUpTUXQxendzYzdIVGRxTkFUR3dlc2xNLXItVWpqM2gtQzRQRmJWRHFxOXQ4dF94eFI5T2thSE5CYU1EUDhCWGxWZnhjclhaZnEtUUs4aGtZNnJGZHZUSGJy?oc=5",
+      "source_name": "Politico",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "95f5561eafbe572e",
+      "published_at": "2026-05-18T19:24:34+00:00",
+      "title": "Trump says he called off new Iran attack at request of Gulf states - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14Z2lMTlhNTzB2Q3MzVmZjZTFMVkZ2aDJZNk5FWUFsM2NwNUt2Qm9kLUdxUjZaWENtT2FoaHhaR1ZiRjdUUTFvWnRPZUlNTWJ0X3duVjhOdFZtdw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3fb356aa436bf989",
+      "published_at": "2026-05-18T19:21:00+00:00",
+      "title": "Iran live updates: Trump says he's postponing strikes on Iran at Middle East allies' request - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVEU2S1g5RDlob0VUUHptbzFDdXhyWHF1SGJKU3N3OG1IWFloeW4tV1dsSGJoLVZ1bDctSjl4azNqaUZJdUhkMkg2YjYyLTRpT1hrai11V1Y3LW1LWXlMSm1LYW5sUnIxTFdpdzBSc3l0MGUzNU01LVhOZVE3VXo1eWtWNXo5b3Y1VmJmbjBUcERPLW5RcG9xSlh6UVZ0bl94WlN1ZlhRZ2VSTW9paXfSAbMBQVVfeXFMTUxSczlmZWtHR0dYS1p2TldfR0FEbTM1cWFvZUxBMTF1Q0I2dDNuWWRMNmlhUEktaks5TWstWHJVcHJENVlObndJMXNYN3k4WVFlUUVZS3BIaUg3T0JsYUJnbTVhNWFocGxBbDRpV2lqNllMbXZYLWw3eXdMeVZsWFZ2cjVYVUZGX29JNDlfc3JLVWktbVJ5TDh2cnRmcFg5M1ZpLS1OOFFSNTRsWGpLdW5iLW8?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9600b138a878d1e1",
+      "published_at": "2026-05-18T19:17:17+00:00",
+      "title": "US Iran War News Live Updates: Trump Holds Off Iran Attack Planned For Tuesday After Gulf Intervention - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNV2RPcVFMMkZuMnlvSUc4aVg0Sno4T2xVa3l1Ymoxb2JZalNjSjUwZGR2Ym5tQm9tdVlRVGtocHh5RmVzcW1HRGp1ZUlQajM5OVZMazQ1YzR5U09ySElJMERFb1JyYzYxSllreEt0el9pSDhQb1dVTS1ORVVreWZlN3I3Snd5ZGM3em5GMkZmNVJmby03MENSM2hpZXZRUU9jNTJRdE00cDF0c3IzLTNZeUlZYkdzT2x3dVMyQ1l5N2JnX0JITko0OG1aQ2xNVXB0R0ttZGdSbVJweV9rbXVvdFFsN1MwdE9ibEQzajMtbXl0dHBINVlkcnFtOTk3ZkZ5RzJSUFFQZzdGd9IBkgJBVV95cUxNd2g5UTlhNkhDclRnTDI3YVhvZ3lfSl9vc3pVODJ3bk9sdXp4Q2R6QUR2MkZ6OFFVSmJPWHpmeFU3Zkhac285MkZ5RWYwM1FXRVlla0t3ZDllLUx0MEdkSjFCSUNYZmtPZm9tSzZkb05uQy1tZERsQkcyNEc0NGxyYkdIX3RLdE1zM1R1eHVHXzZCU2FtOUdUb3U4ekotSVJ4YVpIOG1FelB1MEtxelNORHVPd0g4UUpyanJOanowNDg4aDBSWlZRMWVhNzlJVXVjTzZNUWxZOTJzM3luZGU5NWNPMUhuZHlJTnV0cU9DMjBGVlVIaEJjb2JIVG5abUxPSnhUQUlwNHlNeU8yLWRlZ2hB?oc=5",
+      "source_name": "NDTV",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "97194b3ca0a031e7",
+      "published_at": "2026-05-18T19:16:00+00:00",
+      "title": "Live Updates: Trump calls off scheduled attack on Iran amid \"serious negotiations\" toward peace deal - CBS News",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQY1lRcmJNWlBDcFFrRXRMR2xSUVZpQkdZV1R3NURUb3lVdjlDM2ZYQ0hVSFJjemk0TE1wNVdJaUNLX3RkQ3ZTREIxTTY2c2I2b3NNSElKSnRRTzdVa2h5Q25tUVN2dXZUNFA1UFRGcF9MZ2VPOFdnRG1MTHJrZUo1QnB3R3F1VE5rcVBEZ1c4WldSVDNXYXlBMHVKeU96emk1LWpUeHNTRXLSAa4BQVVfeXFMTnZWSTFzUHdlRmo2T0xlQnJvT1V6SlRGQ1RmR1Z1S2VQNDVtOG44eGFta1FEUzg1czFfdE1kdW1aVFhuRmhGR0dhTVVmb3V1NUZTa0pqdmFZQnZfSmZ6bFdNbU9zRGdxU2VGOE1sdF9WSTF6QjlyQkpld1VQelgwejd2S1V0d1JVMVdiZ1MwYXVmLTdubi1od2pTVm1kbTlfOUF6RnNFTHh4c2ZkZk9R?oc=5",
       "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "aa480d847ad388a3",
-      "published_at": "2026-05-18T15:20:03+00:00",
-      "title": "Trump\u2019s Streak Of Record-Low Approval Ratings Continues - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNnJXeWQzaHAzaW9ZSUg0T3BIR3htaXloTWlBYUVQSS1HeVpyMlNxcjVGMlFsbUlOYnlSWHVMbnE2UGpLaG84cTRjQm5KN1NRSU5CbjY3emc4X0ZrWngybHdnWFM0cWtEWGg2S0ZHNG9mUHFUT2NhNjJoeDQ1SDR0Z2FwY0otZWUtLUVlRm51Z2NPMmpUcmR5d1ZVYjhmNGg1Q09GamJWTQ?oc=5",
-      "source_name": "Forbes",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3577f28a1e0aefc6",
-      "published_at": "2026-05-18T15:17:03+00:00",
-      "title": "Opinion | Trump has no good military option to \u2018finish the job\u2019 in Iran - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR0pXeG9jLWllcjkybEFEMHZ3aTJYMHVQbXQ1cjBGem1ZcTRVd0NLRmNEV0RaallOWFpMRXFmcEIwWnNvbjhoNGp2VDJpX0ZfbEJWaWxIc1dlLUE5WC1XYTdpQWlQWW5HMjVGUW9QMzZZRHNWd2Y5TVZwdWRkS3Vqc0FWVGVIS2RBVmVyeGE0VTR5SHZOaUE?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -142,8 +202,53 @@
       "confidence": 0.7
     },
     {
+      "id": "e8c066d65f46f95c",
+      "published_at": "2026-05-18T19:08:16+00:00",
+      "title": "US-Iran War Ceasefire News Live: Trump Says US Pauses Planned Iran Strike After Requests From Qatar, Saudi - News18",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQR3ZKcEhQWjZySVNyejRKVTB4Ym9iV3BEbUJXRl9XMHFrd0JKOW85M1o4Q192Rkc4b3NTc2xETDBXNk9QaHJUWlZHS2thbUlrS0ltWW9SMEg1cVN3bEp0ZDlrOVFobzRyZXNQSmpnZENzVFZNNVpHY2x3elRham9lVGMtaHd4cTBHY3VRU0hPRHZiLWEtSS1jWUxJWjJxU19iZnR1MVN2bDI3aHlXSkt4dTloTjBoLWY2azgwYlBEOUVWbkdRblpyVm5fUUhfNWQ3N0Y2Ul9VWXNKOWgzeGtuaXVOWVRjY21kQ1puTjV30gHzAUFVX3lxTE9YNE1PMUZIYkppTFozSEJZbEY1WmZGU3F2SmRjNC1hUDJ5U3FWTmZTbjVIeTlnLXZWeHAtTWFCRUtjQXlEV3JPV2xHYVZDSG5rclJBaFo5RDJ6cHZURUdSUjNQSW5qTElNeWR0U2QzS012dDJnaXl3eWxES3F0TWRHcE5PR1FQWEs2bmhOMTN3UEdlUmpVS0s2eFlaM3d1NkhzSHVRTm1VV3JseE9YTHAzS2NRUnFkRHNvWmJWWFVncWZuQUZBUkoyZ2NGenhoSDN5RGlkVTJRUEdfWnZBdVRwYjB2RHRUNHNBYWhKQmVhSHhIcw?oc=5",
+      "source_name": "News18",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a19464e1ba075391",
+      "published_at": "2026-05-18T18:51:43+00:00",
+      "title": "Trump Warns Iran the \u2018Clock Is Ticking\u2019 as Tensions Surge Again in Middle East - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSHplQ2VjYU1qTmktV2dOUFE4cE82ZmZnSFlua2lBY05nbTNfc1JkZTFhUlZWNWZDd2tQQ3hIb2IyR1VNWVI1UzlTcXJsSW1kWFVDaUZLUXNRSGNZYWM3a2lLYUhJRU1oa1UySTQ3VWJlVnlZeG5pamoyZDBHTEstQkpFTQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "6824e8d8dbcd40fd",
+      "published_at": "2026-05-18T18:38:00+00:00",
+      "title": "Iran\u2019s president defends US talks as he lays bare economic strain - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5tM0w4SkU4dGhVQnRpc254WkJrZnBsaXRLSlFzTnJFZkhSaTh5VFJhaF96a0gtbDlJOFFWREI0WDA1amItUHJJd0NpQkZ5NDNuNEE?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "f59558554e6e3535",
-      "published_at": "2026-05-18T15:07:28+00:00",
+      "published_at": "2026-05-18T18:36:42+00:00",
       "title": "Pakistan sends new Iranian peace proposal to US - Reuters",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNcDZKdU5Cb2tFNmNsTnFKeWlKRFJnZ3lHdGVMRnVBOUR5NnlLaW01eldjcG1YcHZjbndUamVLbV9QWlRhczB6TEt2cDY2bkJqdXB4QlhkQV9nd3dvamF2NnpDU0ptdUZxQXdOQlF5ODB2M0VKbmc4U0xFMVFuWW5Cb0VOeGVYaVA2amRzZ3JGejBGenBGUzh5dlcwM252T2R0cFY0U0U3MEc3Q2t3?oc=5",
       "source_name": "Reuters",
@@ -157,9 +262,84 @@
       "confidence": 0.55
     },
     {
+      "id": "0cb9ae8820da6e0f",
+      "published_at": "2026-05-18T18:36:15+00:00",
+      "title": "Iran war live: Tehran threatens \u2018new surprises\u2019 for Trump if attacked again - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS0w1ZTJRR0FaR0gyVlFzOU8yOGRZTkhLcXBSdE5Idk9nbDRyeFB0OUFncHBaT1E1c1FFeHNpTEhISDZ5VU5qdnpjR3ZIX3RzTng5TFFPZk1pQVplRXh4X21RZzFncnI2NW5CSHh6MlNSTkVwYkZlZFpyQ2k4YXZSRlRXNU5GSi1IUHJSTm5fRXhtWUxRQWRIY3VBOGtuMjJscVUwWkVMMl9UQWNSSXZyRlE4cXo?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6105b83147ef0121",
+      "published_at": "2026-05-18T18:36:00+00:00",
+      "title": "While Trump insisted the Iran war would end \u2018soon,\u2019 an account in his name was buying millions in oil, defense and gold - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVmI5Ym5mMGNzc2RCa3ZCY3MweVhvMGVBRE5qT1JuWGIyWGVZd0FNc19zTnM2RVR1SGUxVTREWFlzVXhJZkRQSjRHUjJ0NVFKb29KeVd5YUNlX3lrbjNuLWx0WklUMmY0T2hhaHhSWXB4am5KR2FnR29zVDJVRDBiWE55RDdhV3VGX29fOXBhRWpMUQ?oc=5",
+      "source_name": "Fortune",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ee1007e172cd331a",
+      "published_at": "2026-05-18T18:25:00+00:00",
+      "title": "US warns of possible military action as Iran submits revised nuclear proposal - EdexLive",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOMldsQlZGSkk4aG5mTVNLTUJ6RU9kdm9Fa0xvRWI5M29Id2lUWE45eTlaRmRUaW9xRU1GSmFlODdYS3duVXUtVk13MXV0VDgxdEd1dlowdElZUFJZSk1rME5ycnI2VkxKR0k4OWMwU2VBbldUS0VwSzFIX0o3TE90eHc4a2RFQXRLbmR6eWh1eHVaSW8zYklwMFNveHJRaUJSUjRwTTlkbU52VldsZkhucms2TkE1N2RuLTBkYy1NWHEwb0JaTXNYamxHdkHSAdoBQVVfeXFMTVdvU2FUZ0VRdHMwUk9YenphZVltN2dwZmVfMWtYanFJWEVGZ01DbmIxUC1qeHJsZFVjc1hBWW82dVFVY0hZd1ppUm5JQjdwcmtkQVU3WHZaMEFyRi04MG1SajNoNzZORmNUTkdYQ1h1Y0FwRmlJUXZRZXVIbFY4US1oMlhWVUg5R2ludW9rY3lNS1lsdmtYVmRweFBBRzI4ZlZlZEhhSnBWdUhEN2ZjYV8yLVVZTFRBYVRiUmY5WkE3MUpOR1ZKNjA2REh0U2Z4a0NHSEFYQkI0Q1E?oc=5",
+      "source_name": "EdexLive",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e16ca9e59507a7eb",
+      "published_at": "2026-05-18T18:18:00+00:00",
+      "title": "Trump warns Iran that 'clock is ticking' as talks stall. Live updates - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQX2gwS2Z6Q1NoeFRQblFnRElPVzVYZEpQbHo2dEJHdFFCb0NOUU1WWnh4akNqcXRPY3JmTGZtTWZJTy0yMjhQcERNeThLQlRBczZiUkxmQzV3bHFESHppVkdYRkp3UW5jdEVLYndCcUVObTcydmcyMWstUFQwZUpPQVpnUHMycFdlRDJiWkVZUTUyaXBBZG9fZDM2MHRBSnVVakFGX3dVRkoyd2Y3TE5EeTdLbmQ?oc=5",
+      "source_name": "USA Today",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "507d8c8c424d71ed",
+      "published_at": "2026-05-18T18:13:00+00:00",
+      "title": "US rejects new Iranian proposal to end war: Report - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8yR0ZUQ2EyZ2NSYy1uUGNCYnBUM0pMYi1nRU9sOGlNeVlha05nZGR4Y2I4TWhvOEtISlNkNXlIOHJSaV8waFVtTVROaTFCMEFkeU5CWHlkTGpOb0MxQ1MtV3NzeWRNQzVSTXBhUGtUVlFRT3NsTnNKVS03bzDSAYIBQVVfeXFMT0Q1S1Y0dXoyMVROdDhibGxfcG1oYWZqVGlEV0NpRDBzUS1iTXF0RVVjNk5rMWVaNlp5aVU4OHZzR1ZkZkJsRDctLUh2OS1UYUdjdW1MTzJfVnhvQXBJVjBKTDVhSTg2TzlpVWZMYURjWGEtd3h0YWxWR1lPamNkaUxoUQ?oc=5",
+      "source_name": "The Hill",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "8f88b813c0ba93a0",
-      "published_at": "2026-05-18T15:03:17+00:00",
-      "title": "Iran's new offer is insufficient, risks war resumption: Senior U.S. official - Axios",
+      "published_at": "2026-05-18T18:05:29+00:00",
+      "title": "Iran's new offer is insufficient, risks war resumption: senior U.S. official - Axios",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNd0QwVGRhVEVNTVM2R0VTN0lHUTRxS0pZRmhBWlgzRzZ0T2luVTlNcTl4YTdWNFVJaGVqQ1huX2RKeTJKTnNNQVd0d0RzWVk3b3Fud2M3Qzhya0JFRlhIVUg5VDN4YkRURDVSMWZrRUNFaE1zOFlZRUVXVGp5Y1hYWA?oc=5",
       "source_name": "Axios",
       "event_type": "other",
@@ -172,11 +352,26 @@
       "confidence": 0.7
     },
     {
-      "id": "a6bd416e65117ddc",
-      "published_at": "2026-05-18T14:55:36+00:00",
-      "title": "War, latest news. Axios: for US, Iran proposal insufficient. Military option evaluated - Il Sole 24 ORE",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBVSDFzR0Vyb0hZN1B6RGd5Wml6Rk1tWFc0Ujl0UkVOLVQ5LXV3Y0F0TUI4QWY1cEhjaXNOSXd4MTB3MUFzTWZDeS16TWN6Y1hvbF9lSlk1QU1jcGlRQ1Vjb204ZGctcGJZRWQ2YnRPa1ZtOEFZYU1SVmEyb1llbW8?oc=5",
-      "source_name": "Il Sole 24 ORE",
+      "id": "79633b5e7a53e40f",
+      "published_at": "2026-05-18T17:57:13+00:00",
+      "title": "The Trump Administration\u2019s Tariffs and Iran War Will Cause Americans To Face Higher Prices This Summer - Center for American Progress",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWkxPeUZWNjhkMjBYUUcyOTZKaHp2ei01aFR1Z1MxNXBvZDctTDBuanBTZU51RktRVXBhX2lwODBHNXRGOW8zVjltOURjUmEyT1FoakVyeU5jY01adDFfNFRkcUVXWmMtOVBLUVRDbFlGdHFjalNMX2Z3LU1uX3FrN3VTclpmSEtjMDkzdXRBZU93dkFIX215UGlRMGRkbFhXdFJ1VHJ2QUZtRlZlU1hZektlVTRZRUZlTzBWS3FPaUVTa1NqbHBSZVlHaUdPYXE5WEM4Ym5zMlVXRGc?oc=5",
+      "source_name": "Center for American Progress",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3d6c21003f2c7a59",
+      "published_at": "2026-05-18T17:50:52+00:00",
+      "title": "Trump pivots to midterms, affordability after China summit as Iran war persists - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOM3loWTZJclBoZU5JUjRNWVdPR21HdFBfUUQ3dEF2V3d2Nm1TbEd3OWgtSkdXanlIQlRObmUydEdMR3M2VWlqbmlwV3ZNQkN0NHRDQ2p2LXhiRHcwUElIZmJ5ekladk9kN0pkYTRhZ3lXS1V5SjQwQkladld2RGxtd0ZsRTBhTzJscHZnTlI5R3U4WVZLak9v0gGcAUFVX3lxTFBVZHV0OXhyQWpVeXl4dzNDa19jVE40dUxIVjBNaENvX21TdGFBM2FzLTAwcTJDTXVfeEI0VVlfWi1CbGgxa1JkRWNCdmstSjRpRFBWTmVRMHR3NGlpSGVNY3dtdXF4bjUtN1dvaGVrRjZTdTNSVHN0RkFOUFg5SnZNTkVYWmVKM3I1ekF2cnpHRl9RVzZGX1pBZmlSNA?oc=5",
+      "source_name": "CNBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -187,11 +382,11 @@
       "confidence": 0.55
     },
     {
-      "id": "cd1c1017a7598d1e",
-      "published_at": "2026-05-18T14:03:45+00:00",
-      "title": "Iran sends response to US proposal to end war via mediator Pakistan - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd1c5Qk5GMjBHbUlqYXZNdDhQbXY3Z1FBWktZTjM5cEx1NjVEclREN0hGQ2dVOGJMZDNES0lnV2VpTF9CS2s4bXdlTVBVc1BvQ3kwdzNJeEpvNnRYV2xPMl9rY2JnVGxkTDR2QTZ6UUQtR1pWX3NHZFhKaEdMZS1sUVhkWWRJRHowSEFUMG5CeElrX1dDWkFyV3hvelgydEZBVXZNRTFWRE5BYnl5eHRJ0gG0AUFVX3lxTE5TS2IzaHN5eVVUazdQRzhFb2JsZGFpVVJ2ZXJhZTQyU2RlbkVLVTEzcmxsUlRUWFN6cFFtTDVqU2xHM0FzSGdCZ0xJeFYwWEsxZ0p1MENFbUJVWUI5SjhVWWEzZGhMUXdGYnkyZkQ3SVM3MnprRVhYQzVrTUJ4dDBLUFRkQkhzakpqOXdOSnVHc0I3Z1BhOW9xUlJKRF9pSF90TXJSbU81YVBWSEFwQkV2Z2k4Ng?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "d34be4d2ef208dd7",
+      "published_at": "2026-05-18T17:48:13+00:00",
+      "title": "No deal, no exit: How US-Iran standoff risks fresh conflict - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUjJEMS1FUWxyVzZxazdHM3N2REYtTXJMdHpHWEsySk4xWXdSejNKMFlMVnI0TUhPZzhxSTUwWG92Yk9JaDF4OXltM0JNbGo3VkUyWGtvSy1Zc1JuTzQwVm5TOFU2ZVJjNFhTRmd2QkpnaW5iS1o5a2duN1VJYThMek5WUFNEVExXcTBxaldUeHJ4cG9tVDQ0UmtNSUF3NnBDa0FnajBpWHp1cmJXSGxXMQ?oc=5",
+      "source_name": "Reuters",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -200,201 +395,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "069560cc0a53af03",
-      "published_at": "2026-05-18T14:03:37+00:00",
-      "title": "Iran-Israel war LIVE: Iran officially announces new body to manage Strait of Hormuz - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVlSOUxKYllpanBQYlZvc3p5YUwtdHdzSHU4ak1sbWxCVHA3UlZDVUx3azVpa25vMFVXR2h3RkJ2TndQc1FsY0RGRDJBaU5pckFEeUVOTnV6Rzk5a3JiVU5ncVhWX1pHVlVlbllHVWxCbEhYZHZtRTdjclQ4X1EtbHZtQi04MnBKY0wtb3ctWERzelZ0Z3lpNW5BMFfSAaMBQVVfeXFMTjZaM2pCRERYakRiM1ZVd1RhWi1OSk1jbXU5SDMtdktOeDFQOWhsTjl5VWdtanhOUW5zQkxQVmJGYlVZakgxZ0NpaDNfUVpYakZvUjRDVzdidmR6NWhLTDdIamR0cDlBcGtSRHdFOTBmcWFwb1YwMHhyZ1hkWXhCZ0hOYWE1UUJMN2RZbWZ0U3RCN25CMDVsYlA4XzJRWXFfcko3QQ?oc=5",
-      "source_name": "The Hindu",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "147afb5526df0a57",
-      "published_at": "2026-05-18T13:44:29+00:00",
-      "title": "Iran says it responded to \u2018excessive\u2019 US proposal, after Trump warns \u2018clock ticking\u2019 - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOazZ3TGRaVVhwTG5zQjVkbHA3TEpVMlNHdFVaT0NZbGVSS1k3Q0llNWlpVEN1VXhkV2hmQ1BpNm1EamFPdG1YeTRGREoxMnZjSVZrUTlLRDJoUWhnYjNGdEJSdmdLek9rSFctVW5tSEdkLVlkSnl5Q2Y2QThSZDBEdTRNUV92R25fV2ppYzNDNUQ5amJZTHFFRUNLR0F6b2dqN2xMa2JpWUhzeVBTdUhN0gG0AUFVX3lxTFBna3djTnNfcFRRNUxMbkFaaUw1bUl4YmRGU3BMX3dxdTZUWFM4dVBBMUFUSlh6WmdHZmFZZVNEbV9DYXBoNzRfNkdLVjdJdmpiOFhRX09VYlExcm8tczJFV0dSZTAxOVVJMWdQVU4zQUJfWjczVXZrVlhnVllhSl9oSHNrSUpSNDNXYnROYjA1Ym9iRzRPRHh0c2I3bnlTWGYxTDIxRmhrSXZHdWdzZFZJZHQ2RQ?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "18ce928db7472554",
-      "published_at": "2026-05-18T13:31:25+00:00",
-      "title": "NYT Times poll finds waning support for Trump, Iran war, Israel among US voters - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdlJWYndER196eU1UVXdZWGY3b3hwYVZ4OGROQVRhc1oyZHZlc29kcHA2alJaeTZvWm9majduNm9IQnNNWFJYR2hWNHBzU2wzRmZqUUFfNVdsby1tUHF3bi03a0ZITzc3UDBsY3pBV0kyLU8zNnVvZkt1MXJZRnRyX0tkSGk5eGJGQnUwb19NUVBkbkx2Z2dYaGYwNGRVSEpLcHNWUk5NZERnS2lEUmhzYUZvYVF4WlU4bmtIMEh5dkY?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bad0694bc6b350f6",
-      "published_at": "2026-05-18T13:19:25+00:00",
-      "title": "'Clock is ticking\u2019: Trump warns Iran of imminent strikes - T\u00fcrkiye Today",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPY2xTVFVyV3gwZWlKaDIybVBQR0VFcnFHVEFpWGRLZm1YQVkzOVdMVmpNSHhBVWowQ2JjckRMbV8tNVctQmd3bGNGSWpzRlZUbWoxZ0lNZmJUX0dEaVkzZU5xd2ZCa05URE1Zdm5DV0M3bWFxanhrZ1VJN2Zid2p5YzNXUmxtTjFRSVR4aGFqUG5FdjY0eVVVQXpRZTlEUQ?oc=5",
-      "source_name": "T\u00fcrkiye Today",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b5160be3487db552",
-      "published_at": "2026-05-18T13:12:25+00:00",
-      "title": "Iran war live: Trump says Tehran \u2018dying to sign a deal\u2019 after nuclear plant struck - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS0w1ZTJRR0FaR0gyVlFzOU8yOGRZTkhLcXBSdE5Idk9nbDRyeFB0OUFncHBaT1E1c1FFeHNpTEhISDZ5VU5qdnpjR3ZIX3RzTng5TFFPZk1pQVplRXh4X21RZzFncnI2NW5CSHh6MlNSTkVwYkZlZFpyQ2k4YXZSRlRXNU5GSi1IUHJSTm5fRXhtWUxRQWRIY3VBOGtuMjJscVUwWkVMMl9UQWNSSXZyRlE4cXo?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1e6f2b89b43c10d0",
-      "published_at": "2026-05-18T13:06:20+00:00",
-      "title": "Iran eyes challenging stock market reopening after lengthy war closure - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNa25DUDJ1Tzk4ZEtKbjdYLW5VOGhVWE5scWZZdWstaE5BVmdYQWJyNkhNbG51X0tqOXgwNElUOUFxWnBLOFFUSVptc254QnRiOEJZTHBCM2tNZE1sRHFQUU5tbEhkVVExeEVxcm9lRzRTYVNWY2xjcndCakJUbS1aQmRtUVphb0lNclpGMGxpWWRoNmFfVzFaTUlaY1lRSUdmTnNfaE1jVHFnVFRTNmNpejBFdlLSAboBQVVfeXFMUGZ4TmJwdWFCenlrM0dEZkRXaHlVWmFMRjVGR182RjlZWXZvbHhMbTlDUFBsVzhfUXpyeWZfZE85Yndqb3ZlNjlrRC1Xbkg5ZmJCTzRxSnJUcjBpSXFSVEF5YmpqR2M3NEFtel9rQWVEREJYSllVYmo4aWtaRFBiem4wMFJvOWJ2QXNmOFduWXNWM216UXN6RlJGVzVhUVBpQTg3VkI3MGI0QkhuWDBIQW1wZDN2X2oxUUhn?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a9ef2e08928727cf",
-      "published_at": "2026-05-18T12:52:12+00:00",
-      "title": "The Gulf does not have to choose Iran or Israel - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaXlCaFNLRlV0YlNqWXF0RTNRazVORDNWNzNMaXJtRkY1dWh6eDhhNmRQcUFfSU5CczUwY2ltUXNOZEFxckwyM0EtMWdmYzhMak81RDVvSEU4NzA3QUlJdXc3QXFGaG5zN3VVYVEwcWtXYTUzbUR5SGFYdmFwSWFLSzA1dV9hdjBvazI3U0dBbmREcnB1ZTdR0gGcAUFVX3lxTE0xcUpWTWV0b3VkVDlmbTFqMnBUanBNQzRlZG1DSjVtU0tzdHRnQ3prYklHSkkyVWRLZGFCeDFOUmhSQkp0bi1yeWVtVkJyeVhnVjFtcDhPelVxWFJaNUJQd21mRmtJWUVxQlZScHczQ1JRWUpIRktoRkplYm90YU1RVkw2QUVCTkZ4RGNqVldRcEVJQlhSYWtKZ0dQeQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "51e78a459370b9d4",
-      "published_at": "2026-05-18T12:32:00+00:00",
-      "title": "Wall Street edges lower, oil prices volatile after Trump warns Iran 'clock is ticking' - Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONC10MmsyY2Q4OEV5T2xxQ2VmMFd3SF9GYnFvcThUdUhic0s4b1VoUDRnTFhCRVY1Rmg2TlVjTXNnTG1RMlJaVHlBUzNPZDllSTlwbWpQYnVOS0hCRUxqYkx4NHNUQ3RRZHR0TFZEWWczR1hqaUxZd2dtY2xYem5qWXJIdi13SnpiQTdHbDhVNEdaUEVrdFZtTzRXemdoMG54cGpZ?oc=5",
-      "source_name": "Spectrum News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9572284f15fb18d7",
-      "published_at": "2026-05-18T12:31:46+00:00",
-      "title": "Trump warns Iran 'clock is ticking' after drone strike near UAE nuclear plant - WCIV",
-      "url": "https://news.google.com/rss/articles/CBMikgNBVV95cUxPVVE3LWxnZXVJYkVDOHUwMFU0c3lyRnJMcTc4RHA0R2FRSG1LT3RBZXdOTVdndElkTm5tT2tGU1Mtb1FMSUtPeG5PYm5NX3l2WWp4dWlmSUhpUjYtZlVFd0ZoN3lTLUllOWRCdmI1Z3JZVlBVMkNYN213dUh3aXNWai16VG51NFNmR21DR1dIM0JObExPQUgzREswUUhHUDJHMGtvM0dkLTBxU0ZUSVJEZFhaMTlHcnRHWGRDMnF3WWNhVktwVmdyYktsVGpYd2czdDZFUXBIU1FqYUxqUTlUSlFWVGxQd1dzNGsySllSc2V6NERoTTEyRkNPTTFCSXhSeWlVaFo2OF9kX3RTY1FrOG85bXlJYXV3MkJyalk2ODhkZjJRQlVXZng3OUtOQldNRS1JbGhjRkdTc0l4dlRUQmFLUlVGYkE3MFF2YzJ6a29VT2ZLSUpRdFdqOHRlTGphdGV0Q1ZSRVN0b3ExZVNfWUJOdTdIZndWZnlOS2U5c0ExSzJYb0U4MnV6Zk5jNHBnamc?oc=5",
-      "source_name": "WCIV",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7dc6576229fa7901",
-      "published_at": "2026-05-18T12:25:26+00:00",
-      "title": "Trump warns Iran \u2018clock is ticking\u2019 as new drone attacks hit UAE and Saudi Arabia - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRmpJcDhyOUo1LTJTZFhaZzhzd3E5bElpVnA4S2t1dzBNaGF1c21FV0NlMk40SGlFNVNDMEpiVzdpVnUxS2tRSEZRTmY3MmQ4blZiM0hZRVJwX3YtTk94c2NaRUM5WWVCQ2JGa0hBdEFoQnQxZk5fc01KS3BIR0dNSVB5MFFOXzM0UXJfV0l1YkVOOEs0ZGprVVc2TWxVclV3eFBLMUUxRFZVeWZEXzY4?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "59076221541e0358",
-      "published_at": "2026-05-18T12:23:14+00:00",
-      "title": "US Iran War News Live Updates: \"Clock Is ticking\": Trump Warns 'Nothing Will Be Left' Of Iran Without Deal - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNV2RPcVFMMkZuMnlvSUc4aVg0Sno4T2xVa3l1Ymoxb2JZalNjSjUwZGR2Ym5tQm9tdVlRVGtocHh5RmVzcW1HRGp1ZUlQajM5OVZMazQ1YzR5U09ySElJMERFb1JyYzYxSllreEt0el9pSDhQb1dVTS1ORVVreWZlN3I3Snd5ZGM3em5GMkZmNVJmby03MENSM2hpZXZRUU9jNTJRdE00cDF0c3IzLTNZeUlZYkdzT2x3dVMyQ1l5N2JnX0JITko0OG1aQ2xNVXB0R0ttZGdSbVJweV9rbXVvdFFsN1MwdE9ibEQzajMtbXl0dHBINVlkcnFtOTk3ZkZ5RzJSUFFQZzdGd9IBkgJBVV95cUxNd2g5UTlhNkhDclRnTDI3YVhvZ3lfSl9vc3pVODJ3bk9sdXp4Q2R6QUR2MkZ6OFFVSmJPWHpmeFU3Zkhac285MkZ5RWYwM1FXRVlla0t3ZDllLUx0MEdkSjFCSUNYZmtPZm9tSzZkb05uQy1tZERsQkcyNEc0NGxyYkdIX3RLdE1zM1R1eHVHXzZCU2FtOUdUb3U4ekotSVJ4YVpIOG1FelB1MEtxelNORHVPd0g4UUpyanJOanowNDg4aDBSWlZRMWVhNzlJVXVjTzZNUWxZOTJzM3luZGU5NWNPMUhuZHlJTnV0cU9DMjBGVlVIaEJjb2JIVG5abUxPSnhUQUlwNHlNeU8yLWRlZ2hB?oc=5",
-      "source_name": "NDTV",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d81d9de4c67c36a0",
-      "published_at": "2026-05-18T12:18:35+00:00",
-      "title": "Why the Iran war is breaking the US-European strategic alliance - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNd0FBWUVpLTU3SUlxSkhWNDRjanUxNXgxVHNlMVZMN1pWcTRLNWxwWGZDTDJTRWYwX1QycmctN2R2ZjhIZjZRbU80UHJ5bWZPNTdYc3JPS3ZwNTRKMXE5ZTFSU3hNZzFTdGJwcE5wS19fT3lRclNmSTVvOVNtM2FDSEVHOXhMZWV5akF2NEVha3huUExGcWVLOG96QlRwYWs?oc=5",
-      "source_name": "The Conversation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "58f476ecba9d38fb",
-      "published_at": "2026-05-18T12:03:26+00:00",
-      "title": "The Missile Is Dead. Long Live The Map: How Iran Invented 'Future Of War' - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNEtCSUNiaFhuT1REWFRKYzlEc3h0RHRvNGw3VHY0bEFtLWNLZjQ1c2ZRb3NBNGhmRnFUNDlldENjTlh0emtxUnRHMVY3SkxCbXYxY0prNklQd1RrWEU4SkRGNzBKdzBwcFFoYko5QmVIa01JUjF0U1N6SDFCLXJyQS1ON0xUZ1NyT2FJUHktelcxUHlfYjY0eTY2bEdZeDI1aEFQUTM3Z2o4TzB2SElqRQ?oc=5",
-      "source_name": "NDTV",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
