@@ -1,33 +1,33 @@
 {
-  "generated_at": "2026-05-22T09:50:46.528938+00:00",
+  "generated_at": "2026-05-22T15:25:26.601737+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 104,
+  "event_count_window": 102,
   "totals": {
-    "usa": 16,
-    "iran": 19,
-    "lead": -3,
+    "usa": 13,
+    "iran": 25,
+    "lead": -12,
     "lead_side": "Iran"
   },
   "momentum": {
     "usa": 3,
-    "iran": 12,
-    "delta": -9
+    "iran": 16,
+    "delta": -13
   },
   "confidence": {
-    "score": 64.0,
+    "score": 64.4,
     "label": "Medium"
   },
   "event_types": {
-    "other": 60,
+    "other": 55,
+    "diplomatic": 20,
     "intercept": 1,
-    "diplomatic": 17,
     "attack": 26
   },
   "history": [
     {
       "date": "2026-05-09",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -38,7 +38,7 @@
     {
       "date": "2026-05-11",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-05-12",
@@ -77,7 +77,7 @@
     },
     {
       "date": "2026-05-19",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -92,16 +92,196 @@
     },
     {
       "date": "2026-05-22",
-      "usa": 0,
-      "iran": 6
+      "usa": 1,
+      "iran": 10
     }
   ],
   "latest_events": [
     {
-      "id": "e1009c762f50df04",
-      "published_at": "2026-05-22T09:21:07+00:00",
-      "title": "Iran war live: Signs of progress amid efforts to reach US-Iran peace deal - Al Jazeera",
+      "id": "1989a7ef114362e4",
+      "published_at": "2026-05-22T15:23:04+00:00",
+      "title": "Opinion | I did something AI never could: Make my calculus teacher cry - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaXZ1dTI5TFhic3VjbS1lM2RHd1N2cjBOZlZhSDdoVjE5Wl93bG9XeFJkMTRPdXVCMmNDQTRUdzZSYi1FeDRHaTNha3E2MXJobkxoNUV5OE0zeDhIODF1eXJFbzhYNWk4UlM0QUU1akZGUFZfWnJRVDd2Zk12MzRkcUdNYWt3V1luaGNSc2EyOUJnd2ZNamg5bUFxcw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0abebdaa8534e2e5",
+      "published_at": "2026-05-22T15:11:11+00:00",
+      "title": "Iran war: 'Slight progress' in peace talks, Rubio says - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZk5IZEZDN1lLWXU5cjkzN0tyV0RVNTZYandnUEdhYTdNNEFXQTRKbG1Vd3hXN1lfMU5TOGpNQTZaU25CNHlFdnBBcnE0azZrWHRsTHJUaXFMekUwZFZabDl5S1QtaWxVV0NQdzllc25CM3JuS3RxRWVYNE5sMkVSZVRRZVRZUF9VTlU3eG94Yw?oc=5",
+      "source_name": "dw.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d15d14b3f32d4e9c",
+      "published_at": "2026-05-22T15:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhcUFtbERWZVdyZFJiTVBuSXg2RVoxd2xrYUN0QThXS0lfZjJtSmxQU2t3UDFOM284d2o1R2FJRXNTRTJYRE1lQ1lydDU5TzI4am9TVURES0xob3VTaDc2TXI3RElLOHJDNWZnWmhLeC10TnVRbnlJYmtvM1BpMlU?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "15e9a3377ec57c73",
+      "published_at": "2026-05-22T14:47:00+00:00",
+      "title": "Uranium and control of strait of Hormuz key as talks to end US-Iran war continue - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOFdEWlpfWUhsRmtZZVdyYWVVZ2hsaHI5Y1d3ZGo2cnh4TjJsYndHdkVnVjd2SjlyYWJzaU53d0xvSm01aGFqcnEzelRSYUFhUmpUUmUxQVlMSUVCNmswWm9PV0I4MFhwc01QM3otdFBEN2g5dmZZWjVUa2xDNmJWLXA5amFHYy16UmpjeWg3YkVvMFdoa0xZdm04Wk5SUQ?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3efbdc086a547f72",
+      "published_at": "2026-05-22T14:35:37+00:00",
+      "title": "Exclusive: Qatari negotiating team in Tehran to try to help secure US-Iran deal to end war, says source - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQThBMGFCbXlrNFNIbHFpT2ZvTWNFMDFvMVI4ekMxTTBiZURGczRvR29KMWFiZVFmUWoxQ013ajNkZlNUYk9jYURmcHN1bnpqM0JheW9GQ3pubTYyWWtDdW1HWEFKYzE5bE5PMG9yZTJDd20tTVNQNXp4RlRXLU0yVVJodVo3VmRTVTN3TkhjWUxicnRqZVlSNVU1WDZhVFVwYzZSaGN0dnBjbDRSSmhRam9sb0VscWh5anljZXR3YVZYVHZmcXVyMw?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "3af71ffbc0315ac5",
+      "published_at": "2026-05-22T14:21:18+00:00",
+      "title": "House Republicans pull vote on Iran war resolution that appeared to have enough support to pass - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZbUtPNnI5WGpNOHpwX0t6cTk4U0YtWUl3TGxna2wtaXBtbnhyRWVQMHBidW5PZlRSdi00VEpkcHZiQ1p4dzlDN0M1d0szRGtQZTA4cGJ6bzY0TzctN2ZhaDhmbVp5bGg1TFcxQ2gtaTBRQUZfTEw1cTVn0gF_QVVfeXFMUEJ6dG9fTEFEWFZTcDM2bmFtNmZFRi1vUTBmOEZGd0RLbkpodm1xeGVmaXhGMWpSSm5MUkVNbm9RcTJ5QnVYaUFWMUkxSzU0alJCWld4WW1teVpqMmFuQmRNUi1yVVozQVotc2p2aTRsSnU2UmJLOUJNUGIyT1pSSQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a5612be8049cdcac",
+      "published_at": "2026-05-22T13:57:00+00:00",
+      "title": "Live Updates: Rubio says \"slight progress\" in Iran peace talks, but rejects Strait of Hormuz \"tolling system\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzN4Umh3RHZZMmdWVVdzbEROVHlieVdZZUNDXzFFZmdRLWU5aVlMOFZzQkQ5RGF3WW5TOE5KRU9hYURaejl2cFg2bWVPNHpwd0l3eHNTMlgtUjVNNVB4SFN5STY3NVY5aHYtVUtMMDNvUDVZOHU5d0hteW1yYS1EeUNyYnBhdHZ6dG9oRzFkWjlqdjVZRnlz0gGcAUFVX3lxTE5QdG10YXFaMnhvSWdVZEJDTl9qZ3ZnTHU4a2djakxUMjBydjFzb3M5SHZ4b1BSVnNCNWs0UWVxVHdWU0R5bkhLSldwNU9sckNDbU9SSmJzUzc5VFNLdlZCTG10VGZkNDBEazJxRnZaeVhQSHpWMTlfaU9jUEEzWTVxRDUzcXNjamI3Z2NaS3M4a0hPNV9aVHlEVHpuYQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "543d80eb4f27010c",
+      "published_at": "2026-05-22T13:52:56+00:00",
+      "title": "U.S. says 'slight progress' in Iran talks amid uncertainty about whether war will resume - PBS",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTzJHNWRhdWpuR1JNVTRhY1NXT2U5NVUwbFNla1lQZ0NJdWlMZmw1YndVNmJqNkFtSkR2bHBJVGxqcDZUMWNsVU5WOG1KcHVoNWlST09qU1VMTEw3Y2dNRFd6cm9wSXZkQnBrZjhqeU9iM0hqbFJ1RXQ4QjdKamJsLXh6OWMwbnlidnprdXlJNUVPYjdXZzZxNE42R0JWYWFDMzdsU09Lb1dEcV9FQ05iY05DRnhhWV9pNHFYddIBwgFBVV95cUxNSlBkYURrQmVvOEhGMFdkYzdscWFWV21HMWJxU3Z6cWtZQmVVWmZvdVcxM0pMZk1lUWtPVkFRVzlETDIzeDJZN0E5cFFSa0lxdXRFNXgwY2hqUjRFa19xanlYQXBwbzRTcHJJT09KMFZnZEpkUHFYR0pXcTU3Ymxka0phMGxIRUIwRVdDRUVTZFA3R0w0Vzc2T1ZobWJQX0pHUHg2S3AtbVFJUWRIM3JPZ2ZFZFhzQnRIU1pKM1JoSlhzQQ?oc=5",
+      "source_name": "PBS",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "5c309f66b3055e58",
+      "published_at": "2026-05-22T13:34:00+00:00",
+      "title": "US Iran War News Live Updates: Asim Munir travels to Tehran for meetings with senior Iranian officials, says report - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWkRwVU1ZOVktdDRoUnpydmhNVFhJeV9zMUUxdG1lc1VfWHhyNDdLRUJmT25ibk01VUNVZTQ0WENIeGJMQy1hSGdwN2lMNjUtU0ZUODZTelJfbElJN3JiejN5VDhjV2xoQkVDQU04UDk5YXpEc3ItY0lidGV3d2RSZzRacWJ0M09XYUpVQXlhRjNnMmoxVHN4M2JsUXU0MzRVOGFlY2Z4TzlTVEwyejFHZFFGR2piSkxSa3RoaXFzNEo4Tmh2aXc2b1Nn0gHQAUFVX3lxTE9WcUdkbVZXSWZrdHotb0ROa1pBMjJ3R1BWa3RoWjhHYjlRcVdxZXQ0bzBqZk9TcmxIRnZVdVJibEU1a3I1X1pkanhzQ2Y3Tk0yVGgydENQUnJ2bk5zU3l1Qkd5NU16ZWpyTHQ5Zmdsb09vY1JHQ0ZYTndMOE8zZmJLOVg2aV9Bd0JyZkRMblVTSWdibGVjaXdCSHJGUkdmbklUb3h0WnpOY0Z3bzNmMW05LTVuSjRuamthclRoajNjZTR1RGtFZ2tqNEdFaGFTc0Y?oc=5",
+      "source_name": "The Indian Express",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e41c2c2960eafaeb",
+      "published_at": "2026-05-22T13:29:51+00:00",
+      "title": "UAE Joins Saudis, Qatar in Urging Trump Not to Restart Iran War - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb0JXTTdiUHN4NmFYZUJSWE5sd1VRQkpCYU9SZkM4TDluV2FCb01vYlhqOG9uV1JmN0tScTVxaWZoOWtQX1piT29kRlFVUldCa0s2dXpVM2NLcktaaThUOHZhMUtnNFlacmJGMzY0Zy1rYVZ5ZF9OdFc2LWNKVHUxUVE1X1lCMkNnQXpVT051LWl4M0szWjh4RDR2dmpoeG5WMHd4V3FOT09fWk5zeFI4dTl5OA?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c35999b01cec8b14",
+      "published_at": "2026-05-22T13:20:11+00:00",
+      "title": "New peace proposal in US-Iran war under review - WPLG Local 10",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVVZqMXAyYjdULXhvd3NCbG84UjByMV9DZnhXQUQwam10V0k2OTh0RmhTb1VVM1VBS29STHJyeE9pSmlZZ0tmMlhCZWtnNG9KaV9EMFN3c3ZsNWdrV1E2c1IzVzk3c0xxWGVhZnJMZllJZGdhc040Vm9YTUVpbzVqeXAxUlRraDlsMTFBcnd5LXhjVzZ1aGx5cQ?oc=5",
+      "source_name": "WPLG Local 10",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "678da82b024f3235",
+      "published_at": "2026-05-22T13:04:46+00:00",
+      "title": "Iran war live: Pakistan army chief headed to Iran; US cites talks progress - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOdHUtaGFONi1DbnBDWkhIaE45Wkl6ZWE1YkdLLTlVdHZKQ2xxTlU3YWFsN0I2RWxZNlVEYVl2a1h5VkVuR2d3SER6QmtHN1hzY0d6alJ4VV81cUFQbzFvM01NRjRCZVZCQnROaF95UnpaNU5IQTItdHBNUlU2WDFCZjhFbHVDM09hdkVrTmVFMFh4XzdtbFdVYUROa0kwc0RsVjcwWHdmNkhsck5aS2tqcV9VN1pBYnhQeWlpOFZGSdIBxAFBVV95cUxQTGJpZmpsWDJKbFM0MG45V1VTaHZHS1dGRWxzcEZrcEg0NUFkdTMxQUR1cVZhSjVHSGtCZ2t0WWRwOWVJZlRRLW9jRnZMdHZvU3pHQ3ZBeGFkN3FwcWs4VEVoLXgzOUtKX1ZYMVFBZWtySlc5NjQwMUw5Q1JBX2NnWENnWEpqVE52dlpDRW55UlFLSEZ6SENJeW9XTXhVRGhPMWdSWFVfVlpSNGpBUGFhWjVkclR6Sjl1eU1QRXJDNHlxalBK?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e3ec85bd3821a1c0",
+      "published_at": "2026-05-22T12:13:58+00:00",
+      "title": "US pausing $14bn arms sale to Taiwan due to Iran war, navy chief says - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdXcwWkdzNUtYUjRjRVNaOWNmSEQ5c2xpWEg0QzVnRVlVYmJJQXo2RmdwbWNIN01TalBJeWZIQWdfR2dIbS0yZDNqNnQzM19mVVU2TC1BNmZGaVZhYk9UZlEyenpTdG42UHhUMmM3S3J3RnFzS0Z0VFZ0d1dXc2w3V1pyUlhBcVI3VEpNV21zcWtnT3FVRHVZQ1JLUl9qY0pORUF1WE9Qc2wxSHVh0gGyAUFVX3lxTFBqODl0WVdzMkVFMy1HTC00UDVXZEJtMFJTTEdlaDU4dkhYbVQ1ZmhwSHpzT3hYdGRTbDhNQ3d4dzFXWFNaQklXY2k0eWdoUF9RcWRKdW1RSzFWQzZLcm5LVXNZZFlZZHNOLUNPb0o5X09aNFJkNC1nX0hEMlBEb1BCNDk2X1hnZk1qR0xjRkZtZTlQZjhacnFYWk1UakRLTjl4dng3dTItTUpTR2tYT0N1eGc?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -113,11 +293,56 @@
       "confidence": 0.55
     },
     {
-      "id": "bf206b27633bb039",
-      "published_at": "2026-05-22T08:58:00+00:00",
-      "title": "US Iran War News Live Updates: Pakistan\u2019s interior minister meets Araghchi, both review proposals to end Iran war - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWkRwVU1ZOVktdDRoUnpydmhNVFhJeV9zMUUxdG1lc1VfWHhyNDdLRUJmT25ibk01VUNVZTQ0WENIeGJMQy1hSGdwN2lMNjUtU0ZUODZTelJfbElJN3JiejN5VDhjV2xoQkVDQU04UDk5YXpEc3ItY0lidGV3d2RSZzRacWJ0M09XYUpVQXlhRjNnMmoxVHN4M2JsUXU0MzRVOGFlY2Z4TzlTVEwyejFHZFFGR2piSkxSa3RoaXFzNEo4Tmh2aXc2b1Nn0gHQAUFVX3lxTE9WcUdkbVZXSWZrdHotb0ROa1pBMjJ3R1BWa3RoWjhHYjlRcVdxZXQ0bzBqZk9TcmxIRnZVdVJibEU1a3I1X1pkanhzQ2Y3Tk0yVGgydENQUnJ2bk5zU3l1Qkd5NU16ZWpyTHQ5Zmdsb09vY1JHQ0ZYTndMOE8zZmJLOVg2aV9Bd0JyZkRMblVTSWdibGVjaXdCSHJGUkdmbklUb3h0WnpOY0Z3bzNmMW05LTVuSjRuamthclRoajNjZTR1RGtFZ2tqNEdFaGFTc0Y?oc=5",
-      "source_name": "The Indian Express",
+      "id": "43d6b320691073cb",
+      "published_at": "2026-05-22T10:15:46+00:00",
+      "title": "Iran\u2019s War With Israel and the United States | Global Conflict Tracker - Council on Foreign Relations",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
+      "source_name": "Council on Foreign Relations",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "a3747e3745e5c70c",
+      "published_at": "2026-05-22T09:31:56+00:00",
+      "title": "Iran war live: Tehran and Oman discuss permanent Strait of Hormuz toll - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUxUZUFYUE9ubWtDOWMyN2lQZGlQSTZraVBTQmRpZXd5Y0lBYndQQ1JURklEaElhUk8xUk5RSDVrVXh2N2FtalV6cVRvMjZzOW5Ic3lOMVM3bGFFbF9OelZTSkR4WEtrNDI0Y0hxYkNralFWZmZVX1ZGekZGR05EWkNZd0RQNzJzanZSSm00bWdSREZnemVZUEdEWkdsZ2VCQXpyWF90dXY0cERLbnQ1cGlKemhHZw?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "f29a14374fb51be0",
+      "published_at": "2026-05-22T09:08:00+00:00",
+      "title": "US arms sales to Taiwan on \u2018pause\u2019 due to Iran war, says acting navy chief - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRVE3RlV6Wk5nMWZXOUc4Znl1UlczaU5jR3ZiYml3YnAxVVRKT3ZoUWVST0EydEJubWh4RG5DYWtIcE9IOGtFUG9CaG1vWTdYWUY3Z1c0YzZFRHM1VTlaTHVDZU55TXFVRDVmbkhnaTA2VHVsYkk1TmpLZ245ejhJMzJ6ek5ib3p4S0lmZlVYa3N2X0dhaU02Qm8zZ285QmQtcF9JU2dZcw?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "435d762c2f0578e6",
+      "published_at": "2026-05-22T08:47:52+00:00",
+      "title": "House Republicans cancel vote curbing Trump on Iran - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVm02bjFUZTVQQi1kVHg1SXJKM2t3dVh2dk55MDhSeDBDcEJBaWlaRG5JamhYVEpsR2xwbXRpREhDZEJoenlZWUpxazZGbERzRnFwY0FZdDNzeHczanVLd1JTMGxZUDBGb2xSNGl3ZEhTbUFYR0hIYnVIY2pQSzViZGtkMkxNMVZpcXRfMmxQQXVoNzJSMHE4aDE5cEZvMVlpZU1FRGp4QQ?oc=5",
+      "source_name": "NBC News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -143,144 +368,9 @@
       "confidence": 0.65
     },
     {
-      "id": "b84878bcbaf87ff3",
-      "published_at": "2026-05-22T08:13:25+00:00",
-      "title": "Questioning the U.S.\u2019 Superpower Status: What Does the Iran War Tell Us? - Politics Today",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZDN2ckF5Z01mRlZnSUdPNlJxUktHOVNxOTlDZ3U4YXdWZk0yd3RzU1Z5Q0tlSmJTeWg5cWZYWjVJZHFFaVVhcm5uaGt0b3NVTDExRXRlemstM29HMkZLc0ZJWVNWcXNqQ0F2UENRZ3BZQWJoUGc2VG5UVWoxQW5UMXFkMGtFZE1FcTNGQnQwX1B2WDdlVkFMcVFCdw?oc=5",
-      "source_name": "Politics Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "3af71ffbc0315ac5",
-      "published_at": "2026-05-22T08:00:49+00:00",
-      "title": "House Republicans pull vote on Iran war resolution that appeared to have enough support to pass - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ZbUtPNnI5WGpNOHpwX0t6cTk4U0YtWUl3TGxna2wtaXBtbnhyRWVQMHBidW5PZlRSdi00VEpkcHZiQ1p4dzlDN0M1d0szRGtQZTA4cGJ6bzY0TzctN2ZhaDhmbVp5bGg1TFcxQ2gtaTBRQUZfTEw1cTVn0gF_QVVfeXFMUEJ6dG9fTEFEWFZTcDM2bmFtNmZFRi1vUTBmOEZGd0RLbkpodm1xeGVmaXhGMWpSSm5MUkVNbm9RcTJ5QnVYaUFWMUkxSzU0alJCWld4WW1teVpqMmFuQmRNUi1yVVozQVotc2p2aTRsSnU2UmJLOUJNUGIyT1pSSQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a3747e3745e5c70c",
-      "published_at": "2026-05-22T07:59:12+00:00",
-      "title": "Iran war live: Tehran and Oman discuss permanent Strait of Hormuz toll - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUxUZUFYUE9ubWtDOWMyN2lQZGlQSTZraVBTQmRpZXd5Y0lBYndQQ1JURklEaElhUk8xUk5RSDVrVXh2N2FtalV6cVRvMjZzOW5Ic3lOMVM3bGFFbF9OelZTSkR4WEtrNDI0Y0hxYkNralFWZmZVX1ZGekZGR05EWkNZd0RQNzJzanZSSm00bWdSREZnemVZUEdEWkdsZ2VCQXpyWF90dXY0cERLbnQ1cGlKemhHZw?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c9b523a6810286f8",
-      "published_at": "2026-05-22T07:56:29+00:00",
-      "title": "Iran war: Israeli strike kills two in southern Lebanon - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTHNNeDl5LWxuRWk3Nmh5NHlRQlJQWXZ5VHZrT1pOa2ZjNVlFbDJWRUd0XzRhNGY0bHN0RThPczdTTkc4QXN1cEJtakFsbTNKZEVyY0pZUEJyTkNmbFJ4aHdVX1M4QXh3Q0tBUUFQNnZYazZkQlNHR0xxbUliQjBVV0tNYV9iMWR5NnZtb1dZQl9ERG8?oc=5",
-      "source_name": "DW.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d15d14b3f32d4e9c",
-      "published_at": "2026-05-22T07:42:58+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBhcUFtbERWZVdyZFJiTVBuSXg2RVoxd2xrYUN0QThXS0lfZjJtSmxQU2t3UDFOM284d2o1R2FJRXNTRTJYRE1lQ1lydDU5TzI4am9TVURES0xob3VTaDc2TXI3RElLOHJDNWZnWmhLeC10TnVRbnlJYmtvM1BpMlU?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "31df21a0edb03d30",
-      "published_at": "2026-05-22T07:28:28+00:00",
-      "title": "U.S., Iran signal peace progress \u2014 but remain at odds over enriched uranium, Strait of Hormuz tolls - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4yUnlWeDNhbzIzeHpJdGFPUThqTHl2VXk3OE5XYVZDVXN5NmxfSmEwWGpfdGRDRXQyWWVrVm5qVlhlWlNfQktNdDZPeDFxejdWU2xKRU82b0lFVE52YlZOREpuemVLdUdUUnlBc0RpdXlLeHExN2dVUDlrMkZESWvSAYQBQVVfeXFMUFBtTVI3SUxrYVg1Y3lleWdZNWFzeWEyUURrak4zZFZqS01XaGpCcTllSkMyTjRsYVdSSzB4NE9PYXQ2bHlzVHdaY0o4NG9CUVdQSHB4NUZpZ0JLMWN1SjFQLXNYVHFFeF9lNUVGaksyZmJ1RmRMdTA2OTBNT3FvUFZXOTFS?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "34fce21439baa33d",
-      "published_at": "2026-05-22T07:21:00+00:00",
-      "title": "Live Updates: Iran says it's mulling latest U.S. peace proposal and Trump says he'll wait \"a couple of days\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQcmotVWVDcm10RHAyNUpLbFc2QlI0LWQ3dHpnSExvWE9zRXhxZVpBTU1XSGVIU01JZk5ZRk1WR3lJbGVHbk4taEx6Vlc2WF9KTWg4U0U1eHdMdnNGTVZtdWtoU1ZYMkhZTGZWd1RoWGNYUTJVNGl3REd2eXp0aDc5TUtDc9IBiAFBVV95cUxQV3JDQW5wUW9NU2RKRTFqSTNnNWxMT0R1bnl0OVhRcWJBUGl5bmR4WnU1VGZFdkM2b2o3NW5NZUVfQkRyNGZ0MndnaXFsd2Z5a0RiQXFNQlJLVEdtMElnMHdyRGplMmU4aEd6ak5mUHlmem1uQXBlMF8xb0JQWjVZbHg4N2RDSVZN?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "43d6b320691073cb",
-      "published_at": "2026-05-22T07:14:57+00:00",
-      "title": "Iran\u2019s War With Israel and the United States | Global Conflict Tracker - Council on Foreign Relations",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMWduRExjZXhMUjFuYjV4Zzc0LS11OHVKUEhXSlpUNUdFMm9MVGlJeFd5eGh1ZWpEWWhFNEdJX0tOVTlJbnZ5NmpBQ3dYeGNpSTBOSWtISUduak5WSHhfQUhQcHBKbVpLdG1IVi1ySWVGd05NM18yektrem1TM3ZvaV9xVjR2eC04cE9RZ3FZajNCZWFHNzBaS0hhSS02dw?oc=5",
-      "source_name": "Council on Foreign Relations",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8144c7961d5822be",
-      "published_at": "2026-05-22T07:10:00+00:00",
-      "title": "Iran's Araqchi Meets Pakistani Minister For Talks On Ending War - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "19d9a9cca797c87c",
-      "published_at": "2026-05-22T07:00:53+00:00",
-      "title": "US pauses $14bn weapons sale to Taiwan due to Iran war - BBC",
+      "id": "d76e258634c97fe3",
+      "published_at": "2026-05-22T08:12:47+00:00",
+      "title": "US navy chief says $14bn arms sale to Taiwan paused due to Iran war - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9DQmx5Vm9oZTlhYXo0dVlDaHI1VUQ5eElKNEZlSWo0b3dMOXRoaGJyakl0RTlocU1hRDhBUC04SXRyaGJLSmJiTDAwRHlERzRDY2g4Qlk3WVpjUQ?oc=5",
       "source_name": "BBC",
       "event_type": "other",
@@ -290,110 +380,20 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
-      "id": "c11ec8d0656ad279",
-      "published_at": "2026-05-22T07:00:01+00:00",
-      "title": "Iran war day 84: US-Iran talks advance amid mediation push - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS2tRcW1FZUFKQWRiTFJGT214QzVxbU96al9LUV9zMENVUjE3RlJjQWt2aFpuVHFNUUxaVXMwdjBDeXdqNDR6ZXNCdmNaRjFOOVVma2UzOW9NUlBoMmNSNUh0SlltTmMyQjVBdVFoakpHWFVIOWd3d3BrbnR3akRtanUzb21mS0JYd3lhUnplNDZPbUtOdkE1R3ZpWXhxU2PSAaQBQVVfeXFMT3phbHlTQ1p5emRQcjBYelIyZVpla1BXVEVwQ29qbUpuaHVMN1UzdHU2elZWMm0wLTdseDBPZks4dm5JdDlyOVExamJiMVFUcHhKYjV5QWxoRmdUQUVsRkNBZUZqNTdiZzd6U2tJQXBwZ0NWWm96dUJDOFFxaDNKSjBRT3VhVlFFbThfcWZGTTBzNVh5THlZX2kyQUlfMDRfc3gycHI?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0b03ed0bcf432174",
-      "published_at": "2026-05-22T06:36:53+00:00",
-      "title": "Iran war live: Trump walks back Strait of Hormuz toll threat - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUxUZUFYUE9ubWtDOWMyN2lQZGlQSTZraVBTQmRpZXd5Y0lBYndQQ1JURklEaElhUk8xUk5RSDVrVXh2N2FtalV6cVRvMjZzOW5Ic3lOMVM3bGFFbF9OelZTSkR4WEtrNDI0Y0hxYkNralFWZmZVX1ZGekZGR05EWkNZd0RQNzJzanZSSm00bWdSREZnemVZUEdEWkdsZ2VCQXpyWF90dXY0cERLbnQ1cGlKemhHZw?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
+      "id": "c9b523a6810286f8",
+      "published_at": "2026-05-22T08:12:29+00:00",
+      "title": "Iran war: Israeli strike kills two in southern Lebanon - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNTHNNeDl5LWxuRWk3Nmh5NHlRQlJQWXZ5VHZrT1pOa2ZjNVlFbDJWRUd0XzRhNGY0bHN0RThPczdTTkc4QXN1cEJtakFsbTNKZEVyY0pZUEJyTkNmbFJ4aHdVX1M4QXh3Q0tBUUFQNnZYazZkQlNHR0xxbUliQjBVV0tNYV9iMWR5NnZtb1dZQl9ERG8?oc=5",
+      "source_name": "dw.com",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "542414305142b9de",
-      "published_at": "2026-05-22T05:32:31+00:00",
-      "title": "Republicans call off vote on Iran war resolution that was on the verge of passing - NPR",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTGU5MXd0cFltOE51bFBWdmtXWXFHUWJxb0RCZmNILV9iRHRrY0lpOXFTNzZvNXIwNWZPSzRXdGQ4c3JEb2FkWGdZX0pkNDRjcGcwZ2ZjUVl0eDMwS3ozX0Z2WUdaTmdmZlZJMG5Xc2UxcGFiSVA2WHBkNmhLTHR4NjByTExzSFFpekoyVWppS0NTY0hobWc?oc=5",
-      "source_name": "NPR",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d7d74e21fa539b21",
-      "published_at": "2026-05-22T03:59:32+00:00",
-      "title": "Iran war pulls some Gulf states toward Israel, while pushing others away - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PbUpUMGlVMno3QXJjVTRFNlRXVVlYdzU0UmxIc09CbUpzdkdGVHVGUVpmN1hoYVNCWjhzdFVHN2Z0TzZtUER6cHQtakY3TF9jbklQa1A4bE1CU2Jo?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e3ec85bd3821a1c0",
-      "published_at": "2026-05-22T03:50:17+00:00",
-      "title": "US pausing $14bn arms sale to Taiwan due to Iran war, navy chief says - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdXcwWkdzNUtYUjRjRVNaOWNmSEQ5c2xpWEg0QzVnRVlVYmJJQXo2RmdwbWNIN01TalBJeWZIQWdfR2dIbS0yZDNqNnQzM19mVVU2TC1BNmZGaVZhYk9UZlEyenpTdG42UHhUMmM3S3J3RnFzS0Z0VFZ0d1dXc2w3V1pyUlhBcVI3VEpNV21zcWtnT3FVRHVZQ1JLUl9qY0pORUF1WE9Qc2wxSHVh0gGyAUFVX3lxTFBqODl0WVdzMkVFMy1HTC00UDVXZEJtMFJTTEdlaDU4dkhYbVQ1ZmhwSHpzT3hYdGRTbDhNQ3d4dzFXWFNaQklXY2k0eWdoUF9RcWRKdW1RSzFWQzZLcm5LVXNZZFlZZHNOLUNPb0o5X09aNFJkNC1nX0hEMlBEb1BCNDk2X1hnZk1qR0xjRkZtZTlQZjhacnFYWk1UakRLTjl4dng3dTItTUpTR2tYT0N1eGc?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "86280dd4993cdcff",
-      "published_at": "2026-05-22T03:03:30+00:00",
-      "title": "Trump Administration Updates: House Pulls Vote to Halt Iran War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvVmI4TVlpOF93aVFzQm9HV0Z5VVZLM2hnbUZlVDRWMXRMNWJSUEpYYTdGUTFJUV9BYm5iZkZ4NkppMUdtSXZlWFFwQ1hCa0lhWnlZSXhJQXFNbDB1dVBaczFVUQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "63b357ac0637c89b",
-      "published_at": "2026-05-22T02:55:45+00:00",
-      "title": "US-Iran War Live Updates: Donald Trump Says Iran Talks \"Right On The Borderline\" - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTm1pSDhHVTJMa004a1VIY0xMLTFsYzRTSzVweUhvOTRBYy16LWxaSXpXWWlMOWtfRTlpdUROTVJodmpQc1hUb0k3UzM2REM5RkptN3hfNXRaaVJ3ZkdRVEE1bTdRbU1zcEl6c3VoaE5JZTVBOE5wZDNBaEJtNm1HSlZIbUZnelRucEptTld0Qm1QMnp0anlDYS1BdTJjUThpVy00Y2w2SDU3UEI3dW5yQ1Nuc0ZIaXliU29BcmIxcFhWd29oYko2SnJNZWVvMnBSMEpxTUZ0b1VtZVNUeGItZTF1NGRveGNsZUZJdnF2Ull6Y3NTVWg2ONIBgAJBVV95cUxPdFN5RlBGd2ZMWVJhZ1c4emxYMlFvTDQ2RXNmOFpJUWNLZUFkeGJEdGp6WDJyd1BaUHpObFFCTHlTSkNNSDFrd2FxcDh4by0wclNLU2k5SWZ2RUwwUDl0WVFwSklOS1A3VDladnFkUnExOG55amNBYWV2VERlWmJaWDN2UG5zWVdWdWtwWjlxc0JTM3E2NWNaa2JpZmJoeU94YjFLcHRtZC1aQktrTmdRcmVleHV0amZhUmhVbkdLSFhMb083S3pQZUM1cWkwYjd4MEdDa0gyQ0VDejF2VlJiVG81X0M3dEFwdGZEb0wyNFVnbU5BNXhtUEgzUTc2aExt?oc=5",
-      "source_name": "NDTV",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
       },
       "confidence": 0.65
     }
