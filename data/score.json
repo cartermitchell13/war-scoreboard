@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-05-22T22:17:15.484972+00:00",
+  "generated_at": "2026-05-23T04:10:08.297731+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 97,
   "totals": {
-    "usa": 13,
-    "iran": 19,
-    "lead": -6,
-    "lead_side": "Iran"
+    "usa": 31,
+    "iran": 17,
+    "lead": 14,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 6,
-    "iran": 11,
-    "delta": -5
+    "usa": 18,
+    "iran": 9,
+    "delta": 9
   },
   "confidence": {
-    "score": 65.0,
+    "score": 66.1,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 20,
-    "other": 57,
-    "attack": 21
+    "other": 50,
+    "attack": 26,
+    "diplomatic": 21
   },
   "history": [
-    {
-      "date": "2026-05-09",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-05-10",
       "usa": 1,
@@ -37,7 +32,7 @@
     {
       "date": "2026-05-11",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-05-12",
@@ -87,185 +82,25 @@
     {
       "date": "2026-05-21",
       "usa": 2,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-05-22",
-      "usa": 4,
-      "iran": 7
+      "usa": 10,
+      "iran": 6
+    },
+    {
+      "date": "2026-05-23",
+      "usa": 6,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "d01f2a7450fd63db",
-      "published_at": "2026-05-22T22:02:09+00:00",
-      "title": "Rubio reports 'slight progress' in Iran talks as Pakistan renews efforts to mediate a peace deal - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNTVId1NqUjdVb1VxNW4wNXNlMnN6S0JGVzFhN2VEQzB5aVBJal9ZOTV1TWhXRnJISVN0MXBOMVQ1MDB3d1JyZ3R1NC15Nkpydzg0SUVjZ3BkTjE1ZFIyWC1UQktLa25PVjd0UlZmT2RXdGZvOGw0Z3RqTi0zT01kWm91TzQ5cENQV3FGdmo4WXpoRUFYVjV4RVZsVEd3NGJ2Ml9Wc0hwNF94RU94VkJZaVJmZkpIUQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "0abebdaa8534e2e5",
-      "published_at": "2026-05-22T21:56:09+00:00",
-      "title": "Iran war: 'Slight progress' in peace talks, Rubio says - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZk5IZEZDN1lLWXU5cjkzN0tyV0RVNTZYandnUEdhYTdNNEFXQTRKbG1Vd3hXN1lfMU5TOGpNQTZaU25CNHlFdnBBcnE0azZrWHRsTHJUaXFMekUwZFZabDl5S1QtaWxVV0NQdzllc25CM3JuS3RxRWVYNE5sMkVSZVRRZVRZUF9VTlU3eG94Yw?oc=5",
-      "source_name": "dw.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "1989a7ef114362e4",
-      "published_at": "2026-05-22T21:50:30+00:00",
-      "title": "Opinion | I did something AI never could: Make my calculus teacher cry - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaXZ1dTI5TFhic3VjbS1lM2RHd1N2cjBOZlZhSDdoVjE5Wl93bG9XeFJkMTRPdXVCMmNDQTRUdzZSYi1FeDRHaTNha3E2MXJobkxoNUV5OE0zeDhIODF1eXJFbzhYNWk4UlM0QUU1akZGUFZfWnJRVDd2Zk12MzRkcUdNYWt3V1luaGNSc2EyOUJnd2ZNamg5bUFxcw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5a2f638a0ab6db26",
-      "published_at": "2026-05-22T20:55:15+00:00",
-      "title": "Trump says Iran war \u2018will be over with soon\u2019 as progress reported in ongoing talks - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUTlLT2F0bUFxV1BhMDgtaEhHdUZtN0dyNHpuNExJYnIzaFZrSUttMjJpNWlGREhTUXdKaE9CMGE4UlBiTXNheXN4MUt4Qk84bEVQNEE0eEhkR2NZMVVZMmdpamxXOFRYZEIxVENFU1lPSXhodEJWM3lyWlp3RkFRM2dVQXYwRmhjeDFJZlAwekVaR0ZNOWgtQURPSUtlcFp4V0FOd2RacDZ2b3c1czBITmZKbnN3QmFPd242ZDYyUldscndm?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a96c4ba873b30843",
-      "published_at": "2026-05-22T20:37:30+00:00",
-      "title": "Qatari team in Tehran for talks; Trump says skipping son\u2019s wedding to stay in capital - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUG95dlRuT2N1akhBNDM5dUdYVlN4Q2tUd21OSDVPWTZXTlRyS2d4RE5FeGJLaUhfNnRNbFA3enQ2XzhSY0VIY1NLaTFfWUJqMHhmeEZlSDRyakxxdmxUdkhmM3RXdWxKaWxHSXoyeTVNRWM1aDJrS0V1MnpTcHlYYW5kMkdJM3BTSE8wdTJmTGlac3c2a2MzUkI5b2hKS2l4Sm5USzVGNnEtMUdmZWRF0gG0AUFVX3lxTE1hY1poa0Z3d1hQOFJrVnlwMWkzTFFPZUZCdTIzVm5QSnZCZ0JYaWZfdTUzZ09fbmRoUThLMW1EdGJjdFNQMEhFQV9qQVM5c3RNTTF6WWpmUGtZSTVWQ0Y1NWNhSzR4SXNYVzd1TTNXd1NEUVRiV3NFZ2hGOTVMektmLUpOWmwzelpPcFVQdzlhNU5rTVV3bVpsbFpuemozckVsOEhiQUpEcno5cWVIbTdQcUNqTg?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2954681220f4e541",
-      "published_at": "2026-05-22T20:33:59+00:00",
-      "title": "Trump met top advisers on Iran as he weighs return to war - Axios",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4wcmJGaFl5Si0yaXRJSUcxYld4MFVzaTl2YW5Vb2ppSnBwdVdUeGEzX25KSHBTaWlod0JrQU03dTJzT0JvMXJUY0p5TmhkX0lUNkhlWmpPcThfNVRiRXotWjFuaFlLV3pkUlMyN2E2a3Nvczd0REE?oc=5",
-      "source_name": "Axios",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "62b6ead341601e66",
-      "published_at": "2026-05-22T20:25:00+00:00",
-      "title": "Rubio reports 'slight progress' in Iran talks as Pakistan renews efforts to mediate a peace deal - AP News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdVlHX1dTNEdZNEY1N3VuRDVvR051UFpTem9kNlloY1NiOW9yRVBCUWtUUUJXcW12VWFWbGs5YzlyV2dWWE9FRkIwblhuZFBqaVhKNzhIVnk5R2VSaTRZZ2FjTXRaaWp5UEdhTGhEN3RvOVoyQ29HR29UeDJTWXk2MU83MDB4UQ?oc=5",
-      "source_name": "AP News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "843be8da63240e72",
-      "published_at": "2026-05-22T19:47:29+00:00",
-      "title": "No deal in sight if US insists on discussing nuclear issue, Iranian FM spokesperson says - report - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE53R1dKVGE2T1NwWF9ST2VzSHk0NUo4aUJJUDAxUzEyNTFKcVl1enpyVkEzZVgyM1RSaURzVEV6YzRTLWNIdHo1bHluZGU2YWtqRFVsVVFSal81bHNyQTBDNnFYcnYwcnBWV1E?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c007d9789a4ad923",
-      "published_at": "2026-05-22T19:43:54+00:00",
-      "title": "Senior UAE Official To RFE/RL: Restart Of Iran War Would Be 'Catastrophic' - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE44WnIyZUNFdHVCR050OEk4SGpoaVZpTzBEbjF4WVZhOEhKLVJweXVFLWxSU05iaXZpRy05M0Z1cFFrcUV2Qm5PS2hYQUhFTmd1a292ME9aRE1fOGhtWXNwWHl2UUdyeTN5RUVNTnRLY0M5Z0JBdzZKc2lFRdIBfkFVX3lxTE1wWFJwOU5QM0pkNXJZQXM0a2tZOGk1QWpTbUZfT0xwMnFxSGROTVQ5M0NUVEo2X3FjZ1Y3UVN6TFFsNXlhQjJNNXJNWDdYZHFDUWZ2dWNTbXVsMjdOclpUYlhFNTZHSF9kd0hSdjJTMFB1NlZZelI2aU9rWXVSQQ?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "ccf2d48647be8806",
-      "published_at": "2026-05-22T19:13:20+00:00",
-      "title": "Pakistan\u2019s army chief in Iran as US\u2019s Rubio says \u2018slight progress\u2019 in talks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQb2Q0YndvMHprRDQ1bkdwUjI2SXRzZ3VVZWJyeTdQQXhSQWFLTXNVc0lJWTdwWGlkYVRTallHNnFRM3hpZ1pYcGlCdnJIZVpVRTJ0Y0tpQVl1eHJnaTFpRk9TdnN0bmFSZjdEY3F5aGkzUFU4TGRNVTRpLTR3VXJ2a0xTUlVnZzV3UU04OGxvODRjNWJ4bFJUdmxSaDBrbXhZYlh5MVc1dnFia0toWFVoZldR0gG3AUFVX3lxTE1tRV9UQmRtQnpENXY1a0x0Sk5VZU5xUG9FRjVCTkwzTWlnRDduX3kyd0tWVjVtMS16RTNWdEVuTmdpRG1BMXE2dVNMZVdMNWZ3ZTJ4UkxvUUhuc2hwUjV3eEhJWnlmYkNSVnMydl9QSkFKVFVHNlMwOU5NYWQyRE5uSU10dlhLUXk2Y3VHdm4yZ1FMbHpzdU9WN1VtbjBZOTU0UnpiN2c2VEV3T0t6akZ4QnRJVWRwQQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a3747e3745e5c70c",
-      "published_at": "2026-05-22T18:36:30+00:00",
-      "title": "Iran war live: Tehran and Oman discuss permanent Strait of Hormuz toll - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUxUZUFYUE9ubWtDOWMyN2lQZGlQSTZraVBTQmRpZXd5Y0lBYndQQ1JURklEaElhUk8xUk5RSDVrVXh2N2FtalV6cVRvMjZzOW5Ic3lOMVM3bGFFbF9OelZTSkR4WEtrNDI0Y0hxYkNralFWZmZVX1ZGekZGR05EWkNZd0RQNzJzanZSSm00bWdSREZnemVZUEdEWkdsZ2VCQXpyWF90dXY0cERLbnQ1cGlKemhHZw?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "86280dd4993cdcff",
-      "published_at": "2026-05-22T18:28:00+00:00",
-      "title": "Trump Administration Updates: House Pulls Vote to Halt Iran War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvVmI4TVlpOF93aVFzQm9HV0Z5VVZLM2hnbUZlVDRWMXRMNWJSUEpYYTdGUTFJUV9BYm5iZkZ4NkppMUdtSXZlWFFwQ1hCa0lhWnlZSXhJQXFNbDB1dVBaczFVUQ?oc=5",
+      "id": "6b4fee1d345f297c",
+      "published_at": "2026-05-23T04:01:07+00:00",
+      "title": "Once Trump\u2019s Co-Pilot Against Iran, Netanyahu Is Now a Mere Passenger - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WYllyTEdCaFl2clFvbXQwSVV2S0tmNGFXSnhtMjdJYWo5NXBxTjNtVTRLZExwUnRxTS1zblk1R3Q4X1pmYjgwb2pTeW9udktPSHBXR2h5UVZHbURSV2E3alVxUWQwZEVvOFhRdHUyd2duZ1R4YnBmVkdFLU50eVU?oc=5",
       "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
@@ -277,56 +112,11 @@
       "confidence": 0.55
     },
     {
-      "id": "a5612be8049cdcac",
-      "published_at": "2026-05-22T18:04:00+00:00",
-      "title": "Live Updates: Rubio says \"slight progress\" in Iran peace talks, but rejects Strait of Hormuz \"tolling system\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYzN4Umh3RHZZMmdWVVdzbEROVHlieVdZZUNDXzFFZmdRLWU5aVlMOFZzQkQ5RGF3WW5TOE5KRU9hYURaejl2cFg2bWVPNHpwd0l3eHNTMlgtUjVNNVB4SFN5STY3NVY5aHYtVUtMMDNvUDVZOHU5d0hteW1yYS1EeUNyYnBhdHZ6dG9oRzFkWjlqdjVZRnlz0gGcAUFVX3lxTE5QdG10YXFaMnhvSWdVZEJDTl9qZ3ZnTHU4a2djakxUMjBydjFzb3M5SHZ4b1BSVnNCNWs0UWVxVHdWU0R5bkhLSldwNU9sckNDbU9SSmJzUzc5VFNLdlZCTG10VGZkNDBEazJxRnZaeVhQSHpWMTlfaU9jUEEzWTVxRDUzcXNjamI3Z2NaS3M4a0hPNV9aVHlEVHpuYQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d9834ddf12b520f7",
-      "published_at": "2026-05-22T17:56:48+00:00",
-      "title": "Pakistani field marshal in Tehran to try to seal U.S.-Iran deal - Axios",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54cnMzMjJqbXRTbzZXemRiTEQ2YWdwQk9VM01Ecng3Y29uWTJKMVRlNXpSc0tPY1IwSF85SnNqbHJLdVE5YkltODg3amk4cUJ1NW53TTN2YTJCak93ekJNZjV3eGUzYmJ5dmhVN2Mwemg?oc=5",
-      "source_name": "Axios",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "3efbdc086a547f72",
-      "published_at": "2026-05-22T17:51:09+00:00",
-      "title": "Exclusive: Qatari negotiating team in Tehran to try to help secure US-Iran deal to end war, says source - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQQThBMGFCbXlrNFNIbHFpT2ZvTWNFMDFvMVI4ekMxTTBiZURGczRvR29KMWFiZVFmUWoxQ013ajNkZlNUYk9jYURmcHN1bnpqM0JheW9GQ3pubTYyWWtDdW1HWEFKYzE5bE5PMG9yZTJDd20tTVNQNXp4RlRXLU0yVVJodVo3VmRTVTN3TkhjWUxicnRqZVlSNVU1WDZhVFVwYzZSaGN0dnBjbDRSSmhRam9sb0VscWh5anljZXR3YVZYVHZmcXVyMw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "12e095f594af1677",
-      "published_at": "2026-05-22T17:40:24+00:00",
-      "title": "Tulsi Gabbard resigns as Trump's national intelligence director - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSUltT2dSRjM0RHMzbXZFZ2hGeVlOMzV0X2tfYlE3Z3ZjeVNicXAwdk5fS1ZOekFCZ3JUcHBBX0UwWDdTekNmcHh3MEFQcXpNNXZ0Y2YwQjE2NmFnaDE1dlItUWtEUTdlRzdBMTQxalRCUWUzUDhjbGFOdnhzWEd4bUhWNmJqQ1lLRGVOdzlFVDJMVkNlM3BrbFZ0OUVUUTV5N0HSAacBQVVfeXFMUFl1U3BwUFhwZktBbUtxdzNvU2tnXzlUci13OFF5RjVmUUIwbzVTVS1aVHJQQW5OVHhJWEEweW53YnhBRjFmMTBGLVBxWjgyUXptYndlVmJjYWM4TEdxUko1VTdHZGhXcGtIMm5ncTZjMkhISlRNZDU4b1BGdWRRT1hZWjN3djZZaGRCYTZEZUhqWUhtTHBPajZrR1pWMmNBQXY5aVBIakE?oc=5",
-      "source_name": "PBS",
+      "id": "a03ce35e76e2c612",
+      "published_at": "2026-05-23T03:56:32+00:00",
+      "title": "Iran war live: Tehran says diplomacy continues but no deal yet with US - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVGdjcGZxc0xlUWVqMTFnSE5PWHhfTktWV1FienhRUXprYWxtT0c3dnQ5dEJGUFNQUVNVRURXcm4tNDl4SEFoQ3U3Y3Jpc0VDbGlGS0dtTHIwdDBDeTd1MVQzQlhvUzhlNU1nS0s1bl9vVURnTzdvanVXdkwxNjlZMEZCTm9OYXhkc2xLeE9USlIyMU1ERUVqNHpHRXpaamZra2VFcEgtUDBBY1Yxem1yYmZCNmNoN29HckdN0gHAAUFVX3lxTFBIbkd1N3VodWpvUElmRHpXTHJxUkdqNjNwdzhkejVNZGwtSlhnb1dGUVFTUENnemJuZWt0dVhBVW5FYmt0Q2dtaWtGekxrV1hqOTJXUC1iam5SVVdyVk9EMU9qazEwY1N0d3hUVXZqMDVIRkhCcGtWR0NDUVRXNUNNMmgzXzRWUHhPM3V0QjEzeU5Ccmp4V28yVnZuYTI2TDR4aEtmaGFBM1k5TFNJMGJ5VVhBZG5EN0piQ2c1bXFxcA?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -337,11 +127,26 @@
       "confidence": 0.55
     },
     {
-      "id": "b22d016dbace8650",
-      "published_at": "2026-05-22T16:41:00+00:00",
-      "title": "Iran Mediators Race for Deal to Head Off Looming U.S., Israeli Strikes - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMFZodWN2TGZheWlPMUlRRjVkcTlBd3h4VTlaNll1YVJNQXM3OHBydDVNLWZHSjN2SEN2b2FicHN4c0taNXIwdHBLcW5QdjZCcGdJeG43RmJ3WGxIRnlDbXV2NFFjYUsyRmhNTEJWMGJpNVZMeXd0RDBjS2FwNTBsdUx4Z19MX0MyNUlUYXo2ZjhhcWRiLUFuZFBheHJvTjl3T3E0U3VLcDBrLWdxT2kzZmV2dExnUQ?oc=5",
-      "source_name": "WSJ",
+      "id": "497ccceafb57abf0",
+      "published_at": "2026-05-23T03:44:57+00:00",
+      "title": "Iran War | US Iran War News: US prepares for new military strikes against Iran as talks continue, says report - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNNFJvbUw0X3FtcjNhRzhwYWdINHF4V3p1UXVqSHVxM0htU0tDZWkwT3RtMF9tbDN2ZktfZTgxM2t0OHVPUGRocEhHTUFSdVNNR3NtXzBIREswbWNORzJVSXIwM1hyWFlMUWJkYUJvaXlVT3h4dkpRcHFoQ0F4MmNfT0E5clNMTmpuUlUwYkpXSjRzOUVQUzYwazVONHBTb0RfLWx3Um1SZ2cyZjlqNk5CTDhBU1dBTXU5el9SUm05WjlCOFBfTktxWHN3ZGdzYlpVcEQ0RmYwQTBWVmhOaHp1UHNFX1h0aXlMNmxuTWdISXNFMEVrOF9Tell1azF5cldiY1FVT0RGaU5mM3hOWEVqZjhjcmZRTXFzZ2VOS3FQbWlVUQ?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6e2427d4c485861a",
+      "published_at": "2026-05-23T03:37:59+00:00",
+      "title": "EXCLUSIVE: Iranian Official Outlines Latest Proposal to End the U.S. War as Trump Weighs New Strikes - Drop Site News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYjluY1g1UVRvQTRWVHV0OXdTTmRuSmM1MXhhZGt1aWg1WXBSZkp6TmhaRnFyWkQwSktvWjBaZ1ZYdnNGeDZQYnFPMWFuOGxvc2UzR0gtYmFUNWZhZms1TnF6VC1yN2dldjlabWU3SUlzRDhlN053TGhCRnhjWVdyOEhLTkFOZzdic1hkYkdHdkVnTzVQUUxleDBuRWVQVTdzZldiWlVjX0g2MUU3bUlPdQ?oc=5",
+      "source_name": "Drop Site News",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -352,11 +157,26 @@
       "confidence": 0.8
     },
     {
-      "id": "5455c8c626d25abf",
-      "published_at": "2026-05-22T16:40:03+00:00",
-      "title": "Iran\u2019s War Is Testing Gulf Unity - Gulf International Forum",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00V0RMWXRhdG5iUklRY1h5blk1NlFHekF5YVZmQWhHSkVPb29MNHBDdHhLcUhXbEwybWZ3WUxrYVlPX1BTbnVyclZnQ25WRlNTWTV0WC0tR2FUcnhaeV9UOA?oc=5",
-      "source_name": "Gulf International Forum",
+      "id": "ce0e5d486628908c",
+      "published_at": "2026-05-23T02:44:15+00:00",
+      "title": "Trump Weighs His Options in Carrying Out New Strikes in Iran - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE96akNRd2FBY3V4R2JqMV83eDJ3TnFmR1AyQWlXc3RTWldDZm1ZV1oyRTRYWGllT3FzekVkT2kycU1DRThTcDhoMkxSWWZFZGI5SU56RUVCZjlIVFU5VTBDT2tONTFnakkzXzd4OWxkZk1oMGU3ZTBlY05n?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5e54b849cecc1a05",
+      "published_at": "2026-05-23T02:41:34+00:00",
+      "title": "Iran war latest: Europe 'has heard' US message on Strait of Hormuz, says Nato chief - The National",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9QQkUwQUttZW84a05LZHZBNGduVlJkWGhIUXN1S1dmWWQwc3lwUWo4bUxnd3MwYkZteU9vTEx5YVF5OW9KRHFCYnFqYXFoSXE4ejdNZ2NoRWI0NU9hbkJCei1SbkhCTElFVF9DSXdiSU9DOWFqazdKMlNLYkM?oc=5",
+      "source_name": "The National",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -367,8 +187,98 @@
       "confidence": 0.55
     },
     {
-      "id": "06b29511717bebce",
-      "published_at": "2026-05-22T16:15:41+00:00",
+      "id": "20432e27c1bb9742",
+      "published_at": "2026-05-23T02:37:00+00:00",
+      "title": "Hope for US-Iran deal faces hardliner hostility in Tehran - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9fYzNIbW1haVFrS1ZzdlU3NU55UWkwUUFIazhoUWxVeGtsZy1xSFNfLXlVcUZVWTZCbldCNlNZYUlFdV82NllyRkRUTmZYZE96NFE?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "9f19c3a25e7b0cd2",
+      "published_at": "2026-05-23T02:24:19+00:00",
+      "title": "US, Israel poised for strikes on Iran within days, WSJ reports - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9XMzZQMlV3NXVtWHZhQU1wV0EyT2NHVnpuc3hqZDR3WFVqTExGYnA4Ti01Z2JQbDBOeDJBTVdrcUd1R3BGekFTVFEzMDctVmVDM3MzSmdRWGQzdnd5Y1hPQkYyMXlwM3FWMFZ4THhQek9JZw?oc=5",
+      "source_name": "Crypto Briefing",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d7d4f190bea883ee",
+      "published_at": "2026-05-23T02:23:54+00:00",
+      "title": "US-Iran war news highlights: Trump \u2018seriously considering\u2019 fresh strikes on Iran, says report - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQNTRUcnh4UGtDQWIwdEVmVldjVmRQamU5bjhBTmlDX25EZ2xCcndCUmhqVGpWcE5fQzN2T1JJWEhoYlZJcGNJdGd3TjY0NE9OQlVaMWx0Qnk3Y1NZa1NEUUdzN3cxQV9zb0NVMHdJVlROVDI0U1lhWXZDZkVCY2toekhTUjE1SlhNc0NoaldrSS11WTRGbmo1aXpxeW50dzRTeERtdEZXaGdkbkVWRHpUcnp2VjNQSFpXZ05BZzV3UWhxdnpMTXVVZ2dsdkpsUkg1U1I0REQtNnFBMmNXbjV3WkVoNS1lYWVyMWZYZFlPSFNVTm1fNzQzM3lyNjhLU0lYQnlKWTdwUHl6LWdzeFpUdQ?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ab651ebb9092bb14",
+      "published_at": "2026-05-23T02:09:33+00:00",
+      "title": "US weighs renewed military action against Iran as negotiations continue: Report - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQcUlYZWhXYXpLbzhHYUs5NGVEdkxQcExZWWRDQWI1WHN0bGd0VmNSQ2M4QWItaVdKTjRybC1acGlUVEtvQzFQZFRuM1FpZzdvbDNDNXhJUUl0cEdsMFA3U2NLWVZaSUNycUhHUFJscEpQSzJwZVpEY1VPZTZETTc2TVkzUnJtQTJDZlVPbGxJWHo5aEtDVTBRSE9CbFFWM0daZjFzUW8yQXphLU5kcDJ5TEJodWFIOGliZ1dhNQ?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "f7f29a7e585900c0",
+      "published_at": "2026-05-23T01:52:39+00:00",
+      "title": "US Considering New Strikes On Iran Amid Ongoing Negotiations: Report - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQTVN0RlFhaWJsajFKQWg3YjJQOHZ3R3ZxYkJwOU1oWjQ0dlZTYVJNWC05RTZHVHhZdHlwVDBpd1Y3Vnp0bzN1QXptZ0RsLUxobmZ6S0RfZFZPREMwZDR5VW5QSVpuSnltekM3VW5NMU5DSlN3NGZpYWFISXVCbnMwOUR6SHk4S2xGc0h5RjZBMWN5U2lRaXJRQ1dtNGpyTTVqMERLeENSejBtMldNWnJ0VFo1VXBQSHZZQS1vbThOTHdqNVE0SXBPSUxtUHHSAdQBQVVfeXFMTTBXVXhKOXI2aDdXdUR5enJ3VkZsZUJmNzAzaFdFaHNtNW9qM3RFMzVTT1p4WUxLUkttUVpMS04yVnFQQnJGQUtja0R0cEduc3FqaTVFNF92cFZVeUphLWRmQndDWnd0dkxiSUtBdjljX3VIYVBob1FSRVV1SDdhanVDZ0dLZzBtT2RYQm94R2hJQ1YtNVNxd0dTRWprc2JvRXJHMXFNWVV3WkR2RzlPOFM5WFBzZlhSYUxRMGlwbGc3VDdiWW1fQjBuUFVMUzNIVWRVNEg?oc=5",
+      "source_name": "NDTV",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e45b2d5563e0f3b2",
+      "published_at": "2026-05-23T01:50:15+00:00",
+      "title": "Trump reportedly moving toward ordering strikes on Iran but no final decision made - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMDNkMHFyclNpb2NMNXhkTDI1STlBZk5CSWRTdEFKNUNFanFUY2J3U0RxNGwyMG5jVDJjRldaXzRaTzZnbklCOE81U3pYbWJCSkd2SGRJbEp0dXh6bldXX3hiaTlLTlUtbUNVel83WjJhNVVOMmJDUE5wQmtIakIya3VnOUxjZVV5TlEzaGFmWVE3blZETWFrYXBIbDdHTGs3UXNZYTR6Yi1YWmREY2N3Q2J4amtUYUhQQXc0MzdvZERmTjNXMTZ1SA?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2ec0853c3bc597d7",
+      "published_at": "2026-05-23T01:27:47+00:00",
       "title": "Regional Mediators Rush to Save U.S.-Iran Cease-Fire - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNenRXUWhkWi05T2JSVHQ4WTY0TTVLcmlWSXZ0cENoNEpTamhHcHRRZG1BVzJ2ZFJvYmhLTXEwZUhtdmJTN01CdDBwUnZqT1lMaGhrOUp2QncyZjhsTzhNWjJoMGVPaW5lYkRFQ1ZvSVVFLTdjRHJtZlFsbHd1SFM3N2JvekxPOGNJZHZURmFaNUNCeFU?oc=5",
       "source_name": "The New York Times",
@@ -382,11 +292,101 @@
       "confidence": 0.75
     },
     {
-      "id": "257ac3d51d411402",
-      "published_at": "2026-05-22T15:47:14+00:00",
-      "title": "Economic confidence plummets in US amid Iran war, poll shows - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbWoyWkswRjdVVzg1dlM4dFVPclE0REd3T1JBSzdCcDRpZjFPNWlESlh3eTEyOVhSZnQway1LRGVFUnNoOU9SRHpUV1Z5ZXVUSVpDcjR2U0I4NnB1STg5SFl5d1pzRllxcWI3SEtHYVBmZWtCYVA2bGdLUktWYmJEbnVEWG8wYldZdE5Ud2czRE5McmhfRXZjSm5OT2Nnb1N0d3fSAacBQVVfeXFMTWhqejFQNUtjbUZwNXFBN2lEWUZOQkxEbUl2MUc3SzQwS1ZWcVdhSHdkVndLMDE0dm5GU2RnSmo4U2ZlRElMS1dsSmpvUzZpU1N6U1VjOUQ2aUJ1ek05Mzh3SDBBRUxWQ1JaUFNNWjFua2t2OGtzRXI1TWdEaVJCMU5yeVpRUWZGZ3Y5U3BSY2JROEFoYVdkVEltRjlUM2Nnam9GWE54M3c?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "54e9bebb1c54be7c",
+      "published_at": "2026-05-23T01:14:31+00:00",
+      "title": "US-Iran War Live Updates: US Mulls New Iran Strikes, No Final Call Yet: Report - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNTm1pSDhHVTJMa004a1VIY0xMLTFsYzRTSzVweUhvOTRBYy16LWxaSXpXWWlMOWtfRTlpdUROTVJodmpQc1hUb0k3UzM2REM5RkptN3hfNXRaaVJ3ZkdRVEE1bTdRbU1zcEl6c3VoaE5JZTVBOE5wZDNBaEJtNm1HSlZIbUZnelRucEptTld0Qm1QMnp0anlDYS1BdTJjUThpVy00Y2w2SDU3UEI3dW5yQ1Nuc0ZIaXliU29BcmIxcFhWd29oYko2SnJNZWVvMnBSMEpxTUZ0b1VtZVNUeGItZTF1NGRveGNsZUZJdnF2Ull6Y3NTVWg2OA?oc=5",
+      "source_name": "NDTV",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "baa0e213c6a1cf89",
+      "published_at": "2026-05-23T00:59:13+00:00",
+      "title": "Iran war live: Marco Rubio says Nato allies needs \u2018plan B\u2019 to open Strait of Hormuz - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPRUxUZUFYUE9ubWtDOWMyN2lQZGlQSTZraVBTQmRpZXd5Y0lBYndQQ1JURklEaElhUk8xUk5RSDVrVXh2N2FtalV6cVRvMjZzOW5Ic3lOMVM3bGFFbF9OelZTSkR4WEtrNDI0Y0hxYkNralFWZmZVX1ZGekZGR05EWkNZd0RQNzJzanZSSm00bWdSREZnemVZUEdEWkdsZ2VCQXpyWF90dXY0cERLbnQ1cGlKemhHZw?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "96cf3903b9c8b45a",
+      "published_at": "2026-05-23T00:57:55+00:00",
+      "title": "Donald Trump considers major military operation against Iran as crypto markets brace for impact - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBUUi1ibEtSOW1yLVUydVhQQ1FYZ2QtNGJ3TmtNZ3d0eE53dnBfRElFWlZxMHhwWWUzTl9BNFlkV1pGTlphbS1qM2I5N2hIMXh1YU1rN1BQeXU3SW1sUDRCYUVlTUI0Z2x3MjJVclRjVDR3MFFNdzZhMmpvUQ?oc=5",
+      "source_name": "Crypto Briefing",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e59f476f2e66b109",
+      "published_at": "2026-05-23T00:51:49+00:00",
+      "title": "US prepares for new military strikes against Iran as tensions continue to escalate: report - WCTI",
+      "url": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQa1lRUHV3OGdsaHZKaGxBNGVNdWkzM1gzS3JHY1JQOWYxNHJJWG1MZkV4eXpuWl95OUZtdHJ5Uy1oWURnNVFuM2U2b2RLdmxkRUtyU0UxeEE2U0FQYU4tTFZfMGctRzZVTVV3ZGNDeFFUb2VqZVY2MjI2M0sydkRtZVU2Uk1Wd0dnZndvN2QyQ3l2VWMxdlcybmhQRzhUNVFRdENZdk13RVk2VHhqYUNoV0dwNndsNFNmX1U5UXl1SnZqZzJ6Q3BqVVhqSW1TS2N5d0FkQnZ6eUR5T0loaXEwTTdNejRONVZ2SnotalF4YnFHaHA3MHp1bXNtbm1hRTFCUUE4aG1ES3RQRGNPZHJSVTFuNlJUdWpPdWZnUWJjSk5KRC1mSENsNWdoVW5oMVR6MzBvb2ZxUVcwa2FiNUp6ekx1SDdOUXhVUFlvcVQxT3FmcDJMQ1oxejJrNXBaZ0Y2dHpNeEZQUDVuZDB1RXVKVVdlbWRxci1iWEp4TzBkcGliNmNLMUZDUHg5X19ZZ0ZIVmRKWkRR?oc=5",
+      "source_name": "WCTI",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "35d54fb30db30408",
+      "published_at": "2026-05-23T00:51:42+00:00",
+      "title": "US prepares for new military strikes against Iran as tensions continue to escalate: report - WJAR",
+      "url": "https://news.google.com/rss/articles/CBMimANBVV95cUxPQTBSSXB4aVk0bG1pODJWOTVlZE1Yc3VjYklINXUwRlctTEFEbFprYkx4MWZfT014LVN3Y1V1UW1TVl9tMWtsWWZGRWIwS1hQOVplRFVaZEducC12RkZsSldaQjdsUEVwcGFad00zVXVvOHpkemFOWjJzRi1MSklhdkxxNWxqVVlSeTVVdE1tcXg5ZkNsLWpSWWJ0Yl81MmU2WHJIaGJOTl8wM1k0VTI4YjJHeDcyRmpTT1hfRkJ2aEF0THZxMFdiTjRmMEowS0taWW8zZmRITVY1cjR5TmRDWHZNUmdHZWJiSUFGdU5ZNDloazRtVTJPRWlNNXlKX0RnVzlnRUhRcEp2Y29QTWxSaUxZNlJ4WFUtdllVZ3FfdGNVdFZ1RnAyNDZSNXk0OUxKTl9VTHhhbXo4MDhyQjVsRm55U1JaZ1E1Z2ItQ1ZnNEdmdXBkVWZBUWc4OThBeERnU0NwMlFYaVUtSFh5Y0RFd2Q1bDU0WTdoOTR1ZW5ycE9ybkdKSk1FWkY0TzhDcXpYWVFhb01ycVI?oc=5",
+      "source_name": "WJAR",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "016d88bc43cee742",
+      "published_at": "2026-05-23T00:41:00+00:00",
+      "title": "Trump changing plans again? US military readies for potential Iran strikes as Iran warns of 'crushing blows' - WION",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOMlNpMDFyV3Z0bFljOUd6M1ZwVFRMdE93bUJnUUEyNnFTYWJxYTFfRENzazMyc0hmZDg4NGgxTm1YSk5NZzJyUFB2aVRsWFNyVG41TEEtMWNKRlNNS3BuNTh3VEg3ODdPU29vVmVvNlgtX0FiZkhaaWpxTkwxMFM4bWxqOXVSQklXRWU3S0JxVUo0TFVtS0M0RzBzV1RhMUZOMEhyb3pYR0s2eHlDUHVjNWNkVklVLVVaQlR0Tmo4ZFNjekZYYWduWHkyaGlwVDhxdGtaSmozNi1PXzQ0NFlzYVV6d9IB6AFBVV95cUxQOWtycHFkRDlWOER0QnVWSWdRWnFWRzFtYkxtY19WWlhVcDdQNWFhQlRnRWxwVHAwM2dTb2tNclBNSF9ERkhrV1JIYS1fbmJjU2JoQVNJdU1VcnZCOV9NZDVaZHlWS2U0YWM5aVdaRGVqU01ZSWJORzRDdUFUZk5TQTBWWk9POWxLQnVIeXpXNWVQNU11ekFQLXJZODJaMGcyeC1qMF9Ra3UyUjNCRUxGOGRhWUY0dTdPX3Ezajh6Z3EyNGtUS1RfZ3J2aWVvY3NUWEs4RW1rOGFHSEZETzhTMG10RGlTZ0dM?oc=5",
+      "source_name": "WION",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "8c184f6325db6303",
+      "published_at": "2026-05-23T00:09:00+00:00",
+      "title": "US Touts \u2018Slight Progress\u2019 as Deal With Iran Remains in Limbo - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNElzaHRHY1d1WGt1bjhIbkxha1RSUGJORUpSbDA4WGxtR2ZfR0FIeDZlQlUwaTVGUHdmV2Z4MEJ4Q2podG5SMy1zVFNzZTB5WTR3T09lSDRIRV9rc3hvUEdLaHVmQ09SWlZLUEtGUFFLX0htWG92YVR2NGNzZzdKSk5QRUJocmpkM1lqZFdVOW5qMndpMmJHdkhnWVA1SjF5Z1EwbU52cHBCdGM2MmRz?oc=5",
+      "source_name": "Bloomberg.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
