@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-05-26T20:26:31.385321+00:00",
+  "generated_at": "2026-05-26T22:41:00.596420+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 95,
+  "event_count_window": 97,
   "totals": {
-    "usa": 55,
-    "iran": 12,
-    "lead": 43,
+    "usa": 58,
+    "iran": 17,
+    "lead": 41,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 53,
-    "iran": 7,
-    "delta": 46
+    "usa": 56,
+    "iran": 9,
+    "delta": 47
   },
   "confidence": {
-    "score": 69.3,
+    "score": 69.4,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 55,
-    "diplomatic": 10,
-    "other": 29,
+    "attack": 56,
+    "other": 30,
+    "diplomatic": 9,
+    "material_loss": 1,
     "intercept": 1
   },
   "history": [
@@ -78,7 +79,7 @@
     {
       "date": "2026-05-23",
       "usa": 0,
-      "iran": 0
+      "iran": 3
     },
     {
       "date": "2026-05-24",
@@ -87,16 +88,151 @@
     },
     {
       "date": "2026-05-25",
-      "usa": 3,
+      "usa": 6,
       "iran": 0
     },
     {
       "date": "2026-05-26",
       "usa": 50,
-      "iran": 7
+      "iran": 6
     }
   ],
   "latest_events": [
+    {
+      "id": "a13caf4b6cd4a538",
+      "published_at": "2026-05-26T22:20:00+00:00",
+      "title": "Live updates: Iran deal progress is murky after US says it carried out \u2018self-defense\u2019 strikes - AP News",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9yY3dZOEZRbksxbkp4SnRGSU1URnFkSEdMSWttU0V6aGs3U0ZlVnRGN0UzWWM0alZEbnJzd3E3aHU5amcwMDh4VFV6NHpKV3BHSTEwaEZjYTNiVm55Tmc1QXFHU2hzRktqS204M1RIVVM?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "29425b9778c664ff",
+      "published_at": "2026-05-26T22:18:17+00:00",
+      "title": "New strikes threaten ceasefires in Iran, Lebanon - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNzhUME1yRVBfTVdzVDBLbzhleHI2LXFBTktCZ21DMG1BYkpyZUJkZVAtTjFoN0JyMGRlWURvZXB6eFFnMUZZTVBLQ3Z3WEJxUXVyOVdaT19oX2JxMEhTUjNDT01udlVZRC1NZDE5MWt1RjJpelY3dkRySTBvNDh6RFVBcXV0elVPcTVMMWhmSFE5dTN2NVhseDdoNG1KMFE?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e0a4be4c11f2b515",
+      "published_at": "2026-05-26T21:37:11+00:00",
+      "title": "Deal or no deal? Trump\u2019s social media posts add confusion to Iran conflict - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOcFYwczlwSFJSTzZ3MDlYR0U5bTdYWjBYb3NjbFVFVWJVMUVvVUI4M09FRmNNUkhoYVFkaXhSVHJxMVMxZU1LN3ZsUWhYbXVUUWxCakNCYUZEcVpKSDdUQ0I1NHdRczdPNmNNWmxBLXQxeVNRMWVvQXBrQkI1cnl3Ykh5bVlqbHRzLUpZUlFDRVZld0Ewa19wenQ1ZEFsOHN2aVVUZ1ZrU19Dc0dXRlBzTTJDUGV1NmZscHdiYXZodw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2fcaa4f067c16931",
+      "published_at": "2026-05-26T21:36:00+00:00",
+      "title": "Live Updates: Iran accuses U.S. of \"grave violation\" of ceasefire as Trump seeks \"good deal or no deal\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWV90b0dVbHBrdzl0ZmxyUzl5d1dEZk5VbEtNVjBoRUtHVVkxRzNoWmxERVhhUVhTR19fbkZoWjRzdFhqeHlqY1pkZUR2WmgyQ2JOeHpyX3U2MDNLOUtsVko3VmVWSEtWaXlQTHVSRFV3TFJXVHZTQ2NIei1tUlBaOWFTRXBONUhIZmxGSllR0gGTAUFVX3lxTFBkZDdUNkFPQmptUk5mTDJ3VkNqMElGOUFORkJRWEFhMThnQzU5U09LQXhHZEJkLTZtNGR0TE9KNFVoR0lSekV4SXBfZWNBa1F5MC1EUFJkNjEwekY1RUdNLTNKVEtISGtBX2tVMm5MT2RnZjN1SnF1T2kxb05uMlJwVUdKOEJSUWtva0ZudmV1Q1p0QQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "d92b9aafd0874741",
+      "published_at": "2026-05-26T21:34:00+00:00",
+      "title": "Iran live updates: Iran's internet blackout partially lifted - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM0FUa3R4NHlMSmV5bk1sQmRSR0Qwam4tRjdDUU5GTGpmXzdWbzZWTEJTREpxZlRBYmc0RW4zMWhITUFxdHo1aGZ3X0Fib1VMdGdQSGVrVVlTWWpEOXFJS2RnWHhTU0ZUNGhXZ2xNS1BLc3dma05qN1cxRjJ5NDkwM2Y4WFJTRTA4NWxwT2NSZG1xLVBYYkg1ZkpkSHZWZ1BISFEzTDRqUG1tMmFycEHSAbMBQVVfeXFMTUtPTEFJQmVlMVBTSmc1NmVPdjNCNEx0eC1tNE14VEh1VUI3YjQyTFIwTXd6YUR4MGFVclRLdVNINkpvLTFxWlZmUk5Yb3pFNUh6OVh0WHJqZW9BSllod3AyTVpzQWdrUDV3UkNMMi1rMDYwZ3NWdzlTMHNGNzN6Y0VuWlVhZ2Q5RzVMOWlMVmgtaGhSZFpRbDYtN3VXYkk4c3N6dFViVC1zbm9XOXprLUo0Yms?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b66fbc0c8c068c47",
+      "published_at": "2026-05-26T21:30:00+00:00",
+      "title": "Live updates: Iran war news; Iran\u2019s IRGC threatens to retaliate after US strikes on launch sites and boats - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "e940b1b2443fa372",
+      "published_at": "2026-05-26T21:02:58+00:00",
+      "title": "Global Oil Prices Rise as Fresh U.S. Strikes on Iran Cast Shadow Over Trump's Promised Peace Deal - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPOEpmalVrTmZmYXlHSGlNTUwwRGtaaWFPWEdoNE5md1JFZmJqd1B6ZXR0bkwwcFBKdnl6MkdlaWp0R3E4NFNHQ3hsOVNiNVRWMlo1WTlDcDNoaFF6MGt3aHRFTURQNXlRbmM2aDA5UElBRWNpaG1rams1aU1NYXNWbkt3S05wb3kwc2NLQnMwbWtPYW1xT0hQQjBhMU1MSm02OHpmTkFYdTM?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "440c3a12326176c3",
+      "published_at": "2026-05-26T20:48:25+00:00",
+      "title": "Amid concerns US-Iran deal could falter, Mideast powers push it forward - The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMkt4R2swakJPRmVRRUFISFdpc0NqZ04zbFRrMU1pMFZGX0p6TEZJSjJyRDlmaFlqM1JESXFBdXF6REdrSF9ZNm5mbVVnU0d0Z0toSHZudTlzYmNFXzVMUG82d3luUzhlanNKdDBRaEpWYnJnc1BkUkdaRnFMQzlhZ3lJVzlVZmZLQzBJaDZfN1VzcU1VRjhQMmQ1dzLSAbYBQVVfeXFMTXJVZEpSLVV4YkVRYm1Od1ZHNXNkaGNwUGNMeGpqYkxtck1oZFpaZkhNeUdjMXJ1STRfa3BqdThrMDE1V29ieFJXdXBZRkJSMFJXYW51c2NMZW9mS1dzM2kxelgwNi1zT25QRjdjTXR4OEhSWmozbEF2SkF6TWRjcDhyZFZkbzVuLTQxTGRqeWN6SW1PTThTM2FjbHNCTk1TcTdmMUVGbkpXbXVrTGpWS1dJOHlHc2c?oc=5",
+      "source_name": "The Christian Science Monitor",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9a35e453e22c3345",
+      "published_at": "2026-05-26T20:19:11+00:00",
+      "title": "Iran War Live Updates: Trump Offers Conflicting Signals on Peace Talks as Iran Threatens Retaliation for U.S. Strikes - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYzdyRkVnYnVJbDBrS0Fpb2VULTI2XzNIQlN2ZVZSMlg0b01VLTJXY1VDeDJ6NTlTQ1BScXdKTGEzaTdUWWR0UFdyalJneDlyUGZEckFpSFMzcjJvVFNfVUhJblIxWFM0MktoeXBLcG94UFk?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
     {
       "id": "1fe85b7cf65bf555",
       "published_at": "2026-05-26T20:04:00+00:00",
@@ -158,11 +294,26 @@
       "confidence": 0.8
     },
     {
-      "id": "9a35e453e22c3345",
-      "published_at": "2026-05-26T19:34:09+00:00",
-      "title": "Iran War Live Updates: Trump Offers Conflicting Signals on Peace Talks as Iran Threatens Retaliation for U.S. Strikes - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqYzdyRkVnYnVJbDBrS0Fpb2VULTI2XzNIQlN2ZVZSMlg0b01VLTJXY1VDeDJ6NTlTQ1BScXdKTGEzaTdUWWR0UFdyalJneDlyUGZEckFpSFMzcjJvVFNfVUhJblIxWFM0MktoeXBLcG94UFk?oc=5",
-      "source_name": "The New York Times",
+      "id": "10a7e9703c0659d1",
+      "published_at": "2026-05-26T19:43:00+00:00",
+      "title": "U.S. military launches new strikes in Iran - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb0wyQVNKWGxqWW8zczA0ZllhNmh4YWFxWFF5Q0oyWW0tMkpSTjQwZnJOSUllek80eHFxS3liTWotMjUzZVpWV2IzQUozcGhhTFM0ZmxzVkh2UU15WEhDdy1aelFZQk0zN2poakQ1Q1ZxYkhfUVZ5MVpEYlB3NzUzUDA5X2pFcHJoUC03Z256Mkx2NWpBVHYzU3NSOFJ1dlZZWVhuNUhpb3pIdw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "bb7708c9be557291",
+      "published_at": "2026-05-26T19:28:14+00:00",
+      "title": "US-Iran tit-for-tat strikes over Hormuz expose risks of prolonged standoff - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeHJHZjh1UElveTRoOFQtTFR3LVpaNkJrOFZjMUdOQUNCVlk1MW1ub09raWRNdGZaN3NCTktBWXphOE1uQjBta1JDU0ZpSHFxLVNNakFzcnU3QzBDcnFxQUpZeFZLNE5xdVBxc1lHR3FhMHJGam9TTjN0MnZUZTh4YV9sZ2xTVEhIWTNSMGFfU09vT3hRMmdicVc2N2pjWHBuRFlXNzFLcDZSVWJiUjNMUlBB?oc=5",
+      "source_name": "Al-Monitor",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -170,22 +321,52 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.85
+      "confidence": 0.65
     },
     {
-      "id": "2fcaa4f067c16931",
-      "published_at": "2026-05-26T19:34:00+00:00",
-      "title": "Live Updates: Iran accuses U.S. of \"grave violation\" of ceasefire as Trump seeks \"good deal or no deal\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWV90b0dVbHBrdzl0ZmxyUzl5d1dEZk5VbEtNVjBoRUtHVVkxRzNoWmxERVhhUVhTR19fbkZoWjRzdFhqeHlqY1pkZUR2WmgyQ2JOeHpyX3U2MDNLOUtsVko3VmVWSEtWaXlQTHVSRFV3TFJXVHZTQ2NIei1tUlBaOWFTRXBONUhIZmxGSllR0gGTAUFVX3lxTFBkZDdUNkFPQmptUk5mTDJ3VkNqMElGOUFORkJRWEFhMThnQzU5U09LQXhHZEJkLTZtNGR0TE9KNFVoR0lSekV4SXBfZWNBa1F5MC1EUFJkNjEwekY1RUdNLTNKVEtISGtBX2tVMm5MT2RnZjN1SnF1T2kxb05uMlJwVUdKOEJSUWtva0ZudmV1Q1p0QQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
+      "id": "7c1aaf3947f99009",
+      "published_at": "2026-05-26T19:23:00+00:00",
+      "title": "Oil Recovers Some Losses on U.S.-Iran Skirmishes - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUFVkNjQ0SFhidF90ZTJMM3ZyMEhESG5kSzVKR0ppOGJIR2RXWlc1SExNb3FkTkQ5aWk5LVBxS3Z6OTJRMU41ZTJ3dHFqU0FURVVJMHZYV0E0U1RZZEFuX3JmbzZ0MUlndm15c1NaeTNwc3NKRUNpSURTY0dxeDZlcVJQN2liTjJuN0YtTzNydXUxX3ZnNHRsZHNMdTRMZ2djWXFlSXhRT2cxYmR1cE1ncVBYQWlGWEEw?oc=5",
+      "source_name": "WSJ",
+      "event_type": "material_loss",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
-        "usa": 1,
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "921c69201d9c1ae5",
+      "published_at": "2026-05-26T19:22:00+00:00",
+      "title": "As Delegations Gather in Qatar For Talks, U.S. Strikes Iran\u2019s Gulf Coast - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RX3J1OVFNWlNsbXF2S1E2elJpdkxUQnhTbkdDTUdhcl96amVGYjIxNGR3RjRndXVjVUdWUVZYMFE4aUp2ZE9UVjNvMFR3b011S2YxV0drV2VPbG1wdldKMDlQaXVsNHd0eFZyVw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
         "iran": 0
       },
       "confidence": 0.85
+    },
+    {
+      "id": "21538fb3b3429944",
+      "published_at": "2026-05-26T19:20:59+00:00",
+      "title": "Trump schedules, then scraps rare Camp David trip as Iran tensions rise over US strikes - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdGRKRFcybkVHWTl4eDZfZF8zR0VsY2xIczJfbWlCX3dEbDFqN2M1OWZYNjVFaWE5ZE51VDVGZlI5cjAxV240MjhPVE5EMEQxR29xblNyQXB5REZWZi0wM3BORktsd0czcTdPVWduWjF3MGZDSUdOMWRFSEcyZVE4eDgtdUFRbmgtRkx4amlfb2NrNy1uVmw1MFFkQjc1eUZ4Q0tHbU9HVHNwZ1paZWZHMlFUaE0?oc=5",
+      "source_name": "New York Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "dd345597fa5894b6",
@@ -203,21 +384,6 @@
       "confidence": 0.9
     },
     {
-      "id": "f17d26732bc0cbf2",
-      "published_at": "2026-05-26T19:01:39+00:00",
-      "title": "Iran accuses US of breaking truce after new strikes - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNzhUME1yRVBfTVdzVDBLbzhleHI2LXFBTktCZ21DMG1BYkpyZUJkZVAtTjFoN0JyMGRlWURvZXB6eFFnMUZZTVBLQ3Z3WEJxUXVyOVdaT19oX2JxMEhTUjNDT01udlVZRC1NZDE5MWt1RjJpelY3dkRySTBvNDh6RFVBcXV0elVPcTVMMWhmSFE5dTN2NVhseDdoNG1KMFE?oc=5",
-      "source_name": "Yahoo",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "aff75b9692ee95c1",
       "published_at": "2026-05-26T19:00:00+00:00",
       "title": "Trump still thinks he\u2019s winning in Iran - vox.com",
@@ -231,171 +397,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "7b4fd430797f5451",
-      "published_at": "2026-05-26T18:58:30+00:00",
-      "title": "Iran threatens retaliation after U.S. strikes in southern Iran - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNT1U5QkRyUHlFdkozd1hpTHg0QWp1SnBIb1NvMTNZX04yd1hacHZ6N3BuYkJ6dXgzOTNzdmx3TzZMSEpNc0JnQ21mam9Jeld4R0tiTlJXcjZ6eFRJeE54eWlMOHFETjZLSnV2OFVCdGVLajJBNnU3cUlTVDJRTmh0VnRRZklMc0tUWGNFYmVCcEwyaFZCLW5MZ3UySjBXNkd4WlJhb2lxc1M5VWd1?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "eca906c58c4fc8c0",
-      "published_at": "2026-05-26T18:40:31+00:00",
-      "title": "U.S. Casualties in Iran War Rise as Military Strikes Begin Again - The Intercept",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5rdUJnTnNGTVVmaHZiRDBSNXhzSl81RHNKMmpPSFdEUlZobi13b1RrTmhWRV9KelNMaGh5allGU2dOSEdxYnk1WW5EVTU3d3N5Q2NqRnF2ZFJ5QV9HNkIzc2tPekI3bEpVWUdmams0TU9vRUtycExaWA?oc=5",
-      "source_name": "The Intercept",
-      "event_type": "intercept",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "741027498557761a",
-      "published_at": "2026-05-26T18:35:02+00:00",
-      "title": "Tehran says U.S. violated ceasefire agreement when it launched strikes in southern Iran - CBC",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9xVUs3Tm1oeDhDYzJEVTdxVEhvYTItTG13NlRHdlB2MmlpQUI0Z1ZLZFB3YURPaXRqamt5VEkzUERsQXBKaFFFekp0ZlR4MVZZd0N2aTQtd29hRS0xdnI0bUFsLTkteWpuSjdlYV9EUkpyUQ?oc=5",
-      "source_name": "CBC",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "b66fbc0c8c068c47",
-      "published_at": "2026-05-26T18:11:00+00:00",
-      "title": "Live updates: Iran war news; Iran\u2019s IRGC threatens to retaliate after US strikes on launch sites and boats - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1uWVBMM2w2ZVhhWGFBV0lNRDlUTFMtOWU2cHBhY0prUVpBSW1kYVU4TzdSbWFXS0JSTlNNUFRZYmdpdHQzVXB2X0VpTTFoVE1jc3VjVEpWNUstem0xdk13ZlIzYUgzbEFmejZpS0d1V1hZT0wzYjJvYQ?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "27acca8de8ae47df",
-      "published_at": "2026-05-26T18:00:00+00:00",
-      "title": "Iran condemns US strikes as ceasefire violation, vows response as Bitcoin drops below $77K - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA0enhkMGx5ZEo4MkRhTGpfbGhhMFdBZThteDdHbWcxck1CTFVobFdveFlMYV9SSVpYTWV2a1cxdkJoNzhaaEpMQ3gwTTM2WnhoX0hMZ1JGUldCMTlRQ1JnSVQtbVdHN3hIeEtNUWxpRmtsUXZuOFE?oc=5",
-      "source_name": "Crypto Briefing",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d92b9aafd0874741",
-      "published_at": "2026-05-26T17:37:00+00:00",
-      "title": "Iran live updates: Iran's internet blackout partially lifted - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOM0FUa3R4NHlMSmV5bk1sQmRSR0Qwam4tRjdDUU5GTGpmXzdWbzZWTEJTREpxZlRBYmc0RW4zMWhITUFxdHo1aGZ3X0Fib1VMdGdQSGVrVVlTWWpEOXFJS2RnWHhTU0ZUNGhXZ2xNS1BLc3dma05qN1cxRjJ5NDkwM2Y4WFJTRTA4NWxwT2NSZG1xLVBYYkg1ZkpkSHZWZ1BISFEzTDRqUG1tMmFycEHSAbMBQVVfeXFMTUtPTEFJQmVlMVBTSmc1NmVPdjNCNEx0eC1tNE14VEh1VUI3YjQyTFIwTXd6YUR4MGFVclRLdVNINkpvLTFxWlZmUk5Yb3pFNUh6OVh0WHJqZW9BSllod3AyTVpzQWdrUDV3UkNMMi1rMDYwZ3NWdzlTMHNGNzN6Y0VuWlVhZ2Q5RzVMOWlMVmgtaGhSZFpRbDYtN3VXYkk4c3N6dFViVC1zbm9XOXprLUo0Yms?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6b7417ff68f9fdfe",
-      "published_at": "2026-05-26T17:06:00+00:00",
-      "title": "Iran remains in peace talks despite first US strikes since ceasefire - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNTh2eFpOSl9rcGVMXzRiZkZ5cE9qTzFYdmlWXzZ4ek9WUVNFREhyTmpHV3ZiY0Nldldwc3p0Y0I2clVjcVhORWhiYXpYX3NTM1FObkx0Um0zSl9ZQ1FLTktobmZfZW95T2ZoTFlUMG1OaUE0U3pnTkJFd3BDLXJESno1bnh1UUh4Z0ZmeUxKVGtndUx3VlZ6dVZSekc4SlBqcV9rNw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2224d2e409a57440",
-      "published_at": "2026-05-26T16:54:56+00:00",
-      "title": "Equities climb on optimism over US-Iran deal to reopen Strait of Hormuz - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5JcTk5ZnlkLS1PWkkwRzNVMl9za25hQnpoaHJXdVhQck56OHhzQkhQZDFEbWF1UzV6ak9QU1lUNWozdC1QblJNOThBUnBLSEE1YjNpb3NrSWVKaXNWUEs2MUFKUUY1OEJzZ0dzdGFuWQ?oc=5",
-      "source_name": "Crypto Briefing",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "03dd662699990768",
-      "published_at": "2026-05-26T16:50:17+00:00",
-      "title": "When Iran thumbs its nose at the ceasefire, the Trump administration shrugs - CNN",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQR0hNeUlkZDFxWXdGcnR2ZXplczNWOWFNLTRkZzdOckZsV0toUGhQcVF2Nm14MkxRdVNza0tib0Q4bGJwWVM0bEUwVDZMUDNuZ2hUVklIVU5TRVJFWTVKOEx2eXVNRnBOZndtelZRa2RwZVpvYTRzRU1XWmZDMVlTZExsZw?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f6d5a3889877cd77",
-      "published_at": "2026-05-26T16:37:00+00:00",
-      "title": "US strikes Iran missile sites and mine laying vessels as Trump\u2019s promised peace deal remains elusive - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVjRnb3ZJNXpjTmlwS0pCZVhBSlRIM2dKdzh0Tm5rekFrUDdxeS1vYlFyTjJURVlhd1JMNjNVWUpPT1pRUTMtRkhCbDRVUHRJQ19oSWRkOXJjUlVwT1h5Nzl0cE1LaE04OVB0NU5IQjlscXJ0YVdaX2ZwSjA2dVZRdFVFRzNmelVueVJJUWpWLXpBSzJCY3VZN0JXLVI2SXMtN1lidWhyQzdacVl6?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "83ad6d47eadbe8f4",
-      "published_at": "2026-05-26T16:30:05+00:00",
-      "title": "US-Iran talks are heating up again. But the danger isn\u2019t over for gas prices - CNN",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SaEtZOGlzd2hzT044aXg3QXZWOGF6VElWX29lb29IQ1V0S20zTXdRWjM0UTZmemc3VlZ5ckdPeVA0VVBjNmpRcFVNX2Mxek9obWFlYzBQV0xTenZTMDNQNUpwNy1GZ2hjanowcUNKX3Q?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
     }
   ]
 }
