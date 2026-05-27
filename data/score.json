@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-05-27T20:30:03.530379+00:00",
+  "generated_at": "2026-05-27T22:52:02.547073+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 103,
+  "event_count_window": 100,
   "totals": {
     "usa": 54,
     "iran": 21,
@@ -10,18 +10,18 @@
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 45,
+    "usa": 48,
     "iran": 14,
-    "delta": 31
+    "delta": 34
   },
   "confidence": {
-    "score": 67.9,
+    "score": 67.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 40,
+    "other": 44,
+    "attack": 40,
     "diplomatic": 15,
-    "attack": 47,
     "intercept": 1
   },
   "history": [
@@ -67,7 +67,7 @@
     },
     {
       "date": "2026-05-22",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -87,7 +87,7 @@
     },
     {
       "date": "2026-05-26",
-      "usa": 28,
+      "usa": 34,
       "iran": 7
     },
     {
@@ -98,11 +98,11 @@
   ],
   "latest_events": [
     {
-      "id": "5f7301d64258ccba",
-      "published_at": "2026-05-27T20:03:59+00:00",
-      "title": "Iran war latest: US calls Iranian reports on peace proposal a \u2018complete fabrication\u2019 - The National",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOc19SNkpoN1JiTUlwVGFRWGszck5tTFRhMEExcWVjSnoxZjVHdW4yY2htMHV6LTRGUmhhcGE1TlhsaGNOSk9fd2o2TVdRd1JseDRZeXliejl0WGVZZmR0cDJzcmtUUjNTLVZWSV9JR3Jhd3FsSnBRa084Zy1pOEdMTGxsQXhldmotSXVRVkRFTmduZw?oc=5",
-      "source_name": "The National",
+      "id": "f2f1c21289a68f21",
+      "published_at": "2026-05-27T22:35:38+00:00",
+      "title": "Saying \u2018we won\u2019 the Iran war is easy. Now\u2019s the hard part. - The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOLUcwYkQ5TExQcmVSLVNGaFhGYm1MbEJkUW5uWEFGWFBZN2xMQUZ4YTRZSTZyY0JHMVZab2RtVjBLM3V2cXp5ZEI2WVVuckdzUExWUmpCZDFUbmRmd25PZzlWNG0zRlhtZ1FGQkpyeUJCTXdrQjY2RjNsMG10TnJwZEZ4NGVIdTBkb2ZnQjg2N3JsbFhJell6WUQybjNtcTBjb1EwYlZDcmRLSzc3MF9rWnhCQ1pkQ1JZUTFOa9IBygFBVV95cUxQUUtyT2FhSnpLQnJoSFcyZjJZWld4N0pPVU5ZSGdEYy1wWVVKZjI2blVtNjZ5S21PNDZ3aDNKc2VxOE96WklIQnl0NW93OHQ5WHNlVVpPaUs2dXdRd2Z2WFcwZTRRRkFwV0dVdUFEZXlyNDNnSnRjb18xQUlINnNPZ3lRbVFCLVRtNEQtb0JqSGJlR2F2ZkYxV3RaZFNJbG85d2FkOUN1Rm5laVBGeHpfbXVVMnVaMUZBMTNRZEhjSkVUOVpzdkt5SkVn?oc=5",
+      "source_name": "The Christian Science Monitor",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -111,6 +111,186 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "86b8eda4ddab1f91",
+      "published_at": "2026-05-27T22:28:39+00:00",
+      "title": "As Delegations Gather in Qatar For Talks, U.S. Strikes Iran\u2019s Gulf Coast - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RX3J1OVFNWlNsbXF2S1E2elJpdkxUQnhTbkdDTUdhcl96amVGYjIxNGR3RjRndXVjVUdWUVZYMFE4aUp2ZE9UVjNvMFR3b011S2YxV0drV2VPbG1wdldKMDlQaXVsNHd0eFZyVw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "f353f3886bfa612f",
+      "published_at": "2026-05-27T22:24:44+00:00",
+      "title": "Iran War Live Updates: As Talks Drag On, Trump Says \u2018I Don\u2019t Care\u2019 About Midterms Pressure - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDWnFDdm1FZ1FDUUlaUkJCRWxGaW5FREpOam02NGszLWR6VnNuRFV2RXlrN0ZyN3dFd1VQS1pZMTFhOWtXNW80cWRjRnpNQmZ3T2tTak45Szc0YjR6TjdTejRnMXExbVNqTURWTjhmOU0xU1k?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ebfe923e2e9d9558",
+      "published_at": "2026-05-27T22:24:16+00:00",
+      "title": "Trump says Iran and Oman will not control Strait of Hormuz, deal remains elusive - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWJLNTAwYTVGSkZnNzU5aUtkM0RhMUpvdXBkN1FzSW52RVhEZG9TZzdMTEJlNnc4QWUzdkhrRkh6R25nRnE3dnpUd3FxYzd3RmluZ1NuZTF1WHlYZEJKV0xnQ3FHVVlZY3RyMWVKc1NVMFVYZ2NlUXJibVZGbjRrVDk2QVVjSU5GUFJNRXd0WnNlMkZmcFpiajk1SWNTblU5bUpfSmRqQTR0UUtUam90WHJaZDhYS0JCa0h5ZUdWenFSckVa?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ee85ab915cb2ccec",
+      "published_at": "2026-05-27T21:46:00+00:00",
+      "title": "Live updates: Trump says he won\u2019t rush Iran deal because \u2018I don\u2019t care about the midterms\u2019 - CNN",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TbG1TWkZSM3lmMFJmNzBPWnVWaVM4TS1LR1dUanZqZllqNkhfMmtFZWRDQ0kycjItR0plTU9uNG1lRm1ObG82WHBVMi1kUUQwbWpKRWFxM3Vuakc1T3NXel80RHFsY2JLSnlWckpJU3o?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c5b472bbb5a5942b",
+      "published_at": "2026-05-27T21:38:38+00:00",
+      "title": "Trump has failed to achieve his Iran war goals, and experts say Iran is winning - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zQ0xCeGZaWTlPbXF2Z2VORkMyamN4MllGUVZLY0pNUVpwNzJfdWp0T2JIZTZGaTNxV2czVjY5SnBUdlU4b2pCSWxTVWxpOWRWV2xNVUM1aGJMWUlJdV82Q1pxVkUwNGVNcUt1VGJheXdrZkxCSW16bVYzOHRpYms?oc=5",
+      "source_name": "MS NOW",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "da1027753e9f257c",
+      "published_at": "2026-05-27T21:33:45+00:00",
+      "title": "US, Iran issue conflicting reports on deal as Trump says no sanction relief - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFNTQXNINjRqc1FHeG93UEZZbXlpcDNYSnlpekRXc2FvbEVFVWRwTE5randSbVRqOXpSYVMyT2VqQ2ltc3lTR25GYWFYODN6QVJObi03T19RMUI4MjJkcG5iam5Oc2NKWUZ4SWw2enVyWUdSLWVjcEMwdkZQN05IMkxBS1hIdzZ3UWY5aWN3Nk1idTFRS3ZYU1U1OUQtcXBrQi0ydmJsYkhvb1lTOFl5M1ljVy1PQdIBuwFBVV95cUxPNVVsUlFXbE5tSENqWHFIOS1HbDZ4aDhWd0JIbk4yWGx4LU1Ga1FlMkdUOHM5S1Y1Ull4alI5SkNhWUdwWGxqcUJ1RDIxY1d2RlNMS1puRjFQaU5pR3YzeW5aYWF4LW5JdXA1cnRBTkZ0dGg3ajVfYWR2VlJJeGdWUkRqeGU4cjVmLVlRU2w2Qmh4VTg4dnlHQmVfd3dPNThFeU5SMi1DN29iVXFBSW5wNnp6d0pya3BmaWVz?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f4e1c7b9677c2158",
+      "published_at": "2026-05-27T21:17:54+00:00",
+      "title": "Markets rally amid hopes of US-Iran deal - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbEw5TDktbkxlaUhZYjhySWtoT1JlX0RPZktDcjFtOURoem5mLTlGcXdpQXFObXp6R0lRZlkyT25RN1VYanJ6TXYtTWF4N0JVUE9VMHpYMHpKQnNNX2xwclFZSkVOZkcxVnBLdXBsYTRxeG9aQkl4MnFldW11eTlPOEpYQ0JkTmlD0gGOAUFVX3lxTFAxV1M1eTIyd1ZkYnRUTkJ4WW9HZ3QyUF9KU3JTOFU5OVJOM1lTaUgwdU1PZHY3ajl4ZFlMaXQwUXpFS2pmbnpKcHJzN0UtWUQ3eW1UclVFUWp6Z3hoMk5Gc1hkSXVkTEpFeGRxcWxFVXc4THNsQ28wNndCbjFYTjh6dGplOEs3TDhvZ1RHeVE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1cbe763d29025082",
+      "published_at": "2026-05-27T21:02:50+00:00",
+      "title": "White House disputes Iranian report on draft agreement to end war - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPc1h6QW84QUd5cTN0MW9EUGZwM0VnSmllek1veVdPVXVfc096VFkzbjdNeVFiYlNubEpMOWkwcHlZaFY1eXk5d3E5dDgzRnhaeTMzeDNkejQyUkszbXZuUlNSTHZPb3N4U0dWVGRpczBvUEpNMEJrMjJvM3IyNzhsdG15QjgxVmstcndsbDhkWmpGV2k3bjJiMThxMk0ySDdnTDNvd3Q5SXRDVDNUZzFjd05PNVpseU5pN1REUTVEUy1uX1hJVXFfNGFOZTFyT2IwSFBacA?oc=5",
+      "source_name": "Scripps News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c8a0daf19745371d",
+      "published_at": "2026-05-27T20:56:32+00:00",
+      "title": "U.S. will need years to replenish stockpiles of advanced weapons used in Iran war, new analysis finds - PBS",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQNGIyZm5TRGxCbUlnaVZkRVlYM0pJZWJFSmJJbnV0R21WZzZzWFpvT01PTkZ5U2FpaUFFc0ROaXBBZ25PQU02MXcwN1dkb0Q4UTNRbFcwTFpJRjlDemIwakxJblpGSEtjbC1sRHRaemI0OFB6ekdVWm9sTGo5eVhiS19UZks5NGdzVzJtbHNyNTlPTlhhZk1fbll6S1JybHFMenhqNFZ1eE5FbG9Ha1J4aVhYUmQ4NXZ2dklNQ0RURFBWbm1ja3VZdk5pUnk2UWPSAdQBQVVfeXFMTXBKdG9DVnZNamQxd04zSHUxUUhUb0RWYTFaSl9BdUdobHUtVHY5aHlvOW1NTDhFd2tvY1ZPaTd1T1lLdjVIZkp5ODZtWmZzRDZuQUN5bVBLanpGWkZlX2pGZXFoYUU1Mk1zbGk1R0RjZzN5SjllNl8waHg1MEJoVkQxS1R0X25fRXVGOFpUS3VBTE1DYUJ4TzhGNlF2Smp6bzA5bDRhVGVpcHpxd1plemkyOGV1VmktVjJKOS1uTGNjVFEzcnYyU1hveDBuU1J6NGJfblM?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c5a1f42d41d26d9a",
+      "published_at": "2026-05-27T20:35:17+00:00",
+      "title": "Iran state TV says draft deal with US would reopen Hormuz shipping, end naval blockade - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVHB3ZTljSEdNUGlta055MjFRSDNTZGg2WkZmWjdFOUZfRC1Xd2Q2V2FSWmRxd0xPSTBGel91Um5yN3BHRVhhTURxcUFZTHBJckZDU2hvenpkbWg3aGY3cjB1VERORDR6Z00zTEdEbzB4SlBhUG11UkpkcDRTT2lpZmZxNVoxaXNDbHJWUHdkT0Q3d2VqZHFraUY5alIwcGY2WWEtVV9lblgtMy1GOWRIVlU4eVpzU2s2dzVPZFltZC00UXM?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ebf674b8b002523b",
+      "published_at": "2026-05-27T20:16:00+00:00",
+      "title": "Trump\u2019s Iran War Is Turning Into an Even Bigger Mess - Slate Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNkw5cmVBV2F4d3hGcmFlT1hyd0oyVi1jeUE5Nl9xVDkzd0VqWUVHMTFBVFVhVWZxZEdlRUNtQU9rTERGY29KZElJeGpJUzZwTVBpTGtPdjBkZEVDUnRPeFQ5aU4wMjU1d3h1ZHpmNW0yUUpQM0dGLWhoak83VUlweUpCcVVfajRY?oc=5",
+      "source_name": "Slate Magazine",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "00b682838f8b2d38",
+      "published_at": "2026-05-27T20:05:40+00:00",
+      "title": "Lebanon ceasefire falters as Trump pushes for Iran deal - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQkJ1UkFLWFh5dTV3V0tsUWRtQkVNbEtXVXNqdHV2NW56bDB1RFRGZDZpLTJiOFJzVkt6WXh1SG0tc2FJYm1mNXpkMHV5QUJEakJaUS1EUDhaWE9hWjVTbC1iYTBHUXdHUWVQcTVWeFdsVUtLQmYyR2tHRVpPRkl0dUJuTFFpTHJsbld2cDhhcHh0clhWdTl4c1VXak1HZw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
     },
     {
       "id": "a7df3edfc3e53ca4",
@@ -128,26 +308,11 @@
       "confidence": 0.65
     },
     {
-      "id": "f290dacf17bec243",
-      "published_at": "2026-05-27T19:56:36+00:00",
-      "title": "Iran War Live Updates: Trump Says That Midterm Pressure Will Not Sway Him in U.S.-Iran Talks - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDWnFDdm1FZ1FDUUlaUkJCRWxGaW5FREpOam02NGszLWR6VnNuRFV2RXlrN0ZyN3dFd1VQS1pZMTFhOWtXNW80cWRjRnpNQmZ3T2tTak45Szc0YjR6TjdTejRnMXExbVNqTURWTjhmOU0xU1k?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "04be7fe49ed5e5e3",
-      "published_at": "2026-05-27T19:28:45+00:00",
-      "title": "US Iran war news LIVE: US 'not satisfied' with Iran deal yet, says Trump | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOdzBrRENES3B5M0tNQS1NTXZ2bnBoa3U3UldxU3VXeXp2SjNmNXh2Vk1Pd3U0ekZjM0ltclY3UVc4djMtcFUwa0txQVpTWGpZQmZLVmFVUFJfMkV2Q2RLaF9WVVpHWW5UOVFsUUpEQWpEaFk3U1Q5V0ljM3p1MjZENWo3RmF2TDlMcjhZYjNRY0xGUHl2WDJBWnd0SmdGQURPeVlraHNCLXdkbHNrbDRxSHJkZzdHdVhjZHBvcWRZMThoZS1qOHYydjdDSldKZUhzc2stZkFfMVVYWXRZRlZWa2FqMmJFRU1xOW1OM1pRNWxDYXR5bWZvYVM4S3VJQ3FSY2NXTko5bGw2VktfNFpIZ9IBlgJBVV95cUxQbkdaR3I0OUlLVXMycDF1dGxab0RsT3c2TWJTTkx2ZktvNmdpUnlPU1huX3FrWjZibUZQRzF5M0QwaDJGeXF2dVJrUzBiN1l4WnF5Sm1IdzJLZ05sUERTVnhUaWsteVFPOWxFdXl4WjlvX0xtMUpjYXBuanQ4UGZ2dkRGSWJNeThWSHBLZHhIcEE2ZW1KV19CeE5HQ0dYNFpOSGUzZHF4blRlcHAxNmJiSlBfWmc1aWNrWnZTZkljTVdwTmFBcW4zLVVUUGs5eUMtUXpsdU9lczJLZzlXRDl4Zk50MW1YRGN0ZUpVaFBjblJmRGtDbXZHbUNYU1lNWHhXSFJvUmhUclhBNmtaVXZ0Qi1DWTFRZw?oc=5",
-      "source_name": "Hindustan Times",
+      "id": "196d2bc3c211e682",
+      "published_at": "2026-05-27T19:58:07+00:00",
+      "title": "Iran war latest: Trump says US not satisfied with peace deal - The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM2ZvR1g4RDgzdGc3c0tUMTU0Y0RSaG9PaXZDT0ZDd0p2VUVVNlpTeFRodlZjN0Z3Yy1JSXI1WnlMbFc0ZnFSLTVjUTNKWVZPRUZMaFhBa25adTlyU0k3VHFXMzVWckxNRjdBblZKVUllZWhacXpCUWo4cTRPMTdVR1QyT2J3dDN6Qm9rWW5DUTNlamE5Mkc2bVlmM25LbGYwdmVmZldvaGpQRHJ1?oc=5",
+      "source_name": "The Telegraph",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -158,11 +323,26 @@
       "confidence": 0.55
     },
     {
-      "id": "2318b68cfce6e6ff",
-      "published_at": "2026-05-27T19:07:07+00:00",
-      "title": "US and Iran remain divided on Hormuz deal as White House rejects Tehran TV report - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOYWJLNTAwYTVGSkZnNzU5aUtkM0RhMUpvdXBkN1FzSW52RVhEZG9TZzdMTEJlNnc4QWUzdkhrRkh6R25nRnE3dnpUd3FxYzd3RmluZ1NuZTF1WHlYZEJKV0xnQ3FHVVlZY3RyMWVKc1NVMFVYZ2NlUXJibVZGbjRrVDk2QVVjSU5GUFJNRXd0WnNlMkZmcFpiajk1SWNTblU5bUpfSmRqQTR0UUtUam90WHJaZDhYS0JCa0h5ZUdWenFSckVa?oc=5",
-      "source_name": "Reuters",
+      "id": "e5c3061228c6a794",
+      "published_at": "2026-05-27T19:54:40+00:00",
+      "title": "Trump says Iran \u2018negotiating on fumes\u2019 as Israel ramps up conflict in Lebanon - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOT0NjM3pJaE5EZUNGSVNjX3B4YzF5MlUyWl83WTF0VzRjNXlEWU1ubEJVZi1GODB4V0ZwR2l6dUtlWVJsc0FlaUNfbmIzXzdVQ0p1WlhxRkhjdlBESmJtZEVmdC05VTZZVVRzREw0MUVPQWM3eDBnRVlYQTg1QXRUWkIyb2M0RnlfZkFDWDFMRzA2SFZXNEFFc2RvZG1uSGhiUGE3dTRZVjYzTEZybU1nOTNIS2dEb2xXWTJwb093M0syck1XVjAtMWx2Q2QzQkE5TmRTWFdR?oc=5",
+      "source_name": "SMH.com.au",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d6d7b7d1b094c375",
+      "published_at": "2026-05-27T19:44:52+00:00",
+      "title": "US munitions depleted by Iran war will take years to restore, analysis finds - Military Times",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQeXFOYmU3ajNvSFh2NjhMUTVvUXFEb0VmY3M3TnRteVJBTDBJSXFyMmFVaGhMTnh6NmhzUjNZbGVpbl9vdWVuOWpKUFp5U2ppZ2NCLUV1VzI2b0wtUTRoa2FMYWF4eFNxSzhEbTMyNXpnZmRQNkFlT3VTWGdxTlBpdHozY1FkOVVuZlJjVUExenlxbmFwYUlIcU5WUk8tcGttQlZseHVJZGJSaFVoY1A1SXZjVXJGZmsyY2wxc0lTWTlDV0ZaZ09qdWgzd2JDWmxNcy1MMlFXYw?oc=5",
+      "source_name": "Military Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -203,36 +383,6 @@
       "confidence": 0.55
     },
     {
-      "id": "c5a1f42d41d26d9a",
-      "published_at": "2026-05-27T18:52:07+00:00",
-      "title": "Iran state TV says draft deal with US would reopen Hormuz shipping, end naval blockade - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVHB3ZTljSEdNUGlta055MjFRSDNTZGg2WkZmWjdFOUZfRC1Xd2Q2V2FSWmRxd0xPSTBGel91Um5yN3BHRVhhTURxcUFZTHBJckZDU2hvenpkbWg3aGY3cjB1VERORDR6Z00zTEdEbzB4SlBhUG11UkpkcDRTT2lpZmZxNVoxaXNDbHJWUHdkT0Q3d2VqZHFraUY5alIwcGY2WWEtVV9lblgtMy1GOWRIVlU4eVpzU2s2dzVPZFltZC00UXM?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "07c5da6baaabf0f7",
-      "published_at": "2026-05-27T18:39:28+00:00",
-      "title": "Iran Wants Billions in Frozen Funds Back to Make a Deal With Trump - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbVZhZlg2a3MwbXh2djlrbnM0bXJmb2VvNG5FTW9ackpXU0FDVDl3aGRWeEJjbkFEWkFMb1hzNVkzTk5OMFRQX2FRS1JqM3NxX3R5LTVXZW02aHZCc253UXdBaWVmMGdGTDVzWkd1TVlHcDI2R2FlYnlicjMwaWlsU0k3ci1GeGltYnptNTlR?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "dd8bde0fc4edd08d",
       "published_at": "2026-05-27T18:31:10+00:00",
       "title": "White House disputes Iranian state TV reports of terms of deal to end war - CBC",
@@ -246,156 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "da1027753e9f257c",
-      "published_at": "2026-05-27T18:22:30+00:00",
-      "title": "US, Iran issue conflicting reports on deal as Trump says no sanction relief - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNdFNTQXNINjRqc1FHeG93UEZZbXlpcDNYSnlpekRXc2FvbEVFVWRwTE5randSbVRqOXpSYVMyT2VqQ2ltc3lTR25GYWFYODN6QVJObi03T19RMUI4MjJkcG5iam5Oc2NKWUZ4SWw2enVyWUdSLWVjcEMwdkZQN05IMkxBS1hIdzZ3UWY5aWN3Nk1idTFRS3ZYU1U1OUQtcXBrQi0ydmJsYkhvb1lTOFl5M1ljVy1PQdIBuwFBVV95cUxPNVVsUlFXbE5tSENqWHFIOS1HbDZ4aDhWd0JIbk4yWGx4LU1Ga1FlMkdUOHM5S1Y1Ull4alI5SkNhWUdwWGxqcUJ1RDIxY1d2RlNMS1puRjFQaU5pR3YzeW5aYWF4LW5JdXA1cnRBTkZ0dGg3ajVfYWR2VlJJeGdWUkRqeGU4cjVmLVlRU2w2Qmh4VTg4dnlHQmVfd3dPNThFeU5SMi1DN29iVXFBSW5wNnp6d0pya3BmaWVz?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6d37c46461a52a6f",
-      "published_at": "2026-05-27T18:18:29+00:00",
-      "title": "President Trump claimed over the weekend that he was on the brink of a peace deal with Iran. Then the U.S. carried out new strikes against Iran on Monday. What happened? Listen to \"The Daily.\" - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxONjY2MEVzNjZyLWk3YVl4RjlUMUx4Y2VkODhybDZmLXp2LXAyQjNJbzhJbjRoSWpqZDA1SjJYZG9YTl9SeU1mZjFTRUlEVEp1U3RienY2djB5Zmk5aFd4eFVyV2hqOWhFY2djWERvcDE0alVWZVRQSkdsTU1NU0VRLTJtZ3ZvUlF5UmNvellETXN4NUpCOFpwV3JFUEdNNUlaalhFakRlRUtSV3kyU1h6SVM0NDBsbHBCTy1hUzNRN3JPamVnVkJ3Z3hwd0hnaGU0Yi1F?oc=5",
-      "source_name": "facebook.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "ee85ab915cb2ccec",
-      "published_at": "2026-05-27T18:11:00+00:00",
-      "title": "Live updates: Trump says he won\u2019t rush Iran deal because \u2018I don\u2019t care about the midterms\u2019 - CNN",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TbG1TWkZSM3lmMFJmNzBPWnVWaVM4TS1LR1dUanZqZllqNkhfMmtFZWRDQ0kycjItR0plTU9uNG1lRm1ObG82WHBVMi1kUUQwbWpKRWFxM3Vuakc1T3NXel80RHFsY2JLSnlWckpJU3o?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "aafa69d41aa5a730",
-      "published_at": "2026-05-27T18:08:24+00:00",
-      "title": "Lebanese Resigned to a Long War, Even if U.S. and Iran Make a Deal - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOOGFJYmEwaUhnOG1xbEktQlNLUm4tMUxiT1lfVm1WR2I5czNVWWlKM3dBR2RzM1l3M1JjT2txN2hzTWM3TEh5SEZSNlJSYVY1RkZZajVzOUhFNW93OE03SnpzY1Bqb0NwVlp0MDRGdWhnMUhBSTFuR2RWSlFDV0V6N2hfak9wdms?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "6c8d8315bf157bc7",
-      "published_at": "2026-05-27T18:00:24+00:00",
-      "title": "Trump says he\u2019s \u201cnot satisfied\u201d with Iran on talks, doesn\u2019t care about effect on midterms - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ3AtM1VwT2JlOXBVdjhKVjAyODRpaklnRHUxdGxSVnJ3Z2dXNmVZRXhvTmhZMzNjUWtub29HcW9RSGkyczJsWWg3WXFRRV9YUkhsRGpCNUlCM2d0ckV1U1gxWGNXekdFdkFJcHY2VE9Kc2FpT0xhRnk3R0g0Qy1BcllGalg4a28?oc=5",
-      "source_name": "MS NOW",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "172adb079ad125c2",
-      "published_at": "2026-05-27T17:54:27+00:00",
-      "title": "WATCH: In Cabinet meeting, Trump says Iran 'negotiating on fumes' and that midterms won't affect his war strategy - PBS",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT2tLLXZTZHg0SDBJeFNZdnJnQmw0NUZEZVZhVXZkOFRVSGVLT0U4VjRKNDROdmsyakJOUUtRc3R1VGxUMVdWa3lnS3VQdVh4SUpRdW5ad2xqY2FkSVRpajdoVjE5N1R2b2J4bWdhaU1MNVkwSGRCczlBaThsQllOTjk5cF9weUZPU1d1MW5YMDB1MjNxX3dHaGl2QzlNVE12T0cxcFFNSHhCTGFOQ215d3o2N1Y1RmfSAbwBQVVfeXFMUDhrUDdaUzJ6bGNWZGt0S3NxT1lCNkFwYl9URmR0WERQYzE0Z1BVaDdWMmx1VUdGaUxaTlhkb2xJWTNMYmtuYmNaVC1rNURKcjFPeWRhbDFkQWJ0QXZvdzJ3RWxKcEZxVVdhMjFjd0xHZWZSRFBFeXN1SlBpYmRldzhHV1Q3UTItVGdnRkJYQjZTaUZ0N2lKV1BMbWIyN21hc29zSE0yOWxQVU1sRlIzaHZZOFBlZWl2TUw0NTY?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "ab56dd1ed63ec23d",
-      "published_at": "2026-05-27T17:51:18+00:00",
-      "title": "Can Trump make anybody happy with an Iran deal? - The Week",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CTzVqSjNYeGVaNmlfU2VrRTUyOEw2eXBHMTlRbzJpb3IyVWRtR0NsaXB1cVpBNDdzMDA5VkNhd25aZjVwSUZvY1FmMXUtajlEUFNZYVhGVjNNN0dWdExIajlwZDBObUc2OFQzLVJXVQ?oc=5",
-      "source_name": "The Week",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "45633db994c6242a",
-      "published_at": "2026-05-27T17:37:33+00:00",
-      "title": "Donald Trump says US 'not satisfied' with Iran deal yet - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1VnU3Y1pjU3QzankyXzIwc1dhUVlwc3d0NkxSZ2poaEE0QVg3UHo1VnJiR3A3RDdvSW1PRUt3TTlvU244VlhkVGtvcmlFXzZSOUhjbTNuWk5xZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "79326202edccd091",
-      "published_at": "2026-05-27T17:11:00+00:00",
-      "title": "US will need years to replenish stockpiles of advanced weapons used in Iran war, new analysis finds - AP News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUEIyTDhfQlBZamtzdDJ3cGgzUjFGcmVyTHVLU1U3TE9TalpMMEozRE9yNl9FdlpxVlRVMXJac3lhWnVxbGRsUFJZU0FpR09zSGtQWXBkMzNwMko3R3dYTTZhVC1tdkg0VFRaOXdJaHF4d2ZkNEJtX3RUcGJGNTQwMWUzN1lQaHY2RHBxOUJ0X0VrVUI3Yi1vZ0xKT09Yd0V4TlQzYg?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "717698b61824d0a1",
-      "published_at": "2026-05-27T17:08:02+00:00",
-      "title": "Iran-Israel war LIVE: Trump says U.S. not satisfied yet on deal with Iran - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPWnlDVGZBdGg5Wmpxc2V4cDFiNjJXeTFTMWR5dnFIeXhLclVITG1JbG1uT0MwUlFfRVhjSEtBZ1ZjOU5saU1OUTVxaXBqaWRXWE9jNk9tODdJVy0tTXJKZXo5TFZBRUEtLUpzVjI4VGZJU0trcVJqNFUxVTNVNzZIMjBYSWFtX2pZdEcyX3pBWEJpaS1BWlYxSVJUcUJobHM1UjVTMFBwd0JnWFFkUWU2Skc2Y1FTSWY2aVplMnJtU0NyM3NTNjJlempISXhOdVNDcmZtSy04aG5rR0J2M3FfYnp4bFk?oc=5",
-      "source_name": "The Hindu",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
