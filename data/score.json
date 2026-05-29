@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-05-28T22:46:51.998514+00:00",
+  "generated_at": "2026-05-29T04:45:52.718223+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 92,
+  "event_count_window": 90,
   "totals": {
-    "usa": 31,
-    "iran": 30,
-    "lead": 1,
-    "lead_side": "USA"
+    "usa": 28,
+    "iran": 33,
+    "lead": -5,
+    "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 28,
-    "iran": 26,
-    "delta": 2
+    "usa": 27,
+    "iran": 29,
+    "delta": -2
   },
   "confidence": {
-    "score": 69.0,
+    "score": 69.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 36,
-    "attack": 37,
-    "diplomatic": 19
+    "other": 34,
+    "attack": 36,
+    "diplomatic": 19,
+    "intercept": 1
   },
   "history": [
-    {
-      "date": "2026-05-15",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-05-16",
       "usa": 0,
@@ -82,26 +78,46 @@
     {
       "date": "2026-05-26",
       "usa": 4,
-      "iran": 5
+      "iran": 4
     },
     {
       "date": "2026-05-27",
       "usa": 6,
-      "iran": 2
+      "iran": 5
     },
     {
       "date": "2026-05-28",
-      "usa": 15,
-      "iran": 19
+      "usa": 14,
+      "iran": 20
+    },
+    {
+      "date": "2026-05-29",
+      "usa": 0,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "9be5b78c14ae1831",
-      "published_at": "2026-05-28T22:36:31+00:00",
-      "title": "Iran War Live Updates: U.S. Officials Say They Are Closing In on Arrangement to Reopen Strait of Hormuz - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1fcnhwNnhKV0lpWUV1WGdIUkltT1RpQXBKTnk5T05IRmpBcXZoc1dxcjkxVWNmWnVHVGk2LWlVYWMzTmRUS0tydERZRlRtdjFWbGJTa1ktMXcwRTU1MDdRMXFDVzAzb0VHLVhfMXd4STVvRDMyeGRR?oc=5",
-      "source_name": "The New York Times",
+      "id": "448d862d332ddc7a",
+      "published_at": "2026-05-29T04:29:00+00:00",
+      "title": "May 28, 2026 \u2014 US and Iran reach tentative agreement though Trump hasn\u2019t signed off on it - CNN",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nU2JJbWg5ZjRFYUNaaVV2b19hT25aeWtFZER1Tkhyby1yNU16d3FwNVVZblBBemQ4eTVwMWNTYVY1NzNIRnpzU193WFdjUzhYakhsNmxSTkpkbnJCSGsxcU9YeENCQ1RWR2kwdFl0bGc?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "83e363c21ed5290c",
+      "published_at": "2026-05-29T04:14:21+00:00",
+      "title": "U.S., Iran nearing deal to end war and reopen Strait of Hormuz - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2k5UTR1MFZEMGJOajRUMVhteEVwQTdnOG81MFotMFBjdkh3Y0V6TUpuTjNwZzVVNEg3d20tcmlkT25ybEc3VXkwZ3VzanlsWktvT1JqM3pNdDBvRnM3MU5XeUhLUUlFVWFjWmlpbElGUk1vM3FfUEtucE5BbElEanR3TjJNS1M3aHZsNjFGSFVmWHhJbnk4UGp1WVZKZE5ZWG1kTmpYTUxUZjRBVGVMWVZkRjFfS2Yt?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -112,9 +128,69 @@
       "confidence": 0.75
     },
     {
-      "id": "4f6bc56fcaefa3f4",
-      "published_at": "2026-05-28T22:30:00+00:00",
-      "title": "Live Updates: Tentative 60-day agreement reached on Iran, pending Trump's approval - CBS News",
+      "id": "70b9abe155e277e6",
+      "published_at": "2026-05-29T03:34:21+00:00",
+      "title": "Iran war live: Tehran, Trump yet to comment on 60-day truce extension plan - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2tnMjh3LWhDb2RvT05wUUV6MGctd3hkekYzU1lGbU9VZzAyUU9IdFlldmx1eHdBcXdDM0ZwS0xacHZHZmdtMmZxYzNIV082YVBtN05iR1NsQy1paDBId0lpak9IN0wtY2tnZWtkaWlXc0w2TVJBRUtVTEpzMHEtaVRYRWZWLUJTR19YSm91TE9LVEVYTHlTN1ItWEROY1dzV1FCTGxEOHZKZ0R4U0xaaWlTSzhLbExRQzcybDUwa9IBxAFBVV95cUxQcThwU0NNYm45RWlOZlRvSXhBWXhHUzduWGF1TWZ1MHFVS21wRGd4RnliRFNSMVdNN2UyX0RGQmZuN1dCcFVEclVlVVBKYklZM09WVHhvcmJDM3QxZHhZR3hQeXMycXkwM3lHaEJXUlllMmNCb3RfRVNCVnl2UTA4X054ME1RZnJSLUh6M3BGYkNCdTc1VC01OXd6c0txMlFpWFZzdldYVFJoRE01THZaOGFNNjdVVmo2RGpCaGE0SDZIY3Rj?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cef394f680350fd7",
+      "published_at": "2026-05-29T03:30:00+00:00",
+      "title": "Live updates: Iran and U.S. trade strikes, accuse each other of violating truce - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOThzeThOUGptUjAyVnJwa2tQbEwwdUJ3LXEtdmxSUWhVcndqejRfWVUtb1ZadHBmaUZackdETGF5a3Q4ejNRRnNSakpLT3dpRkRkMFVfZlpzSG1xTndrUlBzYUZmZDVYQjJIdzR5MkFTUG5LQk5EbkxlakZZdk5GTlZ0N3l0UHowakZUSV9YN2wtOXVfNEVEVHJLdktMaUhYcmgyU2VYMlp0MDg?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "7db7f4e26339eeee",
+      "published_at": "2026-05-29T03:21:00+00:00",
+      "title": "US, Iran Agree to 60-Day Truce Renewal Pending Trump Signoff - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVFNnOFFZeGRWVk1LUjFud1Q0cGdzN0RjcUZSSEd5UzdXY3RlTTUyeTAyMUprX2I2MkpLX1U2eVpYR3ZTU3FOb1EzMERvMmttLThnM0RLanAyeGhUd25OM3JDUkkzazdzenJJaXZvQmRmMy0zX0l5QUlWMzk5RHBSRHpJR3pvckFTMnQzZndZQmNJNjd3VUZtSERXUmFMT0RBVldYRVZwX1RCMmt4VW4zQkY2MDk?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a23ec194764d1a90",
+      "published_at": "2026-05-29T02:36:29+00:00",
+      "title": "Iran war: Vance says deal close but 'not there yet' - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONFNZR0pqS05mQm0zQVRUY3ZnT0FWTEREaXNBWXozZlllSnpXajl6R1dzd0Y1WjZfaVJxdlFrR1VURjNzdmZXNzZfMTBIOU4xbWxiU0ZUVGhTNlQ3NlZxRXdDRmFwQWtIWWJVU25SZm90OFBaSE1EWWhCS2R3VndyU0N3T3lCbjFGel9yaQ?oc=5",
+      "source_name": "dw.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fdf1d22bfeb3c939",
+      "published_at": "2026-05-29T01:47:00+00:00",
+      "title": "Live Updates: Vance says it's \"still TBD\" whether Trump will sign a U.S.-Iran deal, as both sides try to extend truce - CBS News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGY4LXZobVBHRnJ4QmRkaHM1R1pFdjQ4TWtWSThxOVg2cUVtcHduYjhmY0stcHJzaC1leWQ4Umg3NjBuNms5RS1XV0FwUWF3X3VHMFBDQjJSYmc2UDhEcXpKN3EzYjdMTnlncXdOQjFySk9rT00waVNKWU9YRFA3OVpTWmRmbkJoQ042OEFZZG5rOU0t?oc=5",
       "source_name": "CBS News",
       "event_type": "other",
@@ -124,7 +200,112 @@
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.75
+    },
+    {
+      "id": "93fa4868a0dd74ff",
+      "published_at": "2026-05-29T01:33:00+00:00",
+      "title": "Dire strait? Trump\u2019s bid to end Iran war before midterms risks Republican anger - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVjJ0MXNRUktXa3BndnJsMi1FRWFrWXdhN2dQbUxvdE9RMTZlbDBIYVRaWUpfYk9UdC1wUHJ1SmVqWmY0OE5QQUZUVTNURlVROUpZXzlJZVZUaXp2N0VRLUVNdUVHdWROTGhuQlo2WDlXTEtyRGR5RGVINU9FaG9wTWw0OGRJRzBMczV5LW93?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bb2006800c6dd0ed",
+      "published_at": "2026-05-29T00:07:10+00:00",
+      "title": "U.S. and Iran Move Toward Agreement to Reopen the Strait of Hormuz - nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQTlIMFBGUElTMDBza3dNX28yb1VyVVpSWi1kWEd0dUlSS3BXXzNTQ0NlSlhaT3ZCcGZDbmdzY2N3TERJS1c3cHJ2MU5ZQmd3QVhNQmpQRW5PT2w2R3VQS0NsRmpFZ1JNaUZlNzN0Y1FDNHRrTjJTQ1IzYXRWeUt3SQ?oc=5",
+      "source_name": "nytimes.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f4bd266d6075dd30",
+      "published_at": "2026-05-28T23:53:19+00:00",
+      "title": "Bombs, Bargains and Bluster: Trump\u2019s Iran Approach Sows Confusion - nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSWxjRXhkVWt3ZVBsMm50bDZ1a0kxSGlsTmNEZUFVeEUzNG9OT0dHUi1rcFFaUkhtbWM3cmtfUU1DUktWdXlaU2IwMnM1bnBQdmxvOHdvR2FsMWlHTENEQzRlYmh0cV9iLTR5MzEwZ2xTc1dOa19DaXVnTzR6SVhIag?oc=5",
+      "source_name": "nytimes.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "04e9181af898b78b",
+      "published_at": "2026-05-28T23:32:19+00:00",
+      "title": "US and Iran 'very close' to deal but 'not there yet', Vance says - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tYWgtbkNJcHEyekJrQzVaZDZDMWdzWmNsak1YcmN4enFEMy0yUVBibzhSbHdkTlRKX1NSbXNQTTJqaGlqRUd4aWJ1Y3VKNktsU3hmc0kydEdfUQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
       "confidence": 0.6
+    },
+    {
+      "id": "58356907838d4385",
+      "published_at": "2026-05-28T23:28:57+00:00",
+      "title": "Iran, US reportedly agree to deal, pending Trump approval - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeVVKWk5WMXYydkktTTFPamhxWjFtc0dTMWFRVUlhR0R3YkpUY01GS3h1U1RGNHdCUDVESml1akZkOGZ4d0xuWUtrWUpFSFFOdV9PcWM3R1Q1YXVmM1NvRHZJS1hVZjJ3NlJWamcyVkRUOERzV1h0MzVPeEJHMHZad3MybHY?oc=5",
+      "source_name": "dw.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "e3a6951e51b5ebfe",
+      "published_at": "2026-05-28T23:15:57+00:00",
+      "title": "Vance says U.S. and Iran are \"very close\" to a deal - Axios",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kbFpsVm5oUkxGLUJnQmJzZ2pzSjZTQTVWUWh5dUhVNjZQNXljTUNKZ0lCZlRQSHdjUUpQZjdNRG9MTnVjVHpQLWIxcE9GQW56UEdVNlBGZmF0WGNtazVCd19EcjVYdVRBaUc3OE8tUml4WV83aEE?oc=5",
+      "source_name": "Axios",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "91db8e93fbf84f85",
+      "published_at": "2026-05-28T22:58:00+00:00",
+      "title": "US and Iranian negotiators reach tentative deal to extend ceasefire and start new nuclear talks - AP News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZkpNTFpBTDhFTFczZnNxSVpaSDRnYnZiX2pKSmFIWTFJZVh0ZG5Ka2o1SmxjVHl0MzVoTEVIZUMySGRmYWdPbGcyNVEwRWJCdGdHQTNIbXNadWJCMV9IeVB3TVh2S21NUEZoXzhTNWxjdTdmSFdTSUFwQ2w4UWQ4aVBqMHdwQ24yQ0xIS05rNUc?oc=5",
+      "source_name": "AP News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
     },
     {
       "id": "16b3fdf6d8e17b31",
@@ -142,11 +323,11 @@
       "confidence": 0.55
     },
     {
-      "id": "4485e4b904a28e0e",
-      "published_at": "2026-05-28T22:22:00+00:00",
-      "title": "Live updates: US and Iran reach tentative agreement, but deal still needs Trump\u2019s sign-off - CNN",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nU2JJbWg5ZjRFYUNaaVV2b19hT25aeWtFZER1Tkhyby1yNU16d3FwNVVZblBBemQ4eTVwMWNTYVY1NzNIRnpzU193WFdjUzhYakhsNmxSTkpkbnJCSGsxcU9YeENCQ1RWR2kwdFl0bGc?oc=5",
-      "source_name": "CNN",
+      "id": "61dbdb00d6cc24ff",
+      "published_at": "2026-05-28T22:10:50+00:00",
+      "title": "A Draft U.S.-Iran Plan Is Said to Be on the Table. Here\u2019s What to Know. - nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZHBjZDU3RnVZcjMwQ2F1RWdmM2VER0RfY2U0Uzhya1JRNVpaU3ltWnJTNW4yTFVWdGhUek5JTUs4TnZEVkRfajJXZlJYUS1iMWhSNDFDSW9fdVVLbzltaEU2eVc4TThpdU1YbGItdXJyeTlqY0ZORjdkYWg2cGEzSjNWU2E0UQ?oc=5",
+      "source_name": "nytimes.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -154,52 +335,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "e406f8be976a96a0",
-      "published_at": "2026-05-28T22:14:21+00:00",
-      "title": "U.S., Iran nearing deal to end war and reopen Strait of Hormuz - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV2k5UTR1MFZEMGJOajRUMVhteEVwQTdnOG81MFotMFBjdkh3Y0V6TUpuTjNwZzVVNEg3d20tcmlkT25ybEc3VXkwZ3VzanlsWktvT1JqM3pNdDBvRnM3MU5XeUhLUUlFVWFjWmlpbElGUk1vM3FfUEtucE5BbElEanR3TjJNS1M3aHZsNjFGSFVmWHhJbnk4UGp1WVZKZE5ZWG1kTmpYTUxUZjRBVGVMWVZkRjFfS2Yt?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "38f9f8fd82a84854",
-      "published_at": "2026-05-28T22:12:04+00:00",
-      "title": "Live updates: Iran and U.S. trade strikes, accuse each other of violating truce - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOThzeThOUGptUjAyVnJwa2tQbEwwdUJ3LXEtdmxSUWhVcndqejRfWVUtb1ZadHBmaUZackdETGF5a3Q4ejNRRnNSakpLT3dpRkRkMFVfZlpzSG1xTndrUlBzYUZmZDVYQjJIdzR5MkFTUG5LQk5EbkxlakZZdk5GTlZ0N3l0UHowakZUSV9YN2wtOXVfNEVEVHJLdktMaUhYcmgyU2VYMlp0MDg?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "6f8b287f58a7306a",
-      "published_at": "2026-05-28T22:06:00+00:00",
-      "title": "Donald Trump shares draft Iran peace agreement with Israel and other allies - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYzh5Yk1BT2VYanN4LU1UbjhTWjA5MHhMZ291azRNSDdIWDhfZFV1WlhTY195TWtLM2dYdnlIWWZMT1pRVGlRTjBEbG9ERTFKR1l4R2ROVG9nMjU2YkhIWG9oZTk1Q0U1SXdlYlNEbkJTR05mMkJ6T3p0ZEMtaGZnSTliT3F5SWF2Z0RKRkduXzRXV0JtSzFUcC16bjR2UjdEbkhObk5rVjU2RXdzT3RXbE1abHYzVVNTOHAtN1FB?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
       "id": "21a462737fec8f96",
@@ -232,11 +368,26 @@
       "confidence": 0.65
     },
     {
-      "id": "91db8e93fbf84f85",
-      "published_at": "2026-05-28T21:37:00+00:00",
-      "title": "US and Iranian negotiators reach tentative deal to extend ceasefire and start new nuclear talks - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQZkpNTFpBTDhFTFczZnNxSVpaSDRnYnZiX2pKSmFIWTFJZVh0ZG5Ka2o1SmxjVHl0MzVoTEVIZUMySGRmYWdPbGcyNVEwRWJCdGdHQTNIbXNadWJCMV9IeVB3TVh2S21NUEZoXzhTNWxjdTdmSFdTSUFwQ2w4UWQ4aVBqMHdwQ24yQ0xIS05rNUc?oc=5",
-      "source_name": "AP News",
+      "id": "3936b18b17d4c1ba",
+      "published_at": "2026-05-28T21:39:14+00:00",
+      "title": "US says Iran launched \u2018egregious ceasefire violation,\u2019 testing fragile truce - Politico",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ0QydWpUNHhKYVZiZ05tVDV3RzE1bXZPMmxBUnZ4bDBCR3BsN3FIYVFyanF2SXlmbFFUY29JX0F2TU1VSk1HdnNtQ3ZLdDl1Q3RLOFc0QVF1Vk1oMzJsbWZPT2Q0Z1k3b0FZQlZ5ZXZNb19yNjd1R1JyTWpvX3NQQ2RVRQ?oc=5",
+      "source_name": "Politico",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "27c27b3897c23eca",
+      "published_at": "2026-05-28T21:31:18+00:00",
+      "title": "US, Iran reach deal to extend ceasefire; Trump\u2019s signoff needed - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQUJVeW95emprRldRZm1uamcwelAzT3BEcURYRWxDNmlBYzczOGdVdFBsa2hLQ3U4UFNUTnNUQXY3NmRlenJUWG00QjhxeUdhNXFxSS1CQUYxQmtmUmpkdFREeThBSGRWU0RPcVhKa2VPcHByMGItR3dxVnFGSk13d2dQa0dkdUVRWlFF0gGQAUFVX3lxTE8xLVY5RTc0UjRsTmJfY3RJNFpVSGZLaVlGaWJpeDVCSzVjWG1tQ2xkT0Z5R1lPSHgta2ZHUlNXblJqTndIR1FBOVA3bHRWRl9jUkJrcG1IVFlQdEpuWWFjNmRQOUEwLXJxb0o0enFwUG1BMHRBSTR5WnlRZ1ZoZ3h6aXJudGhXMThzdmdONWlMMQ?oc=5",
+      "source_name": "NewsNation",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -245,156 +396,6 @@
         "iran": 1
       },
       "confidence": 0.7
-    },
-    {
-      "id": "724d56ad1b4f72d3",
-      "published_at": "2026-05-28T21:10:31+00:00",
-      "title": "After Iran\u2019s Blunt Threat, Trump Goes Off With Unexpected Twist In Response - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxObmNfdEdCUktoVGFWd1pQUEpPdFVMeFFRMjh2SHFybDA1S25fMXRSekV3X3dab2xoLWtUdmlIcV9CRlJmSW9EQnAza3FIWVhxOUJJVWZhbHBZN01GbHdMQ2xrOHNJaVlKd3BraVFJcXVfeE8zMXJBT21BbFRqeXJqWXdOR05UWGZxQmpVUlNLZHdMTjhSUXQ3LXM0ZUFpcG5ZZnFzRTFhMWNGR1hhdkRzcXM0UWVhY3U3QVhhRDRHZWpHZ2Q0bFdCY3FMZGx6c1pQQk9MRWtmR1hVd25OVGt5TW55QlIyUjE2RHfSAe8BQVVfeXFMTW5JQ3dwTlhVRHhVWjU1VUZicURsWDlFUEpmTDJjV1NhM1hGT3l1X0dWSmZHc21PY2tSQU45RjFQWUxjeFdTZVQzMl9rb3dvRkE4aVJOWkROWkhOZ3JvWkVNM3dKTlk4NWRIdVBNbTY0T2NNR1JVeGhtUkppeWdvRzVlWlpFLVZORmpOellJLTBkWVRjdFp5WWg5UjJKVTYxS0dSamQwUjR3SXVxZldyeUs5VHFVMlMtZXdDWVlHZmVSUVZvYW9iVFRWbFdydWxzOHJIUVktSkh5OHFNS1J4SFUyTTl1VHk3NC1DckdaVlU?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c9f229ca035d5899",
-      "published_at": "2026-05-28T20:33:10+00:00",
-      "title": "Oil Prices Ease on Possible Agreement for Strait\u2019s Reopening - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3dkRJeWVEaHVQdUZ3b0hMeHN3MkM1UTh3SVNKOVpQaFRPSDU3ZVMyQVhoZUppWjB3TEEzWG5jNUdqYjh4bk1GcVJtTHYtUlRrdUlycmpRc0NQTUY3U0FvVjFPQm4tdDZvNnd2NXZ5ZXU3V2pWdXc?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1c55a01e42394dc1",
-      "published_at": "2026-05-28T20:28:12+00:00",
-      "title": "US and Iran reach tentative deal to extend ceasefire, US officials say - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tYWgtbkNJcHEyekJrQzVaZDZDMWdzWmNsak1YcmN4enFEMy0yUVBibzhSbHdkTlRKX1NSbXNQTTJqaGlqRUd4aWJ1Y3VKNktsU3hmc0kydEdfUQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "c8b2b4736261c007",
-      "published_at": "2026-05-28T20:04:18+00:00",
-      "title": "Oman and the Iran War: Neutrality Under Strain - Arab Center Washington DC",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS05yN3htTVVuRW1CMEpzN1E5dmxMcnZ0MjVweFYtQklBcllWdFBBTXctS2RPcW5Ba3dubVQxOW5qQzFsQWh3SzcySjVQV1pHTV9ZMTI0NTg5NkhFaXF6Q0JHbzRHQ2VXSFNyOWh4Z28xU00zdy1QUWVobXA4WnB6X2dCMkZrMzQ?oc=5",
-      "source_name": "Arab Center Washington DC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "fdb9d5a48c4dd97d",
-      "published_at": "2026-05-28T19:39:00+00:00",
-      "title": "Dire strait? Trump\u2019s bid to end Iran war before midterms risks Republican anger - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVjJ0MXNRUktXa3BndnJsMi1FRWFrWXdhN2dQbUxvdE9RMTZlbDBIYVRaWUpfYk9UdC1wUHJ1SmVqWmY0OE5QQUZUVTNURlVROUpZXzlJZVZUaXp2N0VRLUVNdUVHdWROTGhuQlo2WDlXTEtyRGR5RGVINU9FaG9wTWw0OGRJRzBMczV5LW93?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4efb529b0d579c50",
-      "published_at": "2026-05-28T19:35:19+00:00",
-      "title": "Iran, US reach deal to extend ceasefire, pending Trump's approval - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMDAxUGdSUGJhV19NajdXRE5yZGtxMFRVYnpEb1I3ZEMwZlZsUnBvdlJyb3RlbG4tX0dLMXFEN25ZeER4N3pOblRJYjJGS3NyR1JEZFNlR3VsN1gxd3MxMnhTVHU5VVVadWxCV1VBcFNiRHAtczFfX3FIMW9GZEJRTHFWMzIya1ZQa0ZSMUVQQXhLWVJVSUMzTVNFOGVBNUxKMEhvQW92eWZwaW8zMFpPbDRTYjlxa3NTTVNTaQ?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8a0a20a725883205",
-      "published_at": "2026-05-28T19:26:32+00:00",
-      "title": "Energy briefs\u2013more military response against Iran - Oklahoma Energy Today",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeXgyYnJHMW1wX3FxelFmU1dSVE91NG12enpXcGNhc2dCSENsaE4xQnEzQ0RyNVY1S1otdXlMaUhGc2lsV1dnVTAwT2ZMZG42Sm1xcWQ3TFAyYXRXZTdJMm8ta1AxUzJSSnR0TFhGMXZQcGtzNW02OXc3dk5VMVNKb2dtWkJZbGotdmU0Vw?oc=5",
-      "source_name": "Oklahoma Energy Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8efef4e073fda2f2",
-      "published_at": "2026-05-28T19:17:03+00:00",
-      "title": "After stern words from Trump, U.S. and Iran trade strikes - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaGJEcFZnZDZvT19ReFQ0bU0tTTFseThKc0hKZTJlN0VRSHN1TDR3RlVXSkRQRzBTMlpRSE5zalFSSUxmVmFkTWhkMDRKdXdxTmFkai1iVHdYRzRZblBTcjVlcVpSeHduRURoeHlXemJ1cTFwakRmeW1iZkRtZ2o0MVZJMi1NR3hLM0ZFeFBJZXpldDVQVXhCOUpLSGgyRE1IQ0pPUnl5YmthUXVCTkU0aHU2V3FIV2EwT1Fz?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "7e8fb82f4134dcad",
-      "published_at": "2026-05-28T18:59:00+00:00",
-      "title": "U.S. and Iran Move Toward Arrangement to Reopen the Strait of Hormuz - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQTlIMFBGUElTMDBza3dNX28yb1VyVVpSWi1kWEd0dUlSS3BXXzNTQ0NlSlhaT3ZCcGZDbmdzY2N3TERJS1c3cHJ2MU5ZQmd3QVhNQmpQRW5PT2w2R3VQS0NsRmpFZ1JNaUZlNzN0Y1FDNHRrTjJTQ1IzYXRWeUt3SQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b6aa9072ea3e3d84",
-      "published_at": "2026-05-28T18:53:50+00:00",
-      "title": "US, Iran Agree to 60-Day Truce Renewal Pending Trump Signoff - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNVFNnOFFZeGRWVk1LUjFud1Q0cGdzN0RjcUZSSEd5UzdXY3RlTTUyeTAyMUprX2I2MkpLX1U2eVpYR3ZTU3FOb1EzMERvMmttLThnM0RLanAyeGhUd25OM3JDUkkzazdzenJJaXZvQmRmMy0zX0l5QUlWMzk5RHBSRHpJR3pvckFTMnQzZndZQmNJNjd3VUZtSERXUmFMT0RBVldYRVZwX1RCMmt4VW4zQkY2MDk?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
