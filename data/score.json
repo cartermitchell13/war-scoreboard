@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-05-31T19:42:24.666017+00:00",
+  "generated_at": "2026-05-31T22:16:04.280422+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 106,
+  "event_count_window": 110,
   "totals": {
-    "usa": 33,
-    "iran": 18,
-    "lead": 15,
+    "usa": 45,
+    "iran": 16,
+    "lead": 29,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 25,
-    "iran": 8,
-    "delta": 17
+    "usa": 30,
+    "iran": 10,
+    "delta": 20
   },
   "confidence": {
-    "score": 66.0,
+    "score": 66.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 58,
-    "attack": 30,
-    "diplomatic": 18
+    "other": 53,
+    "diplomatic": 22,
+    "attack": 35
   },
   "history": [
     {
@@ -66,18 +66,18 @@
     },
     {
       "date": "2026-05-26",
-      "usa": 3,
-      "iran": 0
+      "usa": 9,
+      "iran": 3
     },
     {
       "date": "2026-05-27",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-05-28",
       "usa": 8,
-      "iran": 5
+      "iran": 4
     },
     {
       "date": "2026-05-29",
@@ -86,22 +86,112 @@
     },
     {
       "date": "2026-05-30",
-      "usa": 3,
+      "usa": 4,
       "iran": 1
     },
     {
       "date": "2026-05-31",
-      "usa": 4,
+      "usa": 5,
       "iran": 1
     }
   ],
   "latest_events": [
     {
       "id": "1f3f0a59af9032e5",
-      "published_at": "2026-05-31T19:31:45+00:00",
+      "published_at": "2026-05-31T21:17:23+00:00",
       "title": "Iran war latest: US fires at ship in Hormuz as Israel captures key Lebanon castle - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQYnlqclhEZkNheHdNWS12SlNEbDc3VV9qSWpySEdlT2lXbUNYZUhJZEo0OFFYLXpfSzY3VjNzOG1ZcjhFeVotTmtPclZXSmNZYUo3ejBuM2JQN3YxRU5xdHJiekF4ZmdWeENtNEtKR3dLU0dRaUd2bURyMjdoblgyT1VSRm5SMnhsUHIzV2dhcDh3ZkNraUc5NjdQNEhGM2t1R1FzQ2ZqTDlYdDdQYndtQlZZZW1sTmlR?oc=5",
       "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "35e2c676bb6d90d3",
+      "published_at": "2026-05-31T21:03:00+00:00",
+      "title": "Iran Says U.S. Talks Can Not Be Judged Until 'Clear Result' Reached - Haaretz",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQM3pNZFRhTzFlLXpKdTlsMXpLQm1rNWsxcHp0STRCZld5Y2FNdG5qeG50TmdNZi1SbF9HajM3YldDaXFscU9hUndDUFhNR3N5T2Ewb1kyRmVZUzJsV2NrTUhGZVktVjI3cFA3bFpEQ09PNzE4MnhiTEl4VUVjOHl2RGwxNDJiUXAxbUpUNzBsWFY2WjU5MjV5cExkd0RLQVBBeXJyQ2R4V2JGanFaWC0zVDduUjVKVDBhX05DcmNOQlRqVjMtT09vNWFINVA2dEZQODBxZzkzWkpyQV85bFF4aFZhbnd3V0JnU0hSX0J5ODBmVGVJV1ZodmFHUEZsV2xmMnc?oc=5",
+      "source_name": "Haaretz",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "29680e013c48942d",
+      "published_at": "2026-05-31T20:48:58+00:00",
+      "title": "U.S. Military Is Quietly Guiding Ships Through the Strait of Hormuz - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNa3htZ2xJU3pTbko1VDRIWEtRU3BSWDY3aV8yak0yeWNZLW0ydUlEdFplVjBhQ2o5RTJpR19YR3JnbVl2Q1pyTjlEa0g3U2lHREY3LXZEZ25pb01HUHVCeWdET2ZfQ2pTOHN1T1F0TmdFWFM3ODFtZU43UGNBOWFyaXlwbHYzVTVTR3ViOA?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "34e1fe155e77e20f",
+      "published_at": "2026-05-31T20:12:11+00:00",
+      "title": "US-Iran War Deal Remains Elusive As Trump Takes His Time: 'We're Going To Make A Great Deal' - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWW5UcHAta09SSnZaZjZHVy1HNWl6Q2g5cW9ydmFNNUJlVGdGdmVEWWU1OGRKUWJBaFlMTVp3VXVWVTNyMVZmclVjVkJqZVBhd254ZFlQdldGUHhiZVRFYXc3dTBYMUx4OUZ5NWxCaFkwbGF1cWVkME5LS1hpYUQxOTVyeFp5cFd4TlE?oc=5",
+      "source_name": "Benzinga",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a6e5e9f7ae4038cb",
+      "published_at": "2026-05-31T20:07:16+00:00",
+      "title": "Trump Hits the Stalemate Phase of His International Interventions, and It Stings - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSzFPR0tUWHZZUjBxSldNSnROUDZ1bC1XekRMeU0tMnI5RTFvQ0ZxcDZXcE51bXVVYXdaYmFYZXp0NFdickx4OU9sVl9XX2ZQZ1plbThXU3BNWExSQ0VGa2NycHowNk4zT2dxY2xQYVNQTXlwU1hhelZjU3BWSUlMVURNQXphbDJBamFITXdR?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d618223171cd8e29",
+      "published_at": "2026-05-31T20:02:00+00:00",
+      "title": "Could Trump\u2019s Iran \u2018excursion\u2019 be a bigger global turning point than Vietnam? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMWM0UURmN2Z1bm01MDF6M1pIb3FjUnMyZWFyMkVsMG5BV2gxYi1QTDhjZWFKbS1oVm9MWi1FcG1JaWVfdEVGUm1tS3o4UllzOUVqVnVsSzY2UllKYmJTbkpGaXB2TEhGOTBoMC1ySEhUS3RnNEJkQm03SVlkY0ZOeGdMcEMxSkdfVWJ6aDNDa1MwLUdKNWVFbFdqenZIc1hZZkE?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "32ea88edfc47a74e",
+      "published_at": "2026-05-31T19:50:00+00:00",
+      "title": "Senate Democrat: Iran is \u2018stronger\u2019 than before war - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NUkRwU1NkS05WVDhJU2c3THF5NmR5Zm9NT1RqdGRPUm9pQ2ZDSWRrcnhGWHVCNmlGVlhuazVWYjBxUFN1cW1ySzFKc3Y3V3poSTc1ZzVpUlloSkU2clZpZnlzZzRnME93WWNybkVJaVowcnVmTHfSAXtBVV95cUxOdlJXWHhZNHFtcG5qRXl6WDF0WU9SWHJuUWZxRVdNNUpIdFA3YnJmaE9EMjNmX2xNTE9rTDdxeVM4cWRVR3FYanNsN2hiTzhXQWR0bDdzX2kyQUU1RGlGaUhOaHlNODdmYi0waDViUWtXMjdZM2VHWndJdWc?oc=5",
+      "source_name": "The Hill",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -142,11 +232,11 @@
       "confidence": 0.55
     },
     {
-      "id": "d618223171cd8e29",
-      "published_at": "2026-05-31T17:19:00+00:00",
-      "title": "Could Trump\u2019s Iran \u2018excursion\u2019 be a bigger global turning point than Vietnam? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMWM0UURmN2Z1bm01MDF6M1pIb3FjUnMyZWFyMkVsMG5BV2gxYi1QTDhjZWFKbS1oVm9MWi1FcG1JaWVfdEVGUm1tS3o4UllzOUVqVnVsSzY2UllKYmJTbkpGaXB2TEhGOTBoMC1ySEhUS3RnNEJkQm03SVlkY0ZOeGdMcEMxSkdfVWJ6aDNDa1MwLUdKNWVFbFdqenZIc1hZZkE?oc=5",
-      "source_name": "The Guardian",
+      "id": "012f5335d520d778",
+      "published_at": "2026-05-31T17:23:00+00:00",
+      "title": "Live Updates: Trump recently edited possible U.S.-Iran agreement, including on enriched uranium and Strait of Hormuz, source says - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZXhWUGE0ZjBSTk1fTlJYRm84Tk9saERWQVhYcUdIOFFhZjFXTGgyREVGRUNUbmhNdDRCZkFicDU3WkhDQVpxTzBMUG9uWlZoQWRTeVhlLWY0dEJKamxrVTNxM1BpWXpRTl9wcElGSnQxaExvRVhfZ3pJV3BzdzBha01INnJaVHJYYmlVY1ZfX3pYN01BeEd2LTJUSW1lbjdm?oc=5",
+      "source_name": "CBS News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -154,7 +244,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
       "id": "3fca5209b1baf44d",
@@ -172,21 +262,6 @@
       "confidence": 0.65
     },
     {
-      "id": "f4664619111ce9cb",
-      "published_at": "2026-05-31T16:58:10+00:00",
-      "title": "Trump vows to end Iran 'slowly but surely' if deal isn't reached - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBvcEpOb3RWUnBmck1rX0JsQ0hxZDUwYS1uRlRENWVyZXFkUXJ4ZjJ1Ry1iN3VnSHdvRXNMY0UwTERrN2Zrb2ZYaE5LSHd4LUM1T0l3dXpYdDAwaHpNdU5TWFItVHhPWTBieVFwcHFCQ0pFQ3R1MW9uOFFRdFBaX2vSAYQBQVVfeXFMT3o0aHVWaHFlaHB0eXVIUllfMW9lUHlIdldiZFdKYWN6bGdGbWdnRzBIQ2VlV3RhNnBZU3R0ZFdTUnV0OEJJNVZnX1NoS3NCN0l6aFpRMVY3QkNUSHJtTUtWejVGSVU5eVFWSFJ6WGVRc2tjRk9DUS1GTG53dS1Ma2tWbmM3?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "e2608934916c289f",
       "published_at": "2026-05-31T16:22:08+00:00",
       "title": "U.S. and Iran still without deal to end war after Trump says he's not in a 'hurry' - CNBC",
@@ -200,21 +275,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "1ce84d500587f6d9",
-      "published_at": "2026-05-31T16:02:00+00:00",
-      "title": "Live Updates: Trump says he's in \"no hurry\" to make a deal on Iran - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZXhWUGE0ZjBSTk1fTlJYRm84Tk9saERWQVhYcUdIOFFhZjFXTGgyREVGRUNUbmhNdDRCZkFicDU3WkhDQVpxTzBMUG9uWlZoQWRTeVhlLWY0dEJKamxrVTNxM1BpWXpRTl9wcElGSnQxaExvRVhfZ3pJV3BzdzBha01INnJaVHJYYmlVY1ZfX3pYN01BeEd2LTJUSW1lbjdm?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "608f2bd16f615c58",
@@ -247,11 +307,11 @@
       "confidence": 0.55
     },
     {
-      "id": "6729eb470bd07212",
-      "published_at": "2026-05-31T14:21:00+00:00",
-      "title": "Trump Sends Tougher Peace Proposals Back to Iran, Officials Say - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOT085TU5YaXJCSWgyRXNtdUxpb0U1SFZDSEJXYnJCaE93VFJmVnlCUzVMZkJ5dVlGMFgyVEQtai1aWlRJbko2S1owZFZKRXNWRGcxbWdaRzM2QkdRT3gyVUxFWUdFamk1alRWTHVIZzZ4WVEtckExaHFGcjM1MjhNRGs2Ylk?oc=5",
-      "source_name": "The New York Times",
+      "id": "2832e35bec0bb92e",
+      "published_at": "2026-05-31T14:41:11+00:00",
+      "title": "Iran says does not trust US as Trump toughens terms - ABS-CBN",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSG84ekNrY2FWU0lRN1N1X3ozSDMtay00MmlxMWVBQS1fSzlVWENLZnp0S1g4eENncDlJRi1CR2pXY2prVXo5YjdOblV5N2hLUG0ybmtyWl9IT1o3eWlWUlJnMnRFV2NyN3FHOW9hMWxteklSeW9fRng5aDFfb1Z6LUFiM1hKUHZ0SGU2a2pDc0k1amdjVXlSd2tkbzBCTWIxcHFz?oc=5",
+      "source_name": "ABS-CBN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -259,7 +319,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
       "id": "c273f8d9798fefb2",
@@ -335,66 +395,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "d4319572b064ffd4",
-      "published_at": "2026-05-31T07:08:07+00:00",
-      "title": "Iran's IRGC Navy Warns of Military Response to US Interference in Strait of Hormuz - Ratopati",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNWxhbm5Rdlh6V0RreTU2SjFYSC1jUm8zbmRTYVVaU1ZONnlkSm1CdTAwWGR1SWRwYzctc2VESUNpcU9fTGFzTHcxQXR2d0ZHbGR0alRnUi1OVWVaMWlvVlVKM3VMR0lFb3lMd25rUk0teGdNdGFTYTJWQW1yd2VyZWdwNndZWVpvLTMxRzVmUmVRNXcyS0xJaTVqLXRWbzQ?oc=5",
-      "source_name": "Ratopati",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4f4f66619d8cb9b6",
-      "published_at": "2026-05-31T07:04:00+00:00",
-      "title": "Israel Expands Lebanon Offensive, Seizes Strategic Site - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c5d30cd0785103d7",
-      "published_at": "2026-05-31T04:16:09+00:00",
-      "title": "U.S. military hits commercial ship trying to reach Iran as peace talks continue - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRUU3MHlOVjVsQWhJMENWVEsxWGhjVTd5Sm82Q3BNYjM4N0VjTjV2ektpLTlsTjZCMllrYmFmd3N0TDZRbnl3WFpkTXRWbEVJUFB0SkVsUzc0SU9BS1lacDNCWHR6bEhuQV8za0ZlN0w1QUMxX1Q3Z3hGUy05emdHRGg2VjljS0JTUkFoU19idzBWYlN1bUNhQ0ZpSG9RNDJDZzFRQXJKMFdNNWUtbGIyNG5DVnFoVXAxTi1ERXlHOWwyNnBCdWZrdjN2LTU?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "f536eac1c9a616af",
-      "published_at": "2026-05-31T01:56:15+00:00",
-      "title": "Hegseth says US 'more than capable' of resuming Iran strikes after Trump Situation Room meeting - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUGl3UExRc3Y3d08tckN0UjU2NFhnZ0xBUjV1YTFQUWdPUU41YnRQR0dDM2VDY1I1TEtnTW5VX28ybDZOeHFfQjdQZUhKUkNJV1h3dUk0S3MxQVZDdDQ5MjFsMk5yWUVvQTdTSXlTa2Z5Zm9RbHQ1U2VOSjBlU0ptSkZobVpsXzNKaHdzQUxBWGx6U1RldmxOamt2VmZtSng0Q2fSAacBQVVfeXFMTm9faWRZbkQyQ1FmYWxfNTdNeXo4UVhzRGZiaGg0RlZ0ZmtsWHU5bXQzZ09wOXlPc0RrMk84QXYzQ2tTTEMwYlp6S0M3NWZvWEhaamZzaU5BOG5HWjdWRURqS2RiTHJrTV9WUGlROHFDUTJQNW5kelZ1YlA3c2J6LVNqb2FjWFlpTHdIU19zNUFkSEprbkVnYU1GX20wUU9LNUxublBJRjA?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
