@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-02T16:56:23.883038+00:00",
+  "generated_at": "2026-06-02T21:24:32.866412+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 87,
+  "event_count_window": 91,
   "totals": {
-    "usa": 32,
-    "iran": 17,
-    "lead": 15,
+    "usa": 24,
+    "iran": 19,
+    "lead": 5,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 31,
-    "iran": 13,
-    "delta": 18
+    "usa": 22,
+    "iran": 15,
+    "delta": 7
   },
   "confidence": {
-    "score": 69.1,
+    "score": 68.2,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 34,
-    "diplomatic": 15,
-    "other": 35,
+    "attack": 31,
+    "diplomatic": 19,
+    "other": 38,
     "intercept": 3
   },
   "history": [
@@ -57,8 +57,8 @@
     },
     {
       "date": "2026-05-26",
-      "usa": 0,
-      "iran": 0
+      "usa": 1,
+      "iran": 3
     },
     {
       "date": "2026-05-27",
@@ -87,20 +87,20 @@
     },
     {
       "date": "2026-06-01",
-      "usa": 23,
-      "iran": 9
+      "usa": 16,
+      "iran": 5
     },
     {
       "date": "2026-06-02",
-      "usa": 8,
-      "iran": 4
+      "usa": 6,
+      "iran": 10
     }
   ],
   "latest_events": [
     {
-      "id": "155b77caa8d8e16a",
-      "published_at": "2026-06-02T16:46:36+00:00",
-      "title": "Iran War Live Updates: Israel Strikes Southern Lebanon After Pulling Back From Threat to Beirut - The New York Times",
+      "id": "e03cdfa10e31a532",
+      "published_at": "2026-06-02T21:07:42+00:00",
+      "title": "Iran War Live Updates: Lebanon Peace Talks Resume as Israel Keeps Up Strikes on Hezbollah - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeERDdWlJbmtObWhLd0JWVG1LNXlzanlYZEpralU4OE5WWm9ZU0pjVmxTVlhvQ1Q2dTBlV0E5UWlGZEt0a3JPMkNRN2ZuLVQ3dUIzQllZNTR3MlFJbWk3azBhMTZRZDVCS0NtYk1XNEgzLWVINTJnQVdxajg4Rm1jLQ?oc=5",
       "source_name": "The New York Times",
       "event_type": "attack",
@@ -110,11 +110,56 @@
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.7
+    },
+    {
+      "id": "5e336f1e33bb4872",
+      "published_at": "2026-06-02T21:07:11+00:00",
+      "title": "There are supposed to be ceasefires across the Middle East. The fighting is worsening - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNzg3SEc4M29FbXpFcG5YUXVKcXhOeFhRdlk1ODZaYXV5NUhFVktPaTlTVXFpdlZtTXItbmxvRy1DaFlzdmtTS240TVlpbnZUV2pmQmYyaXROc3E2cy1BRWZGaXM0NFJnbWpvN0RpRmpSdEw3MmUtc0lveV9yX09VWnVuRGhnMFViQVRMSmNpN0RxTVlndWwyb2VoUlNGRndnSkJwUU9XNWxydk5pQzRjLVJDWDl0dWU0bGdZ0gHAAUFVX3lxTE5mRWQwTkhMbTI5SnNhaHliU3lCQXpRLWc5UUVhLWhBNGpMRl9sQlBWREhpdFhXYjZLRnYyWEdMWWVSaDVDVGphSHhoaXBrOFhmOW1nakloN19DUWdrbkozbVNlZzhyWnMxdTJQcUpqR09RR3VFQ0hnTVBVbVMwOEpIcXM3S2NtQUJEMXprcC1sbzFqUjlvY1lxN0tmZ1JGc0QxYlFvVjFfY0RoNVFaQWVaVVp2dmRLcmR2UUNObHdWXw?oc=5",
+      "source_name": "PBS",
+      "event_type": "diplomatic",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
       "confidence": 0.65
     },
     {
+      "id": "72c442ade5afe386",
+      "published_at": "2026-06-02T20:41:01+00:00",
+      "title": "Rubio grilled on Iran, says US won't swap sanctions relief for strait - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnhHX3pib0VOUmUzRkNhT1VGQVRRVnBVeVc1eVgta1dMNDVGRVVTZ0Jtb21oYUIyYjg1b3BoY28zMHd1dVQza1hPa3pWMFBzRktIOVVmdG5zVGFHaHdRZjJrdWVNUVJ1cEZPa0d6S2FiVDFOb1haX1I0ZlRLcjNJQjFRNk9MUWlodkxpOVhwM3RtdzE0Q1B4QklrNklVTDQ?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c39e9b5d52956a6a",
+      "published_at": "2026-06-02T20:38:45+00:00",
+      "title": "Iran\u2019s supreme leader appears more active as talks continue: US\u2019s Rubio - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeXFGMHdpRHZKbHFzUzZvdWItb0lTTVVYeTNheW5lTUdkZnNPTXplbmRUcTVwLWtWMXRCc3dBY3NyR2JLbDBBRzhFYmRMVmZHeGxINjJWTUFNWFZCbzV2dWZjTlhZSzdhVXJYamhlNXZ0bGd3eThTLWFvQy1xbWJqZ1dtb296SlQ1cGc0QWtmcDNwVHZ3NnQ3ZHVQQi04WVJEai0yM1J6b0k1dHdn0gGyAUFVX3lxTE1DbTNBWE1MRi13cVJfMV9zd2NWODFkLUFNRU5mV05obU5ubzR6M29IOFdhN2ZQRzRSQjQweGYyUHBoczVpd1pucHpPaUhiWlM0ZjZrUTYxQW5XdnR3NWR6OF9RQ1U0UXNTWmJ3b3VoS3d2R2twajhEVkE0Vng5N3R3UVZ5VGFPVHE2REZjNmlnblpFTzdvUGtrNFlvME9ZRGx4bkZqNmZtSklxYjkzR0RHZlE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "c84ed7c062274c27",
-      "published_at": "2026-06-02T16:44:44+00:00",
+      "published_at": "2026-06-02T20:31:30+00:00",
       "title": "Rubio details U.S. demands as Iran peace talks falter - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQT0ZibTFVN0NhZHpzQUZNYkF0cWQ5YUo1akF1blJOaFNxSEkwZVJlOFd2YkdNS3VpWHZ5ekg5N3NCZlZXdS1vdTJSUlJrYkNJdVIzVHUxdHVabENXeVhDU2stU3AzemRYcTZfYkNmWHUxend4OG9TM3BVTXRWTlMzNElRNGViVUU4RVJYSUYyblhwT2V4ckZqdTBaYVQxNXp2andEdGFBRzBzQlJ3?oc=5",
       "source_name": "The Washington Post",
@@ -128,11 +173,26 @@
       "confidence": 0.8
     },
     {
-      "id": "dcedec9a01c54185",
-      "published_at": "2026-06-02T16:42:00+00:00",
-      "title": "Live Updates: Iranian officer says renewed war with U.S. seems \"inevitable\" as Israel, Hezbollah keep fighting - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcWE0cEdpajhoSmtGWTU5SElOSVVwOWVlT2lPdXpRemZ6ZW1XMXRNOGpkd2hJdmNvMzJSRzZiczRNcE8tTnUxVWNSTl9yUjFWZ3pNdWM3RGJJNGxXOU4zc3dwVnd0TEtXUFUyV05VWUhZc19DaGdfYUVrVEZyMDlkTXRSSGhqNXEzZUlrck9nNmhMV1hu?oc=5",
-      "source_name": "CBS News",
+      "id": "7cbf06d120c20a15",
+      "published_at": "2026-06-02T20:26:00+00:00",
+      "title": "Live updates: Israel and Lebanon hold talks in US after Hezbollah and Israeli military trade strikes overnight - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYjlDZ2xvU3ltT2EySXRxSi1adFRtRVF3RTlJZXlJNUNRZW5DdjhlN1NoeWR5dHE3Wi0zRWR4OUxsQzZhZERRd0ZLc01mdEpBNTZNd0Z5cHo3cGhpN3htRkliUGFfLXNMZ09kTXlmRTVOQXNGbG1pX1lfcm50OTB5ODVZbjM2ZHBOU0N0d3RR?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "86c8a174b1d87bcd",
+      "published_at": "2026-06-02T20:03:00+00:00",
+      "title": "Rubio provides few answers to Congress on Iran conflict timeline - The Center Square",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQT0s5dEZSNzlqRlR0VmN0cS1wOHFnakFvRVhoN1ZiR2ZrRi1tb2VLaXhERFlZM2ZkSnZLVlFpRlJ5MEt2aGdKekxlazZvY1BTMi1rdDZXLXBYMTI3dHF4VDVFT0FTREkyM1hscmE5blFVRUNqd3dXQk4wVkR5TzZmZy05VDJFbi1kVHBINDh4T2NKU3BJ0gGaAUFVX3lxTE1mWUJYVUxYc1M5clAxX2ZZYXlrQy1MaXNWTy1RRTFKOEdaeUY0Szd2cUczVzVXS0NZbUF5aUpwVUdPZVBRTncxbUVsM0VLQjRhSkZQRFZwX29wZlNHVlhmeHE1SUlZc1I1a0tyMG0tT25MVUptOWNpWlp4QW5lQWRZbXR0SVFUNGNQQklQano1N3JNbW1CVmd1b1E?oc=5",
+      "source_name": "The Center Square",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -140,11 +200,71 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
+    },
+    {
+      "id": "2fae82849fe1a352",
+      "published_at": "2026-06-02T19:47:00+00:00",
+      "title": "Why Benjamin Netanyahu poses an obstacle to US and Iran peace deal - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTXNlQVZuaUNkbFIwOXRrUFNha2huaVBoeFp1dkU0TlVZb1R3YXZoaEdPeHg3SmpkOG10SjI5aFhadUY3YkJCNi0zYlZxVTVLRGcyZlVfMHczY3BnRUNaenNRc2pISHFMRVFLdmNJT0RIWTdZZEJvMUNHWXhYaEhJTXhn?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6601249c482f073a",
+      "published_at": "2026-06-02T19:39:19+00:00",
+      "title": "Trump insists Iran talks are on, saying deal is 'not a simple thing' - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObV9NbmR2ZUwzV1dOOG5KNXA3SzhSRzFhX0Y2SzM4NkxBSE1PY1duYmlKSzdmVWZQLXdXTGhCOFBMZk1OMC1weWhDb2FHNm1YRVhCaDlSZUdrbnBYYW5yRmp3RUZfbHdlSU1WQi0zZV80MkJFcktCR1I5ZVpkQWZsY2hjNNIBiAFBVV95cUxOVUQzSjliR29SaUxsSzRfTFdUTlNGajcxMGJEUFJJdTUybkNybWVUaEVWTEdwWWYtcDUydnFGZkVVRXk4b05BZmgxcnROc3NMRDZaXzBuZlRfX3NvRl9hdUViN3BVeF9ZQkgyZEtDX2ltZXZMR21BWTBfdGl3ZDlFVkhOVmN5QVpn?oc=5",
+      "source_name": "Fox News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fa303c55e0f10feb",
+      "published_at": "2026-06-02T19:36:04+00:00",
+      "title": "Israel and Hezbollah trade new attacks despite Trump promise of de-escalation - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV195UHZJZ2NFWWs1c0tqT21IdTlyb2F4YVNtWWNSNHFWbDJmMDVqWVJMXzBjaV9QUTVHOXBHc3VrYzJkQnlrQm8xM3cwa2s1ZmJTajY0RE5Vd2Nnak9IQ3dLcE05bmE4d1ZTVmgtTExWQkFHVlpZYVB0QTh2TjdNNGJ4dW9BM2txdTl4VmFXRm9ZREVGWUJ4b3JUSEp3SVphQlViQ05ITk9TS05O?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6056d3ca31fb9334",
+      "published_at": "2026-06-02T19:34:00+00:00",
+      "title": "Rubio says Iran ready to discuss nuclear deal as Tehran declares peace talks over - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbXNfVkpMSlVBSHdkZkF5WE5mZ0kwSS1rUVZzQldsQkFKcE0zRTd6OUhEQWtja2o3dHRCWXdrcko5LUJqWFVNQm9pSW42azRlUWxNRUhFOGhvNUo0NVZVSDA3bHZENGFkNVBQaV9GTDJYenhxRlI1amEtRXA2c0JSOEVRS1VxUUtJSy1ZSWVB?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
     },
     {
       "id": "f86f5ee05e27d086",
-      "published_at": "2026-06-02T16:27:23+00:00",
+      "published_at": "2026-06-02T19:07:37+00:00",
       "title": "Israel says it is holding off on striking Beirut after U.S. request - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQm0zc1ZESDFjVVJZcUZiOUhhQVFfUjdIV3V4b0FoQkJVb3Z3dHBfVEl1SGNGaUdsQTQxN2U3OWtUelQwbmdKOHI2VUZ5bjVMWWNSTDB5dTdmcFl2Vk1mUnVmVndOQ05hVTlfVzNYOEFmeFlYOXJFd05XMnVkTUFERWprWWZYOTlNaTdiMmctUllpNE91WXk1M0RRNzFTVXYt?oc=5",
       "source_name": "The Washington Post",
@@ -155,22 +275,82 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "c5a1e4d02445d3ad",
-      "published_at": "2026-06-02T16:04:48+00:00",
-      "title": "West Asia war LIVE: Iran has not yet sent its response to the U.S. in talks, says report - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbkxpN2t5VEUzMnM4aDhIT0tkd3kzUFpQdFhFNmJJaUFRWkNSV1R3dHBTNzFsbFlqcFZqendZV0V3cnVtbTk4TXRsbHBWdmZLaTVGa0VHN19SXzg2YTFsbmpCbGx6U1hOeVFCdmFQazJ4ZnVUNldESjU2T2RHeHpncGhaRkFLaUxJdi00MzJRYUJqaVpYcERNVFdTbDB6NXppYmR6anlNRGhSR1JrdkRqS1FOWXRrMHh2bXlVclFNVHloT3JVcWhvQUtUZjFTS3NNcDM1YXVlLVJ0d29UQVZoRjI5YnZRZ9IB7AFBVV95cUxPRFU4Nl9CdGVzdnNzTFI1QWxrUjI3ZlZhc2ZLZ3RuaVgtZlhlV0MyWkcza016ZHRTMFdzaGlBTnpZa3JmMVpWQmRmclV4STZmNjkwRFBMMXZjeXUxaGNER1R0RzlGVjQyT3gxM1lVQ1g0V25abXNKRjVRWXh0c3A3bzE4Rkl6N0hKT3ZiNm13ZmZnbEJ4RUVBZWJySjIzV3hJRG56WEg4N2pBcEFFU2ZFdzB5RHdYVnRuWGwtVkJXUmVqcjlsQWU4OVNoQWNIQWpkUlZhRVJxa1lmRVY4UG5QRUR2bFBETHdwTVc1bA?oc=5",
-      "source_name": "The Hindu",
-      "event_type": "diplomatic",
-      "actor": "usa",
+      "id": "93917d549a991b3a",
+      "published_at": "2026-06-02T19:02:38+00:00",
+      "title": "Iran reviewing proposed Trump deal to halt war as Lebanon attacks continue - CBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JajVrMmcyODdLS1VMa2ZUUk4xRm81M1k1NFNLd0pTbjBxVDRWX1BrUkhDbXRxMHdMVUJvdm5ESzdPVFJtTUdMUlR5ZGkzblczM1RkRFBJdTh2QTBHWk0tcy1sQklYVzh1c1ZVQkRPLTFWNUVIdk9z?oc=5",
+      "source_name": "CBC",
+      "event_type": "attack",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
-        "usa": 1,
+        "usa": 0,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.65
+    },
+    {
+      "id": "c2ef9daeb77579fd",
+      "published_at": "2026-06-02T18:39:00+00:00",
+      "title": "Trump and Netanyahu Are Clashing Over How to End the Iran War - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2ljMWhHeHRvRHN5RG5oNnpJZjNFVFB1alQ1R2FtX1dfQkxwUlVIVU5PRGpYYVg0UE8yOFc1VU1BQmVveVVjUnowSEVlTDZJMXJlejRxQ2tvOU5oakVjd2hxS1FPdmpGblBLNjJMeFdrcS1YejZVeFZPMjdNNUhiTkk0SmRGZw?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "35d13537f3a97608",
+      "published_at": "2026-06-02T18:09:00+00:00",
+      "title": "Iran live updates: Trump says 'one never knows' where negotiations will lead - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY1JpQm95Tm9hUTRLN3NSSEZCVkdhWW1SNm9vcHZETThSenRkaWJmRFNyT1lmX0xSWTMzZWptZjdXbThsN3ItZ1dPdnNYM2J4eXdBVVM5ZWNhemYxcXJ4c0pWM3ZSOFNQNVN3SzliN2RGMXRuUW1xSHlieFlIUjllTjAwQTFNX2w0QUtmRWdJUWJXUHNlbTRBSE5oc0NwUWpYWjlnem9JQmlQQ0RyaV9QbdIBtgFBVV95cUxQTVJFY3Y1cF9CSlcwVmtNVmdTRjBNYTNNN2ZiOWd3Y09tcXhzV2RwZ1NUMTZYbVlrV0NDVjlTNkpUNWV2VGZmY29iYnFLcjdpN0JjRHo0d2tSRHphN0k0REh3Rjk1dXFGeHRzQVBHUlV0TXpna2dQMHBwalp5N0s1WHdzMzc1TjE0Z0tKcU5QM0tTYTVWbTQ3OHE0c1lTNkpPWUVyamRqWjJYb3VaMjl5cHQ0aVJIQQ?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b904eb70bfc6c9f9",
+      "published_at": "2026-06-02T17:42:05+00:00",
+      "title": "Iran studying deal to halt war, as Trump says talks going on continuously - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcG1DSFVhQ3MxRlgtdV9LYlZndTBDX0VvZDZ4ZkZuZEV5QnhMYlhmd2phazdVMnBlUXRWXzUzWTZFSXZfSDhNMzF2VTVwdlZiMU9aMEVVVVhyWEk1QmFNWjJRSFNfWTFzOGNMXzk1ZnJSOE5EZDJycERabElIeEQ1SjQxWE9CejBZT2FDY1FnLVdFaGlvR0FQeVVkM3JSanNmdkE?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "91db67925d943099",
+      "published_at": "2026-06-02T17:05:42+00:00",
+      "title": "Middle East updates: US-Iran talks appear to stall again - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1hySFIyQzJNajZzR1lGS2k4TkZRenFpQ196STdTdHhpOGZ2RWpnRjhxZU1rWGFqaC1kOGZ1ZXFocW1lNDdwbV84RDZJZ2MzeU1mcGhGZnAzOHBUQVB6TWQwLXJWNWp6enBIX0Uza0hxTUFHdm82YzZZNGJMQ0NNMmlWMGhHRDhkUkpjS1V6ZEpZaUtvV1E?oc=5",
+      "source_name": "dw.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
     },
     {
       "id": "f536bee5c56b592c",
@@ -188,11 +368,11 @@
       "confidence": 0.7
     },
     {
-      "id": "6613c71a5726ad4a",
-      "published_at": "2026-06-02T15:50:36+00:00",
-      "title": "Rubio: US has not offered Iran sanctions relief to reopen strait - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMnhHX3pib0VOUmUzRkNhT1VGQVRRVnBVeVc1eVgta1dMNDVGRVVTZ0Jtb21oYUIyYjg1b3BoY28zMHd1dVQza1hPa3pWMFBzRktIOVVmdG5zVGFHaHdRZjJrdWVNUVJ1cEZPa0d6S2FiVDFOb1haX1I0ZlRLcjNJQjFRNk9MUWlodkxpOVhwM3RtdzE0Q1B4QklrNklVTDQ?oc=5",
-      "source_name": "Reuters",
+      "id": "e6eb85b7a34f733a",
+      "published_at": "2026-06-02T15:48:57+00:00",
+      "title": "Trump, Rubio say talks with Tehran ongoing despite Iranian media claims otherwise - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM0dZb3ZuSldZT3hucnNPWFMtdERJRm0tN05hM0ZWRHVYMS1BcDdqWDNaUHBKd3BiS0NWbU9JenZIWUlRZGxmd0pheVFZWUgweDhxbFNta2dKOFR0YTNOS0dYcHJfaXpQTEZWZkJlME5ZcV8zX1dYSHVYOU5CblJkdGw2UTNydTFfY2pWSmNHV1rSAZYBQVVfeXFMUDM1U1gtUU5kV2ZwWmYxWjc4TGxXbHl5OGRUcl9Ca3ZteHRmWGZiOTRCNVNNTlgyb2doZ01pZE9mcHNPTkx5b0NuZHVOSXFvNXhyRmh0cTRYZ21qdnlHejNhSWI1TVlPdkVvVWZtX0NVdUJnUG1LTWdIU19OLXdqUmxpem1uN3BEVWNaN0RWVHVtLVZseEtn?oc=5",
+      "source_name": "CNBC",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -203,69 +383,9 @@
       "confidence": 0.65
     },
     {
-      "id": "d71709317ed6ee9d",
-      "published_at": "2026-06-02T15:48:57+00:00",
-      "title": "Rubio says U.S. is in talks with Iran over nuclear program as senators press for war endgame - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPM0dZb3ZuSldZT3hucnNPWFMtdERJRm0tN05hM0ZWRHVYMS1BcDdqWDNaUHBKd3BiS0NWbU9JenZIWUlRZGxmd0pheVFZWUgweDhxbFNta2dKOFR0YTNOS0dYcHJfaXpQTEZWZkJlME5ZcV8zX1dYSHVYOU5CblJkdGw2UTNydTFfY2pWSmNHV1rSAZYBQVVfeXFMUDM1U1gtUU5kV2ZwWmYxWjc4TGxXbHl5OGRUcl9Ca3ZteHRmWGZiOTRCNVNNTlgyb2doZ01pZE9mcHNPTkx5b0NuZHVOSXFvNXhyRmh0cTRYZ21qdnlHejNhSWI1TVlPdkVvVWZtX0NVdUJnUG1LTWdIU19OLXdqUmxpem1uN3BEVWNaN0RWVHVtLVZseEtn?oc=5",
-      "source_name": "CNBC",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "7cbf06d120c20a15",
-      "published_at": "2026-06-02T15:46:00+00:00",
-      "title": "Live updates: Israel and Lebanon hold talks in US after Hezbollah and Israeli military trade strikes overnight - CNN",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYjlDZ2xvU3ltT2EySXRxSi1adFRtRVF3RTlJZXlJNUNRZW5DdjhlN1NoeWR5dHE3Wi0zRWR4OUxsQzZhZERRd0ZLc01mdEpBNTZNd0Z5cHo3cGhpN3htRkliUGFfLXNMZ09kTXlmRTVOQXNGbG1pX1lfcm50OTB5ODVZbjM2ZHBOU0N0d3RR?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7a53fd6cb919d6a5",
-      "published_at": "2026-06-02T15:41:43+00:00",
-      "title": "Iran studying deal to halt war as stalemate persists - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcG1DSFVhQ3MxRlgtdV9LYlZndTBDX0VvZDZ4ZkZuZEV5QnhMYlhmd2phazdVMnBlUXRWXzUzWTZFSXZfSDhNMzF2VTVwdlZiMU9aMEVVVVhyWEk1QmFNWjJRSFNfWTFzOGNMXzk1ZnJSOE5EZDJycERabElIeEQ1SjQxWE9CejBZT2FDY1FnLVdFaGlvR0FQeVVkM3JSanNmdkE?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "93917d549a991b3a",
-      "published_at": "2026-06-02T15:32:29+00:00",
-      "title": "Iran reviewing proposed Trump deal to halt war as Lebanon attacks continue - CBC",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1JajVrMmcyODdLS1VMa2ZUUk4xRm81M1k1NFNLd0pTbjBxVDRWX1BrUkhDbXRxMHdMVUJvdm5ESzdPVFJtTUdMUlR5ZGkzblczM1RkRFBJdTh2QTBHWk0tcy1sQklYVzh1c1ZVQkRPLTFWNUVIdk9z?oc=5",
-      "source_name": "CBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a14741b93e06133b",
+      "id": "e6b20837ed1f9c15",
       "published_at": "2026-06-02T15:24:06+00:00",
-      "title": "Iran war live: Tehran ponders US peace deal; Lebanon-Israel talks underway - Al Jazeera",
+      "title": "Iran war live: Tehran ponders US peace deal; Lebanon-Israel talks under way - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV1MybzFWaVBnd3FjRGhNWEF3UVl5WnhSQjh0VS1lWDdxUVlJSjJ6SW5XRFRUTW1SakFTOEQzTWhxSTBRSEdBcURnOGRrTUVIazhWQ2hDQ3ZhblNCTGVIZmNuX21LdVF2UTFpQXZqa0MyV2RHc21aQnkweWs0UEZHcnE2ZV9BV29rQTk1UHgtOFlZbWtWNlNwdlVkNHlKMGZibE04Tm5RODNfQzY2ZUN4UC10TnN3Z3Z2YXlNNmxn0gHDAUFVX3lxTE5VSTZSN041Y1dnaEhjZlpzWUtTc0NPUGxhZUdnSlBySnhEX2NSbExobV9qQzAyUHFzZnFSazRaanVMV3BjWDdYVkdqY1RoSmtVb2JHRDkzeUZBVG1kWWx6VldneW9fVGE3aE8wcVVRUTExaG5PZUJoM2d2YWRkRDlIV2k0YXg1Y1ZldWxUT3RsWXZESkNMRnNQSkdGOGFib1QyNk5qWEZ1b2ZTbmRUTlNPOFFNRDdoWUtwYUtrMmJZbGJTQQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "diplomatic",
@@ -276,126 +396,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "6be2ff38d2449e3e",
-      "published_at": "2026-06-02T14:43:00+00:00",
-      "title": "Iran war has cost U.S. families $100 billion between increased military funding and higher oil prices, says Moody\u2019s - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSzg2RFBobExFaFh2X0ZQNks5WlluMHFfcXhycEZoV2dpX20zX3AwREJ0WTg4VWFHZG55MW45aHA0MjF5S2tZRllJZzd2YkFkNjFMWHNxdzNoY2c5bmpJYWE2d2FwWjVrMHZtZFFHWW44bTd2eEh3WkRzWWpFTEhxeHpBdWRRbTVrV2dScUJn?oc=5",
-      "source_name": "Fortune",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "91db67925d943099",
-      "published_at": "2026-06-02T14:27:16+00:00",
-      "title": "Middle East updates: US-Iran talks appear to stall again - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT1hySFIyQzJNajZzR1lGS2k4TkZRenFpQ196STdTdHhpOGZ2RWpnRjhxZU1rWGFqaC1kOGZ1ZXFocW1lNDdwbV84RDZJZ2MzeU1mcGhGZnAzOHBUQVB6TWQwLXJWNWp6enBIX0Uza0hxTUFHdm82YzZZNGJMQ0NNMmlWMGhHRDhkUkpjS1V6ZEpZaUtvV1E?oc=5",
-      "source_name": "DW.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8ce0216d6f705718",
-      "published_at": "2026-06-02T13:51:00+00:00",
-      "title": "Israel and Iran Step Back From Threats After Day of Tension - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS0doYXZBSjJCdjlYOVhxM25obDN5MXBRWmRyRFNPdEZycjZnb0EyR3FqZWNKQVN5VGg0NGwwclhKaXhtTU91Y254Tkd4UENuZjJQSmphaHI2dXBqTzRwN3FTdk5EVllmY2hQQzYzSUtTOWMzY3h1Q29Ed0xfT3B5elBJSWM?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "4721b8eab6be2a9c",
-      "published_at": "2026-06-02T13:25:35+00:00",
-      "title": "WATCH LIVE: Rubio testifies on Capitol Hill for the 1st time since start of Iran war - PBS",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN0JCSVptNWRudjZXdzYyYXh4V2cyWFJhVjZ2WDdRVk5ZYkN5NU1xQzNSSVBMck52eWw5SmNfRkUwbnZsMDB5djJId3ctVGdvZzdLLWE4NU5SZmhHaTFjQThPMjlxWjB1Rk9zSnVkYzJkZ2ItZ3V4VW1LZVZoYl8yVUMzYmZUTXpUeVJmUnBuNXE2bDZ5N2lwQjZqUlJseHZ4bmgxcTBZNGU4MEE1WTZLZWR4SHM5Q0VrWHc2Y0RR0gHDAUFVX3lxTFBXTmpSbjBOaThEVEt6djlGLVF2M3ZWcnJXTk9fdng3ZUJfa29wZ3hxYVg1QWN5WEo1QXN5MWZBaVhOT2VNTEhYdkFxT2lQbzVBOUxkSm5STVZqYXItcUpxZC1lVXVHckVvQk5PZWtJcFF3RkhrQ1RtUk9McVp6ZVJ6M1lLZklWSk12QXZvMUhhQWtPZTBvZm5GZXVSWGpEZkJuOUxYR1dCSkZpVFRDandpZklOOGplX1V0Z1J6aXRkcDZGYw?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4fef6cad9bc86033",
-      "published_at": "2026-06-02T13:23:31+00:00",
-      "title": "Iran suspended US peace talks over Israeli strikes in Lebanon. What now? - 1A | Speak Freely",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQM3N5X2dxcUQzUFJZbjcxR1FtVk95eU8xQ19Zb3F3SzNlSXgyaVVrbW02WjRRN1hkMExvZFV6ZjJlZ2IwRnpvckdmd0tkYnZQZjhQam9KN0RFY3lhUWdfTDBHdmhtNjAxNDNySzUzRVptOTlNZEJMNk15SEtuNm53eDF4bDVnXzROQWZyTE1uTmdDZzNEbmdWc1ZhZ21rZ2M?oc=5",
-      "source_name": "1A | Speak Freely",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7c6392798a79cb0d",
-      "published_at": "2026-06-02T13:01:00+00:00",
-      "title": "Trump\u2019s Failed War in Iran Echoes Bush\u2019s Iraq Blunder - Center for American Progress",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbGpFZllpZ3Fhc2pwZVNKLWUwanpTdXZPRVlWRUdiZnpzYjdjZG5GS2JlZXM1b3hPUGJfMlkxcFVLM3l1R0FOaFlXbzBSNzZaVFRwUlI5cXV4SnVhRkprWldObVVlQTJwckl1VTVyREpMUWF5VFU0SzBXQkFJNS1WbWx2bWRwWTcwd3U3SnVVcHd0VTNpZ0NpeA?oc=5",
-      "source_name": "Center for American Progress",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "fa303c55e0f10feb",
-      "published_at": "2026-06-02T11:34:20+00:00",
-      "title": "Israel and Hezbollah trade new attacks despite Trump promise of de-escalation - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV195UHZJZ2NFWWs1c0tqT21IdTlyb2F4YVNtWWNSNHFWbDJmMDVqWVJMXzBjaV9QUTVHOXBHc3VrYzJkQnlrQm8xM3cwa2s1ZmJTajY0RE5Vd2Nnak9IQ3dLcE05bmE4d1ZTVmgtTExWQkFHVlpZYVB0QTh2TjdNNGJ4dW9BM2txdTl4VmFXRm9ZREVGWUJ4b3JUSEp3SVphQlViQ05ITk9TS05O?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e18ce1d67686377c",
-      "published_at": "2026-06-02T10:12:44+00:00",
-      "title": "How does Iran\u2019s leadership view the emerging deal with the US? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUE1UQllIUjV5WWxxVEVEcFpCTkNTRmpMTlIzaFZRMk10X1FaamtRRWJ3R3d5VWhOTTJrZmc4eUpSVmdUMm9wMWI0VkxSc01pejlLMzZqN0MxN2lVTkMxdExJS1gxYzF1YlZySjJ0eEVSWFN6U0hIWXhVOUFsLWQ4ZXFzYXVOeU5XckZMOTVwUlhFWkN2LWlYcmNzTEVHNmpLUU93etIBqgFBVV95cUxNMnY3OTZCa1RlVUtoV1FSelIwY1NaNU5VOWFPR0s4UVIyN0hnMFR5Wm04MHNhOVJEWEFUX0Q4el9ySFVhaEN1MDVYVXV6elcyX1ZaRmNRdnFWQnBheVF0eDZzTU04WFd0OWNCMUdBYl9uWE9qNDV3Q1NTWVdES0FXVDd2T2dQTUJXZzdxVWRyWjVqOEw4dk9PbG5yWUdnTjhacTZYT3hXYXEtUQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
