@@ -1,27 +1,29 @@
 {
-  "generated_at": "2026-06-03T17:20:16.889035+00:00",
+  "generated_at": "2026-06-03T21:30:35.399198+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 64,
+  "event_count_window": 91,
   "totals": {
-    "usa": 12,
-    "iran": 19,
-    "lead": -7,
+    "usa": 19,
+    "iran": 24,
+    "lead": -5,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 12,
-    "iran": 19,
-    "delta": -7
+    "usa": 18,
+    "iran": 24,
+    "delta": -6
   },
   "confidence": {
-    "score": 68.8,
+    "score": 67.9,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 34,
-    "other": 20,
-    "diplomatic": 10
+    "attack": 47,
+    "other": 28,
+    "material_loss": 1,
+    "diplomatic": 13,
+    "intercept": 2
   },
   "history": [
     {
@@ -81,54 +83,24 @@
     },
     {
       "date": "2026-06-01",
-      "usa": 0,
-      "iran": 2
+      "usa": 3,
+      "iran": 1
     },
     {
       "date": "2026-06-02",
       "usa": 4,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-06-03",
-      "usa": 8,
-      "iran": 15
+      "usa": 11,
+      "iran": 22
     }
   ],
   "latest_events": [
     {
-      "id": "cde38f74760d5ada",
-      "published_at": "2026-06-03T17:15:12+00:00",
-      "title": "Iran War Live Updates: Kuwait Says One Killed and Dozens Injured in Iranian Attack on Airport - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZWtvZ043SmhSOWZFck94VFJscTREUzlfYzZWQUVnWGdDM0V4ZzVXeTZJOUk4ZzN1RWZRWWY1cm5JWkkzNC1lUVM4WEtDMWQ2aHVYNXI3Tk1nZDlGcTdvUHJ0alBGM01kT0xhQXoyNnpLM3loQllhQjJ3N0FaSzFEeg?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "38478769324de02c",
-      "published_at": "2026-06-03T17:12:29+00:00",
-      "title": "Iran attacks US allies LIVE: Netanyahu says any return to full-scale military action against Iran would be Trump's call | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNYWo0UjRWSVJFUTRDTF9hdkFSbEFkRFJ2T3ZKdWFlZzcxNkpRR2N3eWRaMG9uS0FvU0dIYUU2TTU5bXByUnZQQXc4M1NVV2FtNW1aMS1sOURLS3dzbV9BcGlsTXBveExfelBPbW9FNjBuRlNUTTNyTmVKMnkwUFo3NGZmWlBMaVVYS1lmNDN0WUJTa3NvYW5pYTZGLW1uamM5TVBYVHpsYmdLWEotYjU5bjBGb2xZdW1RVFVtdl9hdi1CN0dZUE84VVNiMGhid3ZjLTJxeVZaQWc1QlZ1U3M4VzRVOGhkUmdadG9rdnhXX25ndmw0dDdpbHN2VmdIUXBiUDdXdlFQWDl2Y3cwV1HSAZMCQVVfeXFMUEZ5SmlMQ1ExS1B4SndubmVBVzNGXzdLUl8wbFBFZ3BzLVpwM2VMb0NYR3l1S3pxbjRaUzN3aXdtQWZEWTFmQTVtMHVUREdlcjYtd1ZIX0Vval90eEhXcUVQaFpjZ2sxblRWZmh1Y2VZbXlQeWdtUm1WVGFVWkhzZWRYcGFSdno5VTdLbEhPTm95Wjl4RDUtNHlCWk10Vjd5UUZ0Qzg5ejJoVU1NWWJJdVduMEFwcU03NkViOEJnbmhoSWFyWVU0dG9wSmFMalVMUjdfaDc2YUc5aUtGWE5SWTk2bUItbVZvWWRCNkRNcjltNEJlRlctODhnZFBlOE5PTUd5UkJxT2E3Z2hGQk10c3Z0MWs?oc=5",
-      "source_name": "Hindustan Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "ece5034c88fdf4fa",
-      "published_at": "2026-06-03T17:12:00+00:00",
+      "published_at": "2026-06-03T21:22:00+00:00",
       "title": "Live Updates: Iran launches deadly attack on Kuwait airport after U.S. strikes, as Trump says talks ongoing - CBS News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?oc=5",
       "source_name": "CBS News",
@@ -142,23 +114,68 @@
       "confidence": 0.85
     },
     {
-      "id": "c58861e5e162b5cc",
-      "published_at": "2026-06-03T17:11:39+00:00",
-      "title": "Iranian attack leaves 1 dead, dozens injured in Kuwait - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUFBdFN4MV9jdWh4cTFJVW1RcFpyUmFKVXhBTzNRcnVubU8yaEJERi1FMmJ5V3RFSXBCNXBuNHJ5OXVFQWlCbzh2R1NBZmZmQ1M3TGF2VGdDZjQyUlhDaG9ISW9sZWFKZzlFMUl2MExUYmNmOHljNkg4V05UQzBHUjlLRGhfaU5Da3V6YjNlZlNTU3YyaHQzc2FoQkZPSkRTWEwydzdqdmJCOUxtT291Y3gyYW0?oc=5",
-      "source_name": "The Washington Post",
+      "id": "cde38f74760d5ada",
+      "published_at": "2026-06-03T21:17:24+00:00",
+      "title": "Iran War Live Updates: Kuwait Says One Killed and Dozens Injured in Iranian Attack on Airport - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZWtvZ043SmhSOWZFck94VFJscTREUzlfYzZWQUVnWGdDM0V4ZzVXeTZJOUk4ZzN1RWZRWWY1cm5JWkkzNC1lUVM4WEtDMWQ2aHVYNXI3Tk1nZDlGcTdvUHJ0alBGM01kT0xhQXoyNnpLM3loQllhQjJ3N0FaSzFEeg?oc=5",
+      "source_name": "The New York Times",
       "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 3
+        "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.65
+    },
+    {
+      "id": "1b56e8f9fe348e05",
+      "published_at": "2026-06-03T21:17:00+00:00",
+      "title": "House votes to rebuke Trump over war with Iran - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPRnladGIzZHVwWHlZVkROVnc5Y1hLQjVyQ2R3T1pTNHJnb1d6TlFuOW5fVkREUGpfS28xX0dpT0pMVjJSQjJMdGNpSFFTckUtOWtlOW5wdjJ5YkJ6bm1WREJRX2Itdmc0NU5nUUJoYl9tTUVQRGx2dl9TcndNSnhPT2pJY05CMXB2Q0FQWm1Baw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "944d6a110a69af36",
+      "published_at": "2026-06-03T20:50:50+00:00",
+      "title": "Iran attacks US allies LIVE: Trump says \u2018will go get\u2019 Tehran's uranium, mine sweepers ready for Hormuz reopening | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNYWo0UjRWSVJFUTRDTF9hdkFSbEFkRFJ2T3ZKdWFlZzcxNkpRR2N3eWRaMG9uS0FvU0dIYUU2TTU5bXByUnZQQXc4M1NVV2FtNW1aMS1sOURLS3dzbV9BcGlsTXBveExfelBPbW9FNjBuRlNUTTNyTmVKMnkwUFo3NGZmWlBMaVVYS1lmNDN0WUJTa3NvYW5pYTZGLW1uamM5TVBYVHpsYmdLWEotYjU5bjBGb2xZdW1RVFVtdl9hdi1CN0dZUE84VVNiMGhid3ZjLTJxeVZaQWc1QlZ1U3M4VzRVOGhkUmdadG9rdnhXX25ndmw0dDdpbHN2VmdIUXBiUDdXdlFQWDl2Y3cwV1HSAZMCQVVfeXFMUEZ5SmlMQ1ExS1B4SndubmVBVzNGXzdLUl8wbFBFZ3BzLVpwM2VMb0NYR3l1S3pxbjRaUzN3aXdtQWZEWTFmQTVtMHVUREdlcjYtd1ZIX0Vval90eEhXcUVQaFpjZ2sxblRWZmh1Y2VZbXlQeWdtUm1WVGFVWkhzZWRYcGFSdno5VTdLbEhPTm95Wjl4RDUtNHlCWk10Vjd5UUZ0Qzg5ejJoVU1NWWJJdVduMEFwcU03NkViOEJnbmhoSWFyWVU0dG9wSmFMalVMUjdfaDc2YUc5aUtGWE5SWTk2bUItbVZvWWRCNkRNcjltNEJlRlctODhnZFBlOE5PTUd5UkJxT2E3Z2hGQk10c3Z0MWs?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2797d0740db513f0",
+      "published_at": "2026-06-03T20:47:51+00:00",
+      "title": "US, Iran exchange military strikes to put fresh strains on ceasefire - The Spokesman-Review",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPS3VDU0JPMFViX3BvLXV4TkJMSU42VmdOVU1ySXpTN3dsQ190Y04tb0tVMGh4Z3Fya1lRTU0zbmlWYlZZcUR6dzNoZGxBVWsyMHJ4Yk1jRFJkUVdOQ21Ib2U0LV9BMG10ZkpFbDY4ekpSRUtCblpSSHhjVDFVQXgxU0k2Q21tWjhiY0J5VUFBdVQ3dGNwRVV6ZXNmRjRNdw?oc=5",
+      "source_name": "The Spokesman-Review",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "2a74b433e0963796",
-      "published_at": "2026-06-03T16:28:00+00:00",
+      "published_at": "2026-06-03T20:47:00+00:00",
       "title": "Live updates: Iran war news; Kuwait\u2019s airport attacked as fresh Iran-US strikes strain ceasefire - CNN",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYjlDZ2xvU3ltT2EySXRxSi1adFRtRVF3RTlJZXlJNUNRZW5DdjhlN1NoeWR5dHE3Wi0zRWR4OUxsQzZhZERRd0ZLc01mdEpBNTZNd0Z5cHo3cGhpN3htRkliUGFfLXNMZ09kTXlmRTVOQXNGbG1pX1lfcm50OTB5ODVZbjM2ZHBOU0N0d3RR?oc=5",
       "source_name": "CNN",
@@ -172,8 +189,173 @@
       "confidence": 0.65
     },
     {
+      "id": "bd2ada7f330d585b",
+      "published_at": "2026-06-03T20:43:00+00:00",
+      "title": "Kuwait says Iranian drones hit airport and killed 1 as ceasefire is tested again - AP News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMWw3aG9uNmppOHRXVF9yQ2tkOGdlN3g5c2FnQllkOUxxYXhqSUVoUlRYc21pVHlHdjNFOE1nbDZjNlYta2dsVW4tUV9kekZFM2NVWUZ2UGRXSzZkXzBmSm54VTdlb2FBQkdsVHJnQ0R1aEJncGF5N2xPaEdGVDdWZG1vaS1WQU9EeVJZZWJzQlgyaWV1S21MNmhQT1pXb0tNbXBrbzQ0bmRaQXFjQ3JETEpCVVM3Zw?oc=5",
+      "source_name": "AP News",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c58861e5e162b5cc",
+      "published_at": "2026-06-03T20:38:42+00:00",
+      "title": "Iranian attack leaves 1 dead, dozens injured in Kuwait - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUFBdFN4MV9jdWh4cTFJVW1RcFpyUmFKVXhBTzNRcnVubU8yaEJERi1FMmJ5V3RFSXBCNXBuNHJ5OXVFQWlCbzh2R1NBZmZmQ1M3TGF2VGdDZjQyUlhDaG9ISW9sZWFKZzlFMUl2MExUYmNmOHljNkg4V05UQzBHUjlLRGhfaU5Da3V6YjNlZlNTU3YyaHQzc2FoQkZPSkRTWEwydzdqdmJCOUxtT291Y3gyYW0?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "a30fe51914a1178d",
+      "published_at": "2026-06-03T20:28:01+00:00",
+      "title": "'Crazy' phone call between Trump and Netanyahu complicates Iran talks - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1na2hsamtJekYwQjdEN0ZZeWRGYnFpeUZraTdRZ3NIYUZMSDFrLWtDV3hIWndBMUlEOHEyNkJoM0Y4RC1NSUN5RXNFZTdWRG5KX1BTZ2xCNk4tUQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "04b7ebfd605dc2af",
+      "published_at": "2026-06-03T20:22:32+00:00",
+      "title": "Iran says Patriot missile interceptor hit Kuwait airport, US denies - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQRFkzNEx1NUw2UVlEZmFIQ29YaW1PT0NhOF9ReDhqVE9NU0VNeDZ0SHNvXzJqdDlWZW1VNUloT3pmN1E3b1pWMWtINURQV045aXZ0aURIRTg2Q1cxeHg0RXVwQnJaVktRempaRVoxMkRFamp1ZkFuZWhoeU9tRG5SWVhpbUZWWWVlN3Z4Nk5kd0hBUU8tbEEwWlh1Q3pyNFBOX083cW9oQ3ZsVGUxVW5v?oc=5",
+      "source_name": "Middle East Eye",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "78e74dde71843f6c",
+      "published_at": "2026-06-03T20:14:48+00:00",
+      "title": "House again considers war powers resolution to halt military action against Iran - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSmhPb3Z6SFFfUzVBN0lQb2habjVRcUV2VGFXUUVaZEVxWEhGT01kRzZGNWFDQmRoNUtlY0dMMWthZVZVYmtRdnRZb2ZWVXY3dzNob3dySFE0ZmdPZmVvNEg0Uy1mUVdXSnNLTC1ZOW1JVVpYQnMtYm5WOTFuTjBiOWkwWTdrRjZFRnAzaVB4MDg4OGhodDJEMEd2UllJekFOakJB0gGoAUFVX3lxTE5Xb1RfTDUxSlhoLTJwZU5kaE9LVVl3b0V5alpKR0ZOaTltRjFsS3ZOYWZ6cWdHVHZxaE1UaUdxZkx6VFhsekRoWnNiVEdiX3lLd1BNMzgyMWhQNGphdGJpTm5PMmMzOHdvelpmYmFwU2JHZzJGeWJHSzBHdF9ONXhPbDJYN1FvY3BFWXdlZ3ZMLWdUQkpueDBSanB0UkhNYjlQcmtnMzEtTQ?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3974867f3dd13623",
+      "published_at": "2026-06-03T20:08:49+00:00",
+      "title": "WATCH LIVE: House expected to vote on Iran war powers bill - PBS",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWGVpVHBJRk1TNVpHa0p1SEVjVi1Gb0pjeC1vS1VNYm02YXVzdWFBQkpYYVBVVEN2Slp4REJaTDkxaEtzcTllR01HRjM0MV8zVnRzWlVHcGJzVlJiLTVDcWZNTWhycUo2WlJuZ1A4ZWdoNXZ4UTVQUGRZZ29Pa2ZaeE4tQlpjSEppLWZiTGY3ZzI1Y0FfVUcxM0hkMNIBoAFBVV95cUxQTzg2OTdHSzJFLUcxeURacWRLTGpQZDl4a0d2NWJmdVZ4TFBfM0xQeVJmWThHb281QVlDN3JmTVNORnZRekU1aGR1eXQ1bl9SemFjaHZWb2N0UlRKV2kyZWl3N01BWk42REtYLTROZXBmamV2VWw2ZUo5N1RfS1d5QmdlaTY5N0FZckRPbGoxOWFmTGMzemNRVFUyY3BhaXpH?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0e7d52668ab1798e",
+      "published_at": "2026-06-03T20:04:10+00:00",
+      "title": "US-Israel-Iran War News Live Updates: US-Iran MOU to be implemented in four stages if agreed, says report - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQaThnR1htdDQyX3o3NVY0cGpQYkJKb2Q5OWhnUWg1bEFfSTVZSDBVV3prWjFpLUEzeC14bmMyT0NKQUltbUstbHpRdll4UWU2ZEhfNVEtMHNnM0paVzdEbXBSVjV2Qmd2RVk4eEhsQ0JHRnhEWm5icEJScFVpenRvQTl5R2NReGpTaTVER0hkMDJWM3pRdU0xX3l5QXdYbDI0SktHRWhqMVFibGhmZEJOY3N4Sk1JMWdMNExXUTFJSjFSMV94WVo2YWhJaGtGaEdaLUtEaW1CbldtZ1RXVE5xQWloMHg0NzRxNHFCQ1pDbDk2Z3lDX3JsUTlvMWpaenFrQWZERUNOaTJtWGR3SW9UeWVOb1BidzVFdHVpYmpfNXNlcnZzajk2LVU5dGJTbm1Jc2lKRUgydWZjMW9pV3R0S3p1WmszUdIBywJBVV95cUxNbktKQzJQT0d0aWR0cHlYRmw5dnMwRG9TQ2RaTFBnNmJPRDkzS28wcHNtbFNFLU9EWUYycUpfSzZQUlM3bTI2TkVOU1Vub3pTU2RFS3IzVTJoanpIX3FCMGNKb1pYLWQtek5DOXpDT2VETFpYRXlsOEFvVWJKMUhzYjNETDMwSHh6M0RXUWc3MXBfbmFBTDJYcmxYY1M0Q3lwNGRoajRZOWxrX2VlRHFQSnFkV2M4d0J2OFROd3Q1QWpsdExVNmFLdlJNWkV2UHNpWV9Bai0tc3hkRVl6U0hIY251SFQ2d0IwMXdDTVkyMVk0X3hsOXgzMVFBUTFCSlgwM2RRc2NZemJPdjkwT0pQSXZLWkJVaEpHTFJhWmpfb3RjeG9kREVsR0lvalN2U2gyZEJ0RDhIRXRCcml1U1FRcUVGS09XZG5PQTdF?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f549bfb06bd355c2",
+      "published_at": "2026-06-03T19:43:11+00:00",
+      "title": "Iran war is over, Rubio says, as strikes continue - France 24",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdVZZOU1sbjJxbjk2QUUwOUJhUURIVGgyMXA3alg1eEZydkJJMjRKci0xdHozc2NDWUtoczc3d25fcDAyZnBfLUx6eTFYX0RaN1RkSGU2MUJ3Q2lqWDJDbVdnVzBVMHUyNTI5WmRGX0lia3dPQVYyLUszN0xURWVodVZlakZvelNXcnE5eGc1VkJGUVlyQVJQMnBB?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d291c158c27e0cf1",
+      "published_at": "2026-06-03T19:38:29+00:00",
+      "title": "Iranian strikes in Kuwait kill 1, injure 63 as shaky ceasefire with U.S. is further tested - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWs5dFgxejJvR0pSM0NaNks3S3JlR1p0d2ZmeHlYbWpJU1JTUlhuNWNuM2F3anZkOGVXZWlvcjhXbXhfcEphYVFTNDdMWklSUHVhUUdIUEtiQ0N3S1JVTjNfemI4Wms2MTRPeGwyTTItVHpVZXUzWkx5aDV6QTNIM3VEb1JyMkF6NlhBbEJQUjBrNEtMNnBDR2JRQUU3M1EtZ0pOWWNjMA?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "7d969c49511f51c1",
+      "published_at": "2026-06-03T19:36:42+00:00",
+      "title": "Iranian drone attack kills Indian citizen in Kuwait after US strikes Qeshm - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT1ExVXVpdWhsZUxrRFhKT0hIeVd0X21iODVzYWlmV2hDY3VWZ3czbm42QVV4ZmNNTmlPNElsTWtvTmVxdmNsY3VJbEppNUlWb1hsaDVVbHo0NFR6c3VFeTFtYjk3ZWVPTkNsUFMyZWQ0cWdLbGFYcWtSZXBFYVZ0LVlqcFJJdFZlcThtSGdFWkJqWW9pRmhXSzQtaEZQYUJsVTlKUDNZajNHYi1FMlHSAbMBQVVfeXFMUEZYT3UzOWkycjVINVZhcjd4S2tNa1NjV2ZEc3RoclR6WkNhcHJBMGJiWkRoUmZpNXVBMGNDbzNQdVo1QjR1N3dVaFVHR1lRT0o0SVNNeHYzUnoxOWZtdVZ6V19oUEg2cFRZc0JEaEhfTXRINFRCMGsxdHVKUkl5d1BfQ2JtUzRuOUtRbHRWZHc1MXBtTVdTSERFbkhSM21PYjIzUVpQVDBHVWZpOWlpRHFCVEE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0124c9949960216e",
+      "published_at": "2026-06-03T19:20:53+00:00",
+      "title": "At least 1 dead in Iranian strike on Kuwait international airport: Reports - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5OeGtjZkg4V19MOU9GbU5ZdU10U1Bxa2NZS1BEMzE5TWVkeFFWU1FmMzlwYWhqaFFzYWtvMnNUNlpZa1gwQjdZQlRVUV9sS0RBajFjbHBVWXVlWnowSnAzaDlldDBQVFZMUzlSRHJoNVJBRk9RdFdmbU5R0gF_QVVfeXFMTjBBdjl1d0s4Z0UxaTFUSmlBNWh5Y2VfUU4yYU1CV3ZzMm1CVHk4NHRxRHBsWHJURFN1THJaR3JYWXZ4ZTFxMjdfNEFuR2w4QjNBdEVYOXpuY0NnOTNEbTFvVmR0RDhTYnJXMm1BMjMwdkROS2lVeXRTd2drMGJDWQ?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "108eeeb165ed831d",
-      "published_at": "2026-06-03T15:31:52+00:00",
+      "published_at": "2026-06-03T19:05:23+00:00",
       "title": "US, Iran Exchange Military Strikes to Put Fresh Strains on Ceasefire - Bloomberg.com",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZmtkYUQ1RkFYSG5FMmxDMzZyX3FnQVJSaFA4c1VsMmI0WEk1X3NsVm13RFVKNWJXOVBWY09qUjJWX1hyLXlUb21pYmp2cWhhVkd2aEVab0JHS2VmUGpGdVVBM1Nzd0xDaEtGQmVEZk13NGpDSjd5M3I2RjRnU3ZrMGJfY1hHWkstQ1M1aTZIaGN5OXA4SU5wblo3dlVodTlZc1cxTnkxR0pMWjlrbHQ1UjF3amphak9LTFE?oc=5",
       "source_name": "Bloomberg.com",
@@ -188,7 +370,7 @@
     },
     {
       "id": "45c8177ecdc84dec",
-      "published_at": "2026-06-03T15:31:52+00:00",
+      "published_at": "2026-06-03T19:05:23+00:00",
       "title": "US, Iran Exchange Military Strikes to Put Fresh Strains on Ceasefire - Yahoo Finance",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQXzhwX2s4YkZjdnpieUdhRmVDSjZMTnhabmdMMkpXWFFFcHRnLTBIQkpTLWtYaUdweTBTRnRfQVFTM0d3Z2R4SzdNaXIya09vZmpRbWRPM1p5UG15S3ZVWGJpcWFWZ19OekQtR2JfWFpWQ0ZDZVJNQk1VWGJwM2laVFhIRUYtOFBQa0NPcmJrRGhHQklaNU9HZkRwbmUwbm8?oc=5",
       "source_name": "Yahoo Finance",
@@ -202,11 +384,11 @@
       "confidence": 0.65
     },
     {
-      "id": "6d329aedb2f3fc7e",
-      "published_at": "2026-06-03T15:29:00+00:00",
-      "title": "Iran strikes Kuwait\u2019s main airport and kills 1 as ceasefire is tested again - AP News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPMWw3aG9uNmppOHRXVF9yQ2tkOGdlN3g5c2FnQllkOUxxYXhqSUVoUlRYc21pVHlHdjNFOE1nbDZjNlYta2dsVW4tUV9kekZFM2NVWUZ2UGRXSzZkXzBmSm54VTdlb2FBQkdsVHJnQ0R1aEJncGF5N2xPaEdGVDdWZG1vaS1WQU9EeVJZZWJzQlgyaWV1S21MNmhQT1pXb0tNbXBrbzQ0bmRaQXFjQ3JETEpCVVM3Zw?oc=5",
-      "source_name": "AP News",
+      "id": "15463b478c2281df",
+      "published_at": "2026-06-03T18:54:06+00:00",
+      "title": "US Iran War Updates: Iran denies attacking Kuwait airport, says error in US Patriot missile damanged airport - The Economic Times",
+      "url": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQZ0hXSTVxRGRyNXBUTlVhU296UUxXNnJIVzdrTEg4Z2VrTXA4LUMxRjJtZDJmSm1kY1VPSEQtdW96NGxpejJIQWoxZjQ1M3dQdjc4ZTUxNmpqZjBQWW85THotbldNSGtWZU1ZMDNSM2hKdzlZOWw4SXFTb0pkZGJBbmF0eHcxZ2xFNUFVRlBVTXZrRlMxUEFTV3NLVS12c29IcWVkRV9IODJrVmxSY2pteERtaEFVeUpBdjVPZTNrREIzNWZqNDM5NnJpRDdna1dfQnhFSUhlTy1sUzlFa3R0RUQ1dDFnTVdjZU9kX1lpQ2tDM1hpMDBzbncyV0dMWUdtSDAwdjBaMTZPSEFKUXN2OWdRX0xmZWZ2SlFRSHBHcVRGWEdEdHcwWUI2ZWpURWR4aHd4bNIBugJBVV95cUxQY3Jza1RvQnd5bDVRLWNfajRaa1ZiUEFKSnZKbElsZnpZSjR2em1BMU0wNVlJalh0UlpaRGNWaFBYekpXcFJ0N053bU9nOURGTUhzQkdTWlR3aXlxa2RndmlTMVhtelFNWDBidmxoZFlPWGQzZlRGZHN3RWh0V1hjeWg2OGI1ZlRFSk4zdTJ4R1dIaVU1NVVSLVRpQWFVcVNKZXFhQ054dFlYNHdaZWtBZ3N1Z25ROE92UUFmZTlxS1hfVTFibUtHdm9EblR1RThGMnVBZ3pZWWxRZU00dlMzN2FxbjlIY2FNWFVfUFgyWjdWeFQ4MExtUU1rWTdrQTcxdXFTeG5fTl8yckQ2NHZzNjVRR2g5amJCcFhISGxlOG5YbVdyc3NIYnU4R19qVWkwelJuc2ZJQ3NqZw?oc=5",
+      "source_name": "The Economic Times",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -215,186 +397,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "053a88cf13dbf1a0",
-      "published_at": "2026-06-03T15:08:58+00:00",
-      "title": "'US war on Iran not about the Iranian people: Europe can put the issue of human rights on the table' - France 24",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOOGt5NFE4bDZyTGRlZEFOTGpUa0tnWnhSeTcwVXNZNEZGN1B4eU5JNzk3bk9PT3FfcXUwUHdabHVxekNzLWQxRDNjU2RFUFdqY2h6TDlqNUZpaVpkM2I3a2wtTEVoZkNMLXNkRC1namVuWXJid1dlRlJPblh3VW1qNWNmWllPeW9tcUNkaVo1a19jRGdOSFVSemUxZWl2RDdNRXZvQUFOZXB5OTdwblduaEc1WXNVZEI2eFlJNGhMNXNIalk?oc=5",
-      "source_name": "France 24",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b1c79d8bf6d3951d",
-      "published_at": "2026-06-03T15:07:00+00:00",
-      "title": "Iran Targets Neighbors as U.S. Condemns \u2018Aggressive\u2019 Strikes - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQeERDdWlJbmtObWhLd0JWVG1LNXlzanlYZEpralU4OE5WWm9ZU0pjVmxTVlhvQ1Q2dTBlV0E5UWlGZEt0a3JPMkNRN2ZuLVQ3dUIzQllZNTR3MlFJbWk3azBhMTZRZDVCS0NtYk1XNEgzLWVINTJnQVdxajg4Rm1jLQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "ac79c8da7bfabe04",
-      "published_at": "2026-06-03T15:04:19+00:00",
-      "title": "Trump Says Iran Has Agreed to Not Have a Nuclear Weapon as Gulf Hostilities Flare Amid Fresh Strikes - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNb08xNFgtcElLZUw0SGpUMWpUWUp3eFpyVDM2NDVscExObVdYeGVrTFhiTXdYaGNLLWotejl6bFZKQnhoTmFqZ0lQazUyREc2d3BDSHFzcmNMcEtnNEtyMnc4akZSZGQxQkExRk5aUmstdWtRRzBNRzVHUVp5Q1ZLR2ZTaUxxR2xUZlA3R3NlcXJaS2U5eEtMZTl1cWFvekxvNy1NQkhmY3lqdU44?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b54f4a5f13118ef6",
-      "published_at": "2026-06-03T14:58:54+00:00",
-      "title": "Attack on Kuwait Airport Further Upends Travel in the Mideast - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQTVqNmp3YWc2eG5rODdYR1lxckt1Smc0U0hvVDVhOXdGUTEwZXplbDVsYlVsMzNtX29sWkVLY2NfdkdURWMxbEJwZEdKNTNDcElmSEtrV25IZHM5TkstanVSY2R4bjlFbXJnZnEwaldEeXI4R3ltU2RVSHFEMG1ZTlFTU3lVZXJYNlI1TUVGenc5MmhPWFBrNQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5187a3d0e5fcae04",
-      "published_at": "2026-06-03T14:45:38+00:00",
-      "title": "Middle East: US and Iran trade fire amid stalled talks - DW",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQaVhVOGZyOWxCTzZ6bzI2a2JnanFxU3I4MS01bUVYVzV4OVVicGNteERHaVUwdHhya3E3Vy1HRnpicGdkMkhWN2JWV2JkbThfakJTUmdFek8zR2VxWHdzVWFEcURjY3YxT2pFekQ0al9CdXdWcTRHR2prdGxhTHRxaFpZMmpPNEFacXFsMEdJTnczdzg?oc=5",
-      "source_name": "DW",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "fe142d31cec0ac75",
-      "published_at": "2026-06-03T14:41:25+00:00",
-      "title": "Iran strikes Kuwait\u2019s main airport and kills 1 as ceasefire is tested again - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVTBoNmxWWlNlUzE4UEZmOEdMRUc3WkdISXNVM0QwUzhIRmJYZjQ3MTNhMlRSNG0yTTNwMXllUXBTMFJrVm4wNmhYd1BCYWJQeWYzdXZ3bjNEYTdPZHlxTWFyUERlV2dpRGNMNkVjSUJDT0I5MVFtMVVJaVRGcVFhZ0RUXzNJOWQ0RWo0NEliWTBJdzR5ZGlzMUEtb0ZfdFJ5Z2JuZlNSOGgzU3R5LUdpQVVYNlJPQy1qZFNmQktkcXp5dw?oc=5",
-      "source_name": "Los Angeles Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e1e5dfe3e913c23f",
-      "published_at": "2026-06-03T14:15:04+00:00",
-      "title": "Out of Time to Delay, House to Vote on Trump\u2019s Power to Continue War in Iran - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSmtrVVBod0Q5Vm5NV2N3dUZvdHpiQlI4U255NGJXU3lLXzdIbVU3TTJTSTBZcXVvUG53dk9ORkpwMG14dWlXOEJqQzlOUzFfM0x2Ty1fS1BOcmVUa25YT2VXZ0JFQng5REZzQzB2TVM3R2Z3R3NwUjdDVFV6MGRrbzZjWVFyWmU3MHh5OA?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6ef6224f19e934dd",
-      "published_at": "2026-06-03T14:02:25+00:00",
-      "title": "One killed and dozens injured in Iranian drone strikes on Kuwait airport - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IQlY0SWk3SW1lWWlyN19nN0VHNklGQ2xvVm04LU8zajZpWEZaOXVaWTk3YmZpRmFLYWUwQVc3T3pMMXc1dWdVZkdsVzVVajUzZllhN29aYVJJdw?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2463c20c468e861c",
-      "published_at": "2026-06-03T13:47:00+00:00",
-      "title": "Trump and Netanyahu Are Clashing Over How to End the Iran War - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQM2ljMWhHeHRvRHN5RG5oNnpJZjNFVFB1alQ1R2FtX1dfQkxwUlVIVU5PRGpYYVg0UE8yOFc1VU1BQmVveVVjUnowSEVlTDZJMXJlejRxQ2tvOU5oakVjd2hxS1FPdmpGblBLNjJMeFdrcS1YejZVeFZPMjdNNUhiTkk0SmRGZw?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "39b71c701f4ce8ba",
-      "published_at": "2026-06-03T13:42:46+00:00",
-      "title": "Iran, Kuwait, Bahrain hit: Is the war in the Gulf escalating again? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTFlpd0VhZmNHUEhHVnR4dEZYX0tyV0VpSDRicVJreENwR3NZS05TbU5vYnZ4TDdrbG9LWHVJRE1nbVczWF95d1dNQzZKYmFsbExKbVZqbkszQ1BRYzBFNmh4WFlzdjhNV3JqM1hMVDZwaWNTZ0FBTjJ2ZHktYnVVUlF3X1AyQk41eGxpLVhZN1NsamhZLXJUSk5PdUt3OEVORU9Da2dR0gGrAUFVX3lxTE1HN3VMaHF2QXA2ZUwzQ1JIOEVtYmd3VmxVaU1rVlhUXzA2UEZreHk1c19Fb2dLbzMzWUU3aHhubHBLOHJIMmhvZ1pzUWwweFFyTm9XamhLTXZiUlo0Z3E4RnJ5ZTlKWHk3Tk1hekdPbVdfR2QwSjlNTF9BcTdDelhTOW1MdTloOUdRNGQyQmNJRkd1Y1JDek90RlRnY01xdlI5TDYtVzZOblVEOA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "d291c158c27e0cf1",
-      "published_at": "2026-06-03T13:35:31+00:00",
-      "title": "Iranian strikes in Kuwait kill 1, injure 63 as shaky ceasefire with U.S. is further tested - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWs5dFgxejJvR0pSM0NaNks3S3JlR1p0d2ZmeHlYbWpJU1JTUlhuNWNuM2F3anZkOGVXZWlvcjhXbXhfcEphYVFTNDdMWklSUHVhUUdIUEtiQ0N3S1JVTjNfemI4Wms2MTRPeGwyTTItVHpVZXUzWkx5aDV6QTNIM3VEb1JyMkF6NlhBbEJQUjBrNEtMNnBDR2JRQUU3M1EtZ0pOWWNjMA?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "cc8b1a30fed52fad",
-      "published_at": "2026-06-03T13:17:37+00:00",
-      "title": "How Pakistan Became the Mediator Between the U.S. and Iran - The New Yorker",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZDJldC1pSGlzTXNpbkpfSDgxMWtHMlZ5OVdGV1o3X0lMdk5kVWJPRGZKS0VHQWM1YWhqUlZwY3pld1lBTC1zZVZDWS15a3RJenlwMnFVSlRweDI1RXVzS1hpVTBmRzl1N2dhc09iNldVQi1pN3hHRTlaTUNrdk9YcmwzTXRuaXRRTXRFN0tkR2FsWk0yWnB6TA?oc=5",
-      "source_name": "The New Yorker",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
