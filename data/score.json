@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-06-04T10:12:50.940133+00:00",
+  "generated_at": "2026-06-04T15:47:30.505081+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 91,
+  "event_count_window": 93,
   "totals": {
-    "usa": 18,
-    "iran": 21,
-    "lead": -3,
-    "lead_side": "Iran"
+    "usa": 33,
+    "iran": 23,
+    "lead": 10,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 16,
-    "iran": 21,
-    "delta": -5
+    "usa": 32,
+    "iran": 19,
+    "delta": 13
   },
   "confidence": {
-    "score": 66.8,
+    "score": 67.6,
     "label": "Medium"
   },
   "event_types": {
-    "other": 35,
     "diplomatic": 21,
-    "attack": 33,
-    "material_loss": 2
+    "other": 35,
+    "attack": 32,
+    "material_loss": 4,
+    "intercept": 1
   },
   "history": [
     {
@@ -47,8 +48,8 @@
     },
     {
       "date": "2026-05-26",
-      "usa": 1,
-      "iran": 0
+      "usa": 0,
+      "iran": 3
     },
     {
       "date": "2026-05-27",
@@ -78,31 +79,106 @@
     {
       "date": "2026-06-01",
       "usa": 0,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-06-02",
-      "usa": 1,
+      "usa": 4,
       "iran": 0
     },
     {
       "date": "2026-06-03",
-      "usa": 7,
-      "iran": 15
+      "usa": 13,
+      "iran": 12
     },
     {
       "date": "2026-06-04",
-      "usa": 8,
-      "iran": 4
+      "usa": 15,
+      "iran": 6
     }
   ],
   "latest_events": [
     {
-      "id": "7047209caa654a31",
-      "published_at": "2026-06-04T10:02:43+00:00",
-      "title": "Mixed Signals Suggest US-Iran Crisis Is Far From Over, Says Security Analyst Jake Sotiriadis - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0tYVh3UEEtQ0owVTByVWkybnV5dDQ0QV9teHcyNHU4cHhmRUxPdVFuY2xvY0xBYVdKLU55VmlGMF9Oa3haRjU3bVd4VWlIQ19kWndkNUN4aURIOUJpelgzazZya0N0RUg4REsyUE5zby16bUZWRVh1NNIBe0FVX3lxTE1wQ1VJcGVkeG84SzRseV83WHhrN2Z0azRtUzRubkYwb0hQUTNRWHBUcjZJdUxfYUpZdG9UQzdoMlJpcF9EX1M5QnBBaW1TU3BTRE5kMmlpeFBqTnA2V01BYlJyeXdnaEtyeUthQVlrQmxRaUlkTV81TVBfdw?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
+      "id": "d63603160f2a951a",
+      "published_at": "2026-06-04T15:36:00+00:00",
+      "title": "Live Updates: Iran says \"no tangible progress\" made in talks as Hezbollah rejects Israel-Lebanon ceasefire agreement - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYlpmbDZCQVFUOFE1aWl0NG9jVWp6MElrRjJzNE5UVTVkelU1anNIYjNvRjZ5bHNLVWM4M1h1UXFvbHRGNXZzS0RxSF9OU21OUm5VQTZwdnIyMVJTVmwyLU5YLWY2RkRRTXFOV05FdW9BYjVodUlYaVNmdTdEVTlkaDFrU2NvYnp4eW5MSlIxSGhDemJZYUxF?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6cbb71a5650b1e7a",
+      "published_at": "2026-06-04T14:43:17+00:00",
+      "title": "Most Americans say the Iran war is bad for America - Brookings",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWkdlRkI0dy1KNVlBYTJHRmxWY0JPcGxVVXB3aGt2cXVpbGNFLTBlUWc2SnNlZkYxVmozMmljWl9SZDBuVHVrN3pEa0tLMVN5SFVDcXVkanp0Z0N2WHZFU1VKMTFXS3ZlZkJUVkMwYmE2VGh6TzJkTEZOSmtBQjltZTdRaWxGMGZpV2xjNnRjVQ?oc=5",
+      "source_name": "Brookings",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "81111736beefc30b",
+      "published_at": "2026-06-04T14:27:00+00:00",
+      "title": "Iran Ratchets Up Pressure on Trump With Kuwait Airport Attack - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNnRNdGdpWUFxdm1xY3Zya3c0VnJ4bFhVUkxRc1V0NkRKZmpnMlFDMGZ0Q00zYUwtdk9xUk1iM3FnVHNweG04QlRIaUlUZTZJWHdjMnpGeGRPWVlQSW5lYWdwNW8wcXZFT1RCb3RIS1JKV2lNNWVTWng3cU5wRlBRc1pVQ3N2YWRnaXZKWlNPS0U1bUhEeEZpakpKdWpLbU15bXBueTdDMF9JeUc1?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "330699497280e501",
+      "published_at": "2026-06-04T14:25:17+00:00",
+      "title": "West Asia war LIVE: Trump slams 'unpatriotic' U.S. House vote to end Iran war - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWHVoZXY5Qzd6UFQ5MDJBbTRLS0d3Z3lJSWExVWR6cDcyR01QME5YdTM0Zk5ibUgyeFRfbXhNd3h6dkhRY0FNLWxrLWc0c2ptUThuN0EtS2E1OUNURERqQTBjMUNKSlI2cFNaWm5mc1J2bWVQcThnelVsSjl2OGFuVEJURzVCWGZfSm5ZMl91dm93dnhzRGcyRmF0ZE11LWV0UTVYWGFIVGpZSmNDNm56Ti0tY0xzdU03eXBxcjVtZ3dKOUZ2cHBvWDZGZ9IB0gFBVV95cUxQcGpmMmxrZDBIV0Z5TnJLNlB3c0FRNGNQbjVOUHZhT1VYQXp2OWdzWXRtVGxvWS1HdTJaSkhieXBSUWp4UGc0OFU3am51d0NCeEhGTzFtMkJ4U1VOV002ZFBKWmx5M1dzdnlSM2d1bVItbVBRWDNhS2dNb0dZd1VPRTI0S1JmOTREbnBaM1NUMUlPUTBGbHdtbWtlRms5UHNxUnFOS3RPa1J1cjA5eWVwd2ozTVRjdjA1RkhRX2FUT0lmRWtyREpFZlpIR0pEMVBKb2c?oc=5",
+      "source_name": "The Hindu",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "ac3ea259b297012f",
+      "published_at": "2026-06-04T14:09:48+00:00",
+      "title": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaC1FUm1UYy1rOVFvcUI1MGY3T1U2VVQtMkVKandMNGZ1WHIxSC00blRhLWhtdDFUellNNXBJTWpMOUV5SmlfbkRmV0FGYkptYnBUZ3pndldld2VvYnF5TGtUN2cxLVhsVG9kcXlLaGRwbThxdTIzS1pOOEZLT2NJTV9WaG9GMG5aWEJTSGhfcXJGeUpic1VQY0Q2bGM0YWQyYVRtYg?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "6c5cde9982eb421a",
+      "published_at": "2026-06-04T14:00:00+00:00",
+      "title": "The Iran Problem Trump Can\u2019t Defer - The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRUdmT2xHdG9yVFlwNERMMGFVaEp0REZDNC13dmoyQ1lNVzJid1JaS0pEUHoxcDNjYlZrOExXYzQ3ZmkyLVFvMzVSRXp6aEtpYTJFdXJnRXJjLUQtYnFIa0xsVi1JNVB0N1BCZVNUOFB1QTZNVlI4T3owOVdKNlpzVkx6dkMzUQ?oc=5",
+      "source_name": "The Atlantic",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -114,7 +190,7 @@
     },
     {
       "id": "f99ea7fcac658b91",
-      "published_at": "2026-06-04T10:02:00+00:00",
+      "published_at": "2026-06-04T13:48:00+00:00",
       "title": "Live updates: Israel and Lebanon agree to implement ceasefire as US-Iran talks remain in flux - CNN",
       "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xUDZ6OFRNS2NIcWt6VWY5cHdUeVBGa1hRMENwd3U5YVFhN3RUY2lIWkd5MnhTQTREb2NWQ2FzcXZBR2N5TlFxWnpKTHZsNzMtQmpGWXB0eVUtc0w2bzU5SEtGY3NxM3ItOTRURXZFMUpuNUI3?oc=5",
       "source_name": "CNN",
@@ -128,8 +204,128 @@
       "confidence": 0.65
     },
     {
+      "id": "5c3537f19b59854d",
+      "published_at": "2026-06-04T12:47:38+00:00",
+      "title": "Oil prices fall 3% on report Trump reluctant to restart Iran war - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPQ0NXWmJpWklEeHA2dXNldlYyVzNnUWxsY0pHcS12WmpkLThoU0ZzT2VwNmxLOXRMSzlVOFJqZldDMmtOR1k5dEd6NGhqVmM2U18xVlVscmtTSVVaR3BxSXA4RTd1dkZpaE9TTTdpVm83Q0dqSWJ2QTNCdXM5NGQxS3JWbjA4WTZFeUNJTzkwSlpRR2_SAZgBQVVfeXFMUEZESWlJYUxfSDRzZTlyVllORmk4YW9Dd01BRzVJdVBhcTgxTnF1RXRCT3V4U2ROYTRoaUI1d094S0RFN3VsR0NFRk5veGlLdEdwSUxhQjhLSUlUTnNrUUNKV1NTVnRQZkFzUFMyUk9WWjh3cFNXcU5xSFc3SXZla01pVlZyR2RHMTh1OUtMMmQ4SHRlUC1FdVg?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "97826476d0443bcf",
+      "published_at": "2026-06-04T12:34:00+00:00",
+      "title": "The House voted to end the war in Iran. What happens next? - WBAL-TV",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUGxtMndYblpocjRqV0wtOUpZNHc4bkx3YjZXWHc4YmNHOC1SVjdmSThNM1JLc2NNUFZRT1hqeElOS1MzM1BycGM2ZTA3bUNWc2t1UFNURWtMM1l1eTJyZms1U3Q1R0pXRXgzTUt5dFdLMi1hSW1GY3loMDhvYTlYOXN4bDMzY2ZFNGE5dEF0RkdDZw?oc=5",
+      "source_name": "WBAL-TV",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b6040ac1134a4ce2",
+      "published_at": "2026-06-04T12:27:12+00:00",
+      "title": "Iran war: US House votes to limit Trump's war powers - DW",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXB5dlI5LXctTkd5ZmhmUEZwNHdqWkdEWkFpa2VZeEFPa2lFTmRiQXQ0bHkwNFZlNHM4TGtydDg2NVJ6SEpDelhrVHh4cTFmLUhXR2Myb3dsV1o2R0t6ZXl1NVlWa2dad0NOb3dBVDMxVUV0XzBUOUhtb2czOFhoOC1wWVJtQ1A4eVgtcElGQQ?oc=5",
+      "source_name": "DW",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "232b1919256e2cdd",
+      "published_at": "2026-06-04T12:00:00+00:00",
+      "title": "Iran live updates: Trump calls GOP backers of war powers resolution 'grandstanders' - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY1JpQm95Tm9hUTRLN3NSSEZCVkdhWW1SNm9vcHZETThSenRkaWJmRFNyT1lmX0xSWTMzZWptZjdXbThsN3ItZ1dPdnNYM2J4eXdBVVM5ZWNhemYxcXJ4c0pWM3ZSOFNQNVN3SzliN2RGMXRuUW1xSHlieFlIUjllTjAwQTFNX2w0QUtmRWdJUWJXUHNlbTRBSE5oc0NwUWpYWjlnem9JQmlQQ0RyaV9QbQ?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f37ea7d86962b253",
+      "published_at": "2026-06-04T11:37:57+00:00",
+      "title": "This natural gas stock has lots of upside even after U.S.-Iran war ends, JPMorgan says - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZlg3eG1sekE0TE9tdEN1cGZlcEVvenRzTVA2X09RZWFIQTBHN2VObjl0WjRTTk9rYUVSckVHLWxBQVIxX0NDZWxYay1KZTlSRERKeWkydlBocGtWc25FN0x5bzVBMlc4anY5QWNxY05NczgzQl9MNDg4Y3NPOERjVzVRTWV2Z0FiS1FvNU1Ya3pLQUd2bVlQaXlTWFotZEE5RXZoLTRkMGlhRTEwc3RqSlUtTTNzMjFxS29Ibg?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "00680fdd432dd6f4",
+      "published_at": "2026-06-04T11:30:00+00:00",
+      "title": "Oman resists US pressure to break ties with Iran over strait of Hormuz - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOenRIUGdYT0MxX25zazNRYWhRdEIzaTR4bTY4b0p6RXZIV3hYZmlNa3JhUVZvZDBXNUM4TkVJZW1Sd3NqZXpOVFZlSGJJMFRaRXhqdGNKSHJjSHZaNWlxOXJ4S2hoYXc5bWRseWtQWnktWlJSMTJVSmpCVDVOS29QcUE5TWtuM0txdllfQ3VuaG9kSDg2MlNWSFFteHVIaksxUWVyUmYzYlp5UUdrTTYzWWQ2ZHg2SWs?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3cd7ff5dd2463eca",
+      "published_at": "2026-06-04T11:26:17+00:00",
+      "title": "House votes for first time to halt Iran war - The American Legion",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPckFtdGF4R0tySmVBaHBMSHZnYmlXbkdLZVI4S0V0UXd2QWIxTTZ2MGphZVlCQjdKVzl1ZVNzVzNvN3BaOVZvclNYdjNoNE1EcVdBMzZkMWQ4R1pTdGVHQjlQMkJLOTUzYVRISEFTUnhwMGU2TDRxRmxyaGRMcDFGMTNhZWZQMTJ3aGZDRlFvSWxEdTNPdVZZc2Y3d3YyLWxxYkV3TmVyMTZocVcwZFE?oc=5",
+      "source_name": "The American Legion",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "81a37fcf79d3f332",
+      "published_at": "2026-06-04T11:08:04+00:00",
+      "title": "House rebukes Iran war and Trump names attorney general nomination: Morning Rundown - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDV2RzhSYWFaZkJIV01iaEJaQi1BMS04bDJIU29xdUxCYTNuc0lYOHZReEpNY1hKSGhuSmtVRF9xMkQzUnhTUjFpWnJfWUwyMU1XLWpROHdISngwYkw2WnNISTlvNExDeUxOcXZWaWdEY2RabTNlUzJFNm51RFdOYm9zMWpGZkZOVWZ1NHd1UzFmMTFWY1dYRHJzMjBod3hueExWQXZ2TU8?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "e657abb242c8917d",
-      "published_at": "2026-06-04T09:56:15+00:00",
+      "published_at": "2026-06-04T09:56:24+00:00",
       "title": "US House votes to end Trump\u2019s Iran war: Does it matter? - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZC1jZUx2V3FUS052MFZpQjlHejNYV3NZVTNXdVVOSmdISC12RktsWEh6cFNQbW4zR29veEJLRnVkc3ZVNThYazNPZkhUVEJpNXh1YVZoT29yQXZvTUNsTFd4SmZfV2NzVU5KdzNiejdBaWxvcmtDWlAzcWREWDJPYWhUZ3plc2pQRWtPb1BiTHdsbjl2TGFv0gGcAUFVX3lxTE16ckd5S1hiaGs5ZXpnMWtzSnJLSzJUeEhlUDcyUXh2YTJfOGVDNUxmd2pfLTdZQWptUTR2STRjSUFmelRIalNlMnRuUDMtUk5obVN2bWNRdHdla3BCcld5dEVJc0VtMTNwa2hka3dMRVg0eVVCV3o2dFdNSFBnaE9pemwxQm4tQ1pRMjJXbmZNRzVudmVxZVRadUU2eQ?oc=5",
       "source_name": "Al Jazeera",
@@ -140,7 +336,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.6
     },
     {
       "id": "cf321e9fcdaf3e33",
@@ -158,9 +354,9 @@
       "confidence": 0.55
     },
     {
-      "id": "7fa3e771ac04517d",
+      "id": "55006bbc7b7d9138",
       "published_at": "2026-06-04T09:26:29+00:00",
-      "title": "Iran war live: Israel attack injuries several after new Lebanon ceasefire - Al Jazeera",
+      "title": "Iran war live: Israel continues deadly attacks after new Lebanon ceasefire - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQdIBuwFBVV95cUxPRzF6SWJmbE5YVktwdmw5UnZtNnNUalRzX05ac0Q3QjE2V2NIRGdCT1B3UFlBMlhLN29WWEdNblUwMTQySXBBemxyakQwcEx5LW5MdlpLbldpeDZIVmxrcTJCU1lZYkJQVjlNcXNUcVNleVhKYnVGNHVKMzBLNVEwODhJYl9nZDZ4V1J4bDdhMW1hWWlneXM3dk1wcjJ1eEo5cjVLME9KWmJGQU94Tm9qS1NCYllmelpCTFRr?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
@@ -170,29 +366,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
-      "id": "4dabde341d26eba2",
-      "published_at": "2026-06-04T09:00:00+00:00",
-      "title": "US, Iran exchange military strikes to put fresh strains on ceasefire - Jefferson City News Tribune",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVGx0QnhVT3lucWpXSE9CcklYd1l4SER1azF0UXRBcjYwTTRXNVBNZzg3c1U3Q3NsckRtTHB3SzlvMTFSc3FIQkNJTE9HUjBNWkhlRUVLNHVVVnowa1ZpTTVMNG44S1N5WXJDYXBURXFOY29ydXVRY3BQWGFnbTNmSDl4em5IbVVrN0VUbW9LS2wxenZmUE9r?oc=5",
-      "source_name": "Jefferson City News Tribune",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4208970abf40cc8d",
-      "published_at": "2026-06-04T08:46:41+00:00",
-      "title": "US House Votes to Limit Presidential Powers in War with Iran - IranWire",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOalZRWG9ob2VXMVc5eVYybzk4eUxEaU9wNEkzSmQxRHhxSmkyY09wa2xHdjFvMGFOeFB2bDVxYXpMUTdvSXFUMlVoUi1FLUNHOTlGenF0MEdCZ3JwWlN2amlxTE9oYlRMNzZLTlJGY0p3UjdrczJrenhDTjktbUMxRDNjc1ZaVEVlQ3R4WWhxZ2dtZ2tBMVBoUTFZNWY4dw?oc=5",
-      "source_name": "IranWire",
+      "id": "5b79cb2fcdd504e4",
+      "published_at": "2026-06-04T08:58:29+00:00",
+      "title": "Video: US House of Representatives votes to block further war on Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQkctM3NHYUx3NnVvM29CQnYxT0VtLVIxTTZNR2F1R0U1RnFhR09uNm9tMEJReXRZNGc4eVlhRHRMdUhJaUtldVVSd2otLUFpOVR1YzZzQkM3VzVGVGw0VFkzYUNQWDd3ckRxUkt6RWh2U0NrOXAwUngwVnpYVVBkWlFib1YxSllFZF95TUUzVnkyNl9idjhLV3cwY29HVG9MZUVGdU1oWFRHZGFZNUlIbHZBNFhoVWFxZHfSAb8BQVVfeXFMUHFvQ1ZrWUw5aXlmOWRnMXJKaS1FQWFBeThTZ2t3bndwWjBFTnpWT2ZNNDRIOHluN2d0STRGZ0F3cG9CTjJyWG40ZHhwTzVXNlRobHJ1MVZqQ3dDYnhSbFZNQWJGeVlYYmZNU2pQTk5fR2JDcV92R05IX1pkOVJnSE5TV28yaGl0dGlHT1dkNDRvN2s5UlBaWVV2dEFSNXdZWC1kZjBEZjZzc2N2WEVXTGd3UHJFN0xVTUtoRF9wMk0?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -203,9 +384,9 @@
       "confidence": 0.55
     },
     {
-      "id": "53968bf12dc722fb",
+      "id": "780bdc84e9fad38c",
       "published_at": "2026-06-04T07:23:41+00:00",
-      "title": "US House votes to halt Iran war, in rebuke to Trump - BBC",
+      "title": "US House delivers rebuke to Trump as it votes to halt Iran war - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSVnJoVHJRZnVHdmxMWGlXLVBXNVItOGRHRm9CSnY5TVZrUHB4Znd2Nmx2eG5oOElGMGNHQVZUUjhoSUIyNkhMUmRJT0tzZVpDR1FLazRwZGdWZw?oc=5",
       "source_name": "BBC",
       "event_type": "other",
@@ -216,186 +397,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "5e9c717084a5fba6",
-      "published_at": "2026-06-04T07:23:00+00:00",
-      "title": "Live Updates: Israel, Lebanon agree to renew ceasefire as Iran launches deadly attack on Kuwait airport - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWmVQTjduVEoyLVF3Ym84c25PRXR5dmFoMjlXUy10N3NMYjlEbWxoS0JtSW9Oc280eXRqWVNDOEZZLW1OWXRFdEVwUFl2NXNjSWVTdjNjOXpBcXZ1QUVjZEpiREZEM25YUlVlR1M0UTBUWVF0cVZGaUE4dzQ1cVZvTWFaREh0czBnX2Y5YXY1Mi1Ic3BOSGpRTXROMFhoSWtYU0dDYw?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b0cee37421fa4367",
-      "published_at": "2026-06-04T07:20:00+00:00",
-      "title": "Iran live updates: Israel, Lebanon reach agreement on implementation of ceasefire - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY1JpQm95Tm9hUTRLN3NSSEZCVkdhWW1SNm9vcHZETThSenRkaWJmRFNyT1lmX0xSWTMzZWptZjdXbThsN3ItZ1dPdnNYM2J4eXdBVVM5ZWNhemYxcXJ4c0pWM3ZSOFNQNVN3SzliN2RGMXRuUW1xSHlieFlIUjllTjAwQTFNX2w0QUtmRWdJUWJXUHNlbTRBSE5oc0NwUWpYWjlnem9JQmlQQ0RyaV9QbQ?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "3dde6f357935c202",
-      "published_at": "2026-06-04T07:07:30+00:00",
-      "title": "Iran war day 97: Tehran says no progress in talks; Israel attacks Lebanon - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcEhTeDBnM1ZJY3BCa0hBYTAtV25oSnlCdHROUkFIN3lFbWFnM195WUVWaDh2cmJnckpwczg3UjhRa3NVQ2wtem9OWW12WFJrLWl5TkZmS3pYNm01dGFJQ0lzaFJNV2dmdXhDOWdDckRsYUJrQUFqT1JUVTIzaGVhbmNtRmp2cnpVczc4Zi1tUGR4QWlfVi1nNFhlY1lmTHJ3UHNiWTM4cWI3ZmZ0Q0Y0cQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "6ffd75c436b4452f",
-      "published_at": "2026-06-04T07:07:08+00:00",
-      "title": "What the US-Israel war on Iran will not change in the Middle East - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQS2V1dUZHazlGSndCMmZtdVBITG9YSWdKUDZWZzU4ajBaUWdacGhGUDFqS3JwZnJwMzhZeklQall2RTNfVTdjVHRrc1JieU9KWE1ycHVtZzlXM2lyRVpHWVBHemxLVm14eFdLYm5SVF9VNnYzNVg0SUx6VTZxXzRtLTUwLVN3andlc0ZBR2M2RmNKNmFaZU9lUnQ2VXlYZ1oteEd1bFRNazUxWWdXNEHSAbMBQVVfeXFMTklwc3NKbmZIanFucENiYXN6QXJUM2hFTlgzeG9PZ2lhMWVSTUkwQlYxaEo1S2VmNGZHR2hMUW1FTVRSNUdwWnFMU3pFd0VfMDBHM0NUZGRKXzVac09ZRngtVkVCVEFyQVJFZkVlRkZLYkoxdmZGNnQ4SDZVOEp3dGdsempXR1c4Z1hlZTlNQXRxNUNQelVZQm12ZktlQVkxMlBNMVFkUXdRN1ZfVzc2WHVEQTA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b6040ac1134a4ce2",
-      "published_at": "2026-06-04T07:05:00+00:00",
-      "title": "Iran war: US House votes to limit Trump's war powers - DW",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXB5dlI5LXctTkd5ZmhmUEZwNHdqWkdEWkFpa2VZeEFPa2lFTmRiQXQ0bHkwNFZlNHM4TGtydDg2NVJ6SEpDelhrVHh4cTFmLUhXR2Myb3dsV1o2R0t6ZXl1NVlWa2dad0NOb3dBVDMxVUV0XzBUOUhtb2czOFhoOC1wWVJtQ1A4eVgtcElGQQ?oc=5",
-      "source_name": "DW",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "16aaa5527ee14ab8",
-      "published_at": "2026-06-04T07:03:00+00:00",
-      "title": "US and Iran exchange biggest strikes in weeks, straining ceasefire - KPLC 7 News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZ0dSUWdLb1FCQVJvNl9yQW5jS1V1WUY1Nlp6QXF1X1dVaDRBeDB3dHBza0pMdHE1TlQtVFE3UWxIWmNja2JkTmVMRmM2VUhMS01pR2hqeXQxZkcwV2NOcmlOUE1xTmRmTlVsT2VkWXFKMFd6ZWxmVEtiaEdkSExvUGVvTFZfOS1rTmVGOF9Od2lfUmlfcEpuOW5UcnVOczhU?oc=5",
-      "source_name": "KPLC 7 News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "88a3490e63991bce",
-      "published_at": "2026-06-04T07:03:00+00:00",
-      "title": "US and Iran exchange biggest strikes in weeks, straining ceasefire - knopnews2.com",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQTRzM3gydHkyQjN4SUVKdC1vNWl0cGpVLTJFTW0yMHUybXBEdTVUUXNLajEwWTh0RTZDYkkzbnB6djJWNHdLV1o1d0RDR2hiU1NIMHo0NHpmUGdZZUMxd2oyQjJKSURGejhDWE96MmtzV1VDcVVUM05YLVNLS3ByaUVGbEhjQWFoRzNNdzUtY2EyU3Y1OUZ1aWZMVktlcnJmNXFOTg?oc=5",
-      "source_name": "knopnews2.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "428d3c3f18b3e777",
-      "published_at": "2026-06-04T05:19:18+00:00",
-      "title": "US House Approves Measure To End Iran War As Rubio Insists Conflict Is Over - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVVkWjUtc0RveDNXcmh3VUZCcFVWNHN6UVQtVnJYTkNIWTI2ZjUwUzJkNWRYWE91UUJXQmVRcFJVeUhFWFhmSXdPUjlKbkZDZXU0dFhwVktqLUNwUk5vSFBBWDkzUTZ0Nmd5dHR5VTVRNDRYdUlTQzNUR2ZQTWZMT9IBgwFBVV95cUxQbDA0ckdYZUJSekFpN25ZcElQMV9rMzJLV3dkWlV6VGxSTDVpZnltOXFfVXc2cndXazJqbjBoUDZ0Zml4Z21OOVk3Ni1XOEJZVjZrbVFsT2ZLeURyNVNrTGJHN1pQRDhEbTNZUVcxRnNFQW50RGs4emp6aVRwWUtRRzVzWQ?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6e3773a7065c8dc0",
-      "published_at": "2026-06-04T03:37:00+00:00",
-      "title": "Gold rises on softer dollar, oil, as markets weigh U.S.-Iran peace optimism - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR2czcksxLThFV1FfemVKOTRtM0VWcFhTVmxNekdWMkNwdEhkdVRHRHVxNlZYaGFoNGdtUG5kR3VGRWF4QU45bmFOWEtoYnhhRXU1ZHpzY0pVeFlYcm9hSEVOTGw5bTE1RGtfSUstZmpTZ2pUM1pkSzVYZTQ3NWpOOWxfSkoyZUVtcnE4SkdWSzF5NmhhZTJJS0x6cTFPa2dsbkpEcG1acmtremZh0gGyAUFVX3lxTE1YeWs0SjQ1RXM4clMzNkh0amRDVnBILVdKcWphdG5GNTZPTDgxdzZGbFBoeWNSOTVoMGVhRFBKX2E1bklkbUJtQ3hnc0ctSzdkaEdqVlg0U3NYSXpKd2xGam9JclVzTDVVTUt6bkdSeFljM1kwUnRraVdodXg0X3dXa2toeGp6QWZUdFhEdHg3R3VsT2MtSHZhb0Zhcjk0M3NZSm5CZ2U3aTZkcVVwNzdFWlE?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "d4150926455ac0f9",
-      "published_at": "2026-06-04T03:22:00+00:00",
-      "title": "Israel and Lebanon agree new ceasefire as Trump scrambles to end Iran war - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaG5kMjBqX0M4SElxZEM1VWlXVk0zM3hPUlluMTFMR1FkS1R2c1NKUWczZ2djVm1rbl9xdHZqZS1oalp3eTFLd3BuLTdDOUlYM2JSc0kwdUZuNHRONW9GYUFGbTE3VlFHS3VuSWpySU53Um9OUzVxTlVJdUQ2ZW40WDQycEItb0h4VHZLSlFaUTV4TnVUamNuM2ROdDRVVGdMWUJZQThMRWtVemJzclF4V01GRGtrcmNm?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e8ccc92c0d8118bb",
-      "published_at": "2026-06-04T02:59:37+00:00",
-      "title": "Iranian attack leaves 1 dead, dozens injured in Kuwait - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUFBdFN4MV9jdWh4cTFJVW1RcFpyUmFKVXhBTzNRcnVubU8yaEJERi1FMmJ5V3RFSXBCNXBuNHJ5OXVFQWlCbzh2R1NBZmZmQ1M3TGF2VGdDZjQyUlhDaG9ISW9sZWFKZzlFMUl2MExUYmNmOHljNkg4V05UQzBHUjlLRGhfaU5Da3V6YjNlZlNTU3YyaHQzc2FoQkZPSkRTWEwydzdqdmJCOUxtT291Y3gyYW0?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "ebdc48d9f8673a92",
-      "published_at": "2026-06-04T02:42:01+00:00",
-      "title": "US and Iran traded strikes in one of the biggest nights of attacks since the ceasefire began in April - CNN",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fdmRKTTlhUUs4ZkJudnliamNFTTc4UlFzY21SNHc1V05JOEJMY3g1bEExWFlRZmNQSjRFNWY2Ylo1NVhtYVZ6a3FNeTZPN0VTWlV2b2lyVjNfT1JLbS00RkJhNEdWTm05U1Y4?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
