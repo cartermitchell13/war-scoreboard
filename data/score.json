@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-04T15:47:30.505081+00:00",
+  "generated_at": "2026-06-04T20:25:52.792047+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 93,
   "totals": {
-    "usa": 33,
-    "iran": 23,
-    "lead": 10,
+    "usa": 34,
+    "iran": 19,
+    "lead": 15,
     "lead_side": "USA"
   },
   "momentum": {
@@ -15,14 +15,14 @@
     "delta": 13
   },
   "confidence": {
-    "score": 67.6,
+    "score": 67.5,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 21,
-    "other": 35,
-    "attack": 32,
-    "material_loss": 4,
+    "attack": 35,
+    "diplomatic": 18,
+    "other": 36,
+    "material_loss": 3,
     "intercept": 1
   },
   "history": [
@@ -49,11 +49,11 @@
     {
       "date": "2026-05-26",
       "usa": 0,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-05-27",
-      "usa": 0,
+      "usa": 1,
       "iran": 0
     },
     {
@@ -63,7 +63,7 @@
     },
     {
       "date": "2026-05-29",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -88,22 +88,37 @@
     },
     {
       "date": "2026-06-03",
-      "usa": 13,
+      "usa": 12,
       "iran": 12
     },
     {
       "date": "2026-06-04",
-      "usa": 15,
+      "usa": 13,
       "iran": 6
     }
   ],
   "latest_events": [
     {
-      "id": "d63603160f2a951a",
-      "published_at": "2026-06-04T15:36:00+00:00",
-      "title": "Live Updates: Iran says \"no tangible progress\" made in talks as Hezbollah rejects Israel-Lebanon ceasefire agreement - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYlpmbDZCQVFUOFE1aWl0NG9jVWp6MElrRjJzNE5UVTVkelU1anNIYjNvRjZ5bHNLVWM4M1h1UXFvbHRGNXZzS0RxSF9OU21OUm5VQTZwdnIyMVJTVmwyLU5YLWY2RkRRTXFOV05FdW9BYjVodUlYaVNmdTdEVTlkaDFrU2NvYnp4eW5MSlIxSGhDemJZYUxF?oc=5",
-      "source_name": "CBS News",
+      "id": "265811610d2e94ea",
+      "published_at": "2026-06-04T19:56:36+00:00",
+      "title": "Mideast Live Updates: Israel and Hezbollah Trade Strikes, Leaving New Cease-Fire in Doubt - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcTNYYjZmbTFVQzRwZ2Q0THdUakdnWThpTTBIdGRWcUhVSjAzVFoweHRlbll4bnZlVVlQVll4U2pyTUMyQnllajQtVkxMMUtZVHpEUjdLaHdTaXdGWFdITElJZzVpMDFkY3dJVGJZMmJlamlKblY4eWZHMGIzSG1jWQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f470ff53481766bb",
+      "published_at": "2026-06-04T19:46:16+00:00",
+      "title": "Iran war: Hezbollah rejects Lebanon-Israel ceasefire terms - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQcUFsTmRFSTQxWG5LSUtDWkt6Vm1wZ25QYTFaOHJNTkVVZ2M1TmdTZFVjVko5Nkw2emo4R1lzOHYzZktyXzBMWktVdXNnQjVQMVFKWlJMM1hxWjdYQmVfWTZrOU1SSGZjd2ladmxmZExKbDVwS0pGenZLVGE4NHQtTXJDNVQxQWxURG4tTFF3X1I5cUdycmhCVA?oc=5",
+      "source_name": "dw.com",
       "event_type": "diplomatic",
       "actor": "usa",
       "target": "unknown",
@@ -111,7 +126,172 @@
         "usa": 1,
         "iran": 0
       },
+      "confidence": 0.7
+    },
+    {
+      "id": "ac3ea259b297012f",
+      "published_at": "2026-06-04T19:20:17+00:00",
+      "title": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaC1FUm1UYy1rOVFvcUI1MGY3T1U2VVQtMkVKandMNGZ1WHIxSC00blRhLWhtdDFUellNNXBJTWpMOUV5SmlfbkRmV0FGYkptYnBUZ3pndldld2VvYnF5TGtUN2cxLVhsVG9kcXlLaGRwbThxdTIzS1pOOEZLT2NJTV9WaG9GMG5aWEJTSGhfcXJGeUpic1VQY0Q2bGM0YWQyYVRtYg?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "240e1eda4e782cc1",
+      "published_at": "2026-06-04T19:19:46+00:00",
+      "title": "House votes to block Trump from ordering more strikes on Iran - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQODc2a3FZVmZfdkhrbEpZc3MtZlpwWWVWRUdVemJQSi1COTh6YjlMcU8tWEtBbTUyUWVMWHNvVEJQTUVSMFYyNHJUZDRNXzBHTU5jRHJmSF90M2JnSTBENHVBNnFCU2RNYlI2b2JpbERRR2JWa1JUQVBNWHdOUTFWM0ZvcEM5VVMxSVdfSFVmcTRsNDZJZzVWNXFTTXdNUm5DclNtVExpX0pHMHZUSVEw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "6f4356dd6d543e27",
+      "published_at": "2026-06-04T19:07:00+00:00",
+      "title": "Live updates: Hezbollah and Israel trade new strikes as uncertainty surrounds US-Iran talks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xUDZ6OFRNS2NIcWt6VWY5cHdUeVBGa1hRMENwd3U5YVFhN3RUY2lIWkd5MnhTQTREb2NWQ2FzcXZBR2N5TlFxWnpKTHZsNzMtQmpGWXB0eVUtc0w2bzU5SEtGY3NxM3ItOTRURXZFMUpuNUI3?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
       "confidence": 0.65
+    },
+    {
+      "id": "00680fdd432dd6f4",
+      "published_at": "2026-06-04T17:22:00+00:00",
+      "title": "Oman resists US pressure to break ties with Iran over strait of Hormuz - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOenRIUGdYT0MxX25zazNRYWhRdEIzaTR4bTY4b0p6RXZIV3hYZmlNa3JhUVZvZDBXNUM4TkVJZW1Sd3NqZXpOVFZlSGJJMFRaRXhqdGNKSHJjSHZaNWlxOXJ4S2hoYXc5bWRseWtQWnktWlJSMTJVSmpCVDVOS29QcUE5TWtuM0txdllfQ3VuaG9kSDg2MlNWSFFteHVIaksxUWVyUmYzYlp5UUdrTTYzWWQ2ZHg2SWs?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "65bd6b54bc91b793",
+      "published_at": "2026-06-04T17:00:00+00:00",
+      "title": "Trump\u2019s Iran war messaging is not winning over Americans \u2013 or their representatives - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNU1dWQ0UwZ0dETmcxVGY2UnF5OXFBSWF0TjN2LTRGNU82bU95VGhDS0Z3djJaQU5UcHotTlFGNnRNQ2dsMHFmdHFSVUlhQVJUOE5LNmRrWmVETk1XUnBpTG5uaW1zblZINkM2cExNbkt5Wkt3Y3JCMWhOUzU2dGVocHV2UTJYeUVkR2oyUEdEZlhrNHc?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "232b1919256e2cdd",
+      "published_at": "2026-06-04T16:15:00+00:00",
+      "title": "Iran live updates: Trump calls GOP backers of war powers resolution 'grandstanders' - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY1JpQm95Tm9hUTRLN3NSSEZCVkdhWW1SNm9vcHZETThSenRkaWJmRFNyT1lmX0xSWTMzZWptZjdXbThsN3ItZ1dPdnNYM2J4eXdBVVM5ZWNhemYxcXJ4c0pWM3ZSOFNQNVN3SzliN2RGMXRuUW1xSHlieFlIUjllTjAwQTFNX2w0QUtmRWdJUWJXUHNlbTRBSE5oc0NwUWpYWjlnem9JQmlQQ0RyaV9QbQ?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "330699497280e501",
+      "published_at": "2026-06-04T15:54:30+00:00",
+      "title": "West Asia war LIVE: Trump slams 'unpatriotic' U.S. House vote to end Iran war - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWHVoZXY5Qzd6UFQ5MDJBbTRLS0d3Z3lJSWExVWR6cDcyR01QME5YdTM0Zk5ibUgyeFRfbXhNd3h6dkhRY0FNLWxrLWc0c2ptUThuN0EtS2E1OUNURERqQTBjMUNKSlI2cFNaWm5mc1J2bWVQcThnelVsSjl2OGFuVEJURzVCWGZfSm5ZMl91dm93dnhzRGcyRmF0ZE11LWV0UTVYWGFIVGpZSmNDNm56Ti0tY0xzdU03eXBxcjVtZ3dKOUZ2cHBvWDZGZ9IB0gFBVV95cUxQcGpmMmxrZDBIV0Z5TnJLNlB3c0FRNGNQbjVOUHZhT1VYQXp2OWdzWXRtVGxvWS1HdTJaSkhieXBSUWp4UGc0OFU3am51d0NCeEhGTzFtMkJ4U1VOV002ZFBKWmx5M1dzdnlSM2d1bVItbVBRWDNhS2dNb0dZd1VPRTI0S1JmOTREbnBaM1NUMUlPUTBGbHdtbWtlRms5UHNxUnFOS3RPa1J1cjA5eWVwd2ozTVRjdjA1RkhRX2FUT0lmRWtyREpFZlpIR0pEMVBKb2c?oc=5",
+      "source_name": "The Hindu",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "4c0653448decc8d6",
+      "published_at": "2026-06-04T15:51:44+00:00",
+      "title": "\u2018Unpatriotic\u2019: Trump decries Republicans who voted to constrain Iran war - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZjBQWmtSUVZvYi11eHZwOWdRdEhaOWVUQ0pMOEhfR2IyX3pQMTJiVGl5TS1JamtzZF9zak84ZG4wZjJhQktib0RwU2p3aGdzaEdSNWZNdXlDeFZLZHlJcWpIZ1J1ZWJteW0yUEJaOFNlRk1yX2Z6NTAxT19ZS1JPOGRZUVB6R0R2cklQTEEtUGJMbXI3eVlzODFkSmhGVWRWTllXdVQ1NEZHYkRpZkHSAbMBQVVfeXFMT3IyUHpWZGEtSS1sdVNaQTRZbVZMQWRsa2VGaEZYM0dyWWIzOEE4TS02ckpMSjFOSUY3VlQyWXNfMDJ0cU9XaUxOR0Q1bF85VERQUnpHcXZ6YlZ2VjFrWS1jb2szSV9CT3Rjc3Q2a3VKdmdZZXJRazQxQlVwZHpfZ1dneW4wQ3dyRDZicTh3ZkFpRXE3R1JfV2dxeWZ0WkVJVzl0czdDYWFlUlFleFI1aF84ZHc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "652d5a25c4c40877",
+      "published_at": "2026-06-04T15:17:00+00:00",
+      "title": "Iran and the US both think they are winning the war. The truth is they are both losing | Sanam Vakil - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNTJseWVodFBFV3RrVU5fM2pKMDBPOC1qWklTN0hXdGp0VlBTaU1JMkVLWHc1T04xRlZjX2YtWm9KX0p4Vm5UVkxBbWNqN2pmNVZpdndBV3hQMUFTRjdMLXMzak5BMnEwTHBYbmNmTjNnSUZ2N2JXQWh0bVBVZ0hyR2JSZFdIcUJ4cnZyUHlYZW5JNnV3S2pkQ2wzeDE?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c38c0cecd58ddb19",
+      "published_at": "2026-06-04T14:46:36+00:00",
+      "title": "Trump hits back at 'unpatriotic' vote after House rebukes him over Iran - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GS1ViQlNROXdONFQ1N2lhQUh1SV9OWmVLVnZqWDNoZUpSN2h3RXNYYXl1QW9LZUhDcWFqdGNnN21iVWpOaFRDZXNzeTN2SG1SRHF4MDAwTzE2QQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "95c53a908ec8529e",
+      "published_at": "2026-06-04T14:45:30+00:00",
+      "title": "The Iran War and the End of the \u201cMiddle East\u201d - The New Yorker",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQd1VmanBZLWNfeU5FV0JIMkRkZTdyTWJLYl9vMzgtUDExU29rWUJkSkZuVVQ2UFFrVDU1cFEtMHRxbGtHR2ZIOFdlY0RZUHpMYWExNjZWdnlFLTRENFV1d1dVNU1VVFJySXI0MVhRUWhPWk9nUTBvQ3lhcm9OeThleThSUVZSaDdraHp3?oc=5",
+      "source_name": "The New Yorker",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "6cbb71a5650b1e7a",
@@ -144,26 +324,11 @@
       "confidence": 0.65
     },
     {
-      "id": "330699497280e501",
-      "published_at": "2026-06-04T14:25:17+00:00",
-      "title": "West Asia war LIVE: Trump slams 'unpatriotic' U.S. House vote to end Iran war - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPWHVoZXY5Qzd6UFQ5MDJBbTRLS0d3Z3lJSWExVWR6cDcyR01QME5YdTM0Zk5ibUgyeFRfbXhNd3h6dkhRY0FNLWxrLWc0c2ptUThuN0EtS2E1OUNURERqQTBjMUNKSlI2cFNaWm5mc1J2bWVQcThnelVsSjl2OGFuVEJURzVCWGZfSm5ZMl91dm93dnhzRGcyRmF0ZE11LWV0UTVYWGFIVGpZSmNDNm56Ti0tY0xzdU03eXBxcjVtZ3dKOUZ2cHBvWDZGZ9IB0gFBVV95cUxQcGpmMmxrZDBIV0Z5TnJLNlB3c0FRNGNQbjVOUHZhT1VYQXp2OWdzWXRtVGxvWS1HdTJaSkhieXBSUWp4UGc0OFU3am51d0NCeEhGTzFtMkJ4U1VOV002ZFBKWmx5M1dzdnlSM2d1bVItbVBRWDNhS2dNb0dZd1VPRTI0S1JmOTREbnBaM1NUMUlPUTBGbHdtbWtlRms5UHNxUnFOS3RPa1J1cjA5eWVwd2ozTVRjdjA1RkhRX2FUT0lmRWtyREpFZlpIR0pEMVBKb2c?oc=5",
-      "source_name": "The Hindu",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ac3ea259b297012f",
-      "published_at": "2026-06-04T14:09:48+00:00",
-      "title": "Hezbollah rejection clouds Lebanon ceasefire and prospects for ending Iran war - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQaC1FUm1UYy1rOVFvcUI1MGY3T1U2VVQtMkVKandMNGZ1WHIxSC00blRhLWhtdDFUellNNXBJTWpMOUV5SmlfbkRmV0FGYkptYnBUZ3pndldld2VvYnF5TGtUN2cxLVhsVG9kcXlLaGRwbThxdTIzS1pOOEZLT2NJTV9WaG9GMG5aWEJTSGhfcXJGeUpic1VQY0Q2bGM0YWQyYVRtYg?oc=5",
-      "source_name": "Reuters",
+      "id": "f7ba47026bc75403",
+      "published_at": "2026-06-04T14:02:50+00:00",
+      "title": "Where peace talks between the US and Iran currently stand - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUExTQzJIYVBPLXd0SFJMdVYzMmpDSDdXX2h0Ylg3elE0NGU2NEpNWUtSczVzSGN0a3pYZ2FaM1Rja2RjMzg3WjhWUHd6SUJZbkQzNjZQNDdQSy05XzR2bTBQOXdoTDVIUmF3cV92YmZwOTlrVWY4d09HQjZwMzhhdWtUUXE5VTQ4LWxEMnhCa2lUaTMzZzlr?oc=5",
+      "source_name": "The Conversation",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -186,22 +351,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "f99ea7fcac658b91",
-      "published_at": "2026-06-04T13:48:00+00:00",
-      "title": "Live updates: Israel and Lebanon agree to implement ceasefire as US-Iran talks remain in flux - CNN",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE0xUDZ6OFRNS2NIcWt6VWY5cHdUeVBGa1hRMENwd3U5YVFhN3RUY2lIWkd5MnhTQTREb2NWQ2FzcXZBR2N5TlFxWnpKTHZsNzMtQmpGWXB0eVUtc0w2bzU5SEtGY3NxM3ItOTRURXZFMUpuNUI3?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
+      "confidence": 0.6
     },
     {
       "id": "5c3537f19b59854d",
@@ -219,11 +369,11 @@
       "confidence": 0.55
     },
     {
-      "id": "97826476d0443bcf",
+      "id": "da4829f87bcd949e",
       "published_at": "2026-06-04T12:34:00+00:00",
-      "title": "The House voted to end the war in Iran. What happens next? - WBAL-TV",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQUGxtMndYblpocjRqV0wtOUpZNHc4bkx3YjZXWHc4YmNHOC1SVjdmSThNM1JLc2NNUFZRT1hqeElOS1MzM1BycGM2ZTA3bUNWc2t1UFNURWtMM1l1eTJyZms1U3Q1R0pXRXgzTUt5dFdLMi1hSW1GY3loMDhvYTlYOXN4bDMzY2ZFNGE5dEF0RkdDZw?oc=5",
-      "source_name": "WBAL-TV",
+      "title": "The House voted to end the war in Iran. What happens next? - KHBS",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ2otdW1ZamJtMkxDRUlYUnZ1RDd3N0VpS0lXY1FRRzlOLUVjX2YwcDRXRW9vMUs5eXIwWGxYQV9GNU9EZHd3MVdNc2hXejN6eG81YktLYjEtTnFxNEM3RmxuUE12NWg5S0stZlNtYk5EZm5WZmxaTUxpTFIwOFQ3STJvNzJrQV8wU21FTXFVVmxfQQ?oc=5",
+      "source_name": "KHBS",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -232,36 +382,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "b6040ac1134a4ce2",
-      "published_at": "2026-06-04T12:27:12+00:00",
-      "title": "Iran war: US House votes to limit Trump's war powers - DW",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUXB5dlI5LXctTkd5ZmhmUEZwNHdqWkdEWkFpa2VZeEFPa2lFTmRiQXQ0bHkwNFZlNHM4TGtydDg2NVJ6SEpDelhrVHh4cTFmLUhXR2Myb3dsV1o2R0t6ZXl1NVlWa2dad0NOb3dBVDMxVUV0XzBUOUhtb2czOFhoOC1wWVJtQ1A4eVgtcElGQQ?oc=5",
-      "source_name": "DW",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "232b1919256e2cdd",
-      "published_at": "2026-06-04T12:00:00+00:00",
-      "title": "Iran live updates: Trump calls GOP backers of war powers resolution 'grandstanders' - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY1JpQm95Tm9hUTRLN3NSSEZCVkdhWW1SNm9vcHZETThSenRkaWJmRFNyT1lmX0xSWTMzZWptZjdXbThsN3ItZ1dPdnNYM2J4eXdBVVM5ZWNhemYxcXJ4c0pWM3ZSOFNQNVN3SzliN2RGMXRuUW1xSHlieFlIUjllTjAwQTFNX2w0QUtmRWdJUWJXUHNlbTRBSE5oc0NwUWpYWjlnem9JQmlQQ0RyaV9QbQ?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
     },
     {
       "id": "f37ea7d86962b253",
@@ -277,126 +397,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "00680fdd432dd6f4",
-      "published_at": "2026-06-04T11:30:00+00:00",
-      "title": "Oman resists US pressure to break ties with Iran over strait of Hormuz - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOenRIUGdYT0MxX25zazNRYWhRdEIzaTR4bTY4b0p6RXZIV3hYZmlNa3JhUVZvZDBXNUM4TkVJZW1Sd3NqZXpOVFZlSGJJMFRaRXhqdGNKSHJjSHZaNWlxOXJ4S2hoYXc5bWRseWtQWnktWlJSMTJVSmpCVDVOS29QcUE5TWtuM0txdllfQ3VuaG9kSDg2MlNWSFFteHVIaksxUWVyUmYzYlp5UUdrTTYzWWQ2ZHg2SWs?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3cd7ff5dd2463eca",
-      "published_at": "2026-06-04T11:26:17+00:00",
-      "title": "House votes for first time to halt Iran war - The American Legion",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPckFtdGF4R0tySmVBaHBMSHZnYmlXbkdLZVI4S0V0UXd2QWIxTTZ2MGphZVlCQjdKVzl1ZVNzVzNvN3BaOVZvclNYdjNoNE1EcVdBMzZkMWQ4R1pTdGVHQjlQMkJLOTUzYVRISEFTUnhwMGU2TDRxRmxyaGRMcDFGMTNhZWZQMTJ3aGZDRlFvSWxEdTNPdVZZc2Y3d3YyLWxxYkV3TmVyMTZocVcwZFE?oc=5",
-      "source_name": "The American Legion",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "81a37fcf79d3f332",
-      "published_at": "2026-06-04T11:08:04+00:00",
-      "title": "House rebukes Iran war and Trump names attorney general nomination: Morning Rundown - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeDV2RzhSYWFaZkJIV01iaEJaQi1BMS04bDJIU29xdUxCYTNuc0lYOHZReEpNY1hKSGhuSmtVRF9xMkQzUnhTUjFpWnJfWUwyMU1XLWpROHdISngwYkw2WnNISTlvNExDeUxOcXZWaWdEY2RabTNlUzJFNm51RFdOYm9zMWpGZkZOVWZ1NHd1UzFmMTFWY1dYRHJzMjBod3hueExWQXZ2TU8?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e657abb242c8917d",
-      "published_at": "2026-06-04T09:56:24+00:00",
-      "title": "US House votes to end Trump\u2019s Iran war: Does it matter? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZC1jZUx2V3FUS052MFZpQjlHejNYV3NZVTNXdVVOSmdISC12RktsWEh6cFNQbW4zR29veEJLRnVkc3ZVNThYazNPZkhUVEJpNXh1YVZoT29yQXZvTUNsTFd4SmZfV2NzVU5KdzNiejdBaWxvcmtDWlAzcWREWDJPYWhUZ3plc2pQRWtPb1BiTHdsbjl2TGFv0gGcAUFVX3lxTE16ckd5S1hiaGs5ZXpnMWtzSnJLSzJUeEhlUDcyUXh2YTJfOGVDNUxmd2pfLTdZQWptUTR2STRjSUFmelRIalNlMnRuUDMtUk5obVN2bWNRdHdla3BCcld5dEVJc0VtMTNwa2hka3dMRVg0eVVCV3o2dFdNSFBnaE9pemwxQm4tQ1pRMjJXbmZNRzVudmVxZVRadUU2eQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "cf321e9fcdaf3e33",
-      "published_at": "2026-06-04T09:30:00+00:00",
-      "title": "House Votes to Restrain Trump\u2019s Iran War Powers in Bipartisan Rebuke - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOcF9raEZlYmVaQXFQenQwNzZQRmx4aXVWcjgtX3RJNWlfTjVmR0Z3dVlORHBNS2EtQlhqRjc3c3RGMDVTZnhEMGt0ZjI4WDZDTzQ2OUJxalpmM3N1UEl2TGNWQ1d3MUVqaFhPd2x0YUlqeU5xeC0yQ0Iza3l1N0w4S29qOWdjWC16WkZjWE04VFg?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "55006bbc7b7d9138",
-      "published_at": "2026-06-04T09:26:29+00:00",
-      "title": "Iran war live: Israel continues deadly attacks after new Lebanon ceasefire - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNci1FMmVzUHVBVFpfSlNBQ2ozZUhXdk9wWllHM3FfM1IxVVc2cDNwdi1PaVJ6aldDY3JzYlhocTk0V3N6VUU1cHFPVzFaUVhsLWxNNnQweTlwaGMzdV9XZjRPbUpWakk0NV9XU1VOa1ZVWXp0VzJ2R25odmJOd1ZYZHpOYVhWUVEyb2dpOGRlTnpSU1NWSGpfZjZodjNxTWwySl9sdVFTczBib0d5NHBvR3UzU3dhQdIBuwFBVV95cUxPRzF6SWJmbE5YVktwdmw5UnZtNnNUalRzX05ac0Q3QjE2V2NIRGdCT1B3UFlBMlhLN29WWEdNblUwMTQySXBBemxyakQwcEx5LW5MdlpLbldpeDZIVmxrcTJCU1lZYkJQVjlNcXNUcVNleVhKYnVGNHVKMzBLNVEwODhJYl9nZDZ4V1J4bDdhMW1hWWlneXM3dk1wcjJ1eEo5cjVLME9KWmJGQU94Tm9qS1NCYllmelpCTFRr?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5b79cb2fcdd504e4",
-      "published_at": "2026-06-04T08:58:29+00:00",
-      "title": "Video: US House of Representatives votes to block further war on Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPQkctM3NHYUx3NnVvM29CQnYxT0VtLVIxTTZNR2F1R0U1RnFhR09uNm9tMEJReXRZNGc4eVlhRHRMdUhJaUtldVVSd2otLUFpOVR1YzZzQkM3VzVGVGw0VFkzYUNQWDd3ckRxUkt6RWh2U0NrOXAwUngwVnpYVVBkWlFib1YxSllFZF95TUUzVnkyNl9idjhLV3cwY29HVG9MZUVGdU1oWFRHZGFZNUlIbHZBNFhoVWFxZHfSAb8BQVVfeXFMUHFvQ1ZrWUw5aXlmOWRnMXJKaS1FQWFBeThTZ2t3bndwWjBFTnpWT2ZNNDRIOHluN2d0STRGZ0F3cG9CTjJyWG40ZHhwTzVXNlRobHJ1MVZqQ3dDYnhSbFZNQWJGeVlYYmZNU2pQTk5fR2JDcV92R05IX1pkOVJnSE5TV28yaGl0dGlHT1dkNDRvN2s5UlBaWVV2dEFSNXdZWC1kZjBEZjZzc2N2WEVXTGd3UHJFN0xVTUtoRF9wMk0?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "780bdc84e9fad38c",
-      "published_at": "2026-06-04T07:23:41+00:00",
-      "title": "US House delivers rebuke to Trump as it votes to halt Iran war - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSVnJoVHJRZnVHdmxMWGlXLVBXNVItOGRHRm9CSnY5TVZrUHB4Znd2Nmx2eG5oOElGMGNHQVZUUjhoSUIyNkhMUmRJT0tzZVpDR1FLazRwZGdWZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
