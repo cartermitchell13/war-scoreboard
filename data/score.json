@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-05T20:15:41.865859+00:00",
+  "generated_at": "2026-06-05T22:36:40.044230+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 94,
+  "event_count_window": 97,
   "totals": {
-    "usa": 31,
-    "iran": 22,
-    "lead": 9,
+    "usa": 30,
+    "iran": 20,
+    "lead": 10,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 26,
-    "iran": 19,
-    "delta": 7
+    "usa": 25,
+    "iran": 16,
+    "delta": 9
   },
   "confidence": {
-    "score": 66.9,
+    "score": 66.1,
     "label": "Medium"
   },
   "event_types": {
-    "other": 44,
-    "attack": 31,
-    "diplomatic": 15,
+    "attack": 30,
+    "other": 50,
+    "diplomatic": 12,
     "material_loss": 3,
-    "intercept": 1
+    "intercept": 2
   },
   "history": [
     {
@@ -84,24 +84,69 @@
     {
       "date": "2026-06-03",
       "usa": 16,
-      "iran": 8
+      "iran": 7
     },
     {
       "date": "2026-06-04",
       "usa": 6,
-      "iran": 4
+      "iran": 3
     },
     {
       "date": "2026-06-05",
-      "usa": 1,
-      "iran": 7
+      "usa": 0,
+      "iran": 6
     }
   ],
   "latest_events": [
     {
-      "id": "bbc669bc04d30024",
+      "id": "039a00c8c06b4642",
+      "published_at": "2026-06-05T22:07:00+00:00",
+      "title": "Live updates: Iran war, Lebanon\u2019s president speaks out, Hezbollah-Israel attacks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa3p2Mk13TlJHN1BKSVRWTWJjZHBRMUtqZlVIa1psMzNxY1BublNGZ2Y1eUY4NUhReHo0bFNrZllNZTduUHVjbEVoWXk4ajZzVDJLNGFiTXVaVHR3NDcwOGhwRVAyRG5zb1RSZXpCRklIS0p0NTU3T29TdHVUbDBKa293SFpPV2Zf?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "44519663da08f922",
+      "published_at": "2026-06-05T21:46:11+00:00",
+      "title": "Trump says Iran has not agreed to a U.S. deal because \u2018they\u2019re strong, they\u2019re proud\u2019 - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUDVoTjZCaDliM1lqYU8yTkhlalJzWW00SVlsbTFBQnFVdVRPQ1dPMFlWU0ZYUG9hYndfb2NpSHpyQUdFRm10SlczN3BpLWN4TVd6MHRLajFHNFo2NFRPVnRUVGNkVDFLaFExZmVYWVduQWNyMkNRbV8zUXM2MVpTb2JRTjZvLUcyekE0bHRvVTNlVHgyVDlRYTF5QndJSUR4?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "3832f00ae9438c9c",
+      "published_at": "2026-06-05T20:25:23+00:00",
+      "title": "Only US and China can retrieve enriched uranium from Iran's 'obliterated' nuclear sites, Trump says - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaWlsV0tpNEJoTnVWS184YVBrclJkdzF6ZWdZMWFScElBMXZ6RnVLMkVhTF9fVjJldE9JZTgxbEQxMDdfTkNIWXVzeXdjd0FZWkxIdml4NFM0ZUZqNkI5YXpmVXdVUU16eDItRFJNWEJLUy01V1RjbWVkWDROeWc3VGJRenUydmhfWnE2VkNoWnRYTGQtRlHSAZsBQVVfeXFMT2VuZ1hEN1A5RE9fUVdVcTJmVlVuTkZ6MXNxLWlpei00UDRBcGt5OXBxYlNvZ3drT0NnWlJvWHZ2SnRFNTU5bTNka0VoaHRFWHN2RDNjaWVGVWVwQU00cFdDSXd6MENuSWZrN1ZzOTgtODNsZk9adWxRd0M4MkRURlhqNXVqamc0M0U4aDN2N09abE1WLVNLNGJCVVU?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "721a59d2130e1e92",
       "published_at": "2026-06-05T20:07:00+00:00",
-      "title": "Live Updates: Prospects for U.S.-Iran peace deal clouded by Israel-Hezbollah fighting - CBS News",
+      "title": "Live Updates: Adviser to Iran's supreme leader says \"ball is in Trump's court\" - CBS News",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?oc=5",
       "source_name": "CBS News",
       "event_type": "other",
@@ -111,7 +156,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
+    },
+    {
+      "id": "2f0673e9c4dd99a9",
+      "published_at": "2026-06-05T19:55:00+00:00",
+      "title": "Iran's threats against this Red Sea chokepoint are a big vulnerability for the oil market - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTnBLWWpVNnVHUHhYR29iaHVOekM2a1laaWgyczBhMjF5bldEc2xQQ0lRc21vNEZBQUU0cHlzUHY0T2Q0TjlyeFowNWtibmNCRko3UlJLdWxJZjJkX19KZXloaU9oejBYY0JxdURKbkhwOTJjOHRDR1pGSWpHc29jOWwyLU9MUVdDNGVmSWVURzFkV3N2QjdzNnJB0gGfAUFVX3lxTFBFTGwyVUtGcXhvbkpMYk16R2d0eGZQWWhzcDM5dThmaXFXQ0Z3cEVnWFJJeE1SVGU5SDVtSXRMNTNuOFlKaTVqdGdvS0pHSzAtWGxPSDV4WURPOWdsOS1UMjFvbURVTVJVN1k3Z2F4R19hdGJhbzVZZ0FzOXUtRG5vd2VtZWRBT0RGUHlXbW12NUJrYTBkcVA0eXJWU2ZBVQ?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "5ec60be0ccb33286",
@@ -129,19 +189,19 @@
       "confidence": 0.7
     },
     {
-      "id": "039a00c8c06b4642",
-      "published_at": "2026-06-05T18:27:00+00:00",
-      "title": "Live updates: Iran war, Lebanon\u2019s president speaks out, Hezbollah-Israel attacks - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNa3p2Mk13TlJHN1BKSVRWTWJjZHBRMUtqZlVIa1psMzNxY1BublNGZ2Y1eUY4NUhReHo0bFNrZllNZTduUHVjbEVoWXk4ajZzVDJLNGFiTXVaVHR3NDcwOGhwRVAyRG5zb1RSZXpCRklIS0p0NTU3T29TdHVUbDBKa293SFpPV2Zf?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
+      "id": "1c872bbb8e30afe9",
+      "published_at": "2026-06-05T19:06:00+00:00",
+      "title": "Oil Falls As Market Holds Out Hope for End to Conflict - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQS09xU1NQTU9Dd1k4R2JvUkZiR1l0MzROLWZDOUpWTElmT29lM214cTdUN0dCV1pWWHVNdWYwcUFKaHlvLW9yNVg2NnZWOUo2a25oNnYxc09wWDl2YUE4RXVRclFxUmtCNVpKQ1lEakxOOEljeS1FMWZSWWI0d1RGenZPUTc3dUJtRS1LeTNFNXpjc0hkaV82TFB4RTgwMExtbGVsenZuZnM0MG1m?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
       "id": "6028ffe859e03604",
@@ -174,11 +234,11 @@
       "confidence": 0.8
     },
     {
-      "id": "a43fd8801fed644d",
-      "published_at": "2026-06-05T17:38:49+00:00",
-      "title": "US-Iran Stalemate Drags On as Conflict Nears 100-Day Mark - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRXBXVWc3WFFUc2xCSHY5ZDN3N2hUTERzNUJYYml0bWswNExmYVQwRVR4UEx1czdiY3g3MGJUNlBLbFhDc2FtWFNmZGZxTGh6MGk4MUVNRW5NUVlGX0lQTGJaYVk2cGFjVHZ0MWd1UHJodGlEU0w3NGZ5UjBQcWc2VWtqQzdwaXViRmtLUzlpQkIzZzRXdmpvakozNlVVZjdnNk9LZlNGRGlUZFQ1VHNJdHl4WQ?oc=5",
-      "source_name": "Bloomberg.com",
+      "id": "d1ff9be9779d899c",
+      "published_at": "2026-06-05T16:35:36+00:00",
+      "title": "US-Israel-Iran War News Live Updates: US blocks Iraqi oil tankers in Hormuz over alleged payments to Iran, says report - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPLTRXMXl5a0J1WHA3N3RLNko5VEpvczN4cWRxd3BzaFpZWFFkVUZEUzdtbHRlSDh1TXE4bkF1YjdRNVJPd1lYSDRxQzYwby10QWpyRXJaVFgwZ0c1MDRFeWZMRXkxUk10QktLcjRYLXI5U1pvVDhSWVhEenlBdm8tcF9Dbnc4OGxqUHNiTXgxa3RWVnJIOGtXenRrTXVENXBhaGpDcENOOW1jVjRtM1VwSDUzT251V1BsWXBuMWt0Y3FKdmF2V3FVSGFWWUEwYTZuMGZ1WVJiYnhYYldXbXFnZi1Pcl94VENGc1Vud0FDM0Nja0ZOT0R1dkkwRkQwT0Zrb1QzRzYycGZGNzN2ZXduX2JOdW1nTmtwOHlodGh6WVBiMHB6dXIwdGdvTC0tMzRhR18yTlpkbmZpVFVHc2xuQlU4NNIByAJBVV95cUxNSkVqUFlZUkFNLWhlTEZOaWNla3dnbTBXRV84cE9LbFNqcG1kNk5LY3l1ZzB2RUg2MGh3YVZ0QkJjTjlwWmRjMHU0a3JhbEd1NlpYelVIODFDMnJ4eVNVV3kyMXcwTkkxLXIzb3ZOUUYwLTdTcmhnU1RJaVN0T3AzUzhKWGVYRWlQSElsVGlqTzhzM1pyNWRBQnFtZkFwTVljTkstWGFkd01HdlVSb3I4YTRybU55SlRuSGZwUjhDNHFONnVCYlQ0X2tBTzNBV3BrYzNuRUp1N0JTX0xtR3hjUWdFTWZNX0h3aHVpRHpQdUxZdnVTbzRxa3M3MWRwbC1OZDI3S3V2WXhabnZJQ3EyX2tMWThiRkJoQVV3X1JmTDRNdktOekdrTTR5QjlOaHpyVFBJUVRuY3BjTkt1SnJoVUpZZXZIaHpm?oc=5",
+      "source_name": "The Times of India",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -187,51 +247,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "f9e4b744517d9bab",
-      "published_at": "2026-06-05T17:08:02+00:00",
-      "title": "Explained: Iran's frozen assets around the world - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9CdFJUeUVScVpfNXVwZ2lzX0pCVWFOOXFFczBaLWVFdjNQZzktVWN6VVlwdjRhbG1RVlRpeTlwaEdXZmpZMWlmVWYxdDFOZWhjTXc?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bfed9b39c3b75d88",
-      "published_at": "2026-06-05T16:45:06+00:00",
-      "title": "Exclusive: Lebanese president accuses Iran of using his country as a bargaining chip in peace talks with the US - CNN",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQREkxLThSdkNhaE5OazF3eTlmSGF2NXZDZmdWRjNoa1hJUXQ0bEZJY3FWSjBJZ0hMX3lBS1JBWkl5ZFQtTUktS3lmaGtIeVlacU1CQS1sVFYyR3c4eTFUTjJrbjMwSDluRy1ETGhOUzR6U0ozV3ZHaHlRSGs3d3d1WVhkTQ?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f8632c06014a6595",
-      "published_at": "2026-06-05T16:31:02+00:00",
-      "title": "Pentagon must divulge cost of Iran war under House proposal - Military Times",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdmxuLURaUEdsaWFzMDcyZE93UmsxZjk3aGtnaFlRVDZsZGxwUmp0clY1U0JQczVlMHV6b2RzcGhJLWgzU0hUQkg3azdfU0NQZ0E4dXVaeGt4alNISE5fTFhnZ1I0a0RYd0k4MjlaS1g5eS1yUGYyS203RHNjTVU4eElIaVdMMUxsZlU4ck1jWHJKQVdER1huTExzYjh4T3R2bTVSUzcwSm9ZVklla0NEOTY3YjNoVXRmeGF6amltRlJHZw?oc=5",
-      "source_name": "Military Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     },
     {
       "id": "24b4dc5ab0f87c93",
@@ -249,21 +264,6 @@
       "confidence": 0.65
     },
     {
-      "id": "9860e280653ab2c8",
-      "published_at": "2026-06-05T15:32:12+00:00",
-      "title": "\u2018Red meat is a dream\u2019: Iran inflation hits highest level since World War II - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObUcyTTExcTN0UHlsY0dxZW03ZE5JVDY2RDRKV0xQTDVVUnM4TjdRQ2ljdTA2aEFKYlpKaUthMC1sWkF3Mno2SGRXSkJiTEpLRTk2R3FCTnlHSllpSW03VTlwazRQUmt3cEhKTFRPTl8wcmNCN08wcVJ5RHV2X3JBeHVPRGVjazZHRG9YMGplX1NEQUZrYXJ4Zm5COXRoTEZEWFpRTlZVdVBpcXppZFk0RHJ30gG3AUFVX3lxTE9CM0JVTzlJOHREb2pOeDBRakUxQzVaSnlDMkdNZm1tVzVHLVg0VzJFYlFuWmpXOV9IbWJtbXVISGx6X19xYkx0Nzl6VXFNcTNYcmtmT1VjSExmT2Q1OW13R2prMFZZZGhDSnllcC1xMXVmMWwtYWQ1ZnRQYjRYbURFbnh4eXFQaV8zaW03c29KaThZdnlTd3FRM1VEY2xlVHE5c2hqWTlJVVhDbENNdmpHWHNOMDA0Yw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "d564ad2a6c9d3b73",
       "published_at": "2026-06-05T14:59:51+00:00",
       "title": "Iran declares support for Hezbollah with wider peace deal in doubt - Reuters",
@@ -277,21 +277,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "a273e072cc8fe4de",
-      "published_at": "2026-06-05T14:50:23+00:00",
-      "title": "Israel Secretly Sent \"Elite\" Troops To Azerbaijan For Ops In Iran War: Report - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbFptMDNvTFkyWGRESWhpSFREOFpHRUJpWWt2ZDJtdFU1ZGhmcXB2MUtuRFMzeE1ibmFyZmhhbXpTSVpiQURSTG13RHlhU2l2aU9nVVllQUJrMzY5TEIwWG96alRDRDVJc0tOc3JqQkhvSUItN2JHOGV5b2JyYy0yWlBFSHhIZWlaTTFWcXM1TzAzbG5KRUNXaTJhTXkzN0N5c2I2WVdpeDdDSWNOOWNLVEQtR0NkTU1icHRFU1dDV3RFQ3NlZGxoVGxTLXQ0UllaNmVFUGh1RdIB3wFBVV95cUxNZk5heVN3enNyN3dBRVpXQ0FQY2EtSmg3R3JGVnp6Z3FRdzNRMFQ4X1VNY3BxbXdpTGhhMnVWZFlPbnh5N1FXeWxQOWt0NjlPS1FRdXBvYXQwQWVuWkZOTDY0WEFadlJxYW5NMFhIREhQcEg3eG9JY3BlWnhjLTh1MXdqWTlnZWxsbWNHUjBJek1xSGVQNDU5bWJsTWZUWlFjVUJlbGJjRG1weW10Y0FlWnktcTh3RlhvUmZjM01hM0RwaGU0S05rZFNIelQtakxQc0dUd3pZUHFTWFVsTzU0?oc=5",
-      "source_name": "NDTV",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "0cbc8a7b0b25ee84",
@@ -388,6 +373,21 @@
       "published_at": "2026-06-05T13:19:47+00:00",
       "title": "How the US naval blockade has bled Iran of nearly $6bn in oil revenues - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWVc0Wks2R3dNRnBibFRXSWRjUE5GeUR2YzMzbFBvQVl6RXNRQ0VlRjdXR3B5NHI5dDNsdElSN0JOMmM3X3FsbHRjVEsweFo4cDFuMk9rcS1BaDFQNF8xMktpNk5zYlZfcmZONm9OUHk5VXJ0YjBtanNiX1ItVlhuTEhmT2ZURjFLUG5tbkQtS1FLU1FVX004OEE1V2ZYcTJoZEZ4RkhiUWFsUlEtZHfSAbMBQVVfeXFMT1dmOVZ5bHlVeTZtMUtpNmpuRkFQR3JmeUdZbER1TmhxSlJMUlFqYXFNQWpMWUdxX1BpTDlUcTlXVkNiV0xLREw4YXRzNElLUVdZVTNENU5SVnZsZEZkS1FnSUxWSlRaWXFhT0NjWFRELWlsQ2U1WmUxLVhSSjV5bERWMGFWaEl5cmpVcjhsbHFQM01hN0hvNENZRVA5NG5vMlhHUnYxYmgzMmNKSTR2SWZtcTg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "98e1869cacb13eb2",
+      "published_at": "2026-06-05T11:34:48+00:00",
+      "title": "US-Iran war pushing millions into food crisis, warns UN - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSjFUeFBfeHlHc1pqeF9pRmxxVlZDQlRnM0xtclNEMW02OTlpd0hBSXpmMzNqbTJ0dlduNVQxbFpKZURaMHhXWXR0eEFQXzAxOXlzby13NUFuNHBBOWxsakJsQm9RekxQZVdIQm5GX0hKcmVYN3BCVlJaWk0tMDNwN2tSV21rS1BpeUQ5dnFMLTBBZFk5WWhlVXB30gGfAUFVX3lxTE94NklzTFVBUGVYTV93NnhkVGZyZXhNcEZZUURmbWtUTlNnX2Q0OFk0TzNvQzhvN3J5dFhTc0V3YzdBeXE0X05lZDlyOXRHbW5tanB6U3JHR3VBeHpna1pFTGJqMTJsQ1ZXRThrb2s1UkF3R0tXOHU4cm1xSjhPa1FEdnFZSkNPSnBSTjVZOTZLMi05djBRR09wcEowNWE2cw?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
