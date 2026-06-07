@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-07T09:41:12.868965+00:00",
+  "generated_at": "2026-06-07T14:22:04.124200+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 90,
+  "event_count_window": 92,
   "totals": {
-    "usa": 21,
-    "iran": 17,
-    "lead": 4,
+    "usa": 17,
+    "iran": 14,
+    "lead": 3,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 17,
-    "iran": 14,
-    "delta": 3
+    "usa": 13,
+    "iran": 9,
+    "delta": 4
   },
   "confidence": {
-    "score": 66.1,
+    "score": 65.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 49,
+    "other": 51,
+    "diplomatic": 9,
     "attack": 28,
-    "intercept": 2,
-    "diplomatic": 10,
+    "intercept": 3,
     "material_loss": 1
   },
   "history": [
@@ -34,16 +34,16 @@
     {
       "date": "2026-05-26",
       "usa": 0,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-05-27",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-05-28",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -68,18 +68,18 @@
     },
     {
       "date": "2026-06-02",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-06-03",
       "usa": 0,
-      "iran": 6
+      "iran": 3
     },
     {
       "date": "2026-06-04",
       "usa": 5,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-06-05",
@@ -88,19 +88,274 @@
     },
     {
       "date": "2026-06-06",
-      "usa": 9,
-      "iran": 6
+      "usa": 8,
+      "iran": 4
     },
     {
       "date": "2026-06-07",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     }
   ],
   "latest_events": [
     {
+      "id": "a7042e2601fd6b6d",
+      "published_at": "2026-06-07T14:16:04+00:00",
+      "title": "Missiles and negotiations: Iran 100 days into the war with US and Israel - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTXlIbGd5Wk50WExkNGk5Vmx2U18xR3VyQkdMcmpNOUFDZnBmNzNiTlVTQThqTTA5b1E0Tm92SmVLTVV4cW84d0N6N2xsTVJPVHNJRjEwTzkxNHZ1QTlBUllHRkdqRzNJaXBBY213RmY2R0RzaGxtNWFINUdramcwZDF2c01fa2JMaGI4aENMenZONXJXLXZWUXcyMDdTWEExRHRJV1p5ZEZUdWtoaXdGaEFmd1lqd9IBuwFBVV95cUxQd1p6N0U3UFhpZWZJUDZqN1RidzRtV0xjckl5ZFpWZ0dtSG82V3pjMEpScXQteU5wMi16QjVMa3FtdXVSdHNfNlM3WkNzNWYwOFJuV3VRelVTYndYOElMQ0NWYjlGOUZiUlBwQ25JYnVlS2hCZU1oNzZnTmhVT0E1THVoeXd5LVAzY1ZTMWRtZ3BUNWEwYnhlV1p2UzY3NTg3WGZNMmxBenVBOTQ0Rzc3bEQ0d2twaFlfcDl3?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8f0b979f8d82b849",
+      "published_at": "2026-06-07T14:07:00+00:00",
+      "title": "Live updates: Peace talks at a stalemate as war with Iran reaches 100 days - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR2Z1c1luQ3VlZGdLNFE3c0cxRDZBa2JUQlZwMlNlNVZWWXplUDVjbzNZS0dfS1Bub0ZJNDIybDhmSGFkaW5vcmhvdjc4dzAyN1ExdTFuNXhRTU9DUnhBZ0VqX2FySHdaX3RqQ2JPd0I3STZSaU1TNlI5d3ZmcGlTend3?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5ff371f705993f4e",
+      "published_at": "2026-06-07T14:00:00+00:00",
+      "title": "Israel strikes Beirut\u2019s southern suburbs days after US-supported ceasefire deal - AP News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTUR4X28zSUZqamE5ZkhYVlV0Umx4Q1RwZkMwMDdBaTU0aWw5Q0tueHRGTnAyZ0FSN2gwU2syR1k4cGRzMkc2cy13WFFOaW5TcTRVSHA4NTJNR2FPanBMclhpQjZ4cnk2UVRHOGhIWk9GZmt2WVNENk82UGNIN29jSy0wZGw0U0piM25RN0R4MEdmT2g1TV9xZFl3?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "99d6fa435367bc61",
+      "published_at": "2026-06-07T13:58:44+00:00",
+      "title": "US retaliates with airstrikes after Iran launches missiles and drones in weekend attacks - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeG4xT1BkNTdjMEYzZG8xTlFNVWFZUWtSUjk5MEFHcEkxWGc5cWdYdTRyWmQ2SlpaOElEQ3pQNkxlSVhNS1pFbWc0bGZIclRCRVFlcmFvWlhqVUVKREVlTDlPR2g0Uk5zbzlnTVZJelNrUnVvTGoyc3h2V0l3UVJ4UUZRNmTSAYoBQVVfeXFMTXl4ZUF5dlhQR29wRTVDZlZrZjJHTHNqQXkxWC0tS1dZaVd3ODhnMTFhblo0Y3JnalZiTFdGdnFiWFVyTXFWQWI0bHZEZzRmNVE3RDVUTXdQNFdzdWNyMUtoanFhckZkdjZwcmJ0LVdiLTFnZG5xc0NNU0UwamZXTWk4dV93dTRRVTJR?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e276c21a98da6658",
+      "published_at": "2026-06-07T13:36:25+00:00",
+      "title": "100 days into Iran war, Americans face higher prices - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVkRSRXh1UEp4aUtwcDY5YXZvdFgtcDlGSkxBRGhRUFhrdmhkN2FlNDZZd1MyMjlrUU1IUWdVbDktTHJNdVZuNjgzbzd1VXhfd1lyc0JDbGg5Vmt6VnhCZkRZcWFnM0Jfam5TTkNkcERIOFhvSzJkc044MXg3YWV6eUtyZGYzZmo3R0F2eklMQjF4c3hjLVB3bW5R0gGfAUFVX3lxTFA2SjFCUzVhamVieE14XzJwd21SdVlnT2FMaHFyQUwtRWdqNEQ0ZmdmdzlvVTl4QkJuSjVZNE1lQWZuY2g3WGd6NjBOMkM2RUI1OUtJT2hRcXl2S0h6YlFIVkZyc0xTWEF4OFFIU1FON3dPakg2eVh1U0RnOGVaTWVOdHZoLS13cDRiQ0h2S29KY2sxcnNlSExVTEtNSVZqcw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "fb3987f56f322409",
+      "published_at": "2026-06-07T13:11:54+00:00",
+      "title": "US-Israel-Iran War News Live Updates: Iran may delay reopening Hormuz by 30 days; IDF attacks Hezbollah headquarters in Beirut - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMixAJBVV95cUxOdmhWbUE4OHRxVGJ1czVnS2NCZTFId0kwYjROd2w2WGRiV3lXN0RYZE1Ea2ZndGI1aHdSODNTMHJLTFpWVlVNd0hiODJYd0JHTzVvekE0YUw2NXlZRTJqOUozSHM2bTZDaVo1aUZsQjhjOTNhLURMZ3NrdEh5NFdmXzEzYi1xWkdVRWpZLVNqdVFiUFpHVjVxUXZrLThnS2NXRkJnM1k0b3JsZlFUZXpJbDVkMUxKTjM5VGFLMHdXUjFBdFl6SUIxNWFxM1ZqR0poWFJJUDFLVXdxY0wxUFcwYjNTMGowSnBkb1VlRUYzTmJfRTA3b2t0dVF6N3lmc3p0dWVfWkszU3h1aEszN2I4amVwdWx4cHRuUVZCbmJaMlNzQW9KeVAtanU3U1E0MWZyLVVCY3YycUx5Z3drNW9aR1pFZzTSAcoCQVVfeXFMT3dJN0VTaVN3WTNoWUZmek1QMnNGZUd1anBoR1c4VkdGbnBDa3dSOUFBcEVsa3I5X2luVzZBVzlTQkRHVlpaVFJFeTlUTjRZZjRncWl1S0ZYc0tSUWJ3MXFrcVd5SWxQRXE1Y2NGQ3M2bV9RTHFONzQtdmpLd21xSzA2aVprR0trSlY4c0pCWG9vSlh4NjZkZ2Y0b29hNFo2QTVoLUV5RFpzeWJqdkRZOS1NVjZyWEFxUzdLNDNhOHljempKWUFiWTNfZlk0aHlTTF9FLVZCckUwUG5TSnB2aFhfUWJTckJ5bm5fTkctRVkyRkE2b3NldDJKREtBWlFhN0owbjNsZ09nM3FSdGZTLS1NQVh2Skt2bzFNQ2Z2Q1VFaE9jUDJiaEhCemQ4UlN4NlM3QS1wTXZUcXRQdmdlREtxaEtRMmxXZURn?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0b5ec3a62ac9f861",
+      "published_at": "2026-06-07T13:00:00+00:00",
+      "title": "Trump says the U.S. will work with Iran to destroy its uranium if they can make a deal - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaWNXM002bGNmVm04b04zeDRWVjhoR3FxeGE1empjd25tNEw4al9jOGJSU3VtUEFReXNGUkpJWW0yRllsamFYQ3NyZjFlUHVURzVEc0ZpTlY4X1pNYllMSjBYTEdXYTlVVURnemRCX3ZxdDYtTTNzTWMyT3pBdF9SMVQ0RUsxUmZMaW5HejZUSlRMZw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "2c3af632d265b5a8",
+      "published_at": "2026-06-07T12:39:16+00:00",
+      "title": "Hundred days of the US-Israel war on Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNkRYNko4clZXaG13dHZralZBY0lrR0NNSURxWk54MTE1WmUwams1RERlWTBrUDM3UWVCcnF6Z3Aza0tWUVU5RkZVaXBjVldjblJPMWYzR29UVC1NVlBnUGlRMzlHYjgzc2Y3UGstWTUtWThUNEMwXy0tX3lpV3hJTNIBhgFBVV95cUxNQTd4cWZ6dDl2SkpYS3owY1RZUm1tR1pwRm1VMG9FekdkVTA2dm90a3BJOEQ0SG1KbldaZ1NYWG9xVXZhSFFGWThBZk9wWE5fZ3NrVE5CbkpsM051M25tOGgtXy1hdENtTnF0SFhSV2szNkxkZzlVdnd5RTA0cWc2Ui01Uk1sdw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "ac0852f06a5f38af",
+      "published_at": "2026-06-07T11:19:29+00:00",
+      "title": "Iran continues to target U.S. military assets in the Middle East - Hays Post",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vcE9DZzBYSzBnVDk0TlhHbU9LYkh2eUdGalg2b0w3aGdBZS11Z3AzTmdwdkc0Z3VxTkhWNm01RE4xcE5IUjlvSzhENWxPR3ZWcERNSU0xcnJUMGx4SzFpU3p6Y1V4NXI1STVYMTRLQU0?oc=5",
+      "source_name": "Hays Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "522b28e4cbf29c71",
+      "published_at": "2026-06-07T11:18:00+00:00",
+      "title": "'They're strong, they're proud': Trump on why Iran has yet to agreed to a deal - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNc3RqekxBaFlqWDY4Y09tdTZQbVRJRV9qU3M5WXdTOGhybjcxZkJxTjNfMVJwUkpnemVIMzJFa0NLVThjLUdHVzBKMzFZd3JMNTNLU19mTllLTm1WOG83NksyNFBqS211clIwV2ZpbGgzdFh0b2RRZXB3UGdEOHR3elZQbmY4eWs1OVRsZEVRczQ4YnF0ZDNPV3NaaXFzNU9tNGRfbUItRVZmWl9aRXZQRkhiUC1JRUF4NHRyWHdadnpQNmJQb1dXR0pYRnJnT0t5VV9PWVZ5d1dtSFHSAeABQVVfeXFMTXlmS1oweTFob0xNZFIxc3QtaU5ZY29XVmU1M1hYUVZLcDV2U2NhSDdTamZURnpOeWctTFM3VC1ITzdMR1BKRmlIMU5CX21GUFNIT05ETWtVS1RxbVpoZmFWQzZNVUtBSmJUWjBOYkVfVXQ0MV96WG1XNlczT2o4YUJqdzRxc3RONTVLUS1jTTVfOGZlWS11VDluS3E0WEJWdGI1ZW53TnVYY1RuLW16RkMzS01XNnJaSldRX3JpS002NThhVWdRaVZKOTFOeUo2dTFsdi1XejE1LVJZVW10OVg?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5c14b9e8c96b912e",
+      "published_at": "2026-06-07T11:01:00+00:00",
+      "title": "US downs more Iranian drones over Strait of Hormuz - ABC10",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPMGJrUzJGMk1HME01azVRSnBacldpTTZYLVZkd1VQTWJINWI3dnpoVWdjUlh6cWdBQVVnSlRucU9ORllOdHRlMjFCNjVkdmxKT1VqYWRFTDdwTWlzWDNfM3dkcHNoNTdidWNzRDUtNVJMRVVrUm84NC1TSzE1V0dCVG5ybFJYbXljcUQ0TDhMdndLa1FaSWx4Qm9JQlljQWoyLU5memZSQ3VwT0g4a3Uwa05COElVZVI0ODAzUTRiN0RZYzdpWGxzT3RxeHlONWFSbThrQWxfSDRxLVBnQ1BpTjBGcEM2ZV94dkRwSEc3VnM5SUVv?oc=5",
+      "source_name": "ABC10",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b15a6778eed4f392",
+      "published_at": "2026-06-07T10:41:00+00:00",
+      "title": "Live Updates: Iran accuses U.S. of violating ceasefire after both sides exchange strikes as stalemate continues in peace talks - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "37eb380372aa4f5f",
+      "published_at": "2026-06-07T10:39:49+00:00",
+      "title": "US and Iran Appear Far From Peace Deal 100 Days Since War Began - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU3FxRnVNWEJhdzZseUVHSlJKcTFIUWhnQk0xdXkweDZPTjVFYW5Cdjl4aHc2dU1PYmxXclItWWx1aGpqSFFVdERVSW85WVF6RW9DS05laFZjSTNzcTV5TE94Uzc5XzAzcFdKeEFTcFpQODZxTjdXUFBVU1puZG1VcXEyLWljSFBkQ2ZsRmExWVAwYmNUSnkyd1RVZXRuQmtzWUVxS05qY2NNVWlhMkZOa2trZU0?oc=5",
+      "source_name": "Bloomberg",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c36700ed4004b9f8",
+      "published_at": "2026-06-07T10:37:40+00:00",
+      "title": "US troops, families adjust to new normal of Iran war - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNnZsdGU2c1U4bVEtODZxTlpvd0x5VGNja3hYTHZSUVJjZGI2VG5XUEVkck1NdG5Rb0tTenNyYWJJa1BUVzlsVmpiM1lOWjhaMmM2a1lWOFZVcnh2MnhzMkM2YjV4ZVF0MmIzenE4MmFoaE9pQ014R1oxS2RXR0kzejZLUVNYQUZOdUxhLW13SWE3WEI2QUcyLUs4el96QnFiZzkweHROVERfRVdCVEx6ZA?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3c4a80db30b8d5de",
+      "published_at": "2026-06-07T10:24:15+00:00",
+      "title": "US Iran War Live Updates: US Shoots Down 2 Iranian Drones, Pak Minister Visits Tehran - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNd0dnZmxaRDI1ZVNidVRwcVVpblp6S0xBVXprQ3JZNDJ5MFRsRTMzNXduS1pFbXplMkpYdll3M2Z5dWdsMHpUUmduMk55VkZ2UHBvNGgxcWRoMmo1WWhoaFJJb05MRUV1bVdXSkNvTzRxUURJdFptSEx2OVI0MUxIdWM0eUtaNkg1SzRET2s4VzdENEtxYnpOQ1U2MUNMSFpCZDBydk11Sm9Sclc5U09NRE9LSC1rVkdXTUF6SlRIcU9JWWFCUXh0aXJFbnM?oc=5",
+      "source_name": "NDTV",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "328c2b65e240b818",
+      "published_at": "2026-06-07T10:23:00+00:00",
+      "title": "Strikes continue between U.S. and Iran - WBIR",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVzhrMzBnQlQxYkVOU2ZhbTVUUVNCbkcyZGJRUmtDZzlBd3hKR1lTTTBXYjdGeG4zbmRhSDlicGh5azFEaWozSXRsX1MwR3FMVWpjQUVyRkdFUVU1bDBLSlpDZjR2b3JiTWlacjBaaFJSZjZuWVNWOVF0Xy1Gdy11OVotb3Bna2ZINHpEeVQ1NnVORVhzWkQyTV9oaW9fOTlCUnNHRWYyWjhJZWVv?oc=5",
+      "source_name": "WBIR",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "c152a179ef45cfa4",
+      "published_at": "2026-06-07T09:43:16+00:00",
+      "title": "How have countries around the world responded to the US-Israel war on Iran? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOcUhQekE3N0RCZlNiWGdNTmhoNFM5OUMxaklWX0M2dTN3Q3poM3R5bTNMS2NVY0JzN1o0TUVtMnh4NXkxOXZIZ2xrb2NuTDV3dVJhbTdoVm1LTVloc2tPTGZ2TE5oNnByWmdva1AxanNvckJIcHFBV3E5blRBclVMOERnYkNSVFlEVC03VHNlMVNuVjhVWVh6eUJvdm9XVkh0M29yM1hqX2MxenVXV1pscExEcHHSAboBQVVfeXFMUGJ0UUtUOHF2UFlQVEt5M0JrVVVCNlRVSnRxLUVtSFpSQU50bHVJZ0tpSGVhd0ZSYy1JMkFaek1MTlpma0hNSldFWkRfa3ZCbXQ3TmZIMlFveUJtcHV5V0dEeWIzUWN5alliTGE5OE9sMkJEN200U0w5U2tRSXJFcXBrVUJrNDR5NXdZTXU5ejloaDJRMy1XTzVDYkFYa0lhV1g0OHdQWlAxS19oSUhvMlprNTVPWWlLMi1B?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "ee7715ddcc7aa09a",
-      "published_at": "2026-06-07T09:11:15+00:00",
+      "published_at": "2026-06-07T09:15:04+00:00",
       "title": "The accomplishments of 100 days of war on Iran are undeniable - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNYm1xUWw5Qm5ORHhaUzl3T0VyTVZHaWJ6dnI3ZHBhTEo0Q0VMVWZKTkljTWpVUVVXOVRneTR5eFQ2RktTdlVqVF8xVndlZEFxQnBvNGxVRDFWZ1NSZEtKRy02Yi1rRUo0dnlXcHN5QlBFWG9NSVAzZHVJVVdXQXc3N3FFM3pVbEhjc1R0LVRUV2xCV3c1U1RHUGxySzlibmtobjVmZzdZSDLSAa4BQVVfeXFMTnFaMURrOHR5eWVzc2hHcURtX1o0NmlvY29XZWdjejFCVWRYbll6S0gxcWUya2JNWGM5Y3ZRNy13QzNjTG1mTDNrMm05VnN2TnptY0pPcU9odFZWSmZCODlUX3lMcTBXYUNZMU9wTEg2V3RIOTJsZlRDbjROcFl6WTRrci1HTHJhN0lZS04xVDVHUWN0REYzU2E2OHR5QzJCLU5fUE9lVnRfMGpNUWdR?oc=5",
       "source_name": "Al Jazeera",
@@ -111,11 +366,11 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
       "id": "7e04b961db3f43d1",
-      "published_at": "2026-06-07T09:11:15+00:00",
+      "published_at": "2026-06-07T09:15:04+00:00",
       "title": "Iran after 100 days of war: The triumph of survival - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTnVLMTVBelg5NmtEX2lHT1FzVGdYWVQ5QmM4QUFVU21zNWpxMVV0YnJhYjRRWjJfY1hTT01uYjdxV3hFaUZjTnUtUjBodmRELTVxNTJSVEV2a0Nxd0VRcEFMX2JiVURqZ2ttMHhXemR4a1JYTVkwVE9MU3MyWGVHYnVuRzROT3M1SGdGeGhFQ0hPRTFkbTdnMW9n0gGfAUFVX3lxTE9VRDRZdWJDdEhBUk1FOFNjRVNTTVdFdk14SGx2WVdXV1FROHdDU2xZbnl5Yl9uSFB4UXNEeFJ6SzNycHFyTFdLeFZYWTh0Sy1Hc3ppOEh5QUN2LVhQeXhrSG44dUN4ZDZfOGVFbXVBZE04dnBhQlZoc3VBUW5wSWVlLXVGSmxtY3hYUTFTV2F2VmdhQ29ZamhtV2c5RFJjWQ?oc=5",
       "source_name": "Al Jazeera",
@@ -126,7 +381,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
       "id": "04d9676d03813111",
@@ -142,261 +397,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "9d3034b97351cb18",
-      "published_at": "2026-06-07T08:00:00+00:00",
-      "title": "How 100 Days of Iran War Exposed US Vulnerability - Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IQXBZa3pQMHJBakc2OVRzMVlOSUdENDgtcmpSSThIU0VEaUZNZzUxSjZOb0lxbDZuYldxSTNMcUYtNl9OTktpdlVHZl9HcllWVjhSZ1J6RnZCQ2dCdlhLMExjMUIwWFZfOHlXalREN2ZuSDRn?oc=5",
-      "source_name": "Newsweek",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5c48a92648860131",
-      "published_at": "2026-06-07T08:00:00+00:00",
-      "title": "100 Days of Iran War: Winners and Losers - Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBmVTZ6WXBWOFFSSnJfTG5GMGU5dlRHRDNOOGs5SVBqN0p4OWZIM0ZUc0pxekt4eUdOVFE0cUVNc1RoUFZfRlBHeUxVTnFoMjFCWFZGVGpHTkUxem9FV0dxRWJ3OWdMUERCVFMxbm83a01JZk1tbl9uMHFsS2kzZw?oc=5",
-      "source_name": "Newsweek",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d30ade6700a8038c",
-      "published_at": "2026-06-07T07:36:49+00:00",
-      "title": "Iran war day 100: US, Iran trade attacks again, raising tensions - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQmY5QmRXUFk2RjkzZTRnSmtIWkg5Q2RDdExRRW5aVmVqMUhMZUstWW41THlDX3lkUENBRDdrdVBkUjRSaUVIM0JaSVNCTG1TUktxMHJJNWtrZjhqVWo1MGkwUUNIVE96V01lWXJESGJYd0lqMU9vb2ppaHhiUS1FMmtaWjg3TmRMZ2U2R0pYd1ZLa2NwNjFEUFFZZGtIREp2V1dN0gGoAUFVX3lxTFBheENKc1hfUkcyLV9EZ2RtTXc2eTJmZS1qb1l2akRUTmtwM19aVDgwaDRudWptcjBFOVNzN0RUdEhwdFRXdUx2Yms3Q05fLWxvLVFiSC1zNnlqWExzYk9XUFBqMmtJQU5udmtiQkprOG1hRGpIVVpndWNieUVQVFQ1VnNTaVJUS0xXN3Z2bVoyZkRZd2NYd2Izb1Y4Vi1qckJubFNiTU5hQw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "39eb561dbd157c12",
-      "published_at": "2026-06-07T07:04:33+00:00",
-      "title": "Retaliatory strikes on US bases reflect Iran\u2019s firm response to continued aggression - Tehran Times",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTVBQbWtrb0tiaG52aXVNZk1nUE1POXF3Nk5SdktpbFlmSmxVcER3Vk9QMVVXRXVaMlFwSFZjaDB5ejEwa3owRHpvdUIzVjdaZXVLX0ctM2RWUnR0Y1I5REJqTi0zekw1aG85ODd3Z3pDWm1KVmJZdzMtVGdiWmJXZUI4REpra1ZlX1QxZ2R0X0pHdkp3TW1rTVM3UzZrNmlaUWc?oc=5",
-      "source_name": "Tehran Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b0e14c32d88b4784",
-      "published_at": "2026-06-07T06:41:00+00:00",
-      "title": "June 6, 2026 \u2014 Ceasefire faces further strain as US and Iran launch strikes - CNN",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNG1wOTNjTzJmMzBXNE96cGdOUUxWbDNSaUFjLWJUTndndHVwZlNUemtlRWtuaFVfa283dndOaDZiZFJlbFlSNl83R0YtRTF2WXF1Sm9wY2JFWXV5RDhYSmF6c1pzRmlsZzIzdzdXMUlJQWJLQ3lBMzI5aDJ0cGhPUXMtRG1MLUE?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "1787393ac34e1e9b",
-      "published_at": "2026-06-07T05:35:22+00:00",
-      "title": "By the numbers: 100 days of the US-Israel war on Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNenlMTUNlaVd2MnlwZ2VyQk45TXZHaUxhNFBodW45S2tPU21ueWpnakpBMGZWWTI1QVNpd18xdThldW9oRjRHeld1SF9iTHRYelJjMF9kbHJkUVdrUkxGOTlPUThscU1NMFlYaEpHS09kMW9kblpiT2hocXFFLXlGOTQ0U0JraUVPdGttZUh6cU8zSUxMUEdV0gGcAUFVX3lxTE1QUG55b1dldzRJVGY4a2ZSZjlBNmFVenBRTld0VDRqRjdnZVQ0NFJkbGFrbjNqOFlOMlpTNGk2cm04MFBQckxScEd3Si11cngxTUJXcGtiQXktcEltM29kSERaMUYtTllQRjB4cHdubk5CWHRiYlRQM2s0WG5Pc19vMlkyT21xNVl6SkNDNmJJbzE0S3Q3MmtvaVBkbQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "3dc3140a547c48af",
-      "published_at": "2026-06-07T05:08:22+00:00",
-      "title": "How many times were the US and Iran on the verge of a deal? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTC1nUF9hRFh1MEE0anhJeHR6U2taandIQnJTckF3NmgwUlFPZjFGT1hXRks2VmFGZkhhYktpQW1oTEszQkJHRm56TFc1LUtZM3VUWFFscUQtQVJyUDhkTW5qMmowNUpPTjlYVWJmOHQtbWRaTmp4eEJiQ3Z5ZERUcXllWjh5Mnk5YVhxQ0VVUWFjLUFhcnhRRWI4cmNybE3SAaQBQVVfeXFMUGVxMGtzR01XeEdFYWtST3ZtUmNqN0xWM0RwZW9USlNBUFY1aWl1QjlkNENkeW5pTXN3TWNtRHd6SlQtQ2k0UzhabWVXeUFUNHBxR0FHam9TR1lVYTZ3TzRkYnZQRmVtNTgtUGJkN01pSGZ1cXNjWlpZU2pVY1RBRUctZHplSmx3S19JaWJCeXFuNVg4Umk5S1Q2a0VFTFBRcURkdVE?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "414079316081d339",
-      "published_at": "2026-06-07T05:00:01+00:00",
-      "title": "100 days of the Iran war: How global markets and the economy have been affected, in charts - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQ0piOEJUaXBPd1ZyZ3BrRWdMbXlQZk1sUzZrMUY3N0pMYWFmLXAzZzVoREpZRGFnaHY2eFE1eUVjV3JjcEN3d3lkTFRKcmlqT2R2X2VJRjdBRXRleDFVM09tMDhrVlhmZ19RSk1yQXZ4RGhpZW1IeWJ6dGlqRGFQVm1nc0VaeURlU0Ew0gGQAUFVX3lxTE14ck9VTmJTN1Y1aHFmZkhpYjRkRkdva085ZEt4cEd5NHUwclRhdmRJcW8yM2pPSllqQUdRZFYwUTR0bWI3cUlzTjR4djZmSERFNkd6YUMzaEpxLUhMNHNWa0d6NWdUY1dIVDQ4alFxYkV6R3lYQ3dhWVRBV2xBX0xzWHBrdXdPNzJSUF9WUDlheA?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "c4c705b20da0f1db",
-      "published_at": "2026-06-07T04:42:00+00:00",
-      "title": "Iran launched missiles and drones toward Strait of Hormuz, U.S. military says - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMnhrZmU1dEJXQzRJQWFaelI4LVZlUE01ZERhS3VKUzhsRXNEa3N1elZRc3VTRXlnclJvNTNyM1FUOFpLdjUxNmplY0xub29CUzRmZFQ1ZThsT0hsT29IcU96TjlJeVk2Y2s3eHUtN0FVekRhRnhuVG0xMTBTSC1sal9JVkVGalY4UTFvOS12UXppY1RJdHVHaUFpOEJOenJiV1RZdmp1aVpqS2xVOElPYWh2VHJuZ3M?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "6a06c3304c8583d3",
-      "published_at": "2026-06-07T02:01:13+00:00",
-      "title": "Trump news at a glance: Iran war pushing millions into hunger, UN says, as president struggles to reach peace deal - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPUVExWHd6NUxvdW5RUHQ0NkNjMy1UdVpibzhZbHNGSGFEUW43U3p4V0wzRkpqRF9VVnRCWU44S0tiYVF5Z1R1azJrVkxQS0pTbG1uVGlEcWVZSUdRaFRCTzBnN19fekZHNE9UZFdlN2hlNncwM3pDZlVSNGF5VmRYN0xrazBJdw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "8be09d8283001ed4",
-      "published_at": "2026-06-07T01:43:45+00:00",
-      "title": "US intercepts Iranian drones fired at Bahrain, Kuwait, retaliates by striking radar sites - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaFp6U0ZjR0RoUVFTWWlYU0dBTk1pRjh4ZTJmR0hDRDN4QmpDNkdCSTUzcjVOSEhPVFBONThnMTVwbklTMkc1bGI5NmpSNFVfYkE3Y2ZydmVIWkg3RWowOWhQNGZSSU5hYXpKS0czbk51UGFIdDRtU1BKRUdBQ2NxSzVsMGt0NXpqbUNQMFREM1ZFelJYN1haZGQ2cVdzcEtYblHSAacBQVVfeXFMT2tyWTN0c3VEdlNfam1mWEFxMUI0dlRTR2N3c2Y5ZUNuSnJISFZvc0VpbFNtVmIxbGV4dnNURGU4d01iajJIeTJIdURNVDNHV0k1eTFJU3VWZGt6RmxycmNCS3ZPYkF5S1dfM2VJbXJsVWVMSUQ0VTBwZk9nejk2X2N4TFRfTDFiMGFWWUdUMXppaHMwNVdaVjJnczlIYXl1U01kRHJNZ1E?oc=5",
-      "source_name": "Fox News",
-      "event_type": "intercept",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b15a6778eed4f392",
-      "published_at": "2026-06-07T01:15:00+00:00",
-      "title": "Live Updates: Iran accuses U.S. of violating ceasefire after both sides exchange strikes as stalemate continues in peace talks - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPelJMTjAxUFhxdHBqeU9KN3lhbkFhM182azlzVHpGTDZXaGkyaDFNT0Vzc2ZBT1BJTnpiTm9XalZjOVhaWGN6YjJjXzBBZ2lrQW52bFhZZmw4OHFSYWVRcUpwenVEckFlSkY5NGx1bFM2dDVuUUlPQ1M1UTgtX094dlhHOUs1bVU3NlFBRmFuLThRN0dtUE9yWg?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "ce87b90aeb3f680b",
-      "published_at": "2026-06-07T01:13:42+00:00",
-      "title": "US-Iran war highlights: Pakistan minister in Tehran for talks, Israeli strike kills 3 Lebanese soldiers | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNS190WmJmMExZQnlHcURUd3JtV1kyN1BvaVcxQkh0ZnpJamZVc2N6ZlNrMDQ0TTJ3ejlkMDdhUzBnZFhzNGhCVUw3anp1b0tocTJmdzBzcnJ6bmszZl85eGVNT0tzQXRzbzVDM2owVFJfejN1dzhhSkp1Ml9wOVJsMW12eGNRSHFnMzVBaERtLTBUOXdPdnd2akt3ZHgwNEFWaHZlS1l4M2liS1hzRXFLdHVQVFNLRmlGX25fOEJRcTU0SExSTjluZXFkamlNc0c1YmxZQnJnR0NGZVM1NEhYSGliVVpsOWtpLVpEZENOX01DS0dqUGQ2WnNsclh1VGdWVFhGOU1nRjUxY3My0gGSAkFVX3lxTFBHdktUeml1YVg3UnRwak5ROFEwZzVFWVFmMzR1Vnp6c3BjWG9GOWctYVRYOFFhVnlQaUNrLUlLY0Jzc2E0QXlCNUdtejM1dTFyYmFkcUdqTEpRcUEtUWo4YWZWS09JUWRDbkFmR2pRSkEyT0RlaUt1LV9kNUExcHdMUGpHOUVOUHRtRkwtVUdlNVpMd1RUcks3TkhHZUFESU1Hbmo4X3h2UmdGYXFiTkVrOFlXWWF6anBxbFJudk54VVlwbzRoNG1XaWpGN1pxQTJUM0pGV2pmdnk3Z3FJcEEzcEpIdFhqWWFNNXZaMnh0ZExpSDRGTGRMVkY3ZG5PTVpwVmRPeTlrN29WNHN3YlhkcHc?oc=5",
-      "source_name": "Hindustan Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "03e0f8e4b9f6d579",
-      "published_at": "2026-06-07T00:37:58+00:00",
-      "title": "After 100 days of the Iran war, has the United States achieved any objectives? - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU0V1Rm1uUGR1akJMQ0k5YVhBd1lnUkRReVNfaHBCV0ZYVVloV2xBVU55dXJXRlN4X3p4TkFlWHVoZ01sci12RTJsTmR4dUZQY1hxSkE2R0NRY2h2eFVuc0Nkd1VpVzZENmFUZk5GVDhSOEpNY3dNOE5CSDA1Z3VkWEdIN3NUNUt0S1M2WTdWam0xNWZQY3RYdUMyWUNYTnNVM0VVUEE1Q0JTX19OWDFIQm5R?oc=5",
-      "source_name": "Sky News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "9d52e714c12fc4b2",
-      "published_at": "2026-06-06T23:11:11+00:00",
-      "title": "Iran launches new attacks on U.S. allies - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON1FJUjJnSVVYNHJwaDFGbU15YndkZ1hQWlpqakNtZ1BYNkxZbTdxRXQ4TTRtd05fX1kzNjRhVHdTUURQRXBCWnZvQlBSVTRUdmxQcmVUdGVyb05CYWZtVWNIblNheGQ2dUF6dHNIdDQ2Y0ZhelQ0M3Y4M2YxOWpINnd4Y25RQXhxU25GM001eDhyWUduVTdnemNOcw?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "5e097fdf85bd49f4",
-      "published_at": "2026-06-06T22:25:00+00:00",
-      "title": "Blackouts, hyperinflation, dissent: Iran considers perilous prospect of peace - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMWhSMUJBVjhZZ3pKMlRVcncwQVJYRUpCNVZnRlRXaUZndWx2QzFlbWtKX2o4VDdxVko2OTR2Xzcza0FpUzB6cmVEUU5nUW0tTWtwUFVEWVlDVTd1YnlOdVVIamFUZ3FQMDJBdDRPTEw4aHNtUUFQVXlhRnp1dTNRMmdLbGtUYUZWN3QtTVRkUk9FaGF1b0NkTWdIMFdfY2dVa0ZBNVhuS05yWGlqODl6SEowc0tkYmlCZjFzOQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "763dcb82c3f23e84",
-      "published_at": "2026-06-06T22:13:46+00:00",
-      "title": "US strikes Iranian sites after Iran launches drones in latest Gulf flare-up - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1o1RDBJVGVQai1scDRmSmlnaWxVZlZBaDZyZUswRHNMY0c1N25BM053RXdmWGV5aGJkalg3V0lpUnpVOEFpUWY5YTBCY0syV1dmejdaUVlJVXZkc0tNVTQ2RmlTVWlEUVlDYkZEYl9yQVZ1QWtLVzZYNl9RRTBzaENsNlBVMWJCYjJLd0ZtdGlpUTljLVBhV0JlVDFJRWJwdm9YQjhIZ3BqdHdua2Z6TFMzS0xXbHhuZTFuNC0yWDhHaUlWSFo2MQ?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
