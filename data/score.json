@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-06-09T20:21:02.006371+00:00",
+  "generated_at": "2026-06-09T22:52:34.006331+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 89,
+  "event_count_window": 84,
   "totals": {
-    "usa": 11,
-    "iran": 18,
-    "lead": -7,
-    "lead_side": "Iran"
+    "usa": 83,
+    "iran": 13,
+    "lead": 70,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 11,
-    "iran": 18,
-    "delta": -7
+    "usa": 83,
+    "iran": 13,
+    "delta": 70
   },
   "confidence": {
-    "score": 64.6,
+    "score": 68.8,
     "label": "Medium"
   },
   "event_types": {
-    "other": 53,
-    "material_loss": 4,
-    "intercept": 3,
-    "attack": 26,
-    "diplomatic": 3
+    "attack": 44,
+    "material_loss": 3,
+    "other": 34,
+    "intercept": 1,
+    "diplomatic": 2
   },
   "history": [
     {
@@ -88,23 +88,173 @@
     },
     {
       "date": "2026-06-08",
-      "usa": 3,
-      "iran": 1
+      "usa": 0,
+      "iran": 0
     },
     {
       "date": "2026-06-09",
-      "usa": 8,
-      "iran": 17
+      "usa": 83,
+      "iran": 13
     }
   ],
   "latest_events": [
     {
-      "id": "e1b789ae5dbab2f2",
-      "published_at": "2026-06-09T20:18:27+00:00",
-      "title": "U.S. Military Set To Respond After Iran Downs AH-64, Trump Says - Aviation Week",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlVvbjZLd01CTWRnMGoxcEl2ME9sVk01dW5hcEtsZjZ0YmczT0dDQXVVRDQ4N3BQVnVSZlNSQ05mQVRCbVlNcTI2T05UU01zdlp2UkpxeVZkeWRCNU8tdElOVkFoQmxES3haTkE5T2RETnFncmoyZ20wclA2eWdwaWxtMjF2RURiQTE4X1lZclFmWEYzTVdKZmROR3M5RG0yRWRTN0NTM0s5a1hWaTVYdUNTakRoZw?oc=5",
-      "source_name": "Aviation Week",
-      "event_type": "other",
+      "id": "3010f82e3827b60c",
+      "published_at": "2026-06-09T22:43:26+00:00",
+      "title": "US launches new strikes on Iran after helicopter downed - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTk80dVM4REU0SVV0a1MxVTk5RmVZNGo3bUM2VXJqSFMxenB1a25TQWxRRm9Lc3gwNkZGZ1VnU29Bc0NGSmFJcHliaS1CZXJ5TUNWdUFZYXY0SWRjUEZ4Wkg4aTRHd0JCVWlQa2xmVjBSUG0tdDY3ZWlCYVJSbC0ySzVOYU5rdE91cFU4WkhoQjRTbUh1ZEkySGswX1VERVhyZDBPaTduN1pKNkR2SkxDSkpUdW81Z1RBLURIT09EUTRpdHVnMnVBUk1xQnc?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bf081eba6e5fbcb9",
+      "published_at": "2026-06-09T22:42:06+00:00",
+      "title": "Iran War Live Updates: U.S. Strikes Iran After Trump Vowed to Retaliate for Downed Helicopter - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSmVTQlBBU2hybzN1RVMzZUZuU19hbTYtRm5GdW9kUU9Kd19KOThfbUE2aHRyNFU3NnZSS2RjREJUbW14NTZXMEVxNDJNdnlLd1I0SXh4U1JmTlVQRU9GNEhlUkRxRWc4Sm14LUdkWm0yU3dYaU8taVVGYkV0TEFGZw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "3e412203bef426c7",
+      "published_at": "2026-06-09T22:32:49+00:00",
+      "title": "The Latest: US military launches strikes against Iran in response to downing of American helicopter - Colorado Politics",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPTVNhY1VzNDhHTEZDNTRoY1MzTXNjclo0SUo5b1BXU25xWmZjTlU4Z05qWTlwekdlLUVlQTgzZFJnUU5iaC02bm5qLXBiWVFFWVNRR1ZDX0lJV2dtOHM5Y2hDd21GRkJxSXlUMlozZXhOZjB2WVo0VlZLbHk5cG15dno2b2M4NGNrUzMtSTZZd2U4RERwVXYwcGFWcWVMa3NBVExiOFZ5akFrWXZBM2NCNTZrbXBNcVJRSWY4a0tKME5nOFdHTVdtWC1BWGpMWXRRck1GcEFaYzNhb0E?oc=5",
+      "source_name": "Colorado Politics",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "dd65e9a8c8e5ec32",
+      "published_at": "2026-06-09T22:31:09+00:00",
+      "title": "The Latest: US military launches strikes against Iran in response to downing of American helicopter - Northeast Mississippi Daily Journal",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOMEl0RkFSa0RMM3l4Wi1SZ18tX2IwVnZjdTRrSHF4dk1GUXFPTWdVUlJWaTR1UFVJaGZxdWdCMDQ4cEc5WWVQdmtEeWdhQUF4cmJDdDNyU3ZsSFk5S3BkOUtmZFF0SkRHSDE4M1ZESW93NEx5UElDQXdKdldiVmVZZmI4dWFlY1NuMnpUcHR0UEN6cVF6M0Q2eHcyRUhvYU11SW9pNFdRb293WEh1MkF4cGR6SzZ6b3FrVlFYRjdWZE9td1NMWUJRaWJodkExQlJKMEpuenRqWFg5N2VOMU9jZVRRTE9Xd1FIeU5Scm5uWjNOWFJfaGZLa1YzMERzejgybnNCWHI0U1pzbFZmV0dvRnE0QnN2a2s5c3BR?oc=5",
+      "source_name": "Northeast Mississippi Daily Journal",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "30bc0d871a238d31",
+      "published_at": "2026-06-09T22:29:54+00:00",
+      "title": "U.S. Launches New \u2018Self-Defense\u2019 Strikes on Iran Over Apache Helicopter Crash - Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZVVpMnBiQWd1U0FwMjBobFBuLXk1dlA4VUlxdXpLamVSTHRuQ1I2V3p1UEF3ZHVaeXZJbXl1SEc3MUJCWGUwajQ5UVk0Y01HSWh4bVlPWW13ME9KTkRUVk5FeVNVekRmdlhZVVNPS1ZxNUVmbUU4MVdpYllFeGhXeTd0X1ZobmM5TVNrSFJvVGJrbXE0NVA4MA?oc=5",
+      "source_name": "Foreign Policy",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "11684dc6880f3a58",
+      "published_at": "2026-06-09T22:26:00+00:00",
+      "title": "Live updates: US military launches strikes against Iran in response to helicopter downing - CNN",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "82c2832765410dd5",
+      "published_at": "2026-06-09T22:24:00+00:00",
+      "title": "Live Updates: U.S. launches retaliatory strikes after Trump says Iran shot down Apache helicopter - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "1e541dbd654b486e",
+      "published_at": "2026-06-09T22:16:34+00:00",
+      "title": "US launches retaliatory strikes against Iran after downing of helicopter - Politico",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSW82d3ZmUlp1dVNUdnBVczAzN1VGd3ZCOGFVYjVXRXNhR3BJenQtNXR6Zk54WldWQWRrbV9Bc1ZhbGw0U1A0QjR3U05DUmRVTFhwTWJ4M19GcDF1SjY0bzY3TXhIUDB2REUzZ0I1NVZTaEQ4WXFWbzhSMHdwLU5zQy0yVQ?oc=5",
+      "source_name": "Politico",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "33e2ce66d842afc7",
+      "published_at": "2026-06-09T22:12:09+00:00",
+      "title": "U.S. strikes Iran following downing of Army helicopter - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVDRtbUxVYlMyc0ZyWGpoX1VBdkN6M1VQSjVkT2s3QVllcUp1d0dERllyb25OMWk0cjdDei1FMDNCTDBZZkhNSmFReGo3MDRJaGNjWndqTUpoU1VpYlBROW9FbVY0WGZwNnlOcWR0Y1Z3bG9ya09ZRVdNSmh5QkJSVGQtQQ?oc=5",
+      "source_name": "MS NOW",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ef7c94961d4be27b",
+      "published_at": "2026-06-09T22:07:48+00:00",
+      "title": "US launches retaliatory strikes on Iran after Apache helicopter downed near Hormuz | LIVE BLOG - i24NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQd054eFViTWVHdkI3cmc4U3VNaEpTVDQyMFZuUFVYcHJORURxWTA2RUpMU2hRZTNMbVBHak1QNzRtQTVQam4taWUzVU5LVkJETWZNVlZoQVI0Q1JsMldDV3BZaHM1WTJ1TU1mR3oxTEZkMkphbVBSX2JUbk1ueVdUMTNLSmRtOWdNaXlKZkNjQlZtejVhc0duOHMwRnJ3NlBLOXhiX1lLQnl0Mlc4dURmSExzak1Nc2oyR0ZMLXlKZS1fa0hZUXlocGhBSVJnT0oyaEdrRzZ6UDNISUlYdEE?oc=5",
+      "source_name": "i24NEWS",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "34aaebbe457e2930",
+      "published_at": "2026-06-09T22:06:00+00:00",
+      "title": "US says it has begun strikes against Iran following crash of Army Apache helicopter off Oman coast - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTFFLOUhHaFBaY2l1YWthbGVtYVByYlZkU3VhRXJxWEJiTmdwNVFWVU5FN0ZSRml0bVU5S3F1Wi1QdFp1bTQ0SE4zeXJadzZ5LVBtdFNHTHh5WWxnTHh5bHVCejk2Zl9HenVXQUNDSGNYWFgtdWVad0NFVWdwZjl0cnRuQ3ZLNUt6NW80Q2Q5cm1iRUpjMk9OVjFRZ3NIa1JNR2JkUHROZzZId2ZDUHJuQWNHcm5icGd1?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -114,116 +264,101 @@
       "confidence": 0.7
     },
     {
-      "id": "d7739a932eeee131",
-      "published_at": "2026-06-09T20:08:04+00:00",
-      "title": "Iran War Live Updates: Trump Says Iran Downed U.S. Helicopter Over Hormuz and Vows to Retaliate - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSmVTQlBBU2hybzN1RVMzZUZuU19hbTYtRm5GdW9kUU9Kd19KOThfbUE2aHRyNFU3NnZSS2RjREJUbW14NTZXMEVxNDJNdnlLd1I0SXh4U1JmTlVQRU9GNEhlUkRxRWc4Sm14LUdkWm0yU3dYaU8taVVGYkV0TEFGZw?oc=5",
+      "id": "b1e7e416c2c91f31",
+      "published_at": "2026-06-09T22:03:00+00:00",
+      "title": "U.S. Launches Strikes on Iran in Response to Downed Apache Helicopter - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1NCUi1ER19KYTBHTk80MkdYQjBxSUlJTUpKU3hNejFxZ09SYWZYV1llVlJVWlhuZUhWRENyeHpJbG5ILV9hNTN5Wi1rR1YyWm5ub2xWY2Q4dEtHMkEwVVo3V2dRSjU2R1Z2dE1oSlpBSUluOTQxdjFpUWF3ZTBhWElCVzg0LUFf?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "ebec8e2e7657014c",
+      "published_at": "2026-06-09T22:00:36+00:00",
+      "title": "The U.S. Strikes Iran After Trump Vowed to Retaliate - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOHBuTFVRUG9kVHRvTXdxbmE2OFZDN3duWkh2SU9PNkh1cUpnWF9DeElBOTVmdFFZbmd5cFMtMU41T0I2YUJTVGtZNmFSTHlWNEpNMkpKYXFWbmdjTXc3S0RxdW5PaTZKSTAxMTd3VnNQeDc3ZFJuQ3pUeFRPTnY3SUNyenpxM1U1aWNkSHFkd1FpNUdNMWRUTl9zWmFQdXc?oc=5",
       "source_name": "The New York Times",
-      "event_type": "material_loss",
-      "actor": "iran",
-      "target": "usa",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "8bf2ae3b1272ed4c",
+      "published_at": "2026-06-09T21:51:10+00:00",
+      "title": "US military strikes Iran after Apache helicopter downed off Oman - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT1JZVzRNYm16bF83aHFjZXdicmNULW40eXJJTFRTU0R0VDd0TVU0YlgxWXhGNmxzLUhTMVJJWnM0TVlOU1FYS2cxdUZNT0JaSGZwYUZpOGxmdnE1eGo3dE1XYU9LUy1teEhucjMxVHZ6a1Z3Ym1LTjI1ZGdiTlp6T1MzOXBqa1NBZnNiSWpHLXNWVnlZdXVsX2dIWTBabXd1dVFkbENsVDk?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "2bf196019d2f6190",
+      "published_at": "2026-06-09T21:50:41+00:00",
+      "title": "Senior Iranian lawmaker says regional energy infrastructure could be targeted if US attacks Iran - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZi1EeDNrVGItZ185NmtWWlRXdGpGOE1sYUJGZzBrM3ZkX1lfRHlKaFVqRVQ5U1otMFh4cHlURW9tQ1R3N0hxbTdWUkl4eGNEUHFiT2NNRWx3N0ZUR1EyZVJhQzk2X1EtZzVFRUE0cDV1Si1CS0RlM2RoeTNOeFpvRnhtMDdWM2NfbjVfcGUyaVU4bFA4QU5zMDVfeDZwNW9BdmRwb2w0T0dnbXpjUXlMdW1HYU95RmlvTExlc1YwV1VNWVRSUFoxQUhpZWI4UTFmbmk1V1BOeHZNYzBacDB4OUtR?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 4
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "eb6cfc64ef46e0af",
+      "published_at": "2026-06-09T21:45:23+00:00",
+      "title": "U.S. strikes Iran in response to helicopter downing: CENTCOM - Axios",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0tUFZid1BmVmEzS3RhSWptLXFZNXNpUHV5V3ViUllRU1huM3RaMHFJUmFPQnlfX1ktMmJaNVQ2UGhkbXBPa3E5YTV3QUZvTTRGSFcyRTMxdldVOGFfdWhFLURYVzNERmxqMDE1eFpFNnA2Y3lmTWMwaVBYV2lCQQ?oc=5",
+      "source_name": "Axios",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
       },
       "confidence": 0.85
     },
     {
-      "id": "c29ebf2fedaffef7",
-      "published_at": "2026-06-09T20:07:02+00:00",
-      "title": "U.S. Army helicopter was downed by Iran near Strait of Hormuz, Trump says - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMWdvRUJXeEttQUppc3Z2YnF1ZEdwLXNBN085ekR4SUhDaXZocVNJQ3BnRlZPUWNOMHBxNHJzSmxGZExnU1VleDJNQm1uYlpNNkJsT3VXeHZGWTAtYjQ1NFAzM1VuNGwwWEsyRHBydzl6ZkFvTl9WQU1CN19rQ0xuWkZZcmFhNkM3SEtybU9FNUtYTDdzemVweW5FZkR1aDRBc0xaaUFBZTBSUnd2SkxNam8zZ01xemE3Rmx6YVpULV83b3ByZXZMVw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "material_loss",
+      "id": "b6a54dc04407349d",
+      "published_at": "2026-06-09T21:45:08+00:00",
+      "title": "US says it launched new wave of strikes against Iran over downed US helicopter - CNN",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeWxkUDVrX3c4VEFfX2U1eXhiSkpFNk1UcFpIWmdKMmZxVl8zd0NHR0Ntc21Lc1ZxUkF0ZS02VVpaWE9mN2tKRWxMQ01LTHg5Z2NYVkdGX0FtR1cyeURvWmhtODBxT09QMHl1ZmNEVG9nVkhENlBKWmY5emFMNy1jSzVuNlE?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
       "actor": "usa",
       "target": "iran",
       "points": {
-        "usa": 4,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "5033666630f4114f",
-      "published_at": "2026-06-09T19:52:30+00:00",
-      "title": "Trump says Iran shot down US helicopter over Hormuz, vows to respond - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa1U3RXhmWS1NWEQ1QzhPZmFULVhEMGwtOVRSSVBKVVowLUxSNUFvYmZUUGljZThPdkVOaVJicmJ2SFJENmdudGZOdWVVNmFqRTJFQ0ZjUzE1RXdJYjNKS2Q2V0Nfcm9HenY0bEF2V1pHdDRadXZxZ1loTlQwYks1VklkV04yRklIQ2FVSXJKQ1pDQmFoeEVXSmtJSEViQnhzQmh3WEg2LVVEV2lS0gGyAUFVX3lxTE4xQ2Ixb01CVTZLSDFRNFZQbGI0M1Z2YmVFZVJoanVEbUJzMk5mc1p5cUo3Z2kzcGNpaVI5RHlFaWJlZ0JaMDBnMUV4UGFFTnFDOHctallaeHJiWHM5WVZVaGhOOExlR1RPUTEwNS15Z2pqYnp1TnRDRWhFdHFzVGplMW1NbEdNVjJmdkhiQXE1ZE9rMVdxSkZRU2FYa0lZdm9CdzA0amluNG5ta0ZEN0h0THc?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
       "confidence": 0.65
     },
     {
-      "id": "937ef3d52ecd57a7",
-      "published_at": "2026-06-09T19:48:50+00:00",
-      "title": "Trump Vows to Respond After Iran Shoots Down U.S. Military Helicopter - National Review",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNVR6WlR3YVA5bkE2Nmt1Vnp0cG1adGZ1aFlCdjhpa1UzQmI3VW5wUW9BWHNWZjZYbVdLTDVDanJDWGtSRVZxa2NxbEw3NlQ0VzFoYUI0bFdrR0lFa0FXVEVhUkc1ZGdadEFHZnVfY1AwMjhtaTdCSjByb3FGYWNDdVdCTmt4dVRVRmpEbkJrZFJPNktCeUs3aVFhcEcya1lPWmZPck9HTzLSAa4BQVVfeXFMUHd0dmluN1ExY2lpV0dUSWRHbF9yT01lRy1JSDB4a2ZPN3NkaDFKVXRpeERhVFFoaUhXdEx6aU42aVdzSlVWeXhWS1hJVDRIRF83S0tHclZHNnRDanpjeTNRN2VQdDJwYkp0RF9FQTNEX2FHeThjU2MydlVDb2xRQ1ppa1FrN0h1bXR0UzlWemo0WHg4YURlZGNkd3JqTGx5QXVQMjFqOGxQUFBWX0pR?oc=5",
-      "source_name": "National Review",
-      "event_type": "intercept",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 2
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "50b454a246c1bf76",
-      "published_at": "2026-06-09T19:31:47+00:00",
-      "title": "Trump vows response after Iran shoots down US helicopter - Yahoo News Singapore",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rQ2paUjdJSUsyN0REa2dFU1FVaXEybzBtcllac0VWczN0LVhOWFFJSjJVMkk0LUJfaHBhVEFGX2RCNmlfc25aMzlRdnpWaHYyZFRnNXpRa3BxSUx6Z21yWTdVVmxPcXI5RnJaa19mZXhxMHB0Q0EyamZJTWw?oc=5",
-      "source_name": "Yahoo News Singapore",
-      "event_type": "intercept",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "fa0cf42f10f9e9dc",
-      "published_at": "2026-06-09T19:26:33+00:00",
-      "title": "Iran shot down Army Apache helicopter, and US must respond, Trump says - Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLWl2WlZOcTlaWW5YalB2SzRSRmVvNXVRR0FUS2VXRGlTVTFXQlppR2xYRjVyQmw3eTYxSE5pQ1NvamJFRjh1bDN4MWxidWRfTmlVU2VPbFdWUUUxZWxYRmF5cW5VSEZlXzFyRktQc2IxNnZ2QldseXViSU9UdG5rUURtd1BfSmJxQU1CMVZtU2hKUXRhUGFjX1BzTTRNSUZX?oc=5",
-      "source_name": "Stars and Stripes",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ea607beaf4b0d0f9",
-      "published_at": "2026-06-09T19:14:00+00:00",
-      "title": "Live updates: Iran war; Trump vows US response after saying Iran shot down Apache helicopter - CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "f8694cc0d0edcd27",
-      "published_at": "2026-06-09T19:14:00+00:00",
-      "title": "Trump says US helicopter was shot down in Iran strike - WJCL",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQWhKVWw5c0U3RkRwNnZ1VWRka0JBYkhWUFFQSjhzRTNMRmhYWmh4UDFJUURwbW1fNWdNaS1xcS1xRExQQkRkZE9VVFQ4NFhMN1lpajhkZ3VrUklDdUx2cFFkMHE5VU5KZzBiUkhoSmV5cFBtVUVwRXJKVk1MUU5LZUU1Q3JlZ3hXME5NY281Ym9Sd3hi?oc=5",
-      "source_name": "WJCL",
+      "id": "d43f787cf3cd1334",
+      "published_at": "2026-06-09T21:44:56+00:00",
+      "title": "Trump thinks Iran deal \u2018still close\u2019 despite retaliatory strikes over downed helicopter - Politico",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZFlnUUR2TjFadzBGWHNMZktIQ2tSUGY4MklNZnRYVGRZV2dEQWdINkNPLVk0U0hya1JkdGdCM1lYSmpkYkdJMXpZMWJJT19iTThDMlZCR1FWdzRBYWZOSTU0N2VzSGhKcnpqdWM1TlhTT2dLZXZFQUFYaDNvcXBwaF9fcEx3ejBySGM4YTVNT3JvZnRJRi1lOS10eHVnWjQ2X0R5eHFIMkxlcnhJMnNPMGN3UkU2UlUwRzFKWHZhcGdsalBOS2xHaWdiRURCOUVR?oc=5",
+      "source_name": "Politico",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -234,11 +369,11 @@
       "confidence": 0.65
     },
     {
-      "id": "71bdd0069d496a94",
-      "published_at": "2026-06-09T19:10:00+00:00",
-      "title": "Trump says US helicopter was shot down in Iran strike - KCRA",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON3pvR2lXOHhja3JtTHM5YURVcVlZLUFYSWdIV29vc0d5QmJjMU9IVmYxU2otbEhvNWlaRHRQWU9XOFFtM3c0WE41c3plSHl0YWgwS0FJNGJ4bmRSUW9UX3BqX0JqamUxWGEzZXpYeHR1aGdBVGlLNVBUUTlwWU9ZeVFHaFFFWTlTVXBZRGVBdm1iVE1o?oc=5",
-      "source_name": "KCRA",
+      "id": "c1c8ff6292cdfc44",
+      "published_at": "2026-06-09T21:43:20+00:00",
+      "title": "US begins new 'self-defense strikes' against Iran in response to Apache helicopter incident - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOYTgya2J4Y1RaWGJBY05zd1Rxd2dKZ3FoSHBuOFBwOC1sUDgtWlJoTkZxVUIzX3VMeHlPbk9ZUXpQZnp0X1UyNmZkTm5RU0xrUzZHUlgtYld3RGg2aDdhX2ExN2ZwZHN1ZGNFTzRhSnNPbVRCUXp4VGRpTUxVXzV1QjJuV3o2MTJUZWZfOTZOeTE0VkhUQ0U2cHBBbWpSMEFPdFM1bWVRRHNhMjJHMmFRWmVsYnhxUURad3lOMWNQUTNNMVRuYndxMV9Bb3lUQUk?oc=5",
+      "source_name": "Scripps News",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -246,157 +381,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
-      "id": "6e7c46d68350724a",
-      "published_at": "2026-06-09T19:08:00+00:00",
-      "title": "Iran live updates: US chopper brought down by Iran drone, sources say - ABC News - Breaking News, Latest News and Videos",
+      "id": "7310063bd6e0f86a",
+      "published_at": "2026-06-09T21:43:00+00:00",
+      "title": "Iran live updates: US launches strikes against Iran over downed helicopter, CENTCOM says - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU0lNUGZXMS1EVjUtbGlpOTk3cGxTU1FINDZTSUNyVllOa0JFLWh5VHR0TW9RUDA1RkE0T2pzV3hIbE5PVTA5Y21jdk1ObkQxSy1SUkxuYWVCTW82bjdfbExvZTZRODJmcmdTTGwybU5YR24wbXJ3czVlWm9mMmE3QjRvWnEtOWhad1FQZ0U2OXcwVGFxZXJYT2FWMk5pc3h3OE9yV1dzVVlNYXpKbHRN0gG0AUFVX3lxTE45aUo0RzJUSDVEek5ldzRSTWVoSjdxV2J2ZWMwVGFfQW1LWW1BY2k4Rjl6Y1BDM3V6WnNNT2FqOE9xQU9UVU5sckUzdmUwV095SVJKVWtMWVRNb0hCbF96V1dYWkQ4ekFCcW1kelRzc1RUT2tISFBHQ2EwTVlqQnNGakhiLXY3cXdhZzNrdkx4SDljc2ZmQXczejhHZ0dDRkF2bThEQ0tDRnNLc1pXdEhaZ0NfOQ?oc=5",
       "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6fdb4f46168e94b0",
-      "published_at": "2026-06-09T19:00:00+00:00",
-      "title": "Trump says Iran shot down U.S. helicopter near Strait of Hormuz, vows response - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS0lCdGM4alVyQVVLYXZyaWZVX3Fha3NZc1lVdHRwN2lxeV9XVnlDWGV4cURyWDRTeU9rUHE2ajZBUlJQd0dYQW4yR1NBM0poblhmQXhLTkhPMTBUTVRCazJXMllnVGJ5Z3V0dGxYbWRJcDRFUFZrVDBCOWJoMllEeE01YUxOQXFkM2FVVXM0d3BWVGpGMGdwZG5ZYkRabG1KQ05WRWVQdmpMUQ?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a7a707d754e7ef11",
-      "published_at": "2026-06-09T18:59:00+00:00",
-      "title": "Trump says US 'must' respond after Iran shot down US Army helicopter near Strait of Hormuz - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTFFLOUhHaFBaY2l1YWthbGVtYVByYlZkU3VhRXJxWEJiTmdwNVFWVU5FN0ZSRml0bVU5S3F1Wi1QdFp1bTQ0SE4zeXJadzZ5LVBtdFNHTHh5WWxnTHh5bHVCejk2Zl9HenVXQUNDSGNYWFgtdWVad0NFVWdwZjl0cnRuQ3ZLNUt6NW80Q2Q5cm1iRUpjMk9OVjFRZ3NIa1JNR2JkUHROZzZId2ZDUHJuQWNHcm5icGd1?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3315fedccf980889",
-      "published_at": "2026-06-09T18:49:00+00:00",
-      "title": "Live Updates: Trump says Iran shot down Apache helicopter and U.S. must respond - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b20928c50f233d65",
-      "published_at": "2026-06-09T18:45:00+00:00",
-      "title": "Trump Says U.S. \u2018Must\u2019 Respond After Confirming Iran Shot Down Apache Helicopter - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1NCUi1ER19KYTBHTk80MkdYQjBxSUlJTUpKU3hNejFxZ09SYWZYV1llVlJVWlhuZUhWRENyeHpJbG5ILV9hNTN5Wi1rR1YyWm5ub2xWY2Q4dEtHMkEwVVo3V2dRSjU2R1Z2dE1oSlpBSUluOTQxdjFpUWF3ZTBhWElCVzg0LUFf?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5b5734e3e9ba2c53",
-      "published_at": "2026-06-09T18:36:00+00:00",
-      "title": "Trump confirms Iran shot down helicopter, says U.S. \u2018must\u2019 respond - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb3FhX1g1WkdqTUdsc29JUlhyQmZXU0JJY1AtN2dhbmNXdWNxVW1TOWdnUC1jMnVWZnFKY0FyR296R21FeHVwR3JucGhKTXRXRE4yUDg1SUpPbVJNRldwaXRDR0czc3pmOVdRc0VOVHRwU1oyT1h2ZGZ6eWdjQkc5c0ZxaVJGRjF1NGlGY3BBR1h0VWV1RU9vMjBsSjRfOU52T25FZ1FmcE02aDA?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b034a0e5d150fc65",
-      "published_at": "2026-06-09T18:28:06+00:00",
-      "title": "Trump says US \u2018must respond\u2019 after acknowledging Iran shot down helicopter - Straight Arrow News - SAN - Unbiased. Straight Facts.",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGFsa2x1bi1GNHRtNDUxSThIaTQxSGsweW1CbXB2bWFOUlJkbVRkbWF0dTJIYngtM0txMFVkNXVTcVdUTmJodG1WMGpQRjcyU0QtQ1Utb1duTHRlS3ZLQlo2ODgtTlFBakxqd2xjRUxLVm1CdzR6bDh5Z1ppNy0tNVNaemFYM01xUlREakIyNm81TVpYdXJV?oc=5",
-      "source_name": "Straight Arrow News - SAN - Unbiased. Straight Facts.",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2f9b2216c5e7684a",
-      "published_at": "2026-06-09T18:27:45+00:00",
-      "title": "Trump Promises to \u2018Respond\u2019 to Iranian Attack on U.S. Military Helicopter - News of the United States - NOTUS",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT0pvWHZUS2REeERySlN6cFZpamlRY25jUWZ1RzFHdm5JbXhFZkVXcHJxT0cwQVVXUW5YZk5XekQyd1FESzljTWdWdGx5N2Nzd3hGZ3l6Ymd3Q3dLM1hYdWtBYlZKVk44WnJ1SkZNa2Z5ZE9zd1ROUkczOG82ZDZ0SA?oc=5",
-      "source_name": "News of the United States - NOTUS",
       "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "7021201a13f0c60c",
-      "published_at": "2026-06-09T18:05:44+00:00",
-      "title": "Does Trump have real leverage over Netanyahu \u2014 and could he use it? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOGw3cGdudmQ0eU16R3Y3ekczbUZmV2c4THF0NTdWS0lrSkZpTjBVWFNyV0h3OEp0emMzWTh4aWJKTTZlQ3BQd05vWGRiMk45MlZZWk9oV09vVkpORnQtT082cHlqak9QUTNMekhuOHR5bTVkemhqc2h0QWo5aS0xZHd0OXpWbEl3QVpLZzNpV07SAZYBQVVfeXFMT1lZZU5QYVNZRmdDSkZMWW1McVlXdkVWaFo5RGpwRVprYk16Y3RfNWMxZjVMVkNGdzRSVTBoMWlBMDBWSFZXYzN0WFdlZnEyVU5KaVFfV3RBRFMwc3dSSTUzeE96ZTUxSk9fdi1lWWFPTm5VY2dMMlBxdHZJbGZicjdLNm9QLWVsZktLZ1B0NlVTTzB1b2tn?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "218a890dfc1fd86a",
-      "published_at": "2026-06-09T18:01:05+00:00",
-      "title": "\u2018Anything but normal\u2019: Uncertainty as Iranians try to get by amid US war - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMjh2Wjh1Q1pvM3R3Znc3Mk5TVlIyRS02ejBiREZrQXA2QTRCQV80Q0Y0dmpwMnNWM1ZucW0wMDVOcVVjTS0xU0JfejFPc0dlOGswa2hHV3lpT2FBRG1vUVdQeDZXYlJDZHFHZzhBcTV4d2IzZ2dWX2Q2QzExc2JsZ0U2MU01YjFSaDhKc2pzZ1h1SXNjU0taR1hVWllsTmFWY0liWGFTc2FvZWZxOEHSAbMBQVVfeXFMTVRYLTVHY05MT1N4clU3WWY0aWUyeVp3QWo2S0Z4NGkwU2Rzc1gya0dpWFV1TlJBZDJNZnJqUXdnQ3RRMVJjSl93QXBWb0JjeE5NMklzMmh1Uk5KQ0thODlGNnpVMWotam9JaXBMbmZJeVc2Q2c1RkFlR2YxS3cwcWRBSU1NZHZWNkxFdFlHU0JJYWFiQTRFdWJiR3JINVNjMmJmeVducEdWNnZnYl9LSE1QSE0?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
+      "confidence": 0.65
     }
   ]
 }
