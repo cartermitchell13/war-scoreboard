@@ -1,38 +1,39 @@
 {
-  "generated_at": "2026-06-09T15:28:54.980440+00:00",
+  "generated_at": "2026-06-09T20:21:02.006371+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 93,
+  "event_count_window": 89,
   "totals": {
-    "usa": 22,
-    "iran": 9,
-    "lead": 13,
-    "lead_side": "USA"
+    "usa": 11,
+    "iran": 18,
+    "lead": -7,
+    "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 15,
-    "iran": 6,
-    "delta": 9
+    "usa": 11,
+    "iran": 18,
+    "delta": -7
   },
   "confidence": {
-    "score": 64.7,
+    "score": 64.6,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 39,
-    "other": 46,
-    "diplomatic": 7,
-    "material_loss": 1
+    "other": 53,
+    "material_loss": 4,
+    "intercept": 3,
+    "attack": 26,
+    "diplomatic": 3
   },
   "history": [
     {
       "date": "2026-05-27",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-05-28",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -68,7 +69,7 @@
     {
       "date": "2026-06-04",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-06-05",
@@ -87,80 +88,290 @@
     },
     {
       "date": "2026-06-08",
-      "usa": 5,
+      "usa": 3,
       "iran": 1
     },
     {
       "date": "2026-06-09",
-      "usa": 10,
-      "iran": 4
+      "usa": 8,
+      "iran": 17
     }
   ],
   "latest_events": [
     {
-      "id": "a18633d28c2aafc2",
-      "published_at": "2026-06-09T15:10:38+00:00",
-      "title": "Iran War Live Updates: Israel Strikes Southern Lebanon After Iran and Israel Pull Back From Attacking Each Other - The New York Times",
+      "id": "e1b789ae5dbab2f2",
+      "published_at": "2026-06-09T20:18:27+00:00",
+      "title": "U.S. Military Set To Respond After Iran Downs AH-64, Trump Says - Aviation Week",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlVvbjZLd01CTWRnMGoxcEl2ME9sVk01dW5hcEtsZjZ0YmczT0dDQXVVRDQ4N3BQVnVSZlNSQ05mQVRCbVlNcTI2T05UU01zdlp2UkpxeVZkeWRCNU8tdElOVkFoQmxES3haTkE5T2RETnFncmoyZ20wclA2eWdwaWxtMjF2RURiQTE4X1lZclFmWEYzTVdKZmROR3M5RG0yRWRTN0NTM0s5a1hWaTVYdUNTakRoZw?oc=5",
+      "source_name": "Aviation Week",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d7739a932eeee131",
+      "published_at": "2026-06-09T20:08:04+00:00",
+      "title": "Iran War Live Updates: Trump Says Iran Downed U.S. Helicopter Over Hormuz and Vows to Retaliate - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSmVTQlBBU2hybzN1RVMzZUZuU19hbTYtRm5GdW9kUU9Kd19KOThfbUE2aHRyNFU3NnZSS2RjREJUbW14NTZXMEVxNDJNdnlLd1I0SXh4U1JmTlVQRU9GNEhlUkRxRWc4Sm14LUdkWm0yU3dYaU8taVVGYkV0TEFGZw?oc=5",
       "source_name": "The New York Times",
-      "event_type": "attack",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "c29ebf2fedaffef7",
+      "published_at": "2026-06-09T20:07:02+00:00",
+      "title": "U.S. Army helicopter was downed by Iran near Strait of Hormuz, Trump says - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMWdvRUJXeEttQUppc3Z2YnF1ZEdwLXNBN085ekR4SUhDaXZocVNJQ3BnRlZPUWNOMHBxNHJzSmxGZExnU1VleDJNQm1uYlpNNkJsT3VXeHZGWTAtYjQ1NFAzM1VuNGwwWEsyRHBydzl6ZkFvTl9WQU1CN19rQ0xuWkZZcmFhNkM3SEtybU9FNUtYTDdzemVweW5FZkR1aDRBc0xaaUFBZTBSUnd2SkxNam8zZ01xemE3Rmx6YVpULV83b3ByZXZMVw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "material_loss",
       "actor": "usa",
       "target": "iran",
       "points": {
-        "usa": 3,
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "5033666630f4114f",
+      "published_at": "2026-06-09T19:52:30+00:00",
+      "title": "Trump says Iran shot down US helicopter over Hormuz, vows to respond - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNa1U3RXhmWS1NWEQ1QzhPZmFULVhEMGwtOVRSSVBKVVowLUxSNUFvYmZUUGljZThPdkVOaVJicmJ2SFJENmdudGZOdWVVNmFqRTJFQ0ZjUzE1RXdJYjNKS2Q2V0Nfcm9HenY0bEF2V1pHdDRadXZxZ1loTlQwYks1VklkV04yRklIQ2FVSXJKQ1pDQmFoeEVXSmtJSEViQnhzQmh3WEg2LVVEV2lS0gGyAUFVX3lxTE4xQ2Ixb01CVTZLSDFRNFZQbGI0M1Z2YmVFZVJoanVEbUJzMk5mc1p5cUo3Z2kzcGNpaVI5RHlFaWJlZ0JaMDBnMUV4UGFFTnFDOHctallaeHJiWHM5WVZVaGhOOExlR1RPUTEwNS15Z2pqYnp1TnRDRWhFdHFzVGplMW1NbEdNVjJmdkhiQXE1ZE9rMVdxSkZRU2FYa0lZdm9CdzA0amluNG5ta0ZEN0h0THc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
         "iran": 0
       },
       "confidence": 0.65
     },
     {
-      "id": "74e8814c44c9af18",
-      "published_at": "2026-06-09T15:10:00+00:00",
-      "title": "Live Updates: Trump says Iran deal possible in 2 or 3 days as Israel and Hezbollah keep fighting - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "100ea2f5e50ac8d3",
-      "published_at": "2026-06-09T15:05:00+00:00",
-      "title": "JD Vance is 'confident' Iran war will be history in a year: Exclusive - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPY3JSc2J0RTJJM2JVTVRhMVJKYU42RC1BcmJmZnotYWJoQzRycXBKbGFhVVBuc2FoYlIwM0RzcEV5S2Y5TTZaWEhfR0swV29LSVRaakZodkplSEU4Y0dkdnFfU2xGRG1TVnVXSWpydTBWMWVXSDhkLXJuYW5iM3Brb0I1YWh1WFdzU3p3T0t3UW10ejRZVE5LS0tHdWxPTjg5elVOU0pyc1kwOG9zYVE?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1055332f3cdc5e31",
-      "published_at": "2026-06-09T15:02:34+00:00",
-      "title": "Uncertainty around US-Iran talks, and other geopolitical stories to know this month - The World Economic Forum",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQNFVaRVVRQXo0RmVaM3dlU2hvY2JGVUJvSjBhcTN1TUVCM0xkeWZ5UFJzWVMxeUlLZ0U5Vl9tS3VodDhZQ1lUeVBIa1d3dURjRGRpZ1M1elVvRGRfYTFwOWpheTRHM1FWUzFaMEEtVjktQ3diem5LQ3p2cXNfbS1wTE82eGZKS0V0ajQ1QmNJVF83QjIteklEWnNxbzJXQ0hOb2N2U0pEMlBaXzlPdzZXUlQtTzJGTmExeWhGcWxDMVR1eFhmdGc?oc=5",
-      "source_name": "The World Economic Forum",
-      "event_type": "diplomatic",
+      "id": "937ef3d52ecd57a7",
+      "published_at": "2026-06-09T19:48:50+00:00",
+      "title": "Trump Vows to Respond After Iran Shoots Down U.S. Military Helicopter - National Review",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPNVR6WlR3YVA5bkE2Nmt1Vnp0cG1adGZ1aFlCdjhpa1UzQmI3VW5wUW9BWHNWZjZYbVdLTDVDanJDWGtSRVZxa2NxbEw3NlQ0VzFoYUI0bFdrR0lFa0FXVEVhUkc1ZGdadEFHZnVfY1AwMjhtaTdCSjByb3FGYWNDdVdCTmt4dVRVRmpEbkJrZFJPNktCeUs3aVFhcEcya1lPWmZPck9HTzLSAa4BQVVfeXFMUHd0dmluN1ExY2lpV0dUSWRHbF9yT01lRy1JSDB4a2ZPN3NkaDFKVXRpeERhVFFoaUhXdEx6aU42aVdzSlVWeXhWS1hJVDRIRF83S0tHclZHNnRDanpjeTNRN2VQdDJwYkp0RF9FQTNEX2FHeThjU2MydlVDb2xRQ1ppa1FrN0h1bXR0UzlWemo0WHg4YURlZGNkd3JqTGx5QXVQMjFqOGxQUFBWX0pR?oc=5",
+      "source_name": "National Review",
+      "event_type": "intercept",
       "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 2
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "50b454a246c1bf76",
+      "published_at": "2026-06-09T19:31:47+00:00",
+      "title": "Trump vows response after Iran shoots down US helicopter - Yahoo News Singapore",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1rQ2paUjdJSUsyN0REa2dFU1FVaXEybzBtcllac0VWczN0LVhOWFFJSjJVMkk0LUJfaHBhVEFGX2RCNmlfc25aMzlRdnpWaHYyZFRnNXpRa3BxSUx6Z21yWTdVVmxPcXI5RnJaa19mZXhxMHB0Q0EyamZJTWw?oc=5",
+      "source_name": "Yahoo News Singapore",
+      "event_type": "intercept",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fa0cf42f10f9e9dc",
+      "published_at": "2026-06-09T19:26:33+00:00",
+      "title": "Iran shot down Army Apache helicopter, and US must respond, Trump says - Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOLWl2WlZOcTlaWW5YalB2SzRSRmVvNXVRR0FUS2VXRGlTVTFXQlppR2xYRjVyQmw3eTYxSE5pQ1NvamJFRjh1bDN4MWxidWRfTmlVU2VPbFdWUUUxZWxYRmF5cW5VSEZlXzFyRktQc2IxNnZ2QldseXViSU9UdG5rUURtd1BfSmJxQU1CMVZtU2hKUXRhUGFjX1BzTTRNSUZX?oc=5",
+      "source_name": "Stars and Stripes",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ea607beaf4b0d0f9",
+      "published_at": "2026-06-09T19:14:00+00:00",
+      "title": "Live updates: Iran war; Trump vows US response after saying Iran shot down Apache helicopter - CNN",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "f8694cc0d0edcd27",
+      "published_at": "2026-06-09T19:14:00+00:00",
+      "title": "Trump says US helicopter was shot down in Iran strike - WJCL",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQWhKVWw5c0U3RkRwNnZ1VWRka0JBYkhWUFFQSjhzRTNMRmhYWmh4UDFJUURwbW1fNWdNaS1xcS1xRExQQkRkZE9VVFQ4NFhMN1lpajhkZ3VrUklDdUx2cFFkMHE5VU5KZzBiUkhoSmV5cFBtVUVwRXJKVk1MUU5LZUU1Q3JlZ3hXME5NY281Ym9Sd3hi?oc=5",
+      "source_name": "WJCL",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "71bdd0069d496a94",
+      "published_at": "2026-06-09T19:10:00+00:00",
+      "title": "Trump says US helicopter was shot down in Iran strike - KCRA",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxON3pvR2lXOHhja3JtTHM5YURVcVlZLUFYSWdIV29vc0d5QmJjMU9IVmYxU2otbEhvNWlaRHRQWU9XOFFtM3c0WE41c3plSHl0YWgwS0FJNGJ4bmRSUW9UX3BqX0JqamUxWGEzZXpYeHR1aGdBVGlLNVBUUTlwWU9ZeVFHaFFFWTlTVXBZRGVBdm1iVE1o?oc=5",
+      "source_name": "KCRA",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6e7c46d68350724a",
+      "published_at": "2026-06-09T19:08:00+00:00",
+      "title": "Iran live updates: US chopper brought down by Iran drone, sources say - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU0lNUGZXMS1EVjUtbGlpOTk3cGxTU1FINDZTSUNyVllOa0JFLWh5VHR0TW9RUDA1RkE0T2pzV3hIbE5PVTA5Y21jdk1ObkQxSy1SUkxuYWVCTW82bjdfbExvZTZRODJmcmdTTGwybU5YR24wbXJ3czVlWm9mMmE3QjRvWnEtOWhad1FQZ0U2OXcwVGFxZXJYT2FWMk5pc3h3OE9yV1dzVVlNYXpKbHRN0gG0AUFVX3lxTE45aUo0RzJUSDVEek5ldzRSTWVoSjdxV2J2ZWMwVGFfQW1LWW1BY2k4Rjl6Y1BDM3V6WnNNT2FqOE9xQU9UVU5sckUzdmUwV095SVJKVWtMWVRNb0hCbF96V1dYWkQ4ekFCcW1kelRzc1RUT2tISFBHQ2EwTVlqQnNGakhiLXY3cXdhZzNrdkx4SDljc2ZmQXczejhHZ0dDRkF2bThEQ0tDRnNLc1pXdEhaZ0NfOQ?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6fdb4f46168e94b0",
+      "published_at": "2026-06-09T19:00:00+00:00",
+      "title": "Trump says Iran shot down U.S. helicopter near Strait of Hormuz, vows response - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS0lCdGM4alVyQVVLYXZyaWZVX3Fha3NZc1lVdHRwN2lxeV9XVnlDWGV4cURyWDRTeU9rUHE2ajZBUlJQd0dYQW4yR1NBM0poblhmQXhLTkhPMTBUTVRCazJXMllnVGJ5Z3V0dGxYbWRJcDRFUFZrVDBCOWJoMllEeE01YUxOQXFkM2FVVXM0d3BWVGpGMGdwZG5ZYkRabG1KQ05WRWVQdmpMUQ?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.7
     },
     {
-      "id": "fd1ac021eae4fc77",
-      "published_at": "2026-06-09T14:49:06+00:00",
-      "title": "Did Netanyahu really \u2018defy\u2019 Trump in bombing Iran? - Al Jazeera",
+      "id": "a7a707d754e7ef11",
+      "published_at": "2026-06-09T18:59:00+00:00",
+      "title": "Trump says US 'must' respond after Iran shot down US Army helicopter near Strait of Hormuz - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTFFLOUhHaFBaY2l1YWthbGVtYVByYlZkU3VhRXJxWEJiTmdwNVFWVU5FN0ZSRml0bVU5S3F1Wi1QdFp1bTQ0SE4zeXJadzZ5LVBtdFNHTHh5WWxnTHh5bHVCejk2Zl9HenVXQUNDSGNYWFgtdWVad0NFVWdwZjl0cnRuQ3ZLNUt6NW80Q2Q5cm1iRUpjMk9OVjFRZ3NIa1JNR2JkUHROZzZId2ZDUHJuQWNHcm5icGd1?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3315fedccf980889",
+      "published_at": "2026-06-09T18:49:00+00:00",
+      "title": "Live Updates: Trump says Iran shot down Apache helicopter and U.S. must respond - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b20928c50f233d65",
+      "published_at": "2026-06-09T18:45:00+00:00",
+      "title": "Trump Says U.S. \u2018Must\u2019 Respond After Confirming Iran Shot Down Apache Helicopter - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1NCUi1ER19KYTBHTk80MkdYQjBxSUlJTUpKU3hNejFxZ09SYWZYV1llVlJVWlhuZUhWRENyeHpJbG5ILV9hNTN5Wi1rR1YyWm5ub2xWY2Q4dEtHMkEwVVo3V2dRSjU2R1Z2dE1oSlpBSUluOTQxdjFpUWF3ZTBhWElCVzg0LUFf?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5b5734e3e9ba2c53",
+      "published_at": "2026-06-09T18:36:00+00:00",
+      "title": "Trump confirms Iran shot down helicopter, says U.S. \u2018must\u2019 respond - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb3FhX1g1WkdqTUdsc29JUlhyQmZXU0JJY1AtN2dhbmNXdWNxVW1TOWdnUC1jMnVWZnFKY0FyR296R21FeHVwR3JucGhKTXRXRE4yUDg1SUpPbVJNRldwaXRDR0czc3pmOVdRc0VOVHRwU1oyT1h2ZGZ6eWdjQkc5c0ZxaVJGRjF1NGlGY3BBR1h0VWV1RU9vMjBsSjRfOU52T25FZ1FmcE02aDA?oc=5",
+      "source_name": "NPR",
+      "event_type": "other",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b034a0e5d150fc65",
+      "published_at": "2026-06-09T18:28:06+00:00",
+      "title": "Trump says US \u2018must respond\u2019 after acknowledging Iran shot down helicopter - Straight Arrow News - SAN - Unbiased. Straight Facts.",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUGFsa2x1bi1GNHRtNDUxSThIaTQxSGsweW1CbXB2bWFOUlJkbVRkbWF0dTJIYngtM0txMFVkNXVTcVdUTmJodG1WMGpQRjcyU0QtQ1Utb1duTHRlS3ZLQlo2ODgtTlFBakxqd2xjRUxLVm1CdzR6bDh5Z1ppNy0tNVNaemFYM01xUlREakIyNm81TVpYdXJV?oc=5",
+      "source_name": "Straight Arrow News - SAN - Unbiased. Straight Facts.",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2f9b2216c5e7684a",
+      "published_at": "2026-06-09T18:27:45+00:00",
+      "title": "Trump Promises to \u2018Respond\u2019 to Iranian Attack on U.S. Military Helicopter - News of the United States - NOTUS",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT0pvWHZUS2REeERySlN6cFZpamlRY25jUWZ1RzFHdm5JbXhFZkVXcHJxT0cwQVVXUW5YZk5XekQyd1FESzljTWdWdGx5N2Nzd3hGZ3l6Ymd3Q3dLM1hYdWtBYlZKVk44WnJ1SkZNa2Z5ZE9zd1ROUkczOG82ZDZ0SA?oc=5",
+      "source_name": "News of the United States - NOTUS",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "7021201a13f0c60c",
+      "published_at": "2026-06-09T18:05:44+00:00",
+      "title": "Does Trump have real leverage over Netanyahu \u2014 and could he use it? - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOGw3cGdudmQ0eU16R3Y3ekczbUZmV2c4THF0NTdWS0lrSkZpTjBVWFNyV0h3OEp0emMzWTh4aWJKTTZlQ3BQd05vWGRiMk45MlZZWk9oV09vVkpORnQtT082cHlqak9QUTNMekhuOHR5bTVkemhqc2h0QWo5aS0xZHd0OXpWbEl3QVpLZzNpV07SAZYBQVVfeXFMT1lZZU5QYVNZRmdDSkZMWW1McVlXdkVWaFo5RGpwRVprYk16Y3RfNWMxZjVMVkNGdzRSVTBoMWlBMDBWSFZXYzN0WFdlZnEyVU5KaVFfV3RBRFMwc3dSSTUzeE96ZTUxSk9fdi1lWWFPTm5VY2dMMlBxdHZJbGZicjdLNm9QLWVsZktLZ1B0NlVTTzB1b2tn?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
@@ -170,193 +381,13 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "aa40c25a5438eeb8",
-      "published_at": "2026-06-09T14:24:24+00:00",
-      "title": "Trump says in \u2018final throes\u2019 of peace deal but at least 8 killed in Tyre - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdGQ4ZTRseFdBQ3RnaTZ1Y0hibHNLbU5CeGltdnRrRHVsRE45UkltUURrMUZIUGQ2RW12U3Nqa3NEVzd2QS1xQXVkRTUteFRCWWJNVFJ6TDRzWWNudzF5NFAyNWFPeW42SEdldmJBUVN2REIxTERhcmJRZGROeEFuM2s3d2NUNHkxdzUwZS1CM1dYQVVVRWhpWUNweGd2WEQ1SGRlbGdKZG1qWDc2T0pJ0gG0AUFVX3lxTE5hR3FUamxORkNnWTkyX2RNa2JHM2JibWQ2dFBlU0o2Sm5VQnRlNUhLaHgyaTB0ekNsX0IzaGY5Wm1ndmMtTmh3NUdlX2M0SVBVWjV5S0Y5eWgxdkllLTh0a01LZk5aa0ZmbWI3WHFKQVNrb3VyYTFwdXN2OUlzVmdjZzRvclhYZkZEVDhVQmJOOFhXempYbEltU3NBQXRPNFpaVHJXblhvNnY4MC1sX2N4OXRpZQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "569fdd60e1b13365",
-      "published_at": "2026-06-09T14:21:00+00:00",
-      "title": "Live updates: Iran war news, Israel strikes on Lebanon - CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "46d25d9c5c20cdb7",
-      "published_at": "2026-06-09T13:56:22+00:00",
-      "title": "Israelis, Palestinians and Americans disagree on which countries in Iran war are doing enough to protect civilians - Pew Research Center",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPZmRBXzhnNnhhWnNZcU9POHQwaVhjbGFYZ2FDRkJqZjBmQlFJVnhxamVQRDNUQmdHcTFiMTlrdWd1NThWbElQb1Nub1M4ay1uY3JyTkM5T2dVb2w4MENWeWtCdEF4Q0k1Y2NJWDlfVDR3WUNCUHMtU3lwbG91SlZMX1BZSjVYYnRLcWlEVkFhLVZiTDFrTDBuUkI3THNwelZKbkdHSURlVWhsdmx2OWxsQUoza2dnM3NGZzVFemxGTmxvVGhpZVFWSWxaSFZsSVVkdV9sZEctTnpqSlBxeXVNMjZiN2czb0RRbHR0ZEZXY3JxQQ?oc=5",
-      "source_name": "Pew Research Center",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b4c40f0893220124",
-      "published_at": "2026-06-09T13:56:22+00:00",
-      "title": "Israelis, Palestinians, Americans See War in Iran Differently - Pew Research Center",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQLUV5c0tHV2VCa0xXdFV0YVpLNm5RMEczNk45enoxaXlIVk5lQVJ5aVNLZ3g4bU9XU2pHRHA5eUJwcUdsc3I4aElSdUJJbVl6Z1FBMnFOWmJydS1EcVlyc18zN1ZVbnpnRzZEa2FHZEJFM2NfNnVVZ0MxRDZnV1BxNzhaVjdqdFpGQkZ4OWkzMEdrSWNldUJ4SW1DZDBsamplT0xyNkNVbWhkQQ?oc=5",
-      "source_name": "Pew Research Center",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "87ecf2924855e051",
-      "published_at": "2026-06-09T13:51:07+00:00",
-      "title": "Iran and Israel Exchange Strikes for First Time Since April Cease-Fire - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4yaFRvZG5JOHJaV2ZsSllxcUx6WG9HSEdWVC1sQlVDZlRIUmxxb18xVWNmOEZCd0xKa3lraG80ZGw4NnVHcE5vODRwZzVNVkV4V3JscldjQUt0dU9zQ2swZjExcG9IR2E2dG5hb29HekFnYV8x?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5f5263ac7f7291d5",
-      "published_at": "2026-06-09T13:48:34+00:00",
-      "title": "Oil Prices Ease as Iran and Israel Halt Strikes - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBnczhFakx0RzkxZDU1LXVqMnBFQ3ZpYkl1cHFnR2p6Nk9ESTdSTHZSNUMzVjVlWHJESGU3bXlZajREakZraEEybU5hLVJyMExZWDdhOFgzRGtjM0JoTV9QWUY3YTFFa3prV0ZnQ09xN19zTk1nUUN3?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4838ae2df78a0c6d",
-      "published_at": "2026-06-09T13:31:38+00:00",
-      "title": "Reaching deal to end US-Iran war in 2 or 3 days 'highly' unlikely: sources - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFZXMzUzMVdCOE5zUFJqaUpmN3Vlb0RZTWNLXzZ1MUJDSVp6QXNVeVM0RTI2bXEyNE9IbThSMVdxV3BISEZLeFFCbVFLM0o1Q2VVcElpTGNiSE5WdFpRN245OUY4YnVJM0Z5ajl1YXdBVVlNYmZsWE9mQV9WY21BRHg5a3czNG5lRHlTaXRIR1hrWk85RjBXejg3WTVkcXFwZHpYMXpLMVFJYjg?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "41e57ef9141bb07a",
-      "published_at": "2026-06-09T12:51:49+00:00",
-      "title": "U.S. Exports Rose in April, as Strait of Hormuz Closure Buoyed Demand for American Oil - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQdlB5dEtONXJFZEFvUGV4dWsxR1NqN2tMVDVLcWVoMlVFdzEyUHoyZVNUOWR3VXBFZDVpOTJyZ0F3N1hwSUQ2VFZIN0M2Tk54V21Ca2lVdmlVNlRpRHRJU1kzSkJ5bENsaEl4ODUtRGZWUDRuRXU1aTJsQzdqdFVKRkd4VDZnUE50RUE?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8d6c2d0a399ccede",
-      "published_at": "2026-06-09T12:39:39+00:00",
-      "title": "Israel launches new Lebanon strikes even as Trump insists Iran deal coming soon - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOSWoxNjZLUEhJY1Rsd3cwU1lXQXhWX2tMX3RzTFB2dWFJZkFEVFZCaGIwWFVadUtLQ3h6NlpkNEQ2WXByUy1pX21pTFhBY3ZRS2Y1ZW9ZWk9rU1pvc29qbUFMRFdRVEJSWmpTaC05RWRBMUo5WmRsdnVhNlJzVk4zelkxTUZtdkFoUUJOOVc0R3oxWDNLMXFRX2d3cS1nSWdZMHc?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "05d63d9898832c95",
-      "published_at": "2026-06-09T12:19:59+00:00",
-      "title": "How are Saudis viewing the US-Iran war? Our polling suggests Gulf kingdom is split on key issues - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRXZkbDdJV19odDVBbXcycG9oRl82WVIwNjl2Zm9hbWE1VmtucnYwM2RENm9qVHlRT0RfWDRXakE5ZnFrNVFGTEJTcXhDWGZibjNoUE5CZ0N0YVgyalpyeVR3MlBkRGhmVzc0RmJ6Zmp0VG9CQ1NCSkJQZm9sYllNNDFBY2lxRnZHY1Q0R29zWTBBQ2Z1U05vZXZHU09tYW91aEI2ajNweU1JVTlnOFVuZmd3NTVYOUwzYVJEc3dCaDBVR2NIRFlxY1NB?oc=5",
-      "source_name": "The Conversation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
       "confidence": 0.6
     },
     {
-      "id": "206d523eaf0b3477",
-      "published_at": "2026-06-09T12:19:43+00:00",
-      "title": "Live Coverage of the Iran\u2013U.S.\u2013Israel Conflict / June 09 - WANA News Agency",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBybm9HeTd6SVNHMVNCZW9ELW8wLVBzVnpZLUgyWTl0SUtGUEw3VnQ3MFpkRmdhUlVoM0YzNEVVOTkwXzBvWmhVTVYyblNKaWhhcjc5YUppeG84ZkNLRUswRFgyN3RjTkhOVHdRRU9sSTd2ejVEeUdFc3lOVjhkUQ?oc=5",
-      "source_name": "WANA News Agency",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "af301fa5ebc54f3a",
-      "published_at": "2026-06-09T11:40:28+00:00",
-      "title": "US Strikes India-Crewed Tanker That May Have Been Iran-Bound - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNXhXbnRLYjZMNUFCZlJQODg2S21DTE1BbmRuYmtneWdTbmhNRXVSaVhMMHpfMlU4SFFoZ1laOUNHalNJWVZOVlpnc0QtRUZxdFB2UXVSTFRaTW9Bckx4bzU1TlRpaE9fbDdjLTJHNlNmbVVuUmlxMHdEU1dvVEwxNWlqTzR1TnpUeVdjWlJmQkFfYVNiYmlBUHFrNHdMUEoyNTJkUUlNRzFVakNPUExzdQ?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ccb02204af6c0e09",
-      "published_at": "2026-06-09T11:30:12+00:00",
-      "title": "Iran war live: Israel pounds Lebanon; Trump says deal may come within days - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTk1sMDhuN1Y0S0dtS3hsMWdlZUp5NGVWcnhZSmEya3VLYXBOM29DTzkzTjNIWWdIMUNVWjBVWkNWQnRnYWZnRUcwSmQ3bDU3QlN5Rndub2dWNUc1dHA1Z0c1RXlPT1lhbWVpRlFnV3ZjSml2MW45ZmlDbXU5clhNQmlmZ3RwbmtqQkFFMHZLOS1LVkVpSnhsTHpoMjNTOXltMl95QXEyZ25rd9IBrwFBVV95cUxNOG1fSlNOY2JPQUF4c3hFSF9hZ25YdHp4SzNzai1oZXhHNjlIbkhhV21CMnRUVkxBbXg5WVpURUFEYVdkUDhjNEJRUXp1WmxtWFRHajRabktYbV9ab013cmcwb29nYmJ5N3hWbE93SThJclNIRzVzUEhWc3IzbEVPRkplUTlldk5yMTJPdTFFM3ZhRUU5WFhzQWxoQ09OOWNndEVVVFVGSThYY2Vndi13?oc=5",
+      "id": "218a890dfc1fd86a",
+      "published_at": "2026-06-09T18:01:05+00:00",
+      "title": "\u2018Anything but normal\u2019: Uncertainty as Iranians try to get by amid US war - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMjh2Wjh1Q1pvM3R3Znc3Mk5TVlIyRS02ejBiREZrQXA2QTRCQV80Q0Y0dmpwMnNWM1ZucW0wMDVOcVVjTS0xU0JfejFPc0dlOGswa2hHV3lpT2FBRG1vUVdQeDZXYlJDZHFHZzhBcTV4d2IzZ2dWX2Q2QzExc2JsZ0U2MU01YjFSaDhKc2pzZ1h1SXNjU0taR1hVWllsTmFWY0liWGFTc2FvZWZxOEHSAbMBQVVfeXFMTVRYLTVHY05MT1N4clU3WWY0aWUyeVp3QWo2S0Z4NGkwU2Rzc1gya0dpWFV1TlJBZDJNZnJqUXdnQ3RRMVJjSl93QXBWb0JjeE5NMklzMmh1Uk5KQ0thODlGNnpVMWotam9JaXBMbmZJeVc2Q2c1RkFlR2YxS3cwcWRBSU1NZHZWNkxFdFlHU0JJYWFiQTRFdWJiR3JINVNjMmJmeVducEdWNnZnYl9LSE1QSE0?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -365,37 +396,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "83450c5dc03eb910",
-      "published_at": "2026-06-09T11:29:00+00:00",
-      "title": "Crew Is Rescued After U.S. Helicopter Goes Down Near Strait of Hormuz - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWW5XbmdxRXY4ZzkyRFltQm50eXk5UTZBNy1remRvREZMZURwX2dSTHRUU1FJOTdqNnVLMmJDdThGaE8zZEpubThhNE54c3JGMnJWbjBVV2hQbnVWV0RFYnp4Rm41b3o3Z1R4bURLa0pvZHAwMVZZLU1sQVh2TTljWHBIc01pejZsSGc?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
       "confidence": 0.6
-    },
-    {
-      "id": "76ff7f28dfd4a722",
-      "published_at": "2026-06-09T10:51:24+00:00",
-      "title": "Iran and Israel say they have halted strikes after first exchange of fire since truce - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE43Um43SEo0YlptcW1BU24xdng2NTJPc1NmeE01OF9KY0Y0Wi04aWdBTW9uX2hqSm1zdTYtRHp2NnFjVFpKaWdJdkM0UnRxX3dkajhzMWtjZ3p3dw?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
