@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-06-10T04:51:12.231920+00:00",
+  "generated_at": "2026-06-10T10:35:08.485128+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 82,
+  "event_count_window": 76,
   "totals": {
-    "usa": 83,
-    "iran": 2,
-    "lead": 81,
+    "usa": 56,
+    "iran": 14,
+    "lead": 42,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 83,
-    "iran": 2,
-    "delta": 81
+    "usa": 56,
+    "iran": 14,
+    "delta": 42
   },
   "confidence": {
-    "score": 70.0,
+    "score": 70.5,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 55,
-    "other": 23,
-    "diplomatic": 3,
-    "material_loss": 1
+    "attack": 51,
+    "other": 21,
+    "material_loss": 2,
+    "diplomatic": 2
   },
   "history": [
     {
@@ -82,54 +82,39 @@
     },
     {
       "date": "2026-06-08",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-06-09",
-      "usa": 37,
+      "usa": 20,
       "iran": 1
     },
     {
       "date": "2026-06-10",
-      "usa": 45,
-      "iran": 1
+      "usa": 36,
+      "iran": 13
     }
   ],
   "latest_events": [
     {
-      "id": "abca6e4d11e4cf3b",
-      "published_at": "2026-06-10T04:37:50+00:00",
-      "title": "Iran War Live Updates: U.S. Launches Strikes on Iran; Tehran Claims Attacks on U.S. Fleet - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSmVTQlBBU2hybzN1RVMzZUZuU19hbTYtRm5GdW9kUU9Kd19KOThfbUE2aHRyNFU3NnZSS2RjREJUbW14NTZXMEVxNDJNdnlLd1I0SXh4U1JmTlVQRU9GNEhlUkRxRWc4Sm14LUdkWm0yU3dYaU8taVVGYkV0TEFGZw?oc=5",
-      "source_name": "The New York Times",
+      "id": "e89b21ec2561a0fd",
+      "published_at": "2026-06-10T10:22:15+00:00",
+      "title": "Trump invokes \u2018The West Wing\u2019 in apparent justification of latest Iran strikes - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONHpDS3VsU2Q4WXpyNkdCLTJ6R0k1S0JndG1wMWVTcEpiZTgxa2FCTDhLclBDSUdVY05xc2xiazNYNXJBMDVUcHdidWd0UktGWDdrNGMxQV9qZy1ldkxaT3JHbUx4WXAtWG9hMl9mMHdvZzQzYnJKZzNqam8zZTVuUUIzcHNMQUVXMnQyN3V5ZmhUdS1qbTFGbEtQWGVaY1FjM0ZqRDk0cmtkV3ROcG1OQXdXcVdqdw?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "actor": "iran",
+      "target": "usa",
       "points": {
-        "usa": 3,
-        "iran": 0
+        "usa": 0,
+        "iran": 3
       },
-      "confidence": 0.85
-    },
-    {
-      "id": "74a9cec56f38ee86",
-      "published_at": "2026-06-10T04:27:00+00:00",
-      "title": "U.S. launches new attacks on Iran in response to downing of helicopter, CENTCOM says - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNS0lCdGM4alVyQVVLYXZyaWZVX3Fha3NZc1lVdHRwN2lxeV9XVnlDWGV4cURyWDRTeU9rUHE2ajZBUlJQd0dYQW4yR1NBM0poblhmQXhLTkhPMTBUTVRCazJXMllnVGJ5Z3V0dGxYbWRJcDRFUFZrVDBCOWJoMllEeE01YUxOQXFkM2FVVXM0d3BWVGpGMGdwZG5ZYkRabG1KQ05WRWVQdmpMUQ?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
+      "confidence": 0.8
     },
     {
       "id": "37fd08bafff97427",
-      "published_at": "2026-06-10T04:10:00+00:00",
+      "published_at": "2026-06-10T10:20:00+00:00",
       "title": "Middle East crisis live: Iran launches broad retaliatory attacks after US strikes over downed helicopter - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOYVRrbUlGa2FOQi1SSnhKZmNKNDh6NURTOFdVSjVHeEpTTVM5b0RyNDQxWnhIaXRwTVRBNEhMY2x4c1EtM1VXYkp5VWp1a1huZV84MEFVb3ZIVEZtSHBRWlVuMXJPNXc5dmdQSnctOGNRckMwNFFheUdWVE9uWmFpdU9fS0lZZmlJd2M0dWoxUlpZNVk1SnZHeVZ3MG41aDZKQ24yQkNueGNEUGN5alJNTjhjUWdFeGZkQ0k0QndwQ21heGxvNXpnTGdCRVA?oc=5",
       "source_name": "The Guardian",
@@ -140,12 +125,207 @@
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.7
+    },
+    {
+      "id": "dcc99ccbf8a99f01",
+      "published_at": "2026-06-10T10:11:00+00:00",
+      "title": "Live updates: Iran launches retaliatory strikes on US targets in the Middle East - CNN",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SZDdKa1gxeUJSNTBHc1hsN2preWRiM1RqbjRlVDlYUzRjc0twS01jX25uWG83dk1ScmlnSUZpLUE3ckVOSGJRZmxjSXo1dXRYdmMtLWZ1OEY3SFRWU1Y2SERvZmpHeFZUanRqdTc1c2pDMjFzdUVz?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "2ea2a6f6045ebb83",
+      "published_at": "2026-06-10T10:07:16+00:00",
+      "title": "Live updates: Iran strikes U.S. targets after new American attacks over downed helicopter - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Oc1Fzd0ZSWVdncl9DMFcwSHN2Q1V3N1pUWDNRN3NocFY3ZVJ2Y25GR09CMW5fSjRSSDBxc3RiUER0cDhWMU1yNE1oVUh6ZlpRLVJOelB1aF9vbXU0bDZiOHVscFVxWmtCc2x3VFJBUTRZUmxqbXBKR3I2VQ?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "702f19db66111b76",
+      "published_at": "2026-06-10T10:00:00+00:00",
+      "title": "News Analysis: The war front that could sink Trump\u2019s negotiations with Iran - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPT1JVdmdtQVdjVElfWlp6ZDFtcllWYzlGeFpjN3YtQ2tFLXI5V0Nvcjh4aENXZlV2eWx2UmdMc2FYU2FYQW5pUmRzR25LRVVwcERGeERjdmFhLTVzSUg2OUlLdUhwVzhNLVEtaVlkdUVaUFBPZ1BKU0Y0Y0JKZWhnWHNJQzVvSkl2dzJkcFNvRXlneTJuelF6OHRNbEtRX3pzUGRVa21TUm1PQk1iSFRwLTRIZ0U?oc=5",
+      "source_name": "Los Angeles Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "26044dc2b3543431",
+      "published_at": "2026-06-10T09:48:00+00:00",
+      "title": "US strikes Iran after blaming Tehran for helicopter crash. Iran fires on countries in the region - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU25kWmtrYVNpdHBud0dxUDhZdUx0OFMyQUxOWER5cXowaW8zWk9pdWNBeWdycUNTTXp4VjlmSWF1UDRzOEpBdl9RRTlYeno2cXBHUEJuVDJaTk05dldzaEwza29fR2I1NmpsZU5JZUlUWjNoWlZUTXFiaFFLYm9oSHR5Ukk4X2s5X193eU5fVm5KWjZmSHBsTnJ2U29JU1lVb3ZtLUZuTUpDNHM?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
       "confidence": 0.65
     },
     {
-      "id": "87655f74dbe6d423",
-      "published_at": "2026-06-10T03:58:47+00:00",
-      "title": "Iran war live: Tehran targets US forces in Bahrain, Jordan after south hit - Al Jazeera",
+      "id": "2f908dce817f949d",
+      "published_at": "2026-06-10T09:38:06+00:00",
+      "title": "U.S. launches strikes on Iran after downing of Army helicopter, prompting retaliation - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMWdvRUJXeEttQUppc3Z2YnF1ZEdwLXNBN085ekR4SUhDaXZocVNJQ3BnRlZPUWNOMHBxNHJzSmxGZExnU1VleDJNQm1uYlpNNkJsT3VXeHZGWTAtYjQ1NFAzM1VuNGwwWEsyRHBydzl6ZkFvTl9WQU1CN19rQ0xuWkZZcmFhNkM3SEtybU9FNUtYTDdzemVweW5FZkR1aDRBc0xaaUFBZTBSUnd2SkxNam8zZ01xemE3Rmx6YVpULV83b3ByZXZMVw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "802cf854ff522d6c",
+      "published_at": "2026-06-10T09:33:45+00:00",
+      "title": "U.S. Military Set To Respond After Iran Downs AH-64, Trump Says - Aviation Week",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMlVvbjZLd01CTWRnMGoxcEl2ME9sVk01dW5hcEtsZjZ0YmczT0dDQXVVRDQ4N3BQVnVSZlNSQ05mQVRCbVlNcTI2T05UU01zdlp2UkpxeVZkeWRCNU8tdElOVkFoQmxES3haTkE5T2RETnFncmoyZ20wclA2eWdwaWxtMjF2RURiQTE4X1lZclFmWEYzTVdKZmROR3M5RG0yRWRTN0NTM0s5a1hWaTVYdUNTakRoZw?oc=5",
+      "source_name": "Aviation Week",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3f6efc95a7c4f5d9",
+      "published_at": "2026-06-10T09:31:00+00:00",
+      "title": "US launches airstrikes on Iran after blaming Tehran for helicopter crash, prompting retaliation - WESH",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQUQ5ZDNmdWFERGcwaHQ5aGQzLUIxZFZTSUVXT25Lc3Iyb09aTjdjMHZuNTFtMU9hbmpJaWtqblZzcjZrYVcwZjR2bWdGYlI1SkJwOUF6QXlDM2lGVC12NUNrN2hUenFrclJSZEVyT05RaHRMQjhsZzE0R3NUVVc1b3FibnQ1LUdjQVBKc1QwOA?oc=5",
+      "source_name": "WESH",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "6e7e5b9e0f83058b",
+      "published_at": "2026-06-10T09:00:00+00:00",
+      "title": "US launches strikes at Iran after crash - The Arkansas Democrat-Gazette",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZGVtM3p2cGFTZ1N5VXdENWI0WTRFQXhXYXQ5cjlRem1BTm4xR3ozcHE3STRwM1pSV2dQSnQzbl9YWHpGQjVtVEVWRE1pczJ6RTNvaDVzS1RiMWFQUTdLMkxDU19rNHFUWXlTWXpNYzFsWWlxVWlTVFZtY0Vpb3F4dkNBUUVVSFdxeFJhb0xIQWUyUQ?oc=5",
+      "source_name": "The Arkansas Democrat-Gazette",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2f6c5c02172cb75b",
+      "published_at": "2026-06-10T08:26:56+00:00",
+      "title": "Iran live updates: US strikes in Iran 'completed,' CENTCOM says - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU0lNUGZXMS1EVjUtbGlpOTk3cGxTU1FINDZTSUNyVllOa0JFLWh5VHR0TW9RUDA1RkE0T2pzV3hIbE5PVTA5Y21jdk1ObkQxSy1SUkxuYWVCTW82bjdfbExvZTZRODJmcmdTTGwybU5YR24wbXJ3czVlWm9mMmE3QjRvWnEtOWhad1FQZ0U2OXcwVGFxZXJYT2FWMk5pc3h3OE9yV1dzVVlNYXpKbHRN?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "abec167f9bb8d636",
+      "published_at": "2026-06-10T08:22:03+00:00",
+      "title": "Hormuz war risk claims could exceed $3 billion as US-Iran fighting resumes - Insurance Business",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSVM4MWV5WWlSai1IdHNRdWtncHh2aXd5S05mWU1mc3dXR19LTk5XcWd1MG5uc2NVMllnb3VKUmkzVkhJcF9janVJc0xuQWZ6Mm55bktuNll1ZFBoR2poQTEteHBQQ01KN3YzbGpzbVRwVmdhWFh4c0kxTFpRY21tYTB6NnFnVVJFOVZGdVJZbzVyZUlLVmhkRUhOWlpwbjR5bjYxV1BXbG5SR1poUFpubVJKZmRMQmpvUnZjRG9jUTNMNjA0MHdCN3ZDaDUzR1VaWnc?oc=5",
+      "source_name": "Insurance Business",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f9ba5bea5ba01263",
+      "published_at": "2026-06-10T08:15:37+00:00",
+      "title": "\u2018CLEAR VIOLATION\u2019: Shocking new footage puts world on edge - News.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPM2RVWVhqNmJ0R0VpS3Jmc0dXZ3V4V0pGM2FGM0tmaWZoRmVLSWxnQk02dEw0TFE2bFA5WGxySjRCWkwzeC1RekpkemlFY2tSb1Z0bGh3Rmh1OGE5SWVuYUF0Qy1qZVROb0ppc21IUlM5ZnVPZHpzRW5YSENRazVBNEQ0MWF6U1B2cWV0M3NXRXBCTzJucUltM2Z5b2RFbmJoVzNicXoxa1JSTEx2S1NNdGpIRWRaU1hIVnhXWDl2SXNkeDZFNkpNYjVzcGxFaU01S0HSAdcBQVVfeXFMTUtxTHB6TktTaEo0dFFZbVJDSUxxTm5ET0gzcGppSURqaXl1V3lnVGthd0Y2NU8tejlHZUVYSDBJRjhydmVrdTZMYWNVUW1sMi04SnFYaVl0dDk2SDcybUtmYWhNZUpmaXk1Vkh6ektvbS1Mcmp5TU01MzBMY05WVnlQVFBRLXlHX2hKX09TME1OTlhlY3k3R3p3RXR3LXJiMjEtakduOE5hYTc4WlpOZjBWQzBvNkotZ1Btc2xqQ2YzMGZ0QTBiVnpoMWxnNy13Sk5zQ2dJUEk?oc=5",
+      "source_name": "News.com.au",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9d6ff7b9645f6dae",
+      "published_at": "2026-06-10T07:52:11+00:00",
+      "title": "Explosion in Bahrain as Iran attacks US bases - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOc1BPaG93WTFqOGdieUxVd3JGWjF3QTJwYjdqZmpSUjgwSUNRdzZja1hHMkVjclRhckY5NWtNRTJYckQyMFlGa2xFUHBZSE9GVkFjRE1EQmRfc09CZHpPOU93bDdRUEVLampsMTlPMG9ES01mSHhuWUo1clZpUDlJX2pzU2VKbDUzMGpac193ZEhBRnpkejJmcWg0dWjSAaIBQVVfeXFMUGlURTdFeEVwVmRvTWJudWdaZ1hlZjBuWXZpM19TMHhhMS1qS0RtQmtPUXQ1d2hzckU4YUxYaDFYbHVZbU1yTVBWd2tna1JYWlZ2bmJEbHVNWVFpbFFIVXVIcllITEs2VU9IQy1URkZicW5PeGxCVTFpM1o4UUZLakZSd3hGOEVnLVpDcnFZa2NOYXBISXRYWEpHWGNfUXRHdlNn?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "82ad0bbc7d0b40f7",
+      "published_at": "2026-06-10T07:43:11+00:00",
+      "title": "Iran attacks US bases in Jordan and Bahrain - France 24",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPNjlJbnoyNmNfakFuZFRQWm1vRGo1UTgtUG4yOFM4Z1VMbmJGci1ER2lRUUdSQm84SzRNZWRWRDUtdlFxLWU5clpjQnIydGVUZ2NfVXdTRTJzdUhYUFJqR1o4YW5JeVFqTGstMldEWjlGNHBiT2FqTGQwVEFfMzM1aDd2WnowNVNKaDFqeTNsdnFSS0hf?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "351ee8168821f44a",
+      "published_at": "2026-06-10T07:40:20+00:00",
+      "title": "Iran war live: Tehran targets US forces in Bahrain, Jordan, Kuwait - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQRzU3NkNkeDZSNkxfN0JIN2NKM1pXNUNYenBXZ1o1bTJ4T1Y1ZEUyUlprZXo0T0gyWXJWOFhsTGt0NG94N2xwa1pYTjE5RjhoTF9fOGQxRnhITjdYcUkwMTVPU25IcHd2bGtHeVRWUHU0VHhwR3d4ai1kSFJLS000VEx2UGs3QzRCVUVfMFJKRzl6RjJfZnRrZjBKY0tJcFBUTTd4QU5YUmxhSUJBd2xZWHZKQ1owYmhnanVKa09n0gHDAUFVX3lxTFA2cS1jaHJYWnFBR3paR2lkMV9qZnNWcGZLMFlUcXZqcHV1V25FQXFIeFdtTnY1U0lXZ1lTYXFNT1dqSkUzeU5VN3phWFliU0NvRWxPY0VmNVZIa193YXVHbDdfQkNOeE1Lb0k4aWJZWGF0SkxzazFUcUdXVXFOTm8wRV9wVHhvczhzaWxBOE5iaDFJc1hoemNtM3VYTUtQTlpvVVBReEJ4UFVHeEVENDBwLW9BeURFZGVqMVllbjlVa0lyRQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
@@ -158,100 +338,55 @@
       "confidence": 0.65
     },
     {
-      "id": "af590d34ff33e3a4",
-      "published_at": "2026-06-10T03:54:00+00:00",
-      "title": "Iran targets US bases in Jordan and the Gulf after Trump orders strikes near Hormuz - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS0dXSGJPLVM3VVFmRmYwcWloclNleWtLV0NrYVZfblNtdU5kY0RnOXNQSjBUQVZQS2RhR1RwQVhhT1oxVGdtVjJkdExKWG5uM3VFSTlPY0JhWms0S3RMdml0X0dVTEhuOTlEWUc3ZHlJVXl4dWFUeVFOT2xKWUhCbTh3aUVFeS1qaTNySWRBdWNMY1BhVWZUekZaUVNIZEVDVklnV1VISHpid0JObjVCU3V5bXFHaTgxaEN3M0UwOW1ac1Nz?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "498bfb8f22c69d93",
-      "published_at": "2026-06-10T03:50:08+00:00",
-      "title": "U.S. strikes Iran in response to downed helicopter - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb3FhX1g1WkdqTUdsc29JUlhyQmZXU0JJY1AtN2dhbmNXdWNxVW1TOWdnUC1jMnVWZnFKY0FyR296R21FeHVwR3JucGhKTXRXRE4yUDg1SUpPbVJNRldwaXRDR0czc3pmOVdRc0VOVHRwU1oyT1h2ZGZ6eWdjQkc5c0ZxaVJGRjF1NGlGY3BBR1h0VWV1RU9vMjBsSjRfOU52T25FZ1FmcE02aDA?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "b33c9fda508cfb92",
-      "published_at": "2026-06-10T03:44:35+00:00",
-      "title": "U.S. and Iran exchange strikes after helicopter downing - Axios",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0tUFZid1BmVmEzS3RhSWptLXFZNXNpUHV5V3ViUllRU1huM3RaMHFJUmFPQnlfX1ktMmJaNVQ2UGhkbXBPa3E5YTV3QUZvTTRGSFcyRTMxdldVOGFfdWhFLURYVzNERmxqMDE1eFpFNnA2Y3lmTWMwaVBYV2lCQQ?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "6267397fb58caecc",
-      "published_at": "2026-06-10T03:37:02+00:00",
-      "title": "U.S. launches new strikes on Iran after downing of U.S. helicopter - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMWdvRUJXeEttQUppc3Z2YnF1ZEdwLXNBN085ekR4SUhDaXZocVNJQ3BnRlZPUWNOMHBxNHJzSmxGZExnU1VleDJNQm1uYlpNNkJsT3VXeHZGWTAtYjQ1NFAzM1VuNGwwWEsyRHBydzl6ZkFvTl9WQU1CN19rQ0xuWkZZcmFhNkM3SEtybU9FNUtYTDdzemVweW5FZkR1aDRBc0xaaUFBZTBSUnd2SkxNam8zZ01xemE3Rmx6YVpULV83b3ByZXZMVw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "dba989d6334dab47",
-      "published_at": "2026-06-10T03:28:01+00:00",
-      "title": "Has the ceasefire really survived the latest US-Iran tensions? - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1EWHU1WG9CWGNXc2xKUGhxbU1qTXZtaFViOXAzUkZvYXJKUmRQTFNTZGdWazlUXzVOUlRWRm13TVFjQzBtSzBXTUpqNnFiTGdQLXd6QmtORmRaQ1Yx?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "diplomatic",
+      "id": "472eb1eea6e39f0b",
+      "published_at": "2026-06-10T07:33:16+00:00",
+      "title": "US and Iran exchange fire after American patrol helicopter downed in Hormuz - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBsMU5qNmNLREM0TFZjR2hkZ1ZTSlZFNktlWjhZX0Z0YnM0UFRicUNkaUxxTzRvM195emt5aWhYX2FONkFUR1ZwNHdwQVphYm5YVnJ4RHJjbEh0QQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "material_loss",
       "actor": "iran",
-      "target": "unknown",
+      "target": "usa",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 4
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "5878c39776f66a31",
+      "published_at": "2026-06-10T07:31:24+00:00",
+      "title": "Iran\u2019s Attack on Israel Reveals New and Aggressive Regional Ambitions - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPb090N2xPdlRHeWphNmYzNDVRUWI2ZjRkSE11WlZyRHIwSUQySXg4OVBJa3NqTmRUQWJwWEpmRkxFSVRQM0plaUlIUG5sZnQ3ZnNjZEZjTTRkSDA4dXdyYjRKNXptSFdiejRjSDQ2UlpSYTRkTlI3VjJ3Nk5DZmlhMnJRUGQ5X3lVYkwtV2oxeENVaTdXTFB1bEFQLVMxa3otUXhFSEk0UUhUblgwZDFZUjZPVEM3QQ?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
       },
       "confidence": 0.65
     },
     {
-      "id": "2f6c5c02172cb75b",
-      "published_at": "2026-06-10T03:25:00+00:00",
-      "title": "Iran live updates: US strikes in Iran 'completed,' CENTCOM says - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU0lNUGZXMS1EVjUtbGlpOTk3cGxTU1FINDZTSUNyVllOa0JFLWh5VHR0TW9RUDA1RkE0T2pzV3hIbE5PVTA5Y21jdk1ObkQxSy1SUkxuYWVCTW82bjdfbExvZTZRODJmcmdTTGwybU5YR24wbXJ3czVlWm9mMmE3QjRvWnEtOWhad1FQZ0U2OXcwVGFxZXJYT2FWMk5pc3h3OE9yV1dzVVlNYXpKbHRN0gG0AUFVX3lxTE45aUo0RzJUSDVEek5ldzRSTWVoSjdxV2J2ZWMwVGFfQW1LWW1BY2k4Rjl6Y1BDM3V6WnNNT2FqOE9xQU9UVU5sckUzdmUwV095SVJKVWtMWVRNb0hCbF96V1dYWkQ4ekFCcW1kelRzc1RUT2tISFBHQ2EwTVlqQnNGakhiLXY3cXdhZzNrdkx4SDljc2ZmQXczejhHZ0dDRkF2bThEQ0tDRnNLc1pXdEhaZ0NfOQ?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "id": "d2b257faec3c5445",
+      "published_at": "2026-06-10T07:27:00+00:00",
+      "title": "U.S. Launches Strikes on Iran; Tehran Claims Attacks on U.S. Fleet - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNSmVTQlBBU2hybzN1RVMzZUZuU19hbTYtRm5GdW9kUU9Kd19KOThfbUE2aHRyNFU3NnZSS2RjREJUbW14NTZXMEVxNDJNdnlLd1I0SXh4U1JmTlVQRU9GNEhlUkRxRWc4Sm14LUdkWm0yU3dYaU8taVVGYkV0TEFGZw?oc=5",
+      "source_name": "The New York Times",
       "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.9
     },
     {
-      "id": "127c5ceb2cad7135",
-      "published_at": "2026-06-10T03:22:30+00:00",
-      "title": "Iran strikes Bahrain and Jordan in retaliation for US attacks in Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOM3dIYWhmMTlsVk1HTDRnaU1BcnlMWnNoQjV0TkdMLXZud0xZWmlfZmxPakswTndIdExsdFZudngxeTYxaGZzdGo5LXkwTXVKYXdfVllnUHVPcml0bGx1TEd3bFA4NzhsSzNaSkVKdHJuLWNLOGlfQ09SUFJ1dlF5QWw2ZHkycDluekZ6bm83TGNUZWFHRms3Yldyc3ZBSExNT29XQ2o5Ti1Yb0gxdk42NzB30gG3AUFVX3lxTE01eExVaE9ENHRPM2loS2JIX01mVHNCcGZINUl6MDNfM0dTQlBoQTZJM1ZnUU53c1kwLWZ4VURmQzVkWEZrSXVSdlRRV1RZZkMydVl4OGkzdHowZVk5MUpmR1ZMYURZR0lOd3Zkbzg1V3RGX21iSnFOTjViaUE3SWhPYzA5cEo3eDZ5Y2NkcFgweVJCbE9LM3ZlU3dvRU1LMFRUY2ktOGozQ1NlNTh6dUdGSVpkUGUwUQ?oc=5",
+      "id": "3777758e704fe011",
+      "published_at": "2026-06-10T07:21:40+00:00",
+      "title": "Iran war day 103: US strikes after helicopter shot down, Tehran hits back - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPWlNqcS1jN1BSQUZGQmdiU2lveE5LcUFIa3FtekRmTXY5MlZjQnR2Z3B3bldieGlpTUFfa09kQnBMdk5XZ0Z6V3dXRjJyWjlVYmpZSXByQlRqZGNQd2gtNHZMblF3UWk5VGUxZnY5Y1FUb2ZpcmdQT1N2eU5mbndmVE1YSjdGUUl6bnItbUR3NDdULTlyMWQ3OVk3amViS0NYLURidXlGc0dUdXhZb3N4c1Rn0gG3AUFVX3lxTE1qaTZKd3l1VG5rVV80blg4WHF5cjZNbUp0S3F4cDFJS05CcmxRRTRVdXN4WUV1SFhwWkZZVG1PdjVTbWJMT3hjVm1IV3h0QXhOSXlfLVNYNTZsU1pKV01RSmxuaTA3ZnhDdTdjRHVVY3g2MlZmWjZPTnQ2WkJrS2NZQ1ZxcWpCWlZ3T1pBM3V4SWtVYjVwME1ubUVLRHFaUElKOVVpU2NoTVpRSm5XMlhsWU43YTB1OA?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
@@ -261,141 +396,6 @@
         "iran": 0
       },
       "confidence": 0.75
-    },
-    {
-      "id": "6198684a9f8066b7",
-      "published_at": "2026-06-10T03:19:00+00:00",
-      "title": "US and Iran launch airstrikes after Trump blames Tehran for downing Army helicopter - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTFFLOUhHaFBaY2l1YWthbGVtYVByYlZkU3VhRXJxWEJiTmdwNVFWVU5FN0ZSRml0bVU5S3F1Wi1QdFp1bTQ0SE4zeXJadzZ5LVBtdFNHTHh5WWxnTHh5bHVCejk2Zl9HenVXQUNDSGNYWFgtdWVad0NFVWdwZjl0cnRuQ3ZLNUt6NW80Q2Q5cm1iRUpjMk9OVjFRZ3NIa1JNR2JkUHROZzZId2ZDUHJuQWNHcm5icGd1?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "717e7ec9fcc8e7ce",
-      "published_at": "2026-06-10T03:11:14+00:00",
-      "title": "Iran attacks Kuwait, Bahrain, Jordan in retaliation for US strikes - report - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5LMFdTbndFTkNDUzR6bGhUSlYzRjVOSEpac1YtNGY3SU9LNzN2bUdQVl9MR2Jib0IxTVhJcEhQbnpBWjdmcUx4WlhrMk1jN3BNX0NqVWRDbjFtVF9p?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e1a995f8138be660",
-      "published_at": "2026-06-10T03:04:00+00:00",
-      "title": "U.S. Launches Strikes on Iran in Response to Downed Apache Helicopter - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1NCUi1ER19KYTBHTk80MkdYQjBxSUlJTUpKU3hNejFxZ09SYWZYV1llVlJVWlhuZUhWRENyeHpJbG5ILV9hNTN5Wi1rR1YyWm5ub2xWY2Q4dEtHMkEwVVo3V2dRSjU2R1Z2dE1oSlpBSUluOTQxdjFpUWF3ZTBhWElCVzg0LUFf?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "82b17aea2353d2a8",
-      "published_at": "2026-06-10T02:59:20+00:00",
-      "title": "Pentagon announces US \u2018self-defense strikes\u2019 on Iran complete - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeHhYNnhaZlVrb2pZNXN5SUR5cjhRWVl4dFYzTUp4c2JiRHNjQS1KS21qVG80bm5vbVNROEZRUWFTVmdnbldvOHhsMTY1TjhoWXB6Z0cxc0hRZjRJTEpOa2JlV3ktVjFUcUFrRWZCckpBQlctQklobjhaTUQ4NllHeVlEbmxpVW84Rng3T3RjazA4cmhQM3BYUmVCTdIBoAFBVV95cUxNTU05ZG5xTWpscW5oZ1BTN2s1MjlBRS1KVmVDdmZUcEJxcjJmRFRTdnQwTlMzS25yWHF6YzhydWcwU205bWpkQWF2SHNEUFUyRWc1WExxZkx1OTMxNEhRVmxpUDllSEV4cVRfVkViZ0owcWZGOXZUa2pxYUxlQWdWUXpqR0xPRDRNcDJrYW9MRXBhU3F0SEZJR2Rnb1owOWx0?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "034862b727c3a6cb",
-      "published_at": "2026-06-10T02:56:04+00:00",
-      "title": "US, Iran exchange airstrikes after Trump accuses Tehran of downing army helicopter - France 24",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNLVBfN3JFRWstYjdpRkVUSzRhREZPSHpGdzl1TE9HemM3WnVHQmdUSG1UVEJNZU1ra2NySVotZmdiaERUaE1hNHlGSTRnYmE2T3ZCNEJqd05wU25RWWRablhtY3pCSWNsWnktRDZiSEpGWENhVl9wQ3Z6LTN2VkVYMTNhMlJjY0lOMFl5SFJxa2tBVW5yMjFoMXZYNTNPa3Y4WXpNQ2Nhdw?oc=5",
-      "source_name": "France 24",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "02b03e395ee46301",
-      "published_at": "2026-06-10T02:50:21+00:00",
-      "title": "Iran\u2019s Revolutionary Guard says 21 US military targets hit across region - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOS2xmdEtsbml4SEJFRFZIc1JBSXBmczA1bWZwa0p0OGVWekVvQ09zbVpLUnU1ZHF0LTZ2YlllTm8yWXpkOVBaNEJOQ0YxX1RXbEVfRkU2a1duTDRBMWZPakJCUXVkVjM2c29WbThMWnRYdHg0UWhkbXIzNVZMQVJMZXUyQnJIeTljSnZNS3JnMnF3WGNBYjdDQW1zcEJGVU16SElROFg1M09VeldaM1J3eUdoMzZMTUUwN0ZyZTc0LWJNUQ?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "071b354d054f8ff1",
-      "published_at": "2026-06-10T02:19:12+00:00",
-      "title": "US Launches Strikes on Iran in Retaliation for Downed Apache Helicopter - Air & Space Forces Magazine",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9lZW02Nm9tMHh2X082dGM5bXA1VEptNUxaWWItdUR4SDZuQ1YzejRCM09qRlY2eEREYmUzYUZkYWF6b1BNVUJqcEJWVmdFSXpNYmF1VnRwQ19xaGRadDVPX2ljSS1rMGZmVFJHX3ZuZnNSVVpCczVwXzhuOEJkZw?oc=5",
-      "source_name": "Air & Space Forces Magazine",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "734cb08709f95a96",
-      "published_at": "2026-06-10T02:13:16+00:00",
-      "title": "U.S. completes retaliatory strikes against Iran after helicopter downing - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY1ZqcnBqN0d2ZjZmY0dkWHlXRER4Sl8waTNSNUF0dXhlNURZcnJMRk9kS1pLU1BLUXFqWEVaSEhGQkVwNlZJb0FXZ3JDdzVkanl2RlFLX2o1N255TWZ4aW1rTXdnSlA3ZHQ5M1dmMzNsM3habnVJdXpGcWN0NEwzU0xZOURCWTV5ZU1KSUI4WGFab0RJT1U3TDVWcTloWnVHRzBLLXZYLUZaajRSV3gzQm4yelBIZnZOb1E?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "f32fce862b232012",
-      "published_at": "2026-06-10T01:53:00+00:00",
-      "title": "Live Updates: U.S. conducts retaliatory strikes after Trump says Iran shot down Apache helicopter - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9CcXlXY1RUWm9uR0lyQlVvb2pIYWM5WFdNZHNYVnlYeTZiaTdvSVlKUDBKV1hvRkxmUG5VbHhWaHpXenIwYTQ4QlBJMjdvNVBhUFZLMTE4cWhpeU9XRmRWVjBDNlRhUUtfcGFNN0M1ZkhzN0ZmSE40Yktn?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.9
     }
   ]
 }
