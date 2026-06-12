@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-06-12T10:40:46.802326+00:00",
+  "generated_at": "2026-06-12T15:42:34.553615+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 93,
+  "event_count_window": 85,
   "totals": {
-    "usa": 48,
-    "iran": 4,
-    "lead": 44,
+    "usa": 38,
+    "iran": 8,
+    "lead": 30,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 48,
-    "iran": 4,
-    "delta": 44
+    "usa": 38,
+    "iran": 8,
+    "delta": 30
   },
   "confidence": {
-    "score": 66.5,
+    "score": 66.8,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 59,
-    "other": 31,
-    "material_loss": 2,
-    "intercept": 1
+    "intercept": 1,
+    "attack": 41,
+    "other": 40,
+    "diplomatic": 1,
+    "material_loss": 2
   },
   "history": [
     {
@@ -77,12 +78,12 @@
     },
     {
       "date": "2026-06-09",
-      "usa": 12,
+      "usa": 9,
       "iran": 0
     },
     {
       "date": "2026-06-10",
-      "usa": 27,
+      "usa": 21,
       "iran": 4
     },
     {
@@ -92,18 +93,48 @@
     },
     {
       "date": "2026-06-12",
-      "usa": 3,
-      "iran": 0
+      "usa": 2,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "7ac74d080e120644",
-      "published_at": "2026-06-12T10:34:47+00:00",
-      "title": "US-Iran War Live: Trump Cancels Iran Strikes After 'High-Level Approval' Of Talks - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOUXVZb2h6cE9SUWExS1BKbWtpa1BsU1NTQlJoNWxnMDdGbzNBV1pfU0NRV1VSQXpOODdNdnJGTmE0T296ZmhLTzRyMWpmaHJ2N3Jnb3Q5NXlZaTgwRFg0Zy1pNldLNklRZHc3NnFnTDJXTm40R0ZkT2EzalZoekpzTVN3b05LV29EOWJiUXhITnpDSEVtQ0swWkNJS1hjSDlKS3FkYjRXUHhOMVljT28yZ05iTnVNSlZwT1pwb0ZBbjJYdHREQnVzX3ozTFVmNk1zckJtWko3RktzTmhBbWlqR0lNVHJ6LW04eDZfb2o3X2hmSE5xSkxHN2w3eFdBc1JvUHBwdGFld3pGRlNvNVdvONIBmAJBVV95cUxNZGlPTEhyZUNaMHJFT2tWLXVzVnF4eHNTcFhYb3pPbkhPaUJZRVBIZmNLRThkRnJZamM2QW5HYWZqS1haMDJHZ092aVJHa3M4QS1zWUVIZkpEZzY4Wi1IdXpDVHpiX1BiRFZxRFFjeHlTc1BpdjZ0V2U4cDNBd29Gbk9pcktLS1lLcjZvLVRfYl9ibGE4VGlhZ1B3Zm9ELVRqX3h4ZXB2eGF0OENSM2I0bXFfNlpQMkxCdFgwSE1tbDdmaVhxd21IMC1adkFWcS0tdk1TRm1XbjFCb3E2RTA5YjQzbFAxN3dJREEyc1c4amdodlYyMDFwMDY4aWFQald3NXpxOF83M0pCTHVTZGJqVWZtQlZ3QnR5?oc=5",
-      "source_name": "NDTV",
+      "id": "6d694fba5c728566",
+      "published_at": "2026-06-12T15:39:48+00:00",
+      "title": "Live updates: U.S. shoots down Iranian drones; Tehran says no final decision as Trump touts imminent deal - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVB6emdrMERVSzlUSHJIalFLQTNhWFYwMEZUeEZhVllLbHVzenQ4UVZlbW1JMEVMdG9ISGNHandJbE05ZUlmSTZORUdqcFlERXFteUtrLWZXdlE4dFJEUmdhU1U3RS1mMzE4czR3QWdnUE9EbXlGWUx1WXdXSktsZk9KOUxuak5zamVYVVdobGRIM1htWFgtZmxXdVc1NWJQdmY2VEdGTXJTNjZzb3FNMWFn?oc=5",
+      "source_name": "NBC News",
+      "event_type": "intercept",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 2,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "b4d524dfc1f339ce",
+      "published_at": "2026-06-12T15:27:40+00:00",
+      "title": "Trump says he has canceled plans to strike Iran, claiming deal is near - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUDlrbERzZVp6YW9PdnZwY04tb2U5c19zVDZyRTZfajNxeEx0dkFpS1o4anpXVUdEczZHYkJXZWM4WVRlYk9jM0E3MTdMdkliQVRvTmI3TkFsU0s0c0tkSGN5TzZtZE9KODQyTjlXbkRENXpHM1JuMDJzcTBRRENxS0ZzRVQtdExacHp1Nld5NXhLNlVCQjRIQnlBeWVRYVFFaUtYRkVOWFZwWGlT?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "91039b6f5ec91c7e",
+      "published_at": "2026-06-12T15:23:16+00:00",
+      "title": "Iran War Live Updates: Trump Claims a Peace Deal is Close as Conflicting Accounts Emerge - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oc2ZIWWRXS0ZsQ2QxM1lpNENEQ0dnSDZfeVVQZmRhLXhlQkNhN1kwVDJ0ZDBwcXBPaHlYR0lXQTkwTWo1NnJENFJDbWU5dk9CU0xoZWN3YjZkMHE5UklBVHE5QU00V01zbjl2ODA0anQwcGRuVTVYbEVR?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -113,9 +144,39 @@
       "confidence": 0.65
     },
     {
-      "id": "f101f1c0f796b809",
-      "published_at": "2026-06-12T10:26:00+00:00",
-      "title": "Live Updates: Iran cautions no \"final conclusion\" yet on deal to end war after Trump says settlement agreed - CBS News",
+      "id": "a91c4d1f4c036528",
+      "published_at": "2026-06-12T15:22:01+00:00",
+      "title": "Iran-US war latest news: Trump lashes out at \u2018weak and pathetic\u2019 Iran deal - The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWUN4OGNScGIwWU1yckhJbU4xdURIaWU1WElfWnRqYmc5ZnpwSzd0cUNESHRCamplT1dBY3BRb200Ni0xZjdyTW1ySTNLOGNJeWRsWWk0a0RGUEtaR1dkMUhoQ1JKZl9Xbm5wWVZobHlmZGxnRDR0ZWI5NE1majdFbjI2b3VGeDNkNU1qZ2hXZUp2eFZGcFF1OVhtUVctVENYeGYteQ?oc=5",
+      "source_name": "The Telegraph",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0af716a305313cc3",
+      "published_at": "2026-06-12T15:16:39+00:00",
+      "title": "The Iran War, What Was It Good For? - Wake Up To Politics",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ZU1N5bml5WjdXSEhDeFI4UlZ0R1FBb2FnVk40SGp5NThPQTVvTkU2bE13Z0pQUmR1dTVvQ0NxcnRoamNGQW1aLThGVk0zVDcxVXZpT0hEY0hIVnFKelI0Y0pDZmNPWlNjZzM5TzNiaWNHY3JaR0FV?oc=5",
+      "source_name": "Wake Up To Politics",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a66f3e662d48e0b6",
+      "published_at": "2026-06-12T15:13:00+00:00",
+      "title": "Live Updates: Iran's top diplomat says agreement with U.S. \"has never been closer\" - CBS News",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMy1fbWtVcXVDRm5ISTB2a2lrQURZSjduUXBFUUMwOTZFQkE4dmMyYVJuZVROektFV0xjRVFqNlVfc05LczVnTklEOUxKeTdkalVOY21GOGZ1dGZGMXczRTMyTU41SnpldEdaQ1VsSUszaVdxZm1SMmZGZnVvMXhKU1B3?oc=5",
       "source_name": "CBS News",
       "event_type": "other",
@@ -125,14 +186,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.75
     },
     {
-      "id": "ef7f0acf76cc3618",
-      "published_at": "2026-06-12T10:19:00+00:00",
-      "title": "Live updates: Interim US-Iran agreement appears to take shape - CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmSE93eGkwYURDS3JDRWVOWEhTSjRSbmE0bThZeTdDak1qdkh0Q08wbnF6aTdKYTFBTGJWYk84VkFLbEFkMUpKSE9jYjR3ZmJjM2Vrbktpa2dnY0FqQTNIbGx2ZS1vU2l6M1hra3RoM3RoMExQeWpr?oc=5",
-      "source_name": "CNN",
+      "id": "aa93ba494696e9bd",
+      "published_at": "2026-06-12T14:57:30+00:00",
+      "title": "Live updates: Trump says U.S.-Iran deal is close as details of possible agreement emerge - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RdVFUa0ZINHVlQ0hJb0ZUaUZnUzlsZ3NpNnM5b1Y5Y3B5aGl2a1RfaWlZNXFnODh0dW50UUtWdnVZM184Ml9LZ2hNV3ZzTFduelFtbk56Vjg4NUxjNFVrek05TjhWdWRoVnlDU05HZ1o5VzV3WXc?oc=5",
+      "source_name": "MS NOW",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -140,27 +201,12 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
-      "id": "c88ad94704303371",
-      "published_at": "2026-06-12T09:51:37+00:00",
-      "title": "Iran-US agreement will end Lebanon war, unfreeze Iranian assets, Mehr claims - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBMVEJobTg5VlZSejduXzZZdThMTmxpN0V0VV9XNFlIcUFpanBZUUV6bUpBNEFUbEN3NGJVR1ZXUmxiaDFMdzUzaHVkb1h6LUc1cU9ZTGhaYm1ncnJRa05ZdWtvSGZjSEFWakE?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "469c167cb5fe7486",
-      "published_at": "2026-06-12T09:44:00+00:00",
-      "title": "Iran war live: Trump claims peace deal \u2018approved\u2019; Tehran says not so - Al Jazeera",
+      "id": "5d2d144085f5a4ec",
+      "published_at": "2026-06-12T14:29:57+00:00",
+      "title": "Iran war live: Iranian FM Araghchi says MoU with US \u2018never been closer\u2019 - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbXc3blhkTDdaaGZNWkl4cWlUUXk1TTR3X0Q3Ym93ZDlwX3FYRU1iTHl2Wl9wekhRTmJfaWVIcmduMDVOTTRYUy1fTWIwVHVqRFZnQUtTVXdJYmVQZjJUQXhkc3M5Yms2aVlBU05RUlE0Ty1UUlNuS1M5dVVWelpQRTZ5WWV3UURoa2Fudzh2Z0JoSEdJMnp1V2ZDX2lvdm5seGtoMUNNZE5jN1k1MmJSSnpVTjJjTHE20gG-AUFVX3lxTE5VXzRrd25NRzg2NGhvSk9uX0txUlUzQmxQZW1fYkMwRkN6bTM2VXFrN2Y5ZXJuOENoaUc3blVybkQ1RWMxYVY3NjJNYWFVQWZOcER6cXowRE5OeHdUNXBxMmh0VFJ5NmNscDNPQU14VGRNWmVGNHZzZ1Q5LThZZGxkcjJ0MVVWQ25XV1ZkeGE3eWlpcG43WW1FX3EzZGJHUkdGYjhMSEZ1aDNfcEoyOG5lak5Fa1YyUzU1aVBjLVE?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
@@ -173,17 +219,137 @@
       "confidence": 0.6
     },
     {
-      "id": "b4d524dfc1f339ce",
-      "published_at": "2026-06-12T09:27:40+00:00",
-      "title": "Trump says he has canceled plans to strike Iran, claiming deal is near - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUDlrbERzZVp6YW9PdnZwY04tb2U5c19zVDZyRTZfajNxeEx0dkFpS1o4anpXVUdEczZHYkJXZWM4WVRlYk9jM0E3MTdMdkliQVRvTmI3TkFsU0s0c0tkSGN5TzZtZE9KODQyTjlXbkRENXpHM1JuMDJzcTBRRENxS0ZzRVQtdExacHp1Nld5NXhLNlVCQjRIQnlBeWVRYVFFaUtYRkVOWFZwWGlT?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
+      "id": "fab99f05994640db",
+      "published_at": "2026-06-12T14:26:15+00:00",
+      "title": "\u2018Dishonorable\u2019: Trump says leaked Iran ceasefire terms fake - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQcmJuSW9HQ25nQzlYUE1ZMVBMUGRpaWkzSm9aamFYN3FtRXh5ZFEyTUpRT1VFcjc2bkNfUk9yUGJ4NkZQcVdGVE03WEg2ZHVWRGQtYUxXckNWeXhFbndxRWZodWN2UlFXaUtidml5aVdETG5KRXdQRFY2UElHUjU5a0cyS2l2U00yRGI3WkNMV2dNSFFjQXlKc29mZ3NIQdIBowFBVV95cUxPc2dNWEM5Nl8zOXpKODNwSEk3M0YxdUhVSjZ1RXhkWWswc1Y4R1czSGI3V0ROdVBiNVdXaEVJX2gzalNXWHNENUVhek5SM2otYWVkbHBUbm5iMHlBdzlTN1ZIUzVkREx5eEg0b1JEQURWSHRsQVZwaDBJMDY5UHYyUGkwLVBaVTNXWEU2OER5SmdvV2o4VklDcmpweXdrbW4ySUlB?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a1475a500f6aafbd",
+      "published_at": "2026-06-12T14:18:02+00:00",
+      "title": "Iran war: Trump disputes terms of leaked deal - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONG9wNkN2bnZ6OWhvZEZ2T0pYLTZNM1d2dEVqdEVkUHkxTWtnVEVwT0FIcktpWmR3MHg4Zy1wcmdxU19lRF9lZ0NXaXZ2ejRqOGZ6QUsybjYzRDRSWjh1Zzk3YnktdUNTODJZMmhIX2Y0TUczRVpqRWkxZ0lhd0Z3bERFRm0yR0U?oc=5",
+      "source_name": "DW.com",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "96d0a2b796af9dd6",
+      "published_at": "2026-06-12T14:13:42+00:00",
+      "title": "Iran-US deal: What are the main sticking points? - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPazFpcG8wVU5YcVZ3SFdHZVhtb193SEk3TUJDMXVfOG1OR0w5Z04xMThtcVpRZmtMZHVPU3YyWWFOTWlTcThMaHJab09BZFJYbVRUS0NKSHRINFRRZjM4My1ndm5vRnFNUVoyMlgwQ201OVhMWnZvUW1RcDBIT2x2d0U2MUdwUdIBhgFBVV95cUxOdXFmb3JIY0dfajhiZnpuMmxaYnRoYlJUUTl2cXBMd3hzVHpHOUZISnNCQjM5VWNYUHpZeWtUYVlOTG5VeGI4cmJtWUsxd2tETmZDM3Z2SlFvLTg2bl95aGhGb2VHY00zQ0dWSk5MLXVkdFlXVnNtUVBPRkpKYUJHaXJvc2swQQ?oc=5",
+      "source_name": "DW.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bea5ae23c96967b3",
+      "published_at": "2026-06-12T14:10:09+00:00",
+      "title": "Trump is raising expectations that this time he really will close deal with Iran to wind down war - PBS",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPOXNxR1pPYW5nWFQwWHVBZmp0SEQ4c2FqcXljRzdHRHd5al9kVjBCTWZxNGZNUW5VR0k3cV9nQnlaRzlwZmtrU2tjeU1xUUxRSUNKeGw0cXpBRXBMUG94bi12TXJuR0xJMy1rRllnakVXSFFyMkducUNHcHRoY3h1RjRpYUprTl9FOXU1UUFiX2VSZTNFVEh4cVRYbW1PdlNMWFNDUmY1OWFWU2c1cWJ1cDVPZnB3YWhRV0NId29EYzBobEVWQ3kxYWRVTGrSAdIBQVVfeXFMTzkyLU9KTUpoQlpFLS15Y2pmeHRwNHZJQVpzbWhZcVRwNUNuSlFxdUVUbVdBazRZdG15N2M1RlhkenJZdmIyb0k1R0laeTZFbkFLTkxzd1pRUVhqREdPcTlMYmlDZlItZDEyY3NlamxsOGtVSnZidHM1Tl9BWlpleWE4bTFDTDdZdXNrc1NLQ3RWbE1lRUpwLXhDVlVYM29oRW1vU2xDS3V4Xzk1OTk4LXpBNVByMzE2bW1WdmhPS090Vkg3SHBiV29NdG5xYnRhSExB?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6617004737873a71",
+      "published_at": "2026-06-12T13:55:28+00:00",
+      "title": "Deal or no deal? Trump signals end to U.S.-Iran war - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUWFvZVlwbGViaVpUQUNHS1N2RTE3d0tWTjRlSjBoRDhrX3FwQl9McHZjbjNubHNpSC1JSVcxekVPMk44T0NqNUJNRHN3dEotYjhLeFQ0SUlaSG1OUmQ5OEQtZXFpenZ1S055ZThHVEE0cUg0OEExNFV6cU9pVXZiT1JyZW9DcG81RjI4MnRoRTA4ZTFZczZyeUhRWVdTb2c1?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b9bbb69df6fb754e",
+      "published_at": "2026-06-12T13:29:11+00:00",
+      "title": "Are Iran, US really close to a breakthrough \u2018deal\u2019? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMXBWMGpoa0lYYnJoaVk4MEZDZ3ZTbW5GT21VQmExS1Z6V2t3TkIzY0lGQnV1ZVc5QUR0YjFodm1XZnNhUFgxOHNJYkd5OXI3aXVwMkNTcHBWcG1iOWZwdlUyMFlaWmNCTFBmb3oxelJWY09NSGJIaUpDQXc4bW5DZllld0VrUnREUmVhMmF5dXZEaU5LaEVn0gGcAUFVX3lxTFA0Yy1aV0h5TUFaZFNpQ0VsY2xuTHYzc1VKSFhOcUExc25TWnlRWmI3T3M2TWl2ank0dU1hMnZPdWl0OXp2UXp0WHZwcU5PczNmTUI2MnhBX19GM2Zubl8zcDBOTVNGSHpjN0VzSkpQa3VfWnltbFRWV1pIcFJWdnZUTXVfV3NWdHRuci1Ld1RlcFJqODhBeElhUEhaTw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "8e47f6c27df13719",
+      "published_at": "2026-06-12T12:14:00+00:00",
+      "title": "US-Iran peace deal remains elusive as choice of US targets draws legal questions | First Thing - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMjRTNUthdlpoOUh0TUpDUmRjX0djMldvOEMzdVdKRzlYNW1NYmtIRzZXb1l6amcxTXVaWkNJMXp5OGR5amFuMnViZWxKOGEwekFIRVhwWnFjSHVxUnR4T252a3ZSQkNPaUthemdaZmppZTQyaTVqdnZ4Y0VGWkk3NEJKLS0xeXBGWUtKVQ?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "667e960197805f18",
+      "published_at": "2026-06-12T11:34:00+00:00",
+      "title": "Trump has backed away from renewed war with Iran \u2013 here\u2019s why - The Conversation",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWnoxNTJwVktVbXpOZ0x0VS02akdYRXpkbThrVkIwdVp3dF9tajgzaWMtZ1VWS1JiSnFPVmthUWYxX1N3VTUyWUdIT0V3WUt6b19QTzFVOE1yckdFU01rMnMwSDBwM2Vac24zV2F1Z0JtLTdvdmlaemlLdExVbjhUTjY5R2NQWDRsLUFOdmxOeU5nY1BVSjQ0Ug?oc=5",
+      "source_name": "The Conversation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "2d4e0b13cc07326e",
+      "published_at": "2026-06-12T10:42:59+00:00",
+      "title": "Trump cancels further Iran strikes. And, U.S. men's soccer takes on Paraguay - NPR",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTy1IZE9mTUR0cXRsRk9nWnA5VVBQcGVRSDFQSWhXQ3RoMmZmSXIxR3dkZ2FMU3JBMFdZeDBDdWN4TTVVM25UZDZ0RmZCMnFpdTJYOW1TcmpWUk1aSElDdEtRMHN2dnJRaXh4SkQ2ZGFHbHJJNHMxamhiWWlOcGRFS0hESE9HZVB5aHJUWnpFYkdMTjVOY1NhYllKd3dkR3hBWTN2eWdRaEJ3X3lxNTF2SFVpano?oc=5",
+      "source_name": "NPR",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
       },
       "confidence": 0.8
     },
@@ -200,14 +366,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.7
     },
     {
-      "id": "8e9f9df8d8c9ee83",
-      "published_at": "2026-06-12T09:05:31+00:00",
-      "title": "Neither Peace Nor War: Iran Conflict Leaves World in Dangerous Limbo - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFByUk9vSDBJSHp0UERnSndvTEpxVnpHNm4xNmtfRXdNQW92WGQ3Ulc1eDFqbGExcFBDWjlaaExlVTd2VG9OUTBNeVc4OTN5M2pYUDFkQnlsZElUV0R0dUlXdVd2TmZzbmdraEVZUGVtT0ZBUE1fWENRNWtKQQ?oc=5",
-      "source_name": "The New York Times",
+      "id": "9c1efefe6eb79342",
+      "published_at": "2026-06-12T08:34:44+00:00",
+      "title": "Luxury stocks spike on proposed U.S.-Iran peace deal; LVMH up 5% - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOZWNqaHFUamZ1RWlLeGoxRkpFdU9oV1hmY0ZjNFVheXExWFRuaUt6NlJxYWNIYUp6aXFtUk9LeXlPNHk1RXN2cWxmYjg2UnFtdVhrcDBMeEZ0Ql9EVUc1Y1FCSWhPbk83WkI4dVpHZklpaTlacVhXZHBXMDJnelliNGhxV1JYd0lJSlEzOUVMMkV4R1ppMmfSAZsBQVVfeXFMTzN2YTRkWGRzY3FFUUV3dXJvc3RiajNWLWNYZ3FsUE9FOEg4Z2V3b0U4Nzd1UnNWeXpYT2cteWFuNTJoaWNLRmxZYUx5bGJkem9RV1lFT0ZWUk9WTVBfQmloNlhVM2d6azc3MS1kUUhXdjdlVzA4U1Q2amNQUlhvUWwwWVFYYm55dWNmU2JhOUJxMUlzVFRuMTAxeWs?oc=5",
+      "source_name": "CNBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -215,22 +381,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "86be0a56ca584560",
-      "published_at": "2026-06-12T08:36:19+00:00",
-      "title": "U.S. and Iran trade attacks again after Trump pledges Tehran will \"pay the price\" for not accepting deal - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5vTExmRnBjdWE2OVBETi1wR1RFSXpYUVFhbldzcS1QLXBmand6SkJhc1NkZXViczhKeWZ0Q3dmM3Y1Qkh2MDM0WUZ4NzJKdldmNk40UUM2VFBTaVV3N0o2ZjN0NDh4cWJQVUlnTWQxN3dHc0pldkh1YWJ3?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.9
+      "confidence": 0.7
     },
     {
       "id": "4dec59fd372878b3",
@@ -239,156 +390,6 @@
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1CZ3VSOW56bGZiUEhTVENaV2ttSVBVMjN3Wmd1bHJwNUU3NWdPVnN5S0VabDdKVUs3aE9MU2p6bXQ4TGtqNHZ6ai1STVFiWkdwdlNFbWxia0ZDUQ?oc=5",
       "source_name": "BBC",
       "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "fb590eb2ddbf102f",
-      "published_at": "2026-06-12T08:03:00+00:00",
-      "title": "Oil Falls, U.S. Futures Rise After Trump Calls Off Iran Strikes - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObGNrQ0RER2JyT3hSd0MxaEVyYlB2MjhRbERWV2RDRk5qVkRRR2lobTR1eUY4VDgzajhpaFVacjFTMFdUWXNDTFdqdTdhX2ZPenZxUXROVnZ6R21LbEpKWU1MUlFuMEU1NGhPTTgwd0dtVlF6SEdOVWMzd1FFWi1UZlZsR3l3NC1iVHBrdDJaYk4tTS1PMHI5Y0lIbkdtN1RjWnJTWHpNdTY?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "ad247d5cb66369c3",
-      "published_at": "2026-06-12T07:52:09+00:00",
-      "title": "US-Iran ceasefire? Not for Indian sailors being killed in Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaDhTX21qcUUxYl9GaWJYeHZkeXlUYlRMeTNuTDlvVDBpUkQ5ck01RHNjcVllMFFXTzZPZ2ZpSy1QNmdSdi1fRTVvNF9xckhRV3NGa0VhLTVmRDJFZFMtaGdVV0NlODZKaUhrbXBrVmhuWTFuanBad3lVa3VfLVNmVXAwanBxV0J5UWRQQV84WElyeElKRmNEQ1Rzb0FUOHpwM1pFdXp2VdIBrAFBVV95cUxOWC10aVQ0NzFHWG5QUWZrcEhOU19KT1dYSFFfTld1SjJIUE9WUnREMExIZ0YycVFjbzliRmhoQ285b2tuTGdzVFdxVjc2SFduZ1QyZ1FSYUZuOFlJNDMyblk0ZWdISWRfU2xsbjBGQk5HbkV2X0JlODFFSnhzYldoMDIzUGt6RkZkMzNXTHZEcUZabndwWFNCVHNtODV1bmVGMlpKeWktWkVhQ3BQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "21989ced63a48ee8",
-      "published_at": "2026-06-12T07:48:00+00:00",
-      "title": "Trump calls off latest threats to strike Iran, citing a breakthrough in talks to end the war - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNNUxSdXNaSUpKdFBPUU45bTNwSU43cFRxY1VEY2UzcnFoZ0FmRXhjdUdmZVNaSk9WN3VodGJsS21VbzcwdXdoelhHcTFUSWtVUW9LRVhMUXZ4SmlNWEs4OUhwbWdjRVpLY2dNZHZLbk1pZmgzZE04cUhuNmtPZEJicXZjWVVMUjRqRld6R3FDVy03OFFGNTFKcTdaY1ktUEJLamNPMDA1azgzZ00?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "1efbe031398627fc",
-      "published_at": "2026-06-12T06:51:52+00:00",
-      "title": "Iran war day 105: Trump halts attacks after Kharg Island threat - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ2l2YlJ1MFl5bmI0a3Mxa2haVUI4bWJ4R3lmWnJnU01Pb2V6RklIa2FlYzBGWS1LU3FVNG5RdW16TE1MVXRCQUdKQVdHMWtqaEhZcjgxZjR4Qm5VTGlNM3Q1cEstNHN6RDBYUDNvQ3lXaEJhcUt1dHMtbDVuU1hZbnUxTFZvMW9ObkJKVFR4WE5GM0ZyYVdERlFxVDZPWENMRXdyS25n0gGrAUFVX3lxTFBVajFwY3M1SmRJaEt0WVpZeFdVWE83VG5RLTRoWEVrNkIzUU5TcnQxVjRaNDQ1b0t3TVBlRVY2LXpCSENTeVJ2d0dTRFlmSGdTc0dLZktEUGlsWUE2NHdkQ0pBQ1YxazhLWmY4cWxvUlFWbnlwQjBIQjd5em5jR2tOOWVrZkY4T3A5cERVRXpWYy1zYk4zUkkyTXpYWUtLNTdkSkRqY190UFJDOA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "bdd095b4b44d196e",
-      "published_at": "2026-06-12T06:10:00+00:00",
-      "title": "June 11, 2026 \u2014 Trump cancels planned strikes and touts progress, Iran says no deal finalized - CNN",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1QY0JRWVhUT2wwN2h5ZFRETDRoUktOYngxcTFZVXNLQlIwNTBfN1JBaE9qLXlPT096VF9leUFHOVZMUEx4WnRVT1JscW1fRnlvRU02eFhRODZZY1UyU0pYakFfbWtiWmtPSnppQW9yeE1CSFBRaXdnZElJZGs?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "419a4293a9caf532",
-      "published_at": "2026-06-12T05:58:57+00:00",
-      "title": "Settebello: Three Indian sailors killed in US strike on tanker in Gulf of Oman - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXQnV1SHF4ZFVyUG9sdWhWZGtXVnRoQmlTUVl3QzZVOGNWSFFpYU1UekNvbnVTRTRJdmt5MWtxSmtYZkZicVBkVHY5Q2x6Nm1OcUhoNUFWNWlUZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5cc0ecf709e85bc8",
-      "published_at": "2026-06-12T05:57:51+00:00",
-      "title": "Trump claims Iran deal reached, Tehran says no \"final decision\" - Axios",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9samt2blhPeVNwYlVXbUJ6VE9yMlBfQWE4djBhU1QzSE54d0RUNGxvbjNUVmxoYmJ4LTVKSGt2TzR6Vnh3RXR6WkhVdEszekZRNzNGWVpLMFhfdFZlUEE1YjFBYTNQMzNCRXVBaEZQTGgxZXJUN2FPc2tn?oc=5",
-      "source_name": "Axios",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "be89553a190f850f",
-      "published_at": "2026-06-12T05:38:28+00:00",
-      "title": "Trump claims US has \u2018ended the war\u2019 with Iran, even as Tehran says no decision reached - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWVE1bXBRTFJ5Q1MzUkxvSlpwNDBYOVJ4Wkhrc3hyY013R1FIZV9JUDRZVmdfWElCS0VuTUswOG1hd09salEwRkFlZ1Y3VXlqeFBETVA2WC15eDlLUDdydDVMZl9vak45MU82aGZLMVlQOUZ1VVdORmhEbVBTenFmNmZMMkJOQjlLeHZXcmstQVdUR3Z5UnNuVEhyQzhzeVQ2UkxSN2NfYWktZ3p4ejgxOUdjUWlxNUc4cHBENkQxaFlEYTU0bDU2Zg?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "dea348701616c48d",
-      "published_at": "2026-06-12T05:18:41+00:00",
-      "title": "Iran officials threaten Hormuz escalation as Trump says deal is near - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBfQUVOM1FReHZYR1hFdmdBS1NZRHA0YksxYVhiWGp4REtoaU85VHNXWkc5MHdUa1FyYUtISkFOR2xnQlBOSDhjZFViLUNXNUswcWc?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a963b2f7e6468c65",
-      "published_at": "2026-06-12T05:09:58+00:00",
-      "title": "Stock markets surge as Trump calls off strikes on Iran, touts peace deal - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeTFuU2M0cHZheWpCaXhYZGliRXdsUm1FYURCWXcwOE1IZ2N1ME1zVklRZmtDTGE3aFo2ZHItMmhQVUFueUlhSlBFclEyUEEzcFJZeVVWSkR4d1V6MUZXN3JlbXRuVUlYZ2FvYlA4V1BvTGlKd19GNmJ6Z2NvU0F6S19vZmMxM3VkSjhzU0RjNkpRbWJNNlZUbmVHUl9ONXRLN0JhVlhHWWtkZDl4YW1KcUdBUjgzVWPSAbwBQVVfeXFMTVZLR1Z2NlRNNkU4Q0ZSNnBPX2ZMM0RYODBydzFIVWJJdU5RNktqOFdKU3RsSTN4SGQ5R0JtVzRPeDJVTDZTbDg2MjB3eGt4Mk0tQlJ3YVZZWWRTRTdJRDRKdHpRUnNvSTVMaVdWWERicUwyTU02N2tDVXJPS1FtM2xQYVZaLUg4T19qMzhMS2ZFUDNnd0VVal9yYzRHeFZJZlJqcW5ST29LRzB5TGpyN3pMTExna2J4OG4yQ0I?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
