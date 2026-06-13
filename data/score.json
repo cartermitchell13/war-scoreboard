@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-06-12T22:48:58.025714+00:00",
+  "generated_at": "2026-06-13T04:54:06.330633+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 90,
+  "event_count_window": 96,
   "totals": {
-    "usa": 52,
-    "iran": 12,
-    "lead": 40,
+    "usa": 54,
+    "iran": 15,
+    "lead": 39,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 52,
-    "iran": 12,
-    "delta": 40
+    "usa": 54,
+    "iran": 15,
+    "delta": 39
   },
   "confidence": {
-    "score": 67.6,
+    "score": 67.8,
     "label": "Medium"
   },
   "event_types": {
-    "other": 40,
-    "diplomatic": 6,
-    "attack": 43,
-    "material_loss": 1
+    "diplomatic": 8,
+    "attack": 48,
+    "material_loss": 2,
+    "other": 38
   },
   "history": [
-    {
-      "date": "2026-05-30",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-05-31",
       "usa": 0,
@@ -82,27 +77,272 @@
     },
     {
       "date": "2026-06-10",
-      "usa": 27,
+      "usa": 24,
       "iran": 4
     },
     {
       "date": "2026-06-11",
-      "usa": 9,
-      "iran": 0
+      "usa": 12,
+      "iran": 3
     },
     {
       "date": "2026-06-12",
-      "usa": 1,
+      "usa": 2,
       "iran": 8
+    },
+    {
+      "date": "2026-06-13",
+      "usa": 1,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "4b9c3933b2991801",
-      "published_at": "2026-06-12T22:44:24+00:00",
-      "title": "Live updates: Trump says U.S.-Iran deal is close; Pakistani PM says \u2018final, agreed upon text\u2019 reached - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9RdVFUa0ZINHVlQ0hJb0ZUaUZnUzlsZ3NpNnM5b1Y5Y3B5aGl2a1RfaWlZNXFnODh0dW50UUtWdnVZM184Ml9LZ2hNV3ZzTFduelFtbk56Vjg4NUxjNFVrek05TjhWdWRoVnlDU05HZ1o5VzV3WXc?oc=5",
-      "source_name": "MS NOW",
+      "id": "b2bdb1abe95ce6d8",
+      "published_at": "2026-06-13T04:52:28+00:00",
+      "title": "U.S. and Iran close to signing ceasefire deal, officials say - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMldkdDk1MEIxLUZIZl9XVlB3WlF4U3ZGTUtlMjlHUXpvUUZac0Ywc016OEtoMmtsTFhhanlQN1hNQllVZXZUdFFtX1VBWlU0NWhuajByZ0VKNzJEMjVHTHc4ci1acDBsaXdIVTU1M1dFWmNScnhzQ2FwYTNlYUJfUmZ0RHlzcVpwS3hNZTZOdnU1SVpPdUN6ZGdHUzNfelZWQy1VY2JVQmo?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "0ca7ab92a89eb8e5",
+      "published_at": "2026-06-13T04:33:22+00:00",
+      "title": "Iran war latest: US reveals details of deal terms - as attack drones heading to Strait of Hormuz are shot down - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPc3JyS0owTHNiOXVLejVocXd2Nl82aEtCYUxCa082QWc1MFZkUkNYcnZnbDRCM3owSWhwZ3R1Q1Z0dnptaXZDckhld3pHZUdESFppQU5FNmh2cTBENW1rTnVkenJmOTRScWF5SVB0RDhWMnpkTmhLUmlfd3ZqNWM3c3M1MWNMdlMyVXVyZ0tiQWlkSEF5SjJPazZtc1VnbzVIYmthbmItdGNIMU5faGpQRjAyTHRPUXFvSGF2MVdPVHdRT2VvTVVfWVpsWW83RjZJYzNBclpOQTg?oc=5",
+      "source_name": "Sky News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6e51586943c53c7b",
+      "published_at": "2026-06-13T04:26:00+00:00",
+      "title": "Live updates: US says it downed Iranian drones after Trump and Tehran signal an agreement is close - CNN",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmSE93eGkwYURDS3JDRWVOWEhTSjRSbmE0bThZeTdDak1qdkh0Q08wbnF6aTdKYTFBTGJWYk84VkFLbEFkMUpKSE9jYjR3ZmJjM2Vrbktpa2dnY0FqQTNIbGx2ZS1vU2l6M1hra3RoM3RoMExQeWpr?oc=5",
+      "source_name": "CNN",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bf8375e14b9d01a3",
+      "published_at": "2026-06-13T03:24:15+00:00",
+      "title": "Live Updates: \"Final, agreed upon text\" of U.S.-Iran peace deal has been reached, Pakistan says - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMy1fbWtVcXVDRm5ISTB2a2lrQURZSjduUXBFUUMwOTZFQkE4dmMyYVJuZVROektFV0xjRVFqNlVfc05LczVnTklEOUxKeTdkalVOY21GOGZ1dGZGMXczRTMyTU41SnpldEdaQ1VsSUszaVdxZm1SMmZGZnVvMXhKU1B3?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b8e1b827c9b57ddc",
+      "published_at": "2026-06-13T02:30:00+00:00",
+      "title": "US-Iran peace deal remains elusive as Trump and Tehran trade conflicting claims - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeGN0VGZ2Vzg3NkdqWEpqdlB4RDlEWDJBbTdGOXZKanlTYmRFdGxwRk85LVpHYjhaTUV4bXhrQ3hMOHZUNnBiekVPTE0zN2NEVVVOOEJHaVlzUzBnLUw0U1pfNDNMWGk4VkprZy1YWnFwYUJfUl9pZFE3MjFtUjFTMnQ2N3c5d2NHRU5WLURWb2pLTE9FSzVoUVVwYm5lbFRybEhPb0F1aFBybmhSb3N5RE8tMThCRld5RUxmaVpJTHNJdUU?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9f5bd65ff6e21968",
+      "published_at": "2026-06-13T02:28:00+00:00",
+      "title": "Iran War Live Updates: Trump and Iranian Officials Say Peace Deal Appears Within Reach - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oc2ZIWWRXS0ZsQ2QxM1lpNENEQ0dnSDZfeVVQZmRhLXhlQkNhN1kwVDJ0ZDBwcXBPaHlYR0lXQTkwTWo1NnJENFJDbWU5dk9CU0xoZWN3YjZkMHE5UklBVHE5QU00V01zbjl2ODA0anQwcGRuVTVYbEVR?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0204d98482607588",
+      "published_at": "2026-06-13T02:01:00+00:00",
+      "title": "US and Iran have agreed to wording of a deal to end their war, Pakistan's prime minister says - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONURwN19GREN0aGJfdmstQ0ZQc0w1eGNHRG5kYW9MWUhjRm55M0gweVdQeHQ0dWlVU2w5dWkxYXJhaW1yMzcxN2pfZnNWNm0xaURoVjAtdlY3SWVhN3lrWXV5STJVdExXTjdMM3pSb0paTUZoU2xBMHJMUVFGelFuQ0tycmlYWURDQVFjbmpjOER4SUp1SWNaeVd2MWFUUFNua1FqSi1XMl9UY2s?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c627e679e223d300",
+      "published_at": "2026-06-13T01:48:00+00:00",
+      "title": "Pakistan says U.S.-Iran deal text has been reached; Iran holding \u2018final\u2019 deliberations - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVB6emdrMERVSzlUSHJIalFLQTNhWFYwMEZUeEZhVllLbHVzenQ4UVZlbW1JMEVMdG9ISGNHandJbE05ZUlmSTZORUdqcFlERXFteUtrLWZXdlE4dFJEUmdhU1U3RS1mMzE4czR3QWdnUE9EbXlGWUx1WXdXSktsZk9KOUxuak5zamVYVVdobGRIM1htWFgtZmxXdVc1NWJQdmY2VEdGTXJTNjZzb3FNMWFn?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "beb0da67d3fbf157",
+      "published_at": "2026-06-13T01:11:20+00:00",
+      "title": "Trump blasts leaked Iranian deal terms, 'very dishonorable' negotiators - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVE5kSEZBTmV3b3h1UktvZ0pLZHlyYzczc0lHM214UjM5V0lmc1ZSOUU0VEs0NXZXQV80TmlaQ1ZSeHFCU2NudE5DQV9Lb1NfVk1Sa2NUaEMzLU9WdTlPOWtZYk1KSUxmcmRjQkZvOEhvUU9NWE51WkEyaG5UVktnTzVFMFJid9IBiwFBVV95cUxPa3dLRjNGc1QzUWVOU2RNcFNLN0ROOFZjamFUOXFuLUpyZTlwUUhkNU9hZVFRckt4UnE5WkE2ZnFlY2NxaEhlWjBQT1hlOE4tUjBINWV6emVvNGdmclNXVUJzYlFjeWtOVDlkc2YxMzlwZ1BDamgwdmxhcncyZmNUUTYyekdiTjBzbkFz?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9dbda1009338c07e",
+      "published_at": "2026-06-13T01:08:37+00:00",
+      "title": "Iran Can Hold America Hostage in Either War or Peace - The New Yorker",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcFpFWHlOemxqT0M4Ylo5aG90OXFyZ2R0MEZsUFpDTW5sLW9DSFFIenlhTGttRVJTNHVhS1l6MnRURnFpU1o0RnRSZ19vSmFJSUhzcEM5bm4wSC1hX2hZT0FYeWpFN0lEREZwaHNDX2kwVXI5cDA4TTJyT0JfSTB6MWhCOG9UX0Vfd251ckp1MlBQbGhUdUZF?oc=5",
+      "source_name": "The New Yorker",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b9ab7d48929441c5",
+      "published_at": "2026-06-13T01:00:00+00:00",
+      "title": "How the U.S. and Iran Turned From Renewed War to the Cusp of Peace - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTFJlX2lWaDg2bUZBR0Z4ZzlhUlA4VG5La2tEdzIwd21rSlpmaHhxN1NHNmpmWC1hUDdjb1A2V0xRdXFBUlFma0doWVZJdjRRZERQZkRZRnI5Y09HRzYzb2Nyb1VsVTZDTFp0bXJ5VmFiTTRBNHFhVk1ZbWt3OE1PZTIzS2lYOER6?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b81eaa0a6142e328",
+      "published_at": "2026-06-13T00:51:20+00:00",
+      "title": "Deal to end fighting would lead to Hormuz reopening, Iran says - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "85e5ec7cbfb8f574",
+      "published_at": "2026-06-12T23:46:22+00:00",
+      "title": "US and Iran approach a ceasefire agreement, but they're not 'at the finish line yet' - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaFhldFRBMmxEakktWVBPVEFZeEZVcmFmMU02TEdYbE9WQVpLa2hEbGRKeDF1R2RQTzRaYk1Ea1JZdktJSS1qX1JCY2EtN3ZhUXREeFh4cFR5UVlkV3R5c1I5REdSU1A2aHZXM0oxREtmSV9mUWNmcHpjcG1HeEVwVFplczVkVndVQTJYLVdBYk5pZ0taUTNXdFJ4NGxFUUpyaEtzWFRwWW5MVlpvdmhjdGZRUUQyT0pDcnFzRndwOHRRVDQ?oc=5",
+      "source_name": "Scripps News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "505dc0fbb5468a2f",
+      "published_at": "2026-06-12T23:10:31+00:00",
+      "title": "The U.S. and Iran Might Actually Have a Deal - The Atlantic",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZ0txeVhUVzVUYmhwTS0xNFphNlJRa3FfcFJUWmhPMURaeDhlNElCc2lxLWZHcDQwQjRNSXFFMWR3MzhxckdQOWt3dDhOQ1hRRTNRMTdtS3RuT3FUX1VmWFQ3M3dMRzhkSmkydko1OUhHUXlzUVF6aXVLRWNUelU2ZmphYkxCazZhbWhSRA?oc=5",
+      "source_name": "The Atlantic",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "3bc1b879c1a27bef",
+      "published_at": "2026-06-12T22:48:00+00:00",
+      "title": "What to Know About the U.S.-Iran Peace Talks - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZHBjZDU3RnVZcjMwQ2F1RWdmM2VER0RfY2U0Uzhya1JRNVpaU3ltWnJTNW4yTFVWdGhUek5JTUs4TnZEVkRfajJXZlJYUS1iMWhSNDFDSW9fdVVLbzltaEU2eVc4TThpdU1YbGItdXJyeTlqY0ZORjdkYWg2cGEzSjNWU2E0UQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "cc458e3b2bcc04f5",
+      "published_at": "2026-06-12T22:41:40+00:00",
+      "title": "Iran\u2019s foreign minister says ceasefire deal with US has \u2018never been closer\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMlI0RU4zcmg1MFF3UVptZ3FnbjF3Y0dOS0RwOXQtNjFsTnJqbUxwNWJFY01BT1pvME9mUnlfaFlsMXY1U1JROHZhaUxvNVRrR085U1ZLWWpuR2twNFBUazNiMHhzOFd1TERWdzBoQ0llXzRfVmVPc0dHMDdYX3QtUVNzUWh3RVYxZ3VPT3pIOGdzN05OQkxvQkpPMFdkM1lsMG4tdDFyM3dXUFVDZ281Tk130gG3AUFVX3lxTE11MWdGZzNwbXhQZVlNdjFJeVBzWWhnSVBOc05Udk5FOW1yX0pab3RTQm13NkJJclpfV3U4c3A4d3o4cTBuN3d3ck43TlJIOGkxUHF3SERNT3dzUS1jSGZfTGlXcUhoYmZXSlV5TmJpU21QbnNIaVp0SGFKbVdkUHNCdGFmb2RReVZ3eWNZaVVzVFAweTk4V3J0S2ZBdVp3RjEzQjVqaUpsZHhuVlJwQWkzbUVUaWpHUQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f1ddbce93f21a834",
+      "published_at": "2026-06-12T22:34:29+00:00",
+      "title": "U.S., Iran signal peace deal near as Tehran claims victory - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMXk5cUo1M00yVjgxUGh5ZHl5SWdsUFcxZWhQUUF4MUhZY3pzNGZUbUU1SEtHUEh0dnZJM1Y4TFU0SzloMWNlQ1VqcjBZZ09raU1QdnFXallaeTBVMEZsNGhsOVVDcFNUZ2tjY29zX3hYYjJ6ZzAtZU1FSURnY0J3TktmSEk2eGFpd1Njek1SUG1mbkJrVmltN3RMQVk5WFpOOUxuMEVLUHRuVE50alhrTGk0VGs?oc=5",
+      "source_name": "Reuters",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -125,14 +365,14 @@
         "usa": 1,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.85
     },
     {
-      "id": "71eacc6cdf9cea72",
-      "published_at": "2026-06-12T21:52:03+00:00",
-      "title": "Iran War Live Updates: Trump and Iranian Officials Say Peace Deal Appears Within Reach - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5oc2ZIWWRXS0ZsQ2QxM1lpNENEQ0dnSDZfeVVQZmRhLXhlQkNhN1kwVDJ0ZDBwcXBPaHlYR0lXQTkwTWo1NnJENFJDbWU5dk9CU0xoZWN3YjZkMHE5UklBVHE5QU00V01zbjl2ODA0anQwcGRuVTVYbEVR?oc=5",
-      "source_name": "The New York Times",
+      "id": "7bb8e2c22f659a2b",
+      "published_at": "2026-06-12T21:56:41+00:00",
+      "title": "Pakistan, US, Iran signal deal to end war close - DW",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObG1HV1ZsQ05acXdxTW5fcUNWS0xHbUNaUHpHbWVuVnV1T3hJTFRNanhNdGU5X2xYNjhGY0hCaVJMeTAxRjVLc2V6RWhCYXBoQ2Z4MHFLUi1aOGctWk96SExLa0dMeC1kcDVXamQtMEVfX3VJQTRrYmNaSlJjTU9JUmpnMkVXamxRNHc?oc=5",
+      "source_name": "DW",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -141,21 +381,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "2a068ef5a6db55be",
-      "published_at": "2026-06-12T21:51:00+00:00",
-      "title": "Live Updates: \"Final, agreed upon text\" of U.S.-Iran peace deal has been reached, Pakistan says - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMy1fbWtVcXVDRm5ISTB2a2lrQURZSjduUXBFUUMwOTZFQkE4dmMyYVJuZVROektFV0xjRVFqNlVfc05LczVnTklEOUxKeTdkalVOY21GOGZ1dGZGMXczRTMyTU41SnpldEdaQ1VsSUszaVdxZm1SMmZGZnVvMXhKU1B3?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     },
     {
       "id": "e9a4d660857618a3",
@@ -171,231 +396,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "99330c92f1768ff6",
-      "published_at": "2026-06-12T21:32:53+00:00",
-      "title": "What the US says is in the potential Iran war agreement - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcGJWdDZFaWtvYVBreWY2NDM3ZFpjUm9EQ1pCS3ZIVmxPR0k5MEM5SUhzWTg3cEFob0RiTW14ZWdzM1NQMzdNMjRhdmp3R2Z0Smc5dl9ESzBDaTh5aDIyTC1Bcll2NzVaSE0xTkJ5Nmo1cWRLNjg4b1BFZ2txRUNYZkJrZHprQdIBiwFBVV95cUxNLTBRNXoyeG92bS03eHJzVTlHMVdtMDJTMGUwZ0JiN25COXlLa0dydHhpVUVTQndLY0JpTkliUEw4WnNzd3Q2Z3hNM0pUbjNUUktHYTFGTGkxTFluS2xLSWhDUlF1eklKTUMwUURUUnJjalZMNEtDQXdqWUFvTWNCaEFDZTdrVWZPUHZV?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "430a8fcf029967c1",
-      "published_at": "2026-06-12T21:29:20+00:00",
-      "title": "Live updates: Pakistan says U.S.-Iran deal text has been reached; Iran holding \u2018final\u2019 deliberations - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVVB6emdrMERVSzlUSHJIalFLQTNhWFYwMEZUeEZhVllLbHVzenQ4UVZlbW1JMEVMdG9ISGNHandJbE05ZUlmSTZORUdqcFlERXFteUtrLWZXdlE4dFJEUmdhU1U3RS1mMzE4czR3QWdnUE9EbXlGWUx1WXdXSktsZk9KOUxuak5zamVYVVdobGRIM1htWFgtZmxXdVc1NWJQdmY2VEdGTXJTNjZzb3FNMWFn?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "1ed07f882ff75f50",
-      "published_at": "2026-06-12T21:11:00+00:00",
-      "title": "US and Iran have agreed to wording of a deal to end their war, Pakistan's prime minister says - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxONURwN19GREN0aGJfdmstQ0ZQc0w1eGNHRG5kYW9MWUhjRm55M0gweVdQeHQ0dWlVU2w5dWkxYXJhaW1yMzcxN2pfZnNWNm0xaURoVjAtdlY3SWVhN3lrWXV5STJVdExXTjdMM3pSb0paTUZoU2xBMHJMUVFGelFuQ0tycmlYWURDQVFjbmpjOER4SUp1SWNaeVd2MWFUUFNua1FqSi1XMl9UY2s?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5b840e18ecf15646",
-      "published_at": "2026-06-12T21:04:05+00:00",
-      "title": "Deal to end fighting would lead to Hormuz reopening, Iran says - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9WbDM5eldoWW54T1NESmcxenViSnhRMk1VaWh2UjB5eF9Lb194QW1IUmt1QUxLLUc5VF9Vc1RHNS1iTENwcTNMaHVJV2haaGx2UXZhN04wSFNodw?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "33aeef4448bd3f00",
-      "published_at": "2026-06-12T21:03:51+00:00",
-      "title": "UAE to unlock frozen Iranian funds amid US ceasefire push - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWEpCOTZVYUpWWVZud04zZU9zYUZQUzVRbjJZWnJvbWItV0dXOTRid3dySUx1dHRwMHdaZ1YwQlhqNzgwc3BPeTBWR2JxZXBDMmlRNmlNbWJNcHZRNmlaX1VKRUJtb1VvYjM4cU9tQTZOU01qVWlsWW5MRmVLbERTalA0VVdLQlJfVXZpQ0h1U2dQWUQzRTdnTjh6U1pqdzTSAaQBQVVfeXFMTnMxWjVDVnZ3RU1sVE52OU9TcXlIMnhQclp0WTJtaHJwTUFwdDRNXzJrc1JiNEtwUTN1eDJqSmN2dUY0dGt1TXBZNGVncWx6amptamx0NmQ3U3MtRFlkck5QU0hJNFV3N1dfZ2Jld0I4M3dSQ0ZuTUhBYnNpa3kzaWlqekV3WklDUnRHTjhvaFlJaldFTEItcUdzc1kyQ3N0OGNsMnE?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "467d3203d6035678",
-      "published_at": "2026-06-12T20:57:00+00:00",
-      "title": "Live updates: White House signals optimism on potential Iran agreement but key questions remain - CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBmSE93eGkwYURDS3JDRWVOWEhTSjRSbmE0bThZeTdDak1qdkh0Q08wbnF6aTdKYTFBTGJWYk84VkFLbEFkMUpKSE9jYjR3ZmJjM2Vrbktpa2dnY0FqQTNIbGx2ZS1vU2l6M1hra3RoM3RoMExQeWpr?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e7d1fdb56a09a42a",
-      "published_at": "2026-06-12T20:56:57+00:00",
-      "title": "Pakistan, US, Iran signal deal to end war close - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObG1HV1ZsQ05acXdxTW5fcUNWS0xHbUNaUHpHbWVuVnV1T3hJTFRNanhNdGU5X2xYNjhGY0hCaVJMeTAxRjVLc2V6RWhCYXBoQ2Z4MHFLUi1aOGctWk96SExLa0dMeC1kcDVXamQtMEVfX3VJQTRrYmNaSlJjTU9JUmpnMkVXamxRNHc?oc=5",
-      "source_name": "DW.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "7ae0cd916d7563f6",
-      "published_at": "2026-06-12T20:08:17+00:00",
-      "title": "As officials again say Iran war could soon end, some Trump objectives are unfulfilled - PBS",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkc5VWI4UEVPclJUeG1lTkl3b3ROeGJxNGV3X0J2MkhwdDNKX2FkbVRSZGlLSTdYVkJ3bHFOWGJmekhmNUJkUXBxOVJMQV9hRlJhU0FpRXhSZHlvQ3VsNElKdjF4X1hoRmstVGRKTnNIZUt6RnY2WU4tOExUZWdlOVlrTFprV2paWUZfZ1lKX3p3N3QtSXRNWjFLM0ozMUdCejlGbVN0NGwxbGRXSW9ObzRwSWpCbVJXdm91TXFvONIBxAFBVV95cUxQczBXV3oxeHVoN0toelVnbDZOOHJOWjBJdndWRk4ydldZYV9yYmVSNjZ1Nl8yWGNGUkRIVkdIaDgtdGJCQTZhRUN3cUpPeFBaYWZMTXBmTWVqUU9RbGhYRzF2ODhyOVBraTd4RV9Xb19iY1Nya2JjWkdiRmRhd2tMUXRfdjRObl94N29MWVBMd1FWQmNaWVR4ZWlYbV80SC0yR3JFY05icUhWWEFnYlZOUTNaVzN4UVlHQVVhd3lEN1NQUkxZ?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "ba7d7783e0f3c88c",
-      "published_at": "2026-06-12T19:53:14+00:00",
-      "title": "A deal with Iran is near but not final, senior US official says - Politico",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQREMzZTg2SmxMc1UtRU05aUpxUHBydVpWbTZjOXNpVV9Ga211b29SX2M3aVhYazg3cnh4SWpDWEppbjVoOTMyRUJIN2FvU2loWWg0WVJFN2lXNDBWM09OVDdlTXNpdEFYa3ByN2lGMXJqcGdNQU4yWkpocnFReEs2ck1JOWh5U1d2c1V1VU9UMGdCcXBveDFkVUtMcHhkcjAtVlJLQUFJVjl1eGgxY1BZNy1n?oc=5",
-      "source_name": "Politico",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "aa4d1284e3e9b4fe",
-      "published_at": "2026-06-12T19:52:23+00:00",
-      "title": "Trump blasts leaked Iranian deal terms, 'very dishonorable' negotiators - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVE5kSEZBTmV3b3h1UktvZ0pLZHlyYzczc0lHM214UjM5V0lmc1ZSOUU0VEs0NXZXQV80TmlaQ1ZSeHFCU2NudE5DQV9Lb1NfVk1Sa2NUaEMzLU9WdTlPOWtZYk1KSUxmcmRjQkZvOEhvUU9NWE51WkEyaG5UVktnTzVFMFJid9IBiwFBVV95cUxPa3dLRjNGc1QzUWVOU2RNcFNLN0ROOFZjamFUOXFuLUpyZTlwUUhkNU9hZVFRckt4UnE5WkE2ZnFlY2NxaEhlWjBQT1hlOE4tUjBINWV6emVvNGdmclNXVUJzYlFjeWtOVDlkc2YxMzlwZ1BDamgwdmxhcncyZmNUUTYyekdiTjBzbkFz?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cc458e3b2bcc04f5",
-      "published_at": "2026-06-12T19:38:42+00:00",
-      "title": "Iran\u2019s foreign minister says ceasefire deal with US has \u2018never been closer\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMlI0RU4zcmg1MFF3UVptZ3FnbjF3Y0dOS0RwOXQtNjFsTnJqbUxwNWJFY01BT1pvME9mUnlfaFlsMXY1U1JROHZhaUxvNVRrR085U1ZLWWpuR2twNFBUazNiMHhzOFd1TERWdzBoQ0llXzRfVmVPc0dHMDdYX3QtUVNzUWh3RVYxZ3VPT3pIOGdzN05OQkxvQkpPMFdkM1lsMG4tdDFyM3dXUFVDZ281Tk130gG3AUFVX3lxTE11MWdGZzNwbXhQZVlNdjFJeVBzWWhnSVBOc05Udk5FOW1yX0pab3RTQm13NkJJclpfV3U4c3A4d3o4cTBuN3d3ck43TlJIOGkxUHF3SERNT3dzUS1jSGZfTGlXcUhoYmZXSlV5TmJpU21QbnNIaVp0SGFKbVdkUHNCdGFmb2RReVZ3eWNZaVVzVFAweTk4V3J0S2ZBdVp3RjEzQjVqaUpsZHhuVlJwQWkzbUVUaWpHUQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "541766e67764674d",
-      "published_at": "2026-06-12T19:00:00+00:00",
-      "title": "US-Iran peace deal remains elusive as Trump and Tehran trade conflicting claims - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeGN0VGZ2Vzg3NkdqWEpqdlB4RDlEWDJBbTdGOXZKanlTYmRFdGxwRk85LVpHYjhaTUV4bXhrQ3hMOHZUNnBiekVPTE0zN2NEVVVOOEJHaVlzUzBnLUw0U1pfNDNMWGk4VkprZy1YWnFwYUJfUl9pZFE3MjFtUjFTMnQ2N3c5d2NHRU5WLURWb2pLTE9FSzVoUVVwYm5lbFRybEhPb0F1aFBybmhSb3N5RE8tMThCRld5RUxmaVpJTHNJdUU?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2a6182c5ba4b0907",
-      "published_at": "2026-06-12T18:55:30+00:00",
-      "title": "How the Gulf will manage collective security after the Iran war ends - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNRXdoTnpTS3Y2eDFKTHVYNUduRlhKQkJKaTQzQU52bldfeVdNUEFrX19IbVNDa0gwdjdtc3JtWmVfODBpdGhFd05TelRkWnZCWXZHbGo1cnkzMXNyZkhVZkwtakZ0SkJZUVl2RWV5UkM0a2dEWWFJYTBqLXdmbmpqMVE0RFVodERBc01xRVR3cWV3VFJvdjFIRTBrVUxrdmNVQ2NjOUQ0NlhBSl9IMHfSAbMBQVVfeXFMTTF3OEJOeFJGckhZNE9NRkFDZWpPV1k1eDF2U0VnTXFtUlo5MWY2TFJiWE4wVVdTckhCVnI3TmhvR3RZLVFOa2MxMno1d1EtZF9MSVdpai0tUkh0TE5zaVpJMzNaYnhOSjhMV0ZaNXExTmpROG00ZWY3VEhpZmc4RVlJOUVqdW05RW14NGtoSjBxejhibGhGdml1c2Uwb3p4ZDNwdzNILU5GUXo4QU1QLXZ6NEU?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "2d92f7969a6eb936",
-      "published_at": "2026-06-12T18:51:00+00:00",
-      "title": "UN \u2018encouraged\u2019 by talk of possible US-Iran ceasefire deal - UN News",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBlTFNuTEdlVTlVRHl1MGZSSFJQOERXZU93ckY1ZEJwMGMxdFh2SzQ4RmJwa2tWZDFJMjNZMXd6dWZKRVNFMERYSUlJdzh4dDI5V2hudFZkdw?oc=5",
-      "source_name": "UN News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "3ce78992111f2c6c",
-      "published_at": "2026-06-12T18:28:42+00:00",
-      "title": "Iran war day 105: US and Iran signal a peace deal is close - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNQ2l2YlJ1MFl5bmI0a3Mxa2haVUI4bWJ4R3lmWnJnU01Pb2V6RklIa2FlYzBGWS1LU3FVNG5RdW16TE1MVXRCQUdKQVdHMWtqaEhZcjgxZjR4Qm5VTGlNM3Q1cEstNHN6RDBYUDNvQ3lXaEJhcUt1dHMtbDVuU1hZbnUxTFZvMW9ObkJKVFR4WE5GM0ZyYVdERlFxVDZPWENMRXdyS25n0gGrAUFVX3lxTFBVajFwY3M1SmRJaEt0WVpZeFdVWE83VG5RLTRoWEVrNkIzUU5TcnQxVjRaNDQ1b0t3TVBlRVY2LXpCSENTeVJ2d0dTRFlmSGdTc0dLZktEUGlsWUE2NHdkQ0pBQ1YxazhLWmY4cWxvUlFWbnlwQjBIQjd5em5jR2tOOWVrZkY4T3A5cERVRXpWYy1zYk4zUkkyTXpYWUtLNTdkSkRqY190UFJDOA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
