@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-13T19:55:18.430037+00:00",
+  "generated_at": "2026-06-13T22:31:58.826210+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 96,
   "totals": {
-    "usa": 61,
-    "iran": 7,
-    "lead": 54,
+    "usa": 47,
+    "iran": 10,
+    "lead": 37,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 61,
-    "iran": 7,
-    "delta": 54
+    "usa": 47,
+    "iran": 10,
+    "delta": 37
   },
   "confidence": {
-    "score": 66.4,
+    "score": 65.6,
     "label": "Medium"
   },
   "event_types": {
-    "other": 48,
-    "attack": 48,
-    "diplomatic": 1,
+    "other": 53,
+    "diplomatic": 2,
+    "attack": 40,
     "material_loss": 1
   },
   "history": [
@@ -72,31 +72,136 @@
     },
     {
       "date": "2026-06-09",
-      "usa": 12,
+      "usa": 9,
       "iran": 0
     },
     {
       "date": "2026-06-10",
-      "usa": 30,
+      "usa": 24,
       "iran": 4
     },
     {
       "date": "2026-06-11",
-      "usa": 12,
-      "iran": 0
+      "usa": 9,
+      "iran": 3
     },
     {
       "date": "2026-06-12",
-      "usa": 4,
+      "usa": 1,
       "iran": 3
     },
     {
       "date": "2026-06-13",
-      "usa": 3,
+      "usa": 4,
       "iran": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "07ab53549f46988b",
+      "published_at": "2026-06-13T21:38:00+00:00",
+      "title": "Live updates: Trump says agreement with Iran is scheduled to be signed Sunday - CNN",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KUG9TR2l1U0VzcHNOR29kN3Z3RjJVWUJhNnVrS2ZfR0ZJNi1yZEtSZDJuUExGY0cyYTY5QlBxdnluRmdwU0NkQ1FJMWpOVURzeGpiSkZXaTZ2NkRMNFZ0N3ZaT3NGUGVZZ1dWR2N0YUE2bDRhRTBJ?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a94e8d48ed72ceee",
+      "published_at": "2026-06-13T21:34:00+00:00",
+      "title": "Dozens protest deal with US outside Iran foreign ministry office \u2014 local media - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNaVFxb2tsbFF3S2p1dUFpaEZrX3pldGREVHMyeEhBOVl3ZjloamtzWmFTOHRPM3BUbGMwR1lvZVZyNWxkMlNpSUhUOS1fR1JKRFNhNXFXQWx4RTJxaE9ET2VKNjkxMlhHQW9hWEVqM1gxMXRVbU5lLVU1NUczNUVWYXYtMHM4ZE96VjRiZ0tFZXVXcFNrTGdBQVJISjRDQ0hPekRpVHRySWRYRHpvTTEyMk5jblA0NG94T1JURVJrTQ?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c53206b49ad255f3",
+      "published_at": "2026-06-13T21:00:00+00:00",
+      "title": "The Iranian Enforcer Driving Tehran\u2019s Hard Bargaining With the U.S. - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUVZaS2hsTUwxOGlnSmpvaW5iT3NlSG8tdGpuVGg4UmtHUnZIU2lVVVFXRExmcmVob3kyNDR4a1BlYWJObUJKcXZhcldqUURCUE0zWTVLWlNFYW1OTk5pbzRUZGQwMHJWMzVkaV8xSC1GM1BpYlhPN2MyS3FKR0s0cU5GTE1MTzRpV1BhMmRNWUJjV1BycTBDR2I1UlJ3UjVWZ2lvaTA0UnNVMzQwT0YtdkRR?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "3f60809c377fa2a5",
+      "published_at": "2026-06-13T20:59:00+00:00",
+      "title": "How U.S.-Iran draft agreement fails to meet Trump\u2019s war goals - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOZUc5VVQtYlk1R1VZdU8xZ0FnRkxEdmZPUFRtMEtWWnoxXzdVQkxrMWxtWjlMUGhHZlRHcUEtQU1lSmVZa0tTN2M1bzBiRkdTNHd5ckpWRkV6dkZyMnpzNkN6bEd4V2wxZnV1S2lRNGoteXhvbE9nWXJwS3hpeXA3TmNR?oc=5",
+      "source_name": "MS NOW",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "86e50c16b89ea842",
+      "published_at": "2026-06-13T20:37:30+00:00",
+      "title": "Iran war: Trump says deal with Iran to be signed on Sunday - DW",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTEtTMFo5a2pwMjJTWkhRTnRXcnN2TFZWaXBhU1ktajU3YlBOb2dQRUdZSFZOZVd3czVZVFFmVmdDbi1tbFE4TlExTEhiUllmOGNFVWZpN1IteTVjRU95NGdjbm9aZzd2STNuRGQ1M3lSTjZpLVZIMHBXVFdwa3otSEtiNVdVemhrWDdpMWVGNXlUMGpJMko5TA?oc=5",
+      "source_name": "DW",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "56420d3e2ce622d0",
+      "published_at": "2026-06-13T19:53:11+00:00",
+      "title": "Second stage of US-Iran talks to involve Israel-Lebanon conflict discussions - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE03VXpiQUVtSDlBbTR1MjBYWGd4Tm1rRTVVclVuaUh1bjdlWHBtaHQ2VjhSWlpRV0p6QVVUaW4tcXZxVUxIREJxZ0tzaTFkT0NtS2VYV2Vn?oc=5",
+      "source_name": "Fox News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "351b67bd9b2aa520",
+      "published_at": "2026-06-13T19:14:29+00:00",
+      "title": "Pakistan, US, Iran signal deal to end war close - DW",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObG1HV1ZsQ05acXdxTW5fcUNWS0xHbUNaUHpHbWVuVnV1T3hJTFRNanhNdGU5X2xYNjhGY0hCaVJMeTAxRjVLc2V6RWhCYXBoQ2Z4MHFLUi1aOGctWk96SExLa0dMeC1kcDVXamQtMEVfX3VJQTRrYmNaSlJjTU9JUmpnMkVXamxRNHc?oc=5",
+      "source_name": "DW",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
     {
       "id": "2e21a5c6a6419289",
       "published_at": "2026-06-13T18:39:26+00:00",
@@ -111,21 +216,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "07ab53549f46988b",
-      "published_at": "2026-06-13T18:33:00+00:00",
-      "title": "Live updates: Trump says agreement with Iran is scheduled to be signed Sunday - CNN",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1KUG9TR2l1U0VzcHNOR29kN3Z3RjJVWUJhNnVrS2ZfR0ZJNi1yZEtSZDJuUExGY0cyYTY5QlBxdnluRmdwU0NkQ1FJMWpOVURzeGpiSkZXaTZ2NkRMNFZ0N3ZaT3NGUGVZZ1dWR2N0YUE2bDRhRTBJ?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "b9ab7d48929441c5",
@@ -155,7 +245,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
       "id": "52d79e106068f5ed",
@@ -193,6 +283,21 @@
       "title": "Trump says Iran deal to be signed tomorrow, contradicting Iranian official - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQakhxOGNLeXdIal82anc1OWJIUVNsZTNmaXg2Wi04Z2cxZFZVMkgwUjVQQlNWTmY1Y2EzZTNoLTk0eWR2WU5YclhrWjBfN2U3aXp5ak9Fa1FHRzZvVTVWSEdGVThMOWtoRHREWThWalNiRTBkSGhna2pnaDFITzByc0ltbzFwWWdOazRzRGstb0lFZmk5M3QtUHJzSzVyY080WnVjU2h0bnM0dG1YOHFZeExwR1bSAboBQVVfeXFMTnNfVnFzUTQ1UVE3dTU1WHppVFZmX2RUbGlzQm5mak90VUFDRVctZXJrM1NBYlhleWNHM29ZblVHTmZPX1N2WG5VdkFycnloWGJaNXpUTFIwdkEwSWoycEMtN05PM3ZsSmUxWnJIazV2b0tWdURncWEzNk9RNTVTSEFjTjdDYWhUM0xyVENvYzFQOXNaTU1Qb0ZJYlFHeXZrdktVS3p1UGFTekRVMjNYcFQ2N3g3SnhWWWVR?oc=5",
       "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fc722ebdc7b11caa",
+      "published_at": "2026-06-13T18:04:00+00:00",
+      "title": "What to know about a possible deal to end the Iran war - AP News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3k4T0R4Z2dkeGdxZTdVU094cmd6SU9QYkVvcEpyWmNNXzZOT19mQThpeEktSW9XcURhM1dSdk1EVzBTMjZDeXRpZzlrX19JVFVZdC1SYmwxbl9FemlBNnM2bjNRNnpndjdZZUJEQ1Fkb29RMXIwYnkzN3JKcUN4alVLeV9adTRMTk1Rb3NWQ1dEYTU2MGdlSEZjcDNWS21WNDR6QTBB?oc=5",
+      "source_name": "AP News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -248,21 +353,6 @@
       "confidence": 0.55
     },
     {
-      "id": "de0b7b7e03c5f40a",
-      "published_at": "2026-06-13T17:02:10+00:00",
-      "title": "U.S., Iran expected to \"electronically\" sign agreement to end war Sunday - Axios",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE84dVo1TW5STXdMMTN4NmpzLWZmdUxUU1Z1a1doX1RaUDd6dXhQZ2RGOG5OZUwxM2tpay1iM0hObmFQbVc5S2VGdEhKdGs2N2pJZHFBMHFPRU5UTTZ6M3M2VFhTZFpMUlZEanJVVTFISQ?oc=5",
-      "source_name": "Axios",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "43ac0bf78c1f772d",
       "published_at": "2026-06-13T16:29:22+00:00",
       "title": "What to know about a possible U.S.-Iran deal to end the war - PBS",
@@ -275,7 +365,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.7
     },
     {
       "id": "8cefaa96aa66ceb6",
@@ -306,96 +396,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "98cd44ac9a3f6bb9",
-      "published_at": "2026-06-13T15:28:45+00:00",
-      "title": "Iranians divided on peace prospects after US-Iran say a deal is near - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTVJ0Tmt6cmIybTI2M3ZzTFZoTXdBTTlQRDl4NEdvenl5S3R4UzFaRWhtbm1uaXlROWhIY3RVYkJVc1VnZ2ZKbEtBVE0xVGU3eHp1blJIUGJ1V19nd0ttWjgyYm5vaW5EOXZoNzlMdHdvMDByaExiWjBPcjlWQldaVDI0NE9OZU40ZWFJUUc4cE1uTUY0N2xvckIwZV9XUy1UdGwtdmMyOFo5NFVUVmdLbGJfY0tsUVZMZmNF0gHAAUFVX3lxTE9UZEhoU0ptTUhvZXMzd1RpSUpZbzUzS0tXWGNSZ3QwZ29VZ1hzMnZ4SF9ZMU9qMUU4cm5zYVZzcmQySGIxRjdSeWdURDRFdU1GMmEtVkMxazd0b3N4WmRPYTFhX2hNR2tkOHJtUXhfTkZZNVZRNjk5VzB2dHNCRGdZZ3U4Sk1fLWZENXJUQzZZdHlIcnBoTUhpc3J5Y3RuWEwzQmkxQjRGZkdlR3RUOHBKaFFhRkZROVN2RmM1a0VUUw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a17928d1bed382f2",
-      "published_at": "2026-06-13T14:54:06+00:00",
-      "title": "Iran and US close on initial deal, Tehran says no signing on Sunday - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFNVaW1EQjcyVjlOZGtnLTdLXzctb2RqaXlFY0RfQ2FscHk3Y2NvYUkzZms3TGk1NHhoaGJGY21fV3hDa2VYYm4zRnVOTHpMYXJhOXk0UUdycFJMNlRNQ09SRFhXRTZvS2JiMDhtNlkzc2pIMWVrdm1mWGp0OUlIdHYwbGVDOGhUeW5FeFQ5ekdiY0RobFZjTDkyVnJONEhXM01TX1FKcE5INUg2RDlxWHpBa3RNRDEyX1J2SGlHd1pEVl9ZLUMw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "fc28d879c0083672",
-      "published_at": "2026-06-13T14:44:00+00:00",
-      "title": "What to Know About the U.S.-Iran Peace Deal - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZHBjZDU3RnVZcjMwQ2F1RWdmM2VER0RfY2U0Uzhya1JRNVpaU3ltWnJTNW4yTFVWdGhUek5JTUs4TnZEVkRfajJXZlJYUS1iMWhSNDFDSW9fdVVLbzltaEU2eVc4TThpdU1YbGItdXJyeTlqY0ZORjdkYWg2cGEzSjNWU2E0UQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "36e49e2a4bb4ba60",
-      "published_at": "2026-06-13T14:28:00+00:00",
-      "title": "As U.S.-Iran deal nears, Tehran wants to charge ships crossing Hormuz 'for services rendered' - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVVI3Q0xHa3lCNnNPMHpIRzRQbXc4dU01aFNKakkxaS1QeW9KYms2ZjZrd3VIRnpDNEdvMXJRTzdlY2dFRW9LOW1xR1ZwaWQ3QXJNdUZEYlZKSkJKaUI2M3VHTVlsb25DQkJDOEtYUGtSclZVODc1MmhIRHY4UFJlak1uWGhZRFFhWmh5Nm91QWxtWGVEUnpodnBZNkFXS1A1?oc=5",
-      "source_name": "Fortune",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "4885181caa130fee",
-      "published_at": "2026-06-13T12:56:00+00:00",
-      "title": "\u2018Lots of things can still go wrong\u2019 with US-Iran deal to end the war - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPb3lQMk02Q1doQjBSNzIxSUFrOUlSNmc5enpxX2laVy1LR3h5X2FJVlA5UEZtWTgyM2daOVBCSE1EUjBUOE43OTFRcXhUU2dLLS1sRlgwdGNGSFdpdW1ZR1NvUTJhQWVuR1JsSHlNQ1lLUm04RUNjU2loZWZVeHJ2YThtVU01bFlDbnhIcDlWWlFzaHo4ampCbTlERmQ4eHZXMUl3UzZCS2dGa3hMVlFFQUF4UGJKVFpl0gG-AUFVX3lxTE8tMURGa1p1MXJNd1hnOGNBcWhEMklQTUxoYkJkaXM5NXNsak83dl91Tk9GSmg3eXBZR2hHa2xfVTlqUXNIczVrQ2dkaFZ6RWdUQkpBTFRXSnM4NDJPdndZb2M5amx2ejBFYUJkNTJydExkcHdQWEwtT3lUdG5xX0swYy1MUmJqdVVLS1AtcDVBaGtnN2pldXdBUnlvZ1gzZTBRUFc0MlhMTzJWVk1kVmdQa2l3dVZVOWpTcWQxT1E?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1b4563dffa7cd013",
-      "published_at": "2026-06-13T12:46:47+00:00",
-      "title": "Iran war live: Trump says US-Iran deal to be signed on Sunday - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNFFWVF9EQWtHZGhrdUx4SHB1ZHQ3b05YTEYzODVmbXRqV2J0ODBsN1hQSDVzbFJqNEw2Z3BPLVZjRnVkYmtOR1BLVno2bUtxR3hELWl4ZnlhbklQejJzRnRiZkh3RmREcWZ6U09zWEIyenFST2JmODNvdmppeURLRVk4M2VMZDQ4b0RWamtPSzBmbHBJZk5RVjdmcDVNTHNzemNQMG5ZUkJQS0xMb1JUWkxGa1B1eVh2anRtdm5VOG7SAcYBQVVfeXFMUEhRTVF3c2tEUFNmSWhpSTVHYV9lQXo2ZHpTRU9yXzBhbGozam4xd1VyUW16Y2N1a3lwYzFabkV4X1ZKZFk0LXRvNXh6R2MxUktrVHNmNktxYWVjNjN5X3JkaDFiME1xWWRKT09UREw2eGJ0RTA5MzdNdEVYajNlTlRCaENwRTY5czFBeVQza2lqVG13LXR0WXZya2lZYmhmclV4R21jLVU4b1dCeW9WS2hFalk1VjdudS0wa0NVbkVWd1ZyRmlR?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
