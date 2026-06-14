@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-14T20:00:00.083908+00:00",
+  "generated_at": "2026-06-14T22:35:45.830117+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 94,
+  "event_count_window": 100,
   "totals": {
-    "usa": 85,
-    "iran": 13,
-    "lead": 72,
+    "usa": 71,
+    "iran": 14,
+    "lead": 57,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 85,
-    "iran": 13,
-    "delta": 72
+    "usa": 71,
+    "iran": 14,
+    "delta": 57
   },
   "confidence": {
-    "score": 67.9,
+    "score": 66.6,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 61,
-    "other": 31,
-    "diplomatic": 1,
+    "other": 45,
+    "attack": 51,
+    "diplomatic": 3,
     "material_loss": 1
   },
   "history": [
@@ -62,7 +62,7 @@
     },
     {
       "date": "2026-06-08",
-      "usa": 0,
+      "usa": 1,
       "iran": 0
     },
     {
@@ -72,8 +72,8 @@
     },
     {
       "date": "2026-06-10",
-      "usa": 27,
-      "iran": 4
+      "usa": 24,
+      "iran": 7
     },
     {
       "date": "2026-06-11",
@@ -92,14 +92,29 @@
     },
     {
       "date": "2026-06-14",
-      "usa": 33,
-      "iran": 9
+      "usa": 21,
+      "iran": 7
     }
   ],
   "latest_events": [
     {
+      "id": "552be3d44f145129",
+      "published_at": "2026-06-14T22:32:00+00:00",
+      "title": "Deal is reached to end Iran war and Trump orders stop to US naval blockade - AP News",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdVZrMms1bUJyekVvUnptMmhBSE9sLUFRT05xSTAyci1SaEdXSUhXTjNLWEt6Ry1qX1k5Z2ROeXZNUkFIYTJsWkFYRzdSWXQ4M294ZHRLcXU2RmJEVzZPNmNwd2ZacWMzVFdJdW5Bb2wybFZpV2g1bTBQY1FaRTBneHgxSVZ2cVkxall4QU9nWQ?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
       "id": "2b7a7edc9b972714",
-      "published_at": "2026-06-14T19:56:50+00:00",
+      "published_at": "2026-06-14T22:31:30+00:00",
       "title": "Iran War Live Updates: Trump Calls for Restraint After Israel Strikes Beirut Suburbs - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MUHZ0QlhoQWdnbmJYZHBITkxyWmlrNVFMMTBRUzY3T2FyODc3RDFfRXFtYVZoZUYtRzRaYUo2WlBrbWhLS0dEOWU0eWM4WUw1Q1JLWUlhU0s3MGVQTUl5ZG1rYVFXeUV3dXdCQV95eHo?oc=5",
       "source_name": "The New York Times",
@@ -113,72 +128,132 @@
       "confidence": 0.7
     },
     {
-      "id": "559f6f98808426e5",
-      "published_at": "2026-06-14T19:52:00+00:00",
-      "title": "Live updates: Trump urges Israel not to strike Lebanon with US and Iran \u2018so close\u2019 to agreement - CNN",
+      "id": "6fc04b9b854fc068",
+      "published_at": "2026-06-14T22:30:42+00:00",
+      "title": "The U.S. and Iran announce a deal to end the war - NPR",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVklRdE1jXzRId2ctSWRLWWFhRGtnOTNKZGN0dzh3QTVINTZhc1VNYUFudGpVOFJOTVhFbEQwbnBjQ2tXTUp6UEFBWUpXMkF1Y2tfT2dUSEItem9vTEQ3dS0ybWY1WF9RV1cyZXpLajF6ZThrVWRHak9JZTE4NE5lWFRocmE?oc=5",
+      "source_name": "NPR",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "15322d696cc9c81f",
+      "published_at": "2026-06-14T22:18:09+00:00",
+      "title": "Peace deal reached between US and Iran, Strait of Hormuz reopening - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblFubGFKcFpyRkMtd2czc0RMdUFiN1hWVjF2MGdRelU0ajh2ZDNIUDBZWkFDTWdJUGVXUzJVa3U0Z042aVJnWmtYM19EeDdLdW5YNVR1bnc4R2V5SDhOenh2TUxvS1RGc1BKa1h5cmhhRlFhV3B4WVRabUF1YlJvYmNDOHHSAYoBQVVfeXFMT0FpelN6c2ZLM0F0MzA3VDFfeDVpTDR4ZFU0bGx6a3JWWUlJallHbzJ3NmZBUGJYQTkyUUlDNW14RFhfYkxZdGNBYW5vdkVaQU02ZDhkUFJMNGd5enpRT2I5STRnQjdOTjZyQjRja0VnVVBJT2ttTVBXa1lJSTBsaE52djI2U25vMGtB?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "51699d22e1320edf",
+      "published_at": "2026-06-14T22:11:00+00:00",
+      "title": "US-Israel-Iran War News Live Updates: Trump announces Iran deal, says US will end naval blockade; Tehran claims victory - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQWDB6OXhKYmhTY2RQblJ3bjFZMURhWjRFOFp1RTJoeHNHYkRmMURQWHppNEhva3JFTkVIYU9uN2k3ZmtvRFpybi01bXVxNWdua01uWWRCcDNZTTY3cXpLbm9yb0RaYnVDaUQwLVV5VmNSSzFMYUFROXZHQWI5UDVxUWllM2N2VUhXVEwxc2FYNXRnWEVYeVA5ZjNHWnFjRG43VDlFZFBxV0hNMmh1OFdQdlVoWEJfTXZ5TTFvOUxYT2l1ajhfWXY1OHgzcHUtV2Y1dHdDbFNockFxZ0ZZTHfSAeQBQVVfeXFMTmFvc1ZqYS1xUVZwUm5wckNsOFI5cU4wY1NGZ243QkVqTTI2LVdaQVRBY3dONDZEUi1Gd2lDSFNsdl9kRmZmVVhZeTQ3VEh1bzFkYzBXd2V3Z3dYb3h2dGtnRDQwajJsSzNoLWoxdlFCRHJSVjRWX2F6dEhnNDg4ZC01M2o3ZUZBSHU3MTRZUE12M2lKRXpFekNoaV80X3VFeVAzYzRQYWk2b25SbElXRTFiMWRFeUNEQUZDZEd4elNjX2hURkpfM1E3Zk83VW5VT0p3QzlDS1BsZkRackN2TEM1TTFw?oc=5",
+      "source_name": "The Indian Express",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "374b76c204097ba2",
+      "published_at": "2026-06-14T22:10:19+00:00",
+      "title": "Deal is reached to end Iran war and Trump orders stop to U.S. naval blockade - PBS",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQnhfUXRBd1hUbGJ0MGVDUVhqTFBqY2hQVDlOM2o3ZG80Zy1nS21DbHd6S2JfTDVhTHhUOGpuODgtV1VaUkhNNFhEeU9aeXlSeUt6NmFteDRkY0VRUEFOUkl2N0NyMFBPc3pTSkxBdW51YURLR1RwWXRnbGVMREVBYmNoX3Bsc2huMExOSW1qVGhLSkNCbVpQTm12M3ZNVXk4UHFzSWt4YlYwTDl5akHSAbMBQVVfeXFMUHBFY0gwN3NWaFdCR3hKZi1ERjRJWGN5Rmc1eXFtLWhvZjB4UnFDZHRqd21selVLS2prMUF4VDRHR0hCUGVXQ0Q3NnZrQ1R6VjNRUkwxLVhkeGR4SFNRTnBWZmFwWm1hM3pEVTQwRF9NQ0dON2w1MlpGa0VKM3NtSEduaVdoVUtodm5ybnV0aGVETjJUdS1tWHk5UGFlUU91bjZzMkdlbkdBckRuZ2ZnZXp3Z28?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "eb807c91a0e9363e",
+      "published_at": "2026-06-14T22:00:16+00:00",
+      "title": "US-Iran peace deal announced with 'permanent' end to military action - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSGdfV0ZhNE1kMjdXWkgwVnA2ZUNncTlmYk1HVnUycTdFZEllUVZzR29pTTZqLTBEbHo3QlhHNExUajR1dENFSThlenZoTXI1QWNOZjBPRVUzMnRDQUM3amZteUkxQ04yYnNCQktGTWZhaDEwYmhPdHJiOXNBNlB4NTlHZFZyUURNWURtZ2pR?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2163fe7ab403a45b",
+      "published_at": "2026-06-14T21:48:00+00:00",
+      "title": "Deal reached between the United States and Iran, Trump says - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSzM1S1Y0dFF6T1BQZzlLb3BiamN2YmtZMi1CYW1DczZqanlTRHYtcVdOUEtqdUlVNnZMa2xLaE9jUTBrM0N0TlM4RkdaUUJrRTVpdWtpMTU2Rmt2RmJvZThBSjNaNmpEOHNldXp3MUJOVEdudmpwNXItdnlDek0xQWNuLXdadFpOVDBJ?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "1c547156aadefaf3",
+      "published_at": "2026-06-14T21:45:00+00:00",
+      "title": "Live updates: Trump says agreement reached with Iran - CNN",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBTTHBYQ1FMM3d4UGFxYnlsMVVVR014REs4S0IzaEpNeUZRSEpuZU5WcTFLR3dkdjhkcGVKVFc2NUdFZnJ1Q1FTWExBbno5SlR3SXpQOGR4NWdWWG8zRHFBWTFpWERDNFR0NF9DU0E3MEJ5QUVEb0dB?oc=5",
       "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a2de1f41a97255a2",
-      "published_at": "2026-06-14T19:14:00+00:00",
-      "title": "\u2018Let\u2019s not blow it\u2019: Trump calls for restraint after Israel launches fresh airstrikes on Beirut - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaFI1eE1lU081b2JJOG1VT1V3bEJIb3BENG9ER3JMQXVNQTBYWTd0UFdsaDRENVh2Q0RWYjZDcFhhYkcyRFN5QTdhcF9vbUwwbFlFSjVqSFZ6QVlBWDcwbmU3amJFR2dYTk1qM09GcmM4cm9RaGRYV1JySEU2VWM2THZBcXpuMEE4bklnSTVZT08zVTZiLU5IYUY2WWgtRGJHME1kcmJPTEhXcVhfRmxLSGpYTkp1UQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
-      "id": "6226590f6e116c3f",
-      "published_at": "2026-06-14T19:02:22+00:00",
-      "title": "Trump warns Israel and Iran not to 'blow it' after new strikes threaten emerging ceasefire deal - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPMENXdWdJd3BHM1V6YXNmdXVRekRvOWxJMTRYUXA4WEZzUjdaYWdpbmltRmtUckdnTWZMdEt1UzQ0VHR3V21XZko2eXZkS2lsdmFvNWRVOHdpWndSWERWN2xzWWQzOUdER0xGMlQwaF9VYU14WWk3TExXTFhwWnFHbURmQ0V3MEJfMVNnX2RvblRaTFQyX0tJUkltQmt6R0w3LWE5QTlXUFhxR1pPaUVqbkgwaEItMEdvMF90Ymw1VQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "c2ba63e1e0815aee",
-      "published_at": "2026-06-14T18:48:22+00:00",
-      "title": "Iran Threatens to Walk Away From Peace Talks After Israeli Strikes on Beirut - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNczRLaUNKSTZKU2hHWkVPVm94M0NqTjJyV2RzVjZFZDdVdjZwYW1vU1pHa3U5NzRSSFIxS3luSWl3Z2N1bi1XbDRwZUJNZGxhejhTRjBXNXlWWEJNVEdCMDFZemRVUU5vQkl1V2xwM3VMcU9OTzJ1T091UFU2blFNNWJLY0haT2VBQlE?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "attack",
+      "id": "c6366fbfef92b17e",
+      "published_at": "2026-06-14T21:41:34+00:00",
+      "title": "Iran war: Pakistan announces US-Iran peace deal reached - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaU5xdHZDUUN5eWsxa2dxOFl2YUwxSVJKN1pJOVMwb2tMSHQ4MHBtU19ZWFhvX1lGdUhVTC1ILTF0c3JwSktIaXpRNTZ5M1h6ZFphaEhiSjVJeGFISU9WOGxjRm1HR0NYWTVSR19GVTJ6Mzk5YTB4TGNEZW9hX1FBLWx1RWdka2p3Rmt4bS1Ia2RUVEUx?oc=5",
+      "source_name": "dw.com",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.6
     },
     {
-      "id": "40b705d0a9e53e30",
-      "published_at": "2026-06-14T18:39:00+00:00",
-      "title": "Trump warns Israel and Iran not to 'blow it' after new strikes threaten emerging ceasefire deal - AP News",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdVZrMms1bUJyekVvUnptMmhBSE9sLUFRT05xSTAyci1SaEdXSUhXTjNLWEt6Ry1qX1k5Z2ROeXZNUkFIYTJsWkFYRzdSWXQ4M294ZHRLcXU2RmJEVzZPNmNwd2ZacWMzVFdJdW5Bb2wybFZpV2g1bTBQY1FaRTBneHgxSVZ2cVkxall4QU9nWQ?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
+      "id": "555c576db88ab7e6",
+      "published_at": "2026-06-14T21:39:57+00:00",
+      "title": "U.S. and Iran agree on peace deal to end the war, Pakistan Prime Minister Shehbaz Sharif says - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBjNGxVa3lZMkJjRHVYcWxfNE5WWC1JN203RldsX2dsQ2lmbngyMDdoM0VRT2ZIamxoYXE3TDJ1YmY2UUhDN3o3X2NMbUZSNl9OMVQ2dFl4ZWlFVUYxQnA2NUZzZkRoRUlhZ0RV0gFwQVVfeXFMUDQyX3ZFd0w4c0JpWEViWUJpYTlJY2VQZlhPaFBqWkQtZTBxOFQwWWlkeXkwS2pJMThiNWxUeGJEVDh2eW5tSnR3aEdrVGdIWEdyUVZGNVM4OVlqemctdGl1WkJ2NEl0cEVMSTBEXzBhSA?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -189,7 +264,7 @@
     },
     {
       "id": "cabad61a7420347d",
-      "published_at": "2026-06-14T18:36:41+00:00",
+      "published_at": "2026-06-14T21:36:41+00:00",
       "title": "Trump says U.S., Iran \u2018very close\u2019 to deal and urges calm after Israeli strikes - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVTdHZU5rdDVBZ1BneVJabGYtbGdpbTc4elNROVRfR3gtZEJITzR3bTZ0SnphS200aFN3TWF6UG1oaFRmQXhFUEh0US1ZVE90dTZtbWZRY0NUMWQxZVVGUGRyeURCdS1uV2ZNVmdHa1dqZHVaYnE2OXVuMHl6YlZiQnBfY0F0SHZIUVhka1dlYzc2T05mRm12bzdraE5acjhtSi11a2NLT29QdFlVcHNkVjVsa0pHZUk?oc=5",
       "source_name": "The Washington Post",
@@ -203,9 +278,9 @@
       "confidence": 0.8
     },
     {
-      "id": "c3af774c4d7e6700",
-      "published_at": "2026-06-14T18:32:01+00:00",
-      "title": "Trump condemns Israel\u2019s attack on Beirut, says Iran deal still close - Al Jazeera",
+      "id": "feaf774b708b46bf",
+      "published_at": "2026-06-14T21:33:45+00:00",
+      "title": "Trump condemns Israel\u2019s attack on Beirut as Iran says US responsible - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQnJYQUE1TmpueVh2ZVVxTHowTXd4UmQ4WERoVjluLTk3MGR6MFl5NEVSZElvNXBodzJKQUxBV1J4OHF5Si1RUDVyN05ORFRudEVnNnVCSVNLSmtpd1RJc0JyYlBRaHZibU9KS1ZmdlJjdVdjYkxqS1ZqVDBWbkQ1VGhLbm1vU0pRVkhGOTVWYkZxM0QwbzhyeDYwcDJCNVpnX2EyeTYxNlNZUdIBrwFBVV95cUxOTXBSa0FvY2J4alVHZHJPbjlQNDctbnVjbTZsc2Ytb0dPY1NpUnB4SHkxOEhHQ0JlUkttMXlUZy1fbG5ERkROa2RDRHYwSTBKTzRQSmp2cVM0V3JIOG8xcWNYcnBHeFg1QTMzd1Jld20tZGp1TkdrOTVucVMyWHhIME5Wc1oweTBqX2hpYWFqSE1rei1EVGF2QXdYelBqT2JpanNFQU5QU0RRZWFrTWFR?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
@@ -218,146 +293,11 @@
       "confidence": 0.7
     },
     {
-      "id": "ca95d9097bb6ac27",
-      "published_at": "2026-06-14T18:18:41+00:00",
-      "title": "Trump insists Iran deal 'hours' away, despite Israeli strike on Beirut - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSGdfV0ZhNE1kMjdXWkgwVnA2ZUNncTlmYk1HVnUycTdFZEllUVZzR29pTTZqLTBEbHo3QlhHNExUajR1dENFSThlenZoTXI1QWNOZjBPRVUzMnRDQUM3amZteUkxQ04yYnNCQktGTWZhaDEwYmhPdHJiOXNBNlB4NTlHZFZyUURNWURtZ2pR?oc=5",
-      "source_name": "Yahoo",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6ba6a4a4d5768805",
-      "published_at": "2026-06-14T18:18:30+00:00",
-      "title": "Iran reportedly rejects US incentives not to attack Israel, will respond soon to Beirut strikes - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbFl5cVN0QU1oeUZLWjdsZFczMVh6LUNnNUJOT3djZFNRRXBYRDNOX18tcUhvbDRqbEpLU1hSNWtSRm04Wjc0OUs5MU1EMHp0RFQ5VkY0ejFLajJ4YzcxdUNETnBoTC1xcG5tQVFsWjc1RHIzOWM1X1F4NEpyMGRONjhwcWlMMWEzbDJjamtoVHc3Y2p1TVdSVW91ZHBLelZxNU05WHAtZkhRMGdEenpzVmtKWGZXRTByWDFKNTFSTFpLcGV6eXptZEswWHV4M25oRzJNQkgtTQ?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ef79b50a6f9100be",
-      "published_at": "2026-06-14T18:11:00+00:00",
-      "title": "Live Updates: Trump says \"all sides should stand down\" after Israel strikes Lebanon as U.S.-Iran peace talks continue - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMy1fbWtVcXVDRm5ISTB2a2lrQURZSjduUXBFUUMwOTZFQkE4dmMyYVJuZVROektFV0xjRVFqNlVfc05LczVnTklEOUxKeTdkalVOY21GOGZ1dGZGMXczRTMyTU41SnpldEdaQ1VsSUszaVdxZm1SMmZGZnVvMXhKU1B3?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "21c48e7472eb0c33",
-      "published_at": "2026-06-14T17:24:19+00:00",
-      "title": "Trump warns Israel and Iran not to 'blow it' after new strikes threaten emerging ceasefire deal - PBS",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPYnh3OHotVERBYllHdWxTbkxielBjVE4tMWk0Y3JFZlpLUXJhd2NBam1pS0ctMVE3Tms1cV9oa1NpMzBEaGhSenZJNk1QV1YxSXU1aXNXUUJ1Q3ZwS1lzWFMyVW1mYllEUHd0bEdId2ZYSDlMSXJoeFNNSGFNV1k3eTA5VUN1RjdUUXU5eHNHZnctMEF6LWtsRC01b0VnUG5Bazk0UmJ2dng3Ml9YQVZxTWo2LVY0eXlSWnNGbV8tbGlGaUtheVhN0gHMAUFVX3lxTE5yRlRNMldPdEZoOTE0QlQ3RTVGakdvWnZudHNtTVZZT1MtdV9XZ1FHMU90Nkt4RVRiUGFPN1FVSVZYQ1pmbUduMHlleldZYy11YjdmU1hWMFRUUHpFRTN6UzlJcXhOYWpLWXVLWFVEbU1Td0t2U1RRejVxR013dGtyYXRHd2FjbGw0ZUpCRGc0Q0pxSktqUXhpNFpHYVNwaEN5c1YwQ0QyR1RMbGJSYmc1azZacXRwOXJEUnoxRzkwNFgtTzVrLVFuV0p3WA?oc=5",
-      "source_name": "PBS",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "7ace511d27ca8d3e",
-      "published_at": "2026-06-14T17:10:00+00:00",
-      "title": "Hegseth says Hezbollah-Israel strikes won\u2019t impact US-Iran peace deal - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcTBKVThaZ2dUa29pcDE4MFhEMG16ZW4yZTNZYXc5ZkZKV0k0ZnA4Q2M3cm9HNWxlYWRfTmFUNGlyZ2ZMYVU5dXpRV3RBRFF2OWNCVnFhNDBKWXdqTGlKU1FwRkVmYXFvMEsxOC1VTnktajFCSTRnY1hiQWtxZDg4OGN5QWpET1XSAYwBQVVfeXFMT3RtdFhHQkhCRTdnSGkxMmlLYlVRdnBGLUhaNmlma1lGRllfQ3REZU5FdFRXU1BGYlprdTNXSS1FeWNnQ1dVak5Qc28yS1JDcVZyWEJnYUw3N1BMbWNybVhCREdFci1SQ3d6dFAtdmlRSWpMLU9mSkJFZ0FjVUhYZEdnWUJ3LVpTb1lSVU0?oc=5",
-      "source_name": "The Hill",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9b9a5b4f176b7496",
-      "published_at": "2026-06-14T17:06:46+00:00",
-      "title": "Trump says Israeli strike on Lebanon should not have happened, but Iran deal close - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSXA2RmM1Y0lOSlBJSHJpd285cFViUGlLNFRUa0FTZWxBbC1DdUdVM1hSbUY5Z1A4R3poZEI3QjNGbFFzSlZpalRkbnVGWVFMNzYzQXlJbXhMTjdaRjFLQlk0b3FXZVIzcVVDbm9YVmd4RmtRTWVGcndQN1VJaEZRUEppeGlUZWJGaUx6WEI1OUtoeDRpbGdNbF8xRVFRTlY3Tk9Fcg?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "72f1bfe099c34b85",
-      "published_at": "2026-06-14T16:54:44+00:00",
-      "title": "Live - Trump says Israel shouldn\u2019t have attacked Beirut as US-Iran deal \u2018very close\u2019 - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE53aTdYUHp3dE5QMTZhMVdETzA3YlpLUjZDVTRtazBpb1B3SVlLc2RGRGxvYTJqdVBKeVgtWnFPR0NqVlplc202cHFyRFR2Xy1WWklWek5zVXZTeGNFdlE?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "c98df4a19f8607f8",
-      "published_at": "2026-06-14T16:48:39+00:00",
-      "title": "Israel strikes threatens US-Iran deal to be signed Sunday - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPblFubGFKcFpyRkMtd2czc0RMdUFiN1hWVjF2MGdRelU0ajh2ZDNIUDBZWkFDTWdJUGVXUzJVa3U0Z042aVJnWmtYM19EeDdLdW5YNVR1bnc4R2V5SDhOenh2TUxvS1RGc1BKa1h5cmhhRlFhV3B4WVRabUF1YlJvYmNDOHHSAYoBQVVfeXFMT0FpelN6c2ZLM0F0MzA3VDFfeDVpTDR4ZFU0bGx6a3JWWUlJallHbzJ3NmZBUGJYQTkyUUlDNW14RFhfYkxZdGNBYW5vdkVaQU02ZDhkUFJMNGd5enpRT2I5STRnQjdOTjZyQjRja0VnVVBJT2ttTVBXa1lJSTBsaE52djI2U25vMGtB?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "18e5c21f89442708",
-      "published_at": "2026-06-14T16:00:00+00:00",
-      "title": "The U.S.-led war in Iran will dominate Trump\u2019s G7 trip to France - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQ0lnZWxoVDBDTFJkenV4SmdjdlVDSm51cEc4WFo0X2gtLWVtQkVhOHpsdEgxdlBoMlYwRkJWMkdkWE1DeFd2SEx0UHJHeVVHNWJTak9TZ0hWaWV2eWc5dmxpWFMwX1ZVYWEtX0szRVRvcW55VlRsOWNNZVFxZURJeENR?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e6c63f8bdb41f222",
-      "published_at": "2026-06-14T15:52:45+00:00",
-      "title": "Trump says deal to end Iran war will be signed Sunday, as Iran disagrees on timing - Oregon Public Broadcasting - OPB",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaTJ5UEMtQjB6VE13OUJER0kwRjNUU3FHWDJsdUJ1dGNxcDZHc1RGQVFpWHhvNERpS0RZd0VsMnlhZUdzUkpPZVZWOW15cWduSUVaSmpmdUhpSnR3SUIwaXZBSGxDa0tZU0dKNzJyZlJpQjZnOWlRRFlSSF8wMjJmakRnWnhFOEQzTDZEMTZyaEliME9TUXluMHFmMy16ZTJWZFhud3c1b0k?oc=5",
-      "source_name": "Oregon Public Broadcasting - OPB",
+      "id": "c3f83e88acb62cb1",
+      "published_at": "2026-06-14T21:32:43+00:00",
+      "title": "US-Iran war ends: How peace deal impacts Strait of Hormuz, nuclear program - LiveNOW from FOX",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQWR4RXJidjc0aXgxOFdkWUIwQ1AzczZNYS1meVNjQkIydWZCaWRpSTF2VElUbzhURzlJNGRQNU5JU3VON3VzaEpwaEdPb2Q3NXlHNFNOYlZNdDk0VmphcmswOEVhcU85ZEkzNjZrZVB4T2wyQ1NDUURkaWdqTDY5di1BazFHSk00WEpTOEdHc3VodTRTOTVUdlRKdTk5UXhtV1N30gGoAUFVX3lxTE1WZ1ZnaU9UQ29MalprRVhVUmFpeHlKZm9semViVlBFLXlWVm43aXE0MW95SEwxYmI0MG1QT011NkMtLU5Id0R4V0ZsR0pzUWZoRm9rajBieDRHSktYdjZWcVdrNzFhaGxfNjFRT0VDVXBzQ0UwYkdheFZPelJQaVJtS3Y2VE9seFJvTmtuVXc5S2plZUtDZFQ3YWg0U1lNTzlONHk3NXlRbg?oc=5",
+      "source_name": "LiveNOW from FOX",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -368,26 +308,71 @@
       "confidence": 0.55
     },
     {
-      "id": "08fef233d74ba7a6",
-      "published_at": "2026-06-14T15:25:53+00:00",
-      "title": "Israeli strikes on Beirut foil US peace plans, Iran says \u2018no point\u2019 in talks - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUFdmcnFtcHQ3RUhIV1JvMkstYnlsU0pMclNZN3Y2YklKa1I2X1dfZk1Ba2EzZy1pOUdDNVo2QlFneHdaaS1JYXMxZ085ay1GNHRDMThYQk5fQm44Uld5dlZBc0Z6aVBlUDhHUjZ3TF9KRHFXbld2QTBuQ3BHaXRXX2hfV1Z4VnVSNy0zZWhsRFB1RGRvUlY2T2RmdjZRM09pWXFkMjhsR0szOU9nNlk5VzFWQl9rRXNwOTMySlBWTmVlaDYtT2fSAcYBQVVfeXFMTl9JUTdSU1FUQ0JnZnBGMEwtQ0tnSGhJNGpwV0dxX0xvQmoyaERmR0RoN05kTm90WUtuMHAzN2hlNjJXcC13OHRyanRIX3dDWC1GMFJpSkdDVWFQSXJDelU5eXktc1VRd1JIV0lkNGhHR013dV91NjhTeV9GUTRCbVNKSE92U0xMMjhEd1BhWGwyak4wUjF0dkZMMmFBd3RzTzNHU1NWa3Q0Nmt3V1JpckxWOWZra1FiR3JLTVQtT0V1TkpscmJR?oc=5",
-      "source_name": "South China Morning Post",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "id": "480974f6f4a4c50d",
+      "published_at": "2026-06-14T21:32:43+00:00",
+      "title": "US-Iran war ends: How peace deal impacts Strait of Hormuz, nuclear program - KTVU",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOY2EtSzdFamRGdlJfVEJjZjI5MG83YzgyN050aDdOa3N3WDM4Wkg0ZGFOd0h3WmdGNkxXbnVleGpYYVV6ZHZMb0N1YzJEckRKVkpxcmZYaEtyQjdCNXVtOGZZN1pPTlUtVUtUQ3NzejRTRmM5a0k0eWZQQW5jY0VlRktZb09lcnBraExueXFFUUdFbmg2eEp0MzJlb9IBoAFBVV95cUxPbUdMY2tqaEdRSTJLVHpkVXdqMzBKeTA3eXBBZFNiN1lSZHRvdjF0bGcxY3hPdTVqTDlNRHFuTzVMUlM4TFFHOWpjNEVxUHFQZ19lSmNPRlk5LXpCLVFsTEM2em5uNmRzcEhEcmk3M3pfTmlIUGFtbTE2WXRpcXZ3b3hJeUIwSnZ1SHc3SG5yRXNTVnZSb0stcjhCMXpQekVE?oc=5",
+      "source_name": "KTVU",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
-        "usa": 3,
+        "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
-      "id": "68ee8ed1b641a2ff",
-      "published_at": "2026-06-14T15:23:16+00:00",
-      "title": "Trump warns Israel and Iran not to \u2018blow it\u2019 after new strikes threaten emerging ceasefire deal - CBC",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQLUNGMFpyTFczVmoyWE5KdXZHX3hiQ2x0OEFpN1VhUjRua0p0Y2hjOUg5WTJ2ai02S2VwM3kxYzI5X0I2ekhMdEJYZEVIRGxCTHBsOWUtU194WVlDS3dFdEI3am5ZbHo1MnFNeUh6UWFJSS1uM0s5WVQ1VktXS2VyOS05ZXF2OEdiV3FyQ3lGMXBfQlFzNDlDcGFZVDFSNXFjU0ZrYWVB?oc=5",
-      "source_name": "CBC",
+      "id": "62746cb4a1c13fb7",
+      "published_at": "2026-06-14T21:29:30+00:00",
+      "title": "U.S.-Iran deal to end war \"now in place\": Pakistani PM - Axios",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQb3dLRUwzdk1RYWV6S1dOLTNjYXFULU5BVGpCOFFkSEhrUksyNWpEZ1JmVV96RThKTnJUcXNxbXhyWG9xeDA5cUZpVW4xRllIMTN5ZGxnTG5obFdlNXpWSi0wb1BhNllsbURmM0h6SU1DVzM2Z0F2NzVCMmQyNzBvOVBRU1JQdw?oc=5",
+      "source_name": "Axios",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f57876c1faa40559",
+      "published_at": "2026-06-14T21:28:57+00:00",
+      "title": "Iran-US war live: Trump lashes out at Netanyahu in angry phone call over Lebanon - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNeTFjb29FQW5uNkFDeUEyTnQwVGlaMExjT2UwS3l1RHNmWmZLX3ExWjVEMVF2TVZ4alRaWUdidk5ZdEVjb3FoTWhnYWlqLVBNNGlpc0FZRkU3QWJCVVFtYXlZZ1BEei01RUlUbktGUFA3QU5zNUhkWGFrNFhnd1hfc0gwOFYyZXB6M2Y2c29YbVlSNVNyWWQ4ZGM2Yk5YWXo0TXZQT3hwc3RYRnpSa3BmMjhZYnc?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6e0334ff256acdee",
+      "published_at": "2026-06-14T20:57:00+00:00",
+      "title": "Exclusive | Trump Says Iran Deal Is Imminent, but Tehran So Far Hasn\u2019t Confirmed - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSDVOZERSYXFBY3VxUFV1Y05yeU8wd0hGYmR1UnN0ZVlkODJEWExBWFdIMlJZWGMwUE91WEwwOTVESWI3YVphdUJoN01zbVN3OG0yVTFCN2pkNEk5MmtaeEFfdE9hRllnbmZDLWs4SjBiOXI1VTJfTUdCZWE5MjRXSmtXbm1IOGQ2M0FmZjFwaHRzcTMxcld2Qmx5UFVlT0gyUldnVE1uS2RGczFJNlZGZ2U1UkJ1SEktdkw1VGZR?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "7ec5f29eba131a87",
+      "published_at": "2026-06-14T20:12:54+00:00",
+      "title": "Iran war: Trump calls for 'no more attacks' - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPcDZEM0E3bDZSVzhHbGNDNHpIelRUTF9sclBDYlNVTTBCbmY3MXpRaF9uQUJPY0x0b3V4ZHk1NzVOVG1vYmczSzlNYU04RUFaN1h1VmIyZXpsa3I1ejZBellGN3BWMjRZenBSeWphZEdhSy1JYlJ2OEZjLUJtRGx6Wm1n?oc=5",
+      "source_name": "dw.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -395,7 +380,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
+    },
+    {
+      "id": "3b9d2976fddfe8f2",
+      "published_at": "2026-06-14T18:48:22+00:00",
+      "title": "Trump Says U.S. and Iran Reach Deal to End War, Strait of Hormuz to Reopen - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNczRLaUNKSTZKU2hHWkVPVm94M0NqTjJyV2RzVjZFZDdVdjZwYW1vU1pHa3U5NzRSSFIxS3luSWl3Z2N1bi1XbDRwZUJNZGxhejhTRjBXNXlWWEJNVEdCMDFZemRVUU5vQkl1V2xwM3VMcU9OTzJ1T091UFU2blFNNWJLY0haT2VBQlE?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
     }
   ]
 }
