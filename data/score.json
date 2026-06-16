@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-16T05:36:58.210541+00:00",
+  "generated_at": "2026-06-16T11:36:23.876426+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 104,
   "totals": {
-    "usa": 53,
-    "iran": 7,
-    "lead": 46,
+    "usa": 51,
+    "iran": 11,
+    "lead": 40,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 52,
-    "iran": 7,
-    "delta": 45
+    "usa": 47,
+    "iran": 8,
+    "delta": 39
   },
   "confidence": {
-    "score": 64.8,
+    "score": 65.6,
     "label": "Medium"
   },
   "event_types": {
-    "other": 62,
-    "attack": 39,
-    "diplomatic": 2,
+    "other": 64,
+    "diplomatic": 4,
+    "attack": 35,
     "material_loss": 1
   },
   "history": [
@@ -62,7 +62,7 @@
     },
     {
       "date": "2026-06-10",
-      "usa": 21,
+      "usa": 15,
       "iran": 4
     },
     {
@@ -77,32 +77,77 @@
     },
     {
       "date": "2026-06-13",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-06-14",
-      "usa": 6,
-      "iran": 0
-    },
-    {
-      "date": "2026-06-15",
-      "usa": 1,
+      "usa": 9,
       "iran": 3
     },
     {
-      "date": "2026-06-16",
-      "usa": 0,
+      "date": "2026-06-15",
+      "usa": 4,
       "iran": 0
+    },
+    {
+      "date": "2026-06-16",
+      "usa": 1,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "b67c1f792de1e2ae",
-      "published_at": "2026-06-16T05:03:32+00:00",
-      "title": "Iran war live: Deal text could be released early as Netanyahu admits rift with Trump - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNXJxUUJVMVNFeVc0dUhXSmNZdVVyaVNCREZlRmJqZnpwTVltZVpMczlmR3hfaUlyZFl1NkpkTFVGTkpMVjU5bjJtMEtuTDBFMzlwRGFaVk94UkEwd3BvZGZjMk5KQTNZU29Za3NkNFRxV3dyWC00UkhzOFp6TVR4U1JDOWstRXFPRWlMWlZTNklQTTJydnFxalBwdHg5OVlBb3lHdnJ2UmRhTmpvSV9QWG5QLUZIUQ?oc=5",
-      "source_name": "The Independent",
+      "id": "2889d75ebaac8009",
+      "published_at": "2026-06-16T10:47:14+00:00",
+      "title": "The U.S.-Iran war could end soon. Bank of America says buy this energy giant no matter what - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTnZ6X0tUTkdmR2NiV2FjcW5aS0hIZm9VU0E4VWhybmIwQWNEQ0R1UjAwMlI5dkxRc2xWd0pNeXRqdWUwbWMyVERkay1qZHZENFZHRVQ5Q2M5TmRpNVIwTHRWQ0RaeHVHbkp5aVJZa3F1QThJTTZmc093NzRQZ3A0ODkwSGVqLTI2dGFWTW1vamVjaFRtZ2QzR004RlFrV25tUTBFM3F3Yko5aHZuSWxWT3VJT3U?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "2a3330e4c3e182a4",
+      "published_at": "2026-06-16T10:41:34+00:00",
+      "title": "Israel's stance on Lebanon ceasefire complicates U.S.-Iran deal - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaGdXRXN0OUFfN0xvbzhmZlRYV1pBd204b283dV8tdnl1dGV2d0JhM2YtenZOSEhQbm1KWEFPeWJEQklrLXFHMGdZaTcwR09Xelk2YWE5RWRKeHVlbnFSYTRmZGZ3NE5qWTF1Si1LUjk4YVE2UDcwV3lpNFZPN2ROZ3lFWDRRbndKN015ckNGYW5ac3VFT0VneVBjT1YyQmdIYkdCcVowQzdGZw?oc=5",
+      "source_name": "NPR",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ac1a5ee576bc7c83",
+      "published_at": "2026-06-16T10:31:00+00:00",
+      "title": "Renewed fighting between Israel and Hezbollah could scupper the U.S-Iran deal - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaFlSMVNKS3U2NEdTLWRUSEh6MlJjMFBMLVRJZHUxdXExbDdiMnJRZnRiTl9oRGFZRnVGNGMwTjF3bEt2dVFYaHY1UTEwS19iV0h4MWZVS2o1Rkpyb0hPS0dBeFNfMzZhS291ZjNsdUxfdFdpVzhya0poMDFQcld2Nkl5S2lvbDdBNV9MX3BCRlk5UlZaNS1ZWVhPeEdNNjI2eXJDLXE5UkZqV2NXWFN0dFNpZG1UUG8?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "3a028115ff8eeea5",
+      "published_at": "2026-06-16T10:11:14+00:00",
+      "title": "Iran, Israel voice caveats on deal ahead of expected signing ceremony - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQejd0U3RURklmb0FwbWpsZG5FWmJ1YlBpVXdEdXRGNDRaY011ekVRb3pjZjVqZVdjcmp1SWhWMlhWbnZPRDVTZ21Hei12dXBhckNlejdjOWNQMVp1SDFPQjlhQ3BQLWlnRTdTck96T2lRTGczM3FHeWhKZDE0MTNXTG9TdElzS3c?oc=5",
+      "source_name": "CBS News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -113,9 +158,54 @@
       "confidence": 0.55
     },
     {
-      "id": "3ca41b92779d0ae5",
-      "published_at": "2026-06-16T05:01:56+00:00",
-      "title": "Iran war live: Vance says IAEA to return to Iran, no tolls in Hormuz Strait - Al Jazeera",
+      "id": "407dc709801ad8f1",
+      "published_at": "2026-06-16T10:07:16+00:00",
+      "title": "Live Updates: Iran says deal with U.S. requires Israeli forces to leave Lebanon - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWTBweC1tYndkYjVDOEZTeHc3UVBWVGtER2o5UmZsUzN4RUp3eUpXNjg1dm9TMTZfX21LT3RHaWRFNEJWYzMtT0hSWUlrX0FuUEVkUHBlek0xdVZmZllwTjFuWTI3cXpYZGdacHI2bmlDa3lydU9YdWxOREFadkhkekI0YVMxYldZZlQzUXNPRVVkUk04RnBySDVMVDFuLWp5SFM3UQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f28b123b144cec68",
+      "published_at": "2026-06-16T10:03:00+00:00",
+      "title": "So is the US war with Iran over? In a word: no - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNjRsN3R4bV9janl5ZnN6dDhoamdHZHplTlktQlJJTHVTb2VKR0hxTEpaZ2wzQmd2dWN2aG9QX2Q4dTJYMGFTaGxWcklmTnRrUjA4UzF2WmZKWUd4Tm9Za0dEY3Rqb0hGeGRMaFV6SUFZUWhOelVPVi1tRGpoTFRibkZn?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "06edc2f93639d873",
+      "published_at": "2026-06-16T09:54:23+00:00",
+      "title": "Iran says US peace deal must include permanent Lebanon ceasefire - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSUZLcWo3c2dXT2lrVFV6b0tldGNWWkl5QkhSdlpabDZDODNyVUtjS1lueXJUTU9peTBNNVpxQUJ0dlc4blFrWUJKaUx6bERuX3pwZ2EtNEdYVU52VzBNRnU1M1M1Mm1xT1U3bThmRFNjeGp5QS1CUHhKR1JhUmlIMERXVE80cVctSUV2OTE0aXRCWDZxVVRVWlFLVDl5dE1XS3pnUllFRGRfQ20td2JyRWJFWlN0eWFMUGVubmpRRGszZ9IBwgFBVV95cUxPWi11VW5jMVFiREZtMVNLZmVaMFpRVFdzT0NZR1RfeTFKbXl1ZlF3RzRoMkV5ZGFBcUxvMm43Qi1CYi1YMGp4ai04SGlZWWpHU1Nka1NQSVJQaTBLTHVuc25hNVlUcDUwQWxtOTF0QzBxZmxLVmJ4NkpPTmJZaDZrMTZHNDVteDhxRlJBRmZZeGx3N1hTeXdtMnZkUXE0MTVPdWU4OC1QNFJ6d2YyS0J4LTNXNWxiU2JrRk1aaElDWjlMZw?oc=5",
+      "source_name": "South China Morning Post",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5f6bd80589e96e2d",
+      "published_at": "2026-06-16T09:38:02+00:00",
+      "title": "Iran war live: Trump says Netanyahu must be \u2018more responsible\u2019 in Lebanon - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbHJQU1A2ckp0cTZTZnNGZEU2YTl5NVQwcmwtSk92LWhYRmd5RHRvWVNETkk2M2FiczN6QnhBWkQ5UGFCSDlEbi1tWER1d243aGtFbnJJOERIck1PTXJHNUdRNjJ3QTdSVVdrbEppVTlVaDVHM3E5Uk9ERjhsWFVlSWlTMEJWamEwRG00WGk0WU9FdjFjNlFWckZzcjRvc3hsbHVDM0ZkRTVabmhWdjdqUFp30gG3AUFVX3lxTE1rRU1UeGpwWDJvU0VtNjRHRGE4ZE5tS0lSc3pSMl9LTmk5dlJsQS1PeHE2dS1WcWxvbm9IQ2NUenNTdDdRaHYzRk5pd1BhdXp3Sk5MQ2JNamVhemYxVzNwRGtyRGJnM3M0SW9YQW9JeTh4eEdPcDlrcExnaDd3bEhtalZjcTcwTmJVbE54YVAxYWZzbDhuSlFhNTIyRTIzMnJYQTZ5WC1jWlVKZWtUcmE4UDVPVWxFMA?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
@@ -128,11 +218,56 @@
       "confidence": 0.55
     },
     {
-      "id": "44c158fab472a843",
-      "published_at": "2026-06-16T04:11:42+00:00",
-      "title": "Iran War Live Updates: Trump and Iranian Negotiator Sign Deal to Reopen Strait, but Challenges Loom - The New York Times",
+      "id": "7292a8b939416345",
+      "published_at": "2026-06-16T08:54:00+00:00",
+      "title": "U.S. and Iran Sign Preliminary Deal, but Its Terms Remain Secret - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zSTY3dGwzeU9lR0VWenQtS0k5U3JCVUdVd1hoODg2c0FPa25pbE5Pa3l1YlpsYUphaEZ3MjU0eUpkb2FWal9WZHh6NmIzd3gxUUpiaFk5TV9iODA3Qmpza2pXekZIZ2d6UVRCQ2t1dVJYWi1RTk1Z?oc=5",
       "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "8b0dfab5690fc669",
+      "published_at": "2026-06-16T08:25:35+00:00",
+      "title": "Iran war day 109: Tehran, Washington, sign MoU electronically - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQNUNnY3JOQWlwazhhTFYyLU1xWXF3LV9lZ3BOWGVYd2N1VzFEdkpCSHgwRUFIZ0huTGxVZEpQU1ByaXR5Nzh6TjlPUG5aQVB0WGhPUXBoZkdtX0tIVEhQZUYxclVkeEtDaHl0a0otbDBEaldiNEF3R3U1X1RMVGQ5MnlWOUhXR195WmQzZkpXM3JpVjYxQm93WDliX3RiVTkt0gGmAUFVX3lxTE01VTdKdnBocG9vWVVUd21aU1FyNW9jYUhPYXFtNkJpTUhucFF6VDhkSXViWnJxTThLWWJOU18yZXRycS1kc29NWEJHMTZJYUlyMWtuOVN5Z0Y0SDNwYlpoQnFvd3AyVEY5MDFsS3FfYUgzMlBrTlZ4emJJcFg0cFJ6ZUE1dTkzampJNWlOV3hSWnBoZGtzYUlOYjdHamdjd0xkb3JJaEE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b732e536d809a261",
+      "published_at": "2026-06-16T08:07:32+00:00",
+      "title": "Trump may release US-Iran deal before Friday, Vance says - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KWXpLSDRjQ213dEplSHdRcktLRlN3cmJGZXlWb2xuMWJTdDBiSnZ1SkR1SW1VdTJUNVFfZzFUN1hnUVVqaWs2MGxON0RxRlVralAxdC03V19OZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "1e45432a733b408d",
+      "published_at": "2026-06-16T07:06:00+00:00",
+      "title": "Five Iranian ships pass through Hormuz as US lifts anti-Iran blockade - chinadailyasia.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YWDFmSUtOa1kxWkFRR01WMXdzNHZsYnhNV08xUVFxaUtadjR1bEFYWDd5czBMbjVRRk12NGtlc2kyV3F3U1plbElYUTczTTJWUnl0RHJpSFo?oc=5",
+      "source_name": "chinadailyasia.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -143,9 +278,39 @@
       "confidence": 0.55
     },
     {
-      "id": "49082f032554cb36",
-      "published_at": "2026-06-16T03:54:00+00:00",
-      "title": "Live updates: US and Iran reach agreement but key questions remain - CNN",
+      "id": "6d2464f2152d8431",
+      "published_at": "2026-06-16T06:33:00+00:00",
+      "title": "US-Iran deal promises end to war but how it will work remains unclear - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQOE5uY1JidUpoS0Q1eDhUQ2RLMDJKSnppMV9RTkFQRGhqQ1ctT2VZMi16YUJIZjBzaFlWU2ZqOEdDZ3NvaUtUVXNHTWo1Q0xYcFItWHlZdVlrSVE5SDFOdmlfS1I3ZE5tZnlLVmVuQjNkbGhjN2pjZVdqVnZ2RTBia0xESzJqUDVqZV9hby1kbEZVTzM2WGktc2tLazFVVXVsVkJWVDNYT1h4RHkwampoMlZYWW5VbWM?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "088702c621c66295",
+      "published_at": "2026-06-16T05:59:00+00:00",
+      "title": "What do we know about the US-Iran peace deal \u2013 and what questions remain? - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOc0Q5Nnc2RUxTakdhVU1GYVNyYnRka0dCQldEZGVPdWJpRk9wQnlRanlsOXoyMDhkV0dUMTZoN3dKOGtodUl4Zm1Oay13ZUUwdXBnOFlsNlo0bk9hcS1XZmxObkIzdTI2cXBnelF3amV1UDdJTVlFTjRKanN4OUNnWGtUTThyQ1pvcEs0QTd5ekRuMkZ4bDRCQmRIcHViWU03UGRlaE9LQzdkcVJZSk8za1FLZS1XUjZqNEx6ZVlTR1p0UEZVYWFRdnZpUzFfWUtDOXE3V2pFblBtUzlyUUE?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "31a4ca1f1c51fc69",
+      "published_at": "2026-06-16T04:49:00+00:00",
+      "title": "June 15, 2026 \u2014 Trump and Vance virtually sign US-Iran agreement - CNN",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96MkdnSWJIck92NmhSbHp0cGl0LW1FSFhTM0tLR0FCYndhMnJLd2VVZ09NSzlhX2JrMmRENXNNaGFVTzBzY3hWUUFJdWZReUM1VWhVX0w2QWVORV9CbUhGNWpjbTRMRzVEdWIwT0kzNl9oWk1TYU83Tg?oc=5",
       "source_name": "CNN",
       "event_type": "other",
@@ -158,11 +323,11 @@
       "confidence": 0.55
     },
     {
-      "id": "53ee60b3a1a4551f",
-      "published_at": "2026-06-16T03:54:00+00:00",
-      "title": "US-Iran deal may get oil flowing again, but region\u2019s root problems are unsolved - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd3VyZmNkaWdFZkpxNjhEOXo2ODZnYW1UaEt6UFIzUGs3YzdrN3FCTklXbGU5Z3BwYlM3NUR0dWwtdW5mTmRRRFh5SC0zZkJ1OWh1SXZTbkxOZ1EzQXl2VmdYTzBwRUJOTEE4bGFCaGJzRC14Tzl4QzdhcVF4QVdWTTRvSDFiNjQ0OEI2VHVkRjVldXNT?oc=5",
-      "source_name": "The Guardian",
+      "id": "70d585706405dfca",
+      "published_at": "2026-06-16T03:41:20+00:00",
+      "title": "Trump May Release US-Iran Agreement Before Signing, Vance Says - Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
+      "source_name": "Radio Free Europe/Radio Liberty",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -173,9 +338,9 @@
       "confidence": 0.6
     },
     {
-      "id": "24d9abd00b72c7a9",
+      "id": "3be8e340521e38e0",
       "published_at": "2026-06-16T02:03:56+00:00",
-      "title": "Trump has admitted defeat on Iran war after historic blunder - Sky News",
+      "title": "Iran deal is tacit admission of strategic defeat by Trump administration - Sky News",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbVJtOG5mUk9wV0FIOHZCYjdtTDF1Y09LSDVCU2FwUlM3VVFQa0JhX0lMak04MFJSTDRHeXI2WVhvYWNCbzh2cldFQldQMDUxMFp1QVhWZ2hvQ1FPT19qTGJqUHFpR2ZkT1VIR29zTmR1YW90dG9LOWVFQkJlQ095U0ZzOHNRTjNaNzY4M1MwMW5WZ3g3Q0swUlphSm9fYV9QTlRyVGRNeUdBTW8?oc=5",
       "source_name": "Sky News",
       "event_type": "other",
@@ -203,21 +368,6 @@
       "confidence": 0.7
     },
     {
-      "id": "ae3a4a5d8baa7dee",
-      "published_at": "2026-06-16T00:33:06+00:00",
-      "title": "Trump announces agreement aimed at ending war with Iran - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRUxNTGRVR3NVWjQ2U0hDcGlnU04tUnRqRkg0VE1KTVpDdVhHSl84eGtLNldMdXcyZHJNQlRvN1ItVExsdWtnNlh0bVk2QnhRWmVXMkd1Q09NVFM1djR0UFNGTU1ZbTFMMTZCdHdtZnNIVXgzNHB0MjhkeG8yeXJWTHV4ZzJfaXpUTzRBTHptVDdNNU1vODljNkNOOWlxR0k?oc=5",
-      "source_name": "Scripps News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "70debd7834204d28",
       "published_at": "2026-06-16T00:18:18+00:00",
       "title": "US fuel prices to take \u2018months\u2019 to normalise after US-Iran deal to end war - Al Jazeera",
@@ -233,161 +383,11 @@
       "confidence": 0.55
     },
     {
-      "id": "d0d9ea688d13fe7a",
-      "published_at": "2026-06-16T00:03:56+00:00",
-      "title": "Trump says deal to end war with Iran already signed and details to be released 'pretty soon' - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KWXpLSDRjQ213dEplSHdRcktLRlN3cmJGZXlWb2xuMWJTdDBiSnZ1SkR1SW1VdTJUNVFfZzFUN1hnUVVqaWs2MGxON0RxRlVralAxdC03V19OZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "342e7fc033464827",
-      "published_at": "2026-06-15T23:52:13+00:00",
-      "title": "Iran War Timeline: Key Moments and Attacks In U.S. and Israel\u2019s Campaign - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVUlkQ0h6SC1RMzl4aW92c2FhZTJualhoVTFaZmJyaUt2cmRxeWlIZGNBeXF5S0pzc2xpVF9wM0doSnRwVmtmTDVyN1hZZjFXd0xhTjJKSVhkRlFvODZ2VEZwNldTUGJUcEhMM1F1a1V5WDBsXzVYdmJBbDFvSlJoOF9FWmkzYnBzTnc?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.9
-    },
-    {
       "id": "26166f7d28b62c30",
       "published_at": "2026-06-15T22:03:05+00:00",
       "title": "Netanyahu avoids criticizing US-Iran deal, claims war\u2019s main goals have been achieved - The Times of Israel",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX05Ha2xNQ3hhRHktb1VuclNIaTVJTVNYY3FSckNmV3BmODl6RVdaTnhRYjE0SURfWUs1WjlVV0wtbVpBZWRaS1h0SHRWcW1LQjRoLXdlOHRWSXd1S1VyeDlQQVJkZWh1aWJlU2dJVEtUYkMxNDZFY0NON2lXcmtCR21YeDRpLTdNN3ZOUWdjRXNjNG1RWS1SRVV3NTRzU3o1LXhjSTBvRjc5c2ZWYTg1OWlycmbSAboBQVVfeXFMUHhyWFBmZ1FQQjZ0akJtaHR4UnRCeFQ0dS04aVJxR0gta29pa3lJLU5IRDdNeE1jR2ZZWUxwTG5RNEF3R2U4Q3V1RjNzaVhWQ3A4d29IczZXcVZUVGVnRk5qVVplQmZzMHg1YUt1aUZRNjVUdHJweWFNeUtORmQ2RjZUaWNQT1Q5X0ZJdk5IVnRkMEEzWUlXeGozU2tmYS1WcnFiQnRZa3RsWUZzRlR0VjFkaHhVZkJTSnJB?oc=5",
       "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bf17017c0d3d5e12",
-      "published_at": "2026-06-15T21:58:00+00:00",
-      "title": "What to know about the deal to end the Iran war - AP News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZ3k4T0R4Z2dkeGdxZTdVU094cmd6SU9QYkVvcEpyWmNNXzZOT19mQThpeEktSW9XcURhM1dSdk1EVzBTMjZDeXRpZzlrX19JVFVZdC1SYmwxbl9FemlBNnM2bjNRNnpndjdZZUJEQ1Fkb29RMXIwYnkzN3JKcUN4alVLeV9adTRMTk1Rb3NWQ1dEYTU2MGdlSEZjcDNWS21WNDR6QTBB?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "294a6b466029f8e1",
-      "published_at": "2026-06-15T21:47:36+00:00",
-      "title": "Analysis: US and Iran strikes a deal, but there\u2019s no winner - WTOP",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOQzk3YldCOHdjdkliMnktTElPSEJhNW1VbmliMm0zQm15bmlMRGdVWVBHTlowY3ptbTg5RmEwT3d2Y25KUmtORmtkT1k0MGxRNHh5YUJteU4tVGlUUzBBSXdVOFJFeFRvTHRMME9jMG5FSXhZTHhiWi1XcjVTWEhKa2FvTHk4US1WM01RZFdaWm1zak5yaHRXVnVqRm8yNTl2R1Fr?oc=5",
-      "source_name": "WTOP",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "12fc1b40ad561216",
-      "published_at": "2026-06-15T21:21:58+00:00",
-      "title": "Lebanon fighting eases after US-Iran deal - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVnUyeUdkRldVWWtYZmp2bWRwemZDd1d3Q1otckVFSWVFTWZrQkpPNENPR3gwY1dESVNQLU1YbHVMdE11QzNpQThheXBYMnU1aWRHU29RMXhYSEZCTWREZDRNbC1Ga3BldkdkOTN4Y2xUcXhzbjBVSldoV09Dc0ZvdzFnZi1HNklyS3dneHU1YXZHUXl5cG5KY3ZBeWFYT3lGV2Z5bTdPRHViU3JGaTBBSDlKUEJGVzYt?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5f2b30db791125c5",
-      "published_at": "2026-06-15T20:25:00+00:00",
-      "title": "Initial deal to end US-Iran war moves toward formal signing despite lingering questions - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNXzBOb0pzYUExM1g5aXo2ZDlTU0RJQllLdjNxUTZMQjViWEJFWjlTRTN0N1pQeHBaVUYwN2E1Rkw4dl8zQTBQQ1dDMDhUWnEyRzZMLThDNkYyd2s4S2ctNGx2RXphTjlkTDU5OHRtMTFEV1RjNy1tUS1YZE5tZ3VPR0ItaXJ0YXBOMWlnalNiUXFYUQ?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "75bcfc4fca994bc7",
-      "published_at": "2026-06-15T19:08:00+00:00",
-      "title": "Trump declares US-Iran peace deal \u2018all signed\u2019 as G7 leaders battle to tie up loose ends - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObHF4bl9kMjFQdXNqV2ZXYm0zVC1faTVidDJxX2poaWNTRFRRVm5MdFFaLVJRalozMTJCWnV0a3NtX3dhMWpDRUZGZHY5aHhqZVo4NkZIZGZpVWpFaUNyUXVXVTZScEhyaXdOaFBrb1BqMTZobjZMeDRJdkhXeUUwZ3RRQmFlTTFKNFhyOU9XaVdXUVIzTGQ0Qg?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "41835dc5864116a0",
-      "published_at": "2026-06-15T18:50:43+00:00",
-      "title": "Israelis angry over U.S.-Iran peace deal lash out at Netanyahu - PBS",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdEM3enNpeTdqVFJ1THRmN0xIWHRQQWRtYkJyUmZjMEs2Zy1wdkVEdFdJWDdtb0VZTDhTdHpJLVJxNngzaU5mSGZwNjVjXzE2SkNUaUxGQU43WUQ1cVQ3ZGl6LU5samExeGZxbklnalRyZHJlVUxlXzVOcVFfNDVJUEg3TWZwRGVMNU9MZFpqYTd4WWU4VFZuYThXWlfSAaIBQVVfeXFMUE1tT3lRQXh6WjEyT093QmxUSUdvRkxTZEhnQmZHR19rVFpSUHlQeHVFNS1SdHY0aGhCQjdoSnlpbkZseVhyb29tcWpZaVZkSEZVd2p4YTZNaDRVcnhpNEVtVTBFOVdBNzZzSU5MZTZZZGx0eDlJWFlGZUlMNnFOUUV1dFVRVXhDbHBqdTlFR08ySnVTem5kUWVncmN3TzdOd2l3?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "7788be58bb6041e4",
-      "published_at": "2026-06-15T18:27:23+00:00",
-      "title": "US and Iran agree deal to end war as Trump says Strait of Hormuz to reopen - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE54NjFDN2JpbVBfMkp1QzZXZWdhamNlZWd5UFVrb1FIVUhaRjVrMS1DNUZEaVl1UERBX2cxUWhiWF9YWGh3YmE1Mi1oOVFmdW9OQldwa2xvSlBMZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "33757f0ea74a5994",
-      "published_at": "2026-06-15T17:59:00+00:00",
-      "title": "Trump hails Iran deal that fixes nothing except a problem his war caused - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOLUFIMXNZdDVwTHZHMmpHUXFIa0NVcUtDZFc1YzY1WUpjLUFYeU5FdnE2VmszSTVxRlRVbFlJWHNyUGVxb2k0Z0hxRFgzcGpCVkJPU1JFYmdTeDNzb19MTzJmME41ZXA1RWhKUE5HVktNMkl2aUFNZzh2cEZralhSSDVtYUlRTFdzYWFlWW9Hdk03LXFXU0o0UDBR?oc=5",
-      "source_name": "The Guardian",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
