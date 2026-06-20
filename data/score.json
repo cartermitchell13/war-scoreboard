@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-06-19T22:14:22.417000+00:00",
+  "generated_at": "2026-06-20T04:42:20.847069+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 95,
   "totals": {
-    "usa": 44,
-    "iran": 13,
-    "lead": 31,
+    "usa": 48,
+    "iran": 10,
+    "lead": 38,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 22,
-    "iran": 9,
-    "delta": 13
+    "usa": 29,
+    "iran": 6,
+    "delta": 23
   },
   "confidence": {
-    "score": 66.1,
+    "score": 67.1,
     "label": "Medium"
   },
   "event_types": {
-    "other": 46,
-    "attack": 37,
-    "diplomatic": 14,
+    "diplomatic": 18,
+    "attack": 33,
+    "other": 42,
     "material_loss": 2
   },
   "history": [
-    {
-      "date": "2026-06-06",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-06-07",
       "usa": 0,
@@ -52,7 +47,7 @@
     },
     {
       "date": "2026-06-11",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -82,24 +77,194 @@
     },
     {
       "date": "2026-06-17",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-06-18",
-      "usa": 1,
-      "iran": 0
+      "usa": 2,
+      "iran": 1
     },
     {
       "date": "2026-06-19",
-      "usa": 15,
-      "iran": 6
+      "usa": 17,
+      "iran": 1
+    },
+    {
+      "date": "2026-06-20",
+      "usa": 1,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
+      "id": "da8e2947bd1213ed",
+      "published_at": "2026-06-20T04:31:18+00:00",
+      "title": "Iran-US war live: Trump told Israel to agree Lebanon ceasefire - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZWVHNmNMYzdsOEhXN19zZlhWamhJTnBJeWRaZ0FIR2lwNkZlbUxfV1F0UzY1aVBtcDFkeGxENGxnQl9PREg5WnNaSXpzdC1VRDFRSmdrVzJ6X1c0MlBnQXlNSE5KZWFKaVV1NHAzcmNHbnYwbXNZTXFqcnl4QVBFOXVwQ0tZb1YyYTI2TkI5Q0o2eFlxSXlvcnNCYU0xbXJVMXNWVXFaTVhzR1BJeFRBU1RxMWFoX2tpRUl6YWYwUVpZU1dz?oc=5",
+      "source_name": "The Independent",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5d0297750ab3a95a",
+      "published_at": "2026-06-20T04:28:50+00:00",
+      "title": "Iran war live: Tehran says US must ensure Israel ends attacks on Lebanon - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOR25aelZYNGo5ZVFrNnBfUDQzRTd6eTBzbmUyUW40aGg1MVFqOS0tSVFRNXIwZjAyOFg0UWFSSlAyOHRVMGw1UGtaMUVWTmNWcGtpeTV4eFhacHJFc0d5dVl1THFHa2NMMV9iYmhLSmk4Skc4OTU0U1JmNkNSVWExWDBia1REZF94WTUxbjdrWWJORGdyeGctMjhuNkJQdGlmdzVNbXEzUF9YRHBJQk0xRGlmZWdETEJ2bGYtR1pB0gHDAUFVX3lxTE5Vd2Y1Zm9PZWJQd3VMZ21rUDM3anBFY0NQN3QwN3l5Sll4cTZaWkV6Snc4RkJ2RHRsWlFnbHlBWXpNaGxma1RmZTBPVTAxc2x3U29EM2duMV9RMVJVNDVSREZXSXVnN0p3MmNqaHBManNTSkRFdlZlNkwydVVRTFlRWFR5YmdVZGtGVC1vM2dWTGd0d0hoWGdTMHh3aWo5NVZOVl9RWFBkLUVBRUtoMzdTV1BReTIxT0ExR0ZzM1ZZclRSZw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "03780fb98d631710",
+      "published_at": "2026-06-20T04:21:33+00:00",
+      "title": "US-Iran Live Updates: Iran accuses US of violating deal\u2019s Lebanon clause, warns of \u2018heavy cost\u2019 - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQQVJZUXBTTC14UU9KU05WOEhobFZ1ZGRocGk1MmUxbWtLMFNta3l5d0dqT29sRURqaHRTVUludi10M1d0OFJVczZmVWdDa2thM2Y4UG1RZV9zUzNOUUxjU3dHT2RUT3hhRDZ0Wi14bTZqekVFZURGYXdfeFR1LXZOMlJWMC1fdE5EQWluWUdQTDVpd3ZNNl9pQVNoOXlRMHMzYmFxWWttWl9WZ0dxYlhjem82V09qdi1rN0x6WWRhc3RfeWQyaXhLdDJBajJ2eHE3dm1wcEtoaS1fUF9ub1lEV0lwaGRocDRSS1A1em5KUXYwd0NjYURJMU9DLVlGaWpITlFvOXl0TdIBjgJBVV95cUxNd1pFR3VIM2RydTJ0ZnVEUnpMQ2xaelF5RlN1YkFrVmRZZzN0TXVDVDhyLXNKdVl5ZE1tTExjY1lSbmRrYXgxay1JR3c3Tk5TcVMxcnJsVXNobDNlN0NWRDQzZEI4VE9jQXNwZVMwaW41N29BWXVxS0xSXzVWbjJPMG9wV3NQY1Ffc2hxUkhvQmE1MVNxSUFmQUdma1gxNWJzamU1Y2pLampXcW1RbjdLV3ZocVdoLXdVd3FFdVFiN1ZZNHh3ZldXVkdMN3JubnFXaTdwSGcyRnRCTUJ3Vy16a1VnVTF5Ty1CYnRtY0ZvR3dwVWRxZUhjZWM3Wk9KNk9oU0FkVGJmNmtUZkdDb0E?oc=5",
+      "source_name": "The Indian Express",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5b8f092ba9d2a243",
+      "published_at": "2026-06-20T04:01:00+00:00",
+      "title": "How the Iran war united, and then divided Trump and Israel's Netanyahu - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVlo3QmFOY21GekpsUVh4cUtkVUdxSVZxbWVRWmtvaDlDMmU4ZGNMX0pzYktpZXdvWlljazFlLVFCRlV4bFdnMXdWeDg5bnBCRTBBRDhycEdXTTc5M01qR2tNSlR0REl6MDhIN3AteU9wMGdEa1A2SXgxaTctVHRVWEVxNkFUV1NzNG9wZw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "0696ebfeb39bc09c",
+      "published_at": "2026-06-20T03:59:57+00:00",
+      "title": "Why the Iran War brought the US and UAE even closer together - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWlhZUHFoS2xxbW9SVGVud2lDLXB3bmJRZzhTc3NSWDVrSklLWms3bGlLSGpzTlZJaVRXUEdEZXFsVXhOSF9WWWhRaWd3ZzZSME9hLVFxc1ZaU0NiRkJ4TG1iU2hKN25BU3ppcU5WUmtyWTRTeWh2c2RsbERvM0ZCWVVFd3JoSFZmRVM1dkZ6Yzg5WWFWeFpNYzhkQjJGR0pIa3hVdThn?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5f3d911e4824ba61",
+      "published_at": "2026-06-20T01:21:30+00:00",
+      "title": "Israel Commits to New Lebanon Cease-Fire, Ambassador Says, but Troops Will Remain - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pTlB5YklQbTl6NkRucVh5UUxWQkhtRW42YkhRYTRVWEpFR1RTdlN6c3J1ZmFnNmo1OUZxRTZPZlVVYi1lY2tUbG5RdEVadmszTzR2NGJabUUwM3N3dTZYSF85amZYN1FUT2diWmZ3?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "409d4bb787b87db7",
+      "published_at": "2026-06-20T01:03:00+00:00",
+      "title": "Live updates: Witkoff heading to Switzerland for Iran talks, US official says - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQm9XSkVxdVBZVDc5ZkNXbVZSTXAwZElpTFp4a3pFRTU3Z28wMm9wWm5lcXgtajF2SmptTXZFZk5sUnctTVFrOTZZRGNnNGpkLVlweEhSWm4zZ29LT0JKOFAwemV4SlVwTlctQkhRdElpajFNazNEVS13cUdwRkR3X0p3?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6cec7fbba9dcacf2",
+      "published_at": "2026-06-19T23:49:50+00:00",
+      "title": "With Lebanon ceasefire set, Trump envoy heads to Switzerland for U.S.-Iran talks - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGlIRzVkQXRyMi1KZ2xpUGFScEtiNlk2M2VjV0t2M0xsY1NYcFJfQXNxSTFDSXFjaXZmNDVMWkVvU00zX0tXTE80MXpFUlVUeE8xOW1USzJtTERYV09YRU4zbnRic1NwaG1WRHVRT2s2TTl4NkgxMjNVMEtsS0pyQl9ldURhQVkwTzdzcG5sajE3bzhSS1h5NWpoWDJZd05HdTFodHd6azZjN2JLT25xaA?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "701c65425ccc8a9e",
+      "published_at": "2026-06-19T23:18:00+00:00",
+      "title": "U.S. - Iran nuclear talks on hold after Lebanon strikes - news8000.com",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONGtTelpCOHNoYUtKMloyX0FJcFNlYUJlazI1QTU5SzhTZUc2cmNHNGx2aGxVakNkWEFKa28zV0VMS0dLS2tuMGMtZmFFZGV6cTgzY05jdlVaeGFsdkszX0lOTm1UdE1ROHBXVl9ORFNjN1p4T0JpNFYzOHpjOEVJb2ptMkNPSG5kbmVaaUxTekRRLV9PeDZuejJNbEp1Q3Y0dzVPRU1XbUI0TnM3WlM3M2kwVXBMUmFHQS1EY1pCU3BRU1JsM3NQNUtLRjI?oc=5",
+      "source_name": "news8000.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "52ec61721393f011",
+      "published_at": "2026-06-19T22:59:00+00:00",
+      "title": "US-Iran peace talks delayed, Israel-Hezbollah ceasefire announced - KCRA",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQY3FNTnJVNklXeUFTSlhMY0F3Nm5BdTdubUZKYnhabUZ5akY0bGpDNFEzS1F0TDk0UHhDVnRnQWxkTkJmQ29za0x2SWxvbW5SVEtwdDA2YjRvN2dYcGtrVkRHSWFNUGN5bnFENTI2dUtGWjhNcTA1VURoWGI4QUx3UFpNVmhjLXZSS0NLekU1NjZjdWROT1hv?oc=5",
+      "source_name": "KCRA",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "91a1aae18d72a740",
+      "published_at": "2026-06-19T22:55:48+00:00",
+      "title": "Israel and Hezbollah agree to a ceasefire as deadly fighting threatens U.S.-Iran deal - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNkhtcUZUcW1jaXhYb3o2VlloY3pwaF8xbExVakNmd1RGdUZxdVBHSWxDLXNuN1pMVkVJaXl6NmhrNWR2eHNTNUR4alBVUkdqQk5wSWVfYnVWWHlGd1o5dzFWUWRjby1QVm1GMXdtZmh0b0hEX3ZnU1BYdTNlTVFpdTlDR3dkbmdTRThTbG9EUWJWTEh0NWZSRXExTEVLLXR0OC14Q1ZOcndvZ2xMSnU3TnJzZzNzLWZYcm9FNERNWU8?oc=5",
+      "source_name": "PBS",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
       "id": "6f159bacd96242cf",
-      "published_at": "2026-06-19T22:01:24+00:00",
+      "published_at": "2026-06-19T22:50:46+00:00",
       "title": "U.S. intelligence warns Israel is likely to undermine Iran peace deal, officials say - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVmF4N2JBdnBNSzhUYnc0d2tIYllaenN5OEtMTDZBS1lWRHRodldDNTZsMTNuTjlPUjMyMi1MMk5sTTF1dDY1dVd3THZHOUxSaXFzUUZUWFRLd29QaVFJMl9Xek9fdnRucjZzZDlDWDFoWkNRU2xXQVBxR1ota0l3Wmp0SThTX1pwV1p4OXRJWkRLMllwU0ZCN1V0ampwRjFqTlJXa3RPX0JoZm9wek9sWXgzVlFqbGVGdWVMQjFRd1NLaHhEUU9nSUtBbmZDbklvel9pSGZR?oc=5",
       "source_name": "The Washington Post",
@@ -111,6 +276,21 @@
         "iran": 0
       },
       "confidence": 0.75
+    },
+    {
+      "id": "92b661dc6305c110",
+      "published_at": "2026-06-19T22:34:00+00:00",
+      "title": "Iran Latest: Israel and Hezbollah agree to Lebanon truce, officials say, as fighting delays U.S.-Iran talks - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMG40STJrQkMxTUlTM2J4bkNpWXJTb0daR3BXaEpNZGx5dVVzaVFsQU9xRXU0QkVlSWw0dXpmSkdYNEVBZmEzVmhma0pyTUg0TFUyMHJnOFQzRFk0Zk5PeHpvVmpVXzZLMVhpS3JoeExqNFhwdkdDSXRfeElvb0VUTGk4bFhvZExWTHFYcWItUWs0cmpNY1R0ZjlDdGZaLTlXTW5VZkVnS1g0a0dhaFE?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
     },
     {
       "id": "962046f32b9190c8",
@@ -128,36 +308,6 @@
       "confidence": 0.8
     },
     {
-      "id": "91169645b3fbcb1a",
-      "published_at": "2026-06-19T21:37:26+00:00",
-      "title": "Iran Delayed Talks After Israeli Attacks in Lebanon, Diplomats Say: Live Updates - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pTlB5YklQbTl6NkRucVh5UUxWQkhtRW42YkhRYTRVWEpFR1RTdlN6c3J1ZmFnNmo1OUZxRTZPZlVVYi1lY2tUbG5RdEVadmszTzR2NGJabUUwM3N3dTZYSF85amZYN1FUT2diWmZ3?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "caab4227f12cdfcf",
-      "published_at": "2026-06-19T21:12:00+00:00",
-      "title": "Live updates: Israel and Hezbollah agree to renew ceasefire after conflict threatens to derail US-Iran talks - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQm9XSkVxdVBZVDc5ZkNXbVZSTXAwZElpTFp4a3pFRTU3Z28wMm9wWm5lcXgtajF2SmptTXZFZk5sUnctTVFrOTZZRGNnNGpkLVlweEhSWm4zZ29LT0JKOFAwemV4SlVwTlctQkhRdElpajFNazNEVS13cUdwRkR3X0p3?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "10b644a37acf7a03",
       "published_at": "2026-06-19T21:02:05+00:00",
       "title": "Trump says Iran is 'finished', experts say Tehran won big - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
@@ -173,9 +323,24 @@
       "confidence": 0.55
     },
     {
-      "id": "612979c400520ad5",
+      "id": "926a3beb363637ea",
+      "published_at": "2026-06-19T20:58:26+00:00",
+      "title": "Lebanon Emerges as Weak Link in U.S.-Iran Deal to End War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPS09yUWNKeDZ4LW1iSnlrUEVIa0ptRGZDNXhRSmZLakNMUkFWcjRWRHdnb1J6ZUlfaFFyNVpfZ0lyY29hMU9La1JwQVZrR2RjRThmVDBRVFNKTzNKVk05cEt1TXpOQ2JMNzB4OFBOTUlzSUJoYVhoOHBZb0JXLUFFNXFJU19xbzRoSTdrYjNjRk8?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "dd1cd383faaa6726",
       "published_at": "2026-06-19T20:57:56+00:00",
-      "title": "Israel and Hezbollah agree to a ceasefire after intensified fighting threatens U.S.-Iran talks - NBC News",
+      "title": "Israel and Hezbollah agree to a ceasefire after intensified fighting threatens Iran talks - NBC News",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZUlabWgwdElDRVdLdjVrdWdtbmZIYzh4V3NTT3BGTFpiWnFJU2w0NnF1RU1ha3lRUnlXY0xlSDlHUElSTTBnY3UzNXVERC1Hd3Q4RkQtQ1F1cl9OS0tLaW9LRzM2M0hibnlKWlA3SlZmcGZFYlloR3NESmNrMTdpaDBVRzRqT2paREplcV9wX194Wk1yb0hQSG8zdE9YeXR6cGM3Z0djS2tUOGNpVDR0aQ?oc=5",
       "source_name": "NBC News",
       "event_type": "diplomatic",
@@ -185,37 +350,7 @@
         "usa": 1,
         "iran": 0
       },
-      "confidence": 0.85
-    },
-    {
-      "id": "97f89e6c9d5daed4",
-      "published_at": "2026-06-19T20:51:41+00:00",
-      "title": "Israel Is Likely to Continue Attacks in Lebanon, U.S. Intelligence Concludes - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONkp2aUloZEhnSUxBUi02aUM0NTktYUhEWXlKaVZHa1Y5WFJHcEZrVFQxajNlTzNLOEdvME5NdlQ4QVNkd3pwckEtNk1sWlNoalNJRjVzVG90SDRZSWFJb25LX0ZVV2Q5cTFwZDFsSGQ3aFRlVHJDNUltQjBRa0JmbGxnaUxGem4wQUVn?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a7f05b7027120f3b",
-      "published_at": "2026-06-19T20:44:06+00:00",
-      "title": "West Asia war highlights: Latest Israeli strikes killed 47 in Lebanon, Health Ministry says - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOUTJwcFIwN2JLR1NoTEswWEo1NlZ0VmhrWGdTd0hTSXg5RGxfXy14aU9NQnA0LU5yUTIxYjZVbk1zWDNoQnM0dEpRczBSM3Jrai1rZkY4YmxjczY1MjhBeFV1eEZnOFpUTllwaThjMW5mOWptQkhNMy1kdWtBVFZSQkdRSFpLZnpnVXZHa0VpWkN1Z2RlMEt4eVpfSGp3UkJUTGgyUE9zRzJqRlNIczR2VjQzMVVVbmlJS2g3ZDcxN2xrTmZ1X0N5WVBOQm9Fa1NMU2dtemdUVkx2Q3RSZmhzYktUNTZkU283WXlEMEctS3l1S0lNOHVxd0g5eHpUc3BvYVQw0gGKAkFVX3lxTE43WG53MmdFTzNsbklNYVFIbzRyODh1amJLSGxSM28tRXFLVS1oWXRXMlNlU2hGaW1hZXg4TTd6UWJPUVdONFhYX2UwU2VNZWJ3V2lHVExRVEFvNE9pa3ZGVU5zUGJEOXRWSTNSTEI2VHpxX1FhRnVmY3dfZUJ5X1MycXdSVjZ2clFQbXktR0tzd1ZqSEhER091M1M3dHNwcFpfYTh2OVhJOVhZdk95MW4zZS14ZHdyWkdsTUVGVWFaQzdLVVhpcF93LXVEdDZaNW1KMW9aLWpXRzBWakpnbGhBMVlBN1lKWXgxZk9NTmthNFBUc0pMUWxiS25fWHF0QkFoVTVMMmx2dVN3?oc=5",
-      "source_name": "The Hindu",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "20f0b0f697a18d3d",
@@ -233,25 +368,10 @@
       "confidence": 0.65
     },
     {
-      "id": "69013cdfaa382142",
-      "published_at": "2026-06-19T20:08:00+00:00",
-      "title": "Trump\u2019s Iran deal could place his legacy in the hands of Tehran - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51OVpiRG0ybEpqRS1sS0p6VGZQZ2dKOFd0b2VvbEZIZkNPQ2J0MGVuSWx0Nm1GMzVvMzFVRE9GTmpCaElVRFlOWFRqczJ6bFpKaE5HenFSWXVTWE51U2JPZ243c1VlWTlfbE5BR1FBLTdKWDlaSE5j?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6c62afa76d03fae8",
-      "published_at": "2026-06-19T20:04:07+00:00",
-      "title": "Iran \u2018ready to move forward\u2019 in deal with US if Israel abides by terms - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSzg0X0I0TmtWT1I1azgyaTloRng0VEdOVlBzSzJ6bWxNbXd0cldDWHhoTXp1bXZaZDg3OTItX2lXeElkVTRpQmVDVzJ5ejdrQ0dMY2RNM3drT1RFQVJ0ZU0wS1lnUmJPM3l2cEZvaHQ5d3lYUUJ2NWQwSHY2c3gyTnZ0ZWdMWGxJdWVGOTBoaEt2b0JSMGtSTjk2UV9UMm8?oc=5",
+      "id": "9ac2cbf43972b472",
+      "published_at": "2026-06-19T20:05:51+00:00",
+      "title": "Iran deputy FM says \u2018ready to move forward\u2019 in deal with US - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSzg0X0I0TmtWT1I1azgyaTloRng0VEdOVlBzSzJ6bWxNbXd0cldDWHhoTXp1bXZaZDg3OTItX2lXeElkVTRpQmVDVzJ5ejdrQ0dMY2RNM3drT1RFQVJ0ZU0wS1lnUmJPM3l2cEZvaHQ5d3lYUUJ2NWQwSHY2c3gyTnZ0ZWdMWGxJdWVGOTBoaEt2b0JSMGtSTjk2UV9UMm_SAaQBQVVfeXFMT25MQlVzaUVjNWpPYk55M2ZaZy1TMWltTGJFS05FRFV1Smh2Unl2NWVfUGlOU1RIRjJIWFdmNVRkSzRhOTl3XzVYa3V6SVljZ2NiN3Q4NWJXQUt0SE1hWW90WjFLS3BnY3pLcHA4aHQzdExRSUk2bzRtbG0wbTlpejNUZ2lsM0RHbE9SaktrQzEwWjRBTXNqcDVkYnpwSDJVVnNhQ1g?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -261,21 +381,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "2a497d53f5d88218",
-      "published_at": "2026-06-19T19:58:37+00:00",
-      "title": "Lebanon ceasefire agreed after US-Iran talks in Switzerland scrapped - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdGlIRzVkQXRyMi1KZ2xpUGFScEtiNlk2M2VjV0t2M0xsY1NYcFJfQXNxSTFDSXFjaXZmNDVMWkVvU00zX0tXTE80MXpFUlVUeE8xOW1USzJtTERYV09YRU4zbnRic1NwaG1WRHVRT2s2TTl4NkgxMjNVMEtsS0pyQl9ldURhQVkwTzdzcG5sajE3bzhSS1h5NWpoWDJZd05HdTFodHd6azZjN2JLT25xaA?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
     },
     {
       "id": "d0806eba79ab3724",
@@ -289,111 +394,6 @@
       "points": {
         "usa": 0,
         "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f62af33d7fe5d16f",
-      "published_at": "2026-06-19T19:11:44+00:00",
-      "title": "Catholic leaders hope end to Iran war is near after Trump, Iran reach agreement - OSV News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlA0WjhyWUcyOVpSMTFTMkloa2JiWTNoNHdQU2l2Z240bFR3RDlIa3NsZ3hrSXlYYzg4RUJYSHRvUF9oVm5LY2tYTV9rdWFWVVhNMmxPcEozSkd0M3BIZWhvOEQzb0lXay1Wa1lvMXNHTV9kZ3NmYklhZXRVYmtUODR2VVJkVkloTV9hdkxpMXhTUjQtWVBvZVNXbHFhdDVKUjRSRVVR?oc=5",
-      "source_name": "OSV News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0aa223550eb35114",
-      "published_at": "2026-06-19T19:07:38+00:00",
-      "title": "US-Iran talks in Switzerland are postponed as Israel, Hezbollah enter ceasefire - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb09GUkZhOTJSUnMxVUtrTDRjTWRmWWJBZExCaVlCVzAxbHc0azJjRS12bW5KdXVHdkhyWmRJVm8tRHVnVjJ3MTU1YkVMQlRBUm5KMXpYbWM2TV9DeHlhR0xjVk80cGNXY0RaaXp2c2hYWnoyR3I0T2tRMEpoUVg5bzkyMkRpaHZTM29oOUM3S2JzLXJJZnJIV19Tb1JmRFREZ3JEYVVRT2VUNjNu?oc=5",
-      "source_name": "Fox News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4c492749460aafbb",
-      "published_at": "2026-06-19T19:00:00+00:00",
-      "title": "Israeli military strikes in southern Lebanon in intense fighting as US-Iran talks postponed - Chattanooga Times Free Press",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOeDhnN241YVR0b2M0THVSOXllQ3ZCRWUzQXctRGFtWHlFenFyb1UzaWtDZ0dic3BNM0pwb1ktRGRFazM1MmtWanNrVUZtejRZVy1ZZi10VjNFLWVFdDR3S2hESVk4a3NoYWExWkUyXzZ2ODhZOFNva2VGU0FwckRFM1MtWmdEV1YzY2ZDR2xrQkEtRDVKQk5aaHZoREdWZXVFWmZ0Q3ljbFpfVzBCUFJkTXdXek9WZUc2OUsxczRCZkp6TjdUZVdYXzFlQlhuQWt3M0p1VWUySQ?oc=5",
-      "source_name": "Chattanooga Times Free Press",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d54c849d2d352212",
-      "published_at": "2026-06-19T18:10:31+00:00",
-      "title": "Israel and Hezbollah agree to halt fighting as talks between the US and Iran hang in the balance - The Boston Globe",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJaXEzaHZtMmJncl9fLVRVNnRwN2JnM1RGaHlDSlVLaEVMcGFCWWVHaGkyYWpxcDM5VHAwTnYzMG5CSVFmd05qbDVsTVB6SlZySUp3enMwSGdLZmhncVYtdHY0Z0tTUTJrTmRBcHByUFlMdw?oc=5",
-      "source_name": "The Boston Globe",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "8027a4329e6091d5",
-      "published_at": "2026-06-19T18:08:00+00:00",
-      "title": "Israel and Hezbollah agree to halt fighting, officials say, as US-Iran talks hang in the balance - AP News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdDdtMWZ0SDdDbThCNEFjb2p2aE5QVFhETEFOT0RyUG9MaHlta2VNWWpjWE1sOFNEM3pYOE9NYkhRM2x3d0hnYzRQZ2F6eG5zSl9aZEpHd0xaRFR6LTFfNHFKdFBWVXdZSTNMMVZOY3RaZmVjRVZ0T0ZYVEZvWU8xZDBtdk5OMGpMaFhOR3RKU3MyUHFQU3NmMzluUFlFaDBD?oc=5",
-      "source_name": "AP News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f852e09d0c95d66c",
-      "published_at": "2026-06-19T17:11:00+00:00",
-      "title": "Lawmakers, including Re\u00adpub\u00adlicans, question source of $300 billion U.S. promised Iran in deal - Spectrum News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNb056QjR4YVFBcXVORVdCeFN3SXpSRHFGUXNEdkRERGVBZ25FM29SVGtublc3NFNpZGx5WkRsazFWMnN5al9DOGVWZXBoOUlET0luT3JjY1NOU3NVcUpkcF9XZEJ3cUc3NVh5VFBodjFqZVZhaDFReHlFdUlUMmdFQWlsNXBSS0tfVHZncA?oc=5",
-      "source_name": "Spectrum News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "74d89c71a6b215a0",
-      "published_at": "2026-06-19T16:56:51+00:00",
-      "title": "US-Iran Live Updates: US would bear responsibility for any ceasefire violations, says Iran FM Abbas Araghchi - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQQVJZUXBTTC14UU9KU05WOEhobFZ1ZGRocGk1MmUxbWtLMFNta3l5d0dqT29sRURqaHRTVUludi10M1d0OFJVczZmVWdDa2thM2Y4UG1RZV9zUzNOUUxjU3dHT2RUT3hhRDZ0Wi14bTZqekVFZURGYXdfeFR1LXZOMlJWMC1fdE5EQWluWUdQTDVpd3ZNNl9pQVNoOXlRMHMzYmFxWWttWl9WZ0dxYlhjem82V09qdi1rN0x6WWRhc3RfeWQyaXhLdDJBajJ2eHE3dm1wcEtoaS1fUF9ub1lEV0lwaGRocDRSS1A1em5KUXYwd0NjYURJMU9DLVlGaWpITlFvOXl0TdIBjgJBVV95cUxNd1pFR3VIM2RydTJ0ZnVEUnpMQ2xaelF5RlN1YkFrVmRZZzN0TXVDVDhyLXNKdVl5ZE1tTExjY1lSbmRrYXgxay1JR3c3Tk5TcVMxcnJsVXNobDNlN0NWRDQzZEI4VE9jQXNwZVMwaW41N29BWXVxS0xSXzVWbjJPMG9wV3NQY1Ffc2hxUkhvQmE1MVNxSUFmQUdma1gxNWJzamU1Y2pLampXcW1RbjdLV3ZocVdoLXdVd3FFdVFiN1ZZNHh3ZldXVkdMN3JubnFXaTdwSGcyRnRCTUJ3Vy16a1VnVTF5Ty1CYnRtY0ZvR3dwVWRxZUhjZWM3Wk9KNk9oU0FkVGJmNmtUZkdDb0E?oc=5",
-      "source_name": "The Indian Express",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
       },
       "confidence": 0.65
     }
