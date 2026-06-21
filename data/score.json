@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-06-20T22:36:16.250925+00:00",
+  "generated_at": "2026-06-21T05:20:19.359525+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 95,
+  "event_count_window": 96,
   "totals": {
-    "usa": 37,
-    "iran": 19,
-    "lead": 18,
+    "usa": 44,
+    "iran": 18,
+    "lead": 26,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 21,
-    "iran": 15,
-    "delta": 6
+    "usa": 23,
+    "iran": 14,
+    "delta": 9
   },
   "confidence": {
-    "score": 67.1,
+    "score": 68.4,
     "label": "Medium"
   },
   "event_types": {
+    "other": 41,
     "diplomatic": 23,
     "attack": 30,
-    "other": 40,
     "material_loss": 2
   },
   "history": [
-    {
-      "date": "2026-06-07",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-06-08",
       "usa": 0,
@@ -42,7 +37,7 @@
     },
     {
       "date": "2026-06-10",
-      "usa": 6,
+      "usa": 9,
       "iran": 4
     },
     {
@@ -57,7 +52,7 @@
     },
     {
       "date": "2026-06-13",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -82,27 +77,47 @@
     },
     {
       "date": "2026-06-18",
-      "usa": 1,
-      "iran": 1
+      "usa": 2,
+      "iran": 2
     },
     {
       "date": "2026-06-19",
-      "usa": 3,
+      "usa": 4,
       "iran": 0
     },
     {
       "date": "2026-06-20",
-      "usa": 11,
-      "iran": 11
+      "usa": 10,
+      "iran": 5
+    },
+    {
+      "date": "2026-06-21",
+      "usa": 1,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "6e700c7687663807",
-      "published_at": "2026-06-20T22:20:00+00:00",
-      "title": "Live updates: Iran and US make opposing claims on Strait of Hormuz ahead of talks in Switzerland - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2NWQ25Bc1gyYUFjUEs0bVl2bHdtcHNjS3A1Ykp4LXNiOTI1a3laQUIzY0V2RWp5T3JZdG92WHZIeVVfNmwzWk11QjdQb2g5NXV5REZXdDNhTVpSVFFzY0QwS1JMYWlucF9DdDNyN2tkc1RzMTZvblpIMWhyWXJ6MlFB?oc=5",
-      "source_name": "CNN",
+      "id": "bd98a2a0b76cfeaf",
+      "published_at": "2026-06-21T05:07:10+00:00",
+      "title": "A Look at the Text of the Agreement Between the United States and Iran - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSnVhYXRtM2IxcWg0U0NMTE5EV1dSNkVxa3NCNmZpeDRMNUFEUVR1dEp0MzFRdDl5dVk0b3YxUFdzOXJvNkkxX0dnSzdQOWxhSnY4UTJvdE0wLVNtWmJLN3VtdjdkT3BDLXVnY2JLdDhscDZkQVVSZEVkVjZYU19Ba2VQMEpjQQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3b23aae62faab3d4",
+      "published_at": "2026-06-21T05:05:46+00:00",
+      "title": "Iran war live: US, Tehran set to hold high-level talks in Switzerland - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZmp5TjlZb1JrUGpleDlrRmRqd0dLU1EwRkt5cGROd0hwcnNqa1BLZ1ZGY0RBQWtJbC1uTUU3TWRYbE1qS01qNF8zMlBNbzRTQTZSWEpZekpZWDNNTWx0R0lENi1YaHNSSDZqUDZuU2FNVnVMTVE3dld5TkFLb25WYjkxYVBnX2JPeWg0TmtZdmk4WkhqRmlqVXVqVDU2UXV3U3k4TzdGOGRSLTN5djJDakJCZzN2ZDJp0gG-AUFVX3lxTE5Mbjh3RXJkTkQ5S0t2OFdyWHF1VEJtY213T3FiR1l1clJsTDhyRm5pa0h6aU01cXR0WGdNVE04ZGs0eE5haGpXdGZBVjM2cGtWc2tMOVBDU191M0c5eXJLeV9fQnVWdEgwY0NtVjlheEpsS2lzTm9WOHRIQVA2LUxsaTVHUTJ2Rm9NcElIZXNGSWp2VWcyNG5DM1c1WmpEMXNWTGYwN0V1VE5vMTl6ZHZwZXdDU2hCb0VWQUc2bWc?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -113,8 +128,143 @@
       "confidence": 0.65
     },
     {
+      "id": "295e7f8be68103bd",
+      "published_at": "2026-06-21T04:23:02+00:00",
+      "title": "US-Iran talks to begin in Switzerland as Tehran says it closed Strait of Hormuz - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFbVh2NGR4RU1xWVVYUExYN0FlNF8zRjFKenhqQlZnWk5OVkFJbzFlRHdJcUxwS1JiUFJoQ1dsUXFLN0tjMDVELUM3SHdVTjNMUTdLSXJBMGRKUQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "d5bf349b711a04ad",
+      "published_at": "2026-06-21T03:59:45+00:00",
+      "title": "Live Updates: JD Vance heads to Switzerland to accelerate peace talks as Iran threatens to close Strait of Hormuz - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMG40STJrQkMxTUlTM2J4bkNpWXJTb0daR3BXaEpNZGx5dVVzaVFsQU9xRXU0QkVlSWw0dXpmSkdYNEVBZmEzVmhma0pyTUg0TFUyMHJnOFQzRFk0Zk5PeHpvVmpVXzZLMVhpS3JoeExqNFhwdkdDSXRfeElvb0VUTGk4bFhvZExWTHFYcWItUWs0cmpNY1R0ZjlDdGZaLTlXTW5VZkVnS1g0a0dhaFE?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b822a63cf7e686cd",
+      "published_at": "2026-06-21T03:19:33+00:00",
+      "title": "Iran says it is closing Strait of Hormuz, testing fragile agreement with U.S. - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOblNWVkhEOFJzaHNiYUloTjZYcWVuY2pTRkRuMDAwdTBFMV9obDVhdHA5UFNTUS1JVXBybWpXTFhDb1NWSktxeW1RTHdpRV80XzUwb1ZMMklFWWp1dVNmZHBOcEdGQW1YdU45UU5vaGJYNkFZb3FiNEI5amlheWRzejdSNnFJdG9lOEk5S3JRU3dPYlR1MUg1MzkwLXdPakxTenM1ZGkxZVhlMjZrRXF3VUpPdEprUnI4bTVOeA?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b7c67d7f36db4eee",
+      "published_at": "2026-06-21T02:51:01+00:00",
+      "title": "Chaotic run-up to U.S.-Iran talks signals steep hurdles ahead - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaUtPVWtFNFMzQ2NkazdwdTU5VWpzSFNKQnRuX3c3UkNLMjE1b2tkemttdXZJVVpDTm1JRjJ5Tk5FYXN4NEtEMVMwYmFCdzVpaVNzQTFaU2ZtYTlmN2REYXduOE01T3h0S0x5aHQ5Njg1Y3pUVVlSc05ab0FPYV91bndfUDdEUDIzNHJqaE1wTWg0UzU4LXJzUV9UdkhNNGZQY09WZDJQeWdHX1pEVW9ObFlMMA?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ff0b616c7a3592fd",
+      "published_at": "2026-06-21T02:24:00+00:00",
+      "title": "Vance Heads to Talks as Strait of Hormuz Re-emerges as Point of Tension - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jcXlMV1VzdnpoZDk4bHBtZDlpX21LMl9wWU5nLXAxc0tTakRkUEsxSEdHUi15MV9TSGZUY3BBOVloWkJRdUc4OFdOT3FuV1d5ZWhJX2x0RW0yRm5YNUI5YzZTUTVnOUVuQjNUY2lYYW1Ha3FPeUJxYWdXYw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5233d89e73fe9d07",
+      "published_at": "2026-06-21T01:22:04+00:00",
+      "title": "Live - Negotiators in Switzerland for Iran-US talks amid Hormuz, Lebanon uncertainty - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FLUthajdDRFVvZ0R6YkoxbGJtUXlfWDVIRGl6amVQbm9RODg2M09ISzNnQy1CZHZPb1dyeW1VcXl6TGMzYm5rRTFhTnV6NWxBYk04U25LNHh3MUwzcVE?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3d3fb07fc911ecf4",
+      "published_at": "2026-06-21T01:14:38+00:00",
+      "title": "U.S. disputes Iranian claims about closing Strait of Hormuz as negotiators head to Switzerland - The Spokesman-Review",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPek1rdVlFSER4UW5Uc2JGQURTV2F5TjlVQUhxbDF3VjY4X21GVjhKTGtiNEVmWGM2QmNJaWhpR3ZyV3V5dWdxUERKYXdFV0Y3N0d0NjVsbkVTaFlpbmJiWmpvMUVGTEhvTnhjNER1WVdFbk9kVVZ0UHdHX0FNSW1TN0oxWm5BaFNiZUszQlVwVDVsVkVVOW15Vkp1azhvdw?oc=5",
+      "source_name": "The Spokesman-Review",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a3aa210df1590376",
+      "published_at": "2026-06-20T23:09:33+00:00",
+      "title": "US and Iran to talk Sunday in Switzerland as Tehran says it closed Strait of Hormuz again - Sentinel Colorado",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWFFIRDktcDZmOHdqX3kxT05zU1k3LWRoRmtoVVkwTzdhWFZJNTRHazZ5YnpnNldYcjZrM2VGNWFyU01JU3JEQ2NmZXNwVmlSYmFwYndNU1pXQ0FVWWQ4ak5mMHAtQ09GZWo4Q1I3VERzU2JXaFVJOXcyN1VkWU5WOGZORnpNU2lZcmZ4SS1JOC1remRBRWc1amZnSUlRb1R5Y1JvUzlHd0lQSXpSWXVvSHZYNTNCeWlMTWViYUN1dVRkeWVrTVhpM0VTSFRyTWUyX2NEaw?oc=5",
+      "source_name": "Sentinel Colorado",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a06493a49f3204e2",
+      "published_at": "2026-06-20T23:04:00+00:00",
+      "title": "U.S. and Iran to talk Sunday in Switzerland as Tehran says it closed Strait of Hormuz again - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNY3lNM1JmVlNSSFJyZXR4akM1bGZSSnFSWjZpZGxxVXU3VE8yRmlwbFdaRG5rbWRwemc4Z1VtWmdZS2d1U3U5UWg1cUkwbTFWdHhoRlpRZlB6V01PbnYteGM2QklTNU9aLUcyLWFiM3F5ZE5EcFdmelRxSFBNVjFXTVNMS2NlekowckVVWlVOR0NWTDhUZGpUU3A4V1A5cGR3d1pkNHVPaUQzLU40Q1NUN21ydDNqSVZFTlZPOXFYNVU4X1XSAcgBQVVfeXFMTjF0a1pXUnR3Q05UbFVvdzRCeDIxeVBJZ2d5cUtSQnlEaUZidDU1bzRLc3pZQ2hKSGlhamFrc0U3amRsSTJHYWE0TURkOGhzaTFHaWJzWXh4X0VaV1c4Nkdjd3F0UWlQTnliVEQ5dXdMR3hSRl9PS1hfRzBfWkUtcEVsRlJ2X01hZ0dhd3c0T1NDTC1iUHN5cHh1dXZ2cklBNUVXVEdkeG5wZVNyWUM2cktuS2N4X3hTajhsNHpiYldkQ1AtazF5cFI?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
       "id": "b861bb8bf129d2ea",
-      "published_at": "2026-06-20T22:18:45+00:00",
+      "published_at": "2026-06-20T22:21:06+00:00",
       "title": "Israeli strikes kill 32 in Lebanon, putting US-Iran talks in peril - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSDl2OG5XVG5xYXVhY2xOd2I3QXV3T2d0dDVGOTdZNk1NMDRVUFJMX2FFVjdrNkVkRzhOYURfS3ppUF9rLVZ2SDM5UU41Yk1HZWhWX0hvbFlpVUlBdjNmbE83ZmVLYzdfUXc2Q1FqMUFnaEhMaFNDR3JnUlJ1SjBpeFNkVTN2V215VlZCT2piTlRqZU82ZnB4dVlfTnBpS3k5UEZpajEtczg1Nkw1VFNQbk1jU1bSAboBQVVfeXFMTmx0dHpURVpIa0lJU1N1U01wMlBTUmFuamFZTTZPWEQyamhsdy1vTHlGTmxxTDRJYmFDN1hIVHE0Tm1HbmRUQUM5MUNiNG5sTFJhWE9vUzFnRHdicnAzN0RuNksxNkp6WjFOTm9wMkxrUkdQbTFNYnRKN00zblU0U3d0bmU3Y3JCbm5vVkdDcWdkWGt2X1RzSjZRWkw3QnJ1Mm1nb2xNMUhHdi1NSkhGbHhzSUpkc20wU3pn?oc=5",
       "source_name": "Al Jazeera",
@@ -128,19 +278,19 @@
       "confidence": 0.7
     },
     {
-      "id": "de6e72a74f243c4c",
-      "published_at": "2026-06-20T22:13:30+00:00",
-      "title": "Iran says Hormuz closed again after Israel strikes Lebanon - The Spokesman-Review",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPek1rdVlFSER4UW5Uc2JGQURTV2F5TjlVQUhxbDF3VjY4X21GVjhKTGtiNEVmWGM2QmNJaWhpR3ZyV3V5dWdxUERKYXdFV0Y3N0d0NjVsbkVTaFlpbmJiWmpvMUVGTEhvTnhjNER1WVdFbk9kVVZ0UHdHX0FNSW1TN0oxWm5BaFNiZUszQlVwVDVsVkVVOW15Vkp1azhvdw?oc=5",
-      "source_name": "The Spokesman-Review",
-      "event_type": "attack",
+      "id": "df90a3d6add0508f",
+      "published_at": "2026-06-20T22:10:00+00:00",
+      "title": "U.S., Iran to talk Sunday in Switzerland as Tehran says it closed Strait of Hormuz again - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPVzZNR3p3U1hPaGVqZ3lyM3NNR21HZl90eFhLRlVELTJROHowN2VMSFNocDd2Ym9TdkFmUDdQTU9lZ2VSeWc5YTNxVXd0VW1OandvajhZM1YxRXA1a2toTHRTXy11ZW9lemo0RzY0LUI2aU51czI3Y3lvdFBTQm9vQ3E4WUh4ejhKVzBTT2ZMRHdsNElvMWtYOXF5OC1MVGVnNnlIODlYSUJfRWZhcEo4XzJBem1wMm9RNmdpbW1Kdzk?oc=5",
+      "source_name": "Los Angeles Times",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "b49eed3245094f2f",
@@ -159,7 +309,7 @@
     },
     {
       "id": "360a8b06870fd1ef",
-      "published_at": "2026-06-20T21:56:47+00:00",
+      "published_at": "2026-06-20T22:01:11+00:00",
       "title": "Trump vows Iran will not charge Strait of Hormuz tolls, but says US might - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOYXlmZWNTSGJHQkNpenFiQUpjS3U0T3FpdnRJdjR6YTRJcF83YkhUWTBfX1hWR2h0X19qX1lrWFVtTU5HUHdqbUN3SV91Ymx6UjhtWVRlYVNpOVhWaWtIUE9OMGh1aGRjYXAxaC02cWpBM2hic2tzWHFrODBaMEI5VDhBRUo3cFZhVGZLdlM4cVg2eVBPSTJ3MWxGOGhtQnFtODVCYzdpdDBGZnNub1pfejllVdIBuAFBVV95cUxQanU1MkNJc1U5UHJuMGFpY0tQMjNKbDhBNG04elFKUlp6bUR1UF9PQV93X1k3cWtrcDY3LUY5WHc5aEJiSFNwNW5OeHZVYXN3VmxJb3l0dVhEc21iMVJnQmdBaU50WjVYRTVsZm1mWGh6alJVSGhmTFd4M1M3U3lhSXFHUmFhYkt4clVYRk5Sc0tnbzdpdEhSVmJtLUVxTXROU3JwSUdJRzdxUDBHa0pla3FQNk45WGxn?oc=5",
       "source_name": "Al Jazeera",
@@ -173,41 +323,11 @@
       "confidence": 0.55
     },
     {
-      "id": "7969b7f9a4fa4396",
-      "published_at": "2026-06-20T21:51:12+00:00",
-      "title": "Chaotic run-up to U.S.-Iran talks signals steep hurdles ahead - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaUtPVWtFNFMzQ2NkazdwdTU5VWpzSFNKQnRuX3c3UkNLMjE1b2tkemttdXZJVVpDTm1JRjJ5Tk5FYXN4NEtEMVMwYmFCdzVpaVNzQTFaU2ZtYTlmN2REYXduOE01T3h0S0x5aHQ5Njg1Y3pUVVlSc05ab0FPYV91bndfUDdEUDIzNHJqaE1wTWg0UzU4LXJzUV9UdkhNNGZQY09WZDJQeWdHX1pEVW9ObFlMMA?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "45232d3dbfacf896",
-      "published_at": "2026-06-20T21:46:56+00:00",
-      "title": "US denies Iran's claim to have closed Strait of Hormuz over Israeli attacks in Lebanon - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RZFliamhHTXRHRms3RUVKMnlSZjVQUi1JSUp0cFEtWVJXcHRQUk9JUDVNOEltUFh2S0d3Q1BBX1NCUmpGUVA5aE5GWHZJQ1hFeU5DeQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "43cdaadec7b27ca1",
-      "published_at": "2026-06-20T21:38:08+00:00",
-      "title": "Iran says it's closing Strait of Hormuz again - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNzZ6VV9nVkFQWWw0MXQzTEg0cHB5TXlhMU1hUElVUy1GVGE4TzctNWVyWW4td3Q2QWFqMGRydU5xNXlzdG5Jd2lHQl92cWhiZ3FoTnZkR0c5SjRwQU8zUUtIZElmQV9HV1lnRFA4LVlFMEhIcHV5NlFxTUh3WEhCbnBnMFBFSUE?oc=5",
-      "source_name": "DW.com",
+      "id": "71c923a9b0aceba4",
+      "published_at": "2026-06-20T21:58:26+00:00",
+      "title": "Iran says it shut Hormuz; US says ships still moving - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PU01rRGh2V1Mzd0d3SmQxazJRWXpBRGIzTXdvME55UFJMN1dfbGZwSlVZWk95YjRsVzVoNW9abXhjczJ6YzlmeDZLQlZDRFFkQkFsM2xyRzN6NHNrOWxHTUh4SXFpT3NfUlBSN09jcFRiMldKZTgwdEZ3MNIBgAFBVV95cUxQYnFoMER6MjNNQy16TFlrZmlGQWRKVTZOQlR6TlVpZ1RPSDF6YndGa25WNnhjMm9ZWklyOHBlWnF3eURFaFF1bmVqb1pSMlVFNUcweU1NSldkM3EyOU5KUGFOUVRGZG9jVFRQX0tLVWo3WnpjbF9vM1MzVFRNX2kxRw?oc=5",
+      "source_name": "NewsNation",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -215,52 +335,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "c2f62f5112a92783",
-      "published_at": "2026-06-20T21:23:00+00:00",
-      "title": "Live Updates: JD Vance heads to Switzerland to accelerate peace talks as Iran threatens to close Strait of Hormuz - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMG40STJrQkMxTUlTM2J4bkNpWXJTb0daR3BXaEpNZGx5dVVzaVFsQU9xRXU0QkVlSWw0dXpmSkdYNEVBZmEzVmhma0pyTUg0TFUyMHJnOFQzRFk0Zk5PeHpvVmpVXzZLMVhpS3JoeExqNFhwdkdDSXRfeElvb0VUTGk4bFhvZExWTHFYcWItUWs0cmpNY1R0ZjlDdGZaLTlXTW5VZkVnS1g0a0dhaFE?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0126aea0e867bdfb",
-      "published_at": "2026-06-20T21:18:32+00:00",
-      "title": "Iran says it is closing Strait of Hormuz, testing fragile agreement with U.S. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOblNWVkhEOFJzaHNiYUloTjZYcWVuY2pTRkRuMDAwdTBFMV9obDVhdHA5UFNTUS1JVXBybWpXTFhDb1NWSktxeW1RTHdpRV80XzUwb1ZMMklFWWp1dVNmZHBOcEdGQW1YdU45UU5vaGJYNkFZb3FiNEI5amlheWRzejdSNnFJdG9lOEk5S3JRU3dPYlR1MUg1MzkwLXdPakxTenM1ZGkxZVhlMjZrRXF3VUpPdEprUnI4bTVOeA?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "0e22d8497bfeed5d",
-      "published_at": "2026-06-20T21:11:57+00:00",
-      "title": "Iran says it has closed Strait of Hormuz over Israeli attacks in Lebanon - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFbVh2NGR4RU1xWVVYUExYN0FlNF8zRjFKenhqQlZnWk5OVkFJbzFlRHdJcUxwS1JiUFJoQ1dsUXFLN0tjMDVELUM3SHdVTjNMUTdLSXJBMGRKUQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
       "id": "201c31ade10bfaa9",
@@ -275,7 +350,7 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
       "id": "4e5d83cbd4ba643d",
@@ -290,37 +365,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
-    },
-    {
-      "id": "450c2d17751b919e",
-      "published_at": "2026-06-20T20:52:11+00:00",
-      "title": "Iran says Hormuz closed as US-Iran deal falters over Lebanon - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3NlTWE4aUJ1NlJaNXc1eERPem5mVDg3eEswbmMtZlMzZ1dxRTZTaHJLdTZNWTRXdDUyVEk2Z3hWZ2x6bHg0dVlOeEdrbDZqR1ptLWcxSUJiTkpVeE8wRmVyeUN1ektvUWxUeVdtNExiNEkyYzdlaEdXOElxbzlOVEd2ZFoySUhtbWo0blp4dzM5WkxaODU4UA?oc=5",
-      "source_name": "Yahoo",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "71c923a9b0aceba4",
-      "published_at": "2026-06-20T20:42:32+00:00",
-      "title": "Iran says it shut Hormuz; US says ships still moving - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PU01rRGh2V1Mzd0d3SmQxazJRWXpBRGIzTXdvME55UFJMN1dfbGZwSlVZWk95YjRsVzVoNW9abXhjczJ6YzlmeDZLQlZDRFFkQkFsM2xyRzN6NHNrOWxHTUh4SXFpT3NfUlBSN09jcFRiMldKZTgwdEZ3MNIBgAFBVV95cUxQYnFoMER6MjNNQy16TFlrZmlGQWRKVTZOQlR6TlVpZ1RPSDF6YndGa25WNnhjMm9ZWklyOHBlWnF3eURFaFF1bmVqb1pSMlVFNUcweU1NSldkM3EyOU5KUGFOUVRGZG9jVFRQX0tLVWo3WnpjbF9vM1MzVFRNX2kxRw?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
       "id": "c4d56a605cd9c69d",
@@ -351,51 +396,6 @@
         "iran": 0
       },
       "confidence": 0.75
-    },
-    {
-      "id": "8d30b48de6d5fd4d",
-      "published_at": "2026-06-20T19:51:11+00:00",
-      "title": "Iran announces plans to close the Strait of Hormuz, alleging \u2018violations of the ceasefire\u2019 - Politico",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOME1CenMyUUd4OHE0OVdWZ001N29OZmhuM3FrZ1VBSGtzQ2tRU1RJR1RTeXFYX0dwX3VhT1FSTmh2YTFNbkJRdV8wMzRhU0hraktrOWxwLW1wbU1vQ1p1RkE1bnhYbjFMV19jb0QtSk5LTGVhTFphYURUOGNYVDdlSWZKZmM?oc=5",
-      "source_name": "Politico",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "257acff7fdb6741c",
-      "published_at": "2026-06-20T19:50:09+00:00",
-      "title": "Vance says oil flowing through Strait of Hormuz as US prepares for talks with Iran - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMHVzOW1iTW5xUWZSUTJsTjg2MnUwTE1kX0pTRURJS1ZhZGd1VkVvYUE5dGhoN0F4V3ZWNmFZblpmT3d6THlLUzk5TFlvaExtcWh6MEMzOWhNNGZYcVkyN3dneTV1SU1ocUVEZUtOcVpjd3FlcGt3U3hXRFVfVWF1TmpORm5RenM0cV8yd09zZUloSUtNZk1mTXJHOGtDWU0?oc=5",
-      "source_name": "Fox News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "536bb506e984df20",
-      "published_at": "2026-06-20T19:44:00+00:00",
-      "title": "Trump threatens to charge US tolls in Strait of Hormuz if final Iran deal not reached in 60 days - WBAL-TV",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTERHanFGTl9ZX2trRjJpQ010cFZpQlQyNXlzM1ZmTE9BZS02WlZGX2F6aFV5SVRYUWhyU09kRlZVYjA3NXdiekRWZEw5M0FoYkpkYXE5NDlXQV84SXVmN2JZTjVUdE1sLUItZzVfd3g4NDU5aF9MTG15OTBtU1hySTZn?oc=5",
-      "source_name": "WBAL-TV",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
