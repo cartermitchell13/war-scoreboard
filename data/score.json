@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-06-21T22:36:40.368925+00:00",
+  "generated_at": "2026-06-22T05:33:21.017203+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 102,
+  "event_count_window": 103,
   "totals": {
-    "usa": 41,
-    "iran": 26,
-    "lead": 15,
+    "usa": 50,
+    "iran": 28,
+    "lead": 22,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 22,
-    "iran": 22,
-    "delta": 0
+    "usa": 23,
+    "iran": 24,
+    "delta": -1
   },
   "confidence": {
     "score": 67.7,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 31,
+    "diplomatic": 29,
+    "other": 41,
     "attack": 31,
-    "other": 38,
     "material_loss": 2
   },
   "history": [
-    {
-      "date": "2026-06-08",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-06-09",
       "usa": 12,
@@ -37,7 +32,7 @@
     },
     {
       "date": "2026-06-10",
-      "usa": 6,
+      "usa": 15,
       "iran": 4
     },
     {
@@ -82,40 +77,30 @@
     },
     {
       "date": "2026-06-19",
-      "usa": 2,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-06-20",
       "usa": 2,
-      "iran": 1
+      "iran": 2
     },
     {
       "date": "2026-06-21",
-      "usa": 11,
-      "iran": 21
+      "usa": 10,
+      "iran": 9
+    },
+    {
+      "date": "2026-06-22",
+      "usa": 1,
+      "iran": 13
     }
   ],
   "latest_events": [
     {
-      "id": "183ef74168620ef2",
-      "published_at": "2026-06-21T22:22:20+00:00",
-      "title": "Trump threatens Iran over Hormuz as JD Vance holds peace talks - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRWxtYWxIa0RhbldFTENsNlZndFdweFBoWlhoWFkxWXY0RVZ0SUIxT3dDNVNQSlVjNjlPQ3JEZHVqa0FyM3hSRVBXUFUxYXJ6T1VxQ3NMeV9wX1F6TldlR0RHUThTb0JDMmFpN18zRmNIcGZfWENjMkpQTVFVU3B5RjlQc05sZEI1YUdHNDRUUTcwSE5NWEZHSGRXcUM?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "e123d5e8bd739f2c",
-      "published_at": "2026-06-21T22:12:21+00:00",
-      "title": "Mideast Live Updates: Strains Emerge on First Day of U.S.-Iran Talks - The New York Times",
+      "id": "bc4534a91bb60e0d",
+      "published_at": "2026-06-22T05:23:48+00:00",
+      "title": "Mideast Live Updates: First Round of U.S.-Iran Talks Conclude, Mediators Say - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE02WVYybE5jRkpsTHA2RDFPOFMwSW9ReDMyNl9MUmhjVmdrMFROdVl0ZVJfOFVnVm5lSGpONU9Eay1sYlJ2a09zQXNHTm1JaHJuR0pXcGFYNzd6RGlIYnBZM21vQTZyNVN6dVZIOFZPTDVRLXRyQVE?oc=5",
       "source_name": "The New York Times",
       "event_type": "diplomatic",
@@ -128,9 +113,54 @@
       "confidence": 0.8
     },
     {
-      "id": "a2fdd3e9f8d4a75a",
-      "published_at": "2026-06-21T22:08:00+00:00",
-      "title": "Live updates: US-Iran talks stall after Trump threatens Tehran\u2019s delegation - CNN",
+      "id": "e7f5c1c65ed22ca3",
+      "published_at": "2026-06-22T05:16:06+00:00",
+      "title": "Iran war live: US-Tehran agree roadmap to reach final deal in 60 days - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNzFsMW1kN2NOYk1MN1lscWljZ1ZkQ0VMVU5fYkZpMENFY3N1M3FUZGRmc0VkSEJ4UmxWejVoSjhWZGNUYUF0SmtQV21LcW9OdGlGNWdWSjU1V05pbGFqd1NVNkRTaXhnOFJwc25NS245T1dmTDF4VGFPR2V1TEdDWEpNT1RFclg1RklEbXZYVzl4RVhOSkIyZ1NoS3kxSTlNTHN0V1kwbFNFQUhzRVI4STVIWXlTcTQ0amhqR0lB0gHDAUFVX3lxTE9JTGNuMDg0a3FJNVdFOUFLUGNVSm90RHZBb3JrT1FocHNnek9idXRHcUNvai1jVWpkTmlXNEtWM2pCTVk4V2J2VzJDMXRyTEFpbmRkYVFPbGFZa09qVXhRNENtRUZqb3pCSFNQWVpidy00bDA2TWV3UE5RS2E1VmhIdjd1d2pGZUcxNGUxTWE2OFdtYmlocThURXBsdVBUNGVibW9sMVd0TTU4LWFiZWdLaW54QlJfcEZHWV9HX0VqMGx5MA?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "17970bd44d9b612d",
+      "published_at": "2026-06-22T05:00:26+00:00",
+      "title": "JD Vance holds peace talks with Iran as Trump threatens strikes over Hormuz - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRWxtYWxIa0RhbldFTENsNlZndFdweFBoWlhoWFkxWXY0RVZ0SUIxT3dDNVNQSlVjNjlPQ3JEZHVqa0FyM3hSRVBXUFUxYXJ6T1VxQ3NMeV9wX1F6TldlR0RHUThTb0JDMmFpN18zRmNIcGZfWENjMkpQTVFVU3B5RjlQc05sZEI1YUdHNDRUUTcwSE5NWEZHSGRXcUM?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "94dc1fddf4ffd815",
+      "published_at": "2026-06-22T04:55:05+00:00",
+      "title": "Iran-US war live: Trump threatens to \u2018take over\u2019 Iran if Strait of Hormuz is closed - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPU1BHVDM5TENkMWd1WVRXN3R3ZXBFYXN4VFRrZ2RzMDhxVmFlN3UtQ3NLQlNJb2dfRWI4M21XaTVOLVFEUFlQOThIdE9LU2ZNQmhFd0kzUVhGb3R4NjRhNFlicnlIeHVXcDBRYTVXV2tGb09ZaUt1MnpKODN6NXRXT2V3RnpxUEJ3R2FNdVRFcEQxbEhQeWVIYWxVWkloVWw0MDMxTEEwWTlteFZPT3VZakd4Rkp1TTlQenRyTHFYOFVsbzdkZ2NUVkRKMA?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8e3a6d98ae86c7ad",
+      "published_at": "2026-06-22T04:34:00+00:00",
+      "title": "Live updates: Iran and US make \u2018encouraging progress\u2019 in crucial talks, mediators say - CNN",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcG5XRXhqYllSMDk1cko0aTRtX2dLWTFEVjMxYjhBVUh0WVZueEN4NEtLMUowNkVwNE1SRHFEUE5PMUhVY2o2MGJUbjEwMTlUalZrVzQtOUdxZG96YXFjc1c4LUFnaGtiMDFIeVdEaThKakJsdEJiVXZaX3ZHMFNDRk5R?oc=5",
       "source_name": "CNN",
       "event_type": "diplomatic",
@@ -143,23 +173,23 @@
       "confidence": 0.65
     },
     {
-      "id": "a5d9dae79e952d60",
-      "published_at": "2026-06-21T21:59:18+00:00",
-      "title": "Iran peace talks stumble over Trump\u2019s threats to Iran\u2019s delegation - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQX091SHFvTENGYnRqRHJtc1c3SVlRTlpDQ2g1LUpZNnE3WXBPWms5aHhueDltREJNQXBSU21vWXcwd3J5WkdVcWZ0QjFuNS1tNW9ja29LS1MwQ1FCck5DbG1yVTVCUi03Q0ItVkJNc1YxRGlraWxKMWxpdU9OYmJMZ0p2bERrTVFMb3FXaTNneHZkeGdZUUJOOFQ3dzhmMkNjU2Q3QTVQUEN3Z21M?oc=5",
-      "source_name": "NBC News",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "cdea9973cd9b0d0d",
+      "published_at": "2026-06-22T03:34:42+00:00",
+      "title": "US-Iran negotiations end for the day, continue tomorrow in Switzerland - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PU01rRGh2V1Mzd0d3SmQxazJRWXpBRGIzTXdvME55UFJMN1dfbGZwSlVZWk95YjRsVzVoNW9abXhjczJ6YzlmeDZLQlZDRFFkQkFsM2xyRzN6NHNrOWxHTUh4SXFpT3NfUlBSN09jcFRiMldKZTgwdEZ3MNIBgAFBVV95cUxQYnFoMER6MjNNQy16TFlrZmlGQWRKVTZOQlR6TlVpZ1RPSDF6YndGa25WNnhjMm9ZWklyOHBlWnF3eURFaFF1bmVqb1pSMlVFNUcweU1NSldkM3EyOU5KUGFOUVRGZG9jVFRQX0tLVWo3WnpjbF9vM1MzVFRNX2kxRw?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.6
     },
     {
-      "id": "3122efc44fd97ccf",
-      "published_at": "2026-06-21T21:27:55+00:00",
+      "id": "57a3c44c58cc902e",
+      "published_at": "2026-06-22T03:29:49+00:00",
       "title": "Trump faces new hurdles after deal: Iran\u2019s leverage, Israel\u2019s attacks, MAGA\u2019s backlash - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdVBYbWRrSDhfa2dsUUFiZ0xyV2Mxb2pSV29aV0JRM1A1Ykc0VF80czZ3ajlnYlphY1phWndBQV9udmpEZVFISUtleVpsTnRteE5UMjUwOUppek1ZS05mZXBLT09uY3pvQWhkTnJacWkxSDFUc2xwbWFua0MwdjF4RFR6bkdYM0VmRDlKS0Jwb3M2aDI3bGQwMjNvQUZHNFRmVDVlV0Y3WQ?oc=5",
       "source_name": "The Washington Post",
@@ -173,12 +203,72 @@
       "confidence": 0.85
     },
     {
-      "id": "5000f16b5ae6319d",
-      "published_at": "2026-06-21T21:09:00+00:00",
-      "title": "US-Iran talks just started and Trump is already threatening to attack, causing negotiations to pause - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOYUw4N2FHV1ljSFpQX0RoT1BsYTRGWDZEMHotSHJvV2wtNDJKSlBhdUhPR0l2TERlRHdBVjNBY1QyT2dIUTU4SkNRakxRS3NXdU1PTEZTOElnck5DNHNyNURqTlR2Ni11bWR3UzdGckpiVFBIaVpQdlBIWW91TVQ2c0U1TmUyN0RWY1kteVNOWQ?oc=5",
-      "source_name": "Fortune",
+      "id": "3bb0f186f38331f9",
+      "published_at": "2026-06-22T02:44:00+00:00",
+      "title": "'Progress', say mediators, after Iran-US talks on ending war - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPd3NlTWE4aUJ1NlJaNXc1eERPem5mVDg3eEswbmMtZlMzZ1dxRTZTaHJLdTZNWTRXdDUyVEk2Z3hWZ2x6bHg0dVlOeEdrbDZqR1ptLWcxSUJiTkpVeE8wRmVyeUN1ektvUWxUeVdtNExiNEkyYzdlaEdXOElxbzlOVEd2ZFoySUhtbWo0blp4dzM5WkxaODU4UA?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "ce2752ebbacd3851",
+      "published_at": "2026-06-22T02:34:01+00:00",
+      "title": "First round of US-Iran talks end with 'encouraging progress', mediators say - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnejBZZkZqbVNKSTllMVV3bmhsQUdLSFZZcnBZejdzNDJSNDZXRFNoN0ozZkFaeTcxc3NhS0FfSVM4QjBSOXBueUNoUGFMV2hYcFFFY0ROWDVKQQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b4c554897b398756",
+      "published_at": "2026-06-22T02:16:00+00:00",
+      "title": "Iran Mediators Offer Plan to Ease Lebanon, Hormuz Tensions - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSTZVenJFcjA3OTZZWklMc1lneGJzd1VkcHpCb01HZlYtMTh4Rlh2LW1iWnhCMVZkWXNzRk0xa0Q2V3R5YnNTZ1pPTGRHSThoRWRaV3gtVGl0UjNVeXkxX0QxcnFpdVMtWkVJUmtCemVoVGZaZzhubWFqVHp1OUhxY0VOOU5tZGtHSkZlaXJNUWducFdGZVpVblhrOUx6TDZWbzlmYXZOOTlHYk1VaWhr?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "9d91fab7dfafaa94",
+      "published_at": "2026-06-22T02:15:43+00:00",
+      "title": "Trump news at a glance: President threatens to restart attacks on Iran even as Vance cites progress in talks - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTFdSZVdpczNpQzluR1hkN2NaV3dPeHMzeV9pWFBqbWFfSkRXNFltOE5lODlyVENSNk1ad0QzeklYaG9zSW5wSzZKc0NEMmhCV1ZpWkd2eEs0NDJBSkxSYlNBWExiNlNqMy16eWszZXhidUVVa0ZTTWtBZFE5S3RCNmRBYXJfd0FfeUNRZWd1d0xoWnM?oc=5",
+      "source_name": "The Guardian",
       "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a15cf260505d7443",
+      "published_at": "2026-06-22T02:09:00+00:00",
+      "title": "U.S., Iran agree on roadmap for final deal and plan to end military operations in Lebanon - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcG5zd2Vka1BqZDlWMjNVaEZwWk9EN1ZkU1ctTFVaOEtCMXdEdzNTM252ZmFNa2M3SF9HNUk0VHhpS29zN2MzelRtWnc0eDJCSVdQVTg1SUFwVlZndHp1UEpsZ0NYU2xoRHpRZjVfcUZiT25vUklzY1FFVjJVZkpiN1lORGJTbF80bUJGb2NvZlI1dGVhWFRyaVE5WVozMFl5VkZyZ01B0gGrAUFVX3lxTFBMNllIcW9fMUJSbUQ2aGlId05nZW9yX0ZEQnlmUE5JcmZCSkItRmpMQzFfNThFeHdZLVVwSmhyWmFucWctc3VzaEJmYTEzQ0JjSHpQRW9UNXZwbnZLZi13cndzSkcyanQ5N2VtSEhrdWJ6ZkxQdmdnZkhULUUzQ2ZFRHNXOXVaYkZRVUR1MWRhbTJyc1RxemFMZENidGxOMTVzcmFicnRJR3pfSQ?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -188,23 +278,8 @@
       "confidence": 0.7
     },
     {
-      "id": "e134d8bc4e14d0e7",
-      "published_at": "2026-06-21T20:54:00+00:00",
-      "title": "Four months after the horrific Iran school bombing, fears grow that Trump and Hegseth will bury the truth - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOczJSeHFicTJsaHhsZjZTN005dHFla0pac1p4c2hMcHJWMmM3ZWhxZVZFYkdsX0FSY1Qzc2lRZDBwaGwxcnVtektVemhoQTR5Y0t6Y1JpUDNYNTJaSVBEcmdvMXB1TmZOdmpSaFNRUl9vTFo0UnNlMGpZQ2g0V0xQMjVpZ1VaM2Q0RXZ4clYtemdkVU9ncVVWVlF1QlR3UjEzengzd2NfSmI5MnF6SjJuMExITjRrTVBxOS1INC1ndkRqVFU?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4b80ca45c31a167a",
-      "published_at": "2026-06-21T20:11:00+00:00",
+      "id": "a893891d4f7db7b9",
+      "published_at": "2026-06-22T02:07:00+00:00",
       "title": "Live Updates: U.S. and Iranian negotiators meet as Trump threatens to \"hit Iran very hard again\" over Hezbollah - CBS News",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMG40STJrQkMxTUlTM2J4bkNpWXJTb0daR3BXaEpNZGx5dVVzaVFsQU9xRXU0QkVlSWw0dXpmSkdYNEVBZmEzVmhma0pyTUg0TFUyMHJnOFQzRFk0Zk5PeHpvVmpVXzZLMVhpS3JoeExqNFhwdkdDSXRfeElvb0VUTGk4bFhvZExWTHFYcWItUWs0cmpNY1R0ZjlDdGZaLTlXTW5VZkVnS1g0a0dhaFE?oc=5",
       "source_name": "CBS News",
@@ -218,11 +293,11 @@
       "confidence": 0.7
     },
     {
-      "id": "34ca19438cabd85c",
-      "published_at": "2026-06-21T19:49:23+00:00",
-      "title": "US-Iran talks in Switzerland \u2018not over,\u2019 say Pakistani sources - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM2RHMG5WSzcxdUJlUU10NFpxbi11NDdZektyXzNQVTFTcmx0RUV0cXpSNEVTQkJ4dHpyQ3dNUHpia0otdTlsX0RMV3hhdGRRR1dUeURFSVRQWl9WTmF6WVhYczFpRkdpN1dOc1l5SGVhYjA2N1dGY0stRFBFUEx3UFpxMjNkaXloR1RaRlBMMThWMU9TRjJoMHJhQ1ppWTlpd0pOQzR5a2NZU3Uxd3BKbw?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
+      "id": "18692dcbc57dbd81",
+      "published_at": "2026-06-22T02:05:00+00:00",
+      "title": "The Latest: Iran says \u2018major progress\u2019 to end Lebanon war during talks - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUWgtd2pJRXdwSF82TUxsVmowMDNWZnNONEpSeGVQQ0t3TXlVdGs3TU5xS0V2QUNHaHFrdmw3UmlDTU93RDRSb0xPNExzWTRvSU5tbTQ0MENKSlhfQVRGRmlUbFIzeG1yb2l1TzhSOXVzRzI2NWdIOVhDVzA5eWJwYmw2cmJVNWlpbmFMUjdiMENhaFhRbzlnOHlIMlh2YUlaM29QYTNNM0E?oc=5",
+      "source_name": "AP News",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -233,116 +308,26 @@
       "confidence": 0.65
     },
     {
-      "id": "7495c4391a909ca2",
-      "published_at": "2026-06-21T19:48:43+00:00",
-      "title": "U.S.-Iran talks grow tense after Trump threatens more attacks - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAwQmh0N0s2QmcyVlVaMkxlaHJBRGFPWW1vVWtCNTBYM05lSy1EWGxxVE55dEpzbWJuWHJqSGYxS3ZYVEt0NFdGeU1NRG4wWnhMVWtuMUduTFRSNXdmMHJxQktENjBzWlEtYlow?oc=5",
-      "source_name": "MS NOW",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "34ff086c34827cda",
-      "published_at": "2026-06-21T19:40:38+00:00",
-      "title": "Vance wants to \u2018turn over a new leaf\u2019 as US-Iran talks start in Switzerland - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQV3FjZXl6NnNTa3N4ZndtVW8xTnY3WFl2ekNjbTJzZGRGMnBLZUhzaTNUWk01QTRSQXgwTmVRakdybFhjdmt5WlpDYmxzZ1QtR3ZhZHV5YmlMOXBya3lTZ0VvY2twVWNyTlhhdUN2VWp2RXlNbTNoYUU2Ml9vX25DWDFRZkpwOFpGOENxY2RxbFPSAZYBQVVfeXFMT1hya0JhY05hOVVuQUpIbFk3T2xscFBsMHJuYjU2V09SQXV1NW04VktLWkZfRGlUYl9JUlRXLWxJUDhYVHBhSHdkdlBLeWI3bUJhQW9ZLWF0T28weW0zSV95dHNlMjY0WldueUxjZW5BTzRidDQ4N1BNQmpBaGFDZ1FwcDc2SVZpNF8xa3NqSUxxT3phQW5B?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "86bc7b7e70cd75d9",
-      "published_at": "2026-06-21T19:33:09+00:00",
-      "title": "Trump and Iran's negotiator trade warnings as talks held in Switzerland - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBnejBZZkZqbVNKSTllMVV3bmhsQUdLSFZZcnBZejdzNDJSNDZXRFNoN0ozZkFaeTcxc3NhS0FfSVM4QjBSOXBueUNoUGFMV2hYcFFFY0ROWDVKQQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "d722db870f87a181",
-      "published_at": "2026-06-21T19:26:28+00:00",
-      "title": "Vance meets with allies as US holds nuclear talks with Iran in Switzerland - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PU01rRGh2V1Mzd0d3SmQxazJRWXpBRGIzTXdvME55UFJMN1dfbGZwSlVZWk95YjRsVzVoNW9abXhjczJ6YzlmeDZLQlZDRFFkQkFsM2xyRzN6NHNrOWxHTUh4SXFpT3NfUlBSN09jcFRiMldKZTgwdEZ3MNIBgAFBVV95cUxQYnFoMER6MjNNQy16TFlrZmlGQWRKVTZOQlR6TlVpZ1RPSDF6YndGa25WNnhjMm9ZWklyOHBlWnF3eURFaFF1bmVqb1pSMlVFNUcweU1NSldkM3EyOU5KUGFOUVRGZG9jVFRQX0tLVWo3WnpjbF9vM1MzVFRNX2kxRw?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "12b6a21dfa56fb78",
-      "published_at": "2026-06-21T18:56:25+00:00",
-      "title": "The U.S.-Iran War: By the Numbers - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVFREWVkzellGNm1qNFhBWG9seVNqc081VE1Od21qT09nNHNONlZTUUVWaE03Z09mWnZFbWthelFsR210d1hLY01RdmFFN0k4d3JrMkNidlY2eTlpX0ppWWU0MUY1TkRpQkxHcnZJUGtPOXhwd19SOG0xeWdBdkJKYklqbDlaVTZx?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "4016c822fa4fa77d",
-      "published_at": "2026-06-21T17:59:00+00:00",
-      "title": "Iran Says It Is Pausing Talks After Trump Threats - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSTZVenJFcjA3OTZZWklMc1lneGJzd1VkcHpCb01HZlYtMTh4Rlh2LW1iWnhCMVZkWXNzRk0xa0Q2V3R5YnNTZ1pPTGRHSThoRWRaV3gtVGl0UjNVeXkxX0QxcnFpdVMtWkVJUmtCemVoVGZaZzhubWFqVHp1OUhxY0VOOU5tZGtHSkZlaXJNUWducFdGZVpVblhrOUx6TDZWbzlmYXZOOTlHYk1VaWhr?oc=5",
+      "id": "b99d1940e02f7cd2",
+      "published_at": "2026-06-22T02:00:00+00:00",
+      "title": "As War With U.S. Eases, Iran Steps Up Hangings of Dissidents - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTUhZQ1dHb1N5WE9NM3Y5bWNLcGRkREFMODRHbWZiNVNkSG5xQmNsQWthRVVsUl9YYkZJbzlHTG1rbUpjbDVsTi1vRUNiMUgxYnYyOUhzZDlUamhPSzVkUzVTMmxZSjBMMnhxOFFhNXEyRVdMcmpvdFdCeF9qSmpnMTk1Tzl3Yy14ZU1USGd1YV82emhRT2dfNzhIVDl3ZGNhTkhUOFh4MEE?oc=5",
       "source_name": "WSJ",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
       "confidence": 0.7
     },
     {
-      "id": "4cf36576b913c009",
-      "published_at": "2026-06-21T17:37:13+00:00",
-      "title": "Live - Conflicting accounts emerge over US-Iran talks after Trump warns Tehran over proxies - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FLUthajdDRFVvZ0R6YkoxbGJtUXlfWDVIRGl6amVQbm9RODg2M09ISzNnQy1CZHZPb1dyeW1VcXl6TGMzYm5rRTFhTnV6NWxBYk04U25LNHh3MUwzcVE?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "389ca0e7c14dd349",
-      "published_at": "2026-06-21T17:34:09+00:00",
-      "title": "US and Iran publicly trade threats as talks take place in Switzerland - Euronews",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVXE4QVhEMGZSZVRvQjBXdXZ4V2Zac0JTTTVqWFZCREt4R192NlNnZEpnLXBCR1lsbkZEcU5Vd2dxOVhSUFFJS3hMdnNrUUhIS2RXYkR2bGpPOE5jRWdRM0s4RWVpRWVaR04zUWQzTGE1bUo5bUpQTHEzY0RIYXVZUWl3ZUVNaVZOcTE1WjF5UXJ4ZjdmY1dCRk9LUVFMb1NTbEIyTHRR?oc=5",
-      "source_name": "Euronews",
+      "id": "72f8e7630c270b94",
+      "published_at": "2026-06-22T01:56:00+00:00",
+      "title": "US-Iran negotiations end, technical talks will continue after Trump shakes talks with threats - CTV News",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOT2tYN3ZWX01HbUx0ajZ4aWRjVFFTdEhnODF0WjBPUUc4akwtZEQwb3VndWdzbTYtVFFhdU4zUC1jbDc3M2wxcUFtR3ZvZ194N2I0VUtkOHhYc1B1OURwQ0hRWVhOcnVKNmpNWkxsWF8yaEJ2clVCNDNEQndVNHFLX2xqZnhJMUtEcEtMU3haWm8xamREVmkxNWk1Q1RtX0VkWE1taENEcnltYWN4OFIwbmUxYjVyMFN3QWF1eEd2aFNGTVlPeHhMS1lEQVVxRzg2ejNvam9VWQ?oc=5",
+      "source_name": "CTV News",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -353,11 +338,11 @@
       "confidence": 0.65
     },
     {
-      "id": "9a0cac2ec710f671",
-      "published_at": "2026-06-21T17:29:57+00:00",
-      "title": "Trump threatens to \u2018hit Iran very hard again\u2019 while Vance in Switzerland for talks - NPR",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVF9idV83dFpLekJRQW1SMVJEdHVLRWRKZF9zanRTcmI4eHBGYmxxeHZ1eHdIczhVanlNSFFPb2stV2tHR3A5dmlid0UzT1lZdHUwaGpsR2d4aUI5bHM5Tl9HUHRPMXMza05sTENGVU9zUW9zc285dEFpOUtDbXYwZnVzLUpDRjlvQlgzQldHa3JwN1Aya1NQVQ?oc=5",
-      "source_name": "NPR",
+      "id": "dac630cd1362c10e",
+      "published_at": "2026-06-22T00:19:00+00:00",
+      "title": "Iran talks go into Day 2 after Trump threats, Hormuz closure - The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPYWMwLXR3TUZjQmRnTXIza0djZHB0Q2R6TG9PRlBiWHdXZzdDZ1NWOFVmWnZMV1h3OGE4bTNvWW5DUHU1MzMxV1hhWUNCemY2REpvRzNKeVlyRUFhWjhUcG00TTJXa0t5bHJkVHFlVG5QSjVtUjhIbGRjbzF2N0dIaEgwbHJhc2dHdGtibG53R0pranF4dThMaGRQMTFpRThpTnY4U2hoZHhGdmYtS1Itd2V5VTRtZXViNEp6bFVVeUw?oc=5",
+      "source_name": "The Detroit News",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -365,14 +350,29 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
-      "id": "ebe045245179e2dd",
-      "published_at": "2026-06-21T17:24:09+00:00",
-      "title": "Iran warns US to \u2018be careful\u2019 after Trump threat, says armed forces ready to respond - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOa2JxZXI4YlFsdmhxWUtpVFFiR2RxQjE4dUdhcDNvb1F4THhlQy1QZ3N5c0hjTmV3cGd4NS1DOGJJRkJQaVJzQTZHdEtrbVhocFVCLTRiV2txbkdfaWRuMUhMT0NpR0dDSjc0SmtNelBoSUsyd0dUYVkxU3lyVTdGdlZ5YzhGTEEwU2NXZXlBTzhLU090TzBYZE1rZW9PZ25zR0pWaUd5Yi00eVJaUkZRRVRzRzd0U2N0VG16RHdjaGNyS2h2ZmfSAcsBQVVfeXFMT3BzbnJ2WkZRUFVYTDdpaTdTQ21NUXB6QUtHbHprQ0lUdllUQ1ViNVlRcFRzdGhuVEdZV2E3Ukp0UHN4Y2VxbVc0SXJZSGZhYS03UUUzV1VBU2gzT2Y0R28zUS1ySFRkaDVFUUlWMG9WcVQyZUVabGEwYy1qX0xqNVNkRG4zb2JIWHk2ZTlMLVBxZ29KdnN2MFhKSzJaVUwzUEtmOTFuQlMxRmxLZmctQlpvNlBWd01EbzI4RC01XzBiemZzbXBkMEpYV0U?oc=5",
-      "source_name": "Firstpost",
+      "id": "6dad0555275efc26",
+      "published_at": "2026-06-22T00:18:00+00:00",
+      "title": "US and Iran conclude high-level talks in Switzerland, mediators say - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZWY0di1pSncycGtYTEtHQm9lQXhCWUxRSnlhMHlKdnJIdzdxYWlCcjdPVF9TeWJ6YXZQYU1oVjh0d1hRajdRaklhYU9CMHROR3VIbnNnSTFSaHJHYk1iNUJmLWhpVWU3VDN0cEE0UVZXTmFFQjYzUFZ1eUNNUFh0MmtDWmxWaUhFTjN0aWxMNGlCQ3Uyb0hBSk1Bd1h5cm9lN0RtOEdZSHdRdUlILVJueXJIQTBoMHMy?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "028d8d1d9587d63c",
+      "published_at": "2026-06-22T00:05:00+00:00",
+      "title": "Brent crude slips as Qatar, Pakistan announce 60-day roadmap for U.S.-Iran deal - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcDF3eWNGVGlZNEZwQVZvX0hwV0QyTGlYMDJfQ1BRempseTlFVVdieUs2V2xoWGZZNUxta2lPSExWMEZ3MWNwT3U4ZWZsR3dWQ1Myem14UEdTWWdNMUo5MkhETTl2Ql9HOXhadllCcGhlQ0lBSzJYb1B2UVRQVVhZeHczSlNiNFl0WGFQMXI4aEI4WkFsYmpvRk1DZGJWS2gycXU3Xy1R0gGrAUFVX3lxTE96el92MG1ndHhodHlFZXN4MEF4dHhOTGNIUDBOaWVrVGdfSHpULVBMQVZEVEh2QXlWRDE4aXg2ajBqX3p0dk9EVXdTUmVwSEliRzgxRE1TdFpPdXBJdXg4eG5xNDlCbVhoS21UdHk4WVFoaGwya1N3V1hRb2FCeTFLTUtFb1pBbTRTeDNOcFJWT3EzSng0M1ZxM1JKVktsWDBlam1SZUhjZ2Qycw?oc=5",
+      "source_name": "CNBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -380,19 +380,19 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
-      "id": "eec43db3d260d485",
-      "published_at": "2026-06-21T17:16:39+00:00",
-      "title": "Iran suspends U.S. talks after Trump threatens new strikes (CL1:COM:Commodity) - Seeking Alpha",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDByNjZ6dTQwaWlqQzAzYmZhN0d3RXcxTXQtZXNubUJicXk2Nk9Ua2NVOFJnRDN6TjBQc2xGQWo5QS1RT0JadFJSZ0Vwc3FjeFoteHZWZWN4aHpnN3RTMk5NNUM2N3otUUs5SzVFeVpiSlAzV3BNclVsT1dwSG1EWXR1MDVaNnI1dG1CcTJyT1U1Uk1pOXhJV1Y2WQ?oc=5",
-      "source_name": "Seeking Alpha",
-      "event_type": "attack",
-      "actor": "unknown",
+      "id": "f3f7f22b6556b828",
+      "published_at": "2026-06-21T23:49:00+00:00",
+      "title": "U.S. and Iranian Officials to Meet for Peace Talks in Switzerland - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbTcxZ0hSdjlCb25wV0xpNXZKeWJPenpSSkFnQVFuNDFtVElsWVh4bXNDZGM4TEo3eDFobHU1LWNTSG0wV295b2lYYWEycmxBRkViVGRfdm9ySTNuZWtra0lPWFMybTNERG91b21BbGlGUE52RVdWU3J1c3paT2plRTdFSEUwQjhKV1I4SzdR?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "diplomatic",
+      "actor": "usa",
       "target": "unknown",
       "points": {
-        "usa": 0,
+        "usa": 1,
         "iran": 0
       },
       "confidence": 0.8
