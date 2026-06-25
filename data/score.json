@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-25T04:36:06.137744+00:00",
+  "generated_at": "2026-06-25T09:45:46.028444+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 98,
   "totals": {
-    "usa": 31,
-    "iran": 15,
-    "lead": 16,
+    "usa": 37,
+    "iran": 14,
+    "lead": 23,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 2,
-    "iran": 7,
-    "delta": -5
+    "iran": 9,
+    "delta": -7
   },
   "confidence": {
-    "score": 65.5,
+    "score": 65.9,
     "label": "Medium"
   },
   "event_types": {
-    "other": 56,
-    "attack": 32,
-    "diplomatic": 11,
+    "diplomatic": 13,
+    "other": 53,
+    "attack": 30,
     "material_loss": 2
   },
   "history": [
@@ -42,7 +42,7 @@
     },
     {
       "date": "2026-06-15",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -78,7 +78,7 @@
     {
       "date": "2026-06-22",
       "usa": 1,
-      "iran": 2
+      "iran": 3
     },
     {
       "date": "2026-06-23",
@@ -88,19 +88,64 @@
     {
       "date": "2026-06-24",
       "usa": 0,
-      "iran": 2
+      "iran": 0
     },
     {
       "date": "2026-06-25",
       "usa": 0,
-      "iran": 0
+      "iran": 3
     }
   ],
   "latest_events": [
     {
-      "id": "1df24ca3bae9d4c5",
-      "published_at": "2026-06-25T04:12:51+00:00",
-      "title": "Iran war live: US vows to defend Gulf interests; Israel kills 2 in Lebanon - Al Jazeera",
+      "id": "430bb4f0aae2dabe",
+      "published_at": "2026-06-25T09:30:30+00:00",
+      "title": "Iran-US war latest: Rubio dismisses UAE fears over Strait of Hormuz toll as \u2018semantics\u2019 despite threat to peace talks - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS2swMDBJeDl1TlZVU3dHWkh5M1h1YTVUc0V5THhoZVpQY0FEclp3TDktTHFPTG1Sc1NMTWsxbWZ5VmhxVGp2dmZoMXJnV3BPTk1rdXRUX1ZtUjNNWHNrcHdnMGdPMFdxay1GZ2RhT3Z0R193ZC13VUt4b25qaExEQ0JFNFI4aHJ5dmcxZllucW5hNG8ybDB0dU9VXy1fdXVSWVNTVDRSRWdTSnhGMHhEVW90SXNodw?oc=5",
+      "source_name": "The Independent",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "833f32a14900da9c",
+      "published_at": "2026-06-25T09:04:01+00:00",
+      "title": "Lesson Learned From Iran War: Reduce Reliance on Strait of Hormuz - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uSVNDTFVkNnZrbkgtSEJNemJmbG9vMWtLSWk0X2U0ZHdBWS1PbG9EeUo0bE1iTU1nejRVMkdOVVdEdDVlT0I4ZjlZZi1MWE1YT3JVMjlzSHBhX1VqUHZLWTlBOVBsWHFhUkhhSzJFVDg0T2dZRktDLWtrVlBQN1U?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6adc59a46913f851",
+      "published_at": "2026-06-25T08:46:38+00:00",
+      "title": "US Senate approves Iran war powers resolution: What that means for Trump - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZXlSUUhWTlFrMzRuand3cjZTNXA3MGZBY3NtUVBzNnBDTGg0SG15b1FWMVY4STRNdzhsaVNjV1Y4a1J6T2VUNUlvZ3ZuN251ZF92U05TRU5Tbk50bnpVOHRjdk9uS191ck5peDJScHpXUGt4b0JfXzkwc3VHYzlaV2ZlRU92RXJHODlfRzJmYTdVa0RLM1dVVWVKeFlremJxeWNlamgxejUwZW5fV2FmM09B0gG3AUFVX3lxTE5RMHpGWEMxWFJnekpKcUREMkpJX1dqczFTUkxyOXRKc2lXOVBkTEwySFFvMUxXTE9aRUZadHhTcjVBbHNZV3lwRXlMcE51SGJQS0ZvcFVZQ3h3U09yc29xZFp1b0dUb0RGdFBYMDJWRU1XX0VKR3NQQ0V5WjhMQXJYZkFja0NxOVRZWkMwRld1UWdmUzZrOEk5X2VrZm9mbFNOZnJRSEZFTHVRdWZsZ2ZJU0Nwb0o2dw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a11b9f21c7c20f01",
+      "published_at": "2026-06-25T08:42:43+00:00",
+      "title": "Iran war live: Rubio says any Iran deal will respect \u2018interests of allies\u2019 - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOHZGMlVVcWRmYVBfNGx5WEYwbHBVZkhjcFVfdld2cmQ0VWVPMzIwcHg3dnl6alFUc2UtRVgzQVhPZWFfV0hUVUNkYXdxb1JaZzl1cG41SG9HbDZVQkhoSnh0WFNGSS1IUjNSTFU5QUJXbWlsS3QzQmdpTmZmLTNSZVRuSVpVeUtuYnhKajdQSXJsOFFXSVB5RmlKbXJ6Sk15bUFESzF6YVZrTnh4LTVGVW9Gdlc4X2RaR2cwdzNLRdIBxAFBVV95cUxOSjI4NkNxOUR3NmJjSjRUQjZkZ1J0NFBJdndkYlJ4aVo3Wk9IZXR4Qk1rYzJ4bGxzM004WTA2d2taOF9jX1FYeFlEcTQ5VXNLZTRPdnhud0VvcUtNSGpMbGQxRnlYLVlIS09pdTVRbUJnVEQwbng1WlpscjY5TnJWVjRpWTFWZlhwVVVZZlB2RjdBUElVWlBzeklIcXJWQXFsTkljWVFoS0hFTTJVNEJzNW5VeHpNV0tRMjdvZkhuVmw5NVF3?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
@@ -111,6 +156,126 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "5b8554965bae1683",
+      "published_at": "2026-06-25T08:32:52+00:00",
+      "title": "Iran war day 118: IRGC rejects new Hormuz route; Rubio to meet GCC leaders - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTGVGZEcySkZxbnhRTUE1MWliQ2IwTVNZSmM2VUFVal9EVXFaaE45V2o3dEs3ekU3OTN3OEJyMjBpOGgxVzFNWmh5a2NaWFpUaG1RM2haYjlxVVozanN1OHdzMUtHV2FDYmxidVdncFNvV09kV1RPUl9lR2hXUHB0elpROVV2Uk1JZHNTNFhoNldha0RIU2JLaWZPUjE4MnJqZi1YX3lEc185a2pmYmdpNHJORdIBuAFBVV95cUxQRllXRU9WcXFZV1NRbGtPMUcyb0VXeWhjWUZPbzhjYlFoX2JFWl9wUEFYWFFTWjFmRVR3b0JmRXZ3dWVWLXA0YnhZSlJKQmhkTUFKVG5oR3hjLTNqSWF3QXZXeW93M2dIRmJqVmxwVHJYaENGTVpJSFBSRjBNeF8wTVhTMmhqS1FqaE9sYkI1cThTWmoySTk1V1BUZmRfSEJxeHdFaXgzUGxUbXRST1pkNzFPaUlMNHda?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "fe6b9500af1a2a8c",
+      "published_at": "2026-06-25T07:43:00+00:00",
+      "title": "U.S.-Iran Updates: Nuclear site inspections will happen, but timing \"not essential,\" IAEA chief says - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR0dEV2RXc3J5amJ3cjFXd21PakhnQ3RCYVhtcE4yV0pLb1Jrb2RlMm4zLVhkaGVvc0NrS281ckZ0Z2JIaUdxbzBIX0Y5TUdxWkg5UVBZS0JtUkU1blhfVGdKY2lNb0xDZm01MVktOXZjcmdMNjhKVFh3dXlYOXFMSjRPbXFPRElIdHFnYUhXX1ZadzNKbUY3N2VROXRPWElHU2ZYdg?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b4c427c5b7794acc",
+      "published_at": "2026-06-25T07:11:05+00:00",
+      "title": "Oil price falls to levels not seen since before Iran war - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBlQUl4cDBRTkNOYTJMZzdGeFNiRzBJOG5SY3BTM0c3YU45eXVSTk9PVUpmRmt4My12NzB3dllKLWJrZ01yMDB2dG9rWlg1SU14TEx1MHJjVk5MQQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "93cbd266863f507b",
+      "published_at": "2026-06-25T06:27:00+00:00",
+      "title": "Reeves defends record as chancellor and blames Iran war for slowdown; Oil price hits lowest level since before conflict began \u2013 business live - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOUFia2dHQXg1QXEzQ1FNSzR5OFhnbWNubVVYMUxxX09qbmEyNTQ4eVdodTFJd2h0UGg2ZVc3blNXU2luRkZCa0pUS2JuZXJJSGJyZEkzbXJpS0V6TlF4M0lGYUNDVjJlWWZuY1hsMnJRZVFXQllEMUJkRklnRXhtdVNLaDFNX0pBOS1UanBFX1MwQllBaHVxZ3hOMXZUWHRoMDZfWmZjWnRsQUQwOWNKTFhOT2dqd2tEMXlrYnFpN2lSX25mN3RWTkdOOXFkQWVsTERFWTFtSQ?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "dac21b914f0e2ccf",
+      "published_at": "2026-06-25T05:23:00+00:00",
+      "title": "Rubio in Bahrain as US-Iran diplomacy ramps up - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVWx2SkpZTHNtWUd1ejk4Uy1rNklFY1RMajVjZnZHWGJmOWRPdklWbS00d3hDTzJtLXp6TUdSSVNhWHJZclZmVXhXcTN2WDZnQTB5MlVtZE5ESVo0eFN0RXBwLU5uVndBREprSXktZ3ZxWWxQRFNrOThUTnJjbXZUQzRkNjE3bFJ6MFY1UmstWQ?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2ab9559c4fa3f72f",
+      "published_at": "2026-06-25T05:01:00+00:00",
+      "title": "Rubio in Middle East tour says any Iran deal will ensure security of Gulf allies - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLWs2OHl5WVA5bE5meTdpdEJtcnhLdjBMTXltald5eHBVSW9Ha292Zzh5MEcxTS1BNmR6TDRsbVRLX1VwNFFZTm94MEZmUzZhdnhFbjdkNzhCSGE0b2dWLUw4ZTVSMjRfU2ZTMmdfVWpSWU50bXRfUWlpUGZEdzgwT1NZR2RWRHRZZnUzeldSQUsxbEtCTVd4WHUtdDEwRzFtSVgtckFxcDY?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7e420515cd32c456",
+      "published_at": "2026-06-25T04:53:24+00:00",
+      "title": "The Middle East\u2019s Great Divergence Is Underway - Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX2R3UjNvd0VxZnJ0VlA3N1ZOQUtXMi11a2VrZWRQOE80Sks2ZmpQWnk2ZDhDS09RbjloakViejZsNE9XRWgtTmE2ZC1nSExvMlVmOE1kZmxQYnpmTDloQmg0enE5QUZFZTdiajhMRnFDOEs3LUtQTGxhS1l3R2U2S1lpSk00RnZia2Y2Q1BiNTBDRGU4WnVTZm5n?oc=5",
+      "source_name": "Foreign Policy",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4258488b4474e2d0",
+      "published_at": "2026-06-25T04:38:25+00:00",
+      "title": "US Senate blocks resolution seeking to end US role in Iran conflict - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQSkRicDE2cWgxaHlGTlNUQVdOZ1ZDWHNITFZrYnVCXzhnUzliQnphMVY0N3FlU3N4ZXNESWpFZm8zXzQxVmMzbkJ3em5XdjJONmRiZzF2WXI0V215U2dIYkQ3NzluT28yaUp5eGlWM1hhMFByZzktWEJtUmU3QXBRSkJyOVNQRjdrMGY1NWxVeXJsTy02anhfMWM2U1J2TUtFUkdiSXNMR1N4ZGx5X1E?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
     },
     {
       "id": "6d11043c648aa1be",
@@ -158,11 +323,11 @@
       "confidence": 0.55
     },
     {
-      "id": "b65361324b960c38",
-      "published_at": "2026-06-25T02:08:00+00:00",
-      "title": "Live updates: Global oil prices fall to lowest level since before the US-Iran war - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYTRyTGFMT0FnbFM3OE13em1sbURITEpySU5vU0NBaVhCRnhrVGJHLXF4cXJ3Uk9fUEphUmtlZ2llT3FfN3Q2LXBwSy1Jc3JHNFJkclNHLVk0anRUa3hHVW1ZVlEwWnpIMm1CWFJlZGF0VzBzeGpXalJTcVdIeU9ja0pB?oc=5",
-      "source_name": "CNN",
+      "id": "bccd30ad33fe90de",
+      "published_at": "2026-06-25T02:06:01+00:00",
+      "title": "Just 1 in 4 Americans believes Iran war was worth its costs, poll finds - arabnews.jp",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tbjRtTmRxYURaWXVHbUdob25jT2dnM3NJdExqR0JOVHJWZ3l2RGhUSkpxdzdNMkZTMEtMeG5KbHZNT05RbU0tRV9FRnVJS1FqemhQVkc1NVdQY0h6b0RaNFBUcko?oc=5",
+      "source_name": "arabnews.jp",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -170,7 +335,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
+    },
+    {
+      "id": "b8fbec345e675b3d",
+      "published_at": "2026-06-25T01:48:55+00:00",
+      "title": "Trump warns U.S. will act if deal fails as Tehran says it's proceeding 'with vigilance' - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPWnQwUVREYlF3bjZQR3Zhb2hFOXBfRlpYbGlqa005Ym9nWXlKTVA5ZVFxY0pwekhONG9JaHZPcTQ0cE5yUDVTUk1pRzJjc1AybDRmQXhULWdrS0lOY0N1dXk4cUlGaVI0RDJGR2owSnIzSWcyMmVuOWZKR0ZJR1pWOXJYTVJtSnZIei1jYkJMc2kzYVpTSkJiV0F1T1lXX1d2cEtiVFdn?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
     },
     {
       "id": "1763c3f9b0599540",
@@ -186,21 +366,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "fe6b9500af1a2a8c",
-      "published_at": "2026-06-25T00:10:03+00:00",
-      "title": "U.S.-Iran Updates: Nuclear site inspections will happen, but timing \"not essential,\" IAEA chief says - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNR0dEV2RXc3J5amJ3cjFXd21PakhnQ3RCYVhtcE4yV0pLb1Jrb2RlMm4zLVhkaGVvc0NrS281ckZ0Z2JIaUdxbzBIX0Y5TUdxWkg5UVBZS0JtUkU1blhfVGdKY2lNb0xDZm01MVktOXZjcmdMNjhKVFh3dXlYOXFMSjRPbXFPRElIdHFnYUhXX1ZadzNKbUY3N2VROXRPWElHU2ZYdg?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     },
     {
       "id": "776c9085924ce4e3",
@@ -231,171 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "f03c4af5100b8307",
-      "published_at": "2026-06-24T23:37:30+00:00",
-      "title": "Limiting the Damage: Saudi Arabia and the Islamabad Memorandum - Arab Center Washington DC",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYWJNeUZqMDh5NGhwWWlOOFY5eXpqcWpLUXJmV2t2S0ZVa2hwT2J2TWw1TkhtYjZ4WmRpTm9BOW0yQk1tVGRkNEtFTFB2WkZwWndHWlZEbURtc1ZQVGQ3U05UT2R3eW9vY0pkSl9DSU1KN05kdDI5azlFZlpxYVAtcS0wWkRRMGZhRjA4R2I1QnRjSm9PRWFmeVVxemE?oc=5",
-      "source_name": "Arab Center Washington DC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "80aeba41a0cb9ab9",
-      "published_at": "2026-06-24T23:31:38+00:00",
-      "title": "Trump White House requests $87.6bn in spending, including for Iran war - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPQUlwVjJERTBFb0tpSjdYQ0h3Y0g2cURHc2xoRkFYdUJyRVNMSWJZTUVDWUs3djVqRmpMQlVma1ZVUXN4X0dQdGdGS2QzRF9CaElNZlpXMWlsQmctMTBYbnotM1QtUlJyRC1Ha2pBTlVjZHROdGZZaDduU18wVmZLWlViODMzbnJwV3hKQXdxUnR1OTJIeF9zS041ZHFlZ0packZIMlZKb1VYRll5TGfSAbMBQVVfeXFMTmJzTXh0cFV5MXgxbVBXQXRjOWhYSTNYNGdtSG9tRm0zOFVFaXJBa2djWHgyVnRsWDRDVlZfZmpzRjBKbmhhOVl2M29JdzRwbTBpRndYQThFQ01USzJIejBVcGJyZlptTy1FUWxjQmtFX1RJM0xoLXF0WXdSem9sZDNiMFpRcFRWdDdCMmZuS3MyRnZKaENlZWpsS25Hd3NJdGlMX2dNZUI1T0wxRG9ZVkh0VDQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1d61de7c1a31428d",
-      "published_at": "2026-06-24T23:00:00+00:00",
-      "title": "Readers Write: The reflecting pool, war in Iran, boat strikes, the Twins, Special Olympics - Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ0s2OEZCS19MeWlFQ1VWNWtEeUtGNDVZaXNibU1LUTF0QlRBRFFmbVdFQnc5YnVuczdGTmdjUjF2akQ1aWdkeE1vZ3ZSZ0prV1VaUWx4MTlwOXk3TTdwRjFGRGVZS05KRUxOemJ6aEFEcDJUU3BJSlR0b1RlTG9CM3dwTHNYY2NaUExhRG1jUnlKUGFrUWIyaDRpcllSczJQUkxUaXk0NlBsRmEtaVZzdWxIYVhpbEpJODlGb19B?oc=5",
-      "source_name": "Star Tribune",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "cfc1677c1e485a44",
-      "published_at": "2026-06-24T22:10:48+00:00",
-      "title": "US promises to protect Gulf states' interests in Iran talks - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVWx2SkpZTHNtWUd1ejk4Uy1rNklFY1RMajVjZnZHWGJmOWRPdklWbS00d3hDTzJtLXp6TUdSSVNhWHJZclZmVXhXcTN2WDZnQTB5MlVtZE5ESVo0eFN0RXBwLU5uVndBREprSXktZ3ZxWWxQRFNrOThUTnJjbXZUQzRkNjE3bFJ6MFY1UmstWQ?oc=5",
-      "source_name": "Yahoo",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f1b7a7fc15ceeea4",
-      "published_at": "2026-06-24T21:55:23+00:00",
-      "title": "Trump says NATO allies \u2018let down\u2019 US by not backing Iran war - France 24",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdE9Cc1RTenhHZmt0SlVONmV2NzlmSFNyOEFaYTdGdEVKVVQ1a1MxSXJ1SURRSnhnVzdzdnl1TnRYZzdZdm42MVpQSTRVdWRUNm44UmtCejdBLVlvcEkyOXVkSXhFN1dueUdUTjdEaks5Sk1qcEllbUlHZDFxemhIWGttRVNpVzNZMlRsUWhETl82Y0ZPYmtWWDhB?oc=5",
-      "source_name": "France 24",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "859108e36e95e628",
-      "published_at": "2026-06-24T21:52:30+00:00",
-      "title": "White House seeks $87.6B from Congress for Iran war costs, U.S. farmers and Ebola response - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOVlRma3dkSlZfU3ZTWXV1Rms2YlUwRDl4NEFQSGNEQTZUOTF0MWhCY3VTMmhpR2RuZmR4T0JHNUNyTGk4VDRvNXMzeDEtbkZQMTJtbFNJd3NxQTdSN0dTM0NqeFlVM1lHZU1wOTQtVlZVQ3p3cGZOR2tMQlFmWlhBTUo4dmpmcEpQVnMwcGlROGFHZG9wVDRUME5jbDFnTGN3cFlIZEZnanNFMzhrX2ZxaWplRlYxd3hkS3pNZW5kdkd1eUnSAcgBQVVfeXFMT1JhUUl0aVpZQkZPTVhNUTU3YlFIQVZBTHZkX051OGdmU2NGNVJVSl9pSmdrbF9NRnNBM2xrYzU0ckh0Sk16SjlDYzE0YnNxc3RVaTJkOEc3VmJkQ3BuWVJsck01NzVCVzVZaUZkSlhhNGpjMHpWRDNTUzFTS19lRlZCbjZHLXRCRld5c00teFRwVkp2U21YaUIyaEJqclFOY2JUMEFORTd6UVBJc0ZMNHA4OFRrbE1ORDRid2pGWkNvWWVocWF1NWc?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5324d448841e15e3",
-      "published_at": "2026-06-24T21:33:26+00:00",
-      "title": "Rubio tries to reassure Gulf allies on US-Iran deal details - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRUdVM2FybnVjMkZzY0pHNEY5V2VRNFhDRXh5QWFZWU41d01Ic1UxV3BaWnMzUy1ocXBNRDA4aDRRZUV2QnMwRkRncUYzRmpQSDEtaVdxX3lzNlNUQ2pfLVJmYUtEV2tiLUxpSVVSbDFISTgxYUlhVFo4OWxnMmllSldBWlAxSS01SThCQkxFVUhPODg2ZHMxVlFvcVlxRkRMaEHSAacBQVVfeXFMTmxVbnRHUm1UYkpRMnRGcmJXNzFvdnJvUHpuU2I5RTJYa2ZZa2tKd0gyTm1fWUJSWHVpZHlzVXlDVW1iVVl3c1JYV1RnTzctR1FkT2I1X3J5MmhHU0k3R3EtU2lzYU83Si1RamlsRFU1Y1R3VzdmRHdvQ3ZhdHY3S3lQcVFReGdwQ0FUZk82SXI4SmFmRWthZWFTbE95aGU4RkYyRnhHNmM?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "7439a646681cbb1b",
-      "published_at": "2026-06-24T21:30:20+00:00",
-      "title": "Trump Asks Congress for $88 Billion, Mostly for War With Iran - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOWjU0alBZa0xibFFFUVlWVzUxUUFtWF9JaS1LMmdrS2ttUUlyRzhGekU4emdOMmxUZkt5dUdDWWpqY0hIaWhMWGx4MzQ1RTJIdFRxdC1Pdms2WlBtS2M2VElhNHZINzJJRTR6Mm5xTnRrc2xhS0F6MEJGMzNPbzlYN0M4TEFmRlpFVC01eg?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "eccad6b29916b6d9",
-      "published_at": "2026-06-24T21:30:05+00:00",
-      "title": "Opinion | 8 takeaways from the US-Iran war - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeXZaUzZoTzVvTHRXWGx4dWpuQkxtTW5YNFRpUGh4MHppSC1HZU1wSVJrTXFua1d6cHh0V2tFYlF1QVBqNzkwVWszZ1U1clgzalpiN2VUMVNqdW1OR3ZaSGNNT00wZWZ3Qkl6aGx5OVBrdjNVTXR5RXMzX2RHS1ZnaHZwVE9BTVdMRkHSAYoBQVVfeXFMTkoyWnpTaTloRFIwMkN1YkRIcXRYVGFDZTlIcW1iQTBxWk9ZLW9FUDBxSE84YkN1TExZLXBzazdIQ0d4YU5ZWVg2MnFtT0wyNFJTMDJwMnRyQnlJa1Y5aElSUUNZVEFsRU9wRTNuUmttOGJMZ0ZEdTRqal9RcGVSMUpocVNVcDZKT3pB?oc=5",
-      "source_name": "South China Morning Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "6c24a48696a17ea6",
-      "published_at": "2026-06-24T20:13:00+00:00",
-      "title": "U.S. and Iran Offer Conflicting Accounts of Nuclear Discussions - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Pak1acG03S1o5ZmJ3LXAwclNpWnZyV21PaC1NY0pKSW4yalNSbV9oQXBxcUR3WldvWS0xZjB5OFZxYWRaNFVqa1dMbG9leUJvZ0NBOXZZMldIMWNydWVFc1B0UVVHdnJhWTduelNjRUdPemVwaUE?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8f15405a73a2c5c3",
-      "published_at": "2026-06-24T19:00:03+00:00",
-      "title": "Opinion | 7 Lessons and Consequences of the Iran War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBReThxSFJLMWxJSHRvREpXMl9IWDlzVGlEbnBVSUMxQm13MkpvUnRrckhhWVR0VmtfekZVTDFRRTJuZTEwb0JwLXZOLVVQZ3NMRnBhY3Bmdnh6bkpnWWhVWm83LVZvb1FFUzZRd2tlcGJWUQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
