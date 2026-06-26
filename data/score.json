@@ -1,33 +1,32 @@
 {
-  "generated_at": "2026-06-26T20:12:36.862207+00:00",
+  "generated_at": "2026-06-26T22:38:00.354266+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 83,
   "totals": {
-    "usa": 33,
-    "iran": 19,
-    "lead": 14,
+    "usa": 82,
+    "iran": 10,
+    "lead": 72,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 9,
-    "iran": 12,
-    "delta": -3
+    "usa": 82,
+    "iran": 10,
+    "delta": 72
   },
   "confidence": {
-    "score": 66.8,
+    "score": 71.0,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 51,
-    "diplomatic": 12,
-    "other": 37,
-    "material_loss": 1
+    "attack": 58,
+    "diplomatic": 5,
+    "other": 20
   },
   "history": [
     {
       "date": "2026-06-13",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -68,16 +67,16 @@
     {
       "date": "2026-06-21",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-06-22",
-      "usa": 2,
-      "iran": 2
+      "usa": 1,
+      "iran": 1
     },
     {
       "date": "2026-06-23",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -88,21 +87,111 @@
     {
       "date": "2026-06-25",
       "usa": 0,
-      "iran": 5
+      "iran": 2
     },
     {
       "date": "2026-06-26",
-      "usa": 6,
-      "iran": 4
+      "usa": 81,
+      "iran": 7
     }
   ],
   "latest_events": [
     {
-      "id": "b29486376b8978ee",
-      "published_at": "2026-06-26T19:37:35+00:00",
-      "title": "President Donald Trump blames Iran for a drone strike on a cargo ship in the Strait of Hormuz - Chicago Tribune",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE93Q1hiUmw0YV9rNU1EdV8xdHlScnB2T3hXbDhmNURFOWNFTWdDQy1YU0N1U1R5SkJ5RHl3UXliZnpjYUJBUFRzcGhoSDVUa3VSeFF1ZUg5aTB5UmgyVFU4R29hRjVDTjVtMFF6eTdqak12M1I4?oc=5",
-      "source_name": "Chicago Tribune",
+      "id": "ad639ec4b846998f",
+      "published_at": "2026-06-26T22:27:50+00:00",
+      "title": "Live Updates: U.S. Strikes Iran in Response to Ship Attack in Strait of Hormuz - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8zUC1WSUVpMkZDQ0ZZd2N5Si1yeEc0cnF3UFp2aXRUOU5ONkJfcnFNalJMTnRQbmM4SWpRMUpxWGlDN0NQR0owa2dVemVOLXN5aUFsblBaUzFrNnIzN2Q4Nm5BMHYyVFFmOFgxMm40UE11YTBZcEcw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "8143e4793eba48b0",
+      "published_at": "2026-06-26T22:19:06+00:00",
+      "title": "U.S. strikes targets in Iran after Iranian drone attack on cargo ship, posing challenge to ceasefire - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTi1iS0o0WW5IMEZyNWRfY3cxd2p4V1JJTVZrWVh4UlVqQ29scnNSb0lJOGpHa2VlbC1BYUg4SkFSNXotX2RnaTlib0pwOGp4UDhXQnJ5THFIMGc1QkUzR2ZfdGZuV0xZMEhMWnhlWVNOTjM0dGdBcW5PODV6a3FUdjlhazVQTWE4MUVGWEJqTHpwVEZlbm93Sk9Bdw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "d9da37f2203a267a",
+      "published_at": "2026-06-26T22:12:07+00:00",
+      "title": "US military strikes Iran \u2014 in payback for \u2018unwarranted\u2019 drone attack on cargo ship - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSFQ4RlZIWjFyWVdWY3NreHNKVWw3WGpzVEhwdmoySkc5Q3RRMHVBQU1hQ1pZYXB4MGxDdUZwc2ZWY2EzMGZhVW5hdnc5Y2RST0VDQmxQbUlfY3RUekhBWkNDdUtReFF0blV5VTIzNkJJbHNVNG5MM08tQTNOYkZCV3YtbTlwVEY3Z2Q0MzRGeTRzRFUyTkpuYTJLUzVlb0tEeWpXU21hQ3hpaDhwWmpXenhNMkdyVGhO?oc=5",
+      "source_name": "New York Post",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "e8ab0fb315aa4508",
+      "published_at": "2026-06-26T22:10:16+00:00",
+      "title": "U.S. Forces Attack Iran - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5fVWtyY0RkeFJZOTRQTVBBX09QcDVDU1JxS0FibUtYMHBwQlNIVDNxSnhmdVM2M2ZRN0VONnFsQ2xuNHpPUVBRejJqYllPY20ta3V4V21pWGM3aGtYRUtqR0s1eVpMWlNLUVdPaHk4Sk1qb0RZLU1WZml2QS1kUQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "415333f47749c99f",
+      "published_at": "2026-06-26T22:10:00+00:00",
+      "title": "US strikes Iran in response to a drone attack on a ship that Trump says violated ceasefire - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeXdJa0JiM0ZCZlVFaTZNVjA5NkJWNXJFRzRfY2ZLR2xIXzB1a0JNUmVDY0R5YWdlTno1VldGNEozb0U5M2c4UHVEVnRPMHFYVTI2ZVdVRXAxZnBzS05mTFlTeTRULWpwd2VySDQyMFdPT0xMNnFnS1JpaVYwbExCQkpsTG9LZEFvSHhQS2NteVJxd1p0cnBFR1A3aDFQVkNFY1I5ZUc0SWY?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "670aeada25b27bb8",
+      "published_at": "2026-06-26T22:02:01+00:00",
+      "title": "Sky News Australia. . American University Foreign Policy Senior Lecturer Dr Garret Martin discusses the US military\u2019s recent strikes on Iran in response to Tehran\u2019s attack on a cargo ship in the Strait of Hormuz. - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNzNEcTQ0WUNZd3BZRVJwRDBPNTBkUnBjY194Z1JvTS0xdkNkMXFENFJKMXVPMnAzdVFROU93Q1ZKYmlvUVJuS1BrT29kN1Y1Wmd2alRpZ0w5N1VBdzdpWUlQdWRIa1dHcmRYc1FrTy1jOGkwUktaYjRYNVpjSGhQSERoejZCT3ZpcWFsZG5xQ3RzZ3FZMVpOQjdNRXVXbE5OVWx2dmYtaEpKVFFaVlYzSFNhQ3B5d0podnBtVkpmdXBPODRqcnZibVpDTlBCWnhNVEdwLW5SOEI?oc=5",
+      "source_name": "facebook.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "b469c22071d30154",
+      "published_at": "2026-06-26T22:00:17+00:00",
+      "title": "US strikes Iran sites after cargo ship attack - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOb0RTWUlZLXVjUEt1TWFfQnFDWk90VjJfMG1pNFpqTzhmY1ljZVN6TkR1RkJaZWdlM242YkZhQlhrUnlOOHVHYkZMMEQ3YzVNWGVfbndnbkRLUjZ6R0ZhSHgxeF80VFFncmh3cWdCUjRLR1RKYzVDYW5DQVpmS2JoYlU5WDZaclJ3amYtM3JSaVFKekRH?oc=5",
+      "source_name": "Al-Monitor",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -113,41 +202,146 @@
       "confidence": 0.65
     },
     {
-      "id": "3415ef73da882784",
-      "published_at": "2026-06-26T19:35:52+00:00",
-      "title": "Iran-US war latest: Trump accuses Tehran of \u2018foolish violation\u2019 of ceasefire - The Independent",
+      "id": "81462d2b049e5e11",
+      "published_at": "2026-06-26T21:59:47+00:00",
+      "title": "US Strikes Iran in Response to Strait of Hormuz Ship Attack - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOWtBbEs5QjVOekp1cnVHSFAxamtaM0VONkMwRkVfOUZOb0M3VnFHRGJhRkpDZFk4aWNNMjlEcFo4d3JrNXBpbnFkOF9temZqaVB5N3R4VkJuVTJwNEozUWZRX1o2Q180ZnN3VmRqQ1hURmFIVjNnTFQ2NWdnS3JtWV96T3B5bXd2VmRPdFY3Tkx0UWRsZVVqYm5ZYk01OGVNTEZEWTJqZVRNZGVGeFRSa3pqZw?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "600246584371aa62",
+      "published_at": "2026-06-26T21:54:06+00:00",
+      "title": "US strikes Iran for first time since signing ceasefire deal - The Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTVpSUm9DOHU0aXFkYXhwdVBtamkybzJ5b0pVZGVrQXdUQ1dONWgzdmNUYVM0Yk1qOUpYVjF6aUJyeDUxQ0J0akJPQ3BOd2J5VFpQUWdGenNZNkc3bU9yUnpEWWVuYzRnaWhnZlE5NHlIRnVRdXVYSkpXU2dQTVdhWVZKU193ajlaRTdZQ1I2eVQ?oc=5",
+      "source_name": "The Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ae121ed6247aebc1",
+      "published_at": "2026-06-26T21:52:00+00:00",
+      "title": "U.S.-Iran Latest: U.S. strikes Iran after Trump accuses Tehran of \"foolish violation\" of ceasefire - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "8cdde5e183d2f4b9",
+      "published_at": "2026-06-26T21:52:00+00:00",
+      "title": "U.S. Strikes Iran After Its Attack on Ship in Strait of Hormuz - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMUZlMk5Tclk3dHFkbDljQlZGVUpQeGl2aWo3LXJGeW9EN3N6RTF4bGxDSWpja244WHlWSDBRZDNDbndKTm9iaktISFFxeXl6b1Z3dGQ1VTdNYnQzUnFELVFnN09hSEo3RzJTaTZ0bm45SEx0R2I4c1M4SG8yWTExOUk5T3oxNWVMWks5ZGttN3YzamVjQzhRX2IwMXdZRVNES3VjaHRXTVpKaW0xbkE?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "1220560bf1067057",
+      "published_at": "2026-06-26T21:52:00+00:00",
+      "title": "US military strikes Iran in retaliation for drone attack on commercial ship - The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPZmo3bEk4WURMaV9RUmVqaF9ieGNoWUVVcFIzbEY1UlU2UGFiSnY4LWFKN2RwYmhKYlFNY0pzcThxeVNuRDl1R0VuTG9VWmNIeWxYNHI3QUc5S1pRT0dpcmNsX0pwaUtWT3NPdElhUG5yeG1USm9TaW41RUlMTU9PZUpGN0Yxc3BOM0VNVTZzNndYcXRRUDhGTUY5bnJFUG1palY3WjRPS0NlbHhlczRiQzI2QXhJQUJQT3FHT20zSkhlWGt1MmZ5OVVYc3ExWnhLb2ExdmxYTE80c09m?oc=5",
+      "source_name": "The Detroit News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4da6a18d6735ce4d",
+      "published_at": "2026-06-26T21:50:14+00:00",
+      "title": "Iran-US war latest: US military carries out strikes on Iran after ships struck by drones in Strait of Hormuz - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNnd4NjZ4T1kydDBLS2U0STUyTFUzRTRYazNFQnplcEVSRXd1a1p0U0FlZnFiRGEyYzk2cVZVOS1lRFVZejR4VFZTM1I1OXVzWWV6TWhfUmRIMWI5cXVFNHZwaTFoZS1Jb2JKVDJPckRPLURlRkxxdWdQcG00VkZBMy1NWXhMTGFOaW9NMFU2MlJsR2lmYkZqcldxeFhLZURrUGJyb1FMdDh0ZHl1WDd1Y2hSdnVPbDJqT2tFXzQ5a2k3QQ?oc=5",
       "source_name": "The Independent",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1a2fafc07dd7de11",
-      "published_at": "2026-06-26T19:21:48+00:00",
-      "title": "Is Hezbollah Now More an Obligation Than an Asset to Tehran? - Foreign Policy",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWd5dXVtM3lwU1lLVXh1eVU2dVNXRXI5amhEV1lEckp6V0QyajQxY0NWZUIzSXdJbnZCMzFKU25Ca1poaGtQbW44ekJSTGZfTWRRUk9lUUU5aEFHd1B4cFVGYk1qRHZ3ZXplbXRLSWFqcmFJTHE0NzJNUDZjcnhRSndnNkpybk5MY05yN3RpSVNvaHpUNVlNRQ?oc=5",
-      "source_name": "Foreign Policy",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.8
     },
     {
-      "id": "3fa4a40a76ea46eb",
-      "published_at": "2026-06-26T19:14:17+00:00",
-      "title": "Trump says Iran still has 'some capability' after strikes on ships in Strait of Hormuz - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcDYzRzJxb3hnYzJvN18wV2R2dV8yakU1QTdNSW9nRkdkdEQ3M1hIWDFhcXZGMVd2RmRHd3hpRDRGc1VWbzJRanZhMEtpbVdTOXJiRHlvWGRXS3ZxVlFLeHlyOGtIVzBRY3dLRGNpNnN5cFhVTndNRWg4RG5FelJnOUk1UWpiS09VU2RjZjJRYU1ha2RwSXlDOVdXOG1OVTZkM2M0anBOQ0JCMFAyQjlRNUVaR3Z3dXZaUWxWWWduQmt1NTE3?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
+      "id": "44177cf25f5038bc",
+      "published_at": "2026-06-26T21:40:08+00:00",
+      "title": "Iran says response to U.S. attack in Strait of Hormuz will be swift and decisive: Iranian media - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPR3VRaXZ6dlZfQUNMVnhEMnJsQVhHMmRZXzU4R3ZzNV9BSy1teFdkLVdma1p1aG15SGJQYmloUk92N3lSbVJOODJyY0YwNXZuVERvS0p1RE9iV2tYMnFWdUdPWVVXUG1JNWl5b0pjN2l2VGV0VVIwQXB3akZsa2RWZFFhenVYN3RnM1JiNFRVc0xNdUE2VjNFS3lsUkg0NzRHSjBZUzlYbm5YWC1kdjBYSDdHZHZZMGVjdGZ0T21tV1VWS1NTWHVyUDJfU3FzV0hi?oc=5",
+      "source_name": "CNBC",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "366607a77f26a625",
+      "published_at": "2026-06-26T21:37:00+00:00",
+      "title": "Trump: U.S. Strikes Iran\u2019s Drone Supply In Retaliation Of Hormuz Ship Attack - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTDVmMGR4NXVxZzI3T0JVSm5OTVczRk5NaENqcWkxaWpPNUwzQjAwWUN0TENjQUljRUQ3OWgyeVFBdW12VmdLWXNIU1ItQ0ltYWVBc0J6UVk3dXpLYkk0d0VnS051RmNHc0tZeHQtN3A3VnNLdVpoQmNzVkpwN3ZGVEtfYkkwWE40VjQzYmd5NFcyVG43ODc5cUVDX2pGcFAwaE9EQXAwNmlhTWFPUktya29sbU9fMU9JdEIzTklGczdtZFJKakpqcXplNThXMk5Z?oc=5",
+      "source_name": "Forbes",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4f3e5575c9688468",
+      "published_at": "2026-06-26T21:35:49+00:00",
+      "title": "U.S. Strikes Iran Over Attack on Hormuz Ship - Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcU14dU0xRmdyblJ0TEFmT2pEVWZiaGJQZjN6YVRBQTFwaEgtS19iVFV5eWZjc2Z5OHlLQjEzX3hsaVpZb056dl9iRlJIZ1EtVjFIMmd5RFBreTY1UHhYY3RJMldPUjktUmVSLVAxSTMxVXA1eWhkVlVwWFZyNUQ1MnRBSkVxOVdNWTNHWFZxcUhncnI5UjZ5bm1vZmE2YVNpLXIzM0tB?oc=5",
+      "source_name": "Foreign Policy",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "f1a38d6ff7a0623b",
+      "published_at": "2026-06-26T21:31:53+00:00",
+      "title": "US forces strike Iranian targets in response to attack on commercial ship, CENTCOM says - Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQUV6M1EwS21uRFBVamRYZVhpUW8yZEVCSWdsRHVqaWRxU2pGMXpzUlEydTF3RVZLQXhhSmV3SDhNbWtENHQtRTJfQnRYRGZlNTU0Y3VRT3BmVGg3R1Roc2ZsUkVla3VRWWRmZDd0ZXd6aERIYkxvY0FwbU5jVS1BOGhkNDduSzNha05pVU9icmF4Wkp5Q21RNXZvc1E4Nlo0VWJWbEJSSVdyTXJwNVZEZVcydzFueVE?oc=5",
+      "source_name": "Stars and Stripes",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -158,10 +352,10 @@
       "confidence": 0.65
     },
     {
-      "id": "56b8b5044e6eb7e1",
-      "published_at": "2026-06-26T19:08:00+00:00",
-      "title": "Trump blames Iran for drone strike on cargo ship in strait of Hormuz - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQemk5M1lVMEVfNXFpWmZXempEQTlKWkh6bmVHWjV1ZUNfODMxd01xM09LYVJUdWJxZTZTT08yTWM3bEYwUlB0Wm5xalhDZXc5ckxfOXBtNFRadXh3X3RZX1FUaHFwRkwzY2s2bEZWWFRxNkZaQmxJY0FFenpieUJXQzI2UE5PLWJwWHFuc0lB?oc=5",
+      "id": "17de476db785c3ad",
+      "published_at": "2026-06-26T21:27:00+00:00",
+      "title": "\u2018You\u2019ll find out\u2019: Trump hints at US response to Iranian strikes on cargo ship \u2013 video - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR1RUcVZsN3hzcDBTcGpKNWdXSW1xQTNGRVM1RVBUdUxYdUo2YnYzRlNLcDdwWXo3TnBnSGNOTjludDdyYkthZGdiR3BiZ2dta05jN2t4ZjVLaGFmOGs2ZHZpMk5ITWg5SjhOa1hRWWR4LWZOOFRvekJqT0c3NzJObkdsdWRwbURVWm9nZ2hmSHFtVE1GeEJSQU1ISm14V0dPWl9xeUtLR3hhclRMX2xsTFF5S0F5NXhQRUtBejdNRQ?oc=5",
       "source_name": "The Guardian",
       "event_type": "attack",
       "actor": "unknown",
@@ -170,44 +364,29 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
-    },
-    {
-      "id": "2aa90e495177478c",
-      "published_at": "2026-06-26T18:19:00+00:00",
-      "title": "U.S.-Iran Latest: Trump accuses Iran of \"foolish violation\" of ceasefire after ship struck in Strait of Hormuz - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "22812e22808804c4",
-      "published_at": "2026-06-26T18:07:36+00:00",
-      "title": "Iran war live: Israel, Lebanon sign \u2018framework agreement\u2019 after US talks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
       "confidence": 0.65
     },
     {
-      "id": "a1d77d9f14690b2e",
-      "published_at": "2026-06-26T17:57:42+00:00",
-      "title": "Trump chides Iran for ship attack after Tehran insists on control of the strait - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcFRwZHY1bnhkUUxWazNxYUNVdjlHV2RFN2RBc0ZnS2ZMc1JKQmtSMkRzQ0lIZkN6aXFMeENhTkJ2UURUcnJTNnZRZmdiQWdHcGdHYl9IbmdLa2tmT0VOUDN4Y1dRU0dQWkFNZkNuX2Q4VFVKUE5MUjBEaGpud3czTzdJR2Jrbzl1X2x2VkZsR1lyVjN3dDFnUHhMUXN0M3pmVFdiZnJidUF6ZFViSVpkWXB1V2t1S3d4OGpwQmdhd0ZwODVQN2NF?oc=5",
-      "source_name": "Reuters",
+      "id": "a232bfe69d2abf38",
+      "published_at": "2026-06-26T21:26:00+00:00",
+      "title": "US says it struck Iran targets after attack on cargo ship on the strait of Hormuz - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSnM2Y2ZEN00yLWlOOGlycTlaVHZqZjU4dV9VQU5FMW9ia25FNENlVmMwUE5oSHhUNnE2WUktZTRzeUE0dkFJZDF4OEFNYmRVWGlDOVF6RzhFU2ZmdGpTSTNWN0h6R0k0amZCUFViZUJCZUxqSHpiWDUzaWJGNGpnVGs1ZTM0Vkt2N2VHaGRQQ2I1SUpjbm1nUzY3aUdqZHpta0Jyc3VIWlhoSDVSZTRjOE9ROTFreE9uSkNieU1keXZUTGtUSVE?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "44adb475beae1990",
+      "published_at": "2026-06-26T21:23:25+00:00",
+      "title": "US strikes Iran after ship attack - Politico",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcGpGdl9ucHBXb2hHUWVBWUd0RWRHZUlhY0JoNTY0Yzd6WEx2ODBjbkVfOUxWSGZtdGJfLWhac3I0NGJLdFdRTm9mUy1JdkhTVzdXQy1rdzVBM0pzV2lRN0N6bjZmeWV2Q3p5aVVwcHZUSW4zTjFfLS05QUxEV0M2ci1yRW0yU0E?oc=5",
+      "source_name": "Politico",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -216,186 +395,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "03f2b977fd7d98df",
-      "published_at": "2026-06-26T17:36:59+00:00",
-      "title": "Iran strikes cargo ship in Strait of Hormuz, endangering Trump\u2019s peace - Colorado Politics",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOb2EtOUlOeDVrb2h2WS1DRFRCdHExaDBZYVI1MkN6YzlCVVV2NlRRT2htWV9tcE9aNE9yZTA1amNybXpILU9sN192dFhvQnk5S1F4eU5tcy05ZThiVjZ1cDY0YkFja04wMHExVG92eF8yN3E5WVBXV2lVM2w3MVE1NElwTEVyNFZNejNPZTVKLUdBZU4tNDJ3bG5qUE8wRnh3cHBwNUVuajJHeDUyVG95QVBTZw?oc=5",
-      "source_name": "Colorado Politics",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f9eaaeedf41e495a",
-      "published_at": "2026-06-26T17:35:38+00:00",
-      "title": "The Unsatisfactory \u2018End\u2019 of the Iran War - National Review",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOHZZeTZQZlRJY0NYckJlVERBZ29rbDZ2Q0F0RzF4TDI2YVVfUlg3enZSY0dEc0wtZ3REdTVObDBVbUZXdTVlSEh0Y0hFWF9XVF9jNHhHc0JraTlSbVUtT3NtU180b0xRU0tadENmNE1GU1VFRzdVVkpTblZCRGxfcHZvVjZZV2pWcmMwcTV6UzPSAZYBQVVfeXFMTktidl93SFR5MlhnbThrNzRLN1o1dmlTNmlWUUlXOG15M1RvZFRrWFZKQ0lJYmFRcUtUQU53RllEczRQYlZCc1c0VTg2ZG9ZeGtCVVdULTV2Rko3aUlSa2ZuUWxxUmhfbGFxSGM2RWhUaFBxMVUzeWFyeGNXM2ZjZnRWT21PS1pCVFBXNExtTDZiTF81TWx3?oc=5",
-      "source_name": "National Review",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "684f24954aa1a1b5",
-      "published_at": "2026-06-26T17:35:00+00:00",
-      "title": "Iran strikes cargo ship near Oman, adding to tensions with US, official says - KHOU",
-      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPUlFDTFdfMWVqWFNsbnEwU19mX01UMUJlZUZXSkhvMDhpRk5LYlNjMHNORmUwdjhkdHJ4ZFREblgzYXc3RVR4QkRsODFkOHozZERIc3BOQzJac3BXMm83TUNIWEswX3ZwOHNXSEZuaXVZWGY2ZTNhZW9NTTRFUzlKYWRST0ZhU3BvdGJwU19qOEw0SzV0V0xnS1kzYk0zMmZRY2dqSzdYS3B6Tm9BbkRMcGFySDRLMWNhVHAwN2syMERfU3RmZ2JMUGdpV2l0NW1lamE1RUthWXN5UDJDd2NnX01FNktKcDdIdUJQT0lzRUdIQQ?oc=5",
-      "source_name": "KHOU",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d5211097fdab5ca3",
-      "published_at": "2026-06-26T17:25:09+00:00",
-      "title": "Trump Says Iran\u2019s Latest Attack In Strait Of Hormuz Is A Ceasefire Violation - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRlA2cmlNcV9nb20yZHk5T05tRElvcWV3dWY4OUpnVXpfZ2p0UWpab0gxRHhMWHdDN0g0d1B1ZTROQW9vSENoUHF3VHprZ0xVekpHRWMzb1FfUktmaWN5SnZWNnZzTjA0enVnRUtZV2J2X0d2M1UyZmJEX1RqTW9oUXBKdlQ2dml5UWctY1pteDRPVEJvWWQ0cW12ZGhMNGgtZHFtcTVsbzlfUmgwcFVFN2ItS056NDZGRVZENHBPMDdxQ2puQW1oVkd5a1E2QQ?oc=5",
-      "source_name": "Forbes",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9ad7ba5f47bc76ee",
-      "published_at": "2026-06-26T17:13:00+00:00",
-      "title": "Trump calls Iranian strike on cargo ship a \u2018foolish violation\u2019 of ceasefire - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9tdmxQbkNuUHRwSWo4SU80czVacXJvT2o1eURVSDB3ZzJISzdmcm9pc0doRVRFa0pIaElDOU03dmpmdHNXUU1zMDlrZWRZRWpIMUlET01HOXJGNE5ZRXVJMVkzd0lSSEFNTkxrSk5lUQ?oc=5",
-      "source_name": "MS NOW",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c43aa4db44a3734b",
-      "published_at": "2026-06-26T16:31:00+00:00",
-      "title": "Trump blames Iran for a drone strike on a cargo ship in Strait of Hormuz - KEYC News Now",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPVW9idUI1WW1EMTQ5WXBTbEV5MTJacG4waFM4VGx1dDV3UVFzM254cG1NdFFBT1dreFR1amkzR0lINkdIVTZxakJfYks1MUJUYzQtT2g0Z2xpQWY0dnlpN2NWV2V1ejlIczM4cGVtNHdIUno1dG5ISzUyOUJhVnV0eU02Y2VDYXZQME5qZmJWd2owZ9IBpgFBVV95cUxPR2Npbk9hVXNvR2RLQ2VvWWxfM2hTOExaeHB6WDNJYUtIek1QdHdXaUdQcnI3NGszc3N0NXFrYzBYLWZ2WDVTYngwX1NCR195N2ZIQzhpdHRLMERZRXEwcng3Q3VIZUU0aU14NmRHMlF5eDByenU3cU1PNVdHZjRNeDhTMDh2VDlEdkVzeXdVRWotUUU4aUQ5RF9zbDBoUmVyQlN3MkZ3?oc=5",
-      "source_name": "KEYC News Now",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5c27d771e5b67b25",
-      "published_at": "2026-06-26T16:19:00+00:00",
-      "title": "Trump blames Iran for drone strike on cargo ship in Strait of Hormuz - WAPT",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQVJMRTJjN1NwNDcwQzVOZFNSbTN0UC1PUXI0RUpuNDFVQ2d3YVc0VG12S0ZQb29yeFVod2M5Z25nV3Byb0plNTgzWEVCYUFOWE1aMXZlRVJkYUg0WW16SmpfbmdKX3VwYWpvV3ZiMUlfX3BRRkwtTTQ2TE9FbXBXVVhXandvUWM?oc=5",
-      "source_name": "WAPT",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1f5528874d44b3c6",
-      "published_at": "2026-06-26T15:20:25+00:00",
-      "title": "Why Summer Travelers May Still Be Met With High Airfares Despite the U.S.-Iran Deal - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQzdJRGdYc2lfbHc3dDZnbzRsdlNDYi0yYzEtT0hLMWVmelJHNnpPeFRJekJYZ1ljNHJDV181Tm40WDR4Q2ZGNzRKMUFDOUQ3eVpxWXQ3NHFjbXQ0ZC02c0pNd0xhbTRoeElkM0RrRWZlUVJPS3JDU3A5MmktX0ZjRjBHSkFvMURpOHlyQnRkVmFKSWRLbHVocXJRMTdMSGFGTGFuVHIydjlud09adVFiRw?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b64b12a50d434ab3",
-      "published_at": "2026-06-26T15:08:12+00:00",
-      "title": "US-Iran War Live Updates: US, Israel & Lebanon sign trilateral framework deal after fifth round of talks - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZ3h0b2hTWXJOOGJHTkdDQU5PaVNubzROQjIzSko2Mm9XZUVyeVdzQjRveUpadW1FRHA1UXlUQ0FCR0tUSjNQdUFCWVI3TEQ3NDQtSWQ5U2Q0aTZFRHdfR3BNRTZiOVBGLTBNZEl0cHV0UnJ1Z3NiOEFkVWc5N1haWW0wZHJsSTJuU3AyTHJySEFsVEtmVTFDTlVSZVpyVm9mS2JqSElIYmIyaEFMRlNxWFJmMXlqeWdhbFFIeFlQSlhIOGZ6LXNDWnpTdDNaQzc2NGVoSDFmaDVqU3Bob3Z0OHczOU5YbXctcEJ3ajhwcWlBeU9yd2t2Ni13YUZSM1R5WWY5NTg2dUxVNk9KalU40gGUAkFVX3lxTE1GdEdjZ3VHUldGZDdJeDFvYzg1VVVhdzNJQXczWUtSQU9uN0pqUkd3cFgzV1ZWQjZwcUM4dGV6dVAxTkpjSFhZYTFyYWxYcVFoblZpS1Mwa1VyaTVzWjM5clJJUU9ZLS1yS3lCMV9vbTNiam1samRaUnVwelpIRkswbXpZNzNmRVpwbzZjc1l3M0txci1SR0kxMGdkdkFkbnpWUmRGei1LR0V3TUVmMUpVRGplMVplRW1ISGNjTWZpLV94Q19GXzZieXZNbGVkVGV0ZEpFNTh0Y3l3alpBeTY2c3dUelI3cFg3VEQyRzRGdEgzX0JaQTRaMU4yT09ZLXU2UkdQQXh2MTNaajZpZG1YUDZOcA?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d202abdbfd84860c",
-      "published_at": "2026-06-26T14:56:11+00:00",
-      "title": "Mediators worked through threats and strikes to broker the U.S.-Iran deal, and challenges remain - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYkZWeWFYQm9UUVhSM2MzZWRCRnRNdy1hQXAwcUw0M0hWRVlnTlNydS1FOWpBN1h4dWJyYUNDVF9HQXVfaF9hY3Q4LTFXMGFHMzF1c0MyOG5vZFFfR1Z3N05FekhJV1lfM2pzU2RKb0ZPT09QcDBobmNzSU5rb2xhSjBoSUpibEd2UFozSFhaaThsTkhhczJScG1KRzEyZ3lIOWpMNDllRkpNeXc3TTUyUlo1Y2kxeFZuYUtDZjlNX3hlZnZDODlUdtIBzgFBVV95cUxPQVp4TUhaMUZua0JSTGw3bTEydnd3YnlkaVlVdUFkOEpSbGxaNXh4SzREcXE4R2h5aW50SDd0eXhpQ1hsWVhLbzBxd01SRjIxNzcwSFZ4MlFOUEdtcnpLa1BjRHJRRV9sSlJYR0RRd3B5aG5pdFlZQkNTTDZBeVhZal9sRC1LWEpGTmpNQm1xc3dLdWExbDJXQkhJc0xGeEkzR19XVHh2OE9PUkd5a01WZGZfTzVVSjFHeDQ3NTEzamI2aW1pTG9OVWdydTZzQQ?oc=5",
-      "source_name": "PBS",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "f6d591b1ae9fcd80",
-      "published_at": "2026-06-26T14:10:57+00:00",
-      "title": "Iran slams the GCC and the US for \u2018interventionist\u2019 statement: What we know - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRThIWENrSFlNTnN6Sm4tc1NMUDkxb3BJQlhtM3Fxd3BDc2JQN3JZTUVmaW1FRXZvbHlsLUUwd1NFNUV4V3BoTjRLUmFZaFkyTzNwRWZpZmdLWmZFcDZzRXo2RUVFaTJ1aXROd2lITkhDbTlGN0JUTWJGcXV6TzlkV3JhV21yZk9MRHFMVFZUQXMwU0pzTTFaa1FPVFFOQ2VrcGlhS3ZCcUxod1hMb3FiMEtrUdIBuAFBVV95cUxNSW56VjRXQUVuUEJpbE52Rmx4TW13djFpVVNJVFRqREp3UjNYdm9NOU9rbllTVm82VElqWlYwNnBqbHlpWVdkaW52VUFiQ2FDQU1uWXhYaTBXRWlfbkNQOXFmYjg0U1UxSTN6Q2UyT1N0azBSeGZKOWNoeWlvb2o2NGZpcThRYUFGZE5keGNSVXRITHJHNlpqeFBYek5GLUM4cTU4MWVXNmxwLV9TMURRVm1USWs2ck5q?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a24b0d5eed680bb1",
-      "published_at": "2026-06-26T13:28:32+00:00",
-      "title": "IAEA demands verification of Iran nuclear ambitions amid \u2018statement war\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPeTVKQnZPaDF2NndIb3pKNDZwcXZ5MU5uck9Vakt6NThlalNGUjNDTzBUd3g5NjU3Z0JOTXlXX2pmSGcyOTEzWEVqanRZMllsak5VMEwyTTlUTUVBbzFkUm55R09xYk9ENWowMWhJNm1Pb3pyal9SZUJEMF9IRUhvQWxvdGZFdjQ2c1lkQUNoYkkxNXJQWHd0MGZnbENzdE9EdHfSAacBQVVfeXFMTlJLLWJncVBSMUR6TnM5V0JZQmcyMXBVNW42OHJHWkZ3YjJxemhDeWxYSHF3NjQzU2I2MlhZUlhEemNIeEY0cXR0NUNNY2I4NWFONVVWTUpISFVUblJmUVFnR2hUeDlBbWtWWnZGQkRZel9abmFpUGgtdi03TWM3RzlVMzE0R1F6U0NJODltd3VzVXNJdndpVmcwWENENlo1Z3BjQ0N2ZXc?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
