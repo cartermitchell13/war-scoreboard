@@ -1,38 +1,33 @@
 {
-  "generated_at": "2026-06-25T22:49:20.382296+00:00",
+  "generated_at": "2026-06-26T04:42:22.418163+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 100,
+  "event_count_window": 89,
   "totals": {
-    "usa": 32,
-    "iran": 21,
-    "lead": 11,
+    "usa": 25,
+    "iran": 16,
+    "lead": 9,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 2,
-    "iran": 16,
-    "delta": -14
+    "iran": 12,
+    "delta": -10
   },
   "confidence": {
-    "score": 66.3,
+    "score": 66.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 45,
-    "attack": 39,
-    "diplomatic": 14,
-    "material_loss": 2
+    "attack": 38,
+    "diplomatic": 10,
+    "other": 40,
+    "material_loss": 1
   },
   "history": [
     {
-      "date": "2026-06-12",
-      "usa": 0,
-      "iran": 0
-    },
-    {
       "date": "2026-06-13",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -42,7 +37,7 @@
     },
     {
       "date": "2026-06-15",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -93,17 +88,22 @@
     {
       "date": "2026-06-25",
       "usa": 0,
-      "iran": 13
+      "iran": 5
+    },
+    {
+      "date": "2026-06-26",
+      "usa": 0,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "884b693081b0d233",
-      "published_at": "2026-06-25T22:12:28+00:00",
-      "title": "Rubio\u2019s new job? Selling Trump\u2019s Iran deal to a worried Gulf. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQTZLOC16T3MtbTJIYXVRT0x0UzU0UlRSTElNbl92VnlVVXhVRnI3RXMxazJReUUwYWNKMmVHOXVsc0FyZVRNT2MzWXNXU0VMNVNDajl0OEFlYlNHM0pTUlE5MFh6WThlNEhCOThvRlcyYWctc1BsWGpqM0QyaTdlOUZVVWVoYTRveXN0aFRWcE9WVFdmeUZnRHoyNmZEdFAyRGNrcDFaNzF4am1jaEhINjE5WQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
+      "id": "8464dd16ec4dbf8b",
+      "published_at": "2026-06-26T04:35:52+00:00",
+      "title": "Iran-US war live: Tehran attacks cargo ship in Strait of Hormuz - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNNnd4NjZ4T1kydDBLS2U0STUyTFUzRTRYazNFQnplcEVSRXd1a1p0U0FlZnFiRGEyYzk2cVZVOS1lRFVZejR4VFZTM1I1OXVzWWV6TWhfUmRIMWI5cXVFNHZwaTFoZS1Jb2JKVDJPckRPLURlRkxxdWdQcG00VkZBMy1NWXhMTGFOaW9NMFU2MlJsR2lmYkZqcldxeFhLZURrUGJyb1FMdDh0ZHl1WDd1Y2hSdnVPbDJqT2tFXzQ5a2k3QQ?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -113,8 +113,83 @@
       "confidence": 0.7
     },
     {
-      "id": "cd962f87872e0b26",
-      "published_at": "2026-06-25T22:09:02+00:00",
+      "id": "b76bfe5d6798a3cd",
+      "published_at": "2026-06-26T03:25:48+00:00",
+      "title": "The Iran War Was a Loss for the US, But the Ceasefire Deal Is a Win - The National Interest",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcVpNY2dqVk40S1FyeV81RWlmMU9wTkJwSW9jTXJ5dWV3LVlJby16SHVBLWJqbXdQUzA4cFZ2WlVCSkRKUXVoNVN0OHRTLUc0ako1U0N4dF9XNzc0R2ZVRDNfazlZN3EwYkJWS2Nsa2VLUk9uc3VJbHFpM1VZOGhkVEY3bVB0T2gyRmpmZ1ZWZ2ZTZ2Nhd3BTWlQ0V2ZIendsN3JWOHZxTS1GNDAxZDE4Vk9IQlFJdmVHT3c?oc=5",
+      "source_name": "The National Interest",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4b5778416268289f",
+      "published_at": "2026-06-26T03:20:00+00:00",
+      "title": "Senate Republicans reject Iran war powers measure after Trump pressure - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaDBZYnM3NGpORlBFQ3pDUUhfNzVESjd6LWFja3FzR2Rkb1pydkZJSGJ1SWRIWDBWTXNmejE5MENrcVM2Sm4yLU02Ump5S2djQ1VMQlM0TjU0SnJLdEh1UHc1djJfYmdiNHFCNWtYZHQ2X2RyMWw3MkZCVXdYdXNJd0dEVU5OdDR5S3UyX1F1VTh3RXhiR2pkUF9Ycw?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e8334a75de9e560d",
+      "published_at": "2026-06-26T03:19:57+00:00",
+      "title": "US-Iran war news LIVE: UN maritime agency halts Strait of Hormuz ship evacuations after vessel attacked - Mint",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQVnkxQTJXUVRyUjZ0bDI0VW1XS1lhR2FjbEV6aE9EWWtlQWNiWDgtOElFbXVSaEJ6YWRBdXhRMWxlWFFGWE9WWnFYS0FpYl9LM0FWalZzcm1SUXBUeUxGMVAwVVNFSElhTG84UnByRFhyTWNtcDV0QmU1N3hNQk5Mai1RS09OdVFBZW9wYkZRMkhEd2FZTTVBbTN1RHNmOC1lX2h5SjYwMTFVSHU4dUVTOGlUZjBDUEpMQlJfbDUyN3p5WVZReDN4TUNsRkhkYkswX3AxN3JuT1dCT1hWQmp4WWxMd3MwM191RkFNS01aeUNWZmRmcEp3T3hSVm9QU1lET21j?oc=5",
+      "source_name": "Mint",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8741bb418d304c22",
+      "published_at": "2026-06-26T03:18:10+00:00",
+      "title": "Forever wars: Israel\u2019s cycle of conflict shows no finish line - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQW9ZTjFibm1fWW5tU2JJaWhRV0psNFZGX2xyem95LXl2Y1g2QkhHeG9SM3AxaUxxYUFjZDZzSk1WU1pCVjZ2SWNzOE11VFgycDdnQnZUZ29yTmloX05YVF8tZUsxd25QY0tGOVV5RF9aQWVtQkhfZWdZaUlHLTNvZDNhQS13NndBTHoyczJPNWdxMFIzTE1ncE5kYTQzQdIBowFBVV95cUxOc00zU21ndmdLVWxzQ1JsSXhJN0V5QndNTGFhRHlfMWlKWENBZ0M3WEExVEFzNUpVNFV0MGNuVGxBLUhfdGhXM0laN3piQlJmT1ZKeDBUb0J1dVpaa3lyYi03WDRiRkZUTWRqdTluUmFWSW1HZ3EtdWFEOGRKbHRDTlU0S2FkNktreFN1b0pQa1NnWlJvTG1tZmljQXZyRG9HR1NR?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "88be41da71ea523f",
+      "published_at": "2026-06-26T03:00:00+00:00",
+      "title": "Iran war live: Israel attacks Lebanon as Netanyahu says troops to stay - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZUVsYmQzTWUxeEh5YmJHa21UaklQR1JEYUJPU0ZtNXFiZlYtZnpCNXdHMHNRdjFabUpRM1h3UVdkNzJlOFFrSHRWTmxWMTFHSlYwNnoxb21zeEw5NFE2SnB3d1RORE5HSVowV2FWeFVPZ2RqRHNGUDVSUnd5U0M0Ni1KTTdULWVlSVdlUlM4Slo0a0FPSUFIT3lBeS1IRFhONmtiR2o1ZnZya01zQXJQcUs0TU80emZPOE9R0gHAAUFVX3lxTE5oem5QSkhHa2pMODNPazB5VElnT0RmNVZkM1R0d0pFTW1mNjRGTFdtUW0ta1M4eUl6anE1SUxSMWJTWUpiYTNDUElEdmNuSzFRZ2tkUnNMWEJvZHZ6OVdBTnJZODBxQWVCTS1kQzNxRlgyb19kc0lvOXpmemluWjRsWnVudVVnZjgtZG1wSE9GeDRwcWNZWGlWd0pKTlBwaUR2YU1TOWtKNmgyUWR0M3dTMERhTEMxbVljVHBBSnRXNw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "dd05c908c8a90585",
+      "published_at": "2026-06-26T01:51:58+00:00",
       "title": "Iran strikes cargo ship on U.N.-backed route in Strait of Hormuz - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2hvUU8ta3ZNNEpHLXViODlSdk1odzlhUUtPLUtLWkV3ZWtaVi02RmxKbTdjbnNGUjk2SVhxQWVwVjdDbURXdUMyWW9vX2R2Y1V2bWZKLVpnLWc4eWJsUDd0RW5sZWxYTFMzZ1RKNE5vSTFMUkUtOG50LTVJM3NRaW5ERXdnUmhwNHhjYWo2enhOWENiQWJTWHdzNnhfTXEyNWNYbEVobzh1a2Z2RjdZ?oc=5",
       "source_name": "The Washington Post",
@@ -128,26 +203,26 @@
       "confidence": 0.8
     },
     {
-      "id": "896c76de0512be3c",
-      "published_at": "2026-06-25T22:02:17+00:00",
-      "title": "Iran Strikes Ship in Strait of Hormuz, Undermining Efforts to Restore Traffic - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNeGhKTTAxU3dMN0Voa0dseXg4MWdZT185SGdWbHFpMEdTcWItZG45Qnl1MUdENjFacm5ULW1USm92ZUlLb3pnU1l4WE95ZEtCRkhxM2F1dWhiSXNnMUt0aVFfRDEtOGZYOXBEYmNEcXp2TEN5WmJoTHBYc2t1UWdyVWVBZ3pvNWhkc0tRRDE0OVBKUlVkaUlnQWt6LURNUzFB?oc=5",
+      "id": "2c6669f38b4dab08",
+      "published_at": "2026-06-26T01:00:00+00:00",
+      "title": "How Iran Devastated an American Naval Base\u2014and Caused a U.S. Recalculation - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBXQ3d3ME5VclhzVzFQcHhab3BZMEg4QTFTYzFVb0dnN2RqcXI4VzVpMDJkX1hsTWpjVF9GYlgzclQ5UFFIZmtpMDU2NTdvRGgzeHhvWDF4bHRPODVRQ2pWQzJtTVE4anN4MF9VUjRHckdOQ2RiNlZ0bVRaV2FMZw?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "af7eba6eb475789b",
+      "published_at": "2026-06-26T00:33:00+00:00",
+      "title": "Senate Defeats War Powers Rebuke of President After Fiery Clash - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aVldfd1hlWUJ6djB5MGFFal80TkphUUxLRWZJR3MxcmRJcmNVZjRjUGZvMXJGUG1hMWNrWDNfX3FSQjFORnZtUm1idl9NRElEWkRvMmhEem1KZ0ZKNnNpRlR4MA?oc=5",
       "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1730893f14611efe",
-      "published_at": "2026-06-25T21:49:53+00:00",
-      "title": "Iran: UK Navy reports cargo vessel hit in Strait of Hormuz - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMnB1eDA3YTBpNlVJWi1vVWZZa2NRTy00bmhEVHItN2QyaXJVLUs0SG41eEJNbHlWcUhpcWoySEs0VlZOWVo1VVZpYVdYUlp1ZlMzVDBMeVdRZkZjSWNOZ1NFOVJwUm1HX0Q1bFRlNVJrblFySGFicnJfSmRqYTFMczZoajh0aHZUZ1ZDSmJlRnhVRGJvWGd3Zw?oc=5",
-      "source_name": "dw.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -158,11 +233,11 @@
       "confidence": 0.55
     },
     {
-      "id": "31f035d0301c5a82",
-      "published_at": "2026-06-25T21:17:39+00:00",
-      "title": "West Asia war LIVE: UN agency says it pauses Hormuz ship evacuation initiative after vessel attacked - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPYThqQkhMYVNXcXdNSjN6dFlQa0ZySTFVM01vSl9kR0RULU1wcmVoTmhpLVlvZVlUOTh4dDU1a2tab2ZTNHcwbTQzeVlKTENGM0t4VDNhU0pwakptZmFDYkx4bnR5WnN5UlA3ZE1BUXg0RWYxaUxFSlRzUW5mV3FkQXhSc1VUVktiR2VyWkNSREpFRVF2dG9LV1ZLajkxWGtRQjdtOTB2VzVPck9iOXhNZ0loczd6RWNlbkctU2sxakdRS2J5NTNSM2VoR25aM3I5SjVBOUFqSmVsZXVTUUJrejlwNGh3UWUwcWh1Mmk3ZnRDUm1ldExyMk5Bb1VKaTFadzJZNVMxZHFRZTh2QXJNS1c4MlZvQdIBnAJBVV95cUxOQ014a2psZ2J2aklfMWJlU1EwbWxxWmZXMWE1MjFqMExVTWR1b2sxdnh5cU0xSk1vUU52Q1hiZzhMVnRYQUY2eGpDMkNVam1aT0Q5d1FNSU1XdU9aWk1tYlQta2RPNS1HWFh3NnhSbnNKTUp6bVBvd0p4aTE1dGVOODFCdmEtWlIyZEFaVTBYelJEYjFRazR1SlVnWjlHYmp0OVN0R0x4MlhjR0ZlcEtqZmdFbkoyTnJfUGhkN2VwRFlSSTl1ejFuWEI3c2tUbmJnU0phLXQwaExTeWQ3dGd3UktKN2dUVE1kVFl3ZnNuQVFEWHJEcDVacGoxRnBVSkVrZTJSS3UtZkxlMG9xc1Fmc0JFM2pDRFRLd19lcQ?oc=5",
-      "source_name": "The Hindu",
+      "id": "94c105a6af3bb9df",
+      "published_at": "2026-06-26T00:28:02+00:00",
+      "title": "UN pauses Strait of Hormuz evacuation plan after cargo ship attacked - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56TTl2a0NjUWo4eEMyQXdzdmkyUFE0dnhaaG1zcWtyU1dNYXZpZzlPV1l5aWVhUmlfTWtoa0JCQTJQZWZLdXRFb1FqOE56QjJmYmowUWk3TmJRdw?oc=5",
+      "source_name": "BBC",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -173,25 +248,40 @@
       "confidence": 0.65
     },
     {
-      "id": "e666f26c48a0fc41",
-      "published_at": "2026-06-25T21:15:37+00:00",
-      "title": "Local members of Congress on the Iran war deal - Los Angeles Daily News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS0k5Mk1VdGVwRVRPRjFqU3JzeVdSN1R2UXdTY2ZtbU82TkkzMVB0V2F4OVZxSHhBZS1tNVhSUjFqVGV6akdhQ2UyX3FlNE1yV1RUSWNNT1l5NXVFQTNzd2lacDk5Ukd5VThSSnpsNDd5enJmT3E0SnlQOWo1RmhpcEUzaDdlNmIzcEtHRA?oc=5",
-      "source_name": "Los Angeles Daily News",
-      "event_type": "other",
+      "id": "e981fa8e851e0a7d",
+      "published_at": "2026-06-26T00:18:00+00:00",
+      "title": "Iran strikes vessel pausing UN efforts to evacuate ships from Hormuz - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa2Z0QzJraXJfa3Ewb3lNeW1YSHZYOEo4Z1lSeXBBUUJGdFk0Z0ZiQ1RQNTVfWUhxdHJ4Y0VQM3hsRFh5djBkMWFfYkw1WnVoQXVrc3lOcDhqUk1pTGd2N0VXT3htTWRSTEhTU01wNkFwcHNKN2xCdFluNDdRUW83aUhFT1FuSDBUNXl4dnh6M0dRbUluU0E?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
-      "id": "1f5df8d95e8b40a0",
-      "published_at": "2026-06-25T21:08:00+00:00",
-      "title": "Iran strikes vessel in Strait of Hormuz amid fee debate - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOXzMyZ3Nuc1hyZE9SaUpPRFQwMEZMN2FYdi0tSXRtOGI5SS1zNXVqem91TFR0bUlKUUk1dWR4MUtKblV6OGNyM3Q4elBfNGt5STNqcXk5eGU2YlJwd3ZNWE9lbzR5WlExdTdCNlR6QzZsdFhZV0hxdzhrbU9lQ2w5Ug?oc=5",
+      "id": "5a83eaec3453af76",
+      "published_at": "2026-06-26T00:05:49+00:00",
+      "title": "Ship attack in Hormuz tests fragile US-Iran understanding - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1HZ1gzRXBVeFVZakNMTDk4bWZ2bFQ4ODduNVQ2VzlsTWdsdG9wejVSeUZiNWxfS0I4cGMzRDh3c0ExTDExb0h4bEx3S1VlbU5FbUE?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0242e528d1bb40ac",
+      "published_at": "2026-06-26T00:02:00+00:00",
+      "title": "Iran-U.S. Updates: Iran strikes vessel in Strait of Hormuz amid debate over \"transit fees\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUVZzMlQ0WHZ6YjZubExwTjRtMHM1WUtRSmNDWUszaWJhNkNwTXpOT3JEZTd5QnBYNE5lMDN0YUJOejFEaEZoejU3Y2pqZW5nUTV0SlFSbWFmSFZFMDNBZHpSN1oxSkVTTG00cFR1eWt0cEtlVGVWOVhPMGxscnZGNmdTeUxPdlpqc2dz?oc=5",
       "source_name": "CBS News",
       "event_type": "attack",
       "actor": "unknown",
@@ -200,14 +290,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.85
     },
     {
-      "id": "a736595eace3131a",
-      "published_at": "2026-06-25T21:04:00+00:00",
-      "title": "Exclusive | Iran Attacks Cargo Ship, Testing Trump\u2019s Deal to Reopen Strait - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUjg1OGdZT3JUNkFvb1UwSURFSDJHVXowZVItTUpmZnl6TWRFeVNab1RXcVM5ckFKREs4eWVzSDF1Q1RTWkRQZDhtVTVSaDJNUUdkVjdXQU9wVl9mYnMxRWkyNlNmRU5BbGpxM3ZJV1NpTFBTay1sWWYzVGJReTFWbnBFaERwTl85dXU2SHhlcS1HYlc2aW0zTWw2THBLWFBEazZ2SzI2QUZWWU0?oc=5",
-      "source_name": "WSJ",
+      "id": "d8659afab2dce5e6",
+      "published_at": "2026-06-25T23:53:59+00:00",
+      "title": "US-Iran War Live Updates: UN agency pauses evacuation of ships through Hormuz after attack on vessel - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZ3h0b2hTWXJOOGJHTkdDQU5PaVNubzROQjIzSko2Mm9XZUVyeVdzQjRveUpadW1FRHA1UXlUQ0FCR0tUSjNQdUFCWVI3TEQ3NDQtSWQ5U2Q0aTZFRHdfR3BNRTZiOVBGLTBNZEl0cHV0UnJ1Z3NiOEFkVWc5N1haWW0wZHJsSTJuU3AyTHJySEFsVEtmVTFDTlVSZVpyVm9mS2JqSElIYmIyaEFMRlNxWFJmMXlqeWdhbFFIeFlQSlhIOGZ6LXNDWnpTdDNaQzc2NGVoSDFmaDVqU3Bob3Z0OHczOU5YbXctcEJ3ajhwcWlBeU9yd2t2Ni13YUZSM1R5WWY5NTg2dUxVNk9KalU40gGUAkFVX3lxTE1GdEdjZ3VHUldGZDdJeDFvYzg1VVVhdzNJQXczWUtSQU9uN0pqUkd3cFgzV1ZWQjZwcUM4dGV6dVAxTkpjSFhZYTFyYWxYcVFoblZpS1Mwa1VyaTVzWjM5clJJUU9ZLS1yS3lCMV9vbTNiam1samRaUnVwelpIRkswbXpZNzNmRVpwbzZjc1l3M0txci1SR0kxMGdkdkFkbnpWUmRGei1LR0V3TUVmMUpVRGplMVplRW1ISGNjTWZpLV94Q19GXzZieXZNbGVkVGV0ZEpFNTh0Y3l3alpBeTY2c3dUelI3cFg3VEQyRzRGdEgzX0JaQTRaMU4yT09ZLXU2UkdQQXh2MTNaajZpZG1YUDZOcA?oc=5",
+      "source_name": "The Times of India",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -218,12 +308,57 @@
       "confidence": 0.65
     },
     {
-      "id": "8f1b4fd79dcf88db",
-      "published_at": "2026-06-25T20:31:38+00:00",
-      "title": "Rubio issues Hormuz toll warning as he wraps up Gulf visit - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPenV6c1N3dUFDN3dqcUZQNUVKOFVQOXU3dUt5cWEyOG1Ca1VPWmM1Q21qQjJmbEMweExXRDRxNnU3R2NNdXhuekZnVXdPbnZpdi1pUEhrTnRPbzRSTF85MW11MkktaDltTjFldTVfTEVzeFV0dlBmUzg2cVBRYWVrc0w2VXFyX2d6dDFrYmx1WmItNG9SMjI2Rm9KdmJmZ21rLVdlN21ZTzFGQdIBrwFBVV95cUxQWVdlMUFWaC0zT2tLOWpYRG8wSHhEN2NOS1JMcE8wdGxsOW5nT2xqMGhJWlplOThDMWxoRV9ITWo4YUV1bXpZbG91dFVNajgxUUtlcWJSTDRWWG9zY25OQlBCNk5IMzhNcU9IaHZYaHlsT2RGVzBWUHNSNHZ4SlQ4MmZmNlhxcWhtWlY3X3dTNEM0Y3N5S25hVVk1ZE5iVlhyX2FQZGwwbDVsY2dEYk1N?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
+      "id": "f6c3c1ddc65bf304",
+      "published_at": "2026-06-25T22:59:00+00:00",
+      "title": "UN agency pauses ship evacuations through strait of Hormuz after vessel struck - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRWhXQUhETnNjcGJ3bTdEU0xZbG81TmdpYzZRdWRvb2hEQnRYb3ZHRThMek1rS3VZeDBWbUppSWpvRUFxTHU5SUpGYXRXUG1PRDRGeHBTYklsVDM4Z2dDUHd1YUUwZ0VKVlBOeVBvTngyRGtyTDlvTDhubFZMcExsdEF6SjhlcnJlZDhvS3dFazIzMGJubDBMNld1TEZiaDZTQWltVC1IQ25yMkphRF9XRjNjUkg3N3Nz?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0747dd8505efe511",
+      "published_at": "2026-06-25T22:25:48+00:00",
+      "title": "U.S. moves to reassure Gulf allies after latest Strait of Hormuz shutdown - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSnZtYVo0ZlNWM2N6VXNXSWRHUU85TVBac3k3aW9qdng3SmxreDZXaVZWbWc4MUNfY01tUXBMNFo1cWhwX050RzlJcEt6bVZsSm1zQzVkcnRnVGlxLVdRblRYQVA5dGp3Wm9sVUZrZkdNeXgtNnVqakc5MG5taF95MGlyZEo4MWdId2dUVHpWcjJFejBzU3hXaFNUcFVQN2ttN3dxWjJXWUZPUQ?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "447d8d22682bea0f",
+      "published_at": "2026-06-25T22:06:00+00:00",
+      "title": "White House seeks extra funds for Iran war as part of $87.6bn request - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTTdFaGZSZlFxV0RydkdqU0l3WWhGd0xKSHYtRW5BanlGcllhYUR6amIwb3NMT0dsWk41S2ZaOF9adDM2dFhxSnRaUlRRVV9CS2J5eS1ObWd0ODlPaXZEeUk0YnBjck5uXzYwU2w0eVlvSGZSa0ZJNGJKY3dYNzIwWnd0SVZmRFBsWTA1YQ?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3fc9814ee0d49109",
+      "published_at": "2026-06-25T21:17:47+00:00",
+      "title": "Iran strikes vessel, pausing UN efforts to evacuate ships from Hormuz - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa0V2T3lqclJWdFBicm1RTkhieXZaTGNZS2lRRWp0SWRuMzZ4cTlJN292SmNIaFpVb3pyMGFieXdiR2lEdC1nSm5IYTZlOWhJYnB2OU05X0lxdjJ0dTJjMXo3bjFjZFJyTWVkelhybXl4RE9XUEx6ODdoRGc3ekZNX0FSbkdsM1EwUEp6NWdLd2JNQzFNT1F2TUNWMndGSTl1RkFwOEhyOEYwZEFRZENyc05nYw?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -248,41 +383,11 @@
       "confidence": 0.8
     },
     {
-      "id": "1b5fb1f6992b4ad5",
-      "published_at": "2026-06-25T20:00:20+00:00",
-      "title": "Senate rejects Iran war powers resolution after Trump meets with Republicans - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOcXdlYVpPRjA4a1hodWI2WW9wWUFsWGFLa05ia0R5Q1g0ckRFR1cyemhMenRqZjFOaEtqZDd4QkZsT09jUFlVVGRzWEZOVl9WRUVWdjBNZWw0Mmp5WXNSUHZXeDRMMWlLZDNiWTlheEowS2VfUDNPMWV1MmZIVnc2QjRGTjBDNDM1TjlaelZnR3p3QXN0S3FHdzZ3M2ltSkFySlNUdTlR?oc=5",
-      "source_name": "Fox News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a2532a757a9a2dec",
-      "published_at": "2026-06-25T19:54:34+00:00",
-      "title": "UN pauses Hormuz evacuation plan after ship reports attack - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVWR1YXZUaE9XT2xJQjBTUmZZa044RjRIbnhydkhZbXAzY0xuTllsNmJhdDRyXzJndWJFR3dtNjBLSFE2M2lXOTVDcjdRenBKX2dGSlNyWGhyZmhrbkRjVjcwb2pXUWx2Z0JvbmJpUmpzR2VFTkxza1htWVJMMWxPbnYzVGVuS3d3bEQzc2RTa1hEVnFtT3FjZzR4MUpPLWJjMVNTM01BcnBRSnpSQzRyd21yQ0U3b08xbXR0ajlmeG55UmxrV0RZZmVROA?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "cb2a99aa2b4720d5",
-      "published_at": "2026-06-25T19:25:00+00:00",
-      "title": "Senate Defeats War Powers Rebuke of President After Fiery Clash - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aVldfd1hlWUJ6djB5MGFFal80TkphUUxLRWZJR3MxcmRJcmNVZjRjUGZvMXJGUG1hMWNrWDNfX3FSQjFORnZtUm1idl9NRElEWkRvMmhEem1KZ0ZKNnNpRlR4MA?oc=5",
-      "source_name": "The New York Times",
+      "id": "916883eefb5bf819",
+      "published_at": "2026-06-25T20:12:13+00:00",
+      "title": "Trump works to woo farmers in aftermath of Iran war - NPR",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcjFKUU9KaVpaeDRNWEFtcVVweEM3V0hCR3RpckMzRXFfVHJYU0gzdmJSNkVjLXQzSGp4cjdEdjR4VUlJSURQR1o3aTNzN3V2THF6OEl3Tnk0c2oydVRPeml3UG5KVm1yaHR2RlhUNkFzb180VEpIQjZ4bUMyb1ZtY0VIdXFyRy1OZ0oxdTJ6dUk1d3dHWm9uWWtPb00?oc=5",
+      "source_name": "NPR",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -291,111 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "ef25393676626324",
-      "published_at": "2026-06-25T19:24:00+00:00",
-      "title": "Iran-U.S. Updates: Iran strikes vessel in Strait of Hormuz amid debate over \"transit fees\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUVZzMlQ0WHZ6YjZubExwTjRtMHM1WUtRSmNDWUszaWJhNkNwTXpOT3JEZTd5QnBYNE5lMDN0YUJOejFEaEZoejU3Y2pqZW5nUTV0SlFSbWFmSFZFMDNBZHpSN1oxSkVTTG00cFR1eWt0cEtlVGVWOVhPMGxscnZGNmdTeUxPdlpqc2dz?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "6f766cf058bc2b0b",
-      "published_at": "2026-06-25T17:51:00+00:00",
-      "title": "Senate Republicans reject Iran war powers measure after Trump pressure - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNaDBZYnM3NGpORlBFQ3pDUUhfNzVESjd6LWFja3FzR2Rkb1pydkZJSGJ1SWRIWDBWTXNmejE5MENrcVM2Sm4yLU02Ump5S2djQ1VMQlM0TjU0SnJLdEh1UHc1djJfYmdiNHFCNWtYZHQ2X2RyMWw3MkZCVXdYdXNJd0dEVU5OdDR5S3UyX1F1VTh3RXhiR2pkUF9Ycw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "833f32a14900da9c",
-      "published_at": "2026-06-25T17:35:47+00:00",
-      "title": "Lesson Learned From Iran War: Reduce Reliance on Strait of Hormuz - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5uSVNDTFVkNnZrbkgtSEJNemJmbG9vMWtLSWk0X2U0ZHdBWS1PbG9EeUo0bE1iTU1nejRVMkdOVVdEdDVlT0I4ZjlZZi1MWE1YT3JVMjlzSHBhX1VqUHZLWTlBOVBsWHFhUkhhSzJFVDg0T2dZRktDLWtrVlBQN1U?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "96cc756705f2cca6",
-      "published_at": "2026-06-25T17:28:57+00:00",
-      "title": "Iran accuses NATO of \u2018complicity\u2019 in US war: What role did EU nations play? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQT2FGMVNxeUxsZEJvbXNxXzlWTXJaM3JtSmxrdFdLR3k5eGVJTHVaVEtqSDVYUkNuQUQxMDdNUlNoR0lkUVN2clNwVDA4OWkyd19JRkFWQXUxOFhHaHRoYUJxMnAzN09ZazFlM2MzazRQbVVHTzJCaXNaWmJhYTF6eHU1dTU0UGEwcFNIMUptemJPc1d2all2dzdMMlVmMHN3YzBlUTc5NUw2QkxsalE1V1R30gG3AUFVX3lxTE8yZ05Hb2dXNlQwVWpzbVI4dUlnb2tZTlp5QW82T1NTWThCbE5FNDZxcEFGbXVVSVJhVTJsVkN3OUxpZ2Y3WENLRnBmalFsSzFRTXdyTzhCZ25RZVBTRWlaSFRNUm9zcHpRZUtBdG9tRUItQkhndzRCdDlqY1VLWUhwNE04OGVrbTZHYVhFM3gyajRqaGM4dTFMZGJ3YkNmbU1mb2JDTmxEVTQ4WTRpSHRmajNBXzFNVQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4e0338e6fc90ec62",
-      "published_at": "2026-06-25T17:23:36+00:00",
-      "title": "Pragmatic choice: Israel\u2019s war backfires as Gulf backs US-Iran deal - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTThlLW1nRGJvTmRsV18yeWtHUkhPMC1fUHh4XzlGS3RObVlKYVBFMVJ1VWVCN05ENnF1RXFHSWdSMF82Z0ZKSU1xMXVZN2xxRmVBUmlUb09UV3BfY2ZiVGl0OTZZMXJJN2xZaWFINkhQT3pXTmV4Q1FLa1ZZd09acTF4OGZOT0E2eG04VjdjLTlGYnRQaUtwZTVyOU83Y0dPSThMb3dvSVBBQTI0S05EcHg1LTdfUdIBuwFBVV95cUxOc04tT0ZzcWZOaHJlSzRyekVTUERET3J0UEpWRVRDaDVyZG1Dakh0S0NuYklRWWk0T3NObDRtR3VKSW1kOGxwNXNuZVVBaHVISWN1WHhQd3JaSEV6UVI2c19QdVVmWTA0bU1ibEVLelVsV0hEbjRsb21XMEE0MFFNQ0laZl9oZVVhakI2YXQyQ0dRNlo3RkcyRmhOaWJ2dTJ2Q0E5d3NvemdldkNVak80LVdqTUNMdTBKS2ZZ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "447d8d22682bea0f",
-      "published_at": "2026-06-25T17:04:00+00:00",
-      "title": "White House seeks extra funds for Iran war as part of $87.6bn request - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOTTdFaGZSZlFxV0RydkdqU0l3WWhGd0xKSHYtRW5BanlGcllhYUR6amIwb3NMT0dsWk41S2ZaOF9adDM2dFhxSnRaUlRRVV9CS2J5eS1ObWd0ODlPaXZEeUk0YnBjck5uXzYwU2w0eVlvSGZSa0ZJNGJKY3dYNzIwWnd0SVZmRFBsWTA1YQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5457cc91442342c4",
-      "published_at": "2026-06-25T17:00:00+00:00",
-      "title": "Trump: Fault for strike on Iran girls school may never be known - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUUFSZ2VJeWZpNkdNejQwQk1Vbk9xWUMtTG96cWppYVU0b0xtemdmUDRmOExYb09Hb3ZWd3dIMGFMcDN0Mm1ub3RvTnlPdm1OejJDRkRzUXJnQzRqUFV0QWd6S2lTNy1YMUZocXlQbGVpWGl6N2ZKN0VIVWJIa2YyeUQ2NNIBiAFBVV95cUxQSVhUNFZBdXBCQU9UQUJfUlN2X0RhLTMya2JPU3EyTzAtLUNDU2ZNZTA5VGQtZjdmMjVaNVdSTkwwX0s1WjZDRm03VEV2b2NXWDBmUFN3dlNyRFFMQjBJUkV6N3VhMUtPbzA5VjJKUnFPZE10NE5aQjVQN25zRGVIcDBMS0d3TXdX?oc=5",
-      "source_name": "The Hill",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
