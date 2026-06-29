@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-29T05:01:37.783313+00:00",
+  "generated_at": "2026-06-29T11:25:00.117412+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 81,
+  "event_count_window": 87,
   "totals": {
-    "usa": 51,
-    "iran": 26,
-    "lead": 25,
+    "usa": 55,
+    "iran": 27,
+    "lead": 28,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 51,
-    "iran": 26,
-    "delta": 25
+    "usa": 55,
+    "iran": 27,
+    "delta": 28
   },
   "confidence": {
-    "score": 72.2,
+    "score": 71.2,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 59,
-    "other": 17,
-    "diplomatic": 4,
+    "attack": 58,
+    "other": 18,
+    "diplomatic": 10,
     "material_loss": 1
   },
   "history": [
@@ -77,26 +77,221 @@
     },
     {
       "date": "2026-06-26",
-      "usa": 21,
+      "usa": 24,
       "iran": 0
     },
     {
       "date": "2026-06-27",
       "usa": 16,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-06-28",
       "usa": 14,
-      "iran": 10
+      "iran": 13
     },
     {
       "date": "2026-06-29",
-      "usa": 0,
-      "iran": 13
+      "usa": 1,
+      "iran": 14
     }
   ],
   "latest_events": [
+    {
+      "id": "1a1dc53e71337080",
+      "published_at": "2026-06-29T11:14:41+00:00",
+      "title": "U.S.-Iran peace talks in question after weekend attacks in the Gulf - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbFkzc3JtQVR6X0lBVDNIS3VVdlkxcU9pVXh6WHVJaV95SkplLWRGZmc0VmlvTUlvaHJqNDBrNXlvQjJZLWpoQ0Y1SUw3ZU9SbEtwcmZ2NHI3M05qeVhra1V0RDlraGZGVm9yQmdGZWViU0M1TFNKcXlxVTdRazZxdXhn?oc=5",
+      "source_name": "NPR",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "5c6aa9ff43f2a501",
+      "published_at": "2026-06-29T11:05:28+00:00",
+      "title": "Did the U.S. Actually Win the Iran War? - Drezner\u2019s World",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1FOF9PVFN0UTMySXc0QXB5VE4wRmNrT2FoMmVGQ201d1pud3Nsb1Q5eEpUUU9uTDdIQ2NhOXUyNmI1ZTR3V1pFZzRId1AwNHhjNGYxd3B6Y1dkS3kxSUxoSThvd1R1Y29NQVN0YVptd2ZMZ3lidmtUTw?oc=5",
+      "source_name": "Drezner\u2019s World",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f19d1290425e8b00",
+      "published_at": "2026-06-29T10:53:37+00:00",
+      "title": "U.S. and Iran will \u2018stand down\u2019 after strikes and resume talks, official says - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSm9KZGIyaU5OUVJQZXBweE5GZWc4dklaNVBxNlVrODJ2RV8yb1luSk9wUURSbDloVlBvMjBUeUpRVkpIZ3cybWRXZVNwVzM0bVNSZWNmWHlpa1ZCMDd6eHgyWGFnODdtb1pnS3JXa0VNY29xV0lRQllqbGdFUmRyZmJFVkZwdzVNenRiWDJFTjhnNXNqN0tfNkc1ejQyYzdHRW9Yc1RpaDVwdl9BbW90ZDdR?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "1eb574de5b263798",
+      "published_at": "2026-06-29T09:45:00+00:00",
+      "title": "U.S. and Iran Agree to Stand Down, Resume Talks After Days of Hostilities - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNanZ5dHNzaVdXQVl4Wmk3T2tYMVdtdm1COXJfOEdOdElXZjBYbWxkam1SaG1IdGRKbXRaelQ0ME0wN1U2RmxiaU90elVUT0dldjdLM2c5c3hpWXBTSWVmSlpoOWM2UDUzNFlOcTJEbk1FS0VMWDUtczdqM1lLZzh2VXNqTnpXM19RMGJNU2xmVQ?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "17b20b6d3b5db0ff",
+      "published_at": "2026-06-29T09:41:00+00:00",
+      "title": "Live updates: US and Iran will \u2018stand down for now\u2019 and talks \u2018on track,\u2019 US officials say - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MVi1NaU82STg3WmRydk9wSkcyR1BhTmNHQnRxR1lvcWNJVXdWMngtZlBmQXJrR0M5eW4tU28zd3ZvdFpobFNVYkF1Z29DNEVFQWFCaGZDb0NaSmp5RWVmZGdxX2xwalRUa0lhQVlqLWlZbEp3QjJLQg?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b430d0ab33f5356b",
+      "published_at": "2026-06-29T09:32:45+00:00",
+      "title": "Iran and Oman hold first Hormuz talks as US-Iran deal stays on edge - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQVzM1SnpzUUtIZVoxRnJ2OGhPRUlZbDljSGI1TVpmZFpGWWQyOXl0UVkydDFhSUFFQzZ3R0V0aFlrSlNVWndsUFk3amJuVXQtb1dvcHdZYVc2QlAwVHMxWUF2VW9ySVJYYzlZM1F5cFhHTE9ld1RSUGpsTFpVX21QRHgwbk1US0M2NkZhaFRraFR4eVQybVp3SlBKTExGcUpvb3FqVXVRbWk?oc=5",
+      "source_name": "Euronews.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fd7ad898d0b189fd",
+      "published_at": "2026-06-29T09:31:06+00:00",
+      "title": "Commentary: Iran can\u2019t negotiate from strength because U.S. already won war - Orlando Sentinel",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQU9jalRlSlVzZmV6TnRFelFmZHBFeHJDSzBXZ1RpQmhIOVdXRmNjdWE5OXRieTdfM2RiYS0xUnM2V3hTUFpzd05NbWJkbnRXWVdBdE93M1VkcFZLNklIR3JER1Itd0t1YUlpU0VzdFF1ZDAzdHQxZ1NKQWtTT3hUeS1TTUluRnlGampnUm1DY2dReDRGN0tPaGE0Vld5eXBpVlM4V0JGd2tIWGNKRjNVWlhrQ1pxdmM?oc=5",
+      "source_name": "Orlando Sentinel",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "309e5047eaedabfa",
+      "published_at": "2026-06-29T09:22:30+00:00",
+      "title": "US, Iran agree to halt strikes amid reports of fresh talks - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWXhuY0o0TGxCUnN6SXY2YUJGWXBTbFoyaEFUVDFua1pMQ2UzWkhhOU9PMWN3T1NuSmhOOHNhT3ZILXBxcTJ3N2NLV3BXVlljMGN2S0NyZXhSbVAwQkJkbXduenN5endrX281UjRIMnJ5c3dWaHAyRW8xenlYX1JScTE3XzdSZlVQYVpZUlBrUVBXdjlpclhN?oc=5",
+      "source_name": "DW.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6eee1176a73a0d94",
+      "published_at": "2026-06-29T08:39:19+00:00",
+      "title": "Iran war live: Tehran insists on control of Hormuz amid reports of US talks - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVWk1WDFoM25qQVl5SldLdFNLX3dPTVZTTW5oWjRwOHI5VkduUXllelNCXzBlSFJvYjFJdmM0TGRFeWN3N2s1TEM4MkRnVlRUNVk0Sll3STVWRVUzWFctczNNZUpQeXo0TGluUnFKOFR0UlFXX0l4NG9MdWFMUlljMmt1Y0tvT0F3RG90TW5xbDBFbkJSZERoeWNxSUI1TXJUNGF3bnNya0lZcUZBbG8xNUw1d1NDZjFla1pqWVRQdGQtZ9IBxwFBVV95cUxNU1NPMFdjcnlWeDVSd0dMZ2NyMmRKTTJNaU9UaVVTaWtYR3g0QjUyYmtIQmpkNjE1TFgtY3hXeF8wdHJXQVZTOEp0THBpYnU0R1V0VWxCSHpMS2NjRmlKSW1BekVaSjl2aDcwejFPTzZOTWNZM2ZoUEJwMkR5bFkycFVnODVQOWNKeFRIeWRoTl9mZ0htaU9IMnFxMDh2bS1JcE9FX2ZlUmN0VVIzZGJvMlg0QUZyOVNwYk80TVpqM01zRW53Q3g4?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c727b5f8897c391e",
+      "published_at": "2026-06-29T07:28:01+00:00",
+      "title": "Reports: U.S., Iran agree to halt attacks following escalation - upi.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPcm5uWnZFZzczbWJKV2dMcUpEcFQ1R1Y1OVZ2SUpKVXhJdGJGbzIycXVfNklmR25fSkFPcEV1cUJoWnlEYWJkVks5SVZOTFJuTTd4NklVZjQ4UXRIVDdjSzJpQ21oLVUtZTFaNXFiZTUyMC0za3Ata1FjRmtMejhuQXJEMzhyTjZmcFkxa0dSNTNTLUJJRDZqc9IBngFBVV95cUxPaDc1OWR0YlRNNVNVOGcwY0lVamFuU0s2VFJhZEVkTnFOTW4zWFJ3N2FVLUd5R1lVUWRnRFNlTmI0Y3BXZGxwYi1jX1BQYWFocTVydi1tRldlR01ieC1WUEh2ak1DcFc1S3EzRG0xT1B5eFVmYXU2YkJtTFZGa2tYWTYzZmprRTZ4elVhbnhEM2ZmX2tUZkJOQTBZNWhSQQ?oc=5",
+      "source_name": "upi.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "7bba4b79e5375cf3",
+      "published_at": "2026-06-29T05:28:00+00:00",
+      "title": "June 28, 2026 \u2014 Fragile US-Iran ceasefire strained, Bahrain and Kuwait targeted by Tehran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JcVZwTU9wS3YxN1ZZcHgzWTRxdHpNN2Y0UlRDS1dneHhWQWdWTTNibkUwMGJGTjI1N3ROQWFjSkI3MURHTTNCVXBCS2hDYzc5em51MjNYalBRQ1M0dV9ILTNlTF9CYzFYTzVfTGkyU1RXcUR2alZUbA?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2ca59007fffad2fe",
+      "published_at": "2026-06-29T05:15:00+00:00",
+      "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcDBTQkFEbzlzV3FGUXhBeks0Wm5CV2RIU0J4aFcwTl9jRFRNeHRNbkxzVEZNa3ZNSTcwS1FDZm5PM3RDbVJuMFc0bWRwR1hhSlZFVGlMSkdvOC1GcnlLUWpUbjQ0aFlMYWN3X0gtdVBUWHZYSHNKR3BKelJtdUZ1dUpnTWVubU1BOWowd1N3aE1kckE1Uklya1huN25iLUxYM2Q5N0JtcVY?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "dd3f7cdf68c24968",
+      "published_at": "2026-06-29T04:52:17+00:00",
+      "title": "US says it has agreed to 'stand down' after exchange of strikes with Iran - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wNDlxUWRzSlctNnZvVjJmcTBScWpoSjhmNTlLMGZSY1ZXXzZ3Uzh4RzBkTk4tRjRXRUxRNkFNZUJHVndyMkE2LS14NmNIY2Zjd2N5eDNRZjVJdw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
     {
       "id": "ce99dc97ebf861b0",
       "published_at": "2026-06-29T04:02:41+00:00",
@@ -110,7 +305,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "1a47bcd53bb9348e",
@@ -125,7 +320,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.6
     },
     {
       "id": "5bd2ed010bb73843",
@@ -143,11 +338,11 @@
       "confidence": 0.65
     },
     {
-      "id": "19ea8d52f30c8a38",
-      "published_at": "2026-06-29T03:40:00+00:00",
-      "title": "Washington says US, Iran pausing strikes, talks to proceed - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOa3IzZ2x1Q1V4X0tQbGJidThMQW5WRldGRVdBY2I0ZHE4djJXWUpMZ2E2YnJSTmRZWnR3TVZsZmdMMHRlS1FqOTFlLWFGY21DWloteHg2eFV1SGN1dXhueGRrMlotaTZDSUpJSzBmdDl5WS04VVN2d1padmlGeS1xZ0JNYTFlWUo2cnZoUUNwa1lyUFVKR1p4UURHTQ?oc=5",
-      "source_name": "Yahoo",
+      "id": "0e67586cf83138bb",
+      "published_at": "2026-06-29T03:52:02+00:00",
+      "title": "Truce comes under strain as US, Iran trade strikes - chinadailyasia.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5XcTUyMjVOYkFScFFicmVpa3JjQ20tejBYNERZVkhiWE90TzRmcDFpNW9ucnZHMG9WWWh5VGpNLV9wSHNCOUJzdi11VmxxZUVDbmhTYjdWTEU?oc=5",
+      "source_name": "chinadailyasia.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -155,11 +350,11 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.65
     },
     {
       "id": "81a3e8d0479b6f80",
-      "published_at": "2026-06-29T02:48:48+00:00",
+      "published_at": "2026-06-29T03:20:00+00:00",
       "title": "Iran threatens \"complete halt\" to talks after trading strikes with U.S.; Washington official says talks to continue - CBS News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTGcxeHZmSjcwLVpBNmxlaWQ4aG11Ynd6U3pqbGhkM09BTmxuYXBtczBhR3NGQWxVYU1WWGlVTGU1QlhHWVJOdDhWRHJoQ2hMcGZyb013NGVpR3NzQ004RUJWd2JQWDFYVG1SZUhVOUI0UldOWGdQRnRTWW5FVThLdG9LeHk2a0l3d0tZSmhnVXkxZ1hSOTNHcFcwaTJKaUxmZEE?oc=5",
       "source_name": "CBS News",
@@ -173,101 +368,11 @@
       "confidence": 0.9
     },
     {
-      "id": "952284f11518c762",
-      "published_at": "2026-06-29T02:38:00+00:00",
-      "title": "Live Updates: Iran Strikes U.S. Sites in Bahrain and Kuwait as Attacks Show Few Signs of De-escalation - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzS1lkbHd5RDY0ZUY3bFB2OWgySDBmaUVMU0xzXzV6QXZucTNzTTgyelJuMloyOFpBdmNpOWtmVkFvSXMya3RfUGtzNUl0NlFiaGJyY0paTkNKYm5Md2RVZU5pUUZYSDUxc3ZwNXozdTdDZGdMZDJR?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "6eee1176a73a0d94",
-      "published_at": "2026-06-29T01:33:00+00:00",
-      "title": "Iran war live: Tehran insists on control of Hormuz amid reports of US talks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVWk1WDFoM25qQVl5SldLdFNLX3dPTVZTTW5oWjRwOHI5VkduUXllelNCXzBlSFJvYjFJdmM0TGRFeWN3N2s1TEM4MkRnVlRUNVk0Sll3STVWRVUzWFctczNNZUpQeXo0TGluUnFKOFR0UlFXX0l4NG9MdWFMUlljMmt1Y0tvT0F3RG90TW5xbDBFbkJSZERoeWNxSUI1TXJUNGF3bnNya0lZcUZBbG8xNUw1d1NDZjFla1pqWVRQdGQtZ9IBxwFBVV95cUxNU1NPMFdjcnlWeDVSd0dMZ2NyMmRKTTJNaU9UaVVTaWtYR3g0QjUyYmtIQmpkNjE1TFgtY3hXeF8wdHJXQVZTOEp0THBpYnU0R1V0VWxCSHpMS2NjRmlKSW1BekVaSjl2aDcwejFPTzZOTWNZM2ZoUEJwMkR5bFkycFVnODVQOWNKeFRIeWRoTl9mZ0htaU9IMnFxMDh2bS1JcE9FX2ZlUmN0VVIzZGJvMlg0QUZyOVNwYk80TVpqM01zRW53Q3g4?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5877c7d0606a6a69",
-      "published_at": "2026-06-29T01:10:00+00:00",
-      "title": "U.S.-Iran Deal\u2019s Vague Language Comes Back to Haunt Peace Efforts - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNdEV1VkkwbHg0bzNFZUQ1eVFITHJwUmY0eWhsT21xeVBkTV9rLUlqY1RPMFlEUnREclRzMU9YdWJrdnotV3VqLVFJV0VSc3RxT19DUFlMMi1aMUY2UE5oMnJqUzhwbWhSWDQxWmJ0aEo3VURhS3FGSWhISW9TcFZzZzlWUWpESFpzbWpxQQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b3a02ff0f71b7692",
-      "published_at": "2026-06-29T01:04:00+00:00",
-      "title": "Live updates: US and Iran to \u2018stand down for now,\u2019 US official says after exchange of fire - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9JcVZwTU9wS3YxN1ZZcHgzWTRxdHpNN2Y0UlRDS1dneHhWQWdWTTNibkUwMGJGTjI1N3ROQWFjSkI3MURHTTNCVXBCS2hDYzc5em51MjNYalBRQ1M0dV9ILTNlTF9CYzFYTzVfTGkyU1RXcUR2alZUbA?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "76d9ed56615c20fa",
-      "published_at": "2026-06-29T00:58:00+00:00",
-      "title": "U.S. and Iran agree to halt strikes and meet this week, U.S. official says - Axios",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOckhYQlFEYzQ1S2MxdVVvVlg3U3RPemtZTVNNWV9HM1BJU2xSank2QXJHQjlDencwXzBvNkRzZm9sZ3JQbW14b1hUV3BKWkdPZG83UVJQNXB3OTg5enRaU2hkTUdVbWYyMWxvR3RKczZUUlhnelVJNlFPRnpfZFBHUUgzR1lkMEt1RklaUjV5SzIyRGo2Y0dlUnN1VExkaEFDWVRfSg?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "61b53c687d027f82",
-      "published_at": "2026-06-29T00:40:00+00:00",
-      "title": "In Strait of Hormuz, Renewed Strikes Threaten to Set Back Shipping Recovery - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNTZvQ1FwR2FBOHdueE0zcHhwVnhpUnQxa1cyTTF2amJGcDJnSDhoLWpaX0JRQTZxR2R1eHMzU3k0aHJKOXFOYkFQQlJaRTJpYW9DLWdSV2RaTkViWWl1TFp1c052OUlzNzZOR3NPZUhab0xPbXkyb3dKU1JpZVUwc2hMMmtjZw?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5671d9da2a105a92",
+      "id": "0db90925abe229b0",
       "published_at": "2026-06-29T00:23:00+00:00",
-      "title": "US and Iran Agree to Halt Attacking Each Other Ahead of Talks - Bloomberg.com",
+      "title": "US and Iran Agree to Halt Attacking Each Other Ahead of Talks - Bloomberg",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUEZsRldSNktaQjJuREx0TFZsaUJLM25ncTlEUlpsMkFQUHlwb0pFUU5yOGhVNGxISDQtaGdwMWowUXFfVzB4cGlDQ2phSEFCQUUyV1ozaVgydXJMNW9oUEx0M3M1dzctU2YtUlJTMVdYV0JDYUwwX0N5S09HTFhoM2RuWTNDdzBlbHF6eTdHMEN3VTY5T1BMWVZhNkhWSW1lblY4eVhTRUF1N2l1U0VZ?oc=5",
-      "source_name": "Bloomberg.com",
+      "source_name": "Bloomberg",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -291,111 +396,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "4686802c0e3bf435",
-      "published_at": "2026-06-29T00:11:01+00:00",
-      "title": "US-Iran talks to continue, both sides to stand down after strikes - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVE1YZHNjZlhvQnFrT0FHdkpnQm9JOGdzd1E5V1ZZQTNaa0ZNdnZVWGFLTGRJeXB1TXcxekdhdkJqOVFSOVBMc214bzV5dUxvMENMRmtCelZEdlU2WXFYZTNEOEFNTW1oZmFkS0ZnTnp3djI5N0QtR3YwT3hVUFFVTG9XamlEMmJt0gGOAUFVX3lxTE9ldVlFWWVoanFVTTJMQ2JGbTFCakxrSWZBYTJtcjFTa1YwUThFNDRFNXlhLVBjZ1ZyQkM1MXZvN3ZGbFpaWkRGLVZTeVhjR29GWVd3R2ZrVlpTdkhBZVdKRVZHaVdDVWsxUHpBVjF5eUczdGU5ZzU2ckpsWHFKVjZmMjhMZWJ6Sy13RGthUnc?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "52aa1fe75743e3e1",
-      "published_at": "2026-06-29T00:10:28+00:00",
-      "title": "US and Iran agree to halt Hormuz attacks, will reportedly hold talks about strait in Qatar on Tuesday - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSGcxbjNJRXoxZFhjcm9tREVKekJuNE9vWWtjWGJNdkNyLUE2d2JlanU4ZDZrS2dVVFowd0szT1plUUlMUmhLSU5kMUc1ZHo4R1J3UVZVZ25Vb0ZMMXlSMzVRaG41S0hFdUdXb3gtMXgzQkVBRk9XbXlvbldUZGFEeFM4VU5nT195TExvMVZYX2x5djVUSmN2UUNTaWFJUG9HVUs3dHdMaWdvdnljU1MyYkR5TGN3ZnMwblHSAb8BQVVfeXFMT0JSenc1b0IxbE1zVHNKTlRtTXNCa2NCbng4b1UtVWVqUmtjRW85YjlwVmh3UGtRSnR0bHpZQlBvUkJQQ2NBbWRfbkZIQXNBampuZlJtRmVaVzNtdXUwYW9kcTZNbF95NXdGdUZNNEZabmg1LVlSVmxjVFB1bHIzOU9WVGNqYWlxZ3dmaVBUdVJvaGRjc2NzdnhQT0Q1TG80eVY4NGFqR0ZzZEZ2dVpCN29meEhOUDcxVGFfTWl3UXM?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7ed3447b8675069e",
-      "published_at": "2026-06-29T00:00:00+00:00",
-      "title": "Oil jumps back above $70 as fresh U.S.-Iran clashes reignite Middle East supply fears - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTWJRcFBwNnR2cWRJVkJQb3VRQmJiNkI3cHR6X3pGWGU3NWp0YllOaDZUdWdvZ0Z5TldETFgta2U2WUR4Nnh0VEZxQXB0TmJpRWhlM1Y2M1hBSk5PSnFwWlktUGEtNEo4djBOdUlJVklqM1VaWEoxaXRPMnRZbllLNGJaTkh4WUtERUV6MUEzUHJET3lraXNVQjRhbEtFU2150gGmAUFVX3lxTFBZcmZVZ2kzRjRkT1IzYzRMWnBBX25SSklTTk43WXV2VnRQN1k0clNnOHp3YUhIN214clJOU1BONTlOVG1TRXlEMXR3UkpiVURPb24zVjJjblpJUkw4WTVpZ3U4ZnJ6MXNYbEpNcVJPNmVVVGw3MlBJU1pybWlqN3BjbTNzVFRUV3JxQXZxaVpEXzJiQ0NxeVlTTWJ0UVZVc1hTNkdNTUE?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "6bc71643e1c09a94",
-      "published_at": "2026-06-28T23:40:00+00:00",
-      "title": "U.S. and Iran Agree to Stop Fight Over the Strait of Hormuz - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOMVZpS1hFREs3VDc0QzBrVXM3QVZtUG01eW9raUlmQ3dqaU9xcXEyMTYzRXNiSG1nMmtza0dNZXY2YWRqVHhqNGtFNjd0dTZiWExMZ1RlVjZFbC1pSFd6dUx4RHVOMjZEWVFMckdmWTFQdENpSVhsQm94Y2k0d3REUFpVbnZBemNvbzN3ZHduYWdfb2c1QU9jaUxBSjYwREEtR3ZQZFBqZ01qM29Uc0xaNFdkdUstQTR0T1lZMGprOHFOdw?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a3e17b8b298ad36e",
-      "published_at": "2026-06-28T22:15:00+00:00",
-      "title": "Oil climbs following renewed US, Iran strikes in Middle East - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQeVE4MTEtZkdxUjFqY0VNeW1uZ09lM01DRkRxcVRkTzNFajVCMmx6QWVLdG9NQmRaMFBIdmswQ09GaExRMnNvV1lvS044S3oxQXVOSjYtcmhVelkxbmxJZ0JxOXRJOWNQbmhmSFNpalZUTVEzRldFZ01XdTdtYlhOZDdCazRjeHlJUi1ReEctQ1hfQ2toMnpZQjJXd3BJOWRBNWR4NDczX0diZ09D?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0e6095e44f4be438",
-      "published_at": "2026-06-28T21:32:00+00:00",
-      "title": "Iran attacks Bahrain and Kuwait following US strikes and threatens to halt talks - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcDBTQkFEbzlzV3FGUXhBeks0Wm5CV2RIU0J4aFcwTl9jRFRNeHRNbkxzVEZNa3ZNSTcwS1FDZm5PM3RDbVJuMFc0bWRwR1hhSlZFVGlMSkdvOC1GcnlLUWpUbjQ0aFlMYWN3X0gtdVBUWHZYSHNKR3BKelJtdUZ1dUpnTWVubU1BOWowd1N3aE1kckE1Uklya1huN25iLUxYM2Q5N0JtcVY?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "60a167679a6e310e",
-      "published_at": "2026-06-28T20:34:00+00:00",
-      "title": "Shadow war: how use of proxy forces by Iran, Israel and US is driving Middle East instability - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNmtkbkRsT00wbzRHUjIzMTBmZXdrdkY4V1JhaVlZbDZmTWl1MWVDVWRwVGdScVhlcUhwMjhRSnRheUZyVEF2TjRxbVZmVmpDQ19KRzZJbE5WcTRnUDJ1eFlzSzVmcWtRUTFsZFdvLWM2NDVKclozX0FUUmFsNTBXNHl6YTE3QjhwM0E?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
