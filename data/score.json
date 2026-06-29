@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-06-29T16:12:49.740638+00:00",
+  "generated_at": "2026-06-29T20:16:45.218898+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 88,
+  "event_count_window": 86,
   "totals": {
-    "usa": 53,
-    "iran": 24,
-    "lead": 29,
+    "usa": 45,
+    "iran": 27,
+    "lead": 18,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 53,
-    "iran": 24,
-    "delta": 29
+    "usa": 45,
+    "iran": 27,
+    "delta": 18
   },
   "confidence": {
-    "score": 71.8,
+    "score": 71.7,
     "label": "Medium"
   },
   "event_types": {
+    "attack": 53,
+    "diplomatic": 11,
     "other": 21,
-    "diplomatic": 10,
-    "attack": 56,
     "material_loss": 1
   },
   "history": [
@@ -77,26 +77,236 @@
     },
     {
       "date": "2026-06-26",
-      "usa": 21,
+      "usa": 15,
       "iran": 0
     },
     {
       "date": "2026-06-27",
-      "usa": 16,
+      "usa": 13,
       "iran": 0
     },
     {
       "date": "2026-06-28",
-      "usa": 10,
-      "iran": 10
+      "usa": 13,
+      "iran": 9
     },
     {
       "date": "2026-06-29",
-      "usa": 6,
-      "iran": 14
+      "usa": 4,
+      "iran": 18
     }
   ],
   "latest_events": [
+    {
+      "id": "981c309885ce19cd",
+      "published_at": "2026-06-29T20:08:36+00:00",
+      "title": "Trump says U.S. and Iran will meet to negotiate after days of strikes - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaHV2VTJKdkhDT2taRjN2R19WLVJESnV1SmRNaVRLU2xGcU5JZG1Id1hGZG01TWhLdzlIdnc0THdDdTRPdC1HM3JoZFBsMm54b2RhSjl5QWY1WnFMSUZ3bTEzM1BpSjJxZXlIeVF0a191RlVTTFhXWGFMLVJySXFVSTc5RVJjbUhRYW9OeEphSk1NaE05b3FqaXo1WWgyM1dRS1hmVXM3V2RxUQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "3ab114f551d6cc79",
+      "published_at": "2026-06-29T19:29:10+00:00",
+      "title": "Iran war live: Trump envoys to fly in for talks with ceasefire at breaking point - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPTHNfYm1YMW9LR2NLd3RZZkdsdlhtQVdIMlcwaTdwc19LRVRwMXNpRExoSzdMRXJFYjhZYm9ESkY5UGpyUURpS1lNZUtYVGU4anBReVNxTm5BTWRTTDJYRjk1eEl3T24xTjJxUlUwZ3RQX3ZIR19saXh1azZFY3ItRG1uc2lRMHp6eTIwenktcDlvSG1CMDRCYWdGRklXUFF1LUdRMTlGbElKaXdHSWlqeFpPRWJBMmJSYkpYcTFB?oc=5",
+      "source_name": "The Independent",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "69660e1d285d204d",
+      "published_at": "2026-06-29T19:08:28+00:00",
+      "title": "Iran war latest: Oman rejects Hormuz transit fees and backs international law - The National",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMG5RWTJwZjVqM3RZVVVtSG0wMXkwQXRvMzZGYkQwTHRJR0lLUkFldERCS1gyUkhLRmtpc2lacWtaN08wRERGaF84cFZLUUVXbklTTlZHcENpVElQV1VBQ054V196ZzluMXR6dTVJWDZ2VUlYVWNLVnhWQXY2UExOSHdkQk9uUHdteGhzTQ?oc=5",
+      "source_name": "The National",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a8bd0ac93066be93",
+      "published_at": "2026-06-29T19:00:26+00:00",
+      "title": "Iran War Live Updates: U.S. and Iran Set for New Talks in Qatar After Exchanging Strikes, Trump Says - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kcWhEM1BEcXZCMUFITndwLW5MTUY5aWI1d1B1R25SeWJZT0pBTGVTWE91bEQzcUJBWGJrb2w3bWE2UjVpX3JPb1JmcVBTc0RXRjFQQl9FbmtTRWlxNDF4VUhFa3FlNy1xcmNHSy1JZDdhNjIyWUFV?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "535d443af1c29cc9",
+      "published_at": "2026-06-29T18:53:49+00:00",
+      "title": "Live Updates: Path forward for U.S.-Iran talks unclear after weekend strikes - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFNwUDZyaW5TYVZ1alBuV1FGWlcwUlZETlowb2czZ0RjdjJ1UHZ5UU5YRGszN1F3THlENG9KMkhTV2lVblU1Q2tUOVBnd0VjaUVrajZKQ3VoRzBaUnZlREZnd1hOZS1VOTVSd2JJQnBWT0x4Rm5HRjktRE9kRU5uWEx1OHR4eVRUWGxhOGpIZ1Vqa0lvR1U0dFFRUVVpUDBuRDJCTl9JQQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "caa687ee26f2e1a0",
+      "published_at": "2026-06-29T18:42:00+00:00",
+      "title": "US and Iran pause strikes but disagree over next steps on talks - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "e7021d6747c46ad7",
+      "published_at": "2026-06-29T18:33:45+00:00",
+      "title": "Trump says Iran requested ceasefire talks in Qatar; Tehran denies it - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc3N6LXNFQlpJeWhTRnNPajRaazJvaDlDWlhrZVpyT01nMEtsQlRZbHVKaHZsNEtjY2JpZjFNYmstOXRMZ1JhV3ZjV3dDUVFlM1JVdEpSeUlnMHhlWHFDQ2ZwcWV2UWdlaW9rUWo5aDZmOFMxSTAxbnN0NWhKTlhqemRvSXNSTVZUdEdsaGtxQ0RBRVZmMUY3YVdMMnoyZ0tHZVlFZEV1UTRGMmFSRGFmeF9n?oc=5",
+      "source_name": "Scripps News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "9b454761ccecffe2",
+      "published_at": "2026-06-29T18:27:00+00:00",
+      "title": "Iran war has cost Americans $1,000 per household, economist estimates - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9EM1Y1SHZNMnMwV1lJVDE3WjlpRWd4Y3FQcUZ4cW51ZEo2OWtwaXA2UTI4ZzJYVXdkNFpidEdyNG5OVjVZQm5LUWJLdjh1dk1KY2lwTVl4V0VhU0ZhN3haWklFVW5LUTZUdDRnbzE2VEQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c057aba73d962d4f",
+      "published_at": "2026-06-29T18:24:00+00:00",
+      "title": "Live updates: Trump says US and Iran to hold fresh talks after strikes strain ceasefire - CNN",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MVi1NaU82STg3WmRydk9wSkcyR1BhTmNHQnRxR1lvcWNJVXdWMngtZlBmQXJrR0M5eW4tU28zd3ZvdFpobFNVYkF1Z29DNEVFQWFCaGZDb0NaSmp5RWVmZGdxX2xwalRUa0lhQVlqLWlZbEp3QjJLQg?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d7f2daefc2187f24",
+      "published_at": "2026-06-29T18:20:32+00:00",
+      "title": "IRAN WAR WEEK 18, Ceasefire Day #12: deadline is Sunday, August 16, 2026 - Daily Kos",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOVllTNWk1UjJRQngycjhzY2VpdngwaFRoYW5aeGVmUTYzREkwc09TVGxUM2MtT3Fic3htU2FjUFBRcnUzNkZ3V3RWaUl4ajlVUllnM3RRRzdUODNmcFVkZlBuQldSSEdRaDc3TktlRkRqekx4S3l3TlZscnBUdGN3cldBblJ6UTdLcXZVWXN4Sk9hcDZlTWxQNW42c2o1QWc?oc=5",
+      "source_name": "Daily Kos",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8f7dc57faecef550",
+      "published_at": "2026-06-29T18:06:57+00:00",
+      "title": "Ships Pull Back Amid Heightened Risk From U.S.-Iran Strikes - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMVpLSXJnM0gxVVF5Um5raVAzNVVkdGdTRVRqallDVjBXYlhMWGZiTWdhTUdHWWY0enFRcHYwbkRjLXBTQV8zdEdVTjFUTGU1LWdJZTZjd3RNSko4NDAxdWFHVkZqZDlETGF6RjZSM21ITWs5akYwZU5XelYzSklIYXliRW5IN1JZVWdZeg?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "32f8918f11caad58",
+      "published_at": "2026-06-29T17:52:05+00:00",
+      "title": "Iran war live: Trump announces Qatar meeting; Tehran says nothing planned - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVWk1WDFoM25qQVl5SldLdFNLX3dPTVZTTW5oWjRwOHI5VkduUXllelNCXzBlSFJvYjFJdmM0TGRFeWN3N2s1TEM4MkRnVlRUNVk0Sll3STVWRVUzWFctczNNZUpQeXo0TGluUnFKOFR0UlFXX0l4NG9MdWFMUlljMmt1Y0tvT0F3RG90TW5xbDBFbkJSZERoeWNxSUI1TXJUNGF3bnNya0lZcUZBbG8xNUw1d1NDZjFla1pqWVRQdGQtZ9IBxwFBVV95cUxNU1NPMFdjcnlWeDVSd0dMZ2NyMmRKTTJNaU9UaVVTaWtYR3g0QjUyYmtIQmpkNjE1TFgtY3hXeF8wdHJXQVZTOEp0THBpYnU0R1V0VWxCSHpMS2NjRmlKSW1BekVaSjl2aDcwejFPTzZOTWNZM2ZoUEJwMkR5bFkycFVnODVQOWNKeFRIeWRoTl9mZ0htaU9IMnFxMDh2bS1JcE9FX2ZlUmN0VVIzZGJvMlg0QUZyOVNwYk80TVpqM01zRW53Q3g4?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "abb8ae84167a4dac",
+      "published_at": "2026-06-29T17:33:36+00:00",
+      "title": "US, Iran agree to halt strikes but broader talks pending - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNlh6d3pDMF8yNjlacUNlOWNDQVZQRUo0NzBKRnVWQkJCLXNvRWRkTzFmSDVISUNwZlZqcEdLcmpFVE51aFBzZWpFdHJZYW1DTmlReDdnb0xYTFp1UDZZLUlpejZFajdGWEJ4TUR4eGZ1QjdORnIyLW1uU1Z5QjNmZnc4dmwyd2NLMXBCZm5CWno5UTR6YzhGUjBaTEpxUms?oc=5",
+      "source_name": "DW.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "e7bb6a63255740f8",
+      "published_at": "2026-06-29T16:30:00+00:00",
+      "title": "The Korean War offers lessons for a fragile US-Iran ceasefire - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNS094WE9DMkJtWmR3Q3phSzJ1TmpfQnJkVWhzY29wSHdIdkFBQ0l2anBtbEJCc3ZNemlVRW1xaDZRalAzXzJYM1lkOVJyNGpLQUF2WDBGSzJkSXBJNVdZeXN0dWRsbWNEUnFMRlQ2OXZEcUtsX2c5azh6d1ZpV3lkdzM5YUJrdVkxOU5JdtIBkgFBVV95cUxNNExRcDEtbFdOUmlQcnBiWVh2QnBfZ1BfLWQtaVJoU2I3TmhMMFVnaENvdEo3c1dkY1c0dGlXbndTYjRaRFZGdlRtZmt1RlhsdVVYaE1NZG0tRUJLRVh3eUVBdlVZYi1ldEZLU2VFNGRWakpHY0w5RUZ5c19IOHBocWZuUWxGR0g2OFBDbGMyOExOUQ?oc=5",
+      "source_name": "The Hill",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
     {
       "id": "ca3b51a02f0e1b96",
       "published_at": "2026-06-29T15:53:11+00:00",
@@ -125,44 +335,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.75
     },
     {
-      "id": "2efbf48dd59e5387",
-      "published_at": "2026-06-29T15:32:00+00:00",
-      "title": "Iran Latest: U.S. and Iranian officials to resume talks, Trump says, after clashes test ceasefire - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFNwUDZyaW5TYVZ1alBuV1FGWlcwUlZETlowb2czZ0RjdjJ1UHZ5UU5YRGszN1F3THlENG9KMkhTV2lVblU1Q2tUOVBnd0VjaUVrajZKQ3VoRzBaUnZlREZnd1hOZS1VOTVSd2JJQnBWT0x4Rm5HRjktRE9kRU5uWEx1OHR4eVRUWGxhOGpIZ1Vqa0lvR1U0dFFRUVVpUDBuRDJCTl9JQQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "c057aba73d962d4f",
-      "published_at": "2026-06-29T15:29:00+00:00",
-      "title": "Live updates: Trump says US and Iran to hold fresh talks after strikes strain ceasefire - CNN",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MVi1NaU82STg3WmRydk9wSkcyR1BhTmNHQnRxR1lvcWNJVXdWMngtZlBmQXJrR0M5eW4tU28zd3ZvdFpobFNVYkF1Z29DNEVFQWFCaGZDb0NaSmp5RWVmZGdxX2xwalRUa0lhQVlqLWlZbEp3QjJLQg?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e7021d6747c46ad7",
-      "published_at": "2026-06-29T15:16:26+00:00",
-      "title": "Trump says Iran requested ceasefire talks in Qatar; Tehran denies it - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQc3N6LXNFQlpJeWhTRnNPajRaazJvaDlDWlhrZVpyT01nMEtsQlRZbHVKaHZsNEtjY2JpZjFNYmstOXRMZ1JhV3ZjV3dDUVFlM1JVdEpSeUlnMHhlWHFDQ2ZwcWV2UWdlaW9rUWo5aDZmOFMxSTAxbnN0NWhKTlhqemRvSXNSTVZUdEdsaGtxQ0RBRVZmMUY3YVdMMnoyZ0tHZVlFZEV1UTRGMmFSRGFmeF9n?oc=5",
-      "source_name": "Scripps News",
+      "id": "8c23d9026d5c8233",
+      "published_at": "2026-06-29T15:11:00+00:00",
+      "title": "Trump claims Iran has agreed to hold peace talks in Doha after recent clashes - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QUldjanRzdHVDc3lrMnh6a1JvYUQwWS1qbFY0dmNpc28wYXRwMlRXRHE2U0VZWHhZWXY3d1dNMmdWZXJMTGNFNXZxaUtKaEJXcTBhX2sxUGtPZkNTXzRuVTFUUFFJMzg4dlVFcTBTY0xqejNvV1B2X1hnRVllZw?oc=5",
+      "source_name": "The Guardian",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -173,23 +353,8 @@
       "confidence": 0.65
     },
     {
-      "id": "981c309885ce19cd",
-      "published_at": "2026-06-29T15:14:10+00:00",
-      "title": "Trump says U.S. and Iran will meet to negotiate after days of strikes - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaHV2VTJKdkhDT2taRjN2R19WLVJESnV1SmRNaVRLU2xGcU5JZG1Id1hGZG01TWhLdzlIdnc0THdDdTRPdC1HM3JoZFBsMm54b2RhSjl5QWY1WnFMSUZ3bTEzM1BpSjJxZXlIeVF0a191RlVTTFhXWGFMLVJySXFVSTc5RVJjbUhRYW9OeEphSk1NaE05b3FqaXo1WWgyM1dRS1hmVXM3V2RxUQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
       "id": "f19d1290425e8b00",
-      "published_at": "2026-06-29T15:04:06+00:00",
+      "published_at": "2026-06-29T15:08:34+00:00",
       "title": "U.S. and Iran will \u2018stand down\u2019 after strikes and resume talks, official says - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSm9KZGIyaU5OUVJQZXBweE5GZWc4dklaNVBxNlVrODJ2RV8yb1luSk9wUURSbDloVlBvMjBUeUpRVkpIZ3cybWRXZVNwVzM0bVNSZWNmWHlpa1ZCMDd6eHgyWGFnODdtb1pnS3JXa0VNY29xV0lRQllqbGdFUmRyZmJFVkZwdzVNenRiWDJFTjhnNXNqN0tfNkc1ejQyYzdHRW9Yc1RpaDVwdl9BbW90ZDdR?oc=5",
       "source_name": "The Washington Post",
@@ -203,128 +368,8 @@
       "confidence": 0.8
     },
     {
-      "id": "8a117487493263d2",
-      "published_at": "2026-06-29T14:53:00+00:00",
-      "title": "Former Iran nuclear deal negotiator on what U.S.-Iran 'new normal' looks like - NPR",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdEdpNDRGMmxVelRQRHI0b3VvZl9jQms4ODVhYXJITzB4ZEpGMVlpVldWTE1WeHc4YTJacENMMkNKNnVSUlJ0MXlBcWE2NndETzJWTXBDdjVSU0NVemJEYzFhb3ZrU3dCaVBuNkF2MndoSFNDYzdOdmJUTXNCalI4bXF1RTRqcWZhX3pBanVPSF8?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "32f8918f11caad58",
-      "published_at": "2026-06-29T14:37:02+00:00",
-      "title": "Iran war live: Trump announces Qatar meeting; Tehran says nothing planned - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVWk1WDFoM25qQVl5SldLdFNLX3dPTVZTTW5oWjRwOHI5VkduUXllelNCXzBlSFJvYjFJdmM0TGRFeWN3N2s1TEM4MkRnVlRUNVk0Sll3STVWRVUzWFctczNNZUpQeXo0TGluUnFKOFR0UlFXX0l4NG9MdWFMUlljMmt1Y0tvT0F3RG90TW5xbDBFbkJSZERoeWNxSUI1TXJUNGF3bnNya0lZcUZBbG8xNUw1d1NDZjFla1pqWVRQdGQtZ9IBxwFBVV95cUxNU1NPMFdjcnlWeDVSd0dMZ2NyMmRKTTJNaU9UaVVTaWtYR3g0QjUyYmtIQmpkNjE1TFgtY3hXeF8wdHJXQVZTOEp0THBpYnU0R1V0VWxCSHpMS2NjRmlKSW1BekVaSjl2aDcwejFPTzZOTWNZM2ZoUEJwMkR5bFkycFVnODVQOWNKeFRIeWRoTl9mZ0htaU9IMnFxMDh2bS1JcE9FX2ZlUmN0VVIzZGJvMlg0QUZyOVNwYk80TVpqM01zRW53Q3g4?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8f7dc57faecef550",
-      "published_at": "2026-06-29T14:34:34+00:00",
-      "title": "Ships Pull Back Amid Heightened Risk From U.S.-Iran Strikes - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMVpLSXJnM0gxVVF5Um5raVAzNVVkdGdTRVRqallDVjBXYlhMWGZiTWdhTUdHWWY0enFRcHYwbkRjLXBTQV8zdEdVTjFUTGU1LWdJZTZjd3RNSko4NDAxdWFHVkZqZDlETGF6RjZSM21ITWs5akYwZU5XelYzSklIYXliRW5IN1JZVWdZeg?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "d826ad67d18a2ef5",
-      "published_at": "2026-06-29T14:15:00+00:00",
-      "title": "Trump announces meeting with Iran in Qatar despite military skirmishes - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnM3Z1FiUWg0cGtGRWVxRHdUYmJ0UTFXVWhEZ0lObm1FY2FHMGRUNTN4bTR5al9ySmx0RW93QW15d09NQ1VjZFJkNDd0eFpQZlNBaS1wa1VNSkRpLWVVTjM4c0JSOHBzYXB6ak1WWXUtZ2xZVm1pbUN4V0xSQXB3TFd6c1NFckp6elV2Q3lIRXZUQnBFYXpGRkd6OVFLVHlVMkdZOTJQWjdYMTZLX0U2eNIBtgFBVV95cUxOb1p4aVRaMk04eHdua3FnTmpLd3lISjRZYkdjLWQ4cHZfVHRMYWF6LUw0M3JURXBBWDE0N1Z1djRmNDNLc2c1eWNPQ0ZPSHlYUF8zOGF4b1BhZFIxUVRDRHBxMGJBbURSa2Y4Z3dmLTE5aS0yaVE1TzF3cTQzNWpXU0JaQlpxYVRvQVZUM2ZXWUdSeTQ4MkpLVE44MjVCWUtYSkpnbmNiSzVJWXlLUDQyZU5wWERodw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "dabdbcbedd9a39dc",
-      "published_at": "2026-06-29T13:57:19+00:00",
-      "title": "Vance Vs Rubio: Is Team Trump divided on Iran and Lebanon? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMnhlT19GaHVXcEFGOW80dXlaeG1pX09UMDZQMjJZOVBxajFNNkQyOXhaM3FVUEh6djV1OFcxRUE4Q0p2eFMzalRqbGdIbkFYVld0d0NQVjJsM0J2OWR5U3NKWkhXYy1jTWxGRm0wVG1QSDRKZjVLR3JHUGQtakJsRTNseHlDVUNDaFpEY1dvbTFuR0VSclJyVEFOc1EyUdIBowFBVV95cUxNcnUzX0pnS0t2TEF0OFZ3OHZJZWdySmZhczVqRlNoTTdfV1pNUWtscHNTdjRFekpOQmZkUVYzUTFmTGNucWtYYnlFbXpHSzNxVnZmckN3RlhReXVwcUJDQ0JyVXRuUnBhVE9vR2ZyZjRxbWN1eHhBUVFDa3QtOEpxYjVoeklZU0tOUUphekFRUHNhc0lrWHpaOEFlWWVOc05XWXBn?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f18d674866b3f138",
-      "published_at": "2026-06-29T13:56:30+00:00",
-      "title": "Trump says Iran has requested a meeting with U.S., but Iranian officials say nothing has been scheduled - PBS",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQUVcyWk42bTBhQ2VGRXhxQTB4UFFhaHN6aDNVWS1vMGZnU0RDV0NYS19qZmRaaHliUG12XzVuakM5aUpaYVZaR2wzdl9OallQSXhVVnBYLWJMQ3RmYnl1cl83cE5EclRvZTg0eF9IeUphRi1xUFhRSkotcUliaU1HQkw4Qk5MWkVBcEVRQ2NTQS1hVldTd0ptQ2lDZi13QWMwYWppX2otMlJkYlB2SEkxelM0bDdVLTJWQlhzNmFDREtSNWFwRGFrR1RrU2JYd0dwSXfSAdcBQVVfeXFMTXNZTkJnNFNoS2IxYzdwMGJZaG5UdnNKTC1lQi01LTJ6c1dBZkdjVDlqTzJCczJ3MEQ4WVF0VDdJSERzRFpnRFRWMXh6SWRPN0I4eEVIWlJQelZ0WTBxV2UxeDV2YWZmS0VUN1VlX3lmZER1Q043Q0ZNc2t6RXRaREp5NXdyZGJsdEtYeUhfRExEZHQtU1M0d1VDS2RuU3JmT0UxeFdOZDl0eG9wcjBSem9rU2htckQ3SFAwaWMzallyWVpwLWVRbGpMWlFUUGt1Ym5uOFNabjA?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "51cbf7d6c0c48031",
-      "published_at": "2026-06-29T13:55:05+00:00",
-      "title": "Trump says next US-Iran meeting to be held in Doha Tuesday amid conflicting reports - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZDlpeFhFLUlhcWhqNHBKSlBQRFZGbUFETVRLVjM1d0dNMTFzamZLNGJneVQ3X1lWZmxyZXVQa1UtZWZrdEQwSEhxWFRFWER4NFd3WG53UXJRd2tCUm1JSUV3cGJfVjZNMWJQU3MtMXFWd2NYZlBSQlJNNHh1Q0c5MllZOERvTW9lNXEzVW1hdFJzSThHa0JlbDRuYTNpVEdtbnU5aUFzZkx0MGtiYzdmem9xWDLSAboBQVVfeXFMTTFrREJVQWx4bURLTXZDLUp5ZTZWQzM3cmFBUzlCUVhwc3Q5clhCaW9udXc0aGs3dVZwVlRJdzJOSGd4U3RCSnRfZXlFYzQ4dHlWNVFUeW1aU1dpa0ZhX1FYWmRzbzkyN2k1ZldEa0xfSUJhd1AxRjJmY0hjVFpCVTlJd0k2Y19GOFJCMm4yOWlNVEdDaVlIQUp6ZTExM1B2WWI2dXFrVWdpTVlRSEoyWktKZldWUGhsal9n?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "caa687ee26f2e1a0",
-      "published_at": "2026-06-29T13:29:00+00:00",
-      "title": "US and Iran pause strikes but disagree over next steps on talks - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOGllc29LZmZnSEdXeXdTZ0x1Sml0M2VVZVBWRVdvZG9DTEF4RnE2YjAwQzlITU9EcThTSjJBMjM1MUsxWjlWRkctVUdzalFkaE9KQUNnaHp6c3J1YThkOGxEWFprQkFTaThCczNmYWl0UTRNeFBWYS1uVUtaM0FhTVpTQXhSYVlEN08zR1F6ZFNiRE13YTJGTHppdmFCTS1SZlo4?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "dd3f7cdf68c24968",
-      "published_at": "2026-06-29T12:51:58+00:00",
+      "published_at": "2026-06-29T14:52:10+00:00",
       "title": "US says it has agreed to 'stand down' after exchange of strikes with Iran - BBC",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wNDlxUWRzSlctNnZvVjJmcTBScWpoSjhmNTlLMGZSY1ZXXzZ3Uzh4RzBkTk4tRjRXRUxRNkFNZUJHVndyMkE2LS14NmNIY2Zjd2N5eDNRZjVJdw?oc=5",
       "source_name": "BBC",
@@ -338,64 +383,19 @@
       "confidence": 0.65
     },
     {
-      "id": "147856472c479a4e",
-      "published_at": "2026-06-29T12:45:55+00:00",
-      "title": "U.S.-Iran peace talks in question after weekend attacks in the Gulf - WBUR",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9ha3dYWmIxdUJLRWYwY2R3REtoS3hkU3lKLS1lOVRsNXVRTmpxN3JIUHljNnRra0llbUxqcVZuZEYxOXhVUC1jZ0o3WXZydWx0My1ORGlaeTBDZ0VyVW5WME5Mb0pxX1VCcU5HM2l3cndtOHN1SWhta1J3?oc=5",
-      "source_name": "WBUR",
-      "event_type": "attack",
-      "actor": "unknown",
+      "id": "24249e267a590b49",
+      "published_at": "2026-06-29T14:45:29+00:00",
+      "title": "Mediators set up de-escalation channels ahead of US-Iran talks, source says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPamkzUTk4cHJ6Z1BfZm5Zc2FIX2cwaUNBVGd5dGZLenN5bjdsV2RqamY3NXhna0NpZjdiSDBobnpYNHpJaExjcWdOUWtteTdPNkd3ckJ1d0lEWFVkTlpueHlBRTV0b0lWLXVmbkxBenBKbGtmMFRKZGl4amxmcXU3RmV2ZGtIRHBoUzNoUl9mYzdpZHJwclRzNkNTNjJtYm8xbEkzcUowbnBaVWxCT2JXWEFVUlRyUkl1aDZpekJ4SlZjVFk?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 1
       },
-      "confidence": 0.8
-    },
-    {
-      "id": "537c7075819627ba",
-      "published_at": "2026-06-29T12:28:00+00:00",
-      "title": "Here's how new strikes between the US and Iran could impact talks to end the war - KOCO",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQRWF2OVBvU3B4NVFoVnlMS3prVlNHM3pmZkpmakxwRmsxS1FsZDhXOWJRd3FSLWN3M0E5Q1NianV2cWl6ZFU0NWNfUnE0X0VrZGtqTGgyNTE4YkROeUVPSkY0R3B2VTBBbnJFZzNEN044MVI3MEZOXzRJdHp6WWR5N09rdGMwazZLSHdBbW1Ndy1ueldW?oc=5",
-      "source_name": "KOCO",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "0505c22e38105eae",
-      "published_at": "2026-06-29T12:12:44+00:00",
-      "title": "Trump says U.S. and Iran to hold fresh talks in Qatar on Tuesday following weekend clashes - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9ydUpNMmF4NFJncWdDLVJLWDJ5UUlhdnRYMFliQXdBWlBrWEtZMjB2ZEJWdnNxb1o5S1RERC1xSFBqb1ZxY1o4ODY4SURkazQ2SldaU25FdXVUb1BSc1J3NnBEc3dSdHdpRUYwV2RJY2hDamN5czhSUtIBfkFVX3lxTE9GR0pHOWdlUWdpNl9hWXNPTGF5alNiS21WUVN5aHVhajdYSHJiMTE1eUQ1TllBaGNNdk5SZi10VzYwR0h0T19wcjZ1UHE2NFBEYi05cUtYZW9VTUluYS1lcFNvRG5Uczl4U1pMM2V5cEZ3VTF4cU5LV05ReG8xZw?oc=5",
-      "source_name": "CNBC",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "c487639e5d6a749a",
-      "published_at": "2026-06-29T11:50:36+00:00",
-      "title": "U.S. and Iran set for new talks, Trump says, after Hormuz clashes threatened peace deal - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPa1U2X2hfanA1aTJOTGl1M0tUUGpfMGtna0ZfM3pfQ01pM05xVGdGNnBnejFGUkU2UnFTeUVnaTBtbWFrRVY3emlDYVo1U012bWYtNEtINzhLTU1RWDg1TVBEQ0JyUkJvSUpnRHlrWlY5RmdXWnM3TFg3Ti1oNzRRSk5Qa09kVVMyWHh3TlFoOXRGUDJyS25mMjBHOEI1UFJjcVpjSUJ2Tk16dw?oc=5",
-      "source_name": "NBC News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
+      "confidence": 0.65
     }
   ]
 }
