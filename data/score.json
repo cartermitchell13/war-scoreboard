@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-06-30T22:42:37.593747+00:00",
+  "generated_at": "2026-07-01T04:55:45.673383+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 97,
+  "event_count_window": 98,
   "totals": {
-    "usa": 54,
-    "iran": 35,
-    "lead": 19,
+    "usa": 52,
+    "iran": 29,
+    "lead": 23,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 54,
-    "iran": 35,
-    "delta": 19
+    "usa": 52,
+    "iran": 29,
+    "delta": 23
   },
   "confidence": {
-    "score": 70.8,
+    "score": 70.3,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 19,
-    "attack": 50,
-    "other": 27,
+    "other": 31,
+    "diplomatic": 14,
+    "attack": 52,
     "material_loss": 1
   },
   "history": [
-    {
-      "date": "2026-06-17",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-06-18",
       "usa": 0,
@@ -72,111 +67,41 @@
     },
     {
       "date": "2026-06-26",
-      "usa": 24,
+      "usa": 18,
       "iran": 0
     },
     {
       "date": "2026-06-27",
-      "usa": 10,
+      "usa": 13,
       "iran": 0
     },
     {
       "date": "2026-06-28",
-      "usa": 14,
+      "usa": 13,
       "iran": 14
     },
     {
       "date": "2026-06-29",
-      "usa": 2,
+      "usa": 3,
       "iran": 7
     },
     {
       "date": "2026-06-30",
-      "usa": 4,
-      "iran": 14
+      "usa": 5,
+      "iran": 7
+    },
+    {
+      "date": "2026-07-01",
+      "usa": 0,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "34ec3fc27e0de1f8",
-      "published_at": "2026-06-30T22:31:00+00:00",
-      "title": "US, Iran to hold indirect talks, complicating efforts to end conflict - Semafor",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdTh6akw4XzN1a05zQmNvRG9jOHBwaDN6S3YtRF9WRVh3eW5VakFqWDR1QU9YaGZCbGZVWTZ3SlpISmc0ajd2R2F1SHo3OGw0RlRDVlkxbTJUSnUzRU5US0hKeDA0a2JQUWtSX0M0UFlQWV9aSjBUZXctT3RMZnQ0NTJhZ2RuaFBBNWxMbWRCTERMdnBNdC12MGNtNDhCQTJ6RUIxWGtGNjFldTNwT0Vn?oc=5",
-      "source_name": "Semafor",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "00b4880f72055f5d",
-      "published_at": "2026-06-30T22:28:12+00:00",
-      "title": "U.S. Indicates a Deal to Suspend Attacks in Strait but Iran Hasn\u2019t Confirmed - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzS1lkbHd5RDY0ZUY3bFB2OWgySDBmaUVMU0xzXzV6QXZucTNzTTgyelJuMloyOFpBdmNpOWtmVkFvSXMya3RfUGtzNUl0NlFiaGJyY0paTkNKYm5Md2RVZU5pUUZYSDUxc3ZwNXozdTdDZGdMZDJR?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "fb8d5a9b15b5b98b",
-      "published_at": "2026-06-30T22:16:00+00:00",
-      "title": "Live updates: US envoys in Qatar for talks with mediators about Iran - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wZkRmWVVDZHhEWTd1eVU0bHlqU3p1WENnWWh1QUVCZDVBVjVkeW54RTlCWEtfaGxsZ2xWOUoydklHSDhnQ1M0MTVWTlJVblVzRGtKeVRHRktaT19ySHVUV3EtMENhOThDMFlUc1hR?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f7250e012246094b",
-      "published_at": "2026-06-30T21:35:04+00:00",
-      "title": "Iran-US war latest: Tehran says it will not restart in peace talks until agreement with Trump is upheld - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdlgzbHNKN1JsT29PRTNrelljN1M1Zzk4eDBPaDIyNXd2dUw5aXhmZmhUdGpqSGlfVTNrLTd0Z1YzQTVrV1pTZEhXZGJWTDBLT1NqajZaX0hwR3IwcHQtREVaQ2cxU0N5ZmRVMWxRdzNJSVphTWEzOFlVd2lkbG1QM1NGYWk4RWNuSlZycVEwM2hMVUJCSkpRV1U0WktKdE1wSnBNOUExMkFqcmd1SFBOMnNUQ25LNjljb2dLYmloQQ?oc=5",
-      "source_name": "The Independent",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a870a56c041829ad",
-      "published_at": "2026-06-30T21:10:07+00:00",
-      "title": "Iran says it won't meet with U.S. envoys, clouding prospects for peace deal - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOem1UeFBMZHJrM2tKRG9fdE5oTEQzWEpsRGxPTVNwZ1cyTEMta3laT2Z0N1NMYU1zc1BzMTYtSGJSSGI0VUVselZGZnQ4cnlKSk5MekZIakY2LUNMTzFMZU5oV0dxeFNLaEpsZzRLOFJjWVVoU2xDS1ZaQ3Q4YlE2Zk1DbjFrSnoyWnlZTC1zOTQ5bnpOR3RhWVN6X3BKcjNGd3I4MVlFajF0aFBiZl96NnAyclQtMWs?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2d1dcf1561bb28a4",
-      "published_at": "2026-06-30T20:12:54+00:00",
-      "title": "Iran war live: Tehran rejects third-party intervention for Strait of Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeFZlSzkxMFJqN2I3LUtJb3hKUkt1UlR1Y29OUTdGdlV0VTFkV0JYdHRnZUFIMEFaQlp6RDVERFdaWXNVaFlWYWNhZXlodmw2TG5VeEJUczhvMElwa295QVItQ1FPRGtaMjZLd2U5eVJGQ3VtZzR6WVRWV1lNdmdWUnJVMlhQTi1KLVpFemY3MUZKem1yME5RaWhLUm1FTGY4bVZhcGU2LTJxWE1fSksw0gG0AUFVX3lxTE4tQ2pUSGw2N3UwdnBSSEczVl94ZU9iQWpnRzZCYnBBZDF0ZGxRei1iV3ZPUUVUYi1DWnR6a08xbjZsQzJQRmpEbTM4Vzh5TlhXU2RKRFlCQVd6eXlTZmgtOHdmRTluaURtaTRfR2NaSV9ETE0zZkEzd2drT09mbllXSmJjZktOazYwQzczd0dfNHU0VGNjTUhaRGJDc3ZSd0hNRjhnV2szb01RR3BiSTJnUlN3SQ?oc=5",
+      "id": "39ab48abdc4254c6",
+      "published_at": "2026-07-01T04:10:47+00:00",
+      "title": "Iran war live: Qatar\u2019s PM meets US envoys; Tehran holds firm on conditions - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQakhqNnAxbU5jRHlxU2lyTnRvZzRsSHlFbzhacWVQT0VsMU5hajRCT1FTLUdDclpsWnRjc1ByRTZFUXNJOTBWS1dpTUZnZXIzYVFLbF9QenlsQTI3N2JZYmJWNk1FT0hkaHQ1QzRKRUhsaHdmX0RzUXNfOFJUMEwzT0JPaG52N3JyYlN3MFp3ZEtTOXhFcXdTQjNQZVFfTnJPcjdIVzVidWlieC1SenpzSkVOa2htSUVibzE2cdIBwgFBVV95cUxOWjBpbVVadl82Q01hbXl3eHBBOTM1ZkoyRVktbWtYWWJpd0lER1B0REw1bGE1U0ZzWGJTVnJlVy0zTkFFajloUTM4Wmk0N0xONWdoUG9fTzhjXzI3Umg2WlgwRGozM0ptYWFIeGZVU1hZQmtxOEZfdTBhcThXUm9CQ2xkNzdLR1pvcDB1RmgxME9YRlotczIwNmVhOTJvcFQ3eGJtRl9EVmVYd0YtRmhJa1VWMk45cjFXZW5kMDBfSENHQQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -188,11 +113,41 @@
       "confidence": 0.55
     },
     {
-      "id": "2e99245665cdbef7",
-      "published_at": "2026-06-30T20:08:00+00:00",
-      "title": "U.S.-Iran Latest: Peace deal efforts inch along, mired by Israel's fight with Hezbollah - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGFGOW1UbXp6UGVFUm9OallVbzEweHphTnF1cFNoOFp0OS0xX2NlUVdnc1VvUWZTdW9qZDV0QXhRcXJVaG1SRzlvbUpiSmFjRER1UzUyTlZnNlhZVWw5Umh1ZkxtSW1aOC1xbHdvTFVpejlRYk1JUGZCdXZuVUJQT0tjcGZkcDI5Rmt4TTUzQXNMR1d3NGc?oc=5",
-      "source_name": "CBS News",
+      "id": "c8300f07d24dde14",
+      "published_at": "2026-07-01T04:10:00+00:00",
+      "title": "June 30, 2026 - Witkoff, Kushner meet Qatari PM, Oman delivers Strait of Hormuz proposal - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wZkRmWVVDZHhEWTd1eVU0bHlqU3p1WENnWWh1QUVCZDVBVjVkeW54RTlCWEtfaGxsZ2xWOUoydklHSDhnQ1M0MTVWTlJVblVzRGtKeVRHRktaT19ySHVUV3EtMENhOThDMFlUc1hR?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "36f6830de08ca22b",
+      "published_at": "2026-07-01T03:45:00+00:00",
+      "title": "\u2018Iranian people are barely visible\u2019 in US-Iran deal, says UN rights expert Mai Sato - Geneva Solutions",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNFpfRWd5dG04OU83THJOdWotdmw5SnBBdWRPNWFsSU1aWGc0dllZZldXbW50d0J5VG9nRHh3VXpRQWdwTkZ2SDJiRVZsakZDeUpTNlVaUmFWb1h5RU5LRmFxU0dOWEdDSFI4RzRIS2l5VFhFMVdXN2JNNUw4SG56QTgtWTFqclFET0lMM2NldWRZQlE1VnFSSDBrQTR4cXlLWlMySUx2RHhaMnlHdHBFekRySmZxOUE4c2RpRkx5UQ?oc=5",
+      "source_name": "Geneva Solutions",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "686f6e97622a1795",
+      "published_at": "2026-07-01T02:41:00+00:00",
+      "title": "Iran says it is selling oil at 20% premium as end of U.S. blockade sees 40 million barrels exported - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcjN3dG1HWmVmbnJSS09hVUM4UGFtVmdZVjB6VDYwRzRLMm9tVmI0aEpoU3hyc045RWl1TjVheFlPMEFvNWVYR19ZQi1IQmR4dXRVcktQemdqMWtFMmZPUUNOUUlxOU84QWI0RDI5eWs5QXRtUHdyelczYm1Ua3VMaFk0Z0dHUkphTWd6dlplZ1Q1TE9wOGI3XzB30gGfAUFVX3lxTE5ENU44TFRkTTROYUpKcnBrOUoxMjkyUDNXUlM1cWswSzdIQnhoelhaRVdDTVZCem4zMS1IcGIxZzNjTWtwamZ1OHE1MS1sUk9RV2xBdmZzai1BZFdpbGhmNUl4NlAyZjBnMHVBZzlNekRhS2JSVFhiREE0Uy0xbzh3QWhTOUNIVFpVSnR0U1BBXy0weFZ6cVlXXzFuTVZIUQ?oc=5",
+      "source_name": "CNBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -203,11 +158,101 @@
       "confidence": 0.7
     },
     {
-      "id": "a4073939bb00e801",
-      "published_at": "2026-06-30T20:04:21+00:00",
-      "title": "Latest news US, Iran LIVE: Qatar says technical talks continue after row over Netanyahu's Lebanon visit | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPVXgya1ZySE9hVnRGdWdGaHhDdkNaUVEtYWdXekEzTk9oNGM0Ykp3cVpjcmhaM0JyRU16RUFXQ1R6Yk9NUG8wdk5YWk1sV3BhZzU5TVlnU3hHNllzdy1CWjVkbUhVSDFQUS1ZNmU3cHVtVjZ2N2RuWlY5NlFrRGo0eVF0VjZWSEtNX2hvNDRsa1VIamRZSEptX0pLcHNwcjZTa1ZJcFcwaUdUTmdYWlB3V191czhNLU9ERElpNGhSR2M2YnhKWWpYMFRXTUxjMDI3Vzc0UHFzU2ZnVlA1SEw0MUJKNXF4c2pXemQzU3dZMHRGNWtTZEE3ZWU1WG52YU8zN3k2QmsyWllELWlrN1HSAZMCQVVfeXFMTjEtSFU1QVNpUlB3ZE5EVW5MR1FKR2huWGtCZXZMcGlnTUlzYXdoSVZpX21oWm9LcHZ1TF94LVkzUlRWQjBnU3ZiSlU0S1pxdDMyNi1id29MQTRmWi1KdTlPTmFIUjJzV0ROdkx5dWpGQ19meG5URUI1TEV0MFN5VjBTV0I2MjRPcW9sQ01OSzNWZGhzRjF4Nk5QSkdOZFlDdy1sVldEY3RET1VBNklBWkFoQ0RmZV9rSEFPNGd6bUN1cWRTUnlIZ0dETWRqR2NvMzRueHpWWWJqQ3NOUnV3Y21TVUlDd2V6cDNGT3hjX295bUY2UEdCR1FkRGFtZGFjMVktcnhkNWNQZEZFdHVkeEtnbFE?oc=5",
-      "source_name": "Hindustan Times",
+      "id": "7eec6b5c567e8cc8",
+      "published_at": "2026-07-01T01:50:43+00:00",
+      "title": "U.S. and Iran to Meet with Mediators in Qatar - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TQXhuNFBOVVpuNXZPeWxZNWZWblBQNW9ydGZxV29oU3VUa1FjbHI1UGdNWUQ3V2V4MFUzWmhVZDRGMFRHMS02clpNVFNBM1VsbkEwcGF5Y2FINTlEQWl3TEh6SE8wTklNU3BVWjFDcGNhYk12NEdZSWJPc3A?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "0c6dc78e8680b7c6",
+      "published_at": "2026-07-01T00:24:34+00:00",
+      "title": "Letter: For America, this is the Iran war fairytale ending - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lQjMwTzN5VFlvdng4WGVXS3JJWFFCVHRzSjllcDdERlFwZmE5WXFpTjJ2VFF5QW5zYS03NHpEQWxhVzlNUnBEcnl0X2ZMc2RLWFFJVGRaYjJhYUw2clpISERzc0k0U1ItZkZKTWFldmw?oc=5",
+      "source_name": "Financial Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b72be52ec0957137",
+      "published_at": "2026-07-01T00:18:00+00:00",
+      "title": "Exclusive | Trump Briefed on All-Out War Options in Iran but Opts to Stick With Talks - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdDJ0Sk0yaWZoMEZHN1A5TEdPNXRwcmJuU2xvT014bllhdFp2dFZFY1VwOWhLRk5uaHRUSGpvRE05em12enVBOGduY1UwMFpDWmNJMTNFSUNlWFNwbWJva1JXQnE0ekhYVW5zdVE5cjdlbXpkQnhhYmxZNGZQVkowSDNQYTlpdEdsa3NLeE9xZHdQOVlsYy01V3lXdUF6OXJvdmJud3NGU3JvS1EtOXJMYktlOHYtN2tHNGxmaQ?oc=5",
+      "source_name": "WSJ",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "05bac36be1525565",
+      "published_at": "2026-07-01T00:00:00+00:00",
+      "title": "Exclusive | A Dispute Over Opening Hormuz Drives a Wedge Into U.S.-Saudi Relations - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0VmZ1lTeFJ6NFYtNGxkVlA2SjNBTXpkSXFFTUtyU01tUll4TnNUZjY2eUdPLXRyV3R6VEgwRHNYdDNrcEl4bEpkLTBMUlVEbGE1ekFqdFFsaEp2a0dfVXR0M2hOME1QZ0hScjlGR0xsdlF6RlpmMV82OXZib3VRWjhwMGlRQ3pwRVRheQ?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "659bf2bcf731812e",
+      "published_at": "2026-06-30T23:03:00+00:00",
+      "title": "U.S.-Iran Latest: Iran's top negotiator says country ready for war as peace talks inch along - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaGFGOW1UbXp6UGVFUm9OallVbzEweHphTnF1cFNoOFp0OS0xX2NlUVdnc1VvUWZTdW9qZDV0QXhRcXJVaG1SRzlvbUpiSmFjRER1UzUyTlZnNlhZVWw5Umh1ZkxtSW1aOC1xbHdvTFVpejlRYk1JUGZCdXZuVUJQT0tjcGZkcDI5Rmt4TTUzQXNMR1d3NGc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ebd8c114dc30d7b0",
+      "published_at": "2026-06-30T22:56:58+00:00",
+      "title": "US-Iran talks wobble as senior clerics call for assassination of \u2018criminal\u2019 Trump - SMH.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNQXpXOGhTM3FMX0s4MkdwSElFVUdjVS1rdHVkaFZKYmFNNl84Q1ZrYXc0MVZHMVRPcGhLZElSeGVjQ3RLVUZxeEpvbDB4OUNsYUx5WWxIeDRxSFFaZ3A1bFJDN19ycm9nclEwQUlQbG8xMS04SGFjSW4waDBfUjcxbXptN29BLXVlZmtRbzI5NU5VVjBQNEdsQU9ld1pON3pfZVdmR3ptNFl4Y1YxbHBpc2ZCbWM4V1ZvVWZ5YVd0UWhMdjYwZmFWTzJZenoyZ3lZdVVuUnMxZTU?oc=5",
+      "source_name": "SMH.com.au",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4b3b154cb73e814c",
+      "published_at": "2026-06-30T22:31:08+00:00",
+      "title": "US, Iran to hold indirect talks, complicating efforts to end conflict - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUThaY3dKamM0Ql94NkJtM1FrZDRwbVdNVUlnbVpZdEY4SFdKMjJCN1BYTXN6dU5IZXkyLVRaS0ZWZV8xaV8yWFlwYi1zS29oNzIyb3gyMDc1SGc0a0hLQzE3eXZvT24xWV96QXIwUkRHZWhfWDV6SXFSTnJnQzhOYkJQZUtDMG4xM0Foa0pSdGw?oc=5",
+      "source_name": "Yahoo",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -221,7 +266,7 @@
       "id": "fc697cea69d31d95",
       "published_at": "2026-06-30T20:03:42+00:00",
       "title": "Evolution under fire: Iran\u2019s \u2018axis of resistance\u2019 in a post-war era - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQlgzVy1YUEExQVFGZ3V2M0kzR0lTOWR5WmY3OEhWTE9WWG1seDIya1lEOU9rSnE3Q3BBTUVsV2NYQ094aWxXYzRzbURNX3ZiREl0WjUtR1lraGRtX21FSU80YzIwVTBVcWNWXzAzTV9MUC15SllBSkJBMVVnVVcySjJrSGdCbmJJOG1mSmd0S0JTVy1PV201eDFKQkJTNUxkVS1yaTk4Zw?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQlgzVy1YUEExQVFGZ3V2M0kzR0lTOWR5WmY3OEhWTE9WWG1seDIya1lEOU9rSnE3Q3BBTUVsV2NYQ094aWxXYzRzbURNX3ZiREl0WjUtR1lraGRtX21FSU80YzIwVTBVcWNWXzAzTV9MUC15SllBSkJBMVVnVVcySjJrSGdCbmJJOG1mSmd0S0JTVy1PV201eDFKQkJTNUxkVS1yaTk4Z9IBrAFBVV95cUxPUUpVUHNKbzBMMF9TR0Jyb1ZXaXU5UlJjNXY4RXJxVkxXbUJjSVp5MThqQTNCM2RwV2p1cVlKSjV5ZjRWRkxsWEpHei1oNVd3M3B0WU1tOHRPV20wc1hRUkVMeFdoVDVBbnVXNFpyVThtS0xOTjh1SE1sTTljUFBZaG1CTEJHNUFrMHZvd0Q0WHZ5cXFTb2ZNTGNVbmRPT3pmV1lSc1BJcEMzcTk3?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -233,9 +278,9 @@
       "confidence": 0.55
     },
     {
-      "id": "ff91bdcf0916f3b0",
+      "id": "617048715cdd443e",
       "published_at": "2026-06-30T19:33:24+00:00",
-      "title": "After U.S.-Iran War, Oman Said to Propose Hormuz Fee Plan - The New York Times",
+      "title": "After U.S.-Iran War, Oman Is Said to Propose Strait of Hormuz Fee Plan - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWU5DMS1mNG9RNm8yTTkzclFNMWVNRmtCNmI0M1kxdEF4RkdrTlJBV1lCeTFpUGVFcDVRRzdoSDZBYkJYbWRKaEJOWTBwREZUS3ZEMFlCYWU3N2F3eGREWHJBM0l4Q09lLWItS3VvenpzUjlJbTAyc0pzNi1zaVNKS1FwTTF3MUkxX2FTX1k0LUcyTm4xMkxscmd3?oc=5",
       "source_name": "The New York Times",
       "event_type": "other",
@@ -248,71 +293,11 @@
       "confidence": 0.7
     },
     {
-      "id": "de56c3f968740395",
-      "published_at": "2026-06-30T17:11:09+00:00",
-      "title": "Defense chief vows \u2018decisive\u2019 response to any ceasefire breach by US - Tehran Times",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWUQyRE02UVE5UGw0RzhuemJWeUZtZkhLdk9aWTFoWG5BMTNnS0JBRk0yNWYxNlk4LXRwRkZEbV9IN281NEJtNTRwNzl2TlRRbmhDQkxVaUtyYjZRVkpXNE9mUmxUUmlMQjhWUFJHZXo3VEU2QXpOd2hCbVkxMWQyanRvQVFoZHI3QV9pUmdEZjhGdEdmbS0zeFFodWZOVXVfTFE?oc=5",
-      "source_name": "Tehran Times",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "216011145f19470e",
-      "published_at": "2026-06-30T16:33:00+00:00",
-      "title": "US-Iran talks over $6bn Iranian assets to restart - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQW1oOWUwbnI4TXVmQndudUZ3TXJadm9jUWRXRm1IdUJYSkNUY1I3MkdKWFl1TTRGMVNSY3MyRUxBSjhKU1dPUGQtdlF6Yjh3V2stUDZoVkZiY3RFdWxJcVNmMDFHeHNpOERQc0VHWGFzMFRXLWpFVjd1TEJMazZiRmZtUWJ1RG5UZlJnOTNVRQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "aa1f504896c30657",
-      "published_at": "2026-06-30T15:36:40+00:00",
-      "title": "Witkoff and Kushner in Doha to Meet Mediators, But No High-Level Talks Set With Iran, Says Qatar - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOZUdMRVJPeDhFc2VqcVNUWU1sXzZrMWt2Z21Eemx3czR1WGxsTlFmUzZ0QmZZd2s3YWVQRVRFTktPR1l2TTBPZE5CMkQ4WGFpYkxlN3paRVpxZUI2X1BqbmYxU3U2N3NscHV3ZFhxY0NmVUJYV0xUb3plbVBjcnZSTVYwMG4wN2NYcmtnT0RZMjJ3YXA2bklFTFV6am9sRF9LM0d6MUpn?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "847f72b3e5715640",
       "published_at": "2026-06-30T15:16:00+00:00",
       "title": "Exclusive: Johnson backs new 60-day clock if Iran fighting flares up - USA Today",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRmsyT1V5S2wxLU5UVTVBbjhJWDhwSElJZ3NLeTFMNUk2OGxuRmQ3emx4OHhNdHV0M3hsRWFNdGdfNW5ialljOU5KSG1zMVRwUFU4ZnVkTU5BZVBybmtHLVRRc2ZmWHhub3lSeVZGYVQ1TnVkUl9TR2pIcjlvTzlmOG5GdzdxS08xS1dwQXpqWU8yMWI5a3dIdEhMNzc3UTZPaFQ4ODBNZFltTWdoMy1jZjJGUnBMMFcwalRVY1hqd0g?oc=5",
       "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "40eb355751c70d7f",
-      "published_at": "2026-06-30T14:10:28+00:00",
-      "title": "Missing in Action: Europe\u2019s Absence in the Diplomatic Process to End the Iran War - The Soufan Center",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBST2hVbmxBTVBMYTM1bVNyNHA5U2tfS3VONjZTQUNHS1BkMGVhQjNyZ0VVQVNzOUdMNjN3NFY1THRDRkd4Zy1vZnhHYy1pMVdkbWk1YkVtdlZ4TUpqSHpfcUtn?oc=5",
-      "source_name": "The Soufan Center",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -338,19 +323,19 @@
       "confidence": 0.55
     },
     {
-      "id": "722d8d2ad5a34ea3",
-      "published_at": "2026-06-30T12:01:56+00:00",
-      "title": "Are US and Iranian negotiators meeting in Doha? What we know about talks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeE1aRTdhanFpbUJzc2ZfUENpTHpzdVQ4em9COEMybjUxZFdlS1EtVDFLSURsek9uQkh0NnJpMndEZUlrUXZGQnVRbElYbTJMTmVxMjh0YkNJZVM1VzZxalFwRno0TXdkX3J6eUtjdmtSMGZiVE83YzdLZTIwOHB1Ulk5djc0NXhKRmE4UHdtYWdPdXN0UnNNNnAwSEVMWWRodzhIQzNwY0cwN2kwWk00VXBn0gG3AUFVX3lxTE1JdGlmQTN5Yk9hdXMtajVlMzNVUkdhOHp4QnprZ2EtVERhVU0yU2wteXhfc2pzUks5YUtkLVZ5dEpncDBHZjBLaUZlSTNZckliLUZPc1I1VGxPemMzM1kzWERVdVp0RWRpZWlqSGNWSFQxRGVZTk5OeV96OTVhZ0lCZ3ctSDVZVUxLX2ZjYWprbk5TQk5oT3A4LWZhcjhLd3dKem84LU9Wb3RUT3dpUVc3MmtoeEh2QQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "a870a56c041829ad",
+      "published_at": "2026-06-30T10:23:00+00:00",
+      "title": "Iran says it won't meet with U.S. envoys, clouding prospects for peace deal - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOem1UeFBMZHJrM2tKRG9fdE5oTEQzWEpsRGxPTVNwZ1cyTEMta3laT2Z0N1NMYU1zc1BzMTYtSGJSSGI0VUVselZGZnQ4cnlKSk5MekZIakY2LUNMTzFMZU5oV0dxeFNLaEpsZzRLOFJjWVVoU2xDS1ZaQ3Q4YlE2Zk1DbjFrSnoyWnlZTC1zOTQ5bnpOR3RhWVN6X3BKcjNGd3I4MVlFajF0aFBiZl96NnAyclQtMWs?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "2be9864d48af22ad",
@@ -365,7 +350,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.7
     },
     {
       "id": "5aa3315ad5cd8822",
@@ -383,19 +368,34 @@
       "confidence": 0.55
     },
     {
-      "id": "050abb0cbec1ffb5",
-      "published_at": "2026-06-30T08:10:07+00:00",
-      "title": "US, Iran Give Conflicting Accounts of Reported Doha Talks - The Media Line",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQ3hsMkNzNHRfQ0NMem5USlB6SkdmTnFNUm5NcnVYd3ItRG1Da2VNRFBwRlg1OFkydEdvSzJ2VnJ2cW03RmxVSU9iXzFiU29LdnF4c0M3NmpyQjFNRTIzQjJsaXRBbVQ2a2JSRVphVlNLRGRvZm5kekVjbkxJdENOQ2tDZjVxZHRvVE5VdURvWHBKZGF0YkdZ?oc=5",
-      "source_name": "The Media Line",
+      "id": "5c6c34c7607e384d",
+      "published_at": "2026-06-30T08:43:00+00:00",
+      "title": "Iran Says Its Delegation Will Be in Doha, but Not for Talks With U.S. - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kcWhEM1BEcXZCMUFITndwLW5MTUY5aWI1d1B1R25SeWJZT0pBTGVTWE91bEQzcUJBWGJrb2w3bWE2UjVpX3JPb1JmcVBTc0RXRjFQQl9FbmtTRWlxNDF4VUhFa3FlNy1xcmNHSy1JZDdhNjIyWUFV?oc=5",
+      "source_name": "The New York Times",
       "event_type": "diplomatic",
-      "actor": "iran",
+      "actor": "usa",
       "target": "unknown",
       "points": {
-        "usa": 0,
-        "iran": 1
+        "usa": 1,
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.85
+    },
+    {
+      "id": "00b4880f72055f5d",
+      "published_at": "2026-06-30T07:00:00+00:00",
+      "title": "U.S. Indicates a Deal to Suspend Attacks in Strait but Iran Hasn\u2019t Confirmed - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAzS1lkbHd5RDY0ZUY3bFB2OWgySDBmaUVMU0xzXzV6QXZucTNzTTgyelJuMloyOFpBdmNpOWtmVkFvSXMya3RfUGtzNUl0NlFiaGJyY0paTkNKYm5Md2RVZU5pUUZYSDUxc3ZwNXozdTdDZGdMZDJR?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
     }
   ]
 }
