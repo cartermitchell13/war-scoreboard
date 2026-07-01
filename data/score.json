@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-07-01T17:24:51.111276+00:00",
+  "generated_at": "2026-07-01T20:16:31.595255+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 102,
+  "event_count_window": 103,
   "totals": {
-    "usa": 54,
-    "iran": 29,
-    "lead": 25,
+    "usa": 64,
+    "iran": 28,
+    "lead": 36,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 48,
-    "iran": 29,
-    "delta": 19
+    "usa": 58,
+    "iran": 28,
+    "delta": 30
   },
   "confidence": {
-    "score": 69.4,
+    "score": 69.9,
     "label": "Medium"
   },
   "event_types": {
-    "other": 34,
-    "diplomatic": 14,
-    "attack": 54
+    "other": 32,
+    "diplomatic": 17,
+    "attack": 53,
+    "material_loss": 1
   },
   "history": [
     {
@@ -66,18 +67,18 @@
     },
     {
       "date": "2026-06-26",
-      "usa": 21,
+      "usa": 24,
       "iran": 0
     },
     {
       "date": "2026-06-27",
-      "usa": 13,
+      "usa": 16,
       "iran": 0
     },
     {
       "date": "2026-06-28",
-      "usa": 9,
-      "iran": 10
+      "usa": 10,
+      "iran": 7
     },
     {
       "date": "2026-06-29",
@@ -91,14 +92,14 @@
     },
     {
       "date": "2026-07-01",
-      "usa": 0,
-      "iran": 6
+      "usa": 3,
+      "iran": 8
     }
   ],
   "latest_events": [
     {
       "id": "3c0c65476952e0f5",
-      "published_at": "2026-07-01T16:52:05+00:00",
+      "published_at": "2026-07-01T20:08:13+00:00",
       "title": "Oil prices tick up amid Iran\u2019s refusal to meet directly with US - Fox News",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wODg2ZnNaNGZZOTAyQzE5d3hkai1MSHpMc0E4ZzhfVXdBdWMyQ3VueHBlMU9VTHRVeW5ITC10SXVrNW9kQjFHcmlwNGE5Yk5hamNDS05WVEJBVmJMUTMwX1NxVzBGOERpNjNoN0s1NA?oc=5",
       "source_name": "Fox News",
@@ -112,8 +113,38 @@
       "confidence": 0.55
     },
     {
+      "id": "0559d101ee024b88",
+      "published_at": "2026-07-01T19:57:23+00:00",
+      "title": "Iran war live: Trump talks up progress on peace deal \u2013 but Tehran remains silent - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcHNWSXR0MzJaeklrLWpRbWw5ZzdvRDQ4UGo3WVhIVzNmOUliMkd5ZGpPdmhKZko0TEY0R1R4MjM0ZU5NUnBidlJHdjJZS1d0MnkzX2hIMWpQOFU2S29SQWFFM283WEhiekNnN2RJajFiUnlIVFRReEpFQ1FWU0llNDZZUEJ6Ny1LYnREc3c2UTNaUkNvTkVfQ0NnQVVuYUQwYVlwdHkzc081TVpDZXhMaTBmbHdoSE5PaF9JMnVwUS1JMTQ?oc=5",
+      "source_name": "The Independent",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9eeb4719e7b54969",
+      "published_at": "2026-07-01T19:00:00+00:00",
+      "title": "Trump\u2019s Groundhog Day: Endless Cold War With Iran - The American Prospect",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMDZPV0RSeFlTTFI4LVlmRG5aN1VNb1RpUXNxZWhaRV9kYlN0bGNBcFFhVEVpMnN3VGxrYnQ1VFBGMzVlNVF5TlowTlMyb1JoUVZBOWJ4ZHNGc2FGUS11YldJVFdLNHpWcTRidHQ3d3M0bEZXaWJwbE1jdlZ5ZllURjBnUVpLdWM?oc=5",
+      "source_name": "The American Prospect",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "b627bf437754bb2d",
-      "published_at": "2026-07-01T16:37:00+00:00",
+      "published_at": "2026-07-01T18:46:00+00:00",
       "title": "Live updates: Qatari leaders meet senior US and Iranian officials in effort to advance talks - CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qelNxQjctTExXbXlXY21BeXFIbFhnUXJlQlRid2hXeUJEMXdJTXdZU1Z1ZkljanhEYTkxanJjVUtfc2NSeGNuTEFxSHVjdnZZWXdlQzJJWko4Z3RNRjFxX3ZCYldYMk9DbzBXTzh3?oc=5",
       "source_name": "CNN",
@@ -127,10 +158,130 @@
       "confidence": 0.65
     },
     {
-      "id": "4950ba5e21be904c",
-      "published_at": "2026-07-01T15:11:15+00:00",
-      "title": "Iran war live: \u2018Technical\u2019 talks under way in Doha as Tehran demands action - Al Jazeera",
+      "id": "7d5426e39c03cd3b",
+      "published_at": "2026-07-01T18:45:00+00:00",
+      "title": "Middle East: US and Iran hold indirect talks in Qatar - dw.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12UHFVWkFTdTJpQ3NlTDdLX3c0VmN2aFYwUHctV2FhN1lqNEhwT2Nlck8wRmZhZjRSVE13c3hSN1liSk9lRmVvWUZQeVRVblpCb2thaUpUdmRiOHhGVm9tUHdubTNQNjZZSXIzel9MYnNGMlE2TEczUF9uTjhGdw?oc=5",
+      "source_name": "dw.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "50b345a57ab10187",
+      "published_at": "2026-07-01T18:12:04+00:00",
+      "title": "US and Iran hold talks in Qatar; Vance says no return to war unless needed - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR2I3cUEydmhlWVB5bmFRM1JuTXZVRHdDVFV6MTFjWHc0V3NFeDBCNFR0ZEJ0U2NjR213NWJwYlQwb0pNQjZmbU1tdlJjRlF2ZUZKZjBBRmpteTM1SUthZV9ESXZpaVRvSVhUaUYxb1lFenoxLUU2MklQd0I1OC1XR1NGSVo4b29CdVZ5ZzQ0QXp4MFdlMnoyRS1Rak0tTVNvYVU1RVhtb29hdENLeldfakJsMHNNaWNkQ0Uw?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1f8112da98568db9",
+      "published_at": "2026-07-01T18:12:00+00:00",
+      "title": "As the Pentagon stays quiet, AP reconstructs a US strike that killed over 100 Iranian children - AP News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUGVERnpJeWFhRXo0dmdQZ2NRVUZDS2tKczNQQ2xvTHNVUUFZemtwUFBaWWI1azVBYkZZNzA1OHRMM2d2d0dBRE4xN0RQMVpubXVNUVUweU9lUXVxTVNsTmd2THh6dFlCOE44RjJ0TUl1NlMwVHNiZlRzblZBb3RwVFFnMkhRSV9TTDc0LVd3aXBiTVpoSEE?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4f16c29121f40640",
+      "published_at": "2026-07-01T18:11:00+00:00",
+      "title": "\u2018It\u2019s fair to ask whether it was worth it\u2019: The Iran War has cost Americans $1,000 per household\u2014and that\u2019s a conservative estimate, Mark Zandi says - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa3JnUm94WkV2dXVZVk1QRWFPczZEUC1IemFvLUJZbUdJeU02RlFoVDRIVi1Ua2hmclR5bUswZVdOYkdJVG5ncVJGbmY4OWtlamR6LTBHVTdUaFNzazdHZzV5ejdXX01QYW1rdmozZ1JBalZWQUVXeWEyR1VOSFlJQlVsVWV0MDFf?oc=5",
+      "source_name": "Fortune",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "ede2db23b4cc169a",
+      "published_at": "2026-07-01T17:33:01+00:00",
+      "title": "US reportedly mulls pulling troops from Saudi Arabia as ties sour over Iran war - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEdTdW8zUzEzdEFpYWpLNlVudUlsLUdmRUVNWjJULUJzZVRyemUwdTlpZERXR082UThZa3o5Y0lPNnJNNHdZbjR6bVJfR2dBZENVenhGUnV4T1JtVW84Q0x5MWMxZndha1V3TFNxdnRBRnk1UkVfRUlKdTBtM0g0bkFfd2xzR1lrUjVkcmFpYXJqZUZ3NEg4YTRsRG5YS3VrNmVaaFYyR2ZuRHN6Vldr0gG0AUFVX3lxTE9uUkNTYmg2ZzYyY3ozYm1HRmNTMW5HUTQwMHlxaTR4X3JXdlFGN1VQeks3Wi1ZWGoxaXFxQ2gwQXQ3NFB6QWpyaWNqc1U5TUZVT21tTWRQM1VBbEIxaWFGNjlEaHNfN0tLd0YzcGVCRkV2VmFJWDNnZW9xTlE4bnhxbjVoSjVTeExnZG5FR2pmSzVud1Z5QWRfTFFPNE94NUE2SEhTREhxLWJldTdOdXNTTmJMOQ?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8134aaa2703bb92f",
+      "published_at": "2026-07-01T17:27:58+00:00",
+      "title": "Iran war live: Iran says meetings with Pakistani, Qatari officials conclude - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQakhqNnAxbU5jRHlxU2lyTnRvZzRsSHlFbzhacWVQT0VsMU5hajRCT1FTLUdDclpsWnRjc1ByRTZFUXNJOTBWS1dpTUZnZXIzYVFLbF9QenlsQTI3N2JZYmJWNk1FT0hkaHQ1QzRKRUhsaHdmX0RzUXNfOFJUMEwzT0JPaG52N3JyYlN3MFp3ZEtTOXhFcXdTQjNQZVFfTnJPcjdIVzVidWlieC1SenpzSkVOa2htSUVibzE2cdIBwgFBVV95cUxOWjBpbVVadl82Q01hbXl3eHBBOTM1ZkoyRVktbWtYWWJpd0lER1B0REw1bGE1U0ZzWGJTVnJlVy0zTkFFajloUTM4Wmk0N0xONWdoUG9fTzhjXzI3Umg2WlgwRGozM0ptYWFIeGZVU1hZQmtxOEZfdTBhcThXUm9CQ2xkNzdLR1pvcDB1RmgxME9YRlotczIwNmVhOTJvcFQ3eGJtRl9EVmVYd0YtRmhJa1VWMk45cjFXZW5kMDBfSENHQQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "be371be654d3f6ca",
+      "published_at": "2026-07-01T17:23:37+00:00",
+      "title": "What military capabilities does Iran possess as it negotiates with US? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTDRxLVlNUXRzVVRSTktUTEFqdnR2eU04ZndwSlhFUk5CNVBDamNhTlVvT3JnNm5LY2dnbjJPRGgydGtWLVE5eVRIdHdvTjlGUEo4cUVaaGVkS1EwSWVEX0Z5VURtNFpGQWFRbHNhbnN4bHVEdnZPeFV0eWdldDg5X2tqR3JjY3ZpN2wyakdaT3J6OG9QelNmM2hlYVBzbHZUb1M3YlFQb21fZWx3UVE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "a95c7b34e90246ce",
+      "published_at": "2026-07-01T17:20:08+00:00",
+      "title": "U.S. and Iran Set to Hold Indirect Talks After Trading Attacks: What to Know - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFNZZGc1bnpQX1cxOUo4VjgxaXRiamYzeXZRWG1UdXdPYUVpTzBiOVF0VjktMU5MdGY1NzQ0OHV0TVk0NzRvajV4N2tUTk96R2xVOFRSNEtITmJQUmlVeGVIQlh5MGtTQ2VjWHBvN3plamNqVXJhMnZBZVVpWmxjdU4yX3JtdUk?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "e6121f13c8b97ce8",
+      "published_at": "2026-07-01T17:07:41+00:00",
+      "title": "The Iran talks expose the collapse of US diplomacy - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd0diQldsTFoxeUlTRDctbmVoRG9SNkRPZWVza3VQLXFfNE1hb0pURE85THVodXJoNkhJbEQ1aHBwa3RRR19SYktwamxxRWpCTnh3RnFpYmhOX2FldmRrQTBYWGZSVHhFR1FQQ3Fhbi1acENOMERsR1RtSk9HWXB6R2YzWEVTcHZHWVlHUW5YZVNpNHVYajVJN3B30gGfAUFVX3lxTFBIXzBzLUFRZUo5N2pkbHpObzdQcnZDVGlQa0stMWk1WktTbDhnN0F4MzBCR3hZSGY4aXJPSmVCWjZLcllfa0ttYUZMRHMwS1JPMGFXQ2twYjJNeDAxY2RVM20xUGN3Uk9BS2lTckRENUdMNWs4dG5OWGJ4R1Z6TGhpbUdhZXUxcWVWVTJRellZZWlsUmFZWjhyaXNOdmhfcw?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "diplomatic",
       "actor": "iran",
@@ -140,6 +291,66 @@
         "iran": 1
       },
       "confidence": 0.65
+    },
+    {
+      "id": "7eec6b5c567e8cc8",
+      "published_at": "2026-07-01T17:05:00+00:00",
+      "title": "U.S. and Iran to Meet with Mediators in Qatar - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TQXhuNFBOVVpuNXZPeWxZNWZWblBQNW9ydGZxV29oU3VUa1FjbHI1UGdNWUQ3V2V4MFUzWmhVZDRGMFRHMS02clpNVFNBM1VsbkEwcGF5Y2FINTlEQWl3TEh6SE8wTklNU3BVWjFDcGNhYk12NEdZSWJPc3A?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c3ff4424f3cb089f",
+      "published_at": "2026-07-01T16:58:51+00:00",
+      "title": "In Mideast and around the world, everyone's talking 'ceasefire.' But what does it really mean? - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPNGRRSFZkV2szOXFvdlM5TzJFZ0Z2cFF5WU9FRnhKM0w2Y1J3YjNyZzRpeTZlenBldGoyNFZpdDF5T3RUdmhzc25WVFIxdWxXYUxkSy1ZS1ZoOHBWSUIyZ21oeDRFTUE5eDRoNXdWRTd1QTVRVUJWWTNfN2xDbEhNckQ5R045cFZMR3pRclNUQ3VBYk9ZNmxuT0JwUdIBoAFBVV95cUxQNGhtVmJmY1NJdmlpX01sNTR2MzRqdk53RDh1YU53S0Z1Z1ZkQklZR0ZqVEdPNVA5UDJrMEpXcHctZ2VLUFlOdTRsYTUxcUY0RTVsRnNFRDB6VkpMbDZUOVBvZkdkUEdCU2QzNkUyOWtOdDJzbFFaT19tQ1Y5UFd6TlFLak8wYy12bWhqZ3RIUjcwelhaV1Qwc0FlVVIycFFj?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "diplomatic",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "71dcb9c9044822b2",
+      "published_at": "2026-07-01T16:32:17+00:00",
+      "title": "Trump Praises \u201cConstructive\u201d US-Iran Talks in Qatar - IranWire",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQREpwQlZsaFZsY0psV1N2d290a0pDb1hiOENYY0dQVFlhejFQcUNWOG14QmZ2SUJ3alNHd2NqZDR3akltYV8yZDhaSXVELTVGajZra05HU1hjZ1JISloxaWhfeFNpaE9qS2lMN3NIVzA1SU9Wazg0cm56QUVwN2h2bmR2QU5EZkNCb1hzRzFsUQ?oc=5",
+      "source_name": "IranWire",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6697fabe69477820",
+      "published_at": "2026-07-01T15:12:57+00:00",
+      "title": "US said weighing pulling troops from Saudi Arabia amid major tensions with Riyadh over Iran war - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdVpXU0FIUWNHd1NwVFZjWHljTEc0aU92aWZCY0tONE9iZU91eWtjTGhfcVdVZHgxZFFPMlhSVVZKZzRyQzBqbEloSU5maHJzUldqUTlNX1FkMGhKSkM1NXd1aTUyTXRqV1JFT25fdnN4cGdKVFJ6MERXb0dKV2VfWnowc3RjMUlUMzZNYmtOcVdSZVByX21lZEljNGxSa1ppMkZ4UUhUbkNRYzBIY250ck5tSXRzdGRNZERCalhCTkl1NjhVYVZVQnVyb3gyN0FvdGRFNHo0TVI?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "dca23407fe62edae",
@@ -157,81 +368,6 @@
       "confidence": 0.55
     },
     {
-      "id": "6697fabe69477820",
-      "published_at": "2026-07-01T15:05:17+00:00",
-      "title": "US said weighing pulling troops from Saudi Arabia amid major tensions with Riyadh over Iran war - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdVpXU0FIUWNHd1NwVFZjWHljTEc0aU92aWZCY0tONE9iZU91eWtjTGhfcVdVZHgxZFFPMlhSVVZKZzRyQzBqbEloSU5maHJzUldqUTlNX1FkMGhKSkM1NXd1aTUyTXRqV1JFT25fdnN4cGdKVFJ6MERXb0dKV2VfWnowc3RjMUlUMzZNYmtOcVdSZVByX21lZEljNGxSa1ppMkZ4UUhUbkNRYzBIY250ck5tSXRzdGRNZERCalhCTkl1NjhVYVZVQnVyb3gyN0FvdGRFNHo0TVI?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1cc0b54514aa1cee",
-      "published_at": "2026-07-01T14:50:02+00:00",
-      "title": "US and Iran enter technical talks to secure peace deal, shipping restart - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR2I3cUEydmhlWVB5bmFRM1JuTXZVRHdDVFV6MTFjWHc0V3NFeDBCNFR0ZEJ0U2NjR213NWJwYlQwb0pNQjZmbU1tdlJjRlF2ZUZKZjBBRmpteTM1SUthZV9ESXZpaVRvSVhUaUYxb1lFenoxLUU2MklQd0I1OC1XR1NGSVo4b29CdVZ5ZzQ0QXp4MFdlMnoyRS1Rak0tTVNvYVU1RVhtb29hdENLeldfakJsMHNNaWNkQ0Uw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1f0e1c96c64a2001",
-      "published_at": "2026-07-01T14:48:38+00:00",
-      "title": "How war on Iran changed the global energy sector forever - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNXpTSVpDcmhMd3lzR1k2alJsMlZlazZyZ3BEWXE3MHI1eHBpN3lvZnczQXZlVTZXdnYzTlAtVXl1WE5icjFvM1B4TVVBU0hCaEliNm8xX1Rnajh0T1UzOVQwOERoSTZDUUJkcGpYWjZTX1lTa01oVEtiY1ZyYlZ6SGQwTi1sQS1QNm11d3Naam1TZjJDVzNqNVFxY01IMVc10gGmAUFVX3lxTE9qWDRaaTNVTEZfUXViLUktRHlsUGMtTnA5X0xqc3JTcl90SURMYmpwS0R0ejRJZEdZNFpoNFk1blZQV3JpODhQaC1WR1dfMG9XSllPNlBnNWtNYkstYXlkazIwcHhqdU9KSk4tYmFhRWVrZWYtNGVxU2plcmZmU21NMlVMdjFKZEhobWVEMkdHYXp3OUZVLXZTSGdRUXN2clNCNUJ3Y3c?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "7eec6b5c567e8cc8",
-      "published_at": "2026-07-01T14:42:00+00:00",
-      "title": "U.S. and Iran to Meet with Mediators in Qatar - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TQXhuNFBOVVpuNXZPeWxZNWZWblBQNW9ydGZxV29oU3VUa1FjbHI1UGdNWUQ3V2V4MFUzWmhVZDRGMFRHMS02clpNVFNBM1VsbkEwcGF5Y2FINTlEQWl3TEh6SE8wTklNU3BVWjFDcGNhYk12NEdZSWJPc3A?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a95c7b34e90246ce",
-      "published_at": "2026-07-01T14:37:18+00:00",
-      "title": "U.S. and Iran Set to Hold Indirect Talks After Trading Attacks: What to Know - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNRFNZZGc1bnpQX1cxOUo4VjgxaXRiamYzeXZRWG1UdXdPYUVpTzBiOVF0VjktMU5MdGY1NzQ0OHV0TVk0NzRvajV4N2tUTk96R2xVOFRSNEtITmJQUmlVeGVIQlh5MGtTQ2VjWHBvN3plamNqVXJhMnZBZVVpWmxjdU4yX3JtdUk?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
       "id": "d150c8384d487bb8",
       "published_at": "2026-07-01T14:25:36+00:00",
       "title": "How the Iran War Ignited a Clash Between Trump and the Saudi Crown Prince - The New York Times",
@@ -247,101 +383,11 @@
       "confidence": 0.55
     },
     {
-      "id": "b6d666c6e531aa9d",
-      "published_at": "2026-07-01T13:44:14+00:00",
-      "title": "The 60-Day Test: Fault Lines in the U.S.-Iran Deal - Middle East Council on Global Affairs",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWkFfVUJOU0hzRXJsRVlIM190bmg3cWJXWkJ3YWczSE1od1F6eHB0U01obzFVMEhkd0Mwdzg4YVVKZk1QNmhCeTRoQTJLLVNOX2tfVFlDMVp1RWctM1NRUGpHaWF1NDRvdGpBVG13Y0phakRaWEd6Nkp5ZFZtYlpLLUNQLTAyNkdBR0gw?oc=5",
-      "source_name": "Middle East Council on Global Affairs",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "83324717a9569622",
-      "published_at": "2026-07-01T13:39:45+00:00",
-      "title": "Middle East updates: Iran, US to attend talks in Qatar - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE12UHFVWkFTdTJpQ3NlTDdLX3c0VmN2aFYwUHctV2FhN1lqNEhwT2Nlck8wRmZhZjRSVE13c3hSN1liSk9lRmVvWUZQeVRVblpCb2thaUpUdmRiOHhGVm9tUHdubTNQNjZZSXIzel9MYnNGMlE2TEczUF9uTjhGdw?oc=5",
-      "source_name": "dw.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2f985ab51632db29",
-      "published_at": "2026-07-01T13:14:11+00:00",
-      "title": "Trump says denuclearisation 'taking place' after US negotiators held 'very good meetings' with Iran - The Express Tribune",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcVZBOXgzVnZBaVhocEYtVk16Uy1Bbks3NWcxZmdtaUJNM2FLRmxBbkhnMTF1NE9WaEJmOUVfOTZIVUhsdGlNbTU2bWZRcjQzNVlHQWY5WDhjb3l6cGhGQkQ5Y0xRR3djU1lmOWZPbEFRa1lZVHBJSFlyUHpuLUJWd08zbmJ5ZFJtSzBJN0VndzFLZHN4akI1MHR6b9IBowFBVV95cUxPdG9hdzVZdmRNSG4yNEpNWkN4M2c1cWUzRFYxVnIyZEk3WUppLVhuUWRsTEFfUWVoTnlHc3NJcWV6bDY5Znc5bzNEeHgtbWhQREQ4bFNWdTN3ZFFwTENNd25XMXpxWDdFVFJpUXM5eTdoSzBpT2I4WDQ2TEU1OHdqNDBwY2JKYXJ6OUJ5V1ZpcnVjSm9GVjE5THpxYXRvZV9FcUdR?oc=5",
-      "source_name": "The Express Tribune",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d63fc8a4b732dfc0",
-      "published_at": "2026-07-01T12:00:00+00:00",
-      "title": "China gains by standing aside in the Iran War - East Asia Forum",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNam1yV2tueWZiZmNGeThHMnVuUTlGTWd5WUMtT0Vod1ZCd3dEX0hsTUJ0R2c5d0JJTEIxZl8wV0g3eFZWLTVERW1hLUgwZ2tIeXRFbENHZzFiN3lCQk1NWHBTeWhYLThoZGdCNS05Z3E0bU44RHMydWlUOWFCOWs0TlgwcE90ZV94aG1N?oc=5",
-      "source_name": "East Asia Forum",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2b28800da28b1a54",
-      "published_at": "2026-07-01T11:44:00+00:00",
-      "title": "How Iran could try to control the Strait of Hormuz - and profit from it - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1zTlNweGtCZ19hT3czVXdKUUROWkpFX01MTDhMcjRKQURpRzVON0RZRzhmV2Z6ZWVWUW5KVGNxdl9zOG56bnBaTTFQblVaUUY1U0swVDlMQXl5ajA2X0Yzc1QtelRmUEdVYUk3Zl93UFBURi1LUFg1UEJYNW03ME0?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c36a771d78cd1201",
-      "published_at": "2026-07-01T11:21:15+00:00",
-      "title": "How does US-Iran war impact China's aspirations for Taiwan? - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSGRla1hQLTk3ZVB0YXg3eEx3eF9BSXVCdkRCbm9qZWdkNURSdWZIVDljSFMzUXBtTnlpbnNYdkNFbEpuYU9DVmp1dGJPcVBwa0VNb2paLUZpckRLUWc4cFAxblJ2TllnUUVRT1luRmNyMS1kYWQ2Si1JSXhHZkc1blJoNkpDTWR5WnpxOTBnV2VxRm56dGRGeF9B?oc=5",
-      "source_name": "dw.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f04b046ed57d4724",
-      "published_at": "2026-07-01T09:41:00+00:00",
-      "title": "US vice president warns Iran of military response if it attacks shipping - mezha.net",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10RW1scXVIaVRCQmhmRmdsTmJDQ2ViOS1oa0lUbVVESVowdlJPcGR1Qjhad3ZJQkdSSmEzT3N2Y29aWDYyTlJXUjBNYTZVaTBaeFdvVXhxWnFmVVlFMGtrTzdlbVFHQQ?oc=5",
-      "source_name": "mezha.net",
+      "id": "8995f725346bc32a",
+      "published_at": "2026-07-01T13:52:13+00:00",
+      "title": "Trump says U.S., Iran getting along after a week of military strikes - The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPRWhDTDdPczNXMGdKcnpHSklWUHhSalVRWWNmTzVsMkNyeDVqU0FmRXc1aENJeS1NcnFnZWRfQ0M1dDlOT2JPaThzRnF0Z0oxUzhGaWhveTJ6X2M0VW8wMW5xa1dJRDR3VmU3eS1ibDczRXVVRkhuM1BDa3NCa1VyMXpvcl9yVjBvRnpjYUhQcEVVWGs4RHNSNlFYTnFGV3VHcnB6RmpWNkhobnVUbmF0YV9mYTZXU0diZWkxRGJB?oc=5",
+      "source_name": "The Detroit News",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -349,52 +395,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "d05a1c78a34bc1af",
-      "published_at": "2026-07-01T09:01:36+00:00",
-      "title": "US-Iran negotiations: What\u2019s the latest? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZnlyRkxEME9zWlA1dTNwRDBtbzI4VXg3VzdBN1JRejdhX1p3bjdVd3hkbnBuVmJWckZWQWNacjlDSnRrVHRxQkpQcUY4eU9kSHIyMER2dm82VTlvVWpRZ1drcjVfMkhuN250WXh0QjA0anlfWHRUTkMwRkd2b3RBUTgwY9IBiAFBVV95cUxNVk93MFZuaUtueWc1Tjd6dmtlMDFLVWpDREpJZDNCVFp3cmU5UVNjZWNmcTZFTUMtejZBU2lJSnVWOXRFOUwwZjNpVFpkNS0zVDhuT3hmcDdvYzZWTDJVcHZLN3c3YWo3SmlQa1pCUXJrYzNRSzBVd1N0LVVVU0gwdXZUT1J6ZzA4?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0d0912c9cbb916f9",
-      "published_at": "2026-07-01T08:09:46+00:00",
-      "title": "How Trump decided to strike Iran, new book reveals final hours - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PbzRaZFRrM1ZYalJ4eHJUNE42MWR0SS1JcXBhMmN3SDdnUmpYTnk3WVJUVW93SGFpWEd1b3ZwcHBXbmtmeU03SFFQVXJuOGVEMmc?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "674d9e91683130e5",
-      "published_at": "2026-07-01T06:09:22+00:00",
-      "title": "Trump weighed return to full war against Iran, but prefers diplomatic efforts \u2013 report - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSHpzUEI5aUlhaEU5eElLSVZOSDNnSG00MnljdHhKdExfWkw5Ry1ld0tTdFMzRFY0SVJnSHhtRmRiUk9yTjBWOXZ3ZnpCbHpfb0o1NmpINklsM1ltSE5WVW40TWU3Q0s0Yl82bEFnbUdFcXE3d1pJTDllVWpJNXFpMktseF9xaEh2UHRrYmsxTzZwWWZLMnM5N0N0RGlzcjExV2NKRk9BNDNKb3RBYWw0dmdLOUnSAboBQVVfeXFMTUVuMm4zMXdmb1VxbEdsT0w1MmJRMk9OZ0hUZzdOQW53VklWdVlEUFVrazdtcjA5aEl6Z0NoeEhpZVdOZ3lRdTVNZFh2QkFFQVoxTVZEaV9vanU2ZjNtbGtETXB3QlpXUFpHM29tWHlJNm95R3RaaUotV2Faand4NmxKWENWazAwV0xxZUF6R3RMcnRlVzhJWmpoYWZURFVSeGRLekRyMUNqM05Yd2JNVFlGQ2ZMSHRNRWlR?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.8
     }
   ]
 }
