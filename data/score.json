@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-02T09:35:19.274376+00:00",
+  "generated_at": "2026-07-02T14:30:46.275017+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 98,
   "totals": {
-    "usa": 57,
-    "iran": 29,
-    "lead": 28,
+    "usa": 62,
+    "iran": 25,
+    "lead": 37,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 35,
+    "usa": 52,
     "iran": 25,
-    "delta": 10
+    "delta": 27
   },
   "confidence": {
-    "score": 68.8,
+    "score": 69.3,
     "label": "Medium"
   },
   "event_types": {
-    "other": 35,
-    "diplomatic": 15,
-    "attack": 48,
-    "material_loss": 3
+    "diplomatic": 14,
+    "other": 33,
+    "attack": 49,
+    "material_loss": 2
   },
   "history": [
     {
@@ -62,47 +62,257 @@
     },
     {
       "date": "2026-06-26",
-      "usa": 15,
+      "usa": 18,
       "iran": 0
     },
     {
       "date": "2026-06-27",
-      "usa": 6,
+      "usa": 15,
       "iran": 0
     },
     {
       "date": "2026-06-28",
       "usa": 10,
-      "iran": 6
+      "iran": 9
     },
     {
       "date": "2026-06-29",
       "usa": 1,
-      "iran": 7
+      "iran": 8
     },
     {
       "date": "2026-06-30",
       "usa": 3,
-      "iran": 3
+      "iran": 2
     },
     {
       "date": "2026-07-01",
       "usa": 0,
-      "iran": 5
+      "iran": 3
     },
     {
       "date": "2026-07-02",
-      "usa": 0,
-      "iran": 4
+      "usa": 5,
+      "iran": 3
     }
   ],
   "latest_events": [
     {
-      "id": "95ca8df5bdd0617c",
-      "published_at": "2026-07-02T09:27:48+00:00",
-      "title": "Exclusive | A Dispute Over Opening Hormuz Drives a Wedge Into U.S.-Saudi Relations - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0VmZ1lTeFJ6NFYtNGxkVlA2SjNBTXpkSXFFTUtyU01tUll4TnNUZjY2eUdPLXRyV3R6VEgwRHNYdDNrcEl4bEpkLTBMUlVEbGE1ekFqdFFsaEp2a0dfVXR0M2hOME1QZ0hScjlGR0xsdlF6RlpmMV82OXZib3VRWjhwMGlRQ3pwRVRheQ?oc=5",
-      "source_name": "WSJ",
+      "id": "c59cd40d3696fc66",
+      "published_at": "2026-07-02T13:56:00+00:00",
+      "title": "U.S.-Iran Latest: Talks pause for slain ayatollah's funeral after Trump and mediators claim progress - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaVMtX0gyODkzTzVJU0FSWjhLZkpmNUpUbldiN1VlQm5LR3ZveGdxRDVNWG5IWHh0dWd4ekptdUEwZE1yRDlsME1rV0R1dGZKYy11TGR6cTdsbEpKbjE5d0x4STQ5dzdzelpRQmZGNk8yeGtPZ1pERHVENmhjLThBdHNBZGhQamJ3WkZGQUVmUURkZ2NoMmVZ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "0f3407d58b373b2c",
+      "published_at": "2026-07-02T13:55:43+00:00",
+      "title": "Iran warns oil tankers to use approved routes in Strait of Hormuz or face a 'forceful response' - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNcjBiZmFOTG1YSHE5NjhlLVlONEx3dnFNQkt3Q0VBUlNwQ3hkSU44eHI5RUg1UWJ6WS0ycE9LVDRpdGQ3ZERLamhtdElQYU02OVRWZHhpY3NHMGpzd29UQnhVU1lOTGVSLW1iZS16bTdRWkNiWDMtT19QNWJtNTdsQ1d4SmE4a1J4NnBldnExR1kwU01oTThWUEI0T3hSMWQ2MGxUSFFubld6Y1JKcmhPUkhGOFhKX3BhRFhUMHQtZHFGNi1JV21jbw?oc=5",
+      "source_name": "WRAL",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0a9394b0369ee860",
+      "published_at": "2026-07-02T13:39:04+00:00",
+      "title": "Iran war live: Tehran warns Trump and Israel not to attack during Khamenei\u2019s funeral - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTkFjUGxyUTBnems3cHJKRFQ1cXBOWE5qdVRTTHU4aDFsNFJTT0xMU0dhSzVUZVdFMEkyWHgxNXBDTVZPWlpiNUpVSUdYSVBoV0hLUWdUWVdiSFo0cEJkWURHcW9vaEg5TzZBQnZDdTBTRm02RWwwQTU2YnZjd1FYQXcyY1l3VThMdmpYb2FMcW4wcmtWcmVyQnc0LWdWTXBIQXBoOWpCY1RVSmI3T1ZfLWljSkgwdjUwOEFxRg?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "6403d5e6bf2c5d21",
+      "published_at": "2026-07-02T13:27:00+00:00",
+      "title": "Live updates: Iran gears up for huge farewell to slain supreme leader - CNN",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJdzRnRHV6U1RFbENBREJ0cGh2Tm41dDBIRkh2U3VGb21vaXVQaVFFVnRacW1lX21lR2NsRDJucWJ0dVB2bUlOTTJUVkpuQ1MxMFhNM1NLblBCT2FrVnNLY04tWUZJTTRQZ0FEVFZESWpqZw?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e6a9622765b62145",
+      "published_at": "2026-07-02T13:21:39+00:00",
+      "title": "War, political psychology and the future of US-Iran relations - Clingendael",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOVluNEwxSmp5SUhsXzY4cXUzNUxQWlZMRmtIbUtLTGtsR0ExYk41akdaQWdBanZpaXhDZmoySm00aEVxcDU1MkU4bFpsZzNrV01May1GMEJiZGt0WjZrTW1rTFdSaUZwVldscFh0c3hGeW5SaUM3SUh6TEhpM2xUSFhnOHFKY0xnSzRJU3NqN2JuejJ4VzZXYg?oc=5",
+      "source_name": "Clingendael",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1aa7e8aa910c10cd",
+      "published_at": "2026-07-02T13:02:08+00:00",
+      "title": "The U.S. Can End the Iran War or Broker Israel-Lebanon Peace, but Not Both - World Politics Review",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Kcm1JSE5zbHFnTEltSE1rajVPWS12ckZEaGdCWE5NbFRKU2xROG1HOUFJUTI1WnBJR3Z1RXFtVVYwTmRSSDlZNmFTUUZDaXg1TDFYci1GODJvUF9oOFNsWGhBcHZSelBNd0t3cGRnQkxYaXhwWVZGdnkzb0Vkdw?oc=5",
+      "source_name": "World Politics Review",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "fa4a1c16558cb22c",
+      "published_at": "2026-07-02T12:30:00+00:00",
+      "title": "US and Iran agree to continue discussions to end war following indirect talks in Qatar - WDSU",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObmNBbHVReFZqbmR4TzFtcjFSNlR6ZFcwbjJMVTRhbzg2b0dTZ0dIYklZcHZ5MDhIeWllUlJhckhIaC1pQ0dMa3lsN0tqRUdLYnVMdzJmVW5aMVpBZk5tdlBWRWpuWDlkaGp4NHZya2pjS3RjS1NOa0dBUWRiNXM0TFhfS1VFTi1KX2l0M1ZsNXRDLW0tdFdzcFR3dw?oc=5",
+      "source_name": "WDSU",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "02806c7b846ee200",
+      "published_at": "2026-07-02T12:07:36+00:00",
+      "title": "Iran war live: \u2018Decisive response\u2019 to any US \u2018miscalculation\u2019, vows Tehran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e0530f5b4e78ff82",
+      "published_at": "2026-07-02T12:05:03+00:00",
+      "title": "West Asia war LIVE: Iran warns oil tankers to follow its routes in Strait of Hormuz or face action - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcVN1REJIQzAwUWdZa1Jzbk4tZnNHYTVlQkdzeUxMQVd5YUZPelR2czNjd1V0Nm4yZDA2RTdHTnYwNGdwanZRcXJ2UWlHdU9lZ09wamRtbXVFaW5USmFaMEV3LU5jUU1mcHZzRVZQVmQtWTZ0WmZON0RTOUdMVWlUdjk4VkNYWlowSzFxMm9NZFU4X28tZ3FlQWk4U2pQc0p3bDNaTHowd0JlV1kxOGRJbmFwTDVZQXlVZlZQb0lBY21MbmRkMUtTdDUwTlJONk5rT1HSAdgBQVVfeXFMUEhvbmhka3FWOEMwNXhRQ0RvTWRIRU9rVEtTaGYwNGstZ19aTTR5ZXlZQXhia3B4cHdIbUpRX2VvLXM2SC0wRXFyLXhHMi1nMkE1cU4tYTBsamhQQ0VkdzlkanUxcWNwSDNnQTFISFVRZ3ZyRUZiRXd5STBfaEJDVFI5M0REUE9lSkw1ckRRRXJmU3ZrNGcxeHNfQ1lkQlhXMHgwS3Y0eHJLekQteHd3Z2NkSDFkTVBaOHJhbFBzRDBNQk9kYTFRbjh0WnJYaFNHSlpjdE1oak1J?oc=5",
+      "source_name": "The Hindu",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1e541d1a20b82953",
+      "published_at": "2026-07-02T11:34:13+00:00",
+      "title": "Khamenei\u2019s funeral: Iran threatens \u201charsh\u201d response to any attack - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNNE5FRmYzZFpnWUFIdWVva0dKaDlwbWZyUnVya09YR0tXNjIwcldYNGlMdHJZa085WFcyWHJ2SVY4blZPU1dKS1JYdHhZOFY2MU8zb2drVmxNbld3b2tMV3FZdU9ycDFPZFZyaXgzbVFHR1lqbHR1VTJwLXRubE5uSTZVdmNNbjRBcjMzREtiSEUtbWlLNGlJSFdmN1I?oc=5",
+      "source_name": "\u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "64f696aee567cb73",
+      "published_at": "2026-07-02T11:10:40+00:00",
+      "title": "Trump hails \"very good meetings\" in Qatar as indirect negotiations resume - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZmR2QzU0T3NIXzF5SklyamljMzJYOGdKSEFBb3hyeHRzVUxkVTNveno4cVdHMkdMYlQ4MmlKUGdMTDhzWlIwR1Ixa1VjbzhJSzVBNy1kNHEtODlaQXhhQU1rODJtNjdDMWxWQXBITS1KUklWYXhOalNQeGhSaEdPbThPUW11UE9oVkZreDg5Q2xCelhJZW16X3Q3MVE?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9b6651224ca4aff9",
+      "published_at": "2026-07-02T10:57:22+00:00",
+      "title": "Iran Bans UN Nuclear Inspectors from Bombed Nuclear Sites after US-Israel Strikes - IranWire",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQUng1VFB1Wm5lZERZOUtiVl83RXNyV3dSbm9MOWdyUk5wQ0hKQUNGV0lUTXh6MkFuVG04ZXMtYjdLVDRoN3pXT2tacndGRWU1bjdDblkwNkp0c1Bua3VUbjBETWV5SUVHR1JXbjNaS1d4U3ZWQjl5NEdGTzlXaXVMQ2xVWjc3dXFZSVBXVmpzRHhZYVdBX0VoWUR1S25fM1NKRm9oLWtnQ3VTaXVmb2NYYU1jU1JrN2ZGWUE?oc=5",
+      "source_name": "IranWire",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e8ea520085bd90d6",
+      "published_at": "2026-07-02T10:47:55+00:00",
+      "title": "US evaluates moving CENTCOM forces and naval assets to Israel after Iran war - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE41Y2VKUTFZMlF1anJWTkpKU2gxNnd2cTFDOXlheEJXX2tvY0E1UFBLSVJ5Z3BKTVpZZGpvZUs3WE11R0NTUmFoWFlBZDRjZnBtYVduY19JcUhtcWpv?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "072489ec732b3d49",
+      "published_at": "2026-07-02T10:28:10+00:00",
+      "title": "US fighter jets presence over Hormuz threatens regional security: Iranian army - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaUNnM09fRnlEOTNDSW15WU0tLUF6SVZMR3FtXzRwOWJva0dQa1ZwMGVPRm9pazY1VUlBVEdnMm84MTJxRUYxNEpQeUtnWnZXNkM3TkxZaTVMblVNdkF2bEJCbERpUTFjbFk1RGpLeHlFckRiV1VncGVQbDZfLWJIXzNXT1dDdmNTekxDUy1QeTQ0bTZvdUdUZVc3RkJhcy14WHIwT3hyTUNzZXhLQkNkcTB6X3RHZHlzSUZtNWtqYmNRdFNXWmc1Vndn?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1c41e20000e1278d",
+      "published_at": "2026-07-02T10:15:29+00:00",
+      "title": "Iran warns US fighter jets over Strait of Hormuz tensions - Yeni Safak English",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNVDctU1luNy1vY0FTbWI4bVdXWVk4dnc4ZE1jQk5ycDdYUEMzb0E4MUcxTFlIaHBMZ0NrcEVISnlPSkxfNUswdWlHR2xOU09Vck9aNVUwWUZxTFFueDVuOHlwb3V2ZFhuYThmLTJfZXZZU3pFOWo1cm14Ul9GblVKYTRJd180WGlmckd3Q3BmT2ZGNnRUNFBOODBIS3Q?oc=5",
+      "source_name": "Yeni Safak English",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -114,7 +324,7 @@
     },
     {
       "id": "42830e79afe11839",
-      "published_at": "2026-07-02T09:11:15+00:00",
+      "published_at": "2026-07-02T09:20:52+00:00",
       "title": "US-Iran talks in Doha: What were the outcomes and what\u2019s next? - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX1dUZ0JLeV9Pa3I5OXVicjNMT0g4MVlHWk1ELTRsUURGRm1CUURtOXFwcnQ5RXdOdF9pSlNzcE9OYWcwODYyWjBDU0U2SzRLTzhTakd4VDRER1hTczBMc3NtWGdMVHFuT1JMeDVxalM0c01iNFJNSkNWeUdPRnZQOUw3MkVzcTR3X01tNXp2NlEtUGNJcjBsRUlUNEl3NmU50gGmAUFVX3lxTE5VSDdodmdkcHFKazBhWGdmZ05UeTFOTTBCdzdwZVVDRTJ4V1BjUkd2NVMtdXVCMFowQkVfTUtTeW92eWw4X1VNOWFtbzl3bDVfOW83aDFxalVpTzVmOTFHSEVaYWE4TnVPOExpdnhET1EybV9hRkhaOVdFTUpVVWx0a0VDemVRZGc5MkI1UzRLcS16X2NtTjFfOHNKSmpLVjNrSHJyOFE?oc=5",
       "source_name": "Al Jazeera",
@@ -128,64 +338,19 @@
       "confidence": 0.65
     },
     {
-      "id": "3d88b994aa525795",
-      "published_at": "2026-07-02T08:59:09+00:00",
-      "title": "Iran war live: \u2018Positive progress\u2019 as US, Tehran wrap up indirect talks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "d88f9e2b694b8efd",
+      "published_at": "2026-07-02T09:05:52+00:00",
+      "title": "U.S., Iran agree to more talks as Trump reportedly weighs full-scale war - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNTlkOGJkaWVCRmJOQk1udHFIQ1kzbGZGTGdnT3FHTGxPSW1Xa0tobUdCeUNkaGZRZ01SWHhoa19sTkVGX2VObVFLY0FRZUpIRUlubF9wUjBaM1VfLUItNTlhYmxDX2NzSTFjZTB3NzBMMGtnbUdzQldNUFRadXBRU3dlSl9UaU8yb2N5dG1yTk9TVVQwOXlUS0JOcDNHMEtNQmpzMVdwZGotbkVqYWc?oc=5",
+      "source_name": "MS NOW",
       "event_type": "diplomatic",
-      "actor": "iran",
+      "actor": "usa",
       "target": "unknown",
       "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "08d17972e21bc3bc",
-      "published_at": "2026-07-02T08:58:10+00:00",
-      "title": "Iran warns oil tankers to use approved routes in Strait of Hormuz or face a 'forceful response' - CTPost",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVWNHUWhLWVFrSG5YdS1haGlJSDN5YVVmN0tOYnp3X3EzeWZkVUpGZEtwc0s5X1diVGZ4dXBOT2p5N29Kb01PZndyNjFqZVZyS01BSU5qZ2t0UXNJVExzaVFJTDZzSHkyeHdmUFY0RDNtU2EwS0NicEdrX1h3bWNWWDlQNXFJYTRfZ2tGTHBscmczVmRhbnVLbVhJVWgzWVN2U2xpTlpB?oc=5",
-      "source_name": "CTPost",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
+        "usa": 1,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "9fba356a5193ad13",
-      "published_at": "2026-07-02T08:57:49+00:00",
-      "title": "Iran war live: Trump hails progress as Qatar talks end in stalemate - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTkFjUGxyUTBnems3cHJKRFQ1cXBOWE5qdVRTTHU4aDFsNFJTT0xMU0dhSzVUZVdFMEkyWHgxNXBDTVZPWlpiNUpVSUdYSVBoV0hLUWdUWVdiSFo0cEJkWURHcW9vaEg5TzZBQnZDdTBTRm02RWwwQTU2YnZjd1FYQXcyY1l3VThMdmpYb2FMcW4wcmtWcmVyQnc0LWdWTXBIQXBoOWpCY1RVSmI3T1ZfLWljSkgwdjUwOEFxRg?oc=5",
-      "source_name": "The Independent",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "4729879518716580",
-      "published_at": "2026-07-02T08:32:31+00:00",
-      "title": "Iran warns US against intervention in Strait of Hormuz, vows swift response - Crypto Briefing",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHRISE5ieURRTGQ3dFJ5a0RUdHAzZExETlROUVRxSlF0R0wxWTFFNXFrVkt1SDJtTHNPQ19OYjQ1ang5Q0RpSjgtd3B1d3dTSHBhNS1qMkdZYUtLZm5UaXdLSl9YTFMyazNqeERpb3RiTUQ4ejVWbnRTYUR5R1JqNy05MDZ4NWpXSWgwelU4cGMwOV9CU2h5bHRiYjlENWxmRnhiWQ?oc=5",
-      "source_name": "Crypto Briefing",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.8
     },
     {
       "id": "80ef098453aaf7b4",
@@ -200,7 +365,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
       "id": "f39b1333f06efc43",
@@ -215,7 +380,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.75
     },
     {
       "id": "54ae15ec10538d18",
@@ -231,171 +396,6 @@
         "iran": 1
       },
       "confidence": 0.65
-    },
-    {
-      "id": "ecb2b75d9d3b0fba",
-      "published_at": "2026-07-02T04:08:00+00:00",
-      "title": "July 1, 2026 - Meetings in Doha, Vance says talks \u2018going well\u2019 - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qelNxQjctTExXbXlXY21BeXFIbFhnUXJlQlRid2hXeUJEMXdJTXdZU1Z1ZkljanhEYTkxanJjVUtfc2NSeGNuTEFxSHVjdnZZWXdlQzJJWko4Z3RNRjFxX3ZCYldYMk9DbzBXTzh3?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "00c71139581482a6",
-      "published_at": "2026-07-01T22:17:27+00:00",
-      "title": "Vance and Rubio take different approaches as Iran tests their 2028 prospects - PBS",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQam83TDVoN0ZQUWhKRlAyS21yNS1oQUtFcGhSWV9ySElvaDNxTGctSExPNEI2dEl4ZC12SHpZeTNrbUY3SE85dlBPcFRpYTl3OXFmUFlTYWJEWG5aRnNZYkNSMUhXNDRQWWtRbENZQVl1d3Q2VmRQcVBkcUhmT1hkWmpnY2dUanBmUFprM2xOYmRFZFVGeTRmc2pyWWJ4MU9kZ0Y0cmJFcE1HSVR3aGZ1LTVqdXDSAboBQVVfeXFMUElZd2ZUQS1IY2dJR2Jnc3JuVU5XcTlFSmpzbGVsZVV1TmExenFXOHFESU5aLXVzMHBVTHpGZkJFWkV5Y1Bvb1lZVHJvbHJCWnZwSU1rWUhWSV9VbmI1Znk4UWs2MWZDX0VONmRmRjY1SV9TVk9zZkN0S1MzYW9JRUZ1ZHF3ZjRVRk5WMXFfY1FITGF1YS1EVnRITENDMlVKbG1xYkVOamlKQkFXd0xySm1USHFSRzJZTnJR?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "83ac6b20313c9e6b",
-      "published_at": "2026-07-01T21:37:00+00:00",
-      "title": "US and Iran hold separate meetings in Qatar and agree to continue discussions - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOQ2lQSWQwRDQ4OFduMjN6LWJ6N0Q3VWQ2bTNDSGk3NzcyM01FYlBPd1ozSTgzM056VnZEck1UR2VvbE96dkZocFZ1cmNjS3NyOENOWlJJbDg0eHVmelg5NlZyQ0l2dTZPZW8zb0RzUGJRUnI0VFk5Q1dyZ0plQk1wQXR3STBEVHVWa1JoUE9qd0xGT2Jza2J0YzhHX1ljaHRkTXc?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ea97ce4a500fb276",
-      "published_at": "2026-07-01T21:05:00+00:00",
-      "title": "Iran war drives wedge between US and Saudi Arabia \u2014 as America considers drastic change in Middle East - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOWYzZjdrUHlJTG9IX0hoWWVzUGFnR042YkRHU1lkUTFWX19WUTVMSkNmMGtWaEdjZ2RpRk1lb08zbUxDM3RWZllnSlFvYlhSZG5PZzR1SnVmNVVReWkzMXA2YW9wSzE0aHhaQkw4aHJZM05rVXJBcm9kanA0S2hpNVZrQVc3dThaNTdrcldvT2RfVFBQMnctckZVRnRjSHM?oc=5",
-      "source_name": "New York Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "314fd7c044e2a6d0",
-      "published_at": "2026-07-01T20:49:17+00:00",
-      "title": "Trump won't return U.S. to full war in Iran 'unless he has to,' Vance says - CBC",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYMG1Sc2dYbmV1S0d1QlgxOUxvNWtFZXoya0FxLUFjQ0Y0VWs2VUUxckREcW9HOHJFdG5IcXRtd1p4MTh4YzQ5TGx6ZjZnd1dRQ2s3b2Y2ZXdGcTVsQmRCLVQwRC1RbHhzbEthZGh4TzR1YjNiZ21RZzhR?oc=5",
-      "source_name": "CBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "da5210f91671bff5",
-      "published_at": "2026-07-01T20:14:34+00:00",
-      "title": "JD Vance Defends Iran War in Speech to Military Members - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE12QzRoeVRIREdOcE10SFE1eDU0U2xFblo1X1UzaC16TV9OQnIzOWFfRkJmU08xYThNNkNJWWhGWElIMWxlbU5zQktZUlU0ajF6ZXR3dDdqX3J1bXhMdXBLT0xjOGVGTllXVDZvN29oMzkxbHZO?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5daa701565aea62a",
-      "published_at": "2026-07-01T19:30:00+00:00",
-      "title": "Vance warns US could resume war: \u2018That\u2019s kind of up to the Iranians\u2019 - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTmtXc2pxZDdlcTkzQVFuV3hKNHlNM3BSTDBPQVk4cXlmdnd3MlJodEd4ZXpQZDBKQXZPVXk3NERMaEJWYzI2VVJZMGVxNndiS19lYjdJVC12cHloWGp1LWlwR01ZREZzMUY1VXZDNmxDSFg0ZVJwalBJS3lYYnIzWDJoUdIBiAFBVV95cUxQdVFlck1YOWtQZ3p5VzVDV2IxRFhpREhGbXFGZ3hidGJ6ZmU0MkpDZktuNXk2OS1tMGhyazNCT3JEMUcyRUVNQW51UUlpZldMeEVfV2RVeFVtbHpVYlNiYnpnTnlyb2Q5ckdpTWxZelBsUlhRaHRNOWNDcTd5angyOTBmUEhaSTM0?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f6400d8690800597",
-      "published_at": "2026-07-01T19:26:53+00:00",
-      "title": "Trump says US getting along well with Iran as Doha technical talks end - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKZTFlNi0teUxIVzRDV0p6UHN1QnJIVGdQTHZHd0N0Z0pISEpqVW1vcDdicEJPQXFTYW1pMkFldEQ2VjliTXpueml1ZEZmWWFlaFE?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "9eeb4719e7b54969",
-      "published_at": "2026-07-01T19:00:00+00:00",
-      "title": "Trump\u2019s Groundhog Day: Endless Cold War With Iran - The American Prospect",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMDZPV0RSeFlTTFI4LVlmRG5aN1VNb1RpUXNxZWhaRV9kYlN0bGNBcFFhVEVpMnN3VGxrYnQ1VFBGMzVlNVF5TlowTlMyb1JoUVZBOWJ4ZHNGc2FGUS11YldJVFdLNHpWcTRidHQ3d3M0bEZXaWJwbE1jdlZ5ZllURjBnUVpLdWM?oc=5",
-      "source_name": "The American Prospect",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "be371be654d3f6ca",
-      "published_at": "2026-07-01T17:23:37+00:00",
-      "title": "What military capabilities does Iran possess as it negotiates with US? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTDRxLVlNUXRzVVRSTktUTEFqdnR2eU04ZndwSlhFUk5CNVBDamNhTlVvT3JnNm5LY2dnbjJPRGgydGtWLVE5eVRIdHdvTjlGUEo4cUVaaGVkS1EwSWVEX0Z5VURtNFpGQWFRbHNhbnN4bHVEdnZPeFV0eWdldDg5X2tqR3JjY3ZpN2wyakdaT3J6OG9QelNmM2hlYVBzbHZUb1M3YlFQb21fZWx3UVHSAbMBQVVfeXFMUGxadnQ0VDhpdExHaXpQYzhKczRPTHNsc3VtLTlPQU5VdFdzT1NzcnZmVXV2MlZGMlB6b0pzREprejRRYTh6azdLZTZlZUtlV2NMc0QxOEVhelhHamVFY3N6eFZWRzBWUzBGSU1mam5SSmt1VmVWaUJZSnVDT3JCMldBUDVNMXlqdDczVlhscDZMNVh2MnVJTm16ajVHN1RkR0xQeE9fYlI3VDNKSl9TanEtcjQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "ede2db23b4cc169a",
-      "published_at": "2026-07-01T17:19:00+00:00",
-      "title": "US reportedly mulls pulling troops from Saudi Arabia as ties sour over Iran war - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEdTdW8zUzEzdEFpYWpLNlVudUlsLUdmRUVNWjJULUJzZVRyemUwdTlpZERXR082UThZa3o5Y0lPNnJNNHdZbjR6bVJfR2dBZENVenhGUnV4T1JtVW84Q0x5MWMxZndha1V3TFNxdnRBRnk1UkVfRUlKdTBtM0g0bkFfd2xzR1lrUjVkcmFpYXJqZUZ3NEg4YTRsRG5YS3VrNmVaaFYyR2ZuRHN6Vldr0gG0AUFVX3lxTE9uUkNTYmg2ZzYyY3ozYm1HRmNTMW5HUTQwMHlxaTR4X3JXdlFGN1VQeks3Wi1ZWGoxaXFxQ2gwQXQ3NFB6QWpyaWNqc1U5TUZVT21tTWRQM1VBbEIxaWFGNjlEaHNfN0tLd0YzcGVCRkV2VmFJWDNnZW9xTlE4bnhxbjVoSjVTeExnZG5FR2pmSzVud1Z5QWRfTFFPNE94NUE2SEhTREhxLWJldTdOdXNTTmJMOQ?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
