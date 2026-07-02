@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-02T04:32:18.454571+00:00",
+  "generated_at": "2026-07-02T09:35:19.274376+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 104,
+  "event_count_window": 101,
   "totals": {
-    "usa": 60,
-    "iran": 28,
-    "lead": 32,
+    "usa": 57,
+    "iran": 29,
+    "lead": 28,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 54,
-    "iran": 28,
-    "delta": 26
+    "usa": 35,
+    "iran": 25,
+    "delta": 10
   },
   "confidence": {
-    "score": 68.7,
+    "score": 68.8,
     "label": "Medium"
   },
   "event_types": {
+    "other": 35,
     "diplomatic": 15,
-    "other": 37,
-    "attack": 51,
-    "material_loss": 1
+    "attack": 48,
+    "material_loss": 3
   },
   "history": [
     {
@@ -62,44 +62,74 @@
     },
     {
       "date": "2026-06-26",
-      "usa": 21,
+      "usa": 15,
       "iran": 0
     },
     {
       "date": "2026-06-27",
-      "usa": 12,
+      "usa": 6,
       "iran": 0
     },
     {
       "date": "2026-06-28",
-      "usa": 13,
-      "iran": 9
+      "usa": 10,
+      "iran": 6
     },
     {
       "date": "2026-06-29",
       "usa": 1,
-      "iran": 8
+      "iran": 7
     },
     {
       "date": "2026-06-30",
-      "usa": 4,
+      "usa": 3,
       "iran": 3
     },
     {
       "date": "2026-07-01",
-      "usa": 3,
+      "usa": 0,
       "iran": 5
     },
     {
       "date": "2026-07-02",
       "usa": 0,
-      "iran": 3
+      "iran": 4
     }
   ],
   "latest_events": [
     {
+      "id": "95ca8df5bdd0617c",
+      "published_at": "2026-07-02T09:27:48+00:00",
+      "title": "Exclusive | A Dispute Over Opening Hormuz Drives a Wedge Into U.S.-Saudi Relations - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPR0VmZ1lTeFJ6NFYtNGxkVlA2SjNBTXpkSXFFTUtyU01tUll4TnNUZjY2eUdPLXRyV3R6VEgwRHNYdDNrcEl4bEpkLTBMUlVEbGE1ekFqdFFsaEp2a0dfVXR0M2hOME1QZ0hScjlGR0xsdlF6RlpmMV82OXZib3VRWjhwMGlRQ3pwRVRheQ?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "42830e79afe11839",
+      "published_at": "2026-07-02T09:11:15+00:00",
+      "title": "US-Iran talks in Doha: What were the outcomes and what\u2019s next? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX1dUZ0JLeV9Pa3I5OXVicjNMT0g4MVlHWk1ELTRsUURGRm1CUURtOXFwcnQ5RXdOdF9pSlNzcE9OYWcwODYyWjBDU0U2SzRLTzhTakd4VDRER1hTczBMc3NtWGdMVHFuT1JMeDVxalM0c01iNFJNSkNWeUdPRnZQOUw3MkVzcTR3X01tNXp2NlEtUGNJcjBsRUlUNEl3NmU50gGmAUFVX3lxTE5VSDdodmdkcHFKazBhWGdmZ05UeTFOTTBCdzdwZVVDRTJ4V1BjUkd2NVMtdXVCMFowQkVfTUtTeW92eWw4X1VNOWFtbzl3bDVfOW83aDFxalVpTzVmOTFHSEVaYWE4TnVPOExpdnhET1EybV9hRkhaOVdFTUpVVWx0a0VDemVRZGc5MkI1UzRLcS16X2NtTjFfOHNKSmpLVjNrSHJyOFE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "3d88b994aa525795",
-      "published_at": "2026-07-02T03:11:15+00:00",
+      "published_at": "2026-07-02T08:59:09+00:00",
       "title": "Iran war live: \u2018Positive progress\u2019 as US, Tehran wrap up indirect talks - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQREgyVFJpTkVsbGppb2xIM2RJR0FIT3docXJJUUV3SjNNRDh1dGNoa3pNNVotZmxmT29HenhnemVzdkVVckI2ZE5vTzFKRWNFdDM4MGM3LXNHYWw5WGM3dkVSNjROQk9VclBUYlV0SGJfYm9UOU1iN091R0F6c3pMajlFR0k1QzVDNFFhSEtsY2xMTThCZVp1YzJUdHhjdk1WZG1xT1lUM0pUOWEyalc3Z0lycnBBS0XSAbwBQVVfeXFMTU00cjZnSmItS243WE9xRWxVVVFjZHE4NEdOQ203ci1QOWZqZVB5bmY5S3ZneHBaZDlQSFlXS3hxNmExZmxhTjZSbjEwTDVkN2dnYjd0VWN5aDhnWXpUaTg0dEdrYUVlRm5CM3JET0hVTlp3ZWpGZW5oSDMzQmdtS2tWU0phcEdFZnp0dWEyYmJJSWp4TVI5cnNHVlVHWE9wT0ZsSGVYckxnRmxUY05QQkNhMmt3LVo3SWZKaUg?oc=5",
       "source_name": "Al Jazeera",
@@ -113,11 +143,86 @@
       "confidence": 0.65
     },
     {
-      "id": "49b103bff696e9f2",
-      "published_at": "2026-07-02T02:00:03+00:00",
-      "title": "Iran war live: Doha talks end in stalemate as Trump downplays return to combat - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcHNWSXR0MzJaeklrLWpRbWw5ZzdvRDQ4UGo3WVhIVzNmOUliMkd5ZGpPdmhKZko0TEY0R1R4MjM0ZU5NUnBidlJHdjJZS1d0MnkzX2hIMWpQOFU2S29SQWFFM283WEhiekNnN2RJajFiUnlIVFRReEpFQ1FWU0llNDZZUEJ6Ny1LYnREc3c2UTNaUkNvTkVfQ0NnQVVuYUQwYVlwdHkzc081TVpDZXhMaTBmbHdoSE5PaF9JMnVwUS1JMTQ?oc=5",
+      "id": "08d17972e21bc3bc",
+      "published_at": "2026-07-02T08:58:10+00:00",
+      "title": "Iran warns oil tankers to use approved routes in Strait of Hormuz or face a 'forceful response' - CTPost",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVWNHUWhLWVFrSG5YdS1haGlJSDN5YVVmN0tOYnp3X3EzeWZkVUpGZEtwc0s5X1diVGZ4dXBOT2p5N29Kb01PZndyNjFqZVZyS01BSU5qZ2t0UXNJVExzaVFJTDZzSHkyeHdmUFY0RDNtU2EwS0NicEdrX1h3bWNWWDlQNXFJYTRfZ2tGTHBscmczVmRhbnVLbVhJVWgzWVN2U2xpTlpB?oc=5",
+      "source_name": "CTPost",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9fba356a5193ad13",
+      "published_at": "2026-07-02T08:57:49+00:00",
+      "title": "Iran war live: Trump hails progress as Qatar talks end in stalemate - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTkFjUGxyUTBnems3cHJKRFQ1cXBOWE5qdVRTTHU4aDFsNFJTT0xMU0dhSzVUZVdFMEkyWHgxNXBDTVZPWlpiNUpVSUdYSVBoV0hLUWdUWVdiSFo0cEJkWURHcW9vaEg5TzZBQnZDdTBTRm02RWwwQTU2YnZjd1FYQXcyY1l3VThMdmpYb2FMcW4wcmtWcmVyQnc0LWdWTXBIQXBoOWpCY1RVSmI3T1ZfLWljSkgwdjUwOEFxRg?oc=5",
       "source_name": "The Independent",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "4729879518716580",
+      "published_at": "2026-07-02T08:32:31+00:00",
+      "title": "Iran warns US against intervention in Strait of Hormuz, vows swift response - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZHRISE5ieURRTGQ3dFJ5a0RUdHAzZExETlROUVRxSlF0R0wxWTFFNXFrVkt1SDJtTHNPQ19OYjQ1ang5Q0RpSjgtd3B1d3dTSHBhNS1qMkdZYUtLZm5UaXdLSl9YTFMyazNqeERpb3RiTUQ4ejVWbnRTYUR5R1JqNy05MDZ4NWpXSWgwelU4cGMwOV9CU2h5bHRiYjlENWxmRnhiWQ?oc=5",
+      "source_name": "Crypto Briefing",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "80ef098453aaf7b4",
+      "published_at": "2026-07-02T05:21:37+00:00",
+      "title": "Oil prices fall to levels not seen since start of US-Israel war on Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNcDk4bXVmOUlaNVMtcTAzclZyS2Y4ZGNwOGdkMlpJemppTkRzNkMzcXRrdFd1ZS02TGxtMk1kTzk1bXRVZS1IbkMyQU04QmE1SHRhejFLeDdGdXVXWmRIeDA2aU81dFhLazlhdEktSmRZRGJfOFFmcnZuYXhXcEZqY0F3TUxHYVhQbzRqS3RPS0hlR3ZpcTVHcmVVZEhjZzZ0RnVWM3c2LWNHZEgwT1hZYTF5bTHSAboBQVVfeXFMT1I5SUFWdmJ0MUo2SGpSVzhaUkFiNEFmMnBJaTVpSVlwVTdxaEtDWENDcW42ekdNN2ktV2lGTkZUVmNfSC1wRmw2bWhwc2l2dFY4NURQX1hJWjFhREFLOHUySHNDTUJDdEFpN3pvd1VNS01VVE4tQlRjb2lnaWRlc3VMbHRDSTJyVTlpZUtGSnNMTmxlQnFNa3Z6YlJwVl85MmpiNTFMLXpwS1dweDZTbmQ2YkpOVU9LN1FR?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "f39b1333f06efc43",
+      "published_at": "2026-07-02T05:00:00+00:00",
+      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Encyclopedia Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+      "source_name": "Encyclopedia Britannica",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "54ae15ec10538d18",
+      "published_at": "2026-07-02T04:57:44+00:00",
+      "title": "Iran to open \u2018communication channel\u2019 on MoU with US after talks in Qatar - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzNjRC1UbDNVUEJpUkpTY2FDYjBxR3hoTmJ2SFlUNmV4QUFlSk5pc29KbFcxZUZFQ2ZmbXFabjhROEozODBOODliTnNhU0pvNmtNMW1JaE9wZTZnY3VLQ1huMF9vN2FSMzR4V21HeWMybEVxX1JCUS1kQmRwRkdMam1nQjlmM084clQxYkxuSzN0OWNBbDFTMkRTU3ZILU1kYlNRRDg3STAxWndfVHd30gG0AUFVX3lxTE1OTElQb2RYQl9oTERHbkUxSkpzM2pTVlpycXJaeWxHblExNDdvXzFrX2pnSnY4cVNMdHZoUDZzTlNGRndjRFI0T2luSk1mUXgxbHBlcVg4R0dUY0p2REFiSXY3X3pUUWw1VVJGSUdjU0wwRGgtQVIxemlSX2FzZ0NTdmJZeFZxaFNzdXIyd0QtSHRvNXZlN0Zwbk1DSXdVdkRJZlJpVzNON0Y4Tjh0VGtxdGhyXw?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -128,17 +233,17 @@
       "confidence": 0.65
     },
     {
-      "id": "54ae15ec10538d18",
-      "published_at": "2026-07-02T00:08:33+00:00",
-      "title": "Iran to open \u2018communication channel\u2019 on MoU with US after talks in Qatar - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPXzNjRC1UbDNVUEJpUkpTY2FDYjBxR3hoTmJ2SFlUNmV4QUFlSk5pc29KbFcxZUZFQ2ZmbXFabjhROEozODBOODliTnNhU0pvNmtNMW1JaE9wZTZnY3VLQ1huMF9vN2FSMzR4V21HeWMybEVxX1JCUS1kQmRwRkdMam1nQjlmM084clQxYkxuSzN0OWNBbDFTMkRTU3ZILU1kYlNRRDg3STAxWndfVHd30gG0AUFVX3lxTE1OTElQb2RYQl9oTERHbkUxSkpzM2pTVlpycXJaeWxHblExNDdvXzFrX2pnSnY4cVNMdHZoUDZzTlNGRndjRFI0T2luSk1mUXgxbHBlcVg4R0dUY0p2REFiSXY3X3pUUWw1VVJGSUdjU0wwRGgtQVIxemlSX2FzZ0NTdmJZeFZxaFNzdXIyd0QtSHRvNXZlN0Zwbk1DSXdVdkRJZlJpVzNON0Y4Tjh0VGtxdGhyXw?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "ecb2b75d9d3b0fba",
+      "published_at": "2026-07-02T04:08:00+00:00",
+      "title": "July 1, 2026 - Meetings in Doha, Vance says talks \u2018going well\u2019 - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qelNxQjctTExXbXlXY21BeXFIbFhnUXJlQlRid2hXeUJEMXdJTXdZU1Z1ZkljanhEYTkxanJjVUtfc2NSeGNuTEFxSHVjdnZZWXdlQzJJWko4Z3RNRjFxX3ZCYldYMk9DbzBXTzh3?oc=5",
+      "source_name": "CNN",
       "event_type": "diplomatic",
-      "actor": "iran",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
       "confidence": 0.65
     },
@@ -156,21 +261,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "59e4bc88fde6c455",
-      "published_at": "2026-07-01T22:02:00+00:00",
-      "title": "Live updates: Qatar says indirect US-Iran talks have made \u2018positive progress\u2019 - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9qelNxQjctTExXbXlXY21BeXFIbFhnUXJlQlRid2hXeUJEMXdJTXdZU1Z1ZkljanhEYTkxanJjVUtfc2NSeGNuTEFxSHVjdnZZWXdlQzJJWko4Z3RNRjFxX3ZCYldYMk9DbzBXTzh3?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
     },
     {
       "id": "83ac6b20313c9e6b",
@@ -218,21 +308,6 @@
       "confidence": 0.7
     },
     {
-      "id": "c82f7d1c3701c8c1",
-      "published_at": "2026-07-01T20:31:23+00:00",
-      "title": "Iran's Araghchi threatens Israel if US fails to 'muzzle its pets in Tel Aviv' - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EaDRJT2JCZnh6THJrSl9yNE9IWWtXc1NVaGZmTGRsSDhfUERDRWEzTzhWZzhYeW9raHBvS29BMmNydm45bDM0b0JYZHZZQnBvZkFOWU94RzZ2Q3R1V2REbzlBUzRlLVBLS2c?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "da5210f91671bff5",
       "published_at": "2026-07-01T20:14:34+00:00",
       "title": "JD Vance Defends Iran War in Speech to Military Members - The New York Times",
@@ -263,26 +338,26 @@
       "confidence": 0.55
     },
     {
-      "id": "c76715eafd4351d9",
-      "published_at": "2026-07-01T19:24:42+00:00",
-      "title": "The AP reconstructs a U.S. strike that killed over 100 Iranian children - NBC4 Washington",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbndSeHZlYUJ0LU9kNUd6dzdCUTJ1LVI2RVVNVVFZNHJBVFc4VTFpdmtRVldOTlFjSXdUdl9DdGNvUXBFR0FOdFFlTE9NZFM4UjNZcVJQenhYUGpwZGUyMHhXbnRUYjlPdnNXSHN1c1RZTDlxSkVkMWpVekV2UVZlYk80U3ZJdjZZX1BNRnlTWnB5Z0pFanZlT1Zmb3JnbDN1U194Q0ZVZFdDZ1ppbmVvMV9HWEhUejDSAb8BQVVfeXFMTW9lSUt3TEV5dk1TcUlRQjdncUdtRTV2Z2FUR2NvcHE0QVVYZ0FVY3NWeHZELU5HVTlGdlA5d0gzMWVhdzdoeUxQT2VpSnRLZF92S0h4blkySml1cVFPbGxCTFF0TDhUZG5iSW5iUzlZWHYtZENqNllocF85ZDg3eXRfU21GaDk5QTIyQy1QWlMzb0dLWXppbkFSX080em1keVZfbkptRjE4emdNUU5Ud1JqVVB5RzFyeXQ1cW0yX3c?oc=5",
-      "source_name": "NBC4 Washington",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "id": "f6400d8690800597",
+      "published_at": "2026-07-01T19:26:53+00:00",
+      "title": "Trump says US getting along well with Iran as Doha technical talks end - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBKZTFlNi0teUxIVzRDV0p6UHN1QnJIVGdQTHZHd0N0Z0pISEpqVW1vcDdicEJPQXFTYW1pMkFldEQ2VjliTXpueml1ZEZmWWFlaFE?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
       "points": {
-        "usa": 3,
-        "iran": 0
+        "usa": 0,
+        "iran": 1
       },
-      "confidence": 0.8
+      "confidence": 0.7
     },
     {
-      "id": "4f16c29121f40640",
-      "published_at": "2026-07-01T18:11:00+00:00",
-      "title": "\u2018It\u2019s fair to ask whether it was worth it\u2019: The Iran war has cost Americans $1,000 per household\u2014and that\u2019s a conservative estimate, Mark Zandi says - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOa3JnUm94WkV2dXVZVk1QRWFPczZEUC1IemFvLUJZbUdJeU02RlFoVDRIVi1Ua2hmclR5bUswZVdOYkdJVG5ncVJGbmY4OWtlamR6LTBHVTdUaFNzazdHZzV5ejdXX01QYW1rdmozZ1JBalZWQUVXeWEyR1VOSFlJQlVsVWV0MDFf?oc=5",
-      "source_name": "Fortune",
+      "id": "9eeb4719e7b54969",
+      "published_at": "2026-07-01T19:00:00+00:00",
+      "title": "Trump\u2019s Groundhog Day: Endless Cold War With Iran - The American Prospect",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMDZPV0RSeFlTTFI4LVlmRG5aN1VNb1RpUXNxZWhaRV9kYlN0bGNBcFFhVEVpMnN3VGxrYnQ1VFBGMzVlNVF5TlowTlMyb1JoUVZBOWJ4ZHNGc2FGUS11YldJVFdLNHpWcTRidHQ3d3M0bEZXaWJwbE1jdlZ5ZllURjBnUVpLdWM?oc=5",
+      "source_name": "The American Prospect",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -313,81 +388,6 @@
       "title": "US reportedly mulls pulling troops from Saudi Arabia as ties sour over Iran war - The Times of Israel",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdEdTdW8zUzEzdEFpYWpLNlVudUlsLUdmRUVNWjJULUJzZVRyemUwdTlpZERXR082UThZa3o5Y0lPNnJNNHdZbjR6bVJfR2dBZENVenhGUnV4T1JtVW84Q0x5MWMxZndha1V3TFNxdnRBRnk1UkVfRUlKdTBtM0g0bkFfd2xzR1lrUjVkcmFpYXJqZUZ3NEg4YTRsRG5YS3VrNmVaaFYyR2ZuRHN6Vldr0gG0AUFVX3lxTE9uUkNTYmg2ZzYyY3ozYm1HRmNTMW5HUTQwMHlxaTR4X3JXdlFGN1VQeks3Wi1ZWGoxaXFxQ2gwQXQ3NFB6QWpyaWNqc1U5TUZVT21tTWRQM1VBbEIxaWFGNjlEaHNfN0tLd0YzcGVCRkV2VmFJWDNnZW9xTlE4bnhxbjVoSjVTeExnZG5FR2pmSzVud1Z5QWRfTFFPNE94NUE2SEhTREhxLWJldTdOdXNTTmJMOQ?oc=5",
       "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e6121f13c8b97ce8",
-      "published_at": "2026-07-01T17:07:41+00:00",
-      "title": "The Iran talks expose the collapse of US diplomacy - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQd0diQldsTFoxeUlTRDctbmVoRG9SNkRPZWVza3VQLXFfNE1hb0pURE85THVodXJoNkhJbEQ1aHBwa3RRR19SYktwamxxRWpCTnh3RnFpYmhOX2FldmRrQTBYWGZSVHhFR1FQQ3Fhbi1acENOMERsR1RtSk9HWXB6R2YzWEVTcHZHWVlHUW5YZVNpNHVYajVJN3B30gGfAUFVX3lxTFBIXzBzLUFRZUo5N2pkbHpObzdQcnZDVGlQa0stMWk1WktTbDhnN0F4MzBCR3hZSGY4aXJPSmVCWjZLcllfa0ttYUZMRHMwS1JPMGFXQ2twYjJNeDAxY2RVM20xUGN3Uk9BS2lTckRENUdMNWs4dG5OWGJ4R1Z6TGhpbUdhZXUxcWVWVTJRellZZWlsUmFZWjhyaXNOdmhfcw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7eec6b5c567e8cc8",
-      "published_at": "2026-07-01T17:05:00+00:00",
-      "title": "U.S. and Iran to Meet with Mediators in Qatar - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1TQXhuNFBOVVpuNXZPeWxZNWZWblBQNW9ydGZxV29oU3VUa1FjbHI1UGdNWUQ3V2V4MFUzWmhVZDRGMFRHMS02clpNVFNBM1VsbkEwcGF5Y2FINTlEQWl3TEh6SE8wTklNU3BVWjFDcGNhYk12NEdZSWJPc3A?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "6697fabe69477820",
-      "published_at": "2026-07-01T15:12:57+00:00",
-      "title": "US said weighing pulling troops from Saudi Arabia amid major tensions with Riyadh over Iran war - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdVpXU0FIUWNHd1NwVFZjWHljTEc0aU92aWZCY0tONE9iZU91eWtjTGhfcVdVZHgxZFFPMlhSVVZKZzRyQzBqbEloSU5maHJzUldqUTlNX1FkMGhKSkM1NXd1aTUyTXRqV1JFT25fdnN4cGdKVFJ6MERXb0dKV2VfWnowc3RjMUlUMzZNYmtOcVdSZVByX21lZEljNGxSa1ppMkZ4UUhUbkNRYzBIY250ck5tSXRzdGRNZERCalhCTkl1NjhVYVZVQnVyb3gyN0FvdGRFNHo0TVI?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "dca23407fe62edae",
-      "published_at": "2026-07-01T15:10:26+00:00",
-      "title": "\u2018Will not leave\u2019: Is Israel killing the US-Iran MoU by staying in Lebanon? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMG9ibXJWb3YxRUtPMkhHMl9JQTZMcmktX3RWZ1o3eG5xdm9FS01GZmVuc3phbE11UkNDek1SOHhPSkJYazJSakh4MVZsSm9aOC1JSVZweWZwa1ZHNU9rU2tuTFp1MVVibFhDMGtYMGFiRDdYZUF0djlDaXVaazNQUHN4SUNfN1B6M2xHVjhmRU5tUnBJTDdRZlpsWFVsdzlWX0U0OFZqa21xU25qb21R0gG0AUFVX3lxTE96d3NjMklQcXdpQy1ISHRUaDFSYmNlYTU5S2N1Smx4cm9zT0txVkVnSjJMTUZHbXJfb2YzWW4zYXg1cXdrdGhwVlg2ZXlxWkNUWDRpakpmUS13aTN1QkZ5ODFTdXd2cnRWM0VtYjZnMUotSFdMWDJoRjV2TXVmOHlDZEJMbjljRWRHMlhyVEJlU0t6Y0xOcTF0eDlnaHotalNlUlVxSGY3SnZHR0hKOEtpdmdHMw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d150c8384d487bb8",
-      "published_at": "2026-07-01T14:25:36+00:00",
-      "title": "How the Iran War Ignited a Clash Between Trump and the Saudi Crown Prince - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWG1aYlUyeWtjcHRnNzJpcXpTWW9HdEpNVXQ5VnBMZDlPVnpJNnozTEhqVXRHa0h3cVpfWDBsdFZqLTNlTlhXY2VPUkM3Umh0X2FIQ1dPX0JiY2NXb0Zua2NzS0pzUU52b3JmSmluSEROZzBjZlAwR1h6SXBqYXdWOG1XV0tVQmRG?oc=5",
-      "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
