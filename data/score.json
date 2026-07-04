@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-07-03T22:17:24.272342+00:00",
+  "generated_at": "2026-07-04T04:04:53.772026+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 97,
   "totals": {
-    "usa": 57,
+    "usa": 53,
     "iran": 24,
-    "lead": 33,
+    "lead": 29,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 39,
+    "usa": 32,
     "iran": 24,
-    "delta": 15
+    "delta": 8
   },
   "confidence": {
     "score": 68.6,
@@ -20,16 +20,11 @@
   },
   "event_types": {
     "other": 39,
-    "attack": 46,
     "diplomatic": 10,
-    "material_loss": 2
+    "attack": 47,
+    "material_loss": 1
   },
   "history": [
-    {
-      "date": "2026-06-20",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-06-21",
       "usa": 0,
@@ -83,7 +78,7 @@
     {
       "date": "2026-07-01",
       "usa": 0,
-      "iran": 1
+      "iran": 3
     },
     {
       "date": "2026-07-02",
@@ -92,14 +87,19 @@
     },
     {
       "date": "2026-07-03",
-      "usa": 6,
-      "iran": 3
+      "usa": 1,
+      "iran": 1
+    },
+    {
+      "date": "2026-07-04",
+      "usa": 1,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "489967837db88889",
-      "published_at": "2026-07-03T21:12:46+00:00",
+      "id": "90be008da1b4586e",
+      "published_at": "2026-07-04T03:12:46+00:00",
       "title": "Iran war live: Tehran begins mourning for Khamenei and claims funeral will draw 20m - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQU0p2RkJiVWhQWGJJbjNwQXE2RWtPUDZFazQ4ZHM2ZmZleURxdzJoMUo4ckNPcUVQMWMtWEtoTGxRRmhXeFlFZjBUWkVjV1Z2Nm9OVkhvM3FzX3V2bWZLXzV5bUdJWjVRNTVYVnZuN1JLYjBCQnJXZ29kVWhYaG9OM1dhck5JUExBSXNaVGRUaGJHb3VGTE45RWRYNUk1SFVxd0Z2SHkyRFBwY2s5dUgzZkdyemF5Wkx4aXBlRDdDREY?oc=5",
       "source_name": "The Independent",
@@ -113,9 +113,39 @@
       "confidence": 0.55
     },
     {
-      "id": "9c79243d7b452ad9",
-      "published_at": "2026-07-03T20:55:45+00:00",
-      "title": "Iran war live: Day one of Khamenei funeral concluding, Israel bombs Lebanon - Al Jazeera",
+      "id": "52ce088b930b9397",
+      "published_at": "2026-07-04T02:20:00+00:00",
+      "title": "U.S.-Iran Latest: Slain supreme leader's coffin on display as Iran gears up for dayslong funeral, with peace talks paused - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaVMtX0gyODkzTzVJU0FSWjhLZkpmNUpUbldiN1VlQm5LR3ZveGdxRDVNWG5IWHh0dWd4ekptdUEwZE1yRDlsME1rV0R1dGZKYy11TGR6cTdsbEpKbjE5d0x4STQ5dzdzelpRQmZGNk8yeGtPZ1pERHVENmhjLThBdHNBZGhQamJ3WkZGQUVmUURkZ2NoMmVZ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "f0db13730632fb7e",
+      "published_at": "2026-07-04T02:00:40+00:00",
+      "title": "The One That Came Out on Top: How Iran Won the Conflict - Modern Diplomacy",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSm54RzM1a3FvcDlHYTVPVjZwOXFBSHVDQkJQSloxVmYwRTBReUVrZUJhUEhqTWpaZE5yVWN4RXVQTVN5THF2T1JPOVAtUFZYWGZhUUtPUUNwTUV4RWEtd0FlcnIyTGwtNTNCUW9qMnJvemUtODRPRnBTSmJGOHd3OXNvVUx1T3ZFNkprQTYxRHExeXpSUC1Ldw?oc=5",
+      "source_name": "Modern Diplomacy",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d4bbcde5a7e9e7a4",
+      "published_at": "2026-07-03T23:51:59+00:00",
+      "title": "Iran war updates: Day one of Khamenei funeral ends, Israel bombs Lebanon - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQZ0xNSk5zYk8xX2d2LUVtRHYzMFVlNHpLcm80OXBwbnNXam12MWREWUh2Rl9MSWpPVFEwc0xqVk9VNGgxc2RWR1diSWIySk1uY3lncmpQLTV3ak1RYWFDVHZsYWdJV0VCdDVTRkpzZ2wzZXFLN2dxN1JOZkJucVdOX3hvbEQ1UmE3emhoVmxjdjNQUVlLbHBhQzhURnRQQU1NSmhZbGY4ZHp5YkMzV2dMYzVscnA2QWt10gG-AUFVX3lxTE9ZX3BIdmRlRWswdTRDVllmRW9ZTWtLRHRMeVlKc1MtYi0yX2k5VXFfVUdodFBzbHlZLUx4Q1h5NFJNSXM4ZXJkWmNxOEc1ODFrS0JpZ2t6M3hNeXNDWFV4ak9LYU5EdnB0UFZCS3JTbndyektUajdobGdocC1SOGkwdXhPTGdDQ2c1RS1CVVp2dnJybjVIc0VzclBqbng2b1V5TTVCeEh0SlNGQWpHY1hfSnRyMDZjcTl5d0RYNHc?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
@@ -128,11 +158,41 @@
       "confidence": 0.65
     },
     {
-      "id": "52fff55300982e2b",
-      "published_at": "2026-07-03T20:21:57+00:00",
-      "title": "Iran prepares for dayslong funeral for late Supreme Leader Ayatollah Ali Khamenei - PBS",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbkhxODk2d0lURHRRZlVfVC1RTFlRU1NIcFpPNnFsWFVYNmdmQ1RKVF9EY3dMclJlYjJDbVpuUFBvU2xvOG93ajFHVThxS0tFTDBDbnhINXBBTlUzVUZTaVd3S1B5Ry1CaDcwSms4WnRfTk5LelVaZjZPM0ttZ3BiMmpOSEJ0Z2RPSzV1cjdaSDdHMDZIQ25adUgySjB0VVF2OFhpQVlnWWdCeFMyWHMzbkx4Sml5VVHSAbwBQVVfeXFMT2RoclZ0N1Y5LWxxblFpRDJZS05EXzdIaWpKaDgwRTFOQTV4ZG44V3Q1UGVIbks2cTJRbHE0NTJweTZxeHV6NGRWZG0taWRETy1JeDAxY0Y2VmYyV0ZXVUp6WmF1cVpfWFZEVmstOHdBeWVBQzlIUWF1Tl80cUxHMmJISnVELXBwUFdfXy1OdEpaQkp2eVFkNzlyWjYyalpJQlJFdmhCYTNJeXREb18xTDRDMnpTbC1fZXhMUEM?oc=5",
-      "source_name": "PBS",
+      "id": "6a32dcf8e47814fd",
+      "published_at": "2026-07-03T23:36:46+00:00",
+      "title": "Iran warns US, Israel against strikes during supreme leader\u2019s funeral - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1veW9EWkd5UGlnZ2haZU5KbWY5Sy15cXc1Mktub0RzTDJ6TnhFZFFnN0JsdlZMV0QzMEZEQTY2Y0cyVFhOUHNFcTJ4NzYwOVlYT1NLYUQxcEJXSjY4NnRuWmxtTlc5ZWo3OHJrZFhOYk5td9IBd0FVX3lxTFBWaDZDNzloVk9uRGxWZ0w5X1dHamdBLU1JaDVGRXYtNkUtSVNXWWhsU2RBOWdsMmpPM3FtZl9fZGpRejVEeGdETkRlSlpVRFppaG15VEtHZXE1NDJyVUI3dmJKZDFaUVk4d0VnWU9BajhDcG5wTG9R?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "37d170236bc6bd96",
+      "published_at": "2026-07-03T20:23:00+00:00",
+      "title": "U.S. was concerned Israel might try to kill Iran negotiators, sources say - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRDdsZllLLU9uTmhlaGdhMUY3SFkzNGt0ZHVfYmFURFpCbExCWmtqbEEzbFJLUV9oVHlwNVlYOEJWZmNWdGFWeXpsX0dGT2Y5S0VDa014a3lBbjFyRzJWWkR1Sjc3SGxqT191V2ZrOUxNdGN2MUZVMVZTOHdkeE9HWnB0RlFIRWlXUWFXQkJXM0ttd0FHai1leW1CdTA0WXFLUXllMHRSUmRBUUMxUlM1cUh3?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "835656926cc8b485",
+      "published_at": "2026-07-03T20:13:43+00:00",
+      "title": "Iran tells UN that US aggression, not Iranian action, is threat to peace - Tehran Times",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcUJ6TUQwbTBvQW9yVmpWb2tDeGxxemhnYUxfMFVueXlYWFlkRldxZElTSFdTWGROaGxFWG1neVJOM003Uk1ZMkFXalBtTlNnc3JhampFaG9DOFY2cml2Vjd1MnkxalRaMEszcFR2QXFfb1FrQ0tNY1ROb09rUWtlSzkwR0QtQnVsRHZMX1Q1TnVyTTlvcGhHcHJHdzJPYXF1V044?oc=5",
+      "source_name": "Tehran Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -143,11 +203,11 @@
       "confidence": 0.55
     },
     {
-      "id": "835656926cc8b485",
-      "published_at": "2026-07-03T20:13:43+00:00",
-      "title": "Iran tells UN that US aggression, not Iranian action, is threat to peace - Tehran Times",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcUJ6TUQwbTBvQW9yVmpWb2tDeGxxemhnYUxfMFVueXlYWFlkRldxZElTSFdTWGROaGxFWG1neVJOM003Uk1ZMkFXalBtTlNnc3JhampFaG9DOFY2cml2Vjd1MnkxalRaMEszcFR2QXFfb1FrQ0tNY1ROb09rUWtlSzkwR0QtQnVsRHZMX1Q1TnVyTTlvcGhHcHJHdzJPYXF1V044?oc=5",
-      "source_name": "Tehran Times",
+      "id": "62868c98920823d4",
+      "published_at": "2026-07-03T20:07:00+00:00",
+      "title": "US-Iran War Live Updates: Trump holds phone call with Netanyahu, meeting in US on the cards soon - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQOHBoemdMa19vVEllUDcwU0xnNjZDX1F5OENsSi02SHJuMlpNSzUyOEplamhXZDkyVXdZYTZzanN5UHYxZTBVQVBqWG9XQ2Y5Q2tRbzlDQk4xLVE3R2dxZzQ5ZWJiQ0FNaUZPd2pBSHBuVTVianRKSS1kaXc3Ylk0UzFpZ3lPV1I3OVRBQ0tKYTI2eGdrOVhvQ2NFQkd0T3dnMEpoeGxJRVg5YkY4czQ5Z2kxdnl1Uk53WFBoTWd1NGthSF9oX3JGR3FIM2NNWDhrTld6NWNYY01wMDJac2RzVWF3NDJ3Skx3YmMxOVNLT0FHYVljMFRrQVdnS3c0UDd6SXM4Z05vVDJPUdIBjwJBVV95cUxOZUlBVjVQdktzWjRKZEs4UHNObkkwYmNqbHBxUmlOTzF6WGJkS0xZM21CR0syZFBiMmpCU2VwSy16OHd0QzJsYVowRG92aGhZM2Y4MGRHU2tQX3pzYVRsOWtmdlR5dXBOLWNkVFZxdzR4NXF6Q2JhbjB6dzVQR0RmY1VWYVpxald5YkxEdUV2TUZ0NmhLR2xZRy1HQkFSc2hHb2hTS25tbFh3OEJWZE85d1RoT2NfaVA2aUJ6MGpDRUdhN0EzMFh0SnRJQnk5MGRLRU5ZakR4RjdyVTl1MGVuWEpoSFZCVGNiZjFIMklWZ0lRVmxQTEdleW5TR0dhZm9Rc3lsZU5xa20wQmdQUHhV?oc=5",
+      "source_name": "The Times of India",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -173,27 +233,12 @@
       "confidence": 0.75
     },
     {
-      "id": "1662aeca06628eae",
-      "published_at": "2026-07-03T17:38:00+00:00",
-      "title": "U.S.-Iran Latest: Slain supreme leader's coffin on display as Iran gears up for dayslong funeral, with peace talks paused - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaVMtX0gyODkzTzVJU0FSWjhLZkpmNUpUbldiN1VlQm5LR3ZveGdxRDVNWG5IWHh0dWd4ekptdUEwZE1yRDlsME1rV0R1dGZKYy11TGR6cTdsbEpKbjE5d0x4STQ5dzdzelpRQmZGNk8yeGtPZ1pERHVENmhjLThBdHNBZGhQamJ3WkZGQUVmUURkZ2NoMmVZ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "6a32dcf8e47814fd",
-      "published_at": "2026-07-03T16:35:53+00:00",
-      "title": "Iran warns US, Israel against strikes during supreme leader\u2019s funeral - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1veW9EWkd5UGlnZ2haZU5KbWY5Sy15cXc1Mktub0RzTDJ6TnhFZFFnN0JsdlZMV0QzMEZEQTY2Y0cyVFhOUHNFcTJ4NzYwOVlYT1NLYUQxcEJXSjY4NnRuWmxtTlc5ZWo3OHJrZFhOYk5td9IBd0FVX3lxTFBWaDZDNzloVk9uRGxWZ0w5X1dHamdBLU1JaDVGRXYtNkUtSVNXWWhsU2RBOWdsMmpPM3FtZl9fZGpRejVEeGdETkRlSlpVRFppaG15VEtHZXE1NDJyVUI3dmJKZDFaUVk4d0VnWU9BajhDcG5wTG9R?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
+      "id": "87b96c318e5486af",
+      "published_at": "2026-07-03T17:44:38+00:00",
+      "title": "As Iran and the U.S. talk, Israel chooses eternal war - +972 Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NYThqUTNWZVlvNGFHSnUySjVXYUZ6d21tQnltNnRDUGpJZXJRVUpkNzBybHBpM1NRMVBqSWQ0aFRVTXFWd2VhcDNHNEVmRjJvOERCMWRnVENSWGFKM3dZUlVWNU9ldG8?oc=5",
+      "source_name": "+972 Magazine",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -229,36 +274,6 @@
       "points": {
         "usa": 1,
         "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a97e0c22b52568e0",
-      "published_at": "2026-07-03T15:20:00+00:00",
-      "title": "US-Iran War Losses Still Trail the 1979 Oil Shock in Total Economic Impact - Modern Diplomacy",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNDBXandRbGpzQlRIVWZ5LUZJN1U5YXk0Y2R4R3NEUTNQVXctcVphYXpRNlM4SWhMSFdfcHFvZnhuc3RwRmhzS3FDWEJIZ3dYam5yaW5Pd09aUWpFb3dHNW5ucTltWU4yeDlRdk5ZSUZlUzU4ek0wY1NuWnRocjh5QkNHLVNqbDRDQzlwOUpjR0hwR0RXVTJxYV83aFV5ZnBkaHI0VEQ0UlNMZHoxZ2tFZ0N6OA?oc=5",
-      "source_name": "Modern Diplomacy",
-      "event_type": "material_loss",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 4,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0866e6c99be5e6ce",
-      "published_at": "2026-07-03T14:41:01+00:00",
-      "title": "EA on International Outlets: \"Limbo\" in Talks to End US War on Iran - EA WorldView",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5Sc3VPX1hFZm9OR1BCMjVsNnhoVkNfd09GaENybU91a196MzdiUFA4cklTVDlucTZGMVBMQmNtZUQ5MXNfQ29Ja1FYbXdGVjhpMGZ6WEl4eDNvZVRDUUZxR0lyZVdKQQ?oc=5",
-      "source_name": "EA WorldView",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
       },
       "confidence": 0.65
     },
@@ -338,36 +353,6 @@
       "confidence": 0.55
     },
     {
-      "id": "b0c65228ed64e0d9",
-      "published_at": "2026-07-03T11:28:58+00:00",
-      "title": "Timothy Snyder, historian: 'Trump's war against Iran shows that evil and folly can march hand in hand' - Le Monde.fr",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPd2gtRXNjd1VpOGNJT2tOT2piQzRUS0xjRnFWX2hUbngxOFNuLXdyUzRjZ3pfOXBNQlZHd0RWNUtSMkdUTkxSRmtmbEtZS2l2b1c4MW5SUUpoV2JId0Q4eTRLQTh4TlM1X0Z6NlZoZHJybzZZVTQyTUNlOVpha2VkZks0RDZueUV4U0RSVnRCeFlFckI4a090WHBBZlVWbGVZQmhKcGNLQy1RSXlkX3UzRmpjUDlvNWRycGV0bkdDdWlXSlhMQUZDSkRQeVFBLTVxSnNIWHNuTXdqelhMejdvajhRdkR3TnBYT2JxenNXbTlPNWRXeHc2NmxZaw?oc=5",
-      "source_name": "Le Monde.fr",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "90d0ea8ff3a964e8",
-      "published_at": "2026-07-03T09:00:00+00:00",
-      "title": "How a fertilizer shortage caused by the Iran war could affect U.S. food prices - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOSVpwUzVtT0FFZDQ4ekV6aHdYVUpocWJLbHg5Z19EVV92WkF4Yi1zMmRhOUhnTTVKaGJZV1Z5c2dFaW1oVEEyem9BcERXVXBzNEZ3U3BDMFVXazdhdTFHa240cGJ3MEVoUlBfaWlGZU5mWjFpTlg0dkJjVkJSVGhyQ1Jn?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "aa60dcd9c12aa35d",
       "published_at": "2026-07-03T05:30:00+00:00",
       "title": "Iranian IRGC Chief Makes First Public Appearance Since War Began - Radio Free Europe/Radio Liberty",
@@ -383,17 +368,32 @@
       "confidence": 0.6
     },
     {
-      "id": "36281b61ac724b5d",
-      "published_at": "2026-07-03T05:18:46+00:00",
-      "title": "US, Iran talks conclude in Doha, focused on Strait of Hormuz - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNR2I3cUEydmhlWVB5bmFRM1JuTXZVRHdDVFV6MTFjWHc0V3NFeDBCNFR0ZEJ0U2NjR213NWJwYlQwb0pNQjZmbU1tdlJjRlF2ZUZKZjBBRmpteTM1SUthZV9ESXZpaVRvSVhUaUYxb1lFenoxLUU2MklQd0I1OC1XR1NGSVo4b29CdVZ5ZzQ0QXp4MFdlMnoyRS1Rak0tTVNvYVU1RVhtb29hdENLeldfakJsMHNNaWNkQ0Uw?oc=5",
-      "source_name": "Reuters",
+      "id": "43379c01cb6b7809",
+      "published_at": "2026-07-03T04:49:00+00:00",
+      "title": "July 2, 2026 \u2014 Iran issues fresh warning on Hormuz, Qatar talks make \u2018positive progress\u2019 - CNN",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJdzRnRHV6U1RFbENBREJ0cGh2Tm41dDBIRkh2U3VGb21vaXVQaVFFVnRacW1lX21lR2NsRDJucWJ0dVB2bUlOTTJUVkpuQ1MxMFhNM1NLblBCT2FrVnNLY04tWUZJTTRQZ0FEVFZESWpqZw?oc=5",
+      "source_name": "CNN",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "26c5583bebdd686d",
+      "published_at": "2026-07-03T04:43:07+00:00",
+      "title": "Iran war live: Tehran warns Trump and Israel not to attack during Khamenei\u2019s funeral - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTkFjUGxyUTBnems3cHJKRFQ1cXBOWE5qdVRTTHU4aDFsNFJTT0xMU0dhSzVUZVdFMEkyWHgxNXBDTVZPWlpiNUpVSUdYSVBoV0hLUWdUWVdiSFo0cEJkWURHcW9vaEg5TzZBQnZDdTBTRm02RWwwQTU2YnZjd1FYQXcyY1l3VThMdmpYb2FMcW4wcmtWcmVyQnc0LWdWTXBIQXBoOWpCY1RVSmI3T1ZfLWljSkgwdjUwOEFxRg?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.65
     }
