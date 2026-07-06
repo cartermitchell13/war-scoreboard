@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-06T11:06:18.345389+00:00",
+  "generated_at": "2026-07-06T15:55:49.783488+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 96,
+  "event_count_window": 97,
   "totals": {
     "usa": 54,
-    "iran": 15,
-    "lead": 39,
+    "iran": 19,
+    "lead": 35,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 9,
-    "iran": 3,
-    "delta": 6
+    "iran": 4,
+    "delta": 5
   },
   "confidence": {
-    "score": 66.7,
+    "score": 67.0,
     "label": "Medium"
   },
   "event_types": {
-    "other": 47,
-    "attack": 46,
-    "diplomatic": 2,
+    "other": 43,
+    "attack": 50,
+    "diplomatic": 3,
     "material_loss": 1
   },
   "history": [
@@ -52,18 +52,18 @@
     },
     {
       "date": "2026-06-28",
-      "usa": 3,
-      "iran": 6
+      "usa": 7,
+      "iran": 12
     },
     {
       "date": "2026-06-29",
-      "usa": 0,
-      "iran": 6
+      "usa": 1,
+      "iran": 3
     },
     {
       "date": "2026-06-30",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-07-01",
@@ -99,10 +99,130 @@
   "latest_events": [
     {
       "id": "083b4427035dadc0",
-      "published_at": "2026-07-06T10:51:12+00:00",
+      "published_at": "2026-07-06T15:21:12+00:00",
       "title": "Iran war live: Khamenei\u2019s funeral march begins as mourners threaten Trump - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeUFKLTNpZV90Uk95TkJrYUg1czRpTVFTNXRSMkdpQ3BiV0ZPODZZazZfcEUwQWVQMnQ0V001amtkeDRBd1B0UTQ5VENwYWxLeng3ZlQyYkFOdDFFWnhtQm1taU1WN2NaUlhLclYyUU5aakJQempHTDFDN0ZiRDdXSjFXejFNS3Y4UE05YVVHMmVPSW1TNERGdzV6SUZFTjQwNDRQMk85U3hsTVZWTTJLZ1EwXzVwU2dicmJTbkV0NzBPdw?oc=5",
       "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b81fc9e56e218edb",
+      "published_at": "2026-07-06T15:02:54+00:00",
+      "title": "Trump\u2019s weekend war approach to Iran might never end - Salon.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYXNIbzZhbkFMSEQtZmxsU2x6Mlh0T3JrLXh6c2lJYWk0OG5rb3pNMk92YlN2MnMtVXdQYzBLMDY4aTBQUGlyT1J2b2xwMGhHZkpJc0pZTW5UU0o0bFI2TnMwd3lycmZSVFlCVHdTaVNaRVVDTTNJQWJ0QzNMaVBfeEtTN0N0SVN1Y0o4akp3?oc=5",
+      "source_name": "Salon.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7b771de6bbd4da37",
+      "published_at": "2026-07-06T14:36:18+00:00",
+      "title": "Millions Join Funeral Procession for Iranian Supreme Leader Assassinated in U.S. Strike - Democracy Now!",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWktoMlIyb2RLaU5aSnNGblZvcnNYczU5YU0wRzZLcjFWLXI4TUxJVllkd2Rjcmw3bnZvUXdES01oVnB2SzRUWU43YzJPVGt1WkJ5Q0RiQjBuVm1pNGNNcnluRk0tQzd5N285ai1DV3QzdFRMWEc3RlF6bWpjN0dTVndrX0VWa2RNWGdjOVpkZGFTV1k3LV95Mlltd2dIX01GNElUa2ZhMUNZRHpib1lMU2tmVWdJSmJ4T18wV2VHanlPWXlHalVRX19GQmc4QQ?oc=5",
+      "source_name": "Democracy Now!",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ddf58e6dce81568c",
+      "published_at": "2026-07-06T14:26:15+00:00",
+      "title": "Israeli attack on vehicle in Lebanon kills at least four - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYTdqcUtpWldGSDhJcmVZN1c0d0l2MGpULW5tUF9DN0tockFvbkZrNFVIZmNZYy1kM1k0dDRLRW1xQ0cyendLZVB1c3RiaDV1Z2JweG4xNGhtYmItVUFqRlhGaFpjVlh6Y0tEb0Flam5yUTI5Sl82dnMtYTFSZVhlakV1dm9MOGFTWXFjUG1qZGhWc3l6OWlqb0Q1NzTSAaIBQVVfeXFMT0FqbzNSanF4aS1sV2dpMG0wNkVsOUlBZEVvWGpuOUgwcEtaTFlmRU5XZnJnZEJjSG9FMlpsdFVvSTQ1dFQ2ZWUxdlVmTV9BdkEwYjJuSlVQel9kbjJYbEowa09UWWIyazJ1OE1ZRWQ1d1BQSkRMMFQ3QmZOYXhPRnFuVUZpXzhmcE1JaU1PUHpDZG9rU3VVTHhSRjRDSXJLZ0N3?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2ee20268b13cbf5e",
+      "published_at": "2026-07-06T13:57:24+00:00",
+      "title": "Iran war live: Leader funeral draws millions; Israel attacks Gaza, Lebanon - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQQVpoTV83ckQybVhGcERsQXJRenJjd3FXdi1uclFRbGpVRkFKV2ptcVNrZE9WT0xSY2tYT01oLVNsd0ZiOEtjRVJud29jWUVpcFlxYXNHbDJSMG91OEVqTkljT2xwSHJZVjM2QUF0NGlOTXdYRGQ3bHlTaDhOY3pTajB5d2ZSem8xUlBNeXZnLTJuM1VQRTg0dXNkcFY2OWFNcElHZnlFX283ZzE5VEdXSVljdC00ZzAyRVlN0gHAAUFVX3lxTE5fOXQ0dU12MEI0bW5sNGE4T0w4SzRhTnFYMnpEaTdXQ3FSQjJackpWYzVrSzF6RUl0bGJKUW1LTVZLc01NYi1DRm15QWJXN213Y2xncDM1eUJteldrUmlBNkVmcndYUHB4cUxEMWF2aU1reTZZcjV1cDZ4cDk3SkJ6aklYRFZTa0Nhd21zV1hJb19BTXZNMmw4LUpUUmlfWnhNajZ4ci1uOC1oMzJLT0NWeWJ2emI1MGk3d192cG15bQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "57cc45696b0d76f3",
+      "published_at": "2026-07-06T13:42:17+00:00",
+      "title": "Oil prices head back to pre-Iran conflict levels: report - National Desk",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxONUctNkl6OHBqYktsUEV4WjAxWDBFVWdMcTZ5ZkZ1SlZsYjFtbWVwQnU4TFZyMTQ2WkVKU241enhNOGdPaUI0a3hGUW5jd054TWFlbU9ZaTl6d2hxVjFUblNlbFNWdTFuZG9KSDhGODVFWWdESXJ1MUhaaEYxekx4SGNrYmViQjRQa3BpSktxbGNXMlBMTTNxUDNBYURrbEozNFI5OWhXMGUzVzVSR2xDMWN2bm5NbVkxV0xKaUlucS1lZVZmbFl6blZmc29PejZoc2tBams0cVBqaVdMR0RYVmV4aTJUNUFKRkM1OXdhV1U0RGg1?oc=5",
+      "source_name": "National Desk",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1a4f84a3062d96af",
+      "published_at": "2026-07-06T13:02:20+00:00",
+      "title": "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWZSMXB6NXpuMkgtV3ZhdDlhTmFvS2gybVlDcWFqNzlJUk16QnFtUnVEMkFpY1hMcFJlNW42V2JHSGZ0Q1FpNWFycnR0YW9Xdy1lVVQ2Vm53V1liVDd2ZlRpWkdIMjQ4OW1LOWxfLWdmcUc1ck5VZlViSmdydGxtdllHUGpvckllVDZSLXpQcjlveVZNeEVQQTBiMzVVeW0wVjlLeGRCTjczd3B5NFQ2TUpMbGtBZHNHcUdNOXNtSG1uVFNLWHc?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8b05c2fde37418f4",
+      "published_at": "2026-07-06T10:56:26+00:00",
+      "title": "Huge crowd joins funeral procession for Iran\u2019s Supreme Leader Khamenei - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWTVfcDRmSHBCZDdVemk2a25lRXMyQWt4enAzRl8tLTNSUUpTMEtHUndNVUhSalZQa0F0YW85X25lLVJHUDQtdEtvNHdGYTdiU1R3cks4SHVQek9oZTV0MG13LUdiaDROS2p0aXZhQ3gxWU1JZGg5ZXBuXzdSLW1yS2FPalNsM1VYVTdlZGVQWFdqcHFZQzlfX1YxcXZwLThGajB5aVZ5bElvZ3JQVUHSAbMBQVVfeXFMTVAxazA2NF9EbkZqWk5EV09pR0tRRUdqaFhKVkwxSUc4cElOaXdGaGJ1NzhoRjNoUW5reHdROTc2R3dia29TSzd1RFV1ZFlFMXc0aEkxaVpFUmppNFVsUUZPbkNOSUw3TEZ3dGlvT083YXdvZ1R1SDhxY2JteXRFckdScVNjT2hKWmVELWxzZ1lnV0lQWkR4YWxrR1pyVUY0QVBkeHhqQUIyemFTanlhb3g1b2s?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3e6b5519a25c784d",
+      "published_at": "2026-07-06T10:39:00+00:00",
+      "title": "Trump plans billions in arms sales as NATO summit tests alliance frayed by Iran war: 'Daddy isn\u2019t going anywhere' - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNbW5PMHpSVXFwR0tWZVN0Z0hVUzVsbjZ3M0ZUbTNXR3J4dXh3ZmFGZmZYcERzdk1abGZLQjBfdVA1Zko0YWdTT2tjeV9KbFRzcTVhWnNMaFh6dXEyd1ZwTzdIRERld1Vlb0dvUFhhSURoS180ODRnMkNTb0JFREdmN2J1TTdtbTVpNk43UW0zWDdBd0lCZVU4akpheVF4cDlEOU5rUHlzb3Y2aTZSVHlJUzdkT1RvTEZVMTBLOE5zWEt2SDEweVJEaWhmdFRJQ0N2SFM2Y3RlTkJ2VS1KUzlKeFJn?oc=5",
+      "source_name": "New York Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -158,26 +278,11 @@
       "confidence": 0.55
     },
     {
-      "id": "42bf9139a7992d8a",
-      "published_at": "2026-07-06T07:55:00+00:00",
-      "title": "U.S.-Iran Latest: 12-hour funeral procession through streets of Tehran for slain supreme leader underway - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaVMtX0gyODkzTzVJU0FSWjhLZkpmNUpUbldiN1VlQm5LR3ZveGdxRDVNWG5IWHh0dWd4ekptdUEwZE1yRDlsME1rV0R1dGZKYy11TGR6cTdsbEpKbjE5d0x4STQ5dzdzelpRQmZGNk8yeGtPZ1pERHVENmhjLThBdHNBZGhQamJ3WkZGQUVmUURkZ2NoMmVZ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "1a4f84a3062d96af",
-      "published_at": "2026-07-06T07:47:54+00:00",
-      "title": "World absorbs historic Iran war oil supply loss, but depleted stocks bring risks - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPYWZSMXB6NXpuMkgtV3ZhdDlhTmFvS2gybVlDcWFqNzlJUk16QnFtUnVEMkFpY1hMcFJlNW42V2JHSGZ0Q1FpNWFycnR0YW9Xdy1lVVQ2Vm53V1liVDd2ZlRpWkdIMjQ4OW1LOWxfLWdmcUc1ck5VZlViSmdydGxtdllHUGpvckllVDZSLXpQcjlveVZNeEVQQTBiMzVVeW0wVjlLeGRCTjczd3B5NFQ2TUpMbGtBZHNHcUdNOXNtSG1uVFNLWHc?oc=5",
-      "source_name": "Reuters",
+      "id": "ce25173098181a96",
+      "published_at": "2026-07-06T07:30:00+00:00",
+      "title": "Former Iranian President Ahmadinejad Spotted At Khamenei Funeral Procession - Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWnhyaS1tS3NVV19VeVRlS1RUeUhFblVCTkRCWmg2Z2YwTW1uR051ZFctc3F2eEcyN29hbkJkLUY3THpPVzVaYVRlcTRybGlrTGVsX3ZvTFJyQmRELVNHckg3Nk9uOUw3V2RyN2lZY0dIMW1jLWVQSUVTdXBTZGpuVE55cDBQcG01?oc=5",
+      "source_name": "Radio Free Europe/Radio Liberty",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -186,21 +291,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "4673b1bc2a8ebb18",
-      "published_at": "2026-07-06T06:53:53+00:00",
-      "title": "Live Updates: War returns to Iran with Israel, US strikes - Dawn",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
-      "source_name": "Dawn",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     },
     {
       "id": "1c19ec944fc44b2d",
@@ -218,11 +308,41 @@
       "confidence": 0.55
     },
     {
+      "id": "2e3ecdc369edbaf8",
+      "published_at": "2026-07-06T06:05:53+00:00",
+      "title": "Is the US really preparing to drop Israel? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNRl9KRTJWMU5lRW43WWJmNzVnLUJieVBRRG10Tl96cDJYeDFPQjNyZHV5bjVaNnZJQmFLRUVoaVNUSzJJTFdQcWZrOFhlcEpRYV94NlV0UkpESWZiOFJWNmo1dUdxdE5tZHpEVTR4RHpLbjZjVVZ4R3RzMnpULWMteDFwdndJXzVm0gGOAUFVX3lxTFBaa1dTWVFIeUxuSldlWk9WOWl6OThLcTU3eXN2My02bW8xVUlkUzRvRzBnNXhHZnhsRjBuZEFfSGpfMUZCUVNkbFBTdVI0YkN0T3NvbVIxOXlMQS1iRnVFRGk1eTYxcFdIYTFQWWw4ZEhtMjR4RDBhQ0RNRS1RYkpaVFR6b2k2cEFHQU1NVGc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "d83bc8c3a4da1954",
       "published_at": "2026-07-06T06:03:34+00:00",
       "title": "Limited War, Strategic Success: Bush\u2019s Gulf War Restraint and the Current Iran War - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVVltWXM5b2FPWm9VUnBpLU95OWVlT2VGZzNWYWF1aVAxX01xQjVLblR6NkRIcVB1SE9yQkgxcFJTY0loMjNRTlo1bjJnTmd2VXVhd3kxTXY3OGN1UGF0d1ltUWRkaXB2WWhRMGtmcU15ZXYzcVdET1RHWWlNcjNRNlYtbTNxT0JBd0dEZWZKelZuTUF2VmlQZ0hkRzJsbHVzdnZlUS1MTnlnTU1nNzQ0X2JiTGM5Wkc2RVpIcw?oc=5",
       "source_name": "Small Wars Journal",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "15ada81a1a19fcb6",
+      "published_at": "2026-07-06T04:58:33+00:00",
+      "title": "US Dollar Reserves, US-Iran War +1 Month - Econbrowser",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaTlzVjNEbWhEUUg0RzlMTnNsc3M2Um83WXYzVnh6dlV4Und0aFBWVE84T2lMYjFZVXFOVGcyRkNpa0tZdEVaZUFhSXhaVnJia1BfRnB0UVE2UlJKUmxqaENsX1NITzFIWUJyMWg4R1N3YWl2dG0zWVRFT0RpWnFFMzlJb2tpZw?oc=5",
+      "source_name": "Econbrowser",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -275,127 +395,7 @@
         "usa": 3,
         "iran": 0
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "62dc4e743730d900",
-      "published_at": "2026-07-05T21:38:07+00:00",
-      "title": "NATO 'blew it' during Iran conflict: National security analyst - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE11RW8xS1VZcWd5bjg5WXQ2TUp1bk9fY0NURVpHVkU2a1R3M3RaN1luR2lhVE1lU0JpeUl1dU5xVlZhNThIMGVrdjFwdzJqY3FnQXpXdEdB?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b0aef425aef86c6c",
-      "published_at": "2026-07-05T20:52:47+00:00",
-      "title": "Can Iran Keep Its Edge? - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVUVHWEljZlFFSy1kQlJ2Q0lnVUZtNEVsSEJqa213T0hHcEZCU1B5eEs0dDB3b0ttU3o2RmNEWTJGZEZCRXF2ZTFNU3l1VGd1NUtfaUd0V2dtTnlzWkF6Y3RxRHhiQzhySHhUbmhLR0ViVW5lOXRrRERXVmZKV0lrUGVMRQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1743b02894d082f3",
-      "published_at": "2026-07-05T20:33:40+00:00",
-      "title": "US to press NATO on Strait of Hormuz security as Iran vows decisive response - Dailynewsegypt",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSEUyWmhNNzV6bThQZjFRTmpQSGtOUTYyUERqMVpIUmZFTWU2Q2lXbzBQY0dVSkFKSUZPZkJKb1BSNUU4NDAzMFJmTS12MjNaOXZYMDJ4ZzdsZ3o5T01MVUlLcGkteGZoRDNQNThVWFJieFQ0b3hSS2s2Q3pzYkhGUG54SU1rTlBqdVNmSUhjLWh5dER1WVBUbjc4UGNrcGx6U0M4eDZhOFYwNFJ4cjlyc2VYSG5ibVQtSk5n?oc=5",
-      "source_name": "Dailynewsegypt",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f46d5ea60381fe74",
-      "published_at": "2026-07-05T20:23:00+00:00",
-      "title": "Retired general: U.S. has \u2018got to stop\u2019 Iran from maintaining control of Strait of Hormuz - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTm9vZTNsZmpVVW1WT0hIWDREbV95bC1mOGZKZXJaZ09tbkp4ZXlfWllBUWtoaUh0MXlFaTMwTzFvakpCTzBacEF5NHN3NU8zcjdBT2JtaWViXzZCNjBHeDd2NDk3aWFFMDZmWFBwRWRHN1NySk1nMF9QXzdsbmdqSjN5dHJTS0tnVlpRZtIBkgFBVV95cUxPcTV0OFhXejYxZ0pJeDRfRHB1WTA2V1JqRWVHQmdIeW9PbE1HTkRvcVJxOS1BNFk1SWx5VmY3T2JRNWEwcHE2akxvbEVLUWpENVloVGhfNHBINVpZd2MyQjdSd0d4UGJFbHAtdU5LeGFialhzVzFOdDR0eVM3TUZYVk4wZ1c5R0w5bUM2aTlMZGdxQQ?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "287c89fa7c67dfde",
-      "published_at": "2026-07-05T17:54:47+00:00",
-      "title": "Watch: Emotion and politics merge in Tehran at funeral of former supreme leader - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBxdUJySFB5RExTUEs5UDl3MWlKdTY2UWJaZ3NhbFZ2eXpMejh0M1VpclJ5Nm13T0FVUW5SeFVBWDN5cS10TXZPM3hBNkxQeFZpZjlQQXdmYw?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "587cffb01baa7993",
-      "published_at": "2026-07-05T17:00:00+00:00",
-      "title": "How Trump can win back allies and rejuvenate US diplomacy on Iran - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODJWeDM0V0lwMkJNYmZxZG5zeFREblJmaE9nQnhRcEx6Q3FLWHV0ZGNiVTV6U3B2X2lOME0wQ2p1WlRmQ2ZFYWp6OVh1LTFDZHBwZHBiZ2t3eWdHUHN1SzFuOGNSZjlCUUdoRnJDZGhMeXVMWF9wU1FSS0V1NmRQdXN4bjVycF9XbGlJ0gGQAUFVX3lxTE13N2tucU9PYlRGQ3p4bmxCejNQd2ZVX0xoZmdMcmRCMVVxOWp0T3l0amVrNFlQeXRpY3NQX0VqV2ktOE9XZFRwbm1NZkUyTHdNa3l4WjFQTWRHUTM3VGFkWll3WEk5akdWSjlLejdaaG5ZOUxUajhKQnNYQk1XN0RUVm1qTVhvZUp5UTZucVVVMQ?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "759df09ea064c976",
-      "published_at": "2026-07-05T16:41:09+00:00",
-      "title": "Reconstructing Iran\u2019s Nuclear Baseline - Lawfare",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbGw0MHgtNjNQWTA5V05pUVA5R1dQYWl4akROSW5BQVdRT0FpSDA4ems5SUNScVNkbUhTTzFreFV3WU50WnZ4Sy1YUFVXbFRMTXlmcXRCNHNUVkV3V1c2N3ppN3RNRzl2UUFoMVNUS21jbndETUFzVy1EQkdVaXNYOA?oc=5",
-      "source_name": "Lawfare",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "297fa6e729d75289",
-      "published_at": "2026-07-05T16:37:13+00:00",
-      "title": "Khamenei's Funeral Is Meant to Project Strength. But Iran's New Leader Has Yet to Appear - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUFFmRDlkR2dEYnE0Q1NWX2xzTmk4NHEtbjBuVm5OV3pRQUtfbXc1aWRhdURKWHA2ZWdoMUpaSjdqOHlLNU0tcWZzbHNQekR6Q2gxSnVqZk9Ha3NVNEcxeWtZNlJxQlp5NUhLRUE3NUJNeEIxVEJoamU1X3ZRZ1lCLTU3R2pnQXU3Wm1wSDdWN0N6TTFEOFYwZU85c0dfSW1mNU4yaUxteFQ4UjBVNTVtc3RfS1lFWW5oVl9sTDlhd3IwUQ?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.7
     }
   ]
 }
