@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-07T15:18:06.098508+00:00",
+  "generated_at": "2026-07-07T20:17:12.181356+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 90,
+  "event_count_window": 92,
   "totals": {
-    "usa": 51,
-    "iran": 12,
-    "lead": 39,
+    "usa": 49,
+    "iran": 9,
+    "lead": 40,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 10,
+    "usa": 11,
     "iran": 5,
-    "delta": 5
+    "delta": 6
   },
   "confidence": {
-    "score": 67.6,
+    "score": 67.2,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 44,
-    "diplomatic": 5,
-    "other": 40,
+    "attack": 50,
+    "other": 35,
+    "diplomatic": 6,
     "material_loss": 1
   },
   "history": [
@@ -42,13 +42,13 @@
     },
     {
       "date": "2026-06-27",
-      "usa": 19,
+      "usa": 16,
       "iran": 0
     },
     {
       "date": "2026-06-28",
       "usa": 4,
-      "iran": 6
+      "iran": 3
     },
     {
       "date": "2026-06-29",
@@ -92,17 +92,77 @@
     },
     {
       "date": "2026-07-07",
-      "usa": 1,
+      "usa": 2,
       "iran": 5
     }
   ],
   "latest_events": [
     {
-      "id": "b46e7a54c9949b5f",
-      "published_at": "2026-07-07T15:09:00+00:00",
-      "title": "Three tankers hit in latest attacks in the Strait of Hormuz, British military says - AP News",
+      "id": "f8d2d03bae964a72",
+      "published_at": "2026-07-07T20:05:00+00:00",
+      "title": "US revokes Iran oil sanctions waiver after Strait of Hormuz strikes - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbHItUHRtZWdIclhmSWY0ZlJqQklxcmlkaEszMW9NOFBqeTVvZ0NremNDd1hCV0V6T3VFS0pPQ3ZFU1dTYV9fYTVlS3RCYWMzSEdEWDVVak9mSnQyZVl2VUx1V0J3TDlHempMb09FLVhzbDVGb0k5VHdDZHEzZ1JyMkd6OS1Vd2RsbzR5Wlg1bi1nRW1FbEpIWGtrbFFjdw?oc=5",
+      "source_name": "The Hill",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fc5b5b4e33291609",
+      "published_at": "2026-07-07T19:38:00+00:00",
+      "title": "Three tankers hit in the Strait of Hormuz as US revokes license authorizing sale of Iranian oil - AP News",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2tfRFIyMHM3Y3R0UHRSQ0xwNEdNX2pjVUV5QkFGZk4yLUpVeU9RN0RHLXpUYU5UMzVIZkNwOWV4Q2dKTnJYZVl6UzZadkxHYUVYNmUzYWxoUEo1S2pPRUkxWmFsMHhadUYyams3ME5TOTlVSHhuTmgtRVA4NGo1NlJIOF9ZOUU2dGc?oc=5",
       "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "545bbf9aa4d959f0",
+      "published_at": "2026-07-07T19:27:35+00:00",
+      "title": "Trump admin reimposes oil sanctions after Iran strikes ships near Strait of Hormuz - CNN",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVUlvNklGWThNTUpUYVFBNVlTOE9fVXppWXMyakFFOUh4MjAyaTNsa21HaTQ5VUhvRGF3YXQyZHRBbVhESDltS1l2WlVPTjNGdVBpQmFyS0dNUlVLYU12bHkzT0xpRmxNczdzNkNEOTNBbHpaY0dGOUJ3ZnZWeEFTNXdKdWthUHcyNE1ORXlB?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f9d6e865ccf75673",
+      "published_at": "2026-07-07T19:25:24+00:00",
+      "title": "Trump criticises NATO allies over Iran conflict support - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaW9yeVo0TmItdkFMemVMWlgyQ296dlExcDMyM0dDMFktYUd6VUhuNThtbl85aGpQRUpuMktvOWF1c1UwWTRDUWxjRjRGcjJUbzEzT3pqVXR0UENIMlY5TUhFSlQ2dnptcHpQQ2RORXp1TzQtU3JxVVdMNzRBODRIcFpkeHlhY29JemRBN1dWTll2NUtWV1hBZmJZWWJ3RGVWTU1EYzdIUVTSAa4BQVVfeXFMUFF2MERKU3RueUhiMGN1SUdDYmo1MUQ1TlU4R1A4ZjdlRG8xQmU4U0l6SDlhN1ZXSEtLMjBaTWFqU3hUN3dBbDNMd0dlUHg0MkRGZUxWY2EzcnZEN3A3NjhiQjdfUVhCV3JBSFJhWjNiRS1nTzUzNkp6Z1dVWkJ1TVE0RmV2MEdKUGZuNENnLU9FOF9iNTh6Z21jVl9YbkVsbk5jbnQ4U1UxMWFkTnd3?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7a01444ccc044839",
+      "published_at": "2026-07-07T19:24:04+00:00",
+      "title": "US revokes Iran oil waiver after Hormuz attacks - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdDVTSllUT0RkLWpEUnlsVTBkdlBTVHBiOWtGSXFVS3lBOUVLV3UtelNhWVNfN09wQzByZzBxd1BaeDRUMDlzb0ZOdzJPOVBlY1l1TDBJSWRpZ0g1cWJoTUpUOVlXRXFuSkR6LUNKUVpqNkZkTjVVMW0yVlI2aS1lamNlVmRpUkdhYVE3Z0FHbDNEeG1OS1JZ?oc=5",
+      "source_name": "Al-Monitor",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -114,7 +174,7 @@
     },
     {
       "id": "50bcbb4b80fe6d15",
-      "published_at": "2026-07-07T14:36:00+00:00",
+      "published_at": "2026-07-07T19:13:00+00:00",
       "title": "U.S.-Iran Updates: Tankers hit in Strait of Hormuz as Tehran threatens to ditch talks over Trump's threats - CBS News",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU0xMeTgxMmpSdFlramJmMVhMaVJieVh2Q2N4YmJkMm1MSk03QVcteENWQjFjblJhcEJkNTJ3V0JYLUg2YlUzNzRmbFFEZVlYZHFTTTFDZ3pKZUhsaHgtellmUFpESm03WWZIcEJSUnNkUUhiRlp2bGcyempZR1U2U0VqTQ?oc=5",
       "source_name": "CBS News",
@@ -125,209 +185,14 @@
         "usa": 1,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.85
     },
     {
-      "id": "3a415ce0f49dcbbb",
-      "published_at": "2026-07-07T14:12:13+00:00",
-      "title": "'We don't need anybody's help': Trump renews Nato criticism - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5QaXNhZFIwenJhbkJnS0x6bE1qQURLVVZrbFNqYk9uazg2UDRmTlpjMk82RHBlS2M3VkFBMDQ5aHBpdERkWWdpbjN0eldYVzJoM05QMEdEQQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "92e5fa299a396cc6",
-      "published_at": "2026-07-07T13:28:26+00:00",
-      "title": "Iran war latest: Negotiations on final deal will not commence if US threats continue, says Iran - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1IbXhpbGtTa01XUGxjTktZODZxWEZqenk2NmkyWkxNR1o2cDNnSGNUaktwcE54Sm5LZ2lDaEJJZVpEOUdnaWVlZGtxN1NjU1c4SHc5b1N0Q2p0SnRsWmRTWGtxclZnSGxvTGE5TGpTdV9nR1hCam9YQXNiTjgzeW8?oc=5",
-      "source_name": "thenationalnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b41d46ef5f1acd67",
-      "published_at": "2026-07-07T13:19:04+00:00",
-      "title": "What\u2019s the latest in the US-Iran conflict? - Next Century Foundation",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNQjBFSi04Zm1fSU1nMjY3bmJvX3BuNzdmcHplYVYzb05qT01ydjFfajhkVXM1b21wdTZHQ3ZGU1pkbWw4R0FWSVNMYkJpNnNxdEE0NURBemozMEdEc0NVX0YwSkhDNkdEcWhmUENzcDMwUS1pS0JZVEtXN0xJU29HbHBybDVJZw?oc=5",
-      "source_name": "Next Century Foundation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "41985ebbf5038d88",
-      "published_at": "2026-07-07T13:00:00+00:00",
-      "title": "Containment, Resistance, and the MOU: The US\u2013Iran Negotiations in Historical Context - Quincy Institute for Responsible Statecraft",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3ZtVUdnRW9CaUxLT2otbzBfbk5oUXBjQlRrN3J2RTcxZ0hMYTFfVUlMVVM1Q0JHR2ZBb3FTSnExTnM4RU1NaEhqR0xRVTNRckxvc0FDeHFUcmxIa1BDdHRwOURtMGEtZXFxV1RYeWdndWtNNDg2S1JxYU5CazMzWUJEdE1vMkMzX21ZeThTdXBGdlJPbTNwTmZLanI5SFZVXy1lU2lOSVgxZlo3eWR1dE5STkM?oc=5",
-      "source_name": "Quincy Institute for Responsible Statecraft",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "99eba65ddb722046",
-      "published_at": "2026-07-07T12:43:00+00:00",
-      "title": "Tanker struck in Strait of Hormuz as Iran mourns Khamenei - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOcmRRSGdLWXFLY2Y5ank4dmw1S3dTTmVkTUdHS3QyOUIyVS1VRXZTQ3RVLV9ENGx4MWlFVWtCNGNaY1BEckRIaXJKZFhyV3FHUmtUMEZHbGRELVdTekhQSllVZGJKTzdGUWxGcjFfZ2xYY1ktQ19fS0JCbkU1cGhzbEFNVnNDSUJnYlJVOWI5Z2hWNFlPR0ptejJJdV9XWEnSAaQBQVVfeXFMUFc1UWZ6NFk5LU44MUFKVFB0U2otYzBoLVl4cWtOUG80NF96eWdUZXVNUVdXako2QVJRTnRCRnNLRElUb3NaS1UtMVpNR2hkbWEzbEJxdWxHQkF0MTE1NjBDZzlSVnZ2Z250UGVJTFJUUG9VRzFieGVGMHdEN2dZRFpCTHY2U2NWeEgwT0daeFNCX3M4bHZYTVdlSDhiS05NTzgxbkU?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "7c78f4d6bde1c12c",
-      "published_at": "2026-07-07T12:41:11+00:00",
-      "title": "Iran War Live Updates: 108 vessels cross Strait of Hormuz over weekend despite rising US-Iran tensions - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUjc0YjdxRUh3N0RJSThucmdMNjF1dWhMQ3VfMnR6Q0o2NWtCZzMzU2loY1M0V3RxZ2FMUDdxeFQ5RmpwUDdhWDJHR1BsbWZ3WjRORGdTNWI1Q2RPcUZWNnN2eE11NXZ3aDdUMzQ5VlRsUHRxTEozX3d4M2xkOHAtdDdmWXVVZ1JzSDQwMC1hQmJyYmdWcVNNZndLYjdldTVMOTRpSWptci04WktQTkx5Z190dHRjenQyeno5dWNKY2ZEWUJWclBWblloSEZVbjEzSy02TkM4N0o3TjRaR2FUWFBmb0FfeUZtdFh1bWxVY2pzZ1liOThzVEVUdnh6VDNNVVlTR3hrMjQ5My15S0tFdXJ5dmhaZjVIaFBB0gGgAkFVX3lxTE5HSE05LUN5akJGelZub2hiWVVteHhpbUpYWUV2WDRPZnhROXFwMWgzWFJ5UDNSSXZuTHhvM2MxOTRiX2tmaHhXc1lYSnl5VUs0NXdMaXlZMUVQU3FkeV9TOFRyY1JtZWpVdXRrQ25OU3V2WTlwTXdZTWFGQnlWMjRQbGFpbkhyRmIyZWZHOV9zOVVMS3RzNUVJM04zbDgyLXlPeG93T1pMUmpOZzJ5YXZ4ZExkRVlWR2dYOGZMVGxvZGFyNmRycURnakdydm9MOGdaQTVaM3c5SHQwNFg0MWl0U2dKcTdLUGctcUF4ZndWS3hvQ3VZZ1ZiREpGdlhPcE84UjdyZ1BNU1VyajRJWkZRUlhXSFNuUF9JQVJfRl9GMw?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "958b2345908b7013",
-      "published_at": "2026-07-07T12:27:32+00:00",
-      "title": "Forecast: Renewed US-Iran War Could Drop Global Markets by 10% and Tighten Monetary Policy - \u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EWXdzOGFKNG9CeVVSWEYxckNRTGE5RnpYSnFOZ2RESUEyYnJqejRmbllvT1NTV1B2bjNoWVB2ckxRd1FRZVg5T3pDclp4OGFQSUFHb2g5czFfNGN5Y2I2LWpBbHA1X1FIVDVr?oc=5",
-      "source_name": "\u0635\u062d\u064a\u0641\u0629 \u0645\u0627\u0644",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "48de1c4d95c529d6",
-      "published_at": "2026-07-07T10:41:00+00:00",
-      "title": "Europe faces up to prospect US may be unable to arm Nato allies - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYkY2TmlraDJWeTJjQURMcUlSZVhLd1lZXzR3Z1FHcmR2OHVvNzdhRVlITUoyXzdra3EwdVRsTzk2OXJsSjNBMkROREgzY3NpSXBkLWg0M3RBZDZGVWlWNlA2cjVMWjdXWlVzR1JZQS1vZ2JFLXZWQkNCejN5dHF5YmRhNEJpLXBaQm5tamYwaVJDUDFibmlrb0s1LXAyaHlHdUgzQjJtZGJCWmQ4Tnc?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "30eb735fb509c214",
-      "published_at": "2026-07-07T10:14:50+00:00",
-      "title": "Iran war live: No talks on a deal if threats continue, Araghchi warns Trump - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVlJJS3dEVEwzZnBjeVBmWG9Hc2xrd2VvMTNLRkh5VUdTMUU2YTNvU1J5dDV4YVRrZkVnamtndTNoV3lDcW9ENkhfQ2dXRTdCQWo0bkxqRTVvS0NTR0w3QkhneXBnQXRNQVYyaGtNWDZDYkk0NjUwTHEtbC10WGNmWUd0cmpqWlJlV3dGSzJLaHBVdW1JZUVBWjB2dlJNYzdkaUp1UmtrYldLSXVQV2hkdzB3NERvQXdhTE1pRdIBwgFBVV95cUxQSWVSZTRnTEhfX2w0QUZnbDMtcl9MTE5PWVJLTldULWNuV1pHY01zM282Wml1bTRVckhZdTFOVFlvV0ZIeEw5UnZQZnlrNWlvYjZnV3pjYWVZOGFvbjhhOFB5RUMyd0tKRjhkUGp4cHhFQVFfN2FWMzYzS3R3NllmT01rUEhycVA0aGg1X2dIdlRKQWpTanBmZm1RSnk4RWVZN19uM2x2X3dLMWVXSVZJVFZuUXBTR3VYdGY4MDRWUG5QQQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0610c7dd1caf2a45",
-      "published_at": "2026-07-07T10:00:00+00:00",
-      "title": "Contributor: Why won\u2019t Trump just tell us what the Iran war cost? - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YQXl1al9mRW40bExwTVdaYWxaQWxJdlN3V21UWjdqRlEtazJIaGE2b0tXOThqNk9Wc05QSXlldjcwT09HbTJGNmFVTnZQTFZYMG1oVEVYa1JkWTRQcDNwbTZSQVFwSzN6Um15U1JDNUpDM2dRREFFcw?oc=5",
-      "source_name": "Los Angeles Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c03c811d2269ba61",
-      "published_at": "2026-07-07T09:06:41+00:00",
-      "title": "How have the Trump tariffs and Iran war affected US Gulf agriculture prices? - Fastmarkets",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLUVvOWh6RjhheVg1d040elBla1cyRndaNHNrck5oVFFYMmtadlNJOHdnXzd4QjR6Z25icHRMSU5KTzZJYlFHRjI1MDNDSjZwbEhvc0ZRVzlQNnNrX0hZS2Njc2xLc3ZNSDZtQ0MwNHdIcmtLLUNpeVZFalRteWlaY01udXdlY1Q4SS1ZdTJ6eGlDZXltUC0xWUlkQVNSMV96ZE0yUFlzWUlOSjJTQWlpOGY0NA?oc=5",
-      "source_name": "Fastmarkets",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3f95e8920fa6d40f",
-      "published_at": "2026-07-07T08:56:01+00:00",
-      "title": "Oil is back to pre-war levels. Here's a timeline of how the market weathered a historic supply shock. - Business Insider",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPQ09PcnJJM0FvX0Vlbl9NS0dHcHVBU3ZXT1J0RW1zRV82WHJtUDBESUswekpES1ZINGtfOTF4WTZEVUdOaE0xV0xIQWdSVEFmRm1MeU5faVZ0X3hHNEdrSFY2YU4tNk5IcTZfX0drVlQ4bVFiMkZGd2QtbTZ0RVBGNmY2czlxOE9KeHMzZEI2ZW1IeXM3cUpuc1ZhTnk?oc=5",
-      "source_name": "Business Insider",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1b58c8a1a523cc5d",
-      "published_at": "2026-07-07T08:33:07+00:00",
-      "title": "After Iran war upheaval, global shipping eyes return to status quo - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYWU2amE5VDFhNmRPMWt6NzJ3NjJaYmNoYnZ4a1lDYW54TGdCUWMybXVwWkIySG9rV0I5VUsyRlZham9wT3dDLVc0LUNhQ3dEUDhhdVA1bVNEZ0RpVzl0aG00NVBjZmRsTndsSy1DUV9qb3V1eS1OdjF5cGxBczloaDF4c3pNcWx6V1ZDTmFSRk9pTFhGa3puZWpxS3pReC1kcmZqbDBzRDdXTjZB0gGyAUFVX3lxTFBxWnpiRHI3elBFOE1PT29oZ3NoUHhyNWVQYkFfWHZ3VHlLZ0pRZTYtdzJTYkhxNTRvSERPMnFETm1hLWFQS3ZEQWR1ajJULXRrLXdFRmRQRVI4c3NxWEcyTmViSnQxaFltVGxVYjlzTGI5bjA0dFBra1JuMVo5NzZyVWQzOUFVS2l3SFlEYUdOYnhuMTd1RlRnNVhBVmxEZzd1NGlZQUplOE94WXBTakVWVWc?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "06f77dedba8966c4",
-      "published_at": "2026-07-07T08:06:16+00:00",
-      "title": "Oil prices rise after report of Iranian attack on commercial ships in Strait of Hormuz - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9aQ1paTFppWWhOQ1g5RXF5WDZLZndBZWMwa2JSdWwxZlluZXd4TXdTdUZFeUs5dXhPWmFySGlsY1BIUmxaZjg2RFNTX2gzeTY3UXExN1d0QVZfclhwVEdBNUZ5UWNDTmRMVlJUQUFMMWFJWW930gF6QVVfeXFMUE9sUVFEckJOSEY2ZDJVSHJUa25VQjk1QzJCd1E1TmdQOVAzSzJDMnhxM0UxaExpM3hURE8zSGdFSmdHam9jZW9tRm44YU1salI4N0VWRW0zTWhDZXlMSDZIOVZESEgtUVkzeTlsdXEzNGtmTVc3UHY5N3c?oc=5",
-      "source_name": "CNBC",
+      "id": "a12e2a4ee6acaa9d",
+      "published_at": "2026-07-07T19:12:32+00:00",
+      "title": "Fresh Attacks in the Strait of Hormuz Raise Stakes for Peace Deal - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQSnFZSEhVYW5DVEJXTU5iZEtTMU9aeHlJbWlwTV9UdWowMnBoOTlhcmJDc2d6NnlWT2FDemtoaHRONFBnTE5kdkJEblFVZUl4MGctTm51b3BtU1pKcFJhV2w5MkZhdjJDQW9aeUlLM0laMWtZYjV4ZFZoM1pYLUZQeUdqb1c2bDdkU0gxQjdaYWxKU1J5Y2NV?oc=5",
+      "source_name": "Time Magazine",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -338,39 +203,24 @@
       "confidence": 0.65
     },
     {
-      "id": "4190b6d475fff9e2",
-      "published_at": "2026-07-07T07:48:00+00:00",
-      "title": "Iran\u2019s Revolutionary Guard Fires Missiles at Ships Near Hormuz - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVXptTnNYdkpkaHlOVGEzOXRuYnVVVDRlQW1USXZCUlhVLXJSaTVLYmh5bk9Zc0Z1UXViMDlCcnhMU2NWM095RTRjN0xTRHRsLUNodmNZNl9GVFZPUEgxcTRic0pNOE4zVlNNRXp5dndscHZIWWVMV1JZVFRrbDBkMG5KZ2NveFpfYmNlZlVRYVFwQnBURVJiNlROOA?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
+      "id": "40fdda80a509ea4b",
+      "published_at": "2026-07-07T19:09:32+00:00",
+      "title": "US revokes authorization for Iranian oil sales after Hormuz strikes - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0NnVWYXZwMXBQQXVuZEJNY1BUS014N3JEUWNUbmFHOVhsdVMzM0VwQmpLR2NxOTktSVlpeExFMmRJQ01XanVZTmpaanhmejJIQ3RpN01KaDdpRkJiY2haQzM1VUcyQUo0bWc?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.65
     },
     {
-      "id": "09d17a9e311ba0c9",
-      "published_at": "2026-07-07T07:17:23+00:00",
-      "title": "Tanker on fire in Strait of Hormuz after being hit by projectile off Oman - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY09EYjkycFVkd2xiR3o4OUFpRUpzeFg0MC1zczF2bTRlTTgxOU9oenQ1Wm96VUtRcnJsbUNKc2FscTZUTzd1aWJZZFNnU21uY196NVhCM2Q0MTJjc0FZUUFlOUlEeVVTMnlHclU5Z3lHUXczYWVVRXJZZ1JzRGl1QVBDRnRMMWFQSjcwSDllb01Xc3NrUXNzVGZBc214eE5HLTFrWNIBqgFBVV95cUxNeUxUdWZqVlg1bTR3Qk9kS3NZYWxpUTNHbFhUTUdJM0M4TEpnQTJFUXVDRlUtWl9CRUl2cnF6Uk1Ba2o0c1FTV3Fab3ZCN1RnQ2diMTAwQzZ4VEl5dWc0ZVVtaXJHdVBjTTlBMjVfRWtZMGEzQUVKUkFhTlh6alVOWHFBYnhxYkxzelFiMUNlanFCWnI1ckpJdUtFeVJLU0hpMkR5dU5NU19rQQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "da8c2f547888e140",
-      "published_at": "2026-07-07T06:38:12+00:00",
-      "title": "Qatar Condemns Iran for Ship Attack That Threatens Energy Flows in Gulf - The New York Times",
+      "id": "1796a6d2af8c8746",
+      "published_at": "2026-07-07T18:56:17+00:00",
+      "title": "Iran\u2019s Strikes on Ships in Strait of Hormuz Test Cease-Fire and Threaten Oil Flow - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVWNwbUJWWVFmZXFpRGtwblBLU1lNUG9NRGVkVGpORHRnOVVjeEN1S0Y0aHU5eDE3T3pPT3hxNVJZanYwTk9GWE8wTktFZnYwY0RPWDRuNXBsdThwTlBoQjF2NWduYkxkODV2YXlGT05STGdJYVUzNU1rek5GNnc0REh5OFdkUVFodWhEcQ?oc=5",
       "source_name": "The New York Times",
       "event_type": "attack",
@@ -383,11 +233,86 @@
       "confidence": 0.7
     },
     {
-      "id": "0b3ffd482029df4d",
-      "published_at": "2026-07-07T06:20:00+00:00",
-      "title": "Tanker set ablaze after being struck by projectile in the Strait of Hormuz as Iran mourns Khamenei - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPTjBkc0RCZF9pWE5IVDgySXpBc1ROcUpxbzhsNkY1TXQwc2F5SF9pYWhtR2QxQlR1Z1JVT2NRSkd6NjB3ZUNheVVSUXY3U2RCTDcxMVV4VkdJUDYxX3dkUlBxOS1sOU5TTzNXN0d1LVV6MVBxM3ZLNDg4RktVRFF3bEI4RU1iWFRiUjBLZnZWcGRxY09uYVRyclRRd1hIc1hVR2VCcWFrMW9zZWJ2OGFQMjB6X2p6dDNlQW02MHU0SXM?oc=5",
-      "source_name": "NBC News",
+      "id": "20cc7cf8e8b0e0a2",
+      "published_at": "2026-07-07T18:41:27+00:00",
+      "title": "Iran War Live Updates: Qatar summons Iranian envoy over LNG tanker strike in Strait of Hormuz - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUjc0YjdxRUh3N0RJSThucmdMNjF1dWhMQ3VfMnR6Q0o2NWtCZzMzU2loY1M0V3RxZ2FMUDdxeFQ5RmpwUDdhWDJHR1BsbWZ3WjRORGdTNWI1Q2RPcUZWNnN2eE11NXZ3aDdUMzQ5VlRsUHRxTEozX3d4M2xkOHAtdDdmWXVVZ1JzSDQwMC1hQmJyYmdWcVNNZndLYjdldTVMOTRpSWptci04WktQTkx5Z190dHRjenQyeno5dWNKY2ZEWUJWclBWblloSEZVbjEzSy02TkM4N0o3TjRaR2FUWFBmb0FfeUZtdFh1bWxVY2pzZ1liOThzVEVUdnh6VDNNVVlTR3hrMjQ5My15S0tFdXJ5dmhaZjVIaFBB0gGgAkFVX3lxTE5HSE05LUN5akJGelZub2hiWVVteHhpbUpYWUV2WDRPZnhROXFwMWgzWFJ5UDNSSXZuTHhvM2MxOTRiX2tmaHhXc1lYSnl5VUs0NXdMaXlZMUVQU3FkeV9TOFRyY1JtZWpVdXRrQ25OU3V2WTlwTXdZTWFGQnlWMjRQbGFpbkhyRmIyZWZHOV9zOVVMS3RzNUVJM04zbDgyLXlPeG93T1pMUmpOZzJ5YXZ4ZExkRVlWR2dYOGZMVGxvZGFyNmRycURnakdydm9MOGdaQTVaM3c5SHQwNFg0MWl0U2dKcTdLUGctcUF4ZndWS3hvQ3VZZ1ZiREpGdlhPcE84UjdyZ1BNU1VyajRJWkZRUlhXSFNuUF9JQVJfRl9GMw?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "baad8368f48cb4f6",
+      "published_at": "2026-07-07T18:25:25+00:00",
+      "title": "Exclusive: US commanders bypassed warnings about outdated intelligence ahead of strike that hit school in Iran, sources say - CNN",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUXZHZUQtZ1NselVIamtDT2lvQ1hadHprWGJyempDc1BmOHVGQV93akk5azNVeXRoczNja2Q4WGhKakJPb1FycDIybDhuck4xUFg3TFQwX29DYldDUTVwQ1VGQ1ZaSXljbmUyTlFEb1NjY0tIMUUtRlA3X29GdmJfNGEwa1M?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9b0e6e038332a9f8",
+      "published_at": "2026-07-07T18:24:45+00:00",
+      "title": "Iran attacks ships in Strait of Hormuz days after Trump gave Tehran 'a week off' for Khamenei funeral - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNWDVrZUVKczZYdURmenJBVGlxVnRXbnRtNFJESVZpclpOcVFYR2lfakk1ZnZzcXFQYnN6dVIyaXRhTWVvYWVnTUFhU0hUVkNhQXVrc1JnOEJtdHdZOEIwQzEtRXByZlBWZ2tJZnJOVWN3bHRsWkhlQUxEMXBFUjF6eVpOMFNwXzhNYWx5QUptdjBVdnQzT2FLeVotUFNiTWN5Y0xURnBkdUdSa0hseXJoWmdPMWtFdTl6UTJfdV8zRQ?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "790493101dd18616",
+      "published_at": "2026-07-07T18:24:45+00:00",
+      "title": "US claws back key concession to Iran after fresh attacks on commercial ships in Strait of Hormuz - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQc2JrNVdFR1ZYcmZnQUVmLXBZSVFWS0t2clAwcW41WXdjZDl4TGc2QnBicWlmQlNlS1BTNVdRMkxzWEpmZHFnQTFpLVJYTnhKblIxV0d3bFFmLTZCYUJfQV9vSHZzY1BLXzJUc0NJNFVXdHJFdHJMSC1yTG1mSDVYZHBURVZ3MXg2NEIyc1daWVNwMy1XMlRmQkFHT3luSnBrcHd2cVNZTkIyUWtYSnlZRmM3NjkzRU00?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f1980dee85249383",
+      "published_at": "2026-07-07T18:18:39+00:00",
+      "title": "3 tankers hit in latest attacks in the Strait of Hormuz, British military says - PBS",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYlh4d2pqRHdIMEdnS3c0NWJOMnE1T2JiQVNOSHdEcGNVLXBPT2k3ekU1WWpCTndhWGdkckRJNVdVUVRXcHlCeDdRd0x3ZHVnQ2czbGp2cHFUcnlzTTE0M1ZUTXBieDJwVnRFdEU5T3gzdFpmU0JCM0c3RTNpMWJFV0xqTGZEaWEyZGhFNUJFcG5KVlliNDg2Q2pabmcwLVhYTnI1b3hNLUJIRTltR1d2Q0VR0gG3AUFVX3lxTE1UR2FGNF93bG9qRWdWUEx0d2owQWxERkpicVJLYVpDbldkTTBnejRFQkptT1lvT0hYcF9KRWllUWVraGtRWmkzVm42MkZYbUFTanR6SmZOM0RycW01WFZYUmE4dzhOTWJQVzNDbkhjaFpUQWdIQUxPM3NwZ215cTQ0ODBQNEtadFRxajhId1o0Mklfb1NGM2lLOHRlbzFjcWlsSE40Uklqckw0S01OWnR2VVJHUGFMdw?oc=5",
+      "source_name": "PBS",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "51041a9dea54dbbd",
+      "published_at": "2026-07-07T17:01:54+00:00",
+      "title": "How China Came Out Ahead in the Iran War - orfonline.org",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPY19fa0pVOHZCUllLWFlhdzA4XzVYSzVUcmVOZklqYTZTMjY2d194SnVEbGxhTW5WbENBYy1JVTZSTU9NMllEdDBVNDlPRTVmbjVaX0VUNGRKSUJyTGpkNlpxc0w3QloxX1k5bk5ZakxvTXU4NFo0OXFFbENXQzFvVVRjS3pYdw?oc=5",
+      "source_name": "orfonline.org",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -396,6 +321,81 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "08062201ea4940e6",
+      "published_at": "2026-07-07T16:41:15+00:00",
+      "title": "Trump says NATO allies were not there for US in Iran conflict - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tS25HZnB4d3dhcDAwSUQwZklINWpRaWdlX3VDZERyOVMwbUFnVzExRW9DcUlfMVlvOWhZMElJVlIzWGhGZ05DU0xQYU1PUHRhWEQ0ZHNfT1F4VVluOV9MLUUxQzVlaUE?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "279156ff9a5af09e",
+      "published_at": "2026-07-07T16:36:55+00:00",
+      "title": "Iran war live: Two tankers \u2018struck by projectiles\u2019 in Strait of Hormuz - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPVlJJS3dEVEwzZnBjeVBmWG9Hc2xrd2VvMTNLRkh5VUdTMUU2YTNvU1J5dDV4YVRrZkVnamtndTNoV3lDcW9ENkhfQ2dXRTdCQWo0bkxqRTVvS0NTR0w3QkhneXBnQXRNQVYyaGtNWDZDYkk0NjUwTHEtbC10WGNmWUd0cmpqWlJlV3dGSzJLaHBVdW1JZUVBWjB2dlJNYzdkaUp1UmtrYldLSXVQV2hkdzB3NERvQXdhTE1pRdIBwgFBVV95cUxQSWVSZTRnTEhfX2w0QUZnbDMtcl9MTE5PWVJLTldULWNuV1pHY01zM282Wml1bTRVckhZdTFOVFlvV0ZIeEw5UnZQZnlrNWlvYjZnV3pjYWVZOGFvbjhhOFB5RUMyd0tKRjhkUGp4cHhFQVFfN2FWMzYzS3R3NllmT01rUEhycVA0aGg1X2dIdlRKQWpTanBmZm1RSnk4RWVZN19uM2x2X3dLMWVXSVZJVFZuUXBTR3VYdGY4MDRWUG5QQQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f65aa69ab47605da",
+      "published_at": "2026-07-07T16:20:21+00:00",
+      "title": "Qatar condemns Iranian attack on LNG tanker near Strait of Hormuz - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPY09EYjkycFVkd2xiR3o4OUFpRUpzeFg0MC1zczF2bTRlTTgxOU9oenQ1Wm96VUtRcnJsbUNKc2FscTZUTzd1aWJZZFNnU21uY196NVhCM2Q0MTJjc0FZUUFlOUlEeVVTMnlHclU5Z3lHUXczYWVVRXJZZ1JzRGl1QVBDRnRMMWFQSjcwSDllb01Xc3NrUXNzVGZBc214eE5HLTFrWNIBqgFBVV95cUxNeUxUdWZqVlg1bTR3Qk9kS3NZYWxpUTNHbFhUTUdJM0M4TEpnQTJFUXVDRlUtWl9CRUl2cnF6Uk1Ba2o0c1FTV3Fab3ZCN1RnQ2diMTAwQzZ4VEl5dWc0ZVVtaXJHdVBjTTlBMjVfRWtZMGEzQUVKUkFhTlh6alVOWHFBYnhxYkxzelFiMUNlanFCWnI1ckpJdUtFeVJLU0hpMkR5dU5NU19rQQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "055dcb23ae336a19",
+      "published_at": "2026-07-07T16:08:25+00:00",
+      "title": "Fighting Mars U.S.-Iranian Pledges to End War, Restart Nuclear Talks - Arms Control Association",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYWJFdXZ2QVdIakxYT2p1dTA3NjYxUk12WnFHdmJPVGZWZDdsV1RQZFZLN252NFE0ZVE5aHZOUGl0SlFsWEkwLXY4YXJnVll1dlhHY0JTQlVERXFZV2RSR085UzZKZjA2RnhkbXlXQld3anNQclUtWTVFaVlrS1VSaFBQRU41VjBndFhnU25pTXJ6RE5QWGdUX2EtamFvb3UzVnFwZnNLWW5kV28?oc=5",
+      "source_name": "Arms Control Association",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4372cf20ca323b0e",
+      "published_at": "2026-07-07T15:15:38+00:00",
+      "title": "Strait of Hormuz: Iran attacks three ships in 24 hours, U.S. says - Axios",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tbGNnLW5qNTl0VDktckZlNFVidXJyTFNIQ3hxZnU0V0ppaHpQTnFxOHdOcHRqdVNGZHMxNkxsRTFYOEF4UGFXNFZTUl9oc3JwRWJCZnZaWllYT1EyMm1kX1BUaWZ3cy11VU9zQndSdWRpN1RrZnVFNnhHOE1ldw?oc=5",
+      "source_name": "Axios",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
     }
   ]
 }
