@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-07-09T04:15:42.417440+00:00",
+  "generated_at": "2026-07-09T09:58:46.147865+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 84,
+  "event_count_window": 85,
   "totals": {
-    "usa": 76,
-    "iran": 12,
-    "lead": 64,
+    "usa": 55,
+    "iran": 17,
+    "lead": 38,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 76,
-    "iran": 12,
-    "delta": 64
+    "usa": 51,
+    "iran": 17,
+    "delta": 34
   },
   "confidence": {
-    "score": 71.5,
+    "score": 70.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 19,
-    "diplomatic": 4,
-    "attack": 61
+    "attack": 61,
+    "other": 20,
+    "diplomatic": 3,
+    "material_loss": 1
   },
   "history": [
     {
@@ -36,7 +37,7 @@
     },
     {
       "date": "2026-06-28",
-      "usa": 0,
+      "usa": 4,
       "iran": 0
     },
     {
@@ -81,27 +82,237 @@
     },
     {
       "date": "2026-07-07",
-      "usa": 15,
+      "usa": 9,
       "iran": 0
     },
     {
       "date": "2026-07-08",
-      "usa": 42,
-      "iran": 11
+      "usa": 24,
+      "iran": 10
     },
     {
       "date": "2026-07-09",
-      "usa": 19,
-      "iran": 1
+      "usa": 18,
+      "iran": 7
     }
   ],
   "latest_events": [
     {
-      "id": "4c3b15e7a7fb68a3",
-      "published_at": "2026-07-09T04:00:59+00:00",
-      "title": "US and Iran exchange fire for second day as Tehran's chief negotiator says 'breaking promises no longer cost-free' - BBC",
+      "id": "5931908c4118275e",
+      "published_at": "2026-07-09T09:55:21+00:00",
+      "title": "U.S., Iran trade dozens more strikes in dangerous cycle - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd2JISkQzUWNER2stdWVCdi1rdEkySEh6OGNPZDU2YUl3bl9ud25YRDQ4T3dSWFNqYklqaFFkZkU0UUxGaS1yNTVxTzdFYXFLVGZfRVpHc1MzbXNtc3JnS0Z6LUZNeVNTVTduLXNTVVpTNGt1T0ZGc2Fockc5cHM5VUtXZ1ZLc0JxQTU5RjEzVEs2UXJiUWxqeg?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "2c47875008316723",
+      "published_at": "2026-07-09T09:44:49+00:00",
+      "title": "US launches strikes on Iran for second night, as Tehran targets bases in Kuwait, Bahrain and Qatar - BBC",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFByMXIxUFdtaTVQaE1MQzVoNzVRUXZQSHhRZDFGUDZxZGtEUDF3QXg3V0VkWWhHdk5WZFFTa190c3V1REdaYUZPOFpFc1NvSmZsdnZSZQ?oc=5",
       "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "4dcae990b0216620",
+      "published_at": "2026-07-09T09:25:43+00:00",
+      "title": "US and Iran trade strikes for second night in a row as Tehran aims at Kuwait, Bahrain, and Qatar - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaTGtsQ2ZvNmhWSHd1Q25Xbm41VVpnS1ZpZWJOc0lieTZYVWotbVRwUmE5NHloMWlYVjZpVmRkNUpQZjVsbi1sZWZUTTJTR1RaRWMzRHVuWkxiZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "6d21c5a5754e4fd3",
+      "published_at": "2026-07-09T09:23:41+00:00",
+      "title": "Iran reports casualties and infrastructure damage after US strikes as tensions in the Gulf rise - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQeWtab2I3dmd5Um5jZUdid1hSbUU0SEw0QS1EYU9XZ3BSMndRZjl2NVdPcDBlQnkxMVg5MUxYVnB5UkNVeTlNYWJ5bGYzN1NRUzlWOUdtc0MtbVZlc0w2OUp1a3Nld3A1ME1IcGRjTDVDc0NaTGhkZ2dUZVM1bUJPRXF6blBLcm1WdVFabEJWd2tUZlYzcXJ5VXhTSnNjUnhYX3EwRVExLVpmdW50NUdmcm02SlBYX0l2NkZDWUdrSWdfazJw?oc=5",
+      "source_name": "Euronews.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5b360acdbbdb45fa",
+      "published_at": "2026-07-09T09:23:35+00:00",
+      "title": "Iran war latest: Trump claims Tehran called wanting deal after second night of strikes - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTThFckdrWnZVV2tkUlNrNTVwY0xKTU8tNF83ZTRmN0hrNGJVZnU1MDRHTm5BS2E1ZnQteUY2eDVOVW1pZUNMZXVGeVJ2QjF2WWhzOHVacWR2cVVDS1hKMmd0bWQ0Y2ZZNGhrTmQ4ZFZPR0RhclRVWkVxZlpVMnladG84UHdNUWhJMVRpWW13WE9nWnNqejIzU1U0S3pZLWVLUGFxejdsa1ZYOWtUUWVUZXB6TQ?oc=5",
+      "source_name": "Sky News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3737bcf90ce79995",
+      "published_at": "2026-07-09T09:22:00+00:00",
+      "title": "US and Iran exchange intensifying fire across the Gulf, threatening the interim deal to end war - AP News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQmZnOENNRXdELTloYWdZVG84OGRxcnFydXg5S1RNYWYyeTVkZGQ3XzkwV0hJdXRDNzBrSEp2ZUw2UkU5LVJkcWtyc0FXOHZkM1cwanhvaUFFM3g2WjJ6bkdHZmJVbE8zNGFneWF4VzM5VFdWcGNmUWo4VnljNktvSWJ3eE9XaThVZVVPM2NlQlhoUVh4T2E0cnJB?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "666dfac54e118b73",
+      "published_at": "2026-07-09T09:09:04+00:00",
+      "title": "US, Iran launch more attacks as mediators urge warring sides to uphold MoU - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdUEzMkJvXzN3MDQ2MWNYVl8tdWRsUWs3V2xLY19lbjBoaERod0FDTllreDRNNkVKaWVoVVc3ZFFrMERCQXMyRGFINXVydW9kU3lvcHhDV3RoSk1mdUFRcmNDMTIzWl9XbGJOelhFbC1IMUdTNER3ME5zOVlMX0p1NXNNa2VKNmt3dTRNeTYzZXp6cWlwZVBRUVY5ZGhCTzRtM0NxUjdyUDV5M2p2dDM2YmRMVdIBuAFBVV95cUxOSzZxV25fUDlyWGpsUC1ESWxrUkZsTnpWdThQSjdyMUdkN2dkcDV2ZVgxTGtDb3o2UmxlN00tZVhReWlYVUgybHJrYy1hYjlraHVNWXdYY3BUczJ4cVpNbUlXb3hDbUNXamNKMDAyaktCaUlQaXl2cXpVdk0zQTR4bHIxRkdFdVQtZmktVTZfUzZJSEducHdQSTlkS2liU2tIU0JjN0t4cW5NU0IwVjJCTzBIT0dCVTBD?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "562ee84e2bef1dd2",
+      "published_at": "2026-07-09T09:00:05+00:00",
+      "title": "U.S. military completes latest strikes on Iran after Trump says ceasefire is \u2018over\u2019 - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdkFIRVlSSlhDYl82UGVQWkpHZktBMkRiaDZGVVR3WXk3SnNISV9PVmcweDE4Wmd2RDBfeVItOGpwVnpLdWVTUzd5eWxSU1dBeC1ydEpLQ1ZjOFFMTVlERmVjQWpxTzV4a19KTlA0RFdCbGw3cnVvM0I0RElmRmhvaVFaWlhjU3pOSmdaeTdzME5iRnI2dnJNb3F3WVp4djdpNTRmQ1FWNjh3cW5nemVVVnhkYkhwQ0czTUJMNkRn?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "dc865136c3e75b61",
+      "published_at": "2026-07-09T08:57:22+00:00",
+      "title": "U.S. and Iran exchange intense new attacks after Trump says ceasefire is \u2018over\u2019 - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObkE2SE5KRWkwVTMzY0I0YVhYbVJmT1g4LTY2ekNRM0VNWlFQWVBOWHJfMGxhbkpGOURxS0tKUFJZYWlrM3lQZUgtUy02QWZpcDJHanI0YmtIenNjSDVsMndKZGFYbW55MkF5RFVNVXI2bnpkZ0ZaR2cybF9RWS04OTliMGhFM2JzX3YzaUtPS19OTW9meGNvQUV6MDZDMjA?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "569bb99613337492",
+      "published_at": "2026-07-09T08:35:50+00:00",
+      "title": "Oil prices stabilise after renewed US-Iran strikes rock peace hopes - France 24",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQd2Y5dWZfY0M4eERUbkN5WS1uTENxdWQ1aDFVU0h4V1pfdDYyY0Vic0tHQVdKZkI4aXVPc0h3azJEUlRhSEFGYmdtaUxUaWs3VEZmNGhlQzJ1bE1jYWtPRXh5V0ljR0ZCeEVXNnFfanhUb2JhaFdwMnF1Si05ZmxGcXZRVlhDb0pGcXVJVktmRklpZXpjU05LZV9Yc2UxRkU3bDRETVdVOEJpRGRGckNNbzFR?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a995e24659e0c256",
+      "published_at": "2026-07-09T08:23:28+00:00",
+      "title": "US military has finished striking Iran, CENTCOM says, after explosions heard - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fdUdCVFNPdDNBWTVKMlNaYkoyMEpsbUVreUpvUlZka3pPZVVRbGFUOFAtcVhQSmdZcEF4cFpfV2tmMXFCUmhaNXltSWkzVFR2ZWZJQTl1blNXLVpNWHc0cXcxVk9xNnNPNkE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "0bd7efbac7dec869",
+      "published_at": "2026-07-09T08:17:23+00:00",
+      "title": "Live Updates: U.S., Iran trade more strikes after Trump says ceasefire is \"over\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUFFBSHNtaThwT3hnaEw0dFIwcGlLV1poQ2FGckVQZTZxb2lCRFktbi1CbElkOElkck9DaFdBa25yTzE0eklja2t4MENnSXk4NHVCLTdOdThQby0tOWc3VnVwSkNiYm1iWmh1aVdLTnFWdk03NVFpMmhsY2czS1FybQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "dc03fcf24dc2430b",
+      "published_at": "2026-07-09T07:37:34+00:00",
+      "title": "Second day of attacks as Trump\u2019s Iran ceasefire breaks \u201dover\u201d Hormuz - Decode39",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTjVnQjBvMUZfVEo5R20xbVo5LUJtNk9OQ0J1Q01mSVpzendIQk9TdzZVZEg2SnhFU2FXeVliOHJ6eFpfLTN1OW5Qa1FDbzJ2NS1MNmIya0pPeWVTT0NWSXFWRU1QektvZ3pXUWExWk5qZFQwRXEzaGZtemhMcmpnN28tQTZFdHRhaWUwN2pUMG01SDI5NWcybw?oc=5",
+      "source_name": "Decode39",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9c83e8a224afd5f5",
+      "published_at": "2026-07-09T07:22:16+00:00",
+      "title": "Iran hits US bases in Kuwait, Bahrain, warns of expanded strikes - chinadailyasia.com",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhN3k5VFo3TFE1Y3VwSWNFLWs0VU96QVJFTXFyT0RvbU9mcjZ1ckRoWThxcmRIcmlIZFU3dGJ3aUNEUjZxa2N5dnpwUEtFeC01SHROd3ZMdUo?oc=5",
+      "source_name": "chinadailyasia.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "cf3308fdd217f18e",
+      "published_at": "2026-07-09T07:17:18+00:00",
+      "title": "The US is striking Iran again. Can it ever deliver a knockout blow? - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVkRmaURMT3NVbFE4ZW1jekdRbnNnckQwNmgtS1Z6LUNXaklOMDBocWItSFdmYUxPU1ZlS2RBYl9rVlBiNUQxUDlnOWFwREt3VTQyNFVFRExCNVE5azF6aGNFTlFkU2NOZ1JKd0ttQmFsWFEzMERYdVRiMmtXSGVOQ0RtZnlmdzJjc1FB?oc=5",
+      "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -112,129 +323,9 @@
       "confidence": 0.6
     },
     {
-      "id": "259f318e3f16c6dc",
-      "published_at": "2026-07-09T03:50:34+00:00",
-      "title": "US bombing Iran for 2nd straight day after Trump declares cease-fire with \u2018sick\u2019 regime \u2018over\u2019 - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSlE5aXBKeXEwa01fUVhQSS1LOFpmVmdrblVlMEtycmxRb3N5LUEwY05Sc2pNcEFiME9ET1JnTkhYcF9pdHdtbFlkal9felBmSzZjWW40VG9NSWQ5TG45QXVQdmpiTDN6RUhhUk9jX1V3ejZ3aHJ3Z1NtNkRKbDdsZnBaWVpUdWw4UnV3SzhnRS1Vam9DaTRvY1BnZTRGdGxBOXZRRFNPeDhGMG93azlVYTktbDBxSElOZXRjWHR1SnNOSlZQMWRv?oc=5",
-      "source_name": "New York Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e1bc2d892b4afa21",
-      "published_at": "2026-07-09T03:47:16+00:00",
-      "title": "Trump reopens the Iran war \u2014 and a political problem he can\u2019t shake - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSnVWX1ROWWN0cUo1bHQwQlVVUXRxdjFHazR6QjdNREs5YXR2WURHUEZ4WEpDdnNmRXJ4ZlhvUzFpTkxtcjdYRXc1NWY4VE8xUTBtSFVTcFEwbG1RSkpFcHRmcWZVcjZxX1RaREVCWFdJZmQ4a0FnUTJCZEpjcnRUSG9TNWd3VnpHNGFlVHg0NlV5anBQU1JVRTFOUExEVkk5QWtycVUyUU8yUQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "9157d9c09666906e",
-      "published_at": "2026-07-09T03:34:00+00:00",
-      "title": "U.S., Iran Exchange Fire After Trump Declares Ceasefire Over - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQUTVyWlVyVjJUNk8zTDlEbGs2bW5yMnZXRXg1ekZfOE45NGc4UjYtenVEbnA5RDF6VEpCNDZfekJHbU15SzM1Q24xSFRlZkZCTHVEejVUd3JiaWFPcVB5UTJiYW5xU0x5NG1SSzF5Z3VQRDV4b2hCTHdkVVVRSGlQVkxZMk9kUWpFOUcxdmtCNmU1MmdzRG9OVHdCTE96eHBfcUtSTmFRUWxJMUZ5VXFoUEtfUDJQdw?oc=5",
-      "source_name": "WSJ",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "fce7901a1a8497ea",
-      "published_at": "2026-07-09T03:24:10+00:00",
-      "title": "U.S. Forces Complete Another Round of Strikes Against Iran - centcom.mil",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRTd4QXVOV2hRVWZxUTNrOWVFa216cXBVWlpGNEdfWmlicU9WXzhHNDJDN1FEQmI2WkZ6dThDSTBVc2dTNmdxYWdON1dZa3lVRFNDcVZMV3lFWHdwOGdmaG82OGR3aGZpa0d3bnFZcHlHa3pCNFNoQnFiTDJkSjlvWE1YQjU4S1NOS2hBWGlFV2ZOTG5LMDVnWlJoWWxuOUxWRFZWOWJfdEtXejk1aGJya0RZM29VRnVHcWNr?oc=5",
-      "source_name": "centcom.mil",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "bf13bc354bcdeeac",
-      "published_at": "2026-07-09T03:24:00+00:00",
-      "title": "Live updates: US and Iran trade strikes for second day after Trump said ceasefire is \u2018over\u2019 - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbUJvWmM1dG1ldjh4TmdlYUJyTVRiWjhIVUFqcEJIVzcwdVJOb2c0ZlU2V3gxaktFWU9acnkzMGNDUHcwTEtPR2lJQVpaYjd1SU50UWpWUEdLNXBzWWZQbC1LcFBmMjNSRGRQMnRWYTAtRVJydTEwZ1dHMVlfdDVQNl9DMVNxVnlX?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8b70033d293c5187",
-      "published_at": "2026-07-09T03:09:00+00:00",
-      "title": "U.S.-Iran Latest: U.S. launches more strikes against Iran after Trump says ceasefire is \"over\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUFFBSHNtaThwT3hnaEw0dFIwcGlLV1poQ2FGckVQZTZxb2lCRFktbi1CbElkOElkck9DaFdBa25yTzE0eklja2t4MENnSXk4NHVCLTdOdThQby0tOWc3VnVwSkNiYm1iWmh1aVdLTnFWdk03NVFpMmhsY2czS1FybQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "94690909300ffea6",
-      "published_at": "2026-07-09T03:04:00+00:00",
-      "title": "Live updates: U.S. military begins new strikes on Iran, U.S. Central Command says - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdkFIRVlSSlhDYl82UGVQWkpHZktBMkRiaDZGVVR3WXk3SnNISV9PVmcweDE4Wmd2RDBfeVItOGpwVnpLdWVTUzd5eWxSU1dBeC1ydEpLQ1ZjOFFMTVlERmVjQWpxTzV4a19KTlA0RFdCbGw3cnVvM0I0RElmRmhvaVFaWlhjU3pOSmdaeTdzME5iRnI2dnJNb3F3WVp4djdpNTRmQ1FWNjh3cW5nemVVVnhkYkhwQ0czTUJMNkRn?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.9
-    },
-    {
-      "id": "b464de6f15322e4c",
-      "published_at": "2026-07-09T03:01:00+00:00",
-      "title": "US launches new airstrikes on Iran, with Tehran firing back at 3 Gulf Arab states - AP News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTXRXN1ZOY3dWb0Y3bFliM0t6QVRjQkxGNmNRRkVPM29YazVXaXVpaFo3N2h2MHdBLUlTMWNROTJuTUJQNFhaR3BwTzV5b0NDYk1WOG5NMXRHLWhuNHF1NXJqOFM0Vzg2TWo2bXRCUS11WmFEeU45UURDV0dqX0szLWxfbkptQXFxQVJXM0hjY2lkS1VJdkljZWFR?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "f17b051e7d36bbdd",
-      "published_at": "2026-07-09T02:57:57+00:00",
-      "title": "Iran war live: Sirens in Bahrain, Kuwait after deadly US attacks on Iran - Al Jazeera",
+      "id": "a3c668a20f24d44b",
+      "published_at": "2026-07-09T07:16:27+00:00",
+      "title": "Iran war live: Tehran hits Bahrain, Kuwait, Qatar after deadly US strikes - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOazFrLXladEhrcG51TllsZHBwdDd0Y2hPTWo3eXNEYkxXX0J1cDlfUk94eURqb29qR20wMU93a3BCN3E5d21OUEVUOU5meF8yNm9uNngtUi1adEJEYVFCUksyeG1EVGtTU0dncU55NHEwQzV5bWRLSGhBUUpGOFhfZGRTemktaW1rREhpb1lDTWRKc2dPNV9jOUt0VG44ZzBhT3BEWENyMHRvOXpIcFBmT3dPcHRwN1doc3QxWtIBwgFBVV95cUxNajNoV2lYTU9GUnM5bmRJcVB1Uno1VDZMbXdsRHo2anF1Vk0taFRuVjVVUHVuSkVWYkhjS3owUFBwR1JMR2ROdEEycVlmdTNndEJ2am8tNUY2TlNEQ21lbXpNdG1SZW4wYkF0bmI2YTNYWEZrakZWV1lDUjVORFI4bTZVUTRBUjRQdDhvVVNyWE82eDdoazdKVzI1VEFPV2NzaFU0WGNGNFRpT1djbFd5NzFfZTd0VHM2Yl9MdGtvWW1zQQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
@@ -244,104 +335,29 @@
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.7
+    },
+    {
+      "id": "15fdf14045eed284",
+      "published_at": "2026-07-09T06:50:00+00:00",
+      "title": "'Iranians called, they want to make a deal so badly' Trump declares after US strikes | LIVE BLOG - i24NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPdGstYTVGelFJb3NKUHV1empwb0llM2JvMXRWUF9Ka1R5OU9pSXdXbW9zbkpPdXVQZHIyVnU0NGVNRWJ2R3FONFotdkdGSTlUWGJEalI5TzJjMWc5cG9sUDVGeUV3dXc5UXk4ZE8xUnEwa3k3WnRVdHlHMDZ2OWFWd0FJM3dHMTNjSUtBNDZTZTB6cjBMOVpsQUhpQlhpamI4bk1oZUx5TUpmSkdZR2pkbkNLaGYwSlJ6VU1vUk8zUlRFU0pERDA0X3FITUpOX1ozUUNCOVk4Uzc3QUVXQkpab1JxRzdkdExhQ3R2WFQtQkI?oc=5",
+      "source_name": "i24NEWS",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
       "confidence": 0.65
     },
     {
-      "id": "11ec446c0d126e6a",
-      "published_at": "2026-07-09T02:47:55+00:00",
-      "title": "Trump orders new round of strikes after calling Iranian leaders \u2018scum\u2019 - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQd2JISkQzUWNER2stdWVCdi1rdEkySEh6OGNPZDU2YUl3bl9ud25YRDQ4T3dSWFNqYklqaFFkZkU0UUxGaS1yNTVxTzdFYXFLVGZfRVpHc1MzbXNtc3JnS0Z6LUZNeVNTVTduLXNTVVpTNGt1T0ZGc2Fockc5cHM5VUtXZ1ZLc0JxQTU5RjEzVEs2UXJiUWxqeg?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "80a1ed73f7762adf",
-      "published_at": "2026-07-09T02:43:32+00:00",
-      "title": "US launches more strikes on Iran with blasts reported in south of country - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaTGtsQ2ZvNmhWSHd1Q25Xbm41VVpnS1ZpZWJOc0lieTZYVWotbVRwUmE5NHloMWlYVjZpVmRkNUpQZjVsbi1sZWZUTTJTR1RaRWMzRHVuWkxiZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "70229a3e3595d7a4",
-      "published_at": "2026-07-09T02:39:32+00:00",
-      "title": "Iran says it will extend attacks on US bases if military continues strikes - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wZGdIZlBWQVB0MVo1RnNWYWg0VG52bkhvRXE3MTBmNGRiS3FjYmhaVG04bFAxaVRXYkhRQTFVNE9zaUU3OXg4bV91eEJvNDJQYklwdU5qa0xDdm9Zb29KSVVmR2J1ZFo4TVIzTmpJYl9hWkHSAXhBVV95cUxNa284dzEycDV4UjRNWU14RFhtU2FGRm9hU2dQMTlpRWN2QUJfX0tNYnlDN0diTzZXMXlmV3JEbjR3QzVwa2VuLXVIX2ZTeFFPY0dBTzM4MkhkakszRnZrempWTFJ3NngwcGJwTFo2QnBrRlFtcUkwN3o?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8b32bc83f4b8366d",
-      "published_at": "2026-07-09T02:34:00+00:00",
-      "title": "Iran Live Updates: Trump Suggests Cease-Fire Is 'Over' After Latest Strikes - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VclFMUUV4cGpfbEw4M3FsMU10S1I4bFo3d1RYZV9hWFcwR1NrNVBwLU5pVVI1NUowSHhLeDJFTFpkNEtKNWYzTm02Ul9nUnpaMnVoVWJCdVdrLUVGMXcxRzJQR2Zadjc1ejlGOUFORmE?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "688a365983e7f9bc",
-      "published_at": "2026-07-09T02:14:55+00:00",
-      "title": "US military carries out fresh strikes on Iran, prompting Iran attacks on Kuwait and Bahrain - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxONTZuX2FnQUdKU2MyTjBlVmlndDAtWFdXZ3RNU2VDOHBQOWFELVFtM1hiV0JiYmYzb1RodV9ETm5pQ1ItdFprYzg1OVNHY1ROLVFZLWRqREtqY2MyXzNwSElmdjdCNGRNeHlUYzE5NWZUV1FCVllBRi1MVlN5S1BsUTljUS1lZlJjYjZwU2xwUlYxaTdzZER6OXpFbS15b3lCcG9JYlc1b1o2UGVjUnluSUs5V3hNbnkyT3B2WlFB?oc=5",
-      "source_name": "Al-Monitor",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "0a9ec451c33dc3bc",
-      "published_at": "2026-07-09T02:09:20+00:00",
-      "title": "US says conducting new wave of strikes on Iran as ceasefire falters - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNc2FaTkhSUlVxQjR4STljOXJidWN0UzdNeDR4dEo0RDNLOVlva3F2X3BraTlpZjI1Y1ZzUU8xdVhmQXZoSWdrNnlGZjUtTUl2R2lIRHBDWXhJZjFWTjdHV0pHV21ORkVCZTQ1eFNrck9iUUVscVBrdFhuYzM5eU1pNVlnRERYc2U3czJxSnNJTG1YdjN2dF9zU1hCNXJzelJJcTJkbjBMeHpQcGM3bHfSAbMBQVVfeXFMTUtNY04tbUMxN2tfTnpGUERzczJHUW1YQXQzczRDUjRpNmlmb2l5MENfOExad2xuMklCSHFHTjlUTGFycWJUZkh5T0NadHFoRXpkZXJmVnBkMHY1cEs2RGpvLUFYSC1NRUNiNnNoYjV6aUhtTWlLV29SSTZib0hCNFJOMXN5N2FHNmZkUnp2bk5ydnhyNUlTSHdSQ0dFZUxBRnJmLTU5ZEZud09HRkxQdk9XaE0?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "0b0bdc14d6bb0cb4",
-      "published_at": "2026-07-09T01:53:00+00:00",
-      "title": "The time for talk is over \u2014 Trump needs to get tough with Iran - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVHZFZ0dzUTVFUWtjSkN1aXpUQUdPR0t6RVJPVEQyZXZpLUtKMFVDTUJkbnN3Ni1ldGpWTEJPYmlNTTJoaWw1dm1TYV9ISmhmenYxLTk0LWo0UmlEN3VZUGZBTVpWYlNvQkNyQ2Itd3REQ1A0MHI2OS1oV0pkckdtSzVKZG5mWEs3TWREY3pKajNyUGxTeTlOODJjZWxMVHRs?oc=5",
-      "source_name": "New York Post",
+      "id": "b5e60409574d0c11",
+      "published_at": "2026-07-09T06:44:18+00:00",
+      "title": "US prepares for prolonged Iran conflict - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZM1hCcDN1Y0J3XzhzVFg2d0JtR3N5ci0wcmlvZjU1UjRGdjdhcGlTWTBwbmk2ZTBqYmJyMjhFUFhwTVM0WjVCbjZ0Y0dlNnhVenp4THR6eS1KekRmVEZnUlg0cVlMTkNMdVE?oc=5",
+      "source_name": "The Jerusalem Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -352,49 +368,34 @@
       "confidence": 0.55
     },
     {
-      "id": "7969c9dfaf849d1f",
-      "published_at": "2026-07-09T01:26:40+00:00",
-      "title": "Oil rises after US launches fresh strikes against Iran - The Mighty 790 KFGO",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNaGtCMWRPeFJaaDMxVm9UNVlJWWhzcjRGZ3RQaTUzY3VoYm53ZURJajlvc0dqX0t3MDJTQkVsVU9ISUNuaWhJSXBhQTlBeHh5aUdzTmNEc0ZpbnNSbm9DRzc2MWhNQnBhV1YtWW9Id3c0V1FGbW44ZVdEemxmU2ZlZG11WDJIanVjM2F3?oc=5",
-      "source_name": "The Mighty 790 KFGO",
+      "id": "674d143a5ad6a7e6",
+      "published_at": "2026-07-09T06:31:24+00:00",
+      "title": "Iran attacks Qatar, Bahrain and Kuwait after deadly U.S. strikes - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNbTlFVHNYMldQMzBTMEJVSllIRVB1WkVIOE1DUThpa05ndnVGYksxSmFwNTdFYXoxb3RDNS1TZ050YWg5dXI0WVVBTUdlbFM5ZGNvVDk3MjdoaEx1OVRKemEyQmdiaENJS0hWby03TGhxMU5xYzNnMU9EV1I3d2N5TlFPUkVPMEdXYTl0Qk54QXdTelhYOUJjRkVBaDEwVm5CbVdRTFRfRk8?oc=5",
+      "source_name": "CNBC",
       "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
+      "actor": "iran",
+      "target": "usa",
       "points": {
         "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "96984d115ba88216",
-      "published_at": "2026-07-09T01:20:34+00:00",
-      "title": "Iran war back on after Tehran attacks in Hormuz trigger Trump to declare ceasefire 'over' - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdDRTYTBtQWNDQTM3bS1sS1NydGxYbWd3bmtBamM2QTIyNTVEZ3lHWGdFYjBFdmxtMThWbWNmOTVFODZTM2pjU1FqVklOR1lkQ3UtcU5MdEFEWUFMZGJMeVRHS01QenpIUjB5YkJoNGFaQV9NaUxGMjgtY2pHQk5YN0pudU1aZ2pK?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e7007c19ebd4563c",
-      "published_at": "2026-07-09T01:14:50+00:00",
-      "title": "U.S. strikes Iranian targets in Strait of Hormuz for 2nd straight day - Axios",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaHF6V3h6aFdrUm9hN1BGeHJrUzdBVzAwSThGZUdMMUJMbHJqbldwaEVFdGk2aXNkbDVpYlRyUVRmdnNTckE3SXVRc2hXWWtxWlVLMWNJWDRyRnNSeEc0VXBueDU4MFZjWVpxQVY3WDQ4T0ZHU050M0FiUngteklKVUQ4Nk5RNnI2THE0cQ?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
+        "iran": 3
       },
       "confidence": 0.8
+    },
+    {
+      "id": "94783f23f3c9fd9f",
+      "published_at": "2026-07-09T06:24:09+00:00",
+      "title": "US strikes on 5 Iranian provinces kill 14, injure 78: Health Ministry - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUkgxNUFmZWhUUThWNVpIdlBTRllwWXo3V1IyalI2dDhpRl8xU3Jjazlka1VLMloyNmR6eHlnTDEycFJVMWJROE9fLWdCLTBNcW1WaE04N0ZCeGNfQVp2ZzhvWEZqc1RRNkp4RDVZRTNNcXZ4WEZPd3BrbUhLZU4wMXppX01ZRDNrTXpBbV9XbnhieE5QbzVNQVdobFdKYnM3b1d5Y3dYMWtKQXpkMEs2OHd3?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     }
   ]
 }
