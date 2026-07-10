@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-07-10T17:11:32.477915+00:00",
+  "generated_at": "2026-07-10T19:53:49.008928+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 85,
   "totals": {
-    "usa": 39,
-    "iran": 24,
-    "lead": 15,
+    "usa": 36,
+    "iran": 25,
+    "lead": 11,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 35,
-    "iran": 24,
-    "delta": 11
+    "usa": 29,
+    "iran": 25,
+    "delta": 4
   },
   "confidence": {
-    "score": 71.5,
+    "score": 71.6,
     "label": "Medium"
   },
   "event_types": {
+    "diplomatic": 12,
     "attack": 52,
-    "other": 21,
-    "diplomatic": 11,
+    "other": 20,
     "material_loss": 1
   },
   "history": [
@@ -77,26 +77,176 @@
     },
     {
       "date": "2026-07-07",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-07-08",
-      "usa": 12,
-      "iran": 3
+      "usa": 9,
+      "iran": 6
     },
     {
       "date": "2026-07-09",
       "usa": 9,
-      "iran": 12
+      "iran": 6
     },
     {
       "date": "2026-07-10",
       "usa": 11,
-      "iran": 9
+      "iran": 13
     }
   ],
   "latest_events": [
+    {
+      "id": "e220fc6c315fddb3",
+      "published_at": "2026-07-10T19:31:16+00:00",
+      "title": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWU8weHNqWU10dDFxUGpMR3Z5LW0xVVVnTlNuU2ZBaWpXS0ZnbHQ4c3BENmZ2QVZMZ0VLWmIyUnU0NVM2Tkp4T0lONVM2NnF5cHluZWRxR3FkOXdsNEJoQ3I1VmV3a3hOcExFWll0Vkp2VUJKN2xpcU13US1lOEkxWE1CcEY2dWZGbUZ4TzZ3V0lYRUhLdC1CZjJNTDVJZVM2TDZpSUU0V0lQdkZn?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "96c79c1e75d87470",
+      "published_at": "2026-07-10T18:55:04+00:00",
+      "title": "U.S. forces sharply ramped up their attacks against Iran this week, hitting more than 170 Iranian military targets on Tuesday and Wednesday, the Pentagon said. It was one of the most intense rounds of strikes since the war began more than four months ago. - facebook.com",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQLWVyaFFZTUh4WVhXdVFqM21pWTV3Rnl3NHY5UU1hY3hzTEFvM09PN0h2c19wTkVQTjBMdk9Lak1ncmxPUW94OWcxT3RfODRFTUhZQXdHWnRWSGQyWU9sMnNabjg2cVdxVUpUc1ljX0JjQ2h1RktrLXNJR0pyUHZVTjdKV3JmZEhXX281RHJ2c0tuRk1Ubmk3anpZT09wQzBnX3lPY0Z4MU5SOFhDb0E4c3lPWkVxZ0VuYUpRa01vaktwaW0zSDVfamZnMDJZUHhSU3Rr?oc=5",
+      "source_name": "facebook.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "9fa98e0365e3f88b",
+      "published_at": "2026-07-10T18:53:00+00:00",
+      "title": "Live updates: Trump again declares ceasefire over but says US has agreed to talks with Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpaGF3XzYyR2V1VW9XRTB1NEtRRzZweFd3Snd3R3dJeEo3Ti03UHBqanAwXzN3ODBYRWhycGV6eTY2c2hHcnlwRHNxcVNfSUZuMm41a1p6NUFXbldMTG1MS2lJV0FPM0xUb2NaZW9n?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "af977bf9741f1f3f",
+      "published_at": "2026-07-10T18:23:00+00:00",
+      "title": "It\u2019s a mystery who launched the latest airstrikes against Iran - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMkgxNzlSWHpvYWVhcGhmNkJTRzJIa2R1Z1ZfOGJYdElvenoxa2diSHR6bTFJaWx2M0VZZ0JWM2Y1VjZrYzBOWTlFTUdLNHk2YzFWZGJJazJNSHU2VUdDbnpHaURzc25SeS1PVXp5dEJVWWdhbDdwUkNCTHhlUVQyXzZYOG5ZNlNSektpNUpYbFNYOEs0ZTl4Tk96SHd6b3M?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "55c03c8302aa94ce",
+      "published_at": "2026-07-10T18:18:00+00:00",
+      "title": "U.S.-Iran Latest: Trump reiterates that ceasefire is over, but says U.S. to continue negotiating - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "c41c1b25119fc9ba",
+      "published_at": "2026-07-10T17:30:11+00:00",
+      "title": "US-Iran war: Will peace talks resume, and when? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNNS1tT1FpZHlmNTlrblgyWnlEOVB4Yk5lbW9hUlVCZ1BiYTFhU2RaNFdDekpxR20zVjl5ZWVLLW9NU2xqUnZ5UjA1Y1N2V3dSOTludGhqaHNjb1NDM0hNNk9tVXdwT0JVeVRTZmpwS0Zldjd6aWxUWl96MTFiTEYzUmI1TWszRTNLVWdqRkIyTUxqdWdh0gGaAUFVX3lxTFBrRUdnNUIwbHY3Sm93M1B5cDZudUdvdEltWjRIYnpULXg3bWd2bTF1d2s0T2lOdkNmM3RZRG83d3JOSFNla3NNclhyNmV1YTBGc2REYUFsanZTbG1mNEdyNHFtYmE0QlF3d0ttd1NZemktcU04NkRYVzVQcE1nWllCTGlyRDNXREVEdVlBeTF4UnRwaFZuU2xwNVE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "fc3f34fd3ff48e1f",
+      "published_at": "2026-07-10T17:27:00+00:00",
+      "title": "Gas prices climbing again as U.S.-Iran tensions flare - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhUER1THc0c2ZRcDIwTm5Hc2cxbGhETkVVTUhpR0pOQVNuci1TUXRPYVRiamdQV2dWUzB2dExMU2xEQUhSeUZQRTVhb2ZONG1IQnNXRlBScmVSZVF1czBwNzNaam0xTGVG?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "4aad1360904df46a",
+      "published_at": "2026-07-10T17:22:55+00:00",
+      "title": "Feared for years, an Iranian attack on U.S. soil has not materialized. Here\u2019s why. - The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9uWXpnd2xTeHlyU1F1azFvZ0VLa2tPVGxRSUpJOHlJMm42OGMwYTl4UXNSc3BXZC1EUDVKakNPWm1yYlJRQjRJYklBRFNscUl4ZHN4VU1Icm5GMjlrY1pWUVVEOXhzZmZLM2lvUUpiQVliX0dMaWdPNDdLcW1zZ9IBlwFBVV95cUxNaTVpdlVsYmZHeE5YQnl3emYtbG1xZWhZTjF6YWtOWGRGVE5RZS1OTzc1VFNneTNUSWQyTnNoWGFLSWVwUnYzSUN5SDE3WVlYcXVGTDFzM01xU0RKcm5uR1BmMlJocFVUU01DMTFWcUtqZnkyeF9lVFd3UjBsa0pIcHdUZWFUcS1mVlU0a3VTb3MxVXRfWFJR?oc=5",
+      "source_name": "The Christian Science Monitor",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4cc4d2f8a28ac724",
+      "published_at": "2026-07-10T17:19:48+00:00",
+      "title": "US pauses Iran attack after ceasefire break as Israel reveals plot to kill Trump - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85bDl6a3pwQkxqSHk1X05XdDNaZUYwckk5VlhRTWVYUEFEY09tN2JhbFQydUcwQ1F3S0ZFUUNhdDN3T3d2SlhmTGtLSURIaDFZeC1UYzJKNGlrVF9Rb1ZvdVM5cWJEYVdhWEUzdFhDNA?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "bf8b32624c15ee65",
+      "published_at": "2026-07-10T16:43:44+00:00",
+      "title": "Trump tells The Post he\u2019s \u2018left instructions\u2019 should Iran assassinate him: \u2018Bomb them at levels\u2019 never seen before - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPYllFVHgxbzFJdnNHeURzVlVXVWROM0FWWURuOHQyS1E1Y3dESldIZ0ZIcnNwMTE5OE0tTE4xTEx2SEtza1czWGlEcGxycjFPOEYxemtTVnhKeFpPMTc4cm5PVXkzd2tfU1dtV0RKQTVNMkVNaDlTVklUNml6YUdlemRYLUs1RHltNG0tX2NYYUkteTlRNXJhenlWbVJwNlFSYzhHUlZkNGJJekdTeVNHQlFwaVhydG1kbXpmMndYQl9YWmFPSS1zVUxrTGFzLXc?oc=5",
+      "source_name": "New York Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
     {
       "id": "cd779396a915aa32",
       "published_at": "2026-07-10T16:39:37+00:00",
@@ -110,7 +260,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "2724e96f2e4b1be6",
@@ -125,44 +275,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "55c03c8302aa94ce",
-      "published_at": "2026-07-10T16:34:00+00:00",
-      "title": "U.S.-Iran Latest: Trump reiterates that ceasefire is over, but says U.S. to continue negotiating - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "af977bf9741f1f3f",
-      "published_at": "2026-07-10T16:24:00+00:00",
-      "title": "It\u2019s a mystery who launched the latest airstrikes against Iran - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMkgxNzlSWHpvYWVhcGhmNkJTRzJIa2R1Z1ZfOGJYdElvenoxa2diSHR6bTFJaWx2M0VZZ0JWM2Y1VjZrYzBOWTlFTUdLNHk2YzFWZGJJazJNSHU2VUdDbnpHaURzc25SeS1PVXp5dEJVWWdhbDdwUkNCTHhlUVQyXzZYOG5ZNlNSektpNUpYbFNYOEs0ZTl4Tk96SHd6b3M?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "9fa98e0365e3f88b",
-      "published_at": "2026-07-10T16:22:00+00:00",
-      "title": "Live updates: Trump again declares ceasefire over but says US has agreed to talks with Iran - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBpaGF3XzYyR2V1VW9XRTB1NEtRRzZweFd3Snd3R3dJeEo3Ti03UHBqanAwXzN3ODBYRWhycGV6eTY2c2hHcnlwRHNxcVNfSUZuMm41a1p6NUFXbldMTG1MS2lJV0FPM0xUb2NaZW9n?oc=5",
-      "source_name": "CNN",
+      "id": "745c5fed1de8ae29",
+      "published_at": "2026-07-10T16:16:54+00:00",
+      "title": "Iran war live: Trump says agreed to talks with Tehran, but ceasefire \u2018over\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPak5sUE5NcGZ1TlY0bjF5WTI2WVI4ZmNCLXBrcHkxcmladU5idm91RGVuWTJLYkJkVW40ZUdfSUtqWGVZSVVtWlNWYTRhWEIyNE1wQld2NzJjOGQxU2YyTWFLUnI2Q1NkX3JJcWVab2FQWHNjMFdvYk5zU1ZQNV80ZjVUMlEyLVMtbDRZRkVqZ2xzRHN0RTBucDRLb2VlZ2I3Mkl1Z2ItMnF4aXZuazJrZNIBtgFBVV95cUxNcDZKVURqTm1IQlR4UGhnM3BaeEhHYUkteld2dGdZNVpXckZnZUlXZ1l1dnlld1V5SVV5UjlsWkFFS19VUFlIYWUzcFBmMG13Z1c3SVA2TF9GdjVYamRqRW5Nc2piOVlYYzhOZFFfcGVQdTAwWlFDRU1aQTJOZUNVQTVad2FFR0YtOE5qM0dFY3ptbHBNUEZEYUpPS1hSUG94aVJES1ZEOG5fWW1Jd2xla0paX3lmdw?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -170,7 +290,7 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "899be810916ec3e7",
@@ -186,21 +306,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "7bacafc870877523",
-      "published_at": "2026-07-10T16:10:30+00:00",
-      "title": "Iran war latest: Explosions reported across Iran - but US says no new strikes launched - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTThFckdrWnZVV2tkUlNrNTVwY0xKTU8tNF83ZTRmN0hrNGJVZnU1MDRHTm5BS2E1ZnQteUY2eDVOVW1pZUNMZXVGeVJ2QjF2WWhzOHVacWR2cVVDS1hKMmd0bWQ0Y2ZZNGhrTmQ4ZFZPR0RhclRVWkVxZlpVMnladG84UHdNUWhJMVRpWW13WE9nWnNqejIzU1U0S3pZLWVLUGFxejdsa1ZYOWtUUWVUZXB6TQ?oc=5",
-      "source_name": "Sky News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     },
     {
       "id": "daee44343735fe38",
@@ -233,6 +338,21 @@
       "confidence": 0.65
     },
     {
+      "id": "b8c3fd39c90724d6",
+      "published_at": "2026-07-10T15:48:49+00:00",
+      "title": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOakItRDAwaTh0eHc5dWlMdkpXTjQxWTd3NnpnczYxZ2lxNC0tT0YxQnc2ZFY4aFd3enZCXzJsdktCM2gzZUkyeExmZmhMS2xpWlh1UWFpQXRqM0t1ZFZTNE1sbGQ0czAyeUZZaDJqMXU3M1lDSkF2Wm9vdXA0V1psbTMxWDk0V2ZqZEI2UHJ2V3kyMTZIZVdJUENMTFBkcUo3UEdYc0F3QmV0cWVYWlE?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "c40c3f488b9d5753",
       "published_at": "2026-07-10T15:41:18+00:00",
       "title": "How the U.S.-Iran deal set the stage for renewed fighting over the Strait of Hormuz - CNBC",
@@ -248,21 +368,6 @@
       "confidence": 0.7
     },
     {
-      "id": "e220fc6c315fddb3",
-      "published_at": "2026-07-10T15:26:14+00:00",
-      "title": "Trump says US agreed to Iran's request to continue talks, but ceasefire is over - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWU8weHNqWU10dDFxUGpMR3Z5LW0xVVVnTlNuU2ZBaWpXS0ZnbHQ4c3BENmZ2QVZMZ0VLWmIyUnU0NVM2Tkp4T0lONVM2NnF5cHluZWRxR3FkOXdsNEJoQ3I1VmV3a3hOcExFWll0Vkp2VUJKN2xpcU13US1lOEkxWE1CcEY2dWZGbUZ4TzZ3V0lYRUhLdC1CZjJNTDVJZVM2TDZpSUU0V0lQdkZn?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "7db8d6ccd95ce6db",
       "published_at": "2026-07-10T15:16:30+00:00",
       "title": "US-Iran escalation threatens oil supply recovery, warns IEA - Al Jazeera",
@@ -275,127 +380,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "745c5fed1de8ae29",
-      "published_at": "2026-07-10T15:11:15+00:00",
-      "title": "Iran war live: Trump says agreed to talks with Tehran, but ceasefire \u2018over\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPak5sUE5NcGZ1TlY0bjF5WTI2WVI4ZmNCLXBrcHkxcmladU5idm91RGVuWTJLYkJkVW40ZUdfSUtqWGVZSVVtWlNWYTRhWEIyNE1wQld2NzJjOGQxU2YyTWFLUnI2Q1NkX3JJcWVab2FQWHNjMFdvYk5zU1ZQNV80ZjVUMlEyLVMtbDRZRkVqZ2xzRHN0RTBucDRLb2VlZ2I3Mkl1Z2ItMnF4aXZuazJrZNIBtgFBVV95cUxNcDZKVURqTm1IQlR4UGhnM3BaeEhHYUkteld2dGdZNVpXckZnZUlXZ1l1dnlld1V5SVV5UjlsWkFFS19VUFlIYWUzcFBmMG13Z1c3SVA2TF9GdjVYamRqRW5Nc2piOVlYYzhOZFFfcGVQdTAwWlFDRU1aQTJOZUNVQTVad2FFR0YtOE5qM0dFY3ptbHBNUEZEYUpPS1hSUG94aVJES1ZEOG5fWW1Jd2xla0paX3lmdw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7de62b6e5dcbaed4",
+      "id": "982a146e8f5d3c8e",
       "published_at": "2026-07-10T15:05:23+00:00",
-      "title": "Two Days of U.S. Strikes in Iran Signal a Sharp Escalation - The New York Times",
+      "title": "Trump Says Negotiations With Iran Will Continue as U.S. Ramps Up Strikes - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE43bGE4OGdlMDhtYm1rUjlQR0RuaXZyMVg1NlhJYXFRUWZ5Y2NNdkFOYkp3dHZmcTdnaElUbXMtR1FqZ25WZ0Z2c016Rk9XNTJSMzdMYzlMc0tDSUtPZ2dudnhLNUtoSzAwVnQ1dzJCemZkcnhOWGtJYy1Dcw?oc=5",
       "source_name": "The New York Times",
       "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
-        "usa": 3,
+        "usa": 0,
         "iran": 0
       },
       "confidence": 0.85
-    },
-    {
-      "id": "d98478f56bc93b7e",
-      "published_at": "2026-07-10T14:05:13+00:00",
-      "title": "Why Iran broke the ceasefire in the Strait of Hormuz and what might happen next \u2013 expert Q&A - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOek40MUVidXNydHd6ZVA5SUJQbjBtb0ctNGJJbzFWTnBMQ3lHaWdEaTlJMXZQMTh0a0lpTVVSM3hWLXlab0YtRHZMbThZd0NDMlJIR1c2VGxsSjVUWDQxdkppclBhY3RoMGhUWTVKdVZoWmc4T2hCZTRLQ1o1alFkaVZmVTJpMy10ZF9pVU0zX3l4a05SWV9IeXZnQkJ5dnVseUlhdzkwWlZhZENqdDFtcGxoeUpXUzZ2dWhfM0x0UjNLNGVORXc?oc=5",
-      "source_name": "The Conversation",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e231197a5bb57d81",
-      "published_at": "2026-07-10T13:58:27+00:00",
-      "title": "Regional mediators scramble to prevent U.S.-Iran deal from collapsing - Axios",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVzJXX1dLRXkyS0xKNWJ4SlhvWlVJczMyRndBTndaZ21BVnBSZ1I0WlRpQjB2bUpES19nN3lvSnlweXVBV1k4V3pJZ1NnZTAzYlhZcjdkTUQtNHJTQ3NnSDJRdEJyYjRiZ1lGWWdaSFRVS1h3NlpqNzJqN1FiY3VBOFNOSTY?oc=5",
-      "source_name": "Axios",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "4cc4d2f8a28ac724",
-      "published_at": "2026-07-10T13:54:53+00:00",
-      "title": "US pauses Iran attack after ceasefire break as Israel reveals plot to kill Trump - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85bDl6a3pwQkxqSHk1X05XdDNaZUYwckk5VlhRTWVYUEFEY09tN2JhbFQydUcwQ1F3S0ZFUUNhdDN3T3d2SlhmTGtLSURIaDFZeC1UYzJKNGlrVF9Rb1ZvdVM5cWJEYVdhWEUzdFhDNA?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "c8a465dfce497e0f",
-      "published_at": "2026-07-10T13:49:08+00:00",
-      "title": "U.S.-Iran tensions remain high after days of exchanging strikes - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWlV2Yk1aWjFZall4cFh3Nk9DRXJBczlRLXI4dGk5SWtDZXdxVVU3eE5QeHNnWW90NWJzeEhYYzEwdnFtcVVoMzBIWnpYblA1a3RlTkM2S1BwNWd3Wl93empzeWhZclhvQXVSZ3YtNks4YTFhVklIdW9ZUmdtWEpPUmVpbzRMWml3WUN5ZlVUaUtRRldJX2VYYlE1UFcxcnBvN21oWVFDaGpOMXBqNnc?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "cbbacd59238b9df3",
-      "published_at": "2026-07-10T12:48:34+00:00",
-      "title": "Iranian Official Threatens Israel Will Be Targeted If US Strikes On Infrastructure Continue - i24NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMVVCbERWUXJwTnROTi1HVHBRTDZmNnJSVzNqdEtTT3VwTG1GTmNnTG14SzI5bjFmbGk1SWQweUowVVBPbjZUQmVmVnBjbHVtR21kVmR2TVZvT3NuWDh6OENfZEd0ZFRka1FzNzNyV3dyc2J3NWxnSW9ySUUzWXJiSEpZUndMcnB5NEhSRkRfU0s2b2FvWkdjRmVPdTljSWQ0aF9NWnJBU2RPVWJJU0VaMnIxMUZzd3h4SkNIZ2tBWHpQOVNWaGd3R0FGRUhnM3JuM25XUjhn?oc=5",
-      "source_name": "i24NEWS",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9e35eb6968f04cf8",
-      "published_at": "2026-07-10T12:24:39+00:00",
-      "title": "Tanker traffic slows in Strait of Hormuz after US and Iran clashes - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTVh5YnZ0bVZOLUxtckpLUWtnQnZTM05sWHRfeXJCMjFNaWVLR3ZlVFR6dEZWbFd3S3lsOXdJemRmNkV6b0lRS2Q0SHRsWmZ3RF9ETndhcURKV3pCbEk1UGVlVExBQlBNRXYySlgzeVUtVUlvcjF3WWFjZm15VlpsZEFjb0w5Q2JPdGpHVkFxaU5oWDNQMFIwb0VCcUlHVHhYSnhtd0Z6NTY?oc=5",
-      "source_name": "Al-Monitor",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
