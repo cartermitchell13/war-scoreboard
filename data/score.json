@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-11T19:34:21.085784+00:00",
+  "generated_at": "2026-07-11T22:09:25.947288+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 93,
+  "event_count_window": 94,
   "totals": {
-    "usa": 53,
-    "iran": 19,
-    "lead": 34,
+    "usa": 48,
+    "iran": 23,
+    "lead": 25,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 43,
-    "iran": 19,
-    "delta": 24
+    "usa": 38,
+    "iran": 23,
+    "delta": 15
   },
   "confidence": {
-    "score": 68.8,
+    "score": 68.4,
     "label": "Medium"
   },
   "event_types": {
-    "other": 32,
-    "attack": 46,
-    "material_loss": 2,
-    "diplomatic": 13
+    "diplomatic": 13,
+    "other": 33,
+    "attack": 47,
+    "material_loss": 1
   },
   "history": [
     {
@@ -82,24 +82,129 @@
     },
     {
       "date": "2026-07-09",
-      "usa": 12,
+      "usa": 15,
       "iran": 6
     },
     {
       "date": "2026-07-10",
       "usa": 4,
-      "iran": 4
+      "iran": 3
     },
     {
       "date": "2026-07-11",
-      "usa": 12,
-      "iran": 5
+      "usa": 4,
+      "iran": 10
     }
   ],
   "latest_events": [
     {
+      "id": "6b14ce98625530a1",
+      "published_at": "2026-07-11T21:15:00+00:00",
+      "title": "Live updates: Race to revive US-Iran talks centers on the Strait of Hormuz - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYMVlvZWhZemtQSGdfTzNxam9JME9jc3RlNy1rUDNIT1lzM0l6ZHlFWGQyU3FpV2JNVXlDRUlMbEVhWi13bHZTSHdfS0VvWkhmTksyY041b19tLUNHajB6RkVHaloxdnBEX0dheGln?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9a3467aecfbfc837",
+      "published_at": "2026-07-11T21:05:25+00:00",
+      "title": "Iran war live: Oman proposes to Tehran two separate routes through Hormuz - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOTZxZFcwTy1SYWVwNF9fbHE1cW5FekRidTZxUE5ickx6M2cwekVTVkc2eTY5ZGh2YWJFcWJRcmYtMnNQT3g4ZjJQYjdGRVpQZGd0LWpFVEh5LU1WSUt1ZlRVaTBsbXI0cEJDWGdOWXZRYUppM0JhTFJvekY2bFJ3MG02S1l6cGtqSVBNc2VRV2FhbkdpR0pKMHFnTUl6ejRZWmVWaUd3WmNVaS04ZVBRV1V6dW81bzBpTmtaUW1SeEE5d9IBxwFBVV95cUxNRm5pVE40OFNwLXdrN0t0STd5MktaVHVzRHhvM3AtekdBVkVyY19UWWpDM2lhRV9rWTVTcklWWVcySWdabWg4QmRlVWw4ajFQeS03RGhZdFpmWkhKT3BnSXI3MEdHZENYQnJIVkhCUmNveEtWT1N4MkhDVVRLSVRZcGpHTE4tQzhaZzZFMTdlT29hdDNYclpWMkI0TFZPZUlqcFNhTjY2eDNocU9aMWU5YXI3YUpjTjJLMlE3NGtIYkpzRXhPWWFV?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0656ef53ed7db20c",
+      "published_at": "2026-07-11T21:03:58+00:00",
+      "title": "US officials wait for Iran\u2019s response to strikes, Israeli forces thwart Hezbollah plot - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hd3h3M3Z1VGh5RjFnZmhXM2JnMFpMdzJ0MXBWbXI2empnUjlOTXF2SEUtT05YbklqaFVJaUhSMFh4SGZUeFBpS3VlMW5Fc1dRcGxyNURB?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bfdc80c1ed874717",
+      "published_at": "2026-07-11T20:22:16+00:00",
+      "title": "Trump trades threats with Iran\u2019s leader, Araghchi holds talks with Omani FM - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSG54YUh5VGxKRWNwU0VvcnY3eXpjWjlPYkxtQ1hkR1BuMnp5OGl5ZDJjYmNRWVgyYlU2Snh3cHR4c0tja0JHbWh1dXgzVDFNVFl6NFAyMUhIVHdfZ1hZUnpiM0xPMFZrUURDUkJiVlk2cTZkb05Wbm55WjdUWVE0ZEhMazhXX2xzc3h1YjZJR2Z5aVFfN1o4SlZRRzRiaUZ5dzhWM2pEM1d0WTE0ZU1RNFBNZWloVmvSAbwBQVVfeXFMTWhBYnJEZjN1R0lLWGM5ZTV2YUk5ZDJNNjNPMlpRYTlUeFBNeVY5TVdOUkRraWUtdk1NVkI1blN0VzAwYXNiY3ZsMEhNNkpjekhkUWZaSUNSREpWWFpNS1VhaWt5N1QzRjREZlFOWDAwY0hyUW1aenBKSHQ5enZLakxrN1Z0Vm9ZYjE3LUpuWDBoV05LSW81VEZZRnp6cUcwSm9rdHRNUXIwNEc5Q2NVWkswVjA1enIydVhJUUE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5390d827f04344a9",
+      "published_at": "2026-07-11T20:02:19+00:00",
+      "title": "Israeli leadership signal readiness to strike Iran again as US negotiators head to Oman - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX2lSb1hPcXFEVm1UUnhEZk1YTlFJZ0gwVmdPVWNwcXpEcVFwc0hUME9JOExHcGdMLXloYm1ISUFpRUk4N19vWWhmbUROZDgzdThuZEhvMkRMNmlVbHY4MWlVU2J4eVp5WjZzZ01KVFF0MFpWM3duT2JIaExRRm5kSl9IQUxpVkNGcEZVM0NZcXN6Z3JjUHBEVnQ0cw?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2d8970e2ce38cb4a",
+      "published_at": "2026-07-11T20:00:00+00:00",
+      "title": "Cost of Iran war grows, as Trump throws its end into question - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE83SmU3QUpEbklCUjBEVlBSZDNKTHpwdVlFWXduZU9WelB1OC12WmpCbGxVZ2NDWDk2OG8tS2VISEM4Umlma0QxMXh6YUZadTI5ZUNtSmtmRXo4ZEtGaDd4NXoxZVhpTVctaGtKT2hMbmlyQdIBd0FVX3lxTE5nN2N1bHMyZk5rVDNUeGdMVXYtS0ZCYzAyUWhlS0VaRHctWDJlc2FkVTRwaWRvLS12ZExNd2o4QTBPQndxZWszdV9nNDV6U0lqRHhqOVZ0YUVaRUxVUW5kV2tCcXFjQ3ZrYWdWZlBSUlQ5Z1dzMVVF?oc=5",
+      "source_name": "The Hill",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2ec0f651b85fcd86",
+      "published_at": "2026-07-11T19:25:00+00:00",
+      "title": "Trump and Iran's supreme leader trade threats as mediators try to save their crumbling deal - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeFNzeDdreEZqVDNJUjEwaVZKQngxRS0xcnhiOENSNVJ6bVc1VHVaWklxMi11UWFtWE5EUFBsU2dnRTVoYXEyM2tiLVVHQWNOcTBNaTNwUEhiNlhfNncyLXgwZ0ktTERHU2xtREZLR010dDRhX0c2TktVQk9KVG1zVU1yNDVOZjdDVmFaeXloTEZRZDlPcUU4SlN4M2cxWTFrbmVXRVpmem9kemVrUG94SXdMTmQ3bTdwZ1RvY0RkQ05YSmPSAcgBQVVfeXFMUGxhaHF0M290TDQzVEVyTFZkN1B3NHU0SFBtMVJIWmZhNVlZNVd0MzMtQ1BsdVAxN2tQZ2hkMFByYkFSUzJrb3dvTmNFS1g1S3BBT1VLa3Vta1RBNmUxTFFhUUg2VWROeVBQc0hlcDlNdy1QSndDVGxyQWc0bkotME1sMG1YbHY3YU4wbkM5N1dpcTY4aUdyNENHX00wWHVHVks2ZjVpZEw1S1pDVWNOQjNNaWY5cTN0RmVqa2hFUFVtZ1RIaEFSRGc?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
       "id": "43781b9b7b97a942",
-      "published_at": "2026-07-11T18:48:00+00:00",
+      "published_at": "2026-07-11T19:21:46+00:00",
       "title": "After leader\u2019s funeral, an emboldened Iran tests Trump, risking renewed war - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWJxa05fRVAtV1pSbll5d2syT04tSmVoV1NqLTZTYkI2ZXpRSTNia19ZNFVXVG50VU5wZEpPQlVRN1ZUR19aeHo5STNjUkxxclZiNFpLZUhkNlY3RHMwNVp3VlFWYU9iOVN5ZXQ1N0lDdkxaZWs1Q0lkaGpzbWRnR25XVlFXNWNHYlZQVjEtYmJWdDI0a3RhUjVYVk9FSlo2dEVmcTljdUcwRWpwbGxQamE4OXl6T0ZMV2p4aUlB?oc=5",
       "source_name": "The Washington Post",
@@ -113,11 +218,11 @@
       "confidence": 0.7
     },
     {
-      "id": "11adb6ce93f25e2f",
-      "published_at": "2026-07-11T18:18:00+00:00",
-      "title": "Live updates: Supreme leader calls for revenge in new message as Trump threatens Iran in overnight post - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYMVlvZWhZemtQSGdfTzNxam9JME9jc3RlNy1rUDNIT1lzM0l6ZHlFWGQyU3FpV2JNVXlDRUlMbEVhWi13bHZTSHdfS0VvWkhmTksyY041b19tLUNHajB6RkVHaloxdnBEX0dheGln?oc=5",
-      "source_name": "CNN",
+      "id": "39f75c90125d74fd",
+      "published_at": "2026-07-11T18:45:00+00:00",
+      "title": "Live updates: Trump says 1,000 missiles aimed at Iran if he's targeted for assassination - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?oc=5",
+      "source_name": "CBS News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -158,68 +263,8 @@
       "confidence": 0.55
     },
     {
-      "id": "5390d827f04344a9",
-      "published_at": "2026-07-11T17:22:46+00:00",
-      "title": "Israeli leadership signal readiness to strike Iran again as US negotiators head to Oman - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPX2lSb1hPcXFEVm1UUnhEZk1YTlFJZ0gwVmdPVWNwcXpEcVFwc0hUME9JOExHcGdMLXloYm1ISUFpRUk4N19vWWhmbUROZDgzdThuZEhvMkRMNmlVbHY4MWlVU2J4eVp5WjZzZ01KVFF0MFpWM3duT2JIaExRRm5kSl9IQUxpVkNGcEZVM0NZcXN6Z3JjUHBEVnQ0cw?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ee32d0332fdccbab",
-      "published_at": "2026-07-11T16:54:34+00:00",
-      "title": "Iran war live: Oman and Iran discuss safe passage of ships through Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQOTZxZFcwTy1SYWVwNF9fbHE1cW5FekRidTZxUE5ickx6M2cwekVTVkc2eTY5ZGh2YWJFcWJRcmYtMnNQT3g4ZjJQYjdGRVpQZGd0LWpFVEh5LU1WSUt1ZlRVaTBsbXI0cEJDWGdOWXZRYUppM0JhTFJvekY2bFJ3MG02S1l6cGtqSVBNc2VRV2FhbkdpR0pKMHFnTUl6ejRZWmVWaUd3WmNVaS04ZVBRV1V6dW81bzBpTmtaUW1SeEE5d9IBxwFBVV95cUxNRm5pVE40OFNwLXdrN0t0STd5MktaVHVzRHhvM3AtekdBVkVyY19UWWpDM2lhRV9rWTVTcklWWVcySWdabWg4QmRlVWw4ajFQeS03RGhZdFpmWkhKT3BnSXI3MEdHZENYQnJIVkhCUmNveEtWT1N4MkhDVVRLSVRZcGpHTE4tQzhaZzZFMTdlT29hdDNYclpWMkI0TFZPZUlqcFNhTjY2eDNocU9aMWU5YXI3YUpjTjJLMlE3NGtIYkpzRXhPWWFV?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9344edd2b4fcc461",
-      "published_at": "2026-07-11T16:51:17+00:00",
-      "title": "Live - Khamenei doubles down on revenge after Trump vows to decimate Iran if killed - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nSm95M1E4cU4xLVlDY2xWUldXN2RfUjZ4RWRYWVo2N3UyVkg5RmNDV0Z0LVVBX282TjFLWEUwVEZWN2FUWkh3MkhJcVQ0U01MLXFnN015WlhIam5JbXc?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "material_loss",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 4,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "25b8452721a6793a",
-      "published_at": "2026-07-11T16:30:24+00:00",
-      "title": "U.S. gives Iran Saturday deadline to publicly renounce Hormuz attacks - Axios",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9fbDF2MXNnVE9vRGkxYndQRE44ZEpSdUFJcE1JMXF5dXoxcm9UTEwwbmc4RlgxMW5qMTVWU0gyZHFjcUVKZnFTOGZ4eVZrMEVRbklTV3Y1b19UZFVpMTlycUlZQnl5M2NYNHlJNXpOdWpfcVE3cVBn?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
       "id": "32973e11c815cd78",
-      "published_at": "2026-07-11T16:15:40+00:00",
+      "published_at": "2026-07-11T17:16:49+00:00",
       "title": "US-Israel war on Iran - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LSVFkclU2MmJEVzNmZUhwajZUQ3JQSjRWSzZrdFlueFBSZEl3Ql81eWZfVVZNbmtMXzJpWFBQNXViRjYyaGt5YTU5bkxYOW5xSV9vNUhiQXhTYmZKamZkLTBsYk50dw?oc=5",
       "source_name": "The Guardian",
@@ -230,22 +275,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "d117648b4063b322",
-      "published_at": "2026-07-11T16:07:58+00:00",
-      "title": "Iran Warns Attacks on Infrastructure Will Face Retaliation - Orinoco Tribune",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNa0dFLXJtc1lRYU1aeEp0aUpVbi1XQmtiRl9DWms3S3czOFA5dS01ZklDUGpzN0MtVkgwRkJhS1NWYVRabUFZOEl2R1lwdlV2RFZKTmE5eGd0TUxZNDY1VldfRjhFckt4QTdUd1Rtb3BVQ0dLS1JjSHlKNUR4NThiVnpFUzU1aUI2aVY5cTdEYw?oc=5",
-      "source_name": "Orinoco Tribune",
-      "event_type": "attack",
+      "id": "7fe6b86158cb68e5",
+      "published_at": "2026-07-11T16:55:57+00:00",
+      "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoS0hYU18weGNjTUZpSzBPTU83Z3lMV1g4YXdGSTM5Y0pjY2xQemxUeFAzX2pfb0xzZ0FzUXB4ZnBXdGxPMV9PaDJudTlCNEk3ZXZ1S3QxU2pSdw?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.6
     },
     {
       "id": "614e582be360dd90",
@@ -260,67 +305,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "2ec0f651b85fcd86",
-      "published_at": "2026-07-11T16:01:44+00:00",
-      "title": "Trump and Iran's supreme leader trade threats as mediators try to save their crumbling deal - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNeFNzeDdreEZqVDNJUjEwaVZKQngxRS0xcnhiOENSNVJ6bVc1VHVaWklxMi11UWFtWE5EUFBsU2dnRTVoYXEyM2tiLVVHQWNOcTBNaTNwUEhiNlhfNncyLXgwZ0ktTERHU2xtREZLR010dDRhX0c2TktVQk9KVG1zVU1yNDVOZjdDVmFaeXloTEZRZDlPcUU4SlN4M2cxWTFrbmVXRVpmem9kemVrUG94SXdMTmQ3bTdwZ1RvY0RkQ05YSmPSAcgBQVVfeXFMUGxhaHF0M290TDQzVEVyTFZkN1B3NHU0SFBtMVJIWmZhNVlZNVd0MzMtQ1BsdVAxN2tQZ2hkMFByYkFSUzJrb3dvTmNFS1g1S3BBT1VLa3Vta1RBNmUxTFFhUUg2VWROeVBQc0hlcDlNdy1QSndDVGxyQWc0bkotME1sMG1YbHY3YU4wbkM5N1dpcTY4aUdyNENHX00wWHVHVks2ZjVpZEw1S1pDVWNOQjNNaWY5cTN0RmVqa2hFUFVtZ1RIaEFSRGc?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
       "confidence": 0.6
-    },
-    {
-      "id": "7fe6b86158cb68e5",
-      "published_at": "2026-07-11T15:45:31+00:00",
-      "title": "US wants Iran to pledge to stop shooting at ships in Strait of Hormuz - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoS0hYU18weGNjTUZpSzBPTU83Z3lMV1g4YXdGSTM5Y0pjY2xQemxUeFAzX2pfb0xzZ0FzUXB4ZnBXdGxPMV9PaDJudTlCNEk3ZXZ1S3QxU2pSdw?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "0dfd95e4fdfacf3d",
-      "published_at": "2026-07-11T14:48:03+00:00",
-      "title": "Assassinations unleashed under Trump haunt Iran war endgame - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPX3hCR3ZVRXA2cjdvZll2eGl1LTRSdXg3SXU5N2FtUUVsZ3pKTFN3cEdIa3hTb1l0V2k3c09UcF9nRVlxazQ3cXVfU0pFUzM0WE5DTGpBU0d0MGFtVGNITE9YZDR6R05LN2pEeVljUkRldVNabmFYZ0NOUllaQ2NrNEtvdWZlaWdNTllYZjZ3M3laVWtxamlrRG5UeUxlN0dqcTJJZzJXekxVeEV2Wnc?oc=5",
-      "source_name": "Los Angeles Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d4873bf06da9440a",
-      "published_at": "2026-07-11T13:47:00+00:00",
-      "title": "Live updates: U.S. and Iran to continue talks after tensions escalated over Strait of Hormuz - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd2FLbExRcUwzLVpNZmVpbGdLVUttNC1uaDFnUmxZS2lleVNqZlI2WDdTOGVvSFc4M0w2dzh4RVdyRlNQWUNnVXRqZWw1WjJDUWdfWmN6TU9XbkNRYVhTX0kzem83cHprdmc4bVRWQThSZDJ3TUVQaE5raDJwMzFMM2FJOTlNQy13UlZPTEJjWVhKdw?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
     },
     {
       "id": "d0b9b18286fd30b1",
@@ -353,26 +338,26 @@
       "confidence": 0.55
     },
     {
-      "id": "fd4e2ff9f3b8baaf",
-      "published_at": "2026-07-11T11:38:04+00:00",
-      "title": "Trump Confirms US-Iran Talks to Continue, Ceasefire Over Amid Tensions - Global Banking & Finance Review",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPcjVXMVZCa1c0M1ZobWUyVkhETThPdExkV3FuUkxZYmhxV2ZvWXBOS2w3bUw5YUtzQ2VEb2xvMG5XTHhxUDVyZGUzRUVHa3Mtblp4OVAyYVY4YXdrNk1NdDAzYXZoX1hJYlhmd04xYXdOY1RkZkVFQWs5QUV1NTNDWjl0dmJnVmFiS0Y3TW1UeUdTRUtE?oc=5",
-      "source_name": "Global Banking & Finance Review",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "5fd5c3846f2c4d25",
       "published_at": "2026-07-11T11:18:31+00:00",
       "title": "Is the Iran-US MoU dead \u2013 or are we asking the wrong question? - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE93QUxVMUUzamhKaTctTjVmNFRPeTdTNTQ4cEktRlVsZEZyRy0zVXprTTZTRFpyWktULVJhNmh2QnJKc2RFSWtPQWxYWkRsODdiMUE?oc=5",
       "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3710707830f3f215",
+      "published_at": "2026-07-11T11:17:20+00:00",
+      "title": "US Iran war update today: Donald Trump threatens Iran after calls for his assassination during Ayatollah Ali Khamenei's funeral - ABC7 Los Angeles",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeXRBbVVMS1dkR1p6cjR0cmhVVkE0NUtpQ1lqNjFZdWNDbFFFNVJBWnRjQ182RW1pYzFxZDYwZ2pyYXhvaXVlcjcxTGtfYkZpeFNHOGs3V1JrM0k1SFdQM0dhS0h1bEs0ekV4LTJrS2tsMTRpRGlvOFcwQlFQeGlad2t2cUZDWGw4S1hPMWh5U2xiWlFQUzV4S2k4R0VrTDFDS0l2dTdkLVhvc05oajRLYlFhNGtFcUREanh4TzZfc3U2UFVMSVIzOXA1YzVCMDJrdmxnbdIB2gFBVV95cUxQUmgweGdOaVdLRWZTMy1WVlBLZW5fMGZSQlNUemc5cGN2UHJQbnFudTRSd3RHc09YVlpva3FwMUhRVkF6V0g4NFJsX2QzNTRkejV5Rm92WHBBUlNPVWs5QnA3MEdNSXBndjcyb1hvSENyOUEzS0tIY0c2NDBvM1pfOUcydlAxTm4tZHVuN2MxNHVzSWx6ZFZ5ZXQtcS1HRGtueGxscTlpOFg2MGNOc2VxcFZlcUNCc1pxaGxLOVJMbWlINkhnNXdxMDNlcnVmMnJkSmhDeVVXQTJxZw?oc=5",
+      "source_name": "ABC7 Los Angeles",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -396,6 +381,21 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "4a5bc61a1784b56d",
+      "published_at": "2026-07-11T09:41:46+00:00",
+      "title": "Trump threatens to 'decimate' Iran, a day after saying talks back on - Euronews",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTjR2RHlTZjZHbzJfV0xyZnd6ZURqdFB3MDVmMlNtWVlNdHQ2MTJ4SnBGdmtqUzRaZUhmUktZRE9QN1FFOGlhMlFPQi1NZXZpb0liNGhCWFRhNFFWZjFXU3hYQ0phNXIzVEQzMFFXc3ZoNTl0anc2MjhOUC12THlPcDVSakNZaDBsaFdfSEUxekZUSXFwSlh5SFZNeDkxeW9tTFo1aVo5V1VDeWNhcWZNODlvOW8?oc=5",
+      "source_name": "Euronews",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
     }
   ]
 }
