@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-07-12T04:01:18.721355+00:00",
+  "generated_at": "2026-07-12T08:32:20.578337+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 95,
+  "event_count_window": 96,
   "totals": {
-    "usa": 56,
-    "iran": 10,
-    "lead": 46,
+    "usa": 50,
+    "iran": 16,
+    "lead": 34,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 52,
-    "iran": 10,
-    "delta": 42
+    "usa": 43,
+    "iran": 16,
+    "delta": 27
   },
   "confidence": {
-    "score": 70.0,
+    "score": 70.4,
     "label": "Medium"
   },
   "event_types": {
-    "other": 29,
-    "attack": 60,
+    "attack": 65,
+    "other": 24,
+    "intercept": 1,
     "diplomatic": 5,
     "material_loss": 1
   },
@@ -67,12 +68,12 @@
     },
     {
       "date": "2026-07-07",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-07-08",
-      "usa": 9,
+      "usa": 6,
       "iran": 4
     },
     {
@@ -92,17 +93,62 @@
     },
     {
       "date": "2026-07-12",
-      "usa": 27,
-      "iran": 0
+      "usa": 24,
+      "iran": 6
     }
   ],
   "latest_events": [
     {
-      "id": "08b287b088ff9178",
-      "published_at": "2026-07-12T03:49:02+00:00",
-      "title": "After leader\u2019s funeral, an emboldened Iran tests Trump, risking renewed war - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWJxa05fRVAtV1pSbll5d2syT04tSmVoV1NqLTZTYkI2ZXpRSTNia19ZNFVXVG50VU5wZEpPQlVRN1ZUR19aeHo5STNjUkxxclZiNFpLZUhkNlY3RHMwNVp3VlFWYU9iOVN5ZXQ1N0lDdkxaZWs1Q0lkaGpzbWRnR25XVlFXNWNHYlZQVjEtYmJWdDI0a3RhUjVYVk9FSlo2dEVmcTljdUcwRWpwbGxQamE4OXl6T0ZMV2p4aUlB?oc=5",
-      "source_name": "The Washington Post",
+      "id": "d0eb20f020bfc82f",
+      "published_at": "2026-07-12T08:19:46+00:00",
+      "title": "US and Iran trade fresh strikes as Tehran declares Strait of Hormuz closed - Muslim Network TV",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTUtxRVZNRWhYaVRidWhCQ3ctYkdTUUFQcTJ5NnBEWkc1QnlUN0hBc3h4ek12SWR1Y2dIWDVGV1dRRjJRb0xxbVlLazJ5M3lRWTYxU25TaXNjSy1lWlRWQVFoRG40bW55eVVMRDl4MVprX2g2S28xUGxaZEpOTjUyVjN1WW1SVmt4T0FiOHozVGMyWGdvM0lNZ0pxdGhySnluM0dJZ0ZrTQ?oc=5",
+      "source_name": "Muslim Network TV",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e0721bf968b915bb",
+      "published_at": "2026-07-12T08:14:40+00:00",
+      "title": "US CENTCOM completes third round of strikes on Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNZjRnaEllYzhjUktLUzNHMTFkb3FBamgxeFRJeHVpellBZHJHYzNTSnFpVkp5cDhibnNBeENkYmtnOXZHX0xSSFN6RGdRMXlON2FybUVBNndYU2gzNUtPN0NTemFxMEc3UWgzOEt0Q2dubWttVWt4VzBldXlfRlFYMEZGRW9xbjRXRFFxaHcwVW5LVDk2aHAzb3YwaWxHemRBRDJETw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e7eed5863de57da4",
+      "published_at": "2026-07-12T08:11:00+00:00",
+      "title": "Iran attacks Gulf countries following fresh US strikes \u2013 Middle East crisis live - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVTlHbUh0dHlVWU1mOWIxbWJjeHozZ3NzeGdYTWFwNm1MQURFM1FUOGVhUGYwUFRfR0pBNVNnUER5N1Vsd3c1UWhZR1RPcTlwTjZWX3lRYnpRRDVmOExaU3dPR041VFdxVy1yUXhkdzQzWDYzMm9QeU9HMGtIQ1pCc0Nyd3QzUHFET1g5aUN2X3V4MzVTa09ReFg4WDJKM2Z2c2NSOEJ2aU9hWXpYZkduN3VySnBLdVRrSUtwdTUtU0NzWG5hWEE?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4a6f6ee9d7522473",
+      "published_at": "2026-07-12T08:07:20+00:00",
+      "title": "Three Strategic Messages Behind Iran\u2019s Latest Operation Against U.S. Forces in the Region - WANA News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUF8tTC1Qb05lNTdxOE85d1NtWU9wUWVFaGwzQ3MxUzBtZHNZVWh5V3JwTUNXcTJVbGtLT1dZVFhZVnNCTmFBVVI1RFVMQndIa1AtVDNGUkVEVXdGZ19yRGI3ZHpZWm5oWmVEWHhFS3RwNnRhcW1PVXlKYjdIMVp5NkN5TVF2dDc3U2l5T2lYemo3a3d4T0NaWVZ1cnZjQXhwMGpUeFk3SlVrWjQ?oc=5",
+      "source_name": "WANA News Agency",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -113,8 +159,143 @@
       "confidence": 0.7
     },
     {
+      "id": "16480c5a8a74fadb",
+      "published_at": "2026-07-12T07:58:14+00:00",
+      "title": "US Military Announces New Air Strikes Against Iran - Fana News -",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNcVhIUC1kUUhKWkx2allRT1BIQVVuTnhnTWN6UDl6eUJ1emZINWR0VFc5X2EtZGg4TlNPNlJGYk9WM185Uy1rTkpNdFItcXpJbUc3b0ZvckRUcTcxSVRSNkhVZEh0U003bFJ6TkJqX0cxN3VRV2FKcklIRmhZTi1PUVB5OWl6bWI1ZTVmZ2J2bUJ3Zw?oc=5",
+      "source_name": "Fana News -",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "225e79b1096e6f2a",
+      "published_at": "2026-07-12T07:57:41+00:00",
+      "title": "Missiles and drones fired at Gulf states after night of US strikes on Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ1BueGpGZTB1RHB3czg0SjUycDRQbmp4NWJTb3RQdE43NkNWWUlmbm9SdGJOTXRuTlhWbTVZeDRhVHg4Ykd2blBfZDdWS2FsQWxOZXJkdHEyTm5jSlQ5U1ZDX3dRSVN6aVg2RDZKVk53WW0tZlZ4NUFDbkFLVER1eHU4bjhnam5jYUJuSFc4OEwwU19YUldRWmFyMVlpZ1BsVkJOTHVZZVJpRExhalVJVTVtcWR1Z9IBuwFBVV95cUxNQmpTY21EcXRXV1pSUGhxYU1kZ25aRlE0TzRidVJWV3pLaFQzOXkxbEdLcW13c2lGUzFzcnhnYm9mNHNjVktJNTA5dDRrN040blprM3VEamgzb3JjaVdXMDJzTVpaemc3Vmg3QkxoMXdpNEhQREZscmpCMTVVSUp6SmVXMS0yTGZXVjJySFRxRHR3VE83NHZ3WnliRGRnVEFXTjZrelNrYmR0Tldjc0FYWkltSmxtY1JLQkcw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "20fb04f7beba985e",
+      "published_at": "2026-07-12T07:55:18+00:00",
+      "title": "Live - Iran says it struck five regional countries as US hits 140 targets in latest round - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nSm95M1E4cU4xLVlDY2xWUldXN2RfUjZ4RWRYWVo2N3UyVkg5RmNDV0Z0LVVBX282TjFLWEUwVEZWN2FUWkh3MkhJcVQ0U01MLXFnN015WlhIam5JbXc?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "aebce81ddd0a46e7",
+      "published_at": "2026-07-12T07:54:10+00:00",
+      "title": "Iran-US war latest: Strait of Hormuz closed indefinitely amid fresh strikes - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWDQtbVBHRGVsVFFCT2Y5VmNfNExJSmxzUjR6NURTUFhQbjIxTXU3U09GQk5hd3ZyMFcxY2pvMmVIbG5YM2d0U044VUZDa3djc2RZZ1ljODNNeERrbVpsTkFDYnZ6RGswWGR0NTJnaEp6eG9JWXNueTlqb1hSOC1DTUg4UTBuSFNiUjFDeExtSDhEMnVHaVZQejNkWEV0c3NEdkE5M2IxSnhyQWRva2VQLVJXa21QUGNCMzdUUWtLa0dKd3NCMF9r?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7568e5d381a8aad7",
+      "published_at": "2026-07-12T07:28:34+00:00",
+      "title": "Iran's Ghalibaf warns 'reality is knocking' after US, IRGC trade strikes in Strait of Hormuz - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE51SmVNWF9XZWxvbWc1YkZ4Q0ZNN3dmT3N6WmpEX3JBRlk5NmgzRDZJMFdnS1dJN2lkclMwREVGdGVDMFRBOGF6M0dwc3ZKcThHZURhc0F2QnRwNHBFblFFZEJyWHNWaGxadlE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "97807b4885bf1714",
+      "published_at": "2026-07-12T07:25:00+00:00",
+      "title": "Live updates: New US strikes on Iran and Gulf nations intercept attacks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91YV9WLTU4cXN4cjF5RWVKc3lJUlpWQ1BjS2RqUURnTzVRN1VhTUthTjBsdjNHZ1FRam1KMHM3Tkh4ZTJBdlhYZTVXeENUWDVkWnQ2NDBHY2xoZGJSOEtmaEp3Y0M5NTMzbDB5QUl3?oc=5",
+      "source_name": "CNN",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5b9dcea8869cdf19",
+      "published_at": "2026-07-12T07:24:55+00:00",
+      "title": "Iran War Live Updates: U.S. Launches Strikes After Iran Fires on Ship in Strait of Hormuz - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iemY2MGE4U3FRNmphX0M1LXF1cHBVaEloTWJ2REZXRTJaTjY3YnVmR0VJZGNoX2w0MnBVLTU5ZHcxYkZXNUNKdjBBQUxTQzFCRjZhT2lOVk56ZlVuUEY4by1rZHVqdXM0clBlVWVzMkM?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "072862d1a15c2a33",
+      "published_at": "2026-07-12T07:10:03+00:00",
+      "title": "Iran closes Strait of Hormuz, US launches fresh strikes - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNVNPY0lhcGZoRXpWWmVWclhKWGcxQWM3OG1ncGdmVkJZbEd6djExLU5nVjlMdk9abUZ5WHJZVThDaWktMi1FSW9DUU0zQ0syN2ctOUlGcU9NUjFwd2w1OWFDUDNZSHRPd1RMYVhvN2lSLVpYUDFEeXEyTnM4bVpGRXVwX1M?oc=5",
+      "source_name": "DW.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3841e2b5d7b69ccc",
+      "published_at": "2026-07-12T06:49:46+00:00",
+      "title": "US launches fresh strikes as Iran closes Strait of Hormuz - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9mUS1jZDJRamh4djBqc2lHbkdsWXNMT3pISTJVNzhHaXNoR21neG5RS2NYb3NhaGRNOVNhbVVCMzJqdVItbU12TV80Vmx1dU03TjN0SGtuMGY4UQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
       "id": "f3ab34c299bb7f2f",
-      "published_at": "2026-07-12T03:42:56+00:00",
+      "published_at": "2026-07-12T06:36:00+00:00",
       "title": "U.S. carries out strikes on Iran in response to attack on ship in Strait of Hormuz - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORUNEd2J3SmxCOVdjblNITm5abTREZkJaOXZIRzFNTWFLaTV4aTBsZnB0MXllclhjQzRZb0ppYWZObmIzeXJ5SkNNNU1QalZPRTZEdFo4Qm1tMVFzSi10YXN4aVMxU2gyOXhhTFE5RE9DUVJLT3JPLXV6OVJ0S3FrTm9jX25HUVJFSmNDZXE4eDZGZ3RVemc4enlVUlFncDh4MXZLUUdWVVpVazc2?oc=5",
       "source_name": "The Washington Post",
@@ -128,11 +309,26 @@
       "confidence": 0.85
     },
     {
-      "id": "0b29ae79920b8d25",
-      "published_at": "2026-07-12T03:19:00+00:00",
-      "title": "US and Iran exchange strikes as Tehran again says strait of Hormuz is closed - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObVFCemdsQjB3LVFnX0JwclJ6M2pWOUhTRzZXU1B4VUdUWDlhYWhwZmlOS0E4Q0JjU1FrcEx2Yi1mN2hXT0tHOTJDSnJSNUh0N0VKT3BvYXZ4UDVyVUhJTVJqV1Y4cnN0VlFyRXRMN3JHcTdselNDT0RId3QyelJGd3lUMjVTdURBSmgyY0RRVllKLU81dE8weW9zczVYZnQ0ZnAwc2M5WElUZFhGbHNXajVLRFNRdm0zYTBaWWV4SQ?oc=5",
-      "source_name": "The Guardian",
+      "id": "08b287b088ff9178",
+      "published_at": "2026-07-12T06:33:04+00:00",
+      "title": "After leader\u2019s funeral, an emboldened Iran tests Trump, risking renewed war - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPaWJxa05fRVAtV1pSbll5d2syT04tSmVoV1NqLTZTYkI2ZXpRSTNia19ZNFVXVG50VU5wZEpPQlVRN1ZUR19aeHo5STNjUkxxclZiNFpLZUhkNlY3RHMwNVp3VlFWYU9iOVN5ZXQ1N0lDdkxaZWs1Q0lkaGpzbWRnR25XVlFXNWNHYlZQVjEtYmJWdDI0a3RhUjVYVk9FSlo2dEVmcTljdUcwRWpwbGxQamE4OXl6T0ZMV2p4aUlB?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "e880a1fcf1246b35",
+      "published_at": "2026-07-12T05:36:03+00:00",
+      "title": "Iran war live: Tehran attacks Jordan, Gulf states after US bombardment - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNUQ3WUlhM20yeHk1R3dza2tqeEh3bFZxc0NoZV9EalJtbXN5eENla21JTGEteThpUmlSSDh3S0dENmRoY3FBcjhLWkZyN2VuRjIyV0xkZzhRcVk3ZHNIT3NtdHlqdTBVYl8zOWFVWHoxWTFleFFJTDV0V3pkSXdwVE0yMlZLSE13V2lnTkhneGlZQ2pDMzl0cTJ3VnFCeW03YkNGSHNrM2d5Slo3N0JGRm5BVFV3WjJrUFhQbmVRUdIBxAFBVV95cUxPaXllUUVXQ1hGUDNITDk2RF9GVjlpOEM1ODlTLW1UTlNkVHVQY3pKSmxvOWVwaV94LUhWa1VUUFRPMUttdlJVclRWTkZ3RllFZFVSMnNtckVoOWp6ZlJ5UzNsTndjTnd0YjJjNjhiXzhzWlNOX0NtMXZ0bVQ1MWhDaF83cEU3TEpKYTdXZVNEN2JuUkg2SWZmcDgzWWNXR3pCTjZIUjY1V1lxc3VaSXBlOE5DN01VSzd3SUJERFVuc09IcjJn?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -143,116 +339,11 @@
       "confidence": 0.7
     },
     {
-      "id": "5b9dcea8869cdf19",
-      "published_at": "2026-07-12T03:16:00+00:00",
-      "title": "Iran War Live Updates: U.S. Launches Strikes After Iran Fires on Ship in Strait of Hormuz - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5iemY2MGE4U3FRNmphX0M1LXF1cHBVaEloTWJ2REZXRTJaTjY3YnVmR0VJZGNoX2w0MnBVLTU5ZHcxYkZXNUNKdjBBQUxTQzFCRjZhT2lOVk56ZlVuUEY4by1rZHVqdXM0clBlVWVzMkM?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "f838487034f80c33",
-      "published_at": "2026-07-12T03:08:19+00:00",
-      "title": "US-Iran conflict flares again after container ship hit in Hormuz - The Arab Weekly",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQMmlDNmJTVWxfOVExTHpXbTJmOEswWUFGWWdTc0ZPcVdJWFpoMm81VnVtQk54WG1RSlJ4eTVXVjlUM1lQaG04Wk5oZFN0ZElZNjdDYlJKTFZucEpNZ2xTcnY2emFnYjVGRVNDa1Q5Vzc2U2lKYW9tcGdlV3dmMzFzeFNvUlJSdmN1S1ZtWi04VWU?oc=5",
-      "source_name": "The Arab Weekly",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4fffd09a54ff8604",
-      "published_at": "2026-07-12T03:02:00+00:00",
-      "title": "US military says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz - WJCL",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1fS1p2RVU0SmRlU0xZZXJ2VGI0X1loMnpKLVNYc0IwWU1GTWUyc3oyNG8ycGFmbHM3azVLdzFFZ0JaOGtWTkQ3eEotUFNXUHc2Q0x5THIxXzBTYkRLMXVSaVF3MjFQMnlVNmtHYkdQX1Q5ZnJv?oc=5",
-      "source_name": "WJCL",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "66acb747f4e63523",
-      "published_at": "2026-07-12T02:55:30+00:00",
-      "title": "US military says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOR25BNG9oYjBPNW5lODMzbnJTT0V5SDYyNjBGOUdubkNjR29PNWFmNGJPaHJicGNVZmJJbDZ3VC11djBDVmZVQ2Y2d3NLM2kyZWdxTDFad04yaE9zT2RkSlJrejFsVGxIM3d5YUFlS19hQV9XNlY3MFJtMzNFLTNLb2ozQ0ZYdnF1dVFYMUVaTFRWYXNTVm5Pd1RpVkFhNkZCZ280a0x2eVFhdFUwcGxKRVFJOVdqOHVFZ1BsVXNKNVdWNjZxNkE1T9IBzgFBVV95cUxNWG9lenF6MVhiSjdjNHhtY3RYNFNzLWI5cmtfTFF4YTd5ZnBmVUpOeXNQRjQ3S0llYVNQdlBBR1EyTVAxSDRKQ1N3dVBmSkp0dGtNdFNwZXowQUJTQldDSHFNM21mX0ptQUlQUndLNk4zelU0VmlQMjJaODVqVkd4bjJnT1FuOXI5NWxxdEdmLVh1Ty1pQ0doV3IxU2lydUZ5WHdUX1lXUjB6dVNXYXF0X05vTzlYUlU4OTdFR09wbVdKUmpWTVgyemVZMEN1Zw?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "a2cd404eef4752a0",
-      "published_at": "2026-07-12T02:46:00+00:00",
-      "title": "Live updates: Hostilities resume after Iran fires on ship in Strait of Hormuz - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYMVlvZWhZemtQSGdfTzNxam9JME9jc3RlNy1rUDNIT1lzM0l6ZHlFWGQyU3FpV2JNVXlDRUlMbEVhWi13bHZTSHdfS0VvWkhmTksyY041b19tLUNHajB6RkVHaloxdnBEX0dheGln?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "38ad8562253bd63a",
-      "published_at": "2026-07-12T02:30:00+00:00",
-      "title": "U.S. military says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz - Santa Fe New Mexican",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOMV9STEp1d0FORzY5cXlCb1pLb3phRWdBMHFxTGs0SGtCSC1JT2xSUmJacEI3bGprRjdvQVFPNkZmbEtNdmxkbFBHb1ZxNnB4UWVudTFncG5rcEIwT3ZFdmdKS0VrN09ucl9pUzNiQXBFQnFfcHIza2tsbzdQTjNER1FvRkk5NWlBZnlWcGlyMUlIbzhsRi1zdGhlNWhEdTZ4S2dhT1pwWFMzcUJ0TEZaaU94WXFzMEVmck1PazhrMlhWUl9NU2czR3FzV0R0bmxySndrVmxvNXJtSmNUaVJqd0xDRVoxdW1OWXBZal9XbG1EMml3ZGxPekFzTS01S042OVRSZWY2Sjd2YUk?oc=5",
-      "source_name": "Santa Fe New Mexican",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "05954122e845125a",
-      "published_at": "2026-07-12T02:28:44+00:00",
-      "title": "US-Israel war on Iran - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LSVFkclU2MmJEVzNmZUhwajZUQ3JQSjRWSzZrdFlueFBSZEl3Ql81eWZfVVZNbmtMXzJpWFBQNXViRjYyaGt5YTU5bkxYOW5xSV9vNUhiQXhTYmZKamZkLTBsYk50dw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b6ad026eb0778ebe",
-      "published_at": "2026-07-12T02:19:15+00:00",
-      "title": "\"Now They Pay\": US Strikes Iran Over Hormuz Closure, Tehran Responds - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeFBuLXJMaHFFb0V5NU1FeEUwSEx6S1ByNXNiVjJlR3V4MUd4YV9mcEV3VzhHU0xOeGdLZnlFMVRiVG95d2ZmVEltWU41SnhmZlhabDNpekJaZTlvMVk0MERVRTJpMGJRRS1oQkp4SUZzcGlEaW5ZcmhaLWVneXh0RHZRSXJDOF91c01iSllVVDYtcWdrWjVBTlZjRGF0OHkxU1hhcWFkbG91VTlFX0VIUGpoRWtpajVHNVE4c1N1SFZTWXB2U2U1RGxGUTVLd9IB1gFBVV95cUxNUm1MWU83cVB4NWtndjJPNnI1aUxocU02azUtZGh5YWJidGFEMjBSRzQ0Zm5GWUlRbWxOTm41LUlNSzNIMUswVjJpUUZxeEtrZjI3a09zSVZ0S3c1TnVVc1phZklEdnI4WG83eTVQS080TWRzZFVxdWpTLVBoQ2NUUUVZSFRSeFJoaGVkWDI2LUt4MlRiZ1VjdHJrTUJESVROVE40Z3U3V25MajNnVXBLNHNkQTdDTHNlbzFwaVVEUWhNSkJQWnQwcFFEQzcxMVFoUXVwWnB3?oc=5",
-      "source_name": "NDTV",
+      "id": "e22e88001932ba7d",
+      "published_at": "2026-07-12T05:35:42+00:00",
+      "title": "Iran widens Gulf attacks after US strikes 140 targets, warns \u2018era of one-sided agreements is over\u2019 - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9wQTN1a2JpLXh5S2RVN3o1VzdiWXNqTW5XSEtJaGRSR2RmbGREWWgzTEtISlpZcnJOVk94blduTHpuUXBscnFUa19VVkFfSmZsWFhFZi13?oc=5",
+      "source_name": "Ynetnews",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -263,26 +354,11 @@
       "confidence": 0.65
     },
     {
-      "id": "a8cfbcb41c59141b",
-      "published_at": "2026-07-12T01:57:54+00:00",
-      "title": "U.S. says it is striking Iran in response to attack on civilian vessel in Strait of Hormuz - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZkZ6RTU0OVJtdmRlbUtQTUVlUjFCLTQzNTlFTmlsblYzTUc2ZFRoX1M2MzV6blE2YlRaT2tlczR1REU2Z3BkdVhOZlh1UWY5ZkFGX0d6aFY5U3ZfM3JRcTdfWlJTakJqemJFcVoycUdzcUdyUDJsa2hIZFgxUW1zUVd2TmlmQlprWGlIVmctZFIxcmk1N1htMzVR?oc=5",
-      "source_name": "Los Angeles Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "7d0480e6c8b8d705",
-      "published_at": "2026-07-12T01:53:07+00:00",
-      "title": "Iran attacks ship, announces Strait of Hormuz is closed \u2014 and US strikes back in response - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQc2FqNHhGMHpBV2Y4Z1p1WG8yZTRDeXcydlRkZEFxU2QwN2l0b3Q2cFQ5ejdPRVBKTjFkMlVObVVZZ1VsdVRDMzNERXctWTltQzVlTC1iYk55dkRzZzZoeFVqMjhZN2MtWGNLSnV0bHZObVVPUGVzREpnT1lGVTJvbzFlZVZJc21LSHo5RFNRUjdTNDQ1ZHQ5eXpiU2pjVGxrMkJiVEVXbE9EX0ZSMjN6bDZhVkhpaDl4UXVmNkl3enRCYkZTbnRjU2V5MnAtc0FqZlhV?oc=5",
-      "source_name": "New York Post",
+      "id": "09e62729da88fd7e",
+      "published_at": "2026-07-12T05:14:00+00:00",
+      "title": "US says it struck 140 Iranian military targets in new round of strikes - Al Arabiya English",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOWFJNeUVSUGtwM2l5dnBFbUhWLXdFN1NabGpCT3JHSzhZODIwTk1jY3FmOGI1dG5jNW5LdHk1SWx4NlJBT0hHVXhkSkU0Y2VxaEhqQzV6LXNOdFdHQTVrcHAycmJmZlR5SFJzUUd4a1p4ZlpMZkxFbld0QWtMWlUtek9QUHdXX2FwSjVmSWtzdmtvZldIMURfbFVZY0VtMVpjWHFPbWJ6NTdzTldzWDQ4QVJMaWM0UHQxY3piY1lITkU1b3VOTjZJWNIBzgFBVV95cUxOTEdtRGxsV1BLaGZwTC0wWmpUNE9vMm5iTUJjbGV0LUZKaURwZkRJQlc2NnlFeEQ4WjkwQWN4MjduanN2VnN5alVJRzdhdVBJLURlQ0F2UV9JaG15ckFhWDh5VVdYRFllNTdhYVRDLUduR2xyQmVUckpuMkk3X0hzd1Z5NVUtSGI1Z3RZNDFuWVl3S01RcDd0dUpldnRnVi0zOFJZR1FYNk1zNWRYcG5zVkFHcHVUSTlNa01CSWNHV21WSzhEaW54eXRQdkY1Zw?oc=5",
+      "source_name": "Al Arabiya English",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -293,11 +369,11 @@
       "confidence": 0.65
     },
     {
-      "id": "efa40a34bad66a94",
-      "published_at": "2026-07-12T01:47:15+00:00",
-      "title": "Live - US launches third round of strikes on Iran after IRGC attack on cargo ship | Iran International - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nSm95M1E4cU4xLVlDY2xWUldXN2RfUjZ4RWRYWVo2N3UyVkg5RmNDV0Z0LVVBX282TjFLWEUwVEZWN2FUWkh3MkhJcVQ0U01MLXFnN015WlhIam5JbXc?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "id": "91bb4ad83eaa3b38",
+      "published_at": "2026-07-12T05:09:45+00:00",
+      "title": "Iran launches attacks across the Gulf after more US strikes - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ2pxdWtFSDRQZnYxbGN3V05wYlY2aGlRd3o0SjVTeVUxV3VvVUdyeGotWWZnTjBPMTlCN1IwcmM3ZzlXbTJnTmc2b1FrRXhIXzl4TV9mbVFrTjFObUZPeW9uMUlFVkJnMGgwU1ZReVdxQVJRenBubmVaV2RVOVZ6dmN1QmZhallSeEQ3Y2Zpa2E3aXB5M2FxMS1wVTdpMlJQU2J1U3oxOF9TbERacVpz0gG0AUFVX3lxTE1kT1Vyd1dvUURZOFlqNm42SjB5VkEzOG5UQ0N2bXJJOHA3Yk9nV2dvYnlHcmJnVDU4T2JFMFhVY01BekNSV2lqc0g0U1N6ZzBpVlpnYzVUYkExbFRDZVQySmVpTFZQODAtYm1udHZCSXdVQVNsQWFQNEFvTEJNNVdqU1Q3ZkZLVV9JbWFfcU9hbi1VaGc5bDIyZEU0dUNKVVZPTkk0dVc5VG5hWGlXQzRHLVBEeA?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -308,56 +384,11 @@
       "confidence": 0.65
     },
     {
-      "id": "8a51656d39cf6f8e",
-      "published_at": "2026-07-12T01:32:36+00:00",
-      "title": "US attacks Iran over ship being hit in Strait of Hormuz; Tehran lashes out again at Gulf Arab states - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNOTItUGhuYV84YUJDLWliSTBhLTZfS3JPYkpkT2tneGZaZFdYTjdpNjJpTTdYMG8yamppaXBTYjVQTWVwRVl3ZnV1bVVSVzZ0ODR5RmNfTnJWY084ODFhVUtxWnhwZXB6R3VOUDlwZFpiZFc2ZEtlN3lod2NudGlTR2lTT1ZvQWdfb3Nj?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7229ea26c557157f",
-      "published_at": "2026-07-12T01:32:36+00:00",
-      "title": "U.S. launches strikes after Iran fires on civilian vessel in Strait of Hormuz - NPR",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOa0NNZzNNS2oxMndHeHRtTXFsc3hDQVh0X0xOWDFOVmgycFg3VWRTMndXRW84YmV5UndjQVB4V0dHUWpCX2hsWUZWMnJ4UjhQbFkyd0lacDRNdFI5d0JpRUJJc1BlR05yWHMtSjRTLXEtbXJ0d2tRRUlZQUtiSGZKM1lNdzA?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "a9c0640a77cc54a0",
-      "published_at": "2026-07-12T01:31:00+00:00",
-      "title": "U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xaHdRYUx5d3FNZW5XV0xzVHpEbUdmMnl2MEI5eFZoVzF1cDRDTUplVWJ5YVhPTlR6bjR6SHJPV0RIODNVWFRxMWNDSVJtSmRpTG4ycW1KU0ZmclV1OGRXeFZkdm9QcGhPNlAtZzFiSTJBRzlsZVNNMw?oc=5",
-      "source_name": "CNBC",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "808939fa710cd6f8",
-      "published_at": "2026-07-12T01:30:33+00:00",
-      "title": "US launches new strikes on Iran after container ship hit in Hormuz - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQX1hCZFBQekxVLUs5dzJPTUF5bkl2X0doMGhDb1E4V0s0UVdwOHJhRWJycktrRmZPZVBKaFdQU2lkUWZucGpwWk9iT21sbVA5MUZGb3FJUnN2Yk1lTUlqSThLYnl5aE5LQjR5TV9YdDZ6VV80YUFkRFBZWnN4Si1vd2d5ZVJpXzFaS3RlRk8zN0VyazdxcmNNTmFlb3lYTjJOSmRha0kxTUM?oc=5",
-      "source_name": "Al-Monitor",
+      "id": "8123f47f24356fcf",
+      "published_at": "2026-07-12T05:09:45+00:00",
+      "title": "US forces launch new strikes on Iran; Tehran closes Strait of Hormuz - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQWkFyZDBTeDMzM3B3Sm85MkJ4MDJveWVKX3NuZnlBNUJRcklGWmphQ2hDa3JuNUpOcjZ3R1EzX0FlZ0FKNThoXy1oU0FQZDhreEtlRlA2T0RaQm9kYU94Vkh5eVRiTVR3OHRNb1lnc2hMY3JGUDlPTV9sckxUOF9RaXVNcnAxQUk5MmthTjVPWTJiM2MtbjcyZ0JFLXlQMWlPNTM0RXh5TGowdUVOalVTejAweVZzR1dsQXfSAb8BQVVfeXFMT1hVM2xFbGkxN0h0RjlhSHpOdlhwdlhXWEdYNVRWQVVPT3dZVjhPOU5NTmtkdEhCakh6eEw0ZkV0QkdpMnJMUFR1bUtkeWo4UnZZY0t3YVRiaEhyNmtmdjBTeFR3Z1ppX01ZUU9TRmNYWEtCaTlrdXcwZFFPYzRTQU4tYXNnVzVUdkFsUXFtNTRwN2Vnbmo2VU1odk5IMDY0YU1sRVJhenhvUElSQXhWZTBFMzM1SzlWcExESGFIZkU?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -366,36 +397,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "5308f7087c08aaed",
-      "published_at": "2026-07-12T01:22:10+00:00",
-      "title": "US Military Striking Iran In Response To Attack On Civilian Vessel In Strait Of Hormuz - Eurasia Review",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPS0VRRjhGMEViX2pVM2pVYThUanlyQ2pRbjJLTGJSMmFITmJTWWRxRFFfR2Y1UHZ4WU50T2RRajI1cDdaa2JkaUhMZy1hOURnN2FvekxDWm9DbGdTMlZPUFZUUUR4MEp4R094UmpjNGFZYWRZcnJuZ1ZpVHB3blg5OWEzUHgtdTI4ZVUwSW95eHI1MGlLeHNGa1Z4R0tUYndfeTNNUDdodWc0NmpiSkJnNm1KbWtIVlI3U0diV1BhalM4WE5C?oc=5",
-      "source_name": "Eurasia Review",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "daac16379b78c795",
-      "published_at": "2026-07-12T01:16:00+00:00",
-      "title": "U.S. Launches New Strikes on Iran in Renewed Standoff Over Hormuz - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRFdrOUVRUGRhWjRkUTRKMHIyMGE2NDA1Qk1sYmoyRlVSdS1ndHI1dHBRLVBqdDJUYlg5RHR4aktvYWpydkZjSnFOUXNQXzFFMkVTQjBjTXdlU2l2TFhBVXNsOUpxem1vdklsOFVwR211Vmh5MkRQQV9iMTVmMWxGUWVDZXJDN3JXb1BWektnMEdmdEFnV3lVTVYtZ2ZLOUdrN3hwa2RPRGlHTzQ5SUYw?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
     }
   ]
 }
