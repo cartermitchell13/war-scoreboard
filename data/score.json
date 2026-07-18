@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-18T19:34:31.528289+00:00",
+  "generated_at": "2026-07-18T22:09:10.412746+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 103,
   "totals": {
-    "usa": 49,
-    "iran": 25,
-    "lead": 24,
+    "usa": 40,
+    "iran": 26,
+    "lead": 14,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 33,
-    "iran": 22,
-    "delta": 11
+    "usa": 27,
+    "iran": 23,
+    "delta": 4
   },
   "confidence": {
-    "score": 69.3,
+    "score": 69.1,
     "label": "Medium"
   },
   "event_types": {
+    "diplomatic": 2,
+    "material_loss": 4,
     "attack": 75,
-    "other": 19,
-    "material_loss": 3,
-    "diplomatic": 1
+    "other": 22
   },
   "history": [
     {
@@ -72,7 +72,7 @@
     },
     {
       "date": "2026-07-14",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -92,14 +92,74 @@
     },
     {
       "date": "2026-07-18",
-      "usa": 6,
-      "iran": 19
+      "usa": 3,
+      "iran": 20
     }
   ],
   "latest_events": [
     {
+      "id": "73aa6dd37f635b8b",
+      "published_at": "2026-07-18T21:35:47+00:00",
+      "title": "Iran war live: Two US service members dead as supreme leader issues warning to Trump - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaEZnOGNhbTloaTRkdzRxOEZLa21rR3FXY1FHaS1XTTF3OUFCdFhoUHNSZi0zc081UnA0cnFwTW5oWjNZMFRlSFF4LXlReXd5c3Q2NUQzLVdZZkpTeHduR3Nycjd1cDM1ZnZEaVZtYnV1RWhHSnJJY0xhZ1dlSDQxUmNqWUtmdTlOMC0xZHJ6MTcwLVZBd0ozZGVTemtqcURzYTZ6RTlObzJzOEZRZzdRWDBjdHFOa0RvSXZz?oc=5",
+      "source_name": "The Independent",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "828310a6da8fe7ad",
+      "published_at": "2026-07-18T21:19:43+00:00",
+      "title": "Iran war live: Two US service members killed in Jordan and another missing - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "9798a40ba4ab7e98",
+      "published_at": "2026-07-18T21:17:18+00:00",
+      "title": "2 U.S. service members killed, 1 missing after Iranian attack in Jordan - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHdrMGtDbk9GejZad2dqd0k2TWVKSnYxcVhpVHNPbDVKU0xyOEJSXzhHbzEzTl9EOE1jVjNSZnIydVdObUFCNXEtZXN5dW1qU2RfUXdqX28zSVJCaE1vTkN1NHA1SjZiMHVzNUt1VkdKVTFoZ0tPYjJZV3hJLU81OTVxRGgwMGJq?oc=5",
+      "source_name": "NPR",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "82e4dd83027dd3d8",
+      "published_at": "2026-07-18T20:55:00+00:00",
+      "title": "New US troop deaths, Iran\u2019s MoU suspension push war into darker phase - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FbG1UbV93cmVRRFktQXZOUTU1NDJoU1kzZlkyUGtPLUh3blhlTFN4eDl4WUNOTGtXQWxLSWFLbmFxUkZlRkFlQVBWVVd3TjFkc3c?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "16e91e2ee933443e",
-      "published_at": "2026-07-18T19:20:51+00:00",
+      "published_at": "2026-07-18T20:50:51+00:00",
       "title": "2 U.S. service members killed, 1 missing after Iran attack on Jordan, military says - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUDhIaFk3Yi1tNnR6Y3Y3QlhhUjVKSEp2bWJrLVJGQ3kyZ00yUUVrZ3AtV2JRS0ZmN1dCU25CUGFwNFVYLTd6QVRRV3dzNlpHN3lPX0xSaWxpX2laSkNxWmdKQnhNU25BRmJFNXFHM1lHZFJIckZnVllzenNRS081NWhpR2xVQ0ZfT0NDXzV2M2FTdHlPUXpPTWdRdXBKR0xJOUdqWUwyYTN2Rlly?oc=5",
       "source_name": "The Washington Post",
@@ -109,6 +169,126 @@
       "points": {
         "usa": 0,
         "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "daf7cc305f92e587",
+      "published_at": "2026-07-18T20:49:31+00:00",
+      "title": "Iran threatens 'unforgettable lessons,' as two US troops killed - Le Monde.fr",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOeXFZaWwzM0JQNTlZYkV3eHczTHNCVkU5QzVPNEJRSXVUT2RmeUhpY0hKWUVJbXJmNUtDdGFCRVFXa1RiVGFobjRVRXRMR01CVWw3OTctOXg2cVJ6a01mYTZvdE5kMndPOWtObG1CUGU3M3pCWVc3ZXhzS2twU3FVeGVmMGhMdVlsZE1JY0tXWUJmYVc4aUhna29NQTVuVEFBZWxCZEc0ZkdHY3FHcmpQWmIwVkk2RGRLV19mcDA5YTV1XzVDZHNGbGNydDRXZms?oc=5",
+      "source_name": "Le Monde.fr",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "aea1dbd5093c981a",
+      "published_at": "2026-07-18T20:41:00+00:00",
+      "title": "Live updates: US service members killed in Jordan during a week of renewed fighting with Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtMGlzV0M5eFNoa21PNkMyc0xxNmZTOEpMOU5Lek9MNFpvOUc0a21SbkpMOFpjbXhzVEtMU0o3SG42UHZjUl8wMHdvSzcxbE1lbzE5dnBhaDRtbFRINzVxLWdpQ1l1Z0YtRG9yejdR?oc=5",
+      "source_name": "CNN",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "2b527fed63d147eb",
+      "published_at": "2026-07-18T20:31:01+00:00",
+      "title": "Jordan Is Becoming a New Focus in the U.S.-Iran War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYjJpX0J1a0pBNnFRc3B6V05UbmJ6S0VobFpudlVJMUdWU1BGZmljdkFMcm01LVRQdHpGNHNsVWRYT3hTeFlIdjNjM2pQRXl6bjhsUkRncm9aWGlfbDhtNGZ2MzZlMDlBZlhfeGFpTGcyRjNLSTloa0ExcFl1MkhmYzR2dUxSb2s?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "d424e0265bc14496",
+      "published_at": "2026-07-18T20:31:00+00:00",
+      "title": "Iran War Updates: 2 U.S. service members killed in Jordan defending against Iranian attacks - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTms5S29XQzlnbjNtVi1RXzJ6WUtBLTVIVlJZVnhMbFVfemxMdmpxNlhqV2k4dkRHemU2QnpLcFNjTWRjN2NzLW4zTk9vbmFSOUQ2ejYzRVBGbC1hN2RaQWhVaE9EalhzUl9mbFY4WVFPeDRwVkNETGtEQnl3VHNpc0steHVaT3lLdFdESi1kWlIyUHla?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "c8585764170d4f1a",
+      "published_at": "2026-07-18T19:49:00+00:00",
+      "title": "Two U.S. Troops Killed, One Missing in Iran Missile Attack on Jordan - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMl9xOG02Si12Z1duVWRuUVFYNk40WGNXNWhwZk5qTjlOUVR4aDVGVW9qeG5pcExQcmlTRi1YZjNOcndLVWJGMmhtbnNQc2F2dFg0d29teWsxUVNGbTQ5SHI2QU5fa2Q0NFNXQndyYWlET01zMDZwUWc1NUZRS3ZFS1dXYS1jUnlKU0dDcGUxV08xUVhDR1V0RF9qZl9XX2xlLVBKM1pZZ0drY2VYMnBqSFN4SGdsVUxhNTI3VXJ3?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "32c9514fc77fd271",
+      "published_at": "2026-07-18T19:37:51+00:00",
+      "title": "US-Iran War Live: Mojtaba Khamenei says US breaches show Trump's signature is worthless - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYjdPVEFzMG45YURycXdaZzJTQ1lyNmhYMGxsSkNZc2xscTJLQ0phaFhkbGN1NmJSelpzaDR4MzlPQ3NPeno3SkoxMWdNa1ZSZXRNVXFKSExCSjJiUWRuaDc5V0NEM0pydHlaUWtPZ2p6Z25NNWhvVUx6ajZBRW9JRm5VVHl0Q2lTWmU4Zkc3cDdWMlRFeXpmZjlHMU8yQWZTd1UwdTM2VjlKLXFudGJQNDVraEl0Vm5LWWc3NWZFaWQyODRfSU9GM2hOb19ER2xKYVdyLVRvem96NFNxVUxuXzJ30gHnAUFVX3lxTE5fVVNraVVKRUJVNk91dkZSSzIwM3l3UVF2S0FsX3hsNXEwUlh5N0VUcHAtanJyeVFlbHZQVS1RVFExSGhGa3JocUNFZFhlUkNZTXNlWFFzOFRPZTZVUG1KTjY3WEZqWF83R2Rhb2lZTHFWVmRlbG1OVklIREI5bUlxVTB2YzJQRDFOcXlPMDJxalg2SS04cms1MV9yM1BpOHVqRC1YUUZ4Z0tPWHl3TzRkcEljUXV5c1FEY2Jnd2FzRVBBMzBncmFtNU13eVhoR0NMOTdTN0dpbFY2cThyM3RDZC1tV1Y1Yw?oc=5",
+      "source_name": "India Today",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "37bd606f5baa8638",
+      "published_at": "2026-07-18T19:19:31+00:00",
+      "title": "Death Toll of U.S. Service Members Rises to 16 After Iranian Strike on Jordan - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcVRXVlVqTjdFemN0RXZhN1dhS0FOOUJSQnJRVU5iTkx1Yjc0blVvUVduTVEwc2VhVFhFdnJVdms4OEppdnJEMHdNeGpNcWdKQ3ItdmVEWTVTbllEbHdiQzk5WHo5Ry1pdkEzVkVIM3BKaVNkVVlSQU54MVotNnI2UEhfNjNYVlpiQUU4SzcycC1aYmM?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "2ea6519bbecad789",
+      "published_at": "2026-07-18T19:16:00+00:00",
+      "title": "US military says 2 troops are dead and 1 is missing after Iran attacks a base in Jordan - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbS1jN0tZcUtrbk9GU3RKeUxqTHM1Qk5DUDF1VDBVOUVqaVp4QV8xWGhEMmtFV3JRRDc1SXlxalZwcElvUlBXQk13R1NPdW91eUFNRF9UT3JRM3ZHTC03a2ZaZmg0Z2tJdXdCRjVMUml0eWtTSWFLU2U5WGxIMHBNSG1hb2dTS3VLak0zVXdZdHhKY1duRml2MW9Ea0xxVlU?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.8
     },
@@ -128,49 +308,19 @@
       "confidence": 0.8
     },
     {
-      "id": "896a58224512bbca",
-      "published_at": "2026-07-18T19:06:00+00:00",
-      "title": "Live updates: US reports its first military deaths since March after a week of renewed fighting with Iran - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtMGlzV0M5eFNoa21PNkMyc0xxNmZTOEpMOU5Lek9MNFpvOUc0a21SbkpMOFpjbXhzVEtMU0o3SG42UHZjUl8wMHdvSzcxbE1lbzE5dnBhaDRtbFRINzVxLWdpQ1l1Z0YtRG9yejdR?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
+      "id": "d0e3dec9ebdfe957",
+      "published_at": "2026-07-18T19:05:31+00:00",
+      "title": "Iran supreme leader warns of \u2018unforgettable lessons\u2019 if US attacks continue - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNd0ZOdFAyZklEbUthaUZXa1dHWHVFRlhPcmRrMGxCdHpPT015b3dERXp3aEstOS1jNEhiQnR2bkstQ2pob3Y4czJEREpfcHRXUnpsMVZYTGg0SExmS0xmVDgxS0pZWHZBOXhvQUQ4NXhSM19zcXpqZjc2bXdGYkdzemRGZFNYR1BsTDlSYmhURHNoM3B2aHRld2ZUWnh6cUpKcU5KVU9WNWZvak5QUWtDdXA5WlnSAboBQVVfeXFMTTQzY0dCUl9hUmxMaEk3M0xWdEZjTHVLM245LXc3TmZCbEpzQTJTaXVfRWFBMTc1dUxsU2hVV1Ryelp3VUNDdnRmNVNacEpxbHFqZTBrOVpQSS03SEdQUW43cGVTY2VuT08yZlhMbjBNY0lIZEZ4S3EtLTJfWFhVOWJRM3Z5UE9tUHVUdGFxelNRa2R0ajJNbHA1ZTJleVZjNWx3RGQ2SndvV21PSUdXemxscXBDNFpVSV9n?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "1851ebb65639d355",
-      "published_at": "2026-07-18T18:55:03+00:00",
-      "title": "Iran War Live Updates: 2 U.S. Service Members Killed and 1 Missing in Iranian Attack on Jordan - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVTFHUXljM3RIal94ckFqUE55T21GbWZDcExRWWlWQUU4cDlFLXh2LW5HTE9IZ0VTWC1Wb2ZubXlKU0pXd29wQ1VsZjgwNUVhcGJkVnlibzhJbzNHOHE0LUNTaXlyd2ZSY2tTN3duZHhOdnJMNjRWcjB1WW1uNHdNdQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "55db0560fda2e54c",
-      "published_at": "2026-07-18T18:55:00+00:00",
-      "title": "Two U.S. Troops Killed in Iran Missile Attack on Jordan - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQMl9xOG02Si12Z1duVWRuUVFYNk40WGNXNWhwZk5qTjlOUVR4aDVGVW9qeG5pcExQcmlTRi1YZjNOcndLVWJGMmhtbnNQc2F2dFg0d29teWsxUVNGbTQ5SHI2QU5fa2Q0NFNXQndyYWlET01zMDZwUWc1NUZRS3ZFS1dXYS1jUnlKU0dDcGUxV08xUVhDR1V0RF9qZl9XX2xlLVBKM1pZZ0drY2VYMnBqSFN4SGdsVUxhNTI3VXJ3?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
+      "confidence": 0.65
     },
     {
       "id": "3aa44ad53dc5b4c6",
@@ -185,14 +335,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
-      "id": "d424e0265bc14496",
-      "published_at": "2026-07-18T18:27:00+00:00",
-      "title": "Iran War Updates: 2 U.S. service members killed in Jordan defending against Iranian attacks - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTms5S29XQzlnbjNtVi1RXzJ6WUtBLTVIVlJZVnhMbFVfemxMdmpxNlhqV2k4dkRHemU2QnpLcFNjTWRjN2NzLW4zTk9vbmFSOUQ2ejYzRVBGbC1hN2RaQWhVaE9EalhzUl9mbFY4WVFPeDRwVkNETGtEQnl3VHNpc0steHVaT3lLdFdESi1kWlIyUHla?oc=5",
-      "source_name": "CBS News",
+      "id": "a2dd7c6f57eb58c9",
+      "published_at": "2026-07-18T18:47:00+00:00",
+      "title": "Two U.S. service members in Jordan killed in Iranian attack, U.S. says - The Detroit News",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQQ1RfZXlJc1FSRmZYNHZkVHJGWWZsLTNTWkFxeFRWOXV1WFlPWE1kd19VUm82WDBWZlFPeF82WVBKbmRDa2VTNi1ZS09ib3ZyVGpUQkw5c050bjRPR0JKS3dFaS1zTzI4YmJUbHVreWpud3dvM2hSZ09wNldlZkRTeGVtd3dVU2ZlMmZPUUdheE5rY2ExTHN0cHZMRWQwS2pFS3Zoc2ptRWJYblpaeThxajlyYUVFZlBaaEE?oc=5",
+      "source_name": "The Detroit News",
       "event_type": "attack",
       "actor": "iran",
       "target": "usa",
@@ -218,11 +368,11 @@
       "confidence": 0.8
     },
     {
-      "id": "ab5f97fa07030ab7",
-      "published_at": "2026-07-18T18:25:00+00:00",
-      "title": "U.S. military says 2 troops are dead and 1 is missing after Iran attacks a base in Jordan - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQ3JISjVhU09hRnRaRnlUT3VMb3lSM0hrVmtmTGZBT21IVXoxS2I4ZFZkTzFTeDFLaS04SzZpNkFSd21RUG1vcFZrbklTa2hVZVBoVEdmUGw2RkMxSGczVkNEUFlMM0hUcHhSYndJNV9NYWoxMkJnQ051SnNGby0xbWZIcmthZC1iM1hCaUlxaHBkbE51LWZ1c0JJckVRcjNNZ2pXend5SlR2enNPUXhhbUREYVN4X0lwc3NiV1V0YW7SAcYBQVVfeXFMTjUtaWRqREtKekdYRDVaOWVSNVZCRUpDQ19OZWtsNXVQdVRJeF9HX1RrRUxkUVljU1JTc0otQzNrZTd0NjlpcHQweUh0NEp2Tk5JS01ISkt6QmZPM2FLdXFYQXozUjctZ1pudS0xODlTaDBVR2U0YWNfTl9HemdBQXBYSXdCc1ZLdkxaUENGekdTazN4a0k0RmV2eEJHMURfYlVFRE9OZms0aExXRmtMcGZKdEhyM1BrTWFiRmN5SUJyU2RwcTVB?oc=5",
-      "source_name": "PBS",
+      "id": "4853e458d6a2daa0",
+      "published_at": "2026-07-18T18:14:03+00:00",
+      "title": "US-Iran strikes: latest developments - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRUQxQXd1VGJkdExHakM3S285SWp5Ykg1UjZoX3dsa1h6dFlQM0hmVWl5MlBpUk5WaXV2OVFjNFQyYWxoU2JlN21qWmoySVBfclBSMEVkS1d4U1dqUDVzR29heW1oSzlPMk5PdjdsbWc0N3ZDUzc4cGQzMXA5eVg3NmVyQWNheFQ0ODRpMjBuaUJoNzE1eU5J?oc=5",
+      "source_name": "Yahoo",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -230,26 +380,11 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.85
-    },
-    {
-      "id": "9798a40ba4ab7e98",
-      "published_at": "2026-07-18T18:14:11+00:00",
-      "title": "2 U.S. service members killed, 1 missing after Iranian attack in Jordan - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcHdrMGtDbk9GejZad2dqd0k2TWVKSnYxcVhpVHNPbDVKU0xyOEJSXzhHbzEzTl9EOE1jVjNSZnIydVdObUFCNXEtZXN5dW1qU2RfUXdqX28zSVJCaE1vTkN1NHA1SjZiMHVzNUt1VkdKVTFoZ0tPYjJZV3hJLU81OTVxRGgwMGJq?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
+      "confidence": 0.65
     },
     {
       "id": "eaafda505496df0f",
-      "published_at": "2026-07-18T18:11:15+00:00",
+      "published_at": "2026-07-18T18:12:53+00:00",
       "title": "US military says two service members killed in Iranian strike in Jordan - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMnJZeFhCVmRDeUFKZC0xQWFqZGhWR3JjYmg2SXMyZElGVTI3RWg4bmFVdUY5UFg4dkwybURiQmlNcFlOelZiemdOcWswNUp5QkpKWEUweEpXcFplS3dTcVMzNmVkc3lUY1R2QXQ3THh3Tnd5UFFoYmlGYzJQYkhZZlRPcXVNTWxfX1pKS0drMzRiX1ptdGlySGpyQWRfd3VrVkFpOURYTTZvVXJGUDZsd25R0gG3AUFVX3lxTE5ydy0zQXoyODNZc2Q1Qmh2b0U5WnFpVU92aU44OFVvQllUUjBTOHluelRJU2FvcDVQV3BsNFYxdWJWMWFNeWMxYkE1ZHdOTW41Ny1FbFRiZkhTUC03RUthdlM3ZjFqU2U0MF9UbkNuVUhGVjlianZCcXQtRjczc2pNdEYzZlIzOU54OFd6ZDVHdjFrZm52TTQ1cnkwcUpseENIUEpVM2trMXVCRDA0RGdOcGwtZXlXTQ?oc=5",
       "source_name": "Al Jazeera",
@@ -261,141 +396,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "828310a6da8fe7ad",
-      "published_at": "2026-07-18T18:06:36+00:00",
-      "title": "Iran war live: Two US service members killed in Jordan and another missing - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "1b9970ea9f9d8b00",
-      "published_at": "2026-07-18T17:52:00+00:00",
-      "title": "Iran attacks US allies in Middle East as renewed conflict enters second week - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcU9EZm52ekUycVNuTEhRUk84ZXdGYVlaaXN5R3lKbGdmVzBRVHlZT0o2WVhKd29DeGNpZ3Zld1dZSm1RWjBjYXZjMmxINkgyODZkMjlhQTJmNEg1d1JFZmlFLUxicXNBVFp4cFM3OUdrQk5YSDI5bTFNNjhkVE5FazVKY25fOFJpNFN1RmczOHFTV1N4d2R5OGI4MmRFWUZYNUpSbUdpRUNVY3JZYm9xcXV4QXNxaUUtM2c?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ec0c00ef58266623",
-      "published_at": "2026-07-18T17:51:10+00:00",
-      "title": "Iran hits US positions in response to raids on civilian facilities - Tehran Times",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPbDdhNjZQUTFSVDc1M0NTSlR3QUdkNVlxQ09aOGVwb3hXaklrLV9vNlkyZEpzNHVuQWRRU2lRZDg2NkpvN25PRzZVWmZwa3VjaEUtX2FSRE4zUXg3SEZWTzZjdFJ2dmQ3QXVqWkpHMzBUQmdXRUpZSXNQSDJpd0p2WEpXcVdWS0w1Ry12ZGJFa3hoSlZIa3lyenFmNmEtZW5ZVzZKcVd1bmNjQQ?oc=5",
-      "source_name": "Tehran Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1827800b4df0df8a",
-      "published_at": "2026-07-18T17:49:39+00:00",
-      "title": "Two US troops killed and one missing in Jordan following Iran attack - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GSmY1MHcwblY5Y0NWNTJmOUotLUJ6bV92cXVHUXhMeWtNUWhFLVBORDlzM2F1QXlxakU5RGZOOURvRGVRM0hEeDBLTE5YejZ1M202a1ViTGtSZw?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a9e1cfa780593002",
-      "published_at": "2026-07-18T17:49:06+00:00",
-      "title": "Iran pauses interim deal obligations amid renewed US strikes - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdXBBUkE2OVJqTE9WQmZPWmtKRHUyYlZwaklWSmpIVWFfdzdxUFQ1cEhucDEzUVRheDA0TXRuOVVocmlFc1lpejRSa1BteWlaVXpVVGo4ZjNzejN2WXhVYk5SNzVodUtZYkhHWjRQX18tcXphdVgzN3dpMDRYdUNLMGFwSUg4TkpC0gGOAUFVX3lxTE9lSUFHMEdoMW0wOFdKTGc0c0xXX1RjVWtrVjJmODlLbmhOVEpKWXoxeE5oa2Vhb1NMaC1yZVp5Z0VweGlNdFZSbTQ4M3VyYVRlWVdTbHQ1d3lQY3p4SVBXamotOHdRbkc0UGtQb0p5cjhPeGxfNEJteFRheEZkdXVqVlQyYThhVFo0Z2ExZXc?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "bbccc8ae1bc60cf3",
-      "published_at": "2026-07-18T17:41:52+00:00",
-      "title": "Two US service members killed, one missing following Iranian strikes in Jordan - CNN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQc3N2aG5kQ0NidlFlZXE0eUk4U2NlZUxuTFhKVk9vNWR0a2p4QXRjTkc3N0JOMkZPUUxFX3NLYXJuelFTTF9uQU5odnY2cGNPMXVCcHUyNmZrdEpCbHlIa2YtcHJ2YnY2eExEMFZhX0dJb202Z1BRa2pNVjJub0J0MC1aZkx4Nm1l?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "34aaf8f9b245a611",
-      "published_at": "2026-07-18T17:21:29+00:00",
-      "title": "Two US Troops Killed, One Missing After Iran Strikes Neighbors - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPM2hVNVNfcEtwdWdVSHZxMmxYZTRyWEkwV1V4N09KV3B0YXBlTTdXMGJtdkhMQ0QtVDhhT2dvczM2ZFVQb2ZlamJfUUM0dWVRLUo1MDJVUlM2eVRsVXdWUVdxTG9jNzFNQWVJQ2J3cDFzdXB4YldscVJKdnlkaFBHczJOd0RaRFdpQ2JaLTZ6aFhJMkFJRzRMcWdWVGVNUElZM1FOMjl6ekQ3S3V1RFBjbmdpRTI?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c33a6601ebf50b45",
-      "published_at": "2026-07-18T17:13:00+00:00",
-      "title": "Iran's supreme leader in a new statement warns of 'unforgettable lessons' if U.S. continues attacks - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPRGpOOFM4VmwtdmJlaU5nTlNVbkNwZ3NMUk5Rb3pOSUduMVFpSHlXNVVWQzlSZUNVQ0gwbUdmVjIySUxSSmdzSFhfc2gyRXJKVjItaGVxLWl5VlFRbmpvNGROV29yTjl6NUdmSDJ1bGVCR2RfZzBMQW9Mbms5dEh2bDBUb3JvNHVtaWI4cmgwM0hzMDBsbjR0cXZ2TjJzU05oUzhWdmhMbXRnRGplZVR5T3VtN3VuX1BTZDY2aTdKZW1UTGZPcFJGbU930gHPAUFVX3lxTE9KYWc4WE5vbS1QYmRuSnY2eHp1dTF2dDQzWXQyd2Nqc2tENEs0MHVIb2lIY3dWbG50bjhmb1UzQmk2cEpQanZMa3pNSXdlWWd1MEctWWxOWE1FeE44WFpIVHU0bGhxQ2hBZGM2aW1lOFpHMFhRbzQ3X0xiZFVqaWhyaHpwblBpZTJoamdNR1lYaWpybFNub2ZpZmV5S1VWak5UMmZDOGNMRW9fR2xGV3VIUndvSElPbGgwZlBjN3BPeU55OUwtXzZCRDV4eDFEcw?oc=5",
-      "source_name": "PBS",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "32c9514fc77fd271",
-      "published_at": "2026-07-18T17:02:57+00:00",
-      "title": "US-Iran War Live: Mojtaba Khamenei says US breaches show Trump's signature is worthless - India Today",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQYjdPVEFzMG45YURycXdaZzJTQ1lyNmhYMGxsSkNZc2xscTJLQ0phaFhkbGN1NmJSelpzaDR4MzlPQ3NPeno3SkoxMWdNa1ZSZXRNVXFKSExCSjJiUWRuaDc5V0NEM0pydHlaUWtPZ2p6Z25NNWhvVUx6ajZBRW9JRm5VVHl0Q2lTWmU4Zkc3cDdWMlRFeXpmZjlHMU8yQWZTd1UwdTM2VjlKLXFudGJQNDVraEl0Vm5LWWc3NWZFaWQyODRfSU9GM2hOb19ER2xKYVdyLVRvem96NFNxVUxuXzJ30gHnAUFVX3lxTE5fVVNraVVKRUJVNk91dkZSSzIwM3l3UVF2S0FsX3hsNXEwUlh5N0VUcHAtanJyeVFlbHZQVS1RVFExSGhGa3JocUNFZFhlUkNZTXNlWFFzOFRPZTZVUG1KTjY3WEZqWF83R2Rhb2lZTHFWVmRlbG1OVklIREI5bUlxVTB2YzJQRDFOcXlPMDJxalg2SS04cms1MV9yM1BpOHVqRC1YUUZ4Z0tPWHl3TzRkcEljUXV5c1FEY2Jnd2FzRVBBMzBncmFtNU13eVhoR0NMOTdTN0dpbFY2cThyM3RDZC1tV1Y1Yw?oc=5",
-      "source_name": "India Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
