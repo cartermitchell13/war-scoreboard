@@ -1,24 +1,28 @@
 {
-  "generated_at": "2026-07-18T10:42:29.475524+00:00",
+  "generated_at": "2026-07-18T13:52:21.495073+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 0,
+  "event_count_window": 104,
   "totals": {
-    "usa": 0,
-    "iran": 0,
-    "lead": 0,
-    "lead_side": "Tied"
+    "usa": 67,
+    "iran": 18,
+    "lead": 49,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 0,
-    "delta": 0
+    "usa": 51,
+    "iran": 15,
+    "delta": 36
   },
   "confidence": {
-    "score": 0,
-    "label": "Low"
+    "score": 69.1,
+    "label": "Medium"
   },
-  "event_types": {},
+  "event_types": {
+    "attack": 81,
+    "other": 22,
+    "material_loss": 1
+  },
   "history": [
     {
       "date": "2026-07-05",
@@ -32,8 +36,8 @@
     },
     {
       "date": "2026-07-07",
-      "usa": 0,
-      "iran": 0
+      "usa": 3,
+      "iran": 3
     },
     {
       "date": "2026-07-08",
@@ -42,7 +46,7 @@
     },
     {
       "date": "2026-07-09",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -57,7 +61,7 @@
     },
     {
       "date": "2026-07-12",
-      "usa": 0,
+      "usa": 6,
       "iran": 0
     },
     {
@@ -67,8 +71,8 @@
     },
     {
       "date": "2026-07-14",
-      "usa": 0,
-      "iran": 0
+      "usa": 12,
+      "iran": 3
     },
     {
       "date": "2026-07-15",
@@ -82,14 +86,315 @@
     },
     {
       "date": "2026-07-17",
-      "usa": 0,
-      "iran": 0
+      "usa": 18,
+      "iran": 6
     },
     {
       "date": "2026-07-18",
-      "usa": 0,
-      "iran": 0
+      "usa": 15,
+      "iran": 6
     }
   ],
-  "latest_events": []
+  "latest_events": [
+    {
+      "id": "d380de609b483c56",
+      "published_at": "2026-07-18T13:21:00+00:00",
+      "title": "Live updates: Iran war news; US-Iran conflict escalates further with strikes on desalination plants - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtMGlzV0M5eFNoa21PNkMyc0xxNmZTOEpMOU5Lek9MNFpvOUc0a21SbkpMOFpjbXhzVEtMU0o3SG42UHZjUl8wMHdvSzcxbE1lbzE5dnBhaDRtbFRINzVxLWdpQ1l1Z0YtRG9yejdR?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "584ce673d0a10fd9",
+      "published_at": "2026-07-18T13:15:00+00:00",
+      "title": "What to know about Iran attacks on Gulf states after another night of US strikes - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQR0VYMzA3aDhxanVlcmtDTjExUHA5UjNzZUZCX1JQYTMzd2tWR0pRaTFJNWVzN0xyS3E2dHo3QVdCc0d0S19udkZoel9yWkF2V2s5ZzhmdjRudTM5ZHJjcWtxRzVGbjhZd2VNYWpFeW05eld2OGRTNTdoVC0yRW8xdFBaRGduZGxSNG1qdWx4R2tXZTBPYlQ0dkctaHBWQzJkY1pV?oc=5",
+      "source_name": "USA Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "73fcfd9cbcdae289",
+      "published_at": "2026-07-18T13:07:30+00:00",
+      "title": "Iran accuses US of striking critical infrastructure as war intensifies - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSk10ZEFwTXRSZS12YXVYU0RhQnJ3eXJFTlVtc2FyRDlpUTdCWl9peDJpMGYzSHdGa0RPSkpQVUYxWnV6b2R4ZFowMER2N21GYkw1dl9SNzVZdjI0bTdTZWpBV2FVMzJzMFlrSTduOW1PbmhqNkFTaGJ4MmFxQVJwcnhwNUVIb21lSzM0STctdWR4MFk2M0hxam1TeTJGOThuNm1GMlhFZkYycHlLZ2JDWtIBtgFBVV95cUxPekM3c1pKVzhKMEZDNXJieE9ydE1IMU5XZHJBYXUzUFA0YVR2RnctUTdST0U2dG94RGZwakRHOUlPYjE2anFQdU10U3cxa3I3NFhPSko1bGRrRFlSc2syTGFnRDZxLUdYSkk4NE95VU1Ga2dwR2lGeUVkSUFBTXVQWldqbFl0V1Z2NVhvSl9PQnYxNC13dHJPNEl5dWpzbm1pdng3MzhHQXpmcmE4cktVX3JPNDBwUQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "51991a5b4201053f",
+      "published_at": "2026-07-18T12:58:17+00:00",
+      "title": "Water and energy sites hit as U.S.-Iran strikes escalate - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMmwwd2FfakJfek5XbjVFa0lyMzY2S0xMNEVPZHM4dy1maWE4WXg2c1hvdHVFaVBtMWdnekRlZnN6UENWdVdBcXdhVDVLZ0xRTF81RzB3MXdSaVBtUkVmbi1yakdXRERDRWxqV2lXeGV6aUhzelRuaHJtdlFzOEMxSHNQMUxvaG9uc0FPVWU1SkV5b0VTTGhIUA?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "eb3d9bb0ba76fa1b",
+      "published_at": "2026-07-18T12:52:00+00:00",
+      "title": "US and Iran trade strikes over Strait of Hormuz. Kuwait suffers infrastructure damage - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbS1jN0tZcUtrbk9GU3RKeUxqTHM1Qk5DUDF1VDBVOUVqaVp4QV8xWGhEMmtFV3JRRDc1SXlxalZwcElvUlBXQk13R1NPdW91eUFNRF9UT3JRM3ZHTC03a2ZaZmg0Z2tJdXdCRjVMUml0eWtTSWFLU2U5WGxIMHBNSG1hb2dTS3VLak0zVXdZdHhKY1duRml2MW9Ea0xxVlU?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "568f8576c64087b6",
+      "published_at": "2026-07-18T12:35:47+00:00",
+      "title": "Iran war live: Iran strikes US ally Kuwait after Trump launches fresh bombing assault - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaEZnOGNhbTloaTRkdzRxOEZLa21rR3FXY1FHaS1XTTF3OUFCdFhoUHNSZi0zc081UnA0cnFwTW5oWjNZMFRlSFF4LXlReXd5c3Q2NUQzLVdZZkpTeHduR3Nycjd1cDM1ZnZEaVZtYnV1RWhHSnJJY0xhZ1dlSDQxUmNqWUtmdTlOMC0xZHJ6MTcwLVZBd0ozZGVTemtqcURzYTZ6RTlObzJzOEZRZzdRWDBjdHFOa0RvSXZz?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "287f694e4cc570e9",
+      "published_at": "2026-07-18T12:25:25+00:00",
+      "title": "Iran War Live Updates: Fighting Intensifies With Strikes on Critical Infrastructure - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVTFHUXljM3RIal94ckFqUE55T21GbWZDcExRWWlWQUU4cDlFLXh2LW5HTE9IZ0VTWC1Wb2ZubXlKU0pXd29wQ1VsZjgwNUVhcGJkVnlibzhJbzNHOHE0LUNTaXlyd2ZSY2tTN3duZHhOdnJMNjRWcjB1WW1uNHdNdQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fae3b7cab1463062",
+      "published_at": "2026-07-18T12:22:00+00:00",
+      "title": "Iran War Updates: U.S. finishes 7th straight night of strikes as traffic freezes up in Strait of Hormuz - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTms5S29XQzlnbjNtVi1RXzJ6WUtBLTVIVlJZVnhMbFVfemxMdmpxNlhqV2k4dkRHemU2QnpLcFNjTWRjN2NzLW4zTk9vbmFSOUQ2ejYzRVBGbC1hN2RaQWhVaE9EalhzUl9mbFY4WVFPeDRwVkNETGtEQnl3VHNpc0steHVaT3lLdFdESi1kWlIyUHla?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "0083d73a939417d8",
+      "published_at": "2026-07-18T12:20:58+00:00",
+      "title": "US-Iran war LIVE: Iran indicts Donald Trump, Israel's Netanyahu; Kuwait says oil facility hit by Iranian attack - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPaGFvbURhQ1NYTDhyYzRMT3FWM3N0LXFTLW1XOG9HUmlVZFg1MDNaTnNyTEltNkdLNklsYUFiSGhud2R3RXlzUEZpTzB0WHFnZmF4cXBkMXdQd19sM19NS2RWaWNGMVYxUXRUVDJBWjRES3dmNGFlZjJkaDVROGpWdWFVUzVYQjBhM09rRmJ1aDlrVF9LYktTSFNwV3dlbHFvYmhCLURwVjhPNEs3bnhmZFJPNGctOVNBX0VvTXdsV1hqbjg1TzUzOWMyZDFqX1NQR2hkZ3ZlUWFTcDFrSWUyWWExdnpWMzN6RmR2UDFUMkF5eUxBbDJwOWZGM3duQjQ?oc=5",
+      "source_name": "livemint.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a755a57a280e3b04",
+      "published_at": "2026-07-18T12:05:05+00:00",
+      "title": "Iran claims strikes on US bases in Kuwait, Jordan, Bahrain - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Oc0xoQnFzU3BKNU9TTUZPN1duc29zUWpGZXpOV3dTdkNlY1ZiakJoY1pSUm5idkpRYXo5TktyLXJXWWplX1Jtc3Z3MVlNV0RaX2puX3p4OUtUdnhGSktCTzJiMmowZzdobkE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "1163ba26837a51b8",
+      "published_at": "2026-07-18T11:55:58+00:00",
+      "title": "Iran war live: 50 killed, 500 wounded in US attacks this month - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeExZQjNOMmxmMDk3OW92dGEzamZjRGZBZDJZR09Ha3hXaU0yX09LUFRybFRqdkhCWlA4XzFXMUZWb0xCS2FlV3prZWo3RHJCVVVYbmI4NXNLWU1jX2RxRld5THF3TldPTkVVdEJRXzZPQWthNkxNdllHeXpzZmxsUnFkZXpXZVlXLWl1SXp6Z2xXOUFmY2VJTG9mQlFYMExLU0tNSlFiUEFTclM2M1JZd29uQWEwNklQSEHSAb8BQVVfeXFMTllkczI1VmJNZG1JbUV1MnNEeTRZWFhycHFRSjh4RU5WcW1PU2hTU0FiS3JxTGpwUVc3VWNWaU1Wd2poNVFhS19TVWo3N0V3VGx0UFJhZHpfVDJGdGtBSEYtMHFIel9NQ0FyMGp3X1lrTkNDTlluZWFha0R0TWUtdDZnWDBaNm1RUGQxMmx0Z3VFU3J1azlLTEhUS0RjWW5NaUNTNDYxZ3dDRXRVMWxZSjR6UUVMdmlSSEhUV2RqV00?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "83f56470891d651c",
+      "published_at": "2026-07-18T11:52:30+00:00",
+      "title": "Iran says 50 killed in US strikes since June 27 - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTDRDTGc1am9RdUl3b1ZZVlF3U1dib091ZEZseF82R3dxYmNjZUVQSWZfTzBhUUM2WldGZC1INnA0cUlySnM1M25NM3lpY0dScGVPN29wZ2EyLTFwOXFLcE9pcXFXRjlNX3FES0NjdU5QTEtOVE5YdWtSOEVNbXFCcjZhUWhZYWNNQlB5S3hpZmNoSEItTy1DSURNaHVHajBC?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1baf73ae29b700fa",
+      "published_at": "2026-07-18T11:48:44+00:00",
+      "title": "US strikes hit Iran for seventh consecutive night - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8yaGhLUndVdDNoZERNejRHOEQ4cUc0RS15bFo4YkV5bEtCb2NFSHB4T1NFM2FBSHFMVnNjX2I2TWNVWWlESFpoRTAxdGR6SkxMZjQybUw4djRpUQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "505b76bc91ae32e5",
+      "published_at": "2026-07-18T11:42:00+00:00",
+      "title": "The US and Iran have blown past red lines as they lurch back toward all-out war - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQd0RtQXpPMnRmb1pqcGZQSGNrTHAtQ014LVZKNFVfRUxMY1ZxT0RQc09pc1pteW96T2lVMHUxblI2dzVkVkVGbjB5dUYzV3JUeUNpXzVKY1lpTnd2VE9wNXJNX25saU9fSlBQNFZodDExNlpVOWoxMVpYV2E1ZlJ3OGhkYTA1Y0JTZnNPRmYwNjFsWEtqaDlxM05FVlM2QkFjcF9JTUQ3emY?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f98fbb43b72488a1",
+      "published_at": "2026-07-18T11:39:29+00:00",
+      "title": "Iran renews attacks on Gulf states after another night of US strikes - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUVgwRnh4bGg5bXVrMEdSNXEydXpjb0dCTmQwQlV2MHlydHJTU05DcUxIbktrZW82aGUwZ2F4R2h6bkJXOEpFQy1DREthRVFySzUzNkpVMGNSdXdTMlVjVFR4ZTkyYlRqRTU4bEo1cHR1Y3RMSDJ0UV9Ed01tbnVZbUdyN29ZZWpqQU5VZDd3b3dkS0VlMVp5UUJSZHdPVUUzVjZGNmFHWUJOYWVFZDd0ekJnV293QTg?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e9b7361d0f8ba126",
+      "published_at": "2026-07-18T11:30:41+00:00",
+      "title": "US strikes cut roads and bridges in southern Iran as ground assault talk grows - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE82aTQxUWJ2S1h6V1RKdW5vWUJ3VVVHcTZ4TnpRclF4LTlOVjVNS1hfMDZybC1ZVHRfaEd6SXhza1ZNUHluSGNqN3gxTDFqamhkT3c?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a4614cd981765af3",
+      "published_at": "2026-07-18T11:24:00+00:00",
+      "title": "Iran\u2019s IRGC claims attacks on US military airbase in Jordan - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdXBBUkE2OVJqTE9WQmZPWmtKRHUyYlZwaklWSmpIVWFfdzdxUFQ1cEhucDEzUVRheDA0TXRuOVVocmlFc1lpejRSa1BteWlaVXpVVGo4ZjNzejN2WXhVYk5SNzVodUtZYkhHWjRQX18tcXphdVgzN3dpMDRYdUNLMGFwSUg4TkpC0gGOAUFVX3lxTE9lSUFHMEdoMW0wOFdKTGc0c0xXX1RjVWtrVjJmODlLbmhOVEpKWXoxeE5oa2Vhb1NMaC1yZVp5Z0VweGlNdFZSbTQ4M3VyYVRlWVdTbHQ1d3lQY3p4SVBXamotOHdRbkc0UGtQb0p5cjhPeGxfNEJteFRheEZkdXVqVlQyYThhVFo0Z2ExZXc?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ca1cc39386ed8faf",
+      "published_at": "2026-07-18T10:00:00+00:00",
+      "title": "Trump targets Iran\u2019s infrastructure in bid to squeeze regime - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOM0I4RFpKM1QtcjN6ZlVfTEtvTDEyTnpDZk5oNG9pQ0FCVHVzalBtYVE0NXE3OUo5M1VSVlJPZHUyWXdQaU5oejRPOGlidnJrZXA1VjkwZUdlUGNGWk5mU09UcVE3RlZTMlVxUE5XdlRmWjlwYVFEQmpQN0k1TE1rd9IBhgFBVV95cUxQVHJnRFNBVkpSbGIxZzhqd3BYa2xSZUZwckkyX0sySmVGeEFBRDVIdnRGZDdjbGRBSHIwMGc3UjZBRmY1aWxwVHI0QkY3N296WlZOWUQtazV6bndsTGM3ZmNMZUJTOGQyeWF0bng2UXlNV0Z3UGtEazhHRkNKckwxdHgwYU5LQQ?oc=5",
+      "source_name": "The Hill",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f0f89a58b1fcb419",
+      "published_at": "2026-07-18T09:41:51+00:00",
+      "title": "US strike on Iran desalination plant leaves 10,000 without water - T\u00fcrkiye Today",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOTUxoNkdvY3pZSTA0NW42QnBnVmN4ZWcwalVxalNuT1hfZlhrRnFPWjdWTTU5eVc0emZHQzQwMV9rMHZtdTliYmU4MTdEMkl6UUluejRYX1REYW0yN0p6WjNuNFgtakV0emVEbEdlejlQZ3Zhb1RnSHlOXzQ5ekM4LTdkZW5OOHRlWHpYbmJzR0ZPNUVTbHQ1NVJWWHh3SmNLbVNMNG5zVzNxQ1k?oc=5",
+      "source_name": "T\u00fcrkiye Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "185f17ed03713f13",
+      "published_at": "2026-07-18T09:35:52+00:00",
+      "title": "Iran Strikes US Allies in Persian Gulf Following Seventh Wave of US Attacks - Kyiv Post",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xZVNPdDFGdllkbkdQeXc5d2Jsb092cklkV1FfQk5GZ3Vocm5yRXFyQzI2eko1eXdZbmxMNTB1ZjJBUEl1TmZCTDU5RQ?oc=5",
+      "source_name": "Kyiv Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    }
+  ]
 }
