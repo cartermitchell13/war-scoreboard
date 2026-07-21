@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-21T19:54:32.767298+00:00",
+  "generated_at": "2026-07-21T22:13:20.978429+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 101,
   "totals": {
-    "usa": 51,
-    "iran": 27,
-    "lead": 24,
+    "usa": 57,
+    "iran": 26,
+    "lead": 31,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 33,
-    "iran": 24,
-    "delta": 9
+    "usa": 36,
+    "iran": 23,
+    "delta": 13
   },
   "confidence": {
-    "score": 68.9,
+    "score": 68.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 34,
-    "attack": 60,
-    "material_loss": 3,
-    "diplomatic": 2
+    "attack": 65,
+    "other": 31,
+    "material_loss": 4,
+    "diplomatic": 1
   },
   "history": [
     {
@@ -42,7 +42,7 @@
     },
     {
       "date": "2026-07-11",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -82,7 +82,7 @@
     },
     {
       "date": "2026-07-19",
-      "usa": 0,
+      "usa": 3,
       "iran": 3
     },
     {
@@ -93,14 +93,74 @@
     {
       "date": "2026-07-21",
       "usa": 18,
-      "iran": 8
+      "iran": 7
     }
   ],
   "latest_events": [
     {
-      "id": "13c05b57772769fe",
-      "published_at": "2026-07-21T19:48:38+00:00",
-      "title": "Iran-US war latest: Hegseth met by protesters as he arrives for Senate grilling - The Independent",
+      "id": "3cc89b5640f65def",
+      "published_at": "2026-07-21T22:09:06+00:00",
+      "title": "Iran warns U.S. against attacking nuclear, sensitive sites - Latest news from Azerbaijan",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWjVzX3FBSllBNU9rVlVkSGZ1UXBFRGR1UWxPdE4zaEZWbm11dm02UEhLa0YtN3o3WF92SEZXZzlMVWYzbi05SHhINlc3LV85NzBwQkk1SXN6NEtLREIxbUtjN1RkRWJGaHlpVmd2X1BoUFE2LW1aOE1GaDQ0aTRKQ1dR?oc=5",
+      "source_name": "Latest news from Azerbaijan",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "2d726e280700d4f0",
+      "published_at": "2026-07-21T22:06:31+00:00",
+      "title": "Tankers with Saudi crude turn back as Houthis open new front in US-Iran war - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0Jlc0k2UzBpUjR0R3ZWd2NKVzZVM2F6azd0VWk0WlYySWhpTU8zc2V2NTVWc3hWRzBYSUk2LXNTSzhoUnF1VUotZ1FhdTlMVE53TmtEUllYSThLU3hSU3hIRGRxZHFoaFZXM2VReGdxNGVVcGVOYXh4NTcwdHBpWkZqLWtCTHhOdjFIbWhJcExkcUo3amxFa0x3N3VadTVqbXh2LUxQYXV1Y05IM0N4QlVlUjNmWHM?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "561c3314ce2b2472",
+      "published_at": "2026-07-21T22:05:29+00:00",
+      "title": "Hegseth faces bipartisan scrutiny as Iran war escalates - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMEtLcUJfSEVjZ1I4WTU2cnNYenZrVVlBUEFHLXJSVTJZUjg5UzBuT094dVlYV1A1bjlVQXZDek91ZzlkelRvLWhOd1MwX3kwR3ZCOS1XbWF2M2xITHRtV0w2bVVnMmkyWkpQd2ZxWFJIcGVoN3dtNU9ndi1VOEo0Z2s5cE5BOW9KRktySHBvN0xGUlg4d2JGWlpJWmNVQQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "23b7ca02d98e708a",
+      "published_at": "2026-07-21T21:52:22+00:00",
+      "title": "US-Iran War Live Updates: 'Would expand war'- Iran warns US against attack on nuclear sites - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOTlBXbE5OaE1zUmpWZmNORk1ILVBBWWJGRTJTUjVLaU9lR25CSEVLNVBQN1FWTnRnZC15a0hpVlU2T3ktQzVCNE9rREgwZ3hWT0plemlUVnNkYTM5dW5ZSmdCTUxhUEV6LVZVWlhoam9kSEpHOEV5bmh0VnU2dmMwNDVYZVRnVjhQYzU4a3ZGYWZMZHFxb01neEhZZy1VdGJlZkg1Mnc0NHdzcHZoN0M4aDVPaExxUkZaT1BzSFY3QVVYUWZBMy1oS1FTUDNYalhGWnZWWFFSSWlTZUN5WWFUZkNPd2Z3U0pGQ2QzcVVCdnhsNFNHem9FR3ZXT1BzNUpEZm5pVk0wUl9mRVcteW1DNkp4LVJJcDhPVEo0dnhCRFRCaVBK0gGqAkFVX3lxTE9NcTNTNzduMzBlLVBUdE1fcHg4VkxKRFFSZHNBWHpEOEEyNkxhT1U4ckFSMlQ5cy1TZkxNbGtETmpjTk9lc3ZSWVpyNUsxLTMxOTVNS2RMSmR2SHVOWEV0NWJYR0c3ck5McS0zaHdRcnRNVVE5TW8tbGtKRERhamtWMUU5NzA1OExBdHdPdldwcnc2RHl1dlNmTG1Delh2RzNZZmJCTF95NWVNZHVhdGJyc2w5TVZrdjBzcGRzUDVlYkNHejB3Rm9mZXRkM1cyeHFZUU1ycFFOUjZGVC1oYVZudEd2XzZ3ZVhMa2RSQ3ZSTVpWVnE4ZzNZdDF3N1ltLUFaVzU3TlVtOGZrajZNbzRIRzJlamtXNlpPMFR0dDUzQ1U4ODROSVRRVXc?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "25abb1e381033ad5",
+      "published_at": "2026-07-21T21:39:48+00:00",
+      "title": "Iran war live: Hegseth reveals staggering costs so far during Senate grilling - The Independent",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObm5lREhoQU5xdVMwOHduNUhHUnlTNW5jdUtCclZyOWFVeEhqTHNCRVJHWGlHV2lad1l4c0NqUVFlblpVMEtDeFAyb1VMUkEyWGFwZFdzSTZSOUJxZl9pdTFTd2d1Y3NLTFI1SEE1bUlaWGYyaTIzX3VBWmhYdWZDSGZ5RXRBZHBYNG50ckUxNVpaQmFpN1l3Uk5oYzdqNXpNV1NRYy1SZE9tTUhPeE9YdGJR?oc=5",
       "source_name": "The Independent",
       "event_type": "other",
@@ -113,8 +173,23 @@
       "confidence": 0.55
     },
     {
+      "id": "633b272febae5fe8",
+      "published_at": "2026-07-21T21:21:00+00:00",
+      "title": "Live updates: Hegseth estimates Iran war has cost $37.5B so far during Senate testimony - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UaXJ5MTlEVjFnNnBpd1M3RGxjOGRiOHVkNXMwNmQwNWhjQnFWWWFqaVVuTXhMSGtOUG5oQnYyMkEwYXI1R1BXY2R4Z0d1d1AwTk1mYkhPWm43VVB4LTNOV19vUQ?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "ca23ab0576d14f0e",
-      "published_at": "2026-07-21T19:42:00+00:00",
+      "published_at": "2026-07-21T21:12:00+00:00",
       "title": "Attacks between US and Iran across Mideast overshadow efforts to keep diplomacy alive - AP News",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPR3ByTjM2MjQxUW43TEtOc0JJNXpDYmNxdDNYRlNXMk0yZUNlYnMwVXlrZUxyMlF3UlZjMk9IOFpzVjl6TzI3Q0JPQ0hkazlZSDFHeWpHYTN1RVp0QjNYQTlYX3g4TlVBZmlEV0VIT1ZXaG1nUTFnYnRGTGhDOFZrWFVWc1B4LUI3Q0JhQjlvMkgyTk1HU09UcG9TNDN4M0E?oc=5",
       "source_name": "AP News",
@@ -126,6 +201,111 @@
         "iran": 0
       },
       "confidence": 0.65
+    },
+    {
+      "id": "d11bdf97b8f1e5d5",
+      "published_at": "2026-07-21T21:00:41+00:00",
+      "title": "As U.S. and Iran Trade Strikes, Nearly 100 U.S. Troops Injured in the Past Two Weeks: Iran War Live Updates - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSUhVOVVGNVMxOHlHY3dwMDU5bEFEeUg4QUpIcWQ1QVpTTmg5VVRTZHYtZTNQQ1ZKLXZKUnR3UVBMRUluSWxpOWZvLXlpbFc4VzN5eEJmYkJTbGxvbzhRbi1HZ0hUTGZ5SU5nanJXMmpzTGZxNmhNU1AtUHJNbnZmYg?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "1af6483912b7f851",
+      "published_at": "2026-07-21T20:32:00+00:00",
+      "title": "Live updates: Hegseth faces lawmakers as administration seeks billions for Iran war - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mbS1zeE9UQWs3WEN6aXZTeTNROVZveU1GLTBlUm1kRGRlTDJaNjU0cGx6QTJrcGF3bGdhVFJzUFZ6Yk9VVEpST2UzNzYxQVVBRFNwdDFhb21mV0thTW1kVFhPa0l2aHNrcDFTWUV3?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "593d9e48d0eaed2f",
+      "published_at": "2026-07-21T20:15:25+00:00",
+      "title": "Who were the 3 US soldiers killed in Iranian attacks over the weekend? - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcHFiUmhRMVJxem9QNnNldzk4SVp1ZkJzbmNOZTBZOEJjcHpzX1E3dnNnUXNpdWFWb3lyMkZDcldzZ1lRZExMNXU5a2R0cHFiTUJidTZFWGRYbjlHTGpUeEpKQW9mbkZaXzk3eVI1Qk9qdGduXzBLN3Jsak9EU1pNcm16bFhKRkVKYXhnOHBQWGZzUWZCN1JJ0gGcAUFVX3lxTE1KSlo3TUMxREF2cXFPMXBPNG9GNGNhOWtIM1VmMlpBQi1qem9pRjV0YzdTeXFRMTAzTkt1SEJqM2RLeTJsZXRwUXg0TVBXNUotSDMxRU1GMThaRTlweDVJWm5YeGxJcDh3SklfaVViWW5waGVOZHg3ZWp3MWFGbUR4cFRtY1Bpb180MllabDB1NkZsSnJsYzE0akhzdA?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7adeff763290241e",
+      "published_at": "2026-07-21T20:11:00+00:00",
+      "title": "Latest Updates: Iran launches new attacks on U.S. allies after 3 American troops killed in escalating war - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnl2blBxN3hkcHpRclhTUVh1aEtCSDRKcTBPQXV3UmZFTExfVnExVEcxTW5uZlVRcEQyZDg1MXJ4SXNVUTl6cEdjR2Fla1pRQ1dzSWhoa1dJSlVtell4TXZ2YXNGbFRYRXFsc3hReHJDS0d6V0Q4Yk9KdkRMTEJWVk1OTWR4QWJRVVEtTldRZjBkRGM?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "a154ead351036ee7",
+      "published_at": "2026-07-21T19:54:00+00:00",
+      "title": "Iran live updates: Trump says Iran 'desperately' wants to meet for ceasefire talks amid new strikes - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOaDZreVNmWk5mb3c3SVJNdnBCdFVEbWJDdW0wY2pxTTJVMHczWmpZWGp1c0ZMdFZMX05IY19ac0dYYlEtcG9ZV3NCbGRveUxQNkpBMWg1bEpMUGNsR1VJMXdkaWVhbUZiZ1BiU290ZXdUSUp2N2FwYmdxQk9yMFFQcnpIeWhVRG8yMmFXYU9OeUMxOEQ4djYwc0hpbzMzOXBCako0eno2a25JYlRkOWR1ZjFHRlgwZFHSAbwBQVVfeXFMTVg0V3dRYTJ3VE12WE9jS1lrU2ZyWUJrTlRHR3gtRklwVUhoZzFGWDl1ZTBQZWVrRlJLZGRuc19Ga3RnbHFZNk5GaUJtd3BmVDNMeGc2TWoxa2FJWTdkSGxvQVB5SWZlUVl6d3RSYUp3WTZsTTUyeE9Gd0hKQUhZS19pQ01nV1NTblhDUDFEdVZEd01JakNTMFR6T25YMlpzN3M4QzlvOFNYX0lwSUxJRHJCV2xjSVVtbUFoZEo?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e483f78cfadb311f",
+      "published_at": "2026-07-21T19:33:32+00:00",
+      "title": "Can mediators broker a truce between the US and Iran? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcWdHZExmaVh0VkVMMldweEl5elRhWDNDcGQxZTJSMnN6aXBXdXA0MVdkM052TjVBMzlaVE1paDlWcGlKTEowUHQyRkszdG53bEVTcTVhdlNLUnhzWnl2X3hxLWhIUUV1WmVSTVlkQWRhRzhOd2o1d3FFT19YMjI5bHNlM3pGODlyUTk2WDZacDdLWHFKSi1RTtIBngFBVV95cUxQM1VQdnVMT3JuNDVzWTRMd19lLUd4MDkxZXVJWE5EcTFVbU56b0RjQWVpZGdNUDVseWplOXVWZzRoMmtGbEVpVTEwbWRxV1ZzcDJiNC11VXZFWWExbWMySkNzY1JjaHNYam9kVjdwWDExM3dvWGJDaHBrQkFCUE96eFhWYUNPd0lLTFk5V1RDVm5nbmhGYXE4SnFlQnZ1UQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8256c145a3d9ff80",
+      "published_at": "2026-07-21T19:31:59+00:00",
+      "title": "Trump Warns U.S. Response to Houthi Blockade, Iran Nuclear Strike - \uc870\uc120\uc77c\ubcf4",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQXQwU01DRVI5Xzd0MFRqY0l4ZjBBMXJPTGJHQzcxZ3dKYmFKRmpfMTBudUo1ZTB5dVJVSDVpZmY0bVJBeHM0QWRoMjJXZTRqRkRfdkxCTjd5UzRrZE9LeGZ6LUFEN1VCOGZGTllXX0FHMzJSSlFYdVZhZHJMeXlnSU1HT2k?oc=5",
+      "source_name": "\uc870\uc120\uc77c\ubcf4",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
     },
     {
       "id": "5f057538d49cdb52",
@@ -143,21 +323,6 @@
       "confidence": 0.65
     },
     {
-      "id": "8256c145a3d9ff80",
-      "published_at": "2026-07-21T19:30:27+00:00",
-      "title": "Trump Warns U.S. Response to Houthi Blockade, Iran Nuclear Strike - \uc870\uc120\uc77c\ubcf4",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNQXQwU01DRVI5Xzd0MFRqY0l4ZjBBMXJPTGJHQzcxZ3dKYmFKRmpfMTBudUo1ZTB5dVJVSDVpZmY0bVJBeHM0QWRoMjJXZTRqRkRfdkxCTjd5UzRrZE9LeGZ6LUFEN1VCOGZGTllXX0FHMzJSSlFYdVZhZHJMeXlnSU1HT2k?oc=5",
-      "source_name": "\uc870\uc120\uc77c\ubcf4",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
       "id": "5b835e5f8bfd5daf",
       "published_at": "2026-07-21T19:25:45+00:00",
       "title": "Trump warns US will strike Iran nuclear sites as drones shot down near US consulate - Fox News",
@@ -171,66 +336,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "1af6483912b7f851",
-      "published_at": "2026-07-21T19:10:00+00:00",
-      "title": "Live updates: Hegseth faces lawmakers as administration seeks billions for Iran war - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1mbS1zeE9UQWs3WEN6aXZTeTNROVZveU1GLTBlUm1kRGRlTDJaNjU0cGx6QTJrcGF3bGdhVFJzUFZ6Yk9VVEpST2UzNzYxQVVBRFNwdDFhb21mV0thTW1kVFhPa0l2aHNrcDFTWUV3?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "be40afe4efab8b8f",
-      "published_at": "2026-07-21T19:08:00+00:00",
-      "title": "Live updates: Hegseth testifies before Senate over $88B supplemental funds request mostly for Iran war - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9UaXJ5MTlEVjFnNnBpd1M3RGxjOGRiOHVkNXMwNmQwNWhjQnFWWWFqaVVuTXhMSGtOUG5oQnYyMkEwYXI1R1BXY2R4Z0d1d1AwTk1mYkhPWm43VVB4LTNOV19vUQ?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cfac11e1f9d1fe08",
-      "published_at": "2026-07-21T19:04:59+00:00",
-      "title": "A Red Sea blockade threatens a new front in U.S.-Iran war - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMEtLcUJfSEVjZ1I4WTU2cnNYenZrVVlBUEFHLXJSVTJZUjg5UzBuT094dVlYV1A1bjlVQXZDek91ZzlkelRvLWhOd1MwX3kwR3ZCOS1XbWF2M2xITHRtV0w2bVVnMmkyWkpQd2ZxWFJIcGVoN3dtNU9ndi1VOEo0Z2s5cE5BOW9KRktySHBvN0xGUlg4d2JGWlpJWmNVQQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "d11bdf97b8f1e5d5",
-      "published_at": "2026-07-21T19:04:46+00:00",
-      "title": "As U.S. and Iran Trade Strikes, Nearly 100 U.S. Troops Injured in the Past Two Weeks: Iran War Live Updates - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQSUhVOVVGNVMxOHlHY3dwMDU5bEFEeUg4QUpIcWQ1QVpTTmg5VVRTZHYtZTNQQ1ZKLXZKUnR3UVBMRUluSWxpOWZvLXlpbFc4VzN5eEJmYkJTbGxvbzhRbi1HZ0hUTGZ5SU5nanJXMmpzTGZxNmhNU1AtUHJNbnZmYg?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
     },
     {
       "id": "68feefa722f437f6",
@@ -263,51 +368,6 @@
       "confidence": 0.65
     },
     {
-      "id": "5ec5e0eb80bdccde",
-      "published_at": "2026-07-21T18:29:02+00:00",
-      "title": "Iran war latest: Trump sends warning to Houthis over Red Sea blockade - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaTB4a2tfeWIzSzJ3RHNiZ0lKSXJWa2JwLWp0b201d2ZySFBXaDNubUdPb0JXQ0JXU1NtRkpaN1BuZUhtRUtGTTdhdzE4SUt0VVRueTM4elZPZTVfUmgwSlk4VzdYSkF3MnNUUzBpY3BJTTRMdkxlaUoyNGFCcWV0M05HT242ZEF2NVAzcF9R?oc=5",
-      "source_name": "Sky News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2d726e280700d4f0",
-      "published_at": "2026-07-21T18:05:41+00:00",
-      "title": "Tankers with Saudi crude turn back as Houthis open new front in US-Iran war - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQT0Jlc0k2UzBpUjR0R3ZWd2NKVzZVM2F6azd0VWk0WlYySWhpTU8zc2V2NTVWc3hWRzBYSUk2LXNTSzhoUnF1VUotZ1FhdTlMVE53TmtEUllYSThLU3hSU3hIRGRxZHFoaFZXM2VReGdxNGVVcGVOYXh4NTcwdHBpWkZqLWtCTHhOdjFIbWhJcExkcUo3amxFa0x3N3VadTVqbXh2LUxQYXV1Y05IM0N4QlVlUjNmWHM?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "06e6f3463e98974d",
-      "published_at": "2026-07-21T17:36:16+00:00",
-      "title": "Iran-US War News Live Updates: Trump Says US 'Not Finished At All' With Iran - NDTV",
-      "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNeHprc1Z3RjIyYkh1Rmg5SGZyMUpvSHpTVW51d3BqRHVDR1ZuSFhpT3A1cXZHUm5LblBoUURpbWE3OHhDLThKSHJMS3d1NUZMZENLaXVDNHBsd1o2cy1PazF1UUxMcW5wTmhubENhUFlHeExfS1o5RC12dllhS3FEYVMwb0RmdEtPdnlhVk56VWJubkVTVmw0ck43V2pFUXl6SW9mNnlkLTlIVXY4VDFtTHNPTEVyYjJBREd4SXlfWUdfaGVWT2RjVVA5Ry10cjRKblAxeTE0MFJ1YTM0S1VNdC1UdkZWSFoycEFYQnBDRUtZaFdnbmM0R0t30gGCAkFVX3lxTFBLZ25rd1c4MldYQzBSQlRxSTM3WXUtNF9XSHgxN1pVVlhTMGFmdXo1b2MwTEt0MUFvYV9Na1h0LUtFMHpXNC0zZHNrakRxWkFyay1YLVlpS09Mbnp3czhFNDlXTVpnYkhCeU5MQkgtQk9uOXMyMXN5cmRIa0pKbjJHOUc3UUZJZ3ljemdUaVNhVDU2RGN4ZG9fUFkzTnlHdG1vVkZVbGZCWWI2RzN1aDdWZEhSR01vZnlsOGxjRzVzT0p2a1BjaFd2NDB5LWtwQjUteTBSb2V1T3ZCTks4MkZZamVnVHR4SDE3elNWYU9sazh5YzJzMWUtajliYXFOSjFmdw?oc=5",
-      "source_name": "NDTV",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "f3f6ef9b5e01ec60",
       "published_at": "2026-07-21T17:33:00+00:00",
       "title": "Pentagon Identifies 2 U.S. Soldiers Killed in Jordan During Iran Strike - The New York Times",
@@ -329,66 +389,6 @@
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORlZ5bEhMQlpYV2JLZTRpUkJTblJYa0VGeFhhblVfUkp1TDIzMFl6ZnlIZ2gxbDZJUXBpQmdZXzc0RjQtRmU1cjhXblRCN3lwbG5YNThjR0xLMnRJTklldUNYYzlrLXRjeUJDM0dPTjFBcVZQdUQyU1VZbmtYQ1ZfSld3cUppa1ZaVk4yWVNCYnFpbEJZVkxFaHdjcDVoMWplN2tRV3pTaWJodV9zZGloY0JRYjVTSXpMbUpV0gHAAUFVX3lxTE5Sb3VwbFB3cUlwMkoxU3VEZjBEUjBLZkxyVDFpNUp1WG5PektuUGw4Z1hTWEUzbE14dEd5X3RWMmxiRG4weVJoWHY2emd1N0NFSFY4QzlwZmQ4Q0s3d2NudG9CNTZjRUZxSDMxV0QwaEkxOF9qaTZ2cGJtOFRZVHJSYTR5TTc5b3NWMkJWbThFRnNJdUxJNExpa1M4NlFLN2dWVzJKX25RV2U0a0kwam15Wm8xZU1lTHJpUHVfNkZ1OA?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7adeff763290241e",
-      "published_at": "2026-07-21T17:10:00+00:00",
-      "title": "Latest Updates: Iran launches new attacks on U.S. allies after 3 American troops killed in escalating war - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPTnl2blBxN3hkcHpRclhTUVh1aEtCSDRKcTBPQXV3UmZFTExfVnExVEcxTW5uZlVRcEQyZDg1MXJ4SXNVUTl6cEdjR2Fla1pRQ1dzSWhoa1dJSlVtell4TXZ2YXNGbFRYRXFsc3hReHJDS0d6V0Q4Yk9KdkRMTEJWVk1OTWR4QWJRVVEtTldRZjBkRGM?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "8c3d225c408eac06",
-      "published_at": "2026-07-21T16:48:20+00:00",
-      "title": "Hegseth to ask Congress for $87B to keep fighting Iran - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSmVBUDZsZXJwd3VDSFpPdFNtNzYtaklOSHRzbGF1NWlBVGdDZVlJd1dvb29aR2lqMlRfLUxxQkM0MUFQcjZ3LVpkR21ma3FTODN1MTM4eWNJZko0bEhJVmtWakFGMlY0MDd0eUVyMVFqUEdVbVc0SFRKUjJsRlJOYzdhQVQ4MFJ1?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "be0879a822608b42",
-      "published_at": "2026-07-21T16:45:00+00:00",
-      "title": "US troops killed: has Trump lost control of Iran war? - The Latest - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUDZBWXJTdl9HRkRYbTdjU3lBbUtWNTgtQ1BoMFNQUXVhZUZKZ0hwZTNmeHRqMUJQZVV0YzhScjlRNjV5X3lrVmNTWldLY1R4SzZsb0FCYTNOQXhFckUtUFY3cFpJcW02MXJZLV8xVG5NeERuNzQ0cnRqVGJ1eV94RzZORU1QRTNZc0ZIX3VKREtsYXhKTjF1M2thYkU3OGZySFdLX0tzVjZmaFZUSmxYd2dIRQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6e563ae3145a6800",
-      "published_at": "2026-07-21T16:36:00+00:00",
-      "title": "Iran is evading U.S. defenses to kill and wound American soldiers \u2014 it's not just that \"one leaked through\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNemUyMmhPRE1SSXBiS1VJaUFDelJZRjBwTFpmUVh6em1mLWNvM3Fmc3ptanlHLWdCMjdvZy1kSmV0RXNpa1RlcGxaXzRTNXU0Q3JkdTFidWF3NkR0UlVoU215d0Jvb0phTm5EWHUwS1pHQ3Jib3ItVGRZOUZleGR4ZVJYbHBjOUMwRGZlYUI1aDVWREFPWlZEa19ZRkxYTE5uX1ZZ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
