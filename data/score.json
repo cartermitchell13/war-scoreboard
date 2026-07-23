@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-07-22T22:17:48.480584+00:00",
+  "generated_at": "2026-07-23T03:48:01.917082+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 100,
+  "event_count_window": 99,
   "totals": {
-    "usa": 61,
-    "iran": 12,
-    "lead": 49,
+    "usa": 55,
+    "iran": 10,
+    "lead": 45,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 43,
-    "iran": 9,
-    "delta": 34
+    "usa": 37,
+    "iran": 7,
+    "delta": 30
   },
   "confidence": {
-    "score": 68.5,
+    "score": 67.6,
     "label": "Medium"
   },
   "event_types": {
-    "other": 30,
-    "attack": 65,
-    "material_loss": 4,
-    "diplomatic": 1
+    "attack": 62,
+    "other": 33,
+    "material_loss": 2,
+    "diplomatic": 2
   },
   "history": [
-    {
-      "date": "2026-07-09",
-      "usa": 6,
-      "iran": 0
-    },
     {
       "date": "2026-07-10",
       "usa": 0,
@@ -67,8 +62,8 @@
     },
     {
       "date": "2026-07-17",
-      "usa": 6,
-      "iran": 0
+      "usa": 3,
+      "iran": 1
     },
     {
       "date": "2026-07-18",
@@ -77,47 +72,52 @@
     },
     {
       "date": "2026-07-19",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-07-20",
       "usa": 3,
-      "iran": 6
+      "iran": 3
     },
     {
       "date": "2026-07-21",
-      "usa": 10,
+      "usa": 7,
       "iran": 0
     },
     {
       "date": "2026-07-22",
-      "usa": 15,
+      "usa": 9,
       "iran": 3
+    },
+    {
+      "date": "2026-07-23",
+      "usa": 9,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "e194b4bac2352fa0",
-      "published_at": "2026-07-22T22:09:28+00:00",
-      "title": "Latest combat deaths show risk has shifted to troops far from Iran\u2019s borders - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbHYyRzZlSENBT2FnN0cxdHhtV0ZHREdqcVZDQ3Y0RGFScTVncFVEQW83amFpbXZJUVh3YzE2UldnZnVadlNDa05yTnlqOFJtMnlrUWUzM1ZZcVV6R212YjlCZEEwZ3ZveTZKQWR5ek1OeVJROWdmd1MteU81djF6T2h1dWpKSFhHT1NqWkVwT0ZEOWV6TjJuVkYteTNhNW5ubkRtMTZyUG5IMUIyV2dIU1Z5RGZNeU5aUFR2aktKNzBHZzZRNGkxV0ZDY05xUVJZMVhwY2NKWQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
+      "id": "df66ddba8b24659d",
+      "published_at": "2026-07-23T03:36:09+00:00",
+      "title": "US military strikes IRGC targets in Iran with B-1 bomber - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVE43Z2t4VlZGU24wcDcwcENqRlR3QUFhdXlXMU9HbWk2Y0MwZ1hwV19PR1RNa2czNmcwNDZvMVZVc0NGa0M2VXNoSFQxZmJ5QklmajA1d3g3RnB1VHY0WEFYamJ4ZkZqWmdUS25oVGttN3ZyT29SdXdGSGd2eDBxMjJ0VjRyWkxnd3d0Rg?oc=5",
+      "source_name": "Crypto Briefing",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
       "points": {
-        "usa": 0,
+        "usa": 3,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "id": "2bbc9da867dee233",
-      "published_at": "2026-07-22T22:07:30+00:00",
-      "title": "Iranian missiles show deadly precision amid US-Iran war escalation - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZGtKR205NVlpZi1lRFlrUTJDNWdYZFNETUNjZUw5TlN2R1JPa25SZTc1aE91dUhyTlBNb1B2MTF6LVFUWkE1aG1kbnZsYVZzWTE4LUNaOXlrYTMzZDZUdU4xM290ci1fdkEwWmxhSDJIS2hWT2dkazBlVkt6ZVhzY1gzVzZrd200MThiRnhzbTVoY3FqZVZlbWtDdXFyUWpxdktETkJXUHBCOFHSAbABQVVfeXFMT2J4SnpsYzJIV0J2Q29zNkV1OWVyanFzOV83MnlwcnZlYVJCdVBLZDZRaGh2RTI5SGpxMm5FUFNFUUh4emFnVENzdVFCYmpKel9fYnY3RmtWNThXY2hjQm9RQ2g0NERIbWh5ejQzekRYc1Q1dHFoalFfaWZfclRoWmtVbk5TSzRFZlhKWXU3YTh2cUVnQU5zTmlNbkRGZmFxU3VGMHllOU56UHpVMmUyMkg?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "2968fee731f94c0d",
+      "published_at": "2026-07-23T03:30:07+00:00",
+      "title": "US deploys B-1 bomber amid escalating Iran conflict: Axios - Crypto Briefing",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMWNHa0RZSDdmLUtqbnlYRWxzRmNkZXVTWkRMWXdDMHY4dHJIakdpQU9ZWUZUNmZkV0xiVkpLaFlseG5rUTBvOV9nTW92T1VQSUJWaTktWjdzOW9vQjNZdVNFV01jUnBnVmdicjFXU3h6MHlFQ09Lcl9KaHdDN2c3Q0Iwc1VFOXc4SEF2NHBB?oc=5",
+      "source_name": "Crypto Briefing",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -128,57 +128,27 @@
       "confidence": 0.55
     },
     {
-      "id": "85565b54c200301f",
-      "published_at": "2026-07-22T22:03:13+00:00",
-      "title": "Iran-US war latest: Conflict in Middle East expands as Houthis bomb Saudi oil tankers after days of threats - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNGJjdHBHRVAxRG1Xd25MQVAwNnNNREpETlFuSXUzNHpXNVBycWF6WE1iNVJVZHJJVTRqeDQ1Z19yMTdITEc2ZjdPVDhQNVpwdk11SERMMXpYRjZpNmRfNkgtMExQalVQRFhqNDl2bk9CME1XYmYwVmFnM0hSYk1yT1hYRWZfSzhlVUhCVXhYek5QZjhGbGV5VnRSb251TmFCR0JSYXhHZzY3QjlqY2NiS21wTU85dkRiWUdwdHhn?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
+      "id": "3a3d6aa3b9c62a9d",
+      "published_at": "2026-07-23T03:29:05+00:00",
+      "title": "Iran war latest: UK withdraws staff as US strikes continue - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaTB4a2tfeWIzSzJ3RHNiZ0lKSXJWa2JwLWp0b201d2ZySFBXaDNubUdPb0JXQ0JXU1NtRkpaN1BuZUhtRUtGTTdhdzE4SUt0VVRueTM4elZPZTVfUmgwSlk4VzdYSkF3MnNUUzBpY3BJTTRMdkxlaUoyNGFCcWV0M05HT242ZEF2NVAzcF9R?oc=5",
+      "source_name": "Sky News",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
-      "id": "5b0b363ae2ec3625",
-      "published_at": "2026-07-22T21:44:59+00:00",
-      "title": "Iran warns of regional turmoil if US threats and attacks do not stop - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUVNyWS14NVBtNV8tSmJhSllrdG4wM1B4dXk1c3BIbkJSLVhqdnJHYm44QXVER1BKVDV1WHB2d3RCZm1fWGJ3TFg4LXVwQTN3Z25RdVZfUllXUXJ3cU5jc2dNUE1pRWZRczRfYlNlZHZWVEVQQXliOTZhX2lES3plY3U2MWdzSkFyRFJ6bkp0UDdWRnEzcThhV2FUUHBfU2lDc3Yyc0ZEONIBrAFBVV95cUxNVVJsVXRTUVRoQXUyNktmZmxfcDBfMTdmOF9qcHJYZFc1aXJYeFh2ZjBzT2h4T2htZW9ma1B5cVFwRHNsdzkxT0MtUF9nRGpYWHkzTXItR1o5TUZnQ2N2c1VNaC1QOVlXT05UQUNqQ21SUkk5ZzNhUDYtOHpGTjM4aG1HZW5QNHFFak9IWTZQQ2kwUmhLQTUwSEdlcFRrdkR3MHB4MmhWRjMydVlG?oc=5",
+      "id": "df26ab38e81eddca",
+      "published_at": "2026-07-23T02:53:34+00:00",
+      "title": "Iran war live: US launches new attacks; Houthis attack 2 Saudi oil tankers - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQVI2TFJjMFduMWRzZ1B6dEYtWWVTcHYyWFJ6NjVaNlpzaWxleklxUmNRMVFfMzlCNjhhU21mMmNoTk9zTjZ2NGZZbGxNR3FXYzQyM29uc3N1bkNXLURCTmwtNHF5RU5xNHVNQWlnR0hYanhOeXV1SzgyN1dVam5vZElpZ2NENktUTUFhX2RLdi15UXBZZTRWUkZNT3Q5bW9melEtN0R1Z0ZPeldvOFl5WS10czRjbVE0TXpWR2RIZ9IBxAFBVV95cUxOYTJ6dmJvYTV3RkFscUNkQVNjMEVLZUN5TGVydTVEd2VHeXp3YkU1blpTX1Vrb2Q1SVBUaTVYSm4wV2VjUWlsMmwzZWRKYkpiaEdSSEpGaUVlSEpuRzMzX09nczZ5RGVqTWgzRGpCQ09rWEpPQjduQnJkdVZOanFldk84aHZyZEc5UE5LU1dkUnpxUDlVUEtBTmtQZUVhaW9hWVp6d2xuYm55a0ZsUnU1ak5RMFFyejU2ZEdRdlVpSDh5dEh1?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "433d0f91ce3aaaa3",
-      "published_at": "2026-07-22T21:10:47+00:00",
-      "title": "Iran War Live Updates: Trump Threatens to Hit Bridges and Power Plants if Iran Strikes in Strait - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbHZsVl91WllCV085UWdIUXgtYXZhbXFpRmZxOEMxQ19iQU9Ld2lsUnU4SUFpZUZOQ1NuM0Rrd3luSFVFd1RJTWc2WVNXalZSQjM5MWZWRGdDLWIwZ3liTEdOV19fYnVON2VRUWFSUS1mdUJYUHQwYUxvU3ZybFlVQQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "662eafbfcbe38469",
-      "published_at": "2026-07-22T21:00:00+00:00",
-      "title": "U.S. Surges Forces Toward Middle East, Giving Trump Options to Expand Iran War - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSXluYVZwbmJBS3J3aUJ4aE9ILUNqWWZPM3UxNnY1OXFUSUhrUk5tbkhwTzc4Ry1HWVRXdmtNMlR4cE1RZjhDT0F5aWxDMVFwWHFvaTVhaHlvQjJKTGFDaERpdHkxeHBaUGZmZ2ZFSUF0ZEhURVA4WDNWZkVLcV9pTGFxbVQ1aEo0TmpyaDN2UDhDOXJVQW5rTktYZld6YUNTWGc3UXlTQkY2LUNEdWxLb2tIYkFDM1hEUTdRQkRKNjg?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -188,23 +158,8 @@
       "confidence": 0.7
     },
     {
-      "id": "01f620fe001c7d8d",
-      "published_at": "2026-07-22T20:59:25+00:00",
-      "title": "The costs of the Iran war are rising as Trump and Tehran signal no letup in the expanding conflict - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOTDhhM3dwNExYeUkxSU5xQzhhTGdLSDdNdk1ZY0hicHh4eWJiRGdWc21Hc0ZIZDdMdTFZdndtWDRMM2JEYVE2cHR5UVJtZHJiYXU1ZkxkTlBlcmhKSkxvVl9zVEZ1dlNKcGhwVXR6cFZQMWRtM2pWX2labU96N0hlcnlXWFpyQXJYN2pGMGJReHpFNHpuc0s0UzU5NXI1SXBEa2xMbjRuMWVVYXVTRjZhMg?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "a4ea10af8381616e",
-      "published_at": "2026-07-22T20:34:00+00:00",
+      "id": "2c531ec460544fea",
+      "published_at": "2026-07-23T02:36:00+00:00",
       "title": "Live updates: Trump vows to hit Iranian bridge or power plant each time Tehran strikes ships in Strait of Hormuz - CNN",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBRMWdUYldNM3B6UDFrSXpEd21GbzRtVklxWEFtVi1vclBYVHlNN3NmVVVwcnZPUlY5aHVBN19vbTE4b0VJUXJWXzU4TTBJdVc1UGVSR3BBWWRDeVZIdTYydE1JU1dLcHVIYTZSZ0NsQ29Hdw?oc=5",
       "source_name": "CNN",
@@ -218,116 +173,11 @@
       "confidence": 0.7
     },
     {
-      "id": "a3ada515c79dc3a6",
-      "published_at": "2026-07-22T20:25:18+00:00",
-      "title": "Iran war latest: Tehran reacts after Trump's power plant warning - as president 'honours' killed troops - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNaTB4a2tfeWIzSzJ3RHNiZ0lKSXJWa2JwLWp0b201d2ZySFBXaDNubUdPb0JXQ0JXU1NtRkpaN1BuZUhtRUtGTTdhdzE4SUt0VVRueTM4elZPZTVfUmgwSlk4VzdYSkF3MnNUUzBpY3BJTTRMdkxlaUoyNGFCcWV0M05HT242ZEF2NVAzcF9R?oc=5",
-      "source_name": "Sky News",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "6fe485887f6f9334",
-      "published_at": "2026-07-22T20:25:00+00:00",
-      "title": "Iran War Updates: Trump threatens to bomb a bridge or power plant for every ship attacked in Strait of Hormuz - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbnFoblVaeW56TWFYUWE1SGl5N0RtX2t1S25oOFprWVlLZjFPa0Nmdm5hWjdzcmNpTGJCejk5OUxnMF9Pbnh0SklXc3BRYlktaVR2cS1Mbk1FNVVhak5QakV0UEh2VXF5UEFJQ2ppWXZ1Um9FX2lYSEpiaUEtT3dFaEQ2N3lRdTRLSjZRTnZGWk1PUk1tWHUwOVdVZjc?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "48d521296f9f31c9",
-      "published_at": "2026-07-22T20:19:31+00:00",
-      "title": "Tehran responds after Trump warns US will strike bridges, power plants over Hormuz attacks - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVW1lQWtvWVpYZFloQk1GT2FYR2FfbEM3Vk43X3p3Ykk2cUJCZlFRWDQ1Mjlnb2VIeHBselNwV0FzdFMxcHIxclBQWXl1WnBoUGhMREhRWjFORXVYb3JQWmFNNy1RREs0ZjhaZERDWkc3dmpCRjQ0cndWYlhrVG9WTV80aTg?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "520aeca5f17024be",
-      "published_at": "2026-07-22T20:06:00+00:00",
-      "title": "Trump says US will destroy a bridge or power plant for each Iranian attack in the Strait of Hormuz - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5ea26b3c0849e2bc",
-      "published_at": "2026-07-22T19:42:53+00:00",
-      "title": "Trump says U.S. will destroy a bridge or power plant for each Iranian attack in the Strait of Hormuz - PBS",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPVGpBZ1VUa001aFE1aXZXeTcwTVlldHMyeFFiWXZ6a0hxRUR1VXZqUXhtMTRob3RrZzFKYnV2UzlqMHRmcmxsdzdjNnFZQ1hsV21yTVZSZ001NW04Ujh1RHBIa09NM0tvdlNaSnJLVHJjNUh4SEloa2o4aWQ3SWNlVTZBZGhWZVh2eXdLUkVBRkU4VDRtdHR5ZzI3MFNhT21VSDN0WVZ3T1A4WUhQMGo4ck9Fc0ZwOVBZWUJrRktHMVJ5OFVpVFR6RFZiQ2pEX0XSAdQBQVVfeXFMUG91b2tqa3pPQndEOHY2RGVObU1qT3dxQjc1QU1OX2lnbEctYktUUE90Szc0SFpVdHdGNzA3My1hOTlvdWJ2dUhSalE5NFlST1FwSkR6NXNvQUtsV3pFd1NkNnNTRWxDYXFHQ0kwWHhXZ1pXMnBnU1hnT2FpazN1NkFkdEJLcUtTdkJNTVh5S2d6VXRsXzdyajRSWjIwVzZEakQzRWxpUWlVbW9tQ0FCekhPUmZiT0trTUZLS0c2ekE3LVBsSnY4bU10WVVxUkZXNXlWWTg?oc=5",
-      "source_name": "PBS",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "6bde70e15cd97dd0",
-      "published_at": "2026-07-22T19:33:52+00:00",
-      "title": "EXCLUSIVE: Iran strikes on CIA facilities prompt questions about possible Russian role - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNbGxVY1ZXb3k0ZmxlWngxbUYxVlAxc240XzR5RlUtWFlmYTAtc0xSWG5WaTNmOEVxTVRwS0N5MVhDRzV3RnJXNmlUS19tbGxUWEZrLXRJTzJPVHYxaW04bG84bGR0R2NzYVA2N0tjalRiWFduVXk0M2puWE9CX1ZSaU51OWR0b0lUb2Y2dnVXZHdreWJDVk0zc0VFdXhNbnBPdUlDMmxuckJWM1R5QTFZOEh5aWtfbDN5c2c0bmlBbk9mSEpL?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ac9ad78a5d1c4d26",
-      "published_at": "2026-07-22T19:29:30+00:00",
-      "title": "Trump vows quid pro quo response to Iranian strikes on Hormuz strait - wng.org",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMkFDaUdTN0hlYjNYQ1VoWVFyLWowNGtVVFhHWGZwNEF0b3BiUjZ4eHF1dzkzXzNXdllGanRZLTBzUUx5cmtRYnc1OWNscFVTYmR4STdMTWRKYUNTcm1MWmxRcDQtNFZqd3JMSFNKWkRxdVZIeDE5ZkVBT1ctWXFrVVNtM2JXVGItZUtuUnplZjlkdw?oc=5",
-      "source_name": "wng.org",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c97f2dbd4046b36c",
-      "published_at": "2026-07-22T19:25:00+00:00",
-      "title": "Trump Says U.S. Will Bomb Iran\u2019s Power Plants, Bridges if Tehran Strikes Ships - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNV3F6di1Zd3ptT0NYUmNlSTlJUDFndm1PclRxMjVORjRXLW9Cbi1YT0QycjNibTItVjJZZFIyWXFRZjlsS1V5UTJsVnVxVHYzVFZEOUpBLUU4d1ZTYTF3UWI3V2dodVBmSnpLQ3c0d292RkZEamVPbGdnOTNoRG4teThHU3BrbTJKQ1VBaGQwbWFSUE4tMXpjSmVjX21VQl9jaEtvSUlSM2FZT1BnM0RWdmJEa3J4NlQxUVdRNmM3Zw?oc=5",
-      "source_name": "WSJ",
+      "id": "1eb32f4dc30d6080",
+      "published_at": "2026-07-23T01:48:05+00:00",
+      "title": "US military carries out strikes on Iran - The Christian Index",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUi1XblN1SWdkRVI0a2xZN1ptZ2xiMS12dHBHNElFMjh2TC1pZTF0RHBLeENhNkM2UmZjOHpWUlJ2TGZzYVYzbENJMzJITWxMWk5fTjFpSVQ5OXdpU00tNFN4WTd4Yy1wSUx4QXRhZkVWYmhuMU5yZ2ZmR3AzYlcwX1J1MDliZHky?oc=5",
+      "source_name": "The Christian Index",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -338,11 +188,11 @@
       "confidence": 0.8
     },
     {
-      "id": "311c118348958bb7",
-      "published_at": "2026-07-22T19:12:00+00:00",
-      "title": "Iran warns any attack on its infrastructure will trigger \u2018powerful\u2019 response - Middle East Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPU3BpWmR2bHBYUG1WMGNabUIzWHROenJmRC11OVYxZmx5YnMzdmVaVGk3M3l3eFlGX09HTWgwNDluSmQ1QnVYcE04aktpR3JrTmdLTGNXLXdEQXVhREZSb2lCeUZONHY3SndrWWJZNkgwOVZQVkROZXc5Z2hXdzZ4OE5CMkpJb3ZGMmhKeFoyZmhXcU1BZm9zdTF0a3ZWVUhhNVdDelpEbkd0dVpzU3lvWE5RNkpiX2l5d3fSAb8BQVVfeXFMUFBMSjcwUXY3TGhZbVlaNmxwaW1CZU5ieEhRUk9seVVRR1hSQ3ZlOHp6MVQxTXU0UXoxc0xfMDNYaXZUSml6bFNCdEx2V2Z5WXlLekx5TTZ0aEtxWVFYZVFodm9uSlNDWjZNbVBadmRlX051Y2RNdTZkdnBjaVFQLUdfZ29BQVd2OW1feDlRYlNxa3djbUpYUW0zUTJiM3RETkx5THNmQnRwOEpiS0x1ZUphTUU4SVBtX0NlNDR2ZWM?oc=5",
-      "source_name": "Middle East Monitor",
+      "id": "1d7bd082149eae45",
+      "published_at": "2026-07-23T01:43:34+00:00",
+      "title": "US hits Iran as Houthis claim strikes on Saudi tankers - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSkR1ZzU1NVNscGh1aTJIZk1HTjBIUGRQZkVhYXk0U0RYU3JRU216eXJJanNseUctbkRsS1NhZzNzRWdrRTdscUFiZS1QSjhKeUpSeXNVbmFOT1FnQUVNd0xmbDEya3FjSlRDdThweGEzLUN5X192Q2VCQXd0WFhUb1hCbzRhT3lFN3lzNWFRbkh5V0s1?oc=5",
+      "source_name": "DW.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -353,26 +203,11 @@
       "confidence": 0.65
     },
     {
-      "id": "fc7c1a39587ebddd",
-      "published_at": "2026-07-22T18:57:42+00:00",
-      "title": "Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRG05aF9TcWpCYXkxZ084b0tjU0FEZm1hZHJEUG1QcEQ5TFliNHF6b0xnQWIzcE5CdUFBa1VqY09Za2NsUWVwVlVEQXRIekZseDdKTnZOX1lCRllXeEdreUU3bHFOck1EbGc2RTltVlVMdHFGd0NHcDZTblY3NXJXeVpqWjN0UjVHeWd2VVBNTVVna1RPRUpKUVotTUpqTmfSAaQBQVVfeXFMTlE3UjdBV2ZTYXQtVHlPcTcwZE9nMmFFVFdXbXZMRlhCd3BNUzJQR1NZZkplc1BlLUJ4cHBxS0JFWmJtMkVRZ3NqNG9CSWtTLXNKbWhkNGtRdDJPRU9selZFTW5La1RLYURrczBROVp2RmZoVlRTZE5YbHNWVDZycHVNV09fT1JtT2tnWFhqd1hhNDQ5SURzZjlFR1hzTnRHMS1vNW8?oc=5",
-      "source_name": "CNBC",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "814969edd489750d",
-      "published_at": "2026-07-22T18:47:13+00:00",
-      "title": "US and Iran attacks rage; officials question if diplomacy can stop march toward war resuming - KSL.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNkdBaHZDdm84Q18tNlBtS3FHaHBib0Uta0hBaTZZSTdBQ1NRRGs3OU54eXVnZk1sLUdUd3lqamFTTWlKeGw1a055YThXTU41c2ROTkl5RHotdnpHcXlwODZQOTdxM1lxbUVvNjhiLThhNjNib1pyNkhvS3VzX2VMSzNrN1JzN0NzQzlsYkZfaDVWbjd6RGhxOWNGQi1kUXB2RlNub1h1Qjd0bWJUT2p6SERzWEpyR0xOeG1PNFRhWEVOWVVrSkZr?oc=5",
-      "source_name": "KSL.com",
+      "id": "88e41b8346031ae2",
+      "published_at": "2026-07-23T01:42:22+00:00",
+      "title": "Tehran responds after Trump warns US will strike bridges, power plants over Hormuz attacks - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVW1lQWtvWVpYZFloQk1GT2FYR2FfbEM3Vk43X3p3Ykk2cUJCZlFRWDQ1Mjlnb2VIeHBselNwV0FzdFMxcHIxclBQWXl1WnBoUGhMREhRWjFORXVYb3JQWmFNNy1RREs0ZjhaZERDWkc3dmpCRjQ0cndWYlhrVG9WTV80aTg?oc=5",
+      "source_name": "Fox News",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -380,14 +215,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
-      "id": "2b44a66a1e67016d",
-      "published_at": "2026-07-22T18:45:18+00:00",
-      "title": "Iran war live: Negotiator Ghalibaf says war will end or engulf region - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd2d4ajBjWjdUZEplZjlpNS1mWkRLZ2hqU0VUNUx4TXFsVEhVd25ZWWxENGNsWUNidVNiVThJQWhyRHpHYjhZRXFhQ2tQbGxwSFRiZHJ4YmFLZFFaNWVlQ1piRVYwYUtXcGZGaTBZaEp1a2J3X2VseGpRUmUwZEU3Mm1oVzN2TnZwU05pLVFBOExkUVI4YlBJLWhIbEp0ME43VXlHeGhKNEJUVy03WEZROUtJeXJqVmUzaDBCONIBwgFBVV95cUxNZnlKX1pwZUQxSFo1NnE3ZF85MmRwWE84UmhaaEdvQmtXYmtxTEI4dVRFU19XSGZtU1VTdkQtajN1Q3pkNEN5akcwalBUTlNYUTJYbVZOZkQtX21ET3c3U19ZaUwwTHY3M2o4b1NsYUpEcnhtTEpaOWZLVlhNcUF3X0RMNzNRdzFxbzFoQ2FoNkluS1ZHVllwb3o0d092UWY2dVB3UEQwOHNZMEVwR3pvdWJaeWJSTkNQbnpyLWhSTzB4QQ?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "e354ac34240637a0",
+      "published_at": "2026-07-23T01:37:13+00:00",
+      "title": "Iran-US war latest: Conflict in Middle East expands as Houthis bomb Saudi oil tankers after days of threats - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPNGJjdHBHRVAxRG1Xd25MQVAwNnNNREpETlFuSXUzNHpXNVBycWF6WE1iNVJVZHJJVTRqeDQ1Z19yMTdITEc2ZjdPVDhQNVpwdk11SERMMXpYRjZpNmRfNkgtMExQalVQRFhqNDl2bk9CME1XYmYwVmFnM0hSYk1yT1hYRWZfSzhlVUhCVXhYek5QZjhGbGV5VnRSb251TmFCR0JSYXhHZzY3QjlqY2NiS21wTU85dkRiWUdwdHhn?oc=5",
+      "source_name": "The Independent",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -395,7 +230,172 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
+    },
+    {
+      "id": "ec30c4162e9a226e",
+      "published_at": "2026-07-23T01:07:00+00:00",
+      "title": "US carrying out new wave of Iran strikes as military attacks Islamic Republic for 12th straight night - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWWRaR0FFZzhtWnluREhIcWNUbUt0ejdkTXJRY2JkQnF4bjhfNEJucWwwc205RGxUdDZNN3VxWkEtX2d5VXBfVk9PSWVOZ1dNMHV5Z19TcnZoTlA3QlYxclNlb21COTJ5NFJiWDlFZjhYRTZGOEJUZndZRE05OHF1cVlHNzJoNU40NmJfUVh0UnhNUm56QWc3U1dCS3gwaS1jUml5WU82RkFrYW5tcjRpX1JxV3BlNzBZSlp5QnJiek9CWHhCQU0tRUpCSXMtc1VrUkpvWTZFQ1BUTXM?oc=5",
+      "source_name": "New York Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e3e388c8e5556c21",
+      "published_at": "2026-07-23T01:05:00+00:00",
+      "title": "US military carries out strikes on Iran as both sides threaten civilian infrastructure - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVkxVRHNEai1jeXMzeVdPZVZqZmJvUjBqdTY5ZVZyWEp5bC0yWFJTWldhSlhlbFhoRmEwcFBnNkk0UWdDdHZMWFRXMk5acElxZEFSQ0otZzFQRElSMXdER1NlT0ptZUxVbTRPT3dFM25rOGtsb08yLUdXRll4SkhUZk9QejZ2RWZrb1hLcmhBYktXeEhrTTZIR3FTSTN6RUk?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "f7c6eecda8ac2dc5",
+      "published_at": "2026-07-23T00:29:54+00:00",
+      "title": "US-Iran War Live Updates: Tanker on fire near Hormuz; Iran says vessels must 'coordinate' to go through Strait - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOTlBXbE5OaE1zUmpWZmNORk1ILVBBWWJGRTJTUjVLaU9lR25CSEVLNVBQN1FWTnRnZC15a0hpVlU2T3ktQzVCNE9rREgwZ3hWT0plemlUVnNkYTM5dW5ZSmdCTUxhUEV6LVZVWlhoam9kSEpHOEV5bmh0VnU2dmMwNDVYZVRnVjhQYzU4a3ZGYWZMZHFxb01neEhZZy1VdGJlZkg1Mnc0NHdzcHZoN0M4aDVPaExxUkZaT1BzSFY3QVVYUWZBMy1oS1FTUDNYalhGWnZWWFFSSWlTZUN5WWFUZkNPd2Z3U0pGQ2QzcVVCdnhsNFNHem9FR3ZXT1BzNUpEZm5pVk0wUl9mRVcteW1DNkp4LVJJcDhPVEo0dnhCRFRCaVBK0gGqAkFVX3lxTE9NcTNTNzduMzBlLVBUdE1fcHg4VkxKRFFSZHNBWHpEOEEyNkxhT1U4ckFSMlQ5cy1TZkxNbGtETmpjTk9lc3ZSWVpyNUsxLTMxOTVNS2RMSmR2SHVOWEV0NWJYR0c3ck5McS0zaHdRcnRNVVE5TW8tbGtKRERhamtWMUU5NzA1OExBdHdPdldwcnc2RHl1dlNmTG1Delh2RzNZZmJCTF95NWVNZHVhdGJyc2w5TVZrdjBzcGRzUDVlYkNHejB3Rm9mZXRkM1cyeHFZUU1ycFFOUjZGVC1oYVZudEd2XzZ3ZVhMa2RSQ3ZSTVpWVnE4ZzNZdDF3N1ltLUFaVzU3TlVtOGZrajZNbzRIRzJlamtXNlpPMFR0dDUzQ1U4ODROSVRRVXc?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "70add8e0ab2d51b3",
+      "published_at": "2026-07-23T00:18:00+00:00",
+      "title": "Oil prices climb after tanker struck off Saudi Arabia, Trump escalates Iran threats - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTmctMzlYU1FiQlBvdGFwemtzeWE4MnZPR3pIeV8zSUYyWG90d2dfdlBKYmFoRjU2TFlKUUhPWklaclgzRWgtZW03Z09fOURWdlEweXNvY3dYdzFYdnY4U182ZW1RZHVweDVTUW9NUE5va00tREQxTHM5Qy1UQ0pSdExsQmpSbFlD0gGOAUFVX3lxTFBrRTdDSTVkeWFvYkd6ZGdfRnNDeUJ1QmE1UjBKUE1QWU01T0hwM2xPTXJMdHRWZTQ2Zzd5cGNFbDFRakVMN0VoQlVsUEd1UlpvMlgzS2JrcDhORVhqb0JIOUpMSmRqZW0zdVZmWGU4c0Vkd2Z5aDBiajh4VHVSajEtT1VBODZaZXNjTGZjQ1E?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6b0dc0a1f0ad435d",
+      "published_at": "2026-07-23T00:12:48+00:00",
+      "title": "Iran war updates: US says new strikes under way; Trump threatens bridges - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd2d4ajBjWjdUZEplZjlpNS1mWkRLZ2hqU0VUNUx4TXFsVEhVd25ZWWxENGNsWUNidVNiVThJQWhyRHpHYjhZRXFhQ2tQbGxwSFRiZHJ4YmFLZFFaNWVlQ1piRVYwYUtXcGZGaTBZaEp1a2J3X2VseGpRUmUwZEU3Mm1oVzN2TnZwU05pLVFBOExkUVI4YlBJLWhIbEp0ME43VXlHeGhKNEJUVy03WEZROUtJeXJqVmUzaDBCONIBwgFBVV95cUxNZnlKX1pwZUQxSFo1NnE3ZF85MmRwWE84UmhaaEdvQmtXYmtxTEI4dVRFU19XSGZtU1VTdkQtajN1Q3pkNEN5akcwalBUTlNYUTJYbVZOZkQtX21ET3c3U19ZaUwwTHY3M2o4b1NsYUpEcnhtTEpaOWZLVlhNcUF3X0RMNzNRdzFxbzFoQ2FoNkluS1ZHVllwb3o0d092UWY2dVB3UEQwOHNZMEVwR3pvdWJaeWJSTkNQbnpyLWhSTzB4QQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d59677b35e14cc86",
+      "published_at": "2026-07-23T00:08:32+00:00",
+      "title": "Latest combat deaths show risk has shifted to troops far from Iran\u2019s borders - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbHYyRzZlSENBT2FnN0cxdHhtV0ZHREdqcVZDQ3Y0RGFScTVncFVEQW83amFpbXZJUVh3YzE2UldnZnVadlNDa05yTnlqOFJtMnlrUWUzM1ZZcVV6R212YjlCZEEwZ3ZveTZKQWR5ek1OeVJROWdmd1MteU81djF6T2h1dWpKSFhHT1NqWkVwT0ZEOWV6TjJuVkYteTNhNW5ubkRtMTZyUG5IMUIyV2dIU1Z5RGZNeU5aUFR2aktKNzBHZzZRNGkxV0ZDY05xUVJZMVhwY2NKWQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b2cf78634c8e141f",
+      "published_at": "2026-07-22T23:51:09+00:00",
+      "title": "US starts more strikes on Iranian military targets, Iran warns to stop oil exports - Daily Finland",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTGRiRXhiVjVoUVRIOWQ1REpfQkF2aDgzWEUydXpob0NRU2czTWcyZVN5R184bXF0dEpSUlgtMHE3cmc1OXc2aG1vb0kyTTgzTmFrS2RkX2dwQmFIQk0zNm9qaEIwWldKcXNBRkFFNmEzTk12RkdFOG9BWEFYVHpkX3pac0VyV0x5bUh0LU9vTURlbGVwLUJOZGUyR3VpOV9vbWRuVXYxMFNZb1ZJMFlGNnFKSDNVcDJmdFJ2bHZsbEVrdzQ?oc=5",
+      "source_name": "Daily Finland",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5719de644b815728",
+      "published_at": "2026-07-22T23:16:51+00:00",
+      "title": "US launches strikes against Iran for 12th consecutive day - stripes.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQMTRuR2F2X25vcUJ3SnVzZHNfdnZ2THo4ZnFnNUtuYUVWTW9oanBDTm5qbEMxVGl1Wi1EeTRucGFBUEpfal9GNWVTVVlRa205Zkt1WkRxSkpJZnAxc2VzclFPQVZQLWhweFFLY3JET25peDRhSkFzdkY5RWdxd0Y2Sm9UblVEbUM5ZkpUT2c3VEpodmg3S3ZKb1luaWMyV29MT3dIWkpzZ3Y5dw?oc=5",
+      "source_name": "stripes.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "662eafbfcbe38469",
+      "published_at": "2026-07-22T22:42:00+00:00",
+      "title": "U.S. Surges Forces Toward Middle East, Giving Trump Options to Expand Iran War - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSXluYVZwbmJBS3J3aUJ4aE9ILUNqWWZPM3UxNnY1OXFUSUhrUk5tbkhwTzc4Ry1HWVRXdmtNMlR4cE1RZjhDT0F5aWxDMVFwWHFvaTVhaHlvQjJKTGFDaERpdHkxeHBaUGZmZ2ZFSUF0ZEhURVA4WDNWZkVLcV9pTGFxbVQ1aEo0TmpyaDN2UDhDOXJVQW5rTktYZld6YUNTWGc3UXlTQkY2LUNEdWxLb2tIYkFDM1hEUTdRQkRKNjg?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "91283252ceed99aa",
+      "published_at": "2026-07-22T22:34:24+00:00",
+      "title": "US, Iran Suggest Peace Talks Aren\u2019t Imminent as Attacks Widen - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxON3RzRmQzOUNwQ3lKakE5NHY0OTZOYTA5QVZmaXBQdVRFQ2NKY1Z2YUllamNKRFJVZWpkeEUycXJXY2hGb1BPQnVvQS1ZVHZZOUtjdFppTEFKSWlBdS1nalozMUZIQS1hX0F0WGprbk41MVkzUlltYjRaSWFpSllOWnlnalVKZ1RxWmk4V2NYU3VZa3RWZExKTzM3OU50NXNOQ2x6TjV6eGlYQ1ZGNXdvYw?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a3ada515c79dc3a6",
+      "published_at": "2026-07-22T22:30:21+00:00",
+      "title": "Iran war latest: Tehran reacts after Trump's power plant warning - as president 'honours' killed troops - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOajZOMWNTRFdVNDkwTDZvNVlhSFkxQ1lwM1ZPNVJDRlFzbDRqQnltZVRDOGp5eC1RdFdTYVlISHVUbVg3Y3l3dG0yV21QUzVHMVFBRUVpRW1mVWo5ekw3ekFPczNkX2w1WlpiUm1JTDdjSXFWS1B2cVJlMjJHMWNNTVJYd0RIV0JmWnJ4ZGZRcUtuZHJ6ekdEeWY1aXVfU09wMUcwaEg4TzRURXdmOFRhd21rRGNYLTVjb1dzMHd3?oc=5",
+      "source_name": "Sky News",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     }
   ]
 }
