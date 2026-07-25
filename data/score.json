@@ -1,36 +1,31 @@
 {
-  "generated_at": "2026-07-24T22:29:01.292082+00:00",
+  "generated_at": "2026-07-25T03:41:49.341241+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 91,
+  "event_count_window": 93,
   "totals": {
-    "usa": 61,
-    "iran": 15,
-    "lead": 46,
+    "usa": 45,
+    "iran": 19,
+    "lead": 26,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 49,
-    "iran": 12,
-    "delta": 37
+    "usa": 39,
+    "iran": 19,
+    "delta": 20
   },
   "confidence": {
-    "score": 69.8,
+    "score": 68.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 31,
-    "attack": 54,
+    "other": 36,
+    "attack": 51,
     "diplomatic": 3,
     "intercept": 1,
     "material_loss": 2
   },
   "history": [
-    {
-      "date": "2026-07-11",
-      "usa": 3,
-      "iran": 0
-    },
     {
       "date": "2026-07-12",
       "usa": 3,
@@ -74,7 +69,7 @@
     {
       "date": "2026-07-20",
       "usa": 3,
-      "iran": 7
+      "iran": 10
     },
     {
       "date": "2026-07-21",
@@ -88,67 +83,27 @@
     },
     {
       "date": "2026-07-23",
-      "usa": 9,
+      "usa": 6,
       "iran": 1
     },
     {
       "date": "2026-07-24",
-      "usa": 25,
-      "iran": 4
+      "usa": 18,
+      "iran": 6
+    },
+    {
+      "date": "2026-07-25",
+      "usa": 0,
+      "iran": 2
     }
   ],
   "latest_events": [
     {
-      "id": "adec495262e74c0a",
-      "published_at": "2026-07-24T22:17:00+00:00",
-      "title": "US military says it fired on another merchant vessel trying to breach blockade of Iranian ports - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2RzRDNJNGE4bkhwenhRYkRLV2tqQjh5akI2MkFmQThkZjdhbjVSUU9kLV9XNEUxbnJ3dmExOHpEb3VDOFVyam5sOTNsUGxXTzVkUDZjS0tFa1NPeDQ0MnRTQ1YzbzVWY0RZaWdMMk9JU08xSk5HWXcxV0FrRE83NXlJTERzRF90dVlLbndEYld6MEYwOXNCdW12NWQxTVk?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "82aadb65710bd318",
-      "published_at": "2026-07-24T21:29:34+00:00",
-      "title": "US, Iran Threaten Attacks on Civilian Infrastructure - Human Rights Watch",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQS0xxN1JHNGdHX0hVdi14VWtGWHFpWERYYlVXU05xLWVfRlZxTWl1RGV5d0VVWm9QWmdZQWlYLXBTMmtlQzdKdU5YU1NOZDBWanM4d19WTDdjYWswUVBYY0ZBU09lLXJ1WnBETGdFTHEyMHRPbGhiT3BhWmY4M1pYaHU0bGJNb1Yxa2c2bThxSmg?oc=5",
-      "source_name": "Human Rights Watch",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "bc5f2364e7fbc27b",
-      "published_at": "2026-07-24T21:20:40+00:00",
-      "title": "U.S. launches new strikes and Trump threatens \u2018massive attack\u2019 as Iran widens war - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVVBPQ0I2WkRxUFdZWkNFUDlOb2tPRWtFX05MUXp3ODhwLXpyQV96MmxLZFNEWlk0VkRSNGl0YmVQRE54MFpYX2hhbHZ2UVhydjBzLVdRNm5PZ1cwdW41V1A4MWpueHE2ajNhOXRkNGI3U18yY2s1V3EwWERXeDlNblBZVHJLS2dyeG5mTEVNZXVySVdnbVF4Ym5DemhyRHl1VGFFU2JUMGc?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "a626e3b3d249e521",
-      "published_at": "2026-07-24T21:15:54+00:00",
-      "title": "Yemen teeters towards renewed war in shadow of Iran conflict - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNlpIbW1acm1ubmVwWFhETlNMNVFPRDlZQlpxR25rVW5zRW55eVVIUUNtRUZRbHpiUUlNM05ycV8yWHNUOVNHZ1E0bDJTMExEVUp5S1RNLXI5RnFiajJKc3ZoM1ZmWWRjLTdCT09tTDlpeGZ0WmJBRUxTRW1ub2dMcmRQaFNRSk5pSVlwSk9oc1UyTHFvMGhiUE9zY3JScEZwZ091Q2dDZmVacXQy?oc=5",
-      "source_name": "Reuters",
+      "id": "3bcb20ce5e9a88f1",
+      "published_at": "2026-07-25T03:14:27+00:00",
+      "title": "Iran war latest: Trump warns China and Russia against giving Iran weapons - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3OEJwb2hJdWdzRVBTWW56bHo3X1VKQ3ZXVkJsa3VhMFRmVFRQbmh5OWUtcEFubEg3ZlV4VGFMVjhxVVE0a2gzdkc1b0EwZkpGUGtWTDdTeXFXeXBrLUlhTDlhZUxoR1N2cFNDWllHLVJJbVJENEE?oc=5",
+      "source_name": "Sky News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -159,9 +114,99 @@
       "confidence": 0.55
     },
     {
-      "id": "969b2908653ac200",
-      "published_at": "2026-07-24T21:14:58+00:00",
-      "title": "Iran War Live Updates: Trump Meets With Cabinet Over Whether to Intensify Iran Strikes - The New York Times",
+      "id": "afa868d5625bdb1e",
+      "published_at": "2026-07-25T03:07:16+00:00",
+      "title": "Trump swings back toward diplomacy in escalating war with Iran - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOcS1YRl9qTmtNX2dmX3k4UThqYXM2VUtCVWIycWM2OFBNNFo3ZDhuUndZb2pKX2lITjVmeTFDdUNPdllJWGtWT0s3MThyRE1LeEs3SWt3YjZhVlR4RW9vVXFjYm9MYWN6dWRvMFA4cm1PR3pkWmV3ZERSZVRKYnZvWldna1BWRERZX05WQmw4azlxUzV5V3dkLTI5V21KT1JYY1E0SHM0MjU1UQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "bd89819742ec5909",
+      "published_at": "2026-07-25T03:05:11+00:00",
+      "title": "Iran-US war latest: Tehran claims attacks on US fighter jets in Jordan as fresh strikes rock Middle East - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTzVpUGRKdTJTaWpMV1FORHhoX1RJa053OG1vTjRjSjJZMEM4LUVmSTZZc3F2cW1NT1dTVzlXTkxZZmNpSjRobnVYMnNjano1QTVlWDMwQlFTcDlkY0h6cWktYjRzdEdXY00xY2lWcTl3MmZGdU92eVQtTGotamtzdmtHV0VOUUUwMUhXYXFUYmNfMGFITzdSanE0Rk1weHF0UjVWc3BHT3BhZUQtVXN5bHI1Sl84YUl5Znc?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fd0688003eccbda9",
+      "published_at": "2026-07-25T02:56:00+00:00",
+      "title": "Live updates: Trump mulls escalation in Iran but says Tehran is getting \u2018more serious\u2019 in talks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtQk51ZFI1R2hJeUhnTTJlazk2WGstSFNLeEhfbVY2TXhER0tBVjZpemxQWTlyTDQzdFRiZlJQSHZ1YXVIWDJvUTh0ZzkwNDg2RmxBOTdLRGNSVUhaRm9DZzJUZm0xY3U5WGxQZThR?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8a7887f5ed91a3a4",
+      "published_at": "2026-07-25T02:51:48+00:00",
+      "title": "Iran war live: Trump says US \u2018locked and loaded\u2019 as it seeks Iran talks - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdDVPSWhRMm50Mng1UHBhbG5qRXV3eHFwX0dObEFENW1CcUduQ0o4a3dtNDlpcGNMRHpsZS1kTkJEYTZxM3VsTTRoSnR4UW15R0ZLa29IaEJJRlNwa1FLV2RhWmZ0cUtLZXhxcmZVeVhKdEJMNWdCT1gtNnU1amVQVDdnMDhUVUM3dk1GTldsY3Z5UjNXNXJnWksydzFfSnBMRUduQVdXemV6S0VCZVkySi0tLTRGTHpLY2fSAb8BQVVfeXFMTjJkVDJwTWlHRC1SVXdRNnFXZTJJWXVzR1Jib2F4dnJVMXVrZFBucDhLME00Ri1wdzFoM3dMYllLTGIxR2hTa0UtSXNXSm1CM2lfcVkzc2pvT0pUT1U3S0xTNjRseTVmZFVHbVBsUms0TXZNOUZydVA5T2NqWG5jNjI4ZUpSb0ZSOUk4dVRtTHFXWHhuNVRjUTliR0ZDVzVNRC1rME51NDdrWVpKUDlSRW10cS1Fc1R0SFI4RnZGM2M?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "835a8442085167a7",
+      "published_at": "2026-07-25T02:43:00+00:00",
+      "title": "Houthis vow retaliation after Saudi Arabia strikes Yemen in widening of Middle East war - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONGtzUUVWZzk5bHlYMW50bFg3QW94RFZwbXN6ZEY4eVVTVG5pdlRjd2F1V3gySEd3NVZVbHpFbVExQ2ZjMVBVcS1WMUduM3lSNWkxRzVJWGt3Q0huTW51SmdYQTYtY3RJYXVLUnpKUkZLb3c0aHpYQk9SSUNVLXhzQnY4TTFYOE1vbVQwS0h3clplUkpKenY0WVJpUkU?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8fabcd26dcbf6670",
+      "published_at": "2026-07-25T02:14:00+00:00",
+      "title": "The U.S. and Iran Are Stuck in a Cycle of Military Escalation - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZWJpQk56aTc2NVRpNlptMktBSnhYOU9XU2szb0hMUHNJRHBaRHJsQ3lsOUZIREd5c0s1RXpRTnZiTFlpM3RrWFRmUVR4SmFyZUpWQkdOc0pGc0VOb0NrNXJiRWN0VTdnSjVzeEI3VzRURDhkNXVkd2lwU0R1cEl6Qg?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "10cbc0dd6492460e",
+      "published_at": "2026-07-25T01:58:52+00:00",
+      "title": "Iran War Updates: Trump Meets With Cabinet Over Whether to Intensify Iran Strikes - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNekVNZHhVQkF4WWRNNm84S0JDZWJ1U3ZJRl85dFBtdV9DNlFSZGhtTGxIZll4aWRMZDVGd3JFX0hfWFR2SEwxUlVLOXR6NlNrQ3RPOUpBbm1qZERuVG1VM0FyY0NKNFZvZGtwV3VjU3BBSE5IeDV6dEpYYnYybnM3Zg?oc=5",
       "source_name": "The New York Times",
       "event_type": "attack",
@@ -174,116 +219,11 @@
       "confidence": 0.7
     },
     {
-      "id": "a02dec62620c0c75",
-      "published_at": "2026-07-24T21:03:44+00:00",
-      "title": "Trump weighs major Iran strikes as more regional states enter the war - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ST1k1MDlaX25tQXl5Rk5lRGtjVG40a2huQ0sySEJaLW5jWVRhSzk3WHhkdnptc05KNHhxOGxlV2R3RklHYWM2VGpQVGxjLVN6YWc?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "25d7d2d5e9ea0cb0",
-      "published_at": "2026-07-24T21:00:00+00:00",
-      "title": "Iran war live: Trump insists Tehran wants deal; violence rages in West Bank - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOOTd2aWM4cUZhUU9yNEthRk5KMEcta21uU2l3cm52ZGRNSFdPLW1RUk1WdGJtdXdqR0dtWlZlcHBFMUxiQVBhbkdvTVBfZDJxLThWdUhhNmhaZENwVHkwa2c5THNSc0toYW94RE54SklUUDRHQ042dk9GX294bVpYZXpiUDBOQXVCVXJLeEMxUzZ3M1NtX3J6c05NQ1BGckIw0gGmAUFVX3lxTE5JNWg1RnF3U2tkRzF6QWsxLTEwTFNza2owc1Y5dUZEcnpsXzBSc0g2ZlZjWFFNVHJrazdab2pqU0U0Q3lGcXhJc3hkcmRyMXhlVTVSWGNKSGtIQjhlTjM3bGtFUmZGTWJ2Yjhha0JGMlZlb3luaG5LQ3RjSVVjSWJWVzc3dHBmRE1sOU9iQ3NkbDZKbmI3YnZGWjJhTXM3d01jQ2pNR3c?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "6968b64719dfa8a2",
-      "published_at": "2026-07-24T20:58:00+00:00",
-      "title": "Live updates: Trump mulls escalation in Iran but says Tehran is getting \u2018more serious\u2019 in talks - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtQk51ZFI1R2hJeUhnTTJlazk2WGstSFNLeEhfbVY2TXhER0tBVjZpemxQWTlyTDQzdFRiZlJQSHZ1YXVIWDJvUTh0ZzkwNDg2RmxBOTdLRGNSVUhaRm9DZzJUZm0xY3U5WGxQZThR?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2c7f6c0faa177eb3",
-      "published_at": "2026-07-24T20:49:14+00:00",
-      "title": "Trump says U.S. 'locked and loaded' to attack Iran as concerns grow over rising costs at home - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOOElzZzBUa3JxYXQwX25xWkRXZDZRUmJ3TXY3NkV6SXlSWFNIdUZsNENsdkJYYl9kQTBRUnlFd3JhUzlYY3Z3VXhUT2FRRVo5ejFwX0JuLU5JNW1YejUwQ1E3UUVtV2QyV1I3ZV9tMERuUGk2QlBlNWFQZUlVak1ReDBoOGlkR1JvQ1d3bE1YWUE0d0VVcHZoc1R3VWJzWVozb0x3Y2QwN3BwYUZ4ME1TUWFTVDJpdzZWTEtuYk1yZHhRODRRTlQ3UkNnbFlPU1lYSVkteFR0YXRDT1I3QVV4NW1B?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "0f88210678fe30ff",
-      "published_at": "2026-07-24T20:37:56+00:00",
-      "title": "Trump says he trusts Russia and China's leaders not to enable Iran - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFNIbkVHRDFha2pQZ0ZQeGpKUnNPRnJyTGZYVmdRMlpuOW1hXy1kT2UtenhSSVNnd01lLWJXNFZVWVdrWVAtSlFtQmItekowMnFEUUhwbWNzUmh3NE9kMGE4LURxTGtUaF95dlp3T25yQm9FUlY0UUlUczNfNE9vUmIzUm5OUE1Fd2VWSVNud0V1ZVRtZFZxbm12SVBDSDJpMzZn?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b76ca2e7b0fbf330",
-      "published_at": "2026-07-24T20:34:00+00:00",
-      "title": "Exclusive | Bahrain, Kuwait Warplanes Struck Iran in Rare Gulf Retaliation - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQd2tBdjIzSWNNMXZMd0hFNjRqS2l6YUdXS1NuajQ4S2RKRS1FTnRSRDFjVXZtd1U3TWVwNjNBYnhncm13N19QX0F0YVBMVV9GUy1XZlR0c3c5a0Y1ZU1qaHJjeUg2TFVDLVFYR0MtRUExdFE1MHNTVUtQdkMwakR0dHpnQmJoSUlmMXZvRm43Zw?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1e57a9c3fc942b2c",
-      "published_at": "2026-07-24T20:24:23+00:00",
-      "title": "US, UK to meet over possible coalition to protect Strait of Hormuz - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYTlNM0lodDRIV2hST1psa19IWDVGMmU0aEFCQ3V0Y1E3Rnltc1d3aEJ6blZ3VXVnVDQ3RHRJenJyeGVCaENpdGdsckZHZDkzcFpvNXRTdHQ0SS1fTUJibzl6QlViTGdBMkZZNk1aSWNldllMSmlHdjBIMzViQWpEUVIwZ0NFeTBwaHBz0gGQAUFVX3lxTFBLV01QUy1vYmxhNG9IWWxncU5nZ2tFU293Z2hfRkgzNWhKazdVTzZhbjBrRnNiWXZIYm1qMy1DRVRCMFJxMDdURWpkOTR5US11dWh4NkMyeHdydnNFSVdsT1huZ21pbmxSR0UyNlhqTjFaUy0zdTcta3l3cjdKMWFOMFBWeThjc1FKV0tlamF6Qw?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "15297a304e67eb5d",
-      "published_at": "2026-07-24T20:23:44+00:00",
-      "title": "Trump weighs escalating US military campaign against Iran - www.israelhayom.com",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS1REYzFsQWxfNjNHNktvMjVaN1BlWnVpNWMxc3R5WWYxZlp1M2NIWmNxNU9fb2oxa01aVENETjl2UEh6aHh0TnVoelpoYi1MRVZaMGx6Y183YmMtZHV0bDJ2aHd0d21yelJTRWV5RW15N3lUV3Y5bkxsQ2VyWmVaNlpJSGlMdzdFU1R2cGlsYlQwZnJiRkhWSVA1TmxvZw?oc=5",
-      "source_name": "www.israelhayom.com",
+      "id": "20af195075d713e3",
+      "published_at": "2026-07-25T01:04:10+00:00",
+      "title": "Pentagon lowers count of Iran war dead and wounded, sparking questions and outrage - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ1BwUjctMk8yVXY0LVVRRjB3eW1ENUVYYjFzWkNyMWVIOWpNVzBEeTNaQzU5M2pDWEE1ZXRJb2g2WGk2a1ZMT0hEbnhtV3lZRmsxTzhaSFFTckxTWmM2ZUVZWmVkaWVkbDZVak9vSGl6b3dMNk5UdnBjOHZZM1phbEZwbS1MTHhxVEItb2gyZ2FDYVpfaTJBSzZ30gGfAUFVX3lxTE1fLUdKUGQ3NTBmZzZnSkduVmJkc3V0d3FtX2ZnWkhzaVZQUHp5LXlTT0tackNubUt4ZFFDUlA3NGlNVGFoQ3ZJeWltR3lCX3VHVXlibl9zVThCQ3BaSUllamM2NmdUeGN6UzdKWE8zZ2NuLXlJMUdWUUNfcHhmWC1ZV2pmdko2cHFDRjd4ZUFYdWxUaU1BN0IzOVBXZjhiOA?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -294,23 +234,23 @@
       "confidence": 0.7
     },
     {
-      "id": "624524c098021157",
-      "published_at": "2026-07-24T19:59:00+00:00",
-      "title": "US gradually expands the scope of its attacks on Iran - AP News",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQ0ZCeFZOaU1KWFIyaUQyMk1WdFdEbDRNaUJBSlpvcUFqSVRUVmRUV19ndXdqZElDeGtTSlNRUXZXYV84WXI0RjB5YlhXMXNJampLTGJKQzJLYnlienItemZMdHBDckZ3c1lCbVpMLTU3cGNXSnBlZ0RmNUpyUHozNlVwaF9OcjZqbGw5ZXByXzZNdw?oc=5",
+      "id": "430b984895efc87d",
+      "published_at": "2026-07-25T00:48:00+00:00",
+      "title": "US military says it fired on another merchant vessel trying to breach its blockade of Iranian ports - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc2RzRDNJNGE4bkhwenhRYkRLV2tqQjh5akI2MkFmQThkZjdhbjVSUU9kLV9XNEUxbnJ3dmExOHpEb3VDOFVyam5sOTNsUGxXTzVkUDZjS0tFa1NPeDQ0MnRTQ1YzbzVWY0RZaWdMMk9JU08xSk5HWXcxV0FrRE83NXlJTERzRF90dVlLbndEYld6MEYwOXNCdW12NWQxTVk?oc=5",
       "source_name": "AP News",
-      "event_type": "attack",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.75
     },
     {
-      "id": "d2c0587ed6090655",
-      "published_at": "2026-07-24T19:52:00+00:00",
+      "id": "067045d23e715c76",
+      "published_at": "2026-07-25T00:10:00+00:00",
       "title": "Live Updates: Iran targets American bases in Jordan and Iraq as raging war depletes U.S. interceptor stockpiles - CBS News",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPX3lNZnhiOVFueGNzd0dnbGM3V0d5emVUZTZhaXRRNmVpXzhVaVNRcVlWQ29XcGZDUnkwM0hhN1BYRmhnWEZhQlhFU1ItX0x6R3k3enA3VC00LVpKQi1xMWJPeXJ3VmQ5WDRhbzIzLWZ3MUgwS25ScHZOOXRnWmxWMzFacTlvRWNC?oc=5",
       "source_name": "CBS News",
@@ -324,11 +264,41 @@
       "confidence": 0.85
     },
     {
-      "id": "2784e4d7f89f3dea",
-      "published_at": "2026-07-24T19:24:49+00:00",
-      "title": "Iran's attacks on US bases in the Middle East mark 'end of an era' - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPNGxMSVBWdzdmRXRocEZ1eVpwbkRjaTBxWk1TSXJRanJGTHUyY2lCRTlyRVZFQ1dnV1BGQVRlZldPdXNrVUtTRTJONDBLMnFTYmpWTnVMYW9nMExobmZOdjBNdy1RWjU0N1BqeW1FTW9CYXM4ajhsSlp5TTlPOEhjc05pQkNmR2FMYmUtVDg5dGQ0XzdwLUhOUGg5TXREaFcxWnJtdGxQNU11QXR0MVE?oc=5",
-      "source_name": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+      "id": "e78079661eb43018",
+      "published_at": "2026-07-24T23:55:37+00:00",
+      "title": "Trump says hasn\u2019t decided on major Iran strikes, Tehran getting \u2018serious\u2019 - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbmZLeFd3QXlyeDQtZUdFNlRrOXVxVmlDbHROSURxZzhkcDAxdll3QW1ldFFZdTZLaWtGQzVTb0FLUVpSUDR0bHRaTFFtOE5fZjZONXFQSGx5Z2tBZGY4MjZnRUpVcUd3cDJtTE1Nd1NXdTJuc1BYMlFoak9JcU9JYzVQcGpubFhnRFJlM01WS2xiTF93RVlsdWtLa2NPZ0dHQkHSAacBQVVfeXFMTWhVTHYwSFR3SHVZejlYeTFCY1lLQndVaWotTTBNM0l0bnJZWjVJTURMbTFNdWtWcmtlMHJFelExNnFfMUNleDJRcDNyYlZOREVSdFBqWThHTENMaFdoeEVMSmZ6dmg1cVBXNEVVZHFSSzBzUWkwY05ySTVMS3NpQmg2YUdQQjRORnRyVUl6ZVQ2NzdDY0hwTE9MQmdqYi15YlU1WFJsakk?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "02d2df7ab14d46da",
+      "published_at": "2026-07-24T23:26:40+00:00",
+      "title": "US forces disable tanker after blockade attempts, CENTCOM says - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYTlNM0lodDRIV2hST1psa19IWDVGMmU0aEFCQ3V0Y1E3Rnltc1d3aEJ6blZ3VXVnVDQ3RHRJenJyeGVCaENpdGdsckZHZDkzcFpvNXRTdHQ0SS1fTUJibzl6QlViTGdBMkZZNk1aSWNldllMSmlHdjBIMzViQWpEUVIwZ0NFeTBwaHBz0gGQAUFVX3lxTFBLV01QUy1vYmxhNG9IWWxncU5nZ2tFU293Z2hfRkgzNWhKazdVTzZhbjBrRnNiWXZIYm1qMy1DRVRCMFJxMDdURWpkOTR5US11dWh4NkMyeHdydnNFSVdsT1huZ21pbmxSR0UyNlhqTjFaUy0zdTcta3l3cjdKMWFOMFBWeThjc1FKV0tlamF6Qw?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "f9d6c3bfa761f01d",
+      "published_at": "2026-07-24T23:02:42+00:00",
+      "title": "Trump Says Iran 'Far More Serious' In Talks, Even As Attacks Intensify, Widen In Region - Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoWThBYTRfRTcyYzlGMWlkY2dCX0t2dkxTMV8xalJzVmZwbWdmSWtLWjZ5cUtLRzdYcDZ0ZzFTODFva1duNUNwVmhXRVdZRjNfRWJwWm9NbGRfRTg2MGZCd3NQSWJ4cGozb2NjZkJnU0hUM1dnbExQeGdSVG_SAX9BVV95cUxQZVpCQVZhODJCMEtyY2w5MDVKMjFLd1YwdEo0VFhxcW9qYkhCVHp3X1dkQm5RVWFpOWVadWY2ZVhEMUl2SDFtSVNKaFYtNGdpUjVaS0N3Q1R0ZE9iUjlLa2VjMnhHY1BwRl9OcHBHVk1oeWFkRFZ4NEhId0pQN0Ew?oc=5",
+      "source_name": "Radio Free Europe/Radio Liberty",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -339,11 +309,11 @@
       "confidence": 0.65
     },
     {
-      "id": "8f87f28525c91428",
-      "published_at": "2026-07-24T19:22:00+00:00",
-      "title": "The U.S. Is Subtly Shifting Its Iran Strategy - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWVlxSjFNd2FvbTRvVXpxdTlqdGVOMk95ZnZJbnVxNGcyYjBKUmxlQWhrM1Z4RFJsT3VHblFYQ1FHa01iaHc4aG0zcG1kb0Y5LXN6cmVNR3NRQk9ZZGRobVJoM2VqX3BLQTh6VFFwSFVCTTZGUHJ6NHJzUjVQd0pUaGdncmo?oc=5",
-      "source_name": "The Atlantic",
+      "id": "3200806e5c09f5f8",
+      "published_at": "2026-07-24T22:57:39+00:00",
+      "title": "U.S. military says it fired on another vessel trying to breach its blockade of Iranian ports - PBS",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbU9USlNJb3NqOTVObEoxTmZ2OEZybWZiTHgxQ2tyRlMyaUJqaTVYWXQ0YjZUZldNbU9WMll6NWI1NlBkQTNRRkt2TnAwUnl3NVdDZmJRY0M1ejRLZTRSeTZsUi1SQ1Z2cldZSWFfcnNFSHBXdjZoUUdKQkNURW1WR1MzSDRHcG1tUVd1aDQ1U0Q2dzVvVDVtSGtPNHRrYjBDdXFLNUpqV0xST002QVdYbUR0LUlpaktVbjdUNzJ4TGdxYmY50gHKAUFVX3lxTE9id0ZhWEdudkxIdWZqS2VkS2g5S1JveWpOb1I5cHNFelBVUmM4bGRSeWFYNXVYbkdSeHlEY0s2bHFUbTNOV21tMjVMc1pKUENJS0plSHMtMnhlZnFmcGpITE9tMFBJUU5YQ3hsUFFFcWVid29GcXhzcS1WYmxmQWpxeGtzbWl2WjhYVExQNGJrZmhwMFZuenhuZUFKWGdfcXFXYmVreUN6elhxLXNfWG5FQ0xrdmpjOGdHbl9UTEZxZHp1SUFkc2VtYmc?oc=5",
+      "source_name": "PBS",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -351,11 +321,41 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.75
+    },
+    {
+      "id": "0d67d252ac832aed",
+      "published_at": "2026-07-24T22:30:43+00:00",
+      "title": "Trump weighs harder Iran strikes as conflict widens - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOGhnRk1Pbm9za0tneFZrNWV6Q1hfV1dNMUNhWkxjU1JEZzhEWG1RUzQ4RzF5V2pXV0lCbFpKMW5jUTJOQ2tXV21MS1NfYTNTWU1QYkZaNjBzcVVzc0VTQlZDR1hRNmdRUDdJN1lyblJCQml2Z0pUM3Q1VnF0TEdYX3c0Rk4yWElKZjVaOTU4U21ERmREZ2tfOQ?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "db2c2520bc37adb9",
+      "published_at": "2026-07-24T22:19:00+00:00",
+      "title": "Trump considering 'massive attack' in US-Iran war, warns Russia and China to stay out of conflict - weareiowa.com",
+      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxOUzVQQi1sekl5aVVNMlRSRUxQcmxKNUhEZWhtX2FfY1o2TDJDZ09SR1F3eU9GQUw2cFpNNmJWN3JxdHZwOFJWRFNuZ3JTYkMzR29wM2QzbWFjckdmZEg0OVk1X0U4dmkwcVFlZGxjQ0lsVDJYTE5XMXVfLWtPMW9XT0xwUTZuVG9oM0piN3psV3ZuZUlFSGVQdFR6VE52Ymh5MTlybFVubVUzSnBFS09HMjY1b2R1SV9mQTJTTFk5ekkzZjBxTTFzRGp6RUVicmdEUWd2NC1uODg4LVNvNExPRjhlSGs2WXVRMllZcnZnSW5UdUZWbjFCaVhWZFJ5OC1uekQwZ0stdU1DYUNWQ1MwMWNQcV96d0Y5WHUxZUozbE56VmZld0JR?oc=5",
+      "source_name": "weareiowa.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "8e283bfb96df6909",
-      "published_at": "2026-07-24T19:07:30+00:00",
+      "published_at": "2026-07-24T22:08:46+00:00",
       "title": "UN experts decry US-Iran strikes - Jurist.org",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5oY3pSNVFqYldFTUhPSHVBQV9aMXYtdy10dlZBbjNrNUN3cGczdDNSanJNMW5LQ2FVSDdWc0ZwMEJNQ1F1VzVISUxkMkFJTWtEazljNUxqN2ZIOWlvVzd2U2ZLYVhoakFLVGlHUjltdkZ0a1gxeFlKYQ?oc=5",
       "source_name": "Jurist.org",
@@ -369,11 +369,11 @@
       "confidence": 0.65
     },
     {
-      "id": "3345950febd87891",
-      "published_at": "2026-07-24T18:56:52+00:00",
-      "title": "How a U.S. Ground Operation in Iran Could Unfold - Foreign Policy",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNcTl6TXk0Ui11MGNZVVBOWkFNVjItSmVYaHQyeFJNdVdDaTk0SjhoSXByTmwwX3V6OXM2WnhSY3JuNVhLeThNYkhmOXhxS3N6QUY2b3UyX3c0ejQ3LXhXeS1GaDNxT3RFbTFYaVBtYzFDTC1RY3luN2JIRnNqRE1MTG5rTjN0MXRZSW9DU2RCWDU?oc=5",
-      "source_name": "Foreign Policy",
+      "id": "3f41f96408cd768b",
+      "published_at": "2026-07-24T21:59:00+00:00",
+      "title": "Panetta on Iran war: US \u2018in deep trouble\u2019 - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPeUlPU0x1enNRQUFlcUNBQngxek1tRjMtUnRZTTk5Z19lc1huLVVySDhYWi1vek5UZEV5a2VfakhVNklIYjNIMlB2a1E3d3N5aGR1WGhuS3ViTU51c082OERUUXZFTFJEdEl4UnEyaTFvVGliNjU1SktEVmd3QkJBSGx30gGHAUFVX3lxTE9YY29hUndiYVFFQmdNN1h5RXh5WW94cHp5VjdJNnVYb0NyU2ZDZjUzVGRHWnI1NDhVR1ZMbGNwNVJJM1V3NE5POUxGSTJvenNGbmQtMXJGdHB4M2FoN1V3TVBOUUVJRU1weEp3MnVGNGV4TzlUWVlKR0ZkR1ByaDZyaVl5NDdZMA?oc=5",
+      "source_name": "The Hill",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -381,14 +381,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
-      "id": "7d58127eb5b33f9a",
-      "published_at": "2026-07-24T18:49:10+00:00",
-      "title": "With no Iran war end in sight, Germany pulls back two navy ships eyed for Hormuz mission - Defense News",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxONHB0Ui1KNjlNb2pZeTVjSlFydGllZEpMV0xsdk5mOFNKSjlZbGtFSjhOdHJWRG1oMDN4MG9ZdnpsWEJhUm0zckdSTVpfNDhOWWM1VThnNDNFazl1SmllTmFVQTVLS0FfbHNyUnRkUEJ4T3ZWdUtudzIyVDB2RlBYNS1BRlBKYW8wbWU0WEVOUWVFZWZGdTlFS2M2VGtmeThFUVJMWUFnbXYwNXM4WUVfUHpSamdiOS0wLVhZTXpwUDRQV19zbmhkRVBrX0FYWWVxSXdyRm40dXI?oc=5",
-      "source_name": "Defense News",
+      "id": "b18f46a84185a41b",
+      "published_at": "2026-07-24T21:34:12+00:00",
+      "title": "Saudi-led coalition says it struck Houthi targets in Yemen's Hodeidah - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90MXBlNDBDY0VMZDB2OUNZZHlJMkhQVHZCd0k4akJadEg4UU9OaVlsSmtGNnlLMmlQRjAxbkxHemlNcW15Mlp6N2xiRG84UnNLcHc?oc=5",
+      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
