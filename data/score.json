@@ -1,28 +1,29 @@
 {
-  "generated_at": "2026-07-27T17:13:23.330232+00:00",
+  "generated_at": "2026-07-27T19:57:44.449048+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 102,
   "totals": {
-    "usa": 48,
-    "iran": 17,
-    "lead": 31,
+    "usa": 45,
+    "iran": 23,
+    "lead": 22,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 27,
-    "iran": 13,
-    "delta": 14
+    "iran": 15,
+    "delta": 12
   },
   "confidence": {
-    "score": 69.4,
+    "score": 69.6,
     "label": "Medium"
   },
   "event_types": {
     "attack": 62,
-    "diplomatic": 10,
-    "other": 27,
-    "material_loss": 2
+    "other": 24,
+    "diplomatic": 12,
+    "intercept": 1,
+    "material_loss": 3
   },
   "history": [
     {
@@ -58,7 +59,7 @@
     {
       "date": "2026-07-20",
       "usa": 3,
-      "iran": 0
+      "iran": 4
     },
     {
       "date": "2026-07-21",
@@ -93,13 +94,13 @@
     {
       "date": "2026-07-27",
       "usa": 3,
-      "iran": 8
+      "iran": 10
     }
   ],
   "latest_events": [
     {
       "id": "4171f7c2d3edf799",
-      "published_at": "2026-07-27T17:08:11+00:00",
+      "published_at": "2026-07-27T19:35:24+00:00",
       "title": "Iran war live: Tehran threatens retaliation after accusing Ukraine of tanker strike - The Independent",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORGI4VWZFYk5BeVlIZGJlS3FwNmxhZ3VOZmxqc3oxRmxMWEdyQTJhVTdYLUVmN2RRWHZQYjJVc2liQ2R1WlV3UjhCM25WRzNnM0Z5V2thMThINkt5ZVBjYm1oTnpheE9oaXo1U3NLdy15a3JYeXVObkM1ZFZkSlAzMjljbVFocE9fNk5LRzdjaE4zWEM2cHp5U3FrMlZPRXYyekZxaTA3ZXV6MV93TF85c2IzWnhpajhVMEpWSzMwNWQ4U3Fsb3Jz?oc=5",
       "source_name": "The Independent",
@@ -113,12 +114,12 @@
       "confidence": 0.7
     },
     {
-      "id": "7569e6536c33891d",
-      "published_at": "2026-07-27T16:58:00+00:00",
-      "title": "Live updates: US-Iran war news; US signals pause in Iran strikes will allow talks to progress - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XYlk1TXQyaFgzZF92aWM1cHMxWHlIci14VTNUVEVBamN4Rl9qQzNvQVo2VmEwVjBpbEZIU1RXTk1QMFJHay0wbFloVnU5Ui0yLVFFcWdiOXg3cGN1RVo5bW1QMTZSNlR0LU1iN0t3?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
+      "id": "2349da3de2b8b9f6",
+      "published_at": "2026-07-27T19:29:35+00:00",
+      "title": "Yearslong Saudi-Houthi conflict flares amid U.S.-Iran war - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQc1BweFV1Sk1MTGQyQl8yekpwRzUxbGNabXBPZnBOOEQxM3AwZmhldVhXWS13NDlTelg1MGgtMjFnRTVBQlA1X1g4dHUteXkzSklMODNNM1FaTDJ0anQ2eDItME1hZXdTWEp0R0JKb2oza2oxbkxHT2VyMl9HUzBwRUtBNmpPSWZiTkw1WjFFUTlqVkNieFFRZjRVekJuZ0FiLVdpLU12c243UQ?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -128,8 +129,23 @@
       "confidence": 0.7
     },
     {
+      "id": "c68a0d22e587eae5",
+      "published_at": "2026-07-27T19:29:00+00:00",
+      "title": "Iran War Live Updates: Trump says U.S. will \"go back to doing what we were doing\" if new talks stall - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
       "id": "676bb49062dc6fe0",
-      "published_at": "2026-07-27T16:34:40+00:00",
+      "published_at": "2026-07-27T19:14:20+00:00",
       "title": "Trump warns 'strong military action' if Iran, Strait of Hormuz talks fail - Fox News",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQXVIcnkzd1VNR3hhV2tndDZSNjZUTUs2b09fc1FNV2N6RDhVZHJiU21uVWJ2M3hzR1pwbTVBMzd6TDZCZVpMMHVnb28xUVBkYmJ3RERyY21vOTlqZ1BGcktPWmJEbm9oWnZvOE5lMHVVakx2cmVVYV95bTB6a0VDdFpVZTJUaUltaTRUMzB5ajRJeEZBWWt5eW9SdEdESl84cVFWZGxRSQ?oc=5",
       "source_name": "Fox News",
@@ -143,11 +159,11 @@
       "confidence": 0.7
     },
     {
-      "id": "c7ae12d8526e775a",
-      "published_at": "2026-07-27T16:10:09+00:00",
-      "title": "Drones attack Iran's neighbours as Tehran appears to test Trump's latest pause - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYTcyMDhXSXVNVFp4QlpqSGdQc3ZqaFN0c1hYSml1ZWhZS1FXbVN1Ql8zYUllVkpETjdMbXNRWUV3eHVqZWFnYnlBY1pvTzQ0WGNESmRyOGhCaFU4dEZwQXptVEV6Q19xb2FBVGxuLWFmUUZ0c0hjRFAzZXJMN2RYd0diYnJQM1M0Ylp6NWp1M0NBMFlFWi1scUNFRGtJblVFUEJzWF9iRTY3QXY4OFZuWmM4Rk01NFF6REllM0NpSEVXVmd3OFc5bnc0ZFM?oc=5",
-      "source_name": "Reuters",
+      "id": "e24a3470c1f6a216",
+      "published_at": "2026-07-27T19:09:00+00:00",
+      "title": "Live updates: US signals pause in Iran strikes will allow talks to progress - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XYlk1TXQyaFgzZF92aWM1cHMxWHlIci14VTNUVEVBamN4Rl9qQzNvQVo2VmEwVjBpbEZIU1RXTk1QMFJHay0wbFloVnU5Ui0yLVFFcWdiOXg3cGN1RVo5bW1QMTZSNlR0LU1iN0t3?oc=5",
+      "source_name": "CNN",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -158,11 +174,26 @@
       "confidence": 0.7
     },
     {
-      "id": "35a45765d792b8b9",
-      "published_at": "2026-07-27T15:49:52+00:00",
-      "title": "Iran rules out US talks as Hormuz Strait remains closed - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMFc4UGNrY3BXU25oZEd6MnZDRFlOVjRBalZDZWN1NHRNa0JhSVdDcmstZU9OSWVqLVFoNWp6TnVHLUg4MVpyMUxBaGoyNmF3U2ZLRFYxcXg1NHliR2pEaE9jQ01oNXhlTmhVVUtTdGtiS0FHT0pBMnZTQUJKQ3pSekFWZGdZd0dhWFRiMmVZOWUxSllCQmc?oc=5",
-      "source_name": "DW.com",
+      "id": "e68c4d1784a5142b",
+      "published_at": "2026-07-27T19:08:52+00:00",
+      "title": "Oil prices slide as U.S. and Iran pause strikes to give \u2018space\u2019 for diplomacy - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFF0bDJ2LTFHOG5uWXllRmJvZTFQbXpxc2U5ZnJfZ0JadU5HRTBXang0TExaekgyR1BDS1VINmFNU3FNRTZfUVNxekdzV0w3U3hqd3JEVWF2dVRqUHRpbERzOC11TnJhV2dWU3lvaTJ3VDBjTHI4cVh6dkc0MzlIVGF4eEp0RG12U1R1UW43X2RQMjRDTG9GVnBON1VySmlpci02UFAtV0VyQmRWRWM5ZTM4UXFsZw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "a11c6a3dbb8ba024",
+      "published_at": "2026-07-27T18:52:19+00:00",
+      "title": "Trump says US and Tehran having 'good talks' as drones hit Iran's neighbours - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYTcyMDhXSXVNVFp4QlpqSGdQc3ZqaFN0c1hYSml1ZWhZS1FXbVN1Ql8zYUllVkpETjdMbXNRWUV3eHVqZWFnYnlBY1pvTzQ0WGNESmRyOGhCaFU4dEZwQXptVEV6Q19xb2FBVGxuLWFmUUZ0c0hjRFAzZXJMN2RYd0diYnJQM1M0Ylp6NWp1M0NBMFlFWi1scUNFRGtJblVFUEJzWF9iRTY3QXY4OFZuWmM4Rk01NFF6REllM0NpSEVXVmd3OFc5bnc0ZFM?oc=5",
+      "source_name": "Reuters",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -173,8 +204,23 @@
       "confidence": 0.7
     },
     {
+      "id": "801dff0062459686",
+      "published_at": "2026-07-27T18:30:37+00:00",
+      "title": "Trump sees 'good chance' for Iran deal, warns strikes could resume - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUjRCZWk3WkpaSjNERmlnSHRvN245VmlpSVFEZXdxMGRUeWJRclNrN1llU3dCcGVnalU3VVNfUkFyZ1c2SjFzU1lPQTlPb0l6ZTg5U1FLX3RkVDZCeHRPVzM3WmZtZEhOMUlRdThEeVppcjNkaXNwMWpXNkJRU0YwSFVmTjQwT3ZBV0c2YTJhV0U2bHFOOFp0REprVTEwNWZqOGZURHE3UQ?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "54f3e31d540e22e8",
-      "published_at": "2026-07-27T15:44:00+00:00",
+      "published_at": "2026-07-27T18:16:00+00:00",
       "title": "Mediators see progress in efforts to halt Iran war as drone attacks rattle region - AP News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQa2M1am9JRVdmbUE2TTF1ZG5ya1dXNjVjdWUtVngzX09jamxQNk1idEJoNDBCY2Y2dlpURUpYb1Q3WTY0Qk84ZEd5V0FYaHVHakFGbmtKbEhOTy0xYmdLUnZIN3JlcS1yWXZTbnVTYlBlcVg5NUx2eGZFT0VmM0FhQkZYS2pZZHJJMlp4SmtVZkpKTmZwOTZOM2g1S3FtMGhYdWc?oc=5",
       "source_name": "AP News",
@@ -188,17 +234,92 @@
       "confidence": 0.65
     },
     {
-      "id": "0a39db0bb4d15872",
-      "published_at": "2026-07-27T15:31:36+00:00",
-      "title": "US-Iran war latest: Trump, Netanyahu to meet as Iran rejects talks despite halt in bombing | World News - Hindustan Times",
-      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOZU14Nl91SUxjUHdGQW85QWlWYVpwZmFHd1dFMnFJMkxWTkh5Y0lUWVVXS0JuVEVqc1d3b2ZlcDNpUzUzaVUxRVFqTk45dVdwVFUyUzQ5MWE4NXhlZEhRSl92VERxRXJfT0QwRkdNelZlQkhSUERLemF0MjJYZ0k5UklVREZXNGxKWDFXSUNmekYyS2hiZnh5bW9JcklteVV1bVowbXRKY1c5cHNaZFNkaUpxM0VtNk5UYnlKRTVFTWRrMjQ3eXhYYklicExFaHJmdWxnaURGVjRKS0lRT2wxX2ZEc2dGMlJmYTBkY2VRYl8wXzN0T0txenJmNlhtX29xV3VFQWxyUG5aSXBQWlRN0gGUAkFVX3lxTFBTQUg5b3cyMjJBb2kzYjhJelJLQTMyUkhwWVZ3S09TQWloVENYci1IU1duT1NQRXJFZjM5NkYwUXRsM2JfQUlTQ2FCanJNYk41c0tobHR1amJXVGdpVTd4YjN4cDM2eUIwSXlxRS1kYm5FeVpsYUpiMG0zU0U3cy1IWEZ0RUItYmlScHNjcy00SW9nam5DVmtXMTJlUUJhbThsZmQxYUMtbE45aWF5RW0zRnBSeDFIN2s1VkdwYzZ0S0g5ODRaMUhrTVpfQTNMQ1ZZd1pSeG9rNVBsOWJSNzdacHQ4eU9ZbGpfa1Fpajg5M3diQ241T2hZbWgzV3NuV0RoUkdPcXJyZWhFVlBDT1VVUWxSTA?oc=5",
-      "source_name": "Hindustan Times",
+      "id": "f90617b01c3d1c9f",
+      "published_at": "2026-07-27T18:15:40+00:00",
+      "title": "Trump to Axios: I'm ready for \"strong military action\" if Iran talks fail - Axios",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16SnRDZDYydVNWMnRSdHM3VldleXNaUUpzRTlhOXk2bjh2RTFuam9GTlE0bjZUYktsVlNtejhvWmV5Zm1ZUTBpdGJzVGtHalRGWlkwQXJ1M0FNOThHYk8zd0hvOUNOTEpSbDN2QlpJVC1xTFZ1Wmc?oc=5",
+      "source_name": "Axios",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8fc4c00e2f897a0e",
+      "published_at": "2026-07-27T18:11:29+00:00",
+      "title": "Saudi Arabia defends against drone strikes from \u2018Iran-backed\u2019 groups - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSXZGTnZ2RnhBekJ0YlhrVldXbTZWU3JBekE2MENuWWdUcVNwWS1QM3pKSGM4WEp0WXQwLWRBQWJpYThMY0gtSjR5aW5TSmtrR3poLW82SWpSN2FDYXFlbnZaNXB4WUNmV3ZXYnRDQlNOSlJjSWg0SnFvQzg3WmxPZzlHN2Zkb0xsOGJjMGNfa182SHhVdVd1dEJVTHBKOU95c1dnWHc4LS1GaG_SAbABQVVfeXFMTU15aEJwbVpFVThTVTZMQ3pCU2pxMG04anJ4M3BnRnN5cmVFWnh4ZEpnSGZFTnAzNHd6U3pMSndEZzJEZ1VWOGZ2U2NxNnRzczJMSWNSNVBGRkVPWW51Tjd5a0Z3N0J5WDdUakVhRS03TVFGSHJ4aFRpUkI1WlZPVS1OMGQwRVJKQjJabjJxOWFiN2dJMWhNLUhUNTMzUm51WndDWkpnd3FQXzV0R3FDRW8?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "35a45765d792b8b9",
+      "published_at": "2026-07-27T17:28:51+00:00",
+      "title": "Iran rules out US talks as Hormuz Strait remains closed - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMFc4UGNrY3BXU25oZEd6MnZDRFlOVjRBalZDZWN1NHRNa0JhSVdDcmstZU9OSWVqLVFoNWp6TnVHLUg4MVpyMUxBaGoyNmF3U2ZLRFYxcXg1NHliR2pEaE9jQ01oNXhlTmhVVUtTdGtiS0FHT0pBMnZTQUJKQ3pSekFWZGdZd0dhWFRiMmVZOWUxSllCQmc?oc=5",
+      "source_name": "DW.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "352215c307e3fb60",
+      "published_at": "2026-07-27T17:20:22+00:00",
+      "title": "Iran war live: Trump says US in talks with Tehran, \u2018good things can happen\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f50409da2c686787",
+      "published_at": "2026-07-27T16:49:09+00:00",
+      "title": "West Asia War LIVE: U.S. in 'very deep \u200ctalks with \u200cIran', ready for military action if diplomacy fails, says Trump - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTGh3QnE2ekpjZEl4bEtWdFVZS0dzb250bG1KVUpfX1Azcnh0YkhGY0dqcml2TmhGY1I1UGg1N3NIQVFIeFFZanpQMkdhcHJiMWloUXpJLUJRS29yNzFHbnhjR1pDU1JfSm45S2pSeWlyNTdEdkY1NlY0a1lKYVlrZzFuZ3pjUERuTkdRN3JyRWpaek1QRHAxVFBRQnFDMFF4aUlIM2Z0NjdTQng4UWlZRTZzSExCUHFFT1pxTzNGSWs2dTNmR294dkE2R1FFVUxZM3REUC1fc0R5T1dxRllyMzgtaWlId3JMMTlVZ0pn0gH0AUFVX3lxTE4xMzRsWjNuN0tydXlXejlsLUxGLWpYYXlXOXNnR1FJNThrU2pLakNoX2I4ZDhyR2pTYjZ4LS1uWEhnczBnLVRNVHp6NmxGUS10V0hmcmJQazM0d1EwZGNfWXh4MHhVS2wxZ3hxQ2o4VzhtS3g5NV9OUDdWcjJxa3hTbXdzRUxrcHhrUDF0NHotTmJpSGxKQ1VXZlNieE5HSTNqRHh6c3Z2WEtLUnJqSmppS3I4dFJtSEZpbnd3bnF2Z1d4dHRjNl92bjNOSlJtWjhkWk1XSEtNM0JIQWFVbmI3dnY2bkppZXRjTHp3SlRvbEV2ei0?oc=5",
+      "source_name": "The Hindu",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "42bd05b34aa4ca21",
+      "published_at": "2026-07-27T16:33:05+00:00",
+      "title": "Ukraine dismisses Iranian threats as Caspian Sea strike directly links wars - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9HRjdTMDRNclRXSG5namNtRk5NQmdmVDF3OVc0TUowbWhkYmM2bG9uM0VCSG9xR0ZiTkkwaFFjaks5b2cwalJ0MU9tMGZJNzZpQkpNcUJzX1RXZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.65
     },
@@ -218,26 +339,11 @@
       "confidence": 0.65
     },
     {
-      "id": "f90617b01c3d1c9f",
-      "published_at": "2026-07-27T15:13:01+00:00",
-      "title": "Trump to Axios: I'm ready for \"strong military action\" if Iran talks fail - Axios",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE16SnRDZDYydVNWMnRSdHM3VldleXNaUUpzRTlhOXk2bjh2RTFuam9GTlE0bjZUYktsVlNtejhvWmV5Zm1ZUTBpdGJzVGtHalRGWlkwQXJ1M0FNOThHYk8zd0hvOUNOTEpSbDN2QlpJVC1xTFZ1Wmc?oc=5",
-      "source_name": "Axios",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a9da420b3a80a872",
-      "published_at": "2026-07-27T14:40:22+00:00",
-      "title": "Iran war live: Tehran says it decides when conflict ends with US \u2018stuck\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdENxTVZ4dF90R0xReVUzUlh1dG1JeEd5ZGdPRFRlTlltYjZWcWhQcWlmcDhGMzhrTlgxVThFSk1xR3BMOU1lU1AwSGJZV1Q4eXNRcWhWQVNzelEtSTVTRlhZWXYyOEFrU25NdFdpN2duQmh6YUcwWklXTllJZnduMzllUndPMjdpcWM5cG15NjdqZ1ZlZTB3a3NxZjJIeGJMMGR0UjhaWHRzeUsyTVRDUnJfQVc3UFdYWWl2S9IBwgFBVV95cUxPY0NMOHJKUmVxVG9IU3ZhNjZFd0FLZTBYNWFjdmQxYUFYS3phTE9rRjExVm9ibHY3TTNxZEZMUnc0UnZQeFktbl9YZWlhNjh0SDhISV9OX3JEaW85QVM4blZwYkZuaUNTX0xUVW5MdE5xcEVPYjkyTWJoMkhiNlc2Q3VKUFdDZkpmbVZSRmRoSkNlWU5aN0FVa1JBUnQ5dENFYmJaOERPdUpUQkZWYTl5N1BaWjc5SWtNSFR0NkNNXzR0dw?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "0296f766c2519349",
+      "published_at": "2026-07-27T14:49:32+00:00",
+      "title": "Netanyahu says Iran is top agenda in meeting with Trump - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNTGp1Q2puNVVhbk5lVEtVSlpvbU1jaHlya1BHTjZjV2lpOUdXMlZoNVpUSldmcjdSSzBvOWZHZG9vR09CX3lOdFE4SkxuWW1TUDM2Q1BMeGlnMU9GWmEycjFtNHRGZ1M3bTd0WTVYTndKdXhobGlWR3BONWhJSmI1N3h6S0VTZGpHajFBRV9jY3Etc2JaVlE4V19DWmY5Z0twQU1OWnptYWxudw?oc=5",
+      "source_name": "Reuters",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -245,7 +351,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
       "id": "98b663d61a364612",
@@ -263,86 +369,11 @@
       "confidence": 0.7
     },
     {
-      "id": "9659d3592d637aa8",
-      "published_at": "2026-07-27T14:11:01+00:00",
-      "title": "Give Peace A Chance? U.S. Reaching a Strategic Dead End against Iran - The Soufan Center",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tUG5rNnlDQjR1MV90bU11OHAxRjVIUVBzdUM3RWlCd2RIb1pvU1liUDh6ZHNwWk03NFAzaWZYYWl5OHV6QUdfSURQbmRqRTlBUWJZcUpaR3FTbGs5NVZhNlRR?oc=5",
-      "source_name": "The Soufan Center",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "f09ba5482fccba79",
-      "published_at": "2026-07-27T13:45:18+00:00",
-      "title": "Iran Will Not Let U.S. Dictate Timing of Conflict, Baghaei Says - - WANA News Agency",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVWs2THlIRU80eGJKcGhzS2Z0Ynl1N3VSWm9FcWZiRU1WUm1nczJZZUJ2b2pxOVZ2OFJhTk4td2x0em9sa2R5ODdXYW5yU3lhRG8ySDNvSTY4UjZDc1RmWHdfelhxMVhsN2pJM0k4OHEyVWV2MmxxbGxITXBKYm9ObmdBMWZPTG91?oc=5",
-      "source_name": "WANA News Agency",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8214cd107afd406d",
-      "published_at": "2026-07-27T13:37:18+00:00",
-      "title": "Israeli Minister Says US-Iran War Is \u2018Best for Us\u2019 Without Israeli Involvement - Military.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTnVrOU1jcjcyYWw0R19hcjhSVTRXNjUwbXZEZ1c4UE00SG1OallfakVXM29hc1FCMGVDZWFGOG80OUhxMGxDS0ltbExZY3U4Z3ZxZGdHejRvMkV0NndBdFVtYklTQUxfU0kzdGRub01yVEV4bFh6Xzh6NF85XzVpaUVRRDZRTUFaNVdtLWxoRzRLVjdrN2N3eGxVbElZdEFUaFZn?oc=5",
-      "source_name": "Military.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6be46e22ed59c054",
-      "published_at": "2026-07-27T13:31:57+00:00",
-      "title": "More than 600 US military service members injured since Iran War began in February - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9XbFpJZmowWXhfWTlHYmVNV2RwQjdCWVBZVlNETVZJdVFvb29OczZLbmpKVW1vREY0SFVhNDdkcjRSdkxCSDgyX21MZzNWWUNGa0haejl3ZFRIUQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "be3ba05c4cde250a",
-      "published_at": "2026-07-27T13:09:53+00:00",
-      "title": "West Asia War LIVE: Iran says it still controls strait, not seeking talks with U.S. - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNTGh3QnE2ekpjZEl4bEtWdFVZS0dzb250bG1KVUpfX1Azcnh0YkhGY0dqcml2TmhGY1I1UGg1N3NIQVFIeFFZanpQMkdhcHJiMWloUXpJLUJRS29yNzFHbnhjR1pDU1JfSm45S2pSeWlyNTdEdkY1NlY0a1lKYVlrZzFuZ3pjUERuTkdRN3JyRWpaek1QRHAxVFBRQnFDMFF4aUlIM2Z0NjdTQng4UWlZRTZzSExCUHFFT1pxTzNGSWs2dTNmR294dkE2R1FFVUxZM3REUC1fc0R5T1dxRllyMzgtaWlId3JMMTlVZ0pn0gH0AUFVX3lxTE4xMzRsWjNuN0tydXlXejlsLUxGLWpYYXlXOXNnR1FJNThrU2pLakNoX2I4ZDhyR2pTYjZ4LS1uWEhnczBnLVRNVHp6NmxGUS10V0hmcmJQazM0d1EwZGNfWXh4MHhVS2wxZ3hxQ2o4VzhtS3g5NV9OUDdWcjJxa3hTbXdzRUxrcHhrUDF0NHotTmJpSGxKQ1VXZlNieE5HSTNqRHh6c3Z2WEtLUnJqSmppS3I4dFJtSEZpbnd3bnF2Z1d4dHRjNl92bjNOSlJtWjhkWk1XSEtNM0JIQWFVbmI3dnY2bkppZXRjTHp3SlRvbEV2ei0?oc=5",
-      "source_name": "The Hindu",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "baf8b73038c61972",
-      "published_at": "2026-07-27T13:05:22+00:00",
-      "title": "Iran halts strikes as Trump gives space to talks - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVW1IRGcydjNxcG5yOWpqZ3Blcy13aVF4TndoWGNmSXpGTWoyU2xFV0pqby1OdFA0NVYxbnlfVVpuRDVHNmhiU2s0cENwLUw1OUIzSDVnZEdiSllMTHBJd29kdXBZLU14R2pwZWZVUzNvdm9rQTBDZTdVajIwY0xSZl9uXzM1MHVtaEdsc3BoUTFvNWF6dmppTTZEeTVlbjJDNW1DR9IBpAFBVV95cUxQQWUwSlBGNnhac0FxZTJGZGtEdmtkVi1LVTNiYUt2NnZwVVBteWVtdWhRWU1xcGgzaktPSnlIVW9QSlJFTzBiVW9RMVFHdUZRNGhyZTJkX0RMNEtqTl9CNXhlNGsxYTNNaFoxV2cyMzB3eTVCWVNSekkxTkJhSEJxLTZiVXZ4bUZkT0Z5Z0NTWExRMVhTcWdLMkVQNDVXYUc2b2dJUQ?oc=5",
-      "source_name": "South China Morning Post",
+      "id": "3a0bca20b58fc481",
+      "published_at": "2026-07-27T14:14:23+00:00",
+      "title": "US-Iran strikes remain paused, but Trump warns of further escalation - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbTkwXzl4RzI1WHZRTG5HSUxidlY1ck93R1dLTzVmYkJVTUdodTRhMExHSkdkbUZaR19UMGNCSXlPdC1heUo2akJ0MUxSZXRtR0s2NXpUd1Z1S2g3SE9pX0xLZ2FwR0lJUjJzSUJVancxUmFnNEV3RThHOURkMnJpaTFhMlMyc056cmx6UWxyd1lOcG9hV055ejdEZ2dPN1Bzd2E0R1JDOG0tTkIwV3lRUFdB?oc=5",
+      "source_name": "Scripps News",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -353,41 +384,11 @@
       "confidence": 0.65
     },
     {
-      "id": "e68c4d1784a5142b",
-      "published_at": "2026-07-27T12:35:46+00:00",
-      "title": "Oil prices slide as U.S. and Iran pause strikes to give \u2018space\u2019 for diplomacy - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdFF0bDJ2LTFHOG5uWXllRmJvZTFQbXpxc2U5ZnJfZ0JadU5HRTBXang0TExaekgyR1BDS1VINmFNU3FNRTZfUVNxekdzV0w3U3hqd3JEVWF2dVRqUHRpbERzOC11TnJhV2dWU3lvaTJ3VDBjTHI4cVh6dkc0MzlIVGF4eEp0RG12U1R1UW43X2RQMjRDTG9GVnBON1VySmlpci02UFAtV0VyQmRWRWM5ZTM4UXFsZw?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "4ecac0f5fc4bdbec",
-      "published_at": "2026-07-27T11:50:02+00:00",
-      "title": "Mediators see progress in diplomatic efforts to halt Iran war, 2 regional officials say - ABC7 Los Angeles",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPdnBnQlVUXzE2WXM1a1NSQzdjZzY3WHVDRk1HV1NMUEd3dzZ1S1dTc3hQWHpjRHBsLXJpSFNtNTl1MFluTjJLNmREcmUxcmZlbERLOUpwM185c1pSOEVxT3VkZDhjcEd5azRxRTY4MnhQOFl6c29DOVdQWmRBRy1JODU0eDd6cEVURV9jR2s3azhOeDEyaGFOX096NjUwaE81QW9oYnJQdUJnZlJENk5xLXhOeDlsSS02bFd5cUtXUmljRXVCdHJrelRkajlqYXBTNHY0NXlwSDZzY1E?oc=5",
-      "source_name": "ABC7 Los Angeles",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3ff6cb34470c1134",
-      "published_at": "2026-07-27T11:50:00+00:00",
-      "title": "'Giving talks some space': US and Iran pause attacks amid delicate ceasefire talks - KCRA",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZm1NUmJSRHVoTUFXTFRJVUwwdV9SbVBmVmI1WnVOeThFbnYzbFlmOWZEUzZBYWdyY2JvRzM4X1JxZXFmVTFjLVVMQ0Q2TU1JSF90SEZkWGJrUlVPTWh5cmhMdThPMlpjRFRkdFBmbG1qZVdEODZJYkRiZmlKZUJMNENvWnczemdrbkppMmJTVlZ4MDg?oc=5",
-      "source_name": "KCRA",
+      "id": "1a10b78f825e3741",
+      "published_at": "2026-07-27T14:14:13+00:00",
+      "title": "Oil prices ease after US and Iran pause military strikes - FOX 13 Seattle",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tQ2RNMTNQZGVhZGRsZkpYZ0taWnhXS2N2UGZVQjRzdHRjWWJ1SnVaTTlOaGRScEFiTXVrcTJxTVVVb01PRjVKY0xqcFNWRVZENXhmdTU3SXpCdkl5S01RdlkzeHlWLWt2bWw0bGVsUm9WRE0?oc=5",
+      "source_name": "FOX 13 Seattle",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
