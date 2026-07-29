@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-07-29T03:43:51.109327+00:00",
+  "generated_at": "2026-07-29T09:12:30.104051+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 100,
+  "event_count_window": 102,
   "totals": {
-    "usa": 45,
-    "iran": 29,
-    "lead": 16,
+    "usa": 43,
+    "iran": 23,
+    "lead": 20,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 33,
-    "iran": 25,
-    "delta": 8
+    "usa": 34,
+    "iran": 22,
+    "delta": 12
   },
   "confidence": {
-    "score": 69.3,
+    "score": 68.7,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 59,
-    "intercept": 6,
-    "other": 30,
-    "diplomatic": 5
+    "attack": 63,
+    "intercept": 9,
+    "other": 27,
+    "diplomatic": 3
   },
   "history": [
     {
@@ -83,23 +83,233 @@
     {
       "date": "2026-07-27",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-07-28",
-      "usa": 5,
-      "iran": 12
+      "usa": 3,
+      "iran": 3
     },
     {
       "date": "2026-07-29",
-      "usa": 13,
-      "iran": 13
+      "usa": 16,
+      "iran": 18
     }
   ],
   "latest_events": [
     {
+      "id": "0ede06eb1b816353",
+      "published_at": "2026-07-29T09:00:00+00:00",
+      "title": "Iran war live: 20 killed in US-Saudi attack on Iraq; IRGC targets Jordan - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "288bec125db2fb8e",
+      "published_at": "2026-07-29T08:52:20+00:00",
+      "title": "Jordan intercepts Iranian missiles as US and Saudi Arabia launch strikes against militias in Iraq - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQZGl0TWZyQy1GY1FwS0tjQ2NJSW1BcVctWkZDWUttZTY4MnhiS3RYakZzN1pVZzh1cE1SYzVzMjFQREhZVDZ6WWNrVzlBTFJVNTFEaXBGWnlZZ3ZyYjhvQlg5a292YW1sdW9mUEhqX0g1WlQ0TXZ2ekFHQjVxamYyMUlBcWp6LTBMbGZWbU1WVkY1c19lZ0ZOMURveUF1eVBFQW9PVU5zazRCM08tQVAtMlR1dHc5bmFoV3hsYTlWRUd6R1pMcWFPLXkzX0pjQU0?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "intercept",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 2
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "13e5fd7609a283c8",
+      "published_at": "2026-07-29T08:48:45+00:00",
+      "title": "What's behind IRGC 'surprise attack' on US forces in Jordan? - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQjBFRFZQQk5BV3ZwWl9qUm1ZT2ZYa0tWaDViZHI5djZ0OUQ1dDNGSVBHLWxqVGN3XzJMWWtIUldMbzdhQUZnVXQwNUV4SDIwV3NUd1pTQUI1UGgycGFTLWZBVzFiZmlyN3ZGUTZ3SXJ2dFNqdVRiUjlXRG5ONTlYRmJKdmgyN200TU9WdWFWNUpyREhBS1piUTNuNUVxTHZOSi1vbENFMnBoWlB5RFJF?oc=5",
+      "source_name": "thenationalnews.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "070aad3469f533c2",
+      "published_at": "2026-07-29T08:43:46+00:00",
+      "title": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FSzhZbndQb2lHQ1lnZ3FRaHdYZ1FLVGMzM1AxdnFvWWE3cW9FQW1CYlBYOGxrTnVJdXJCbXloU2V1b29xS0w0dHZYMFlNaGN2bUtxNUZ1ZXdJZw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "061bbe7778d15b16",
+      "published_at": "2026-07-29T08:27:28+00:00",
+      "title": "Iran war live: Saudis join US strikes on Tehran-backed militia in Iraq - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVEZRV3hBT1hsREJMMVNlM3pCcTRVMUYwZGswdzNubmttQ2VFYVVLUnJXMkVaaHlqaVVBbVpCd3M5Y0lQMTE4aHlySXVjdEY4NjVCT0VUU21VZEpJLWhmZzVSaTVaYWRSdm5fUGg3REpsaGpobGJfdnhOSm9tVnUweHdOSFl6aFlpZUhFbWhDNlk4VEE1TF9zbU5pS1VIYmtkS1QzaFVKSmt2dnVaMjNZbkNfZU00a0JxRXc?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e3c58e9ec82d2a11",
+      "published_at": "2026-07-29T08:19:13+00:00",
+      "title": "US, Saudi Arabia target Tehran-backed militias in Iraq after Iranian strikes on bases - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nXzRkdm9XbzVUQTk4dDRqdXVFZ1kwcEZkQ21fOXVzWlFPbWZTeXF3UWlVUTJMYmc3X2FUUlNDeWh2NmRhSGxpUzhZNFg2SjBGT0d0czNWNjh3eVZYM2ZEeWhnSzJqakpiMWc?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5fa9cd14345bfc32",
+      "published_at": "2026-07-29T08:06:00+00:00",
+      "title": "US, Saudi Arabia launch strikes on Iran-aligned militias in Iraq after attempted drone attacks - Egypt Today",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZlhwQkowVUw2R2lzSGNHWnVjSmJNOThQeWVneFE0NEFNZU9aM2F2eVhiVGtwblYyZ0JhSVo1Nmtobk9jRDRVUXpuYV9CVFplNXgwYzVQU2VSNTNwdWxOMm9DYTdHRlVLdDFJaU93QTRyRXhPLW1uQmZqOC1TVUdoNnVyVlZsYVBoN1lXdnI5QlJIaE5RMHA1SjV5aXBGRmNBUjc3QQ?oc=5",
+      "source_name": "Egypt Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0160aa09af0e33c2",
+      "published_at": "2026-07-29T08:01:00+00:00",
+      "title": "Live updates: US and Iranian forces resume attacks in Middle East, piercing relative calm - CNN",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85bWFLTHpqbzJxT05STTlNTEpnZlVXeUdHZU9DeWhrQWZ2X2NYbVhtNElZS19vX3ZINncxY09jZFNVSDdrUlhVb2paVFpFSi1DZHJuOGwtalFqUkpiX0tWSGstc1J2R2k0Q1M0U1A0WQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5b91e338d39d6ebe",
+      "published_at": "2026-07-29T07:57:10+00:00",
+      "title": "Pentagon details attempted surprise attack on US forces - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMmpSUWdfV0U0bTNnY0dlaXlHSTI3SlpwY3VNczFCdURwSUMyMkZ0OGhQOEUwVGtUOHgyQTZRa1VyMkNNUGJNR0NyV00wamZVWXU0Z0tYeGpDRG5HYnJuWXlzS3Vjem9LTnRsazRkOVlSZFgyTGdFbVk1WjY0ODI2dS1VZ9IBiAFBVV95cUxPS0ltQUVOQzBPYmNKNF80VmtCODI1MXlhRzU4cUxIeXVTMlJLNmNaSDNXWGMzdEpXN1pnNnBfMWlaUk5tT1ZmU2xLQnBHaGVOTzJJSnp6M3N6bFAwUFNOVmtHQjN5U2x4ZFdBLWtiOVhSLTU1U0VqTzlXb1N6UXFEWGdtVURtNFhh?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9ff692f5b1619d43",
+      "published_at": "2026-07-29T07:46:47+00:00",
+      "title": "Iraqi armed groups condemn \u2018dangerous escalation\u2019 after US-Saudi strikes - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcmxYQlNidHdveXNkZ0k0VnNXcmVLVFJvOGVuZUU4QlJzMHpXOXl3ZFhzWkVkWUYwSnUxdDZtQTZ2WlZMUjBIZTFaVWZZREd4NmNwZVdNY2xjcFY1N284XzZkWmNVSWJVd1hOMndiYmNJZHFCLTk0ZU40b2lleTV5Q3NrSU5nYnVRemNwelhYMUtxX3R2d3ZyN2VDOG9iRlc0Qm5QeTN3RdIBrAFBVV95cUxNb3p2MXhyelJMVUp0SUNoTV9nMHBybDFxa09DYjE2a0R5dE9aUG5qMmdoMTlDQU1rSTdDVkY2MkU5ZTJIcjNMbjFKM2VCNU1wSTVNVWJyNTI2OHZHdW9DOXIxNFFMbHlhZzQzTzNrSjB1Q1huSVhtV3Jqa3hHQmFsTzFDZDV2ZnQ0SFc0VVpjZXk5bnV3czdPRjFqOUg2QTdiSndSQjJaTDZQLW5O?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c247b33fac1d4f8a",
+      "published_at": "2026-07-29T07:31:00+00:00",
+      "title": "Iran War Updates: U.S. thwarts Iranian missile attack on U.S. troops, strikes Iranian proxies in Iraq with Saudi forces - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTHZOSmtoZTBQNGNtZUlocFVfLTNmdFpvWFdoN2ZwVmpZMDNrcXNSdTVUUjJRVWRSTzJGeFQ2TG52cnVYZFllWFlfTTctTllRSExPRDhGNXhieEV0Z2VqRk5CcWtROVF2ZGR1WDhjd0tGQkVZQTExZEFYVGRTenkxdk9YVGZlYkwxY2Zz?oc=5",
+      "source_name": "CBS News",
+      "event_type": "intercept",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 2,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "c2ffad296e2de36b",
+      "published_at": "2026-07-29T07:24:00+00:00",
+      "title": "Jordan intercepts Iranian missiles as US and Saudi Arabia launch strikes against militias in Iraq - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcFZvamthZTNrZ0JiSDZZMVJBNW02Y1JiQUlvUlAwN1RRODcyUWNydUtZbGxpVVdhZElfTERINDh6ZURJZll3M25weWk4UVFPczliQWZ0MkRUc09VTTQ0X1BMVDBDa0hMdzE0TjBlYmI3UkJpYl9KZDFYMTFsZ05jNnd0Zm9wUHEwTlJObUEycG1BNTVqVTVQWjl5NnJqdEE?oc=5",
+      "source_name": "AP News",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a0c0e504323a4ee2",
+      "published_at": "2026-07-29T07:14:06+00:00",
+      "title": "Oil rises as US-Iran tension escalates after Iraq strikes, missile attack - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPd0ctWlZRN0hINkdrNUJmWWxpV0ZGNGw2Y2taRk1DbFBpdzd5bFdXQmJEcW9VRExnRFBtTWlTTHBRTU5tcDN2azF6VmtxdDN6WlVncmJxSVJhYjM4Wlctb3NEcnEzSWt4djdPSWJJX3ItYmpaN0UyZ09pbV85YjlRMkQ4RTV2RDE2c2NhYlRTdEVEUUFoWEVLMVBqUzhhX2xtVlJLUFp0RWFZTFpCSGJwMTRydUQ3NUx6ejJyYWFCdzBMVWpOYWZqbzF3?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6dcac5b9b42bd411",
+      "published_at": "2026-07-29T06:23:05+00:00",
+      "title": "Iran war: US, Saudi Arabia strike Iran-backed Iraqi militias - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaHFLMkEzdUhoY3NPM2xXQlhfR1lBV3VHanV3cXVLSTQ2NEFXeG5lMldUNFltM1lkM3V6clY5Vl9GaXdRTGdzTUlGMmJGN2tWS2NHWTdDWkwtR1NqYklMa05FMFB2MVk2NndDanRqVXJGR3dtOUtyeTU4Rm9LOHRiRTdXZllYS1MwaEhyZldYNncySkd3Z1ZyQTRR?oc=5",
+      "source_name": "DW.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "85f83f7497974e59",
-      "published_at": "2026-07-29T03:35:37+00:00",
+      "published_at": "2026-07-29T06:17:00+00:00",
       "title": "Saudi Arabia joins U.S. military strikes on Iranian proxies - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeHp4X1hONlVjM0VkRzlxeHQ1eUQ5X0ZTY1pRVHBmUThjc2o1RjlMVlRuSkREbXZNbUl4b3R2dGk5Q0otMTlCbVo3UmpFVWN6cUEwLXZpRUxJbGxyU1pBbE5UZlZVLWpmektjZ1FRQmJYeWpRa0I5bWRWZ0ZEaFJZOUt5bm11T3BJZmhmSjVvN3I5MWJJMllTY0tKS3lsbERiOWRDTTBuY0M3c2FJWmpqanN2N0lzb0tGc3BWYU1TQS1raHc0ZWc?oc=5",
       "source_name": "The Washington Post",
@@ -113,56 +323,11 @@
       "confidence": 0.85
     },
     {
-      "id": "83e53f96b3d3d9cc",
-      "published_at": "2026-07-29T03:34:31+00:00",
-      "title": "U.S. and Saudi Arabia strike Iran-backed groups in Iraq after attacks on American forces - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOG8tUzhyZjc2UTNpcVlkbk1zWXVKY0lRcGl2SDFiVTM3RmtMSXBLNkJFWmxkS1RFVm9VOGVSNFpuXzVsemJjM01xWk0zclFhbmMxWXM5M0ZUaXk1dnJkSUNtNjRLTzA3TEtKTFZqWmRzcGJpMjNEVlhzX0RiQnJaQXpFdmVIWXNvXzVfRWdHWTIwMnhjdEdnSG14aDJRbXprU1ZIY0tn?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "8687d3d2ac971a9f",
-      "published_at": "2026-07-29T03:29:48+00:00",
-      "title": "Iran war live: US military intercepts Tehran\u2019s latest \u2018surprise\u2019 missile attack - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObTVqSTB4SV8ydHZWZjBDMUhyQnlqc05HUlB4NENrS0wzVjdXdzJMYWdkOTZJZ2ZTUmhGR2Z4eVVIUk5telFPZWthVmRlaEpnY0txZDVQOVdMbWZlR2JCUU5MNDBQdDMwdVY1dmJDaVVwM0J3aXRNUXFwQ3JMakVWZENpWU1KMlVrNVZUNzVJdmRBSjlTSjdhMmlnSGZ1U1ZKMnJxemJWS0ZBRzlEV2ltaTZRWk0xN25CWGY5VEtSSQ?oc=5",
-      "source_name": "The Independent",
-      "event_type": "intercept",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 2,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "28dd0d97b2ea02bd",
-      "published_at": "2026-07-29T03:16:00+00:00",
-      "title": "Saudi Arabia joins US fight against Iran-linked fighters - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRlpVTk9BQ2VhczRJZWo3RXIwZF96RDNYY2VXUmJkVWlyd0FzRjVjbmFsN0t6MzQ0UHFzcllNVC1uS2QtLTVQRVR5NVpja1BkR3hiSHJWSjdObGc2VkxhdlRlV19CREhhSkd5RTlTdkp1Mld4SEY1aHlCTWdXN0NGbmJna2RTYjROaHdLY2FVTFBkX0hpS2dqWjVwVUtsamVlSUNIWWVkb2ozWERXc3hESGE5WHhRNHRZT2w2YTdaZw?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1ad6e7c497ebc12c",
-      "published_at": "2026-07-29T03:07:38+00:00",
-      "title": "US and Saudi Arabia strike Iran-backed militants after 'surprise attack' - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUDlVQWtRTHB2NmllaWF3OU5aTlV3cDg2QjB6MGd3UFZSRHozUlNqWGg1dEh3b0gtcVpNY0cwVmNXaEYwWmJtUGpnMUJwQUI1bVM4UVhqTE1BOG0ya0pRd2N3UTl4cmdSOWE2eS1KclZ6ZlQxSEgyREk1S2tmbERaT3h6bDBQRzdOOUEzVWZUN2FVdUwzWHc5Um16akZzSXRaYTNfYWtJZF9aV0liQklLNw?oc=5",
-      "source_name": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+      "id": "25fc917c6d534747",
+      "published_at": "2026-07-29T05:50:45+00:00",
+      "title": "Iran attacks US bases in Middle East as Trump meets Netanyahu - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMjBFSGpuMjV3TGl0TUtZdlRCWERoc29wQU03XzJYbC1LWktVZks2ZGdpMGpUM1JFbmJLa05yQXU5QTE3WU80b1dTU18wUWdldFE4dGRTSlItYWlnNVB0TGpEa2ZGTWVCVGlJbWI4ZjVLVU5hVUtrX09OOEpacFczU1kzaDUwMThxcUR4eUZLenZaanJDODlFT2F1bk9rNGxyemtjddIBqgFBVV95cUxQOEkyVFAxd2oycDhpYVM1ZDdUYmVSaTVWMTFIQ3RZb0NZWXBmTWtFRWg2cmJrX01ISVVZSjloX3lvV2g0a3pXZTFQTDU3Z0wyTmNEOFJNd3ZiSWMtNTE1anJlMXU0SHJ1blctOFkyaFVvYVJ6UVJhQldxZG1ESzZFWllEYmFLbkRYbHg3UE9rWmdvcGY1c0s4ZHdlRERIdHUweldFM0NFd0VMZw?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -173,101 +338,11 @@
       "confidence": 0.65
     },
     {
-      "id": "260803674d8f4b9b",
-      "published_at": "2026-07-29T02:38:55+00:00",
-      "title": "Iran war live: US, Saudi forces attack Tehran-aligned groups in Iraq - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH0gG-AUFVX3lxTFBESHMxM0xtczZIM3RBNGNWUWpjanhzQjlNb1ljN0Y2ZXZQOG9zN1ViRk8yTGh2UHFlMTluaUJPRHJnbUNINi16WVNlRW1sVXhaVExJRUt6Ql9ONXU3SWluSUMzVW1EWjQ1aWVMU3pDQlR0Q0NwVEhOcVlWbkFTdEJpd09wMzBDVHVqRE5iV2JEUFVXSnd2WjRQVnVUa2NTX2N0VGpPQUxtTDRtb1AxTWR6MGNtRXlKRDBFeWpWS3c?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "da15155b55c8a7e0",
-      "published_at": "2026-07-29T02:22:36+00:00",
-      "title": "US, Saudi forces strike Iran-backed 'terrorists' in Iraq: US military - Bangladesh Sangbad Sangstha (BSS)",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5GSUUxSUZQWjJ2dnc2a2V4emdSUk5rY1B2Y2gxVXNQQWpTWEd6b2VCODNZTkxXNTBTM2MxOG1ZUmVmZ0I4MVEwX09Ta1Q4T3JuWjM0d0l4VQ?oc=5",
-      "source_name": "Bangladesh Sangbad Sangstha (BSS)",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "42b1f2201b86fdb3",
-      "published_at": "2026-07-29T02:11:00+00:00",
-      "title": "Live updates: US and Saudi forces conduct strikes on Iranian proxies in Iraq - CNN",
+      "id": "5f07d8d1865c031e",
+      "published_at": "2026-07-29T05:22:37+00:00",
+      "title": "July 28, 2026 \u2013 US intercepts \u2018surprise attack\u2019 by Iran on US forces in the Middle East - CNN",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE0yaWJHcU9OMnhZRjcxRXVKVEdIX0FwdHEySzFmNWN0RUw5b0hoNU5RNGkzaUUzWHJMTS13bFNWQ3czV0J5YUN2UVdjQzVHNU9WTVNwaEV1WGkwQlU5YU1PZXBxNzVndjhMRlo0V1pQOA?oc=5",
       "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5b91e338d39d6ebe",
-      "published_at": "2026-07-29T02:03:08+00:00",
-      "title": "Pentagon details attempted surprise attack on US forces - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMmpSUWdfV0U0bTNnY0dlaXlHSTI3SlpwY3VNczFCdURwSUMyMkZ0OGhQOEUwVGtUOHgyQTZRa1VyMkNNUGJNR0NyV00wamZVWXU0Z0tYeGpDRG5HYnJuWXlzS3Vjem9LTnRsazRkOVlSZFgyTGdFbVk1WjY0ODI2dS1VZ9IBiAFBVV95cUxPS0ltQUVOQzBPYmNKNF80VmtCODI1MXlhRzU4cUxIeXVTMlJLNmNaSDNXWGMzdEpXN1pnNnBfMWlaUk5tT1ZmU2xLQnBHaGVOTzJJSnp6M3N6bFAwUFNOVmtHQjN5U2x4ZFdBLWtiOVhSLTU1U0VqTzlXb1N6UXFEWGdtVURtNFhh?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "091a92689d844bdb",
-      "published_at": "2026-07-29T01:56:45+00:00",
-      "title": "Saudi Arabia, US carry out strikes on Iran-backed groups in Iraq - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcmxYQlNidHdveXNkZ0k0VnNXcmVLVFJvOGVuZUU4QlJzMHpXOXl3ZFhzWkVkWUYwSnUxdDZtQTZ2WlZMUjBIZTFaVWZZREd4NmNwZVdNY2xjcFY1N284XzZkWmNVSWJVd1hOMndiYmNJZHFCLTk0ZU40b2lleTV5Q3NrSU5nYnVRemNwelhYMUtxX3R2d3ZyN2VDOG9iRlc0Qm5QeTN3RdIBrAFBVV95cUxNb3p2MXhyelJMVUp0SUNoTV9nMHBybDFxa09DYjE2a0R5dE9aUG5qMmdoMTlDQU1rSTdDVkY2MkU5ZTJIcjNMbjFKM2VCNU1wSTVNVWJyNTI2OHZHdW9DOXIxNFFMbHlhZzQzTzNrSjB1Q1huSVhtV3Jqa3hHQmFsTzFDZDV2ZnQ0SFc0VVpjZXk5bnV3czdPRjFqOUg2QTdiSndSQjJaTDZQLW5O?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "301c019362ec7914",
-      "published_at": "2026-07-29T01:45:20+00:00",
-      "title": "US and Saudi forces strike sites used by Iran-backed militias in Iraq - The Federal",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWjUyaG50RU4xcWNqd01XM2FwcWZtY0ZvR2dKQ3ZCekV1Q2tpZndNZ0pQRVllQ1J6bWZCay1hMEtCYTdpWFN0NVJKaFhVUVlIQ1BPTmpHRlhzTUJEZjFsZXVnU0M3WlE1dWM5VmdYT1pRMnBYeExrZ1NqVHVRY090WlV1M3ljdXBOS2NIUm93blE?oc=5",
-      "source_name": "The Federal",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4dac9da2db102e51",
-      "published_at": "2026-07-29T01:43:46+00:00",
-      "title": "US says it intercepted \u2018surprise\u2019 Iran missile attack on its forces in Middle East after lull in fighting - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUnhldC1JdU5femNoX1VfRUkycHJIWE00Q1hqR1dhV2tpX0JWbm9pMmJjWUdod2Jib01KRjhzNTRNUU5tQ0UxZkN3eTZhcl9pVFJtYzUxRUQwcVNjWk8tb21BS2t0c0drM1hGRU9TMUlLWGtpb2RrNmFhS3ZoYVEweHZaNjM5SE0?oc=5",
-      "source_name": "The Guardian",
       "event_type": "intercept",
       "actor": "unknown",
       "target": "unknown",
@@ -278,85 +353,10 @@
       "confidence": 0.65
     },
     {
-      "id": "6dd5dad555d9e12a",
-      "published_at": "2026-07-29T01:31:00+00:00",
-      "title": "Iran Launches Surprise Missile Attack on U.S. Forces in the Middle East - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQYm1mNVNLLVJxQ012SmI5ejdTQlRnZzVXRVpzWFdkMnVLMEVPN2Etby1FUmNDZzViOGo0SFhWU21lYkFaZzVRVlFRZ3pqUGN2S1dUZWVDb2V2T2pSTjhNOTF4dHpOZl9MdUlib0tPQmNEeFpoV2hxRjRBSXlZMW1sTk5FbkxaSk5ybUNKdHdtYjdFenh1OFdCT054R3lxNEE?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "af2641618f382a36",
-      "published_at": "2026-07-29T01:25:06+00:00",
-      "title": "Iran launches missiles at U.S. base for first time since Trump paused strikes - Axios",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9nWDMyNnhqaERiaVJhaTJCa1NweVpqd3U1V20wcVlNWmdTOE1lUk5PaWxENjlMNjU2dDhUcS12Nlk1cGpWYURmQWlPclc2djdGNmgxUDl2X3lKcjlvTmgwSWFBaXF4NFZaTEpjUVpoeFYtaVpNaUE?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "6c0ab38443cec07f",
-      "published_at": "2026-07-29T01:21:00+00:00",
-      "title": "Iran launched 'attempted surprise attack' on US forces, CENTCOM says - Politico",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUFdsWDBMZ0FfbThhOGFmNFNleXd4SUZjYTBQMm53TTRzUGUzTGdHcmhtMWpBUm8wLU95enB5Q2ROLWZBWU5DVVFVV002T0MtRG51RldEYkNwNWQ0MlBhOV9wb3pucVhOSTE1Y3dVVUNNdmRTVjdQWmJUTk9uV1ZUVUg3NnEyQVRSVTZRaHNaNDRnUQ?oc=5",
-      "source_name": "Politico",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "21226ec48c924d72",
-      "published_at": "2026-07-29T01:19:00+00:00",
-      "title": "US thwarts an Iranian missile attack and launches strikes with Saudi Arabia against militias in Iraq - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQRWlwZk94dzhfNkVQUDNyVWRCekU3RmZJa09ldGwyOFZ1NzlCWEJhWXN5ZjRqdWRGX25RMWZyMHJJai1LVHZxOVNaZ2NFQ1pyTnI5Q1hONTZZR1Zid25ULUV4T3EyNGtRQTQzSVJPQ3pyS2RKM0I1VUF5cl9ZY2VDd3VwQzMxNzgybnlEXzdXV3RlRUxGX2JZMjZKcHk?oc=5",
-      "source_name": "AP News",
-      "event_type": "intercept",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "16b2f24592412838",
-      "published_at": "2026-07-29T00:59:32+00:00",
-      "title": "U.S., Saudi Forces Strike Iran-Backed Terrorist Sites in Iraq - centcom.mil",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcXZXdEFJUWtwMS12VDlPb1dUbFFaVUxkX1FVNkFJQWZqQkhlblRYb05kbXFPUlJKT094bEtjODl3RERqVlZVWm1qd24yTWRYak00b1VtUUpvLTZoOGdZSThTVkZLZWhVYUZ2TEhuTlVMX1BUTmg0R2s0RmtyT0VZakh6bHJ5SXMtc3laYmJvenV3NS10TGNjaGc5QVp4cnZUN2JjZkJSMnd2dHBnU0lHMmZIcnFWV2UzUHpxcXN3?oc=5",
-      "source_name": "centcom.mil",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "ae0ded3cc2398b50",
-      "published_at": "2026-07-29T00:57:00+00:00",
-      "title": "US-Iran War Live Updates: US, Saudi forces strike Iran-linked militant sites in Iraq after drone attacks - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxOUUVkT1FoQk9aUmNVbTBQOHZ1RnBaWmI1Y01CMmlZWUJhT1FoZkVhd3FsRlNpeU5QTzVDb1hMdDg2VkQ2U0REOWx1eHFwQ00xZ3dQejhpNTRjZXBiRFdRVGdrdDRwVW16amY0RFRjQURPMUVwZ0VDTHZZZDE2UDlQYlNsUXdmcHhVLTBITkdZWjRtajlONDBROFNzLVh6VGg2Zl9Kck5IUlVNaDlTOHBOV3hlLWE5LW1Bc0FPMzd6UnE5Ykc3bWhLMEdtZ1lwLVd1eGx6eXRldzV1V2lJYWVtOGNWX2JBWFpmekppa1plN1doUjlDazh2ZkMwVmZpc3VwMDNYYk5RQ0Y5akNPb01aYTZwWWhva3dHeVBN0gGgAkFVX3lxTE15dDNqMHZjc1NOYWZXUlVZUk1udmFaeFp5dk5RaWhLZmhJQldIOFVMY0tRLXNFekZXcVg1WVRzTGdkN1J3SkI1YnRlbzBuYnhZb2plUGhmSjR6czgwcGJZNENjVUU4bEhkMmZ4R21BMW9GTUdDbmI4dGJoWE8zZXUtTWliQUlvZVdNQmxJV3BaT1BURWVBcU15anNKaEVPLUI2Ymh5dlJtbkhVVGxtSl83emdIVS1WSENIYXRLcU1GMVdxYkFUZ2hUWVZ0Y1l3V3lOdjRlcXBXTElVOXMyNHdxYzVSdUdXVENOSzZFNkxNV0JuOWx0MUc1QlgtbGVsYVFhNHdtTFk3VFZlbzhLUEI3MF82WEJGc1lwaDNPV2p5QQ?oc=5",
+      "id": "ee234dcf74718394",
+      "published_at": "2026-07-29T04:32:00+00:00",
+      "title": "Middle East war escalates: Multiple dead in US-Saudi strikes in Iraq; Iran targets Hormuz ships - top dev - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxOb184dWt5eUdUNVpsU1ItRU1NWEkzT1FtNXU0S2NFMU1hNi0zaTlrb2Z2b0MxYUNoRlhpUjE0dlhjM2JVclpaWnFpbVh3eGpTV2pDN3ZNdjlqcW5pSUNzTllwRjNpTXloUWR1N2o0alphVzJHSHpJMDByNFpTbnJRZUhGNkVPby1RNWxyRUZoclAtc0FzUE01MDQ0R1Q3N2ZKN25hbVgzalVpQmVvRy1YOXlnYndfWC11TEtxaFBSWGF4NTNWckVoSGVacnJNbE9xUjVpMzA3VVdXbV9MMTRBeXg3Sy1BTWxRZEQ0UFFOMHNOZVlIR2lnWnNmVmM0eGxZWnY1eEpmcHVGWXdVMDkxbDBJM1RycmJxb3fSAZ8CQVVfeXFMT2hqODdZYXUxNFM2TnJZSUpzTzNHNzBGOExnajVkMEp0dFVsNkdWa1dnZkxjYWRmLXpxV0NHRFJINndRNkdraXZBZzV3dmliQ3VHak5oWFR1bnFZSGg3MVJkQXFJbDNCU2Q2Q0R1RmNiRnhRUm9NNzJHYVF4eXNQRGVjTGt4TUZLLV9QRjlXUGhVVEd5WU5idGNBS2lVNzZhbzVMeVlTX29jMGRPVUVhUkFOTlZ2cWxqNW1yWGRGbTZzdTh0MjEyd1lpRC1JT1hseGZCZXU1UVM2ZE0xU1E1MFEwakpNaHRIcFdSR0g5cFhIOGdaLVRucE84MVdlbjI4N2lwbnRBcXh1ZmhxbTBEZzItTmxHR0tHM3pNT3pkM0E?oc=5",
       "source_name": "The Times of India",
       "event_type": "attack",
       "actor": "unknown",
@@ -368,11 +368,11 @@
       "confidence": 0.65
     },
     {
-      "id": "a34795dd16c84d5a",
-      "published_at": "2026-07-29T00:51:45+00:00",
-      "title": "Iran launches 'attempted surprise attack' on American forces in Middle East, US military says - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FSzhZbndQb2lHQ1lnZ3FRaHdYZ1FLVGMzM1AxdnFvWWE3cW9FQW1CYlBYOGxrTnVJdXJCbXloU2V1b29xS0w0dHZYMFlNaGN2bUtxNUZ1ZXdJZw?oc=5",
-      "source_name": "BBC",
+      "id": "d787a70910548337",
+      "published_at": "2026-07-29T04:31:17+00:00",
+      "title": "US, Saudi Arabia strike Iran-backed militias in Iraq after attack on American base - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9STThESnBGX0hfeW1uVms1eGhwcWF4QTNmdVB5T2lZNm1ocHNYUFFXZ0lzaUhLOVBtTVFEajd5dVNfX1h0ZFkxQkhnbERPTmFCZ0NpUWZB?oc=5",
+      "source_name": "Ynetnews",
       "event_type": "attack",
       "actor": "iran",
       "target": "usa",
@@ -380,14 +380,14 @@
         "usa": 0,
         "iran": 3
       },
-      "confidence": 0.85
+      "confidence": 0.8
     },
     {
-      "id": "44489b64c46216c4",
-      "published_at": "2026-07-29T00:51:00+00:00",
-      "title": "Oil jumps as U.S.-Iran resume strikes after a brief pause - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTV9aQVpTbDZTUGFvOGFVMEYzVHl2Yk5VektUYXY1b2hENDUtUlRaSHd3cml3SGtmMTlraXFsbl83bm9rZkw5UHEzMHZmZWd4Y0VmN29WX3lVSzZtQ1l4Y2NGTWpGeThMSWhJbllUUHBZZ3ZLYnNpa0hDZDJqazFiNFk3TjbSAYoBQVVfeXFMTnFVemxMRmlPcnJhM0RHaEdGb3cxMHVOeU5FYXA0bzBzZHpFUUllTmxLTE1ubThJSlZla3o3LUpOSFhLcHFKdTJFTTkwc0o2WjRETzlabW03S2VvQ25wQjRCMGwxUFBXNWR1eU5UNWptR3ZENUpTSG0yaF9FZGtfSFM3ZEtOcnppdkJR?oc=5",
-      "source_name": "CNBC",
+      "id": "f388874c337e0af2",
+      "published_at": "2026-07-29T04:19:57+00:00",
+      "title": "Saudi-US strikes target Iran-backed militias in Iraq after drone attacks - middle-east-online.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYXpTeFhneHpicExVd2p6UDM0cTlVSC1ESDJqaTQwaFc2SjhmOTdPSlFTUnpETEtMOHZpdm1MWTNITnd2SlY2ZER6N1JFZVFNT1Fuektacm81OURyMmlyY0dpZ1RKa1d5REdYTzlQYjVQSTVJcDBoV1U3ODVGUm5SblM0dGg0ZE9JNVpiMm5XTUt5OXpHdWU3a2ZURXNwVWltek14VV9B?oc=5",
+      "source_name": "middle-east-online.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -395,7 +395,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.65
     }
   ]
 }
