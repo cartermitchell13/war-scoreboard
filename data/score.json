@@ -1,35 +1,29 @@
 {
-  "generated_at": "2026-07-29T22:15:10.088854+00:00",
+  "generated_at": "2026-07-30T03:32:57.459328+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 83,
+  "event_count_window": 84,
   "totals": {
-    "usa": 23,
-    "iran": 28,
-    "lead": -5,
-    "lead_side": "Iran"
+    "usa": 50,
+    "iran": 21,
+    "lead": 29,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 23,
-    "iran": 28,
-    "delta": -5
+    "usa": 50,
+    "iran": 21,
+    "delta": 29
   },
   "confidence": {
-    "score": 69.5,
+    "score": 71.0,
     "label": "Medium"
   },
   "event_types": {
-    "other": 25,
-    "attack": 53,
-    "diplomatic": 1,
+    "attack": 62,
+    "other": 18,
     "intercept": 4
   },
   "history": [
-    {
-      "date": "2026-07-16",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-07-17",
       "usa": 0,
@@ -62,12 +56,12 @@
     },
     {
       "date": "2026-07-23",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-07-24",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -82,7 +76,7 @@
     },
     {
       "date": "2026-07-27",
-      "usa": 2,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -92,104 +86,34 @@
     },
     {
       "date": "2026-07-29",
-      "usa": 12,
-      "iran": 28
+      "usa": 11,
+      "iran": 3
+    },
+    {
+      "date": "2026-07-30",
+      "usa": 36,
+      "iran": 18
     }
   ],
   "latest_events": [
     {
-      "id": "333e9a95b7a82b77",
-      "published_at": "2026-07-29T21:42:00+00:00",
-      "title": "Live updates: Trump says Iran \u2018going to get a beating\u2019 as fresh fighting shatters calm - CNN",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85bWFLTHpqbzJxT05STTlNTEpnZlVXeUdHZU9DeWhrQWZ2X2NYbVhtNElZS19vX3ZINncxY09jZFNVSDdrUlhVb2paVFpFSi1DZHJuOGwtalFqUkpiX0tWSGstc1J2R2k0Q1M0U1A0WQ?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "57d56580bf81da71",
-      "published_at": "2026-07-29T21:39:10+00:00",
-      "title": "Trump threatens to hit Iran \u2018hard\u2019 following missile attack on U.S. assets - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeHp4X1hONlVjM0VkRzlxeHQ1eUQ5X0ZTY1pRVHBmUThjc2o1RjlMVlRuSkREbXZNbUl4b3R2dGk5Q0otMTlCbVo3UmpFVWN6cUEwLXZpRUxJbGxyU1pBbE5UZlZVLWpmektjZ1FRQmJYeWpRa0I5bWRWZ0ZEaFJZOUt5bm11T3BJZmhmSjVvN3I5MWJJMllTY0tKS3lsbERiOWRDTTBuY0M3c2FJWmpqanN2N0lzb0tGc3BWYU1TQS1raHc0ZWc?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.9
-    },
-    {
-      "id": "fb2b11d0586e73d6",
-      "published_at": "2026-07-29T21:27:00+00:00",
-      "title": "Iran launches renewed missile attacks as US and Saudis strike Tehran-backed militias in Iraq - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcFZvamthZTNrZ0JiSDZZMVJBNW02Y1JiQUlvUlAwN1RRODcyUWNydUtZbGxpVVdhZElfTERINDh6ZURJZll3M25weWk4UVFPczliQWZ0MkRUc09VTTQ0X1BMVDBDa0hMdzE0TjBlYmI3UkJpYl9KZDFYMTFsZ05jNnd0Zm9wUHEwTlJObUEycG1BNTVqVTVQWjl5NnJqdEE?oc=5",
-      "source_name": "AP News",
+      "id": "79e7d6b11f14c57c",
+      "published_at": "2026-07-30T03:25:00+00:00",
+      "title": "US launches fresh strikes on Iran after days-long pause, amid fears the war is widening - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSnVOeXVGanRXY1VyT01TUlVGZTNxSjlDR05vcTlHcjdRNFU5OFJIRnZSd3RsV3VtNVpCY1lua05jV0F4cnltUlZhek5iYVZTeXFOLUpqaHpjSWdhbGVRZENRR0dHT1RrSTZ6M0l5d0c0RHMwOXFnYjNFcmJ0SFdSTURlU0NPdw?oc=5",
+      "source_name": "The Guardian",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "288c5f5b3471646b",
-      "published_at": "2026-07-29T21:05:32+00:00",
-      "title": "Netanyahu backs pressure-first strategy on Iran after Trump talks - \u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0tOG5RU3NFLXQ4ZFhTRVdfX0ZRQXFxV24zQ1JEQXk5eFJsWVFlbi1GZTBZS0NZcXVNZkRoT003TGZUUTNNTjZ1Rl9UYTI4WVJxSHc?oc=5",
-      "source_name": "\u0627\u06cc\u0631\u0627\u0646 \u0627\u06cc\u0646\u062a\u0631\u0646\u0634\u0646\u0627\u0644",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
       },
       "confidence": 0.65
     },
     {
-      "id": "94555e452692ee97",
-      "published_at": "2026-07-29T21:02:00+00:00",
-      "title": "US-Iran conflict enters new phase as Saudi Arabia helps hit proxies and diplomacy stalls again - AP News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNejFOUGJhMS1NdDJ2a0FsNUV0T29mUkcwUFI2TzA3anNMZ1NJQWp3eG42TFRIaHcwOUZvQURtSzdvaWZyckZNSm1peU9ZU2lvY3JDa3ZyNUUyb1RkMjh5Q1gwZ0VMUjdLY3R0MlN6V0t2ZFAzc0p0Y0NpZnk1MTBBcGpUSDUyM1pXM0pQVzFNemlLR0lDdGpRSW13?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "01a4cb5acac0785b",
-      "published_at": "2026-07-29T20:49:35+00:00",
-      "title": "Trump \u2018exasperated\u2019 on Iran as top officials can\u2019t agree on strategy, sources say - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWndQdjNjeW5CWmVFc2t4a0U0N2R2M2ZqR2dRMVJqZEtTcGF6SHV2SU0wVGpZakp3QTJwUHVRMXpnTVJWU29ZalBfY2FyVXlBNlh6NnJlLUxlaFFqSURLcXhleGtOOFlKVU4yQmZsOU1DWkQtM3UwdkVFbkRzMTc1Mll0Z1NtMldCaTBibkN6MVB4YWRKLXRJT0U2dUUzejkzTUQ1RTFvSm1CdlItcnFpakpEdmM5YjdldTlnWllQaEpYRVhjZVlSbVVOUQ?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b398c375340f7a58",
-      "published_at": "2026-07-29T20:35:32+00:00",
+      "id": "1caa218738f90dd2",
+      "published_at": "2026-07-30T03:13:00+00:00",
       "title": "Iran War Live Updates: U.S. and Saudi Airstrikes Drag More Countries Into Fighting - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9lUlNXWlBZaE01azJKdjNfb2hoM1FYYVdzdGRFZ1F0dlBQbU9PSzZLLXhEdWcxRE01VDluUEJKVFIxdU5RcU1kOHN2U2JVbE5WWFFxVjFYeHlxR19xbFpqczA5RnVpaGtWU1QyM09pS0hGb1BWRlcwcFRDVGE?oc=5",
       "source_name": "The New York Times",
@@ -203,146 +127,26 @@
       "confidence": 0.85
     },
     {
-      "id": "73b30edf097df28b",
-      "published_at": "2026-07-29T20:23:37+00:00",
-      "title": "Iran resumes attacks as US-Saudi strikes kill Tehran-backed militants in Iraq - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOTRkTm5tRE5SOTRCMHVGdkQ4bFJIYzVKUEVMbHA5QzIyMnEyZFBoLTBGd2pQcGZMVE1XMFQyMEtMTl9BdlZBc3RyOTZXX2h0azd6RVcwRzhRNlkxdl9hVnBMSjFtUVZfZW1KYnpuVS1qZVVqWUlibzd5YTBkQWd0dlZpVmgybGV4a1ZaQ2dpQkxvdXhyWi10OHZHOEVSUS1KUzNBVXh3NFFJcXhpbmlkZmp0Yi1sNThiS3p2dF8tcw?oc=5",
-      "source_name": "Scripps News",
+      "id": "390340e9676bcad8",
+      "published_at": "2026-07-30T03:03:00+00:00",
+      "title": "US launches strikes on Iranian targets a day after it foiled missile attack on American forces - AP News",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPcFZvamthZTNrZ0JiSDZZMVJBNW02Y1JiQUlvUlAwN1RRODcyUWNydUtZbGxpVVdhZElfTERINDh6ZURJZll3M25weWk4UVFPczliQWZ0MkRUc09VTTQ0X1BMVDBDa0hMdzE0TjBlYmI3UkJpYl9KZDFYMTFsZ05jNnd0Zm9wUHEwTlJObUEycG1BNTVqVTVQWjl5NnJqdEE?oc=5",
+      "source_name": "AP News",
       "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
+      "actor": "iran",
+      "target": "usa",
       "points": {
         "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "11503f28f75da230",
-      "published_at": "2026-07-29T20:21:00+00:00",
-      "title": "Oil Prices Spike, ExxonMobil and Chevron Stocks Rise After Iran Strikes - Barron's",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQOVd5SnhmLUttVjdNSWZua0pQSmpfQnpyRnJBS29VZW83VGJMRUVtZF92V3o3UW54ZUY4UnlFZUVrMVR6ZjZvYU4yU0M3OU8tdWE1Q1BnX0NKUzhPQlVya0ktaVdqUkFsYnRnUUJ6Z21CWTRxdDdsU1BOTXNxUWtILQ?oc=5",
-      "source_name": "Barron's",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "297b8327d0524c5d",
-      "published_at": "2026-07-29T20:19:06+00:00",
-      "title": "Iran war live: Pezeshkian urges Iranians to \u2018stand firm\u2019 against \u2018the enemy | US-Israel war on Iran News - aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTjRULWE0Y1djcEVXdDU2MmYzd2lPUVVhdGJCRU91aGc5QzFzdXZGZ0hLU1ljWXZqQmdoWDdJMWRYeW9LOG5NRERCQTBpT1dFNkxybmM5ZmlZelNBMzF1OW9mdmlET3p3MHFpYnlOMXRBSXItTDk2bWJRd1hmS3h0MHFVZWpCeGFPY2N4MDh2V0ZuenpTd0VRV3BzM3M2MmE3b19mdkZPckNOYlBITXNMQjdCV1JKX0FH?oc=5",
-      "source_name": "aljazeera.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "c589428cce28ba29",
-      "published_at": "2026-07-29T20:15:00+00:00",
-      "title": "Iran\u2019s \u2018surprise attack\u2019 ends U.S ceasefire. What it means for the war - usatoday.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU3BxSHhNb1IxcUNOQzdRTW5iRXZ2cHJfcFg4UHExVmVEb2lkZkU5X21oakpkU0pwZm9TMmFZLU9nRWlQRkxyeW8yanVndlFJUy1uTG5EbHhGZ3prUGFNbXo1X21tZzl3R0NhNThiTnprbnM2eXl5OTBzU1dWQWlmWkx6Sjh1c29qV1Y3SldHVm5yQ1dsSnBZQ1Y0bDd4V0NDVG82RklWNEptNWtSX1BySlFtOFdpUTA0bUtibUhyWEI2R3Bl?oc=5",
-      "source_name": "usatoday.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9555e632f14eb6da",
-      "published_at": "2026-07-29T20:05:00+00:00",
-      "title": "Trump Vows to 'Hit Hard' After Iran Targets US Bases in Jordan - Kurdistan24",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNDJiSkhTUGtXREs0M1lEM1djNGhaQ0drOFpjNkpUd3NOdzc2cnVBSy02dC1xUmhZUHJEWno2RlRLN0VJSjFVNWxkV1lVZUZWYkxMLWQwSnBrZHprTE42aExOM2QzSmFOYVJ5LW0zdlk4MlpCeVN5dVpPdENSZHRabUxqaHNwQ1A5VXhhSGtWSEhfOXBJcVlQc3pFTE5CY1d6SGhiMTEwRQ?oc=5",
-      "source_name": "Kurdistan24",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cc765f257b319a74",
-      "published_at": "2026-07-29T20:04:05+00:00",
-      "title": "Donald Trump threatens to 'beat' Iran after CENTCOM resumes overnight strikes - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1lXzg1bmdJbUJZRTBVUkZ6MFBIUzZqVHFETjl4SHdtSlU2N3dPZ2h4VzY1WE1peDJ2QkloLXFvZ3NaVkRIcmJlaHdlcXlyTUlMR3NMWWpUZjkza3Yx?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "64db8eb7b17d7daf",
-      "published_at": "2026-07-29T20:03:00+00:00",
-      "title": "U.S.-Iran Updates: Trump says Iran to \"get a beating\" as war expands with U.S.-Saudi strikes in Iraq - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbzhpR0toZ18xYmxwc29MX194aW5QczB0M29GaTJBdFgzM0ViNWIzeUl4ZUZIM3Nfb1UwbFdOQ050NzZXMXVfUlFRNUpTa0d0WVdCSVpKeERzM0pKbjZ0QlNjU3ZZUFM5WjBqVnVTV21oVHVDQThOdEZxN1pmckswVFlwVDJmVThkaFpHNXVR?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
+        "iran": 3
       },
       "confidence": 0.9
     },
     {
-      "id": "6687482e16304fe0",
-      "published_at": "2026-07-29T19:48:52+00:00",
-      "title": "Trump says US to deliver \u2018beating\u2019 to Iran after bases again targeted - aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPSnlRMWFnaUtJM2VGRW9YeVVua0xwY1RTR2FrcnFvN2p4LVZZWDNLS0JzbFRqQUhSc19aQ29KSFJ1TmhEUzE3SGwzMVRCcmFITFFUa3BNNFNSX2tNVk9uWVdWSDBxNGpUS2F5LVhrZGEyVzJueG9IMmFnV09WbDFTdUZVQXA3VnhsQ1J4aERqcG4xY0dQVGhZLVJwNzJuT1FvaGY1OEh1Yzk3M3Nz0gGyAUFVX3lxTE9RWG1yaUV5V1BySHl1ay1mcmQ5Qm5EWkxicHREVFc2N1A4QVB3ZU9uaEpBYWpXZk1iLW1hVjdTVE5JVF9KZThrczNTQjRENlFJY200NXdiLXc5UWlVTXZZTHFvRGlyOHVwM1A2YzZ2YnVaSHhKMmprQ0tjUWVFTTlCbXhiR0dKemhhdHlDTTdNcWJ6dENRNVJwLTVMdk55UzZ4V3RISjNORi1zX05CZnNmMFE?oc=5",
-      "source_name": "aljazeera.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "e8a0f3656d20843b",
-      "published_at": "2026-07-29T19:42:50+00:00",
-      "title": "After a brief pause, the Iran war might be expanding - The Christian Science Monitor",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUTR3VTVqUjkwTF9lMjJtY1k3RnRWdXBLam1BaHNjXzZQa3VVRjBNVVgxRU5BdVNkWENlUUgxZjJob3VVR2U1T1BBZ0plenNFVHYzdW9CM05BcUZtelNtOHh6TEFHWERWdWRWY2xySHVCLTNlbHN2Z1RQcEc4QWM1ckFGb05EUG4wVmM00gGkAUFVX3lxTE5xZkEtSFZDRVV1Wk9EWkRTZExLcFI1N3RxM1l3SDgzSE1DZ2ZSbnlnejZCWjBhYjBHMGpFejNBcHpBWFVaTUVpaXo5Y2tqUkZyamJuVkJfaHpVUlgweFpiSFkzdmlTOGFpV0hTbUlOVWUwN2cyTlVrNnh4NjdhWDJtbUluRWl5d1BCTDJqWTdFTFVyOFBmRTB1c19SS1dORW5OeWhp?oc=5",
-      "source_name": "The Christian Science Monitor",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "8218204b986becd6",
-      "published_at": "2026-07-29T19:18:36+00:00",
-      "title": "Iran-US latest: US, Saudi strikes hit Iran-backed militias in Iraq - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5YckJpcDBudkpkWmZoNDJ6VkdfcUFHVmJzVk5WVTMyRHU5MExGSjlGeV9CQl9DWXJpbHFjVlB1Q0hRSlV4cmtmWUR2ejR3TE54dmdYemZlQ3J6dmtzYUc1dWRpVjc4dERNQzBIajROMDRvMU1NZ09oR1k1dHJaSHM?oc=5",
-      "source_name": "Fox News",
+      "id": "9eb49cbcc8b0632d",
+      "published_at": "2026-07-30T03:00:54+00:00",
+      "title": "US completes new wave of strikes against Iran: CENTCOM - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQckZFU0RaVXczQjdWM09HR2o1RGRfY1NuTFM2N1NHcGNLWGJhUmpuZXRnQkdFcXg0WEdva0I1VmMxUThPeDFSYzNqLVdya0ZzWFVwQ3BhMWxUbWZ4ZHJtd242X1dYWkVzejRKazFkVGZOcDVBX01pRDVmN1NsajYwYmd6d1VPNEtOUjVLdkZLMU1Rd0prZzduNWhHLW1LUElDNzlDR1lPbEc?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -353,11 +157,11 @@
       "confidence": 0.65
     },
     {
-      "id": "6dcac5b9b42bd411",
-      "published_at": "2026-07-29T18:28:30+00:00",
-      "title": "Iran war: US, Saudi Arabia strike Iran-backed Iraqi militias - dw.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaHFLMkEzdUhoY3NPM2xXQlhfR1lBV3VHanV3cXVLSTQ2NEFXeG5lMldUNFltM1lkM3V6clY5Vl9GaXdRTGdzTUlGMmJGN2tWS2NHWTdDWkwtR1NqYklMa05FMFB2MVk2NndDanRqVXJGR3dtOUtyeTU4Rm9LOHRiRTdXZllYS1MwaEhyZldYNncySkd3Z1ZyQTRR?oc=5",
-      "source_name": "dw.com",
+      "id": "6a0b76912452beb5",
+      "published_at": "2026-07-30T02:57:00+00:00",
+      "title": "U.S. Retaliates Against Iran for Tuesday\u2019s Surprise Attack - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOMzE4Ukhpa3VkYlpOWVFxRHZsMXVHelByM1V1LTZIbTgwV05nTGVMZldpanR5M1BWb29HNXk2SkNzaGZqZDYydk84XzctZk5ZUlNwUVVJTmV2QW54ZC12Z2h4Y0JRdlgya0Y3S29wN1cxcUFCc19mLWdWRm9EUmJIRE01bXhvY0NXN3BVbGhReUJ1NUZKTFp6RTNkVDRIbU92WjNGNk1qRzhLN3N3aEJMYWVJNktVYVR1SlBQYVVR?oc=5",
+      "source_name": "WSJ",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -365,14 +169,29 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
-      "id": "dd25ed817df3d2a3",
-      "published_at": "2026-07-29T18:23:00+00:00",
-      "title": "Iran Gambles on Escalation With Surprise Attack on U.S. Forces - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQd3N0cGVWdVNldVBEUVd5QlFYYlN0Q0dHdXdHc1dlMkRfcmU1R2I3VjV6TDY0emFDOU1tVURtcG5BbWpxOVp2b2pfYVA3dEtOcVdzcy1OMnNLdmp2S2tsQkh1alNRYlFjdjdwLUF5QkpoczgtWHJDR0ZwVm0wSmJXSUt3OVM4czFhS01rdWE3cHM2bHlLSGhKWDgzdDdBanNlUi1hektRY0pqa2E3?oc=5",
-      "source_name": "WSJ",
+      "id": "f25cb5512ae5b060",
+      "published_at": "2026-07-30T02:56:01+00:00",
+      "title": "Trump threatens to hit Iran \u2018hard\u2019 following missile attack on U.S. assets - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPeHp4X1hONlVjM0VkRzlxeHQ1eUQ5X0ZTY1pRVHBmUThjc2o1RjlMVlRuSkREbXZNbUl4b3R2dGk5Q0otMTlCbVo3UmpFVWN6cUEwLXZpRUxJbGxyU1pBbE5UZlZVLWpmektjZ1FRQmJYeWpRa0I5bWRWZ0ZEaFJZOUt5bm11T3BJZmhmSjVvN3I5MWJJMllTY0tKS3lsbERiOWRDTTBuY0M3c2FJWmpqanN2N0lzb0tGc3BWYU1TQS1raHc0ZWc?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.9
+    },
+    {
+      "id": "d654c23f67fedc84",
+      "published_at": "2026-07-30T02:47:00+00:00",
+      "title": "US launches strikes on Iran in retaliation for failed attack on American troops - Politico",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPT05BdHd6bWt0TmxxbHNTbzh5LTVscDdvazVMbzlFSURUWUk2ckllSmlvTFpwTElvMWZINmtHZmZmUzNBN2FoYnFSdVRYajhMQnZ5bmUyY2RkWW5yOG1FQkJGdGNfT0ZGdjBzWjFRbkEyTmwyVGptOVhadm5YZUxJd0Q1X196WFV6cTZVckN3?oc=5",
+      "source_name": "Politico",
       "event_type": "attack",
       "actor": "iran",
       "target": "usa",
@@ -383,11 +202,11 @@
       "confidence": 0.85
     },
     {
-      "id": "497a777ee97b5e84",
-      "published_at": "2026-07-29T17:48:31+00:00",
-      "title": "Iran pushes back against US as regional attacks heat up - aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVUF2bnZ4SlNDMXk1UXBmZElvSlRsZ3BYcjc5ZG1FbE0yZS01eEZLcmFibGpGbTBLWWhuZllhaThfbGh0YXZKQzF0WUl2akdDaUVXNmU1QnpfVVBmNG1JVl9UTndVLWp0ZUxTOGVCZlg3VjZEU2JrNnJFdkdmcEMxX0xmUEtoLVN0MGpqUjBuX193cnJycVFhb0lNay3SAaIBQVVfeXFMTjhhRVlqVDl6UjAteENodEU4cjdPQkxFenZycWRyaWVxTmI0ZEhfUm1ycHhfYXBDTkxObnNpcGcyVEE5VWZxYzhBdTdLNDdzUkV4WjlON3B1SlhxX0U3SlpqMU5PQzhWMEVKdFpsbTR3T1V3Um5wZkZmUFNnY2FiRkdIbGhtcEgzU3hNTFhUTkYyeHVVcmlVd2FxVEprTExqSnBR?oc=5",
-      "source_name": "aljazeera.com",
+      "id": "23e6f334b2d03784",
+      "published_at": "2026-07-30T02:41:36+00:00",
+      "title": "Iran war live: US launches \u2018powerful\u2019 strikes after IRGC attack on Jordan - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -395,7 +214,187 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.65
+    },
+    {
+      "id": "cf093b6789c0c23b",
+      "published_at": "2026-07-30T02:35:00+00:00",
+      "title": "Live updates: US military says it completed \u2018heavy wave of strikes\u2019 against Iran - CNN",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE85bWFLTHpqbzJxT05STTlNTEpnZlVXeUdHZU9DeWhrQWZ2X2NYbVhtNElZS19vX3ZINncxY09jZFNVSDdrUlhVb2paVFpFSi1DZHJuOGwtalFqUkpiX0tWSGstc1J2R2k0Q1M0U1A0WQ?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "64799f016b327821",
+      "published_at": "2026-07-30T02:32:55+00:00",
+      "title": "U.S. Strikes IRGC Targets After Attempted Iranian Attacks - centcom.mil",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOUVhvVW15UEhBTkFoODlhTV8zY3FLT2xaYmZzMFV5ZVN6bDhZY053djMtc2ZTYUttQ04wMVpRbjBMWFI4MjZjOUd5QnJJTWpTVmhGcjZxclBoTlRBT2tJMDhLc1ExNFg4VGlaMlcweXlLb21SY1F2WTk2N3d2TGo1RF9CTkFzWG1wR09iNzNldHVoV1JTTl9jUm9hblZHdEhUYWpyRGpIdlVOM1hqRWdPWUVTb2lTYWNzMnc?oc=5",
+      "source_name": "centcom.mil",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "4f0dd270719db033",
+      "published_at": "2026-07-30T02:30:15+00:00",
+      "title": "U.S. strikes Iran in response to surprise ballistic missile launch - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUE5LbjBwN0lKZVVxQXJRcjEydEtIeUlNUjgyRzBnU1RQUE1fN2dSZkdKb1BWVTJ4cF8zcUJoNXh4dGlBcGRhaGNCNXNqck9LWl85WmhfQ1RlNUoyZ1JSRHY1VmpqM3ZWUHN6TWpnN3Y4Sl8zci12UUk4S1RvUHZJa3Y1WjJBb01SZ3dSOWV2ZXVGSklPODE2V2poQTUwNFNLd3o1V3AwbnM3TVVoUnlrbmdUOW5UYmI0UFB3?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "7c80235ae4564a76",
+      "published_at": "2026-07-30T02:22:48+00:00",
+      "title": "US carries out 'powerful' strikes on Iran after attacks on bases and regional allies - France 24",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeXhVWk5pRi1LRm1NaVZWQVRwc0JOdUxfWUpCQklSUWJ3TWh5NWhMWVNOSl9USnYtcVpWM2RmeEVvV29McWxvTUprMmZYcF9DMFZ2R1laN21vM0RKODZBVmpOdHpUUlBBejBsOEtPbHFEMUNKUG5SNGNUcjNUcWY2dk1sUG9PRkpoOF9YRVhWVC10Mmd5RlNqb2RyVnUtaGt6SUl1Qm5sd2p2aDNhYWtGRTcxMEFPaXpTemhxVGdRM1lkTlJ1U0wtREtfaw?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5b820129ab872b22",
+      "published_at": "2026-07-30T02:22:13+00:00",
+      "title": "Saudi defense minister holds urgent meeting with Trump after Iraq strikes - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV2ZWWE14RlVTMy1uM0VwT19WdWRLMUFXVldtVlBxWTVrLVJtYURzR3J2RDlYZktSU3h6Mks0aHdvQlZOMkdEcmdGUUU1a1ptRy1nVUxPQlcybVVvWlpQSExucHg4dllJa2lFUFdEWlRIc3lYNlZuUS1ZUC1pMXhTNkx2elpoMU1sTFE?oc=5",
+      "source_name": "Axios",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8e09fef2f33f3319",
+      "published_at": "2026-07-30T02:01:08+00:00",
+      "title": "U.S. launches retaliatory strikes on Iran after \u2018surprise attack\u2019 - MS NOW",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMmk0b2pnSmdpbkNxT3gzZnlEN3dPZzNJTk1QVG5wcWpERUIycjVnc1cyU2VGZ2w3dVMxaUljVHRBM0dJSlktMnZjZVVUN3VyX255ZkVLS3FFRHJmS1FpRUE1c1lCUy1aZ3VSYmRWYktaVkgxSWtheWdKczFWckRtbVk2ejBoNFp5bXVGSEFqdw?oc=5",
+      "source_name": "MS NOW",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "e19e1b1149171b44",
+      "published_at": "2026-07-30T01:58:54+00:00",
+      "title": "US launches \u2018powerful response\u2019 against Iran after attempted missile attack on American forces - stripes.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQZHl6dklNcnE4ZmtMWVhidW5aRkZ1QUwtVUFJc3UzaFRHQ2Y2TlA0TFZRTU96NlhEcVJPTElmZ1ZFdWh6eTJpeTlzejkxLUM3MUJJdGkzUFBuWlFQaV9tWXNWamszNUVJZlIyV0FZcnBEYTVpS25zdnJUZnhfLUc2bkJrWmNXdl9KY1FoUmo3b21ubkcwVjNMazNKSXpqcmMzSU9RSlBRUEp4M0RtNEdVSHln?oc=5",
+      "source_name": "stripes.com",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "18b0abe4b5fa992b",
+      "published_at": "2026-07-30T01:50:00+00:00",
+      "title": "The U.S. Commander With a Two-Week Plan to Escalate Strikes in Iran - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNTDVYSUFFSElLME1NRE5TZEV0SkZveHc5Y054RFhxN0t4T0FENjROVVRIVl9tdGZZczRtMnJRR0JnVklLeEQ4SmE5QWlaYzNTeTBHU3VEZ2haTm5keXMweGRpZWN0Mk4xMXFobEVwQTJwVWdJNmoydnpZXzYtX05QQWxxZzlLanlNMHFWNHdQaU0tbVZpMGhNQ0tNRHF2REFpQjNYcHd4U0R1VFd1d09rRQ?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "91b2fd52701362e9",
+      "published_at": "2026-07-30T01:41:00+00:00",
+      "title": "Iran \u2018surprise attack\u2019 ends ceasefire; US retaliates. What's next in the war - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU3BxSHhNb1IxcUNOQzdRTW5iRXZ2cHJfcFg4UHExVmVEb2lkZkU5X21oakpkU0pwZm9TMmFZLU9nRWlQRkxyeW8yanVndlFJUy1uTG5EbHhGZ3prUGFNbXo1X21tZzl3R0NhNThiTnprbnM2eXl5OTBzU1dWQWlmWkx6Sjh1c29qV1Y3SldHVm5yQ1dsSnBZQ1Y0bDd4V0NDVG82RklWNEptNWtSX1BySlFtOFdpUTA0bUtibUhyWEI2R3Bl?oc=5",
+      "source_name": "USA Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "01db93240c6521f4",
+      "published_at": "2026-07-30T01:39:35+00:00",
+      "title": "U.S. launches new wave of strikes against Iran as war lull ends - upi.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVEZ0STRUUEpoSkR1bmhDOEdQdGlrRGZBZkRkVC1IbGJZU2xaVl9VT0ZwNVlTVVhIZGhPTzF3ZHVHcHd0c0gxXzVKT1FxOVZxYjB1WTRGRG1VLV9LMklzblVPRldTOG1FU3NLMWtrR3B2eFlXQkpGTDI5dENVQ2dqYzhES2R0SXhOY2hTTkxyeG5mbVhUYUHSAZsBQVVfeXFMTk1PVXE0MU5PTUZwalBXczdUV3dublNBWktQcEJNR2Y2R1F6RFAyQ0JHTkdXQzduUGVtSkpJa3RXRWk4M3UweGdTZzRhVFhiTWxpNkROaGlzdTAyd254SGhZdlQ1OGtyUHdOLUtIMy1MWWY5dnRoOGppSTFyeXIzeW9fY2dXX2dTaVphMl9DM2h5Y2o5eVpNbVgzTFU?oc=5",
+      "source_name": "upi.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4ff4be78376424da",
+      "published_at": "2026-07-30T01:34:31+00:00",
+      "title": "U.S. military launches strikes on Iranian targets a day after it foiled missile attack on U.S. forces - Toledo Blade",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPUTF1cFp3SXEydHNHM0hob3d0SGRGSENzbTk3bXBVSXFFR3VwWUpXeVhacThVNTR4ZVZ0SEZuRUtTNTg1eXZ3WnhzWU0yRlU5RjZ2YjFFNEM2MG9CUGNaWDB5c21wY1hDS05XREwtT3F2dVAxdU5TOUxJTm5RZGU0Y3VFWW1OTmZ3OS1SVW05b0R0eHJIWm96eGszUTJnMFVnNXdkT1V0b29oY1NYRTdGMjBPWHVwcEFWVGtxVXMxRGNwaGl6NTE0YVV2ZkI4V2pIR0xhXy1YbmdkR1NlNmZZV0ZqNmFEbHJQ?oc=5",
+      "source_name": "Toledo Blade",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "2e9ce876bc95b608",
+      "published_at": "2026-07-30T01:34:14+00:00",
+      "title": "New Strikes Engulf More Countries in the Iran War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSDFXRnZYalhsWXp0YllnODNxNHUzRVlCQmRIaFZJX1JEY0JKSkVBMXUxX09kendCVjcwMXFTSTlIdWVsbFR4X0EyTVR6UU1TMm56YlRCUXZaaDhpeGEtWEp6UGhpR3pIdUJFOUdpQkxpa2c2VWtXTmVYLWxzUU5NcFgtd2diOXdwVkJqeWJfSQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     }
   ]
 }
