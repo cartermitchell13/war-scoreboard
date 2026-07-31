@@ -1,35 +1,31 @@
 {
-  "generated_at": "2026-07-30T22:28:58.549884+00:00",
+  "generated_at": "2026-07-31T03:53:42.599567+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 84,
+  "event_count_window": 82,
   "totals": {
-    "usa": 54,
-    "iran": 19,
-    "lead": 35,
+    "usa": 46,
+    "iran": 21,
+    "lead": 25,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 54,
-    "iran": 19,
-    "delta": 35
+    "usa": 42,
+    "iran": 20,
+    "delta": 22
   },
   "confidence": {
-    "score": 71.7,
+    "score": 69.9,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 50,
-    "other": 30,
-    "diplomatic": 2,
+    "attack": 52,
+    "other": 22,
+    "material_loss": 2,
+    "diplomatic": 4,
     "intercept": 2
   },
   "history": [
-    {
-      "date": "2026-07-17",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-07-18",
       "usa": 0,
@@ -42,8 +38,8 @@
     },
     {
       "date": "2026-07-20",
-      "usa": 0,
-      "iran": 0
+      "usa": 4,
+      "iran": 1
     },
     {
       "date": "2026-07-21",
@@ -87,37 +83,42 @@
     },
     {
       "date": "2026-07-29",
-      "usa": 8,
-      "iran": 0
+      "usa": 11,
+      "iran": 4
     },
     {
       "date": "2026-07-30",
-      "usa": 46,
-      "iran": 19
+      "usa": 31,
+      "iran": 16
+    },
+    {
+      "date": "2026-07-31",
+      "usa": 0,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "7e37672a5e4a481b",
-      "published_at": "2026-07-30T21:48:05+00:00",
-      "title": "Iran War Live Updates: Egypt Attack Threatens to Expand War as U.S. and Iran Trade Strikes - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FNnhfRkxNbzUxMlF3M3lzaGhiakEzZ2tEOGF3eFVwWHRWaVJSY0JkYkJTOFVsSl9Iclh2Ui1YLTJMci1JR2V2NFZUWmVpd3ZMc2lyMmdHQ3FZS3pxWHdGeXlRMU1ZaDhCTi11UXBrZ1J5eWVyNkxn?oc=5",
-      "source_name": "The New York Times",
+      "id": "04e0bab8a8d1c990",
+      "published_at": "2026-07-31T03:15:15+00:00",
+      "title": "Iran-US war latest: Tehran warns Trump the US will \u2018pay the price\u2019 after family \u2018killed in attack on Qeshm Island\u2019 - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNS0NFQnRKT21LLW5hamdkVzFmdkVibUhOeFB5aXlEYk16T0RZd0F0Mkw1YW5SWmE0elpoSnFyYlk1amg3RU9GYW16OGtLeTBmR2FRV3FEWTQydURkUmRYYU9nQldNbXNYMEpYdVo5UG15cXdBUHNQNnQtTVhBVGxIUjVSUm9kVE8yMldaSFFtRVRYUHJPM05IU0ZWZHFNME42Mm9DRFdiUzFya0xwNXdLTU5WNHJ2azBNUlE?oc=5",
+      "source_name": "The Independent",
       "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 3
+        "iran": 0
       },
-      "confidence": 0.85
+      "confidence": 0.65
     },
     {
-      "id": "9074e001e5d3e25e",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - FOX5 Vegas",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBkOUNaRUVuWWU4aXVTNWpVSi1QOWNBbEQtWnFueWlHM215aGVIYzgyVVNJbTRMcjJxNldTNTFrVFo4TXJueEVEWVYyN0RZRmRYeGdndmZLbDQ2SUhlM0E3X2F1RnlYTmFVWjA3emt2NVVDdmlGSmc?oc=5",
-      "source_name": "FOX5 Vegas",
+      "id": "8c9dc4994b810632",
+      "published_at": "2026-07-31T02:39:17+00:00",
+      "title": "Iran war live: Gaza Board of Peace lauds \u2018historic\u2019 disarmament agreement - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVGk1LWc3aTA4c2kyMnBDWVFDaFhqTUhJVDZJc2tNbHpfQjU5SjAzQ2oyTlV4R1cwTDhYaDRMTlhHU3Y2N1N3dzRMSXNfZVVsQUR1RnUtSVVGYjhfUGpiNUJ0d0t0RkhyZnFDZzVaR2ZYeU1DQVNhX2NlMEE4MUhCRHAtd2JrRFB2XzlhbzFoZGVlczNfa1FMRG9nSjhiM1d2SlJ1dUZUUnVpa3hIMVhoVEFKNktQVEpwRGFsLS1n0gHDAUFVX3lxTFBoSnJGN2hpbzA1X0VfS3Nvb2labmFyZnhoTFV5NXRQMFZTMXhsQno3anlnMDJQMEt3VFkxLUViRFlYVVNCV2lYdnBUM05nZFhvZUxMNkIzb3ZqdDd5bnNKLUZsY05nODhtdW9kcjRacXJRUkFJUXFVX0FnZ2xaZHVBekktM0ZDbld4dVN1dWUwTHhFdEpPRXp0NjdwYl9ya1V1dUE0V2M1ZnBtbk9LaU9zT2dlOFBKakJmSVlCTDdjUy1Obw?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -125,14 +126,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
-      "id": "e1521c36c03901a4",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - fox10tv.com",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tOFNSalpSbm5BckYydTZxRGJLUzM3cXpGM2xjeFFGcGZlaHZEb2NuWlhUQUJZdFJQMVlOaC00Y1JsZGZhOFB2R1l5MUw4ZnRVYzRJUEtSYVRjbG00MlNtdjBnLThpNjZGY2J5bkROZXAycDQ?oc=5",
-      "source_name": "fox10tv.com",
+      "id": "055c62d2d58106e9",
+      "published_at": "2026-07-31T01:21:52+00:00",
+      "title": "Trump declares Hamas to disarm as Saudi military readies for potential Houthi ground offensive - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNDNZZ1IzbDlvbkRLRjJWbXNlYVI1cUh2eUVZUmxPUzJON2hDV2xiYVFyRTR2TWcyQ05YM0hRaGdrUzRBcFN1Ti1YV3I5WG5tdG0takNaMEp6WER1TzFXNEpQR2NFeHN4WFNnTFMwZDhUVkE1dGpWVnpDdG1FVG15c0wwa2I3UQ?oc=5",
+      "source_name": "Fox News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -140,192 +141,12 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.6
     },
     {
-      "id": "5bc8581cde966368",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - KSNB",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCNnRiVk8weVA3dk91QW9NS0JiZlk5Tl9oVThrTUdmSERSX2FEWWFKWGE2TTdua2EtX3piQ3YyV2xZRG5KNHVLb2xCYWJFS3dqTHU3c011bjVKMkZUTy1wV3hrNExJeGNqT3JUS0VEUWtnVXNJbVRN?oc=5",
-      "source_name": "KSNB",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8d4c4fc9472796e7",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - K8 News | Jonesboro, Arkansas",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Gc1JDM2lDbG5ydE1qNTJLS1BrU2NCTVhMQmw0TDVNU0NaTTlaVE9UWF92SFZTYnJEMXdCNTVweDlqRGM1cnh2TEI0SGxuYW55OHlyUDZtYjlYd1cxbUJfTGk5WklZMFBsMmE5Z19fWHI?oc=5",
-      "source_name": "K8 News | Jonesboro, Arkansas",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "829b2e36f9bbe1a9",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - WEEK | 25 News Now",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SLUF0cnZvYTdNdXY2VnZUazlpUVh6ajZYOGI0cE81bDhjRTM4c1dsQlJ1TVB2b2ZWeGZFVFRqenlMT095REh6ZDFvbVdXaDFJVEwtZDFSS2U0Wkt2UE52TnVsLWl1SkM0djFJaS1LMEl6RHkxb0E?oc=5",
-      "source_name": "WEEK | 25 News Now",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5ee8e712c019269b",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - KMOV",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFAxSE1DQ05OZUIwQTd6RzhVX2E4cnk2S3NSZ05RY0tlSUFQWXNValRPVVpDVlJXS1l5ZTNaS2lHREY5MlRtQURFMUw1RDZ6dzR6SHByZUZxWlFEeHd5OXl5bjJwZkVLMDVJVWJpYjYyS2FESHdVeXZXbQ?oc=5",
-      "source_name": "KMOV",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e0339a02cae2b0ca",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - FOX Carolina News",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kNmM1aFBUZms2M29oS1hfMUVVSW9GcnRaNEVIa0hnaFBXbXJVaDdlWjd6aDFGXzNkR2R0dE9jWS1xNlg0TzJDajBhcV9MWEMwdEpObkJYTWRfNzZNVXdJcHdIM1U3LXFVWFNnWGlkeFZmX2J4ODJhaQ?oc=5",
-      "source_name": "FOX Carolina News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "66a343de0fc560e8",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - KSLA",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jZU8xY2lMSUxOX2FvQkRlYVNxd3FRWFExaXdqdXhXTllUWENhaXRla202TEFaT0FXSnpHaVZEcWtxdGpTVml4VncxUzBrUjdpdTd1V054X2JsaDZWUjlWaTEzV0NWMENKVTNKSjlwcw?oc=5",
-      "source_name": "KSLA",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2e942e2a6d14b529",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - KCTV",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBBNk1UenR4clhsdEVZMkZBM2RfQkFmV2hNN1BTVVRJU21JeUtHeHJZUGU2SlZJNVBqZjV0YWNYX2JrZmpaNlRVanVRWG1OYnVMR0VGXzZjdmlZV2syUFZ4azJpb3ZDV3gtd0hrYktqRnU?oc=5",
-      "source_name": "KCTV",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a6a8604349dc790e",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - FOX19 | Cincinnati",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1mN28ybG1keHdaa0pwZU5fLWNvYUtWOHFzRHJwMWp4VVowd3N6VWI4Y21NMEhTQUFvS1YxSGJQTnYzYXdIVFlfeTlWdDcwb3BNU3ZvdUgxNzIzSXpuTU5JN3pxWkRVYURBbHUyY2dpSno?oc=5",
-      "source_name": "FOX19 | Cincinnati",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "1eb1feb196ed9c07",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - WBRC 6 News",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE16YzRLRWZXM1VLNmViM2loeEtObFZQRkRsZXpkei00R0o3Q3ZEQks1bU05VmZ5bS1nOXVDUnZtT2lpcEE5TzcwdTFCal9VTXdGX1UwOGg3ZXRNbTR5Y0lRcEJYMWlmRkhZTm9XUk5XNA?oc=5",
-      "source_name": "WBRC 6 News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "f59894e43ae58358",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - WJHG",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9kWGlYYV9DYk96dC1qaWdRcVB1WW9xYTJHeXpJbndEcE9IRHVLdEFNWF9DdTNabE12WVFZNUdENWdxeXNvWHZ3R1kzMTk5RUMyODlJRW5FMk9DeURQX0hpMTJoM1FFUXRRV0JlN01NUQ?oc=5",
-      "source_name": "WJHG",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e427aa01a30f1a40",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - WFIE | 14 News",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9iN1k4NjZZYzcyNUJtMndqRlRSVldnVUN6SWlSNUpxZTFucm1PRFBwZzV0dTFGSUUxNS12Tk1kaEcwWHlacmVtZjZTc195R0Q0dERSM0lHSWVIUDdnTGpNTFNoaGRkYWlMZWFyVE14OUM4Zw?oc=5",
-      "source_name": "WFIE | 14 News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2a7bd6cf57acf2ea",
-      "published_at": "2026-07-30T21:30:00+00:00",
-      "title": "U.S.-Iran conflict widens - WILX",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OWlF1QzFZMm1xRm1lRF9mWEVsQlI3TDNVclUyYzl0X2dLOWlBanhaXzFRTERKN0ZldWxCdzh4a2l4QkgycHY0aTRpZm9jaDVLNWQ5OGNOVWRSODAzWXYwdTkxbHRqSkFRVm9FMzljVQ?oc=5",
-      "source_name": "WILX",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e3e5e8635447bdfe",
-      "published_at": "2026-07-30T21:15:00+00:00",
-      "title": "Live updates: Egypt struck for first time as US-Iran conflict pulls in more countries - CNN",
+      "id": "9823c3d76ee1327d",
+      "published_at": "2026-07-31T00:53:00+00:00",
+      "title": "Live updates: Saudi Arabia says 14 countries backing maritime alliance to protect shipping routes - CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDZ0dMZk1tUGZDZlItTm1MSmR2ODExY2t6VFVCeC0xTy1IVENybUZIalVuSmw1cWI0ZlN3MTNvX3ZxMy1aUlFiSkg5ejVwQzhxc3loWmRRUEFoVnZIdUd6cWpaSFZyU1hPWWpLSFFB?oc=5",
       "source_name": "CNN",
       "event_type": "other",
@@ -338,26 +159,146 @@
       "confidence": 0.6
     },
     {
-      "id": "57e5ee763313b068",
-      "published_at": "2026-07-30T21:02:00+00:00",
-      "title": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five-month conflict - AP News",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnhRWEFZaDdpMkNfSDhNVmJ6NmxmQUxmZVlfZHJldjhpdVBLdnlaYzVOX3pYNE0wTkhyYmRjempCeDBMNURTejFDNlB5RThIYlhOOWlfb2xvbElYbEl4X3NhUlpYaWwwTkhxSDZSazdXMVc0ei1CYW4xakkzUENEb0tPRXJ4VktVVExvZGpTWnJ6azU5cjVEUmdPS3V0LUE?oc=5",
-      "source_name": "AP News",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "128e3e071f42152b",
+      "published_at": "2026-07-31T00:52:00+00:00",
+      "title": "Middle East crisis live: Trump claims breakthrough reached in Gaza disarmament; Hamas reportedly confirms deal - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNUndhOUUzYVZnLTU2czFvMzduUEVsdllVRWo0SGNSWUNGNC1yV25nc1dMRU5KWVl2cmd3cW45Z3JlOHlxY0IzZkpxbzl3MFpGV3NaNTRtVTF1c2lkbnZTeGhsRDFkOGNMQXNXRDczVElxRWZGZlI5dnpnTzYxYlRhaHdRVWMxWW9CaF9nRWlaQ2VrUERyTThhdDBYVFRPc3R5VUxBRmVUdlNRc2lGLTk2WVJNQy1TRm96U0ZQLVhWaFpENEpMUVJzQ2VhM0VGbTZzV3hRNDZ5ak0?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "234e7833c66226bd",
+      "published_at": "2026-07-31T00:49:39+00:00",
+      "title": "New signs the US-Iran war is expanding - CNN",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9tUy1qNWFTa2xobEQzWkxGSGFLa1lURGx5V01hVkZrYUQ0dy1vOW5wdHZ3OWk2RGRNaFRxS292OHdpelY5al81QU9tcDVCVGlncERfU0xTenhPM1VaTDJZYmY3aDFOVS05?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0a20b49a9ad5f892",
+      "published_at": "2026-07-31T00:45:53+00:00",
+      "title": "Saudis Form Military Alliance to Protect Red Sea Shipping - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FNnhfRkxNbzUxMlF3M3lzaGhiakEzZ2tEOGF3eFVwWHRWaVJSY0JkYkJTOFVsSl9Iclh2Ui1YLTJMci1JR2V2NFZUWmVpd3ZMc2lyMmdHQ3FZS3pxWHdGeXlRMU1ZaDhCTi11UXBrZ1J5eWVyNkxn?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "70c9ceb3bf642a1e",
+      "published_at": "2026-07-31T00:05:15+00:00",
+      "title": "U.S.-Iran war widens as Egypt targeted for the first time - CNN",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB3bTBpa2xVOVJ0RzBTTzJiLUxLV1RSNzVpN3dfaXBWc3ZYOUFkblZlZEZlTnNMN2g4TGhnWTF0NlFZQUw4VDNtVGczVjQzNVFIdXc4OG5fbUp6VVRnWXhLa1JsOGlhTVZBdjlNbERtYmxrSXh4?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "4c2cd8c569544368",
+      "published_at": "2026-07-31T00:04:16+00:00",
+      "title": "Iran war: US carries out new strikes in 'powerful response' - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd3RTX3FXNXA4MndBVko0Mk8tMWRBMWNieURSZU1zMnVOX3E5cWtIaVZMQWgtb0x0RXF5eDNEa0E5YnNOWUdBRkZVbXRKanJlQzVvYkZKNXJEWDU1QmpvekthWE9tcC1hWWtDSXBJeW5rLTg0djZIWTFEVGN3cWJsWWFISGp5OWVnQjFVWko2Ml80MmhFU1VTTEJR?oc=5",
+      "source_name": "DW.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.7
     },
     {
-      "id": "d2be4c7d29f4dd84",
-      "published_at": "2026-07-30T21:01:56+00:00",
-      "title": "Iran war live: IRGC says it hit Kuwait and Jordan after deadly US strikes - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "a0a79627633b7b64",
+      "published_at": "2026-07-31T00:00:26+00:00",
+      "title": "Live Updates: Iran and U.S. trade more missile strikes as 5-month war appears to expand to Egypt - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbzhpR0toZ18xYmxwc29MX194aW5QczB0M29GaTJBdFgzM0ViNWIzeUl4ZUZIM3Nfb1UwbFdOQ050NzZXMXVfUlFRNUpTa0d0WVdCSVpKeERzM0pKbjZ0QlNjU3ZZUFM5WjBqVnVTV21oVHVDQThOdEZxN1pmckswVFlwVDJmVThkaFpHNXVR?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "2e2c9f30ec8a42e3",
+      "published_at": "2026-07-30T23:46:00+00:00",
+      "title": "Amid escalation, US allies hang back on intervening in Iran war - Politico",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQLUxVbDVpM1BTaFdvR25xMTY5N3BvSVFKSEc4ekNSY2QyS3FtM1hyTzFMV3V2ZG5sSnotR0JKWE1XU0NXX29fR3Q3aVFnYnRsb3g0YVZ0TjNvNllsbTNNdERxWHBHa0MyVnVTaHFnZTRTMkM1c1ZlZWM0TFBpVDZYNTBhYw?oc=5",
+      "source_name": "Politico",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5f34dcbdd2008eee",
+      "published_at": "2026-07-30T23:40:16+00:00",
+      "title": "Iran reports attack on US base in Bahrain following American strikes - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWXFNamJDejZxYXQwODhFZVREeWdGNEdmTUVkSUpHRjhabnoyWVA3eERaQVA2U1QwQzdEZ3U0NnJQQ25VaUs5LU9sQTlYcW8xTW95NFVRNTRfWUJMUHJ2N192SDdaMF9MTFJJR1JmOGtYalQ5ZmhNRjNOY1JSS3NTd251UHBrT1lIUUctT0ZoUXI5eWgtNURBdy1MbWdSaXdqUDlhR2xCYmpzZy1JWWNTc0Z3?oc=5",
+      "source_name": "Scripps News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "8dfb61133c298a5b",
+      "published_at": "2026-07-30T22:55:23+00:00",
+      "title": "U.S. and Iran strikes intensify as war opens new fronts - PBS",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOeWs3TEd5YWdGY1h1d19XellzWTlfMzJIb3lFMXhvY0xndFRjcEdOMXNBU2tCLVdtSTUtbldIY2ppX0NlcTNqSXBsZU95SXRmWUY1NFE5UjlEM2FZaHJrMTUwWDY2WEJGSi1HRV8xWTcySUU5TGNBamdLNGxyLUN6cmFGYWpsY2xYUVd0V2kzRzNEQQ?oc=5",
+      "source_name": "PBS",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "d746d98130fc845e",
+      "published_at": "2026-07-30T22:42:00+00:00",
+      "title": "Pakistan says US-Iran talks still alive despite fresh wave of US strikes - france24.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR2VHUS03VU9FM0toajhmaGI2QjhBSkxpWUhsWWFwRnZKbmdVNVV0MG1LTklnbnhDelEzd2IzcldJTWxILXVTYXZJODNKSy1vYjFNOXlZRUdZUU5HU1hzeC1pSDBpSm9ibVZQalJNUEI5cDRrTWgyWjVxbFpsTTZhbWNSM0tSSlQ4cVRYNVl4WThBTFIybW5HUzFTU0RIUjdfcWtjLVRWdzlNc2xOT1Q4RkFURktUN0JXUGNZZ3Zn?oc=5",
+      "source_name": "france24.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -366,6 +307,36 @@
         "iran": 0
       },
       "confidence": 0.65
+    },
+    {
+      "id": "12549db2220a555c",
+      "published_at": "2026-07-30T21:11:56+00:00",
+      "title": "Iran war live: Tehran says US to \u2018pay the price\u2019 for Qeshm civilians killed - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQc2hscnktWGwtTC1yNGhEZTBmb1NLNzk0OHFRamdxRUdFdE1TSzNCemRsVHRUVDNGRnROaUlYV0lYZ3Y5ZENna0JWd1g0bkZkeDhNeFppTGQwbWhfNS1iYW84ZmhyS3lfNTFiV1EzUGVuTlFzb0VRWFdxenlPNU03QkwzX2VJSGxzdTZtc0tDcFZYUlN2V056bXdWQXAtSDAxTVdYQ1NLWkhWVl9mX1lPSC1zanQ4SWdlZVJB0gHAAUFVX3lxTE1nczg2YVppb3k2UVRva2lOTEs5aTEtSU1GMm1DbnZNNF9iZGl6TC1CdHo5dTFhUUR3dWZ6RTk2c0hwTTZuOGJ0b2VpbTR6X25jcEIzSmt0NTF5bk1oWFhkTlprQTVpUUxEM0FKQ040djNRZE1MSzBOcTBqdTdUQ1pMLUYzN2JKU29EUXhyQnY1QjlyRnlFN2lPRFRHLXZJVXJrb2pmNGUxMjU1eE9tVDdGZkxDc19fS1FiUkdNZ3Z0Rg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "25d290d7710f2ccb",
+      "published_at": "2026-07-30T21:02:00+00:00",
+      "title": "US and Iran trade missile barrages as hopes dim for a quick resolution to the five-month conflict - apnews.com",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUnhRWEFZaDdpMkNfSDhNVmJ6NmxmQUxmZVlfZHJldjhpdVBLdnlaYzVOX3pYNE0wTkhyYmRjempCeDBMNURTejFDNlB5RThIYlhOOWlfb2xvbElYbEl4X3NhUlpYaWwwTkhxSDZSazdXMVc0ei1CYW4xakkzUENEb0tPRXJ4VktVVExvZGpTWnJ6azU5cjVEUmdPS3V0LUE?oc=5",
+      "source_name": "apnews.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
     },
     {
       "id": "ba3d2cd8c3db19c7",
@@ -380,14 +351,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.85
+      "confidence": 0.9
     },
     {
-      "id": "619cb69e898c2572",
-      "published_at": "2026-07-30T20:07:15+00:00",
-      "title": "How views on Trump's handling of Iran have shifted, according to this poll - PBS",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUzExTUZ4NjdlcVBxUkNMbzZPY3dOTVAwRURtdEFnZDZUSHdaSHBMc21oRkZIamg0RG41M0pXcnJhNGhsbU1IZUlPU25GRThObEcxT1dTUU1ZTVNlMy1ZYUg0Yk5ZTS01VEdSNGFrNmZDZ3NaNFVSNXVMbGw4b1U4N3Q2anhwZ2xFN3ltYjFDeFZiQjBMcENYUzRVZlFyMFRzTkNNYW5OWGJMMUxsUC1J?oc=5",
-      "source_name": "PBS",
+      "id": "d1039abbd0f5dacf",
+      "published_at": "2026-07-30T20:20:33+00:00",
+      "title": "'No good alternative': US burns through expensive missiles fighting Iran - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd1NqeVFLdGZFM3ZvcWpxbk5aNkkwbVhQVERCbTZCRVFLbVp6U1o4Qld5MGhtNHNDR09RMlpyQ2VhMldYVWdyYldmZUIxT3FreHN5b2ZiZTFQcktlXzk2blBRY2p5MGZqSXV4Nk45ZGxKblFpUGg5VUh4WXg4REcxYnRtNUpUMlpSLVRrUU1TckdTdlVzRjFKZk1WdHRwU1lJT1duS3BhSTJ0MTg?oc=5",
+      "source_name": "ABC News & Headlines \u2013 Australian Broadcasting Corporation",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -396,6 +367,36 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "5e170550dfbd55c7",
+      "published_at": "2026-07-30T19:36:01+00:00",
+      "title": "Lawmakers will investigate Iranian attack that killed 6 U.S. troops - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQMmhaTmN4cjZ4Zy1TcUREa2ZvOG4tSmRHR0R6S3p5R19Fa1p4WS1DZ09zOUtJOXd6ZkZRMTZVZUNkUWpoLWUtdDdOVF9nbWoxQmx1NGRCc1JQUFI5aS16bU5jY1plSkZGbkN0cUtTZDVCaGNHMUtZU2Y2N3ZlRXJvNVJ0Qnp6LUJNOHluRFE1cG5rTVVHYnFWaVdKWk9NdDZKdjZUU2xIMld0SFIxRWk0TXNnUlhMeTVUQndjZzUyaTNlUzBG?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "ac5f7e0b006944da",
+      "published_at": "2026-07-30T19:22:00+00:00",
+      "title": "Live Updates: Iran and U.S. trade more missile strikes as 5-month war appears to expand to Egypt - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQbzhpR0toZ18xYmxwc29MX194aW5QczB0M29GaTJBdFgzM0ViNWIzeUl4ZUZIM3Nfb1UwbFdOQ050NzZXMXVfUlFRNUpTa0d0WVdCSVpKeERzM0pKbjZ0QlNjU3ZZUFM5WjBqVnVTV21oVHVDQThOdEZxN1pmckswVFlwVDJmVThkaFpHNXVR?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
     }
   ]
 }
