@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-01T08:34:59.519687+00:00",
+  "generated_at": "2026-08-01T10:50:56.233572+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 91,
+  "event_count_window": 88,
   "totals": {
-    "usa": 55,
-    "iran": 15,
-    "lead": 40,
+    "usa": 46,
+    "iran": 13,
+    "lead": 33,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 45,
-    "iran": 14,
-    "delta": 31
+    "usa": 33,
+    "iran": 13,
+    "delta": 20
   },
   "confidence": {
-    "score": 69.1,
+    "score": 69.3,
     "label": "Medium"
   },
   "event_types": {
+    "intercept": 3,
     "attack": 50,
-    "other": 32,
-    "diplomatic": 4,
-    "material_loss": 2,
-    "intercept": 3
+    "other": 31,
+    "diplomatic": 2,
+    "material_loss": 2
   },
   "history": [
     {
@@ -34,7 +34,7 @@
     {
       "date": "2026-07-20",
       "usa": 7,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-07-21",
@@ -48,7 +48,7 @@
     },
     {
       "date": "2026-07-23",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -79,31 +79,46 @@
     {
       "date": "2026-07-29",
       "usa": 8,
-      "iran": 0
+      "iran": 3
     },
     {
       "date": "2026-07-30",
-      "usa": 25,
+      "usa": 16,
       "iran": 9
     },
     {
       "date": "2026-07-31",
       "usa": 3,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-08-01",
-      "usa": 9,
-      "iran": 3
+      "usa": 6,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "3824930a3a818f74",
-      "published_at": "2026-08-01T07:46:00+00:00",
-      "title": "Live updates: Trump warns fresh strikes on Iran are coming as Kuwait reports drone attack - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?oc=5",
-      "source_name": "CNN",
+      "id": "69d499b0570cff33",
+      "published_at": "2026-08-01T10:32:35+00:00",
+      "title": "Iran war latest: Trump warns of fresh strikes as Kuwait intercepts missiles - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTjdibUo1ekRnUkVIWFhKdE9yRkNiQzhBYUdNdTNTa2R5Q3hJOGUydTlhS195bVpRcGtuTnloUngzcUp2QjZDOVBzTm1GdGpLTGV3VjJHTDM2TWN4R2VzRjY5UXZWZmlEeW5icl80MWZBUXBSMzlkLWM5QmV1UkRJVG93d296ekYwU1dWSWo1UGpCSnlMczFCcUtUdEh3Slh2dlFjTHZTc2lpeGdBLXM1Smd4VHZlMk0?oc=5",
+      "source_name": "The Independent",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e7b2b62b9c16000c",
+      "published_at": "2026-08-01T10:28:59+00:00",
+      "title": "President Trump threatens more strikes on Iran as US pushes to reopen the Strait of Hormuz - KTVB",
+      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQUDZubnpuV1pCUVVrbEZyVUQ3RUtqRG1KMEZuR3RmM0RqZFRNdDBtTEV0MVFhU2g3aEZSU2paYV9BTWRWRV84RWotQU01eGh3alU4aFdLOHNyWHhZeGU0aWc3bFNsUVNPQmNSSVpkQy1rSFJTRm1xSkJhRE96WlotV3RwVFk4QnFHeHBxMFRjLVprSDdBTERiSkliSGIwVkg4RURfTjdoUWhNdHdsODhUVnA2cklZemFhRzhhb01HUTlQc19MY093MDBHb3FtbnZEZlY2WG5FTVhNVGlleFVGTThyaTR4eVYwTFdGZXYxY2xTeG41cVdQczJVQnBsaWpvZnQzeF93?oc=5",
+      "source_name": "KTVB",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -114,19 +129,94 @@
       "confidence": 0.65
     },
     {
-      "id": "6baba95b4df83f58",
-      "published_at": "2026-08-01T07:32:33+00:00",
-      "title": "No indication Israel will take part in planned US strikes on Iran \u2014 CNN - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWlZ1QjRMTVNoWllVWUdtb1ZZcmdnZTR3bXBVVHA0ZGRYcmlaWWpQOVo2Yk40U2hNY0ptV0NTWVdjcTlKN3RQZFBKbTlFa0plTnIySGMxZmtwN1BpMDByZG1kbmhtSi1rWkR2bEdVc1kxMmZUbUNZT0d1TWpZZXlsQ3lUOTgwNnZuVEpEVkFDSkJfSzA2Y2tIdHdHeGYzZ2dwUi1rX3VaM2h3bHJEZzZuUnZEaV81UQ?oc=5",
-      "source_name": "The Times of Israel",
+      "id": "58af2ba719446792",
+      "published_at": "2026-08-01T09:27:00+00:00",
+      "title": "Live updates: Trump warns fresh strikes on Iran are coming as Kuwait reports drone attacks - cnn.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?oc=5",
+      "source_name": "cnn.com",
       "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
-        "usa": 3,
+        "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
+    },
+    {
+      "id": "b215dc9ce4940b0b",
+      "published_at": "2026-08-01T09:01:00+00:00",
+      "title": "The US war on Iran is spinning out of control | Mohamad Bazzi - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd0RNakktUXBuUTQwNVBhMDd2TjhNbVI4YTRMR3BpSmt2d1JDTUY2TkItcmdPaWRRajRFdXpxUXVaUV9uMDdERDYzc1JPT0tnaWlIbGZlbWx0LVlHT3ZpWkpMazNwVHRiLXk2REJMdXpMZzFIN0pibHVZOXVaZTJVNW95eVpYRVVH?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "cac7b53bcd9bffbd",
+      "published_at": "2026-08-01T08:59:42+00:00",
+      "title": "Iran war live: Tehran attacks Kuwait, threatens region with \u2018flames of war\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "62d78a1c4ed10b8c",
+      "published_at": "2026-08-01T08:51:00+00:00",
+      "title": "Iran Vows Retaliation Against Potential U.S.-Israeli Strikes as Tensions Escalate in Gulf - Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWTBnZ2o0Nml4QUdxcnZSVUF2T3NDaHBBMXBKVzRReTZVU3U3dS1ZX2w2Uk9sb1hxNzY0aFp5Tlo2SWZ0TlBTODhDTC1YUlpMV1JhejRtTk5EdE15Z0htSUpSUS1HZTJCX2x2WTFZZkptRzhwdUdMOFJQOHBmVS11dUI1Vng3Skw5U3FUOFg0dW1MUndzakoyU3JZWW9scTJ1MWZwbzN4dHdtdWUyaU8zbFlGdGpBOFpfcU5QdkZoeGYzVTlKLXJReTNiUQ?oc=5",
+      "source_name": "Kurdistan24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ccc9334055936f26",
+      "published_at": "2026-08-01T08:27:00+00:00",
+      "title": "Live Updates: Iran accuses U.S. of escalating tensions as Washington prepares new strikes - cbsnews.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?oc=5",
+      "source_name": "cbsnews.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "f0fc7fb54778837d",
+      "published_at": "2026-08-01T08:25:00+00:00",
+      "title": "Biggest Clue In US-Iran Conflict Is 'The Dog That Hasn't Barked,' Says War College's Jacob Stoil - Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeEFLOVo5YkFxREdGZU40UWdONms5a0JfTmVRbXdVdFRkbjhJcUhBR2FWbTA4QmxxUGV3SkFSVE1Nd1RJaEJPRTB5WXA1eUkyNjZOYmJsbnJldklOOVpGbl8wQ19tc01GLWVCQ2dLLUtGSUt2MGFQaDZkX1M2eUMtSFF3RWdtd9IBiAFBVV95cUxOaXZWVHRrS1hXdXBjMnhQX1ZITGlyQXdTSUZ0ZjNnaTRrc3JaRzJjZ3IxREY0akpRLXBuck84czZWUkVjeUstSWk2bFdYekFGYVZrTHQ3cDRKY1JtUXYzSFJpeUE2bVAtTVhMTlN5UEZ3VU82cFdrQnZfUlpEaGlWakVaYTZWcXRD?oc=5",
+      "source_name": "Radio Free Europe/Radio Liberty",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
     },
     {
       "id": "0f66249b5bb4d657",
@@ -159,9 +249,9 @@
       "confidence": 0.55
     },
     {
-      "id": "91dea44fcdb20907",
+      "id": "e674da76ee498285",
       "published_at": "2026-08-01T06:17:18+00:00",
-      "title": "US To Bomb Iran This Weekend? Trump Gives \"Hit Very Hard\" Nod - NDTV",
+      "title": "US To Bomb Iran This Weekend? Trump Gives \"Hit Very Hard\" Nod To Military - NDTV",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOclJ2d1V1VzF6dkdFenBUTDNtVzBaaHNaU1podXMwajNVQmhXSnVCUGVJcGx6XzNHb1NaS0p3RzdJN2VGbUxqcDY1RHFGa0EwWjBwYmJxMFRnSHpwa0tMR1hqeXkyX0k5Y2VXQ2JQOFdldDYyUmkyOGVzMmJvaTJQVjZGWFhYbFJxXzhSS3J0LXJLVVZQbVdxS2JvVnRhdUQ2REZQaDNKYlNtOGtRXzZ2Wnd3WVlkd3dqNUQzdGt4QXJKeVBhMmJBWFJsZU96TVhQdDQ4U2pPVzdsT0ZqYWhZaUY5ZGh4dWVPaXfSAfIBQVVfeXFMTUprSUlqX2FiR1NpMHdEWEF5NVplTlJVMnBjTE1kakhPeG5nUU5OLWNEWFBpR2Zhd3RqdFZsbXZMUGZ2cGFlcU1Kdmxfb1ZhYnR0UWh0QWw1XzFtNEtReVZZRlh3OTRfbXk2enN5NEFObWM1WGhFY0pDbmliSzVFWTJ1dHRFNTMxamJJSUlqQUJPbWFmZXo1VW9ySXAtSGFXV041azF1anY5TjNDOFZ0MlNOZjctUkF2U2tyTXZGMmVXa3J3QzR0RUozcEZJZGFWYXBxUVRFclJCUjRzWWw3dTBpRWVPbDkwTXQ1ZVppelhTRWc?oc=5",
       "source_name": "NDTV",
       "event_type": "other",
@@ -174,56 +264,11 @@
       "confidence": 0.55
     },
     {
-      "id": "4607889dadd7c90b",
-      "published_at": "2026-08-01T05:52:19+00:00",
-      "title": "Iran war live: Trump threatens strikes, Iran says it has a plan to respond - aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOdFZfbjV6VmtqVkVPRlJlRVg3ZkxjQmNZNlN4ak9qX0NsSnc1QmZYajVfUnJjbUdiZzd1aUZYSWVVcGxIanN1cURTOHdhLUUzQXN4Z1RuVjh1S3JsMEItSXpLN3AzSUwzRU5aOW94VDR2ZUVIS0hWSlNDQUtsdXZmTmlHdGhhRVBHc1ZPNWhwcTNDSDhQNzJZaTdKdjdzTlg1alprdXdwczU3VERIaV9RYjdVWkI2WUnSAbwBQVVfeXFMT0VBcVFNMTd2SURuWFBfMGxSNEtfZkhaX3haWGhaSndyMzZubWtMRGE0dmhSX0RZd19yRlM2MjFSM0JYRG5Rb1VHTXEtU0pfSURBTURNRVJLVlFHeVAxZ1pwWFpzdjlKTHozWnZ1aFpCZE0zeVdSYjhEaEpiejQ0WG5RR2NoSElSVzFYSWZYYnhvcXFwWm5Kc0pIVllHaVB4bXA4UWxvcmFNRHZqNnFTM2dDTzhvbVdyVERDOVU?oc=5",
-      "source_name": "aljazeera.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "62d78a1c4ed10b8c",
-      "published_at": "2026-08-01T05:19:20+00:00",
-      "title": "Iran Vows Retaliation Against Potential U.S.-Israeli Strikes as Tensions Escalate in Gulf - Kurdistan24",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWTBnZ2o0Nml4QUdxcnZSVUF2T3NDaHBBMXBKVzRReTZVU3U3dS1ZX2w2Uk9sb1hxNzY0aFp5Tlo2SWZ0TlBTODhDTC1YUlpMV1JhejRtTk5EdE15Z0htSUpSUS1HZTJCX2x2WTFZZkptRzhwdUdMOFJQOHBmVS11dUI1Vng3Skw5U3FUOFg0dW1MUndzakoyU3JZWW9scTJ1MWZwbzN4dHdtdWUyaU8zbFlGdGpBOFpfcU5QdkZoeGYzVTlKLXJReTNiUQ?oc=5",
-      "source_name": "Kurdistan24",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "38bfedc69701e01a",
-      "published_at": "2026-08-01T04:58:05+00:00",
-      "title": "Iran war latest: Explosions in south Lebanon as Israel continues to demolish villages - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdXdHdTg4MG9aQ3JiLTRXZWw4QlgyVkIxZUVMSW1DTVAtX1dnbXZmeVFlUHFRekFRSmtpbDBoenl1REpMeUhMaElFQ1RZOGhFVVRfTmRjaHMxTzI4elUxNERLYUllaWNWaDRNSVVDaVB2cmEzMTY3SkVkUWx2N29DWDZDSnBISnpNcDg3czZ3?oc=5",
-      "source_name": "thenationalnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6bc29b56821abea9",
+      "id": "29e3a8ee5010c9ac",
       "published_at": "2026-08-01T04:47:00+00:00",
-      "title": "July 31, 2026 \u2014 Trump touts progress on Gaza peace effort as war with Iran drags on - CNN",
+      "title": "July 31, 2026 \u2014 Trump touts progress on Gaza peace effort as war with Iran drags on - cnn.com",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9iVnVVVTJXMFNiMEdId3ZvWWhnYVNhUHZTOU0xc2VfQ3ZCZUhfVzlCaldRWFJCXzJzOUQ0SUh3b0tpVUtmNzZwbEphNVpPVkh1eWRfd21rdGhScEFvUmVrUGFSbWZOMTdIX2Y3bGh3?oc=5",
-      "source_name": "CNN",
+      "source_name": "cnn.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -234,26 +279,11 @@
       "confidence": 0.55
     },
     {
-      "id": "ccc54201f4a1bdd5",
-      "published_at": "2026-08-01T04:30:31+00:00",
-      "title": "Trump-Gaza latest: US president claims Israel is \u2018very happy\u2019 with deal to disarm Hamas - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOUZZR044ZkdReHhkS1hKY1VMNUtIS09WRnVjX2k1dk1xYlhlQ3RJUHFXMTJVcVo2dWtlMEtQQmo5WF9pUklQb0V1WHBxYmxMN0ZPVkY5ZzFIbHJUc1N5d3lqSnhMYXo5OTB5UHV5ckpBQnV5eG9nOGZyejA2SWgyUVp3VTRJQnhBUDhjQTUxeHpEOEZWVjZIZjZoblFOaThaQUtFMHdYWGFCbEpvVXFGd3pVbVVIUQ?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "61164f9c1b728204",
+      "id": "66a0e5bfca6bfaff",
       "published_at": "2026-08-01T03:56:50+00:00",
-      "title": "US, Israel preparing major strikes on Iran's energy infrastructure: Reports - Anadolu Ajans\u0131",
+      "title": "US, Israel preparing major strikes on Iran's energy infrastructure: Reports - aa.com.tr",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMWNRcUdsWC00dU1wM3dHRXZ1aDVXSzNJWVlqNHd0clJEc293amFZOTJhS252MkxQakF1M2UwbURDQzJkSmVXUkNKMlk5bXNDQ042M0RNV29kRlVmSmIwMlE1MF83Z0JQUFYxRFpUbUJXS0w2VHpHaWk0cVUyeXMtR0c1T3hGRWdWb1hIalRsUHlDVzRXd2xVQzhYZTBHTXd5b01ZQ2ZBTUlic3dBZ3NJeG5n?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
+      "source_name": "aa.com.tr",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -262,36 +292,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "95505d39c4f9c40d",
-      "published_at": "2026-08-01T03:30:00+00:00",
-      "title": "Live Updates: U.S. preparing new Iran strikes with Israel as Trump says, \"We've done an amazing job\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "b077fc2c939f510d",
-      "published_at": "2026-08-01T01:39:00+00:00",
-      "title": "Saudis Form Military Alliance to Protect Red Sea Shipping - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5FNnhfRkxNbzUxMlF3M3lzaGhiakEzZ2tEOGF3eFVwWHRWaVJSY0JkYkJTOFVsSl9Iclh2Ui1YLTJMci1JR2V2NFZUWmVpd3ZMc2lyMmdHQ3FZS3pxWHdGeXlRMU1ZaDhCTi11UXBrZ1J5eWVyNkxn?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     },
     {
       "id": "92c848d534fdc21c",
@@ -309,11 +309,11 @@
       "confidence": 0.55
     },
     {
-      "id": "b1d351f7a46a24db",
+      "id": "a7346038bb0dbb6e",
       "published_at": "2026-08-01T01:01:35+00:00",
-      "title": "Report: US and Israel weighing attacks on Iran infrastructure - newsnationnow.com",
+      "title": "Report: US and Israel weighing attacks on Iran infrastructure - NewsNation",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSW1LMk9fS3YxQnM4RlJiTmgzcDJ4ajVOV2pZZkhlS2RPeWFNZ0Q1WmhFd0l3bjJHWUFiejRZUS1lQU5vZExxUHRYN0ZsazRrenVNWHVFd0VmUHpxeVpHbmNVXzRLVWFmVGlLU2trdk14Nm5rRTluR0JZLTFVcy1weThSeVdjTlZLaVRV0gGQAUFVX3lxTE1GS2dwZ0JLbFVyZGcybjlxWkx4bWwwSlVrdVhHM2h1bTBkZldPTWhUQndtbnhFQ3NRcWRJZndvTEZVR2pjTzdwdjNFbTlvb0NIc0tZWHNhVFh2STBfRmsyYkZ0OUJ1bHRqWkFfank1c25IN0ltNmR4NFhGUHFVbG5qU0tMS0RxakNaZHdqengybw?oc=5",
-      "source_name": "newsnationnow.com",
+      "source_name": "NewsNation",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -369,11 +369,11 @@
       "confidence": 0.65
     },
     {
-      "id": "a0dfe6cf2fb52d83",
+      "id": "f015e037a27fb727",
       "published_at": "2026-07-31T23:41:59+00:00",
-      "title": "Israel, US weighing wave of strikes on Iranian energy infrastructure - report - jpost.com",
+      "title": "Israel, US weighing wave of strikes on Iranian energy infrastructure - report - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4tWGtwb2Vucm4wVDVqSHUwS2FkaGRPdURjRS1PUEdfUmJQdkhpZTI4TGgwSVdESVhfdWw4U1NpNWk1dGltUzhnenIxeUVhQnBxa2lLWGZxaDFfcFdFY2NyajFfRVQtZ3ZsN1E?oc=5",
-      "source_name": "jpost.com",
+      "source_name": "The Jerusalem Post",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -385,7 +385,7 @@
     },
     {
       "id": "443a297e24789362",
-      "published_at": "2026-07-31T23:19:23+00:00",
+      "published_at": "2026-07-31T23:14:01+00:00",
       "title": "Trump considering strikes on Iranian energy targets within days - Axios",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSE1YdE1FaTlXeGdsdGNLYlpESHJMLUh3LW9aNzBiZnV6MVNFb1JGWnpXaUl1WkZueVJVM1dHbERZRFpXbDFKbDhCVlFhWkE3RWo4M1JMQklwT05zTGRMdnU4eW5FODVSZVlGTWVnSW5VNnJYZjdOWHB1VXFqZDZCQ1gzQQ?oc=5",
       "source_name": "Axios",
