@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-08-01T13:58:43.646853+00:00",
+  "generated_at": "2026-08-01T16:15:08.804807+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 92,
+  "event_count_window": 91,
   "totals": {
-    "usa": 49,
+    "usa": 46,
     "iran": 15,
-    "lead": 34,
+    "lead": 31,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 36,
+    "usa": 33,
     "iran": 14,
-    "delta": 22
+    "delta": 19
   },
   "confidence": {
-    "score": 68.7,
+    "score": 68.8,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 49,
-    "other": 35,
+    "other": 34,
+    "attack": 48,
+    "intercept": 2,
     "diplomatic": 4,
-    "material_loss": 3,
-    "intercept": 1
+    "material_loss": 3
   },
   "history": [
     {
@@ -79,11 +79,11 @@
     {
       "date": "2026-07-29",
       "usa": 8,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-07-30",
-      "usa": 19,
+      "usa": 16,
       "iran": 9
     },
     {
@@ -94,13 +94,58 @@
     {
       "date": "2026-08-01",
       "usa": 6,
-      "iran": 1
+      "iran": 4
     }
   ],
   "latest_events": [
     {
+      "id": "64f88ed26944513d",
+      "published_at": "2026-08-01T15:32:29+00:00",
+      "title": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel - washingtonpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3h1dDZtLURRWlJPYmlkLXc3UEZlaFhmUTJudm4wSTNtR1JyQk9BaC11VmtJZzE1NXR2MmYtaFphVzdpalpQSUh2WkJaUERLbUlMTWV1NEZWeVdrMDBDUGRLMG9mSGViRE5hazRTdk9RRFlWRklWeEtTNjhzRmVHOUd5YXBzdDBHUWIwblp1TXpOeVZxZFlvWGxkYlkycnpGQ3d1RENMR01zQjdOZ0ZuXzZzRmFSR2NMSlRxTmxnYVVnZHM?oc=5",
+      "source_name": "washingtonpost.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f668917ee5a55c50",
+      "published_at": "2026-08-01T15:24:21+00:00",
+      "title": "The U.S. Liberated Kuwait but Now Struggles to Protect It From Iran - wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcEh2TU5mbWNUTUl6Vmk4NFlSNTJjM3l4NndhUUJrUS0yN1VUZjJONGhMV1NNMHhObTJ3em9RUGVpNU15Y3pUcE5kTzA4aV9iX2pUWnlYYzRqWnpvMDgtUUNFNUo4c1RwOVVDbTVXYTl4cmRfYkJ1Z3c0Qk5iUjZNR0xkTlRxUU4takptX3JWUUxDQUU2SU00MW1LVXhzSDJybHFvNzJUek11SnBzZFBweG44bw?oc=5",
+      "source_name": "wsj.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "1f9507c718fe05ef",
+      "published_at": "2026-08-01T15:14:47+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtdkx1cHBkVk54UzdoRllmdW5tLU53YzN4dDJRQ0RZcFBHcHhUeDMxbVNvelBRdmpkLTFLYU5UQTVLQVRfaHVGb0tfUHRnNUhxQlRsNFpsMThDQTI1T0VFa2VRMEZka3ZzSDhtenJqSHM5VGo0Rk1zbjJhaDdUM0E?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "db584291b92e49cb",
-      "published_at": "2026-08-01T13:50:00+00:00",
+      "published_at": "2026-08-01T14:00:00+00:00",
       "title": "Live updates: US-Iran war news; Middle East on edge as Trump threatens fresh strikes against Tehran - CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBTR0huSW5obFNWLUQzRUpReXVOV0hJRkZwUmppYWNjeEpwTmhfZjdYbTVxZGJTWmxHNFY2Tmo0d1VDSjk2ZWlsaG5IMHkxaFQ3X2JUbEE1UFBDWURQU05JQUtYMFQtNVdrYURhZzV3?oc=5",
       "source_name": "CNN",
@@ -114,41 +159,86 @@
       "confidence": 0.7
     },
     {
-      "id": "cf2caf1bacc2e017",
-      "published_at": "2026-08-01T13:15:03+00:00",
-      "title": "West Asia war LIVE: Iran military accuses U.S. of 'escalating tensions' in region - thehindu.com",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOWHF2YjVub0wxN3Z1a2ZDa1NsdDhYVGNRTXh1NTVpT0JSMk5MWVpTNFVtMHlZb2RVTURXWF9RRm5VbnJOOUVlRjVGVDJUbmhjSHJDc2tHZF9vZDlEMUlsQV9vXy1MNkw5MGdGQW5ER0xOUDEtMVdnR2tHR3FJOGJFX0M3elNMSFBvMVNIM1RBelNWQ0R5R0xINkFxRjRBcWlYUFQ5RWt1RFJFQWJZNWFCOVhwdFJtV3BLaElZb0t5M1ZzSmc5M1JNYktlVHozRWRWU1dEXzRLRi1pS0dQT293aFBpc3V2cHhQWWdmVnJpb3NydUxJRmgtek50WkpqcDduZHZvRzZ3MNIBjgJBVV95cUxOS3pLSW9zaDRrQ21nNW5xWEVTUms4S0thRDVaMmFYRmt1UngzTkd4NzdNZDRsamt3SFU0WTloa1JhcnRjMDBlS2JVM1Nia2k3SWJpUExBT2g4cnV5c1lCU2VnV29qdWQ2dUFuYmJzUWdubTMyY2UxRGxJYzdJZ2ptUnp4MFo3NXNPejZ6ZzJqcHl3cEpXSWkxVklUVXpqbW12OWRiQTVhdmN0VThRckY4Ql8yUEFXeGRNNy1hR0xKSktaZ05ZVi1tVzk2ckVEbjRRSG5Tcy1RRWZBY055OE1Md2s5TzlhQXdQOGdVUVItMVNqbW1qQ1VSWG5RQ2o2MHVkM0tYdWJrYWMxQjlYcFE?oc=5",
-      "source_name": "thehindu.com",
-      "event_type": "other",
+      "id": "b41054780e43101a",
+      "published_at": "2026-08-01T14:00:00+00:00",
+      "title": "US Iran War Live Updates: Medical warehouse near Gaza hospital hit in Israeli attack; 1 killed - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZ1M5dFRoQi03b1dOSXBVNkg4VXp5UFRZZy05dW01emdyREdod2hGeHBUckdLdGhlVjlmdTZabmt2Qks3amR3Yl9teklLYW94WVF2WkM1bHJ2MkxYN2h2WEhwb3E0cGxhS2JSWFV0TU1iYnk5ZGpQQTRQR1hnd2twQlBrTDhXWlZES1JXWVJXNXZaMUQxTUpsV2VLN3ppQXBma295UE1aUmEyRW14UlRLSGFZY0RSU2pyWEIwby1VRkJqb2J1Q1JwRzZ0OFJ1VHNuUUxTSEdnUlpqLWR6eldLamlxaFF1eGlham1xNGo4NHhEYVE1V0dHbEx1MC1DTlVlSHphUEZRS3BsaFJzNzRrVHB30gGXAkFVX3lxTE1FSDJ4c3FQNFBXN2FhaC0xQmlnNkJya3U0V2NST0hXRXRqS1JnaTdVQ0pWOVcxOTR6aXA0NWUxaGkwNldiT3ZCdE1tUFRTN0dJa1c4R0loZUhqZHJuU2Y0M0hlNUVMdmV2NnZCY01UaFhSTnItNG9JTDhLQUxtRmVEZ1RVTUYyQWlDblJRc0hDV1ZHX0dYT3ZsTjZPcTlDRHBwS1RWRFRZMVRXa1J0UHFoQ1J1aUJMRDh2WmVYa1lUQ09DX0tzZ2hmcmZ2dFhKZ0RraHlUZkFteElMRGFhdU5lbm9YMW14elM4SlVYd0tpRmVNd2w2cXQxTVZaRUtsQXhvVWUyXy1sdndoS05EY1BFNEJsTjg1WQ?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "066b237061c5273e",
+      "published_at": "2026-08-01T13:41:00+00:00",
+      "title": "Live Updates: Iran accuses U.S. of escalating tensions as Washington prepares new strikes - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.85
     },
     {
-      "id": "96c3cff3d88c468a",
-      "published_at": "2026-08-01T13:02:37+00:00",
-      "title": "U.S. general warns Pentagon he lacks sufficient forces to protect Israel - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3h1dDZtLURRWlJPYmlkLXc3UEZlaFhmUTJudm4wSTNtR1JyQk9BaC11VmtJZzE1NXR2MmYtaFphVzdpalpQSUh2WkJaUERLbUlMTWV1NEZWeVdrMDBDUGRLMG9mSGViRE5hazRTdk9RRFlWRklWeEtTNjhzRmVHOUd5YXBzdDBHUWIwblp1TXpOeVZxZFlvWGxkYlkycnpGQ3d1RENMR01zQjdOZ0ZuXzZzRmFSR2NMSlRxTmxnYVVnZHM?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
+      "id": "8d107b347edcd7ef",
+      "published_at": "2026-08-01T13:05:22+00:00",
+      "title": "Trump warns US will hit Iran 'very hard' as fresh strikes loom - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1CQklNN0syUDNTd1pOZUYzYzN3NGZKeXpLUUpzZ1FjU3JaeUQxYXo2Rk5La0FYWTQxVEd0NUJUc2s1QzhUaVdGWF9SbE5jdVVkZmJYaWl3?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
-      "id": "61bae79aaa4aa8a6",
+      "id": "750fc9bb24862292",
       "published_at": "2026-08-01T12:52:54+00:00",
-      "title": "Iran warns against \u2018fire of war\u2019 amid US strike threats on energy sites - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnVGdzU1TEZxRHNxVDc4SUJXMTViU1hYZkpXeXNnRlBvT29EdU16alJOajByWVI0WV9GU0pRY0twdWF1VGFsSklOc3BXd2ptQUFKMUJEcVREWVVFb1R4N3N1Y0pWdGlfZURLZElvaXpTdERVN2JLZmJ6TmhjU21ZZzhnQlZNeGhUUXlDdkpzeTBsU2FrRDhYMWE5VWhJb2hkaFpSYW9yVFkzWnJORFE?oc=5",
+      "title": "Iran warns against \u2018flames of war\u2019 amid US strike threats on energy sites - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQdnVGdzU1TEZxRHNxVDc4SUJXMTViU1hYZkpXeXNnRlBvT29EdU16alJOajByWVI0WV9GU0pRY0twdWF1VGFsSklOc3BXd2ptQUFKMUJEcVREWVVFb1R4N3N1Y0pWdGlfZURLZElvaXpTdERVN2JLZmJ6TmhjU21ZZzhnQlZNeGhUUXlDdkpzeTBsU2FrRDhYMWE5VWhJb2hkaFpSYW9yVFkzWnJORFHSAbMBQVVfeXFMT3ktbzZJc3NHYTdxTWl4d0U4Nk53ZXVDTlV4bzhoMVI1cnExb0Q3eWVRdXhZcjQxcUE1OHp6TkMwb1N6M3J6YWc1bm1rUndNZnFkb0ZvS3VTbTNmeW9kN2xNbHhxMkJobG9MWnQ5LW9mV2FaLXQ0S3J2aGM5RnhEN05RRzZoTEdQUHhhUzRHR3M1NXprS3ktRndHd0xOcjdwV3l4SGcyLW1tS0g1YWhPLXZ1c2M?oc=5",
       "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "409f7f670c0cf074",
+      "published_at": "2026-08-01T12:45:55+00:00",
+      "title": "Kuwait Intercepts Iranian Drones as Trump Weighs Fresh Strikes - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPb3lONzV6YjFMSmk3cUR3Q2l3Q1UxTm52bFhyNVhUX3BPMWhEMXZ2Y01qTkRoRV9XUFFoSjF4NS1GYVdRRkp1Zlh6OUx5aFBPZDU5Z3VBNlFPNnBuVlJPVmpYTnhfUEV5dnhwM1VfWXVxN3RJUlNLQ0pGMFpNenVRbTNGanRVOHNNWXhlT3pHakZ1V3M4cURWYm8xV0VCbmtWaWNERnVsamdCNjl2QnhSUWhfQQ?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "42542e60dc11c6f5",
+      "published_at": "2026-08-01T12:08:00+00:00",
+      "title": "Israel poised to return to Iran war in heaviest US strikes yet - The Telegraph",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbW84blJKOVQ2alloVEd5VUgwNWVaR3MycmFwZkZpaUJHWTZNOGRaZXpKVXFGLVNnN0hZLW1EWWxLeW1iZjZTaUdxbFBpSjhMaHpOUU5nbzBpX1I0XzFEWEUtMDBZTXNBNzlNbU5BbjA1OG1ZcjZMeURydk15QWg2dWFpbkE3YVUyWkVJV19LUkdiUWdlWEZ5Nk03al9nZUVnakE?oc=5",
+      "source_name": "The Telegraph",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -174,38 +264,8 @@
       "confidence": 0.8
     },
     {
-      "id": "80b889b9ce2eaacc",
-      "published_at": "2026-08-01T11:04:10+00:00",
-      "title": "US Iran War Live Updates: US cautions its citizens in Middle East, calls Iran \u2018unpredictable\u2019 - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQZ1M5dFRoQi03b1dOSXBVNkg4VXp5UFRZZy05dW01emdyREdod2hGeHBUckdLdGhlVjlmdTZabmt2Qks3amR3Yl9teklLYW94WVF2WkM1bHJ2MkxYN2h2WEhwb3E0cGxhS2JSWFV0TU1iYnk5ZGpQQTRQR1hnd2twQlBrTDhXWlZES1JXWVJXNXZaMUQxTUpsV2VLN3ppQXBma295UE1aUmEyRW14UlRLSGFZY0RSU2pyWEIwby1VRkJqb2J1Q1JwRzZ0OFJ1VHNuUUxTSEdnUlpqLWR6eldLamlxaFF1eGlham1xNGo4NHhEYVE1V0dHbEx1MC1DTlVlSHphUEZRS3BsaFJzNzRrVHB30gGXAkFVX3lxTE1FSDJ4c3FQNFBXN2FhaC0xQmlnNkJya3U0V2NST0hXRXRqS1JnaTdVQ0pWOVcxOTR6aXA0NWUxaGkwNldiT3ZCdE1tUFRTN0dJa1c4R0loZUhqZHJuU2Y0M0hlNUVMdmV2NnZCY01UaFhSTnItNG9JTDhLQUxtRmVEZ1RVTUYyQWlDblJRc0hDV1ZHX0dYT3ZsTjZPcTlDRHBwS1RWRFRZMVRXa1J0UHFoQ1J1aUJMRDh2WmVYa1lUQ09DX0tzZ2hmcmZ2dFhKZ0RraHlUZkFteElMRGFhdU5lbm9YMW14elM4SlVYd0tpRmVNd2w2cXQxTVZaRUtsQXhvVWUyXy1sdndoS05EY1BFNEJsTjg1WQ?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "92c848d534fdc21c",
-      "published_at": "2026-08-01T10:51:18+00:00",
-      "title": "Trump brokers Hamas disarmament deal as Saudi Arabia plans Houthi offensive - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YSGowSkVQeHRLVk9oNmp0UVJoVlBVVkRFZVdQMlBONi1ya2RFcTg1Y2s2bUROajZBUXlWZ0J2MVR2OUFkdFBZaUtxTGJIcDZ6cmhkbXVSN2o4ZDQ2OXpwZXlpNEp1bXRlQzhteWh4elZqaW5vNHJmUF90SQ?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "47c53ff5f0d853d1",
-      "published_at": "2026-08-01T09:01:52+00:00",
+      "published_at": "2026-08-01T09:01:53+00:00",
       "title": "In Iran, the U.S. Appears Headed for a Strategic Defeat, Allies Fear - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRURhLUlHY3JlOWZBSm9yTGUzMlVmODFfNjJsNkpJUHh3U2Q2MTRRRVk5SXFnQUgtZGRWN2l6eTVyM2RXT3g3dENUZ3FCaXJHbzBwaHduT2dVWEJyTUNUYnR5SV9TNEI1VXJFNERJVGpFR2w0YnRWZExjTE9KQUJEcTNYTQ?oc=5",
       "source_name": "The New York Times",
@@ -232,21 +292,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "066b237061c5273e",
-      "published_at": "2026-08-01T08:27:00+00:00",
-      "title": "Live Updates: Iran accuses U.S. of escalating tensions as Washington prepares new strikes - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.9
     },
     {
       "id": "f0fc7fb54778837d",
@@ -294,11 +339,11 @@
       "confidence": 0.6
     },
     {
-      "id": "4c6b73a9dd977750",
+      "id": "e674da76ee498285",
       "published_at": "2026-08-01T06:17:18+00:00",
-      "title": "US To Bomb Iran This Weekend? Trump Gives \"Hit Very Hard\" Nod To Military - ndtv.com",
+      "title": "US To Bomb Iran This Weekend? Trump Gives \"Hit Very Hard\" Nod To Military - NDTV",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOclJ2d1V1VzF6dkdFenBUTDNtVzBaaHNaU1podXMwajNVQmhXSnVCUGVJcGx6XzNHb1NaS0p3RzdJN2VGbUxqcDY1RHFGa0EwWjBwYmJxMFRnSHpwa0tMR1hqeXkyX0k5Y2VXQ2JQOFdldDYyUmkyOGVzMmJvaTJQVjZGWFhYbFJxXzhSS3J0LXJLVVZQbVdxS2JvVnRhdUQ2REZQaDNKYlNtOGtRXzZ2Wnd3WVlkd3dqNUQzdGt4QXJKeVBhMmJBWFJsZU96TVhQdDQ4U2pPVzdsT0ZqYWhZaUY5ZGh4dWVPaXfSAfIBQVVfeXFMTUprSUlqX2FiR1NpMHdEWEF5NVplTlJVMnBjTE1kakhPeG5nUU5OLWNEWFBpR2Zhd3RqdFZsbXZMUGZ2cGFlcU1Kdmxfb1ZhYnR0UWh0QWw1XzFtNEtReVZZRlh3OTRfbXk2enN5NEFObWM1WGhFY0pDbmliSzVFWTJ1dHRFNTMxamJJSUlqQUJPbWFmZXo1VW9ySXAtSGFXV041azF1anY5TjNDOFZ0MlNOZjctUkF2U2tyTXZGMmVXa3J3QzR0RUozcEZJZGFWYXBxUVRFclJCUjRzWWw3dTBpRWVPbDkwTXQ1ZVppelhTRWc?oc=5",
-      "source_name": "ndtv.com",
+      "source_name": "NDTV",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -309,11 +354,11 @@
       "confidence": 0.55
     },
     {
-      "id": "a3e97575fa54346e",
+      "id": "f6fb6bb8dc1bb319",
       "published_at": "2026-08-01T06:04:34+00:00",
-      "title": "How major oil companies reaped massive profits from the US-Iran conflict - The Indian Express",
+      "title": "How major oil companies reaped massive profits from the US-Iran conflict - indianexpress.com",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdnR0ZzFOSzVWaV84Tjl5VExFRGtBT1dMYWd6NDVsVEtlWlA4Y2RmemI4b3RoQi1CUHBlSkJ4MVFaT3J2TFRjUUFLSXJ4d0tEdWVpSDZQanZfLXVhQmYtQ084QkNLQnQwWmJLX0hXRGN1a0gyUFE5SXhCb0VTX3pKNDR4QzhRWXY1eFZYaTlYM0VxQUY1MzVkQ0F6eTbSAaMBQVVfeXFMUG5YY0JPMENfU0JFU3BlR3ZIcW5rMC1VcmEzbm40Q3EyeTV6RHcyRWxjSHAzUkpJaDZJMXhwOERYMmtzQVV2Z3dzZUxzUllwdU0xLWplS2RpaURBUVVaU2Fsd1FjQVlXaVAxZ1J1Ui15Qk00Q3NJUXM1VHBhOFhXX3lTNS01TElzUU1kZTFPLXlOcmZTckx5dzNDNW41c0pHZ2gyUQ?oc=5",
-      "source_name": "The Indian Express",
+      "source_name": "indianexpress.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -324,11 +369,11 @@
       "confidence": 0.55
     },
     {
-      "id": "66a0e5bfca6bfaff",
+      "id": "61164f9c1b728204",
       "published_at": "2026-08-01T03:56:50+00:00",
-      "title": "US, Israel preparing major strikes on Iran's energy infrastructure: Reports - aa.com.tr",
+      "title": "US, Israel preparing major strikes on Iran's energy infrastructure: Reports - Anadolu Ajans\u0131",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMWNRcUdsWC00dU1wM3dHRXZ1aDVXSzNJWVlqNHd0clJEc293amFZOTJhS252MkxQakF1M2UwbURDQzJkSmVXUkNKMlk5bXNDQ042M0RNV29kRlVmSmIwMlE1MF83Z0JQUFYxRFpUbUJXS0w2VHpHaWk0cVUyeXMtR0c1T3hGRWdWb1hIalRsUHlDVzRXd2xVQzhYZTBHTXd5b01ZQ2ZBTUlic3dBZ3NJeG5n?oc=5",
-      "source_name": "aa.com.tr",
+      "source_name": "Anadolu Ajans\u0131",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -352,51 +397,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "a7346038bb0dbb6e",
-      "published_at": "2026-08-01T01:01:35+00:00",
-      "title": "Report: US and Israel weighing attacks on Iran infrastructure - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSW1LMk9fS3YxQnM4RlJiTmgzcDJ4ajVOV2pZZkhlS2RPeWFNZ0Q1WmhFd0l3bjJHWUFiejRZUS1lQU5vZExxUHRYN0ZsazRrenVNWHVFd0VmUHpxeVpHbmNVXzRLVWFmVGlLU2trdk14Nm5rRTluR0JZLTFVcy1weThSeVdjTlZLaVRV0gGQAUFVX3lxTE1GS2dwZ0JLbFVyZGcybjlxWkx4bWwwSlVrdVhHM2h1bTBkZldPTWhUQndtbnhFQ3NRcWRJZndvTEZVR2pjTzdwdjNFbTlvb0NIc0tZWHNhVFh2STBfRmsyYkZ0OUJ1bHRqWkFfank1c25IN0ltNmR4NFhGUHFVbG5qU0tMS0RxakNaZHdqengybw?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6221b3106a7900ac",
-      "published_at": "2026-08-01T00:47:00+00:00",
-      "title": "US planning renewed strikes on Iran: Reports - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9CTERSWjBaS1l6SmFfNmRseFdQQVg3b041TmZPbXpYSDZXUjN3QVFpT2FXcTNlRS05bGJjUFppWTRLbTdURDhBaXVCQmNaWGFDWHl0LUxfMERlMks0bWJUUjBOM244V0lGWTlVQ1hMblRaeHhibnhSTDFvS09pZ9IBgwFBVV95cUxNMHJPand5WjRLQThyRXUybEIxMzljQ2MzVWdfZTMzdFhjTDAyM05GbVJsa3lEblBjMXczS1FYU0o1NU5PSmZtNEM5T3pKZUlqZ2FCcTZKRmtqV0ZzbmZtVWpaUU1QZTBubW5zXzQ2QndpWXJGcVlrWktYMVg4TlpsTWFlNA?oc=5",
-      "source_name": "The Hill",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0e18f6e236d8db46",
-      "published_at": "2026-08-01T00:05:56+00:00",
-      "title": "Trump\u2019s infrastructure strikes leave Iran\u2019s economy battered - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT0JobEhvZVpraWpOdmtFSTR5TmRiM3A5YmxJVkZXN25pb05nc1JySmpXR2hON1JMdXk5cXh3aTlSdzdDZHJjLXZPY0dKejFsa1RxY2sxeEdpcU9BT053bFdHTEg1Rm1lbC1PX2Z4Y2NoVXIwSV9xZ0tqNC1GUFFFSFY0bFpVM0xaUVZDVlNqVFJ0X1lDYThMajUyeWpqWm1tclBxaHFVY2wxaTA?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
     }
   ]
 }
