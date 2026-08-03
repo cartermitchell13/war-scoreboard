@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-03T20:00:49.868049+00:00",
+  "generated_at": "2026-08-03T22:27:45.552563+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 92,
+  "event_count_window": 94,
   "totals": {
     "usa": 40,
     "iran": 23,
@@ -10,17 +10,17 @@
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 28,
+    "usa": 25,
     "iran": 23,
-    "delta": 5
+    "delta": 2
   },
   "confidence": {
     "score": 68.2,
     "label": "Medium"
   },
   "event_types": {
-    "other": 28,
     "diplomatic": 13,
+    "other": 30,
     "attack": 50,
     "intercept": 1
   },
@@ -92,14 +92,89 @@
     },
     {
       "date": "2026-08-03",
-      "usa": 8,
+      "usa": 5,
       "iran": 13
     }
   ],
   "latest_events": [
     {
+      "id": "ae95f344f54e956a",
+      "published_at": "2026-08-03T22:15:15+00:00",
+      "title": "Iran rejects Trump\u2019s claim that talks will restart, adding to weekend of whiplash - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOHV6dXFDM1hKanZxUW12NVNULXRwUkpfR3lhTEh3TzZhRGFjMGNwVWd6Z3ZQSFBTTkxNUFFsVGI1aTFEZlVLNnZIWDdQd1c5RmZSSUxIbVJxdTQ0QjRZN2JVbEJDUWZON29qQlQ2Vk80Mzc1OGl5Q3pDSEFpWEZlRWl2NXhSa2J4dXZhbXJfdzd2amx1ZWFLajRoRFIwRDJUUWw5czlldk5yNVlhbzF4bzFSeG9JZw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "a532d0230193339e",
+      "published_at": "2026-08-03T22:05:18+00:00",
+      "title": "Fact-Checking Trump\u2019s Claims About the Effect of the Iran War on Oil Prices, Munitions and More - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNXh3dG9OZmtIMDBXYTlGUWZBUk1XRndGSWdmdXVSRkMtcEtpQTNiMU5aOXNCdFJOR3pHYVdZWHAyQlRjekxCU0drc2RxVjVFdng5b2Q2SzNPZVNWTVA0c2tlX04yNHM5Z2dreTVzWGFZTldKaU53RU9jYkhJR25ic2hudG9OZXhBYnhYa242Zw?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4746f5e060fd8fab",
+      "published_at": "2026-08-03T22:03:21+00:00",
+      "title": "Trump claims strait of Hormuz could open \u2018by tomorrow\u2019 as Iran denies any talks taking place \u2013 as it happened - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPSzZkR29EVXRVZHoxNmhXY3dibGZweWVLMG9Pak1jR09zbkFNcE5ZNkRULWNVTFpzSGFZYVNDWFo3RUY0ZXo4ZUtsdlpON0FFalNMcnBQVXQwWk9sSzI1TEplX3RLU3hnVllKejBpMTlqZVlWUFFCNV9LanNocHo1U0pBRVBvamhQVkMybHVDWG14aDlUajBRMk9jTXhUU1RseVItT0tUcS05UC1meFBSd1FUZHFXc2VlYUl0b2loVkRTeHVLT2c?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "959f22c2dca271eb",
+      "published_at": "2026-08-03T21:56:15+00:00",
+      "title": "Iran Denies Peace Talks After the United States Cancels Military Strikes - foreignpolicy.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcGhBVTkxMzZZVFp0TndUeWVKc01zcnJzWjZwRWRXQmt5TDE5UHFhajlMenFTTFBlXzdHTHZnRGNYb0RVVnJqY0hBYUNUZGlvRWlVT0UxbUhyeElyNVkwMGpoZ0N3aDdqekNzbF9hMFVpY3ZXdVNtLXJDZmkxeHFjN1J2RnpmMWtaSkVIYkhDdm1zUU9LUGNuVFVB?oc=5",
+      "source_name": "foreignpolicy.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "9f21bc852cb1b516",
+      "published_at": "2026-08-03T21:40:00+00:00",
+      "title": "Five months of war with Iran - vox.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQb1E5MWF3WDA2TlNTejI4cUkwb2pVUGFvRGpMcmUtRDY2YU14Q2NEdkMtLUZzOU8wM0VDMFl2M0tuV0pYUWxGVDBSOUxiMl9rMm4wSUJoX0s3c01uT21DSFRFVDdvazJPQjY3NkJaZ0E1b0I0Q2FDYkI5WlBnUmQyV2I3R1VCTm1WNXVMbTliVGtXSkhYUDI5ZzRtNmRrVm9JdDgwQTVSR3ZrWGZxWkxWX25CX0VhQzNCZ0E?oc=5",
+      "source_name": "vox.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "2f2f3a166459a67f",
-      "published_at": "2026-08-03T19:40:23+00:00",
+      "published_at": "2026-08-03T21:33:14+00:00",
       "title": "Iran war latest: Trump says Tehran has 'last chance' to sign 'good' deal - Sky News",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYXI0THh5aVNRdGVWWm1oWG0zNmdfVk8xYkRRNDlYMXpHYTNsbktDejVOeC1SWDRFQnJ6Q1dtZ2lHUVZfbVJ4ZGdTcVZ2bWhyMk5NRHFwU0dpTUhfM3YtbGQ2SzYxbkRISDZGRzgxeHNseXMwLUlpSFVsbl9Dc2ZCeU1PVzFvMzg1YnhjMmpYZDBYUGphNDRYZGt4RHlXbWhxeXhnVDJOcUtyd1BBeDZvZlFPdmdPQUdwSmpSWDBpNVhoTWZieFhrVTRpbUFjYnJOLU04?oc=5",
       "source_name": "Sky News",
@@ -111,6 +186,111 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "55b8fdef12f6d21e",
+      "published_at": "2026-08-03T21:30:00+00:00",
+      "title": "Live Updates: Despite Trump's remarks, no new negotiations with Iran are planned, U.S. officials tell CBS News - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1dLLUtEN1BOZURoRGtpQ1JYaDRibllHa25fRHBpNXlrSUdLV1N3NzVETUFZN3FXTFZlUTB2dmJWd1hSWUNRdDdVcUNnTmNfTTgtVXd1eTJ3WmNoRWxrY2FhcFdlX1d4bUxQdzVIcWM5RHNHNDBsOEN0TjFVTGN5ZHMtZkJ2SW5JTVJLWC04YzJmRG9CTlM5MGRVdzFTNVNYcVVOcGlzeFlSamc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "d378d6eb5ee4925b",
+      "published_at": "2026-08-03T21:04:00+00:00",
+      "title": "Stop complaining about the Iran war. I'm making bank! | Opinion - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSG1RaUdPYXV3V0NNa0JndV9IX0FGcVZWNkc3bmdMZEtUSGh4NENWZ1lyTnJnT0ptUmdSb0FhZVREX3ZqYmJEMU5UbW1hQjJ3bEJSaUtLOW9aejZneHZzXzNjUFZWOVVVc0RoNWRNVUppRy1TWElRWWxNSVM4ZG9NZURLRzdLZWVVWlJIVHBsN29Dc0RLZXdwenF6X2lPaFd6MjBWUjZ6VmhRb1k?oc=5",
+      "source_name": "USA Today",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7a480091b2decbe5",
+      "published_at": "2026-08-03T20:52:31+00:00",
+      "title": "Trump says ongoing talks are Iran\u2019s \u2018last chance\u2019 - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmM3LUpzRC03eDlGaUR6amdueU9WSDdIM0FYNXlpdXJmbEdOZk9ZcTVzLWpUcktsZ3Z5eXd3S0M5Y3RRVGtINFFqUDdFS0JzUkkzY1A1LUo1cnVDc1MzMG43TXU4TGZWcHZQWUFndWd4ei0zdnE4d3dDWDIwM0haMDdWdFJiV0N4TTcxWGMyclpHMlNvaWNhUUZUV04tX1E1NVJpOU1KSUZUNEtBMVlFSENQOGZNcDDSAbwBQVVfeXFMTmhBcW5BNGtIRnNLSWJLY2JCZlA2UERacTZfbnc3STh1TGhrYml6RXdMazBKWjJLNTBZZEIxOExZQk5xbEFnWWRDbF9aX0tvT05VX09rWUlYZFNEU3V5N29oaXh3Q2RmNFpVTHdfQmRQekVGdE9PS1NndWl4TGNZNTR3bjcwUUVLUDVma1NRQVZiZFd6aGdNNUVaZjBzNjJGbVRCdnhuTEptMHRKaThTNm1mdTNqR3JvaUNYV0Q?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d15058f9cf46e197",
+      "published_at": "2026-08-03T20:07:00+00:00",
+      "title": "Trump optimistic Iran talks will reopen strait, and other developments in the Middle East - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeXk4T2kzT3g2bk5zc040bF9IVk1UTlB2WXNoa2tPTldBbjdRY0F6dFo5dk1YY1N1YUFFaFpONHdWeG9YaENDaG9KcExEUHJCdUYwdEV1c3lGMURoenctSVlaUW93ODYwUi1SSGdRd3lWNkpGazlMYndZT0p3TzhWZ3lEWVBSZDdFblJVbnpIZnhLWTNvc2h0MU81SHJRNDBrb3c?oc=5",
+      "source_name": "AP News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "10581cd867f7b9f0",
+      "published_at": "2026-08-03T20:03:55+00:00",
+      "title": "Five Scenarios: How Washington Sees the Iran War Ending - \u0627\u0644\u062d\u0631\u0629",
+      "url": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE5Mb3ZRa05fb2VRWGJTdHpIa3pfeXF5dHNxSjR3VndXOTE0d1A1b1pXSWFkRUJ0cHF0RVF5VE03dy1BZw?oc=5",
+      "source_name": "\u0627\u0644\u062d\u0631\u0629",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "1681a5183180ccde",
+      "published_at": "2026-08-03T19:51:58+00:00",
+      "title": "WATCH: Trump says new talks are 'last chance' for Iran to forge a deal - PBS",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdTY0N0U4X2xHQWxldUtwOUllUzhkZ293eUJycE9hZ0pVSGdINUtFT3pPVnR4bW5OU3ZWbFdpSktFajBySTlHSGdzX2VSQjBaVHJFTDZOY0ZVM2Q5QkpfZVdURDM1eV9Hd3d1bk1CX0x6QlVIbWV6X1VZSkhNMjVrejcwcGxsRFVrMmxxVVR4VmxraGUyUDFqdVZtUDFkaVYtTlRpadIBqgFBVV95cUxPSW81bVQwWFdneUpjeVFiVlBSVzBRYlB1MW9OemxTeHNONnp0M0ZxMy1SR0JDOEZERHZrd2hUQTRJQXB4dklsR3A4dzVFU0tzd1NkRGplM1pRdDRIODhpLUNsaXAtbGJ6bkpiUWZHamFWQWh4WDVyaVM5ZzcteVE5dkdiX0lTVVpRWERRZllYbTdJREViWE9hbEhrYXhYUnA2U090NEZZaDVZZw?oc=5",
+      "source_name": "PBS",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3176b226573d49a1",
+      "published_at": "2026-08-03T19:42:55+00:00",
+      "title": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40Y09LMUJHY2x5bzRGNXU4emF0RVpyckR3VjNPWnNJRzhYNUhpYzVUR1FUZkRqdWNfSmgyN1FUUlVGZUE5S2pJckxmaU90LTF0aTFpbXFBeHhDdw?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
     },
     {
       "id": "7163bb2bc56676c2",
@@ -125,89 +305,14 @@
         "usa": 0,
         "iran": 1
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "cc54688b0a267b5b",
-      "published_at": "2026-08-03T19:28:00+00:00",
-      "title": "Trump claims Iran talks will start Monday, and other developments in the Middle East - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeXk4T2kzT3g2bk5zc040bF9IVk1UTlB2WXNoa2tPTldBbjdRY0F6dFo5dk1YY1N1YUFFaFpONHdWeG9YaENDaG9KcExEUHJCdUYwdEV1c3lGMURoenctSVlaUW93ODYwUi1SSGdRd3lWNkpGazlMYndZT0p3TzhWZ3lEWVBSZDdFblJVbnpIZnhLWTNvc2h0MU81SHJRNDBrb3c?oc=5",
-      "source_name": "AP News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
       "confidence": 0.7
     },
     {
-      "id": "ae95f344f54e956a",
-      "published_at": "2026-08-03T19:14:39+00:00",
-      "title": "Iran rejects Trump\u2019s claim that talks will restart, adding to weekend of whiplash - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOHV6dXFDM1hKanZxUW12NVNULXRwUkpfR3lhTEh3TzZhRGFjMGNwVWd6Z3ZQSFBTTkxNUFFsVGI1aTFEZlVLNnZIWDdQd1c5RmZSSUxIbVJxdTQ0QjRZN2JVbEJDUWZON29qQlQ2Vk80Mzc1OGl5Q3pDSEFpWEZlRWl2NXhSa2J4dXZhbXJfdzd2amx1ZWFLajRoRFIwRDJUUWw5czlldk5yNVlhbzF4bzFSeG9JZw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "f85301ac0562b8f9",
-      "published_at": "2026-08-03T18:58:16+00:00",
-      "title": "Trump says new talks are 'last chance' for Iran to forge deal and avoid escalation of US strikes - WPTZ",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQM1dkcFN4Y2ZTMHE5NEtYbk9mV09iRWZlSlI4SHp4NUNoQWozUmtNWlZERkRSUlZxUV9uVzJIWW5qeVB5dzg3c3hIZTZmUHhRSzYzbkVsSHhZTmlZLWFock93QlFCV0tXTnlkODlHaElsaUJBVWQ2cWZzUl9xS3h6LUpR?oc=5",
-      "source_name": "WPTZ",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "55b8fdef12f6d21e",
-      "published_at": "2026-08-03T18:34:00+00:00",
-      "title": "Live Updates: Despite Trump's remarks, no new negotiations with Iran are planned, U.S. officials tell CBS News - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1dLLUtEN1BOZURoRGtpQ1JYaDRibllHa25fRHBpNXlrSUdLV1N3NzVETUFZN3FXTFZlUTB2dmJWd1hSWUNRdDdVcUNnTmNfTTgtVXd1eTJ3WmNoRWxrY2FhcFdlX1d4bUxQdzVIcWM5RHNHNDBsOEN0TjFVTGN5ZHMtZkJ2SW5JTVJLWC04YzJmRG9CTlM5MGRVdzFTNVNYcVVOcGlzeFlSamc?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "0e9aa5717ce3c247",
-      "published_at": "2026-08-03T18:32:09+00:00",
-      "title": "Trump says Exxon and Chevron made 'too much money' off high oil prices during Iran conflict: 'I don't like it' - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObk5LNVZzcGxBT29HZWR0Z2laYVRPNGtNLUhzcTVodmxTdkt2dDR3QnVTRHlnaC03a1dnd0oyYldtOWx6SWxmTXl4VnVmZUY3aTduN2xsdVJVWnVvbjdram1sSzRPMXExWjM1amFqWVNLbGZxMmxtQXVLVEtod1ZTcVdYMEJDUVRLd1JNXzh6T3Q1QmNhd1BTcnZMczlLZU9sSGFMUnZTZE13eHh0R2Zud0lFM0lhWHEwOXhrM0N0emo1emVZazhOUzJyblN5VlQ3NTlTazA2Z3nSAd4BQVVfeXFMT3V4OWU0RTlMeExsOHFzU0ZPX3J2ZHpKVEdJNlpYRGJmdWpXbFN1Nm8zZmptTWdpWkZ5ejdfUGV0TWRHWjhzel9yLVFWWjJmV3RPLVVxTjZmWmZzYWxKVndYZVI3OTQwV1NKMDNVdVBzQlVNbFVGZ2s1QVBLZ2NUZHJuaEZEcjJOZzNrWlFLVUNKTkhobFROa2VXejVSRVM5cklXOHhvd0VUeHlKRml1TDdNNThsZjN2NmhJODZOUVZXb3ljbVlST0MycE5oa3JoVjFWeVhKajk1OTFYR0ln?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "663a2eb8c81c92ca",
+      "id": "476e8e5f4ab03256",
       "published_at": "2026-08-03T18:27:00+00:00",
-      "title": "Trump meets his obstinate match in Iran\u2019s hardball regime - theguardian.com",
+      "title": "Trump meets his obstinate match in Iran\u2019s hardball regime - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMWpRMll4VldDU3hqSy1JaVBDMVptcVBKLWtGN0U1dFpJbF81Vy1oVHhwWjc2NXk3RnFSLWc3cm5sYUFoWmdBZ0ZtYk1VUVFNSDVpUUloR1J6b2VXUGxfbG1ZSVRHT0d0cEF4NTVDaHJMNFlRU0FmcFoxMVRhX3BkX2xQdlpraExTVnZKdmo0MUphZHNHWnplblV4YmQ5UzRTdjR6Yw?oc=5",
-      "source_name": "theguardian.com",
+      "source_name": "The Guardian",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -231,51 +336,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "ce4490b2d235ffd3",
-      "published_at": "2026-08-03T17:47:52+00:00",
-      "title": "Trump blasts \u2018duplicitous\u2019 Iran after Tehran denies it is in talks with the US - aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPWmM3LUpzRC03eDlGaUR6amdueU9WSDdIM0FYNXlpdXJmbEdOZk9ZcTVzLWpUcktsZ3Z5eXd3S0M5Y3RRVGtINFFqUDdFS0JzUkkzY1A1LUo1cnVDc1MzMG43TXU4TGZWcHZQWUFndWd4ei0zdnE4d3dDWDIwM0haMDdWdFJiV0N4TTcxWGMyclpHMlNvaWNhUUZUV04tX1E1NVJpOU1KSUZUNEtBMVlFSENQOGZNcDDSAbwBQVVfeXFMTmhBcW5BNGtIRnNLSWJLY2JCZlA2UERacTZfbnc3STh1TGhrYml6RXdMazBKWjJLNTBZZEIxOExZQk5xbEFnWWRDbF9aX0tvT05VX09rWUlYZFNEU3V5N29oaXh3Q2RmNFpVTHdfQmRQekVGdE9PS1NndWl4TGNZNTR3bjcwUUVLUDVma1NRQVZiZFd6aGdNNUVaZjBzNjJGbVRCdnhuTEptMHRKaThTNm1mdTNqR3JvaUNYV0Q?oc=5",
-      "source_name": "aljazeera.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ecdc026c815a4f61",
-      "published_at": "2026-08-03T17:41:27+00:00",
-      "title": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume - bbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40Y09LMUJHY2x5bzRGNXU4emF0RVpyckR3VjNPWnNJRzhYNUhpYzVUR1FUZkRqdWNfSmgyN1FUUlVGZUE5S2pJckxmaU90LTF0aTFpbXFBeHhDdw?oc=5",
-      "source_name": "bbc.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "bf2493fa04498029",
-      "published_at": "2026-08-03T17:30:00+00:00",
-      "title": "Iran in talks with Oman over shipping but US negotiations on hold, says Tehran - theguardian.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMlZNN3YxdlBrMlh4djFYOTlDSkhQX3gyeTlreW5pb1NWVDFDVzVzM1QzWkNWaDdfTHpmTVRyeVRnLS1sakdfVnZYTzdDSzRHTi1aRy1xSzJPaHJnZl9yUlRNZ2N1SV9lc3p4Qm5XLUlPZ0dvWWJsc0VNMDZwYWJJSE5RTXB3dXlGM1ZaMFpzLVZvTGpNZ1ZUX1hyak5TZzhWVGRMdDFOUUZRYXo3eDJaY1Nn?oc=5",
-      "source_name": "theguardian.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
     },
     {
       "id": "8d64b7ea69e62a0f",
@@ -308,21 +368,6 @@
       "confidence": 0.6
     },
     {
-      "id": "e2907b1ad459d764",
-      "published_at": "2026-08-03T16:28:06+00:00",
-      "title": "Iran says no talks underway or meeting plans with U.S. after Trump calls off attacks on Tehran - CBC",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9zVkNCRlcwNHZ4TXJfSGhZbVo2ZndaT2xWVmVVUnB2eEthdlBNd2pMbFdUQXNraDRQNVU3QTd2MUFKQU1kQ2FueDYxMzRxR0lLbk5mSXRoaF9INXd0TmY1VWlGdU43eGkxNXV3RFAtQWI0UQ?oc=5",
-      "source_name": "CBC",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
       "id": "97818bded4c750ee",
       "published_at": "2026-08-03T16:08:54+00:00",
       "title": "Iran denies Trump claim of imminent talks - Financial Times",
@@ -338,21 +383,6 @@
       "confidence": 0.7
     },
     {
-      "id": "cba5a7ad11a63a46",
-      "published_at": "2026-08-03T15:02:00+00:00",
-      "title": "Oil Prices Plummet as Investors Digest Pause in Iran War Fighting - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQlZxblAwb3V2Z2N2SF85bjh6RDhPbW0xQllmVjJSbW1hRC1SbU9zVmdNRWktVEstY0thQ2RBdzBtS1U0aUNweExSYng1a1B4d2hsRFZaZ01SMmg5SUZVUW0wbmZtNFBsemtieUlVQXZJdjdac3RqY2tISFFaaUV1ajRn?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "5d6d7acf577eaeff",
       "published_at": "2026-08-03T14:40:44+00:00",
       "title": "Crude Futures Fall As U.S. Puts Off Iran Strikes for Talks - WSJ",
@@ -366,36 +396,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "dc5a12a05729971e",
-      "published_at": "2026-08-03T14:11:06+00:00",
-      "title": "Oil falls 5% after Trump calls off Iran strikes, says Hormuz deal agreed - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVE5GLXBWM1FBZnNBQnhLVDR2dGt4RFVpcV9selFWeng0aFJSQWVoSWNZVVd2cVBHR1FRaElqUVpvakNoSzIzM2xWYURFTHF0aXp4VjlILVVnMjF5U01aQ3JORzM3YUpQNXpleHVvbl9wRmdneWlWWDFxZE9ueHV2SlI5X0dVdFlSUTRDV01seGo2Zi1zS3lNcExBUmV0RWgyNmpoRDZ3TDU0WnVBeHR5Ng?oc=5",
-      "source_name": "Al-Monitor",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5ad041d67475882c",
-      "published_at": "2026-08-03T13:41:00+00:00",
-      "title": "Iran denies negotiations with US after Trump calls off strikes - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOM254YVZNTjBUVXFKS2Ryb2ZheElMZXpDNjlNUE8zbVVJNnVhYlBVUVNzalZOWjhlSjZGM0N2cWtvTW16ZXhxWkhucEZsMFRVbjU1Q1dQMkp1ZTZoRHM0UjVUR2VEbGVrRHItNHktYkd1bDNheFVjZlRldUdsSDVoMHJiem45WkJEYXYyV3ZCVlpCOGxEd0FNQTRncjBQYzVfSWpfLQ?oc=5",
-      "source_name": "Al-Monitor",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
