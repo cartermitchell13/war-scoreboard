@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-08-02T22:12:34.680142+00:00",
+  "generated_at": "2026-08-03T03:58:55.837641+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 93,
+  "event_count_window": 89,
   "totals": {
-    "usa": 44,
-    "iran": 10,
-    "lead": 34,
+    "usa": 35,
+    "iran": 17,
+    "lead": 18,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 29,
-    "iran": 10,
-    "delta": 19
+    "usa": 23,
+    "iran": 17,
+    "delta": 6
   },
   "confidence": {
-    "score": 66.9,
+    "score": 67.5,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 58,
-    "other": 32,
-    "diplomatic": 1,
-    "intercept": 2
+    "attack": 56,
+    "other": 27,
+    "diplomatic": 5,
+    "intercept": 1
   },
   "history": [
-    {
-      "date": "2026-07-20",
-      "usa": 6,
-      "iran": 0
-    },
     {
       "date": "2026-07-21",
       "usa": 0,
@@ -87,22 +82,162 @@
     },
     {
       "date": "2026-08-01",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-08-02",
-      "usa": 3,
-      "iran": 3
+      "usa": 0,
+      "iran": 4
+    },
+    {
+      "date": "2026-08-03",
+      "usa": 0,
+      "iran": 6
     }
   ],
   "latest_events": [
     {
-      "id": "6770216d69c52c70",
-      "published_at": "2026-08-02T22:01:39+00:00",
-      "title": "Trump holds off Iran strikes on pledge a Hormuz deal is close - The Spokesman-Review",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRC1wWmdyZGZBMUx3UXNzYTk5aHBqamt4TXl0dS10Wk05dHJ0am9MVTV0WXZxd0lTQk1yeHJlcE44UDVYUFZHQnhjUnRiVnlQb2ltYmljTjBvT2hDbjBxRDBnNnM3b2dNb09YZWgzQ2dFaFExaWY2V2FueFhQeDdjUWF5U2otMU0yZ0p3RGdPLTNWVEI3QTVpSjFmd09jdw?oc=5",
-      "source_name": "The Spokesman-Review",
+      "id": "6e8ed95e4b2dc4d8",
+      "published_at": "2026-08-03T03:52:04+00:00",
+      "title": "Trump says he canceled Iran strikes at request of Gulf allies, is pursuing talks - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOHV6dXFDM1hKanZxUW12NVNULXRwUkpfR3lhTEh3TzZhRGFjMGNwVWd6Z3ZQSFBTTkxNUFFsVGI1aTFEZlVLNnZIWDdQd1c5RmZSSUxIbVJxdTQ0QjRZN2JVbEJDUWZON29qQlQ2Vk80Mzc1OGl5Q3pDSEFpWEZlRWl2NXhSa2J4dXZhbXJfdzd2amx1ZWFLajRoRFIwRDJUUWw5czlldk5yNVlhbzF4bzFSeG9JZw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "696974976659fd8b",
+      "published_at": "2026-08-03T03:31:09+00:00",
+      "title": "Iran war latest: Trump claims 'there's a deal' on Strait of Hormuz, ahead of further 'negotiations' later today - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYXI0THh5aVNRdGVWWm1oWG0zNmdfVk8xYkRRNDlYMXpHYTNsbktDejVOeC1SWDRFQnJ6Q1dtZ2lHUVZfbVJ4ZGdTcVZ2bWhyMk5NRHFwU0dpTUhfM3YtbGQ2SzYxbkRISDZGRzgxeHNseXMwLUlpSFVsbl9Dc2ZCeU1PVzFvMzg1YnhjMmpYZDBYUGphNDRYZGt4RHlXbWhxeXhnVDJOcUtyd1BBeDZvZlFPdmdPQUdwSmpSWDBpNVhoTWZieFhrVTRpbUFjYnJOLU04?oc=5",
+      "source_name": "Sky News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "09530c5c84752241",
+      "published_at": "2026-08-03T03:00:00+00:00",
+      "title": "Jordan Is Learning Its U.S. Alliance Has a Price in the Iran War - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNazhtNVpaX0ZvaXRyaktDZ0J5alFORFp4d1FXb2FPYlpjYW4wN2l5NnJ1dnJIaFB6T1BENDBPVnlVSE5KX2lGVU5JdjFaYldUVC05YnhOdzF3dm5MSXVqOExDZjhhNWMxNllLYVlnUHN5c2g5TUhSNGNjbFctZVc1UFRzSG1aemd1ZzlyYjRyWVRtc2s0cWFlem5kZC1PLTlpVFY2UldwNWhJUmk4eTdB?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f63a112acf5849f1",
+      "published_at": "2026-08-03T02:42:46+00:00",
+      "title": "Progress Toward Deal Led Trump to Call Off Strikes, He Says - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56VERmdjVVZEJzaHhVbVlXY2RmbmZGUkU2a3o3QUxOaFl0ZFVZNkwtNkRYZV9UZ1ZYanZXcHFDZmVIc09NaWJSMktBRVJrZlVNRWhKZ25FYjhYbmZ2dzRMSjlEQQ?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "85c3bdbc93fe6824",
+      "published_at": "2026-08-03T02:26:00+00:00",
+      "title": "Trump says Iran talks set for Monday as Tehran and Oman discuss strait of Hormuz deal - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV1k1WFRqSXlNSms3cS0xaGx4d3RqbWlMQjNna01vOUVqMHFKM1hCNHlfOW8zV19pUXFOcUw3MTJseWt3YUpGN2toVVVvQmVKVlM0VXBOblc0RThJc0FubW9wUDNZbEVrd3loMERvbmZySHVfb2dfOXZMSVhtYm9NREl3ZkhtdWJhRWs1SlZvc1QxZzd4aWlrdEhJZGxUNWtXQXc?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "2986cf6ecc1dcb7c",
+      "published_at": "2026-08-03T02:23:00+00:00",
+      "title": "Trump says Iran talks to resume Monday after calling off planned strikes - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRWxEYTRnNXNCRW9jaVRmUGlwdUJveGpxOWdLdHlmNGZhXzNlMEFNb3M2TDE3N0lEcmJJZU43Z1Rsd2ttOFZPUnltSTdmazl2ZFBXaGdwNjRnTkh4ZEJDbHQ1TnNlNWxXcVdmdmZFbDUtMVBIUmNwRzc5UUh2NXJkOXlwa0NGUWvSAYwBQVVfeXFMTWdLWlJTVDBRNC10bFJySXBudkRIWWVON1JxaUdab2JRZkpQRkN1YlRhYXUtOGI5VTdyZHQ0d2lqalJIZ2lmTGlaYk9vekUzRnlkM0Fvb3pLVER4UEQ3SWNHYUt3VkZ4S2dMU3FHbFk4cGhuYUFlOE1YYi1nYkc2bUhpNXFXOFJLdTdaZnI?oc=5",
+      "source_name": "CNBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "e6297175914f9410",
+      "published_at": "2026-08-03T02:13:10+00:00",
+      "title": "Iran war live: Trump says talks to resume; Tehran urges US to honour MoU - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUmVFUVgwZ2Izb1FIaVF0Z3U3Sjhtc3NFM0JUWkhNcHpOUXRCZEY4SkhkcDZyNWNXOEJYRDJ5SnBGLXVwak5zSWtnNGZCM29wcF9TWk1Mcm5CRWJJY1diVzlicHNvV3h0NjBETzJWTFlfM2xmUUFLdGZHcERjdElXNWhoSXBjM0lKRkEyR29KemhDbzlKWVlJR0ZRYXRad2FXTHdYSlZCV3E1Y05JVm8tbk1PTXVVMnItQzVpRHoxQdIBxAFBVV95cUxPSEdtMjB6bUhkd0JYOUFYOXlGYlJuSWt5Z1l3VVk5aWU3bWd0bjJNUENNQm9iYXdnYzBTTzhpUkliTGhtT3N6NTJfQUtmLTlPYmU4TkN2c1k3OFo3ZzdvczQ1QmRpM01XaTZWbnA4bzBpMXRaTkVEUHU3N2w0RldGTHZNek5ZaW5ka3BoOHB6M3p1TDlGR3UxWFdZTGpTZEZINHF6MXZpQlk4bGROSkJoRUlxTUxjdFVEMDhYbVI2eGJqNF9Y?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9543f6f123ebeb5a",
+      "published_at": "2026-08-03T01:42:00+00:00",
+      "title": "Live updates: Trump says Iran war talks to resume Monday after he called off strikes - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmRm9ldjJOd2ZubDZtNFZ2YTdlLVJ4QWxpTEwtek1weGtPdW02blI1Mlpsa0hLUFRpeGRKaTN6bmlacldaSzVodG5ieVRpMC15RG9SWXNROHZ5eTBBb3llUnV5aVhEOXBEMHd3YnJB?oc=5",
+      "source_name": "CNN",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f7f1db130903b2f0",
+      "published_at": "2026-08-03T01:27:00+00:00",
+      "title": "Trump says Iran peace talks will restart Monday as U.S. pauses attacks - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQd0FsRGVyTmhKN1lFZHVkMkdsREEzZkVqTWJHMDVkOE9mbXdmNklBQjFXUllKU2t5anpDbGhQdVdRRU9rWWxzSmhvV2ZoS09GRFc4Znk1QXlSMkYzbHFfd0VRb0Vuang0MTUwOE5BUGszb1gwTTVrNnZmVU1KWmxBNjZxZEpkSW9pU0ZRWllOc1pHcm5lOWJmYWIyc1JqT2tsYkdjcW1PTnhDbENlUktjWXJ4eEpnUEVZQTd4SXVR?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "91421d99a7240872",
+      "published_at": "2026-08-03T01:25:30+00:00",
+      "title": "Trump: US to hold off strikes on Iran in hopes of reaching deal - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB5RzkwSFU5aVdNa3c5bGQtNHE4MmxtTV9rOFF5cTM4NUVGZGU2OFVWdFV2QkhNQmR0cVNfQTdaTG4xUFRsMHI0SzhrN3EtUEdDNEhubnBWUUh0clF0aVVDNUF5NU9oLXJQd0g4cVFlZ1ZzRnJ1cVg0cVpSRlU0NkHSAYQBQVVfeXFMTVJZNGxUV012OWstdUFBZFNWZ1BYVzlra0J5Sjdsd0p0SG5CY2phclZkX1ZRaUpaZmZVZzQ5eDhTN0Y3VVEyRV9tOVk3aWFISEdyNEFkN014ekVLWEhsMXctWWdDSVpmcEMtU0Nhd0hQY2tZeDRaQUZ1b0pBV01pcGRQMUZj?oc=5",
+      "source_name": "NewsNation",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -113,25 +248,55 @@
       "confidence": 0.65
     },
     {
-      "id": "b0e2101e3ee9648a",
-      "published_at": "2026-08-02T21:52:04+00:00",
-      "title": "As Trump cites progress on deal to end war, Iran and Israel remain on alert - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOHV6dXFDM1hKanZxUW12NVNULXRwUkpfR3lhTEh3TzZhRGFjMGNwVWd6Z3ZQSFBTTkxNUFFsVGI1aTFEZlVLNnZIWDdQd1c5RmZSSUxIbVJxdTQ0QjRZN2JVbEJDUWZON29qQlQ2Vk80Mzc1OGl5Q3pDSEFpWEZlRWl2NXhSa2J4dXZhbXJfdzd2amx1ZWFLajRoRFIwRDJUUWw5czlldk5yNVlhbzF4bzFSeG9JZw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
+      "id": "e46e7399cf5ea2ad",
+      "published_at": "2026-08-03T00:11:18+00:00",
+      "title": "Trump suggests new talks with Iran to begin on Monday - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE40Y09LMUJHY2x5bzRGNXU4emF0RVpyckR3VjNPWnNJRzhYNUhpYzVUR1FUZkRqdWNfSmgyN1FUUlVGZUE5S2pJckxmaU90LTF0aTFpbXFBeHhDdw?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "dbeb27b7e06ab002",
+      "published_at": "2026-08-02T23:51:13+00:00",
+      "title": "Trump says new round of Iran talks will begin Monday - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQaWlOS01PM3h0RHk5ZVNJU3F4anZleTVhNko2ZnhpN0hFcHVfWlhnYTlXVzdTeW85UEFOaFRlUWE4QWo2bmp4ZDBqTFBKNzhpNE1iT3Bvc2lpUHMxTEM2Ry0td3RJd2RNQzhZd1A2RzMxVjM3UVpLLU5WY2RHT1FQc05UMnJMeDdDM0JpLWYyQWppTnpKTDNJ0gGcAUFVX3lxTE41UWl5eVp0bGlPYTJhQkxreUc4NUNnc2NOZ1dtWFNXVEozNmRrZEg0bW10aHpmSkxoTGlEakN2XzBQLWJ4Z20ySW1kWEtlLURhY2NqNFBWOXprWFB2QTVzXzFtS1hacHQxTi1HWm96eGtvdGZ3NTZPMHFkM1Z2bEJySUJuY1lnZGl0Z1htajdUSU04WW1CWVVzeEN4eQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "33f027ab09245202",
+      "published_at": "2026-08-02T22:59:00+00:00",
+      "title": "Trump says Gulf leaders' input weighed heavily in decision to hold off on ordering new Iran strikes - AP News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZy05LW5ObUpORjFnYnd6WWR0UmJrOVVXR19TU1JqcFBxdUtwMGRGZm5DX2hNZ3h0dWhRWk5Rd3M1cGY5WnpneE85T1JDOEdtYnZUMWl0b1AwN0JseTRCQTNmVlllQzN1djg3RzIyWENCdGx2SzdZSXJLNHJJeXFPVHVwc292NnlCbDJTdDhHQ3ZURE0zaEJvdHR2dkxyRVk1a1FoTmtoZw?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.7
     },
     {
-      "id": "8cb0408b6371f786",
-      "published_at": "2026-08-02T21:11:01+00:00",
-      "title": "Iran war live: Tehran says Hormuz negotiations with Oman in \u2018final stages\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQckRfaGFCa29xN2dPU2hUOUJVcjBTWFQyRW9UeGlfd2JzaVpVLUV0XzdSQmFwOFRBTlN2dF9wXzVzN1duRVVWa29jMWYxUmV0Z1poMlU1MlZ6TjZzbS12Ym03M0NRWm1CNG9HdHB4RVlMM3dORW5CYUtDSDBhRnBmQkc2a2FDS2U2VGlCYWVUR0ZHY3g1S0JjTHlOX1JZWEZSZEs1N01JZmQxV1hvVzd3QkJyWWVZSTJF0gG-AUFVX3lxTE9TRlJmVm5vQy1UaVNfMzMtamJHS25fNXNnZUlDaUhlRWV0cGhtR0cycXVLcjFXZlZFcWdWaWpOZHRfaUlEYzhQa2t3a0Y0QXN2U2NvazRfc19ZcWJUZFVTblVQUllqc1p3aUdUeUxWMEVNTXNDeWxabDhVMXRBRUdaY3hYLTk3Vy0wVVRTVi1wUkdrV1dqRUY1aWc3VGc0VkpPamRUcXdIY1FxXzJQd1ZJUHBYYlNEUTlOS1BJVXc?oc=5",
+      "id": "96cd6c5d434260a0",
+      "published_at": "2026-08-02T22:28:26+00:00",
+      "title": "Iran says negotiations with Oman over Strait of Hormuz in final stages - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFYzaDdIUG9SR3l1dzNiQUp4bWhmTVBGcmdTQkZOS0RrbnJTTUhneU1veEpSR1RIZ1BXekpHWEJZaXhlb0M0SDhmY09wOGV3eDZXU1NmMV92azJwLU9KZDQ1SHRqNG1BWnJ1YzFsWThaY0k5YnUwejZlX2tNemE0VmZyZmpTZUtyMlRTb1lnRlp4eG1MNmtoakxoUnRySXdMdmgwSXVIcGJEMU0xeVEw0gG0AUFVX3lxTFBnSzJfN0RNVElnYktWRWNzb3FKU0l6VjFBdk90VFVVcU5YTHBvR3RGS0F6NktvTkMxbUgxOFZMS3ZQVW90Mm1MYVZVSW9OOUNpeTVMNUxFUzI3a09pZ1ZBMzZzYmxTTHVRZHh5cEFlLWU5V0ZxNHRxYWF0cGQ5SEhEUGZLa3Z5TlZxNHdjdU82Y1RySHRYa1dIdGpmd3dod3I1WjE5NHMwdWNUWjRkVmlFaXdrSA?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -143,11 +308,11 @@
       "confidence": 0.6
     },
     {
-      "id": "96c10f55aad9e99a",
-      "published_at": "2026-08-02T20:39:03+00:00",
-      "title": "Israel \u2018left in dark\u2019 on joint Iran attack, knew Trump\u2019s decision to call off strike from social media: Report - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY0U2QTF3azVyTDVEektEbWdBQTZ5dzhJTExsN0Ita28tU0UwOUJGYTNIZmpLYWVvTURVcUhUWFNzbUxIQ3gxb1pENDF4N29VZHRzQ0VrakNvU0ZYTklSaHBOV3QwUTR1d1lwM2hyNVhWQ3dVekRYSW81U0lHOUVIRG13VEV0MVdpaUU2Z1ZxaGNnRFFBWWR6ZzdxVUJHdnZ4aVQ4OGVQY0R6T05KajgtMWZxWVJ2XzA0a2JkOU0zLWZxZUszekdiNHA1Z3IxRFp4ankzQ0RIR3MzOWhkQVdUcWRjSUN2VXl5VUZGVlh0OA?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
+      "id": "cbe8a958feffa6f9",
+      "published_at": "2026-08-02T22:06:17+00:00",
+      "title": "US-Iran deal news: Donald Trump says he will order halt to Iran strikes after parameters reached for deal to end war - ABC7 Chicago",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR0dCZHl6c2NxTUYwZ05scXVhVWtXMjZGODdicV8yaEZYQlkzY1RXTkpVWE5BLWJGU2U0VlVmTldvMTRxRkJUdG16RVVEUGc1X3dKbVFHeUdDUTQ2dVlSYkRtNW1WWXlyekZHUGRfVnViUjMxNnNYSlYwV3lKNUh3WUZDZ3k1WnhCMng1TXJGNzg4SS0zc3lXcjlBdUxVcFlWZi01ZU03czJ0ck5aTnN6LXk1Ym9YejFMUm9aQXZHUEtSZXNsWDMw0gHMAUFVX3lxTFB2NU9tWnIta1c1T3ZxSGNEZWFybi1pMlpHWnZ2VGR6OHJzTWFYMDhpdElHSnJaOHZPQTVEdmhtUVpjY1h2bjJlakdiS2RBNUQxbG5fUlp2R2tHZFVJUFpVRnRsaHBYMnlxN3ZDVzVsSlVSbjJFSVFtN2wzemtNUWplQS1ibERDazIyUVlncjJGWnhQb2o1SzlSUEhIMXVuYVMxZ2Ffd1UxY21QYnRqZnFJNG9KczZ0R2NBRUIwT2tKZ2p0VF9aUnNPN0NmYQ?oc=5",
+      "source_name": "ABC7 Chicago",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -158,11 +323,41 @@
       "confidence": 0.7
     },
     {
-      "id": "ac8b59902f15a443",
-      "published_at": "2026-08-02T20:16:37+00:00",
-      "title": "President Trump said late Saturday that he had canceled a series of strikes on Iran because of unspecified progress on a deal to reopen the Strait of Hormuz. Follow live updates. - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQRXFiLWhnUEM1UHMtNGwtLUIxdzZRX0NETGh3ZGZzOXZkaVZERXF2QjNsZGZpWWJlRmR2elNFenB0N19yTEJwU01GLWF3dkV1dkZPOV9Ma3YzNGRORi1rbk16YndHT1FUQzU2Yjg4azRaZTBkaFBzeGZ2VDNreS1fOFBReU9KTjhaWnh6YXNfUWRna1RwSm43MzNZWlVlSEk3akhDMFJPdEh6amxmdEx4b0h0UksxTDFWZDRWYzJuVjgtWkNKYUNkcXRyd0o4UHhUVUZn?oc=5",
-      "source_name": "facebook.com",
+      "id": "0b379123ac19a56a",
+      "published_at": "2026-08-02T21:29:47+00:00",
+      "title": "Trump frequently announces he's halting strikes in Iran. But they keep happening - PBS",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMnF0NTlRX1RIMjhPQXYwSmpoYjdQTzFRNU1WVXViWHFmdkVrS2hBbU9sSkItSnhQZUxrRVFfOWd6YzROUVJNMGFVZjhZd0lrT25BSF9vN0xnbElpaEpsdWdQeVNtNmJMQXhlcDhQYjFKME9HVW1LVDZ1ZUZmMWo0Wmg4ejRrTGpnSnE0b2xmVlNSdm1ka3dUeXVNVzVuN2p4LXBGTzE1RGdPWVI5NW9seDNHNV9qWTDSAbwBQVVfeXFMUDd4QUJvR2tLVk9mUmI3NjhibnFJN2x1Q3o4RVlick1ybW5QS0hPTWFpaFFJUHBBQ0ZmUXc2Y0doYXgtQWliQ002WEZ5VHlBU1FJMnVnTDJsY05ZMHdaajVHSHhRdV9VREdramtOMG1hZVRYTXZrUXBSS3p0MWxaQUVNcTBnUElhNjhpM3Fzc0J0Tk01QlVUUm5uVGg1YVRiWS12bmN6X3dRTGduRmJZMDVDbnpYbWpVbGp3TGU?oc=5",
+      "source_name": "PBS",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6f568ebfa97a81b0",
+      "published_at": "2026-08-02T20:52:56+00:00",
+      "title": "Iran Update Special Report, August 2, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOY01YQjAwWUJGWnhxTmN1TkZzMzlfYTI1YU9ZaEFXTjRuUWVzdEMzazRHN0ROOU9NN29QaXBDT3RaRXVIaEYtT0pnbWw3X21ySkdqci05bTBDZXptNFhwc2FLNnhrWGVIVDhLS0R6VGJGa3NXWHJHRWVsS3V4TzBNelhyaXZOMUJxYmlQaDY2eGtVeXlfM0E?oc=5",
+      "source_name": "Institute for the Study of War",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "96c10f55aad9e99a",
+      "published_at": "2026-08-02T20:39:03+00:00",
+      "title": "Israel \u2018left in dark\u2019 on joint Iran attack, knew Trump\u2019s decision to call off strike from social media: Report - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPY0U2QTF3azVyTDVEektEbWdBQTZ5dzhJTExsN0Ita28tU0UwOUJGYTNIZmpLYWVvTURVcUhUWFNzbUxIQ3gxb1pENDF4N29VZHRzQ0VrakNvU0ZYTklSaHBOV3QwUTR1d1lwM2hyNVhWQ3dVekRYSW81U0lHOUVIRG13VEV0MVdpaUU2Z1ZxaGNnRFFBWWR6ZzdxVUJHdnZ4aVQ4OGVQY0R6T05KajgtMWZxWVJ2XzA0a2JkOU0zLWZxZUszekdiNHA1Z3IxRFp4ankzQ0RIR3MzOWhkQVdUcWRjSUN2VXl5VUZGVlh0OA?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -193,201 +388,6 @@
       "title": "Mediators seek to revive US-Iran deal, open Hormuz for 60 days without fees: Israeli media - Anadolu Ajans\u0131",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPS0x0SjU4ZndwYkkzbGpLWUl6VGJyaDk5LVdxVzZrY255WnVwSklCcExwZVRzVFBqdzU2c2hndzVGMW96SUdaWWJZeXY0bGRLVENqTWR3V2VPS3FzWWlXeUFxbE11RS1vM2RhaUVHU3FVMkJEQVZ6TXdMTnZ4VjhlMGljWF80dV9VaDBpdjEzdlZ5TlB5TkRVOEJKcGZfbU9LMnRTVzFvUVFUczI4cmQ1Z0dudlRfX0d3d1NnNl8tbHpFUGM3ZUVGSEpUNndKdWp6RDJNMXEwUQ?oc=5",
       "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "436b7481b499f551",
-      "published_at": "2026-08-02T19:31:26+00:00",
-      "title": "Live - Iran says Hormuz talks with Oman near final stage after Trump calls off strike - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJNEw4YWVnZlRxX204UFhRUkh4bUJtT05YckZtOGxfUS1wVlAtTkZyU2l3eElBVEFwdExlTUM4TFRoNFdyalVWQWlTS1BHQ1pXd1loOThzWVBhbG5za0E?oc=5",
-      "source_name": "Iran International",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "96cd6c5d434260a0",
-      "published_at": "2026-08-02T19:18:36+00:00",
-      "title": "Iran says negotiations with Oman over Strait of Hormuz in final stages - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPcFYzaDdIUG9SR3l1dzNiQUp4bWhmTVBGcmdTQkZOS0RrbnJTTUhneU1veEpSR1RIZ1BXekpHWEJZaXhlb0M0SDhmY09wOGV3eDZXU1NmMV92azJwLU9KZDQ1SHRqNG1BWnJ1YzFsWThaY0k5YnUwejZlX2tNemE0VmZyZmpTZUtyMlRTb1lnRlp4eG1MNmtoakxoUnRySXdMdmgwSXVIcGJEMU0xeVEw0gG0AUFVX3lxTFBnSzJfN0RNVElnYktWRWNzb3FKU0l6VjFBdk90VFVVcU5YTHBvR3RGS0F6NktvTkMxbUgxOFZMS3ZQVW90Mm1MYVZVSW9OOUNpeTVMNUxFUzI3a09pZ1ZBMzZzYmxTTHVRZHh5cEFlLWU5V0ZxNHRxYWF0cGQ5SEhEUGZLa3Z5TlZxNHdjdU82Y1RySHRYa1dIdGpmd3dod3I1WjE5NHMwdWNUWjRkVmlFaXdrSA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "6eb9b29717d5a8bd",
-      "published_at": "2026-08-02T19:06:14+00:00",
-      "title": "Iran says memorandum of understanding with US to serve as \u2018cornerstone\u2019 of its future foreign relations - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQR1piYWZqenhTbHlsUnFnaGZ0ZHcxVEJmeldXelpDQkhmOWdBOXNiQ3o3bTNzbFJkcEtHN29Wdm9VaWtacFJVYzBmNVozYmczYTV2ZHdfcThLdHRLWnNBWnUxNzhFQ2FKRk90NzQyV1EtVVY3N3RQby1EdVlZYnctQjI2WlRfaENUbkNsWS01dUJQbXBRUXRXLVlMZmQyMExKaVlEdldzV1JQbXlTNmtzVGFTeWJNaHhVNERiVDM3RURrdzMwR1BZTm4tLWhGWGZta3NsdlJUb0dZYUVWa29FaFJzTWZITzY2?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "be6d7810d067b0fe",
-      "published_at": "2026-08-02T19:00:24+00:00",
-      "title": "Iran says deal with Oman to manage shipping through Hormuz is close - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQejVYV1RBOVd3bTdBMXpUNDc5VlhwOFNQam83b0NiYThFRXd3eXBLcko3dXY3c29EM2t6Rkx2SkJxMzQ0Wmxpd3FJLWgtLTJQREpSdkR2ZUhSSFVqQ0ozV1dHbS1GSFl2UVNxMURxMXFlZXVROFVsUEtPdWQyUzhGbTFvVGg?oc=5",
-      "source_name": "Financial Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9faf0a3867dc44ee",
-      "published_at": "2026-08-02T18:26:00+00:00",
-      "title": "Trump says he will order halt to Iran strikes after parameters reached for deal to end war - AP News",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZy05LW5ObUpORjFnYnd6WWR0UmJrOVVXR19TU1JqcFBxdUtwMGRGZm5DX2hNZ3h0dWhRWk5Rd3M1cGY5WnpneE85T1JDOEdtYnZUMWl0b1AwN0JseTRCQTNmVlllQzN1djg3RzIyWENCdGx2SzdZSXJLNHJJeXFPVHVwc292NnlCbDJTdDhHQ3ZURE0zaEJvdHR2dkxyRVk1a1FoTmtoZw?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "97667bf97cce9d22",
-      "published_at": "2026-08-02T18:00:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and Middle East - jpost.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAtdkx1cHBkVk54UzdoRllmdW5tLU53YzN4dDJRQ0RZcFBHcHhUeDMxbVNvelBRdmpkLTFLYU5UQTVLQVRfaHVGb0tfUHRnNUhxQlRsNFpsMThDQTI1T0VFa2VRMEZka3ZzSDhtenJqSHM5VGo0Rk1zbjJhaDdUM0E?oc=5",
-      "source_name": "jpost.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "890f1db6f801211a",
-      "published_at": "2026-08-02T17:53:00+00:00",
-      "title": "Live Updates: Trump calls off strikes on Iran subject to peace deal being \"rapidly\" reached - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTExVbGpfeGpwRzZoYzd1SlBvaWhnZVJoUXc3ekdDWWZ6alQ2ckh2dzhSV3B5VWVJLWZlSkp4bDltM3pQaXN1MHJBUWQ2NnV1UnFQeG05SWQ3akZJczRxd0lmaDVvd2R4R2VXQWZ2T2pLWXQydGowVDMtUWhYUTBNMzd0emxJUldOcHJ3SVF6UjcxUU5Tdm9SdDNkUQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "cc72acab0463b56b",
-      "published_at": "2026-08-02T17:48:00+00:00",
-      "title": "As Trump balks again, Iran smells 'blood in the water' and looks to exploit its strategic advantage - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbHpOSHkxekhja2J2VnFKMHJoYzRzUndZQ3NESE03UHhVTXgtMFZHT2F0RV9fbGFZM0Z5bUhwdXBmaWdEdnVVTGVZcDl2SmtGN0pJNVFwcDZYeHlxdjZ5MXBlNTJZYkt6WUJHc19GUUlTX1pRV1ZtSTNTanpZQmlVV1ZTMWhrZURDNy1ySk5tQ2o4TXctZlQ3Y3JISWFZLWtOZmc?oc=5",
-      "source_name": "Fortune",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "84e4e3e58f636f0f",
-      "published_at": "2026-08-02T17:36:13+00:00",
-      "title": "Iran warns of decisive response to any new attack - Tehran Times",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOMGRTcjF1eE9manF2TGpLOWw0TmthLV9wUlpQY253M2NNcVR1NnBGcHc5QlpGMkFYT2JNcFZacHVabHQyNm9YSHlNdktaMldHT1AyejVjOUR3OC1jSWtBLVFaeFBrS29hVkowZHd3eFZwZXdEbVJBWmZkN2hTamo1dTBGUndxejhOUW9IWHJydG1kWG8?oc=5",
-      "source_name": "Tehran Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "89bc24db1b98fa47",
-      "published_at": "2026-08-02T17:12:26+00:00",
-      "title": "Fact-checking Trump's claims about how the Iran war is going - PBS",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeVdQRXpNWTRoRi1YLTdNU2kzYU51ZE1QYVNQNkdha3RaRDlrTlNKbmstZFpMNW43cWd0UnZtNkZPdllONk90Zld1Mm8xS09aZHJndUJYRHNKaXU1dHZTRjhTajRHMm83ZkdtaWtBaUtyNGVWd05UT1oycXVOSVlQYzZSNUFJelIxZTJDbWtsWFZka0NwdVE2VGNB0gGfAUFVX3lxTE9xU2hETEd1NGh6TTJrZFU3Wk1DZjdfYVZITGRUNEE5eVpESkVlbmR3bmJ3bHd4eloxUURxMGFvMlB6Um5CazduY3ZOZE5fa2ZSY0kzalUzdGcyeXhhYi0yN2NEVHJzbTM2NEhhX0VKZDJSWHhYNHM2Q0wxb214SkRXV1U4OER2THg0akNTTTBhdEZyRF9QVjRmMlh2QU1naw?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "7783453a1831ba75",
-      "published_at": "2026-08-02T16:35:43+00:00",
-      "title": "Trump postpones Iran escalation following Gulf diplomatic pressure: Reports - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTWpjcGN6U0JFcnZCWVhJLTVXYU5zTWJld0pONU1UVkNBaC1kd2NpXzc1cWh0QlBaQ043VUtvcnhwMHJ2ZHd2MGE2aWkxS1FiVTB5S3hQRUxSdEtXa0tNU1RoUDZUM3dRTUFVRU02U0MyTGg5cFdvTWFsaURSMkxFaXhiQ3NCZlluVm1Bd1JHck5qeE1IVk9NWlY5bVhwQ1dGQk03TlpXZFF6ODNOMlZJR2dUTEI5Q2MxbFB6OXE0eDJ3MS1Z?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "82c7c1cfb0f2702e",
-      "published_at": "2026-08-02T16:27:30+00:00",
-      "title": "Saudi Crown Prince MBS urges Trump to \u2018prioritise dialogue\u2019 in US-Iran war - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcWdJZ0hLbTduamRXQktXdkUyLVZJUEJwN053cGMwM295b0dBX18tcjdlRXhSU3pwZjlIZzZQcDd6TmQtVkcwUF9venBYeDF6TjFBZkplVGJfYzJRS0hMVEV5QW9vZ2FOSmpaR0lxc20xVHhteVN1YU8yQ01CUEI4Y19TVEpPTHNGRjFSU3NPcFlBY21qcGtkN2ptN1ZjTnFQM3VraWpNX203VHRBTVcyX0dR0gG3AUFVX3lxTE9VLVlTSTJ5ZXJaREhEZEZXczU4Szd2WmgtVjNnbU1KbmduTjBOT3RvOEZFVWIwRDZCVGR5QnlnaFVDZ0ZjWGpWVFhLMnpZMjhMMVdpLTM1UHJ5Z2FvdGp5dHctaGYwUEVzTlJvZjRObEg3VmlXYWtXWmwyNXg3em9uMXk5Mm5EbGNDSXJoMWJvVmtfdkZDUmRUdElwT21YX3lJakxWN2JPc0Q1MFJfeEdXYzhuZDQ0bw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "3b9e7762698405f2",
-      "published_at": "2026-08-02T16:15:39+00:00",
-      "title": "Trump administration calls itself the most transparent. Yet few details of the Iran war have been shared. - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa05qQzV1OHdTNWpiM25ueXlUMEpiamd3MG9VTWwzWHJJVy02Q3RwdV95dUdmcHZoNjBLRzhhM3dsOVFFTGVtNGdtU1p0Y1VGVTJUaktOZlRFRDhIMkpJZkQ3alVTT2hsOWMwX3B0VG4zdjNReWxZLXVVRF8zZXBqNVhkRU91UzQ?oc=5",
-      "source_name": "CBS News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
