@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-08-04T09:12:18.959938+00:00",
+  "generated_at": "2026-08-04T11:34:50.867317+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 102,
   "totals": {
-    "usa": 42,
-    "iran": 15,
-    "lead": 27,
+    "usa": 39,
+    "iran": 16,
+    "lead": 23,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 24,
-    "iran": 15,
-    "delta": 9
+    "iran": 16,
+    "delta": 8
   },
   "confidence": {
-    "score": 67.3,
+    "score": 67.0,
     "label": "Medium"
   },
   "event_types": {
-    "other": 34,
-    "attack": 53,
-    "diplomatic": 12
+    "other": 38,
+    "intercept": 2,
+    "attack": 52,
+    "diplomatic": 10
   },
   "history": [
     {
@@ -67,7 +68,7 @@
     {
       "date": "2026-07-30",
       "usa": 15,
-      "iran": 3
+      "iran": 6
     },
     {
       "date": "2026-07-31",
@@ -77,31 +78,166 @@
     {
       "date": "2026-08-01",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-08-02",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-08-03",
       "usa": 4,
-      "iran": 7
+      "iran": 6
     },
     {
       "date": "2026-08-04",
       "usa": 2,
-      "iran": 3
+      "iran": 4
     }
   ],
   "latest_events": [
+    {
+      "id": "170e46816c3992a9",
+      "published_at": "2026-08-04T10:57:25+00:00",
+      "title": "Opinion | The Iran and Ukraine wars were never separate - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGZ4WmNPUVo5LXZvdVhSZDVDU3VUT3FWUm9DWDZvNUtySVdyZVRYaUoxZFhHeFhZaTRCMGtpTkdOeEd3dDA1R3hfNnJhQW14RHZ5VVg5YjRnZVAwbmN6ejA1MmUzbTdQZ0ZQcDQzM0tYN3U4NlBDeWFyVDNmUjJCNkNtR3I3d3puUnl0ZkpMblBXTVk?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "ebdb0d4f58e6ff21",
+      "published_at": "2026-08-04T10:42:06+00:00",
+      "title": "US depleted 'virtually all' long-range precision missiles in Iran war - Reuters - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBhQlFkaW9qVXlucTFmN0R0RjR4eGNZN1p1bjh5WGJRdHRfX09sMU80OEZpNDQ3VjFPRTJPcUp6ZUxqNXJDZ095bEdidS1JYjJQLXc?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "e7cc1843445e92b6",
+      "published_at": "2026-08-04T10:40:09+00:00",
+      "title": "US-Iran war LIVE: Saudi Aramco reroutes oil as Hormuz traffic slumps; Iran MPs gather support to impeach Abbas Araghchi - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOWDFycmpQZW11Y2pkMUhicGVVUWhJMEV2cTFrZndUTU1SdThCQVFDLURyY3VSRkRRR2dwcE5lVjhTRXZkNzl0bl9FYkp2cl9YeUtxbU5lZFk5OUZFYVJBa1NYSEtmLWpBbGN4UUFJaGhMdlBQRUFLcGhMUHZ0eVBNMGVjak9BblBFeG1tSWpEYWEtVjVFdHFWeEdIMTBhVnBVeGZDTTB5ZlNkUmNjQmxXV3R2UkVjdEZrcEJVWDYzQW9qQXdSdUlPd01ld0pTLWE3azgxdVZhMGg5QjJmcWFFMjhKcnV3MkcwcUZpYXg3UQ?oc=5",
+      "source_name": "livemint.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ea8d67c02ffa593c",
+      "published_at": "2026-08-04T10:34:11+00:00",
+      "title": "EXCLUSIVE: US has used 'virtually all' of its long-range precision missiles during Iran war, sources say - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZjVoa01lTFhQYVMtVjRxRWZKSng1YzFUTTNJOVI1T1pWZVNKc1czOWhJWHB3VDFFWnVrY3lLT1FnSVBfU1M1RFdrU2FsYVlKZXdhVm9VbF9PaEFNeGVMR0ZtNmlEeGhkWG1iang1U0kzb3hmWENGSnNXODRzdnZYaE1LYkY4Vm1hbzJEcEl1ZzZIRVBQLS1nYUYyTWdDdjZjXzN0NmtuZm5IV2FEdlBQby1UUnBqc0FF?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5544b39c0e7a5666",
+      "published_at": "2026-08-04T10:05:13+00:00",
+      "title": "US Iran War Live Updates: Hezbollah signals willingness to meet Syria's new rulers in major policy shift - Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQelRwUGQyS2g3cEtKTFpsdjhWTlJ2LS12UVl5U2llcG82ajlyMHg4QzhaQ2dTMkRRTnZPQ2Rrbk1nbEJCdEJXZncwc1R1eXdtRC0wd3NJU1VyR0huRTlNUWtkT2JCejB3WWVPb28xbTlrZjJSNnZZazBZMjVIWW5LZzB6dXFTQm5BWGc2Q2FBN1JvcVRBd0kzVWg2NzlZTmxWWGRMbkoyVk1MSm5tNWYwbXBfZWVYOU9HcUNMT0pYZXdUYnJjSmE4NndNRE8tZFZobEhnakR30gHbAUFVX3lxTE0wdW9RaEdxdzZsS05HOUhIU0FrcFl4V0xJYVg4VzNjc2JHZkViSUxOUUpqdXNzR29tVzlMNjBOS01ZODMxRlBURXVZNlcxbTdlNTV4X2I1Nld0NWNPV2JGWTRjLWtZUzk0TzN2c0g1T1AyR2ZLVUU2dDVpTXlIUmozRXN2Qlpqd1pMZ0VTNkpZc0x0ZGpTMUtvTEMyTFFqdjFRSUhEa05NTmxZbTU4VnJwUDVtNTE0eDJuV3NHNGlZT3owbmVyWUFRNEZBX294cE45TndnejMxTktTdw?oc=5",
+      "source_name": "Firstpost",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e255cf5c4c4b3346",
+      "published_at": "2026-08-04T10:04:35+00:00",
+      "title": "Bombing Iran back to Stone Age is not a winning strategy. So why does Idaho's delegation support it? - Idaho Capital Sun",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNVG0wUVUxMHNOVWlHbmhxUThZRl8tZTZGOFRwcTBjVzkwb0IxNUlqdUdqaTdXN3RhZTg1ZGQ0Y25rYmlTYkljWmdxMmpLNzdyUWRpTlhxSXpfNWI1SkxGeGJMLXU3SDdDeUc1WFVPOGUwVE5wV1hJZGRfUWlOakNZVDk2elpaSXFRREhtaUc4aFUzNWlTMHhkRnFvXzVnWlN3MjNicjRXX1N6UThYZ2hfeXpITGl5bG91azdYVHJ0RjNoLTZ2UTFYMzhyMVRxVGtpRW1Z?oc=5",
+      "source_name": "Idaho Capital Sun",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d68d8c7b784fcfa8",
+      "published_at": "2026-08-04T09:54:00+00:00",
+      "title": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran - The Intercept",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwNnpFbVpjTHFmTGJERTlscHRhMUVjSUZnV1B5M1JZT2JHQ2xwOVdsSy10SG4zR2NsSWtIdlFveTg5Ry14SmpZUGxwMVhGMkdkRG5aVDhWbG5uUkFFZDAxSXhKNXU2YmdlSHQ4S1k2RzUwd0J2TTR5eDdadFZPdjQ?oc=5",
+      "source_name": "The Intercept",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "099f2a0c071664ce",
+      "published_at": "2026-08-04T09:24:00+00:00",
+      "title": "Trump accuses oil companies of \u2018making too much money\u2019 from his war on Iran - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY2oxbGhTZWYtRzladjFUVHcwRUVxZW9rZ1ZwTWZkbEZtRC15T1BtTUM4d2JoTUI3cUxRdkx1Q1gxSkp3Mk9TUWU2XzQtRGN4bVhYTG9ncGhWRmVicVNhWEk1TVhBQWx2MFBRQWJHZDRvcU90ZW1TelRMWURSOVFiYUw3VzVjVkpRLUNsTXI0WEp0WV9kSDl4QS1iZ09MeVZ2cVprek9naU44Zw?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
     {
       "id": "b5a0465084fef30f",
       "published_at": "2026-08-04T09:06:29+00:00",
       "title": "Tehran records heaviest damage in latest war, municipal report shows - Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1SOFZnb3ctM1NBNlBfYk1fN2t6bHY1THY4cFhzQjM3V19aWTd4U3FoTV80WnZmRUVxWmtKS2FMYjlaRW1sSVgzd2FlWko4RVdXaEE?oc=5",
       "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "d2ead2927797c91e",
+      "published_at": "2026-08-04T08:37:12+00:00",
+      "title": "Iran war live: Tehran slams US blockade as Trump warns of \u2018last chance\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVTd3c0hZM1BYS2M5NXNHcERxemtBcEFPZjBrdWVERGVEUkNLTnhtSTgtX3VDbVdZd3ZzSFNiLVlQMTdMemlqVDdYUHdwaGxrMDRtUEVmeHFrb0Z2MjZYVDVfMktsc0dlczVmQThGZmdITUhVR2xXX1JHaklKV1dHbjBrTWFzNWl4WkxVcG8wSnNnWlNGOUNKZWk4VWdMV1ZpSi04Wl9HSm1ibDlNenRIMmVPcnlKQdIBuwFBVV95cUxPMVRmd25CaE9fcWpyT08zMUw3MFdhSnlrcjNkdE5LRE9yOUFjSWI4cE0yLUY0UFFJQjFNZ1VCcTRHX3pqNlMtY2FBd0dzMUJjdERDdGY1N1N4QkZMTnk2THE1SC1FWFFCb1AydVM1eERmdnNlMUptRFBFQURfOEZfUWFiUElxeEJNbVJXYkRvUjlvamdyVXVxb1VSZlo0Sl93WDZpZklib1JreTY2cm41djdRUWs0bXBpcEFR?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -127,6 +263,36 @@
       "confidence": 0.7
     },
     {
+      "id": "21bf39245c11f4bc",
+      "published_at": "2026-08-04T08:12:15+00:00",
+      "title": "EA on International Media: Trump \"TACOs\" Over US Strikes on Iran - EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBZVZzTFZpeU1HZlMyOTdqaDVqa0J2U3RsVU1wQjk1RUdkWWdBekdtcXZpSlVocVBkYlRxZjZHOG5aYm1PWFNLc2RNMFFyNC00a1BURXVDMlJtZDZxSHR6U3pnZTIwMS0wVVNic0RTRmw5YmRWbWp3?oc=5",
+      "source_name": "EA WorldView",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f750804ad285e886",
+      "published_at": "2026-08-04T07:40:25+00:00",
+      "title": "Aramco reports higher revenue as US-Iran war boosts oil prices - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOUXZqSkJkdTNLSF9vQnYxcXhFRDdFWW5zZWQ0V28xX0xvd3J2WGRxbUhXTGZibGJHNFlFMnptcE81bkd4M3d1N2xQUnF5S3d1WkZYNkRscEVVZnhxY2xJZTY1WDNoX0stUk9xZlVuTGZmcm9jQTdUTzVFN2NrTmtsaXQtTVZOMDZtMVN2SXp3clp1cmM4aGNZYWdvbzY0bnB1TkRUVjd3?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "e48ae4ae105823d4",
       "published_at": "2026-08-04T07:19:00+00:00",
       "title": "Live Updates: Despite Trump's remarks, no new negotiations with Iran are planned, U.S. officials tell CBS News - CBS News",
@@ -142,41 +308,26 @@
       "confidence": 0.75
     },
     {
-      "id": "b49f37ef005d00ae",
-      "published_at": "2026-08-04T06:22:30+00:00",
-      "title": "US stocks near record high, oil falls as Trump claims Iran talks under way - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM3lRMnNtREFPd01Dc2NnWXZXclZnUjZsQ3pWNTd5bW12dmFSdDFyNWRxcFBzczF5TGFNZ3pwbzIwU1paUzNZMV9BNTd1c2d4UzBleW1aX1YyMnpIeVVZZ0N6SVB4Q1Q4aThZLW43LVR6OVhuQTNST2VyZGlYaXQ4cm1SaWpLMElIajRaWF9nalQybHI1MVV4Z3dvV3pNYURpMEk3cGVrZDlITEdJbFdnckVEeWo0UdIBuwFBVV95cUxNbjVjcldMX0ljOVNVdEVHajk2alBIaURLeF9Za1Zia1h3aTR6YUNMUDQwdmh5TUZqbmIzZjdGbDcxSHcyeVZjMGRxYWpZYU9hNS1tSHBzQ1RsWWpNMUNjN3BUUjdkVnM3NlgxbnRDR180SnRzbkwyeDdfX3pQRTBHTGU2M3VRVTZnTDVVWTk5dlhPLXBGZXF4MHlUUnpWMTg1emtyb2lrOGdUMnNxVmhsNm5wM2ZKY0txXzFF?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d2ead2927797c91e",
-      "published_at": "2026-08-04T05:55:13+00:00",
-      "title": "Iran war live: Tehran slams US blockade as Trump warns of \u2018last chance\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVTd3c0hZM1BYS2M5NXNHcERxemtBcEFPZjBrdWVERGVEUkNLTnhtSTgtX3VDbVdZd3ZzSFNiLVlQMTdMemlqVDdYUHdwaGxrMDRtUEVmeHFrb0Z2MjZYVDVfMktsc0dlczVmQThGZmdITUhVR2xXX1JHaklKV1dHbjBrTWFzNWl4WkxVcG8wSnNnWlNGOUNKZWk4VWdMV1ZpSi04Wl9HSm1ibDlNenRIMmVPcnlKQdIBuwFBVV95cUxPMVRmd25CaE9fcWpyT08zMUw3MFdhSnlrcjNkdE5LRE9yOUFjSWI4cE0yLUY0UFFJQjFNZ1VCcTRHX3pqNlMtY2FBd0dzMUJjdERDdGY1N1N4QkZMTnk2THE1SC1FWFFCb1AydVM1eERmdnNlMUptRFBFQURfOEZfUWFiUElxeEJNbVJXYkRvUjlvamdyVXVxb1VSZlo0Sl93WDZpZklib1JreTY2cm41djdRUWs0bXBpcEFR?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
+      "id": "c29fbed1781ea5f1",
+      "published_at": "2026-08-04T07:13:34+00:00",
+      "title": "Iran Strikes Kuwait Base, Ship Hit Near Hormuz as Tehran Rejects US Talks - themedialine.org",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMm5NVmhJcmdBRTNya0xuU0RObXdkenAtdHh6OURQcW43Ym5HYjQ4OXlGSkMxc0RJVkpNbEl4THkwWDN6SFBjc0ZiR1hydzJwOXJLZEZ6bkJwaHhpaXFoc19yT0RvdjNqQXpRZVk3VURwQ2VTN1VZeFBJOE5CYXRxZkFfNzBCdmV2QVZTVEppV3VfeTc5MU1OOU92ZkM1MVhxckV6bEgwUWNPZlhu?oc=5",
+      "source_name": "themedialine.org",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.65
     },
     {
-      "id": "d785a206c21a9b08",
+      "id": "542511782ffb29cc",
       "published_at": "2026-08-04T04:01:25+00:00",
-      "title": "One mistake Trump hasn\u2019t made on Iran - cnn.com",
+      "title": "One mistake Trump hasn\u2019t made on Iran - CNN",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QTUIxTE9uOW1nc2Q0U0NYOEg1cTdRY2VlLTJpM2lMdlRPVVdaa1MtSW5SQVdzbEhDT3lWNGx1M1dYXzZPaFZIU2l5WlduYXJ3YVhQR19adEpZcnRHUjhWcjBpQ1pXTG1KQVhPaER5RmtLdWxkQlBLMXUybw?oc=5",
-      "source_name": "cnn.com",
+      "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -185,6 +336,21 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "7a8dc16b3a467385",
+      "published_at": "2026-08-04T03:41:00+00:00",
+      "title": "Status of US-Iran talks uncertain as ship struck in Hormuz - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
     },
     {
       "id": "672967acd697e3e7",
@@ -230,171 +396,6 @@
         "iran": 1
       },
       "confidence": 0.7
-    },
-    {
-      "id": "8cb5c5ec4fd940d7",
-      "published_at": "2026-08-04T02:47:00+00:00",
-      "title": "Progress Toward Deal Led Trump to Call Off Strikes, He Says - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56VERmdjVVZEJzaHhVbVlXY2RmbmZGUkU2a3o3QUxOaFl0ZFVZNkwtNkRYZV9UZ1ZYanZXcHFDZmVIc09NaWJSMktBRVJrZlVNRWhKZ25FYjhYbmZ2dzRMSjlEQQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "90d3ad3d095be2e2",
-      "published_at": "2026-08-04T02:27:00+00:00",
-      "title": "Trump meets his obstinate match in Iran\u2019s hardball regime - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNMWpRMll4VldDU3hqSy1JaVBDMVptcVBKLWtGN0U1dFpJbF81Vy1oVHhwWjc2NXk3RnFSLWc3cm5sYUFoWmdBZ0ZtYk1VUVFNSDVpUUloR1J6b2VXUGxfbG1ZSVRHT0d0cEF4NTVDaHJMNFlRU0FmcFoxMVRhX3BkX2xQdlpraExTVnZKdmo0MUphZHNHWnplblV4YmQ5UzRTdjR6Yw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1ce90ab8a3f9c671",
-      "published_at": "2026-08-04T01:34:00+00:00",
-      "title": "Iran Sees US as Weak After Trump Backs Off Strikes, CSIS Says - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRVplcjhJOUhfZDFnZ2p3UnBZcTRLZ0FELUpXUHlHcmM5NlN0OFY5UTlEaTR4a1RhTlBLQ2pQclExZzQzSGZ6MlVrejk2dEwyc1VfVVBhRExNOWpSYTF4Yk54WHl4YjBSbHJYTzIzY0ZQVjRIZE5FUEdoLV9STlpKdVNRdWdna3Z4QjNtR1htcmZxNlpsQzBTZHo3eDdHTmxMUmhOcy1nS2dza2s1d1hPbjc3YThqNmpNU3c?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e7f4ac7e86500ba4",
-      "published_at": "2026-08-04T01:23:56+00:00",
-      "title": "Iran rejects Trump\u2019s claim that talks will restart, adding to weekend of whiplash - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOHV6dXFDM1hKanZxUW12NVNULXRwUkpfR3lhTEh3TzZhRGFjMGNwVWd6Z3ZQSFBTTkxNUFFsVGI1aTFEZlVLNnZIWDdQd1c5RmZSSUxIbVJxdTQ0QjRZN2JVbEJDUWZON29qQlQ2Vk80Mzc1OGl5Q3pDSEFpWEZlRWl2NXhSa2J4dXZhbXJfdzd2amx1ZWFLajRoRFIwRDJUUWw5czlldk5yNVlhbzF4bzFSeG9JZw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "af767191e984bcaf",
-      "published_at": "2026-08-04T01:15:08+00:00",
-      "title": "Conflicting accounts cloud Iran-US diplomatic push - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KVXVxdzdJUUJkUC1Jd1gxLVY5Vmx3OVg3aWVTMExpQTlEQkEtNXpZeVRqYzZCMV84cVpwYnpJZWFFaDBwdEFfQ0RMdmNrd1pwbFE?oc=5",
-      "source_name": "Iran International",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5f4381478a9bf881",
-      "published_at": "2026-08-04T01:02:00+00:00",
-      "title": "Oil gains as talks to end US-Iran war remain uncertain - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOU0VaWUlWWUxJMXVaM1NiVS0yeWUtYWhpTlo4MTh0ZzZkZms3aFVLNVRfR1JISmxrY2d2VmM1UWFKTVFtSlEzYmt0N3ZuRUFLWXd5bzh5QkVXOVRxUVh3VHRnOWkzanJWb2tqUU13cURMRFR3TFphYkFzRVRsbnY5aEpDdTJLLVNLOXpwYzRNckVGQW9TcThhNHdKVlVTZ2Q4SkRraWR5TjlvbmN4VE1rLWViVFNTRUZU?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d08aec7139e4f7d5",
-      "published_at": "2026-08-04T00:00:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44OFhvM3JpQWFaZWJMMWgtMWNCZEtBVUQxdWE5VU5ZY3U2QkJzWTVEQWRtY0sxb3hVR0k1YzFJYXJlMmduUkE5ZHBLR1FVZ1hYWnRBZHhPYmhvblpGZnduSlg5NDVtWUtZQVNSdjlmMVJqaDE1X2g4TjdneXRrR1E?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "7ac056ad4571cf84",
-      "published_at": "2026-08-03T23:35:41+00:00",
-      "title": "7 times Trump said he'd launch devastating strikes on Iran and then didn't - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeVAyVDJrWmpJYVdxWDVaUnN0N2RTWUVLTDZ3RmpVYm5RSmwyYWlsX1JGWkpHTTJPMjFrcHZXMVkxQXhLSUlRRy1oOEVvMWRLZDNjNWJOUEp1OWJYMHJOaDZhVkJyTmVWYVJwZk5XYzN0bVlqZUJ3SGl4dHo3dnFkZzdjVVAwVWdlR3JFMkR4Q2lRam1kb1JsZ3lYMEQ1QdIBowFBVV95cUxQRXVSVF9WTE5vZVNxelRxRWk5OHJGaG1VaG15cnBiSENwX1F4ZlRJVVgxd210TWJzM2xfbnd4Q3haZU9acW9NSDlCWDZpSWpTSTNyb1ExT2wwMUdqVl9rRmFKbEFYUW1JbTRBYW1TdFpMN05wNGJiZDlzbktoWEpOOHNhQ2lGODdCV19HclhrQlFzU09lb2tIa0lUVXJVdG1fRmkw?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "dbe00809d9f10468",
-      "published_at": "2026-08-03T23:29:44+00:00",
-      "title": "IDF alert for escalation between US, Iran as Donald Trump escalates threats to Tehran - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13eW9rZDhvd1dDaHFQOXoyQUppeVExb1JKY19IMDAzOE1IdHY3cGg0bGNYOWdXM3NvQlI5RTZQVzI3dmZacjkyY2NBTEZzcFFLdmh5QUJ1cTRvajZILVhaY1R0aDFUNWQ2RXc?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "603d1d790386e1c2",
-      "published_at": "2026-08-03T23:27:00+00:00",
-      "title": "Trump says oil companies are \u2018making too much money\u2019 amid Iran war - WABI",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOVpzQW16Mm1IamZNMGFCY1V5enU5QWFlSjV4OGt2bjZ3djN6Wnp3ZEpLekRsSlFpRFc2ZDVXM3hERnVmYjlPbUJZUGI2SG5IOWxnV0dUalFtU0lFc2pGZ0lOam9FcVVXVnd0THVoZzMzVGtTZVBRMEFwTmY0UXBJME5XUjNVSEFYSXF5RGpBWGE4SmVjdm5FUGRnWHQ?oc=5",
-      "source_name": "WABI",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e2604629aad77124",
-      "published_at": "2026-08-03T23:26:00+00:00",
-      "title": "Trump says oil companies are \u2018making too much money\u2019 amid Iran war - WLOX",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOb1Y3NGVtZUdCVzhwa0R3Y211ZUEtSl9rNm1kSHdBVGN1TVh6a05femZ6Z0lHYUE0ci1vdXBDbVdHZjVqUVJDTzdKVWNyOWJPN1doc1Q4dDdtU0N2Zlk0Y2VWblo2RjVVb2xCM0xYTFg3WHZpeUV4MjZoczF0M3k4VEhsQ3JlSDBpQlEwa2UyM3pwQ09iVnh5b2NrVUtZMm1zR052OFNB?oc=5",
-      "source_name": "WLOX",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
