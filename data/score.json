@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-04T19:59:55.123952+00:00",
+  "generated_at": "2026-08-04T22:30:39.665251+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 104,
+  "event_count_window": 107,
   "totals": {
-    "usa": 46,
-    "iran": 25,
-    "lead": 21,
+    "usa": 47,
+    "iran": 22,
+    "lead": 25,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 22,
-    "iran": 22,
-    "delta": 0
+    "usa": 26,
+    "iran": 19,
+    "delta": 7
   },
   "confidence": {
     "score": 67.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 36,
     "intercept": 1,
-    "diplomatic": 14,
-    "attack": 53
+    "diplomatic": 16,
+    "other": 34,
+    "attack": 56
   },
   "history": [
     {
@@ -67,8 +67,8 @@
     },
     {
       "date": "2026-07-30",
-      "usa": 15,
-      "iran": 6
+      "usa": 18,
+      "iran": 3
     },
     {
       "date": "2026-07-31",
@@ -83,7 +83,7 @@
     {
       "date": "2026-08-02",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-08-03",
@@ -92,29 +92,14 @@
     },
     {
       "date": "2026-08-04",
-      "usa": 0,
-      "iran": 8
+      "usa": 1,
+      "iran": 9
     }
   ],
   "latest_events": [
     {
-      "id": "ba818f2e728ff411",
-      "published_at": "2026-08-04T19:34:17+00:00",
-      "title": "Trump administration claims Hormuz deal is close as Iran denies negotiations - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS3pHS3hBZFk1RUVqUE92R21Cdl8wME1BUF9zTkZ3MkhkbEVTal9RWFNaOUJnTVUzNGdOQ1hudC14R3pCclJpQ2tOSGNvZ1dPUFQ4amZUZkVuZVZOUC1iWTJTNWV0dk8zY0VSMEQzMFFZTC1oZzNvTEt1bjR3bVdDY0d0RUdrLXRWbnBzMVh2NmJRUTNjMGptN0ZZV3Y2LThjMnl0dkVnNDVCYy1mTUdNQW44SzNSeF9rVUVmSnQ0UHpsN21ZQncw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "d68d8c7b784fcfa8",
-      "published_at": "2026-08-04T19:30:58+00:00",
+      "published_at": "2026-08-04T21:57:39+00:00",
       "title": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran - The Intercept",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwNnpFbVpjTHFmTGJERTlscHRhMUVjSUZnV1B5M1JZT2JHQ2xwOVdsSy10SG4zR2NsSWtIdlFveTg5Ry14SmpZUGxwMVhGMkdkRG5aVDhWbG5uUkFFZDAxSXhKNXU2YmdlSHQ4S1k2RzUwd0J2TTR5eDdadFZPdjQ?oc=5",
       "source_name": "The Intercept",
@@ -128,8 +113,53 @@
       "confidence": 0.8
     },
     {
+      "id": "0f55f2dde188c872",
+      "published_at": "2026-08-04T21:33:00+00:00",
+      "title": "Live updates: Iran aiming to control a new Strait of Hormuz route, amid uncertainty over US talks - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KbFFnWkMtTkVneUJpRlZnNlhQZl84MmdOa3hWT0RFVUhmYTQ2T1l5dFhmYUhPUVM1UjJZVjlUUkowcjdPNFZzOThWejRjOWlsaXBXYW94Ym1GQmZ3dUplODgteFVyQ3I4WkZyOWtn?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ba818f2e728ff411",
+      "published_at": "2026-08-04T21:32:51+00:00",
+      "title": "Trump administration claims Hormuz deal is close as Iran denies negotiations - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOS3pHS3hBZFk1RUVqUE92R21Cdl8wME1BUF9zTkZ3MkhkbEVTal9RWFNaOUJnTVUzNGdOQ1hudC14R3pCclJpQ2tOSGNvZ1dPUFQ4amZUZkVuZVZOUC1iWTJTNWV0dk8zY0VSMEQzMFFZTC1oZzNvTEt1bjR3bVdDY0d0RUdrLXRWbnBzMVh2NmJRUTNjMGptN0ZZV3Y2LThjMnl0dkVnNDVCYy1mTUdNQW44SzNSeF9rVUVmSnQ0UHpsN21ZQncw?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "781b27905d9a6808",
+      "published_at": "2026-08-04T20:07:00+00:00",
+      "title": "Live Updates: Rubio says progress made in Strait of Hormuz talks after Trump threatens \"decapitation\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ1dLLUtEN1BOZURoRGtpQ1JYaDRibllHa25fRHBpNXlrSUdLV1N3NzVETUFZN3FXTFZlUTB2dmJWd1hSWUNRdDdVcUNnTmNfTTgtVXd1eTJ3WmNoRWxrY2FhcFdlX1d4bUxQdzVIcWM5RHNHNDBsOEN0TjFVTGN5ZHMtZkJ2SW5JTVJLWC04YzJmRG9CTlM5MGRVdzFTNVNYcVVOcGlzeFlSamc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "5ad29eefe98b598e",
-      "published_at": "2026-08-04T19:23:54+00:00",
+      "published_at": "2026-08-04T20:05:39+00:00",
       "title": "Qatar says mediators making progress in ending war between U.S. and Iran - CBC",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUnhfT09fUVBDMmRxZjNYLV9HUnhLR05vb1RzOXJTR0VrV2RZOG91cWtKc3FncFRXeXJxZGV6dU1TeEVrUGxvYUVMTWI1U29ISEJQUXZfZzJXWlpDVTRQODM5eVVMZ1JwTEFWcWJwSERIU0VVOEJrRENNT2tuOWtmbzR0dVM2dw?oc=5",
       "source_name": "CBC",
@@ -143,11 +173,26 @@
       "confidence": 0.7
     },
     {
-      "id": "0f55f2dde188c872",
-      "published_at": "2026-08-04T18:57:00+00:00",
-      "title": "Live updates: Iran aiming to control a new Strait of Hormuz route, amid uncertainty over US talks - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9KbFFnWkMtTkVneUJpRlZnNlhQZl84MmdOa3hWT0RFVUhmYTQ2T1l5dFhmYUhPUVM1UjJZVjlUUkowcjdPNFZzOThWejRjOWlsaXBXYW94Ym1GQmZ3dUplODgteFVyQ3I4WkZyOWtn?oc=5",
-      "source_name": "CNN",
+      "id": "8c9c6e371e97f8fd",
+      "published_at": "2026-08-04T20:03:05+00:00",
+      "title": "Alarming missile report draws forceful response from Trump as Iran war tests America\u2019s arsenal - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmdrakpIVTBhQ3lpOWNJRlljb3YyZGRPRUFOUG9qemFaaWtXeW4zMlBXc2huTEZ4YjltUGtwYTBGZXpTQVNaSlcxU3JjMk1qVEpfdkd0WldJcFBMUmJWUDdBMDQ2NGFzZVlNM3VJUWV6T053LUVTR3VSbW0tQkM1OXFEZ3RTMVNHNGFJeTdZRkpUc2I2dlN4Z3J6OGM3c3FTRmRYX2xyYlotOEVUNktKOEhPN0hsWkRybFVFMmJNbUfSAcYBQVVfeXFMUGdLMUN2b3pNZ1hYYmhOVHFNR0ZyNTBUVERrLW9ZNzc1TDFLbGxYTGdtQXVnYTVwN0pUX0FNa0kyTEZxY25yQXZPQ2N2YlI2SG9ZSEZfMkJzNnlhZDhPUjFRUzRaQzJwbzd3bnljRmFKdFp6MHdDYkZrOXdvVFpic24tZ0ZMeGhhUC1BWU1Vd3I5TWtnMWdBNEoyQ3JyYnhjeFpzbTJOeGxlaWVFbGpRSE9WbC1pcVZtRnJNRFZuOXo3ZFhGV2tn?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6f76471085608aac",
+      "published_at": "2026-08-04T19:47:00+00:00",
+      "title": "Trump claims he\u2019s talking with Iran as they hold talks with other nations - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSm4yd2JoaWlIbHdXdFBrOXJaallMak51T3NSWmhBdGZNaHVfX201b2V5Z1NoWEJHTEdyOUJScElYMk42ZXBvaExmaTRWSGRaVnB6NzNMZnViUVpxM2FnVGxjZllxSFZGY1FYRGZVT1JYRDdMNXo5QVM4ZS1mcy1JM0d2TlpCWDJkbVJpSFphNGd5c0IzaWZZLVNfUGVYcjk4RFFSeHpuaw?oc=5",
+      "source_name": "Fortune",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -156,6 +201,21 @@
         "iran": 1
       },
       "confidence": 0.65
+    },
+    {
+      "id": "f133a91834775a60",
+      "published_at": "2026-08-04T19:27:19+00:00",
+      "title": "New data reveals how U.S. troops were injured in Iran war - WBUR",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MT3B5UjFSWUhlbFlOajdjbXJMWXBUSU96bkotTjk2SzBCSzJwTkVLVzJXMklVUFZpSjlsNW1VMFIzbjU2QVRPQjNiMWI0aHpYRldQTlRfc0lEMjFNQ0dPTjhCbTQtVWh1dzlWOWJ6RQ?oc=5",
+      "source_name": "WBUR",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
     },
     {
       "id": "b2f1b854100b82f8",
@@ -173,26 +233,11 @@
       "confidence": 0.6
     },
     {
-      "id": "f133a91834775a60",
-      "published_at": "2026-08-04T18:05:35+00:00",
-      "title": "New data reveals how U.S. troops were injured in Iran war - WBUR",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MT3B5UjFSWUhlbFlOajdjbXJMWXBUSU96bkotTjk2SzBCSzJwTkVLVzJXMklVUFZpSjlsNW1VMFIzbjU2QVRPQjNiMWI0aHpYRldQTlRfc0lEMjFNQ0dPTjhCbTQtVWh1dzlWOWJ6RQ?oc=5",
-      "source_name": "WBUR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "275abed7c860a684",
-      "published_at": "2026-08-04T18:02:02+00:00",
-      "title": "Qatar says progress made toward US-Iran talks on ending war - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaUY3M2pidURfcVlodzZaVEctbGNSYS1rNlJrR21pQm8yVm50U05QSmRlWURQWWh5UklWZUVMVmlRdzhmbVJrN05IdVNXVW83T3l1TUo0ZjJTMzNURzlOdmNMM2YxY2JwVHQtby1aTFVfZmFnSjRFT0hSaHlzeW50XzNPcUZROG13MUxxNVMwdGd3UkR2cTgyeURHNERQWlUxeFJYR1ln?oc=5",
-      "source_name": "Reuters",
+      "id": "21300eda702a91b6",
+      "published_at": "2026-08-04T18:37:48+00:00",
+      "title": "\u2018Maximum use\u2019: Iran boosts military strength during ceasefire with US - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZ1ZWdFpFZTkyZ1RndkhjTXZhQVlYRmpGX0tNaDJMNFozOU85aUVOZHQ4TUUwMHdSTFd5anZHOVRYeWtEY1lZeWE2YjRyYmpWUWRFNlhOd25uUldsZHpsNU1ZQjd4OE1HZllSWkU5eVR2bENTWFRNQ1pfdXFkTVliajgtWlByWUR6VHMzaGR6bjBBT0NGN2JQMEo2NTE5MVctdnh1aEFEZUVRQdIBrwFBVV95cUxPcVFDVXpySzJYdWpJdzgxeDVIcmJsWm5qaGtTRU91UV9HWXA0blVIOGxFQkhnSXEwazVPRW1GcnpyM242RWVGQml4Tlk3dWhJN2VSOFB0bGJTVEtGTGllSERKeVRadmtob3JTV1dCanl3bHhyRzhObjFoMVVuNWZXRm5VSnBCMEFjT0QxWHl6Q1Y4Nk9RZW9vOEZBYVZMTGtTeXNpT0J0YWhaTmdvQkdZ?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -201,21 +246,6 @@
         "iran": 1
       },
       "confidence": 0.65
-    },
-    {
-      "id": "8e342a542e26a879",
-      "published_at": "2026-08-04T17:45:00+00:00",
-      "title": "Opinion | John Bolton: Trump\u2019s tit-for-tat with Iran ignores the larger reality - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNeGZ4WmNPUVo5LXZvdVhSZDVDU3VUT3FWUm9DWDZvNUtySVdyZVRYaUoxZFhHeFhZaTRCMGtpTkdOeEd3dDA1R3hfNnJhQW14RHZ5VVg5YjRnZVAwbmN6ejA1MmUzbTdQZ0ZQcDQzM0tYN3U4NlBDeWFyVDNmUjJCNkNtR3I3d3puUnl0ZkpMblBXTVk?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     },
     {
       "id": "768ef19fdff149b8",
@@ -245,7 +275,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
       "id": "71e8da539b31a786",
@@ -278,11 +308,11 @@
       "confidence": 0.55
     },
     {
-      "id": "3f1e6756b062a7e3",
+      "id": "300617c391cd1745",
       "published_at": "2026-08-04T15:26:00+00:00",
-      "title": "Hormuz Opening Uncertain After New Strike, as Trump Administration Says Deal May Be Close - WSJ",
+      "title": "Hormuz Opening Uncertain After New Strike, as Trump Administration Says Deal May Be Close - wsj.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOV1R4TUdhN3VrMV9BWmpDY1Z1MkpVVmNfekh3ODl5ZExXMHQxNkNBcFhOLUM4MVdSLTRadGQta1J5M1lsVDdXV0xGVkk0TldLZG1xSmdIVkxrVzM5RVkweWFvWGhOeXg2ZjV4M2NUWERBSEE5b2s2X3VFa2k2ckVKRnBRcFgtQWZWa1c5SklXbzFuNUJjVlM4ODMxWFBTT1dOc0c2TWNXMmc?oc=5",
-      "source_name": "WSJ",
+      "source_name": "wsj.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -291,21 +321,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "3fa07099d5c347c4",
-      "published_at": "2026-08-04T15:16:03+00:00",
-      "title": "US President Donald Trump said Monday that negotiations with Iran were ongoing despite Tehran's denials and the Islamic Republic was facing a \"last chance before decapitation.\" | via ANC 24/7 Link to the full story in the comment section. - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOS2RHUDduaVNob0IxaDE3SU90QWZ0eWdVTlJWZXFHQnJWeFhpYUl4Y3pFVl8wV0E3YkpLRzZDMFFuemJuUjBENE0wOTVldlJMSVBuVmdka25oWmJvUGNpaHJ2XzFXSnc5N3M2VGZqVUVFQ1FpQkFsNE5obElPU2MxXzZLRmRMTnhybzZneDNKRHdxbXdQNTVuWHhaSl9yclRLTjF0WnZrTFZYTjZYUFA5MGhYcEVReGpXd0ZEV1p2aWRrd1dIclA2dVdYOFlKVUZqNV9LVzZVdw?oc=5",
-      "source_name": "facebook.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "0b31e43ac37230e5",
@@ -338,11 +353,11 @@
       "confidence": 0.65
     },
     {
-      "id": "8f1535fc0e819303",
+      "id": "21bf39245c11f4bc",
       "published_at": "2026-08-04T12:57:18+00:00",
-      "title": "EA on International Media: Trump \"TACOs\" Over US Strikes on Iran - eaworldview.com",
+      "title": "EA on International Media: Trump \"TACOs\" Over US Strikes on Iran - EA WorldView",
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBZVZzTFZpeU1HZlMyOTdqaDVqa0J2U3RsVU1wQjk1RUdkWWdBekdtcXZpSlVocVBkYlRxZjZHOG5aYm1PWFNLc2RNMFFyNC00a1BURXVDMlJtZDZxSHR6U3pnZTIwMS0wVVNic0RTRmw5YmRWbWp3?oc=5",
-      "source_name": "eaworldview.com",
+      "source_name": "EA WorldView",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -373,21 +388,6 @@
       "title": "First Thing: Trump chastises oil companies for \u2018making too much money\u2019 from his Iran war - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPRERBbDhHTjZZRF9XQk83cGtiTWVCbERJRlBFVW1iMXdYcHpaaUtGNlNHLVVnMV9nR2hROGhoZFVhbnF6ekJsM1p4ZHVpMmM5WjVkcnZyTDZHTmFVNWpzejNMNVZnc0hsbjYwbThtajBWc2ZEQ1NUZXJJeDJmTVJHWHZRakdmMGdkZVZILS1NQzY5aHFTcHQxdXJXNGRUbE9xY1pjbTM0ckhnaVRHOTNfZkJXQjJValdnN3E1ZHRRdzBURXNhb2RpaUtLZndjQQ?oc=5",
       "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "13c1ec100cc4b6df",
-      "published_at": "2026-08-04T12:00:00+00:00",
-      "title": "How America\u2019s Adversaries Have Stopped Fighting Alone - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5PdEthVXZreXhRc09pVnhySzJJY0NFR2d0aUdTd1hYRTVIaE1mUWhWUC1XdG5qQnc3ZGUwbm80Yk03VGd0cDVJRzJjVFlxVTlGVE43cWxvM3kyUFRJMlhBVnVpamllbzhHOUdWRDgwN1NMSmNy?oc=5",
-      "source_name": "Time Magazine",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
