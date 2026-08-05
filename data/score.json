@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-08-05T09:09:23.093010+00:00",
+  "generated_at": "2026-08-05T11:31:30.541885+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 105,
+  "event_count_window": 104,
   "totals": {
     "usa": 46,
-    "iran": 24,
-    "lead": 22,
+    "iran": 29,
+    "lead": 17,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 25,
-    "iran": 21,
-    "delta": 4
+    "iran": 26,
+    "delta": -1
   },
   "confidence": {
-    "score": 67.3,
+    "score": 67.5,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 14,
-    "other": 37,
-    "intercept": 1,
-    "attack": 53
+    "diplomatic": 19,
+    "other": 34,
+    "attack": 51
   },
   "history": [
     {
@@ -62,7 +61,7 @@
     },
     {
       "date": "2026-07-30",
-      "usa": 18,
+      "usa": 21,
       "iran": 6
     },
     {
@@ -78,25 +77,85 @@
     {
       "date": "2026-08-02",
       "usa": 0,
-      "iran": 1
+      "iran": 2
     },
     {
       "date": "2026-08-03",
       "usa": 4,
-      "iran": 6
+      "iran": 7
     },
     {
       "date": "2026-08-04",
-      "usa": 3,
-      "iran": 6
+      "usa": 0,
+      "iran": 8
     },
     {
       "date": "2026-08-05",
       "usa": 0,
-      "iran": 2
+      "iran": 3
     }
   ],
   "latest_events": [
+    {
+      "id": "2c7a0a319488d67f",
+      "published_at": "2026-08-05T10:47:00+00:00",
+      "title": "Live updates: Claims of progress in Iran talks, US munitions stockpile \u2018dangerously low,\u2019 sources say - cnn.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50WEp0b3FlMGIzYTNuYTI2d3Z2NFpKMnpFYmh5QUhVbmQ0RUJuNVlwcFRtU2Vza3Z4SG5aNWtDWi1lQWdscjNsdzFaanFyTXd5QlZQblhEcEJRd0t2SVgxWWNnZHRCNlo0MUF5T2NB?oc=5",
+      "source_name": "cnn.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6966d6780ccbd954",
+      "published_at": "2026-08-05T09:59:19+00:00",
+      "title": "Analysis: America running out of options, time and weapons in Iran war - WTOP",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcl9rNE1oVmFORUt5bVlmYU5oZDdQQm92aFM5aTdlQnBKdnZXVjVPME9xQ2Y4dnNTWjd1ejNKenNFUlpsN3RyOUk1UkI4dFVzTmYzM1BNZzJXeGctYldfb2c3VDlDQjNWZ2t1N0FmRUVFZHRtMDM3cFZyNjhGT25HQnpoUmtLR3Nudm5CZ2FqWTBSNFlTZmpKeGExcUxZZ3E5bjFUV1JvTEI4dnY3VzlhaDNvTQ?oc=5",
+      "source_name": "WTOP",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "2691123f6b72d4ea",
+      "published_at": "2026-08-05T09:10:00+00:00",
+      "title": "I don't regret voting for Trump, but I'm disappointed | Opinion - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMjBjMlZTLXVKU0lSZzdiYW1acmd1V0haM2dSY005aWVaZ3JMNF9jaTdNWEo2eHU3NTFHUHhUeGQzLWtmT2phLTJzLVAtQzVqRVhhTm5NZXJhQXZ3bDNuNWt1cW9zUnJWRWlZaTFtYmR0bWJPMlZTUmwwWFNMMHZhMW9tMUE0b3dubnZaWHY3WDhLRkF3a0NIVjBSM2JvR3hLa1MxaVRfT0FmWEp0RDhpMFN3?oc=5",
+      "source_name": "USA Today",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ef01e7b03bf8361a",
+      "published_at": "2026-08-05T08:44:14+00:00",
+      "title": "Expert discusses dwindling U.S. munitions reserve and the effect on the Iran war - NPR",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVml6blV1SVhybDVMQnZENGNhbEEtSWVoLWtSRkxhMVhfMU5faUVqdUdnUjdvRWhLeGU1LWpraUtQbW5nZmlwVlZDLTZOWUhET25XMTU3N3pROU5DRFRSRll6ZXlwczVTWlUwZHpHc2k3Y3hrV3BSZy05Q2M2cUZTUVN5NEduUjBtM3EwalVJejZaaFp1cmw2dWZlT2oxeVRjYjVtUHFnMUgyeElscEhvWlZiSC1JSGdNNjJFdXdCZ2tIZw?oc=5",
+      "source_name": "NPR",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
     {
       "id": "c0226419c40e7d1b",
       "published_at": "2026-08-05T08:40:00+00:00",
@@ -111,6 +170,21 @@
         "iran": 0
       },
       "confidence": 0.7
+    },
+    {
+      "id": "3f99b6a2a966ce6c",
+      "published_at": "2026-08-05T08:19:54+00:00",
+      "title": "Iran War: Latest News, Live Coverage and Video - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "b9dc38137aaf4ca3",
@@ -128,51 +202,6 @@
       "confidence": 0.55
     },
     {
-      "id": "686e732a595b8e42",
-      "published_at": "2026-08-05T07:21:55+00:00",
-      "title": "US-Iran War LIVE: US closes in on Hormuz deal with Iran and Oman, eyes Wednesday announcement, Axios reports - livemint.com",
-      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNY09EZUszMUM4eURNYnNCbHJXZDNLenI4X2c0MlIza2p4N3ZycHM2U0szbjBWSVl2RXM2Uk1GWDhOa1FvWWhETVdaRmpfY0htU1VLRmJKR0VQZzJlR1lXeFJYX1NiZ3ZHeXhianpnV3JTZ0VpZUYzY1N4NmVMU1p2blRGZU53aHdWc1JvQVBnTU5RQ2tGbW5YTXZiVHplZlVadnJWZURIZDR4TEo0NURCamVNVE9kZFVxTFgzcFU5VGJGUnZfbDJ4N1lha2U5WVdRTk1oLWk1WUo1bnAzVnZXRWFkd3pGWVNsUVc1dnRPcGQ4NGtOUEtTZUZlbw?oc=5",
-      "source_name": "livemint.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "19af238d22f7b7c8",
-      "published_at": "2026-08-05T06:08:00+00:00",
-      "title": "Live updates: Claims of progress in Iran talks, US munitions stockpile \u2018dangerously low,\u2019 sources say - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50WEp0b3FlMGIzYTNuYTI2d3Z2NFpKMnpFYmh5QUhVbmQ0RUJuNVlwcFRtU2Vza3Z4SG5aNWtDWi1lQWdscjNsdzFaanFyTXd5QlZQblhEcEJRd0t2SVgxWWNnZHRCNlo0MUF5T2NB?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "69c7dfd08880b540",
-      "published_at": "2026-08-05T05:54:01+00:00",
-      "title": "Iran war live: Tehran-Oman talks on Hormuz \u2018positive\u2019; ship hit in Red Sea - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUUhGV2daUXJBYzlucTFkdTlPbHdZMmtEdVJhWXVGX05FeHNMX0FTRElnLU0zaFlYYTN4OVF0U2NhME1kbmZPVl94X3hWb21aSmNPdzdCbk5JZ1RFd1V3eExMYTROX3pHZmJGeGppV1RuMjBVeWtNaGw3OURzdjZoOWtfdngyNFVvRGVpbjd2VU9oNTluMFhvb29NMnplb3ZvT0F5ZTIzNklxWnRoaF9OMVNPaEV4QzZUMUVJ0gHAAUFVX3lxTFA1Vm9kZWlZa0NDT0VBRWJBY0pFNDkxb3FhVkNVdkVmdDdCLVNWMmN6RGVELU1xSkRaOWhYWVVMNkZ3SEpabTFQWjVYdG1sMFRhWVFuUHRxMGdSUVNCbnRIcVlDTk1YMDllTHE2RHFmRlpUQ1h3cEFvOVYwMVJxQWczeEl4TU5nRVF1Xzl1NEtERHJRakJlalhVUnJkcEc5SUpCLURpd3JtQm41eHgxZWxUanhsTHBuTlFDRVNfSHpMMw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "b3b7d8a7fd68087c",
       "published_at": "2026-08-05T05:11:00+00:00",
       "title": "US and Iran having 'very good discussions', Trump says - Reuters",
@@ -188,26 +217,11 @@
       "confidence": 0.55
     },
     {
-      "id": "c406f6d7b6b24614",
-      "published_at": "2026-08-05T04:55:33+00:00",
-      "title": "The Pentagon Found a New Way to Undercount U.S. Casualties in Iran - The Intercept",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwNnpFbVpjTHFmTGJERTlscHRhMUVjSUZnV1B5M1JZT2JHQ2xwOVdsSy10SG4zR2NsSWtIdlFveTg5Ry14SmpZUGxwMVhGMkdkRG5aVDhWbG5uUkFFZDAxSXhKNXU2YmdlSHQ4S1k2RzUwd0J2TTR5eDdadFZPdjQ?oc=5",
-      "source_name": "The Intercept",
-      "event_type": "intercept",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "16262bb89a1c3975",
-      "published_at": "2026-08-05T03:44:30+00:00",
-      "title": "Trump says Iran will be 'hit very hard' if Hormuz Strait not open soon as oil prices fall - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9aeEhmWUNMV25kc1lEaUQ5clRfRkY5QzJXcDNVVmV0ZG14NHJUV1BWanpQekNWX3VETUlKWHJySnVMTGNIMnZOYzRNVDhMR2RlTzNJSnVCbzdxUQ?oc=5",
-      "source_name": "BBC",
+      "id": "db9a8f784e7990e2",
+      "published_at": "2026-08-05T05:00:13+00:00",
+      "title": "US waging war on Iran not worth the cost, most Americans say in new survey - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQMVRxV2J3YWxjdHV0bTlWZzdYZGs2bEI3TmxMMFVHbG43WTNLWjN3dmpRcDlFdTZzV3FBZlNaeTcwSXRSYnFfUldsYms0c1p2SS1lN29SNjBpa2llMWdWTU9xT1dCcDZLd2xESWt5MFJLVzZzZElxTkNHRnFzc3A4b0VZWnMzYVNBQkNpbmprWG9tMy1kLXV1aXU2VmVRTnBwcEY1aVdCVlZfTVNmZXdRUlpNeTlUTjRRSFdjcTB0THM5Z9IBwgFBVV95cUxPY1JuaE1SREd2emU3THVXVXNNN192VThyQUdJMW55aldwei0xSlZmenhNOVFUVkhKdEZBU2U2RjBQVmNDd0hDcFdvUU9DWXVPLXpxWDh2NFpYOHExUTNRNjFvVjdTQkIzWkxMSzlFYjZxemYtcF83aUlWYU43ZW5FOWdQNmtBVVRaQnZ6UWZ1Q3pDdS1COTU0bVVSSU5YeFprdFRRQXN1UjN5dEQzWmNWSnZHQzdmdERHbk1NSFdBa1RiQQ?oc=5",
+      "source_name": "South China Morning Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -215,14 +229,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
-      "id": "ac821e0fcc957aba",
-      "published_at": "2026-08-05T02:58:23+00:00",
-      "title": "U.S. nears Hormuz deal, aiming for Wednesday announcement - Axios",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84eGZaOTdPem5TejVqS0Iwb2NtdmJNQm5CNW1jWmIzMWl5LTcwdld4LUVLSGJDZkRfYWlFU3NsbmNKOThnV3pqZkJ0ZmVXdzZlS0NVZXBrLXJCazN3bmxkUDlTN01IdW1PZHR5V0paS1ZYSzdmdG5B?oc=5",
-      "source_name": "Axios",
+      "id": "408522cd04dd2318",
+      "published_at": "2026-08-05T05:00:00+00:00",
+      "title": "2026 Iran war | Deal, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Encyclopedia Britannica",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+      "source_name": "Encyclopedia Britannica",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -230,7 +244,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.75
+    },
+    {
+      "id": "67ba26af03bfea90",
+      "published_at": "2026-08-05T04:19:00+00:00",
+      "title": "Trump Says Iran Talks Going Well as Hopes Rise for Hormuz Deal - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOdEFLS3BsakV2T2tzRE1ES1A5VjdJV1Bsd2NKbXVENGVTb0pfY3pRRkg3R2piS0t4UmcteVhQUTB2WXh4dUczVXhXdWlQUUYzQXN5UmZUdXp6LUpqUWppbWVDMUVJNHBMQ0hCQUx5S1pCWDhEVHgtTDZRT0RvSWo5eEZFOVR4dXRwS1F5TTBoUTNMOEM3LU5YcjY4OUlUdHNXTFFwQ1dreVFqOHFaR3ZHTDZn?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
     },
     {
       "id": "0adcb065518b2e53",
@@ -248,11 +277,11 @@
       "confidence": 0.55
     },
     {
-      "id": "e3a4838990a0d618",
-      "published_at": "2026-08-05T02:00:00+00:00",
-      "title": "Iran Is Staking Everything on Controlling the Strait of Hormuz - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJBSWlPX25nbTdzRVlVeU5ESHE2WXdVeXVXVi1wRU9DUGdnWGZTN2xOMVhGUWlWZEZkWXZXeTMwdEFXa05qdkMxWkpJWG5BWVFTWGs4c2htNXRLVkpPTC1adGNfalBTb19UamdNSldPVlRKbDVQMEpGTTJRbkI3V0NBZEd2aEU?oc=5",
-      "source_name": "WSJ",
+      "id": "ac821e0fcc957aba",
+      "published_at": "2026-08-05T02:01:18+00:00",
+      "title": "U.S. nears Hormuz deal, aiming for Wednesday announcement - Axios",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE84eGZaOTdPem5TejVqS0Iwb2NtdmJNQm5CNW1jWmIzMWl5LTcwdld4LUVLSGJDZkRfYWlFU3NsbmNKOThnV3pqZkJ0ZmVXdzZlS0NVZXBrLXJCazN3bmxkUDlTN01IdW1PZHR5V0paS1ZYSzdmdG5B?oc=5",
+      "source_name": "Axios",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -263,17 +292,47 @@
       "confidence": 0.55
     },
     {
-      "id": "9be971eabf82d55d",
-      "published_at": "2026-08-05T01:26:00+00:00",
-      "title": "U.S. says Strait of Hormuz is 'free and open' as Bessent signals deal with Iran is close - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeHFIUDlHWHh2b2NwZF9ibHQ4RE5jQ0JOeXFsdEE5MUlqT0VDQ3R1VENGSmRobExCLTlIUDBxSEtjNU0ya01tSnFob0FTWmU5aXlXZzNaeEh0Z3Awc2tkR01nbkpGaUctQlNPUElRb05uV3RLNFZQVHJINThaTDdFd3Z4Q0pLbnVfeXA1enZB0gGTAUFVX3lxTE1FTVdjeHdZdTRmcUIwdHJ1OW52U2x5Q1dlTUhDYnZFc1BfSzA5NTFCRF9ybE81Y0hmN3ZWS1ozUDFHdnEzS0F5T21LRDdmQ0ZXa0F0QlZRRHVtSzVkUDFDQTZieEpocWt6bjRzc2Y2ZUJHNVZFU1VvOXlvdjlZTTVJR08tMmxDQ3dwZFZ1NDNseW5ocw?oc=5",
-      "source_name": "CNBC",
+      "id": "820e0dce60b0545e",
+      "published_at": "2026-08-05T02:00:00+00:00",
+      "title": "Iran Is Staking Everything on Controlling the Strait of Hormuz - wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOaDJBSWlPX25nbTdzRVlVeU5ESHE2WXdVeXVXVi1wRU9DUGdnWGZTN2xOMVhGUWlWZEZkWXZXeTMwdEFXa05qdkMxWkpJWG5BWVFTWGs4c2htNXRLVkpPTC1adGNfalBTb19UamdNSldPVlRKbDVQMEpGTTJRbkI3V0NBZEd2aEU?oc=5",
+      "source_name": "wsj.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "47315eca970b0255",
+      "published_at": "2026-08-05T01:52:33+00:00",
+      "title": "US-Iran War News Highlights: Houthis strike Dubai's Jebel Ali industrial area, fires and explosions reported - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPNzBYdzVudW9SV01iRFl6elRZOVBqZ3FYa0FqSmFlYkRUTjFqX21rbGtqaFN5WTBrd0YtbGZqalR4T2Mzc1NVRU1iSEtxdXdWUnRNMUJjWmdKYXVkVW16M3RNbzZfOWhBYzNqNVp6b1pjUTF1RDlGbjd6N0k4T0dWZXI3TFVuVmd1MjN4bmVwZHBkbGVLNUQ4cGljdHJLOWZBZUVrbHJpWUMxcHJsZUZ0OTZZVmFOVWNiYVc3eUVrb0ZSODJCZnVOUGRQVHdXdlVBTmFQNDByX19aa1lUX3NhdVh5bEVFT0dESE5qbnZXZ2hNYzEtOERrNllMNFJoV1hIdUdqRV8zTG5sZHFY0gGSAkFVX3lxTFBJdkhSNmFwd0F0VWxkd3pudWtXNTI3N2RIa0xRV3QxdG80aGxncXFwcTByeFJJZmNEc25taFpCR1NaVk1KclpkalRzelNJSEtJcldyX2Zld05xa0FienpBVlBTRlZLbHVqQ1JoVElreHpTLWlLODhpZTUwYi02aFpNQkFjYlhTNkZ6OUZ3NFdXWGxZSHFtSnpkdmJ4RUhPOUlnWlZfc0JIZElfZ3p6MEhCY21neGd2aXpsX2hldjNQb2hVVmhlRnRIdTRsSHo3TlRjZFdIYWpWa096dG1hNjkwdW1iTW0wOU9ieGg4eTBOWmoyeDBUd0NBQmY2UWpaQXZQNVBjYmhTNXdrNFdWU1V6Qmc?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "876dca692d584a0e",
+      "published_at": "2026-08-05T01:26:00+00:00",
+      "title": "Trump says Hormuz deal could be agreed Wednesday or Thursday as he hails \u2018very good\u2019 Iran talks - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeHFIUDlHWHh2b2NwZF9ibHQ4RE5jQ0JOeXFsdEE5MUlqT0VDQ3R1VENGSmRobExCLTlIUDBxSEtjNU0ya01tSnFob0FTWmU5aXlXZzNaeEh0Z3Awc2tkR01nbkpGaUctQlNPUElRb05uV3RLNFZQVHJINThaTDdFd3Z4Q0pLbnVfeXA1enZB0gGTAUFVX3lxTE1FTVdjeHdZdTRmcUIwdHJ1OW52U2x5Q1dlTUhDYnZFc1BfSzA5NTFCRF9ybE81Y0hmN3ZWS1ozUDFHdnEzS0F5T21LRDdmQ0ZXa0F0QlZRRHVtSzVkUDFDQTZieEpocWt6bjRzc2Y2ZUJHNVZFU1VvOXlvdjlZTTVJR08tMmxDQ3dwZFZ1NDNseW5ocw?oc=5",
+      "source_name": "CNBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
       },
       "confidence": 0.7
     },
@@ -293,19 +352,19 @@
       "confidence": 0.7
     },
     {
-      "id": "3c79ed7f9c196063",
-      "published_at": "2026-08-04T22:09:14+00:00",
-      "title": "U.S. Strikes Iran as Fighting Reignites Across Region - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9lUlNXWlBZaE01azJKdjNfb2hoM1FYYVdzdGRFZ1F0dlBQbU9PSzZLLXhEdWcxRE01VDluUEJKVFIxdU5RcU1kOHN2U2JVbE5WWFFxVjFYeHlxR19xbFpqczA5RnVpaGtWU1QyM09pS0hGb1BWRlcwcFRDVGE?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "id": "a0a8569a462f5da1",
+      "published_at": "2026-08-04T22:22:25+00:00",
+      "title": "Iran war updates: Tehran says Oman talks on Hormuz advancing \u2018positively\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVTd3c0hZM1BYS2M5NXNHcERxemtBcEFPZjBrdWVERGVEUkNLTnhtSTgtX3VDbVdZd3ZzSFNiLVlQMTdMemlqVDdYUHdwaGxrMDRtUEVmeHFrb0Z2MjZYVDVfMktsc0dlczVmQThGZmdITUhVR2xXX1JHaklKV1dHbjBrTWFzNWl4WkxVcG8wSnNnWlNGOUNKZWk4VWdMV1ZpSi04Wl9HSm1ibDlNenRIMmVPcnlKQdIBuwFBVV95cUxPMVRmd25CaE9fcWpyT08zMUw3MFdhSnlrcjNkdE5LRE9yOUFjSWI4cE0yLUY0UFFJQjFNZ1VCcTRHX3pqNlMtY2FBd0dzMUJjdERDdGY1N1N4QkZMTnk2THE1SC1FWFFCb1AydVM1eERmdnNlMUptRFBFQURfOEZfUWFiUElxeEJNbVJXYkRvUjlvamdyVXVxb1VSZlo0Sl93WDZpZklib1JreTY2cm41djdRUWs0bXBpcEFR?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
       "points": {
-        "usa": 3,
-        "iran": 0
+        "usa": 0,
+        "iran": 1
       },
-      "confidence": 0.85
+      "confidence": 0.65
     },
     {
       "id": "f02a7ca59da21770",
@@ -336,66 +395,6 @@
         "iran": 1
       },
       "confidence": 0.65
-    },
-    {
-      "id": "5ad29eefe98b598e",
-      "published_at": "2026-08-04T20:05:39+00:00",
-      "title": "Qatar says mediators making progress in ending war between U.S. and Iran - CBC",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUnhfT09fUVBDMmRxZjNYLV9HUnhLR05vb1RzOXJTR0VrV2RZOG91cWtKc3FncFRXeXJxZGV6dU1TeEVrUGxvYUVMTWI1U29ISEJQUXZfZzJXWlpDVTRQODM5eVVMZ1JwTEFWcWJwSERIU0VVOEJrRENNT2tuOWtmbzR0dVM2dw?oc=5",
-      "source_name": "CBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8c9c6e371e97f8fd",
-      "published_at": "2026-08-04T20:03:05+00:00",
-      "title": "Alarming missile report draws forceful response from Trump as Iran war tests America\u2019s arsenal - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVmdrakpIVTBhQ3lpOWNJRlljb3YyZGRPRUFOUG9qemFaaWtXeW4zMlBXc2huTEZ4YjltUGtwYTBGZXpTQVNaSlcxU3JjMk1qVEpfdkd0WldJcFBMUmJWUDdBMDQ2NGFzZVlNM3VJUWV6T053LUVTR3VSbW0tQkM1OXFEZ3RTMVNHNGFJeTdZRkpUc2I2dlN4Z3J6OGM3c3FTRmRYX2xyYlotOEVUNktKOEhPN0hsWkRybFVFMmJNbUfSAcYBQVVfeXFMUGdLMUN2b3pNZ1hYYmhOVHFNR0ZyNTBUVERrLW9ZNzc1TDFLbGxYTGdtQXVnYTVwN0pUX0FNa0kyTEZxY25yQXZPQ2N2YlI2SG9ZSEZfMkJzNnlhZDhPUjFRUzRaQzJwbzd3bnljRmFKdFp6MHdDYkZrOXdvVFpic24tZ0ZMeGhhUC1BWU1Vd3I5TWtnMWdBNEoyQ3JyYnhjeFpzbTJOeGxlaWVFbGpRSE9WbC1pcVZtRnJNRFZuOXo3ZFhGV2tn?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "f133a91834775a60",
-      "published_at": "2026-08-04T19:27:19+00:00",
-      "title": "New data reveals how U.S. troops were injured in Iran war - WBUR",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1MT3B5UjFSWUhlbFlOajdjbXJMWXBUSU96bkotTjk2SzBCSzJwTkVLVzJXMklVUFZpSjlsNW1VMFIzbjU2QVRPQjNiMWI0aHpYRldQTlRfc0lEMjFNQ0dPTjhCbTQtVWh1dzlWOWJ6RQ?oc=5",
-      "source_name": "WBUR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "b2f1b854100b82f8",
-      "published_at": "2026-08-04T18:40:09+00:00",
-      "title": "Sac State professor breaks down Iran war\u2019s impacts as conflict nears six-month mark - capradio.org",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVC14RXBLUGFVX3pBeHFlYXdEN2hab2dFMkZQVFNqSW5XZ2p4SXpKdVpCRUJFa0xuSUFjaE9pOVBPcURzTEJXLVBiTE1OaFYtRW9WaWN4QVVmSHZIeGJadVBXTXNnV2hSdG55ZlpxdXZUQk5LdGtLTXFIYTlCblRZaDVWdElSZkhSY09nX2tZbktiZTdnSHozbHdnX2FVbTRqMWkzVFAyTGY2emRGNzNfS2xMdUVqREUtVkVkb01Nc3c3VnhvRXBz?oc=5",
-      "source_name": "capradio.org",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
