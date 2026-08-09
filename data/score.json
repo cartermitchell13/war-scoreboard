@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-09T15:49:33.653217+00:00",
+  "generated_at": "2026-08-09T19:04:23.184858+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 107,
+  "event_count_window": 108,
   "totals": {
-    "usa": 52,
-    "iran": 17,
-    "lead": 35,
+    "usa": 55,
+    "iran": 15,
+    "lead": 40,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 7,
-    "iran": 7,
-    "delta": 0
+    "usa": 10,
+    "iran": 5,
+    "delta": 5
   },
   "confidence": {
-    "score": 66.6,
+    "score": 66.4,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 7,
-    "other": 51,
     "attack": 48,
+    "other": 54,
+    "diplomatic": 5,
     "material_loss": 1
   },
   "history": [
@@ -88,29 +88,239 @@
     {
       "date": "2026-08-08",
       "usa": 3,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-08-09",
-      "usa": 0,
-      "iran": 1
+      "usa": 3,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "c987172a9bb7ce58",
-      "published_at": "2026-08-09T14:57:53+00:00",
-      "title": "Iran war live: Tehran seeks \u2018to create grounds\u2019 for talks with US - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "e93da7dccb375024",
+      "published_at": "2026-08-09T18:40:36+00:00",
+      "title": "Iran war latest: Oman condemns attacks on vessels in Strait of Hormuz - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkRIR0dNR3FfRXVTMDVwNWZwT1N2VlE2M2tIeEQ4S3hRLU4wS01TRmpYS0IzbHF0TFFBOU5mY2ZCdk9lYUxrUDdDRlJTV0ZuRVpjQ3QxOE1EU2FMd2xSOHlZQ3R0SGxnempyRnBqRGFWbXpPYXYyWEgyT2VSeHV4Qw?oc=5",
+      "source_name": "thenationalnews.com",
+      "event_type": "attack",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "40564fab6665e99a",
+      "published_at": "2026-08-09T17:41:00+00:00",
+      "title": "Live updates: Pentagon asks defense companies to ramp up production as stockpiles run low during Iran war - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zczFtNVN4ekhEZnBzcmk1a0JsOHlRanpTblowSUN5d1pCbHRmMTN5Y045bkdTdG92bncxWUhqZ2ZOdEV0X3kxU29TZ3lkYU0zd3N4Qk1LMUhvU3RYM2RhcXpJN2FEZjdoSVBNWVZR?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d4e26e34152fc8b8",
+      "published_at": "2026-08-09T17:36:11+00:00",
+      "title": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "542ea85f69be9d6f",
+      "published_at": "2026-08-09T17:29:05+00:00",
+      "title": "\"Will Cut Them Off\": Iran General Warns US Against Ground Invasion - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOQkhwQ0dtQWhpWkZNU3Q3QjQ2SmhkbUNCR09YY0FOa1dvVzFfSV9BQkFyb3FWa01oUlYyYXFqdEVDX20xLWphZHJYYkt0NDJnVTkwMlBvYWQxS1pSMXdhR21TSDE2SXVNa09BUm1CbWh0YVJJT1p5MHphVGxpcjNtelFMNGViMjlpSWIyMkppRU9yS1I1UHVlU1VPVW9PcEJfZm1SNVNVbmRpRlpObDltcFUtQnRqa1lsd0hKX3RJazhXQTd2LUJjdNIB0AFBVV95cUxNS2hySjFwaGRCRGRTOWtSMzlPaVpjLW9qS1J0RlZvZThHQlBYemZ5UzJrLWRIZV8tRWpWQ25aWW9wazY0ckV5RzBfSmRfVGtUc3lpM2JiNmI3Vm96M1JaRUZfWEgtLXR3S0U1X21nb0xSZkx6TmxWb1Bvb3hUMFplZHF3LTd6X2pMX3N5dVd0dXZwdmFMWnVKelFZWUpfWFg1T01rdkZycUtjQWlqbnJaY3BuUGhZQXZ1bmtaZHVpOUZ2UG5vRWRBLXgxRDk4V2Mw?oc=5",
+      "source_name": "NDTV",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8c94a5bf6f8e3c5e",
+      "published_at": "2026-08-09T17:27:53+00:00",
+      "title": "Iran war live: Trump says US is \u2018only semi-negotiating\u2019 \u2060with Tehran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "075519a63135dde9",
+      "published_at": "2026-08-09T17:24:46+00:00",
+      "title": "Trump's Top Options to End the US-Iran War - Benzinga",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUkczNGdDZC1zSXV3TGxuYnVrTVl4YVM1SXhOT2h0c2U5dUhCU3hqZkd5aVFDc3B4d1JDUVh0VWVEZHI0SS1mbEkwODNrNV96TjRWMTVXVXRPczhGSlJXakZmSnNUU2lrNUo0eEJHR25YSkFTUm5nY2I1UGtpdGV6LS14U0c1UUh4NG1tYm8yWnR6eHBwcTZzQkRYNk5QdzdyWGJjMTd0ZFBzYzVrTjNfVkcwcU5oZw?oc=5",
+      "source_name": "Benzinga",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4541d961d32c1490",
+      "published_at": "2026-08-09T17:24:07+00:00",
+      "title": "Norwegians see Israel, Russia, the US and Iran as most likely to drag the world into another major war - Peace Research Institute Oslo (PRIO)",
+      "url": "https://news.google.com/rss/articles/CBMiREFVX3lxTFB4RklvbHJYLVhTSDVuVVFORGlLWTQ0TVdsMnR0T3NrSmhBSEx6dzI5OHBweDJkRzZ4QkN5Nm15aEhZcEJp?oc=5",
+      "source_name": "Peace Research Institute Oslo (PRIO)",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a1e0148b19c54729",
+      "published_at": "2026-08-09T17:19:59+00:00",
+      "title": "Trump says U.S. is 'low-keying it' with Iran, stresses economic pain, according to Axios interview - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOazVhN1R5WHRFQTBvX1BRNWoyT1F4WGlKVXBncE5ad1h2TVZqM0ZPLWdEYy1OVkdDYnE2THh4Z2twaGtiRXBMdVY3V3NBT01UeGxuVlljODZHUVptY3NqNnVldHNDOEIzYndQQi0zUExFbExpVGdQbS0zS2ppeGpMbWlvVnZsNS10aVBLaXR1ZDA4Q0piT09XVHR4bjRNSk5qaDQtOGwzWm1seTB0UXlVUl9uN3FIRlVCWUdNS0lNX2xWUWR2ZHdTNnVqdS1sdw?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d225465255ead380",
+      "published_at": "2026-08-09T16:24:20+00:00",
+      "title": "Trump Started Iran War Over Nukes, He Will Give It Up For Hormuz: Report - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdndzSUlYR1dQcHEzUFFpYmVjZndlQkgyMFR0OWtXMk1nc3N0T19oSFFIeFVLeFZmUE5EN296ekpWNk1iZTlnUXJOVmNFcEZ0N2h0VXRnQm1HeDR6MVdaWmhnS2VfeTZtbmlFT0NCV2FTZVAtdk5tYXphYmI0TUFEUUVEd3FsUUZHVTQwLXlWTF96RXU3amRJQ254SzlfTEZMZjlwYXR0OENHZFRMUEVheWhZdFJLVzJ1MEhnMkdxVVk1a3NTVzVSdkswLUxSdk1lT1Y3RE51d9IB3wFBVV95cUxOYXNGRmYtZFc2MHNZLUp5UTNSNnM1YXUxMlhOV0NUVXotbW1nMDVOVXB6Q2FoMUVMbldQZGxIeFpuYzBXWExUajcwNkh6VEpfVFJxZkZkSjM0NExXNE1DVFJRRWtNbHBoLXZweUowaUtRcmVNUTZxeHNoS3lma29sT1lhaXEtOU5ybWE3MVVKZ3BXWXE0TkhRTXM5Mi13WTlUMURPNGFVMlhSSzlwVXQwb1Y3dU8tNVlNYVlycXVsekE4WEVXbm1BZGVrNjhLWGlUdnJLeDFleE1fUVdlYjNv?oc=5",
+      "source_name": "NDTV",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8b9c9439f0c03557",
+      "published_at": "2026-08-09T16:22:35+00:00",
+      "title": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUd2ZVSzhLT01KMUc3Y2FsR1dBZkhnQU9RZ3ptS1BIZks4bHQ2OXotNUxaSlI0c1VNcEU5eF84LXc2emxYQmN5a3dfTGNURVBYVmxGal9MTExscmMyMXFkWEtKRFpwMXV6UXc?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9bf3f0385c027d36",
+      "published_at": "2026-08-09T16:07:06+00:00",
+      "title": "US Iran War News Live Updates: Seven killed in strike on Yemen's Mocha port, military spokesperson reports - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNMkZGQjlvZW5famltS2Y1S0hrOEVhQjhZWXczNTFIVnB6YURnS2VwNzQyTnlYaTQyRTBvRnNmMHIxdU5EdDM1aGFWbVp2UGxyX2pnZHM5TVJlSHkxOFIyTkkwTjVyV29pYnNGUUxsdlJtcHpIMnU1UE1KTy1obXlYNTZGYUJfU2gzQUh1aVhQRy1EYXBHdUN1T0R6TWdCZHdSLV9sc2FQcEI3ZDZhSUQ4MWY0bVAzdC1GbDhoVXZvUWo5Z1lkd1JnenEzRDdvUTNvTkI3SEJmdk5kNkM2ZmZ5M3huNDdFLWJhcWh0dmt6N20zM01SM2RBYUFfbUg1b2tuZE9CVlB2SWd6RHk2R2gxaEZoeHFUaXZaU2NkZjQ5YVJjbzVxMmNoZno4ZG1tLXVwRTZsVWQ3RFdoeDNVanVF0gHEAkFVX3lxTE1WSjN2VG9BeGFsdHYtc0RaaUUwNXRjYmprYVZEcE5PaWRRZ0ZNN1MzbGJkZC1Fellub1VXQy1oNGJTdlBzOGN5YkRrV3R2ZjUyTVdlbXZJcEVDdnM3SGo2Tlc3M0pzR0NGNzRjblVkcmk4OV9lbmZpRzBsMUU1VDdkOGJIckFMMWlMM2JUdHIxa3JxZG91SXNHQ2Z5YlAwU3ZrR0l2VmxwY0J3aW01MzNoaDYzSW50dmtwMmkzNGFpZllHOWdqMl9CblYxSlQ4UHd4TmRNUXhJLXlQWTNpQmFsZFBPLXY0OEliVXFLT1dweTFZeVphczZKUUQwTGJ6b2x3WDJiXzJITTN3RGRHSmFUQ0xNQWRzYUNfaWppODNNdjB5bk1seW9rTWlsaHExZG5sUlBwYjhzelVrME5QTm1ObnNXMQ?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
       },
       "confidence": 0.65
+    },
+    {
+      "id": "e5fa46979704d292",
+      "published_at": "2026-08-09T15:59:44+00:00",
+      "title": "War on Iran: Phase II: Day 29 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRW56N3I4cWpfTF9UVTUzMGc5enBYNVdnU0dFaUF0NmNqOGdyVWVBU1BzTXRJZVpaRGdiX09EQklLYWJKcm45ejdRTkV0bVg4UVlvUG1fclk0ODlnTi1xQXFUUl9yTE9LX08yRXlOMWpyNjRJNjNYUVFnQTltOFlhZzFyMNIBiAFBVV95cUxONUE2UTVUelBxM3p1cG1HZl9UZjJRZFowVUFmZk1JLWMwQ1RNWGxBMVl4M2ZRSXZHSVQ1Q25DYmQwTl9jNmZ1LWNrcW1ENWRZZDl4dTd0RGRocmdPT2E2UHdVRFNRcXNCLVBFMThCQm1uS2pWZVI5VXBKOHBVOGFPenluNDM2cmFz?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "c3d71b64a64f40f3",
+      "published_at": "2026-08-09T15:56:00+00:00",
+      "title": "Iranian Demands Disrupt Trump\u2019s Plan to End the War - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU1M4M3hUYVVJOXdSZlRlQW1raDdLdW1OcjNNTTc3Vl9mUDI5d3BWbDh4WmVxcUpuSFBzRmJqTnR2d3FFVTRuajZreHVvSjFMYnVsZHZaSWpUdDNNemY1N2hjZGp5dzViTmd1MGI2VFdYbkw1MFFHYnJvWDJpaWYwaS1jZUtORkt6TTVqaGhXc1g?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2d6357a8e9452f0d",
+      "published_at": "2026-08-09T15:51:10+00:00",
+      "title": "Pentagon urges faster US weapons production amid stockpile concerns - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbFpKU0pLOUVsX0dwVFdHd3RqRld5bURZUWdNSjR1UWxnZGdqdXRlc093Q3dQaFQycjdaMUNIMnVQTFBOMG9wdU03TE16MVl1LVdxTXA1SDBMY2YyTUlDOE9obTFJLWR3eTRCMGhkVi1uUThqSWkzQUJmdmtPVEt4azBiM1FwZ1R5RDlGNDFkdHFXR3VCcXA2dUpxMXJwQVh1dnR2YVhBbFMxb2vSAbABQVVfeXFMT3RuMnNxZi1DY3p3MUp5N0ZmTDV4MHZndE15VlZuN214WFpYODlPemFBMERIeXpVTWlTUVd4eWE2UjBkNHdfM1dmWlZ1YVE1UGREZlpRbC1ueUJuSDFKU1dKM3hicFhVNmZWTmEyRVYtNy1ibU85YXJMbHVZNG1Ga1dWYkhjMGJON05oNkhtOHRHUUtja1R2MkEzYXA2bHo2amQ0ckFSLV95U1ZZeVNJRFc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3ab9f5e3a19e0d24",
+      "published_at": "2026-08-09T15:22:44+00:00",
+      "title": "Tehran says US must meet new conditions before Iran reopens strait - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQd0R1TmpCYV8zeGVNZ1VzTzl2eG1WWndpVkdCS2pJQUtNN09UMF9jQ25CTWhfdHZIZW0yU3lWN0k3eE1YYTlSYnFLQk1yQzRFcUhPTWZNVmZrdjdKN0dZVnItYUV1NFQ5ZTBiRGVBaTM1Q3lpVUk0WDFhalhpOXBBVlhmTWo?oc=5",
+      "source_name": "Financial Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "74b5e33a8309fe96",
@@ -143,36 +353,6 @@
       "confidence": 0.55
     },
     {
-      "id": "de5a70464df0ffbc",
-      "published_at": "2026-08-09T14:27:07+00:00",
-      "title": "The Mecca pact is not just another regional alliance - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcnpMaG0wajZYWHBIc1Y2QjZGd1RQVS1MVzBVTGt2NnJfT2JFM0s3RUROTllaTUVLUzJKRmpOZHRvUS1leUVmR1gxMjMzQ2hYa2pSUlM3UHBob0NIM0RQU2RaSUcxempXYjZTX2NGTXdSNUpTRkdvdlhRQ3B6Uk5uRXMxcG5iTDZQeHFyOC1rVVFUR3c0VzBZdktWNzjSAaIBQVVfeXFMTkNjY3V4NjBtbFJDS24wdFRZVlB5cGJPSEl6Y19KdFFZYzYzZGlZdXBLOTBrWUE3Zjc5czVaZXZkN2V1UzZuUnZBOFpUT2MxMjdEa0VhSl8wNnFrLW0xY1RmNlFjQjdLU2d3V3FJSmFSWVZGSnVqM0tqbU9GR2lrQ2ZvSWxjVUtPb01jSVRZQlFvVS1FRXRubnVmVmJ0QmYwTGpB?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "78406c5b22ea5dd1",
-      "published_at": "2026-08-09T14:25:00+00:00",
-      "title": "Trump ready to end Iran war without nuclear deal; Tehran's demands complicate exit: Report - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONlRlcmg1SEUydE80Z1I0X3ZmZEQyZVdrTDhtUjVnM2ctNE5WOXc3YWhUaWs4QVpiZmU0YmRlTnF1bzFNTld2U1FDZXpWOFNnckpiMVVvLV9zZTQ3emNGejR6cXRtSUdiM3VpN2ZYdGhPM0JaYWVWeWJpY2hLUE05LXVEY3BGb2xoZjRXMWdSSG1KT3hRMU41WXlVVDhTNmNxdmFMVkMtQWNDU2FYOS1ZQlRnQ1VBME0yNEpLQkFkM244Yy1VTmM1RGYyTGJlakZPeExXWXZEWWFXaE1LeXdSOG5PcHRabXdpYjFVQ3dsRdIB9AFBVV95cUxOQzhiS2k1Z2dtWmd2Yk1xQkFTVzBYOXluVmJwN252ekFuRW1uWnVYSVNoVGJXSWZKczU0VjIyZHJfRTZRVzVUV0dkSWpRS3RpT1FhTE0tU3ZxWjBvVVExQThIUVRaZDNRVXNMdHNRX05MUDBIUDVWeEs1OXB0MEM1VVZSN3lJOFZmYTJEakw4eEhxRmFnWHRjY09vQ05OMHd6eWgwOEhJWVpIaldtU2RqWFpGOWhvMWNrNElDRllMc1RzYkwxSXl3dDRfQUp1cHZkekJFTm1WdGg4V1FwTUw5M1ZkUlJPNGUydURMXzFZQUx0aFlB?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "529eaa29daeed93d",
       "published_at": "2026-08-09T14:16:00+00:00",
       "title": "Iran War Updates: Iran says strait won't open until the U.S. \"corrects\" behavior - CBS News",
@@ -186,36 +366,6 @@
         "iran": 0
       },
       "confidence": 0.75
-    },
-    {
-      "id": "d4e26e34152fc8b8",
-      "published_at": "2026-08-09T13:59:33+00:00",
-      "title": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8b9c9439f0c03557",
-      "published_at": "2026-08-09T13:44:25+00:00",
-      "title": "Donald Trump reportedly willing to walk away from Iran war without nuclear deal - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBUd2ZVSzhLT01KMUc3Y2FsR1dBZkhnQU9RZ3ptS1BIZks4bHQ2OXotNUxaSlI0c1VNcEU5eF84LXc2emxYQmN5a3dfTGNURVBYVmxGal9MTExscmMyMXFkWEtKRFpwMXV6UXc?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "91dfe0cd045f2535",
@@ -246,156 +396,6 @@
         "iran": 0
       },
       "confidence": 0.7
-    },
-    {
-      "id": "b16745723eb19548",
-      "published_at": "2026-08-09T13:13:33+00:00",
-      "title": "Rather than capitulating to the US, Iran toughens its demands over the vital Strait of Hormuz - CNN",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9meGY5VUJUV2tUTy1QVHlJejNuQ3NGZVh2YVp2ZXVYMkU3a1hodmlNRGRtZjhZTkFNWjhYc254TE1nRzVwcXpPeU1DUHlEbURlUDd1dndqQ2lFcmttTGoyaWxQMldkNXlqd2VVMk9YblJFSElQdUtER0xxdVZ4QQ?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a3d16e49038fd2d7",
-      "published_at": "2026-08-09T12:46:00+00:00",
-      "title": "Iran\u2019s Army Force fully prepared to counter any ground threat - Mehr News Agency",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOemg0RWRvd040c0JVUjJBN0lERGs5dHJmU0k0ZHdRSEg5MElkS3ZEd0o0c0lRX2Rnb2wwc3RIUUVVZkdoa01BQXNNVXFUNHphdWxyeG8xTG5ockliVDVVcENkMEVlQ2d5bjRqMnNvRGN6UFBHMFFQdXlQT21LakJra0prNldpNUdyOUd4MzRXMG96eG4tWjA3UkhacGVwZw?oc=5",
-      "source_name": "Mehr News Agency",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "14f0488bb06cb02d",
-      "published_at": "2026-08-09T12:41:46+00:00",
-      "title": "Iran makes new strait demands, the UAE says a ship was targeted and other Middle East news - ABC7 Bay Area",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNYlhLWDJxY09KYTkyaVVLeTZkM3ppWW5aX2NOV09nRG04SWNaelNHNnFUNXdtR1hXVHZDRkJLeG9mcTBaZldmRC1zdnRkSUR0eUJWN1A1Y2pwdDNiNXVBa2RVelhHMkt2eTBabVZxekNIaUdhRXZqemVLdndoR0dCdjV2Tk9DelRxcUhYRkczLUFVOEQ3WVJSWnJCNUtja0NYczZvOGVZbEhBalBuLUR5bU9LU3hhQdIBuwFBVV95cUxPenRwZF8zLUN2OW95bENIaWxaUkpwNVhYUkoxNzZNajdBVFZZWjUtWnk4ZHRGbDYtMEx1OGxiNzFEMlFhNVY3SjBCaE1tcVBXOWxldmgxTDhzaGRoNHVTdG90R2o5cTBsNFljRl94MmlpdndidnRWR2l6NHF3OS1oc2pxZVUwbUZmY0lNV1lBdHNkakN4dTZqbEJvMk1PdlMwTkJTUGZjNG8zZ05zdTN2aDJFRGh1MmFBT3Nj?oc=5",
-      "source_name": "ABC7 Bay Area",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "228b1d370e048bdc",
-      "published_at": "2026-08-09T12:39:47+00:00",
-      "title": "Haunted by Hoover, Trump searches for an endgame in Iran - NPR",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lQlJRYWtvem9qZUFLSWZGQ0FWeGc4QVlMWXF3ak5QNnhFd0VYTEttaG9PdnN6bGNfeHJQaDBMNmxmNzltZzhyZVRuYVdJV2llei1rQzBJcllCR1NKQUNRaEJQVE5VWmJRNldVYmtoVQ?oc=5",
-      "source_name": "NPR",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "08deaa4827a6928a",
-      "published_at": "2026-08-09T12:37:53+00:00",
-      "title": "Why is Pezeshkian urging an end to Iran\u2019s \u2018no war, no peace\u2019 status? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekhIU3NwMjBHc0FzcjY2b2FCVjN5a0lBZ2dHNFkxQ2R2ZlA4X3h5eHN5WDQwdExkMkN1ZjRGNE5tRmdYWXdQZllyNXAzempoUmFMejhkR0hlWDZVcDZWU0Q2NG13NG5mMHhXVmVNRU1PYUx4aVN4NWstaHJwdTRoTFVSRTlsQmpYWGhyUU1GUnVSRkp4Sk9odDJ6d3Y3Z1F3aFhFVi1B0gGrAUFVX3lxTE15SnIxanV5NDNQOTVIM0VUMDZEWHo4OVVlZ3o2a3JqeENkSnVCdXdkVW56Z3pFaW5VWm1FUWZ5V3A3ZVF3X19aQ3JQOHVsb0JCTnljN1BwRV9oYU9fakhUVUpWVWh2QjNEa2lwRWFvd2Q1QjVwU0UtT3FkS3N4VlVpdE9iTVFnTnBzbDVabVY1LXpUMEJUSnFwT21GLVZFQU01bUlYTHo4NnBsMA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "9b006966aa1e20e4",
-      "published_at": "2026-08-09T12:29:00+00:00",
-      "title": "Iran-aligned Houthis claim they attacked oil refinery in Saudi Arabia - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONUczZGxpN3lGb084MkNINGQtY1FfSDNZM1NpZk9La2xSbVB5VkpuMEVJTm03X0JpWElISU11Q1JaM1lTOHkzZGRYUl9DVWNCbnJCVXlCMzlXRjNkbGU0UUJwODF3dHU5OGFJNFFBMi1razRnQ0FEVzZXR1dsbHVqaE13dTRQRmlkZ0NfWEppa0lxeTlUeVNOWTM3Z2JmM1pPNUpXbkVTSUFzZWRfUmhiOS11TQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "3a36a9c72b041af1",
-      "published_at": "2026-08-09T12:14:32+00:00",
-      "title": "How To Invest In The U.S.-Iran War And What Comes Next - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUdXUy1FQ2tidlh2S3dxS1YxR1FIRkxIcGNRNTZQbkI3SVdjMTF2V0NpcVFyWS0zUm01ZlRSTjdUcDl3bHozQWJlZEctZml1OGRka0RWQ2RScGJnRkZpX1dMcmRIeHUtSUxDZ2dvSUdGWE9lRGNuaWlwNVZoMldDUG85b0xtaGctMTRTQ2EwMUpUTlNaU0NwMVc5c2s0UmsxZDRoZkt0dDlpUkFm?oc=5",
-      "source_name": "Forbes",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "275267e007259fa3",
-      "published_at": "2026-08-09T12:04:08+00:00",
-      "title": "Trump willing to end Iran war without nuclear deal \u2013 WSJ - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE41X2dZYk0tWms0Q0VGS1pPZlVITllaQWg5YXFZeU93WEtrNThNMjYxX0pNMzVrUDhaazNSZXBMWGdiUll6M3hYcnBFUHhicnpxbnc?oc=5",
-      "source_name": "Iran International",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2b1c11e8d3f8b8c2",
-      "published_at": "2026-08-09T11:23:00+00:00",
-      "title": "Saudi Aramco extinguishes fire at refinery as Houthis claim responsibility - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazZuYlhScWdna0IzWTBUSzQzbG0tVFVHU2VyeFZmTDdVRmNvRS1uR24yamI0R2U0X0ZlX2dLMEYxMGRtclFXbEhNaVpYRDAzRGNqRDNaS01pQllHbWtGa3lSN2FXZVhWMVdFZGlsdFBZc2Y3REdHakF4SEVKNHFnVlF4Wm13eU9hQ2IzRFVncEZqemJhUVNCMVV2eGhHUdIBowFBVV95cUxOWXpUWkE5VlRXTG1NMFdBRTZjVGVDc0FlbUU4SGs0bmIxVno3VmpqdHNUa2N5ZGhHcHlMWmVxUmgwZE1vVTh1N2NLSVFDV3dPdS1Rdmk0TzMybk91OHFHV1FjSXR6bTV0WDBmWjVZTmI4ZmRNVlJnUzVxZjRVQUtZLUI5NGU4amQ4UVhSUGl5eERUOVo2UUU4VUY3bXEtYmFhNVVj?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b981afd231080a1a",
-      "published_at": "2026-08-09T11:00:00+00:00",
-      "title": "Trump Thought Opening the Strait of Hormuz Was Imminent. Iran Had Other Plans. - wsj.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdjBPMlROTlJtRUlMdW1nVEZJYVNPWERpM0JfM0U2M3lMU0hMbUctb24xVlozZGdGTXZqdy1LdkVDcm90TU5KejhlZDAxNDJmTEFHa0pWa0tiNDdNVE5PdDJqMkJlcEEyaFVhTmpKWlVKczNsVDBGcW5tWXhRLWdOdXdKeUNQRjZzbXZEQ3BYT0g2ZnhPRE9fVlk2TQ?oc=5",
-      "source_name": "wsj.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
