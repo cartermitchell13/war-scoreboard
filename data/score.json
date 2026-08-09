@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-08-09T09:58:41.827880+00:00",
+  "generated_at": "2026-08-09T13:17:52.356938+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 105,
+  "event_count_window": 103,
   "totals": {
     "usa": 52,
-    "iran": 22,
-    "lead": 30,
+    "iran": 13,
+    "lead": 39,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 10,
-    "iran": 8,
-    "delta": 2
+    "usa": 7,
+    "iran": 7,
+    "delta": 0
   },
   "confidence": {
-    "score": 67.3,
+    "score": 66.8,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 47,
-    "other": 48,
-    "diplomatic": 9,
-    "material_loss": 1
+    "other": 51,
+    "attack": 45,
+    "diplomatic": 7
   },
   "history": [
     {
@@ -58,11 +57,11 @@
     {
       "date": "2026-08-02",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-08-03",
-      "usa": 4,
+      "usa": 1,
       "iran": 0
     },
     {
@@ -88,7 +87,7 @@
     {
       "date": "2026-08-08",
       "usa": 3,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-08-09",
@@ -98,8 +97,23 @@
   ],
   "latest_events": [
     {
+      "id": "fa7c0a7a5c4ea567",
+      "published_at": "2026-08-09T13:12:40+00:00",
+      "title": "Iran-US war latest: Trump\u2019s military chiefs \u2018push to speed up weapons production\u2019 amid Hormuz deal deadlock - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlRBbkRRSDlfbDVmbk9ZVGExVzIyYTRZcExKcFdmaGh4TG5ZMlRNdlpDQ1JBYlNZdHhJSWZOOGJpXzNFVlJSZ0o5aHNudTZnNm4zS245YlQwd3NabV9RWHNPWTFITTNiRTNKaHBuQkM4bm5Fby0xNV9GYUc5OFhKVTZQeFh4YXNLNVVVWTdYNDF4Q256WHBlYWF2Z3dkWHExanpjZGo3VGJ0TEN5?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "e93da7dccb375024",
-      "published_at": "2026-08-09T09:37:28+00:00",
+      "published_at": "2026-08-09T12:39:30+00:00",
       "title": "Iran war latest: Oman condemns attacks on vessels in Strait of Hormuz - thenationalnews.com",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkRIR0dNR3FfRXVTMDVwNWZwT1N2VlE2M2tIeEQ4S3hRLU4wS01TRmpYS0IzbHF0TFFBOU5mY2ZCdk9lYUxrUDdDRlJTV0ZuRVpjQ3QxOE1EU2FMd2xSOHlZQ3R0SGxnempyRnBqRGFWbXpPYXYyWEgyT2VSeHV4Qw?oc=5",
       "source_name": "thenationalnews.com",
@@ -113,56 +127,11 @@
       "confidence": 0.65
     },
     {
-      "id": "9ad3ba91a572457a",
-      "published_at": "2026-08-09T08:53:00+00:00",
-      "title": "Live updates: US-Iran war news: Iran insists on US concessions before opening Strait of Hormuz - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zczFtNVN4ekhEZnBzcmk1a0JsOHlRanpTblowSUN5d1pCbHRmMTN5Y045bkdTdG92bncxWUhqZ2ZOdEV0X3kxU29TZ3lkYU0zd3N4Qk1LMUhvU3RYM2RhcXpJN2FEZjdoSVBNWVZR?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c987172a9bb7ce58",
-      "published_at": "2026-08-09T08:49:41+00:00",
-      "title": "Iran war live: Tehran seeks \u2018to create grounds\u2019 for talks with US - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e476b8c7db258fa6",
-      "published_at": "2026-08-09T08:43:40+00:00",
-      "title": "Iran live: Trump military chief seeks \u2018off-ramp\u2019 from conflict - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUlRBbkRRSDlfbDVmbk9ZVGExVzIyYTRZcExKcFdmaGh4TG5ZMlRNdlpDQ1JBYlNZdHhJSWZOOGJpXzNFVlJSZ0o5aHNudTZnNm4zS245YlQwd3NabV9RWHNPWTFITTNiRTNKaHBuQkM4bm5Fby0xNV9GYUc5OFhKVTZQeFh4YXNLNVVVWTdYNDF4Q256WHBlYWF2Z3dkWHExanpjZGo3VGJ0TEN5?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "1b097ca6c90f0593",
-      "published_at": "2026-08-09T08:12:39+00:00",
-      "title": "President Trump\u2019s war against Iran has depleted U.S. weapons stockpiles, according to senior officials. This not only leaves the U.S. military less equipped, but could also leave Russia and China feeling emboldened should they contemplate a potential conflict - facebook.com",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNVG9QZDFsM1g1WkJxU3NJb0gtSmh2OWREdmdDdDFWYXpoNTFwT01VSWtCc1BCaVRXUXp1bGx5LVBheUpuZzlIUlB0VUZhS0VFUXJ6dV8yOEVRWE9uVktkNUY2eDUyVVF5YmJHVi1EcWtiQ28xTXpxa09kY2JqWlppYko2MUVEUWhIT0Rsd1JYY3FvVVU3QUliRUxiR3I0Mm9QazVGdDl0ZlFaY0tmandHQ3RGdHh6Z0hjRGxDYkt5d2YwQVUxV2FYZVFuVlNKa0NDWTJQMw?oc=5",
-      "source_name": "facebook.com",
+      "id": "3a36a9c72b041af1",
+      "published_at": "2026-08-09T12:14:32+00:00",
+      "title": "How To Invest In The U.S.-Iran War And What Comes Next - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeUdXUy1FQ2tidlh2S3dxS1YxR1FIRkxIcGNRNTZQbkI3SVdjMTF2V0NpcVFyWS0zUm01ZlRSTjdUcDl3bHozQWJlZEctZml1OGRka0RWQ2RScGJnRkZpX1dMcmRIeHUtSUxDZ2dvSUdGWE9lRGNuaWlwNVZoMldDUG85b0xtaGctMTRTQ2EwMUpUTlNaU0NwMVc5c2s0UmsxZDRoZkt0dDlpUkFm?oc=5",
+      "source_name": "Forbes",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -173,11 +142,86 @@
       "confidence": 0.7
     },
     {
-      "id": "b91a9fb8615eb6b2",
-      "published_at": "2026-08-09T07:44:13+00:00",
-      "title": "Live - IRGC says will maintain control of Hormuz until demands are met - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HclZ4bF9NLTVncHVwR3EwS1dLVGF2cFZodXB3aFhISjVobmRGc3lIN2VvV2ZYYVluU2ZJanBaM0w4Tk5pWkhTUmVXMzZEb3ZVZWU3eTVyMWh4Y2FqbVE?oc=5",
-      "source_name": "Iran International",
+      "id": "c987172a9bb7ce58",
+      "published_at": "2026-08-09T12:07:53+00:00",
+      "title": "Iran war live: Tehran seeks \u2018to create grounds\u2019 for talks with US - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUmwyLW4yX3hkbjF2aWNpbmNLZWhIdTRZWV9hMDFCcmRZdkFGTFBidEtQWUJHR01Sd1JsZ0Y1aEltY2tfeHM2R1NNNk96VFA0b29zdXl4cFlOMDZRVFRXbGxwOVFfT3BSRjRtaklJbGVlZjcxVThBclg1emZSOGxOSjN3N1pLVHFXdFBnTHlJZmhGekk0QUhlUWQ0eHlMd2ZXOWVHZXBFMTZseDgtekVLeDNubU9oSmR3R2dxVS1LbkvSAcYBQVVfeXFMUERqYm5zQnVEdmc0b0tCU091ZTJGQ01Cald4UVVyWUZCdWlGMURrZ1RsYV93cXNoZjRRNTJXVUZHaU5KTlVtMmoyMUNIOFFETzI3YjZfRTE0Y3BGY0s5aFFGTkhXSTJEMmJRdEp3blBXZktxeFFtOWh1czZ4U0ZNZE54aGljT3doeHpKdlFkbk9WVlFrdU1EWHhIbVZqMnFiWkRhbGZ2RnNERUxvQll1TnEwUHI3QVkzUlFnMms0cXBiWmhuSU9B?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b6a698f0784a329d",
+      "published_at": "2026-08-09T11:55:34+00:00",
+      "title": "General Warns of Severe Response to US Ground Entry into Iran - \u062a\u0633\u0646\u06cc\u0645",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSGVQUmpFd01McHFNQ0FNY2dpUS1PMFVyWEQxYmZKWXhfSWY5RndkSkpvZkdvOGxTUmRPZEJKV09oa3JnM0pFQXFSQmtpWmlhc2ZoRWl5cDlNZ2s0My1rSzBfVmNLOWU2ZDByTW9rb1RNamlCMXBNWkJkdUhjS1lqbkhYU3FlVS12WEpwNjJRRjVQZG5VZUFiWGdFeG9iVWVtNEF1VzBPVWE2TldrYlVBWDIzelnSAboBQVVfeXFMTjY4V0hlLTBPclJEOWZuVHEzSjIwa2RuaGJnNmtzY042YnJ2dlFzaml4d3dzM2pNdk1CeG43VExyRTNrSHpHU2tDeUZtdm9QLWY1aElzTUNZN0FfdDl4eXVZelUtd1NKYW82b3pTQUJ6T2lpZjRDbGdtdEtadVBla2xCVFhyVXdETDgxRHNPQnA0QV8wUk1HVm1KS3B1OVlsdXNJUk94WGZGWEJ5Ynp1MTRPNTlSd3gtVXJ3?oc=5",
+      "source_name": "\u062a\u0633\u0646\u06cc\u0645",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d4e26e34152fc8b8",
+      "published_at": "2026-08-09T11:52:09+00:00",
+      "title": "Iran says Oman deal is in 'final stages' but US must act to open Hormuz - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLVlSazBucFNIOGZ3aG91cDZhcTFfMWI4NWMycVczNWtmVHRKTU54WlJud1JqVUxCOW84U1p0OU5aSjdBNnJHS2xmLVVIaVdGZUpNemJKaTA5aV9TU1NHaHlZMEo1X1VjX2wxTExReTl0Tk5SYkRsMWsxWUo3UWw3UE1iV0N2UmJydWZFeHZpX01Ba1NISVdtei01OXRnMUtpem80dW5wa1FKNnhNQzZOMGlJMG8?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2d8a6f982d7f4d45",
+      "published_at": "2026-08-09T11:30:24+00:00",
+      "title": "Iran sets out steep demands for reopening Hormuz despite hopes Oman deal could break impasse - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNV2J0bUZTUDZmaGFyZHBza2I4RVlRR2pCenJQVV9NdVlxT3p6MG0zUkJOVll1WmJCZ29hQXc3WWEzaXZiQUJhUU1kV2o2MS1sSkFQelppdUtNQUk5X3hwT01rR1dEeGJkMzJZaXJOa3hOWGwxLW8tZzEwUElXM3FGbGVlNWRXR3M1eE9QUDlmaXI5a2sxcmdwMmJ5RTFsR1RaTHhBdXl6QjB1dlRaRXFMVkxQS2U0dGs?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2b1c11e8d3f8b8c2",
+      "published_at": "2026-08-09T11:23:00+00:00",
+      "title": "Saudi Aramco extinguishes fire at refinery as Houthis claim responsibility - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQazZuYlhScWdna0IzWTBUSzQzbG0tVFVHU2VyeFZmTDdVRmNvRS1uR24yamI0R2U0X0ZlX2dLMEYxMGRtclFXbEhNaVpYRDAzRGNqRDNaS01pQllHbWtGa3lSN2FXZVhWMVdFZGlsdFBZc2Y3REdHakF4SEVKNHFnVlF4Wm13eU9hQ2IzRFVncEZqemJhUVNCMVV2eGhHUdIBowFBVV95cUxOWXpUWkE5VlRXTG1NMFdBRTZjVGVDc0FlbUU4SGs0bmIxVno3VmpqdHNUa2N5ZGhHcHlMWmVxUmgwZE1vVTh1N2NLSVFDV3dPdS1Rdmk0TzMybk91OHFHV1FjSXR6bTV0WDBmWjVZTmI4ZmRNVlJnUzVxZjRVQUtZLUI5NGU4amQ4UVhSUGl5eERUOVo2UUU4VUY3bXEtYmFhNVVj?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3f6386029b823293",
+      "published_at": "2026-08-09T11:00:00+00:00",
+      "title": "Trump Thought Opening the Strait of Hormuz Was Imminent. Iran Had Other Plans. - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdjBPMlROTlJtRUlMdW1nVEZJYVNPWERpM0JfM0U2M3lMU0hMbUctb24xVlozZGdGTXZqdy1LdkVDcm90TU5KejhlZDAxNDJmTEFHa0pWa0tiNDdNVE5PdDJqMkJlcEEyaFVhTmpKWlVKczNsVDBGcW5tWXhRLWdOdXdKeUNQRjZzbXZEQ3BYT0g2ZnhPRE9fVlk2TQ?oc=5",
+      "source_name": "WSJ",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -189,7 +233,7 @@
     },
     {
       "id": "529eaa29daeed93d",
-      "published_at": "2026-08-09T07:12:00+00:00",
+      "published_at": "2026-08-09T10:25:00+00:00",
       "title": "Iran War Updates: Iran says strait won't open until the U.S. \"corrects\" behavior - CBS News",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMVhleVdzazZyT0ZHcXV5aWJxa3FZaGtTelNHdUJ5cm4tNXNlLU5PYUM3Tk40cVRLQjdWY2Job2NyM0hNTnhKN1diQkkzN0Y0a0lOWmtCaGxxdU5GTUFxZW9IODM0MjI4aU5sS2YzREFrODBHV0pocFpGMkpPWHhla1JaXzRzclYtb085WFhMOFcxaXVfWWh1SXQzSmpJNUU5TzR3?oc=5",
       "source_name": "CBS News",
@@ -201,6 +245,21 @@
         "iran": 0
       },
       "confidence": 0.75
+    },
+    {
+      "id": "08deaa4827a6928a",
+      "published_at": "2026-08-09T10:04:56+00:00",
+      "title": "Why is Pezeshkian urging an end to Iran\u2019s \u2018no war, no peace\u2019 status? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNekhIU3NwMjBHc0FzcjY2b2FCVjN5a0lBZ2dHNFkxQ2R2ZlA4X3h5eHN5WDQwdExkMkN1ZjRGNE5tRmdYWXdQZllyNXAzempoUmFMejhkR0hlWDZVcDZWU0Q2NG13NG5mMHhXVmVNRU1PYUx4aVN4NWstaHJwdTRoTFVSRTlsQmpYWGhyUU1GUnVSRkp4Sk9odDJ6d3Y3Z1F3aFhFVi1B0gGrAUFVX3lxTE15SnIxanV5NDNQOTVIM0VUMDZEWHo4OVVlZ3o2a3JqeENkSnVCdXdkVW56Z3pFaW5VWm1FUWZ5V3A3ZVF3X19aQ3JQOHVsb0JCTnljN1BwRV9oYU9fakhUVUpWVWh2QjNEa2lwRWFvd2Q1QjVwU0UtT3FkS3N4VlVpdE9iTVFnTnBzbDVabVY1LXpUMEJUSnFwT21GLVZFQU01bUlYTHo4NnBsMA?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
     },
     {
       "id": "aab54d97379d0ba1",
@@ -233,21 +292,6 @@
       "confidence": 0.55
     },
     {
-      "id": "c6a2d5b83fc99b91",
-      "published_at": "2026-08-09T04:23:57+00:00",
-      "title": "Israel prepares for independent military action against Iran amid US push to end war - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPM1l5UXllRk1XbXdhUUl1Z29Bck9sVEFaUk1PMDlIbjlKSC1xSk5RZlh3VHB1UWJPNkwyTG15TmY5LTMxVExWbjRyLV9aQUZIczYxRHdkZDVIeHlOZk5WS2JFMTdPT3JOd2tJVEpJdE5ZTUd1SHdlLTZCTWxtUVBMUTdXRFZqY05SdFFidlBmLUh4b0Vabk1uRXRmQjlRR2U0dndiT2ExS2UxanI5ektCOTFsTFRfOWpzNEpMR3JmSUIzX2doWEVZUGln0gHPAUFVX3lxTFBfaDdvWnNZQ2tYTkRHTmplaWJ2VDRXUnZxSTN2UkRvVTRtTnVZTUpqVW41SnZCM2k1NXF0SHJYeDQxc0JZUURHc3BZdUN6SjhucFRZOVg1WlpZR1k4X1ZzSi00c0NnXzJ5ZVlYSXpVNmlkdnBneG5HTS1qOHlQR1BueTNNTzFoaDg0ejZvdmtKSHdNNDhVM1JJUVNMZmFIdVZ4QXA1SXc2OTE1bWlxQUlrd0RGV05yd1lfUWxuNGdrU1RIZEZXU0xuM01aOGlLUQ?oc=5",
-      "source_name": "Firstpost",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
       "id": "d699d56c9ae2ec29",
       "published_at": "2026-08-09T04:17:40+00:00",
       "title": "Iran says deal with Oman is close \u2014 but its demands leave Hormuz opening uncertain - The Washington Post",
@@ -278,21 +322,6 @@
       "confidence": 0.7
     },
     {
-      "id": "46a32d8827cebfb2",
-      "published_at": "2026-08-09T03:19:00+00:00",
-      "title": "Iran issues tough demands to reopen strait of Hormuz as deal still out of reach - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaUNTWVFLLXhncGRwVGVoMGZSWXhtMlNFZmFFVG5jcUV4MmhSVDA2UEJoS1NWSkotQUJwSEZEZVBjbGRWVEItY1VJR0RReVA0aXpXNlNNc1c4RkZTN1pDazh4eVc5cXlFSUR6em41VzFKdGd6SURhLUY2RFhlSlBfNTZsUjM3QkdEaXJTUEg0RXp4c2w0cVdGLTRnQzRaa0Q2c3RFdHczRDIyMnltYUVybUpjLTRRcW9wTUxwano0NllJRW1VcVE?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "d1c875514c1f60cb",
       "published_at": "2026-08-08T23:51:00+00:00",
       "title": "Travelling through Iran reveals mixed narratives about the US-Israel war - The Guardian",
@@ -306,21 +335,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "221f799c36922e99",
-      "published_at": "2026-08-08T23:05:41+00:00",
-      "title": "Vance details ongoing Iran talks, says US in \u2018middle of the game\u2019 - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZnU4TWZYUEpBTkh0RkxXdGZsVDNpX1pvd1NrSk0ybnU1UFpQRFEzbVk2azR6eU1xalRoQ0xMOWpxS2NQbWoybGpqSjdIelRZSjJHZmM2c1lwQ0t1UUV6TlhhNTM4aWZWbVFjSGFaeEF1Z1FsNXNUT3NxYmRyY3VHMXR2eXI1dw?oc=5",
-      "source_name": "Fox News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
     },
     {
       "id": "f47e8c5da8265da8",
@@ -373,21 +387,6 @@
       "title": "Iran makes dramatic new demands around Strait of Hormuz - Politico",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbEtKbFh3WVZpeE1xWDFaT3l0NE5rYm16Q0hDcW9QZGltMnlsVTQ4NDRESWRILWJlRXZmenhVOTdGTUw3dmhjaHNHazhhTW5TZzVWUGdNOWNxckppZlFXOGllMjJ3RjQ2ZG1YNXNtOWNnWEExS1V2b1ZwdkZhZU5qU0RDbkNVRzZjYjJ0Y0ExcEoyTzZlMzZQQTZIME1QcWpkUEdHMnYxamI?oc=5",
       "source_name": "Politico",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "59a5daef97f156e0",
-      "published_at": "2026-08-08T20:37:43+00:00",
-      "title": "Iran war updates: IRGC says Hormuz to open after US accepts conditions - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdXdjZUFncUFjUUhKUlJVNHZLOWFLbHlvQ1NxbGdTbXB1Q1p5V055VFFUbVNzaG1peHJHcG5NWUl4c1YxMnZhM3BlalN2V2dsWjNGb1JVRFdzby1CWlJJcVZvVVdSQ09QY2VHZ3hCaFRtb25RMjc4b1RvaDlTVm9lT3FPT0x4bThvZjV5bWx5TnNLcU9SU2E2UGhZSEpmU1ppVW05dDFtTDhKTS01UVg0YnZUZGo1QllZRHFybtIBwgFBVV95cUxNUmVhM2hweGl2V0dURDlEc3JqUTFYbG9UbWdhRmdSVkJXalZUSHdEanJ5eUVSMUpoblI0b0JEdmtELWNDR214ZTl5akNpTU9OYnZJcUZYQ3hBVlp0dW4xT19vNFYtbENtZUZTVlVScDRFaFVmWG1oY1pGZHN5a1gwRmtsQ1A0b3hwUFZJVmJ5WGExSFpXRV9Ed2hJcFNpNnVfRzhKZ2s2RG8zaGlRTGpBU01xdkxjU08yT2FfMkhpN2VTZw?oc=5",
-      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
