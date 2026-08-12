@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-12T07:54:44.302898+00:00",
+  "generated_at": "2026-08-12T10:28:43.358065+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 111,
+  "event_count_window": 110,
   "totals": {
-    "usa": 46,
-    "iran": 19,
-    "lead": 27,
+    "usa": 45,
+    "iran": 23,
+    "lead": 22,
     "lead_side": "USA"
   },
   "momentum": {
@@ -15,14 +15,14 @@
     "delta": -8
   },
   "confidence": {
-    "score": 66.2,
+    "score": 66.1,
     "label": "Medium"
   },
   "event_types": {
     "other": 52,
-    "attack": 50,
-    "diplomatic": 8,
-    "material_loss": 1
+    "attack": 49,
+    "diplomatic": 7,
+    "material_loss": 2
   },
   "history": [
     {
@@ -47,7 +47,7 @@
     },
     {
       "date": "2026-08-03",
-      "usa": 4,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -83,12 +83,12 @@
     {
       "date": "2026-08-10",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-11",
       "usa": 0,
-      "iran": 8
+      "iran": 7
     },
     {
       "date": "2026-08-12",
@@ -98,11 +98,41 @@
   ],
   "latest_events": [
     {
-      "id": "5ee6d7d06d5191b8",
-      "published_at": "2026-08-12T07:46:55+00:00",
-      "title": "Iran war live: US fires on ship for defying blockade as Trump claims Hormuz control - The Independent",
+      "id": "3170d6937a2fb27e",
+      "published_at": "2026-08-12T09:26:50+00:00",
+      "title": "Iran war live: US fires on ship for defying blockade as Trump claims Hormuz control - independent.co.uk",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ2F3clFsWkJBdzRUVmZNZFM0MHJQR1IwdGtaR3pGOENQdDZFYnptMDJnckY2WnZLWTJEdk1tMEVCcUtiaUZhRDZkaE44WmxGX0FnWGp2M2l1OGNvdllVMUpnUjJ3NExJb1M3c0xzMG9XYVU4OXpneFI0WUcwbmtLNkFXVmNfRjFFRkwwbUJrM05laWlFT1FCUV9oa1VySkRZQ0Y1NTBUck9MRjhOSWh3bXE4UVlURkF1?oc=5",
-      "source_name": "The Independent",
+      "source_name": "independent.co.uk",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8deed12aebc80560",
+      "published_at": "2026-08-12T08:12:37+00:00",
+      "title": "Iran-US War News Live Updates: US Strikes Ship In Gulf Of Oman; Houthi Red Sea Attack Kills 6 - News18",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb2JSZmlUUlh4TUktZlJBc2w2VzNBalBXS0N4TnZYWjF5bEQ2cGEzSjZPaEZnQjNvQUlWZ0Vodkc1LWw5dDRNZVRKOEl0SWg5enlDZmJ2Mzg2N3psZ05nWGJESy1lSFlqS09BM1RGNTl6TnMwdGtTV01DUEdwUDlZMFlpcWpzbVV4Wkg4LVk3X1A3RENBRGtrd0docmNSaUNwWVdjWV9SN19LSmlkRG5iUUlVMGp6SnFmUndtZDdGb3ZyX1dvN0HSAcsBQVVfeXFMT0ZQV3duanJ3Z3NZbjNmUy1wbXNvRE9meXRieV9mcGJ3WmFjY0U5Zm5TNjVEdjFKNGdSbmFyMW5WYTZ4N2FWZ3RrTktaV3l2ZVdwRU8zTHJDekdLdHc3aUFPcS1WaXphMGxnQm8wYU1NRUtMN09uUnRfU24xbm8yMV9QQnZ4cDBGTnB3aW9DNEFOajVCZTlWSnJESUM4ZGI2TTZweWFXOW44UmtoSGw3VkV5bXcwQW8xQlZ2ejZCVHdvZ2M0anp4endFUzA?oc=5",
+      "source_name": "News18",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b713148ca28e6406",
+      "published_at": "2026-08-12T07:44:10+00:00",
+      "title": "Iran war live: Trump claims US in \u2018total control\u2019 of Strait of Hormuz - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -143,21 +173,6 @@
       "confidence": 0.7
     },
     {
-      "id": "b713148ca28e6406",
-      "published_at": "2026-08-12T06:01:12+00:00",
-      "title": "Iran war live: Trump claims US in \u2018total control\u2019 of Strait of Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZ0YzeG5pTmVna25ZMW9GU0tYYTg2OHhtYWdVVldlSy1CcDRTT19HcGkxSzRwQTBwVUloRXlnQVVJMnQ0YWxjQ2R0djZ4Und0YzdTR3AxRks5UVZLNk8tLUY0QzVScmw5RW1iRzN3ci1YZG15ZXNwS2hwbkthcFlXLTZrNy01ZTk1U0M1STFva2VGX1UzSThTRlZ6U3dBMWNDSENqamZ4U0dJRzl2RmU2bGUwaHE5ZE9lZE530gHAAUFVX3lxTE05eGo4eEZ4dWg0bkZScF85cGJzRXFHaHlMeTN5T3F4X0ozNWNjT1pEN1B2ZW9fM3hjOU02TDBRNTM0ZGtSNzl4MEZQNkpzbzJyMzN6WXAzZ21FenVRQm1leWkzOFlPRWNObU05eG9QcmVqNnpKdTZRTzgzeUcwUGZWckxnSnJPRER1TFlrS2xJYlNTVnpUdFUyR3NLZ3MwMG1Zc3g4Tzc1QlpaZjFHUTlvMWpHQVJmUEFXS2twRDMtUg?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "b9c6bca4c574bd63",
       "published_at": "2026-08-12T05:43:09+00:00",
       "title": "Iran holds firm on Hormuz conditions as Pakistan\u2019s Naqvi visits Tehran - Al Jazeera",
@@ -188,11 +203,11 @@
       "confidence": 0.55
     },
     {
-      "id": "afb886c56917ea9d",
+      "id": "88c3944ca7a2a20f",
       "published_at": "2026-08-12T05:10:09+00:00",
-      "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes containership - CNBC",
+      "title": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes container ship - cnbc.com",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOSGtLT21UUTZ1QlQ3UVd6akpNcnhtNzI0aFNidjRHeWExendmSDhoT3VNZmt0VHVkdFk4LS1YVGdveE9uY1VYdUJrWnV2ZGlRanVTZmxmUTB1dzNCNnRDOUg1R2hUS3ZXeHdEMkcwdWZodzNOam9qOTN2TjJlMkNCY25PbzRVNG81RVFMd1NR0gGTAUFVX3lxTE5YekViUjgwbV9GLWVWUmplY0d3Nm9ka1lxQmRFMHVrNzFTWHhiSU1JMVpDbllZRGF2MGtkNW4yakJidmF5LTJsbUk2YVRSQ214ZHQyQzRwczRzYVRTZFJUWk5pNHRMZzZpcXRvX2cwbF9PYzByQlNLNUpvOE1lSGQ3Zk9rUFJsMkdBVFo4ZkMtZnQ1TQ?oc=5",
-      "source_name": "CNBC",
+      "source_name": "cnbc.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -201,21 +216,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "a77efccb576aed02",
-      "published_at": "2026-08-12T05:07:59+00:00",
-      "title": "US confirms Hellfire missile used to hit container ship off Pakistan - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRHFrRUdwdTRkajMzeEp3RUlPbjNsVXRhWDFqc3ROUjdYTlBIc2NMSkU5M3RtMjhzVWxFdEE4aUppLWNjbkdKNzN3NURIZlpjLXctUkt2bmI3SUJXMjBUNUg0QW1pblhKUGRtanVNYUdjYkZmUFU2SDE1QUFfOUdOb3NGQzBNc3E2bGcyXzZwc9IBlAFBVV95cUxQUGpVYUdqTjlyMlNZTHdUSXVmelNRTVk3bnl1bTA2SWRPbUs2SDBzZ0dvWFg0TTRrX1J5UWFuV2RQZlVaeGdwVXdpZ0RoWmk4eklEVE1OVFoxYUFNaHMwRVprZWFUYkptMzJmWWxRNktHZFV2X0F4Y245c08wSlREcWd2TkJpNTlBMmdNRE1uZlNvd01M?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "7d9f24c1595b9b77",
@@ -233,11 +233,11 @@
       "confidence": 0.65
     },
     {
-      "id": "86cc70064fb58072",
+      "id": "9bbb3970c05997d1",
       "published_at": "2026-08-12T05:03:55+00:00",
-      "title": "Iran war latest: Trump claims control of Hormuz as assassination threat revealed - The Independent",
+      "title": "Iran war latest: Trump claims control of Hormuz as assassination threat revealed - independent.co.uk",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUDBFdjV1S2xzeGdicXJ1T2Y3aFdUQjJPTzM0Y2Fxc2RoRkZTWkpUNmMxek4tMlJXbmdvakdEemFXRkRYWTlFVUtGQzVIR21MN19XVG13bmhhUm9odFlad1RNM1BGT1NPWHRPODJLSWI4ZEw0Y0lnVWVDdkVIZnA2U2NEV0Y3MHhLdU9TUTZJMldZSmZFWXpzYldwU29zUVQ4empKaXBWMzN4X01SRnVGT2FoSl94QTJCalE?oc=5",
-      "source_name": "The Independent",
+      "source_name": "independent.co.uk",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -308,21 +308,6 @@
       "confidence": 0.7
     },
     {
-      "id": "7a0ee0fdf8ecc42e",
-      "published_at": "2026-08-12T01:25:28+00:00",
-      "title": "Iran-US War News Live Updates: US Strikes Ship In Gulf Of Oman; Houthi Red Sea Attack Kills 6 - news18.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPb2JSZmlUUlh4TUktZlJBc2w2VzNBalBXS0N4TnZYWjF5bEQ2cGEzSjZPaEZnQjNvQUlWZ0Vodkc1LWw5dDRNZVRKOEl0SWg5enlDZmJ2Mzg2N3psZ05nWGJESy1lSFlqS09BM1RGNTl6TnMwdGtTV01DUEdwUDlZMFlpcWpzbVV4Wkg4LVk3X1A3RENBRGtrd0docmNSaUNwWVdjWV9SN19LSmlkRG5iUUlVMGp6SnFmUndtZDdGb3ZyX1dvN0HSAcsBQVVfeXFMT0ZQV3duanJ3Z3NZbjNmUy1wbXNvRE9meXRieV9mcGJ3WmFjY0U5Zm5TNjVEdjFKNGdSbmFyMW5WYTZ4N2FWZ3RrTktaV3l2ZVdwRU8zTHJDekdLdHc3aUFPcS1WaXphMGxnQm8wYU1NRUtMN09uUnRfU24xbm8yMV9QQnZ4cDBGTnB3aW9DNEFOajVCZTlWSnJESUM4ZGI2TTZweWFXOW44UmtoSGw3VkV5bXcwQW8xQlZ2ejZCVHdvZ2M0anp4endFUzA?oc=5",
-      "source_name": "news18.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "8a747f0ab83bf851",
       "published_at": "2026-08-12T00:14:42+00:00",
       "title": "Trump's dramatic plane swap hints at personal stakes of Iran war - BBC",
@@ -335,7 +320,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.6
     },
     {
       "id": "0b34c6fb1d499a6b",
@@ -396,6 +381,21 @@
         "iran": 0
       },
       "confidence": 0.6
+    },
+    {
+      "id": "c4ae991be71272d1",
+      "published_at": "2026-08-11T20:57:00+00:00",
+      "title": "U.S. Fires on Ship Breaking Its Blockade of Iran - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbDhFeHNmTTdEYjl4RHZoSEVKRlV5X0dxVnBQWWgxX2NkUWlSaUJvWHFnbEt4bkNVV2lULVJPcnRvQUcxRWVWbmZreVNFa0FsWUdIUEloT29sWW9wb1BtU2Y4R2NEdnEtVFFidFoxOVJpTm43cERCYVoyVXZpTHlUX3Y5bEVBZTU1VVdKS1hVYkFpbnJlUG45QTBB?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
     }
   ]
 }
