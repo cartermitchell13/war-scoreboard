@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-14T03:00:35.496774+00:00",
+  "generated_at": "2026-08-14T05:07:21.018468+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 103,
   "totals": {
-    "usa": 40,
+    "usa": 44,
     "iran": 21,
-    "lead": 19,
+    "lead": 23,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 1,
-    "iran": 8,
-    "delta": -7
+    "iran": 7,
+    "delta": -6
   },
   "confidence": {
-    "score": 66.8,
+    "score": 66.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 49,
+    "other": 47,
+    "attack": 47,
     "diplomatic": 7,
-    "attack": 44,
-    "material_loss": 1
+    "material_loss": 2
   },
   "history": [
     {
@@ -33,7 +33,7 @@
     {
       "date": "2026-08-02",
       "usa": 0,
-      "iran": 3
+      "iran": 4
     },
     {
       "date": "2026-08-03",
@@ -88,7 +88,7 @@
     {
       "date": "2026-08-13",
       "usa": 1,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-08-14",
@@ -98,12 +98,72 @@
   ],
   "latest_events": [
     {
-      "id": "29581aa567eb41bf",
-      "published_at": "2026-08-14T02:33:10+00:00",
-      "title": "Opinion | There is no good deal to be made with Iran - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2xjTzd4SFV4dEQ2N1dFdE5VOWlmSkRDM29FSFc3bjQ3LV94TFJzNFdueGwzVlJqLTdCdGJBdXlfTmEwODhnaW5fSm5CUVR5SG9ZVThsZE44N3Bvcms0V0xnQ2lvNElSUXdTTkdLM3pxbEhENlpJTVIwMWc1ejA0a3Jwa3RlcWY3SkZzUXM2Z2VlSWpzM21zU3FvX0JUUGFLZ2VmeEFsZEprdjRoVGxrYnRvQm5zUnc?oc=5",
-      "source_name": "The Washington Post",
+      "id": "05172bcb1281751e",
+      "published_at": "2026-08-14T04:40:53+00:00",
+      "title": "Iran war live: Tehran threatens to prolong war until Trump\u2019s term ends - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORWtMOVFGb2Nxckd3Ym00Q1dTUDhzTFAzQkY0Y3UzNXNtYldvRVJDNFl6NDdhc3RBQTIyRkN4Y05MYUFYOWItRDZiYlpNVDVhbC0wNzJtWDFkVDJwNGJBU2FXVkZBd2FMeGVZSXJtU0RZMC05MF96RnV5Tk5vbXYzaTdqNGh3RDUtbHplRFB6Y2ZQd0xxUHc5T0xjeXptbHN6TnRhZjJCS1BBVWVs?oc=5",
+      "source_name": "The Independent",
       "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "573745f2faaf6775",
+      "published_at": "2026-08-14T04:33:27+00:00",
+      "title": "US-Iran war LIVE: US can maintain naval blockade of Iranian ports 'indefinitely', says Hegseth - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQNE1kZ2tSNGNCcnZpc3BMR0c3S2wyVlhMU2pUOVZrNU1qZ2hYQ2hmQlJFb0lzTGM3alFET3FJNWRVRk9RSU9QWHZmTWFZZk1OVWY3QXJrNHpDRkdZYmJsNmppOU9sb3F3alRYaU5oSkVHcDRPemxBV2xyeUxvWTFiSkhFbTdySXpDQk96ZmdaY1dSZ09qZXAxLWIxalJ3YnNrOUFpbzlfcXRLb3pfalBQZW83Y2ZKQ3dLOUxDcmlJdWdsODA5dm4ySlRJWnJNZklYb3JYOW44Qkg5a29uYUxYbmZkR3c5Q2ZQdjdWemZVcmV1U0JVMGFUbU01REoxVWlBUlB2Zw?oc=5",
+      "source_name": "livemint.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "eeccf7d62ab473d3",
+      "published_at": "2026-08-14T03:00:00+00:00",
+      "title": "Iran war live: US eyes indefinite Iran naval blockade - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4e8da48a00a03781",
+      "published_at": "2026-08-14T02:15:07+00:00",
+      "title": "Vance reveals \u2018goal number one\u2019 of Iran war - News.com.au",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPQWF0WGhZX0k5R2RwWmFfYjMxcFdPLVdLZmlsVDlPYVBnVk9pMGZTRWszQ3BsdTV2Z3ZVUDRCR0FHZUJ2NHRpams0UE92eERkQ3F6OFFmRVFzQXNtbU45Q2YyZWp0eGIxZVk2aURoMHRpTXFPYkRFczd0VXVQX2J0cEtwWW1NMW1ERDRKSTh0QUpDc09tbVpjSDVXbXVJU09Vd3J5SmxpREpIdXhxaWNWU1RocmtSek9SVjJzNVh4SF9UelYtZVhleldKVUktWXhyV1HSAdcBQVVfeXFMT3RFNURZNC1ZWTludnVaU0JIaFpjcC1uRTBpaWNJcmFSLWtOUF9Wc2pHQTFGYWRxSjE5ajd4WTV6eUd4a29mNFJzcmxJZGtrc1NTVFdHd1pLeHVtWHd2U2JYNV9XUjlWTktycnhmdWxzeDF5RmtmTWxRUnh1VUtyMXRTTVFfVVZqZ0RMczJESVFiRW9XbnNjZ0Yzd1pPRmh2elptWjNQWUgzYjFlV3NldGx6bVhkQWFEcndRR3BjUG92dXJCLTNGQ2RZN2dKTjltV1o1a3p1VkU?oc=5",
+      "source_name": "News.com.au",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "49b3c4363e2cfa54",
+      "published_at": "2026-08-14T01:54:06+00:00",
+      "title": "Iran updates: New ship attacks in Strait of Hormuz - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUnYtV21uOVlrVWdTMzR4MGd5cmREWVB4MWplbk5IcGd0QXRMTUlnX3Z0QTl0djYxT0RLeW5kSnk2TTM0VW5qR3lJX2hacFZhZ29jTE5NVWF0elRieVlGSW9QY0M3M1lHQWdKWmtKZ25id0YyVU1qRWtURUxkWnlYUW9RQdIBiAFBVV95cUxOaXdUb1FoaWlGcGxzQ3ZoOHFIUEFxQjVrYXgzNGVLVlp6dkRTaUZXdGpEZEx6MHVIcVBfRVZHV1h5cS1LZzdlQXZnYWxJVXYyTDVTRXZ1cVoyaGRJUTJPUW1sMk5YbUY0TXFNeXR1dG1fT0FCU19yXzNTNldiQUFubVc3Tl9mU1Fl?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -158,21 +218,6 @@
       "confidence": 0.65
     },
     {
-      "id": "708ce844a4bd60b2",
-      "published_at": "2026-08-14T00:31:58+00:00",
-      "title": "US prepared to hold Strait of Hormuz 'indefinitely', Hegseth says - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWWtDQnU5NDdqc1Z2WHFodmhzQXZndEliaVRtVE1JdmtnWTQyNHh6NzZEZDJGX1BvNnRQdzhZejE5bkEtODVQRVZwQUZaVF9ITmpXWE10NVZOS2w4Y0pfZllPM3lENXkwM21SeDluWTBTUWtBQTRVbHZ3U2VEVnlpeW9vOVFjWnc2dHdQb2RXclFzcVEzRWhyU3BQemlBdHR5MWl2cXpoZlU1WEE?oc=5",
-      "source_name": "Scripps News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "d482ede7a7899a94",
       "published_at": "2026-08-14T00:30:00+00:00",
       "title": "Live Updates: Tehran says Strait of Hormuz \"under Iran's control\" after Trump threatens U.S. might \"keep it\" - CBS News",
@@ -203,26 +248,11 @@
       "confidence": 0.6
     },
     {
-      "id": "eeccf7d62ab473d3",
-      "published_at": "2026-08-14T00:02:03+00:00",
-      "title": "Iran war live: US eyes indefinite Iran naval blockade - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?oc=5",
+      "id": "1ad68d2746a9ad1c",
+      "published_at": "2026-08-14T00:02:47+00:00",
+      "title": "Iran war updates: US says can maintain blockade on Iran \u2018indefinitely\u201d - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNdHcweVRHY1ZlLVJVOU9WM0dVcUt6VHpPQVBlMlJTeEVYR1lIT08zRVZ3Y2c1LVZ3aUM5NGVoTmFXUFFISDh6Tk9XbVZYMUpXQTdCdnlHVWlpWDZlaXZoaWdvRGZ0VnBxbzFlbVlPMUhWNktWZVI4c0xmZEtDR3Bydi1LQ2FldDBfaFlOUC03dHVJajh3SHU5Z2hqNHZEb0ZhVkhkT19xZkNYOFBZMk5VWThzWHJHSENsaTNOUtIBwgFBVV95cUxNYVRwc2VzSUNtT2dtU1A2cGIxZEV1U1dlUWtLTDJHV2xzWlJHZUpwZXM2bU5wTlJFR3N1bHBLZXRnNllwQlNvWlRCTmFueU1qejlGalIxZ3kxOHh6WTVpSmR6LUs3Q3dvUDFKYUtTdmxfVVZWVmkxcWdNaEs2VUdDcDVhVTVSRkFyakNVQXJFVjV0V2hTUnpLQVFlUzYyWWw3TXpOU2tLZVZ1TUVhN2pWOTVFR3V4OW5tVjFURXpfRjNTdw?oc=5",
       "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cd4a6489c3ca4396",
-      "published_at": "2026-08-13T23:31:45+00:00",
-      "title": "Bessent says US to apply measures never seen on Iran - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT2p2QW55Tk9jcjF5Ti1OZmlpMGpLTEg0RU92RVEtMzFobXY2TmtNWjFJaUVZMl9RaWxWM09uV2xjVlQ0dnFHcGlEVi1Zc3ZnRHpFMkZ5VExoeTdzSVE0cmYzMVRFQUExRHA2RHNhZFpFMFZnNnIySjh3RTBRSXVtX3ZqVTJjVWhGSmdpTHVmY19QRE9ieWNmaDdaM2hmOHZfRFE?oc=5",
-      "source_name": "Reuters",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -245,37 +275,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "0332e1a349d079a0",
-      "published_at": "2026-08-13T22:52:42+00:00",
-      "title": "US could not verify Israeli warnings of Iran plots against Trump, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSnhVZVpUNm9PZUM5Z3VkNWp1NVJNdmdYcTZDblZhWURVRnhKLWtNTTVUeHpaNE5wN2M0cGU1WFBycHhGT2h4T2taMTR0NUduWkRCczBUMTVwaldHY0lNVzB6QkZMMHg4dUM3ekkwaWJWME9NSHlWSUl6R0pXYk92V3BZM1NNVnRNNVRFR1hhVXU2blhNTEdKeWh6c3pGUVNSS09XTDgwNkxtMmVSU1lnQVZob2FldllGeWVMRUZ1NkRnNEs5WUE?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "9e44458e0eefc6bf",
-      "published_at": "2026-08-13T22:49:52+00:00",
-      "title": "Iran updates: New ship attacks in Strait of Hormuz - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUnYtV21uOVlrVWdTMzR4MGd5cmREWVB4MWplbk5IcGd0QXRMTUlnX3Z0QTl0djYxT0RLeW5kSnk2TTM0VW5qR3lJX2hacFZhZ29jTE5NVWF0elRieVlGSW9QY0M3M1lHQWdKWmtKZ25id0YyVU1qRWtURUxkWnlYUW9RQdIBiAFBVV95cUxOaXdUb1FoaWlGcGxzQ3ZoOHFIUEFxQjVrYXgzNGVLVlp6dkRTaUZXdGpEZEx6MHVIcVBfRVZHV1h5cS1LZzdlQXZnYWxJVXYyTDVTRXZ1cVoyaGRJUTJPUW1sMk5YbUY0TXFNeXR1dG1fT0FCU19yXzNTNldiQUFubVc3Tl9mU1Fl?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
       "id": "357a926d01744320",
@@ -290,22 +290,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
-    },
-    {
-      "id": "016f9cef0a6d3cf2",
-      "published_at": "2026-08-13T22:06:42+00:00",
-      "title": "US Considers Indefinite Iran Naval Blockade as Oil Shortfall Deepens - globalbankingandfinance.com",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVkJQcmhWdjlwbk5Iem9mTlVqUlFJM0c0cnh0LTRkaktkb1F6QkRZMEtVenpEeXJvbWU1dXU1ZXFwRG95aWxHQ201alM4c2FnM3kwTFZpTl9iZVJKZGRRY0gyOVNkdVpGb0thZUZWTzN3LTc0YTc1UGNHek1zNjk5TDdiSGFkLV9HdFFNWWhSLVgtRFJEMUpfYmltYXVDdnVMUnc?oc=5",
-      "source_name": "globalbankingandfinance.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
       "id": "7abe5faaedfc4b9d",
@@ -338,10 +323,40 @@
       "confidence": 0.55
     },
     {
-      "id": "8466d0f82fabe324",
-      "published_at": "2026-08-13T21:21:16+00:00",
-      "title": "Are global oil stocks big enough to weather another six months of US-Iran war? - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNU1JQSjZkUi01N0FQZ0t5dzdwNWlyci1jVTg5bmpSN2tzQmRrN1N4bnh3QmM0UnFhVHVwMFJvNlRsMlZIRW1qbkw1THhJc0pTSEpieVdwSktrUmZTeng0dE9jSVI3ei1ERDdncXhoVnhYTWJIX1RLN0xXdUJnU3ZGTUlCQnNvODdFbVVKVjl2WWVDZ09mdzQxUUN6WFBzZ1R6SGlKVlhEVjBjWHJOcDFXNHlhcXJjTUlfUm9DX0xxOHM?oc=5",
+      "id": "0ff0f1846f9b079d",
+      "published_at": "2026-08-13T19:48:27+00:00",
+      "title": "Centcom creates first \u2018multinational\u2019 attack drone task force after months of war with Iran - DefenseScoop",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMmVRNHNHSzhFbkg4dEYwekJJX2w2ekZhRkdfenpNT3pfMWpmYWJLWW9Pc0l3bUprWklFWWtsSXpzWHhaNm45cUhNdU5VekVUakZSaGhJdldhOWJXd2FMc0RrVVp0Rmh5TlhfQ0Jfekt4cmVsTm93WnN2RHk0bzkxS2h4Yl9iRXdjd1pXNTc2M2hfY3Ew?oc=5",
+      "source_name": "DefenseScoop",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0332e1a349d079a0",
+      "published_at": "2026-08-13T19:48:00+00:00",
+      "title": "US could not verify Israeli warnings of Iran plots against Trump, sources say - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSnhVZVpUNm9PZUM5Z3VkNWp1NVJNdmdYcTZDblZhWURVRnhKLWtNTTVUeHpaNE5wN2M0cGU1WFBycHhGT2h4T2taMTR0NUduWkRCczBUMTVwaldHY0lNVzB6QkZMMHg4dUM3ekkwaWJWME9NSHlWSUl6R0pXYk92V3BZM1NNVnRNNVRFR1hhVXU2blhNTEdKeWh6c3pGUVNSS09XTDgwNkxtMmVSU1lnQVZob2FldllGeWVMRUZ1NkRnNEs5WUE?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f9ef702eddf671d0",
+      "published_at": "2026-08-13T17:51:32+00:00",
+      "title": "Iran, US make competing claims over control of Strait of Hormuz - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOdnRSa0s5a1NHbzFqLTczc1FydWJqXzd1Nmc4ZEJoWlRheExRdUpFMjdxS2haWDc5cHdmRUNONVEzRjhaZjUyLVNmV0NpcXROSkFwaDBpVlBkOHc1SU52OXptQ1hLRnE1NVNIRHpxUVU5MFgxRTFpYUNFMnNGQXdtbTF3a05qV3gwNEpxaEswd053TXFPbnlSZExIc01hck56MjIyV2d4QQ?oc=5",
       "source_name": "Reuters",
       "event_type": "other",
       "actor": "unknown",
@@ -353,26 +368,11 @@
       "confidence": 0.55
     },
     {
-      "id": "abf3a006a91be9b8",
-      "published_at": "2026-08-13T20:48:57+00:00",
-      "title": "The Iran War Has Left the U.S. Dangerously Exposed - Foreign Policy",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1meGF0WHY3Q2tzc19RSzhtNHBEQVVOZGxQb3RIR1llNWJLRkEtdjNjZzRZNnBqSnpVb2JsWUljVkdRaURQRkNzNS1tbmp4RXRzTkx3U0J0eE5fbkNJZ1RqVnl2Y0pEdUhyLXNwUFdob01fM1dsM2xEOUpRc2hmQQ?oc=5",
-      "source_name": "Foreign Policy",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a25bc3d63d4c96be",
-      "published_at": "2026-08-13T20:15:53+00:00",
-      "title": "Democrats demand answers about conditions aboard USS Lincoln - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYVVaQVNfMUM0S2JQbkNxUUNnQzBVVFhpWEk2YVpwXzRyTGQ1Z09aRDRudUFENXpkWTFJbTBJUzM0cXh3bU13Y3BhYmxBeVdKUEdvcWk1QjVkelRaTXNFWFZBcUJ2Qzl1VFEwUFotYzJCS0NNWTU3NTcwQ1JLQWlURjJtOUNWYmdJZk54MlBLT3Z6aTVtbTRNQ0I5bHM3XzJUWVpEetIBqgFBVV95cUxOUTZ3dXFpem9DYlptLWdKc2Jrb1hmYXpxYzZaSkFaSVd5SG9OcjRFXzMzQ090b2o3eGZuU0ZQenYtUFZPRWpSU2ZtSWEzV2FBWVNWV0cyaDRiRDM0TXIxczhNTHBTRW8tQ193M3UtU2RHMkwyTldaNHpTZmNSNkZ5N1gxSWgxeUZKbmRidmc1Y1UxM25vaThGT3BpeHR4TWU5dm1TeGlkdjE4QQ?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "id": "b2d626a0a6962a46",
+      "published_at": "2026-08-13T15:48:41+00:00",
+      "title": "Mecca Pact Signals US Credibility Crisis in Gulf; Iran Answers With Hormuz Control Law - Tech Times",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQV1dxUDFtT0ZTa085dVJLa1pQcmp2MXV6d2FCaThmcGk1TFpNOU1PRzhSbGxvb1J0MmNXWlNWSDJsMkJqWVNXWVpwVmxtY0FNZGNURDVQSjJBb2pHa201bXpFd1VQd1RhWUpIWTVYUEtaSmNoMHRod05oenFJa3JZZU80YnU3aGNraERkenU5UTFhYlFnZ21vOWt4SnhSVnppQ3JIZ3pLNlpUWjFlNFZqOWhVbW5qNFR5dnM3d19nTVI5MlJhOGFyR0Z3aE8?oc=5",
+      "source_name": "Tech Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -383,11 +383,11 @@
       "confidence": 0.55
     },
     {
-      "id": "3c5d379807d9415d",
-      "published_at": "2026-08-13T20:01:00+00:00",
-      "title": "Exclusive | U.S. Sending Fresh Aircraft Carrier to Middle East Amid Iran War Strain - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNSHZlYUkzWG1OQmhuZEF6ZzExVTJPN3NFUWIwTjJDRDg0OFRMTlMyQUYtZ2s4MzNnbDBhX1BQVGI1TDdIbVpiQmVVWlNwdFhsckZ4Uk11X2FYNnd1SDlpd3F4Mk85WEZrN3A0RFh4S2ZCX1lFTVcyRURocVRxTTFWSm5TZ0tJQTJ3RGhreFcycmNNSGRRaFFGWHA0WDVEVnFVaFBEWjBfZThSMVlQZ3ZfcmFZWXhnN1ZabzZMTm1DU296U0lQ?oc=5",
-      "source_name": "WSJ",
+      "id": "26458aae168cf790",
+      "published_at": "2026-08-13T15:15:31+00:00",
+      "title": "Iran says Strait of Hormuz under its control, rejects Trump claims - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPVFk0bmozV1E1Y1VKTWVVaEp4enNvWWxEbzhEUXoyMDFzMjRrWDNGb2tIWEJSci1UZnduWHJFV1AxeFcxWFh4bUhPT3ZTNC1lOTFDUVpja20tbDFuWnZydnBGc01mR05hQmtVN0FlNGg2cUY4V0RRUU45eXVKUi1DdHZCdHBKYTNHSVdPQWpFQ2M0UzVzQWtpR1FYYko1U21PT0ItTHFtVEhVZ9IBrwFBVV95cUxQTWdMUVJlQW5vejdBNmJqWGh5Xzh6Y05wdkIybXpyNVpVUWxURU40bDVOYk1Uc09PeVQwcE1QZDQ1X1NHY2p1TERwd1UxaGY3UlE1UGU4enRvSkYxU0hMUEJyMFRhRUlVNEJyQjVDWHNwS2lJZ0l0eTNTdVJsb1B2Wkk3bERjVXRGMDRmMWtWYnVZNHo5SXpvSXR6cnV4NHFmTmtmeHhVcnVGeUxrM0Q0?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -395,7 +395,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     }
   ]
 }
