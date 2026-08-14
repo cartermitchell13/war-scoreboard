@@ -1,24 +1,29 @@
 {
-  "generated_at": "2026-08-14T19:16:43.803826+00:00",
+  "generated_at": "2026-08-14T21:42:57.578328+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 0,
+  "event_count_window": 108,
   "totals": {
-    "usa": 0,
-    "iran": 0,
-    "lead": 0,
-    "lead_side": "Tied"
+    "usa": 44,
+    "iran": 20,
+    "lead": 24,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 0,
-    "delta": 0
+    "usa": 5,
+    "iran": 12,
+    "delta": -7
   },
   "confidence": {
-    "score": 0,
-    "label": "Low"
+    "score": 65.8,
+    "label": "Medium"
   },
-  "event_types": {},
+  "event_types": {
+    "other": 56,
+    "diplomatic": 6,
+    "attack": 44,
+    "material_loss": 2
+  },
   "history": [
     {
       "date": "2026-08-01",
@@ -28,7 +33,7 @@
     {
       "date": "2026-08-02",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-03",
@@ -37,7 +42,7 @@
     },
     {
       "date": "2026-08-04",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -73,23 +78,324 @@
     {
       "date": "2026-08-11",
       "usa": 0,
-      "iran": 0
+      "iran": 3
     },
     {
       "date": "2026-08-12",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-13",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-14",
-      "usa": 0,
-      "iran": 0
+      "usa": 5,
+      "iran": 7
     }
   ],
-  "latest_events": []
+  "latest_events": [
+    {
+      "id": "4d5d3c1ff92e2063",
+      "published_at": "2026-08-14T20:48:45+00:00",
+      "title": "Trump says he'll declare Strait of Hormuz a US territory when Iran war ends - KATU",
+      "url": "https://news.google.com/rss/articles/CBMi-wJBVV95cUxNTkxZdjlpc2FySVZKbi0tQTNRU3JwZkQ3elJ5cnZQZUctSVV0U3JUZElMbHFRODNwbmd5RnR3eWZ5TjdOZGZfVFZoa1hkQmw4STdRcVZvZFE4eDFGMk1GX29ockx6MGhCYU50M0tFVlRWYVJFRk44ODM4TXdtMGg2WlJvT0xOR1QzZF9IdXJIaGFLRFR4bVJjcE5UR0pfdk90NWtFeHlGblZJYW1DZlNxZXR0V1hqUmE0Q1VGU094cXhFa2tFSG15b3BUa2xCODBjdTV4eFFnamUxLXdJTE9iNDdHallKXzB6VFdUSlZWOEQtRWRLdTl6LVJwYkpjcjZTbnJ1THRyNEQyVEtBR1FPdUhmQlZwTGRibmttMnlpT3JGUk5EUHJsalNvUVR1VzEyOTZuUGtpQWVfdk9qN04wdS1VZ19qUjNPV2xoY0lkRDdSRUN1M1Jwd25PR2RYMWExWWFpbDNQUFA3U0xCTE1WcWNRLU54TjZEZkhB?oc=5",
+      "source_name": "KATU",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a1f8e05eb3827c1f",
+      "published_at": "2026-08-14T20:41:14+00:00",
+      "title": "Iran war live: Trump says will declare Hormuz US territory \u2018pretty soon\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPN1Z2Sm96LU1TSUlmX0dRTldvbUtpcWxNZTQ0VjZsZ3pSdjNLS3JFNG9CaTdOcURIcV8tMUtWckZMQkJ5SVBVOERmQzFwd0RFMzNicGw4Z0ppTFNmaG9sUVk4SDRZZVJ1VkM1Qm5CQTFUSXdQN2w5c2NlX3NDVGhzVVJZTVpTNkdlRFFpVm5hS0RHV2JmQkVsRGNkbl9CRWR3MnoxTNIBqgFBVV95cUxNZHNkaTRJNnF5RU1Ua1d1VFRLZEVyb245dnVPSU9Fei1Jb01jYVFVSHRseVBNc0wzMEtxWHNHUlVlUDJfVnhQMXdCQnlNSUNCS1AzZklidlRpYVVHYkI0cHpveUhxU3AxdFZGemNmenFEM3V2VWFhbzBxQnlsY1ZOMkQ2MUtRWWc2MEhkUDJWaDRMY2E4T3NqSi1nU013TGdpM0ZXb2EyNl9ZQQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bb0095cf0ba11939",
+      "published_at": "2026-08-14T20:37:39+00:00",
+      "title": "Trump says he'll declare Strait of Hormuz a US territory when Iran war ends - KFOX",
+      "url": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNZTgzSnJDc283dzRGU2NON0lQZVlERm9sdHMtLURRMWZlVjBLalNaejNjN1U3MDZ4TTFxSEVCTlR4dk4yTVNQd3o2ck5jd29ta3lMZHZCWWpGYzAtTDcxUDlJaUxuMEVlSHNqSkNvZUh2aU9vTmJVMkVPSkVxaVcwc2E5LWlQNHVtWGZXVTFaUno2MHEybTc3VzFEV1dyc3ZpVHd5aHdNNE5Eb25MLW9zWW43SVlBTVpvLW5XRUdnNFBlWlFTQS05VjVQVXREanBhaWFFLUdDVWRDajdScnU1UXdjSkllUlVwdEpQclNTVk10UXdiWmZncC04UXVQYk1TRFN2aEEtQzhLLU5EbHc4QkZxaHlMazQ5d1pNVVpsaElKNFFCZGMtOUxjZXoydjZYMGVmMU1CR0lRSUs1MTluM1FXSFdscExYRmJSZnpvd1Y1V3kyVEVqTEw5b3ctdm4yR0hfVXBzUGpmY1NkT293eVI3SHBPRG4zU3FlTGZB?oc=5",
+      "source_name": "KFOX",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0d553d39c1abea31",
+      "published_at": "2026-08-14T20:32:29+00:00",
+      "title": "Iran-US war latest: Trump says Strait of Hormuz will soon be \u2018called a territory of the United States\u2019 - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOVFk1N2RTTzR5aUhyUmxBRUcwMG94S1RqaVV5RTJMdm9oVXdnd0lkTGFiT2RQeHlZc3RsMF84ME52NVZSSThoT3lNWGxvVHdRUW9kVjBUVkFaLW04dEIzTU8wOG9Ea000MkxjRlNlZGt0VVVYNGZkampGTWlieG05Q1pVUTNSN0M5ZDFPd2JOLUdxNXZJNWxzMHBfZURMc2NzYlBsSWZHNVZvdnM3MDlieXJkUGZqa2RQbXJkQWhPVQ?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c0d04bb1216e5d60",
+      "published_at": "2026-08-14T20:29:00+00:00",
+      "title": "Live updates: Iran war; no genuinely safe shipping route in area - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE50bHFXRTNsVkRFU3JmVVZjWExoWDlwZEdkLVJYNENoLWUtRlNBMkRFUjAzVTBNZzdpaHdKd1lpRTZTeXEtbF92MndpVlpZdl9RSUMzd2U3WG1TaFlPS2dIbTVrVXBSLVUtWTFsQUl3?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bf7cba453b788587",
+      "published_at": "2026-08-14T20:17:00+00:00",
+      "title": "Iran War Updates: Trump dismisses concerns about U.S. warship, says nearly 9-month deployment \"not nearly long enough\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "2dba165bd82ff612",
+      "published_at": "2026-08-14T20:13:00+00:00",
+      "title": "U.S.-Iran ceasefire set to expire with talks at a standstill - politico.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVk1Qb1FnYXhGenVyYTJIbDRIUTNoWk9teklma3JHWEVGUGF2YjNCdl85YjMxWWMtVy1FdUppam1MMm5KWENKREZvVnJsS1pxcy1md2xCNkFtbTZnNm1tVkhxUnhtaF80WXhUOFRBRi1fazd6LW5xTWROX3BHTlFQdk93YUZUbXhzUjdHakRiRVRmM0FoZHctbTB3YUFEWnA3c3Q3eUxjNjliX0E3cXc?oc=5",
+      "source_name": "politico.com",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4d5700fcb5ec4ea3",
+      "published_at": "2026-08-14T20:08:37+00:00",
+      "title": "Iran war: Trump dismisses concerns over conditions on USS Abraham Lincoln - South China Morning Post",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQVTdReGNaRm9QQXNYMllVWE1yMWhJWHJabF84bDJLVUszTjY3WHozLW9lQzQxMW9ub1ZmX0doNmw5RmdvbnhSS1FaY010V2JkckI2NC1fZmJCWUVfSmpOZldRSHRkdEZmSGNUd3ZiMThNR1Y2UXRKN1p4SFZsOFMxUU9LYkdBNXhhdlFFR3ZrWG5sbkkwN3p6N1RQaUp6aExMNkZZSlYyX2o2V0I2cENCdEItR2E1V3BkQmMwdXZxN2hFSGlCdVVIUExEUWlaQlBPN3EzUlN5bkVqUDhWams40gHfAUFVX3lxTE80OHZoWmYwMElzUFFZMXdaaWR1aFpiQXBiQWpIYlNEZlVXTWNvXzdOWTQ5NlQ5dUxmUGNFcWJiamR0LTNCaE1GbktGemtfdEJkWU8zUXRXeHhDbkppZEVqZjZMSEhlOXpuQl85M3hBaUxsVkZ5VGt6VEFmVk5xbEs4ZVo1Y3lLVk4zOWF0UW9NM0oyWkdPdDZIWUZMU0RTMUxQZDZHUk9IenJWbDZXWjVGeG9DWUk2dlRmSTByakVIUzNjMUp0MFp0OWU4Zy1VS2F1ZlR3RTBBSWhDdXhGZ2c?oc=5",
+      "source_name": "South China Morning Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3f129a142231bdf0",
+      "published_at": "2026-08-14T19:17:17+00:00",
+      "title": "WATCH: Trump says USS Lincoln's deployment was 'not nearly long enough' - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNaWp1M2RHVjFfckxjMlBfYXJzYlAtbkljcUg5OXBldDVDTWhUWlpCM3k4UnNnRy1KY2Nob0g1RXJ4UG1mcHlMV2lMN2VQdjVBdVVUZ2tMc2twWEYxNTFQdHdZU1J0dkRGb1l2NFB6VFJKUUtKNVBESWI0ejJBT0pseHQ0d2VESzNOajdwaXdQeDZHcl9Db05CMWlNbGEyS3dzME5kNlhaRmjSAa4BQVVfeXFMT3dxR1FKSVZvNTNRSHUzeUxhQi1NTzRpMW5qMGlyc09rZXhuOFNaVXNHdF84ZWNadllyTl9lRURsZ2MzQnc0QUM1d0EyQi1sbXh4bjlwMjRfU1ZIdVhZYkxoUVBaaHQ0enpTY0toTU1sWXB6RTdCVWJFWUc5bHg2U0JQX2NmM0FFa0prQUVfVkRXOGtYRHQ2WFdqSzRsa1drRk9VN08zcFk2dVhLVFZ3?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "795e669ffc363fd4",
+      "published_at": "2026-08-14T19:10:00+00:00",
+      "title": "Five months into Iran war, expert says neither side is winning \u2014 and there's no end in sight - KGW",
+      "url": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQdG15bmdDZGJmS0tJU3pWWmwtdEp4U3NUY0ZTNmN5eWNEakw5TFk0UEk4YzdmNjl2bEFBeXk2SVV1Nzdyd0YzbjBXZWdqd0JGVnlDc2pJdDVRQlZ5amh4SnJ5YmxEMVBKNFhLcmRnd05qdVlZNzNXS0xWZjkwZk4yNHJpbTBpZExCT0RQUjNiX0RyRDdlY3JWZzBxZS1CTFJENkF2ZlNrUlphN0NMMDNXNFZwa1BCeWVBb0xjSnVyN0VuYlhCOGtpV0ozVkhmdWVMcVlfT0hxUWw4RzRkTy1RU0ljZTJKWVFxamU2bnhkOGt2TzI5S1RKZGZQNDhwbDJmUTVZektvMHQtR01jZk0yRkNkbmRnY0FhS01Z?oc=5",
+      "source_name": "KGW",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7ec93b2c0452942a",
+      "published_at": "2026-08-14T17:51:50+00:00",
+      "title": "US Defense Secretary: Indefinite blockade against Iran - ANHA",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZEp4bVBjR0lINFQxbmUtU0gwM3RkMG1KTHFiQ09tTl9Jcm50OGdkd2tiU2JVT0ZCUUtRakN2NUQxaXlwSlRZcnJ5X3pNQVU4YWR1VWthcmNfelJQRTY0dDIzWlVZV3g1LTJBcXVQTF9YOWo5S3lCZVd3NzE4MmxSNFdaTU8?oc=5",
+      "source_name": "ANHA",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "af1a26ba5253fece",
+      "published_at": "2026-08-14T17:37:57+00:00",
+      "title": "Iran war latest: Oil prices rise as US threatens Tehran with 'indefinite' blockade - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRWozMjlmYnZuTDFXbDFjcThHZFpfb1dRNDJDWlJEbThmSDY3c2FzdXZKTnB1LVAtNFZrMk40cnJmRFpYal8tOXU1aEo0OXRVWldHcVpfcVNTc3dxaTdkVFlmaW05SDk4VlhNdEpFYzFjWUh0NVhEWGh3Uk5XVGJqOTQ5bk5xR01NUFpPNURHTnkzTk93eWNyMGJsRkU0SzVWaVN1bg?oc=5",
+      "source_name": "thenationalnews.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6da3c02becc108df",
+      "published_at": "2026-08-14T16:29:10+00:00",
+      "title": "U.S. strikes killed 153 civilians in Yemen while targeting Houthis last year, Pentagon says - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdlNvMy1tb0tzdG1TZUl6aVZFUjN0ejdBS3QwWHhUUWp3VmdySWJ2MU40ajREMmRCLS0tRlFTeDNicGl1d04tLXNiSlpIR0ExYUpIMnNDX3kxX0FCQmdzM1I2eXlXZWZ1bm9McURWMk5EM3E4ZDg0WTRacTRyc3RZV2F2Y2FJbW1wa3RJNmVrWmhQTmVyeDhmWk9XMGdqYzlZbnQwYmZwcw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "74fa344394818c3d",
+      "published_at": "2026-08-14T15:52:29+00:00",
+      "title": "US Readies Unprecedented \u2018Economic Isolation\u2019 Plan for Iran - Military.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOV1U4b1VIZGFRc19PX242bVI1VzRzUjFPeDl4M1Y5SklUVHVmM3A5ZXBXYU8wS1dBQ2xsZ1BRUVZCQllSU3BUX29UeXRSTFBqb1NKU2txY29tZ29jaHpHME4xTjVUdHVVRU9KZlhwN29CUVFXYl9nblJ2RkFCRFE4UjBBdTlYenE2X1E?oc=5",
+      "source_name": "Military.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6d51d4fdb5ed4636",
+      "published_at": "2026-08-14T14:27:38+00:00",
+      "title": "Hormuz traffic slows further after US threatens more economic pressure on Iran - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNcUdkcXFHNHlWMzdKeGE0QzFWU2FRNTl4aHYxMk5VNEU1REROam1XMW5hQnVPMlVCOHV5Y1k5X2N6eEx1UlpJOExJVFlXQzU5bWE1LXE1ZndpQUtpeFpVb2FoWUhlODVPWUVxeTNwcjNXQXRzMFloclJMNFBqNDJiUmFjam1kODNyQ1BvYU90dmptbG1mLWd6enN6dDZRb2JiRFg2TGdNSzJaM1g1c2xPd0lqTFBSblp6RGFKWktyVkI3dEVRMmJqNDdfLUc?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "bbb4968ad34f966b",
+      "published_at": "2026-08-14T13:39:00+00:00",
+      "title": "Iran says it downed US-made MQ-9 drone over southern Hormozgan province - Middle East Monitor",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbnV0TW5rVDRWMnFyZUMtdnlxc3U1anR4RHN6MTMwNXI3amI1QThmRlVWa1JfMk54b1BpRnVtTlg4a2lMUHNEakI2ODN5alFGdnJxYmx3R1lkN19udGVKUjc0MEkxZmk0NWF1OEx3ZjZ4c3hWWUtDSmRjaVNfcmFhUGNxNkRaaG5SUVNWa29ISWpRNWJHUGJQOGV3Ri1EU3lxOEVKQ3lnZTZBbkF6Tml3elpVOXBJZ9IBuwFBVV95cUxPcVU2R3NUZ0FaanpxelgxdlhGenQ4ZnZOQjYyWXYzbEg1ckNzM3lkNHlJZkp4aHVUclg1V1BMUUdZdTJIaFBvSk1Wd2hLUllfS0NMcl9CakV6QjZvZWhuRFAxRlBBUFlSSDhSeWdBWVhFWG1HaW9PdGotRWFsN00zR2pXbEJYMUdpVTlHOEM5b3VxZkl3dEg4eWNtYWlQeXRCejVZTDhwelZURGtUa1BOaU9HVXRscEJzMGdB?oc=5",
+      "source_name": "Middle East Monitor",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "92d3a2c7d376f51c",
+      "published_at": "2026-08-14T13:25:34+00:00",
+      "title": "US to Roll Out \u2018Economic Isolation\u2019 Plan for Iran Next Week - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT0NXREk1M2c0WmFMQmF4YnNtYktlMmdpQms2NDE0RFppYkw2VlVsRzdRa2VmS3NXMTNaQlIwRlBHZ3hTRVBKZkRSdkRtNml2YlMzY0dBQTF4Z2tpeU1fRS0wR1Y4Y0hCVjF3V0lfdXZTN3NXNEtmRFJIUHZKbkZ3a1dYcl9nd3ZtLVhqSGt1blhWd1dPNy1fZERjdjFXUEEya1pXTHF2VlNVQ0hS?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "390e4e087d93d84a",
+      "published_at": "2026-08-14T12:16:00+00:00",
+      "title": "UAE blames Iran after drones hit 2 tankers in Strait of Hormuz - Spectrum News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTjFMZnQ3dTlTeTFXTUFVTlpieklfS2tWRFIyMmF4NHJ1emlOLVFiQnl2ZjlpOWExdkI5WDBiVFZ4ZXdDS1dpMFpiWlJUQkdpUXB6WlVpSHFzajRJckx6R2NTNEVBQWx2My1SSmZfWHBkQWpBSnZ5eTVjQ0JXZDJXaWE1SU9FNGdUTmlCU29FNUpJalBNZ1ZZdTA5QU1rNUFWdkNCVFpvTUZVUEd2TWRza1pIRmZyNjEwSHotSWhHREM?oc=5",
+      "source_name": "Spectrum News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0c15fc0b7d6bd26e",
+      "published_at": "2026-08-14T11:14:12+00:00",
+      "title": "Low oil prices now \u2018goal No. 1\u2019 in Iran war, Vance says, as U.S. threatens new economic pressure - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPS1RjRkdfWFhDa19XeVdJTExnYzQwX0ZJdFBnYzlkMVhfWXdPNFRxWVJVcUlMLTdtZ3NudmVvQTI4Mm1EZ25Lb25oelpLX0dyVl81TEpkbndwTTBhMzRUM052VmdVdnRGcjl5dUlhNUVfX1FJcU5fX3BRVmp1T3JUTUcxMWZFcExEdFE5dXVZSlN1TlNBQ0FYdEJPRFJOVXZvbmF6andjdEdnMDhjNXpjOXFZaw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "7f5270a459ed058f",
+      "published_at": "2026-08-14T11:12:10+00:00",
+      "title": "US threatens \u2018indefinite\u2019 blockade against Iran: How long can it last? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOEsxSHRoSmJRakx6eFJyeHRhd3R6dDBYTkx5UWFvUExSYmtmMUs0SmZXZVhrOGZ5UGxsZjUzd0FqVmRjV2NDdVZxaDg0QjduZmN2RHd1UFVEcFdKLXN0bDRuZ1RQdENzZTBnQ284V2c3eXNOM1dUalV1Z3lZS0FmQk9QNmVEeWp6b0gyWkd3djh6ZDR6VUJaYmhUTDdwV2dMOG9YaURfUVphaWfSAbABQVVfeXFMUFMxZUlxNVdiQVhkWDVxVTR3N3RCU0JGdGw3NzV6dHlub1pWVEY4WnlrZ3gwNjNRYVVHZ05nRDd6Y1QyZ0lzOGd1Y1VGY3VPXzJ0MmdIQUVYeXhqT2FjaGVtNmRMbzgydU5Td3UyY1lrSi0yZWNEZlRWRUhtU3NWM0o2SlFZbksya1BRVVhuV1BUQVRGZXJGZVYySlNJX2hJR3hNMUVZNHMzRmxKTU1iQW0?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    }
+  ]
 }
