@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-16T01:59:00.268635+00:00",
+  "generated_at": "2026-08-16T04:01:57.831577+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 111,
+  "event_count_window": 110,
   "totals": {
-    "usa": 49,
-    "iran": 17,
-    "lead": 32,
+    "usa": 50,
+    "iran": 15,
+    "lead": 35,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 9,
-    "delta": -9
+    "usa": 1,
+    "iran": 7,
+    "delta": -6
   },
   "confidence": {
-    "score": 66.3,
+    "score": 66.5,
     "label": "Medium"
   },
   "event_types": {
+    "other": 48,
+    "diplomatic": 7,
     "attack": 52,
-    "other": 51,
-    "material_loss": 4,
-    "diplomatic": 4
+    "material_loss": 3
   },
   "history": [
     {
@@ -88,15 +88,75 @@
     {
       "date": "2026-08-15",
       "usa": 0,
-      "iran": 5
+      "iran": 1
     },
     {
       "date": "2026-08-16",
-      "usa": 0,
-      "iran": 3
+      "usa": 1,
+      "iran": 5
     }
   ],
   "latest_events": [
+    {
+      "id": "18cd29244855f96e",
+      "published_at": "2026-08-16T03:41:36+00:00",
+      "title": "Iran tells Trump to \u2018accept the reality of defeat\u2019 and Hormuz will stay closed: Live - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMVFjWi10bDAtVmhNUThEV0NMLVg1ZDBNMm1HNUIzNnM3WG9wT2FrU2VXZUNzeHlNekExVjk1ZXZyNWhKMGVJSFF0endxWDcyRUQwTFBFdkNfNEg2QlNrb29ITjY0REV0ZWJlVEZhVWxaQVhWOWQ0MEFfQjlYcGxjZ3daeGNTcVZ3XzY4bXI4YlRaRnFTOFA3dDZRdVZISE9BVXlCMjd3SGJLU1Nmb1kyTXBR?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6300cf1a3a0834ed",
+      "published_at": "2026-08-16T03:18:16+00:00",
+      "title": "US-Iran war news LIVE: Iran-Oman talks on Strait of Hormuz continue - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPb3Bqd3pvM1hDLWlOUXU3TTVveVpad1drclpzQ3FueDVTSnIzcF9BVmJZS0dIUTFGSkY3WnZXUnZ2dkZIcFVrbmtrektCcE5NcGRvOUJ4bFBnUF9tX2VCNmpVdjc5OEVMRDhLQjdzTFZPYnRqZW1wVENmVFc3MUM2UWZGOXdOdlBUNVhqY20zVVVMZllzNW5GVWlfSTZvUjJjNXBKaUxLUktueHc1UXRiNU1zcmRiMzI5cXdKZjYybXVJTXVRd0Z6aEFTVXlUbkJHRmRzMzNKaVFodmFEYjZqQkI2YU9VeTItRzlZZVpMemVNM0Iy?oc=5",
+      "source_name": "livemint.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7b6efbb8f6feba84",
+      "published_at": "2026-08-16T03:04:55+00:00",
+      "title": "Iran war live: Talks on Hormuz Strait continue; Israel kills 11 in Lebanon - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbkJqOHdsTVhuNWRIbk9EdVRDUmQxMlczTmFsRlc4MEdOemNRMEdHUUxJaDZzZUtydUxsMDlyT0c0eXdJZnNOSmx1d0pmakY5enZKSjg3UjBIN1I2dzVieUx1VXcwVFZJbmFsbnZLSTlObXNaY2x4WUxYRERNbXVZaFRNOERTclNFeUhDaVkzdG96Mjh5cDhjbk9XM3JET25HS3BHZXhWMmJSR1hjSEdpWUpHYlJ6R1l3WllrWGhSRdIBxAFBVV95cUxNZFhLVEMyTjcwUGh5MWUwcms1M1ctOHpoeVh2NzlHYnh1aUJ1MWJqb2RqZGZHbGRvSTNyMVE4OGE3X0ZmVU1zM1VkMlpJTEM0V3BSemF4VUw5T0pDdmFad09JdldGenRhUzN4ZGFLZ0ZJMmw2Sm53WUx0WGQ0bHFVOUxMM2F2QnctbC05NWJjdExxcEl2aEZycC10bDU5REMyYWpCelo3b28wZk5PcWItLXZfeEJPbU1YQUtGRGJLMWc2Rmg0?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6a0829e7932a233e",
+      "published_at": "2026-08-16T00:56:38+00:00",
+      "title": "Iran\u2019s ominous \u2018gates\u2019 warning to world - News.com.au",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPTjk5Y3pVVms5VFRHd3FSX3NsR1gydkE5enJRYlVCUFhDWXpwNmJLOVF6ZXc0eDl1WHVnZmZaa0pLWTFHcVBqZEZ6LWpwWkJqeVZ4dXZubXNPYVlxNUM0aUxXSTdsZW5wdmdWNWh0Y1pBeXNqZG5kTjdOMUptMlVKQS15cWNaZEhLb0E0aEhCcXZlZDd3Q0lxSzNfWGRKbmo4VnZjeXdTcVZ5QnZzSXBxX214N2NibTBkWGFwZFNqbHZTdHlISE1LVEJPbm9KT2FpQ0dvRXVsb18yYlVjR2RqSnF5bUZPSDNLLTZXd1F5VVhyaWhudGo3b2xPUGRhemRNT0pKNtIBigJBVV95cUxOd1pJa3plaTVxTWtuaG0ySXZURWxBbVFqWVlqWkxTSmYwaEQ2cEgwQXlFd0hBRkdHM3lvQjNZTlJ4RkdzMndiMkRjRDhLZmRyZW9oZGhKWDRCMlBGRzRFRUFKLWl6Sl8wMHpqLWpEWVQzLUVGdWd0Q21lZjBJWDZHOUFDdXRwVm1SQ21ueU4xWnRaclB2QU11WWtiVHNiN0dZRHhQemM1UXZJR0hHa1BadndhMXRXRXItOFEyeEhPUFBJN2lpbnZ3c1dGQnMwTnhQTUdldHpVT240Q1hfeXRiN3VIRTh5OEIyWjZUd01QSFNKSFFJc1BFbHJmQUxRRDBOaHJyQUVyT3Vndw?oc=5",
+      "source_name": "News.com.au",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
     {
       "id": "fd77668fab00a8a3",
       "published_at": "2026-08-16T00:42:34+00:00",
@@ -113,34 +173,19 @@
       "confidence": 0.7
     },
     {
-      "id": "18cd29244855f96e",
-      "published_at": "2026-08-16T00:41:36+00:00",
-      "title": "Iran tells Trump to \u2018accept the reality of defeat\u2019 and Hormuz will stay closed: Live - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMVFjWi10bDAtVmhNUThEV0NMLVg1ZDBNMm1HNUIzNnM3WG9wT2FrU2VXZUNzeHlNekExVjk1ZXZyNWhKMGVJSFF0endxWDcyRUQwTFBFdkNfNEg2QlNrb29ITjY0REV0ZWJlVEZhVWxaQVhWOWQ0MEFfQjlYcGxjZ3daeGNTcVZ3XzY4bXI4YlRaRnFTOFA3dDZRdVZISE9BVXlCMjd3SGJLU1Nmb1kyTXBR?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
+      "id": "9a67cd1317a39c1e",
+      "published_at": "2026-08-15T23:51:24+00:00",
+      "title": "US Iran War News Live Updates: Qatar denies Iran's claim of capturing 3 pilots after fighter jets downed - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOSjhSdlNhTEhmVEJRb0Rnekx5b3lGNEFyV2s3NkJhZC1LTGJrSzh0UWdQMFQ4OHhhRDVIenU1OTN6UnNFY2JiT083R1BIVzJYUkFwVF9ZTDFoMWZPZlBfdmF1X1A0Y2lPSjlXSzB4elY4elRHYkU0ODRPZEdBMmxpc1RFWWJKRXNFSWlxVUh3bkdtaGRLd3B0RGdBaDRKRWxQaFFwY3RRZ3BsV2l1YjRtaG1nNXdGb0E2c04xYVhYN1N3UHVLandwUFduMkNGS1psdjF1TmgwYXpVOXAxY2JKc0dYaVhZMmFVQ3dMaG1taTlFMk5MUzJIbFZCV1dJQzM0ZDR1ZWhYX0g1TURrWUIxU0NueUlCb2tfLXV6M2lPcnZneFdp0gGqAkFVX3lxTE9hVjQ0el9lQWozdmQ4NDFxbk9RUGRScDFtZGw2MzZWdWt2Nmo2QlpLazhmSDZUS0QxUFRPcmZpMGo2QUZqMkZHN1M4R3RlSl94bEs3YWQzS213RWRCMXpRZFB4bVBoQnpCVVBQdy1mVWxoNlR4Wl9VVWN6U0ZwSHVHT1pCaTdXcmlwU2lOVnBhdFUwLXJ3NWhUREl6QWtHaEtQcHNUQ3B2Y3JhMVVyWmVQWGxPN3RncWdFNkNjQjJRRTJ4c2p2LUFTaW5TOWlocHBzNHBCblRMWjJOU3BJcHdpNEZVUHNCMnE4WTBOeHBPYzBXeW56bnR1ZV9HN2U1bDF5NjY1bUMwLXNBX253eHA0ekVBRXZKQnlMamdMUUxLR0tadlNkdEFZTmc?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "material_loss",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "e1805f27fe054028",
-      "published_at": "2026-08-16T00:18:32+00:00",
-      "title": "US-Iran war news LIVE: Tehran says Strait of Hormuz under its control, claims three Su-24 pilots held captive in Qatar - livemint.com",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPb3Bqd3pvM1hDLWlOUXU3TTVveVpad1drclpzQ3FueDVTSnIzcF9BVmJZS0dIUTFGSkY3WnZXUnZ2dkZIcFVrbmtrektCcE5NcGRvOUJ4bFBnUF9tX2VCNmpVdjc5OEVMRDhLQjdzTFZPYnRqZW1wVENmVFc3MUM2UWZGOXdOdlBUNVhqY20zVVVMZllzNW5GVWlfSTZvUjJjNXBKaUxLUktueHc1UXRiNU1zcmRiMzI5cXdKZjYybXVJTXVRd0Z6aEFTVXlUbkJHRmRzMzNKaVFodmFEYjZqQkI2YU9VeTItRzlZZVpMemVNM0Iy?oc=5",
-      "source_name": "livemint.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
       "id": "9b155c17c8f1ca09",
@@ -158,11 +203,11 @@
       "confidence": 0.65
     },
     {
-      "id": "c962cc038f14f604",
-      "published_at": "2026-08-15T22:27:54+00:00",
-      "title": "West Asia war highlights: Iran fires back at Trump\u2019s threat to declare Hormuz a U.S. territory - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPN3RTeVdlSFZBVzRETUFiT3NibllmcndQaDQ0emVpNjlFWUFrcVV6Q2xoak5CVnRCX2ZCYWYzUWE1UUhCT0FWY01LNEpUcnZBVk5mYUNyejNiX2JZaDBFX1pHUDVaT3NVbEpTbV9zSnZtVU90eTJtazRxWkFfVXE0cUtCOFVzNDdsWmdwbWE1VUxIVFBXbmthOGxzN0VVZ2wyNHBuc2ZxT2xiNFpPWkZFcjNKT2JuUlJGNjRUWEJHWkhPaHphN25VUjdFbXJJbm1USFVoaE5qSUU1dE82X0Zja1VrOWc4WlNkYlNiWmlhZl9jXzFjR3BTTXF4MDZHNlHSAYYCQVVfeXFMTkdFOERNZVdQMDgtbzZCMU9vMHpZYkFWbUw1WWkxaTFxcjhfOHRBWGlUb1o5X0tocENuX01QUmt3Tk1FVEYxbGlsdFI5dDRaQ2xRVnpKTDVnTHRaLXdsMzVfN3lNcS1XWXI0aVdocjBQTEpjN056VWV4T2pUZWg4enc3V0pxY0dtNERoOFZZRHpSQ2tBUlIxekhpQUFMbnZpR1FqTFBFSUZ5Tl9ESFJxMjdIMHl4dFFfME1MOXc4aUp2M0VHSGUtTFJqcFV0UE96RzdKSEI2eVBHTFJiWnhielZxazFvZi1EUE1zVDUxS3NRV0w4NjNTNFhKcW1Ta09JbGh3TUxndw?oc=5",
-      "source_name": "The Hindu",
+      "id": "17c942036d8b3463",
+      "published_at": "2026-08-15T22:24:00+00:00",
+      "title": "Iran live updates: Trump says he'll declare Strait of Hormuz a US territory - abcnews.com",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQa0N1WnBUSF9QanZ1bzVsWDJycHdjam5POGFvRkpOR2hicDJhbFJ0MVc0Tl9kWWxVMFVkaXVyNUJBV2g0ODZMdkNIdVpVTUhyMGxMdVk3cGJjQ0ZnbVpGWXc4ZUFtS05kTzlpdzRJb1ZJbW1hbFA1UXZ1SHA3U2lrUFpDa3BjM0pnMGMwdFZQRjBFZy1LM2JNb25jcVktcXcxWmNlYjlHdk5aQkRKQUNvX3VQbkxoZ3gySFRYNtIBwgFBVV95cUxNUXhoclcwZ3dsMVUxdGxKdUZOOUZxYk0zVGhONVRTa2ptdXBWcV9zZElpeENLNmFQTDdUbE1CZzhEdGR6ZjJmWU5fV0lOVl9pZ1BoNU1KUHhzSVJ5WDJlWVhuZVpoWEJWUmJGZVpEakY0bEtId280dDJxdjNWVXluUnlEUlhacjZDU2RNbHNlUlZTOEh1LWVnNGV2TnM1VXNQNExYVElwSUM1UEZkT2RSZUxPazBBNnQzS1I0bFlXTENoUQ?oc=5",
+      "source_name": "abcnews.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -170,7 +215,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
       "id": "b4c014f5d0075191",
@@ -233,36 +278,6 @@
       "confidence": 0.7
     },
     {
-      "id": "835c06570564135e",
-      "published_at": "2026-08-15T17:55:00+00:00",
-      "title": "Iran calls on Qatar to free three pilots it says were downed, captured in war - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOWDJ1SVdETHdWZm5DbTVLZlAzZlZ4SWhOeUN1RklYMGNKbmdQVVBkQUg2b0lhaU5kUzN2a0tvX1g5dWgweEt2Y3dlQ1V3LVlZZzc3NXBLYkVnS2xuUHhuUU8zWnhPYTR2RkhXUVpOLUFsSHJYWFVxbUFMYWdBQ0NnX2dQb0o3N3JNQU1uc3Vxdjg2cXhqWGRDNzFPOTlCaHVjTTMzWkJkYnlESS1UZ1RSQ9IBtgFBVV95cUxPTkhmclppWmhfWkVYU2RTN0pDZmVzdlpGYXZxX1JPNGpRd01QNG4zbVJzOUJnSFpyUmZNMENya2hXelM0cUgyNzI3dE4xQS1OZXUwOGxIT29GZ2VXWmRab0NadGN1S2R1NERkcnlwWUtLOXp4WVF4X1NKZ05tYnFFSXJSTldmSXVLaDRVTFhpQU5ZaWhXNkJmcG4xdXdwQ3VIcWc4c0RmTy1NV2dkMnNRVEg2WmpBUQ?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "material_loss",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 4
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9a67cd1317a39c1e",
-      "published_at": "2026-08-15T17:48:48+00:00",
-      "title": "US Iran War News Live Updates: Qatar denies Iran's claim of capturing 3 pilots after fighter jets downed - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxOSjhSdlNhTEhmVEJRb0Rnekx5b3lGNEFyV2s3NkJhZC1LTGJrSzh0UWdQMFQ4OHhhRDVIenU1OTN6UnNFY2JiT083R1BIVzJYUkFwVF9ZTDFoMWZPZlBfdmF1X1A0Y2lPSjlXSzB4elY4elRHYkU0ODRPZEdBMmxpc1RFWWJKRXNFSWlxVUh3bkdtaGRLd3B0RGdBaDRKRWxQaFFwY3RRZ3BsV2l1YjRtaG1nNXdGb0E2c04xYVhYN1N3UHVLandwUFduMkNGS1psdjF1TmgwYXpVOXAxY2JKc0dYaVhZMmFVQ3dMaG1taTlFMk5MUzJIbFZCV1dJQzM0ZDR1ZWhYX0g1TURrWUIxU0NueUlCb2tfLXV6M2lPcnZneFdp0gGqAkFVX3lxTE9hVjQ0el9lQWozdmQ4NDFxbk9RUGRScDFtZGw2MzZWdWt2Nmo2QlpLazhmSDZUS0QxUFRPcmZpMGo2QUZqMkZHN1M4R3RlSl94bEs3YWQzS213RWRCMXpRZFB4bVBoQnpCVVBQdy1mVWxoNlR4Wl9VVWN6U0ZwSHVHT1pCaTdXcmlwU2lOVnBhdFUwLXJ3NWhUREl6QWtHaEtQcHNUQ3B2Y3JhMVVyWmVQWGxPN3RncWdFNkNjQjJRRTJ4c2p2LUFTaW5TOWlocHBzNHBCblRMWjJOU3BJcHdpNEZVUHNCMnE4WTBOeHBPYzBXeW56bnR1ZV9HN2U1bDF5NjY1bUMwLXNBX253eHA0ekVBRXZKQnlMamdMUUxLR0tadlNkdEFZTmc?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "0b72ccb134a9cfd8",
       "published_at": "2026-08-15T17:22:15+00:00",
       "title": "US-Iran war news LIVE: UAE says Iran attacked ADNOC vessel in Hormuz, demands waterway reopen - livemint.com",
@@ -278,26 +293,11 @@
       "confidence": 0.65
     },
     {
-      "id": "1918ee7805333fa7",
-      "published_at": "2026-08-15T17:00:01+00:00",
-      "title": "Frustration with Trump grows among U.S.\u2019s Persian Gulf allies, officials say - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQTU00UEt2c2M1RjJjc1lQNzBCOWdiVWVsLWF6dFhtNm5sVG5LTUFRTjhhM05DVVpZbGNIaXRnejlWZ0VKQ3Q4OEI3MUpFdFJzQ1dHVXZrSHR2MFFPcDV4cVpTcDd3bVNrUlVmdkZQNGFhV0hpVTYwRWJ6TEJMXzJ2aUMxTmp3bjRYc3VhVUVra09DMmh1NE1QT01hdHY5Qko1M0V2Tm5ScHlHdVItNjFEQm8tejZ2dU5oNFNieQ?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "88a49b9674e44691",
+      "id": "2e930eaa57481590",
       "published_at": "2026-08-15T16:50:45+00:00",
-      "title": "Iran says Qatar is holding pilots, Israeli strikes kill 11 in Lebanon, and other Middle East news - ABC News - Breaking News, Latest News and Videos",
+      "title": "Iran says Qatar is holding pilots, Israeli strikes kill 11 in Lebanon, and other Middle East news - abcnews.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ2ViVHktMExkQXRtc0llT0FTMUFLZ041Y2FhSHNnemhXYjVVUk91OHVVVnNCelJ2WHJxVERtRy1CN3FsWjRSaWxlZ2NjVXV2QjEyVGc4MjdIR3RsR284aW40TkpOalU4Z1dYU214Vm53UTdzSTdHcDc5TDhEMmd4VEhsMTY2dHdyR3hvbHRIa21yREQtdWtVSWJzVkVKUdIBowFBVV95cUxOM1NjbDlyR29VVmE2aTE5ck5DdDFpaUF3NElFeG53SG5qYV9qOVRQWEIxUDNCemVDS1oyZTgxVU43d0VNZnlLSHJWblc1Z09hNTUyUEhDeFRTVVVRWnNjWHJqLVNHRE00TTBwQ2xfbEdHWmNSdDd5NHZNV2ZfUTRvV1FJNmpiSXVkc2VGVEVOMGpNMTQ1blZNVndvRnpMQ1k5aVFB?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "source_name": "abcnews.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -310,9 +310,9 @@
     {
       "id": "325fdc8361bfde02",
       "published_at": "2026-08-15T16:13:32+00:00",
-      "title": "US-Iran war reveals high cost of keeping air carriers at sea - DW.com",
+      "title": "US-Iran war reveals high cost of keeping air carriers at sea - dw.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1lHZk1zNERISUZOUldXRWhoVVZxVXM2NC1OSjFEa2txLUdUeDRyOGtORmRrMDhRRWFraXptOXIwalViTk5jR1dYLS1ESUp0dmwtSnBYZEE0OXVkdlZOX3Q4aG1RLS1nM0NvOTdoSEpzZDlDVlJHQWJiaE5CTjNSaXhmVVAzRlBRNDZobWtEMmgwS0hJR1p2MzZPcDdfQQ?oc=5",
-      "source_name": "DW.com",
+      "source_name": "dw.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -323,19 +323,19 @@
       "confidence": 0.55
     },
     {
-      "id": "fe7937e519b5784d",
-      "published_at": "2026-08-15T15:26:00+00:00",
-      "title": "Iran war pulls last US carrier out of Pacific, opening space for China to step up - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQWnVTV1pubEplOGZVX1RmbE5WVUpSU1B3MzMwZW1rc1dZSzVOUzM3U0NvQ2xTbGN6QUwwM0dpeEVxWGRVcHdySHYxLUcwaWh2Y1ZNSTdJTjRremIwcmJubGM4SlUxdjNaQXZxcUJheXpwYVJ5aC1Xd1dMOHN4V29XM18yZzlWbjFzWEtIdUxrU2kyS0dUdFFJMVNGWUVKTFIyYmZxdE1IbWhUWE9GWWhSLTE4QU9nTVVXWHUyM3VPcGpEdDhiRTVCUjZiTHpENU5KZGlBdnZKbDgtdk56YUVVT2VtUjJfdG5ldDdacEdYeHpoSWdjdlhJ0gH8AUFVX3lxTE1EaTBBQ3J0WjFBNmxlMVNsU3Rfd1BHTGhERThTcHljRjZvb1ZDQ2VXdGFNRW52NThpM1FyZ3RvamVfMWp3Y0dlX0o2RVRRYUtlYUNzbUdhU2dvaDQwOUVLcjRGVHFLQUlNU3FJNDFJbVc0d1ZuNlZzUkVlV3lGcVVxZTdLakhqby1JeWo2cWZRektnWHU2Vm9IUVI2bE41bzh4SGZPbzlCQmhfWjhoUXZ4OWdHRzI0NFZ2Y2VRVFNzR0FRUl9hN2Q0VU44SXM3SExESEc1RGtQV3Y0eW1uajBldmR6LWEyaFlPREc5dGVub0NRYkdnQVpIYk5mbQ?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
+      "id": "711e84b9bf749b56",
+      "published_at": "2026-08-15T15:16:00+00:00",
+      "title": "Iran, Oman home in on Hormuz Strait deal as ship attacks mount - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaXFMOWNzTUF5OXQ2eWxWTDBaNllqalhuUG1hdTA2eHJJR3RvbEpmY1NCVXZaNEJhbldZT3pZQTZ5VnJsOGpyNEE4N0lBdnpGZVJ3bDBfRnlDaDNoRHF6VjRKZ2tQTU1zXzVPaG5TZ25yLXhYaEVWZkJqVTd5ZzI0U3hzei03SVhjZUo5X0QyTVVEdw?oc=5",
+      "source_name": "Fortune",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
       "id": "32e6a8986f2c909f",
@@ -353,11 +353,11 @@
       "confidence": 0.55
     },
     {
-      "id": "561fae9f748324ca",
+      "id": "5580b6de24ad9ab4",
       "published_at": "2026-08-15T11:00:36+00:00",
-      "title": "Iran rebuffs Trump's claim over Strait of Hormuz amid report of another ship being struck - cnbc.com",
+      "title": "Iran rebuffs Trump's claim over Strait of Hormuz amid report of another ship being struck - CNBC",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd0pZYV94d2NxSkJ3SjNuZVE0ODRyYi1RVlRHbFFqZXF6OUo3ZWZNT1VxQlBKQ0tHYnNrVmVRV2VnelBKY2dTVkZpeWxWU29oSW94aUpTNXE3V0o1MTBnMGU2dkVyaEt2YWhrdXMxaDFIWDN4clVMUkpOZXZKbzJuNEM3aG9YVGVSbi1CWFBucEE2aExaa2JKVDVIZ3BhRkFVWUEw0gGoAUFVX3lxTE9lS3pIMXFQdkNJTmh5WjlxOXkxWEUxejB5V3ZfdHZtY3BTbWVObUpiMFF2eWw1SktyVWI5X2ZEdnpwUkZGRklacW1hc2xVVEpsXzBveVRpVG5YQWRyejIyQTlVOU5zaThreHZYdHlzYzRBNjVGbGhVbWdUekRfZ2poQzFrcFhKVlVSOG9fb2ZKZExQcEdYYkpiWmhjWWk5bmN2dGJBLWVGTQ?oc=5",
-      "source_name": "cnbc.com",
+      "source_name": "CNBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
