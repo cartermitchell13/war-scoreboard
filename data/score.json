@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-08-17T09:59:55.333419+00:00",
+  "generated_at": "2026-08-17T13:08:42.527490+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 102,
   "totals": {
-    "usa": 55,
-    "iran": 10,
-    "lead": 45,
+    "usa": 52,
+    "iran": 11,
+    "lead": 41,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 18,
-    "iran": 1,
-    "delta": 17
+    "iran": 3,
+    "delta": 15
   },
   "confidence": {
     "score": 66.3,
     "label": "Medium"
   },
   "event_types": {
-    "other": 45,
-    "attack": 50,
-    "diplomatic": 5,
+    "diplomatic": 8,
+    "other": 47,
+    "attack": 45,
     "material_loss": 2
   },
   "history": [
     {
       "date": "2026-08-04",
       "usa": 3,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-08-05",
@@ -93,16 +93,31 @@
     {
       "date": "2026-08-17",
       "usa": 12,
-      "iran": 1
+      "iran": 3
     }
   ],
   "latest_events": [
     {
-      "id": "1653dce6469ddb76",
-      "published_at": "2026-08-17T09:24:48+00:00",
-      "title": "Iran-US war latest: Trump\u2019s agreement with Tehran expires today as $30k bounty placed on US soldiers - independent.co.uk",
+      "id": "91394f7d3e09ebd5",
+      "published_at": "2026-08-17T13:02:14+00:00",
+      "title": "Iran live: Trump says Tehran cannot have nuclear weapon as ceasefire deal expires - The Independent",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEN6TWJuLW5tMWpOMGUzZWowSEhhTVdueEh2YU96RlFrR2c5OUJPUjV5aC1ZOHZvVXJSc3Z0ZncxVHUyWHdaZ1ZUWllrM0stbWc0eGV3Z1F2MzJwclZTMzI4b1RIazhMb2FwQzRzeXR4YTRyODJpM2lORmhWUFZGdjZ1eE5xMW42RDRYR0FpQVlQTWJnSWxSZkk4WjE4TDhoVHJweW5OOTNMV3NjaERKNnRQbzFfQ2xTOWxYUmtKUQ?oc=5",
-      "source_name": "independent.co.uk",
+      "source_name": "The Independent",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d3a57c2970764eea",
+      "published_at": "2026-08-17T12:43:08+00:00",
+      "title": "Iran war latest: Trump threatens to bomb Oman if it \u2018gets in the way\u2019 of US efforts involving Iran - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcFlpZzd0a2o1QTVOUi1Ma3R3SFI3U3JZWExUc2s4ZVdOWFFfck5JcDhyVlBMWE9qbzhOc294WDE0UWJnUGRVZ2FMQWdraU5NQ0NXSk42Y0dPUGRNLUF4Wks1U2RFWEE0T0c2dG95TVBmUjR1enJyLVFDNUVwV05Ld1JVOXAtTVE?oc=5",
+      "source_name": "thenationalnews.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -113,11 +128,146 @@
       "confidence": 0.55
     },
     {
-      "id": "5799699f035893de",
-      "published_at": "2026-08-17T09:08:08+00:00",
-      "title": "US-Iran war LIVE: Two drones attack Kurdistan PM's office in Iraq, KRG says - livemint.com",
+      "id": "162cc48d5acb9d80",
+      "published_at": "2026-08-17T12:19:39+00:00",
+      "title": "US Iran War News Live Updates: 'We'll bomb them' - Trump threatens Oman if they get in way of Hormuz deal - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMi1seGc3OW5iMkVpblJZQnhGd3NsbFRnemN3dE4zeTA0SWpvbGlpQkloWWpKak94NUlYM0REdU1uZjlxaWlDQVpFYWlkSU5FOE51RXhndmtSRU1OcVNObG1kVFR6ei1BaVE3UE00OURJVFRNN20tV19NWVotbnczMUE1WmVGcHJsSzFRNTBZcDlRcV85M3RlSlhDdHlfTDdFckcxSV81bWFOZVJYdlg1eC01ZFhYSS1GWmQ0X2g4eEhwSmlkMU9DeUphTXhOcEphaHVtZU5abEJ0M19qRXBYVnFXejZTNmxNYlZONGlGVlNxUHVVaDNhR0xUbTdiU3Z2bWh1MG1GRVNadllfdk9iaDAza3JZMGZhWmpiOHZ6U0Z5bWQ5SGRub05wRjZUcEHSAbQCQVVfeXFMT3U3dzdwd2FJa0lhWEdsMlIyYU54SEZkR2NlZXNYREdYaE5xbG51WXZEMWVhQUpDWFcyWWpJa3h5S1lja25VY3ZfUUtOcm5XRU5RNEVPVl9wa3lwRWJHaG9yMVZvZzk1S2VZRHF1NC13S3Q1RWVXYkp0LU9faFFLYlZBLUFqalczV1YwQWtnc1pMSWNtd3diWm5tRmRlRGJCMlF0ak1HTjEyNUZjLU5CRktCNFFRUWlyckYtaGpwcWZ4Z2JCX0N4UHJsR1p2VUtleTRreE1nakVKM2hWa3JIcDdJeWFQQll6d255YWtsMjA0R3EtR0dHODNrMkI3RmZTMHY4ajEzZlJfQnRqV09wdjRlalpSTzRUM0duZkdQeHdadnliMVpTcUFWeXVkemp2Y21aUlM?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "98d64f33d0722d75",
+      "published_at": "2026-08-17T12:11:15+00:00",
+      "title": "Iran war live: Trump says Iran should \u2018put up the white flag of surrender\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajc0X21UVGdUWS1qckcwbjdlcnludDY1d0NucnQyX0ptT0s5bkcwYmhwdjh6d25DMVUxV1k0cEZZVmJtaVZ1SW5NdVBQU3JxbEp4b3V2bTN6aVhkbVhKMnRvV3JaTWc2Yl9UUDlicWNoNUtfTDlEREJ1OFhNY1RpTWwxdFcxQnFkQmZ6bTdzWGF5OVBWdi1rWm5NNml3NXJUeUFPaHVjMGc1dUQyQ1h2WGFya0hOdFNOWlhTZU9Gd9IBxAFBVV95cUxQYWtBWkZHRFdvNFpGU09ySVlxcExPZS1MRGw4M1RRc1JmYk45Q2oxTFBldEFnYWlxZlM0UWQzblNuY1A0amt4enBYcDk3cUlmQlZWdTdyYXQzZmVqbjFoQkt0UTFRa2swZGx5T3pGRU5OS3BFZktHVG9wWl9aZW1LSTNhQUU5bWhBNkZKTXRnVHdUZ3p1SHdweU12YU1wVG1TdElSSFNTWEx0NklrZGl0R3lsU0RwUVV3WURNcFgwcWZPY1pN?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2a2802943784f68e",
+      "published_at": "2026-08-17T12:09:55+00:00",
+      "title": "US-Iran Memorandum of Understanding expires: How and why it fell apart - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVlhmbGlnZVpNUUZsb05qX0U4ZWVIeUFXNEp1Mmo3aWM4el9TQUZfdV9BbGpYRlJmRTc2ZUVxZUkyQXR0MXJSczB5aXpXY3ZxWFpoSnBzSVZMYlJFa1BaY2hFMnRkazJJSVAzXzlaNWpTbDU2bHR0dXF4Y1hEWlFzU1RKc01tOWw2WDVYNkNWa0VicjRGd3pjZUM4ekpRWE9OSjJ2YlJGdWF2dnZVM3FR0gG0AUFVX3lxTE9YSE1qTXMwUEI5R18tVFhxOGlDRkZPUUktaDYtMy1hdXhQbHFLY0pBcTRIcWVuYUhBd3gxRElFOHloX1dFTXJsd2U2dC1KSHlsOEtFbzdhblBsSVp3VnR0UVhIb0J4Vjl6Q3l2UXE1UkZZVFlDSkwtdUtVZTV3QzhSYm9WVkJZOHZPUDNobzh0ZU9INkRTMVNOcEc1T01nMVZTT1pfcExNREUtYnhwelNfWFA1dg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "d56119df57ec1b61",
+      "published_at": "2026-08-17T12:07:00+00:00",
+      "title": "Live Updates: U.S. and Iran locked in a stalemate as 60-day negotiation period ends - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSjB6cEFBa2hwQ1ZKNUFmMmxtSEJhNnpITnQ0LTNzdUNoWUZvMy1tV3FxVkR3UlJ2VHpFQ1JVQlNiN2FhNVpvam1pZkNrY0pvajRCandGNjVYUG9QSUxyd3o4U1gzYWtHOE5xSmltVlVwY2lfcVlVVU0xaUwzdFZROURnTERwQQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "aea44975257f338a",
+      "published_at": "2026-08-17T11:59:06+00:00",
+      "title": "US-Iran war LIVE: Iran cannot have, in any way, shape, or form, a nuclear weapon, says Trump - livemint.com",
       "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQM3hhWjZxU190Unl1cFcyVG5YYWVtTFRyUm1ycnpyVEFYeERaaG1pQUZTWHl1RkgyWGFIbElael9ncXN6YzJURlJ4U0h2d29hTGRDTjljOV9BTFg5ZUtEWVdwX3dxdi1sdUsyU2ZnWEpoVzV5TW41NFBPZWdacDdEU0hLa0JHSkRPRkI3NGhOUktidXZCMWhLdEtGMWdvdDBXT0JfOUJ6RkcyNkRMMm5lZUNHSUhyaEl5OWNNQ0I1UU1HSDV3ZE1fRlpxN3ExT0JBMHo4Qnl1WFhpWmt0b0F1NzF2S0ZfODl5VXBzOWh6MjhYS1ZZRWxMTzRiTjdQT1FrSUVlag?oc=5",
       "source_name": "livemint.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5d7d603cbb32b1c7",
+      "published_at": "2026-08-17T11:52:39+00:00",
+      "title": "\"US Will Bomb The S*** Out Of Oman If It Gets In Way\": Trump's Hormuz Warning - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQWjBERFIzZXVuU2hlbVVyLTRNX3MtWW1ud3lXUXdHWmVqQ3NuNFlhT0tHbm1tZEJmNm52OWhzZkNBdjBBX0tac2ZzV19lN05STUZ4STVrYzhuLXJYWkNyUzRUSmIxQ3M5WS1BVk56OHZiczhZNzN5cmtGNjdqSExrZklENGE5U2J2dFpRZ0RwMVpfaEV4YW83VG1sOC1TdEctVDVrblBmUUJ4ZkdlUWo4TjNQcVVGUEYwSW5oTFBTeEpuY2xxNEhLWUJHaFdTM1BjZ24wb0NxY9IB3wFBVV95cUxNQ3kzc2hhTFlwbS1TVGNrUHFuc01NLWRKdFRORTVhTUF6MGlRQmtSd1JOMlJkVUxjRTdnUjFHTDhwRzhKbWtNbWtma29NTkQ4emc3Y2twZS13TjM5dEptWjVtTWZ4N3RoU1p1SEtDbnRCUHlMRG5XbFZseW5DRDJhQ3RNZFY1SFVBaFkzc3lMdWhNeGtjSzZxUElwVFpGLXlfQjdhMG5TQ29lZGU0Q3BnTWhKZ05nemR4bnN4a2FSdUZxRm8zcDh0R0tiMEJ3b0t3a2FRcUhuYTV0eFh2OUNB?oc=5",
+      "source_name": "NDTV",
+      "event_type": "diplomatic",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6c29c4eb45fedab1",
+      "published_at": "2026-08-17T11:50:00+00:00",
+      "title": "Live updates: Kushner meets Netanyahu after talks with Hamas on stalled Gaza peace plan - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9HMS1FenJqYXZEVWlWMHdLX0lUSzdnMmdNVG9rakl3ck5wVGNCVEJHZWc0TlM3dnpvS2lxYldUR1lBek1WUWhOc2ZpbTFZM0w1M1pPOER6czIyWUhTdkl3SmpSMlptTnZUZWU1aXNB?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "3277c32828942bbc",
+      "published_at": "2026-08-17T11:17:00+00:00",
+      "title": "Iran working to finalize Hormuz agreement with Oman - Spectrum News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWGZHYlZwczRzdDBOOWY1SlBlVzFQbnJZY0RRY0ZTZjRTdnFNZWdEYnZ1dGR4LUdEODNCMXJPNW5ud1B2X1Y3b0k0Unh6eVNMZVZFMXQyaUVGbzB5TWJvOWJOdk80My1tMlYzY3VTNTdycjNiWndaZ3JOSThybnRLYTZuRzBZRTBKaFZqaTVuaE9KTmVqdTZ3Y3d2TFRuM0xGMHFOaGUwQnJYUQ?oc=5",
+      "source_name": "Spectrum News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ba2779ccec5937cb",
+      "published_at": "2026-08-17T11:07:21+00:00",
+      "title": "\u2018Iran cannot have\u2026\u2019: Trump reiterates \u2018number one goal\u2019 for US; oil rises as war talks stall - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPZ3ZKYmNxU090U3lIU1MyWk9CVFBSenU5M0QyOUt6N2ZpVFJnWUNfWDZVbUxUa0VIazlZZlk3VEk0VzRYcU03c0JHVkg1Zm5rLWFuUnBqVlBQZ0xUMy1KeTNvLTZzNDg0NmtNLWZvSGpyNDFfMThaZG9ZQjk1Vmo1UUVheTN4bk5jRVJrdldKQW9HaXJzQzhqN0hCMnZueExMbFlVSVNDa2NaY3pzT0t5Y25ETWoyTkkxVThDU09OSG5OcDNhRW50cldFd3VpazZ5RDZmQ1c0a3ZweE10eEpodVlxSFdXYTd5RWVRYtIB8gFBVV95cUxNaEcxYU5NQl9vMDB1Wm93aUstZjh6VnJNbV83dk9uNTdJZm90TWVRQVZqMHZBYy1zSGFPaHhOUU1nWWFUeWhWS00zbllpaEZlYzhDYkdBdUtOR1kxbW43UUlKY2hQaVktNkprLXROQmxHQVR4a183d3JFelB1c3Zvd1ptSTVaemM4aUhIOTJXLXRxbVhTOFdMdUZBd3NobXdQbVJ5TGdhdDV1QnVUWUZpTTFBSFVTaFNmeENqc2VIWnMzNVJxTVd1UnU2U1ZBVGszOElKT1lwS05JZUFvTFZMZGpTZWtPbzRvVmRBRXdJbndxUQ?oc=5",
+      "source_name": "livemint.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "31047647e25ff814",
+      "published_at": "2026-08-17T10:54:44+00:00",
+      "title": "Iran prepared for larger war, fearing US talks were cover for Israeli attack - report - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mMnFIb0FrTGc0cFgyMmYyRkZPWGd1UTZDVDV0OS1pdzliQjNTeHNqSDNyVU9sSWIxQUhlSkJrdjgtcUVjWUdVV2p6ZlRlRGxpWTBfYnFEME12eHIxY0pkVlJNTGVxRmROT3c?oc=5",
+      "source_name": "The Jerusalem Post",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -128,11 +278,41 @@
       "confidence": 0.65
     },
     {
-      "id": "22540d3d6aa665c7",
-      "published_at": "2026-08-17T08:56:00+00:00",
-      "title": "Live Updates: U.S.-Iran memorandum of understanding deadline about to expire without a deal, amid stalemate - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSjB6cEFBa2hwQ1ZKNUFmMmxtSEJhNnpITnQ0LTNzdUNoWUZvMy1tV3FxVkR3UlJ2VHpFQ1JVQlNiN2FhNVpvam1pZkNrY0pvajRCandGNjVYUG9QSUxyd3o4U1gzYWtHOE5xSmltVlVwY2lfcVlVVU0xaUwzdFZROURnTERwQQ?oc=5",
+      "id": "25fb54d330fd9ad8",
+      "published_at": "2026-08-17T10:26:21+00:00",
+      "title": "CENTCOM chief meets with troops aboard USS Abraham Lincoln amid morale concerns - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?oc=5",
       "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "13c057fcaf631ef4",
+      "published_at": "2026-08-17T10:00:00+00:00",
+      "title": "Contributor: The Iran war has exposed the limits of the U.S. military - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeGhCdmUtVzlqZW9EWXBSN2hkZEczdVE0YWhrbDYwNUJhcU5NeHZ4enVMdHVoSUpJT1BIR0FhWHg2NzdWbmxseHlULWRpN2pLdVlOd05ETEExTWhHeFkxUjlVZmo2Q1FwZXNUeFVSUU5fWkVsSjByajVzNU54QUJ5RV9kUFlYQTg1Rmh3VmdtaEkyTkE2czdz?oc=5",
+      "source_name": "Los Angeles Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "e57f3e9f53474335",
+      "published_at": "2026-08-17T09:19:30+00:00",
+      "title": "Is a New U.S.-Iran War on the Horizon? - WANA News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9CS3dMbi1qOXlqaWhzVnViUHBjU2ZSLWFJTVVRN05sZGV4Tk9CMjh5OHJWVlRzQVJxLTc2R25ZVWVfMC03dENLd3VPMTlNQ3ZxTmNNbjZ4WWs0MjlXSGtXY1VzTjN2VzA?oc=5",
+      "source_name": "WANA News Agency",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -155,14 +335,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "57d40e58cd3b8370",
-      "published_at": "2026-08-17T08:29:07+00:00",
-      "title": "Iran war live: Tehran warns of shift to offensive posture as US MoU expires - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajc0X21UVGdUWS1qckcwbjdlcnludDY1d0NucnQyX0ptT0s5bkcwYmhwdjh6d25DMVUxV1k0cEZZVmJtaVZ1SW5NdVBQU3JxbEp4b3V2bTN6aVhkbVhKMnRvV3JaTWc2Yl9UUDlicWNoNUtfTDlEREJ1OFhNY1RpTWwxdFcxQnFkQmZ6bTdzWGF5OVBWdi1rWm5NNml3NXJUeUFPaHVjMGc1dUQyQ1h2WGFya0hOdFNOWlhTZU9Gd9IBxAFBVV95cUxQYWtBWkZHRFdvNFpGU09ySVlxcExPZS1MRGw4M1RRc1JmYk45Q2oxTFBldEFnYWlxZlM0UWQzblNuY1A0amt4enBYcDk3cUlmQlZWdTdyYXQzZmVqbjFoQkt0UTFRa2swZGx5T3pGRU5OS3BFZktHVG9wWl9aZW1LSTNhQUU5bWhBNkZKTXRnVHdUZ3p1SHdweU12YU1wVG1TdElSSFNTWEx0NklrZGl0R3lsU0RwUVV3WURNcFgwcWZPY1pN?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "8c8c5f9c0942269e",
+      "published_at": "2026-08-17T08:45:50+00:00",
+      "title": "Trump slams \u2018vandals\u2019 over damaged grass - News.com.au",
+      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNVnF0ZTVGMWg4Zy1OUEdQYms4R0l6cllZaFNTeVlBamMwTld4cGpGS3hDREZwXzloSTlQSGEyckZNbHlLYjhwQk1yQ2xfLVM1MXNPdzVTZnBmWHN5VDdkamhVRXFqQURZb3NYNlhsWURORHpOX0RVdTk2OUJxc3A4dExVbEp0N2hoSmpiUjJMd29TRTNRUnFzRmZ4STJLYWgtTUQ0YXZESkdvU0ZjcEFmQWpqTldQY0g3eEQ5bVVGMGhpOUhwUUEwRzBWeWZoT1ROZjRsbDV2V2R3QXpUNEJ2Z2FKVWhQSVV5SkdicVpvVVhHclNRWXVHSmxBVlNKR1FZR0p1VGNlTzBLOUpUSUl2aVZpSXBWRVZNSWdjZWNBSmxkTVU?oc=5",
+      "source_name": "News.com.au",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -188,11 +368,11 @@
       "confidence": 0.55
     },
     {
-      "id": "2ef45beff52d872a",
-      "published_at": "2026-08-17T07:58:36+00:00",
-      "title": "Israeli Strikes Kill at Least 11 in Southern Lebanon - globalpost.com",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTXFsYW1lT0VsVkRjN2lBSmwtaUtocDc3YWdzQ3d2V2kzMHpYODhBRjJPMVBmZ2xCU3lacVVBTF93ZDdfcWdNOEJsaHRYZlBzMTJDSXJaX19tMzdxYV9NSXVRbWRKWnpkNnR1aGhELWJoSWVtZmhBb3BfdTg2VzVDXzFoSjF1UTZDNzNSOQ?oc=5",
-      "source_name": "globalpost.com",
+      "id": "666dfd8a8520230e",
+      "published_at": "2026-08-17T08:11:52+00:00",
+      "title": "Lebanon Flare-Up and Gaza Strikes Dent Mideast Peace Prospects - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYktqOFdKQjhqdk8xWUhlWnVfRzgwWFFLbkVNMEw4S09ScWZSVFhOZjRJRUxBbjVZX0JlNllDWG5qOVUxaWlfLUVHTGE3MHgyeFdJeUFiSVFTekRWcnRfeXBYTV9EeDhfbkNjV1kxTFQ0Unp5aF8yVlQ0RDNhbVR3ajVMSVA3cDFIQ1Q1ZlVMX1RXVmtibXQ5WUNlX0xYRGFCSHlBZ3c3WWppdVhPSHFhTzJ6UQ?oc=5",
+      "source_name": "Bloomberg.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -201,21 +381,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "c884d4995a51a25a",
-      "published_at": "2026-08-17T07:17:06+00:00",
-      "title": "West Asia war LIVE: Trump welcomes defence pact between Saudi Arabia, Turkiye and Pakistan - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQT3RSdDBxSmg2Qk9ZWTFVTExQeTJxdHVpWGpFUkJ4YUxLWlQzNkxjRTJaWE5uNnA4MVVpeVdDMVo0MnlycVRBVWhacE9pbmppTmoxVmpnRzJNNkhKSjBubDZXWVF3M3JDN0o0b2R0eHM2U2o4Sm43TVNvQWpKRTVEb0d6SGZGSEhhc0ppQUM4a0hESDlnLWcxQzNtTGZzalRHTGIzcU41MXRmSlNjZlhMRTRjMmE4VHdlZndMY0FlN21HV2NWNE1EZGRNX0QtYkZOWkhtQ3ZhQnh1RFBwVm5n0gHmAUFVX3lxTE5xTkJReWpsRmRvSVlqb3U5TEtfbFk2ZkR5VUhiZHlWZkdnLVhNRFdONU9GaGc5bVFaNzRobDhGempJenJYWmhYWk5fSXFDd25IMWpuMGxqb1o4bVljX1VGSU4xMDFEMVh0TWN0TGkzSWFZc1NJTExxeldieUJ0TnZYYlBDRTNNeWhmZGlYeUVvVkRMVVltaGFfcnc1MkFtaGkwSXFQX0NObHFUOVpFYXp6UVdGdGRkNFVwblJmZWYtQWpNZGhORHNRdElZTVZXMjlNYm52TVhMNU9UUW5fSmRUdHBUUmR3?oc=5",
-      "source_name": "The Hindu",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "46160f0a5384cfc3",
@@ -231,171 +396,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "028c6e77fe44645f",
-      "published_at": "2026-08-17T06:09:04+00:00",
-      "title": "Iran-US war live: Trump\u2019s 60-day agreement with Tehran expires today - independent.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd3lWQ2k3NWxXV1ZXWG5hUjhON0FzV0xGWmxmRC1YTEtFM0htWGZ3M3l4eDRGa244aTA2TGdrTmt5WDVtcFhQQ2pVZkNoNjU0eGZsQzlHOF92VmZoeTZ1dGk0NUdiazJJVTV5akNDbkRmRXZMOUs5NkJOaUk5ZDQ0VW1WNnUxRlZKZ3duRnFkbHlzZFZfcy1BdDFBeDZ4UlcxTmxEcWluWUJQWVA3aTQ5eGdYYzV1NlU?oc=5",
-      "source_name": "independent.co.uk",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "60bd7ced9420ee2e",
-      "published_at": "2026-08-17T06:08:07+00:00",
-      "title": "US-Iran Ceasefire Pact Expires Today. Will War Resume Again? - ndtv.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY1BnZDdUVE9XX0Ntb1RYRWVheU9vTzQ3ODBnQmppaF84X2dkanV0WDl4c0JfbmtPU1NHR1VIOXNZSkZ5b0lSeDZWUTM3NUtFM3ZaQmtHc3lMcU9kSkFUdHJvRUZOd3hQcTJocXJVajZVdDliNVNMaEl2MGk4bDdkU0xkS0ZDazRoLWhPUVJKcWt0eU5XRmJfX2dkaW5EN0HSAacBQVVfeXFMTllXaDk3dHR4X1lhdVVVT0lwdzBMeGViLUpfeGVybXZwMXFkN1RYcUw5X2JrZjI1TS05cVdiaVQtQ0FaNThtTlBtNmxkMWdFckkybW8zclhnemMwX2tZdWVwZEhFTEs2RUpTTlpXczJOdXRzS1Y5ekZDYmd4RWNMZUlGYXFibUVDWnU2NUhCeG1RMGZ6QjFlMnZWVjNpazhMZ0dZRmdmLTA?oc=5",
-      "source_name": "ndtv.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f43cd3da1156be04",
-      "published_at": "2026-08-17T05:40:25+00:00",
-      "title": "Iran distrusted MoU, believed Israel, US would use time to prepare for war - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mMnFIb0FrTGc0cFgyMmYyRkZPWGd1UTZDVDV0OS1pdzliQjNTeHNqSDNyVU9sSWIxQUhlSkJrdjgtcUVjWUdVV2p6ZlRlRGxpWTBfYnFEME12eHIxY0pkVlJNTGVxRmROT3c?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6aaca4c8eac193fc",
-      "published_at": "2026-08-17T04:38:00+00:00",
-      "title": "August 16, 2026 \u2014 Kushner meets regional leaders as multiple conflicts roil Middle East - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8c8c5f9c0942269e",
-      "published_at": "2026-08-17T04:36:35+00:00",
-      "title": "Trump slams \u2018vandals\u2019 over damaged grass - news.com.au",
-      "url": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNVnF0ZTVGMWg4Zy1OUEdQYms4R0l6cllZaFNTeVlBamMwTld4cGpGS3hDREZwXzloSTlQSGEyckZNbHlLYjhwQk1yQ2xfLVM1MXNPdzVTZnBmWHN5VDdkamhVRXFqQURZb3NYNlhsWURORHpOX0RVdTk2OUJxc3A4dExVbEp0N2hoSmpiUjJMd29TRTNRUnFzRmZ4STJLYWgtTUQ0YXZESkdvU0ZjcEFmQWpqTldQY0g3eEQ5bVVGMGhpOUhwUUEwRzBWeWZoT1ROZjRsbDV2V2R3QXpUNEJ2Z2FKVWhQSVV5SkdicVpvVVhHclNRWXVHSmxBVlNKR1FZR0p1VGNlTzBLOUpUSUl2aVZpSXBWRVZNSWdjZWNBSmxkTVU?oc=5",
-      "source_name": "news.com.au",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5341924378abd77a",
-      "published_at": "2026-08-17T04:01:19+00:00",
-      "title": "U.S. and Iran Blow Through Deadline to Agree to a Broad Deal to End War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5Hb3RNTTBQcDhMM3VPRGVZYUNZVktEVXdib1dqVGFaN05PemFhelg1US1SM3VXWXdfeS1JYWtyUlVGOXktVndIS1hSbHA0TEl3Z3d5Z1dQWklHVGNVMEhkQnNnVXdMd1ZCc3ZyTmtJYVM2ZTdZWGMxT19ZeG5Pbzg?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "a5e34199137b5734",
-      "published_at": "2026-08-17T02:43:00+00:00",
-      "title": "Israel Strikes Lebanon as US Prepares Fresh Iran Sanctions - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQlQ2TTRnS1c5aHBnVlgxWUNmSWJVMXpDNFpzNEROTWNXVDFib29UdkZRTE05aHFCdTFrZHJoaHY4WUFramp4VFVodk9ZOEdyN0dpd001ZGk0ZWdGUnkwXy1OQVZ3NmtXQk13N2RoWWFaZm5XRTd1T0o3aERlYk5JUUZQN3Y5azR5bS01RUtNVzhGejUzN1NtSUFVbEdSUEhnaW1jcThCTWlHQkk?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d77af7052312e307",
-      "published_at": "2026-08-17T02:39:53+00:00",
-      "title": "US-Iran war: Secret shipping through Strait of Hormuz? Report hints at what's keeping oil prices in check - livemint.com",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQZkhnaWh2YXlIckxKRHAzQzYya3JlRTlJMXo4ajhHaGFBYm9xNm0xQ05kYVc1aVlDbzhJaUFLODZfWEFGUTVlTFFfYTUxRmZsSWlEa2EtZXhrU2xLMVFrbldTQVpRRWhodVhwTXlzRnV5bWJoQk8wZUVPWXN0UVJod19TdWpaRm53YnZFUm05SG5VNlpvcTdRMGRyVlRMNkJka05HY3dwV3B4eDZkeGI2Tlo4UVI0cm1vX3Fpa1FiR0tFYjVCanZtUDRYRHVzeVRoYmx6TVhJQVpXS29yTlBPZ3c1aDU1THI4RTlrSXpB0gHzAUFVX3lxTE41X3NJTjM4NEJabGFLeHVJLW5XdTM3Mm5sanB2c3Q2ajhva1p3QTEtUzVXWHBsZEF2aERVM2JkNWY3R0U4ZzdsREZsRmx0bGV1YlZDc2QtOWlPV25ia3NhYkZyRjVJa25hTjl6X0NGRU5hakRyLVNHenRkbFBKTkNWNmd2T0hVNk9pMzlySmVETUxaajZwTWhhakF3cUZiYmtqWm04SWI4bENNanJrekVHd0hGdEExcVk0d2JpX0ppdURabEZrbmpNNWZpTFphN19lZk5RRUJJQUdoTVpvX1B3Vjg1RE8ySk1NMWlUVzZHc0JFZw?oc=5",
-      "source_name": "livemint.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8f0d912250747fa6",
-      "published_at": "2026-08-17T01:58:39+00:00",
-      "title": "From Israeli PM To US Official, How Fake News Became Iran War Justification - News18",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNOFdXbTFLbmZ3dkFWX05zTG15VjAtNGFpU3BTY1BFcWVoTzlNN25sUFdZLW5kcXZHenRseVB3Zm1TQTJZc0dUaGVvbC13NElmM2tmZUdfOG45cHBTMzgwQktWUVpYYnF3RW5xNDNsallaRjItOU1PVk5jdXZDZ1c2MGNmTkFYRjlOUG4wSmdiSzNVYndtNERlUHNoV1ZZTThZSC1FUjJSTzBJVkxhVzZvVWszSW5Hc05MOGZEUUZFQWdud9IBxwFBVV95cUxPQW5KWF9JVElla0I3ZTFjSG40OE9jQjZQYnROeEVsMGxWTnZvSHVXX3dIREQxdTV5UHBNa3VYNV9tLWI1dUR3Zm84aU5tY29sUmtjaFlPV1dsOVRab3JMT2tFcF8wMUVvaXQ2a2RRWi1KbWh6bUpMRnNSMjdidEc3YlFoY0VxZy1xUDVJaHRfRG4xdGRlWUJxWmJ5LUFHZEJ4bF9LeGFGaVhXb0lab0QwRVI2MnBXWDBhb0Ixa1FmVFhLNlNqbjU0?oc=5",
-      "source_name": "News18",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "52877a99a30b3e57",
-      "published_at": "2026-08-17T01:11:00+00:00",
-      "title": "CNBC Daily Open: U.S. Navy faces mental health challenges as Mideast conflict drags on - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ2I1VTdfUVhiZ1IwMDQ2QUdTZUlmdEJjYTYxbWRXMFJ5WDdfTXNmeEpvQXFMaFFiWDh2WHEzVWlTRWFVUlhKREM1X2JkUHBQMGZJbTgzalF3UE5IRV95ajJQWUMwM3BnNDVxRFM5a25zZy1kOVJubWZOcE44SFhyMTFVQ2F1cXdCQ25TT3dISllhYTBUbHFTdUFfT3hfekNNRnfSAacBQVVfeXFMT3FFaW9tbEZwOUNDWENLS3FnYWZYX0plbnkzTFI1VjFhazZlSkNSTURFa3lKYllQQ29OdUVBLUpHcUR5NERGSERuTS03ak5nWmU2MjJGSC1nQXBNZXdTMmQzQTBEN0xsNTBqUFFZYUl6M0FFZTk3TGhtam5wSnFMdGlnLUFXNjhHTXVSTmc1WUdycDA3b1N6T3lnSWZsSUlJT3JyUE9rOEE?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0563055c1f4a320d",
-      "published_at": "2026-08-17T00:38:23+00:00",
-      "title": "Iran war thrusts Diego Garcia into spotlight as official calls US military base \u2018integral\u2019 - foxnews.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOamE5YzJ4WlNEaHduRTFoX0daZEFJU3NGeFZRdkJUSjdSd2NoTUVxLXE2TTRjbzhRUlF0ejIwcmpnd1JWZTdJc0JURFRzaEhKMm51cE5IdXpKc1VyRGk4dGdweHhPcldwZk5yV1ZlZHYyNkFvTlhhZnZJbks4dXhEWHVGWVhPTjBQRk5NWXQ3MlVDX0tZQ2tPbGd1aGtNazBJZ292bnZZZThYQ0VZYjJV0gG0AUFVX3lxTE9OU0xTMU1yTlh4SWtqR1AxdHYyN0ZQX1d0LUhXRzZVMF9MVVUtS3N1cVo0bTkxOHZ3Vmx3R0RXWmdRcGp2dXYyQkZwWFJQTGlOa0hTTVZDQlpsekg3VU9zNG1SQTRydVo2aVROVDhiUWFZUXg5djhCYlBxMFByVFNaSEVJVkpiTTVLOHg5Xy1UNVdyX0VVbzJsV2owVm9zZ2VNQUc0UkFrTktDanFVb0k5bVlyWg?oc=5",
-      "source_name": "foxnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
     }
   ]
 }
