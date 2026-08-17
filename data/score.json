@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-08-16T21:36:34.199862+00:00",
+  "generated_at": "2026-08-17T01:56:42.708806+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 108,
   "totals": {
-    "usa": 58,
-    "iran": 12,
-    "lead": 46,
+    "usa": 55,
+    "iran": 13,
+    "lead": 42,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 9,
-    "iran": 4,
-    "delta": 5
+    "usa": 12,
+    "iran": 5,
+    "delta": 7
   },
   "confidence": {
-    "score": 66.6,
+    "score": 66.1,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 53,
-    "other": 47,
-    "material_loss": 5,
-    "diplomatic": 3
+    "other": 48,
+    "attack": 50,
+    "diplomatic": 5,
+    "material_loss": 5
   },
   "history": [
-    {
-      "date": "2026-08-03",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-08-04",
       "usa": 3,
@@ -94,30 +89,50 @@
       "date": "2026-08-16",
       "usa": 9,
       "iran": 3
+    },
+    {
+      "date": "2026-08-17",
+      "usa": 3,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "31412124aaa3bb97",
-      "published_at": "2026-08-16T21:30:39+00:00",
-      "title": "Israel Strikes Lebanon With US-Iran Ceasefire Due to Lapse - bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSVNUazhGWkNMSDlmWmFILUp3TFBPX2c2Ym5CeUJZQS1LSjN3MmY0bGx5R1BEV3JhYjN3NHprX1Bhd1dqZWlfOHo3WWEwVmRTUF92VGVlc0U1REJIaVE2MHlJT0RtWWs2UmFMVDBHelh1djNWUU9FQi1OQjM1Vy1QWXVhaU9zb0otcDFzWGs4SmlMa3JSUUJPTDBGQTZhNEhiMmRDOC16MnBoUE5yblBQRlZn?oc=5",
-      "source_name": "bloomberg.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
+      "id": "7c10e0eed6bb0d3c",
+      "published_at": "2026-08-17T01:39:04+00:00",
+      "title": "Iran\u2019s army chief tells Trump \u2018we\u2019ll break your legs\u2019 after Hormuz threat: Live - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd3lWQ2k3NWxXV1ZXWG5hUjhON0FzV0xGWmxmRC1YTEtFM0htWGZ3M3l4eDRGa244aTA2TGdrTmt5WDVtcFhQQ2pVZkNoNjU0eGZsQzlHOF92VmZoeTZ1dGk0NUdiazJJVTV5akNDbkRmRXZMOUs5NkJOaUk5ZDQ0VW1WNnUxRlZKZ3duRnFkbHlzZFZfcy1BdDFBeDZ4UlcxTmxEcWluWUJQWVA3aTQ5eGdYYzV1NlU?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
-        "usa": 3,
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "176585c27d60e776",
+      "published_at": "2026-08-17T01:24:05+00:00",
+      "title": "US-Iran war LIVE: Shipping via Strait of Hormuz slows amid tanker attacks; oil steadies as fighting erupts in Lebanon - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQM3hhWjZxU190Unl1cFcyVG5YYWVtTFRyUm1ycnpyVEFYeERaaG1pQUZTWHl1RkgyWGFIbElael9ncXN6YzJURlJ4U0h2d29hTGRDTjljOV9BTFg5ZUtEWVdwX3dxdi1sdUsyU2ZnWEpoVzV5TW41NFBPZWdacDdEU0hLa0JHSkRPRkI3NGhOUktidXZCMWhLdEtGMWdvdDBXT0JfOUJ6RkcyNkRMMm5lZUNHSUhyaEl5OWNNQ0I1UU1HSDV3ZE1fRlpxN3ExT0JBMHo4Qnl1WFhpWmt0b0F1NzF2S0ZfODl5VXBzOWh6MjhYS1ZZRWxMTzRiTjdQT1FrSUVlag?oc=5",
+      "source_name": "livemint.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
         "iran": 0
       },
       "confidence": 0.65
     },
     {
-      "id": "6bfef9c4ac886733",
-      "published_at": "2026-08-16T21:11:15+00:00",
-      "title": "Iran war live: Tehran, Oman discuss Hormuz; UN delivers West Bank aid - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbkJqOHdsTVhuNWRIbk9EdVRDUmQxMlczTmFsRlc4MEdOemNRMEdHUUxJaDZzZUtydUxsMDlyT0c0eXdJZnNOSmx1d0pmakY5enZKSjg3UjBIN1I2dzVieUx1VXcwVFZJbmFsbnZLSTlObXNaY2x4WUxYRERNbXVZaFRNOERTclNFeUhDaVkzdG96Mjh5cDhjbk9XM3JET25HS3BHZXhWMmJSR1hjSEdpWUpHYlJ6R1l3WllrWGhSRdIBxAFBVV95cUxNZFhLVEMyTjcwUGh5MWUwcms1M1ctOHpoeVh2NzlHYnh1aUJ1MWJqb2RqZGZHbGRvSTNyMVE4OGE3X0ZmVU1zM1VkMlpJTEM0V3BSemF4VUw5T0pDdmFad09JdldGenRhUzN4ZGFLZ0ZJMmw2Sm53WUx0WGQ0bHFVOUxMM2F2QnctbC05NWJjdExxcEl2aEZycC10bDU5REMyYWpCelo3b28wZk5PcWItLXZfeEJPbU1YQUtGRGJLMWc2Rmg0?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "52877a99a30b3e57",
+      "published_at": "2026-08-17T01:11:00+00:00",
+      "title": "CNBC Daily Open: U.S. Navy faces mental health challenges as Mideast conflict drags on - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQ2I1VTdfUVhiZ1IwMDQ2QUdTZUlmdEJjYTYxbWRXMFJ5WDdfTXNmeEpvQXFMaFFiWDh2WHEzVWlTRWFVUlhKREM1X2JkUHBQMGZJbTgzalF3UE5IRV95ajJQWUMwM3BnNDVxRFM5a25zZy1kOVJubWZOcE44SFhyMTFVQ2F1cXdCQ25TT3dISllhYTBUbHFTdUFfT3hfekNNRnfSAacBQVVfeXFMT3FFaW9tbEZwOUNDWENLS3FnYWZYX0plbnkzTFI1VjFhazZlSkNSTURFa3lKYllQQ29OdUVBLUpHcUR5NERGSERuTS03ak5nWmU2MjJGSC1nQXBNZXdTMmQzQTBEN0xsNTBqUFFZYUl6M0FFZTk3TGhtam5wSnFMdGlnLUFXNjhHTXVSTmc1WUdycDA3b1N6T3lnSWZsSUlJT3JyUE9rOEE?oc=5",
+      "source_name": "CNBC",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -128,11 +143,11 @@
       "confidence": 0.55
     },
     {
-      "id": "363eff1a2a3dab3b",
-      "published_at": "2026-08-16T21:09:04+00:00",
-      "title": "Iran\u2019s army chief tells Trump \u2018we\u2019ll break your legs\u2019 after Hormuz threat: Live - independent.co.uk",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQd3lWQ2k3NWxXV1ZXWG5hUjhON0FzV0xGWmxmRC1YTEtFM0htWGZ3M3l4eDRGa244aTA2TGdrTmt5WDVtcFhQQ2pVZkNoNjU0eGZsQzlHOF92VmZoeTZ1dGk0NUdiazJJVTV5akNDbkRmRXZMOUs5NkJOaUk5ZDQ0VW1WNnUxRlZKZ3duRnFkbHlzZFZfcy1BdDFBeDZ4UlcxTmxEcWluWUJQWVA3aTQ5eGdYYzV1NlU?oc=5",
-      "source_name": "independent.co.uk",
+      "id": "807b197d9ca81869",
+      "published_at": "2026-08-17T00:57:32+00:00",
+      "title": "Iran slams Canada's participation in US war on Iran - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZmFUNnk1RmU1RHRtbkN0cXNaam9Gb21VQi1uZUpBLUFsWjl4eHJ3c1FlVncxREVCLWppT1BlNERDenJnUUVnTHVCYzFmdXh3bVp1ajFTTE9GdTFFSlRwVjNFS3VQNXhEVUlrMjc0Wk1tN0toUHUtMThVM1B1LVF0VF9OU2hFLWpqcVlCUWtZeTVqdmZ3UVZOTlBZTQ?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -143,23 +158,8 @@
       "confidence": 0.55
     },
     {
-      "id": "4598b36deda4308f",
-      "published_at": "2026-08-16T21:00:00+00:00",
-      "title": "As China Pushes to Expand in Asia, Trump Focuses on Iran - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSF9nSzZJMGF1cHpVeDU3QmthRzFvNU9NV0Z2X1UwaWhSSnB3bG9QX3dVYU12amZOeFczU245QmEyNmJhM0J1UnlrLTg4TWMteTVJVjRQNnJnUEI4T2R0WFQ5cHVLOUhGd01Ub0JCbDFuV2lsYTdLSmhGUnlpZjBidDVuYmVxNjN1VV9Z?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cb7b18e1bd7b8874",
-      "published_at": "2026-08-16T20:39:00+00:00",
+      "id": "38ddfff542e0a355",
+      "published_at": "2026-08-17T00:43:00+00:00",
       "title": "Live updates: Jared Kushner meets with regional leaders as multiple conflicts roil the Middle East - CNN",
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE40V2dqMUJIcWdndGVfSXlVeDRKbmkzU3hrTTRyeXBrSWR3NGtUNzNkSm54X19kcDNBNzJBaVV0NEJTNVdLVVRrUlNHLXZETnFwMEIyekJhOTduVWxZQWZyVW5WQ0xua1ByTDc0OG1B?oc=5",
       "source_name": "CNN",
@@ -171,6 +171,141 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "21f20a54c3abcf40",
+      "published_at": "2026-08-17T00:39:52+00:00",
+      "title": "Oil treads water as US-Iran peace talks stall, Hormuz shipping slows - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNmNqanA3WXVHU3JvRVRoZnVBYUpwUmRGbkxCYTNHLW9EeTFhbTdFcjFqM2JtZVctcTd6TzhEYnJUekhXQURDRXkzUXNNRlF4OEN3S2VQZ1ZIZ0c5OHo0d3RWdG01Z1o5amVMZFk0cGdUOGV1enVQYVVzTWtQVl9rTHhyM1RaeGxOd0RUNEM5NWJCMW91WFpITmp6TmlKOWF4RUYtMTRBQVpYX0pqZ0Q3UjNKVHIzZGc?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c710baf559cd9407",
+      "published_at": "2026-08-17T00:38:23+00:00",
+      "title": "Iran war thrusts Diego Garcia into spotlight as official calls US military base \u2018integral\u2019 - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOamE5YzJ4WlNEaHduRTFoX0daZEFJU3NGeFZRdkJUSjdSd2NoTUVxLXE2TTRjbzhRUlF0ejIwcmpnd1JWZTdJc0JURFRzaEhKMm51cE5IdXpKc1VyRGk4dGdweHhPcldwZk5yV1ZlZHYyNkFvTlhhZnZJbks4dXhEWHVGWVhPTjBQRk5NWXQ3MlVDX0tZQ2tPbGd1aGtNazBJZ292bnZZZThYQ0VZYjJV0gG0AUFVX3lxTE9OU0xTMU1yTlh4SWtqR1AxdHYyN0ZQX1d0LUhXRzZVMF9MVVUtS3N1cVo0bTkxOHZ3Vmx3R0RXWmdRcGp2dXYyQkZwWFJQTGlOa0hTTVZDQlpsekg3VU9zNG1SQTRydVo2aVROVDhiUWFZUXg5djhCYlBxMFByVFNaSEVJVkpiTTVLOHg5Xy1UNVdyX0VVbzJsV2owVm9zZ2VNQUc0UkFrTktDanFVb0k5bVlyWg?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8ef785c230ebe24f",
+      "published_at": "2026-08-17T00:21:18+00:00",
+      "title": "Iran war live: Tehran-US MoU set to expire; Hamas\u2019s al-Khayya meets Kushner - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOajc0X21UVGdUWS1qckcwbjdlcnludDY1d0NucnQyX0ptT0s5bkcwYmhwdjh6d25DMVUxV1k0cEZZVmJtaVZ1SW5NdVBQU3JxbEp4b3V2bTN6aVhkbVhKMnRvV3JaTWc2Yl9UUDlicWNoNUtfTDlEREJ1OFhNY1RpTWwxdFcxQnFkQmZ6bTdzWGF5OVBWdi1rWm5NNml3NXJUeUFPaHVjMGc1dUQyQ1h2WGFya0hOdFNOWlhTZU9Gd9IBxAFBVV95cUxQYWtBWkZHRFdvNFpGU09ySVlxcExPZS1MRGw4M1RRc1JmYk45Q2oxTFBldEFnYWlxZlM0UWQzblNuY1A0amt4enBYcDk3cUlmQlZWdTdyYXQzZmVqbjFoQkt0UTFRa2swZGx5T3pGRU5OS3BFZktHVG9wWl9aZW1LSTNhQUU5bWhBNkZKTXRnVHdUZ3p1SHdweU12YU1wVG1TdElSSFNTWEx0NklrZGl0R3lsU0RwUVV3WURNcFgwcWZPY1pN?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8a04b3fbb99df7aa",
+      "published_at": "2026-08-17T00:04:34+00:00",
+      "title": "Watch Israel Strikes Lebanon as US Prepares New Iran Sanctions - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPYVoxTV92bHZTeW1HZkVZVGE1Tm1IMjRmWUZYUTZjMHlIeGtnWHFWTVFfQktTR2FBWUxLN0M5NU5BUzl2YVRDZ0ZsWmdMZ3NJcVJhNXh1SF9fQ3JYdnp0aFVReTZsSlpfTklEQXhYQ1VSWUU4SzhOSVdRV0xZSXE1ZlhkOGNVc0dYSkpiOE5XYlgwMjRCcy1HZ211bUJ3YU0wNWU5ai13VEgtR0MyUUw5Nw?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b7a5cdcee4857869",
+      "published_at": "2026-08-16T23:14:15+00:00",
+      "title": "Iran War Updates: CENTCOM chief meets with troops aboard USS Abraham Lincoln amid morale concerns - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e1758adfb1d12e2e",
+      "published_at": "2026-08-16T22:11:00+00:00",
+      "title": "Israel strikes Lebanon as U.S. prepares fresh Iran sanctions - japantimes.co.jp",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRXhvNkxYc1FyX0YxVzZZTXBLeW9GVnhVT21GNjlrbmhQSTZpZkdxVmhubVZPcTIxeEVwLUZnMUdiTUYwc3BERmxoWXBNVm5BNGxQOWVwcldhcDFWMC16aXdKVjJrUzlmNVV6SXVtV3dsLVpOcGgzWm1SNkZ1MTBiOGdVaWpJYzlvMEVlOQ?oc=5",
+      "source_name": "japantimes.co.jp",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "e1d314c961770b26",
+      "published_at": "2026-08-16T22:07:00+00:00",
+      "title": "Live - Iran-US MoU nears end with both sides dug in - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QcDlqMmlLYS01U01TVHRFdXVHU01jemhoYm9yQXo3cFlwN2lYZzF0a0dDaXdHaWwxRkp6YUhKX1YwYjlxQVpNVlltTFl5cHIwcWw5WGpEcDFBMC1OZ3c?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f2954ff1af9e6cf1",
+      "published_at": "2026-08-16T21:37:23+00:00",
+      "title": "Israel strikes Hezbollah after attack on IDF, accused of ceasefire violations - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jQTJhLTg2YTBtNE4yTkpfYWk2UWQzNGpoSGxrNjI1ZkNvY2lEU1JLZEo0M1dXMTdrV1YzV3lkY0EyMUNfakZIMy0tdVNLOE4zMHVSMHlB?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "31412124aaa3bb97",
+      "published_at": "2026-08-16T21:30:39+00:00",
+      "title": "Israel Strikes Lebanon With US-Iran Ceasefire Due to Lapse - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSVNUazhGWkNMSDlmWmFILUp3TFBPX2c2Ym5CeUJZQS1LSjN3MmY0bGx5R1BEV3JhYjN3NHprX1Bhd1dqZWlfOHo3WWEwVmRTUF92VGVlc0U1REJIaVE2MHlJT0RtWWs2UmFMVDBHelh1djNWUU9FQi1OQjM1Vy1QWXVhaU9zb0otcDFzWGs4SmlMa3JSUUJPTDBGQTZhNEhiMmRDOC16MnBoUE5yblBQRlZn?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "d9f35512bc31b680",
@@ -188,11 +323,11 @@
       "confidence": 0.6
     },
     {
-      "id": "b7a5cdcee4857869",
-      "published_at": "2026-08-16T19:33:00+00:00",
-      "title": "Iran War Updates: CENTCOM chief meets with troops aboard USS Abraham Lincoln amid morale concerns - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPb2FwQzRGRnQwTjFNbTRBTHNFY3JtRTRNZkZ5T1VYbFBlbzVhNnZqTTlrWEZaN3VzTWpySWVhOFdNNmhmTzdpWnZkY1NVNzFOWUxvakM4RkJmU1JMSWlpN3BTNFA3UHdUbXNiSjVDbjJWdjhQa0p3WFUyNGRXNzZzS3k2SnBWNlRsN1hCN0swYVR4MW5GbDFXM3VZSGF0QjlHbXZyMVZibFdyd3c2Q1Bv?oc=5",
-      "source_name": "CBS News",
+      "id": "4598b36deda4308f",
+      "published_at": "2026-08-16T19:58:00+00:00",
+      "title": "As China Pushes to Expand in Asia, Trump Focuses on Iran - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNSF9nSzZJMGF1cHpVeDU3QmthRzFvNU9NV0Z2X1UwaWhSSnB3bG9QX3dVYU12amZOeFczU245QmEyNmJhM0J1UnlrLTg4TWMteTVJVjRQNnJnUEI4T2R0WFQ5cHVLOUhGd01Ub0JCbDFuV2lsYTdLSmhGUnlpZjBidDVuYmVxNjN1VV9Z?oc=5",
+      "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -218,21 +353,6 @@
       "confidence": 0.55
     },
     {
-      "id": "a4b2d8c4d388cc61",
-      "published_at": "2026-08-16T17:42:31+00:00",
-      "title": "Gallego blames Trump administration for USS Lincoln conditions: 'A true lack of leadership' - ABC30 Fresno",
-      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOdkhXdTJkbmd0YTVVZ2V0bzFsOEdNV3B2YnlvV0tSMEgwN3JZUHBBemU5QTY1b1JHX3pPTHRkbkczYlEzTm5yaHpSRHFqR0NMUFBYWDk1WnI1MXdCdVp1VDBBQUtWeE44aElaUk1MemIzR3dUTVFnOWFnanVKVjkwYm9ETEpIaWtlM1p1LVBwNGdfcTdkTjBzbVRpX19odUNfZWRHUzVEV3hlcmhwVUhzY3dZREp1c2FQTnZKZTdtTEtkOTZCRmVCSWpOd0Z2NUVwTXVxTmNXeG0tWm8?oc=5",
-      "source_name": "ABC30 Fresno",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "b1f9ea29130f7a48",
       "published_at": "2026-08-16T17:39:39+00:00",
       "title": "As Iran War Turns Into Economic Battle, a New U.S. Strategy Recalls Old Ones - The New York Times",
@@ -246,21 +366,6 @@
         "iran": 0
       },
       "confidence": 0.75
-    },
-    {
-      "id": "4fcd3f6b69f79248",
-      "published_at": "2026-08-16T17:18:40+00:00",
-      "title": "'We Can't Live With War': Ex-Iran President Calls For Diplomacy, Says 'US Can't Be Trusted' - news18.com",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOT3JlLVhjZ0k1b2sxLV9WaGFqQnN2MVBoUWxuWnpsdTUwbEh2RkRpWkR2OHlLODhYMndwVUplem40VGRETXhUMU82V0dWMVFrcDhOOFBfSTRSa21IU2dhNU9fNEZCVVhWRDFfeVdGWUJqSENXQWgtWmFaVGVkYTlEcERBa1NSZFh5VnhITmhYdkJ3ZmVzOE1tYU9tWHoyQ0JiOUhvOXdTU3B2THZtSEJnUjE0dXhOR2RlTEdpaGVObVlTSGV40gHKAUFVX3lxTFAySUptUnFndnFKTGhORl9iQWxELURrZk5CVW1SYVJZVTdsWFdGODNDbG9QQ1BmcU85RFBqcURRUmMyODdjdUlYQlBVUC1Bdl8zUUwwZDdyM0RKb25rSWZPOWxYOGhGV3dEajlsdE5JT1BzUnE5c1NLVnl2YWFHNXFyMFVqa3RDLVpIa1JuQkFkUS1tM3pfMjMtWDJfWDdfbXpCVUZIaEh5anFScmhQc1dSMlg5aDZhYjBpdGZUaU5qZ1MtVExVOEYyS3c?oc=5",
-      "source_name": "news18.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     },
     {
       "id": "6b6794c398f80f51",
@@ -278,11 +383,11 @@
       "confidence": 0.7
     },
     {
-      "id": "7eefea37ad6b2bce",
-      "published_at": "2026-08-16T14:51:06+00:00",
-      "title": "US War on Iran, Day 171: Israel Steps Up Killing in Southern Lebanon - eaworldview.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNTFvaGZtQlRTV3pDOVgxODNVMnVTTU80TEFWY056ZzhFUkRrWUdsSWh1MUxNTW9STHRxdUNHUnIxV1pzRVRtRktfc3BDWF96enZfLWh1RkJBR1dwVGhRc1JrbFhWSXlRNHFzdUNyN0RfNnZGRDZuOHRzQmhkYkEtMVRobmxzUQ?oc=5",
-      "source_name": "eaworldview.com",
+      "id": "a4cff1db784093c9",
+      "published_at": "2026-08-16T15:40:26+00:00",
+      "title": "Iran offers $30,000 bounty for killing or capturing US soldiers - France 24",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcUFVOVduVlZTWFpDYURxYjROVWdvd0pIX0tZRGItN2NaRlpWZy1DYTA5NERsOTJNRFBjYVl2VFZZdzRYWkZCZGFTYW9nOEM3UWx0XzdNZzJBRE11VFhhNms2aDRqcEFzaGE5QjZkcVlCWGt4UzVnMnh0cTBYQW9Qc1dZc0luTjBiSldoY0ZGZDRDbGFsOEVEcW5ZVkR1ZFVEM0JIeV9PTmdZNFF4LVlXWQ?oc=5",
+      "source_name": "France 24",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -291,111 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "17e67a66153d1f01",
-      "published_at": "2026-08-16T14:26:38+00:00",
-      "title": "US-Iran war news LIVE: Iran puts $30,000 bounty on US soldiers, offers double reward if carried out by women - livemint.com",
-      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPb3Bqd3pvM1hDLWlOUXU3TTVveVpad1drclpzQ3FueDVTSnIzcF9BVmJZS0dIUTFGSkY3WnZXUnZ2dkZIcFVrbmtrektCcE5NcGRvOUJ4bFBnUF9tX2VCNmpVdjc5OEVMRDhLQjdzTFZPYnRqZW1wVENmVFc3MUM2UWZGOXdOdlBUNVhqY20zVVVMZllzNW5GVWlfSTZvUjJjNXBKaUxLUktueHc1UXRiNU1zcmRiMzI5cXdKZjYybXVJTXVRd0Z6aEFTVXlUbkJHRmRzMzNKaVFodmFEYjZqQkI2YU9VeTItRzlZZVpMemVNM0Iy?oc=5",
-      "source_name": "livemint.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "cd55e580715ba1de",
-      "published_at": "2026-08-16T13:44:09+00:00",
-      "title": "Israel strikes Lebanon as end of US-Iran ceasefire looms - The Straits Times",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOX29PTTNqcmJZLUNPQ0xfQ1ZoWENxMVhZdjR0UkszVkJWYll6ZXliRXdlOHE3MGo0b2JEQk9CX0tlMTgwYVVGV3lGRndkaEtLUmx3aUEtQ1hXQU1ydml6SUIyVXhtTUMtWXBMQk9wRlgtUmJHMUgzY0J1ejVnSnVZU1JJaWlBY0lIaEdOV2U0UWdodWdkN0ZWSmcyazNFcVZhYms0WVFn?oc=5",
-      "source_name": "The Straits Times",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4a7c3b5fc5ad4f28",
-      "published_at": "2026-08-16T13:06:00+00:00",
-      "title": "Memorandum of understanding between the US and Iran approaches expiration date - KCRA",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE81X0k5TWFuWUVld2ZLNnd0N0lwZlZzbG9WelJzaXBvSVRBRlRSU3JwNkJGVVNFRlhubXlLbmJhRUNCM1llWHkxVVhZbmVEaXV3dDJ5MGRkT0pKTU9LWjhSR19mYm1oV0k0WUNUWlUtbnBzeVUydmJ5NE1zcw?oc=5",
-      "source_name": "KCRA",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "57d02df3f690c54a",
-      "published_at": "2026-08-16T12:47:44+00:00",
-      "title": "What the Iran War Has Cost America So Far - MiGFlug",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTm0xaFp3cjRUOTR4TVJHSWN1TzdOTk93ZG1PdmhJOVhPdW9DX01oNTUzbDNtQS0wVnVNbEljTkNhZHN2NUJlb1BsYUhtSG9kMW5KS1UwQ050QmJWWl9DNHoweEpLbWh6RW96TVdna2lLUHA5WDR0SUxVcEVuZHpYaTdndEljVUxPTm4tQ1hNWmtFUQ?oc=5",
-      "source_name": "MiGFlug",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e0601c20ba94985b",
-      "published_at": "2026-08-16T12:22:49+00:00",
-      "title": "Israel Strikes Lebanon as End of US-Iran Ceasefire Looms - bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQlQ2TTRnS1c5aHBnVlgxWUNmSWJVMXpDNFpzNEROTWNXVDFib29UdkZRTE05aHFCdTFrZHJoaHY4WUFramp4VFVodk9ZOEdyN0dpd001ZGk0ZWdGUnkwXy1OQVZ3NmtXQk13N2RoWWFaZm5XRTd1T0o3aERlYk5JUUZQN3Y5azR5bS01RUtNVzhGejUzN1NtSUFVbEdSUEhnaW1jcThCTWlHQkk?oc=5",
-      "source_name": "bloomberg.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0fb465ee88ca8d44",
-      "published_at": "2026-08-16T11:59:02+00:00",
-      "title": "Iran Seeks Return of 3 Su-24 Pilots Captured by Qatar During March 2 Attack on U.S. Base - defensemirror.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObzYxWWcxemJWUHcteFlaV25aMUR4OGhaQkluWnhwUTBHcnM5cTgtWERpa180cFZISHBLWG9tdkE4OG1WQVY0eTdpY1J2YXJWeGVTZ1pPcldNanNiWlpyRnJOT2IwMC1CT0hwcXBhYnZvLWFTUDBVdmREanlyN0N0cXA5Y2xoMVZoT1FHc0wza3pkMkxob0VMR2pTMDdyWXhDVkltWlg3Rl9IMzN1WnZiUmNxeWZ1UktqanJiWDBpQm1leUk?oc=5",
-      "source_name": "defensemirror.com",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "f98f02132454de4d",
-      "published_at": "2026-08-16T11:42:09+00:00",
-      "title": "\u2018Limited options\u2019 for many Iranians as war with US chokes economy - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeUpUWG1HZ1g3RG9tSlFhYkxVejJjblg2MThUdXBqd3llaHcxNkxFMkl6QWd6N0pCeEQ5dUZhNGFyLThTejE1Vk14WUJ2d25XNlZFMmZSNDhwVnBQeWthUXhyWllaczY0RWNpOGJkTEFDSUxwbjh2MnJSb0RCcVBOOGtYMmNhc3Zyc21pMmZpWG9LSm9RaGtXVmJOWk9hekpHZDhRWFhITdIBrAFBVV95cUxPWTRIdDU1NnQyRzZUZVdtTWhqcGdZQmxUNWhQSlpCZEpOTFVHcE5rMnBRN05BZG16czdpUkZfRVdwQzlmeTRia2hzQ1NOYTd2N1piQVY4VHNSTGREbDNmUXR3ZXY4QTZSRWE5cTF3SDVwTGN3U001b0VKMmZXS0RTX2dxdXBZbWlNb1dhaTBFWEJvWS0xMmxJaXdNMHBaR2otb3hkUzBhWlJad18y?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
