@@ -1,35 +1,29 @@
 {
-  "generated_at": "2026-08-18T21:41:06.519986+00:00",
+  "generated_at": "2026-08-19T01:54:49.893149+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 102,
   "totals": {
-    "usa": 39,
-    "iran": 22,
-    "lead": 17,
+    "usa": 37,
+    "iran": 19,
+    "lead": 18,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 6,
-    "iran": 11,
-    "delta": -5
+    "usa": 4,
+    "iran": 14,
+    "delta": -10
   },
   "confidence": {
-    "score": 65.9,
+    "score": 65.1,
     "label": "Medium"
   },
   "event_types": {
-    "other": 44,
-    "attack": 43,
-    "diplomatic": 10,
-    "material_loss": 1
+    "diplomatic": 15,
+    "attack": 41,
+    "other": 46
   },
   "history": [
-    {
-      "date": "2026-08-05",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-08-06",
       "usa": 0,
@@ -53,7 +47,7 @@
     {
       "date": "2026-08-10",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-11",
@@ -68,7 +62,7 @@
     {
       "date": "2026-08-13",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-08-14",
@@ -82,7 +76,7 @@
     },
     {
       "date": "2026-08-16",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -92,14 +86,169 @@
     },
     {
       "date": "2026-08-18",
+      "usa": 1,
+      "iran": 13
+    },
+    {
+      "date": "2026-08-19",
       "usa": 0,
-      "iran": 10
+      "iran": 1
     }
   ],
   "latest_events": [
     {
+      "id": "8eb5385df99e0f8f",
+      "published_at": "2026-08-19T01:05:23+00:00",
+      "title": "Iran war live: Trump denies Iran talks, Tehran claims US \u2018begging\u2019 - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "db116f2690f1070a",
+      "published_at": "2026-08-19T01:04:52+00:00",
+      "title": "Iran strikes Kurdistan with new jet-powered drones, KRG says - jpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1ISjU2dEk1RGM0U2hyVUxRbXNSRDdyNTJqV0lVRWlHTF8tbkZOZHI2bXR5dUo4WEZQbHlfS0F2YjVuSEtxNEJCYzZkT0RHMS1iaFdEeWVxVUZNWFZh?oc=5",
+      "source_name": "jpost.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0f583fc8fe512995",
+      "published_at": "2026-08-19T00:19:02+00:00",
+      "title": "US-Iran War LIVE: Iran says \u2018\u2026will correct delusions\u2019 as Trump backs down on Hormuz as US territory - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNeDNhTXA3aGVxd3E3U2o1c3JRVEpWZ2N6RzlNSDIyWjdtcjVScVItaTFORjRiYUFvVFFmbFVxYUMxTnZDdlBELWRBM3FJZERzLVRtQ3lLYkh5T0tjTzBINGZYdlVMb3pRTnRBTmw3dmM5Ni1RNDJhc0k0VjQxaDEyZE52M05MUzNtZUFQNVp2ZjRqZ2FGb01nbXJVOEd1R1VhdWdxOEIxckk3TTJGeWhzV2lYbU1YNU1uQWt0UUZaN2NRSVJZS0dSX016UDVnR3YxaVlvbkVfSTh0OWh3cVIyWWlYRFRoMHB2Qy1pVDRMQjJ2X19XbEhCazJIcVBWMU5SMkpJTHFZNVo?oc=5",
+      "source_name": "livemint.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8bb694b720948f9e",
+      "published_at": "2026-08-19T00:07:06+00:00",
+      "title": "Iran war updates: Tehran denies Iran targeted UAE with missiles - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "364da3123800de23",
+      "published_at": "2026-08-18T23:46:37+00:00",
+      "title": "US-Iran War Live: US weighs troop pullback from Gulf following damage in Iran war, report says - India Today",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNczFNa3psNGwxV21fZ29OeW9BeVJyV0RBUWtOdjlfVmxGd3poVzIzLS1MbTJwdThHUEZ2VUc1eDMwcFhuUUt1bmNua1MwRF8wNHRXMXRoYUpQMjV5VTNTRXhHMTlBOGR4QjZRZmIyWlc2MTJkdTdyR2dJQVRVYzNQQmhtMFhYSU5wT3hzd0VVLTV3N3J2VkdKanpTZ2hwOGczbzhzbHJGSDA1R3U3Z1JpQnA0dWpYUy1FWWNhWDZoSHdJQ0J4bmRZTEJlaXdGOXBuLUpmVDd5QmFubUpfNGNpakxBcjU4cXV1OFJqWTladjBlT3hEOF9Wb0JQVUEtSlRkWXJodnZ6emJRclBO0gGSAkFVX3lxTFB0dE1jYXNIbU5pSld2M09US0JUaDZ3V0tOdWxoWDVDVGtkQUJpVUdPZWZUcVZobDFwRldhOVVLb0tHT21WcG9MNWpKcGZzVUFJcmxSNzJKVDZEeDhaWk4zb09LS19uSHBreWhMMlZ6THA4X3FZYk8xbUxwMkpTdlcwaTRKTFR6MTBDRl8wR0FNRE5CUzQ2anF3b1QxMWNBN1NHU0ZyMFVaQlIzVGZ4N0NKUTQwTTZaRkZjS05CWjlWNl8zYThkb3BGazZVUlMwLXhLRElZamZtWko0TkxYN005aFJUQTJDTUxpYlVESzhzNHF1MkRTVmpWRUpSQTdBc1JuMTBSamZEREFaTXV5QkdJY1E?oc=5",
+      "source_name": "India Today",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fa7418ec51d00ff9",
+      "published_at": "2026-08-18T23:21:36+00:00",
+      "title": "US Iran War News Live Updates: Iran rejects UAE claim of missile launch, calls accusations 'baseless' - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMi1seGc3OW5iMkVpblJZQnhGd3NsbFRnemN3dE4zeTA0SWpvbGlpQkloWWpKak94NUlYM0REdU1uZjlxaWlDQVpFYWlkSU5FOE51RXhndmtSRU1OcVNObG1kVFR6ei1BaVE3UE00OURJVFRNN20tV19NWVotbnczMUE1WmVGcHJsSzFRNTBZcDlRcV85M3RlSlhDdHlfTDdFckcxSV81bWFOZVJYdlg1eC01ZFhYSS1GWmQ0X2g4eEhwSmlkMU9DeUphTXhOcEphaHVtZU5abEJ0M19qRXBYVnFXejZTNmxNYlZONGlGVlNxUHVVaDNhR0xUbTdiU3Z2bWh1MG1GRVNadllfdk9iaDAza3JZMGZhWmpiOHZ6U0Z5bWQ5SGRub05wRjZUcEHSAbQCQVVfeXFMT3U3dzdwd2FJa0lhWEdsMlIyYU54SEZkR2NlZXNYREdYaE5xbG51WXZEMWVhQUpDWFcyWWpJa3h5S1lja25VY3ZfUUtOcm5XRU5RNEVPVl9wa3lwRWJHaG9yMVZvZzk1S2VZRHF1NC13S3Q1RWVXYkp0LU9faFFLYlZBLUFqalczV1YwQWtnc1pMSWNtd3diWm5tRmRlRGJCMlF0ak1HTjEyNUZjLU5CRktCNFFRUWlyckYtaGpwcWZ4Z2JCX0N4UHJsR1p2VUtleTRreE1nakVKM2hWa3JIcDdJeWFQQll6d255YWtsMjA0R3EtR0dHODNrMkI3RmZTMHY4ajEzZlJfQnRqV09wdjRlalpSTzRUM0duZkdQeHdadnliMVpTcUFWeXVkemp2Y21aUlM?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fa8dde98f05940fa",
+      "published_at": "2026-08-18T22:48:28+00:00",
+      "title": "Oil prices rise as resolution to Iran war remains unclear following MOU expiration - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMU5Eck5UNDBtZkpjcUNKV1VGVTVrZnhrcTh4dk5qN3UySEoyWlVWc2Q4MVN1THhzS05vdU9Cak83dm13UnFnVFRjako5WGxMeVZyMHkxZEx0YzhuZ1ZZMkVMMk82TmpfSkFsVW5FcUh6V1NKMThEYlg2ZlJwUGh5NDUyWHJnTlppUkZ6RGViT1dtMnN2VXN3?oc=5",
+      "source_name": "Fox News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "592486b3a753247c",
+      "published_at": "2026-08-18T22:47:39+00:00",
+      "title": "U.S.-Iran Updates: Trump says no talks with Iran taking place as standoff over Strait of Hormuz continues - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ce591b1c63918fa2",
+      "published_at": "2026-08-18T22:30:21+00:00",
+      "title": "Trump says no Iran talks planned, claims Hormuz 'new US territory' - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOajQzdHNRRUlpUzhrWl9IRG9qbHBtUWlTZXpJYmkxOEI4TDA5ZExjR1QxNDFXZTFJUDRNM0JKM0V2b2hqRGg1RHhYaXNJakNGcW93ZUJmSVpLdFJ6NjRUS2ZxQ1M2aG9JTDd2OEtTdDR3cWlidklpanBnems0Zk1NbkVpdk0zUzR6UHdjZ3h2THJNOXlHVWVPazBzNFB2dEFOc0lCanNIV3NsSXNJ?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1c2a2c8a34d95063",
+      "published_at": "2026-08-18T22:18:42+00:00",
+      "title": "'No talks or conversations' with Iran, Trump says, as temporary ceasefire expires - CBC",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oNTl5X1ViNkNJaktkQVJ3Q19SOThUMXpZMnl1T0FGUUtpY1F3UHpyVm43WWtqLTAzREhvNi1MRnJCZERNMi1ySUh6X2FmXzhBQ2RpblROeXB6ell4alBLcDhQcnpXTFhwSmYwbDVrdzM?oc=5",
+      "source_name": "CBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "6fef7070dced89d8",
-      "published_at": "2026-08-18T21:27:58+00:00",
+      "published_at": "2026-08-18T22:11:25+00:00",
       "title": "Pentagon weighing smaller U.S. military presence in Gulf once Iran war ends - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPZWQ5MVY3S2IzeW9Ia3JlQlhsVTlfUGY5TnZvUFVFYWl4UGFkMTVRbmhMdXQ1TnN6WXlDaVk2QVBIbmVrZ2JPOENmM1J6NVhBQ1FCcVN4UkNxQ2twbzZBelRmaW14SlY1YktnMzB1cWNQUVIwRmxLRk9KMEdhWF9IZUpfRXFCVHZMckVFaWx6WGFMejJWQVVQVFNDVE5vdDQyamJCRGxmbTdiSllBWElES2NIX2tMMW5ZUmhIRTRROXhHa2dqUUlYMW15Yk9NUUw5SVc4?oc=5",
       "source_name": "The Washington Post",
@@ -113,41 +262,11 @@
       "confidence": 0.75
     },
     {
-      "id": "e97a0595c735c1b1",
-      "published_at": "2026-08-18T21:01:00+00:00",
-      "title": "Iran\u2019s Attacks on Ships in Hormuz Mount, Testing U.S. Military Restraint - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkR4blJKdVRSdUJldFRXenNyRzRuSEEtUjlTRWxUbE54QVNsb0U1QXE3NUdzZWFLNmppUlIyOFUyRTNoVVRjcFRWVlMwWXJkSG43TlBOMkpKaktpemV6VWZRcDJFMmdrcnZGazEtMVg3M0NEbkkxOU5Na3pkS2wwbWt6V0RhNkRkODk0ajd3T0stUnhzUEdyTWhyNWIwX3ZyYThON2xIbzUyRFd2cWdjeDYwc080WlQ4Rnc?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "3314ce26b991ed3b",
-      "published_at": "2026-08-18T20:17:03+00:00",
-      "title": "Is US weighing smaller Gulf troop footprint as Iran absorbs attacks and strikes back freely? - trtworld.com",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sQ0hlZVN0Sm1YSEJRTUNyQ1dFeHRQX2dHclJaR0JSbTRtenNDMHFqeWpiV056OWtubnRjdDJLd3VOQVBXUWY4eG1JdWFmdFhhcjFIQ3Jmd0U?oc=5",
-      "source_name": "trtworld.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4e33bd7633da56ab",
-      "published_at": "2026-08-18T20:13:00+00:00",
-      "title": "Live updates: Trump says no talks are taking place as Tehran accuses US of \u2018squeezing\u2019 Iran for concessions - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1fR1lNM2lVdG9Kak5IZkdlRWgzQzNVUHVrRU85ZUZ5MzJNX2hkcktWdkt6aW9jMmhjRDhEbUxnQktEbHQxXzFMbGQyT2xtYTJmQ2E0VDU0NTRBOHpuRjNCQW0xZmlVWENybGgzVGd3?oc=5",
-      "source_name": "CNN",
+      "id": "54b07110578c4c3b",
+      "published_at": "2026-08-18T21:18:29+00:00",
+      "title": "Trump says no talks planned with Iran amid anger over Iran-Oman Hormuz deal - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQelRUSm12dnQ4dkRLRDVSVkczUlluNzRJNktHUVMtSkgzWmRGUldpWGpDWXRBWmlhdS13TDF0RzdZZ3M5Q3ZuSVZTaUdpNV9WSHdkNTR2bFhoa1ppN09wWE4xdEMyZExfZFZpZm4wczBTa1VtT3hIa0hRTWVYMEh1ZGVSNG1rSk5zN0J4MjQyQ254RTNvWXBRYmIwZnFzYWN1bXlfVks3by1XSGh1dmfSAbMBQVVfeXFMTm1TTFB4ZlBCRW1vOGEwa0EwX19sVjhXMFZhRi1yc1ZfcDNVVjNYQ01EbjdFWDRsWnhqV2ZJOWxHeVRZaDFkNkFiOEFrc1F4X2R2VDNETUlWQkQ5bzJMNUpNQVpKeHJyMkJxTDZEX3pYOVZxU3Nscnh0TmVhVVl6RWc2TG5WZXZ0bUh6aE4zR3VXU014eENVSzFFMjNrdHNLc1d5cmduOE1GZGRkTURoaXRicnc?oc=5",
+      "source_name": "aljazeera.com",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -158,11 +277,26 @@
       "confidence": 0.65
     },
     {
-      "id": "4ec3902045f7971f",
-      "published_at": "2026-08-18T19:41:15+00:00",
-      "title": "Vance Pitches a New Objective for the Iran War - Foreign Policy",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ySzRoSzRCT1hwakphZVFzZjhWNlJJdTZlb1dwMVdFZTE3Q2QyUVRIRGJiaVM1VVZ4d08yYmk5MUV5aG9WdXhRUUdfWmwxZmltc1dxMUVEQWdUT2xIRzh5VmFTMnduNVNjNXdCTDI5RHd2R0xpRHlpWTFnUnY0d2M?oc=5",
-      "source_name": "Foreign Policy",
+      "id": "35377a631bf4844d",
+      "published_at": "2026-08-18T21:01:00+00:00",
+      "title": "Iran\u2019s Attacks on Ships in Hormuz Mount, Testing U.S. Military Restraint - wsj.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkR4blJKdVRSdUJldFRXenNyRzRuSEEtUjlTRWxUbE54QVNsb0U1QXE3NUdzZWFLNmppUlIyOFUyRTNoVVRjcFRWVlMwWXJkSG43TlBOMkpKaktpemV6VWZRcDJFMmdrcnZGazEtMVg3M0NEbkkxOU5Na3pkS2wwbWt6V0RhNkRkODk0ajd3T0stUnhzUEdyTWhyNWIwX3ZyYThON2xIbzUyRFd2cWdjeDYwc080WlQ4Rnc?oc=5",
+      "source_name": "wsj.com",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "3310bd0b2bc56dbf",
+      "published_at": "2026-08-18T20:39:41+00:00",
+      "title": "Trump tries a new approach in Iran war: Disengage - CNN",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGbzZuOXMzb3Vwc0FxSTVoZXc2bTJuQ1ZRbmpsc09jS1RUeXBuemtQQ1dJRzlNNm5kQVA3c1BQb1BUS0Z1aXdENGt5M0pfSndsa25DQkJIcWlVekRYUTJXVU9mMzE2c2JhWXNQY0xBV3NRaUE?oc=5",
+      "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -173,11 +307,41 @@
       "confidence": 0.55
     },
     {
-      "id": "715506ca7e7bdbbe",
-      "published_at": "2026-08-18T19:37:06+00:00",
-      "title": "Iran war live: UAE detects two missiles launched from Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeFNEVEs5RGt0eGdpRzhOOTJFeGVVWTgzY0dXcW81aDZRLXM2U2pkUnI3czFzN09peXp3N3NySnRHT0ZDaFZOZ3JtVG4xb1pjeFJpanVpRlJROEgwSEdJNERFdWh2WG5iM09zYWdsV0JQLUdJQTQ4VHJHY1pxUFJSaGU1TkRnNjgwLUcyWFpNYlpMclVqN0xJWHhTLWZPdHE5djRKaF9oWHJhZllHaWJyUEFLQzBUeUxTUmhxSXBZZ9IBxAFBVV95cUxNcGxjek5ZME81SDl1ZmgwNEpDa3Zqdmh5V3NSSHpURmNTclVRcDFESFJXby1YM2pNUGI2LVc3dDdfMzhoX0VSdG5iQ2djREFhYXhmUWowWkM4VzNRcWs5dDhUYVFHR2dDd2FmZ1FLZUtYRmtLZ2g5SklRUkRaYTZNOWVSYm0tU1p6dlpXTXd1WDlWcEJOc0VrYnd3SEV5SFJnVVlyVWdwYk1tcGxaR2QyMHNKcXkzSnZES2FmRkttcFp0U19F?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "39eddcd808f407ef",
+      "published_at": "2026-08-18T20:35:52+00:00",
+      "title": "Middle East: No talks or conversations with Iran, Trump says - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQekRaMXhRMTg5cE9LbnNTRlFzSGk5cFBjTTJtR2ZDdkIzc1hoTGR4Ymc3Vk9sY0JqMHRITGFVNFlrWVpZa0VDekxPX1dDV2IyV21Qano1N3JiVlVVZUtIQjVzRWktb05DSkhGZlNGLVMtZXpyN0hPODhURHdybjVXT0hUMDdnRC1SN3lsYTZDTGcwdUtyclRtbXV3?oc=5",
+      "source_name": "DW.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "27d32fe691a40dfc",
+      "published_at": "2026-08-18T20:17:03+00:00",
+      "title": "Is US weighing smaller Gulf troop footprint as Iran absorbs attacks and strikes back freely? - TRT World",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9sQ0hlZVN0Sm1YSEJRTUNyQ1dFeHRQX2dHclJaR0JSbTRtenNDMHFqeWpiV056OWtubnRjdDJLd3VOQVBXUWY4eG1JdWFmdFhhcjFIQ3Jmd0U?oc=5",
+      "source_name": "TRT World",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4ec3902045f7971f",
+      "published_at": "2026-08-18T19:46:46+00:00",
+      "title": "Vance Pitches a New Objective for the Iran War - Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0ySzRoSzRCT1hwakphZVFzZjhWNlJJdTZlb1dwMVdFZTE3Q2QyUVRIRGJiaVM1VVZ4d08yYmk5MUV5aG9WdXhRUUdfWmwxZmltc1dxMUVEQWdUT2xIRzh5VmFTMnduNVNjNXdCTDI5RHd2R0xpRHlpWTFnUnY0d2M?oc=5",
+      "source_name": "Foreign Policy",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -203,11 +367,11 @@
       "confidence": 0.65
     },
     {
-      "id": "9e8a926ffb354afe",
+      "id": "652e3ba7b9776487",
       "published_at": "2026-08-18T18:42:11+00:00",
-      "title": "Trump says U.S. has no talks planned with Iran as ships in the Strait of Hormuz still face attacks - latimes.com",
+      "title": "Trump says U.S. has no talks planned with Iran as ships in the Strait of Hormuz still face attacks - Los Angeles Times",
       "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSVpXdXFKRWRIb2xIXzQyOVF5em0xLTJfMGlzSDVQNEN0M0cyWm5Oang0Wk9DejJJM2ctWHIxUEpNSzJxTFB2emhPZnBQOWF6VGZrdUY4bXVVZnFDcUlBZVNzUHc5cTlPVkFyazZiSTdILWM0a2RRRGpsNTY3cXdHOWQ5eDhjNlEycUhJNkxDaTBHWUtVUXYtUlhvTFZYOFpDYUctRFRmdXpyLVJLcFYzMks4RFE2eGNmbW5Ya1d4NzNaS2FiRkVDMTczOVM0Tm40U2ZaY09VU0xQRU5xSS01bQ?oc=5",
-      "source_name": "latimes.com",
+      "source_name": "Los Angeles Times",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -218,56 +382,11 @@
       "confidence": 0.8
     },
     {
-      "id": "39eddcd808f407ef",
-      "published_at": "2026-08-18T18:00:26+00:00",
-      "title": "Middle East: No talks or conversations with Iran, Trump says - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQekRaMXhRMTg5cE9LbnNTRlFzSGk5cFBjTTJtR2ZDdkIzc1hoTGR4Ymc3Vk9sY0JqMHRITGFVNFlrWVpZa0VDekxPX1dDV2IyV21Qano1N3JiVlVVZUtIQjVzRWktb05DSkhGZlNGLVMtZXpyN0hPODhURHdybjVXT0hUMDdnRC1SN3lsYTZDTGcwdUtyclRtbXV3?oc=5",
-      "source_name": "DW.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "812452cfa36b2494",
+      "id": "cd117b358d06c829",
       "published_at": "2026-08-18T17:03:01+00:00",
-      "title": "Iran prepares to keep economy alive as US threatens further sanctions - Al Jazeera",
+      "title": "Iran prepares to keep economy alive as US threatens further sanctions - aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONndFUnFRV2I3Rm1Wd0h2Y0xyM1pMLW5TZTJ2dFRYMWJXZ0dGMzRDVThLel9tT18yMVpYQjhVYk1YRUlwcXNieW9yUTJDRHprSEcyaE9NdnE3d3pJWEV1NXdISHFCTnZWOTZKaDZaVTlqa0VpRWxKN0dDZXpsSGNULXZwZHJoelJIR0x0UTVXT0hmQmhZcmxtdXZyV05TNEhpbFQzVU9JSDN0LWZRRUZ30gG0AUFVX3lxTE5NMXJ2dnB4SFdoMFEzb19LcjBjU2R0aEtKRTAzWWRNdGNweUtBdDRqek5HSGx6UUhsMHRyQ0pqOEV3ODFGd0FBXzFaNVlLZXdNRkRxNjhZc1Z5ZU9yaGlHSS1DcjVyOXJDSk45eHdHWlBuQTVORTNXcFIyWndGeEZxUzZ4Ti01TS03TGViMjlJTVBuek4zSHRFb0hGeDhrYVU4VG5BSmxSdFVybnpoUHpOeUVtSA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "32c7e4909b54b2d5",
-      "published_at": "2026-08-18T16:05:39+00:00",
-      "title": "Can Pakistan still help end the US-Iran war? - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbHdhRjBiNUk4eTdZUmNXU05YdFBTRVk5Y2RSZWxGZEhvakJoeHBEa3NVUFJfYVpVS1g2U21aVG0zZGpFbXJEd3RZSFplblpFNXQ4YldORHRsdnlZMWZROWdrQlVlNjZvYmRuZ2JOc214ZDBCT2IxRlE1bGFDelZGaFBFX0JYc3M?oc=5",
-      "source_name": "DW.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ce591b1c63918fa2",
-      "published_at": "2026-08-18T15:48:01+00:00",
-      "title": "Trump says no Iran talks planned, claims Hormuz 'new US territory' - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOajQzdHNRRUlpUzhrWl9IRG9qbHBtUWlTZXpJYmkxOEI4TDA5ZExjR1QxNDFXZTFJUDRNM0JKM0V2b2hqRGg1RHhYaXNJakNGcW93ZUJmSVpLdFJ6NjRUS2ZxQ1M2aG9JTDd2OEtTdDR3cWlidklpanBnems0Zk1NbkVpdk0zUzR6UHdjZ3h2THJNOXlHVWVPazBzNFB2dEFOc0lCanNIV3NsSXNJ?oc=5",
-      "source_name": "Al-Monitor",
+      "source_name": "aljazeera.com",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -276,126 +395,6 @@
         "iran": 1
       },
       "confidence": 0.65
-    },
-    {
-      "id": "578c2508b72d3dc8",
-      "published_at": "2026-08-18T14:34:58+00:00",
-      "title": "US Iran War News Live Updates: 'No talks with Iran'; Trump claims Hormuz 'open and operating' - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxQMi1seGc3OW5iMkVpblJZQnhGd3NsbFRnemN3dE4zeTA0SWpvbGlpQkloWWpKak94NUlYM0REdU1uZjlxaWlDQVpFYWlkSU5FOE51RXhndmtSRU1OcVNObG1kVFR6ei1BaVE3UE00OURJVFRNN20tV19NWVotbnczMUE1WmVGcHJsSzFRNTBZcDlRcV85M3RlSlhDdHlfTDdFckcxSV81bWFOZVJYdlg1eC01ZFhYSS1GWmQ0X2g4eEhwSmlkMU9DeUphTXhOcEphaHVtZU5abEJ0M19qRXBYVnFXejZTNmxNYlZONGlGVlNxUHVVaDNhR0xUbTdiU3Z2bWh1MG1GRVNadllfdk9iaDAza3JZMGZhWmpiOHZ6U0Z5bWQ5SGRub05wRjZUcEHSAbQCQVVfeXFMT3U3dzdwd2FJa0lhWEdsMlIyYU54SEZkR2NlZXNYREdYaE5xbG51WXZEMWVhQUpDWFcyWWpJa3h5S1lja25VY3ZfUUtOcm5XRU5RNEVPVl9wa3lwRWJHaG9yMVZvZzk1S2VZRHF1NC13S3Q1RWVXYkp0LU9faFFLYlZBLUFqalczV1YwQWtnc1pMSWNtd3diWm5tRmRlRGJCMlF0ak1HTjEyNUZjLU5CRktCNFFRUWlyckYtaGpwcWZ4Z2JCX0N4UHJsR1p2VUtleTRreE1nakVKM2hWa3JIcDdJeWFQQll6d255YWtsMjA0R3EtR0dHODNrMkI3RmZTMHY4ajEzZlJfQnRqV09wdjRlalpSTzRUM0duZkdQeHdadnliMVpTcUFWeXVkemp2Y21aUlM?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "353eec34a3a9945e",
-      "published_at": "2026-08-18T13:47:54+00:00",
-      "title": "Iran strikes ship, doubles down on closing Strait of Hormuz - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQTExRTmtjckNNaHc5QXdUVlFScVNYeEU0Y3NfYU80SHNwU0trNG11bjJ2c2d6LV9iaVpDeU13VnAyV3lieEU1cGVQOHJYd1gyRGtBTDRfdDBPNG5iWS1kc3doc3JUSi1IbG1WbmxiV1hSQnNNa2J6MjFfTU9mTVNxc0FB0gGHAUFVX3lxTE9mMzFXb3hGcEI5UjhjRkNIZGpMZzBpTXZvV0ViM3h4cWJZLURFMWNUSmhkT3ZZTXZYVnVMdFdyNjZzVEZsMTVPc2hpdGNMLU5Ic3JkdURKMTR6cjRTRDBmaTZoUFhuTkkwb3EyNzNmX0RORXAzRWVuWVNNeldMTzNjRTBQbzRnVQ?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "65665c8896ca732d",
-      "published_at": "2026-08-18T13:19:12+00:00",
-      "title": "Iran war latest: Trump insists naval blockade of Hormuz remains in force - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPT2NkQ0k5UGhEYXQ5alZfeGMxQ0w4Z0l5aXhwMDFqaEVfdUdobE5LWVNlMWZNRGpoN2pBSzdrYkE4emJWcGVveG9kMG5DelVJaEZRWnc5MmU5cHlHZXZyNnhyMTlTT1Y5NlNTZ201eDBDQmxBRjlfeHFBOGhSVC1YckVGa1JfeXhDRkYzbmZCYnBRdw?oc=5",
-      "source_name": "thenationalnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "975ab6bdd66d3ea1",
-      "published_at": "2026-08-18T12:44:27+00:00",
-      "title": "Iran closes Strait of Hormuz as diesel prices surge to $5.46 a gallon across the United States - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQMHlNQmFIblRjVl9XU0xrb29xVzhrTzBRZm5hSjZqMUhiVHh1ZFh6TFVYZ1J6MnB6VlR5UjZCTjhJTDRubUZURXU0bllvQVpVcEdWa3NpM1Ezdk5JaVhfSzVzLU53cXJfT0FvQTEzNFg1LU9xU3k4R2ZMTWl3cUF6eEpnZ0NHTkpzR2dxNkt6SUNjSHRSN2FGTzVGRXFjMGxRRklUNk01RzlnM2pWWC11VkZ5VndrektYelQyRGxTUk52Q0tZR0JKN1NtQ2hhMHRnazFVYw?oc=5",
-      "source_name": "Scripps News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "c836de8654ab7e86",
-      "published_at": "2026-08-18T12:42:08+00:00",
-      "title": "Qatar rejects Iran\u2019s \u2018false\u2019 claims about missing pilots - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxORUdwODFDaXNfYkc5M3FjMFNBS29kakVlRFZNOXQ5cWx5a2MtR1Z5ei1hVEgteXFaeWFlSnE3VTZlMmVVdFpiWHJCUTZlb0Z4SXJHaW10R1dpZVF6VXFvazB0SGJoc2hGNC05b0owVHg0UzkybE1jNFh2cFFPRWkzYnQ5MDZVRldCYmx5WU1GcnZDNVNsRXNJanNn0gGfAUFVX3lxTE1BUVpxcmo1RW53XzR4WkR4bkl4cjZwMGpsUGY4My16MGEteFhhWWNBbTJBeS1EUzRHZjJ2eFdlbGQyb2pRMWhISllNS0xJcl9tVWY1UzdNV0h6UFBNZTF0MjFXSHp3WkFsWFdOM28zY1hjZXI5elF0SGZxMUp4ckxUeXVqTGVydUUwR2Y1TnU4V29tRkcxUkg1YndPLWlyWQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bc82b85505acd0c1",
-      "published_at": "2026-08-18T12:27:21+00:00",
-      "title": "Two Ships Passing Through the Strait of Hormuz Are Attacked - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTGRpNm9fblB2cTJiOHJmbzI5OTlPZmJrNUlWaUtyVDA3STdiTllISTBvNDIzLUFIMUlUMU8tcHJUazh5MmdrVlRwNUtZeHBqeVdsTFVuLVg0SDF0STVTSDlNUEVING82UWs3RmZvX1VsSzBMeTNkZER0ZmlfMWdiZUo0VQ?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6d0db0fea0e48921",
-      "published_at": "2026-08-18T11:40:49+00:00",
-      "title": "Iran\u2019s Secret Plan to Escalate the War - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSTVZDZEJGTmI4U0t3MkVja0N0Z3BhYlpfRzNYYUZRODZOb0RoQ050UFNFaTJfSGRmQm9OTUdtWmtoMVdXT0dxR0RWUThPOFhSU0t0OTA5SUR2U2F3dXd6TTJrcVpvOUd1Z25kVlB5bnhsSXc1d3NnOA?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "446e4993bc4599cc",
-      "published_at": "2026-08-18T11:36:04+00:00",
-      "title": "Why has Trump threatened to bomb Oman \u2013 for a second time? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTjdhcGw4aWM5Z1luSFB3SmxSdEZTdElLOERSTFdEUkVHQmhSa1FlOFZCMFdraWlPNW12VU1HcjIyQmZhcUFVNW91VkZmXzBrMUpHbVg0RkpmSTRqNEhNRFdTbFIxQnBGMEZFa3JTa1lrUDlZekVibXBDdmJGaEtmR3dzOEdpQUNwTEFtNmZNNzhMYjJmVk02SDEwczXSAaIBQVVfeXFMTXdMcDdfV2ZkT0hPQ3N3Rzc3WDhaNGU3c0laZUVhUmViUlFuM01ibDdjR1VWT0k5T2VleWk1NHRQd05vekZLNzljaDUyTmx6M0hYRVp3bGktbjRFMy1leGtzaURwNEtnMWFEWG02R1dTSlBrSV82dU5TUVE5RTFsSXR5ZGt2bF9YQTZPTjJhVmlGNlFEamlNZXFZWmpzM0R1OWRn?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
