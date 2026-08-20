@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-08-19T21:43:34.792862+00:00",
+  "generated_at": "2026-08-20T01:53:44.490749+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 0,
+  "event_count_window": 106,
   "totals": {
-    "usa": 0,
-    "iran": 0,
-    "lead": 0,
-    "lead_side": "Tied"
+    "usa": 16,
+    "iran": 32,
+    "lead": -16,
+    "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 0,
-    "delta": 0
+    "usa": 4,
+    "iran": 31,
+    "delta": -27
   },
   "confidence": {
-    "score": 0,
-    "label": "Low"
+    "score": 64.4,
+    "label": "Medium"
   },
-  "event_types": {},
+  "event_types": {
+    "other": 56,
+    "attack": 39,
+    "diplomatic": 10,
+    "intercept": 1
+  },
   "history": [
-    {
-      "date": "2026-08-06",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-08-07",
       "usa": 0,
@@ -72,24 +72,330 @@
     },
     {
       "date": "2026-08-16",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-08-17",
       "usa": 0,
-      "iran": 0
+      "iran": 2
     },
     {
       "date": "2026-08-18",
       "usa": 0,
-      "iran": 0
+      "iran": 5
     },
     {
       "date": "2026-08-19",
       "usa": 0,
-      "iran": 0
+      "iran": 23
+    },
+    {
+      "date": "2026-08-20",
+      "usa": 1,
+      "iran": 1
     }
   ],
-  "latest_events": []
+  "latest_events": [
+    {
+      "id": "f89724865b74021e",
+      "published_at": "2026-08-20T01:29:52+00:00",
+      "title": "UAE says it is suspending trade with Iran after missile launch - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVnA2MnprdC01ZXZreGxyR1pZYl9rTnVReTZ0S2ZiZ3FMcGtabktucW5nT011Vm9aZnNZbHBpX0FkenktVXJnWkluOGJYaThYMHJPcXlwN2F2T3J0dXBaX1VyVXRQU2pESWtEZmo4eDRPTzg5U1JuSmZOLWJuNjFwLXZ5NUJzMk5nb1l0ZWNVOTAzSk9hWnhSZ1J2UGlWRVNBYjJkaHJpbEYyQkdtR1VEYg?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "deac8d656a68cdbf",
+      "published_at": "2026-08-20T00:56:53+00:00",
+      "title": "Trump appears to have dropped his tit-for-tat approach to Iran attacks in the Strait of Hormuz - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeERXT2lUdlNjVkx4OHlMaU10bU9tOUpYbmJlMmtUcnNBbzZqSEl0RUVYZkFMaDZDQ2l3M2VGR294dXhzWWtiNkJGYWRxZUFaUFVfdGpfbGJrdHllMm9oWXRDMHdLWGtmc0ZDWlhaaHE4U2ozcTNESnZWQ3pMeGNRREZOX2o0N21ndlhLODAwRU5MR2JsNlJoaUpKNkNHUzdD0gGmAUFVX3lxTFBrcnFDVTNGRjg3X1NDUzRqMjZiV1NacXR4alFCdlVldU5EVktiQVhtSm0tMTlOQV8tQ0lSYjFiaFFfbnRlam1FOE9vcExLeVppbF84N0ZZdkJFVk00NWpKSERIeGJCMldNQVoxckVzRVJueG9ybE9zWjJ0N2RyaGs3YWU1QjhYcG5QZ3lJRVdESmk5U3AwZC1IOHc0ZnFGQ1o1WS1vTVE?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "225b744557bb4371",
+      "published_at": "2026-08-20T00:45:00+00:00",
+      "title": "Trump announces \u2018most crushing economic operation ever\u2019 against Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWVhCS05GTl9MZEVxcUFnNTlYSERZMlRFVXotU2FQMXBrRHhyVU1ULUN4X2N2TXpJbDFjbEo5X2djeW9hNjlkYU0wVTMxWV9QbHp5TGFHY1EzUFRCZGxNVlNiYVBJNkU5UGpSdG0yOEFxSm5Zc2xrNzloZHRkdXNJMnVobUkwMDJKR1JkS3hPZjRNZFJfWjZKRkhqR2hZUDZRVTNjcS1HWFJGbFHSAbABQVVfeXFMTzNXU2ZhU2FUMmswRXJ0eUdVaWF5SUc4eXRKNlp0eVFWYUpWaE1vUFlmSnhDdFVWLVNDeFlzOTB6aWdYYUZLRzlENzhfSUNkV0dLUS1sNFJ4OUd1dERiUlNGX1ByeFUxREhKckxmOGhGSzhxSHVSdXBDWmZDVWFtQkN3U0pIaHZ0Q3p6QUtpazM2VUtXTkx2b2J3eXpCV0ZyaE1vTTZyVU5vSGo5b3J0RlE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "f20d8c2a69bc0694",
+      "published_at": "2026-08-20T00:29:54+00:00",
+      "title": "Iran weighs strikes on US targets in Europe if Trump escalates war, FT reports - The Standard (HK)",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPblJNUXN6WDdHLUhGWTNLbWs3Um50R1puVWJxNlpGR0JfSlp3VVpfWG5POHNjUThhU002ZU5DRks4N1BQeEZPV2RhMl9ubXV0dzE3ZHNYTkhvTExaSWxxelhFczFHNlgwMWpCb1dJZXpCWE1hQ2ZGMzZOVXlTY1VKUnBKV2huODh3Q2hHUlJMUHB3YmxFRDNpaEJLVHlVR0pfWGhnZlc5RERYeDIxbnppcFR4LU1NdkUxdEFubUFBaTFMVF92OC0yQg?oc=5",
+      "source_name": "The Standard (HK)",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a3fd958565466991",
+      "published_at": "2026-08-20T00:16:35+00:00",
+      "title": "Iran war live: Trump announces \u2018most crushing\u2019 Iran sanctions - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ0FXQTFxRU52WjdKWnBCcFlZOXdaVk5Wc2RvYmMtN0dMUHFTUVBCVGxsM2xVSjNrVHlURUdSVXdSQUtmekJJZlR0QTZ5ZUZiRHZwU0JUR1ktc3I1UFZjVWlZbV9sX2V0bmJrb2FqTHJ0TFNtUW05czdUYnJEUHJpTUZGWHU3MTN0cjhCSW1mdk5PU3pnMWJkV3BQYl9rSW1sUkJFejlncTZ0MFY30gGyAUFVX3lxTFB2TE92MXhCSXJZZFZsdlZIbXVHSUxQUHVzRXltenM0MnR5MGJYVHdtZkpUUllCaHBmSkJiTXhEaFpPR3RIWVB1V1VpQ1dXSW41NGNZbElRaVU0Z2FYS2RzM0R6bUJGRXRJOE95VC1xWTdLS01HdGVDLWt2MjEwRFpmRmVmb0hqcmJ0bVpfRUFQbVZZT2RMUFVKTGM0YUF0Y1NjanBMb09yYzZwTUlkbEhmeGc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c3722434c249578f",
+      "published_at": "2026-08-20T00:02:08+00:00",
+      "title": "Iran war updates: Trump to reopen talks \u2018at some point\u2019; Israel pounds Gaza - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNT25YYlNfbnY5OE9lS1l4OElGQjlJcEdHQlVEN0lna0ZJLUVNR1dOWlpBcjNEdzNmc1pCTjZWNnBRY0hiNVhtVW1SbkowbkRUMnBUdGU5Z2lKUEgwR0taSVNvTEtJbzZtd08zT1FudUJucXRzd3dyNGIydEJjaXpyWEZTaFBHbl9zX2xLTkd2SkZiM0szWnpzUVM3QWVJeUpPRXlQZnU3V3JsWGtBWnU0bmxn0gG3AUFVX3lxTE55c2gyeUJVdkFkbjBhRnVWYTZoTEdhUnFnY0p5XzJmb01nTXJSYjVsSDlWZTV4aVFaOHZ3b1NDbUs3MTM4OVhXX3pmeGlXMmFldU5UN0FDbVZOQXNMYlB4SUdONzZ6aVhzQ2g0dDdyWlprZTZwUFJaX0c5RmQ2RWEtVEVZZFZlMWw1TmFzaTQ3eXpYRXcxZjlnNFhIelhteldEVVBXUFVFR1hpZWdxbl9ONWRPZ3daWQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c5faf815c18e856b",
+      "published_at": "2026-08-19T23:32:51+00:00",
+      "title": "US Iran War News Live Updates: 'All needs to stop now' - Trump threatens Iran allies with 'crushing' economic consequences - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxPNGRBNlVwVlM3TjFLcmpaNUJYemFkTjc0RVc5U1FLVHc1bjZiY09OUXgwbF8zeWlUQ0FYUDluaWtTbk1JWkJtcGo1QWNxVmVsOThpc3VIemRwaFcwbU82QTNBNndZSTd2T0dnY09iRDZ5ZDhJU3ZocGxhT2dQMy1lZHBxN0gwMXJyME5rU1ZCZ2dsdUVpZFlhb0x2RVRGZ1Y2WWRVYVNJbVpONTlCSnFHMWVJdWlJcTNJcTdid1YtRlBUWHhOWTVPN1VZUzBCM2pFNjBKci1QTDc5Qm9kODlTZVBhczVlQk9XT2xKSW9zd0xWNmNZR081cnYxTkVkekNTM0ZGc2pQaG9rQlRXSDFxRWdfU3ZaclJ5QURsaFd4YWV0b09tS2hlenJlQjlkNlhSYWhPQmNPQzg2d29UR1Ffd2JpNNIByAJBVV95cUxPUjRIZS1Qc1ZiRmQ5MUFyMWdGS1pPdVpQRndXejVROC1nZUFUSWQtTTdZUTVDblBNa0tNY3M5M0FZdG1ESHVHVUxybVlkTEFkUW4zRnhUTWNiTkVka2FGWm9lSUhYb0M0X1VIMl9JWmhHNjVnRjZoWXpsZnAwRTJNSjhIQkdLRTFZeUVSY0tHTVhTSndpR2FOa0FsTmpoU3djbEJVZy1PQlljSnBDc0g4VEZJcFFDLUFpQVZhaVFCeEZEWEhNcXoxRDh4VGdxd3BGQjliWXZLTWhUVDJvQkZBQnZxa2V6Y1FWaG5neFBQdHNjZWptWEI0Y012ZGM4MzRQazRpTTJ6bWtZUUJ3cUdqNW9rdDNxUF91aHVqbHhHTGQ1aUplODJObkIxS3RuTXhhdE5Hc3V2Ykk5bnJieklJdHVvMzNaSU0w?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1cde1282cc1c2092",
+      "published_at": "2026-08-19T23:21:00+00:00",
+      "title": "Iran Live Updates: U.S. might return to negotiations \"at some point,\" Trump says - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE96dTlXTXdLdkJfWHpuYUtTRlp1dDh5SEd2a2F6ZUxwcTJCa3kxRXhqaUE1aHhmWTFxOG9Zd21SQzBsalAyRjN1czlieHlXT1lIT1MtcnFDM0tTX1dCeDJqRHdJTXZZYjVHLXRndEJlZ1N6akkyMWRmR2Z5TQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "fb7fa1a857b905af",
+      "published_at": "2026-08-19T22:12:00+00:00",
+      "title": "Live updates: UAE halts trade with Iran after accusing Tehran of firing ballistic missiles - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBISmhtaW9HT3BxYllQQmZvYjhwTHBKRG5LSFlBSFFLajl4QTBZVTlheU9uM244UVZ6UDVsTUxSbVdMNmgwSlN1T192UDFhTURxV2Z5ZWhqX1lTSnpuaV96US1IUjdkLUd0TlBNMHdn?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b379f3fa3c84056a",
+      "published_at": "2026-08-19T21:35:36+00:00",
+      "title": "War: latest news. FT: Iran is considering striking US military targets, including those in Europe - Il Sole 24 ORE",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQOEt0SXJqWi05Z1IzYjZoY2J0QlZJWmlnWTFqT21WanFXMmNZa3hpZThCeWtuM3FxdDVzZDFZaUFnaEJSUjVZYWNUSzFfOVVSckJQRTZObEtNaUF0OF9odUpKMU5Ba1lVVU95UFNuYmlIZ3ZIWjlEMmZScGVFOHUyQmxXbkhHZC1wVzVKUElUU1djMlZpcUc1TG41T1pYVXJWWVdyMVdRZTU?oc=5",
+      "source_name": "Il Sole 24 ORE",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "33891b588d8d3c16",
+      "published_at": "2026-08-19T21:03:58+00:00",
+      "title": "USS Lincoln woes highlight US Navy limits in prolonged Iran war: Experts - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ0VsY3NzcURYdjFxWWdWVkFtNmxJX2ZRR3JTQ2NGZndKNk9reUxXUU5udVdwYTRVZlBiRmM1aGdLRTZZVGl1aWVWWkFIWHk0SnBqM3BtV3JYdDNqMUdKMG4yR19SWEx0WVhZUHA0a2N5TnJHaW8xZ3Y1U3NhRVBybHcyd1EyX3FFWHlYQXVrNlhkMnBKRDNUUFJfdGVIeWg2dG42RUpIQ3FyQUtzSGcwdTV30gG3AUFVX3lxTFBfYTVPOWI4TkdsaW9vcUhSeUhPYVNRNkVEdHZjU1Z5VlBydkpJS0VHZS0tN1dMWFZUWjM2SFJ0ZHN2cDFyWDNaTVMybGhzaGdVajcxTzBFdTl2VUpybjVQdDNIY1VKZjlCMk4tQzgwUHBxbHQtcDVCSVhZUlo5OHlhN3NjTGNPbnZvN1hTNThTb3ZRZFBQSDZ4b1dIODctQS0weU1JU2cxazJndkRMVUp2UnRuZ040TQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a652c3dce01d4d69",
+      "published_at": "2026-08-19T19:02:15+00:00",
+      "title": "UAE Suspends Trade With Iran After Reported Missile Strikes - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRWxIbGROZ2ZLcldqVTBQUW1BTnpiZXhIZkZnd0hIbFNCYTNKS2tNLTh2QmRyc25HYkVKQnBpQktSY3JFd2UxbDVkX21RNXNDOXZuYUVGZ1FoSUdOcEZTeVptbXJwSE1jc2Yza1ZpVUhBMmVwdW96OUNrdFVfeXp1cWFzQkdGWVVINFBJaW4wZXJHeW5Fc1FKZEphVV8?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d7b4f4b8accc962c",
+      "published_at": "2026-08-19T18:57:09+00:00",
+      "title": "UAE's financial embargo on Iran after missile threat puts rivalry back in spotlight - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdzR1UDJHQ1pYM2Y2dzJ4Wmo3d3VCNFBEbDZQamtaSm5wdF9uWUdwRzdNa0ZtTFdzaUppUkdtelNyaDV0ZnU4aWY1aUlBLWhNdzN2VmhvZzJNdk8zM3gwSXZvc0p6Zld0UHhRQ0RjY2NTekZOekZnMEhwWlo1OXc2Mk1KZ0ZkZHF4WFR5NVRMejB2eDQxdXJJR0VocU5QVmRHbHFTZXlJNWRfdE43Sko3cXlYalB2VmFWSFczb044NlZEU21vOTNHOHpB?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d8a5864dea78a423",
+      "published_at": "2026-08-19T18:47:41+00:00",
+      "title": "US Iran news LIVE: Iran warns Gulf states against US support as UAE cuts economic ties with Tehran - livemint.com",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNeDNhTXA3aGVxd3E3U2o1c3JRVEpWZ2N6RzlNSDIyWjdtcjVScVItaTFORjRiYUFvVFFmbFVxYUMxTnZDdlBELWRBM3FJZERzLVRtQ3lLYkh5T0tjTzBINGZYdlVMb3pRTnRBTmw3dmM5Ni1RNDJhc0k0VjQxaDEyZE52M05MUzNtZUFQNVp2ZjRqZ2FGb01nbXJVOEd1R1VhdWdxOEIxckk3TTJGeWhzV2lYbU1YNU1uQWt0UUZaN2NRSVJZS0dSX016UDVnR3YxaVlvbkVfSTh0OWh3cVIyWWlYRFRoMHB2Qy1pVDRMQjJ2X19XbEhCazJIcVBWMU5SMkpJTHFZNVo?oc=5",
+      "source_name": "livemint.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9018a32c83f8d24d",
+      "published_at": "2026-08-19T18:10:53+00:00",
+      "title": "NATO is prepared to retaliate in case of strikes from Iran - jpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5iZzRpbXExRUE1Nnh3cFV5OUdoZ18xX1RPTE1kcV9VT2RmZGVkUFVYNjJUZElWc2tIemZtcjUwb2RMMUtSbnk1Wi1ldEZZWnJUOE9tampGRUI0Tk9aSzdN?oc=5",
+      "source_name": "jpost.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b36db4bb82791a6d",
+      "published_at": "2026-08-19T17:53:53+00:00",
+      "title": "NATO \u2018prepared\u2019 to defend allies amid report of Iranian strike plans - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOYkVKc09MNnM3LVBfaktoMjNQOEJTaThaR0tvTGxQZC1xZ2lpRGhTSklaaUNHMUdVZkNoZmlaUnZlS2dpaTFMWlhCUjNGZlRDQTZPaE1wUUJvREhHRHNRTUNmQVF3cFJYU2M3YjFtRFRURm9QZVZJQnd1QTh5QlE2Unp0N0d4NEI2c0pmeHloVktGdmJPempfbm5XSnhlcHVmRDJfWDBNZmNtbTjSAbABQVVfeXFMTWpjNzlyWFVLcUZiY2RXczdEUnQ4ZUlmTnh4dV9reElDVnRrSGxHMFRXd2VxWHQ1U1V5Y3dNZE52UGlwZ3B2Z3pVSGJJT2xCWENfYVY5UUxCc2Z2eG1NdHJTVC03VUtwY1ljcTFCcWpRN0ItQ1NjQkhLVkVhWjJhcm9wQlJhUFR5dzFGZzNBMHVhMWNacWVuMEtwSHJ3eGRKNzMyb3k2VjNpT25OX3l1RWY?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d3cf8b7270fdb736",
+      "published_at": "2026-08-19T16:48:03+00:00",
+      "title": "US-Iran war highlights: Iran warns Gulf nations against helping US military after UAE halts trade with Tehran | Hindustan Times - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPSjBwX3Z1b2J3ZWM1aHAyQ0FRQzI5VW84aVM5cTFpd0VJRElFWGNRTXNBR0Zxb0FnUFBvaHRDNDdneGR0bzZESEtLM2NrRi1mMS03aXNsbVBCb2N3WE5GNERVbXlLMktKQVc4MDhpNHJuczB4bjdHWXZhODkwVUxiT1NIV2Y4Sl9VQTJkdkN4WHFfcXlIa0tjalJQNl9JM1lyZ25xQU5fb2x3UHpFXzk2YjNtSlBfWmpaUlRoSWx5WHlzX29PeGQ3RWdMd1ZtU1BXNndyWU9sSi1yanY5VDlqM19KY2FEeXNFTVNLWENqTXZjWHdpWHhOU2lPNXlIVTBwTXBv0gGIAkFVX3lxTE15YWVyY3ZUS0xHQjJlcVFWdE9vdVA2eVEzczhOT21FQlptZy0wY0FHS3NxMnFCdHluQThGZE01NkNMaDBWenlHdktxRDZrWjkxdGFmbTA1Tms3bHAtWTAtNEpzcmgzVUE5TWFpa2VfQ3g2RlhsY2dkTzItY1pzVUNwM3I5TlpCZWtWQkRvbVNaV1l1ei1adTd6RVQ4cEtvcURjWmZNcnNqRUt5WFk5Q1ZBeUlWeHNpNlhNTkFKeU1NUEZUUmhfdmlLZ2w4bi15WnltQ1QzTk5WcHFyOFFCaFI3YUxlelRYNFJDUjJEd2lYUjdQZnMtdDNjRC10M2FyWk16MjRvLTJiOQ?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "19728338253904da",
+      "published_at": "2026-08-19T16:18:35+00:00",
+      "title": "Why does the U.S. military seem stymied in the war with Iran? - NPR",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPc2tOcXFSUEVNV0FrSHlBRzVsQk1KdXhMaW1WUWJsRG1iZ1h4eDFBYTNjTEY3bGNTVHFmVjJrR1hxLUx5TTZCSmg0Q1JWdUtkRUxJTU1YZzNqSXRTS3NvMkhndGR2V1FFT0VkX2YzeTR2ajNlWVNSNUwzMW91ZENjN3pJcmVIbkxVenJaT0Fvc3NfNlJTZmNZSmtBak5LQmRWelN3RmJGWQ?oc=5",
+      "source_name": "NPR",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "bb26dcf4e54d2176",
+      "published_at": "2026-08-19T16:01:58+00:00",
+      "title": "Fighting While Talking: The Iran War Enters Its Bargaining Phase - Lawfare",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNT3JJQmRWR0xLMENleWozcE9RZFZRRFdRNUxzVklZR241NWlTT3hGOUlib2M4aTNSbDg3Wkw1N0FPQkFCOEp6N2tady11R3hmUVl0M21mRU5rMGYwa2RZUUpBY3c4bE9pR0xFTjdpSzFmQlhFNTZUM0dPcDY5ekttWUFsc0FmOThwN25wRzhadmZZTkJRc1VoM2Z2QjRJSGpaYURB?oc=5",
+      "source_name": "Lawfare",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "1c9fbb2176b1e533",
+      "published_at": "2026-08-19T14:47:56+00:00",
+      "title": "US gas prices hover over $4 as Trump\u2019s war in Iran continues - The Michigan Independent",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMzRmUWxhNEplaC0zTVF4Y1JNQkdQbHdrc0VzNnpVUTlweEZPME1HaDl1TDRDTzhVcnNvTEZMbjJWenRsd0MwcXNyV1dUQ1dZYnVoTkFaVy1BOFpNNF90QVc3SGtUcVN2em13QnYyMHB3TDhudUZhSWZrNVRwQi1ieFlnNGpockwyM0FOejZub0JSc0ZScGpCdm9nZXNtOUlt?oc=5",
+      "source_name": "The Michigan Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    }
+  ]
 }
