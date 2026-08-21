@@ -1,28 +1,27 @@
 {
-  "generated_at": "2026-08-21T04:03:59.867029+00:00",
+  "generated_at": "2026-08-21T07:10:03.261531+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 105,
   "totals": {
-    "usa": 23,
-    "iran": 21,
-    "lead": 2,
+    "usa": 29,
+    "iran": 20,
+    "lead": 9,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 3,
-    "iran": 21,
-    "delta": -18
+    "iran": 20,
+    "delta": -17
   },
   "confidence": {
-    "score": 65.0,
+    "score": 65.1,
     "label": "Medium"
   },
   "event_types": {
-    "material_loss": 1,
-    "other": 51,
-    "attack": 38,
-    "diplomatic": 10,
+    "diplomatic": 9,
+    "other": 53,
+    "attack": 42,
     "intercept": 1
   },
   "history": [
@@ -84,34 +83,94 @@
     {
       "date": "2026-08-19",
       "usa": 0,
-      "iran": 10
+      "iran": 11
     },
     {
       "date": "2026-08-20",
       "usa": 3,
-      "iran": 4
+      "iran": 3
     },
     {
       "date": "2026-08-21",
       "usa": 0,
-      "iran": 2
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "5a388e327ec359e7",
-      "published_at": "2026-08-21T04:00:27+00:00",
-      "title": "Iran-US war: Over 770 US service members killed or injured since conflict began - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYkJsQk1rWVprWk85M1UtZVJFV1h6dGFnMnFYemNIbFY2QWlQV081S0lRUk5oR254Z0ljZGpnWVVnRmZreVNyS1Vael9kZzgybnJHYUd6a21PTTVwVjhHTmRQVjBoeFl6Zms0NXpyT3AweEJlTmdTNkpXT29WTjVmLUI5ZkV2ZnVmMktxMUsyeEVsOHc3NDdNak81V0dmdXZYdGN6c3dycjhUYnFHdzBmQ2w1c3ZPVWVRVlpqRA?oc=5",
-      "source_name": "The Independent",
-      "event_type": "material_loss",
+      "id": "895dc4558af18fea",
+      "published_at": "2026-08-21T06:02:27+00:00",
+      "title": "Iran war live: US vows toughest Iran sanctions, urges China support - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTWZtMDBMZHMxY3Y2bFg0R0hzYlJMaUMza2ZhXzAtaG5UNlk2X1hIQVJBcWxLMzBCZ2pPY2Q1R09IWlFMYnhSbUVmRUNqSHFVZmxhY0VrUkpaVW5iZFBOT0w5c2h2UHBYZ1hja0hnb2ctRnpfRnlENFRjVmIxbEJIVGxkb0E3b0t0Y3oyZWZnMVBqeGZMdE1wMURyS2tmbkliak16NlhlLV9ieTVQTDd1VGdwWnhkQdIBuwFBVV95cUxQLS1ucTVGS2NYdm0xanM1Z1RQbTFOY1h0azNGTzJLblk1YWozaUtzWExSNHQxS1dOS0VsVldTX0dJU0hPSW9xRmJWdFdGX1p3aXBsM0hEZ3Y3QTViWmFWdG1SYXJPbEtjTEFjbnh1X2pLS0xZR3Jsekk4alY3TGZ2WnJZNVFqcGQyazZDT3Y1VU1ibEtDMDFYTW45a3FpSTNyNFA3S1BNVXZlRktuaGpkVUVxd1o2V0hneEtj?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f14ababc03cee0d1",
+      "published_at": "2026-08-21T06:02:14+00:00",
+      "title": "The Cost of India\u2019s Calibrated Neutrality in the Iran War - Small Wars Journal",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPcGpfSThXcjQyTlRsbERxRDluczc3UHNTNjN4azZucy1GRVljeERkLWRqMmtwamdzOTBBSEJlZmt6M2w3VkpERThnb3FWSXFKcmdfRHExX3pNMzdBc1RLbjR1UFBVa0F1bE5UeW1rLVRZOW41Z2VmSy1TNldpX3hIOHp2NA?oc=5",
+      "source_name": "Small Wars Journal",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
+    },
+    {
+      "id": "c7221f2733a91678",
+      "published_at": "2026-08-21T04:33:12+00:00",
+      "title": "\u2018Economic D-Day\u2019: Trump warns nations against providing support to Iran - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNb1RvWnphRDl0Y3pjZkRpTTRTc1ZoclVzUG5ZQUJSMGhVLVVnSGF0cGZaVExRTnNXMjJfTjh6ck9YRGpSS1RLQnhxZERKTGE5ZTVnSzVxcUVmUDZuczFuakJmMnV5VUNBbWlYcms2ODFhLWtlQ0xtZHA4clB0RjlKSlVWTTdUS0N1UnfSAY8BQVVfeXFMTVdseHRiSmxMeGJOZmZCenZBak9aeXRCdWh6ZGJBenN1UFNoVnVMZzBhcWpnNThNUXFsQkRhTEVTQXJWQ3NrY2xrYzRBSWk5SGlTREsxaHBjN1c4OTF1QWZtZDdTSjBTd1pfSERLR2U3S05qa1h0S0pCQVVPRFo2ZHpuTzY4cUtlc2VRSWt5eVk?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "90b6a44f197bdeb3",
+      "published_at": "2026-08-21T03:58:42+00:00",
+      "title": "Oil set for second weekly rise as unsettled US-Iran war crimps supply - The Mighty 790 KFGO",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZmpSOGRmWlN1WXZEbXZoVXJLR1pnSWliM042Ym9rejdMMlBONXBoXzRJMENlZU1JVHVTWk9JakxaMFkxazZzbEhUVDdBOWFoQ2VrODFsRkpOakFrZFBLdEZzUmhNV25ockxSaHZtbWllM0dNcWM1OUY1NEEtN0lpRnlETEtlQmtYM1RJZTJkVXk5M0tuVnBaM0Rnb2lqdVU?oc=5",
+      "source_name": "The Mighty 790 KFGO",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e1ca00522446609c",
+      "published_at": "2026-08-21T03:54:00+00:00",
+      "title": "U.S.-Iran Live Updates: Vance says war in \"new phase\" of economic pressure as Iran dismisses Trump threat - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZmRJd19TelVBUVBiN0s3SjlmUFdnNTdEMmVsS3NCeUZ1MldCSWFNc19TTzI0amgxdDZJVGFJaFFVVEh0V0lhd0E5LTE0eExOb1ZGbnRra0NGRDhxRmYzOUgyY2VtTk9iMWwwN0lhblVIT09lNlNQcTRadUs5N3RsbFE2bWhqeWhXRERERUZ3?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
     },
     {
       "id": "0b1a30f0cd4e5164",
@@ -144,101 +203,11 @@
       "confidence": 0.7
     },
     {
-      "id": "9a91c24b2b87a40a",
-      "published_at": "2026-08-21T03:15:30+00:00",
-      "title": "ICE coordinated Iranian deportations amid US strikes, emails obtained by NIAC reportedly show - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wR1pMQ3dCcXBRMHQtTk9MS3lxd1lpVmZOb0dZWG1OS1JsM2dDZTNaeGh0ZDBjZk1FS21UbUE3VkUtQTFkSll6TjJ5NTRiaDRmR0tQV05vaGFHRHlmN3NZ?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "895dc4558af18fea",
-      "published_at": "2026-08-21T03:04:50+00:00",
-      "title": "Iran war live: US vows toughest Iran sanctions, urges China support - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTWZtMDBMZHMxY3Y2bFg0R0hzYlJMaUMza2ZhXzAtaG5UNlk2X1hIQVJBcWxLMzBCZ2pPY2Q1R09IWlFMYnhSbUVmRUNqSHFVZmxhY0VrUkpaVW5iZFBOT0w5c2h2UHBYZ1hja0hnb2ctRnpfRnlENFRjVmIxbEJIVGxkb0E3b0t0Y3oyZWZnMVBqeGZMdE1wMURyS2tmbkliak16NlhlLV9ieTVQTDd1VGdwWnhkQdIBuwFBVV95cUxQLS1ucTVGS2NYdm0xanM1Z1RQbTFOY1h0azNGTzJLblk1YWozaUtzWExSNHQxS1dOS0VsVldTX0dJU0hPSW9xRmJWdFdGX1p3aXBsM0hEZ3Y3QTViWmFWdG1SYXJPbEtjTEFjbnh1X2pLS0xZR3Jsekk4alY3TGZ2WnJZNVFqcGQyazZDT3Y1VU1ibEtDMDFYTW45a3FpSTNyNFA3S1BNVXZlRktuaGpkVUVxd1o2V0hneEtj?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d5bfe7da8e3c5652",
-      "published_at": "2026-08-21T03:00:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE00eEs1LWMyN3dRR3pDQV9lTHpzdkVLdVJWZ25zNV9PaHhvaW8wbVV4cWtPeU9fUENPOERZRTBDaVRld0JrXzBaMktmR1NvOWxvWlVVX1c0bHdrdXdrZnpmeHp0UjFBQVVJSjZnc1VJdmxCQUpMem1CN0N6eWJERFk?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2e4ded7df8ade33e",
-      "published_at": "2026-08-21T02:45:39+00:00",
-      "title": "US Iran War News Live Updates: US vows \u2018toughest sanctions in history\u2019 on Iran, urges China to cooperate - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQeGZ0SEw5M2M4VlVwb3lnTms5TEVRWFVYcHhsWlVxSUthUEU1QXVtU2ZVdV8yenUxWVdxOGJsYUlfYzd3dGZrN0F5dlZvVWlDVGpSVnY1NE5WaTZwbnBBZEVMNzBZaGJtMFJxZ1g0MUFaak56a0hRZWhMQ1Z0ZXdENEVtNkpva0RVSDNvWGppYmtVWGZlaGdadFllNFNhRnhmZU9MRWZfTDFBR1FUMGxuZFdkOHJxd1VPbFFCcjIxT0xfSllTV01sdGtOR3JXeEN0VkJhUDhRQVhOckpkcTFnWmtGekZLWlRaMXhuNmdoeTlYUU9MY0JJUTJLd1RMckJzdDZPQnVLaGJtMjVnNkhXTkhLZ25XbUtEejdfNV9yRFdEbGg10gGqAkFVX3lxTE9BY0g0dE16a1g4bXc2ZEc2Q3hTRWpqRmtoMlJ1a2ZVQ21xSjRXTE9OcnFTWDhiVE9aQVBhZVdFWm96VHJHU0s5T2RnNGhsREU5Vk1jbkk4V05tcGpGVVd2SmhZOTBpVmgzMGk1a2JvcGFkUEotOGVfcUtQV1RWMFhrc1U1aFB5d0x4bHE5eThzdXhZQkZVNVZxYldoU3luMlJFRDNoZkRhTDZDbm1wZ3NVRnVVZzhiYzdHazlkWkJDc1pjTF9aZlNpWWdjZUN2OHFaSkp4eEhKYmhGSms5dGZQeW1HQzExdjlBRGVLXzFOMWswZHE0cUw2MWJnYXZVUkhMaHEzMlZhdHFKcTFIQ3RCemVMZ3NkSkp5NWlJMmJMcWRRQ0hkV0paaVE?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "64f775b01860c6b9",
       "published_at": "2026-08-21T02:32:00+00:00",
       "title": "Iran dismisses US economic threats, and other developments in the Middle East - AP News",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOZUo2YS1oV3h0ZEw3eTYxSExqYk1RUnpscEFodEZRaXNWeTRXd25BbGxXYlJlVFA3bzdMdVFiQmFzb0dhWnFyRFVjWlo5Rm9mVmhwY3lvUVZ0YmZTMmlkdnd1VUV3UUIwMERCSWNMWkFsVnotdTVOS0tpSHU5QkphbWs0R2VEMDY0T1Nv?oc=5",
       "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "16e5356eeb6d63e0",
-      "published_at": "2026-08-21T02:29:50+00:00",
-      "title": "Iran vows \u2018further defeat\u2019 for US after Trump\u2019s \u2018Economic D-Day\u2019 threat - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZWxaU3JBTXY2QnFZU3JTalZGQ210bEtxNzBiOUJ0Wk5PTmh3ZDFwcm9pU3NDMlVKYkEyWkFqZ0w4WWhRQk4wZy0zTl9nSTl4SmN4UHRTOFQ0aE14dHppaHBQS2h2MEFaTllHV0pGakVRRk43cG9Ec0kwaFVjVWZaTG1R0gGHAUFVX3lxTFBFZ0pBYjRmVUFTY19XV0hCOVEwZjJrY04tMmtEN1E0OWo3dnI3ZExLbElUR2VFOXlqTzlzV19SYzU2VGxDQ2lIYTZET3VldENaY0xRSTFfdG1vRWJiLUdmNHVnaGtSMWoxUDJmdlpUalg2X1AwQlRSb0h5OXhrVFlrY1Q2QnM3TQ?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "90b6a44f197bdeb3",
-      "published_at": "2026-08-21T02:22:29+00:00",
-      "title": "Oil set for second weekly rise as unsettled US-Iran war crimps supply - The Mighty 790 KFGO",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPZmpSOGRmWlN1WXZEbXZoVXJLR1pnSWliM042Ym9rejdMMlBONXBoXzRJMENlZU1JVHVTWk9JakxaMFkxazZzbEhUVDdBOWFoQ2VrODFsRkpOakFrZFBLdEZzUmhNV25ockxSaHZtbWllM0dNcWM1OUY1NEEtN0lpRnlETEtlQmtYM1RJZTJkVXk5M0tuVnBaM0Rnb2lqdVU?oc=5",
-      "source_name": "The Mighty 790 KFGO",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -264,11 +233,11 @@
       "confidence": 0.55
     },
     {
-      "id": "e1ca00522446609c",
-      "published_at": "2026-08-21T00:03:00+00:00",
-      "title": "U.S.-Iran Live Updates: Vance says war in \"new phase\" of economic pressure as Iran dismisses Trump threat - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZmRJd19TelVBUVBiN0s3SjlmUFdnNTdEMmVsS3NCeUZ1MldCSWFNc19TTzI0amgxdDZJVGFJaFFVVEh0V0lhd0E5LTE0eExOb1ZGbnRra0NGRDhxRmYzOUgyY2VtTk9iMWwwN0lhblVIT09lNlNQcTRadUs5N3RsbFE2bWhqeWhXRERERUZ3?oc=5",
-      "source_name": "CBS News",
+      "id": "e25e22575a0d96ff",
+      "published_at": "2026-08-21T01:14:36+00:00",
+      "title": "Opinion | Could Iran try a midterms October surprise? - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQLTl3Ykd4SzlOcDRHZHl2WE96SnJnaFZHVTJDOTl2SFo3RFV5WVlNYnZfN3RwMzN5VkVCa2M0R0UtQ1B1M1pNbE1DNmxLWVhCck5tcWdubXJ3bUVhMkNaWFduSWx1Tmw1ZHJLdVpXUGNrQjJUMzJXY0dzQzB3RFQtQzk5dGt2alNMMnFrc2xleTlpTzhRczZ6dG9DNzFhVnph?oc=5",
+      "source_name": "The Washington Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -277,6 +246,21 @@
         "iran": 0
       },
       "confidence": 0.7
+    },
+    {
+      "id": "7dac80f299ab48f8",
+      "published_at": "2026-08-21T00:49:03+00:00",
+      "title": "'We are going to collapse this regime': Inside the US plan to target Iran's economy - Scripps News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdl9KQjdoaDFLWTl3VE1oZnJHYmlwRUVjeDVSTnVmVWxubWd6WDFBSDBYMWs1dFMxZlpVaHlNY2J4WERzSWlvaVFpQlNMTGZkOVZEcUNOTWZZbm85RWFJY08zT2JUMHFUQ2hMTm1BZk9ZbUVtcDBab3RVV0Y5LU4yMXhxV2JCMzhabFVMbWpSWERnZ0hvRU9TVGktQjNfMV9WZUY0SzB4ODUtamR6aVFVSUtKeVU4Q3l6c0N0WGNSUjc0UQ?oc=5",
+      "source_name": "Scripps News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "e880f6e98e5ed14b",
@@ -309,6 +293,21 @@
       "confidence": 0.65
     },
     {
+      "id": "104cf643f7302173",
+      "published_at": "2026-08-20T22:31:37+00:00",
+      "title": "Alarm in South Korea as Iran dispute with Trump rattles a 72-year alliance - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdmdNSjhQeC1GcmNGV2FmQnJaRHVzSVU0dEstM0hnX3JyVEFFbG5lMGVnT1pQbmxyNHdRUkU1NkllMUlIR282RGkyUEhXOVIxSjM4UTdoT3FKUGVDSWx1TGozdlRna3pPVk5zODd0OGhyRUFIN2RxVmxrVGJlSzdjZjA0OUhPdC02elhnNWpFc19oaVJiVnNfYS13bGVpTGNlQnBYRWhCT3dmd0tPOUpGSXk0WXHSAboBQVVfeXFMUDJUS1lmX2drelZKQzFXSDdub09CSkhEaUxoVkJIMXZzYkc1SmxNSG1SRC1mMTRSYXdTSUFacW9zYXpUYzlYWE9NMVRBRm9IdWJFald3bUZ6clFRa1Nwb1NmbjFDU1ZjNDFIMFJNS3hqVkhuUkNHdnBtd2tzUnA1RkxxV1BfalZZTUg4VGlKVzNPUU1fN25qV2E0cTlSRUdyME1lUU9qVDFaUWJQUVZIbTB3d3ZHTGlzY2dn?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
       "id": "6da911a4c4df962e",
       "published_at": "2026-08-20T22:18:56+00:00",
       "title": "Trump vows tougher economic measures on Iran and supporting countries - BBC",
@@ -336,7 +335,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
       "id": "a26fde21b1e20e13",
@@ -344,6 +343,21 @@
       "title": "What Trump\u2019s Iran war messaging is missing - Politico",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPS01KSEp4SmY3bVRQcjFfcDlISGlIN090cVMyaENUWFh5TmhVcEdLSktpei1YZy1qbEZsaEZCbUEwZlJ5REROZFF6MUtvaW93ZXVjUFF6d1VoQ2NfbWZyU2xPM1RsQTRWN2wxeVI1SEpiMHE2N3c5WmlGRkx3WUpKVmlaTW9KN0UyN3psRXlzbkRIdkxqay11dlF6OFowUzRXUXpTb2YyeUJyUFpMaDlqaXQ0MVhSakVjclVqWU5FUQ?oc=5",
       "source_name": "Politico",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a537c08556e09304",
+      "published_at": "2026-08-20T19:33:32+00:00",
+      "title": "\u2018It wasn\u2019t a little war\u2019: John Curtis warns Iran war mistakes resemble Vietnam - The Salt Lake Tribune",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQUg5a1hWc0hwOVZLNHczRTlQZnJJWDJodWlYOU40dDdXQUFtZnhVMUpHOVJFYlJPX0tBYmtvYkVCSmRjMlZRNVlkOHU0MS1Ia0NIVWpvM3VmeVB1dlA1aU9yZXUwcXkxY0FJX01HcnFvbTdpQXl1MTMxTmp5cnpwWXlFVWI1Q3ZIS01v?oc=5",
+      "source_name": "The Salt Lake Tribune",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -382,21 +396,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "497c598a53c9dc5c",
-      "published_at": "2026-08-20T18:58:00+00:00",
-      "title": "Israel-U.S. strikes on Iran put Polymarket\u2019s military betting problem in focus - calcalistech.com",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1fNTktXzV2U3VXSEZoWnNxeGxkYTY3TmZrWEx3dzdsZ2RsLUZ4a2ViRV9SOWllWDJzYmRQQVNNc09oUUVGR0lfZC1oLU1FQ2c4NVZxOXhxZlNYdU9nbnBDRFdTUkJpNjQ?oc=5",
-      "source_name": "calcalistech.com",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
     }
   ]
 }
