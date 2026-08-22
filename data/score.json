@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-22T13:03:09.558287+00:00",
+  "generated_at": "2026-08-22T15:38:43.776834+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 100,
   "totals": {
-    "usa": 15,
-    "iran": 19,
-    "lead": -4,
-    "lead_side": "Iran"
+    "usa": 17,
+    "iran": 17,
+    "lead": 0,
+    "lead_side": "Tied"
   },
   "momentum": {
-    "usa": 1,
-    "iran": 18,
-    "delta": -17
+    "usa": 0,
+    "iran": 16,
+    "delta": -16
   },
   "confidence": {
-    "score": 63.4,
+    "score": 63.5,
     "label": "Medium"
   },
   "event_types": {
     "other": 55,
     "diplomatic": 15,
-    "attack": 26,
+    "attack": 28,
     "material_loss": 1,
     "intercept": 1
   },
@@ -79,7 +79,7 @@
     {
       "date": "2026-08-19",
       "usa": 0,
-      "iran": 7
+      "iran": 4
     },
     {
       "date": "2026-08-20",
@@ -88,23 +88,98 @@
     },
     {
       "date": "2026-08-21",
-      "usa": 1,
+      "usa": 0,
       "iran": 2
     },
     {
       "date": "2026-08-22",
       "usa": 0,
-      "iran": 6
+      "iran": 7
     }
   ],
   "latest_events": [
     {
-      "id": "eba322f5cc731182",
-      "published_at": "2026-08-22T12:44:03+00:00",
-      "title": "Iran war latest: Iraqi oil tankers given permission to pass through Hormuz - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOGhLcXVlSk1ra05MV2ljYWJIWU4zSkF5djlycnZpMS12RE5CNW9Ia3JybF9pejdUQk14dHppRlg3OU1kM0hpbUpEMm1yVDBNd1dneWF1dVZ5Z1lpV2tUY2ZBTm5tb3J2SDdNN1dOUTNlUWVKc0U3RzNZdk4tQ3ZlYk83QkRVclMtYTNqQ0NHTHNRRnc?oc=5",
-      "source_name": "thenationalnews.com",
+      "id": "a3e9f53277cf2493",
+      "published_at": "2026-08-22T15:22:34+00:00",
+      "title": "Iran-US war live: Tehran allows Iraqi tankers through Hormuz - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbmx2LWh6MEF3ZEd0emlGZ2JVUW9PS09wWVdIVUlvakl5eEEtdHpKazhBcm1IZXJsRUNaVTh2c0JoMS1XQlNXMmNlWVNWa2tXNnNPV1R1YnJ4bUZGY0REZWxHVHc2NkF3TXM4NS1qczUxM29jMGRvbDh5QnZMZ3RIeFk4TVRGQzE5MHVXNW91UmdUMlZWTmNvNGhfLW51eFEtMFNudjdRZ3hYaEgtVjA4dWNtRjVIOW5rYlpyZg?oc=5",
+      "source_name": "The Independent",
       "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cdf2d2a787815b2b",
+      "published_at": "2026-08-22T15:00:00+00:00",
+      "title": "The US is using the wrong measure of pressure on Iran - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNc1c5dE9oNXZJdFVIVGstQWRiQlJob193V0hQYTVIR093UFdzR3VDeUVVR0F2OTN0amRNc1JwVTdhZ3FsaE92ZVFmbDh6d05ncV82UjhjTXZZbEg5XzhYOTFVVlpRZWFqSm9YTmhGcktySlZfQnM5WTZOM2F1VzNXdU83bGFPWFU1Qk9n0gGQAUFVX3lxTE05RWR3S1FVTkZ0aFJKMTcwOWFEZy1MNlE5UFQ4MXlEYzZIdXM3NkVEelBWNC1pT3c3WENKMnhwM1pZaTg5WWUtNWtYMHBFVmpoRnYxSGhzWWQ2WFpiQkVhVzBPNHZxbnkwbHZnbXF4bEZmQkFiRERIbVIzRXBPWTFDOHhxMlBhMllNY2NFMkRMaQ?oc=5",
+      "source_name": "The Hill",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0b9218fab585964e",
+      "published_at": "2026-08-22T14:47:20+00:00",
+      "title": "Iran war live: Tehran says US sanctions \u2018declaration of war\u2019 on all nations - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQWUwUFJ0aEd2bHliRWRFMVlDRjJ5MDhkclhZV0pORWp2TGtGR1VoOUdTeVJiU0JfZ3BIXzRXMDMxYXkxZ3hCWllmTUc0dTkzemh2VXF2aTJuVkhRNVJwQVRZXzZUdlNkMmRGWmdoY0F2ZzQ4aDFlbHRUY0QxRlFMNFZGZktzbndySFNNUkRKWld0NFZTRWNhWVN3MW1fWTRpMTVrbGM2SFhzRkM3akhkbHd5bTNIRFdQazRvNExR0gHDAUFVX3lxTFBDWmZ0QTF0aktHUXZZUUxwRkVpcUY5ekRWeTdVODZpMzh2SEFMdy05cnVSSXF6ekotWDJvd24tY0Nua1JiLUY2NTN6bHpSWUMwa1o2cDdhSTJqbkl6ZTVZM0FTLUd5aC1OY2M1b21yOWd2LWJ1d0dSa3YzdDNmNWJQZHVfSGQtLTVrOWo4TjcyYWxmZjNWdGg0Y09kRERaSEE0bTg4U18zNzlYZm5kVFg0YVEzTkJ1Tm42Sk9sT09lbXRiTQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "860829c32b70aa87",
+      "published_at": "2026-08-22T14:31:57+00:00",
+      "title": "What did war with the US reveal about Iran\u2019s weapons capabilities? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPMlVwLXBzM2xDX2hDc01sWE54elFDYTVPbF9zV3hDejl3NWMwczZnUF8zejVtcE9QTUxzWW1JVmwxaHNvYVRSeVd0cVFmczBNZ2NDUndDalpPUDJkRkN2My1TRlhNZGJqLXpKVjc2ZGlKNV9UWjRCb1hSOU5CN3I5VFRIOW9nYTdGVFRuOHNja3k2cXJMa24wSGUxb01QS1psY0NVTW1lWTXSAa4BQVVfeXFMT3BOajZLb0UxQmxfdjJUS0tsYTZtLWcxcy1Sek0wd3VEbG9OQkoxazU5cUt0QlA1eXhJbnBnZzdTc1ZDRHMxVmxpLWhwX0pLb1BRb2hRdXZ1djBHRDI0TU5va29YLUt0MDVzWmRLSDJWU1JKak1GN0JxVGpHQWthMkxXa0FzRDVMOC1md3ZRUmpoVENsb0NNQmdlclFYR2xhYlBNdGp6VFBJcV9LUGFn?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "9bd4d2b7b0d1ddcd",
+      "published_at": "2026-08-22T13:37:00+00:00",
+      "title": "Iran War Day 176: Tehran\u2019s Military Doctrine No Longer \u2018Defensive\u2019 - The American Conservative",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDlicWg3LW10RTVVVnVpNkQ0aElzSkJYTUFvV2djeGd4cEd5RTV3cllCU3BscXJGYTlyQVNBbVROZExqa3RDV09KRlhNZnhjTGRjTWs2OWpoRWt6UUtzM09GSG8tVE5RSmNJaWgxTjFzdy1kdGRMQ2xlVUt1Vld6aXM5YTZoRGNTQVJiY0JBUGZ0b3AyY01sc1N3MGFsTEhfQTVZend3?oc=5",
+      "source_name": "The American Conservative",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "877756409dd2d2b7",
+      "published_at": "2026-08-22T13:01:45+00:00",
+      "title": "Trump\u2019s Economic Isolation Plan Risks Iran Strikes Across Gulf - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc3ljN2pDcWlPaVBoQ21nV3dpb0UyZUhEelA5UEhBVzFiSlVnTV9FeTE3X2hlbkJZRy1pd2FsT3p2UkJXOVdYU2RuLV9ZZWFDRkFOdEtDSlBwM1VmcjBoZVViNlBMY1YzSm5CRzhoSGd1c3pyQ09lUkhoTmlPYmsyR1hJOWdNZzdQeE16X0RYbUhSdjZTTHNIbVRtckMzWFNvYWx0bHhrSFBtYzNOeWlCYWRtWQ?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -114,11 +189,56 @@
       "confidence": 0.65
     },
     {
-      "id": "2cfdc8fd1975ff74",
-      "published_at": "2026-08-22T12:06:00+00:00",
-      "title": "US-Iran war latest: Trump calls Iran war \u2018a little detour\u2019 as Tehran maintains defiance - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pMk05V3loTHpKTHJyOFBSd2RWS0JKM3djNnZpdzFZWVN5R0loZm9kTjRleFZKSU1WMEtyOTF6Z1ZZV0JFdmhPNEFGR2J5WXo1V3lOeVlWd0E1VURWbkZLVjU4SzZkaWxDWXBkZ19n?oc=5",
-      "source_name": "CNN",
+      "id": "68752352eb6a30f0",
+      "published_at": "2026-08-22T13:01:45+00:00",
+      "title": "Trump\u2019s Economic Isolation Plan Risks Iran Strikes Across Gulf - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdmE3d2w0SnlMWFgzVVp5N3hZZndGbG56cXQwYTBxNHN1X3BpSEdDbU1xMEVkR3FVazhqcWNhMHRLYk44N1lWOHNiMUJWcVljVVcwUWJsSUxmLVB0N0swMFVMemJyUjVhLVN2ZVlwakV5R1ZnY09mVnFtTDJwMnZjQWlYMXNSZzNvUGtGWVgyWmZjWEJPSmtuU2c4SzVEeVRTVUE?oc=5",
+      "source_name": "Yahoo Finance",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6da1f5371a721172",
+      "published_at": "2026-08-22T12:45:46+00:00",
+      "title": "Taeb: US Power in Decline As Iran War Exposes Its Miscalculations - \u062a\u0633\u0646\u06cc\u0645",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPdUZxSjktaVBDLXMzX2RqdGl0azJjaUllejBPRk0wci1Ka0VhYms5R3RoY0dwN1NONHYyRzAtbHFGZ24ydWs2ZXRnSVlaQWhhTGl1Q0NjQmY2SmJJYWs4Z2VTbkx4T3Q3YmVJamFORHhnODNUZUdwdm55VEFCMlRqWnpyUkRtNERaZDg4V3FITTNtR09ZZGFUN0s1TEVKaWJKS1VydnoxdS1fZzgwSHVKcUNYNWRIanJQ0gG-AUFVX3lxTFBVeHBSbm52cWZYS3Z5V3pBOWwzVmNhamN3bG9CSFc2blVBWDRyVHM4WVdWUUNzN0hsOHcwdjdRN18xTklVMVoyY1RIREZsQVVvT243NHNIZGdTRlMtVmZNOHFUaXlmYV81MjNJZUFkOWJKb0NtZlJGTHQ0ZDcwcl9LZmpyb05vVVprOEduMDFYeEpTNFk0NmN6c1NkcmlqNGdnUXRwdVpXcHc5ZS1kLVVsbElNckdPcnZYMmlZRXc?oc=5",
+      "source_name": "\u062a\u0633\u0646\u06cc\u0645",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e53670f6d71aad44",
+      "published_at": "2026-08-22T12:44:07+00:00",
+      "title": "'Contrary to law': US judge strikes down Trump's 75-country visa ban - France 24",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdEN2SDJWTXM2bWJlZm9ISko1YV96REQ3bkNiaFZZR0g2OTlQUWwtWWI2alJyeTEtcHU0TzBkZEVHTW9hSWhwOENkQWZVQVhEUlQ5TloyNUZuOXhlR0lOaEt0cHU3TlYtY2tzdG1xY0NLTkhaY055Y0hGTWx0d0N4Uk5vQmlNSGZ1UUlpa2dvXzNyS3FvU1FqbzA5OWlmc292U0Fqdlo5TmlsZUdwVm1aaw?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6dd7133df0fe4aff",
+      "published_at": "2026-08-22T12:10:34+00:00",
+      "title": "West Asia updates: Trump says Iran not ready to make the 'right deal' - The Hindu",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZWJ5XzhZT1NydWZOajFFODNENUFCVGVsWk0yVmhpOHdiakhreGxhR3JHWUE3c24xempxc0d1eDdhS2k5d1M1eDR6SUVLT193b3lCdXdOdXk1ZXNlUHVLQmZXTmpIaTZ2dVNwc3NuMElLQWxTeFB2anlPS3VPeW5iTy1odXdTcVV5WndNME92LWpFcWdmcHpYMWo4LVRma0NrSEstakV2SnYwa19GMUl4RXdCNUJpZE5WVTNmdHRoVGhhR1Vmb2xUU0FXRGthdUF3VG1Dd3U0UThWU09QeklyZlNTbjNpdEh3WUg1bTFaYVVvUl9tVGfSAfwBQVVfeXFMTlMzaE44TVRBdWxqZ2VyTzJ1TXZOMmtnaTdsV2JVbGlMZnczb0dFak1Mb2lncmlnQUtEaGxzLTI0ZkNnVEl1aldkMW5YV0pUZWgxVkNxV3hvdjBQYmo2eWJwRnJMVVoyT25qRklVRUtEa3hwZFc1Y01rUk1TMGZ5OGozN0VQbVNKa0dVVVJMY3FWV05CWE1ZQjdTT2h3V1BhVzJmeUlhOTRRUHNzNnN4cUJpUS01NmFET0FvbWpuSHlaZmN4RHpXajNoZUNTMEZyNlF0aF9PUlh2dFotcFVxNl9OWXh6QmNfUVUyS1pHWTY1R3gzLU9zNXplOTVQ?oc=5",
+      "source_name": "The Hindu",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -144,11 +264,11 @@
       "confidence": 0.7
     },
     {
-      "id": "a0a5167c180b41a6",
-      "published_at": "2026-08-22T10:00:00+00:00",
-      "title": "Opinion | Projecting U.S. strength does not mean supporting open-ended war - Star Tribune",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXpPZXE1RDBHZ2VoWVBzS1pYa3YwYnlXM0QxZkhNem9CSmJKeDhad0JaTUd2ME4yVE1pX1ZTb1VLZHljX2E5WEpZeVhxUHJDWXRqcXp4cXJDZFB4OXhETUJIWU9JdTZzcVkxVDNfVGZQSWFqbFRKb21xemZVTjlxMUhKUW9mOGM?oc=5",
-      "source_name": "Star Tribune",
+      "id": "8c25d44ea6c4e399",
+      "published_at": "2026-08-22T10:19:45+00:00",
+      "title": "Are the Iran and Ukraine crises morphing into a world war? - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEQ5VnVKUVlXNzZlSUthNFlDQ3BGWUhZRDdCQ29TREtMTGJjOUlDaG5BblA2WS1oOGtnZWNfX2xvcno2Q015Y0VWU0ZkSVZJYjhkU3ZKSEx5aVo3OHVGd2J3WlZRdzFtWjRTdEE2Z01vTl9KZVhaN2FTSm04X0Z1dk5sZGNsdThFX21Ray1uSmZmVkdLOHR3Rl93?oc=5",
+      "source_name": "DW.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -159,11 +279,26 @@
       "confidence": 0.55
     },
     {
-      "id": "bb1f34e7e539daf1",
-      "published_at": "2026-08-22T09:44:50+00:00",
-      "title": "Are the Iran and Ukraine crises morphing into a world war? - DW",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEQ5VnVKUVlXNzZlSUthNFlDQ3BGWUhZRDdCQ29TREtMTGJjOUlDaG5BblA2WS1oOGtnZWNfX2xvcno2Q015Y0VWU0ZkSVZJYjhkU3ZKSEx5aVo3OHVGd2J3WlZRdzFtWjRTdEE2Z01vTl9KZVhaN2FTSm04X0Z1dk5sZGNsdThFX21Ray1uSmZmVkdLOHR3Rl93?oc=5",
-      "source_name": "DW",
+      "id": "2d07ed27ccd39bf9",
+      "published_at": "2026-08-22T10:14:13+00:00",
+      "title": "Iran says the world has accepted it has defeated the US, and other Middle East developments - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbkdFVjRsNUo5X1hHMVBVT3RGTU1JY1o5dmtub3ZOVVFOQ0FUejlvQk0yRmt0cVJjLXdPLUVBMXNYUUZFTTFLY05Eb00tSmpHZzdLUnBKVWkwVmMtbHpLOUhoNVlZMGIxMTFqVzJrelp6azU2MmNtLTVnRndWNWZqeExzaGEwdEVyMThpUy13cDFmRTU0VjRaMmpTdXM4YnBLTEJyMmVKekJuUDNQdkdJ0gG0AUFVX3lxTE00bHlkYzl3bWdRTWp1UG9zNy11V0haWFZaSHY5SnM2RjhtMkFoNi1KSUFFNl9fZEpRajViV0l5c0s2U3BiMWNidU9WazFpcjdZVV9hUGNKbi1yc2gza2g0NFdIbXIzbTFiMGpHOTB5SmdNa052Qnl0Nl9BODVZTnptcEhUV1BoVmxlMHAtRW9tcGNYcFlZelFkS3l4SVpvUW5SV2RxdGlqbDhGcm5QVTMyNlhGaQ?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a0a5167c180b41a6",
+      "published_at": "2026-08-22T10:00:00+00:00",
+      "title": "Opinion | Projecting U.S. strength does not mean supporting open-ended war - Star Tribune",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOXpPZXE1RDBHZ2VoWVBzS1pYa3YwYnlXM0QxZkhNem9CSmJKeDhad0JaTUd2ME4yVE1pX1ZTb1VLZHljX2E5WEpZeVhxUHJDWXRqcXp4cXJDZFB4OXhETUJIWU9JdTZzcVkxVDNfVGZQSWFqbFRKb21xemZVTjlxMUhKUW9mOGM?oc=5",
+      "source_name": "Star Tribune",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -249,146 +384,11 @@
       "confidence": 0.65
     },
     {
-      "id": "671b128ca3f92a56",
-      "published_at": "2026-08-22T09:10:08+00:00",
-      "title": "US War on Iran, Day 177: Can Trump Camp Break Iranian Control of Strait of Hormuz? - EA WorldView",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMlRDeE9pX001QWhMZEdxZmZNOWZjamxCelJDTGdERE45eEZRVWM4Mzdvc3hlcFdKMG5MUm5mWTIwMld1NkRYU20tSXJ1RWtfeDg0NTJwNUgtMmlXcm9uZDF1T1hoSzNJOHpSekxpTlk1dTRpTjlxalpkdEZUYk9ram8zeUE0YnRlN0E?oc=5",
-      "source_name": "EA WorldView",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "f6087b7ab37aa2f9",
       "published_at": "2026-08-22T09:00:00+00:00",
       "title": "Persuasion, denial and bluster: Trump \u2018stuck\u2019 on Iran war ahead of elections - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZGdrSnZWXzRGY09FMEcyTDAtNmllR0tuWjZTZWxkSjRKcHUta2VRbkRYQ2tWN2p1SU44TjVhdzBlTm9QVDA1TzFyMmtSVlQ5aGZ6bVVtcFNaem5pSWNrOHRGU0RjN3luNWQwWlg2UVZhLURsWjIzcWMyX2dPYWNHbXVhQzJIekZLYkQ4cm0xSlQybUh5dlh0Mjk4MA?oc=5",
       "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e0d92ad38f179e14",
-      "published_at": "2026-08-22T08:05:44+00:00",
-      "title": "Despite US War on Iran, This Pact Could Reshape the Middle East - Inkstick Media",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNM0RzLVFVdFBmbzBZbFFWYUxrOGNyZzkyR3NHVHpqZWVFTnVPYVNSUlpSUkktam9FeDQ2WjJ2UmVlaHh3VS1DRVd3b0hMX3o4RUVldWhmV3hnMHRMa01RM3dXT1NzN3hwWmpPdEZxOEZ2RTNKZVNmanhWQVUzdFEtN28wY250S1VQa2JNM0lUOFpRTzQ?oc=5",
-      "source_name": "Inkstick Media",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4935756305706173",
-      "published_at": "2026-08-22T07:05:00+00:00",
-      "title": "Iran Dismisses 'Unprecedented' Sanctions Proposed By US - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b14c58b643a8ed40",
-      "published_at": "2026-08-22T05:57:49+00:00",
-      "title": "Iranian army says its military doctrine shifting from \u2018defensive to offensive\u2019 - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQOWpTRWJIQV9MVHY2MXBEb2FybFZXM3g5Zm5BWUU2b0xSd1RKNzJxMXVUdHBJcXBGQmE2bWVtaUNDQVBrU2ZGeHR5QWl1UVFLQW5ScVlTbHd4ZTY4YThCN0dwdlVPN2VwUlUxUHNKWldvZjdKNjZLclhvT24xUEV0VzN0UTloRXNfcE9YajB6eTlXclJzTHlLRXU4Sl80b0E0a2JlMEFNMEl5T3Z0cEwwblhpQWxNbm5UWm1jZDFR?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "289ba676b5c912fb",
-      "published_at": "2026-08-22T05:10:00+00:00",
-      "title": "Iranian Military Vows \u201cDevastating Response\u201d to US Economic Threats - Ukrinform",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxORzNiQzhMTEZKd1ctWHhvaHdqclIyLTB5S2RNS3NFUjI0MnFFbmVNSW92cGhxR1p2c01PbktoLTMya1Q1ZTFhS1Y4X2EwaVRpbmxsNHB2Ykd4U2I5Zm95V1FETVVNcmEyc3RqZGpKV2dpSmprMndoMU8zdzZsZEoyajVOMThuaWljd1M0SUl1cUpiYUtvMTlvUkNFQnVkYkR2cF9FWjh1bVdmQktFQXI0b2lveVVRUdIBuwFBVV95cUxPbzFxYVdYa2FFdENmdzZSanUtM2VEZEhaZV9PZ1FrSnFUdzMwYnJ3V09NZFFnaUk5MmN1Qnd5aVlDWEhJcldLQmxtWkM2eHA0SDZyOW9MWElXcUd0bGdBSVdnMGVSU05YR0R0ZzNubHBKRC1UekNfbDRFRnJST0wxS3BtVzg4TFBXZlpoNkRoYlU4cE1mR3FSbkROZUxZZkZscVVEQUx5RVJsOHdrRkxkRXloSTRlRGMtaHZz?oc=5",
-      "source_name": "Ukrinform",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0d3cd8a3af25b851",
-      "published_at": "2026-08-22T05:07:49+00:00",
-      "title": "Iran vows \u2018devastating\u2019 response to Trump\u2019s sanctions threat - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdDJFejA4Z1VTU1Q1MWZtYWNuQ1R3c3NuclUzQjNMZEZ5RUJ3d0pNY1VvOUNSanJJa05CdFNPR25IMDJoWmJTdTIyS1ZQVXc1TGRoNndoLWRGeEYzV19WU1dsMHpOQjZidkJSckVpSHBfdzNvMDRsdmItMUx1Rkh5c1RuRzlkQdIBiwFBVV95cUxNTkxNMi1rQ0lsUjdlSmk3d0NUQVliMjItZWNQMGNMUURPV1d5Si1vTzNCeVQ4ZUpQNFZVSmdGNTdZMmhCY0c0MXJ5S25YM09CaEFfWkxDUjdCUUh0N0VPSEdLd2d6NnBCeW1hbkxTeEhCM3ZzTkkxemx0VGExQzlTcW1XMHdVTWJ2YjlJ?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "bcc2bf101e066bc3",
-      "published_at": "2026-08-22T05:04:00+00:00",
-      "title": "Trump heads into midterms short on foreign policy wins - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPWVpobThVRFlSUldKZkNtUFdwaTRmaFZyQl9HOExfQ2dxQkFOd2EtdWdtWUZ1ckthb3dKTVZwSmtpNk5Eb3A3dVFhWnVqZzlyMlpCQlFydGZrYTlyNzFDV21fQzZPYWxqeFBranZibzZiampxb3pyYll0LXhqZUJmN2ZNa3Q2UE55Tk1QSEx3NG9wd21zbFowNjZIcTY?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4cab61c3fe6f5563",
-      "published_at": "2026-08-22T03:25:52+00:00",
-      "title": "US judge strikes down Trump immigrant visa ban affecting 75 countries - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPdTh5QUtBaEdBdXktUUFZZEIxck41U1paUUw2NnlJc1hvVldvUjU0UzRMVmJkQmlEbWtnZzZ3bThyVVBHVk8wc0NBaENqblRCeWFpS05ycjhNVmNIT05venltaFlOb29vZ29NemxRb0dLa3hrYUM4QzhhVmJNcWs4Szl0c25DdDliQU5rNlgyekJmajFpbE9Oc1cyTGVKbHhhbXhmVDNHTGFBRDRxc2Fz0gG0AUFVX3lxTE9qWHVqelAyNDVDR0ZSZ2owbVQwRGVXVEdZV3ZEOWNib0pVdDZubzAwNzlNc1hQODdRZ3d5S2huY29hOENJWmhrYUxWMEdMelY3eFR3UTVRVmtfVzlKLTJWOWNva3RwT1NBUl9nUy1PUlFCNTU4TEhRemphMTE0QVpkWktGY090VXc5NGJ2OXd5dy1HYWRVR21kQl80cmZTSXZUN2RkdVA1azJYS3NvUmNETnA3SA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "dec1bce1cb782830",
-      "published_at": "2026-08-22T02:05:14+00:00",
-      "title": "Trump says Iran not ready to make the \u2018right deal\u2019 - The Mighty 790 KFGO",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHd1Ny1CSDFmeTI0X09GOUdzTlpFbjdvejgydlQ4NHEtYm5XMTJXdm1ZdXBaVU9xclNJdnJXYjFXUUtSVDVJb2o4c0lYTmgzcThkbVdoaTh4RXhwUjVQWV9GUVpodHdrRkpYODBnRm9BQXotOWZXN3JkMGdJWFFCcDM3NGNJdjJXNlFjMQ?oc=5",
-      "source_name": "The Mighty 790 KFGO",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
