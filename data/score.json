@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-23T18:50:09.383413+00:00",
+  "generated_at": "2026-08-23T21:39:08.230663+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 90,
   "totals": {
-    "usa": 22,
-    "iran": 15,
-    "lead": 7,
-    "lead_side": "USA"
+    "usa": 8,
+    "iran": 16,
+    "lead": -8,
+    "lead_side": "Iran"
   },
   "momentum": {
     "usa": 2,
-    "iran": 14,
-    "delta": -12
+    "iran": 13,
+    "delta": -11
   },
   "confidence": {
-    "score": 64.2,
+    "score": 62.2,
     "label": "Medium"
   },
   "event_types": {
-    "other": 52,
-    "diplomatic": 16,
-    "attack": 27,
-    "intercept": 2,
+    "other": 58,
+    "attack": 16,
+    "diplomatic": 14,
+    "intercept": 1,
     "material_loss": 1
   },
   "history": [
@@ -79,25 +79,115 @@
     {
       "date": "2026-08-20",
       "usa": 0,
-      "iran": 1
+      "iran": 2
     },
     {
       "date": "2026-08-21",
       "usa": 0,
-      "iran": 3
+      "iran": 2
     },
     {
       "date": "2026-08-22",
       "usa": 0,
-      "iran": 4
+      "iran": 2
     },
     {
       "date": "2026-08-23",
       "usa": 2,
-      "iran": 5
+      "iran": 6
     }
   ],
   "latest_events": [
+    {
+      "id": "236c14c92120c268",
+      "published_at": "2026-08-23T21:05:00+00:00",
+      "title": "Iran's president says U.S. memorandum is best path out of stalled war, and other Middle East news - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOFhFbmRoaUtIMk1wVVdxMW5xVUhDZUoyVUdOQV9HNVh1UzloOTB4Z2FxVVlJN2x0ZkVJX3pWcHhndnNhLXlKRUExM0VadVFMdXdPaUtrRXltY3JMeVF6XzdPdlBDQ2U0TXJidjdsMWU3UHNpblFOWm5xMWVHcXFWaUxVbExhelhXQTRSZmxhek5YUU1xMzN0Y1FDV29JZEpYYWNDajJIUnlWeld2aTZ1N1ZwLU8wUVhiSjE5SExwSU92WVlVNzhQcNIBzgFBVV95cUxPMXlxalVxZ05nNjFXcFM0Ym5YNnp2QndBbzZGYTU2ZXF1QXlKQVVvVFBSTmhnWUo2Z3BkMWsyWS1Odkl2VmxJbk8wb0Q4cHh3LXV4aklRdVU2bmd3NWFqUDJONXlVZEk4eHl1SEszZ1hPcDFBSDRnN0xicmhmT29ld3VwRXRJellyRlBteGRMVTE3RmJ0WnlMaWlHbmhRdjE5SWRpbndFODVkS3dRbGtHQThad2Jnb21fZ0V1X3h2akI5dnlHMlBQZU11MFlmdw?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "42ff9e79374b1042",
+      "published_at": "2026-08-23T21:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrdGVDWkZZTU1zblFQTnBheFM2ZHNGVTdUR3ljQXBINEh6cTlpTmFCVkxoeXlZYTdlWE5ROTZSMlVnSVZJZWRSdkRUaUJYSEZxYWhDVmk3WGxlRm03Wjlxb1VoWDhkNUx4bWlzNTRpQkE5SUF4MjJtWU1Ec0dEQnc?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ab69c9d0a17edfcb",
+      "published_at": "2026-08-23T20:58:57+00:00",
+      "title": "Iran war live: Iranian parliament advances plans for Hormuz service fees - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2eb3b6022d77e5e3",
+      "published_at": "2026-08-23T20:35:00+00:00",
+      "title": "Live - Iran\u2019s rial sinks to record low as dollar hits 2 million - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoWmgyT0l1R0RTN2xyTlNYNjBGZzVaMEdYNG5TcVZCa3puOV9XS0tZUTZOb1Z4MjZoc2NjOGhRMExkSDY1S1lDUjZGOEdUb3RMSHZoV0RKMVNSX3Q1bEE?oc=5",
+      "source_name": "Iran International",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2f642da0925b8c99",
+      "published_at": "2026-08-23T20:02:00+00:00",
+      "title": "Iran official says support for new sanctions would be an 'act of war,' and other Middle East news - AP News",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaHdQUFYyOHpTM3RqRFRpLVhoaDJZNVdRZFhqS3pDRHpkSlJ2VUxPaG0wUVN0WWpwQWphNzFGUFM0SHpHZTh4QW04cllJRTJsRWRCMWpSLTFpUS1TR0Q0elNabDVMcC1Iek1hZHFEN3hUeG5Rc2xHYTM5RnVzdGFDUDR1ME5KYWNYX08zcTNpa0stN0E5R2FpY09sSXdvV1FkV0kxa3I4LWQwT0gy?oc=5",
+      "source_name": "AP News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "30e4ca7a8774d13e",
+      "published_at": "2026-08-23T19:24:00+00:00",
+      "title": "US-Iran war latest: Iran\u2019s hardline new security chief issues stark threat to Gulf states ahead of fresh US sanctions - CNN",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
     {
       "id": "0c1e37cf38c70884",
       "published_at": "2026-08-23T18:44:00+00:00",
@@ -144,26 +234,11 @@
       "confidence": 0.55
     },
     {
-      "id": "30e4ca7a8774d13e",
-      "published_at": "2026-08-23T17:35:00+00:00",
-      "title": "US-Iran war latest: Iran\u2019s hardline new security chief issues stark threat to Gulf states ahead of fresh US sanctions - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE10NWduUk9rVWtZSTJ4a2k3clBvRGdIQlFLaWFyM1VqR0RDZTE2QnhfUHRleWh3T2oxR2k3Y19mVi1EcURxSllxd0lEblFoNklOSS0waGpqdGM0bjdWUm1Kamt3Tm9GaTNBbWVlMnJB?oc=5",
-      "source_name": "CNN",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "15291d5231bd2e0c",
-      "published_at": "2026-08-23T17:17:21+00:00",
-      "title": "Iran war live: Tehran says need to move beyond \u2018no war, no peace\u2019 situation - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "6e46a7320a0c09d3",
+      "published_at": "2026-08-23T17:57:06+00:00",
+      "title": "Iran\u2019s president says US memorandum is best path out of stalled war, and other Middle East news - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGJwS3FpSmNFcWloYWVuOHFpT0Fydl95RW53N2ZvTGVsUzhKQi1KVVRTTVp1UGRJcUFRczdONS1STHZXbmMwa3RGbHlCX05GNjhmTUtfTDFDdF9QOTNES1pSNm1KakI3MWxxcFJsSmtNSEJJMS16T0JfNTZrZ0loclJTSjhPX1c1Z0NaNWthZkRRWWlQcXB4TVZheEpOamtuZkNLa1AzdEdOYXFYYmFPaUViblJVNm93ZzFkc3BaYUMtMWZhQ0ZrckNn?oc=5",
+      "source_name": "WRAL",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -172,21 +247,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "2eb3b6022d77e5e3",
-      "published_at": "2026-08-23T17:01:32+00:00",
-      "title": "Live - Iran\u2019s rial sinks to record low as dollar hits 2 million - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBoWmgyT0l1R0RTN2xyTlNYNjBGZzVaMEdYNG5TcVZCa3puOV9XS0tZUTZOb1Z4MjZoc2NjOGhRMExkSDY1S1lDUjZGOEdUb3RMSHZoV0RKMVNSX3Q1bEE?oc=5",
-      "source_name": "Iran International",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     },
     {
       "id": "5b0d9700aee7181a",
@@ -201,22 +261,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "464f24965760e1ff",
-      "published_at": "2026-08-23T16:35:00+00:00",
-      "title": "Iran threatens to strike US companies - The Telegraph",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSUNvWmVDUWV4OGVGWkZMTmhrLUJpcmMxZXk5MnBpd3AzanN5T25JUWduNjAtM3U5YkNXUXUtRzZKNjF4S2xKc3ZzVlFBdnl2Z2ZlSVozcDl6dU96OVA3SktBVmdJSDR6bzBkNTJ5XzVfSkFEVmVzZS1CSVhHb2M2cjhyVjZFcjNwTTZHQU5tdEdfdVQ0aEE?oc=5",
-      "source_name": "The Telegraph",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
       "id": "a8f921aba241c1d5",
@@ -224,36 +269,6 @@
       "title": "Live Updates: Iran's president defends U.S. memorandum of understanding as best path forward - CBS News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5Kam8wUzBnbm9NT3lVYWFjNFhIS1hXaEhlWVVtTkF6SEtVeXk4WXhEZjFTcWdUaXZxQS1RZFYyOFcyZFNocVVVdWhrT3EtbnUtdzBWdUswZ2VDX1FmX1MwTHQybXZDSE82YzFJb185UXRUZlFkeHRlZGFKcw?oc=5",
       "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a17c56ca4d62bacb",
-      "published_at": "2026-08-23T16:26:00+00:00",
-      "title": "Iran\u2019s president says US memorandum is best path out of stalled war, and other Middle East news - AP News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNaHdQUFYyOHpTM3RqRFRpLVhoaDJZNVdRZFhqS3pDRHpkSlJ2VUxPaG0wUVN0WWpwQWphNzFGUFM0SHpHZTh4QW04cllJRTJsRWRCMWpSLTFpUS1TR0Q0elNabDVMcC1Iek1hZHFEN3hUeG5Rc2xHYTM5RnVzdGFDUDR1ME5KYWNYX08zcTNpa0stN0E5R2FpY09sSXdvV1FkV0kxa3I4LWQwT0gy?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "236c14c92120c268",
-      "published_at": "2026-08-23T15:40:37+00:00",
-      "title": "Iran's president says U.S. memorandum is best path out of stalled war, and other Middle East news - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOFhFbmRoaUtIMk1wVVdxMW5xVUhDZUoyVUdOQV9HNVh1UzloOTB4Z2FxVVlJN2x0ZkVJX3pWcHhndnNhLXlKRUExM0VadVFMdXdPaUtrRXltY3JMeVF6XzdPdlBDQ2U0TXJidjdsMWU3UHNpblFOWm5xMWVHcXFWaUxVbExhelhXQTRSZmxhek5YUU1xMzN0Y1FDV29JZEpYYWNDajJIUnlWeld2aTZ1N1ZwLU8wUVhiSjE5SExwSU92WVlVNzhQcNIBzgFBVV95cUxPMXlxalVxZ05nNjFXcFM0Ym5YNnp2QndBbzZGYTU2ZXF1QXlKQVVvVFBSTmhnWUo2Z3BkMWsyWS1Odkl2VmxJbk8wb0Q4cHh3LXV4aklRdVU2bmd3NWFqUDJONXlVZEk4eHl1SEszZ1hPcDFBSDRnN0xicmhmT29ld3VwRXRJellyRlBteGRMVTE3RmJ0WnlMaWlHbmhRdjE5SWRpbndFODVkS3dRbGtHQThad2Jnb21fZ0V1X3h2akI5dnlHMlBQZU11MFlmdw?oc=5",
-      "source_name": "PBS",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -279,11 +294,11 @@
       "confidence": 0.55
     },
     {
-      "id": "c3a649f7118b723e",
-      "published_at": "2026-08-23T14:51:34+00:00",
-      "title": "Iran: President defends US deal as best option for peace - DW",
+      "id": "ef37288e6fc61d54",
+      "published_at": "2026-08-23T15:22:29+00:00",
+      "title": "Iran: President defends US deal as best option for peace - DW.com",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1psZ0ZrQ01qZGNYR3VGZ2lQTk9vaEpydUZROVlBZHFYVUx4dXNKRWNFSTVZMWc1ZDVsVjd4bk9YUFpFaDE0N01LVVpKeEl4QlF2RlBCNmNCMXZ4YW04bmp4YUdpYkItTjdENmQ4RmZNQmtJdUplQkc3SEFwcEZONUZZcXFBZlVkczA4SDY3RlRkUE1WaUhtdtIBmAFBVV95cUxPUzVya2NVc1A1bElDeDBSazFUTjRnRmVWaUNMMHBxa2l3NnZxb01Ra0FyUU9Fb25EbV9qUnphQ3VTbTRxT29Wdno2Vm94TGNVdG9Mc19McEZWS1dpb3BaR1lUUXJOMjBfd3pMOEdXNHN3NHlYeW1aU1M4VGV2Z205alB4aXJhODRWT3JOUWZHV0xQRGNOY0xDdQ?oc=5",
-      "source_name": "DW",
+      "source_name": "DW.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -369,11 +384,11 @@
       "confidence": 0.65
     },
     {
-      "id": "7364f8074cd9f32c",
-      "published_at": "2026-08-23T12:50:39+00:00",
-      "title": "Iran Announces Gas Discovery After War Worsens Energy Squeeze - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQQkxnTllRNDVEcmxoZXliRWRzNHB4OFo3SnZaVXN1cTJuSmVmenVvbENVUUlGOXZpeVlucThwb2JhVTZkcU5EY1ZCcjZOMzVvc010eTlQTkhUVVl4cms2SmxVTFJiYVlDelFFSElzNFppem9TcWsxeGNOT0NmMy1vLXFFLU1QU3JGUXNqWHhXRE5mMUhKZDUtMkFHVy1PMmptenA5NVY1cnVtbk56dkNyYjhB?oc=5",
-      "source_name": "Bloomberg.com",
+      "id": "e38abea1afd527f6",
+      "published_at": "2026-08-23T12:40:27+00:00",
+      "title": "Pakistan Army chief Asim Munir to visit tomorrow amid Iran-US tensions - Free Press Kashmir",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOEdJUWZtNDlIcXUtX2ljazJCSllEeE9ZXzZGU09NVGc4eGZUcW80X2lkbVRDcFJnMUdRRDNDUWxWNzNZeXpnOE9FT1RzVWxmQnNEZ0dtYkJaUFdVendtTWhsdVVDVm9jTE00LWZrLWs2ejBXR2xRRE1SX2I1UDNPUmxJMHktcmFCaW41T3lEYTZ4VjNqNmc0YVlBLV9FQzhETVBBMnBLeXpJX3R6c0ZQU2xR0gG3AUFVX3lxTE1XSVBRSGxhenFrb0hRSU0xSlh5SlpfZWRzckw2MzFPQjE4WHZtR3hDMW5GMnB6U3l2eXNfeVEwaVpKVER5dkpHb0lEVjkzLURFVFFkVl9NNXNPcGcxZWROLTZVUU1PWFN6eTBnWmFjQ1NaYmZnb0VXVVRtUFFuOXZ5YjBXOENMZDV2RGVSd3h4UkpoLURYbXR1dXRpakZyNjdpVUxKZjFIUFBoSmhkYWtWXzk3VUFyWQ?oc=5",
+      "source_name": "Free Press Kashmir",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -382,21 +397,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "ed34f57c1c0f1b41",
-      "published_at": "2026-08-23T11:54:48+00:00",
-      "title": "Can Iran retaliate against countries that join US \u2018economic war\u2019? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObTd4NEFUNFNoTGljajhvWHNHYkF3ZkNjSFUxLWNaQnpYWnZkTTJUZnF5VXI4Y0QyMHRWbU9nYVRPTjNWbTdBWHBnenZ4MzVUdTROZEVLcm9LNmIwSU04U20weXdBd0ItQ09aZ2ZwMEJPWG9EemI4dGMyQ25mQWl2bTR0WkR3TVpoSjMycXp1a21DUHpVNFNEaHNfUHhnTEhlWEpHVlR30gGrAUFVX3lxTFBtNHFnMmFyQ2F2MlpwN0daZ2laV0p5eHhVYjlZZWVwUU11MGRwV3F0VUo0S19VeTIxaWZ5d3BiUWZwZlBlZExPNFA0clh6YU9rTGRCcmVhU2lmMEFCZGRBOFBMYUFFNW5rcHd4Wlh6SHBBTndjZ0hvQlR3TmhWZkZFdElsQkhsLTFLQmd2Sk1BM1FrVWRpcGJPQmc1V1FCN3h3bEZsc2FZLUREMA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
