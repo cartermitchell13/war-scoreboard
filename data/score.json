@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-23T09:46:01.203396+00:00",
+  "generated_at": "2026-08-23T13:04:34.391707+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 100,
+  "event_count_window": 98,
   "totals": {
     "usa": 22,
-    "iran": 16,
-    "lead": 6,
+    "iran": 14,
+    "lead": 8,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 2,
-    "iran": 12,
-    "delta": -10
+    "iran": 13,
+    "delta": -11
   },
   "confidence": {
-    "score": 63.8,
+    "score": 63.9,
     "label": "Medium"
   },
   "event_types": {
-    "other": 54,
+    "other": 52,
     "intercept": 2,
-    "diplomatic": 14,
-    "attack": 29,
+    "diplomatic": 15,
+    "attack": 28,
     "material_loss": 1
   },
   "history": [
@@ -34,7 +34,7 @@
     {
       "date": "2026-08-11",
       "usa": 0,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-08-12",
@@ -79,12 +79,12 @@
     {
       "date": "2026-08-20",
       "usa": 0,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-08-21",
       "usa": 0,
-      "iran": 3
+      "iran": 4
     },
     {
       "date": "2026-08-22",
@@ -94,16 +94,46 @@
     {
       "date": "2026-08-23",
       "usa": 2,
-      "iran": 2
+      "iran": 3
     }
   ],
   "latest_events": [
     {
-      "id": "dd3382613c205967",
-      "published_at": "2026-08-23T09:07:29+00:00",
-      "title": "Iran\u2019s president says US memorandum is best path out of stalled war, and other Middle East news - Bozeman Daily Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPM3pmLWdkbXJNbTEtRW53NVg0b2JvY3dsenFGa2t1ajRMbXRlOHhNOEZTc2oydmFBazA0Q3ZBZXVpQzlFY2tMOGVRbUk0UkdEbERuYS1RQVN6TFJLNHlid2Z1eENvRkh2VE8tdHpXeFItdjB2STBPcXVrOWpyM0xhVTNOTTJTX251cGR6SmVPNzFtazBsRlJPMmZpWmN3Z1JNekV2endUSXdtNkJQUmcyOWdwMGtfcUVwQ3FvTHlSaVBpbXBzMlpjRHNTcGRlNzVETGhhS1VERHhJZU9EYlNhb05rQ0JJM2I3T2hoOUVFWmFXTzRhSlNPakVhSE8zdE5MeHlia2VB?oc=5",
-      "source_name": "Bozeman Daily Chronicle",
+      "id": "e38abea1afd527f6",
+      "published_at": "2026-08-23T12:40:27+00:00",
+      "title": "Pakistan Army chief Asim Munir to visit tomorrow amid Iran-US tensions - Free Press Kashmir",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOEdJUWZtNDlIcXUtX2ljazJCSllEeE9ZXzZGU09NVGc4eGZUcW80X2lkbVRDcFJnMUdRRDNDUWxWNzNZeXpnOE9FT1RzVWxmQnNEZ0dtYkJaUFdVendtTWhsdVVDVm9jTE00LWZrLWs2ejBXR2xRRE1SX2I1UDNPUmxJMHktcmFCaW41T3lEYTZ4VjNqNmc0YVlBLV9FQzhETVBBMnBLeXpJX3R6c0ZQU2xR0gG3AUFVX3lxTE1XSVBRSGxhenFrb0hRSU0xSlh5SlpfZWRzckw2MzFPQjE4WHZtR3hDMW5GMnB6U3l2eXNfeVEwaVpKVER5dkpHb0lEVjkzLURFVFFkVl9NNXNPcGcxZWROLTZVUU1PWFN6eTBnWmFjQ1NaYmZnb0VXVVRtUFFuOXZ5YjBXOENMZDV2RGVSd3h4UkpoLURYbXR1dXRpakZyNjdpVUxKZjFIUFBoSmhkYWtWXzk3VUFyWQ?oc=5",
+      "source_name": "Free Press Kashmir",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6e46a7320a0c09d3",
+      "published_at": "2026-08-23T12:39:18+00:00",
+      "title": "Iran\u2019s president says US memorandum is best path out of stalled war, and other Middle East news - WRAL",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORGJwS3FpSmNFcWloYWVuOHFpT0Fydl95RW53N2ZvTGVsUzhKQi1KVVRTTVp1UGRJcUFRczdONS1STHZXbmMwa3RGbHlCX05GNjhmTUtfTDFDdF9QOTNES1pSNm1KakI3MWxxcFJsSmtNSEJJMS16T0JfNTZrZ0loclJTSjhPX1c1Z0NaNWthZkRRWWlQcXB4TVZheEpOamtuZkNLa1AzdEdOYXFYYmFPaUViblJVNm93ZzFkc3BaYUMtMWZhQ0ZrckNn?oc=5",
+      "source_name": "WRAL",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ed34f57c1c0f1b41",
+      "published_at": "2026-08-23T11:54:48+00:00",
+      "title": "Can Iran retaliate against countries that join US \u2018economic war\u2019? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxObTd4NEFUNFNoTGljajhvWHNHYkF3ZkNjSFUxLWNaQnpYWnZkTTJUZnF5VXI4Y0QyMHRWbU9nYVRPTjNWbTdBWHBnenZ4MzVUdTROZEVLcm9LNmIwSU04U20weXdBd0ItQ09aZ2ZwMEJPWG9EemI4dGMyQ25mQWl2bTR0WkR3TVpoSjMycXp1a21DUHpVNFNEaHNfUHhnTEhlWEpHVlR30gGrAUFVX3lxTFBtNHFnMmFyQ2F2MlpwN0daZ2laV0p5eHhVYjlZZWVwUU11MGRwV3F0VUo0S19VeTIxaWZ5d3BiUWZwZlBlZExPNFA0clh6YU9rTGRCcmVhU2lmMEFCZGRBOFBMYUFFNW5rcHd4Wlh6SHBBTndjZ0hvQlR3TmhWZkZFdElsQkhsLTFLQmd2Sk1BM1FrVWRpcGJPQmc1V1FCN3h3bEZsc2FZLUREMA?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -115,7 +145,7 @@
     },
     {
       "id": "0eeb846a50ad8a91",
-      "published_at": "2026-08-23T09:07:21+00:00",
+      "published_at": "2026-08-23T11:27:21+00:00",
       "title": "Iran war live: Tehran warns neighbours against joining US economic war - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQOU1LUHpQeDVTWHlVQ25TbER0TExUcV9wcGIxY241UXhJeHNVTWFEVjQwSVpxTjBPT0h3b0FzT0FQX29Lc1o4c0VJRkt3c3BFYTIwUWdGbVFhb2I5b2FIYk1LMl9rejhSdk5KWHhNTGtWd3B5M0dzbkNnTlpyMUFxV2FfMV93R3Z4aHBOTmZGMUUwVk9lRDRlTnRRV3hMRHdUS1JsazFLYlRkaGN4OGtPNm9XQVpOVmJZVXBF0gHAAUFVX3lxTE9rcEFXUnZQM3pvYThzODM5SEQ1eFBVREdFN3RwNWxJUnRDYS1BcllTWkJ3TzVmeWl5VldHS25YSkFaY21ZTFg5SkgzX3pnODJ2N3k1cmRSbDNMdnBCeF91SmxpdDR1aDdlNGpqOWh0S056UUtxTmxULXRQQjctRVY3MkdtYTF4UlhKSEJXUmRZR3ptblNTcXlFOGdCZUtmT25pUVBTYjEtT0hZamNZTUc2a1B6eUV2QUpMTTktcmZUag?oc=5",
       "source_name": "Al Jazeera",
@@ -127,6 +157,51 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "b2c7c07f59cc6c20",
+      "published_at": "2026-08-23T11:08:00+00:00",
+      "title": "Iran says Pakistan's army chief to visit Tehran on Monday - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb1l4dmU1TFpSU2FINWVIZW5YLTMxaEhxY2hJa0tYZldGeG9Sa2loOFlfZEp5RkFDZ1JVMWQ5Y0VMY3hkeUlxZnh6QzVsTUdEcmJSckU4SGhoUURLN3M4Qi1hbkdXYXk1YWdzRUlKLU5SUmo1bC1tcE5pMzE3bkRYQmN0SW90YXNNQnNxTWZuWWwyM0x5NnRReGFiV1V3b1VOMElSVm5NVE0?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d194bbb247aa9233",
+      "published_at": "2026-08-23T10:49:37+00:00",
+      "title": "Iran\u2019s president says US memorandum is best path out of stalled war, and other Middle East news - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeGs1eVJuZ1pjeHlEemt6UkZNYUZVYktOS3dUamlnaGpqV1BLMXVsLUZva251Um02RXpsd1lGOFJwNmVMeVo4a0I5a0ZVVmkyZ3hLTXZmUS12YW5EMkp0N2Q4dmswN2JYdWVFd0JuMzBWdDIzeVk2MWU1OGpLSTVMSVN2eUhtZEdMNUNNbGFkOHBnX1ZSY2x3Snc1aHZHWXV3TmJXUmRlVmPSAa4BQVVfeXFMTWVidE1QMzVKelBaUVRROW1LY3JGM0g4YTJ1YVNjWkg0YXJGNXlVZTA1VldpUXlZYlVxZ0R1dFpuby1fN3FCTHZvYU90cmNHRF9DMlJOelVHcWZKME9wT1NUd2pqQWFUSll1ZURHVUh6amVMS1hleG1iX1FydzRtUDlmY1NtLTk0NFg3aXZmSkphWXAtWVhmS2Q0NHJFMkhWSWlrbXJxZnlSOHphUC13?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "e25525ecdb06506b",
+      "published_at": "2026-08-23T10:02:52+00:00",
+      "title": "Pakistan army chief Asim Munir to visit Iran, FM spokesperson Baghaei announces - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WTW1jbDI2bUhpZFg1VkZtWHhvZ19BaFlTQ004QllON2FPek1iZDJXS1JRbFRLTVlzQWlyV2FqNjN6RlpOU3oyWTN6QThaSEZpek53NTQ1V0RnaHpMblNLWjQtcUxMenVoQ2c?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
     },
     {
       "id": "2f150a5e66e65a7d",
@@ -144,26 +219,11 @@
       "confidence": 0.8
     },
     {
-      "id": "6b07d88c0435d8e8",
-      "published_at": "2026-08-23T06:00:00+00:00",
-      "title": "Egypt and Iran discuss how to go about making peace with the world\u2019s most powerful military, even as it attempts to shield itself - Business Insider Africa",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQazhTQTF6V2RkT2ZSTGJuNV9pTXNZWm85NHBHLWRiaU5ERE9BWE9MTzV4QzljZTlta0tIOHlMRWtFY25aU1ZobFI0bmFuM1pNY05COXZGX0NydVpPMFpHUXhzYm4tWnVxS0FaT1otcS1ZUzlLV3d6SUliYi1YUS1Wd3VsX0lZQ0Z2Wi1ZRlFTSG1QU2ppSjJ5RWk2RWpPZDU1VktxVlRvZ0NNUFNPX1JHWjNPS0hpV1JYeVN1c2pfRWdVMU5HU1M1UW9Na2c2bl9sQWN6RmZMVQ?oc=5",
-      "source_name": "Business Insider Africa",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8eccbba071e8e4bf",
-      "published_at": "2026-08-23T05:44:03+00:00",
-      "title": "Iran warns of retaliation against countries joining US \u2018economic war\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlFYOHBOWnRTWC00UkQ2U2FBWWJYRXFNT2NXUXJla1pNU1JFTzJZX1dsOGVvVGJLdEItUlBHUHlrMkJJSE1lS0gxSGIzTTR5T0F3RkRfbGNhalRQV3dsQ3dHbEx4OS1yOG9ldjAtamVWVUpnZHNyekhLYVdMRWpaa1k3a1ExdDFheHYzMGVrWDFmczktdHpjOXNnX0pkSVFVZzBKcnNLTEhxQdIBrwFBVV95cUxQT3VjZlFtdm1HYzhhQmZyZ05QWXAxUFJFc2J3d2NiSWRtbVFmWUhXSk9qNmF3dHotQmhJWm9aakxEcDkwb2cydU5KclJ2WlpYODhmZTFaZENuVmdiVWdicU4xdHBMaGIxcXY5VFk2RG1SZld2WkhWeGp5TlN0TjdVWWpOYmtSZllhQzZRMzduby1CWGJNdkRPM3g2MmJGSnJaWnBkWVpMZVA3YS1pYy1v?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "e035a5fc6bf0e8bc",
+      "published_at": "2026-08-23T07:05:00+00:00",
+      "title": "Egypt Stresses Need For Diplomacy In Call With Iranian Foreign Minister - Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+      "source_name": "Radio Free Europe/Radio Liberty",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -204,17 +264,17 @@
       "confidence": 0.7
     },
     {
-      "id": "3843993101d74bcb",
-      "published_at": "2026-08-23T03:29:51+00:00",
-      "title": "Iranian strikes on US facilities heightened tensions in Jordan \u2014 ABC News Australia - UA.NEWS",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQMHdzcjJQVTBjdVljOW9OVERqc3Q5bjhRTkZIb2xXOHlVeHZFNFlKYlRMWkw2SDhSWjRBSnJPckVHdjcyTmNZY2pMWnp1dmtCTFN4ZWI0UGgzTTBwR0hxMkpUMEp6eXA3anFNeGxXQUcyQnNON2RBM3BvTHJYcFNtLWZaMEJRS19QQ1NwU3BjdW5BTzVDbWhqVWJKRFFGdHo5MmJSVmxWcw?oc=5",
-      "source_name": "UA.NEWS",
-      "event_type": "attack",
-      "actor": "unknown",
+      "id": "cee272724550fae7",
+      "published_at": "2026-08-23T03:34:00+00:00",
+      "title": "Iran\u2019s president says country faces \u2018many problems\u2019 as US ramps up sanctions - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX1I0S3hyemkyRkVnUldIb05KbVViYW1tclh2T3lNSUlEM00zT3hSeHZZNDFVNUhPdGVjenB2WW1NUGEyOHNxdTJoSU9oMnV4cmRYd08zb3BXcVhER3hOVW4wWUtMRHplS09qMXJqSWdWMXd5VDhaVmFPSE1zNTUwbDNWX2lodFN1LXpuc2NOYi16UXZWaUVLeXJwazZkVFdxQTJVM2szYXRvNzRZaXk0?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 1
       },
       "confidence": 0.65
     },
@@ -231,7 +291,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.65
     },
     {
       "id": "4f6560c638a9eaf1",
@@ -247,6 +307,21 @@
         "iran": 0
       },
       "confidence": 0.65
+    },
+    {
+      "id": "8372db49597bdbfc",
+      "published_at": "2026-08-23T01:19:01+00:00",
+      "title": "Are the Iran and Ukraine crises morphing into a world war? - DW",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOEQ5VnVKUVlXNzZlSUthNFlDQ3BGWUhZRDdCQ29TREtMTGJjOUlDaG5BblA2WS1oOGtnZWNfX2xvcno2Q015Y0VWU0ZkSVZJYjhkU3ZKSEx5aVo3OHVGd2J3WlZRdzFtWjRTdEE2Z01vTl9KZVhaN2FTSm04X0Z1dk5sZGNsdThFX21Ray1uSmZmVkdLOHR3Rl93?oc=5",
+      "source_name": "DW",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "86ae5d75ee8f1760",
@@ -279,21 +354,6 @@
       "confidence": 0.65
     },
     {
-      "id": "42ff9e79374b1042",
-      "published_at": "2026-08-23T00:00:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9oMHZFQnhpUGIzWGg0c19HdXJiVVJTUzNNaDl0Z0JIMnh5Z0xiZVNyakd0N3dBZEhWSS1JOWtiT1FqRWVJbVB3RTQ1OHhYYm5lR0FiZVg5RV8xQnE3aDFzY1Q0dVl3YjM3aDhIOEk1UmwyLVYtcXpUZGc5bmh3Tmc?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "4bacb19e425a0564",
       "published_at": "2026-08-22T22:01:02+00:00",
       "title": "Iran Shifts From Defensive to Offensive Military Doctrine - \u0412\u043e\u0435\u043d\u043d\u043e\u0435 \u0434\u0435\u043b\u043e",
@@ -324,11 +384,11 @@
       "confidence": 0.55
     },
     {
-      "id": "2401b16ef5f576db",
-      "published_at": "2026-08-22T21:01:17+00:00",
-      "title": "Iran security chief threatens neighbors against economic measures, and other Mideast developments - WRAL",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV01ZYmljZklpT0thY3Y3N2Eta3k0dTRqS25ZdVl5N3JPSGZPRmpxZTJGcEQtRmctLUF4Mjc5TW1tQWtlYldHZUhROVhNaEhqQUlMVnlIMmtFZXpmTjdzUS0tZXFoZTdPb1UwckFmcmZ0MUlzRnBTX3AzRWhIUm94S0hTRHgybzZkb253TzVTOWV2OFpKbFRUMWoyMmZDX2Q1SFkyYXRON0RwUmNfRFFuZDNLMndwak5OV1d3b3pDM1FYWVk3?oc=5",
-      "source_name": "WRAL",
+      "id": "6fe4d122bac99837",
+      "published_at": "2026-08-22T21:46:03+00:00",
+      "title": "Iran security chief threatens neighbors against joining U.S. in its economic pressure campaign - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOemdiR0pObnhsMHVJQ1lFdE43VlNrZlZUSENxdGRuZGVsSWIwMGNxVEpqUHlHWXdBSjhsSEJmb1J2OFlTQzB6Nm5WTFNESTljSnEyakljZ0dXaHZvaUhRUEJRUXF0QW9LdXkyT3RHdEtfR0ZLTG9FV0hIU2NDUVhGTXZfWkE0X21SOW00MjNrdWRJUFlsQ1piUEVEZ0EwdUMwb3hTTEktWlR1OGUxSVF0TXdIdVg3SDQyYkd2ZG01Zw?oc=5",
+      "source_name": "Los Angeles Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -336,67 +396,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "7a505bcfd407df17",
-      "published_at": "2026-08-22T20:04:53+00:00",
-      "title": "Strait of Hormuz Will Remain Closed Until the U.S. Changes Its Conduct - WANA News Agency",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNVNyLVdlREVYdTFFQWJMT1pSbDUyUUJRcnRZd0ZIRFNVS3ZydlpXckVaa0RCaFdQVmVPaE1tOFFTeHdUVTdSUVZ6MTJyU1JvUU5uRFA0cHRYQ2k2eFRjYnlkOVlySkc4bWt3TkZLdmVYYVBVSTVIRnNUZmFJajctY19OTTAxT2pmaE5UUVdpYi1qdTQ?oc=5",
-      "source_name": "WANA News Agency",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8f0e5bf3bdaed7ca",
-      "published_at": "2026-08-22T19:41:51+00:00",
-      "title": "Enriched uranium stockpile undercuts Trump claim of Iran's 'essential denuclearization' - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTGJiRVlnOFlkZTJrNS1kVVFYbTlYQ0ZxV21FeHY1QXkwZU1lRm5xRkthRV8xT0Z3cm1pRWRFRVYtVGNaSENWem1scHVsSjNkMzJ1bG82T0NLZnJ2V2U1bnBrRWxJa3VBOVB2c2NmN1BsSXRiWWtTNUcyQ2RVZUxtM3pQcXFlcVdWQjBuM3ZucGkyNDJoUWptdTJOLUt2NFl0Mm84NndMUENmbDVpRTUwVkdwck1DWWZFYkhR0gHAAUFVX3lxTE0yeUZlbGpQNE03X3hjWE5MR1lVQS1sN2gtNGlibDcwdWlrT2djTmdGZV8xM3V6Rzg2NW9BYnNzU2JTdDlYRTlocUNCX1ZhWV83d3ZJRWVwdTl5NHdZbjE3VURZNW1fOUVsVUpkakpnLWt0ajFibFlmVlVEQWgtazJZM0NqeHc1VW8yLXZYYS05YjlMT1VFQlYwVUFCaWoxWFhXU0ZfQUJRNEtwNXE4R3p1ZFdzLTNJenlMakVBcmhWMg?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "bae2cc830a168ada",
-      "published_at": "2026-08-22T19:39:51+00:00",
-      "title": "More than 750 US troops wounded in Iran war, nearly half since July - Task & Purpose",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBQdVVFSEE4SXBzT3BTLW5BaF8zNXhpdTZqMHdaUDFjVW5tTWxxcGlGRENKS1Y5bk1pLTNZYVNPVHVEYWRCZkJYeThLMXBnWjlYUmk5UDhNUktfMWpLUVN4YmxFS1AzeWpCa0tSVnd0ZUpHdzM2RWl2eQ?oc=5",
-      "source_name": "Task & Purpose",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "473a0280708f659f",
-      "published_at": "2026-08-22T19:23:30+00:00",
-      "title": "Envoy says Israel did not give the US notice before strikes on Syrian base - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZVlWOVFMOUl2eU1oNk1NYUJxZ0J3NlBpTXFUUF9yM1dSZ3J6azVYR1BRWmM1TVVOSWpJVm1PMjRkaDJDTm9DS19YaFF5MGMzR0NwYUl0Y2pIR1pmbTl4a0w1MDctUV9mM2paWDVkRXZGbVk0Zzcwd3k5SlowX0FxUXZYVkhGVllBellyRHVWczZONTMwbU8wSzZvd0MyY3Z0TjVxcE1vOW5raUNJSVBzS25BbE5md9IBuwFBVV95cUxOeHlJbzN4Z1RwbWtmODgtUG1nTjVjS1k1M2c1d0hkQy1naWlWTkU0TkRCQ0h5N3VZcFpoUWJpNF93M1pndjFYWE1Wd21yRU00X2RDQUdmV0pjOHpwYWw1X19JVzNkUFVLQ3prSjc4TjczZ3lBdnluemVZUndCRHlHUm5URGNqVVdIanh1bl85YnhkS0lPOTUxTFhEMWFSYTV3SDdUY2VQX1NHc18yaFpQS3JvQXktRXVJNTUw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
+      "confidence": 0.7
     }
   ]
 }
