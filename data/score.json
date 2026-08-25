@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25T13:13:53.581376+00:00",
+  "generated_at": "2026-08-25T16:02:28.267380+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 98,
   "totals": {
     "usa": 34,
     "iran": 24,
@@ -15,14 +15,14 @@
     "delta": -15
   },
   "confidence": {
-    "score": 66.5,
+    "score": 67.4,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 36,
+    "other": 32,
+    "intercept": 2,
     "diplomatic": 28,
-    "other": 34,
-    "intercept": 1
+    "attack": 36
   },
   "history": [
     {
@@ -73,12 +73,12 @@
     {
       "date": "2026-08-21",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-08-22",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-23",
@@ -87,16 +87,181 @@
     },
     {
       "date": "2026-08-24",
-      "usa": 1,
-      "iran": 10
+      "usa": 0,
+      "iran": 7
     },
     {
       "date": "2026-08-25",
-      "usa": 7,
-      "iran": 11
+      "usa": 8,
+      "iran": 14
     }
   ],
   "latest_events": [
+    {
+      "id": "c8ceb0ff3e6a6ce0",
+      "published_at": "2026-08-25T15:25:36+00:00",
+      "title": "Iran war latest: US sends message through Pakistan to Iran on reopening Hormuz - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?oc=5",
+      "source_name": "thenationalnews.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "707982d671ba8bda",
+      "published_at": "2026-08-25T15:15:45+00:00",
+      "title": "Sixty More U.S. Soldiers Reported Injured in Iran War - The Intercept",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQckQ4U0tRc3pybURoVlN1T0tZQ3ZqUGRnUFY0T3RrNXluNnV5UkM1RXRyeXVJSVFNbWh5bzdQZmR5dUR1Tk5WYXZaZTFYQ2FRTWxNT3plcE5jaG5Rckp4Z1RKTHhxU1owNTloejRCNmFTbHpUYnB1b2ZKeXlobGd3UTVkc3VyMGtmSEE?oc=5",
+      "source_name": "The Intercept",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "e22fd36f52a3294f",
+      "published_at": "2026-08-25T15:08:36+00:00",
+      "title": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "671d5e1697e903d6",
+      "published_at": "2026-08-25T15:06:29+00:00",
+      "title": "Iran war live: Trump claims US Navy demined Hormuz, warns Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "6e06201deb526c32",
+      "published_at": "2026-08-25T14:54:37+00:00",
+      "title": "US prepares to send diplomats back to Middle East embassies after Iran war evacuations, NYT reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS253amNScVNTdFF4SjVlU1RQVGFzVjBZalVKYUpUckZOX1FzdklkcDI4NlRoc0x5VXZtaUgxNW5wN092R05HRVRHMU51VG5iOU9SblF6d2VxU2ZTVnZmTWw3eVNnZEFRRExHcmlQRmhoWXBvOGRPcEdUeXphX2lMZnZSektOcHVjUEd1dFNLUURsb0dVcXF4WElkcE5yOGFxbl94dUdJYmFuZjBZWk85UjRGaXpaaUtzZnFmX2NXcTgwVXdjdDBrVFF4RmZEWmc?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "357b083c2e368414",
+      "published_at": "2026-08-25T14:32:00+00:00",
+      "title": "Iran war latest: China criticizes new US sanctions as Iran vows to retaliate - CNN",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PWC1zSmdaZ21Ic045UHpMcm4wYWZscXFYZ1hfdElYZGV5TTg5UnhDcGQtWFZvQTlubElBeEVacEQxMUdfdjVzRTVUUTRobTBNWjNpd0NUVmxDZkZiaGMyaTVBaE5mQ050d0Q4aDljOVdnbVQ5Vmp2UjZvaw?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "48f94fcfb13e1dbf",
+      "published_at": "2026-08-25T14:31:37+00:00",
+      "title": "U.S. airman faces charges under military justice system for criticizing Trump over Iran war - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOaVpRNWd3WTZQSnY3LU1HNUpMM3c2X09sNzFQU2NuLUp6NUxjMU9KWDZNQnBvazg5RzBSMWIyTC1hMzM3VF9uNTFFN3hTSTgzaWh1LWZhUXBLQ0pqNW1sWF9JSHRPUjFGczhmWE1PdXYyT2E4bmFreFhyTjlhNjNHZXhGWVFXaFloUnljaHFLYzQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "cf9aa4a572fd5510",
+      "published_at": "2026-08-25T14:27:05+00:00",
+      "title": "Trump\u2019s latest wave of Iran sanctions: Which 60 entities are targeted? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYXI4THplUTN1UEpyNUFld2ttOTBMcjZrWTEtbTlobmRzTEphcUZYZFVfUHdHeTVZTFM3TmJRaVZFMlY2Nkd0MFNWQzBRQnRDSHZmQ2NBOHZQWV9IUi1KRTN1WXpHbENQNnFLYmNaSksyTjVRa2lJVHVBYWFoSlc0LTBlbUJhbzFKUElKY2V4dEhNUVRPMERpeXNNWFF2NG03UEk4R0RrR1dSQnlDc01raC130gG3AUFVX3lxTE5KOHVJQ0xUSzZlVlRQT0dfTFFtT2E3QnI0SmZDelFsZU9OSzFhN0p0MW5wcWsxdkV1T3BxX2VLRklhczdYNmtJQXkyUVNwejlkVUVJM191X1dNS29NRjYydDBfMzEySjhFeFltZXFkbktDUC0xbldBNFJUSVdKa0R5S1o2bTZxVnpqY1RCT1RJLVNsLXJCSmFrZVNHcktqRDIwNW5PR2ZvZFdiUnlJSnNabXo3RGNLUQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b83e8f2932c0e574",
+      "published_at": "2026-08-25T14:04:19+00:00",
+      "title": "Iran vows retaliation after U.S. widens sanctions, fueling fears of escalated war - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV1dSYy0tU2pDamRWcDVRblprd3lQbGtYb2E1SVBkWGQyUDBnMkhCTDhMR1NSWUdUMjRVdjdMVFRDVy01eFZ0aHRNUmZMR0tLUVE5R3ZmWnBBNDVCeVV1djFPaVhIcFBiVEo3WHMxNjF0azdmVjhGcUdxa1diQVUyVy1rWFhhbnpMaW1ad3JLNGpCQ3JjV2ZwZ1JyZkV5T3dxM2ZJalRpOGdfajV4bjJyOXpON2U1Zw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "a16e2440dc2197e4",
+      "published_at": "2026-08-25T13:46:28+00:00",
+      "title": "'Money, not missiles': US launches financial attack on Iran - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5pc1ZmSWpDVllaUmJRRWcxUmpCMXRnTmFTOGM0U0QxRjdnSzl2MTN3T2lXZmUwRmZzc1FPYVo2R29nQnNaWE9SaG9mVHRQMUpsV0VDMUtYcw?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "08acda199804c51a",
+      "published_at": "2026-08-25T13:14:25+00:00",
+      "title": "US Widens Sanctions on Iran but Withholds More Punishing Options - EnergyNow.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUhtVUI0TVJsZVBWeVFrMk04cHg1R0tHSXlmajhjUXZSSzg1RXE0bTBIQnF1Y0ZsdlREVDNuZVJIajNnaG0tRUdtcE9WZU9iRDBkMWtxeUxoMm1QRGdNQUJfdzZLWm1MWDFNaEdkUlp2V2I2dUp3RTN3TUFQbzJUWEMyYU9yTEtDUFlRanRXMzBzeXNFT1RVOGc4SQ?oc=5",
+      "source_name": "EnergyNow.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
     {
       "id": "40022a351b5f67f6",
       "published_at": "2026-08-25T12:52:00+00:00",
@@ -128,6 +293,51 @@
       "confidence": 0.65
     },
     {
+      "id": "fd28953e6269645a",
+      "published_at": "2026-08-25T12:37:53+00:00",
+      "title": "Trump may hope sanctions will pressure Iran's regime, its leaders are betting otherwise - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9ZUGxwWFltMkZ6enZWb3huRkY2eFh1UXo3bXdFWXYzckZ4bmF3Q0oxYUxadUU3YjVOcjdRRWNGUDE5V2RsZHZQd3lwSk9ubkpTTTBCckRMQk1LUQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8f58fd3bad5b81cf",
+      "published_at": "2026-08-25T12:26:48+00:00",
+      "title": "U.S. push to isolate Iran economically hits a roadblock with China - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeTRCdnM0Sy1OYTlIem9YWWI1WkxLYjhnYm51eGZjRmEzb0hRWEpoVUdRVE1rajB6Sm94X1dweVFuN1FTUjJXSFkwSU1PaE5aQ3dyTWpDWjJhYzdRMnVkQVNmQzY4UGR0cXBmU2t4ZkFZQko0ejdsbzNhY0lYemI1LW53ckwyaXZLYzIyMUJjSGJ2WXlSZjRSMmo4STBGeGhmZEQxeUpzek85VEFZV2gw?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "97d71ba59a9e64e8",
+      "published_at": "2026-08-25T12:23:41+00:00",
+      "title": "US-Iran war LIVE: China warns US over Iran sanctions as Qatar backs mediation, calls measures unilateral - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPdWJlUlVnUzhobUZVeW9kT2NPN1I2bDBKTXR0Skhvd2NTbWw3MHpUX1dZcVJaYnFtNlFrUDMwNUNGMWMyREhnWVJrTHZUNHdoTmtmRkc4UW5QYVIxNnFXOWxJZFVDS0daT0FXaWUzWFYteVY2NmU0VHZ5Mnd5SHpoaEtmTk9qemF1M1RKVGN5Q0dlNC1YckVoeHB2MGJXeHdPYnZlRWktV0o0eUg1SUlDdko3eU1NbmJlOUxobnVjWmthS3VkbmlOelZ5ZXdRZjVMMWxCcWJNWWo5SFhHZzg0Vy1GYkZyVXVPNGhSLVJoQVdpNTBTVFlkMkYtb2ZHTlEtLXd2OFl5SQ?oc=5",
+      "source_name": "Livemint",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "6bb81aa6b50d885e",
       "published_at": "2026-08-25T12:23:16+00:00",
       "title": "Iran defiant in face of new U.S. sanctions, promises to respond forcefully - CBC",
@@ -140,86 +350,11 @@
         "usa": 1,
         "iran": 0
       },
-      "confidence": 0.8
-    },
-    {
-      "id": "b631043eddb4b57e",
-      "published_at": "2026-08-25T12:23:13+00:00",
-      "title": "Iran war latest: Oil tanker attacked in Strait of Hormuz off Oman - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?oc=5",
-      "source_name": "thenationalnews.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "9e4c1a8baff748b3",
-      "published_at": "2026-08-25T12:22:00+00:00",
-      "title": "Bessent\u2019s Warning of \u2018Economic D-Day\u2019 for Iran Amounts to More Threats - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xYzV1OHFrN0pNdGo3V1VSMExkc2pvc1NhbHpJdE1HdzFsQ3h1M2lMU1JzeGotX212N1VRTVNHcVJibEVmbDJvbjNjdGdLdnZFbnNjSEhRUEt0Z2U1cWp1WGlUYTZkSWVZclM1SzhXZlFjSW1r?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b83e8f2932c0e574",
-      "published_at": "2026-08-25T12:20:12+00:00",
-      "title": "Iran vows retaliation after U.S. widens sanctions, fueling fears of escalated war - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOV1dSYy0tU2pDamRWcDVRblprd3lQbGtYb2E1SVBkWGQyUDBnMkhCTDhMR1NSWUdUMjRVdjdMVFRDVy01eFZ0aHRNUmZMR0tLUVE5R3ZmWnBBNDVCeVV1djFPaVhIcFBiVEo3WHMxNjF0azdmVjhGcUdxa1diQVUyVy1rWFhhbnpMaW1ad3JLNGpCQ3JjV2ZwZ1JyZkV5T3dxM2ZJalRpOGdfajV4bjJyOXpON2U1Zw?oc=5",
-      "source_name": "NBC News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "94138248522c3982",
-      "published_at": "2026-08-25T12:02:24+00:00",
-      "title": "Iran war live: US economic campaign \u2018tacit admission\u2019 of military failure - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "53a8b441668f4ef3",
-      "published_at": "2026-08-25T12:00:44+00:00",
-      "title": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
+      "confidence": 0.9
     },
     {
       "id": "f340c055106c9dc2",
-      "published_at": "2026-08-25T11:43:00+00:00",
+      "published_at": "2026-08-25T12:15:00+00:00",
       "title": "China denounces US threat of sanctions over trade with Iran - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9ZRzVaNkNpTzdlV2Y2TE5LOTEwbXVlOXd2LXdKejI1OGp2eXlGM3JOZlNaQjk5U1RlSXFKc0dETVk3Uy16MDV0LWIwdmpUdTZla09FdS1NRjR3TlFEOWZ0eXVuV0lRa0FSbDhvaWtLYlYxSnlrSGpEUkd1SzVsdw?oc=5",
       "source_name": "The Guardian",
@@ -231,6 +366,21 @@
         "iran": 1
       },
       "confidence": 0.65
+    },
+    {
+      "id": "f6254e8b6bf42b38",
+      "published_at": "2026-08-25T11:54:05+00:00",
+      "title": "Iran Vows Retaliation After U.S. Widens \u2018Economic D-Day\u2019 Sanctions - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPTHI4eFJQMi1IcWU4LXpLUFpLOHliaDk3V3VGT19qTkR4SXhjWC11WURuUGNYN1ZVTy1pdVVwUXR3WlZSZ2oxMEgyc2VRWUluc3FzQ1AtYU85T1pSVnh0V3NDcHVKRGRlVUdHcXNIYnlvUkNkOHFvMVMtU3B1QVlaR2ZieWtMNklhSUtYVC1tdVpzNUN1empmdGNXYmctNzVfdUE?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
     },
     {
       "id": "3b0e3de7e9865c6c",
@@ -246,156 +396,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "9c38f64385ee6b73",
-      "published_at": "2026-08-25T11:32:59+00:00",
-      "title": "Oil drops 3% as U.S. shifts to economic pressure on Iran, easing fears of renewed war - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wYlNuakhjNkRJcXE5X1kyUFNaV1ozOTY4UmRrX0lyRHllUHZJNmZzcHZVN3RUanlHNGJGcHluNzAxOE1MR0psY2lYTHRScm9KblEwZkx4MHVIQk9xaExoODVNMDJfTkVnX2dMcHNPYV9VcknSAXhBVV95cUxPSTRCTmpvai02WDNCWEhNTXdBd2VrSDJZTE1pZUhWSWowTGw2aFdYWVJ1ZS1DSzZkbk1VS0ZfQWJ2OG96RVFfZ2pYUmFieUhFNHVLOUNGcHJGbVN5LTEwRm04UVNiSWxYMEZSN1JnSkRCeEFoRy1LZ2I?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "6e06201deb526c32",
-      "published_at": "2026-08-25T10:57:43+00:00",
-      "title": "US prepares to send diplomats back to Middle East embassies after Iran war evacuations, NYT reports - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS253amNScVNTdFF4SjVlU1RQVGFzVjBZalVKYUpUckZOX1FzdklkcDI4NlRoc0x5VXZtaUgxNW5wN092R05HRVRHMU51VG5iOU9SblF6d2VxU2ZTVnZmTWw3eVNnZEFRRExHcmlQRmhoWXBvOGRPcEdUeXphX2lMZnZSektOcHVjUEd1dFNLUURsb0dVcXF4WElkcE5yOGFxbl94dUdJYmFuZjBZWk85UjRGaXpaaUtzZnFmX2NXcTgwVXdjdDBrVFF4RmZEWmc?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b9b9a14779c7928f",
-      "published_at": "2026-08-25T10:56:00+00:00",
-      "title": "US unveils new sanction intended to strangle Iran\u2019s economy as conflict drags on; Tehran vows tough response - Global Times",
-      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1PMUlLYkEzWDJKUnpCZUs4SG9SWnBVMTc1dXZIOWxfX2Eyelp5SzY2Y2VCMGc1X1g4OVdBam85UU1YSGdmbG8xaUliRTZGRHVSVkFKWDZYNzZxY2FqUDMyZWVR?oc=5",
-      "source_name": "Global Times",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "eb83d790eafc08a5",
-      "published_at": "2026-08-25T10:41:41+00:00",
-      "title": "Maximum Pressure on Iran Will Fail - Foreign Affairs",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTWsybVJWV0lDY3NDRlkzN3FteGI4U0tDSXp0bzVIeDJzR0dwaXlQVElIZmZmVXVlTi1NWFdOc3JBYkR5cjM0QllnX2otemplNjdLal9PRGJqdDdETDNBam9JRzhId0JhTV9sYnJzUmx0eXV5M2pZN05yVm4xLUdBZWpB?oc=5",
-      "source_name": "Foreign Affairs",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8ef6681040ee1b32",
-      "published_at": "2026-08-25T10:35:33+00:00",
-      "title": "\u2018We\u2019re paying the price\u2019: Iran fury makes US a liability for some Kuwaitis - South China Morning Post",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUjBJN1lXQXdKTTBXRjdVajVvQXo1NFUyWXBQLXhTT3E2azNFQWZhS1laUG5pWlJ0Q2NDT2l1NkhtcHFEVFJjZUkzamhnOXNGU1JSSVJPUV9jRWJIVlBMNjNkNGdSUmpfOEZxMDJjdWtpZGJWekRuTkQ0ZTBhdm56Q0hvcldRblZJbVhDSEVOb3E2ZWtmOXNWSTNSdnFFSF9yTEl4T0lkQUlhY0VuYjlKYVdqWE52Ui1QNmtBVk91ZjQzRnZK0gHEAUFVX3lxTFBtZ19mSmF0ci1BUW1MMzlfUnFPT0o3YUNTZTVfeWJ4T3dNWjk4c3RSYk9EVnhRRkhWT2w0RFNubG9ieFRrbGZqamxHa3hDVVhzeTlzV2FRaGlyTzhpSWhCRV9QQTltb2RGSnFWT2RweldmaGE5VmJVZ2N4MnpDLWdydVo5TVFTLXNMSGtLQkJvaUMzN0N4QThJeTVkWmJYdGpObzFRVS11VVpWODA0VTBPd3FWRWhVQVBabk9IUmcyRFRwbU4?oc=5",
-      "source_name": "South China Morning Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bf0836c6df613431",
-      "published_at": "2026-08-25T10:31:25+00:00",
-      "title": "Losing the Iran War: The Economic Front - Paul Krugman | Substack",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MZnhLX3AzbUxnd0RPYlljYWVrRVN1RzI2d08tZWtMV3JmVDBDZFhLS00xc28yeXpFZlhLS0tIZlpGTHZSbXhFMG9yVUFrZHRUMnFicXhHSFdYZzBkOHV4M0VDYjdRajIwM0RuSGZ1R1NteXVYaUE?oc=5",
-      "source_name": "Paul Krugman | Substack",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e083c7796c88dc99",
-      "published_at": "2026-08-25T10:28:20+00:00",
-      "title": "US State Dept. sanctions Iranian military activities, fuel export in Operation Economic Outcast - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vb25rMUF0NXZmeTVLUUNicXl0cmpRLVR4aDI4WDhjSHN2SmJGWUZIVmlOTnFyaDFpbEo0cm8zaTVTcVpkRWV2VlYxSERpQVcwdXBZVjZTXzlVdjRIU1RtNW14VFJ6a3Nuc0E?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2aa60082e1c64478",
-      "published_at": "2026-08-25T09:41:22+00:00",
-      "title": "Hegseth: US Military Strikes Against Iran Remain Firmly on the Table - IranWire",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQa1dMalFfUmt5X1RneUhVNGtsTnNjcDEyQzRLMlVkN1Q1Nm41dS1pVXQ2SmVwc2h0eC00S1NYMWloX25oeld3LTllQmViMHhFX3U0VkRkWTJVQ0s3ZzdlbDA0d1hHaGNib2RsZjA0b3p2aEl2OXhtOXVXdmpRbzFZQi1BblB5V2x0YlRmbGpiUy15VWhsdUlkVy1ORXJLMVB1SlVudWdYVQ?oc=5",
-      "source_name": "IranWire",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "0ceab25fb090aabb",
-      "published_at": "2026-08-25T09:32:55+00:00",
-      "title": "U.S. Said to Be Returning Diplomats to Middle East Embassies - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaWtyb194OUVKSXliajhMYVduY2xPR3FkczJOdy1ZSzU2Zm15czl0TnFleGp2Y0wyTnFJd1A2X1BEQUZqTUwtWTZVMXhQTTNGT2ZGRjJpWllzRkdZWHdZTVd0aHk1aFVNYTBFQmF1TlZFd2pZZVZ1WUlCOU9tUVlLQXJpS3dWMmxhZ3loWHhCdlpMM1BCNlE?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "896d5faa0fde2770",
-      "published_at": "2026-08-25T09:31:16+00:00",
-      "title": "U.S. cancels South Korea marine drills over tied up forces in Iran war - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOWXNUOTNTTzV2bzNmZEpxbVR3SkVJeVM1anQyWElDZmVyV2VGX1RXdEg5MVB2SDN3SktYbWRYYWlaR041VEtlMU1FaW4xMmlJYzFoQzNqSXFMWUtmNlM5ZUFyWXN4Skl6SHMtU1ZKdkx2eTJaYmd3MWpMd3FfRmVKamozSmZmV1JrVUp2VEd6WU1XVHZrcXMyNzE0Z3pkZzhNNUd0TkN3?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
