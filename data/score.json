@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-08-26T07:11:07.757757+00:00",
+  "generated_at": "2026-08-26T09:59:24.987335+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 81,
+  "event_count_window": 105,
   "totals": {
-    "usa": 14,
-    "iran": 24,
-    "lead": -10,
-    "lead_side": "Iran"
+    "usa": 48,
+    "iran": 20,
+    "lead": 28,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 14,
-    "iran": 21,
-    "delta": -7
+    "usa": 21,
+    "iran": 19,
+    "delta": 2
   },
   "confidence": {
-    "score": 65.7,
+    "score": 67.1,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 20,
-    "attack": 25,
-    "other": 35,
-    "intercept": 1
+    "diplomatic": 22,
+    "other": 38,
+    "attack": 43,
+    "intercept": 2
   },
   "history": [
     {
@@ -87,16 +87,211 @@
     },
     {
       "date": "2026-08-25",
-      "usa": 7,
-      "iran": 16
+      "usa": 10,
+      "iran": 14
     },
     {
       "date": "2026-08-26",
-      "usa": 7,
+      "usa": 11,
       "iran": 2
     }
   ],
   "latest_events": [
+    {
+      "id": "623c48b458b823cb",
+      "published_at": "2026-08-26T09:25:00+00:00",
+      "title": "US pauses fresh military action against Iran, turns to sanctions and maritime pressure - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQcHFFOXlEV3B5bzBITnhwNElaWmdmQ09GcVNuZjlEX2V1NmR1V0RwNVRJX3ZYZDVBclhUSGQ5ek5qczFNV2s0YTgzNUdBOFdsR1otZWdrY3c4eWNKV0xmaGFVc1dlTjMxTUNucmg0cUtmb1pYY1pPUGNHZUprR01Ed3EzNWpjTVhSN01sWHlkY0U4U2tKdlJybkRQS1lLX290WVhCVDNYMnN2SFFMTEc1T1g5MnNUSTJ3MGtzOXlvZ0FOV2w3dUR5UkFFWWMyeDREZlpfVEhZNXJDYWdNU1E5TUdkN1FTS3hPWEdaV0k3cHVLN0dxZ1BWWHk4c9IBgAJBVV95cUxNQkJONWE0Y0dHZU5pSzNueGE5ODdZX1pNQ3o1bGdsQTVMMW9wM2FQWHZjRWxydENBWDFGTy1OSnpRdnNZem05bndjQW81MHAwV292cDYwaGtmd0ozaEtyM2I3SmhuZEpKd0FlV1dwNXllTlFNbFV3WGpDM3lwaXVsOG4zemNYODAycXRIVXV5R0RKZ05OZWVWallaemVzcDNsb0FobXY2UFBwME5xUWFlZmZRX3VSTkNEQlVNbDRoV29uME1vam92eXBvVEsxaldDYnp6SmxQMFV1WjdVWjQ0VUU3UWtRMi0xOGxmMktScUN1cUlodmR3eHBaQ2NxSnVa?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "dec0db123b2b0561",
+      "published_at": "2026-08-26T09:24:10+00:00",
+      "title": "The Bulgarian village that fears becoming an Iranian target - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaWFJc2h2QkE3MnozT0ZtamR6eEtSQzIwS0gxQWxDbUpiQ29lZ3IzZGJDNnd6Q1hZSlZpZ1BDT1BHdVFnNDBFWHBpbm5CUmY2YXZhTVNDQXMtczg0MmJESWQ4RGJxY3JLWjlBZ3Z1UnpLRm5KTGE0WG5QUEptc0RHd1JZYzdxQXlNRllxck5pSWxVSmFUbmtYbGZtQjYzSmVhWWfSAacBQVVfeXFMTzhnc1ZnLWpJT2ZnWEwzelJ5ekVHSzItaHV5YmtXZ1RNeFk4cm85VklIQ3c1QWpBU3lwVlhBNWlkQS1xenRDR0FQLWxjcVBOTVN0Uml0c0puWjRzaXd0d0N1WHNJUjNpanFURm0xUVNkRVF0Mm1mUzBYV2V3RkVMT1JTOEhzTFZKOWJ6UFpxQ1JteHgxUVdkWjVWNGx6LUd1UW5fS1VIa28?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d3f8d83b0b84cd34",
+      "published_at": "2026-08-26T09:08:54+00:00",
+      "title": "Iran insists Hormuz remains closed despite Oman route deal - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcU5SNjBKR285Wk9NamJ0RFVDcWR3THRoNmUwWm85Qmoyd1VOajNlNy1BMWtmSVNjdElMWTVISmM0VnF0d3J6UDZNYzYtblNwcFpsNzhVejVfMko3cnhaZjVITzdCSXNqcmY2VExfV1NVUkpySF8ydkRvWE1rYkE1WUNuZ0VTZE9yY2NMekVlX1VfLXN2eWI0eGRfMExGN0JqeXozZDBKOXNMYVlEVmRIMWtrbUFGUndocmc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "769b5287cb621348",
+      "published_at": "2026-08-26T09:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1mNzVjd2pfX0Rjd1NuWFpwRXc5Q1JHRnQ5SGRQTUNQOEtxZ0g5NDNBdU1QenpGR253Ry1hSFhxbERqWlZqX01NSEdKRjNsa2FsbGlSRDNMVURYaldKdG03c0V6OThGdE1ZZy1RT3hQWkQ1Um9NbFdXOFZ3ZDEwTzQ?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bf3d485486c5679e",
+      "published_at": "2026-08-26T08:49:49+00:00",
+      "title": "Iran-US war live: US responds to Iranian video threatening to assassinate Trump\u2019s son Barron - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQanNBVDVMc3JEbUptMFV0ZDN4R1VJSi1qNTFMYk1lOXgxbFlQUjVGZktGQmRJaUMyeDJROGNtX19FOVFCWnVsdjJGSlUwbWFoUW9DcnVkSS0zN3g3UVoyVDA1cDAxa04wM2pFN1FieUwwaHkwM3o3VS1pbzlkYzFIZWNZXzdCdkFybklQejdOMjIzZ1hYOGdkNkdyYVU5TlNGMHV5LTlLTHloOFItOWVZRXgwMUdDUXppMTlV?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c5e8380fb1c54c46",
+      "published_at": "2026-08-26T08:37:44+00:00",
+      "title": "US-Iran war spurs Europe, Asia to boost renewables - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTTVNd3JBNVpOVlFWcUlabjhLbU52TmV4WXNjbUwyVzVlWXFHMFBvenNoUVItMnhFbkh6VWM0dXBrVVpmbmhDTEROdlVlNG43OElCeVY3Uy1jQVNIRnljcUt6b1h2Uy1RZzN3c1lHbkhXeGlLTnhfc2g3WlRlTERCb2VON3NTQU1uTUtGTVpad2gyY3pnYUo1cU9pNlNRRVU?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "273f7a27634682e5",
+      "published_at": "2026-08-26T08:34:27+00:00",
+      "title": "Rubio: Washington does not plan to resume major strikes on Iran for now - Defence24.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOY2hJTVBvOU9ZRHhBb3RielJIM3BoYUtXWE1GTk9lN3hISnk2aTg3XzhkVkIzV01XaTQydmRjYy13WU40TjV4WlVxSV9tNzl1bzYtUzRubnZLRmduN0Z3RzVua1BMRk5JRlhnanFMenF6SkNzTW5GT3YxY082T05pWnBWaEVUMHBpMHpJZWpyTHdUS044SllmaTlBY1NDOFQxSUFIYUpiZw?oc=5",
+      "source_name": "Defence24.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "04b90ed829b4336e",
+      "published_at": "2026-08-26T08:03:42+00:00",
+      "title": "From Ukraine to Iran, Attacks on Civilian Sites Put Us All at Risk - Inkstick Media",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdUFEM084QlkzX0VHOXpHQm91WmphODBCODNMelA4VmVocGhWMC13aDFEVXpvVWFac1Z5NU1ualh1RmFGVlVla0Z3cDhYQ0txMTlEUWd5RjFOSXFrcjNvYnVvaXRCaEk2NUhhZFF3R1N6Q0lQMUoxUnNicXdQUENUZmNKRTVCOTdyR21oeUJWeHZfLUhzWXMw?oc=5",
+      "source_name": "Inkstick Media",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e825a33f16fa5883",
+      "published_at": "2026-08-26T07:56:44+00:00",
+      "title": "US Iran War News Live Updates: Oil companies, including at least 3 from India, to avoid ships on Iran's 'blacklist' - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPQjFZMllkbjcwd3JKRHU2a0Y5VXh4Wi1kY3pVZXhQcjNXZmZldklvcDl6MHlvZ0t0X09NaDMybW1NdmNhaTJtU0pTY0VaZUV2R2pVSjBfTzYwNUUzNkpWejdSN051bzJFRXNGWUJYMnc0NmRfTll2ZjQ4V0FObXZBUE1hVDdrRkgwZG5CYU1IVG9QUzJNdG5jQ3pGeXpsdFgtMGdYTEdyR3l2dXRlQ1g0eXNEdVJNd1ZDQ1ZZaHVOd2sydUlaUEZzYkhPZ2NtQWNkYnB0d0kxajgwaHU0VHpHZnk5dWN2WTVldF9KcFFQRVJ4S3pQV0NwdnFWU0dxVEx2aTIwdzJUN2N6clNfZkVqaHJwc2NXckVaNGFqYmFpa1c4OHZkZ3YzQ2hQdUxVSFo2Mk5yblRR0gG7AkFVX3lxTE1CZFU3R19rV3RDdnNKS0lNOXJYSHl5LUprOFFRaGZoRnRjTkE3eE05d1BGaG1KOURKR2xSdG4tNHhseEdfbWxuN2J2SFVyVmxmbTdtODNkNVdSNF8tS3R4VDhoUmk1WEkyTTBhVFZzUVN2d0JyMTlzQVY3ZGZSU3lNZU5Hb0x2N2k5ZHoxSXdlS0t3NnRLN2FidjY2U1hNMHVHRTZVX1pVYzBXSE1KcDhJTjc2WHZ6OEZMeWtLUVZaWlJFN011RF8zLUwtN0F0V0NLV2VlSDcxeTlLWV9pZ2V2d1dOdmZITEQwYm5yQkVZNDVfMHJQV1VDdHB4d29OYUp0bEQ2RFZDWVBqRnctZnc0Y3NVUEwxNkF2dlVaSmgtUzJBTXZ3T2o0ZWd1dE5WaExKaXVSVTMwR0paWQ?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f8d11baa9ffec268",
+      "published_at": "2026-08-26T07:53:06+00:00",
+      "title": "No new Iran strikes for now, Rubio tells allies as US tightens economic pressure | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQY1loaHg1MWlSWDhVVmFvN1dsbmotMmlub1FDaGhna2RSZGZBVDdVSWFfREVSYlhhOWpCU1Rza3hzd29IMDJyenp5N1o2VF92Wkpkc3BOcm9rclo5dDlkNjNPekJNUm9JaEwwWnpNQzEzbXVFdTV5WVpKZDVRWnhXVFY3MW05T2hNU3pCcGllcTZFTXlkSG9jdGE5NktmRjg3WkxKdzhXdWxBTmdreXNGam5WOWlWVGxUUGNEOGhELXhfaXNjNnVUaFFhQ29DVzhVazUxMW9OR0pzQdIB3wFBVV95cUxPamFQeGhrVVRVWmVEb18yR2lRRURxQlFfZTVIZjR1ZFhON2R1M3JIMl96RkxxRVRqbjhaM3ZnUGFMSFRIelA4bm11aTNmbFI0U0tYcjJTUWNiUWNLcDdjczdRcVJNRUlNV2RmSmwxOWlZa0xUcG9pTGJYOWExa1RDSzU4eUl5N2lGUmNWVHZOVFZJaVFjMHRwYnRlUTQ0VndZX1BMa3hQUDFjUkpYODk0OHhFYldFeUR5V1BMMEZDbGEwTEdXLXFwZjhWY3NSY1pKYlcyMXpPRTk1dEhoeXRF?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5d629c5e8160439c",
+      "published_at": "2026-08-26T07:13:14+00:00",
+      "title": "Rubio tells allies US easing strikes, tightening pressure on Iran: Report - T\u00fcrkiye Today",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPdVA3b2pGaUd0MXBKLTZhTXdkQklhOFNKWlVMSlUxZWMxejgzRE9UeVc4U1ZZV0FsR3gzTVdsNC1WWDg5R0VwbkltMzdvNDhiYUpDdjRLRWRLSDZyR0FCSFRKV0FVNXZVVVBKOC0zT1ctQjZkTk9UOFBzeDJMQ0pLbnNnNXpWQUhRQS1mSUdWNkpFLTdidkwxdjY5cTRDT2ZCZVlua0xYdTMtX0hPMFZkdFBoWEV4dw?oc=5",
+      "source_name": "T\u00fcrkiye Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "73a1559720cb79a7",
+      "published_at": "2026-08-26T07:01:52+00:00",
+      "title": "US Has No Plans for New Military Strikes on Iran, Focusing Solely on Economic Pressure - Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNbzhqVHdLdmxHaU9fa2M4aE5xV3BzQzZMNzN0UUdsUkVFeWNQLWxfMFk0MzcyNEM1eTJkVC1qUEdQNzNtQkpEaEZJV0FCR1Z5ODdQWGVCQmRCaWpYM3Ixdll2RkpoYXJxRlpiem1zcW5uTWYxZkpTcW4wUjhxaGpsbElEeklOMEVCZWpVNjFMN2JfMWUzeFF1VjVXQm9STEVFX3A3RXROeElvR0VwdU5lNS15UjhSVXJucVRCNm9fUk9EVjE0LTFBbQ?oc=5",
+      "source_name": "Kurdistan24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2d626cdfadc73526",
+      "published_at": "2026-08-26T06:54:53+00:00",
+      "title": "Rubio tells allies U.S. shifting from strikes to sanctions on Iran - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ncnpsVHhadTQwc3Z0ZGlDX0RIZ0dOY3U2WWtyYU93TDcycXY2eW9POHFCcEpna0h2Y1MyZlM2MnNkVVpBelB3QVFuUDF6U3NiRlNXNG1NT0d6ZVFpYm95QnBLNnREWDFjYVE?oc=5",
+      "source_name": "Axios",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
     {
       "id": "d28412519c871ab6",
       "published_at": "2026-08-26T06:46:58+00:00",
@@ -114,7 +309,7 @@
     },
     {
       "id": "8e8cc75abdcf3956",
-      "published_at": "2026-08-26T06:03:06+00:00",
+      "published_at": "2026-08-26T06:05:53+00:00",
       "title": "Iranian strikes caused billions in damage to US intelligence sites: report - Muslim Network TV",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcExKd2hSZkZEY3hfelBXZGVlU0dHVjRaMFB5dEhZUXlpSmkwUUw3OEhSTU1TWWxTMnE1NXhTX0U2eEF1NlZMNGVkb0VDVG9oSmRqM1ZUSE9JS3dNRVlXWXlReTE1RzFuU1pIZU1qa2FEMWxtSVZjYkwzaTFsdUJ5WHRqN0RfdzNESXFRZzQxX0NGMl9PUVJkdmRMbWVZLWNzSXZzQmZn?oc=5",
       "source_name": "Muslim Network TV",
@@ -158,36 +353,6 @@
       "confidence": 0.55
     },
     {
-      "id": "8f9d0235b9abcf75",
-      "published_at": "2026-08-26T05:58:51+00:00",
-      "title": "Iran war live: Iran says Hormuz remains closed despite Oman route deal - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcU5SNjBKR285Wk9NamJ0RFVDcWR3THRoNmUwWm85Qmoyd1VOajNlNy1BMWtmSVNjdElMWTVISmM0VnF0d3J6UDZNYzYtblNwcFpsNzhVejVfMko3cnhaZjVITzdCSXNqcmY2VExfV1NVUkpySF8ydkRvWE1rYkE1WUNuZ0VTZE9yY2NMekVlX1VfLXN2eWI0eGRfMExGN0JqeXozZDBKOXNMYVlEVmRIMWtrbUFGUndocmfSAb8BQVVfeXFMTTNTNFBiVmpTQVNpSGZ4aHhmUG1wSmZ2YjN5QXN5YWtycmZucGZTajM0SGtNclVfMEF4NkFpdC1mZFhLeGpUUHV2blNoSnBmMFZNX19fTFpPR3gwREw5MlhNM0xTWFpnRkd2eEJKZmNZaWt5Vno1UjlNMHFJWnZLN1Rja1VfcFV3YkVBZVVwNm1xTWdzOTF2NDZlM0pVbHZocnptUmFVUFB4cGhSUmhYNjRjMWZWSENoTGxSR3NXa3c?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8c1510346963a23b",
-      "published_at": "2026-08-26T05:49:43+00:00",
-      "title": "Iran-US war live: Tehran says Hormuz still closed despite \u2018understanding\u2019 with Oman - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQanNBVDVMc3JEbUptMFV0ZDN4R1VJSi1qNTFMYk1lOXgxbFlQUjVGZktGQmRJaUMyeDJROGNtX19FOVFCWnVsdjJGSlUwbWFoUW9DcnVkSS0zN3g3UVoyVDA1cDAxa04wM2pFN1FieUwwaHkwM3o3VS1pbzlkYzFIZWNZXzdCdkFybklQejdOMjIzZ1hYOGdkNkdyYVU5TlNGMHV5LTlLTHloOFItOWVZRXgwMUdDUXppMTlV?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
       "id": "7ba817ebddd5d8f0",
       "published_at": "2026-08-26T05:38:28+00:00",
       "title": "Marco Rubio: US temporarily halting strike on Iran in favor of economic sanctions - The Jerusalem Post",
@@ -218,116 +383,11 @@
       "confidence": 0.65
     },
     {
-      "id": "740868b5adade2fa",
-      "published_at": "2026-08-26T05:21:00+00:00",
-      "title": "US Has 'no Immediate Plans' For New Strikes On Iran - Report - i24NEWS",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPclRzSDdIYnRkQjFxYmVYcTdVMzNTaXp4ZmQwZWIydVhvaHlKdDV2Z21pSlFaOFNMcU11YzE2d3ljYW9fUzN6Nm9OUW5QaTJ4RlhhNjVSSkxINGx1dExnRjV1Y2Q0NHZra3F3aXpQWVJCNktsdkhmcnVnY2gtUmJRYWFPbnF1TjNEVUp0WDBFMzg2SjZ3NEplZU5mQS1WcFlER1pINk1uYUM5R19NdFhpTmRTTGJiQQ?oc=5",
-      "source_name": "i24NEWS",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e825a33f16fa5883",
-      "published_at": "2026-08-26T04:53:07+00:00",
-      "title": "US Iran War News Live Updates: Oil companies, including at least 3 from India, to avoid ships on Iran's 'blacklist' - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPQjFZMllkbjcwd3JKRHU2a0Y5VXh4Wi1kY3pVZXhQcjNXZmZldklvcDl6MHlvZ0t0X09NaDMybW1NdmNhaTJtU0pTY0VaZUV2R2pVSjBfTzYwNUUzNkpWejdSN051bzJFRXNGWUJYMnc0NmRfTll2ZjQ4V0FObXZBUE1hVDdrRkgwZG5CYU1IVG9QUzJNdG5jQ3pGeXpsdFgtMGdYTEdyR3l2dXRlQ1g0eXNEdVJNd1ZDQ1ZZaHVOd2sydUlaUEZzYkhPZ2NtQWNkYnB0d0kxajgwaHU0VHpHZnk5dWN2WTVldF9KcFFQRVJ4S3pQV0NwdnFWU0dxVEx2aTIwdzJUN2N6clNfZkVqaHJwc2NXckVaNGFqYmFpa1c4OHZkZ3YzQ2hQdUxVSFo2Mk5yblRR0gG7AkFVX3lxTE1CZFU3R19rV3RDdnNKS0lNOXJYSHl5LUprOFFRaGZoRnRjTkE3eE05d1BGaG1KOURKR2xSdG4tNHhseEdfbWxuN2J2SFVyVmxmbTdtODNkNVdSNF8tS3R4VDhoUmk1WEkyTTBhVFZzUVN2d0JyMTlzQVY3ZGZSU3lNZU5Hb0x2N2k5ZHoxSXdlS0t3NnRLN2FidjY2U1hNMHVHRTZVX1pVYzBXSE1KcDhJTjc2WHZ6OEZMeWtLUVZaWlJFN011RF8zLUwtN0F0V0NLV2VlSDcxeTlLWV9pZ2V2d1dOdmZITEQwYm5yQkVZNDVfMHJQV1VDdHB4d29OYUp0bEQ2RFZDWVBqRnctZnc0Y3NVUEwxNkF2dlVaSmgtUzJBTXZ3T2o0ZWd1dE5WaExKaXVSVTMwR0paWQ?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2d626cdfadc73526",
-      "published_at": "2026-08-26T04:06:27+00:00",
-      "title": "Rubio tells allies U.S. shifting from strikes to sanctions on Iran - Axios",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ncnpsVHhadTQwc3Z0ZGlDX0RIZ0dOY3U2WWtyYU93TDcycXY2eW9POHFCcEpna0h2Y1MyZlM2MnNkVVpBelB3QVFuUDF6U3NiRlNXNG1NT0d6ZVFpYm95QnBLNnREWDFjYVE?oc=5",
-      "source_name": "Axios",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "30b4b336d210adbe",
-      "published_at": "2026-08-26T04:01:06+00:00",
-      "title": "What to Know About Bank Melli, Singled Out in U.S. Call for Economic War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNXJheTNLckZ1UU1LSXVTc3hhVmRQVWlHU0RVR0oxSFpyVWc0ZjhwbFVXOUpQcHQ3NnM4dlpCTTFJdkFxc2pHUTc4MWtpY0d0ZHBSa0xSZ3BJd1BFVkk4MjVkeHB4VWNJMmZMUFU0YnQxWUQyT1lNVjhLanRRT1NPRXFGd1FqVV9D?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8b36a2556bdc5f5e",
-      "published_at": "2026-08-26T03:38:44+00:00",
-      "title": "Egypt stresses importance of implementing US-Iran memorandum, de-escalation - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNUFptQU9mNmRfdDNKTF9qTkxRQ2VXa2pidXA1TlBQcUtROFlFNm82dHphcHFrSUlWam1PQ1VpUlZYTHp3eXRGbW81R1VEWmZPQjlFYUFKLVhXZ2owNFJIMDQ4Y185UUMtdkFVYWNaVzFUNTZ2ZkM1MWpSUHkwcVd2QnYwNUtyTmY5X1lZLUFrNnk2ZU9CLVNKeGhnakJ2aktrTUpWZ2ZpM1o3cGp5RktNTkZWVVk3a202cGR1WjVsbFRPR0xM?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bdb08380109408bf",
-      "published_at": "2026-08-26T03:28:33+00:00",
-      "title": "Iran-US war live: Trump threatens new strikes on nuclear site - The Independent",
+      "id": "238c1bffad8742cf",
+      "published_at": "2026-08-26T05:29:50+00:00",
+      "title": "Iran-US war latest: Tehran says Hormuz still closed despite \u2018understanding\u2019 with Oman - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaGJIczZpUWNwNEdTVFpHVWN5bVI0LVZuSE1QaHktR0NJVWpIckVGa1A3WHkwZ3BYUTJtMjVObU1iR2xheHFrOTcyM016N01RbHhHVnZLLUxpdnFQbmNHVldQSzhoa1lHZlZNNUlPRTR3YURCUFk2ME0xYW1aNmFSa0pfTnlCczEwWVFmLUoyNGp6TDBDc3VzNnp5U0N6cGtMVGEyaDVGc0JuWUtZVFZWc2tVbFB4Z2RCaWl3?oc=5",
       "source_name": "The Independent",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "70dfba55f5b1e4e6",
-      "published_at": "2026-08-26T03:28:00+00:00",
-      "title": "Bessent's D-Day sanctions are more Anzio, but Iran response is key - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMkhfQWZkQ3NjME44ZDJlVHBscXZyUVJFclJBN0Vha2M2Tk9HNjA3R3IwUDhfZUJRcWVKV2ZFZDQzbWpmalNENWZMZFNOZUZfbHNIbktZVmxaelAxMmhvT083NjM4eHhhblJqSU1HQ1JyU2Q1YW9UdkdSZlUzMFAxTDZaa3BzeUUxMjVzTEdZbFA2X0Q5NmFrTEhGMU5HSXNlTU45Rkdoa09jNVdsbGdiQ3hESGJyQVFRdkdNU0dJei1KT21vN2ZlQw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7406d6b7b1f7b420",
-      "published_at": "2026-08-26T03:27:00+00:00",
-      "title": "Analysis: Trump will need China for his new economic war against Iran. Good luck getting Xi on side - CNN",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQTTdxdzZqaTBFeHRaZTFjdUpWaHlPejZzMGRrWGZZSmVkbHUtOFB5ekdxMVJvblhBRDhSdFd6U1hNU1hIai1WUE5Ib3VaaEdpcXFucWVtYXZPZWpQQ0F0NmVVdkVLMW94aEJpUlFlS0FTLUJQLXJBMGNfZGRBdWplcw?oc=5",
-      "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -336,66 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "136ca32cb70333e0",
-      "published_at": "2026-08-26T03:25:13+00:00",
-      "title": "Rubio tells allies US shifting from strikes to sanctions on Iran: Report - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPUEFCNS05dTBvZlVlWXBnWVFlelFfOUEwNjAyenV1QU54OS1rLWU3MGQzRURjbGw1RUdPZDlNT2E5S2VDQlc4d3Q1SFI4ZkxBOTZXbDlOYlZGM25ULTJYbTEySGFNRXktVVBJbEFkTDVCUEQ0SjdNMEVjMDNYbVZSZ0tqZDNsVHZFaVRJMWJlZGl6a21FSnB6R09YczdPbVJxVVZhQV96azhlcHNXbEJkTHc1QTQzU2oyTHpRLTc0R0g?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "acd89e6c95d2c79a",
-      "published_at": "2026-08-26T02:36:16+00:00",
-      "title": "US holds off on new Iran strikes, turns to economic squeeze - Ynetnews",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1GZ2Z0d1FXQXF2V0xJZnhmR3hVTEtlYk40MGp5Z2thWnk0TlFoQ25VUm9JY1ZWcGpiZDB3NkNXNF9kclp3R2pWYzZRX2N1MWY2aUpKSFR3?oc=5",
-      "source_name": "Ynetnews",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "159e0739c97ae7fc",
-      "published_at": "2026-08-26T02:05:35+00:00",
-      "title": "Rubio said that the US is not currently planning new strikes on Iran \u2013 Axios - \u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdmd6VS01VFgtLUFRU3dDeDlMb0k5U3NCaklWel9IRzlTMnZmYVpCQ3l4WS1jVURSUjhzYUJjUm1TeUdIVmx1cWowUlAtSmRkMEdOUWNYWllDZ0VnbzA5cUtFMnVXMzNjMDViUGI1cU5NM0huWFl1U1RGWnJUa2s5MnZ0Y2E4QmNPcFkwYWJvel9Od1BzQUxLRVJRWThmZ9IBnAFBVV95cUxQM2ZaNTY0WkljT2FyVnFxSFBmNXN1eDhnM3dhUV9UaEhwSVFveUFKMkl4by0xSVB0Z3pNekx3M2hTX2JoMVFEdDB2dkZON0VxdldJa09hUFFUVjFkU2tfWmFubjc0cTcxOXdWdTJHN0V0NjlsWUNtalhhV0RBWTJILUh6Q2RySVdHbldDN1J5OW1VTURFRkFQRzRKVFU?oc=5",
-      "source_name": "\u0423\u043a\u0440\u0430\u0457\u043d\u0441\u044c\u043a\u0456 \u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0456 \u041d\u043e\u0432\u0438\u043d\u0438 (\u0423\u041d\u041d)",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "625cdedd04eb56cf",
-      "published_at": "2026-08-26T01:39:35+00:00",
-      "title": "The U.S. is escalating its economic war on Iran. Here\u2019s what that means. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFhyNjFOLW5mSzZtUWJNYTRoUEFlQjU0MlY2RVQyOXgzREtXdDJERWdNc2xHWUVvajFYb0RtcVRJTENUQ2QtMlB0cGhIWndIanBNVmVTZExUUU5yUTduMmNfNzZRWXFNb093UlJUTVYzYWlud3V1LWhnNlIyVTFKaUx3Z0x4RDlNN0tTNDd2Y3hEanp2Q29KcmhLaElURzRxLUx1aEIxQk9hZ042NGc?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
