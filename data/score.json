@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-08-25T21:46:14.171430+00:00",
+  "generated_at": "2026-08-26T02:00:31.265766+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 101,
   "totals": {
-    "usa": 41,
-    "iran": 22,
-    "lead": 19,
+    "usa": 37,
+    "iran": 28,
+    "lead": 9,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 15,
-    "iran": 20,
-    "delta": -5
+    "usa": 11,
+    "iran": 26,
+    "delta": -15
   },
   "confidence": {
-    "score": 66.5,
+    "score": 66.3,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 33,
-    "other": 37,
-    "diplomatic": 27,
+    "attack": 35,
+    "other": 36,
+    "diplomatic": 28,
     "intercept": 2
   },
   "history": [
-    {
-      "date": "2026-08-12",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-08-13",
       "usa": 0,
@@ -68,17 +63,17 @@
     {
       "date": "2026-08-20",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-21",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-22",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-23",
@@ -88,18 +83,173 @@
     {
       "date": "2026-08-24",
       "usa": 0,
-      "iran": 2
+      "iran": 3
     },
     {
       "date": "2026-08-25",
-      "usa": 15,
-      "iran": 18
+      "usa": 11,
+      "iran": 19
+    },
+    {
+      "date": "2026-08-26",
+      "usa": 0,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
+      "id": "df2a878bae04feb0",
+      "published_at": "2026-08-26T01:33:24+00:00",
+      "title": "Rubio tells allies no new Iran strikes for now as US shifts to sanctions, Hormuz pressure: Report - Firstpost",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPa2l6VzRWeUlHSHo4QkkxY21wWEgwckZJa21XUzV4RDNlVmxlN2x6S2o5cWs2ZnJtMmxDNE02VHBaaC1MWlUwVTl3eFdmYm9rTGxWb0dSSzB5ZUJqVnZBeFEyQ2Ytb2VsUlJZV1NvdTYzYW0yVzB3WEZtYXJxZmhmUXE5RG1XaHB5Unc1U1NjVUthV1QxY1VwZkJFOWI5RUFtRWJuOU9mLXIzUGo5dS01X0RQU01iOXFQM2FDUmhrMVMwcU1IZXBDRHNBSTZkZDk1Mm5fQzd2dWXSAd4BQVVfeXFMUGI0RElZM3pMckR1NkJ1by12RDdlU2x4N1MtdHJTRlA2SkFUcnJ2RzRNeWhIOFBrV1hUVXEwY3FHeWIwdGVvOHJXNHFXVUJSZV95TV94NGpDeU00Wmc3UmItSWc2UUp2WnVXMC1MQzFvMDFPWUh5MTZnLWhyUWlPc0pzeGRKNkYtLVFIZ01mVFdscGhLVjVteExJQ1BQdXFpcUxOX0NEUEpJeUZpWFpmRnpCTnJSX0VSZVBvc05JejVyVUxKcVNjcUlnUml3OTlkYS1KcW03MXBOWHlmb0pR?oc=5",
+      "source_name": "Firstpost",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8f9d0235b9abcf75",
+      "published_at": "2026-08-26T01:13:51+00:00",
+      "title": "Iran war live: Iran says Hormuz remains closed despite Oman route deal - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcU5SNjBKR285Wk9NamJ0RFVDcWR3THRoNmUwWm85Qmoyd1VOajNlNy1BMWtmSVNjdElMWTVISmM0VnF0d3J6UDZNYzYtblNwcFpsNzhVejVfMko3cnhaZjVITzdCSXNqcmY2VExfV1NVUkpySF8ydkRvWE1rYkE1WUNuZ0VTZE9yY2NMekVlX1VfLXN2eWI0eGRfMExGN0JqeXozZDBKOXNMYVlEVmRIMWtrbUFGUndocmfSAb8BQVVfeXFMTTNTNFBiVmpTQVNpSGZ4aHhmUG1wSmZ2YjN5QXN5YWtycmZucGZTajM0SGtNclVfMEF4NkFpdC1mZFhLeGpUUHV2blNoSnBmMFZNX19fTFpPR3gwREw5MlhNM0xTWFpnRkd2eEJKZmNZaWt5Vno1UjlNMHFJWnZLN1Rja1VfcFV3YkVBZVVwNm1xTWdzOTF2NDZlM0pVbHZocnptUmFVUFB4cGhSUmhYNjRjMWZWSENoTGxSR3NXa3c?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "231a769146cbc489",
+      "published_at": "2026-08-26T01:08:00+00:00",
+      "title": "Iran war latest: China criticizes new US sanctions as Iran vows to retaliate - CNN",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PWC1zSmdaZ21Ic045UHpMcm4wYWZscXFYZ1hfdElYZGV5TTg5UnhDcGQtWFZvQTlubElBeEVacEQxMUdfdjVzRTVUUTRobTBNWjNpd0NUVmxDZkZiaGMyaTVBaE5mQ050d0Q4aDljOVdnbVQ5Vmp2UjZvaw?oc=5",
+      "source_name": "CNN",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7c0f665f07ea2741",
+      "published_at": "2026-08-26T00:35:33+00:00",
+      "title": "Rubio tells allies US stepping back from Iran strikes as sanctions take over: Report - TRT World",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB3NEl2MXN5aVFscE1scWJMVlFtVU9uREhpak1HZGNFdGpyQTVZVDlqVUlJdlBlV2FweUUtRm1odHJJdmpjWnlEdWE3ci04SDk5UTFNa0VZTHM?oc=5",
+      "source_name": "TRT World",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bdb08380109408bf",
+      "published_at": "2026-08-26T00:28:33+00:00",
+      "title": "Iran-US war live: Trump threatens new strikes on nuclear site - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaGJIczZpUWNwNEdTVFpHVWN5bVI0LVZuSE1QaHktR0NJVWpIckVGa1A3WHkwZ3BYUTJtMjVObU1iR2xheHFrOTcyM016N01RbHhHVnZLLUxpdnFQbmNHVldQSzhoa1lHZlZNNUlPRTR3YURCUFk2ME0xYW1aNmFSa0pfTnlCczEwWVFmLUoyNGp6TDBDc3VzNnp5U0N6cGtMVGEyaDVGc0JuWUtZVFZWc2tVbFB4Z2RCaWl3?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "c7a1dfcc4d3543fe",
+      "published_at": "2026-08-26T00:07:07+00:00",
+      "title": "Iran war updates: Tehran says Oman deal on Hormuz does not mean strait open - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8fb3c3489475f72e",
+      "published_at": "2026-08-25T23:11:57+00:00",
+      "title": "How conflict between Washington, Tehran is changing - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9fRXU5ajA2dzhMaldpX1VPeEVfTTBhRzM2T0oyanl5NzRUNVlQQTVFbG5vSzgxWmM3SThsM3FwOGpnVUt2UmtEUm0taGxraURNaDZOWDFNM1JWYVNWUzdHc3E4Nmg1TEFWY3c?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "68afe4ca8ede87e2",
+      "published_at": "2026-08-25T22:57:00+00:00",
+      "title": "Rubio says US strikes on Iran paused \u2018for the time being\u2019 in lieu of economic war - Washington Examiner",
+      "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPd3l5ZW81VjFOUjRveGY4OWVFZ1ZIX2U2Q21hZzlGenlkTl83Si1RMk9WNWQxRnBleHdXTHZudjhUUWxZUlh0MGJVQmdmbXNGbmI4TVF6SEotSmM3WENGdTB6RHhwa0lacmV6c1VjNlJRam5sOXAwczRjV1pkMjNWYUVaRzRMekZpWXpqR3hFRU1oak83eUJCWVdhaXBwRldJU1ZtQ1dMLU96Y1VKYW9JWTl6QTU1d1FfSE1nUVdoN25yTXFMZVNGZTFYa0YzbTJ0TWE5SThocWhVa1U?oc=5",
+      "source_name": "Washington Examiner",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "237ca5410d0d6bf9",
+      "published_at": "2026-08-25T22:21:13+00:00",
+      "title": "Report: Rubio tells allies US is not planning new Iran strikes 'for the time being' - Israel National News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1sXzl1TWN2N0h5azlwandtZDlWX2dOQkRSNEdWVGxnLTZCRnQ1U2kydjBLMFJJWGJvSWJFSE1zeUtJQUFLcWlLc2FuNW1aQUQyT012WVJXZzRMdw?oc=5",
+      "source_name": "Israel National News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "cf7e00fc270fda17",
+      "published_at": "2026-08-25T21:57:55+00:00",
+      "title": "Oil prices fall for second day as US shifts from Iran strikes to sanctions - France 24",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUGx4UkRFc3dtTWxHOEtmRlRFM2NObFY0Z19GaDZxZXdTa2I4Z1EzYkllUTVyMV84YlJSNi1sVDBGUm1yVS15VndfcGlCbkk2dTN3SFgtU1ZLbVptSkJSRFlIcHV0ekU0N2dweUxCNGNZV1FLYm1TX0t5dWtLNnlHQnVlYUJOYXcyOUJJZExRWQ?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
       "id": "221d6e296afa841b",
-      "published_at": "2026-08-25T21:32:20+00:00",
+      "published_at": "2026-08-25T21:44:08+00:00",
       "title": "Rubio tells allies U.S. shifting from strikes to sanctions on Iran - Axios",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1ncnpsVHhadTQwc3Z0ZGlDX0RIZ0dOY3U2WWtyYU93TDcycXY2eW9POHFCcEpna0h2Y1MyZlM2MnNkVVpBelB3QVFuUDF6U3NiRlNXNG1NT0d6ZVFpYm95QnBLNnREWDFjYVE?oc=5",
       "source_name": "Axios",
@@ -111,36 +261,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "c8ceb0ff3e6a6ce0",
-      "published_at": "2026-08-25T21:29:13+00:00",
-      "title": "Iran war latest: US sends message through Pakistan to Iran on reopening Hormuz - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?oc=5",
-      "source_name": "thenationalnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "438f3648d21abcd4",
-      "published_at": "2026-08-25T21:28:33+00:00",
-      "title": "Iran-US war live: Trump threatens strikes on nuclear site and Tehran military boats - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaGJIczZpUWNwNEdTVFpHVWN5bVI0LVZuSE1QaHktR0NJVWpIckVGa1A3WHkwZ3BYUTJtMjVObU1iR2xheHFrOTcyM016N01RbHhHVnZLLUxpdnFQbmNHVldQSzhoa1lHZlZNNUlPRTR3YURCUFk2ME0xYW1aNmFSa0pfTnlCczEwWVFmLUoyNGp6TDBDc3VzNnp5U0N6cGtMVGEyaDVGc0JuWUtZVFZWc2tVbFB4Z2RCaWl3?oc=5",
-      "source_name": "The Independent",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     },
     {
       "id": "e469f3dbb94b3f84",
@@ -155,52 +275,37 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
-    },
-    {
-      "id": "692be50889b3d8ca",
-      "published_at": "2026-08-25T21:12:27+00:00",
-      "title": "Iran war live: Tehran says Oman deal on Hormuz does not mean strait open - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE11U283WFBPdlU5OTRhNHRnLXFLRF9pSm5rcXBlenJ3WGhQVzRaTWVDQzFaQ091UnZoUHV0MDNpdTJBTnVDOE8wcVRQSmVhU3NBY2pZeTluaEltaUhUMFFrTHJHb0VpdkRlTWNmN25nLXpPcGhxRERJ0gF8QVVfeXFMTjRybTlMLURxREVpSUJJVjJENHFEbkNaam5QQnB0bkxuR0w0SzNud0JJMktPN3JFUHJJS0ZKRVd5RjRrWDlEUlFWYnZteHNncVlEVWdyWUJ5SE1OTUQwZS1CS09XbmpuRWZhNVh6RkFHVzEtSUtxTjNWOTRCQg?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
       "confidence": 0.55
     },
     {
-      "id": "6f922774978eddc5",
-      "published_at": "2026-08-25T21:06:37+00:00",
-      "title": "Opinion | I was a U.S. diplomat for 20 years. Now I see how the Iran war could be won. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWnhWaTlXZFNpNzZJQmtfZ29OM3gwbF9fdnN3V1ZZemlOLS1oelh6aklRQjQ2cm84ai1SbGF4SXhBejdlZ3RvUTdMTDkyQm5aYlJTSzRRTDZsemdnYmpvZ2Y2bDFzdm1FUXI0OHJ5Y2U4R0pCVlpnU3l1dnJKQm5oUXRLOHhDcU1nbkxiWDhtTWdmbHdncS1RTXVNM0RnRjJ0eGc?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
+      "id": "3e37af479f586ad7",
+      "published_at": "2026-08-25T21:12:33+00:00",
+      "title": "Axios reports - Rubio tells allies US shifting from strikes to sanctions on Iran - investingLive",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbkpOMTRnTlphS1dZRlJOcGNaV2JBdmFhY210SkNmUW9qejVBR2FJOGJDa1Yxc0hQNVl3NndWaUp6WnlQZWRDQmlYb1A2NjRkTGFzOHpyQncwMXZMZzcwVkZibGVtSWJQVjZHTE9VVlMtTkNZNVcwLUc0Unp6VjJ4U0lNQzg2TWhWdEp3SGEyWWJ5VUlLUjhWUnRGLWQ3X1NoZXF6Q3Z6cmo1TkRfdWw5bmZtV0YxU0hD?oc=5",
+      "source_name": "investingLive",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
-      "id": "56df7a700a1874d3",
-      "published_at": "2026-08-25T20:49:53+00:00",
-      "title": "Trump Live Updates: Bessent Unveils New 'Economic D-Day' Sanctions Against Iran - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xYzV1OHFrN0pNdGo3V1VSMExkc2pvc1NhbHpJdE1HdzFsQ3h1M2lMU1JzeGotX212N1VRTVNHcVJibEVmbDJvbjNjdGdLdnZFbnNjSEhRUEt0Z2U1cWp1WGlUYTZkSWVZclM1SzhXZlFjSW1r?oc=5",
-      "source_name": "The New York Times",
+      "id": "9706ece7760d1bc8",
+      "published_at": "2026-08-25T21:00:00+00:00",
+      "title": "Live Updates: Iran says it's ready for new sanctions U.S. describes as \"economic D-Day\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUEpzNDk2c1V6WnVlU0lpVnpZWlE4OC1YNl91RURET211TzluVGFCR0VYRm5qZkxMU1ZVTU9Sc2xzMXBudzhwcVppb1YxNlpDc1EySjVNV0xkSlRIS2VJU1FPMmtXdm52OHJJQ2cwUzdDX2NBLTQ1Tk5NNXk1RWtsSExqeDVRTnM0b2c?oc=5",
+      "source_name": "CBS News",
       "event_type": "diplomatic",
-      "actor": "iran",
+      "actor": "usa",
       "target": "unknown",
       "points": {
-        "usa": 0,
-        "iran": 1
+        "usa": 1,
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.8
     },
     {
       "id": "b29564189e432b5e",
@@ -208,111 +313,6 @@
       "title": "New US sanctions signal Trump desperation on Iran, experts say - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcmw2X00tTmczcE5TWV8wWWJ3XzhyTTN4bms0ajdMbHZhQ3ZaSm9USmJQcnlJejVwVzlzNFBKbmJSYmdaYnF0SWp5d1dSSjl4dHN5SlZWUFdsWThyZ0xVU2ZUemlwNkZnZ3NSLWxtbEs4bWw5Q1NKdWNPTHZCYWlIYnFFVGd0Qy1NUDN5RFNxTTNSeS13dUJMb3AzaFRFd0I5Y1NuSdIBqgFBVV95cUxQM3pLMnZfc3ZERTF3akZlbjd0UHo3X1NFOUMyZ0Q2cm5pQ05ZVDZ5ZVUwX3dHUEtSclg1VzEzNFRzcWdUeGJXVklRSUlYbk03QWl6QWVDYjFjRlNLRWYtQ2hqMVA1SlpJNEdXM1B1bjJzTkhQc3hFa1FhOHVhM0VvTHNjSktvcEFUUWtIdzJCcWxIM1V5WkZGWnNIazA5bEVreWdqNmxhend6Zw?oc=5",
       "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7528ce46a8924be6",
-      "published_at": "2026-08-25T20:32:36+00:00",
-      "title": "Airlines gradually restore Middle East services after Iran conflict - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQVBTWVJmQzQ0amNDbXRwTnRpMXZOc19tNndrYlRWNHFWWllULVVkZGxEVkNic2lGdkhKdFE1N0NzQUt6d3BVcEhvME11eUVWSjlZNXlDcUJ5ZFBMSF9KMDNXMnVMaksyT1p5UUhOVUV1b3pYeVZzeEVCa285VGRtYUN3UFZOalRsS3Bzb0dNV3UzMGZrOWdsdC1FWjdvYW9qUkNVOENCUERpTGdjbl9yM0VLYmxMdw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d37abc18880fffe4",
-      "published_at": "2026-08-25T20:28:49+00:00",
-      "title": "Buckle In America \u2014 Iran War Costs Are Steep And Growing - Forbes",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUU01V3I1VzZtWUc4b3dNSWVWSU5ENGFHZUVaMTdVUFMycWN6OEZ0TXhWNkJFYVNuWW1FX3B3cFg3T29pMVlZSy1naWVxa0pYdERheEVIY3p4U1hMRUlkREEwZ2RveklzaXJZcW5hVDUzYXpQeEJiQ2l5ckt2WjhfcFlkOEpqbnRacVJKV19aLUE1eWVBWGpTa05Xd08tcnUtLUtTMGpwS1JOUDFhNU9BbHJ1TQ?oc=5",
-      "source_name": "Forbes",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e22fd36f52a3294f",
-      "published_at": "2026-08-25T20:27:10+00:00",
-      "title": "Six months into Iran war, almost half of global oil flows from war zones - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPV0VHRE5tclJ6Z1NRR0l2S3JOMURfLUFMY2hVMkZOUTNSdWJsS2pXejZFbkFOX3YyVE9GTDdscFlpWUVMY3hBRExLS0dVUk1qWEFuZC0yb09zYW5UYVF2NVc0c2Y0OExPMWdXSHVsMzNLcy1sRmEwTW5ON3gxY0h1MXF2MGRtRExBTllHdnF5NncwTzNGXzh1QUtWMjg2MTBCWWFYZHczYWt1R2pKZzF4NFUzRkN1dw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "21a55a586e898261",
-      "published_at": "2026-08-25T20:12:30+00:00",
-      "title": "The U.S. is escalating its economic war on Iran. Here\u2019s what that means. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeFhyNjFOLW5mSzZtUWJNYTRoUEFlQjU0MlY2RVQyOXgzREtXdDJERWdNc2xHWUVvajFYb0RtcVRJTENUQ2QtMlB0cGhIWndIanBNVmVTZExUUU5yUTduMmNfNzZRWXFNb093UlJUTVYzYWlud3V1LWhnNlIyVTFKaUx3Z0x4RDlNN0tTNDd2Y3hEanp2Q29KcmhLaElURzRxLUx1aEIxQk9hZ042NGc?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7a3d37a080e9cef9",
-      "published_at": "2026-08-25T20:11:07+00:00",
-      "title": "A Post-US Regional Order? The Shifting Security Architecture in MENA Amid the Iran War - Quincy Institute for Responsible Statecraft",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNeEkxWHdqMkdiOVNxTkliaDVMN2xZbU4xdWVnYzFyWm4taWVZVUZ1ZW81R0trTDN0djVaS3B1YmE3OENvdkl6ZF9GdDJnUk45b05Ecm1xRWdkY2xLYUtnSENnbXk0c1JfZlgtbktDMUNiSHYyMGN1NG1LbXUtYzJRN0RyVlJzbEVTZFJRNVlpM29tVHVLaGlxLXgtUVFaZzNTN21ZUDFYMnZEQ1h6X09JOTRsdjVXX1k?oc=5",
-      "source_name": "Quincy Institute for Responsible Statecraft",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f54d06e7f05f5823",
-      "published_at": "2026-08-25T20:01:16+00:00",
-      "title": "Iran, Oman discuss temporary shipping lane through Strait of Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObjRTcll2S1lXWWkxcGhOdU5vVFVfVnpad2d4bk5oV0x1Ry1LT1B0T2ZCcXcwRXBXbDJSVl9jN3VJakF3M29OQko2MGR0WE1CZFJrWl9BUldISzFBQVdDOUxreDE4SWpubUcwS05BN2lXRmI1Z3BHY0d3VE5UMW5WZ1pXSjZKOUxqaVNGd1VYNUhLS0tNUm4xMmJxRm1xREZ5YmRlclhqQ1Z4Q2PSAbABQVVfeXFMT2NrREp4YkVlbWhqeFRPbGJhMU1aYlVOR3dsbTc3WG1rd3VaaWVqNGEzYUxaS2RXdXpBY0pqNDlhaG9oMm5vZFZ3WEFLOXk3aDFYZ1poaVhhblNaUjdDX0ZuMGgwNlRHOE5BLUdaQnRGYjYwdElVOEJ1Zm5ZblljOEZnQXBLOHBGRDZmUERIRnZWTFZWQTAtSU5LQWFDaDZIWWo4bHF1ZEpBN094UjllTUo?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "357b083c2e368414",
-      "published_at": "2026-08-25T20:01:00+00:00",
-      "title": "Iran war latest: China criticizes new US sanctions as Iran vows to retaliate - CNN",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1PWC1zSmdaZ21Ic045UHpMcm4wYWZscXFYZ1hfdElYZGV5TTg5UnhDcGQtWFZvQTlubElBeEVacEQxMUdfdjVzRTVUUTRobTBNWjNpd0NUVmxDZkZiaGMyaTVBaE5mQ050d0Q4aDljOVdnbVQ5Vmp2UjZvaw?oc=5",
-      "source_name": "CNN",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -338,26 +338,26 @@
       "confidence": 0.8
     },
     {
-      "id": "2140fe0aaec7a18c",
-      "published_at": "2026-08-25T19:46:00+00:00",
-      "title": "China is the biggest buyer of Iran\u2019s oil. Could US sanctions threaten those ties? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNWmNZcjhRZjlkQ1FuM0sxTDg4V0tIRFZDQ3JzZGRfY3ltX21rdE45TXZMTHRzUG1uQnRvMjBnb0xtcFJtVVViXzk4WGtpTnZyRGNXLV91OE51ampWVmV2RUlRb3FjSjhPX0NjUDRKMjNZWmVvRXVvUmhTWTl5RzFMVUNRb3lxSUZUNU5Cd0ZjemtlMnJpTUhJWjBSUnRmZ2xZTHk5aQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "c8ceb0ff3e6a6ce0",
+      "published_at": "2026-08-25T18:27:22+00:00",
+      "title": "Iran war latest: US sends message through Pakistan to Iran on reopening Hormuz - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdWlpbWFSejVVVWVhNFBVQ3M0RkpXN1FzQWpzVnhMWFRWUmlPOTNYRVlBMW41RWw3VnhIUGVvZ21pNlBTSERnYnk4UmpFc1N3ejFjN0tJUTVCc0pDUW1JRkhkbTNycWcxbGhVUUxnQkRLb2Y3Y0tVY1pFRk9zYTAxYXptdGVoUQ?oc=5",
+      "source_name": "thenationalnews.com",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.6
     },
     {
-      "id": "b9f04244e253cb5d",
-      "published_at": "2026-08-25T19:40:46+00:00",
-      "title": "US turns to economic pressure as Iran war remains stuck in stalemate - KABB",
-      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNbjl6QWZkUjFEdkFGS0Y5OXN1Z0tDY2JLVGhoNURfQUV6ZXUtZnZiVGMtdWRLNS1yZVBqSUNmZW1xZkV5dzJROExWc3lfT3hfbUNJaEo5Q1BLUUJzTk9HU2x3bFJlN0wyNThCalJQVEhKRVFQZ2NsSDl3dFNGbW1UTzdhcEN0QUlrdjBmZGMwb0tZUWw4WS1qUGlDZ3RoeTVlZTFNcENsdUtVLUpDZ3NBRlRabGdfUU5aeUoyQkF2bmdsb3pfYm11TjBYU2lKaTRPaWV1UnRzLTFDQUs1X2QtSDVvVWNfX0xXOWNGSDRtUUlSVE1MNThqaVc1XzN0Zmd4SFJTY1NwTUpZV0IzQnJTTUdwVV9obkdpZUE?oc=5",
-      "source_name": "KABB",
+      "id": "fa576b4052ec9788",
+      "published_at": "2026-08-25T18:18:00+00:00",
+      "title": "Pakistan, Iran made \u2018significant progress\u2019 to end US-Iran war, minister says - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOemlkZlR3a0x5ZmZyLVczeTRzNzZzbFpmeURjWHg3NWoxcXhUbFFoRXJ0VlAwYmp2YVd3dVJTV05VV2JZWXFIZzZYUXdYcFZMMWk5Y0dQejFYQm1iVzFhN0xqejdlRUJKSmtVc3BaS1JjWmtTTlo3ZWdTQnNGdGMxbUtJbXnSAYoBQVVfeXFMTzMwVlJDOEsyTExyNWppYU9YNndUMnk2NHJNZEx5UkRqZUE3WDBwU1lzVDh1ODRRVlF5bnFuMUR6cmRmaWNyY3hSRDRJZkVVUndORGN3Z0IxeW5fWlBtOEFVQTREMU9Vd3ktN3F1alFRa1lxXzBoTmZwUy0tNnpUQUVZb3RXZkhDT3RR?oc=5",
+      "source_name": "The Hill",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -368,11 +368,11 @@
       "confidence": 0.55
     },
     {
-      "id": "ad39c78ad442ea2a",
-      "published_at": "2026-08-25T18:46:00+00:00",
-      "title": "Australia wanted more US missiles. The Iran war may make them harder to get. - Politico",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUVpIcHpqVnQ5SGNTOW80cVRkX2ZyZTJGYW5VUUVLQWdhUEJxckI4TTJ2YV9aTUsweUhPWi13c0dzS1E3ZGlYZE9kQ3N0b1QwbGcxVno2OFozd3lqSFRZaktaM196RzBYLU1Pa0tXSGNrSHM5Zk5tOUdqNUFhSzN1WVgyMmJEbUtzRFpVSVZUajhDUFphTElyMllITVpHLWVnZDV0R0lXRnFScmExLXlvdEkyRUJvWnI1UHRhTE1jWHhMZw?oc=5",
-      "source_name": "Politico",
+      "id": "da4923695465c7c3",
+      "published_at": "2026-08-25T17:40:20+00:00",
+      "title": "US Iran War News Live Updates: Trump says Strait of Hormuz mines cleared, warns Iran against laying new ones - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxONnhGa2xjek1aZFNsQXRTaWxIRnBadU05LUhtQmliZGIzRVc5OWl6U2FBWDYzX09wN2MtZ0pTX1B3SDVaOTBCYzlpM2Rxa2NieDVYN3p0cUdzVmxMaGxwVUhYRzNtWVpUaHllZHR4RFFJUWF0Ym9OVmxUWkJWY2VsRmYyWlpocThPb0tiU3paUzdvVmhrUm1wdlVranUzUzRsZmYtV0I3S0ZoeHg4aUdYeTBZRGN0NzhaS0hBU1U3S1U3M3JaVHVwQzAzU25ZSkhtM29PZHdhLXpucWtYYmcxc29LV055QVQta0NIOVdGQmlsQTMzakNCeVRiVk1obkxvMU5XNkVFcExfTzFRMlF0RVE4LUI0NTE0QzFvWW5rVFBjcVhXcnlCV1lpZWpuVUZ6U0xBYmlUS0RqTWFYQTB0MtIBxgJBVV95cUxOT2d1c1VMSDJ1aEpxRWdKQXpjdHlvTktzN2dWamQ0dVFyTkI4bndqV0otWFlIWEVWbFBpaTJyLUp0QTZFMXpiUWxiaWVqZFNnczhMSmFsWFhpVXlTNWZkUVBfbjhrS2JRaDdqRU5UMmRPTlFySUZydThXOHRQVDVhcXpJMGZnY1lFU19fYlZqVEpoUEFRMGppNGFyZ0lHRXlPdktuTE9GS2hmWS1iVkwwZ3dDdkd3N1ZCdW1FR3I1dUVzUmlfa1FGZW5UbkxzY2NzN1RpMVVkWTNKeWhUMXpVWDVoQlh6VE9teXVILUowRGFYTWIzbWlJaXhlN29fQ3lUdTVDX29VZkxoZnBRaUp1OWJ6dzMteWNVMm03THZ6UjR3Rl9KNXlOb2FkRlpMelZJNEo2aW4ydDlvZFhmVHBac0haREJLdw?oc=5",
+      "source_name": "The Times of India",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -383,19 +383,19 @@
       "confidence": 0.55
     },
     {
-      "id": "3b0e3de7e9865c6c",
-      "published_at": "2026-08-25T18:34:00+00:00",
-      "title": "Gold price hits three-month high amid fears over Iran war and Trump economy - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdTlUNkYtZGEtaHBaNHMwekxkcjZPVmRwTTR1Z3VZZzVKTmJHR0UzNnhxNlBaNHdWU21GM29PTjRiY19hRTdZN3dYUDlLN01vaG9zTHNsR0M1SldHRmhLQ0tzclZ4dHRiRG5JNmNVQWFrczhFR2tHYnQtcGdYcURiSklrcHVPX0UxZ1NDeVF5UXdPbHZ2ZEpBRkM4b05EZw?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
+      "id": "8a9eca8dd3dd747c",
+      "published_at": "2026-08-25T16:43:11+00:00",
+      "title": "US starts returning staff to Middle East missions after Iran war evacuations, sources say - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOV3dxRUVMN1NLeXZtbGFXMzB1LUk3YV9VT09SdE9XaUpFcm5BV3NYR3R0Ml9UVThUSlNFZWlva290cGc1Y05SU2ZvRjZtUFdNdWwtT2c1M1N5a0FTYk9HVFBzZl9GUVVaZHcxa2syZWdTcTZBNUdTMnRFQWNKeDVSQXlFRUdZZHRtSGVSeU1fSzcxRlRYc0w2RzBTT296VU90cXZIRVE2WGtmOTBLeGJ3R1lfcm5wRmlVLXo4eVhkMGNrQjY2?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     }
   ]
 }
