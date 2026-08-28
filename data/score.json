@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-08-28T00:26:22.458864+00:00",
+  "generated_at": "2026-08-28T15:27:59.850062+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 89,
+  "event_count_window": 91,
   "totals": {
-    "usa": 25,
-    "iran": 8,
-    "lead": 17,
+    "usa": 14,
+    "iran": 7,
+    "lead": 7,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 6,
+    "usa": 5,
     "iran": 7,
-    "delta": -1
+    "delta": -2
   },
   "confidence": {
-    "score": 64.8,
+    "score": 62.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 47,
-    "attack": 32,
-    "diplomatic": 10
+    "diplomatic": 7,
+    "other": 60,
+    "attack": 24
   },
   "history": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "date": "2026-08-19",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -77,105 +77,45 @@
     {
       "date": "2026-08-25",
       "usa": 0,
-      "iran": 5
+      "iran": 4
     },
     {
       "date": "2026-08-26",
-      "usa": 5,
-      "iran": 1
+      "usa": 4,
+      "iran": 0
     },
     {
       "date": "2026-08-27",
-      "usa": 1,
-      "iran": 1
+      "usa": 0,
+      "iran": 2
     },
     {
       "date": "2026-08-28",
-      "usa": 0,
-      "iran": 0
+      "usa": 1,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "428b7a8486f57139",
-      "published_at": "2026-08-27T22:59:01+00:00",
-      "title": "Iran-US war latest: Trump sends new warship to Middle East after claiming \u2018very big victory\u2019 over Tehran - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQWjNOMFRfY3Rzbjh2ZXRKdmdTX3BNVkhkQzItRXFISXpfYkZmZWp2THBhTjZUdEhsZ1p3SnZFeHQtRE04MXZmWHFuMjFQSGdnWDk1SFptdWcyUHljUVFyOWp1RHFmWjJlQXQxQU1yTG55LVB1QVNDREZRbHg4NFA2Q1FpTFI0Q1d5UW5xVmJSLWl1WmlocGRPUkw0aXNWRXZJUWJlXzA0UXoxSkFnRVY3eDBGRHFNRkJQcS12REtR?oc=5",
+      "id": "88022498d17d32d7",
+      "published_at": "2026-08-28T15:01:03+00:00",
+      "title": "Iran war live: Tehran delivers fresh warning to Trump after meeting US ally - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPT1BUYkhtMUZRYmlRcnl1X0ZJOHduNmEzN29WcGZ5UGl2Z25rUjFCaEhBYzZacFBybzg3b0VwQTBIZjlobkxHT1UzUGtuWkxKNFZiMzdUT092NC1UMGhpMk53WHpzRGtDVV9ZVEV5VDFHdTRtSUVkRjdfYUNEM2p6dGlVZ3U4dHlQTndZVGVCUS1ESWxkd05kMkpPTzJPM0UwYjRKS3pLcV9KMkxkelhGWndKODNLUQ?oc=5",
       "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 1
       },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
-      "id": "c6d35d25ac08eec3",
-      "published_at": "2026-08-27T22:37:00+00:00",
-      "title": "Iran War Updates: Tehran engages in renewed diplomatic push, touts proposal to reopen Strait of Hormuz - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUzJMQjNVM25NNWFDSVZ5MjlBRThTT1o3Q3k4QWZRemJLa2VEajBVR0l4OW0xVUNURWZraGVRcGlFWm5iZDZUektjWnlwQjdVdV94YU94Z2hlVklPbW1uc0dkYVdNQlhmeldmWG9OWjJrSHB6UkVFeEVjTXlvRkxTLXNn?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "23e2d2107ee15950",
-      "published_at": "2026-08-27T22:37:00+00:00",
-      "title": "US says not talking to Iran as Strait of Hormuz diplomacy intensifies - CNN",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2NjZ1TXRjNzlCaDRwY1VIUVA0ZkJudHhtN05uWlIzeGN1WmJKN2pXYVo5X2JHdGxvX0pjRVBBQTdRR3VCUFpRd1ZUT2lndzY3bmJDYkNHSFNfQ194bVpDMzRBSlIyMXJ2YXpKbVBn?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "350cc356a04a1c91",
-      "published_at": "2026-08-27T21:39:04+00:00",
-      "title": "Putin sees U.S. as weakened by Iran war, intelligence reports say - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNem0xRFYzU0FTU09QYkFsRzF3TTJJZUd6NDByNTNpdjQ5MFlFSlpBNU1Bc3JWckFQVkhtTk1jT2FROXQ2X2ZWc29xZjJKZFZRb0V1bUxKNGFPVGs3aHJqcGpiYV9zcGRQRno2QVlpRTBjd0RsOWMybHpiV0VReXZLUXJBQXhoV0ZpckJsXy1tX0I4ZkpoTVZOUkNJdjFVdTdDT19UalAxNVgwRVZXQ2tUXzdLbjc5UFFhTEl4Sw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "2396b303ebc43abc",
-      "published_at": "2026-08-27T20:45:06+00:00",
-      "title": "The Iran War at Six Months: A Region\u2014and Its Relationship With the U.S.\u2014Transformed - Council on Foreign Relations",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVmV2aGlOQU5JRVc4N3lMVUxqa1l3empTb0dTRUJ4bEV4QXRJTTRSOHNfNGkxSG9lbWZKcGlkUHBWbjlHMzRWamRoYjdFaE5rVk5xcnRnRkxrb0RQTTFBN2xjdGl0MXVFSF9FSTd3YlVNMzVub3hTODJrQk01V2NEdjVHNUNkdUppUnVTaTdnUGREWFdlaDlYTFc1cGVTMmJpdHE1ZVpWdmFtZmZXYThz?oc=5",
-      "source_name": "Council on Foreign Relations",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "d997b4458b0ca5c4",
-      "published_at": "2026-08-27T20:38:09+00:00",
-      "title": "Iran war live: Tehran says preparing list of conditions to open Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY2JySFBzZENaUm9YTWNVd0hNSTNMYmkydU45clZYTmVmWUJJTi1IajNMbXczSUtCekFDbEVZYTR6OGlRM3hfV3VoMlZDRUpGQ2psaXBLU3lWTEZFRVg5TDhEU3l6c2pCa0tVTlNyNVNZN212dzJzVS1heTNvV18wNXVkUDI0YTVJRm02VG55SkxBdGx5QTJtZmNHV3hOTVJuZGtlR0xBcmhBUTgtejVxZTd4WWhQa25BcXgxMNIBwgFBVV95cUxNV3NrWXpPcVgzSmVteUVRSEZPM1BvZjFZaWNVSFZwaGtNc3ItaExMY0R4T1pCYmpXNlo0NVVqX3F1aFFlT01RbVg3TUM4UkVXSzJDSTdXNG5HczRPWkNGaFk3R05xN0VOSS1JajNJYjlSLXJhYXNtVUV3X000aTBmTFBpRGJLMXVwQUtzZV9lVUkxM1FTRkNiS0F2Z3ZkaDhJQ1NtZEVUYWplazVuS1hkQTdycGxhUnoteXZTand0TmpCUQ?oc=5",
+      "id": "fea606fa217bbc39",
+      "published_at": "2026-08-28T14:59:23+00:00",
+      "title": "Iran war live: Tehran prepares conditions to open Strait of Hormuz - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeTNoQ3VwTHlvc0t4V2pneTdmcUg5QXY0YXF1Vk5LMUcyZDNJTzJTUU5UUmxUN3Z2V1NremJnMWw5STJDMlp5QTZiSHc2Y2drd080Y1ctVmdIN1ZPd2lMdjlrTklDTUJIOFRWakw1QkxjM0U1ekYyTWpzTVdGS0NtNlJ5akFLdU5IR2RWdnA1dnRoM3M5RVJ4ODA3b3BwbHdrRVU3ajdQQjFIVmx6bHNHYmVITW0xZ9IBuwFBVV95cUxNT0ZhVXc5N0MzS0E5Q1BTM0JkV0xndFFBdG4wZ19ZbDhvTDA5SG0tcThhd1hDeFFPUU81QW9ra1FlY0xyMkZIWlZGS1FmLUhPeDlkd2hzQmVBSElwQmllbmJRM3kxZlE5d2p1SkpybUp0T1JTbUpGdXNRX29VWHlHZTE2c1RpbmtiLU55bFlNODJRLUREWHc3VHRkR1Flc21PQ3pidEhuRnA0UnBIWVNBc2pQa1NFN3MyMlZr?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -187,11 +127,11 @@
       "confidence": 0.55
     },
     {
-      "id": "98d8a518a47cac0e",
-      "published_at": "2026-08-27T19:48:56+00:00",
-      "title": "Six months into the US-Iran war, will there be any accountability for potential war crimes? - The Conversation",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNcENSbnI3RkxEWE1KMkRQMkdhd19uWV9iWi1CallrT3BKTmx2QnZVRkpMam1xaWpHSzdJd3BkcEc0WFZUS1hzQThVaXY3REFPMzBOWFNnUl94aGVSaldwcmQ3dmk5QTkwb1pBbGR5ZmdMM2xvX1djVjYtdGo2TWtCa0pyRTBUZFhrdnlTRXN3cnFLZFZzVmg0ODdRWUtQMTFnaGpNNndzOUFtM2M3TFE0RFk0QVRsa25tbk1FSU01RENoZw?oc=5",
-      "source_name": "The Conversation",
+      "id": "5fbd82af03d9b179",
+      "published_at": "2026-08-28T14:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpQm1ZLWt4OXozTzdwLWFISlNNVTEwUEh4cVozcjFqR0hpbE1SdHFuNmcxOHRZVXFIMWs4T2J0UFZDRzFpMG9mRGZkOXpiSXhvVGxoV2pjV3lCd2tHTmtxSk5UQ2FZOUdFYVZJdDRSczNmdVR5VlRqbjI4YnZHV2c?oc=5",
+      "source_name": "The Jerusalem Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -202,10 +142,100 @@
       "confidence": 0.55
     },
     {
-      "id": "f8a838a14d9d2127",
-      "published_at": "2026-08-27T19:13:16+00:00",
-      "title": "US Iran War News Live Updates: Tehran preparing Hormuz demands; ships to use central channel if US complies - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMitgJBVV95cUxPQjFZMllkbjcwd3JKRHU2a0Y5VXh4Wi1kY3pVZXhQcjNXZmZldklvcDl6MHlvZ0t0X09NaDMybW1NdmNhaTJtU0pTY0VaZUV2R2pVSjBfTzYwNUUzNkpWejdSN051bzJFRXNGWUJYMnc0NmRfTll2ZjQ4V0FObXZBUE1hVDdrRkgwZG5CYU1IVG9QUzJNdG5jQ3pGeXpsdFgtMGdYTEdyR3l2dXRlQ1g0eXNEdVJNd1ZDQ1ZZaHVOd2sydUlaUEZzYkhPZ2NtQWNkYnB0d0kxajgwaHU0VHpHZnk5dWN2WTVldF9KcFFQRVJ4S3pQV0NwdnFWU0dxVEx2aTIwdzJUN2N6clNfZkVqaHJwc2NXckVaNGFqYmFpa1c4OHZkZ3YzQ2hQdUxVSFo2Mk5yblRR0gG7AkFVX3lxTE1CZFU3R19rV3RDdnNKS0lNOXJYSHl5LUprOFFRaGZoRnRjTkE3eE05d1BGaG1KOURKR2xSdG4tNHhseEdfbWxuN2J2SFVyVmxmbTdtODNkNVdSNF8tS3R4VDhoUmk1WEkyTTBhVFZzUVN2d0JyMTlzQVY3ZGZSU3lNZU5Hb0x2N2k5ZHoxSXdlS0t3NnRLN2FidjY2U1hNMHVHRTZVX1pVYzBXSE1KcDhJTjc2WHZ6OEZMeWtLUVZaWlJFN011RF8zLUwtN0F0V0NLV2VlSDcxeTlLWV9pZ2V2d1dOdmZITEQwYm5yQkVZNDVfMHJQV1VDdHB4d29OYUp0bEQ2RFZDWVBqRnctZnc0Y3NVUEwxNkF2dlVaSmgtUzJBTXZ3T2o0ZWd1dE5WaExKaXVSVTMwR0paWQ?oc=5",
+      "id": "b29dfa2ea00a8fb7",
+      "published_at": "2026-08-28T13:20:56+00:00",
+      "title": "Iran\u2019s security chief dismisses alleged plot against Trump\u2019s son as \u2018fabricated propaganda\u2019 - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQNlVvc0V3Y2x3dUNOd2ttVVhzTV9hUVRxZHIyS2t6N1Q4Y3BmOS1rZTRfd05sVVFzLUJFVDRadTJaTjg3eHNfR1FlLUg0MWNfT3hMdi1HbEx4Z3IwTTZXb0RkcWFzWHppQUQwaHNBam1hZ3NZQzdNaG1xb3p2YWN5ZzcxUEtYNm1SREM0NDNNcnNZYTVVTzI3bHhFR3Q5RXVEUkV6b0xvTk14Qml2RDhNR2F4bWc1aTV5ZEgxc190SmxTQWtXUUZwbzBLcHVEQ1Et?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2a8d39b274dcb6b5",
+      "published_at": "2026-08-28T12:44:58+00:00",
+      "title": "After six months of war, what have US, Iran gained and lost? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQa002ZUhVM1RNSnF2dnl6N2ZQeVRSb3VvUTNpTmd6N0tqMF9oTi1GSEY2ZHB6Y2RJeU1MR0ZpYktmR0lKWDhyVFJVZUE1TmJ3cTUzU1B6SDBMbDVxZmxrUHJVR0tUMG0zdFpENEFkNm15OVNqWE1vZUV5cF9iUU94RU1LMFBicWloSXo2UzJzOXVGUU5zNGJSXzdkTEZtUVXSAaQBQVVfeXFMTnlZcTVVVE5uMUF2S19BaTZEQ3JlWGNSc1NLdERRSFpZcm9UMVpuRlM2VGhCT3FpNjViLXpVSENkQWstUVB4UzRpTS1Ba2hpQjR3QnhWZ2tUSDg2QzcwM2FGZFhVb0xQcm5PSTBaT2JYWkJlUmZRblk4NzdpVVoteVQ0WjY3dlhsVUE4NjhudUtHcS1zRDl4dFpkNkVyd0RqSVpsT1k?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d3853acc7ff024d4",
+      "published_at": "2026-08-28T11:49:44+00:00",
+      "title": "US-Israel war on Iran, six months down the line: In numbers - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcy1NQzdyLWdscWpPa3BXeFoydjY5eXJxYnh3eXdSajYxckNKNW4zVl8tdEFwcXlvX1VfMVg3ZkVLNG1uM0x2TzBNdDN5cjFVYi0wZHlWSlNiODJ1QV82SlIwS0QwS0k0V3JCZUZvMEM3OE1fQWFJTGtnUFhoU203YmI2elY2SjQ1Q29zMWxxMXRVcnh3bEthdzRwbUQ5NTjSAaQBQVVfeXFMTmFSOXFHWlJWRFA1SWhMRmpXYkZ0UTlIdHl6dXVGUnFxVTVhalptTGFDc210dkJsc0lDR3NWUFVqdV9fVVFDNGMyVldHbHd2MWZRYUlSNW0tc3gwZ3V4MjNhcWJkZVAzVC1icHlyNnJXUl9ZTS11d0xtaVhxYUNTWHBDUlVJU1dBdTI3TjF1UHBEenYtSVhRTGxWV0hRR09LT1k5QWc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "2269bfd4523e9dd9",
+      "published_at": "2026-08-28T11:05:00+00:00",
+      "title": "Six months of war: Where things stand between the US and Iran - WYFF",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY1U3UURvUkRxNVdZRFBqQlh2OUVUMkZQTWN1Yjk3a1JiVDhwY3RRcUtFMjVfSW9GQ3IzRFVuME1oVzE5UGkzLXAwYjFtaWEtVTZoTVJ5VzN5V3ZkWVlITzZXckR1cEIzbU5zNElYeW5qeEhWaFNDZVpJYjN2Y3UyVjJNeDRPektlVlNOd3pvM0ctZw?oc=5",
+      "source_name": "WYFF",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "33a8beeabfb572b5",
+      "published_at": "2026-08-28T10:55:08+00:00",
+      "title": "U.S. Navy blockade slashes Iran oil exports as Trump administration shifts to economic warfare - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSV90MnZta3FaMFdyYVVaVXRPS256QjR4M08tZjBmdXl4bmFfQVE1enhwTHlaMzJMMDZfWmlxQTNHRDdIeXFiTWQwS0g0dlVYdEx1bnUyWHpjQjNXTVpubWUwT0ZuNDhEVFBRdVh4R3FEekljZUp2b25yVVh0cmhDQUQ2NWQ1MXBBQWFr0gGQAUFVX3lxTE5NdHFaMDlCZFRxYTBuTXhhc1Uxejg0RFFmc2lUcnVKVWE3eHhac2FDV0JFUUYzLWhTT3kwaTkxNXRUdXZCSWZheVNBTlp3bk5NcG1GYktVRVF1blkwekg1MEFjWE1TR2Njdk9PWkxBSnJiM1M0bDhsTTlDa0lNLTNZcFpIQlV1QnVFQndwdGNMQg?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b980d951791a0455",
+      "published_at": "2026-08-28T10:51:16+00:00",
+      "title": "Timeline: U.S.-Israel-Iran war -- key events of past 6 months - Xinhua",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5zQlJDMFk1d1Bpc2pwQnNpUS1fTU13Y1JKai1aWG1WalRkV1pWYmhCZVlPMFVYS1dtcnpwV2JCd3BvQmY1Z0owdDdiNGh3RExWaHJwdTU1akk5Skl3UXRGbzFNNjJ4OGFBMUw0VDZxdzMzV1hTZHZuNnRmdXY?oc=5",
+      "source_name": "Xinhua",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "6118f7f6877850d4",
+      "published_at": "2026-08-28T10:40:22+00:00",
+      "title": "US-Iran War Live Updates: Iran calls new US economic measures a 'crime against humanity' - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQZHFrQmRxc3JBaDNtSXJhNlg5OTlBblNfb2N3ZUlKRG83by10VW5YdVdZSVRNRm9Ya1hLTkpZaXllOXdKSnlqNjNlSS1wMVJIVm10eUNqX0VURmVTeXhpWHV4RHNmN2xrQXRSQ29DRVpzOGpvYU9MRXg0a1dfQ1BSMHNCXzNBVWF5bFZ0SVJQS3V4QU1ZaU9aNjNKNmN2YllGcF9WUXFsR05xdm90Z0ZTYlZZUUpNVkw4TkhyLThHRnVRdmVsWEFzVmZTWlR2ZF9XY255NkRGT2JRSHdpeDlmM0tDWDV2andFU2F6bE9vWjNZeEJ6Mlh5bERmdUZJaHdybng5VFU2MnpJLUh0LVhqNDQ5M0NyZWZtc0ljOHE0R0jSAaYCQVVfeXFMTmE2R1RLNW1DVlo4NzJNY2V6MGJrVlJmMkpadDBHRl90Qk9rU1M3bVdKQnEySEtEQUFIWEFSQVJDb240T1lJTDRvRHQ3UV95OG10MFRab3pkbGgyd183dXU5ZXhDLXdkVlhoaHJkV3VNajNQdFFfMWswV3JSUENMU28wU1BuZVB1YUpEN3BOc0VxUlF4cVMtaGNBaWlVdEVGeFdTQkVSc0E3cE9fMUpfTmcweHdYa2s0WEZkbjdXbEhEZ2ZjNDM2aXF2a0J5bnRVdFhob3NILVFyUjRxa0Y0NXN2Wmx5LXBtc3Z0c1NiVjhEM01YQkVFQzJOUWdkZWZXSE5aa2ZTLUk5bnB5MUhVYkgxUHFlczVjckNlYVZvYXRfNnpmOUZ3?oc=5",
       "source_name": "The Times of India",
       "event_type": "other",
       "actor": "unknown",
@@ -217,26 +247,11 @@
       "confidence": 0.55
     },
     {
-      "id": "391daff2fcd37e6b",
-      "published_at": "2026-08-27T18:35:00+00:00",
-      "title": "NEWSLETTER: Trump's brief Iran strike morphs into an open-ended conflict - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbVd2VnhxYXdDSUhoQ1oxd08yUHAyOVlDQi1vYkhhVVRvZVVER2NkZURLSkJtNEpNLU9JSE4yNW90REFqWFQ2XzVNUjJWMW9SeU5LazNqbTRLTHpGOWtRQ244OEw0TkRvcnZmcFFWek9ROFAtem5RS19SQTZ2aTNoZ0xpcF9mSS1yRVRYSUFMQlhTenZDVWg4OXNqaTU0cGpKaE9ZQXlsOA?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "342c72b802658c2d",
-      "published_at": "2026-08-27T18:28:54+00:00",
-      "title": "Iran war enters sixth month as Donald Trump's goals keep shifting - Gulf News",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZUUtakp2dWJ6MnlZYVk0NElvUWJZSFd0bUh1RUdTdUxOaEl4cDFqZVZCZGljZjRtNi1EcFMxT3c2WnZCOFYxNm53Z2IxTk9KWVdMd29DbW82aHZFdElmTkI1WVZhQV9IblhFWmZMM2hQQlM3cG02SlYzaG9RS1FVVENsNXM4MTRCUEJ5V09BSWM4RkRWSzNQd3prbHFBb1pCZUR2eGtURGhWQi1ONkFDcm1n0gHEAUFVX3lxTE9CbHFRVUh5SHhHYk9JQnFEUWR0NUF3X2ZhZHBVNVZuYnVjQzUwVHdVT2VlWHZmQVhzZkFPWmtsRkFlTk5EQ3RFN1E1UENtUlM0UHhRUWtEZEhBRVoyd2Y0RkhtMDltR3ZmQjFmNXhpU0h4dEdNZGlQYl9yUlF6UGNHRENBZGpCZFBVd2c1X04taFF6bGxHSDk3Qm1qaDczeWRBcjRHczl1bzFTcFZra3VNTnlwY3dRRDNlVmh4akFvZi1yTVE?oc=5",
-      "source_name": "Gulf News",
+      "id": "82139efa905ea5c8",
+      "published_at": "2026-08-28T09:46:13+00:00",
+      "title": "\"That sucker is open\": U.S. gains the upper hand in the battle for Hormuz - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9NVHF1LW8yZjJhSkJxb2NYQTZvOWEyZDBjTkZmN1M1dWhDMkNIYVEzT2o3MUJ2aXFGdWJJZHNmdzFXTzQ0NWszSUk3SWM1a3VSNHlodTN3MFNJRTI0LUVMeFZNV213SnVaVEE?oc=5",
+      "source_name": "Axios",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -247,55 +262,10 @@
       "confidence": 0.55
     },
     {
-      "id": "ac8fba9b5af10a69",
-      "published_at": "2026-08-27T18:04:00+00:00",
-      "title": "Iran warns strikes to military, economic interests if US starts 'mischief' - Middle East Eye",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQmhPR2E2OVBSRmJncE5pRXlPYmtNcUs2UjlQSE1PUUUxZUFFM1d6c3JxeUc5Z2Zpc0dibTF3VDRxUmxwaDRPdXc4akpIX29YcDlxcWFQVVhPWFVBVVFISTJscWptZGJlUFBZaWVKRFFGUDFhYjdXNEJuR3lQSHFQNXV6ZVlSS1o4UUdpeFpnZzZDa3RQSFZ2SXhDU0NQcTFDZUVJQWxfQ2t0REhwSnZxcEhZUnBScnB3MHVDbWltX2E4MDQ?oc=5",
-      "source_name": "Middle East Eye",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "201b4db3c115c16c",
-      "published_at": "2026-08-27T17:55:10+00:00",
-      "title": "Iran scrambles to sustain trade as U.S. threatens to sanction countries that refuse to break ties - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV3VYTFljc1dGUTZoOS1FbHBpY3Y1SGRVYnFvdEYzM1FkUEdwdjJHVnA3bjJybnNQcXZLNlJnRTBiNnUySDBtZ0Y1cjFYVFlEQTV0YUlZNm1uQkJjUF9NNDcweW1ENGNNSkQ2SDdWcVVOenVDYmc1eC1aSHF5bXVPc1E3YkJReTJ2VmxiTmN4QUdZT1Y3NjFmTEtVOWtOdFZxbmlSMDh3a0VzNm5takdaOXNwODNwc3VrUVdDRmU1aXFzdzM2RmJ1ck1EbVRNTm9aMmQ5Z09vSXlVdmdkcW8wVWpGZ1M?oc=5",
-      "source_name": "Los Angeles Times",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "b98f4ba9ee1dca5d",
-      "published_at": "2026-08-27T17:34:21+00:00",
-      "title": "As U.S. goals shift after 6 months of Iran war, Strait of Hormuz is now a top concern - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVm9TNGJBUFdmMnFkajBrcmRjQ3RxWGVjQWpFMFh5M0dyaDktaEk4WENBMk9TQVNsQjlzLXZJOW5ydEhaNGFzeDAwUmItWkhnU005TmhTc1U4QzFjYmxhUV81cm5qQ1FHTGJqa2RRUkZDSzFzZzFXN0c2UGU5cFFXbmN1RnRXbGRuQThsT0tfa0o1SHZsRjl2RGFGVlNiT1hWTURTX0p4MnMzbVlKcjJ4WXJZYlVjOEZCQ2fSAb8BQVVfeXFMTlZjLWdTQmNRQmJJN2NjQVMzM2VJcWFJMXFIR2ZjTXBQcHVEd1VELVRsWEtQeTdZWGNxbWVEMkhPSHp6Q2NLZ3FpWU14U0paeGZ5V0JuOWx5RmN2djVkeVJ2UFZtQlVHNElwMzhadEN1alE0NjlaLUhuUHY4anpUVVpRdFl5empfcXhzbmZ0ak9WQzRpOFQ2NUVrTWNtYk9Xaks3c3ZjdzdvUFVTTnZHMEdpaERMaUxpN3Azeng5UTA?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "c6e0115cafa40908",
-      "published_at": "2026-08-27T17:27:19+00:00",
-      "title": "6 months of war in Iran has left the Pentagon depleted and still fighting - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaHVURXZYWHJVc29DTHZXZnEzS2xkUmhrQTRQYTdKdUFVc2h4NDRpbThIME9IcTJFQVd2N0R2S0tXYlNlX1hSRG5HMHo4TEhlVDYtcjdMWk5SR0d4WVBDb3NxTUFVQnVZaXdqUExSWnBTYUZoR2hsdEhpNlhjUTliN3ptdm52Yzd2S1VYMDZBZmMwMHFHMkhyRWxxQ3BCZ9IBowFBVV95cUxOaTZkMWE1NUo3dUU2MmlkQl9QbFhFU2NXLXZPNzZTSURSbml4YlFsM0NQOTd0SmFXaklpQ0I0QUhxRUNEVXM3LURreTdRVS1iNTdHVzc0X0FjT00teWo0cWFwTGNQUVN2X2ZwbnpHX29xaEVQU0FRZ0ctRmFZM2FYYlBnWUExZVFnaUpNeW9GUUp2cVo4cTV5UHlvdGVXNlEzaXE4?oc=5",
+      "id": "f78489f0b4f007ef",
+      "published_at": "2026-08-28T09:11:20+00:00",
+      "title": "US marks 6 months of war with Iran. Here's what it means for Americans and what's ahead - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVEtoVlVIaDhta0d2NC1IbkxsaFY3c09wakEtbGt5QzYyWk1OU0RHdVRBdjRVUmVKLTREcThnZ2xhdVppaF9YWEtkcVNvcG00bGk2clhTdXIwTXl1UFJqUFZJSk82Mlh0ZFN4ektxRmJFRnJuaWdjWldIR3laTkkyeW1Ud1lHTXNhLUpwUG53MVZEeVhy0gGaAUFVX3lxTE1OYWFvY2JPbmR4V3BhTHExRWluWldRczE0Zk10akJRODZXSjgyd1lSU1pINndTdVBYMWQtYktWd3Q4SG8yX0VhakZBS2l2QnpXNlB3RHlqMC1KUXU1Y19UN0tjd3BDbE5URjVtYkNRQ3BKc2p5X0I3YU9yTGNudE9RTkZyVU5FVXZHMUxSZlRQLVhSS3Y4YjN3elE?oc=5",
       "source_name": "ABC News - Breaking News, Latest News and Videos",
       "event_type": "other",
       "actor": "unknown",
@@ -307,11 +277,11 @@
       "confidence": 0.75
     },
     {
-      "id": "9c02577c0f2078e1",
-      "published_at": "2026-08-27T17:00:00+00:00",
-      "title": "Trump\u2019s war on Iran is rapidly draining US navy budget, documents and interviews reveal - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9KOFZVQ3RPcGRtYlV3enlSZGdMQ2R2V0ZENlRUc3dxWlpnMnVJMUFGemhQVmd4YzVubDRpVTJIMmpsVjViQU8xWkNFd01OMmlQSE41RFo4TWo0UnljTV80R2wxSXNGeDJKUGJwT0h4YzdQbmtoa2NhdUJEVXo5YXc?oc=5",
-      "source_name": "The Guardian",
+      "id": "87d2aa3a6ce9ba62",
+      "published_at": "2026-08-28T09:00:09+00:00",
+      "title": "What has the US achieved in Iran war? A report card after 6 months. - The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVzVQeFFydjVOUXZORHhONFVDeXgweHVFMFVkZ3ZraEZ1QnU4RFZPOXdnemZiUERveXZkRm1iV3hoZWpidGJMQUI0U1JTOVNSZEJiUmM0YUR3bVVMc2FPLUlKOEsta0ZELWNMWWp0LVZ1d293UVhOMzl0MVZ3cnZFWjhraHRfdFRtd0l5bHJ30gGnAUFVX3lxTE1UN044cXRHeEhibDVCOFFISjlLYnd3dTZrbWtqQm1MRDJIMU0zN25XNlVlZGhXMEp6N3BZb1V6VThjc2FwSDh4cnpCdGZ3QXUtdFRtTjJGZXNvX2xCYl81Z0xaX3RkYVFZU09oNXhRdFRLSVBKWklJc0pnNnRiTG9pS01KT0FoMlBiSXNseXJHTkdYbDVBUjZyaHo2Q1JTQjZ6OTlBbzhB?oc=5",
+      "source_name": "The Christian Science Monitor",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -319,29 +289,89 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.55
     },
     {
-      "id": "dc49598432a847ae",
-      "published_at": "2026-08-27T14:12:23+00:00",
-      "title": "Iran in 2026: Six months after the US/Israeli strikes - The House of Commons Library",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VZndaZ3VYaTJ5NUl4cXd5cWZ0X0tDZUNONjY5UURpSUVDRFI4SXVtZFk3XzU2b2hwWGh1Nng5aHhVOUxyYkhrcGV5VXc4Ny1fTkFOUEdXb0hpSFYySUhEaVludWNBQXNfbE41cmp5WjhEYWhq?oc=5",
-      "source_name": "The House of Commons Library",
-      "event_type": "attack",
+      "id": "8d6522684abf9723",
+      "published_at": "2026-08-28T06:41:11+00:00",
+      "title": "Six months on, Iran is still standing, but survival is becoming more costly - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNTTJrd1ZFbHQ1ODEyMzJNTDV1MDYxY2dJMTVMVGFwczR4bUhGUVBIZ2FqQ2JWVm4yS3NEQzJ1bkloT3FuZGMyaGdGbUpfZVBJYnZlYl94M1FobHBXVTNacGtxRUpuR2J6b3VBOWd4UVJ6T25CRXZuR2d5eEpfakdrNWRZcDNiNzc3N3ZfQWJYdHFGaUlvT05OckM4dWxZTllNZHItY3NiT3N1ZDBxYXlObGRlX1pOMkhXM0HSAb8BQVVfeXFMUFpBOUZncEt0TEM2eVA5UWk1cHF5X2xIRTlIRDhqWVJ2UHQ0S09aZ2Nka3BoOEdLeW5jRW5vTEFSbzVkdmZMaGgwZzZOYjRhM09fSVgyWEdRdzdzODExX0M3YXF0UDBWNzBKQl9zZGVUYU9IOExFU3ZSbTNGYmM4RTJRSFQ5VnJrYU5tVVZZWG96aXY1bnNIdlhRT1cxa0JEYU9VUUVseUhVVHNuckZremxfYWUtcDFlQWhnOWUzTFU?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
-      "id": "cbfcea37afce7957",
-      "published_at": "2026-08-27T14:10:44+00:00",
-      "title": "Six months after US strike on Iran school, parents still grieve - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHBObUhSemo1TUU2dWNJQ002dVJReFh0cXZZYXZ3RHhYUm5vZmowWlF5Q1QtM29TSjduRFZVbUJEZ1YyOWh2NW1iYUZGX1FxN1ptNERteFJHRzZOV3VsZXJaYUR2WG44NmdHeDM0U1JlM1NpZE96cUVySG50R1loaGNHdG5OeWNpSlBIZ0tYNmctRkhYSjdpUm9FYVRxSHNYLWZvdnpMbVYxTHlLaFpiNGdMZ9IBuAFBVV95cUxPRFJ6RjNVN3UzM3NSVTZrY3VTT2ZjcUY0QzkzUkM4V3JVc0R5NlFyLThDQW9taVVnOHNacmdEZjRNQk1pWXBaM3hSbDVKWnNaNndiaWVLWVlYU0owRVp1TThHcmtZa1VlY3hmSjhybHc0TzJFOWs0LTJIQWFtRHhtT1FCcjJzQm1SSUU5ZEszN1pUZW9GdUpWNWxsX3pDSTlrbDZRZmdENno5YnhnbVZGcml5LXBHNXhx?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "39279a084a9e8482",
+      "published_at": "2026-08-28T06:34:48+00:00",
+      "title": "Watch: Six months into the Iran war: What has Trump accomplished? - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAzeTFiUktuaDBnUUdPRmU1bmN4WlZjbm9MZU9qRUtRU09nUnpObG9LeVQ1aVdPNmhOZkxFUl9ybW5QNzBzY2dlYW1qTmlxVmZrWWljWjVtOA?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "133e08eb4d88b1f4",
+      "published_at": "2026-08-28T06:28:54+00:00",
+      "title": "After Six Months, US-Iran War Has Reached Its Endgame - A Costly Stalemate - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMGplbV8zeGdqZ05SS1ZMRHNac3BlaC1UMzRHTktKNGJkNVZBS2VfdE1YUjI2bGpMTXJLckJWZmtsNVRpamdFVmZLWGFrbWc3QTN3V2g4UGloYVI5WkJ2OTdNdy16MmUyZWhKYkt2Q1dUcDlnS0RXSFRuV2J4RjZFOE5idVBCbi1YSTB4MldaSE16d3VNU3kzZXctelFKTVd0aVlOUlc1VG1DZU9pcVN3TlhTblVna0hQZzlDcEpPb2lOc1BzdDdTQVhFeUlRbkRadUFXOVFyNklrN0lhUF9GU1kyQdIB6wFBVV95cUxPVDl0MDZmbEJKOWU4X3d1ZmdYdWZoYlBybDhZUVZPQTNvNkItaWZrTTBWT05QRHpGX2x1bVgzZW0tSW41OVJTODU5WExzRF9EZ1I5UzVVa3VGVXd3R3JKdmdBNkgxQWItSzBCTTNiZjJjWE5KeVZtaWpSbUttTXUzQmZObWZTLUpsenlCUG05akxMdlZmLXh1RU9Ud1htMWJCbWoxcUZsVnpoeFN4NXBlT3RXLXVlSEo1U3F5Tjk3N242UUdEVmU2dTFrdHB5bXFkQzFEcmJJY2VPSGJNbWxHamVNXzVreW5WUS1v?oc=5",
+      "source_name": "NDTV",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bd5bf07ecf151a29",
+      "published_at": "2026-08-28T06:23:00+00:00",
+      "title": "Tehran engages in renewed diplomatic push, touts proposal to reopen Strait of Hormuz - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUzJMQjNVM25NNWFDSVZ5MjlBRThTT1o3Q3k4QWZRemJLa2VEajBVR0l4OW0xVUNURWZraGVRcGlFWm5iZDZUektjWnlwQjdVdV94YU94Z2hlVklPbW1uc0dkYVdNQlhmeldmWG9OWjJrSHB6UkVFeEVjTXlvRkxTLXNn?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bade232d8f599bbb",
+      "published_at": "2026-08-28T06:12:05+00:00",
+      "title": "Rezaei Warns of Severe Response to Any US Hostility against Iran - \u062a\u0633\u0646\u06cc\u0645",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNTVBEUVpJWk5OYTRxSFZnbHFlSmkxWlltXzdDNlVxOF96alZmWFV2YlYzZGluTkdkRGFzTVRzTVRRUUhETzhsT0FJbWpRR2lKcy1oZlN6ZlJPbTlNT2JwaWt6R040S2NFRF9hV25RMkFNcmlESHNNRmdNSTN2TEJpZEVMdnU3TzZBSXJoRkEzWVhCYmZ3MnFVU2RYUmgtcVBLSld6NkF5eTZpQVd1cXltdmV1cV91VGNp0gG-AUFVX3lxTE5xLWlXbV9wNGlIQ3NGWWpwejY0bU1XdDN1bkcyazAxNVQ5dGY5YkxjMzF1aHNZMTU3VWMyVHlIRk45LXpwdlNHWTlzY1JGQ3UzblFGOTFYQWdJSmI2UDV6T0l1ZXhyME9hNWhKR1h2WXYyOVBIS1BxOXdTeHRwMmZ2TlVKdGw1RUc2S0VGYUJTTGoxeUhpMF9OcmtVeFhUZmp0LW55VDYyem9TT1BwZnQzM1VCUkRkYklIVWVQcUE?oc=5",
+      "source_name": "\u062a\u0633\u0646\u06cc\u0645",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fc066d8f457f2ba0",
+      "published_at": "2026-08-28T06:00:00+00:00",
+      "title": "How the Iran war unfolded: every attack and oil price change \u2013 visualised - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZThFSGo4bURVTldLLUdma1FYQy0zVmo2ak9NWEUzTWtsbWlFU3VpT1FyT25nQ3htM3dZQ0d4YzhuV1JlaDZ5cWE2WkRXckhKenpCZ0hJcWRXTVI3OWpJRldtM0Z5WVBOaFhTT25uaDROdjhuNWN1YzF6amR5dUFXZ0tScGt2MlM1U1pMNUxqd21NNzdqVEYzSVgwVVZTVHh1MkV5OXhONFlJS0VicGNfYUxFOW5NbWtZRVR0WnB1OWNWLTVuNXRSeEtWVQ?oc=5",
+      "source_name": "The Guardian",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -352,41 +382,11 @@
       "confidence": 0.65
     },
     {
-      "id": "e722063fe435864e",
-      "published_at": "2026-08-27T13:37:28+00:00",
-      "title": "The Latest: Regional powers seek off-ramp as Iran war drags on months longer than Trump promised - WKMG",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbkpCM3RRN0lwNmNQeGZFV2IwQktTejJvcVNNSVVvSm9BTE81X29EVVl6QzNEb0ZrODdVeE5faExobjRLVlk5MUtBTHlpdTgxTWxvdXJDUEFRRGpocjNRTE9RWTFQcEpvWlZ6Q256cVdTWnFHckVtTDJfUml2Wk5iR19rcHoyaGFVd3V4Q0pTdjhSZTVNLTJMdjM2WC0zaHlKSVFZMkRKa2tScnVTSzNTVzBqOFNfckpxT1hfdENpM1RUQjAyM2U4QTRDc25HWmFyNFgzbTJn?oc=5",
-      "source_name": "WKMG",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "38ca62066d3c967e",
-      "published_at": "2026-08-27T13:37:28+00:00",
-      "title": "The Latest: Regional powers seek off-ramp as Iran war drags on months longer than Trump promised - News4JAX",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ1VoVHNpX0xYZkdWZ3hvRW1MaHl0TkRDeVhVVUJnYUtncm1FdFNHRkEzQzlVSldhemVSdzRpdFVQZ2k3QzFZY0QxVTJ5ZFZNTG85VE1COHprYjRNMUgycVFIV2JTNVEyR2xHSDNlR19ORW5xRTg5YVRMSmhuQklZeElEQlhDWklHS2ZSTTIwV3lEUHhFZDJDY2xjaHRIb095aVpEeGV2U2lLd1gtTXVPY2N5a1huREYzNk5LZUxxN3BrNVRNU2FNM1l5Q2lqdE9W?oc=5",
-      "source_name": "News4JAX",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "beca574ca0aa1a91",
-      "published_at": "2026-08-27T13:21:00+00:00",
-      "title": "Who's winning the war in Iran? Nobody. Here's why. - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQb3V6WDRMWXZQOXNqaERSVXB4Y09WNFBsaVE2ZU5ELWhSZ09hYXE5R2NDWlJZcG96N0ROYS1ldUEyUHAwMnFiM2xhUlJNNVJDYTJ0cFJlTW9nX3UzZlJ0UVFtTWQxa01Jb2RjMkdIT2RtSi10QmVWUUlPSUhUWkhIVlR6c1NmY3EtMmtEVVZxUVBaaXdnVEtUSw?oc=5",
-      "source_name": "USA Today",
+      "id": "9cc53ac201ea8ebe",
+      "published_at": "2026-08-28T05:45:37+00:00",
+      "title": "Six months of war between Iran, US leave Arab states facing tough questions - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSlY1T0xDUk5SVWlPN3hjOFl6SEtUcW5MV3daWVRiM0JZSWVCdi1KR1pyOUNUNU5HU0wzSkxkM0pwY3l3TzBPaWxuYV8yaWtJdmFWNVFVOXdKLVFhc1FoV0NnVEh3YmhlcjJWREppT2VlSzAwcFVTM3VzOFhzUklLdnA3dHl3d0FLQ0NCUmdocXNBdkhLYUhhSWdFemhYbDI2M3RyV0tUbjNZMzJzWGFHOFhzdGhJZ9IBuwFBVV95cUxPb2haeVRrSGhhWEloYTBCbmtWdmJXY29NTWgxYmd6YXY4aTJhc1hlX3JMSk5XNE91OTVzd09reHlEZTZQeXl6SDZfUWh0aDRzY3B2bk9tQjVVWTJLUnJybEdrYmI2anNrRzU2UTVYalJNVHNuU0ZQNUgyVlZEQ05GUkVieVgyMXRERVZFYnF2emZlWHJTRGttMFhCVUdNb1A5cFE1dW5SR3ljVGZPSTg0WS1oVDJZczhOWDZZ?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
