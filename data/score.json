@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-31T14:00:47.728740+00:00",
+  "generated_at": "2026-08-31T20:51:39.342491+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 88,
+  "event_count_window": 90,
   "totals": {
-    "usa": 28,
-    "iran": 11,
-    "lead": 17,
+    "usa": 16,
+    "iran": 8,
+    "lead": 8,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 28,
-    "iran": 11,
-    "delta": 17
+    "usa": 16,
+    "iran": 7,
+    "delta": 9
   },
   "confidence": {
-    "score": 67.3,
+    "score": 67.2,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 44,
-    "other": 38,
+    "other": 39,
+    "attack": 45,
     "intercept": 3,
     "diplomatic": 3
   },
@@ -43,7 +43,7 @@
     {
       "date": "2026-08-21",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-08-22",
@@ -83,23 +83,143 @@
     {
       "date": "2026-08-29",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-08-30",
-      "usa": 9,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-08-31",
-      "usa": 16,
-      "iran": 10
+      "usa": 10,
+      "iran": 7
     }
   ],
   "latest_events": [
     {
+      "id": "2172cb918436ba86",
+      "published_at": "2026-08-31T20:36:40+00:00",
+      "title": "Update: Equities Fall as US-Iran Conflict Flares Up; Wall Street Logs Gains for August - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUl83OVUzNlgzX0NldTVUckQ5aGxiS0xmOGpEanZqYUJrT01sdTdxRFFpYUNqZzhRdWl0dG5MV0tsT3haYVJnRzZfUl81dHlES0RSSElWMTVJdlVKR3UtTTRTQ3hZUWZhVGN6dzZ3YWxYRGl2VUxhcHhoN19GTkdDR1YwZmJ5aDYyVnJHdFFURjB1eTREOVBIT0ZUZw?oc=5",
+      "source_name": "Yahoo Finance",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1f27479f544f2ffa",
+      "published_at": "2026-08-31T20:36:16+00:00",
+      "title": "Trump threatens to \u2018hit Iran hard\u2019 as strikes resume after month-long lull - France 24",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNNjBQZ2VKSWZKYjVhR05GdWR4d3FleE92RGs3cGQ1VFFkTGNZbE02MXBLdkY1VS1IT09FRFNHeFM1QmE4Ql9TNmUwdkxhdFZrLUZKVW81LUJNbS1ITEdXd25PcVNiUW1jZWlOVXhiZTZfSGdvU191UlhoaFEwcUU5Yi1VRmdPLU4zc1pfX1lfcDhWdnJTdWI4a25tVVJiNkdpS1hmTTdJM05oY3Y4ZDdocEtMS19UcW5MbXFDSDFn?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "79338c15f8dade5a",
+      "published_at": "2026-08-31T20:36:00+00:00",
+      "title": "Trump threatens to hit Iran \u2018hard\u2019 after U.S. and Iran trade strikes for first time in a month - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNa0R4bmZBcm1jV0pLaEE0YVAwZDk5T1IxNVRTMGM1bkdSWlFuVVpoOXV0VWJvVnVWM1VxNGFzcjhPQ2ZFdEkydWNjcEtacUFYN1FFSXBlNmhpcTVseThHSy10bXgtUTFGc1VZZkI1eUNEMnE4SWs3ejBHYWNwWEJydWlPV0luSHNBTUxIWGZYWm5Mc18yajJBYVhtMUM3ZlNkR0JsclF1UWpmR3I0OC1RQnR6T19OcUI3X2lVOGJteHlUSXNKR2FySFA3UDc?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "021480dfe2abc404",
+      "published_at": "2026-08-31T20:28:00+00:00",
+      "title": "United Arab Emirates says it intercepted an Iranian drone over its territorial waters - AP News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSkx5VllnSlpKbjRJSUM0S2ZmSWhlb0YyX2xyUElqbmt1X1RxMDhLb3lNeGVqRFprU3ZBcHppYkhSZUFOb0JGNkVjZFp1U2doYnFaWk9WVUEzUG1RN1JQVkF2VUtkQUliY09fcm5rNllyeDVaRG0yNnVqcFFXME0tNjFOVjRiODI2RTJJSjZ1eHRaSXRx?oc=5",
+      "source_name": "AP News",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "456d81853639bac3",
+      "published_at": "2026-08-31T20:02:55+00:00",
+      "title": "US Strikes Iranian Rocket Launchers in First Attack in Weeks - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPb2JpRHFuQ2xrR0xDTEhWbkxobGJxRktFR1RQMThiY3hvZzdNb24wWmdFUUZSVzVwS3k3akFpbEk5Mzg0ak9Vem9TVDE3Ti1naEFIR1JDWXloaDJWb1NrZ2FRRkYxaXAwdnZYb1FVOEhpYlluNmZES01oMWJRVUExYWdSZEk1dVdIY1VHYTFDaGw5M081NXNSaHgxeHpKMTdkaW9HOVYxdHR4SXB0MV9EQQ?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a69fb32a2ab75475",
+      "published_at": "2026-08-31T20:02:31+00:00",
+      "title": "US and Iran exchange attacks as Middle East hostilities reignite - The Spokesman-Review",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZFhhSW9TZW1aUnJoVDJWTUpGcDJwVEJWamdiTmhQMlBxVGt3UF9WWERiend3MnZNd2QwbVNiUXB6bldTbm9iYlNNMVQ0cjVIMGtjUXE4c2tFMHVuUTZncjhGcmNlcThYdUN1SjhmSzR5OW9oT0FSa1ZnUlR6YXM5VmhjbFJOMVFOU3AtbzBndzYwWEVFSkY5bTdJdW0xZw?oc=5",
+      "source_name": "The Spokesman-Review",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "513835dc43d556ec",
+      "published_at": "2026-08-31T19:57:29+00:00",
+      "title": "Trump vows to hit Iran hard as strikes and economic pressure ramp up - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQS3ZpU1VSZGhaaEd4SkpVb3dmTU82ekF3ckFjVXQzcFBBZXhSWnhCenVBUXZKbUlkWEdfVVdKaWNscDRzd1IzOU9XeEt0ZzgyMjRKMlZtOGZXRXJoVmpwRTQ1NmJLUUFWd0VTQ1lYNnV6a0w0cEt0UDhPc3BpTGN1eUJKSWhtbGxhcmpER3ZMZG1xUXdjVEc3NGhjOTIzUjByT3V5Q1V0dF9WSEdGbGNV?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "c5845baa4bb959ed",
+      "published_at": "2026-08-31T19:57:00+00:00",
+      "title": "Live Updates: Trump vows to hit Iran hard after U.S., Tehran exchange strikes for the first time in weeks - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3VPTi0xVlBhMThyb19kVkpfWmJ5Q054dGxfeEFUMFFlN1NGZ2pwYU82ei03S28yNHJSc1lsampHMnFJYXpQbjJSR1hGNWpNT3pUTC05V1dhT1BfTTVQVkd1eF9BSU45bU1udS01QXRhdHdaY0pfUS1NZ0tac2JoeTlvSW9nVkNHdjRrbUZpN1o?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
       "id": "a6de50ed126b6e4b",
-      "published_at": "2026-08-31T13:44:03+00:00",
+      "published_at": "2026-08-31T19:45:31+00:00",
       "title": "A U.S. strike on Iran breaks a month-long lull, and Iran fires back - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaVFac2JKdnl1MjctU0t6N0ZIV0dmV2YzRW9tTVVDRUhVd1VHaThQUk1PdUN6dGs1MXg4Q0IwOGVVVGM0TEZoMUVWWHBCNFpCTGpnUE40S1ZlczdCdExXbmw0MmtnX0dpTnVfS25yM1JvZFZqNUdkQVdSekxTMEhYM0Z3b09icHZtUTVPeW1zZjlDX1BsRl9ldVF4MVhXTTFSU1hhNGZB?oc=5",
       "source_name": "The Washington Post",
@@ -113,116 +233,11 @@
       "confidence": 0.85
     },
     {
-      "id": "46f5bf1535e7a3b2",
-      "published_at": "2026-08-31T13:37:15+00:00",
-      "title": "Iran 'officially a failed nation,' should be tried for war crimes, Donald Trump says - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GTmpxaDE4T2xuRXhTVWN1eWxVZVZGeWJVVEVrM2g2Tmt2WkVYcDFwX2RpY0FGS0Nqbk1SM21kT0daZ2VuNmxzMW5pM3lCb1hDZzE1MEdfY2w2TEh6VktJ?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "dbbf71f2b639d76b",
-      "published_at": "2026-08-31T13:30:30+00:00",
-      "title": "President says more war not in Iran's interest after fighting flares - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOendNWjZjMnNtaS1iRkFoRTJTeUkwMFdkZFB3RHpHSDQtVzRpejNMbUIxcGEwbWt3Y3dKM2lkdjNLcWFYSDEzLUpKTzFCeDRNLUxUeHlId2JCb095anFEMVl0a1JON3Jsc2lrNEk3dW5GUjd4Y1NkRG00TUdSN2ZuaGpGRXBMOFVRMjFkVVV1cGZzV01jLW1EUG41MXRZUEdST2pad0h4ZmhEWG1tamc?oc=5",
-      "source_name": "Al-Monitor",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8abf416ebeb383d7",
-      "published_at": "2026-08-31T13:24:22+00:00",
-      "title": "'It is dead': Trump declares Iran a \u2018failed nation\u2019 amid fresh US-Iran escalation - Firstpost",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNOW1GY1l3NENXakNmTXgwQ180MXVRZE9CSGhKYUFxYW5KeW9FREMzMnhWc21DSnN0YllKNUlEaGdBSlVJZUtHblh5aWR0ZGhxV3RjMXBYMHpFeFptcW4zMHB0b1JiUmV3eENUVmtXSzJNRFdqVHN2SFMxaDV2TTZXVEQwS1VZaW1LclZzY2huaks4akFzaThmRkxWQVU1UC1PYi12TWhqdnBzYVcwS0ozQkl5OWZWZ9IBuwFBVV95cUxNVk9BTVdRTDlFdFhIZFVBRnItYjdZUHhMZnhCSE5HRExYbUJjWlJaT0prT295eVdoMGJUbERLekJPTTZmdXg5ZXVEZTY3SGRUM2dFSHNRLXZkUjc2dzBrWjZqbHJnQUh2TE52UDNkWk0zV0NVMGZ1T2RFclZEQnVHY0tLUW1NR0ZCSXZIeWN3VUpQeURRaDhEeW50MGNwUHZkekFsRXZlYk5xOHF0SlZnUUtIS2tpYm5IY2lB?oc=5",
-      "source_name": "Firstpost",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "81bbd223b688142c",
-      "published_at": "2026-08-31T13:22:13+00:00",
-      "title": "Donald Trump says US will hit Iran \u2018hard\u2019 as conflict reignites - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSUYwb2Y0RnFESWdoUWRnSUtya3owcWNkQmFXSDNuVTBuaDduVTFfbFdsVTFyYmN2cTFkQjRRVDQ0ZEZaMWh1MDd3SlFua25wRkk0RzlGUWlMa3RpWlJPSzB5Sm9FeWNkdlUyZkU5WEIwWERiNEVwNkhsN3Z1Y0lwWTZiYnI?oc=5",
-      "source_name": "Financial Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e91cff6872804f4c",
-      "published_at": "2026-08-31T13:20:00+00:00",
-      "title": "Trump vows response to Iran\u2019s retaliatory strikes: \u2018We\u2019re going to hit them hard\u2019 - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxObTVVdnNVOTBZV1U5MXVuR0hwZVZLUFlSTy1nZml3QkUtODBIdDNTWXNKTTRjZVJOcjlheW01YVhPRW5MbFZLQTlYazdMNWVtYlJua1Fwb1E3dFU1dW9Eaks2U2xIMEFXaUs1Mi15Nzc4U2dkb3pocXpPTmphS2xmTElJTQ?oc=5",
-      "source_name": "The Hill",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "539559b8b07474bf",
-      "published_at": "2026-08-31T13:19:00+00:00",
-      "title": "Report: Trump Says U.S. Will Retaliate 'Hard' After Iran Strikes U.S. Bases in Jordan, UAE - Haaretz",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPclQwNnNleHJpSWw3M0phZjdBLXJobTNZMC1jcmxOem5WN09NSjdjWDZ2UzdJVVF1Z1ZiY0E2NWR5REVKOWlBamw5SWVBVk1rVUtuS2JET2hGdjdkTHR1TUM5Si1QZEJDSXJscWktYmx2ZEtCVUdDOUxSMHcycjVNbFRoa0FnSC00V3BuN0JIR05WM0hTVnZMZm5kZGNKUmkxRjZPMnFiOXNpYnBoYnFGc0lGVnJZbjhTbnZXVE1yT1VKQlhnbTd3U1JNMUhyMFZ2WWJlNUNzM29UTTh6VG11cldxTGk1YTB2Nmc5a2ZUdjhHd3RwMUx2aXZVTzY3UWNJME1JeFlIbXdEcmc2S2c?oc=5",
-      "source_name": "Haaretz",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "7eeb177ecb28949d",
-      "published_at": "2026-08-31T13:04:09+00:00",
-      "title": "US strikes Iran again as retaliation raises fears over gas prices, Strait of Hormuz - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOWDFoSHVUckNtTUY1b1ZGcjZPWVhFYlRmSC1WanNvOVlKb0liSGJQRVhmQVoxQlU3elVtSExLRU5RN3EtVzR3cnFJRExOaExOeTY2Qkw2TFVBMmd4TnBvZTJKbk9oNkwtVTJlaEV5UXIxQXh1ekxBTDRQdjdjcERYcFp2VXNzUGFMajJDd2k1WVNGWm1obElySjZvRWRxVUtKTXVmY2NjakJMd3pVTndtczhOZnRVN1VxckxiSE1IN1l3cXVGSkE?oc=5",
-      "source_name": "Scripps News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7cd7151af81a947f",
-      "published_at": "2026-08-31T13:03:55+00:00",
-      "title": "Can Iran use rockets to mine the Strait of Hormuz, as US claims? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdVp4TUZwdzl1RkRLWjNXR19ad1FWRWZ6by1YMUxNck1XX3R0MDB5OUc0cDE0SmszaUdRS0VWaDJVaDEzXzlqQzl2WkNoODZJeWRTTXVBM3dmbmZSekFrNTZ4VUZ1X3FHSGV6WW9xaGNTTnViUGxGYWs3dnQ1bHV4U1lfYlptOHIyWERKNE1DS09EaFYwc0tpOUlJUVNzdEZQbXBYUzZn0gGrAUFVX3lxTE9CMkdLYTRQNkJadk55dXBSRnFGLVZDWHNQNm8wcF9mc1FONHZzUnVVbnVwYTRDRnRIejFMUEVKWkQ1SmhwbGptRC1HY3djYW1JQ1VRMTlseTJ4TnJyOVMxOFBFTUJ0VGVBVWdsajRMcXdxUFlDTVl4LTMxNmM5bkhzVzZfdlRpUUZjME96aF9wWUFLcHBFSEFNdnBqVFhaOUJXakx2ZUZVYkpmRQ?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "192908e887fdebf3",
+      "published_at": "2026-08-31T19:25:00+00:00",
+      "title": "Trump threatens further action as US and Iran exchange fire in new flare-up - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLUpmdGNNVndvczlTbUpBZ243RmpsZlEyOFpsQ3ZnMmxPaVFXMDhxdklkeEZkcHo1STdwYjE0YkVuVFpxdGdDSW43dXNqN3lXMmpzN0JhTFZmYnlpVVJUbzR3eEhTeUpLWEk0YnN5N3dyZTY1VW5wXzgyN1BFQXVycE80aWVMY3RmOVZ2Q1Q0b1Z2T0tmSWZ2eDFTWG9BVEE?oc=5",
+      "source_name": "The Guardian",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -233,25 +248,10 @@
       "confidence": 0.6
     },
     {
-      "id": "effd8ae662b6872f",
-      "published_at": "2026-08-31T12:55:00+00:00",
-      "title": "Live Updates: U.S. strikes Iran for first time in weeks as six-month war reignites over Strait of Hormuz - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOX3VPTi0xVlBhMThyb19kVkpfWmJ5Q054dGxfeEFUMFFlN1NGZ2pwYU82ei03S28yNHJSc1lsampHMnFJYXpQbjJSR1hGNWpNT3pUTC05V1dhT1BfTTVQVkd1eF9BSU45bU1udS01QXRhdHdaY0pfUS1NZ0tac2JoeTlvSW9nVkNHdjRrbUZpN1o?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "ceef22cfd6474ffc",
-      "published_at": "2026-08-31T12:24:00+00:00",
-      "title": "US strikes Iranian island, first military action since July - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYmFJTUc5WlNNODlseGpvbFg0bnozcUtVaGY4TDRNQU9ldnR2WTNReTZmNmQtcFZoTFN5M3hxanJibHR6cDR6SnhOR2NBQW5rNW1qdWd5YkRrOGE4a0cyQ2FlSTdQNFFPM0swUG1nSWFtX3JOWXp0Q0RyY24xakF2YzZfWU5pWXZDeTVhQlQ2NGtZUFZEdmhpeENlc24zNzBr?oc=5",
+      "id": "17fde8a51ed8ac6b",
+      "published_at": "2026-08-31T19:21:00+00:00",
+      "title": "Trump vows US response to Iranian strikes: 'Going to hit them hard' - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNQ09pLWxvRVI5MmZJak9za3Q1cFdnYkR0RjdzZDVjZ1lPZWVHamtQd3ZqLWxXZ2laWTZ3b0QzZlF0U3FXaEktNVVpMTdZWUNIOEFiMVJ3dUtCMzdVUURBTTNyZFZfejVnbEc4N2JwQmJKdXUzbGR5RnQ1NXpBVnB1eGlKWEpmYkhfczRIUllTNG8wMElGeDRUVXpQZXdkb0k?oc=5",
       "source_name": "USA Today",
       "event_type": "attack",
       "actor": "unknown",
@@ -263,11 +263,11 @@
       "confidence": 0.7
     },
     {
-      "id": "fbb5b150491ddd1a",
-      "published_at": "2026-08-31T12:20:48+00:00",
-      "title": "U.S. and Iran Exchange Strikes Overnight After Monthlong Calm - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWlZpY3pTTkp2WG1DZVE1cmt3ZFllaVVLNFZsamxlcC1YWG5fTnNJOTFfcjVZbmNURjRyTzlMbjhadjJBVmo1aG1CV3JXbWhBRDg1dkZldVFDVGFtV2U1dWZlVy1Ock85amRYd3pJWDNxamQtY0drbFNIRjMzb095amNrazNjbjJ4MFpR?oc=5",
-      "source_name": "The New York Times",
+      "id": "bcc3cbf64fce1f01",
+      "published_at": "2026-08-31T19:18:45+00:00",
+      "title": "Trump Vows to Hit Iran \u2018Hard\u2019 After First Fresh Strikes in a Month - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE92VkxITnNfUmdXUy1vMC1XUy1wd2hRQnQ2OVVRYUFKZ0VOMmdLR19oQndqNTVSQVhueDAyQVJ3anJKVVJRYVVJcXhRV2Zad3dXeVcyMHpyN19CV0xzTlBtWDRQenk5cVhSTVd6ZEtoZ1dNSE0?oc=5",
+      "source_name": "Time Magazine",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -275,14 +275,44 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.9
+      "confidence": 0.75
     },
     {
-      "id": "78d76d94a8864197",
-      "published_at": "2026-08-31T12:17:22+00:00",
-      "title": "Who are the economic winners and losers of the US-Israel war on Iran? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYktMVHVmNXUyS3dHaWUxYXJ2TGprWWs3aGdmTDdYSEdHMXVZY1JMTmNsYlZwc1dxNzVVaFd4MkdTTGNod2MzTGo5TjhRTG5tZ19fdktURE15VGZBY2dWcHZ1aUhLMS1xVEptN1EwdndDRzJ1QU9MRVNfclFjRm04UzhyTGR4cjFRNlVkMkVfS3Z4eHRodVN5ckxHQlh2TVI4WU1UWTduMWV4bmI0OVVEOTJn0gG3AUFVX3lxTE5sczJYM3ZIbkpSOE1DaUZfZDZoa2ppQy00elNTcnFlNWVKa3ZBa292QmFmQ2ZDMGdVbEFhOFJiMzJZa2pmbUtPLWhLSm5zVEdpVkh6bVlVLTVSWDJUZ1hrNWZsdFFuWU9XRV9ScWtGUHdNeUFaQlJQQl9Za0xoUHNkMlJGSWxGVU1LOUp4OExNZENITFRJbThad0NWVW1UUWo2bVdQOWZWTFctUVRjUG5XTG9MVXZMQQ?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "451b53412a5187ff",
+      "published_at": "2026-08-31T19:09:50+00:00",
+      "title": "Oil Trading Calm In Response To Resumption of U.S./Iran Military Strikes - Ship & Bunker",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYmRSRlZEY2VseVg0R2ZCWndMQlJ0djlLQ0RKYlIxeWU3QWloRnhETzNoOGhkZ1dTMkJhQU1uclhsd25COHJkSDl0MllQSkNub3l4bjVUM0RVQTMwaDU4QkZiaDczZVVTaE9lZFhiMG5GUm9VdmtEa2ZBc1c1Nm5SbG5EZ2FBeXdBV3dRN1J1eDhfSU44N0w2YWJHb2k5cVJseEdyY0dLZEhTS3k0cTBQeXFUMA?oc=5",
+      "source_name": "Ship & Bunker",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "2399645563920341",
+      "published_at": "2026-08-31T19:06:30+00:00",
+      "title": "Iran war latest: Tehran calls Trump AI video 'laughable' - after trading first strikes with US in a month - Sky News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPNWgyVmZqZ1NmTzRZT0JYXy1hMURCUWZ2OUVEUWNTV0hpTmFpVzFjQmI5SkNZLU5HRGxxZUlVcVM4R3FfUUVEcUJKTzVVNHRWY2dyMDB6aEZ1Tmx4aTY0bW1vQTVXMHRrRk1McjRENENLSGxQeU1Qc0UwMmVhR2VDeTZjZ1Ewdw?oc=5",
+      "source_name": "Sky News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d1bdae51e65697ae",
+      "published_at": "2026-08-31T19:04:43+00:00",
+      "title": "Europe Protests as U.S. Invites Russian Minister to G20 Finance Meeting - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFB4N2xwUVVOMzd4SkxPTHExSWs1RzhBaG9PVDJIdE1VMThDSFZCWXEwazdwbklwRnAyVTlaR3JtOEd4RHJfNlJjUElCaXZtdGRyX1lXbERkQkt5aFRYNk1QMGZqeV9NWG5iOEhFS1l3V3Y4Yi1lb2RVb19EQWwtQQ?oc=5",
+      "source_name": "The New York Times",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -293,11 +323,11 @@
       "confidence": 0.55
     },
     {
-      "id": "65dfa54c43c715d4",
-      "published_at": "2026-08-31T12:16:29+00:00",
-      "title": "Your Morning: US, Iran trade strikes - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9LOWcxemljQmtDUWhidHdSOVJnUEEwSU44elV1dWJCV2RxODV2bE5XTE9rQmlpT2w5M1FCT1A0Rk5qbHVFcHB2V1BvV1BhZHJ2bUFfYndxQmFHRXI5MUpIYVA3VnpuQ0J6WmVxNWxiX3RmenpaUDFzV0ZFQjhXQQ?oc=5",
-      "source_name": "NewsNation",
+      "id": "b955cb4ec00ff078",
+      "published_at": "2026-08-31T18:07:25+00:00",
+      "title": "Trump weighing limited strikes against Iran to curb Hormuz attacks - Axios",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBzZXpaNzhySlI5eHVJWUx1Vi11N0s4bkZDdjJBWkVwdlNOV0dJWlVhTmlpZWFRQ2gyclAzSThsMGxieWIzUUplVmQ2RXBTM2tqR3dwd1lZWUhpTk9wWTM3NGJHMlNQOEpTeHhFeDc1elhPTW1iNENUcEZn?oc=5",
+      "source_name": "Axios",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -308,11 +338,11 @@
       "confidence": 0.65
     },
     {
-      "id": "9db2c82a3dc0319f",
-      "published_at": "2026-08-31T12:02:00+00:00",
-      "title": "Iran retaliates for US strike with attacks on Jordan, UAE - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNV2ZxX0FtMGttM1NyTklpc09KdWd4NVhpNElablkxVEdNWFdhc2tZMXVVcHZMdm1KR0QtNi1rcU9LR2NRelhjUnVEajhwaTFPM1lGdjB6bjhfaWZhX29IVWlfZXBuQmJTbFhTTEo2ZHlpQm9wM1VBNG1DaWNOV040aUx4NDVsQURwal9wQm5IUUlpRVZmZXhlMEtNSdIBoAFBVV95cUxNRlNjVDJQTE5EcndLWnhWSGdrVDQtaUVpOXJOYk9zbGhtMXFjMGQwQmpvQ2NqZURsY0tyZFVWTkYteXh3TWZfRDFJUWNSRDh5UXQ1NTFncHpwY2FhTm1SNkkydlRleWhqVW9QTlZVQ0RnYXVfVmU0WHo0TWJQZ3ZhQXo2LVRVVkdKTUFndFk0V203NXQySExfeUt4MXE3UnpZ?oc=5",
-      "source_name": "The Hill",
+      "id": "2e7a72048490690a",
+      "published_at": "2026-08-31T18:00:03+00:00",
+      "title": "US, Iran trade strikes as fears of renewed war grow - newsnationnow.com",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdDBwTEZkUV9nV0J2dmRJM1FSR1Vxd2xGVE1uOW5FYmw4UW9zX1QyblpBWFJPR3YxYU9wdE0tNjBMSHRaNmpiYlhBanFCOVhZWTlrRVBWYzl4UWpNWlRSVmxBYXRXZ01oYTJTUG1MOU1mMUdrQjZUc0xSbXRuSzJoZkxR0gGHAUFVX3lxTE8zTWFlbnVJOWxrNUtEaXpwZzVyalJHeXIzUERvTEZXWnNfd2tCU2ZNMUxEUW1qY0VOZkV1NmQ3ZU9Wa1JiZG5QSUJfbC1XS3FjZTItREdyMWJmU1ZGdU42N0NySk5kWVF3QmhpbnFDcEF4b2xqYmhIbXd6d1VVYmdYdkZpakZQWQ?oc=5",
+      "source_name": "newsnationnow.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -320,60 +350,15 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
-      "id": "1f401eb4d0267639",
-      "published_at": "2026-08-31T12:00:00+00:00",
-      "title": "Iran war live: Pezeshkian says US \u2018hasn\u2019t fulfilled its commitments\u2019 - Al Jazeera",
+      "id": "f83090ff7b9a422c",
+      "published_at": "2026-08-31T18:00:00+00:00",
+      "title": "Iran war live: Trump threatens Iran after attack on airbase in Jordan - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQaHJoVXZ2MzBnaVRCSDBFYmJNWUNmdUR4Mmx0cHVXV20xY3V1VjVoRXVabXhZdWtnWDdEc2NBUTNOUGNMM0JHcWhXajlTSE1KWHBKQ3hiUHJaRWc0anpsYlk2SkNGZ294VW5EajFyV2VkUXAwRjNwT29FWTVXMXZvdmptRnhPanFnMXhJaFlhQ0lDWWdTN21mTDdfSU9zX05nWFFKS1VHRlZfTGM0bmJ5X2htLThpYWFXZDV1VWFBcVnSAcYBQVVfeXFMTVl0eWRfNVlPelc5SGNoSFdpd2xSeVJUZEhMOTNmbDlldDJCUzJfNDZEcTdTaHlFMjlDRkQ1YkVJWGVNNWZ5UWFESW1fZ3dHOS03S2k0ZXhTd01nSlFnaEk3aG9SVDE1dk40ZjB2cFZ1TVFrNVZnTnJ3cC02ZEY1RUZhOXdYTllOWWFkcS12eENQS0h6ZlVOYTcyZWxxZE5SSHJvZ1hVR2Q2S2ZPcGtpdC03ejZpWURIbzVGd003bEFwZkVFejd3?oc=5",
       "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "a8fc1ff3144fb334",
-      "published_at": "2026-08-31T11:55:37+00:00",
-      "title": "Iran says it targeted US forces at UAE air base with explosive drones - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdUJ1WEFmS09yeUVicnlPTzlYRHZ5dEIwV1Fac25iZm00WTVNRTd6c0llMk9WX2cxZ05oZHpkWU9wSHJOX2FIWld4N0RwX2pUSlRNN3Y2NFpZYkNOcmtudTFRQWhkS2V2QXYtWmlRU0FYZFdYWWJucVdyQzNzSll3SU5vdDRaOWpkTUxwYWktZElRbGtiYlRkVFZFRGRFa2hwLTRqN05LdUE0ZlBSeVE?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a76fa13c9466b501",
-      "published_at": "2026-08-31T11:54:00+00:00",
-      "title": "The US and Iran exchange fire, breaking a lull in fighting - WPBF",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZ05fZk5LVmtTQ1JjYTJkQnV1TTFWTC05YVdNcERXRDRwTmJjNUg5ckRLeGxVLWIwU0tmcHZyWnZFQTVzbDBPQ0wtdVdrRlJOYWV1Zl9PWTJVcmFCRlZmQ2hmQUZDa09ham9RdklFVWpfcUpfbGV5VENXVndjRUthQmJJS1UzX3dOUnc?oc=5",
-      "source_name": "WPBF",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "7dc92757b712e2af",
-      "published_at": "2026-08-31T11:53:00+00:00",
-      "title": "UAE says it intercepted an Iranian drone after weekend US strikes on rocket launchers in Iran - AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSkx5VllnSlpKbjRJSUM0S2ZmSWhlb0YyX2xyUElqbmt1X1RxMDhLb3lNeGVqRFprU3ZBcHppYkhSZUFOb0JGNkVjZFp1U2doYnFaWk9WVUEzUG1RN1JQVkF2VUtkQUliY09fcm5rNllyeDVaRG0yNnVqcFFXME0tNjFOVjRiODI2RTJJSjZ1eHRaSXRx?oc=5",
-      "source_name": "AP News",
-      "event_type": "intercept",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -383,12 +368,12 @@
       "confidence": 0.65
     },
     {
-      "id": "7dd3c5e5d3b90473",
-      "published_at": "2026-08-31T11:28:03+00:00",
-      "title": "UAE intercepts drone after US and Iran exchange attacks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOXRvZHIzWEk1dVV1ZC00WEplbFlScUNqYXBrWmJKcGtFRjZMVWl0X1p0alVuZE9sc1EydFFqbDVlUEVuM3o1dUZldE84N1dfOWZLaFlmX2tqNlU0VEZnVzJ5alE3d0JSVDBFd1ZrUzgyS0JhYjZpM0hlUDU0czRYYXFxR1dyYTY4UTRJZExhaEV2THZQT0VFSV9LamQ?oc=5",
+      "id": "9e4353cdfbd9ed4f",
+      "published_at": "2026-08-31T17:40:52+00:00",
+      "title": "War on Iran: US bombs Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNQkp5djBJOVFTLVhnSWtBb3htUXZJZ3cycFNHVFdGcUlmV2hkeE1ObEFTRF9ITHhuWEZHTzA3YW5MbHVyNzlmLU5rdTcxNE42aUlpQngxcmhUNXloX0YtQTZNOUR4UjZwbEVRUGpzWEd4eF9UamNzdzdmWEw3NDBHUXRn0gGHAUFVX3lxTE1Qd0NwTFlhMGhsWUFBeHI3YmhfaElucUhhbXhrWXR2VnNKU1c0SUc1djl4bnRxamIwU2h1V0pMeTlkVDlndS1rSkVQb2RQZTBEUjNMUmxrdGV1NHk4WG5GUXVIWkxlb0dnUjJhTUZ5V1ZHQVRlbVZPNmQzczZDY19vQTlwR3pSNA?oc=5",
       "source_name": "Al Jazeera",
-      "event_type": "intercept",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -396,6 +381,21 @@
         "iran": 0
       },
       "confidence": 0.65
+    },
+    {
+      "id": "5112af8341a2b885",
+      "published_at": "2026-08-31T17:13:19+00:00",
+      "title": "Vance acknowledges US ammunition shortage as Iran campaign strains military - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBwT19RN21ibDNtOUNRYWY5V2FMcXZJenN1WjZSenhJT1ExN0FsYkNiRHJNLUxVUWtINy1RdmlaQ21ISERVTHplRk5jZWYwSTVMbUVvN3l5WQ?oc=5",
+      "source_name": "Ynetnews",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     }
   ]
 }
