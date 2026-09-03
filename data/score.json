@@ -1,34 +1,31 @@
 {
-  "generated_at": "2026-09-02T23:21:01.481730+00:00",
+  "generated_at": "2026-09-03T04:38:37.050391+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 85,
+  "event_count_window": 86,
   "totals": {
-    "usa": 37,
-    "iran": 12,
-    "lead": 25,
+    "usa": 44,
+    "iran": 18,
+    "lead": 26,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 37,
-    "iran": 12,
-    "delta": 25
+    "usa": 44,
+    "iran": 18,
+    "delta": 26
   },
   "confidence": {
-    "score": 67.8,
+    "score": 68.3,
     "label": "Medium"
   },
   "event_types": {
     "attack": 51,
-    "other": 33,
-    "diplomatic": 1
+    "other": 29,
+    "diplomatic": 4,
+    "material_loss": 1,
+    "intercept": 1
   },
   "history": [
-    {
-      "date": "2026-08-20",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-08-21",
       "usa": 0,
@@ -81,27 +78,167 @@
     },
     {
       "date": "2026-08-31",
-      "usa": 0,
-      "iran": 0
+      "usa": 3,
+      "iran": 1
     },
     {
       "date": "2026-09-01",
-      "usa": 6,
-      "iran": 3
+      "usa": 12,
+      "iran": 5
     },
     {
       "date": "2026-09-02",
-      "usa": 28,
-      "iran": 9
+      "usa": 26,
+      "iran": 12
+    },
+    {
+      "date": "2026-09-03",
+      "usa": 0,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "e00cf2e4019758af",
-      "published_at": "2026-09-02T22:49:24+00:00",
-      "title": "Trump expresses confidence after US military carries out strikes on Iran - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVlp3ay1OdE1LRHFqMnpEX0xmNkVZS1NLSHF1c2xmZ3p5UFRGMDdjeXhxZ2hPMHFmNG8wbU1OUWUxSTFwNUs1cm1oaFVxaFFaUGItb1p2NUdVNU9iNnhET1hRczFHejVUQlZUd25FVEVzUDJaSjJCNU5tQ0RsRDdIYzhlUVhRX3kw?oc=5",
-      "source_name": "Fox News",
+      "id": "c8dc26628a7ecf97",
+      "published_at": "2026-09-03T04:04:57+00:00",
+      "title": "Sanctions and Bombs won\u2019t end the war in Iran. Trump is running out of Options against an intractable Foe - Informed Comment",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1kWjI4ZXljSGRXMUdiT0pEb185NkF1VHlpV05teF8ydTdXSi16ZG1rb1dMWjFKellVVzZuWE1jZFU3TXBFYjUzVjhlWWd1V1c5aHRHeWF3UmU2S056NlJaTU9fVlQ2Skd6YlFyTmlsX0M3M05QckE?oc=5",
+      "source_name": "Informed Comment",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "681f5704fbc0e892",
+      "published_at": "2026-09-03T03:40:11+00:00",
+      "title": "Iran war escalation raises concern over civilian death toll - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQZmJEcTdhQU9kcW41Z2J6enVZU2NHQ253eVV1VDJKOXBSTTJfbGhfVi1wbTQ0U1gzRllLb2xUUV9LRGRZaWpvaUlSWWRwQTdBaXdNY2x1Z3pxU1U1WjJSdzdKWGR6a2FLSXN6dnBPQ3NhM1hwUkxOZlIyd0dDX0ZycjdVSlpEUFN5N1NQbWR2UW1oRHNBU3BTZENPbGotQVFOSmdfUUFJNERYbEZTVzU3WDlrUQ?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "427da05a69002a44",
+      "published_at": "2026-09-03T03:23:00+00:00",
+      "title": "Iran war live: Trump warns he\u2019s \u2018prepared\u2019 to launch fresh attack \u2018any time we want\u2019 - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNcnl2ME9aSXVrN19TeEUyTUxrelJ6azBMel8wODdBdUNXT0FRZDhGRTNqa00yOThUbjZLSG1TSVg4SmxRdVI5VXpGV21JazNXQVdIS3ZDNTVrNElDdE9NaFVhVGJjVV85YWljVUlDOFV1YXlhZGRsMWk0MkFWTDNvQ01lQUhBNlE2dG1yN2hkczdFLW1ZTm5Jc0VjRGRwR0dRM3NXX3BTSmJud0tRNy1jSFVMS1pyX0lOTFEzdU1n?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "fa9b1f9ee7e79e2f",
+      "published_at": "2026-09-03T02:26:00+00:00",
+      "title": "Iran attacks Kuwait as Trump says renewed Mideast hostilities will not last 'too long' - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNaE5KOWRmZmI1OElBb1Fna0FCWlZqZkNfbWh0RDN1cHdvT3lqc1p6Y3ZuQm9lSWRtVFliajlSYnFZZHdMM1dOWGhUeWZVa0FkX18tOTdCRVc1V29NeWN1aWpjWlNQYkZLeVp6bTI4UU9uZnFCXzR5ZTlBUF9aMFQzcEZnbzlIcFJnbm9naVN3alozSUdyUlpNVmxR0gGfAUFVX3lxTE9aQnE4dkJ0b1E4MVB6V3pLaE5xYzBBOHR2WVlocFRmS1kwTDB3Zi0wS2tHSkU1Yk9ndHUySW9ZcDFwQS1QVUo0VktGQ0tUQk9kR01BbEo2QjNHVjZCYjF6ZjdzRzdJa05BU3JhRVYxR2pZQ29xTmpiZmFaOVBkSndMaGNUSjI5cVNUNnBteWRNa3R3VVZDaERIZk1nS29IMA?oc=5",
+      "source_name": "CNBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "9770a4eb507fb418",
+      "published_at": "2026-09-03T02:07:00+00:00",
+      "title": "Iran fires on its Gulf neighbors, retaliating for US strikes after a wedding was hit - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSTQ5RWEwemszN1g0ZGdybDJrd0d4MW9sTk43M05welQ3WGZmeWgycERkU0NFck5vMDc4eXBjbmdQSzc0OTNodV9tMXhpTFg1WF9SR2JXOXp3aEVGVjBHSUlwVFR5QWpVdnJodmNfV1FmdEZBeDlhUHNJZVZPeHliVlBQU3hZTXJhNGgzNGZoNURLUWtqOW53OUF2TTJpSEpsNGVBTDVyOUI?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "23207f4f4c5551d7",
+      "published_at": "2026-09-03T01:57:50+00:00",
+      "title": "Kuwait says air defenses responding to Iranian missile, drone threats - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSkg5YlVLWVEwcUtTM0JhUTNEbUZYdDN2ZktPZlVqNUZYRDRWX0J6ZHdZc1g3LXY4enNwS0xrZEN6OTJtTHdwMVlFeWtlWXk1T2NTQ203d3JvcFBnbXBOMkd5MDUxRlJRZE9pRmk0bTlWX0lwNGhsRDAwY3REemNzTVcxdVpzWjZhdmVWelBzMTFFa0YxTlZIMUZobzNidWhaSzNXOU01cW1CM2pnNktXb0FhRQ?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ce6ea2d0bdfb79f3",
+      "published_at": "2026-09-03T01:22:27+00:00",
+      "title": "Iran, US trade threats as Tehran blames Washington for wedding strike - France 24",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcWZZS3cwY0toUDZWb25CQmZQX2JOOVRZZFN6Mk90Z29pYW1tdWlFQ0pnVF9QM21ZODNBSXhBZE1rX0NmS2M5NGV3Qk1Ib1B3SzZJdi1Dd054Mnd3dUl3RXZBd0pkSEtJWDY2OVZVWVlnNm9TX1RUZUp1eEo3bmZOTHJoeUtCQV9Gb0RxQTJB?oc=5",
+      "source_name": "France 24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "a38f1889566ca5fe",
+      "published_at": "2026-09-03T01:05:00+00:00",
+      "title": "What to know about a reported US airstrike that hit a wedding in Iran - AP News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEhWS2I1TC1EYTJvMlVOWHpTTUYySkNNNkp4TV9LWWlHb190SGFralhreDNhU0ZaaERwTWhJbmtMa3Jab1F6YVR2YTF1NGNFM2Q4b3NUVGg5ZjFaSWl1Mm1sRktxdnlkV21rWjJVTkd6WTFTU2hUVVRQT0tISTMyZEpIVEdGZFAxbnhBeU1HcVVLTFVrRUNOa1VIcHZBQQ?oc=5",
+      "source_name": "AP News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d3420c3d6643394b",
+      "published_at": "2026-09-03T00:03:58+00:00",
+      "title": "Iran war updates: Trump says renewed US-Iran fighting will not last long - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQclJVZlVOS0hmbG9xRjFzR3JBc3ZzWmtUS2RKVGJnYjN0bnFBb3kwNDQxdTZaRUZpS2QzaXZwNXh1RHBjMnJRaE5MUEZsendhbzAyRnpuRGxHekUzX2hLTWFZTkU2ZHVGekR0NDBUaW8xTDRSTDhMSXBSN2NvaTIwOGI2bGRjTTF2a1V0aVdWN2ZSWTdScUV5V3ZoQnFnNUVuUGhidV9MdU53bVEwZk0yalZhOHd5Zkl3N1N1ctIBwgFBVV95cUxPQlNQQVdCYnlaT2lycU4tR0FpenhMRTM4MDR3ekZoTnVIc0V3WVFMWkRXc2VCR0laSURhR1pXaVNvSlNlcFlTUnZJbi0yNHNNQWMwUWp1ZzZTWXBZam9meEZzaGlhd0xiU2hNT0F2VzUtTUdrQXo4RGFEWDYtZmx5MXBtOGZwNHN3Mm1FWkVabUMwOEZ0dUxrbkhSTVUyRXlteGY0Y3NPRkhpNHk1NkdTTlV1OGhlUG96cUxWWGFHX1dlQQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "e5997c6a2531cf82",
+      "published_at": "2026-09-02T23:42:00+00:00",
+      "title": "Live Updates: Trump says U.S. prepared to strike Iran \"anytime we want\" after carrying out \"very heavy attack\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaGpwVVBCeVNvZE5lV3RCSFl0M2E1cnZlZS0wMjVSRFlrS1E5ZXFWSml2MGdKZEFMaHlSRFc1Ylc1WkRPTy1IaEpRZzFrbFpBZFJJbmw4RnVYaDJxWDFUQ3hlVk9JMUJ5Zk1HXzQ1Z2RxbVpWN2dTa3lFTzdwN3V3QjFTb20tSEdkOTRnQS10eUEwaFBQWlcxSmQwbUZxRmhCOEptYXhaTWJyNGpnV0E?oc=5",
+      "source_name": "CBS News",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -109,29 +246,14 @@
         "usa": 3,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.85
     },
     {
-      "id": "831b1e6f5ac38290",
-      "published_at": "2026-09-02T22:32:00+00:00",
-      "title": "Trump under pressure to contain Iran fighting as midterms near - thehill.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNREFLazNfYm1LYk5peW10SE9nNjJyNU1lT2lDcFlrVURPaDVmVndTbjJLOXNaamhFN0F5bWhpNmpLbW5zeHY4cWxTQTVfZTlfYWJraHNmN25DLVVSRnJBVmVIWm5kSS1OaUFLbm1ubVFtVFZLWkVpTmpEMEZrbmYxUVo2NmhHQTZJc2fSAY8BQVVfeXFMUFpsdjlHM2M0WWZ0UHZja3ltLVlsYzlXbnhYcjdZWlFBbGo4RWV2b1JtbHpBaGhTS21CTXZ3RHdMR29oSzRRRG1XZ0VFcFVOQmxLOWE0U2NMTkZvZDJjWFlfUG9kV0pkNlFqNmZmNi1nNHRydktYajNfdm9KSHBiUFd1WEtsZ1hudVhDVVc3T0k?oc=5",
-      "source_name": "thehill.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "29aad6f2b18e089b",
-      "published_at": "2026-09-02T22:22:00+00:00",
-      "title": "U.S. and Iran exchange new strikes - KTVB",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdHBHbW45SjNCUkNId1BQUzhLQ2xLN2R0MW5UZnVkdGhqQ3ZOaXk1S0doOVNFLVRMQVd1aXhmc2llYzBrY3MzcnNZZmVRTjB1R214a1ctbm5PMV9hY0dmM09NNUlUeF9fbzFWMVltNXc3ZndCbVlDcjdhMG1kOVBLRl82R3htMUVCcXZHdkc5Xzk3MXFuMTU0R0RyRmlJRFdnRUk5QWxlZkEydWF1MEVaTUFHUWV2aTBmZWJ3YWNibmdIdlFCTENrcFNmSWF5dw?oc=5",
-      "source_name": "KTVB",
+      "id": "c8a8077ab962fade",
+      "published_at": "2026-09-02T23:37:53+00:00",
+      "title": "In Small Iranian Town, a U.S. Attack Turns a Wedding Into a Tragedy - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB3RGd5WnpXcjVhaks1czFxTUl3NFlDdnFDYWpCOWxSXzN3VUgtdnRTR2lxWjBoVExHX0JHSVFQa2h1VWlCMFVWNFNITG80N1RUckxpM29zTEdHMGhtSnk4RlNoVVhNN2JHcjNDRGl5aW1OZFY1Mk9V?oc=5",
+      "source_name": "The New York Times",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -139,14 +261,29 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.85
     },
     {
-      "id": "bc7bcaa626f09d00",
-      "published_at": "2026-09-02T22:16:36+00:00",
-      "title": "Trump\u2019s Iran War Is Becoming A Test Of Political Will \u2013 OpEd - Eurasia Review",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY2NnNkhKSWN6TGotODFWZjhtSDJfSEhXbHB5U0V3b3hOX2FqS1FlMkdIM1lhc1RpY0J4RUUtRjVFeWZDdHB3MzN1ODlhWm41MnZ1X3BSVnBEQzh1Z1BSbXB2Qllhd0lqMl8xSXFBNUkxMHZFQnI0dnh0V2xNeE5QVWNGekdvXzNkb25nR2pmM2RobFZkcVpsMkdLMGhBdw?oc=5",
-      "source_name": "Eurasia Review",
+      "id": "24121b659263ec61",
+      "published_at": "2026-09-02T23:24:00+00:00",
+      "title": "U.S. Strikes Iran Over Strait of Hormuz Mines, Trump Says - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQkJhNDBNOW00TjJ1ZjdIQ3BmSHJpSEVEVTVKMkNaRksxaDByenc5V2pRZVd1WENGVFA3WVgwbXhfNHd6UWxxZTRzZnp2amJ0cHBZWEY5d2k1TkNabjEzbVM5RVQwQVU2TUUzQjA0OXdub2NmNG1iTHhMcUFFY3Q0VElYZ0hxZzg?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "95385fd712c3cb02",
+      "published_at": "2026-09-02T23:08:00+00:00",
+      "title": "Iran is a joke to Trump. Our US casualties aren't laughing. | Opinion - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN2w3ejg5clpfQnhGQXFXOWJZUUMzTFh0ZTduR0lWb2VLRGxfT2tyZl9icV9saDRLOUF0Z0NIcEk0YlFlbmtsR1hVa2xFdXQyRlM0OUw5MVJ1cXdIeTd5Zzk3cjJGU2xlem9ERmxKdElWQkpyRUNXREpiazZzUU5pRXVnYnBVMHVfZXFrSWJoeFh1bnpTTnVleFBUVklRMGNDNjlSZ3pBZS1pV1E?oc=5",
+      "source_name": "USA Today",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -155,6 +292,66 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "a91a1fc990d365f8",
+      "published_at": "2026-09-02T22:39:59+00:00",
+      "title": "US-Iran clashes escalate as fears grow of extended conflict - TheDailyNewsOnline.com",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNWmcxZVljelhFNDJweE55c3lOYVZGTzZDSTFWUkZtS0NVR1EyUGtFZXN4eVVZM3BxaFM2YklRTl9aQ2NSRXNYc0dUT0lScEpMbzBQX05CLVRWRUVraFYyWFV1aDYyYzhvUm9kLWV2X2NxRDBvaVB1QVdRTUdsUmVlVDkzRXJXdUJ2VG1VSHh0S1lZdGdrRVlJMlNlUlJHZ2NMN0pCd0NOV2ktdVk3WFV1bktES05DemFiQXNGRkZUTGFfU3BhcU5OaGJPa05CdUVWLTZxNExmNWxNTzBsdDB4VlZlQQ?oc=5",
+      "source_name": "TheDailyNewsOnline.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7675b717507f92d5",
+      "published_at": "2026-09-02T22:32:00+00:00",
+      "title": "Trump under pressure to contain Iran fighting as midterms near - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNREFLazNfYm1LYk5peW10SE9nNjJyNU1lT2lDcFlrVURPaDVmVndTbjJLOXNaamhFN0F5bWhpNmpLbW5zeHY4cWxTQTVfZTlfYWJraHNmN25DLVVSRnJBVmVIWm5kSS1OaUFLbm1ubVFtVFZLWkVpTmpEMEZrbmYxUVo2NmhHQTZJc2fSAY8BQVVfeXFMUFpsdjlHM2M0WWZ0UHZja3ltLVlsYzlXbnhYcjdZWlFBbGo4RWV2b1JtbHpBaGhTS21CTXZ3RHdMR29oSzRRRG1XZ0VFcFVOQmxLOWE0U2NMTkZvZDJjWFlfUG9kV0pkNlFqNmZmNi1nNHRydktYajNfdm9KSHBiUFd1WEtsZ1hudVhDVVc3T0k?oc=5",
+      "source_name": "The Hill",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "a08ceac49c37acc9",
+      "published_at": "2026-09-02T22:29:00+00:00",
+      "title": "Iran retaliates after US missile strike reportedly hits wedding \u2013 video - theguardian.com",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTGZval80TENHTTFGbHFnWlNFdUQtanlvVnJid1A0czlXZVgzUWhQa3lqc29TR3lLTFVuWFN1RnZYOFdDSWJBOFZKS0pTZjROUzZfcF9jYml1TV9PQnZFSFNadjZvSlA3bE1GZWlZSjF0R0NXaXo3UDlFOGVHMVdqUmdHclpHNUtZN0lIRVFaLXIyWW1Od0U3UTlIYWFEOGxRVl90UjNSUDgzRTN2MHFaX2UwQmo2WnIwaXdhb1F3?oc=5",
+      "source_name": "theguardian.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "49869e9df1a3cbc7",
+      "published_at": "2026-09-02T22:18:54+00:00",
+      "title": "Iran says U.S. strike on wedding party killed at least 4 and injured dozens - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jNHlWbEdjcTc0RkI3Nk9GU0kxM09pSFJqSWFMUDBFNkwxNjZtMDNOZXJEelNVU1RLTDRyVmVwQUl5Q09ueVdnUFdkbU9PWDNqSld0LTJ3TkZvZkpMZkpRc2ZndHhKSDlQZWpuYi1FZEl0SWN1d1RFVTR6T2U3MEU?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
     },
     {
       "id": "c63de650654e77c7",
@@ -169,7 +366,22 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
+    },
+    {
+      "id": "ec0cc2440c279fd6",
+      "published_at": "2026-09-02T21:48:00+00:00",
+      "title": "U.S.-Iran tensions escalate after new strikes and retaliation - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZTF6Um1HaGhla2hFSFlWWUVkWHEtMU52aTZJVnVjMFFZLTN0LW1XV0JqUXplZW1SVUNtMng5dXlHeUdpY3NBVTVSaEkwd05fVjhodXhWSV81MV9qSUxMZXNEamtOZTZwT0xvdkRJX3Z1QXdCS0VGSGF4Rlc2cHE0RFN3eWF0RjRQYVVTZURiOFZmR3plVGhSZ0Q4bk5PZw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
     },
     {
       "id": "b0be0c312187cea0",
@@ -185,216 +397,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "d657b772b1b2a43c",
-      "published_at": "2026-09-02T21:06:12+00:00",
-      "title": "US-Iran strikes raise fears of renewed war across the Middle East - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxORjZ4d3JRTk1WcXR6eThpVm1wcVpzQV8wMm42eDB4bDJRMVhxelJpdmZTYXVPQ0JTUmtiNXFVWEZyb1NBTTZibmZJTkk4bjlRNGwtWTU1OF8zXzhENVZhWDN4TUwzekdfVG8xWUpmY3hmcHBDQk5TUzBLSERGbFJ0c05nekFpclo3cFdMcm93dHlEUXctVTY2MjJIMkkxSTRGWnc?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7998ac1c78fb1eb1",
-      "published_at": "2026-09-02T21:05:00+00:00",
-      "title": "U.S. pounds Iran, Tehran strikes back at bases in biggest exchange since July - Japan Today",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNOXBVbjc4cGVFY0pHVm1td3ZIa0trSkxHMVBrV0RXVzVMeVAyU3JVLVJkOFN3d1RQM3pYeWs0OGNrWWNKc0p2U3Z4REFBVWw0UlBhdlowNDB2UkhIVFh5V3h2cFVNRFY4Wk1XczVmZnFaZUpJY2Z6cWFaZmNxcl9mRlUyejk0WFJQdWRLR3Y4U1ozVU5aSzdqdDhGcmFuYjNFUkZQV1czMTREd21udERyc0JXSQ?oc=5",
-      "source_name": "Japan Today",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "4bd2afc40f6db052",
-      "published_at": "2026-09-02T21:04:00+00:00",
-      "title": "Rubio downplays Russian aid to Iran amid war: \u2018Nothing\u2019 impeding US objectives - thehill.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNOWw3TXhBWk1ETW5NMno1TWpLZGdCXzYwcVhpVURRRzRmYWZBYklSZjVLaFoyTFJMb0xWYnVKUTZUMl9qOVlva3N0U2dmNk1RdV9IcHJpN3lMY2RTcE80X1p1VC1ERE5pcVBJSTc4VTRYakRvZWlWcTZ2ZXg3VFl3YXpZRHVqR2NZcmJCV2Vn0gGTAUFVX3lxTE5CcEo5TnF6dGtHWjNfR3JEaERUTDhpTUg0X1FBVUlENzRpT3Znb0dyTk9rU0NWdjAweEw1RkZvOERCcVpiOTAyeHFxVWFwS1BuWFFnajJfTWhid0VWS1QxMEZTMGJKMU5xUVdud3p1YjNJc2pQLUZqd2JlUGZaSTJRM3I3ZEJ5REFWbGxhUGxCTmpvSQ?oc=5",
-      "source_name": "thehill.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a468284b8f34c2ea",
-      "published_at": "2026-09-02T21:02:35+00:00",
-      "title": "What we know about reported strike on Iran wedding celebrations - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1jM0pKUFJhRTlrdDNkZkZ3SlUzXzJXb001X1BYajRYU2tYMkJtV2FfVmlTQ1hNeDRFb0NkYUpseVJoNnRTbDJyWWgyWkh2NXp3djFSRGhMWQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "5adae2d4b76e3a50",
-      "published_at": "2026-09-02T20:40:59+00:00",
-      "title": "U.S., Iran trade strikes as report details Russian help on Iranian missile technology - WPBN",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPUHpZcmU3OWZfczAyanpQb0RPNldKamRnVnQxZVZCM0ZBZmRsenhKQklzcW9ZeXlweVEzNGlubzUySmZLSW5xLUVRT3FUM0c0N0ZCbHh1ejlFZl9qTy1mTUhXVGtQVzZaWHF5WVFCbjBCa1Bqd1BrRWpOSmNtNVdFUjdxbzlsRDRzQl9IYnkzWGg3RUIzcWhKaWNuT2ZjSE1MMFdxeTJrdHYxOWRxemg5bGtwekgzdlhVV2pwUXNJc1NfR2UyMTlBb2tRaEFfMzAtdUJSa19TeXAtUUx0aEh5ZVhlR2JmdURGWEJibDdiRktQc0E?oc=5",
-      "source_name": "WPBN",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "c897cd4b77a646e8",
-      "published_at": "2026-09-02T20:29:00+00:00",
-      "title": "Trump Says US Ready for More Strikes on Iran, Floats Renaming Strait of Hormuz - kurdistan24.net",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxORUFvcE5DNFJKVzRqMmJlZzB3YWVPenBxWmhwMno4eGVNbUU4eXpZMzlMc243UlBNZl9TQ2Vob0FnVUxIaVIxb0RNVXhNbVVtLWNGTlE3R09tTG52SnBjNXg2eGo1UlZKcmZjSHF0VDdzTlpzbTNrbndPVXFqTWxRRzR3UkhubVgtdEVfVXFSOWJWMUNMcVA1STBnS1d2UnBnc29LQzViTmVnLTdlbW53Y2ZXNjQyOXp0STd1VkV3?oc=5",
-      "source_name": "kurdistan24.net",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d3e19c1a78a6b3d1",
-      "published_at": "2026-09-02T20:25:25+00:00",
-      "title": "Trump suggests renaming Strait of Hormuz as Trump Strait amid Iran war - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMDlfWEl2RDE0UlJZVDBlVWNZazYxdEFOOFZkSEdxR21YeDFLN1dHdHR2VjNnd1lQczI0OVRHSFI4Zk52Z1pURzk2ZnVpdzdCTmdnenFJcnlnVGlKNmt1YXBCOERVU3YydFJOMEYySWJkX0Q1MlhsWnBIZldMeU80VzRGQ2VjcDE0SXVhZzF0bGxwc0xXSzQ2OG9UNzVaTHZVeDZzVmxSRHdsQdIBrwFBVV95cUxQeVctNkhETFhMR29mNDR5cThZSWRpeEVrM25oQi1oaHAxRTRHTU1ydDhfZ0FiOU1GWkQxMjk5M0lzSWFWbnRidXRzSTJwNkQtcThPcEpTYWdnUUNGYlhkUExIWUd6ekJkNXBtUVJGZ281MmFzNTJQSnlKSXZ6dk92Yll6UHF2U00zbEZPV3lxWEluQ1NwSC1uV1FCV3E2X0gxU2x2U2gzX1FUdlVobWgw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "c5e940568d4bb4b3",
-      "published_at": "2026-09-02T20:11:00+00:00",
-      "title": "What to know about a reported US airstrike that hit a wedding in Iran - AP News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEhWS2I1TC1EYTJvMlVOWHpTTUYySkNNNkp4TV9LWWlHb190SGFralhreDNhU0ZaaERwTWhJbmtMa3Jab1F6YVR2YTF1NGNFM2Q4b3NUVGg5ZjFaSWl1Mm1sRktxdnlkV21rWjJVTkd6WTFTU2hUVVRQT0tISTMyZEpIVEdGZFAxbnhBeU1HcVVLTFVrRUNOa1VIcHZBQQ?oc=5",
-      "source_name": "AP News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "054b384184638dc4",
-      "published_at": "2026-09-02T20:05:26+00:00",
-      "title": "US military \u2018never targets civilians, unlike the IRGC,\u2019 CENTCOM says - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9YMzBEWlZQcWRja0YzRXVtalpHVGd6ZHZvSnBzUVphSXFMNlFqU1NXVXNkaFZkM0g0M0tUdzdlVEJlbC1IQS03VHJQMnZVZVM1NGc?oc=5",
-      "source_name": "Iran International",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "0de9cf371eb33906",
-      "published_at": "2026-09-02T19:46:00+00:00",
-      "title": "U.S., Iran resume strikes as calm ends abruptly - 11Alive.com",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcDJaNzR4Sk9KTS1vekZ4RFEwb2xIQ0NRemhIalNqZFFzWTlxbHFIU2cyTkFSOXRJRlFUR192dUxBeXo3UzlFVUw0U0ZIVGtEMEgxT2gta2JxYUVnTnpfYmc4SzdRdzlIYXJWci1PdGR2dW1EUTJrNERrZ1JHNTNUTm5fYVNBZWNLNVZKa21wTE0zZkpJNXBNRXVDYlhIYW9FeG1UTkUxR2prRy1GX0tRVlY0VTMwYWxhbnFr?oc=5",
-      "source_name": "11Alive.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "c4219bd02faddbf6",
-      "published_at": "2026-09-02T19:42:21+00:00",
-      "title": "Trump warns of bigger response if Iran keeps targeting US forces and shipping - WSET",
-      "url": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPMGw4U3RIcEdyZjVXTlMtREpWQ0loVEVFY3lpM01QRDhHZjFSSzc2Y1J5R2MwaUo2b1dEUkxDV3pZXzQyTWxMWmNTenI1UG51LWc0VjdaVTBZY2NXZjhjMjJuSDBwMXdYMGRlbi1kVGFVM0cxQXFZU1J4d1ROemxaZzZKQ1FZOFNxbTUtY1Y3QUtCVWk3NEszaUZUYlVPZGMydmI5Ymc2cjFOZ3oyQ1dZRWszcmNRVGpzM2sxeHFqUUJsZTl2M0tqVjhXcF9hUEYyYmtBU0JkTTI4aW15YTFMM2lPQ3BMa01YX1cybnVNU2lSMVdDQk5jUjVHT1Z2bzktTDZ5eEhfZmgxN01PdjFVTl9xVlZiRTMta1l6MWlsc0VvUTJGM3VDX1dacndJZWtmdFRxMmtaUE5VNDRzcFVIVEtNNkdMOUt3UTkyMU9tdw?oc=5",
-      "source_name": "WSET",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "60bb26a5edb5d603",
-      "published_at": "2026-09-02T19:41:57+00:00",
-      "title": "Trump warns of bigger response if Iran keeps targeting US forces and shipping - WBMA",
-      "url": "https://news.google.com/rss/articles/CBMi0wJBVV95cUxORXB3RlQ0YzFiNjFYdjBON01lYjduOW4yQmo3T2p5cjJFSERqNzlTSGd3ZlpkcFgwVlN0WGxmWGRaZmE0ZTJBcXYyZWhHMERBRWpheVdxUGJzZ2Nmci1nSjNQR0RuY3RNVjJBQkJoVnI2ckR1Yktuek9UWXlncDV4cXNDRHJWM1NTU09qQU1JbHA0a2wwai1pcTBVa3ZNanZJSk5aSnF4c2JuRlpFbU9UU2cyY0RZbjJUcm5wTktZQTZ6dXIyQWlGcDV6cnFqS0ZiNjZRNXk5ZnRHOEJWUlBrajBVRHN6U3VXcy1EUzh3SVI5V0RxSDdWOWVBZmVpOWpnT1FWT2MtOWpiYV9IYzYtYWNySFEzQy1zZE9XRDJPdzdUT1M4X29KLTVBazJrU0lWMWxGcXVxcHdQTnl1NWNOVUZPSzI1R1ZDMlRrX0o0TG9qaWs?oc=5",
-      "source_name": "WBMA",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "51aaebbeb49978b6",
-      "published_at": "2026-09-02T19:28:05+00:00",
-      "title": "Saudi Arabia condemns deadly Iranian attack on tanker in Strait of Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLWNZNEl1T053MU40MzNHT1cxYjdxQmxrTnk0LVZxSS05QjBXbW14VHBaNzNCT04xMHdNOENSQUdsM0xVVWp4eFBSN0tGUklDa0ZNLXhWNDMyVmVSZDlOdUFFZl9STm43dF85aS1mMkFGNWZSOFlZUzdBdHp0X0w5RzVPNlBBazItU2h4OUpZZXNGbXNsdUZ6UmlWZVhHenVUOWN5ekNaRTVlVFk0VzR6d1doSdIBuAFBVV95cUxNaDR3dzN5TlY0ZHdjckxjandwejNzcXZsNFBvUEttUXpGSHhwMFJOaEpELVEzS0gyV2pOWW12YzlnZm1YOFNIaURlWlZBYnFrQWhPblhMTXlmMWFmQi1jZ1FERV9PWkVhaVk2Wk5lVVRPZXJqNGpSNWdPc0NySFBmT0Y3ZnYtUFlIWm5raXZrbzM4UHhEWlVXUGNZWW9kWm9qWkFjX1UyVjBxMHhtVWtRUTE5QTFXR2ZR?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "49869e9df1a3cbc7",
-      "published_at": "2026-09-02T19:15:15+00:00",
-      "title": "Iran says U.S. strike on wedding party killed at least 4 and injured dozens - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jNHlWbEdjcTc0RkI3Nk9GU0kxM09pSFJqSWFMUDBFNkwxNjZtMDNOZXJEelNVU1RLTDRyVmVwQUl5Q09ueVdnUFdkbU9PWDNqSld0LTJ3TkZvZkpMZkpRc2ZndHhKSDlQZWpuYi1FZEl0SWN1d1RFVTR6T2U3MEU?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
     }
   ]
 }
