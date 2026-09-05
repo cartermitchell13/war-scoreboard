@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-05T20:27:06.432830+00:00",
+  "generated_at": "2026-09-05T22:57:20.233620+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 107,
+  "event_count_window": 103,
   "totals": {
-    "usa": 70,
-    "iran": 9,
-    "lead": 61,
+    "usa": 73,
+    "iran": 7,
+    "lead": 66,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 70,
-    "iran": 8,
-    "delta": 62
+    "usa": 73,
+    "iran": 7,
+    "delta": 66
   },
   "confidence": {
-    "score": 68.2,
+    "score": 68.8,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 68,
     "other": 35,
-    "diplomatic": 4
+    "attack": 66,
+    "diplomatic": 2
   },
   "history": [
     {
@@ -61,7 +61,7 @@
     },
     {
       "date": "2026-08-30",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -76,7 +76,7 @@
     },
     {
       "date": "2026-09-02",
-      "usa": 10,
+      "usa": 13,
       "iran": 0
     },
     {
@@ -86,16 +86,181 @@
     },
     {
       "date": "2026-09-04",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-09-05",
-      "usa": 33,
-      "iran": 8
+      "usa": 39,
+      "iran": 7
     }
   ],
   "latest_events": [
+    {
+      "id": "3f3f689039ae6f23",
+      "published_at": "2026-09-05T22:34:50+00:00",
+      "title": "U.S. military says it hit 3 Iranian tankers after Navy ships targeted - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeXUyT3djU2gxZUJQcWxaN3ZwMGRzU1VJSmhsNWVzYmpXTmtnR2dFYnpXN3BUa3hmUkhLVG9FSnZMdXJ5NmRqanBGLS1oS3VQcWJ3SndiT1lsS3hkb3VJUGFzbWQ5UmVDUjJweTBYdkN4X2JFWHNMUVRxLVdQWS1jTVJub014WFRRdG02M0gyNXRna2FDRE42OEFPRWtuTmx1S3Z0bEg2VU5SMFlpd1k4ZWVrMDJDUWZF?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3c29e68efa5715c6",
+      "published_at": "2026-09-05T22:06:19+00:00",
+      "title": "Iran says it attacked tankers, US-linked vessels in Hormuz escalation - euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNmZvMmFhak9ROGpLQ2RDdzh6Q01QTS1vWkdDZThmdVBYUkQ4OUhVcHl6aG1TamFVTlA5QUVjQ3Vsa3ZZVEVYZjNwYTlFVDktYUhvTkNmWVFmUy1Oa3Y4bFlUS1N5d3VYMjNJZUJUeU1TNk41QThSZlpwYkhyQ0xjR1o0WXpUM1VJSE9KUUItdV9fX3BTQnRRamFCRUJaanRMQVZqSk1BM0hfZw?oc=5",
+      "source_name": "euronews.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "0b790f134744e863",
+      "published_at": "2026-09-05T21:51:18+00:00",
+      "title": "US, Iranian forces fire at vessels in waters near Iran - al-monitor.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQazVkYy05LV9ZdEctLXhQVS1ZQnVUT2U5TVRMRXd0cVVBNkQzUFliSGd4QWhOa3ZvQUJ2WVpIVzU3QzNTcU9ELUJVTEZza2dpWWFFcHhxQm9PNGluZk1PbWt0dTFOek9zNmJvUnUzc1djYlhka1pNT1lQYmZVN1B6YUUwUVd1OFRTT0VpOTNRZi1EekVTLVhN?oc=5",
+      "source_name": "al-monitor.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "45363756ce9857f4",
+      "published_at": "2026-09-05T21:33:11+00:00",
+      "title": "US Fighters and Drones Strike 3 Iranian Oil Tankers in Retaliation for Ship Attacks - Air & Space Forces Magazine",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVkdsREpXUFVsTXNZMUwyVnNlN1pTSV8xUklBQzRURWlYUEY5LVBnSEszUzUwTWVxbGRWWGZFYm5hS1k3TTNXZmpNNUZyLUtoZVFmY2xHVUkxYll0RTYxb2JOWlNaQUVkWUZ3c293cE9jRVZXOGVPTUxPeVc0dTMxZEJadC1pRWg2bkxCNjhkUzJ0eGJDLVZ0YVpQNUZtSlVfbkxXd29zVktyaDBOWUxpZks5YW8wTnpqNkw1ZzZ4dE1ZbnZNa0dadFdXXzhNOEVEYU1N?oc=5",
+      "source_name": "Air & Space Forces Magazine",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6510402892769d87",
+      "published_at": "2026-09-05T21:14:26+00:00",
+      "title": "US-Iran War Live: US targets Iran's shadow oil fleet after IRGC attacks naval warships - India Today",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcTNfTUdkOUxuTTN6ZF9BX3VacmJZdlZkeXFNVXc2ZmMyQ2tmamlyM2pycjN2QUhiTzBLV25ZT3VDTy1BOE9BMlpETUczVHdMZ09yVWJ0WUt5WGlOMlBDamowSFdUNktfRnpvYmhGYkhCdFpLOE1zZXM2a1l1Q0wtSS1LU2psdlNaZFZCd0UtVk5NS2xZSktIM01PaTBoekRWSXBDZGV0ZlA1bU1yS0V2MlpPUktFZkpoYUJNRjZuc2RqYXZpUUpyY1JTOHZmdzNLZklDZHpCU1gyY3dXU2fSAeMBQVVfeXFMTWh4RTdLMHFvdkJsRjYxRDZHOVp0dEw4Zk02YTJOblpBS0pnRHA3SWFFY05tb1ZSVVdvMWp1QzVkVWlzcmY5OXFmUEtUUVNIQVB3aFlFMXVHT1YxTnR0SnV2aVdON1RPaHdtOTQtdk04VkJxWkttcmw0X2NMc1kyYUJOeUhXR21PalpmRG5IdDlIdTNpaWJUS3V4V0VXR0VXN2lTU1I5cG5pdTY1bkxhYkRfMVBjOFBHRmhzSURCMjczVWZYLTVkalhlUjZGUVNZMmlDYWM0ZTV2UHgyaXJmb3Q0bmc?oc=5",
+      "source_name": "India Today",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d0a90bbde79c0504",
+      "published_at": "2026-09-05T21:09:39+00:00",
+      "title": "U.S. Strikes Three Iranian \u2018Shadow Network\u2019 Oil Tankers, Military Says - nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVXFRdGRLT2Y0eEtsblc4WEZPWGs2a2JFNW9ULTFwSHQ2TlpzUEs0NmxHdjZYV1pjdnVoenM1MjBiRDZhVDZkajRzVVl0RF90SzNNWEprTXN5NkN4NW84LWVqR0xMU0pkVFB1REd1N3pIajlEaHJDczBCNGc5a1czX2ZjT05DTkFqTlhmOHBHeGR4QQ?oc=5",
+      "source_name": "nytimes.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "6331387858155a2f",
+      "published_at": "2026-09-05T21:05:00+00:00",
+      "title": "US military says it struck three Iranian tankers after American warships came under missile attack - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5RaGwtc1V6SnRzUnp3N3dBYXk3cmw4TkNOd05PQk4ycFZkYU9iWkRzQUNoVnA4NDloc08tRTZPeWhFcGtQSllIZllRd2JWbFlBaTd5MGZRb1dEYzJlNDR1a3JqeHlaZmRLaGlSZWZtUjJKbDNHNmZpM2JR?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "3b83d49e14c12542",
+      "published_at": "2026-09-05T20:52:18+00:00",
+      "title": "US military strikes 3 Iranian oil tankers after IRGC attacks - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBDaF9URk9kc3BQRTdoNU8wdTE2UnZPaEJjRHBZUTNoR2tYMGJhUDhrZEh6bk1aVjZsR1c0TUd6R2hFT0NXSlR2Tl9PSWtYLXFjQzdrLXBR?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "6d995fce07d364cf",
+      "published_at": "2026-09-05T20:41:59+00:00",
+      "title": "US hits three Iranian oil tankers after saying its warships were targeted - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MR2lQUEVfWHpBVV9NQjVxS0x6WldUNHB1RzFWSzlDa0hYWm1wYVpxMEVhdkRiT1dCeGVlY2Y5d25uR3lQOEtxbW5CVG5VNDRhRmFvU2NLQlN5UQ?oc=5",
+      "source_name": "BBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d49de6b969043e1e",
+      "published_at": "2026-09-05T20:34:34+00:00",
+      "title": "Iran warns of wider response after US strikes oil tankers - Straight Arrow",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVmRkUl9UdVZuWjF0OGVydlZveXZJQlpPSjE3VTQwWGEtNjhlUldyZ1JmVTU0VWdIS0laS0ltby14dHlsOGt5LTJMRVFEQmk2UWRjV0czbjhSamJUMnBOYjJ2SE1XbjVWNDFfaU1fdmttZ1U1Qmh3NlRiRnFKaXJfUmItNA?oc=5",
+      "source_name": "Straight Arrow",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "db3f05989b68e490",
+      "published_at": "2026-09-05T20:28:02+00:00",
+      "title": "US strikes 3 Iranian oil tankers after missiles fired at Navy ships - fox29.com",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQb2p0cWpsSk1KTHprMzNGQmd4emI3M2RlQXV3a2wtRTJpeENCVzdNSGhKZE5tNDVjTDVCRXBVblVTUFBfN2FFRWRvSWI5NXVNcFNZMmk4cjhZWW9jR2hKRFJXU2kxOXMtRDBadkJIc3ZIRW1iRzh1azRBOGNwYWhsWkNHRDROOWhneVM5NGw2SFQ0ajRWWHc?oc=5",
+      "source_name": "fox29.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
     {
       "id": "03e5b01da3839039",
       "published_at": "2026-09-05T20:15:03+00:00",
@@ -112,9 +277,54 @@
       "confidence": 0.8
     },
     {
-      "id": "991ae965203ac349",
-      "published_at": "2026-09-05T20:00:27+00:00",
-      "title": "Iran targets three US ships, three oil tankers in Hormuz in retaliation for US strikes, IRGC claims - The Jerusalem Post",
+      "id": "31bcb209e9573cc0",
+      "published_at": "2026-09-05T20:11:00+00:00",
+      "title": "Live Updates: U.S. strikes Iranian oil tankers in retaliation for Iran targeting aircraft carrier - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNTB4cXFwcGVMMDdGdWZaNExNcDRBUGVSZURNUHdKcWxIWjNLREUyQlpjaGdQQWZzMGh3cVZxcThKT1JtS0V1SlV5cWxUYU1Ra0I4OUJEYnoxa1RJOFlFWkxsNHpOR2d4R01Mc3prOERtdUx6MzF6RV9jRWEzM0l5Qi1mYkt1SUxULWJF?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4757283b0f85d1a5",
+      "published_at": "2026-09-05T20:08:48+00:00",
+      "title": "Live - Iran threatens harsher strikes on US warships as Hegseth vows to sink tankers - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0VzE5VXZZUC0yUU02WnVobXRXcnBXU1d4NmZwVTJZRXV0ZFBxU2pHQkpiTk56MEE4Z2RpVnEwUU1PQ3dwUy1GQTBCZHFDSDd1ZFZjR0FkM2NRMF8zQ0E?oc=5",
+      "source_name": "Iran International",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "cad60a9a1de5b46c",
+      "published_at": "2026-09-05T20:03:37+00:00",
+      "title": "Iran war live: Tehran slams US attacks on oil tankers, threatens escalation - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "0f16e8f52d0c87b6",
+      "published_at": "2026-09-05T19:49:43+00:00",
+      "title": "Iran targets US ships, oil tankers in retaliation for US strikes, IRGC claims - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9haUhLblF5cUJOWk1ueEpwbUtyd2J3YU0xbTExRnJDcHRjd29NUDBvOTI2c3NZSUlMa0tZclJYQ2Z4eXB2QnlLNDdNUzhRT2V1enBTX3prOWJRZXRxODdQOTFScVFpUXQ1aXc?oc=5",
       "source_name": "The Jerusalem Post",
       "event_type": "attack",
@@ -127,11 +337,11 @@
       "confidence": 0.65
     },
     {
-      "id": "1a237ef2240eeae8",
-      "published_at": "2026-09-05T19:21:31+00:00",
-      "title": "US forces target 3 Iranian oil tankers in response to IRGC missile attack - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQWFhWaEYzbk9CbDhsSXpDLVRieU9iOEpOUXZLVVpGUm55dUJjN0diVXFYZHVZWDdOOGNfSDhYTW1NZkVKWG1rWjhuVEw4MHVHNnU0NFppRldGdGVuTWtrdDVsNWU1Q2U1Q0VVaWRZSEtXcExqQmlscnJTTVNlU2RubXNJUm9TZE5uVXg4M3FR?oc=5",
-      "source_name": "Fox News",
+      "id": "0a4625330ed61055",
+      "published_at": "2026-09-05T19:19:45+00:00",
+      "title": "Iran Says It Attacked Six Vessels in Retaliation for US Strikes on Tankers - Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON3hLUk1zQ3RNRlNUUmluY2gtQTVVb2t3eFlIWEhDQXBhQnVEcUVSWTJJZEwwalRKa0NHQ09pSEhxLUZ5eDlNSkR4VW1VbVR5bkFPWUxBZkpfdXUyd3FvOWR2RWdTbXgtZzl0aEhNYlJYZXhsay01RzNfREpLYkZCNFJ1MnVMN1VBV3BHblJ2UjUtN0Z4Tlc5ZkJpelJBMC1fd1ZHRVJDeUVsLURLaWFHUEg5a1l0NF9zN3c?oc=5",
+      "source_name": "Kurdistan24",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -142,71 +352,11 @@
       "confidence": 0.65
     },
     {
-      "id": "d94e84034ff433f0",
-      "published_at": "2026-09-05T19:21:16+00:00",
-      "title": "Iran: US hits 3 IRGC-linked oil tankers - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0yME9xVFNFNUVSS0lMNUdneW1wYS10WjdGU0hXSkZ1TEVNa0d2cjNDTkZqb2RyWUVVcWttY2QtNEswQmlIQ3JLTzA1bGdQV1duNzMxVk95a1VoNkRNSF8tVmtWQ09UaG83bnAxOU9XTVZmeGJROFRjc2lDWDhQS2c?oc=5",
-      "source_name": "DW.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d9714a181f3c606e",
-      "published_at": "2026-09-05T18:54:03+00:00",
-      "title": "US strikes Iranian oil tankers after IRGC attack on naval ships - Gulf Business",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNM2RwbXlGTHdVUV9TZ0pmelRKNUs4OHZDb0dlc3NjZFc3RjlCUlAxYTZ1YlVIa1pnbGZtVlZGY3FRN2NJX3JkMVR4Zzh6VFhzak9kUGNGZTZ4MkhETG96NExocXNuTnYtcXZzSW5aUmhtMlM5UDJBN3Y1THJlT3dJYWlWTWsyeXp5RUNqbUQ3VDY3cElnU1daNzkyb0RicXdYUW10eA?oc=5",
-      "source_name": "Gulf Business",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "93a09849739bdb6b",
-      "published_at": "2026-09-05T18:46:00+00:00",
-      "title": "Iran military warns 'terrorist' US army against aggression - Mehr News Agency",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOUFUxeVVaQUxDVGl0QUJrRFZ4dExQRS1YNjJ5dWpzRl9mSnBndXpETDJ1U1FYTHBrX1IxSEJfck44amotZ09qdm44WVF6ekIxTGZYU1k1Q1JGQmdXSWpZUHp5amdiMEFMLVBieEk5cFlDb0tXa2FzMHJjMjcxa3BqZ3F2dTN6dWxmMGJLUnBZU1g3LVZZT2hn?oc=5",
-      "source_name": "Mehr News Agency",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "286d6ef7ffbbb53d",
-      "published_at": "2026-09-05T18:42:30+00:00",
-      "title": "Live Updates: War returns to Iran with Israel, US strikes - Dawn",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
-      "source_name": "Dawn",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "bc18d52b10a0f541",
+      "id": "affb3b797b20cb75",
       "published_at": "2026-09-05T18:41:15+00:00",
-      "title": "US military strikes three Iranian tankers - CNN",
+      "title": "US military strikes three Iranian tankers - cnn.com",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZXZZdFl1ZFd4MUZoTDdmODBEVjJWdV9WRFduUmdkWHZIdDcyYmpDYmN6WWIwcEU2QmRuTkJ3dm5GWWdXN1RjaHh2V2dBQjhBYlE3c0pBS3BMR2dQM1VlbmNKMkVqdEEtZlRDWmxUaldlOVNqZktEc3FQc1Q4LUFmZnZ3Nng?oc=5",
-      "source_name": "CNN",
+      "source_name": "cnn.com",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -244,157 +394,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "f9a6f00642a6e792",
-      "published_at": "2026-09-05T18:15:00+00:00",
-      "title": "US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQc1hXR2o4Smo3UnZmTTJmM2V4bldFYkpPekNpM2NhUGozMnVKcWZWOHNyUDdmSm5YR2dWT3FRd0FHWnM1Nlc2c3pxSk1XNVdlM1VNb0VyOVRpRG9vMnMyenFVbFVNdERKVEpyeVAtQ0poemwzNTdkYkF4VENfUzhVd1pkQ2djaldJdUZFVThZVktLdXd3anlpZlBCVWpuMi1lTUw1TFA1anU1YWVEeEhIdTI1Q05zOVJqcUNnZkRTc1JxdU82RVRUSw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "211325f9bd7e1c3d",
-      "published_at": "2026-09-05T17:58:15+00:00",
-      "title": "Why Is the U.S. Targeting Southern Iran and the Strait of Hormuz? - WANA News Agency",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdXNhNWJxdWVpTEVsYkhER01tR2tEd2l2a1ZiXzV2MmhlLUJiNElDSDBYcFFIZTB3Q3RHNVpGWm5FN01kMnBucHFMekRzazRWRnRqclpSX1g2b1VmWXFqRmptZUZJX2F5SkVOOUhTaEM4M1BLRDllWTdJNFMtb3RYcGY0Mld5V1hRYVB3?oc=5",
-      "source_name": "WANA News Agency",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
       "confidence": 0.7
-    },
-    {
-      "id": "7371769e8fe0136c",
-      "published_at": "2026-09-05T17:41:53+00:00",
-      "title": "US army targets Iranian oil tankers in response to Iran attacks - The New Arab",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPZ3lZOFQ3TzVLbUozUmhxNHV5WF9UWExiVzJOaG5IRnVlVV9ReTF4aDFvMElxWWMxM2RCWVdWa1I1MnpYRExzYUxiVWZDQkttUzNwZllycHBtTlhfa2RvNnR5eEFTUjE3OVJ0NHRIMDZ1c1NzcVRsaVRmTHUtRmZHUThxNXdZNEY2cTJJYlBXONIBlAFBVV95cUxOYVpwcG1tRTZlUmtHN1lPY2pmVUdKQWl0emFCR1ZDVE90dXJYZjNjNFF5dV8yV3dfajhWZG0zWG1sdllONjE0bW5FN3BXazFIazRYZ1dmY0MzWHBWc2tQZE9VeVViRkdtZkd3bGs1cTF0c0pCdWxscnBkaHh2WEFVMnd4ZEhmal9rdENMbXhVNWdHMUE0?oc=5",
-      "source_name": "The New Arab",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d0e8b2ab29af6d63",
-      "published_at": "2026-09-05T17:40:00+00:00",
-      "title": "CENTCOM announces retaliatory strikes on 3 Iranian oil tankers - politico.com",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcHZpcHpBVmk1S1dweG9KOFFKRE9RaDhjVnF4dUpfZURDR0YxbjBaU2plRU1nVkZIWDh3My13MWNHYjNwN2dyZjVVT2hKTUswakQ1RE9UOWt2QTN6b0xJNTU2RjJVTUlRRmRtb2gxUEJYTnJIZ0Y2RlYxOVNaSmw4TzhoMUxLYnhtN0w3cTRtS01xd01lWF8yelhPMmFNMWZvVnY2NkV3dw?oc=5",
-      "source_name": "politico.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6d995fce07d364cf",
-      "published_at": "2026-09-05T17:15:05+00:00",
-      "title": "US hits three Iranian oil tankers after saying its warships were targeted - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MR2lQUEVfWHpBVV9NQjVxS0x6WldUNHB1RzFWSzlDa0hYWm1wYVpxMEVhdkRiT1dCeGVlY2Y5d25uR3lQOEtxbW5CVG5VNDRhRmFvU2NLQlN5UQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "8bdfc847634886a3",
-      "published_at": "2026-09-05T16:35:38+00:00",
-      "title": "US strikes three Iranian oil tankers in response to attacks on warships - Yahoo News UK",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5icGJFdTVGU1ZPMUJrd0IyMXdMdGprYTlILTRuNXhyUDk3UHRkWXp1Y2FOTEFqTE9LaGdIRDJCMzZaXzdoMW5zU3VSR1pudllTY0V2TnJRbDJtSXRZYlNUYWNaRXRuZ0JPNTU2UmlGVVJmTlFhOUl1dQ?oc=5",
-      "source_name": "Yahoo News UK",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7a8e6786ad976d3e",
-      "published_at": "2026-09-05T16:22:05+00:00",
-      "title": "Iran war live: US says it hit 3 Iranian oil tankers after US ships attacked - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOWlQcFdRT0RveGtRSkc0aV83RTdSZzlHVzhuVkhuT3NvRE5HNFl1Mm05a1JEMWlHY1pRemp4ZkVnV3BYcHNXUUozdmtwYWxXc1RLcGtDVHF6ajU0aVgxMkl2ekFwdDM2UFNRTFpTT3RSbHktcl83S2tJbENLeXdmWkdfRDNYSWlrLXFEUWM3ak9uYmNzM01tNkNNbF95M3ZRREZPWUNrOWVqTWtGY2QxdU9OaHpzdnRNcHE2M9IBwgFBVV95cUxPSTRJbTVhakNqQTFMV3B1RDd0YXRETHR3WHNhOTZEX2FFMUtLVmlNQUlHQzJOLUhQdlNWeXFXLWdkamtsM1NoMDYwWXd4SEtKb2dzUmVVYzQxUEtSS2ZlM1IzRmtfemFpckc3MFdjNGhjSDRlMG5TVHR4d3dJejlVSXdDaHBzWkdWZmlZRWlRNVZNNEc2eHhrOVp1eFZ5bDBWWV9IZXA3YUV1aVhITFA5dkc0OExyZjBOeDJNMDlfel84UQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "5d2db88c2f856ed0",
-      "published_at": "2026-09-05T16:06:44+00:00",
-      "title": "Iran war latest: Iranian oil tanker targeted in US strike, says state media - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQmhrYmtBdFFnX0h5ZF85bm1FQ2xDUHdCam5yZUZSWW1aS2JsRzNDeU9GNzJKSk1qT012Vmhzb1cwM25FNDJEdTQ1OHlIYlhfWlBHdmtfOFBFSFlsMU9lNHZ4R3U5U0ZOSDRzU1ZZRmJRY3JfN3BhUWVpNExRVFlUNzh3cFkzcU43MlE1dEJVTkVVSlJr?oc=5",
-      "source_name": "thenationalnews.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "dbb3abfb8a9ec7ea",
-      "published_at": "2026-09-05T16:02:10+00:00",
-      "title": "U.S. military hits 3 Iranian oil tankers after saying Navy ships were targeted with missiles - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMnQtaVpweUxKRzNpRHNvbFk0UktlZEdOT2pkVmhTNVpTWmFnMS1tX3BuRVV2Vkp1ckljakFmYy1uM1RHaDd4UkI4bVNEb29paWpwdHBNUUlFMFJNZWtvWi1TdXM2LTR1QlFoSVdfclNTTWIxRmIyRnRyeGVhLTExTVgyelhERmhuY1hVNmUzM2FOTzU3TjdfSVgzX1ZIRVY4TmNFMUJYbVlGU3F5ZWdpeUM3Q3pHNGNzYklZTENjeFlWeGNFaVl4aE9n0gHKAUFVX3lxTFAydC1pWnB5TEpHM2lEc29sWTRSS2VkR05PamRWaFM1WlNaYWcxLW1fcG5FVXZWSnVySWNqQWZjLW4zVEdoN3hSQjhtU0Rvb2lpanB0cE1RSUUwUk1la29aLVN1czYtNHVCUWhJV19yU1NNYjFGYjJGdHJ4ZWEtMTFNWDJ6WERGaG5jWFU2ZTMzYU5PNTdON19JWDNfVkhFVjhOY0UxQlhtWUZTcXllZ2l5QzdDekc0Y3NiSVlMQ2N4WVZ4Y0VpWXhoT2c?oc=5",
-      "source_name": "PBS",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "f7ba175ffef7bdbb",
-      "published_at": "2026-09-05T15:44:50+00:00",
-      "title": "U.S. military strikes three Iranian oil tankers - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYkhTc2ZFV2VsNkY5STFZOFFjQ3l1MmFTTlgwQVFMazNLSWZNR2FoV2d4WE5UazRkNzFmblZTVF9QTjE4cXZ1YThwRktiVlFlSTdhblBIZEJxaWdMc2ZVMlRLd2VHQ25IUjdKNFdIUEFhek44cWtTeEI4R21rVkF2LUhlZHRvUmpMN01rNmRfV3BlRzU2X21tTEl4SnU?oc=5",
-      "source_name": "NBC News",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
     }
   ]
 }
