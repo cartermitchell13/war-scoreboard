@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-09-12T23:04:32.045439+00:00",
+  "generated_at": "2026-09-13T04:55:14.586571+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 105,
   "totals": {
-    "usa": 46,
-    "iran": 21,
-    "lead": 25,
+    "usa": 43,
+    "iran": 19,
+    "lead": 24,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 21,
-    "iran": 17,
-    "delta": 4
+    "usa": 15,
+    "iran": 15,
+    "delta": 0
   },
   "confidence": {
-    "score": 66.1,
+    "score": 66.8,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 48,
-    "other": 53,
-    "diplomatic": 4
+    "attack": 56,
+    "diplomatic": 5,
+    "other": 44
   },
   "history": [
-    {
-      "date": "2026-08-30",
-      "usa": 6,
-      "iran": 0
-    },
     {
       "date": "2026-08-31",
       "usa": 0,
@@ -51,7 +46,7 @@
     },
     {
       "date": "2026-09-04",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -76,13 +71,13 @@
     },
     {
       "date": "2026-09-09",
-      "usa": 9,
+      "usa": 3,
       "iran": 3
     },
     {
       "date": "2026-09-10",
       "usa": 3,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-09-11",
@@ -92,15 +87,35 @@
     {
       "date": "2026-09-12",
       "usa": 3,
-      "iran": 4
+      "iran": 0
+    },
+    {
+      "date": "2026-09-13",
+      "usa": 0,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "878fcc9eccb600a1",
-      "published_at": "2026-09-12T22:07:30+00:00",
-      "title": "Iraq probes drone strikes on Saudi Arabia, shuts three crossings to Iran - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSEVTcUVKTUpBQnAwT0wzS3EwYlhlQ1VEZzhiaUEyc0czQ1NIOWRXVWZoVDIxQXV0Y1ZFWnc1ZXFhdERrMGVhZS1ER3JsWG5nOG0zM195SzBsTmNJSWlDNlJVNW9kTDFvVURkOVdFUDVpLUVGYnhqR2tHaTVjNkFibzJ4emhjbWoyTnNiZVN2Y256ZElLODBTOHVaVDluMlFTNEdZallKVnNXVlhxVml3Ykt30gG3AUFVX3lxTE9wdDJScDJXV3F4bFV0STZfd3NhcTAxYmdxQ2ZrazlvUGZlYmN0WnNpYmdXMm9VTmc5N3d6bkVRa1l0WDVUTjJGR3g0WHJ3R2pNMXV3XzBtTDd0LVNGUlZfNTZmZ216dThzWURDcm1iU05DaFlVdVEwMlhMZFA5d0twQTRJNklkVU9qNzNXc0dtRi03SHN0RDhhUHBNZmVtTjN4Ul9YTnktOHF6eGdMUDI1QW9GQWVsSQ?oc=5",
+      "id": "4319f9f480d907b9",
+      "published_at": "2026-09-13T03:12:35+00:00",
+      "title": "Iran latest: Houthis strike Saudi mosque injuring two after vital oil pipeline shut - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ3dTSUlMN2VMS3Nob2FINTVqSEwtNlhmR015aU53VjVKN2gxZ1pUc3RydzlqY0lkbXpXSXdXbE1pUXNVSWRKaURlVldPU01KcXlKaWRvR0hTLU9jV3JNNzlqN2tMYy1HR09rUVZfRkFIaDF1elhCRGZEeEJJOFFvMFBtLTFTX3dSZDRXVkNLdThudzdIQTBkQUdvRDdJZ3lNaEZ5TThSRXExZGNYajJzT0h4R20tZw?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "32773dff3fa80652",
+      "published_at": "2026-09-13T02:47:00+00:00",
+      "title": "Iran war live: Saudi Arabia and Houthis trade strikes over Bab al-Mandeb - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdjJYYTEtc01jR1hnV3dPbDl1SW9GTlM3cmpZSkM1OFBsNm5pLVpTS3ZwbkdMQXN3YkdkVW5wUDNyUHBKeE01NUFvd3RDYUlMUlM2VGwwbUtodV9uTkhNYzFTR0h4NTdRbklvNUlZbjQ5aDZ1WTZZbzUtQTJ6U3BsaHRHZGVibkdVSkZaQ2NUMDk2Vk5lbHgwZFhjT0JvTjJOSkRjT01EYVNMOVFCbWF6bENSRWU5bjFRN0s3YlRR0gHDAUFVX3lxTE80eEFuVVFCNXR0dWhobEFRNTFGX0ZTQzJVT2NGQlh4djNpR2cySEl0ZHlXdmdNQ2I4Y0xhRDBOLXYzdGt6bkRRNlJCcFJ2X2dkMDg4R1hFeUplLTEwM3dDS2E4RU1GWllqU205OFgtVFJsWDk0OHk4RTdGX0F2MWppZW5vbGxjcTdteFZTZ1VzaVVaTlpWaGYzZE9IQzFfOFFVdUF2TzZUV3ZYSUhmSG9FenEyWkRGMkFtOHFfaUpoOFRUYw?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
@@ -112,11 +127,26 @@
       "confidence": 0.65
     },
     {
-      "id": "49090630c9c14615",
-      "published_at": "2026-09-12T22:04:39+00:00",
-      "title": "As Iran proxies activate in Yemen and Iraq, Trump\u2019s Mideast morass deepens - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPU3BfbkZhS3U2Y2lGLWFDaVBhOWZWY1FHWUdCYU80aS1tMVlXZ0RKUHNyb3NIUXhOTWxFOVFoUEtMNVIySnFtRzFJSDdiQXlXZWd4dGdoelRUQ3k1Y2E0UVh5Y3MwWFFXdGtvSlBhTG5tTDJPM080WXl5NE5hYTFiNzVjNGtyZ1VxZUFKcW10eU1LTTUwMEp6ZFZkekhtNWhPSTZRVE91V2k0NngzRGNR?oc=5",
-      "source_name": "The Washington Post",
+      "id": "94ad6e7c7fc9b048",
+      "published_at": "2026-09-13T02:24:34+00:00",
+      "title": "Live - Vessel struck in Strait of Hormuz ahead of Iran-GCC talks in Oman - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWUkFCaXFNOVJFN2ZucUJZTEIyTW1YS2owX21jVGhhS2V4VFlLVXRvdkR5aURSZmlTX0hSRFRQeGlrNlZqWGRnb0hMb2JJdklBQzIzdlctdERIc2RPSUE?oc=5",
+      "source_name": "Iran International",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5257f590639bca2c",
+      "published_at": "2026-09-13T02:12:57+00:00",
+      "title": "Trump predicts war with Iran will end 'very soon,' likely after midterms - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU0FhUm52Z2pHaFR4c3JuRDA3NUVhTUQ5X1NlYm1QbUMwcWRGMXo5TUpkOEFIcVhlR1RFT282dHhGSm42OUVsSFhMZElmUkM4ZlljU1M5QlFsSWRnaWtIQVdiOUZjeFMydkFIaFJnaFh2ZTFoNjZIcE1DRk1zaEVMNlM1TFkzLTFlWWVmOV8tbC14Szk3cVhQdm9B?oc=5",
+      "source_name": "Fox News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -124,11 +154,56 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
-      "id": "8ceece272ff313e1",
-      "published_at": "2026-09-12T20:51:44+00:00",
+      "id": "3b29057a462e53fc",
+      "published_at": "2026-09-13T01:57:26+00:00",
+      "title": "US Iran War Live Updates: Vessel hit by projectile while transiting Strait of Hormuz; crew status and damage unknown - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPN1FGNkU2NF9BSmlnYWIyYVoyc0s4TTRueEh1M24yNmROYXRUY1d2Qmw4OXFBbUlmUGl0TWtyLWY3RjhJQkZOUmNHek52UFhjbnRYSHZpd0l6SWtQeTZQTGRPcjBGOGNaeW1ZLW02d2xIZkpWTjluSVFzNmJYbk1VX0tzSnRENkxMc0NxZW9aSTFvZ2VJU2o4YnlBQkJMQ3FCZHFiZXQzc1JJdzQ5ZmxjbFB1TGZIX3ZaMklEMDE2dVh0bloybU9qcXVQVGcya1dQSVIzcXRmVkNPdGQtUHZtOHp1SVBobnFaWTRMSjF2eHJDVHhaZHBzTjBJQ2hHMnp1QkVleURRMEJjeDZvWTdSejJWOXpMd9IBmwJBVV95cUxPcmVsLThDQjVpZmVMdjRQc2xIYzA5WjZWVFd4amVzUEk5Wk54dktCTU1WNVFKMmlvZUJnLWl6eGJ5YkVLWGk5allBM1hlc1dodDB3elJtNUxBUF9oejVPdFluUU9GYXcwamN4Znh0RTFweTdJME92R0JBeWE4YWxjWXFkVUMycTZiRG5ZWGlVdVVRWDU1ajFQbHc5dWFiQ20teDRDcElvVUFuMjhScm5mRlRwMzBlZkctMS04ZVRFclE5TGZYQmxfdUJKU0RXTVpncGtnbFVuaWFFREhDSnJZNTN3Rk5BekRqM1BTQ2NDTXlPZXNnOTNZU2liRmI4SE8xU1lDdHR3cmp1RkxLaS1ycVMyMnFLN3ZUQzU4?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "22958f722cc63c38",
+      "published_at": "2026-09-13T01:29:14+00:00",
+      "title": "Iran war latest: Iran was 'probably responsible' for Saudi attack, says Trump - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ1lFNWJ0SXB5WWJRMjdPdGhIazVKQXRmZmx4Y3dqaDlXQkxwdVRMVVQ1RkMxekdBNExXZXRyRGxmYW1EX0V4STV3dnFzU002YjJwLVk5YkYzYi0xSVdUb0ZfUk9raVROaFhWSDZ5NXRHX2J4bjN1Z1dMYjJyN3RTR1I0QWxCUk9wNFV0SW1GQlRma3M?oc=5",
+      "source_name": "thenationalnews.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8c93762c640c6464",
+      "published_at": "2026-09-13T00:41:13+00:00",
+      "title": "US-Iran war news Highlights: When will Iran war end? Trump reveals \u2018probably right after\u2026' - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxPZGo2WUZfTTQ0cm9TaEh4eUhIYlk2QXQ3SG93a3BteU82aUpDRHNtSDZyd3pjSlAzeW16TDZIUXZaTUcyT19fc2U2MHZWcElvbFA5RTMydzRFalY1UWVUTHZJc0M3ZjdKUTVvS3FIYVM4ejd1SFZnRnJ3ZGcwMlFaWDhkSi1lNVhOTVRrNmVVVl94SDhsWU1UNzFlMEVXTnZTSE1Wa0JTTmltOTR0eU9faDRWV0dDQ25QbTJrYktIajA2ZGlsS3ZhUkw5OF8xMTZQckxvaG1kUnpCM0xlVnZXQWVVSlU4NDhjaFl0Q3B3d0o1VWtHZkhBRkRZc2ZEbDZMY0wtbw?oc=5",
+      "source_name": "Livemint",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5c7167c45df7bf9e",
+      "published_at": "2026-09-13T00:08:34+00:00",
       "title": "Iran war live: Houthis warn against intervention; threaten to close strait - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOdTZTa1RDLUhuSVNvcm83QzVKdFN5WHZFT0hMSWtkVE5vaExLaXpON2tsdFVHTTUydWxXTGcyMkNUTVlwbmtfQmVtdFdYd2xuMHV1VTZtQ3Y2OUIzLTdsaWsxd19XVFZ1RjFvamRSSmI4c0YzY25jR2xOWmNQX0VySlJWMkZrNWZ6WmlYbjJ6c05EUWxrTTAyZFVJUmJxaS11eGFvaTRzVWlxVWlMSGV6RU1yZFl3N2V6alHSAb8BQVVfeXFMTWZBUFBQRV9OOHlHeXp6Y1VNbUdLLWRpRmFiNUFXX1dtRUlNNEZUYW5rUjlwR055VFpnN3FnOVBteThHanFnNGdEbDdQbnhhdVQzWHk3MENpR2hCcUh2WWlkMGFFNm1IVHhPelNJNzhxRTVUQlExUW1iSUtPSktUTGZRbUY4TUxqTnJCQjFSdTZZOGxJaVdOV3lfcS1abzJXX1Q3UTlSdjlDQ1d6VS1OWG5GLThBVGFuLThqYjBtWU0?oc=5",
       "source_name": "Al Jazeera",
@@ -142,19 +217,19 @@
       "confidence": 0.6
     },
     {
-      "id": "aa054c1500645edf",
-      "published_at": "2026-09-12T20:08:03+00:00",
-      "title": "Trump predicts war with Iran will end 'very soon,' likely after midterms - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU0FhUm52Z2pHaFR4c3JuRDA3NUVhTUQ5X1NlYm1QbUMwcWRGMXo5TUpkOEFIcVhlR1RFT282dHhGSm42OUVsSFhMZElmUkM4ZlljU1M5QlFsSWRnaWtIQVdiOUZjeFMydkFIaFJnaFh2ZTFoNjZIcE1DRk1zaEVMNlM1TFkzLTFlWWVmOV8tbC14Szk3cVhQdm9B?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
+      "id": "878fcc9eccb600a1",
+      "published_at": "2026-09-12T22:11:04+00:00",
+      "title": "Iraq probes drone strikes on Saudi Arabia, shuts three crossings to Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSEVTcUVKTUpBQnAwT0wzS3EwYlhlQ1VEZzhiaUEyc0czQ1NIOWRXVWZoVDIxQXV0Y1ZFWnc1ZXFhdERrMGVhZS1ER3JsWG5nOG0zM195SzBsTmNJSWlDNlJVNW9kTDFvVURkOVdFUDVpLUVGYnhqR2tHaTVjNkFibzJ4emhjbWoyTnNiZVN2Y256ZElLODBTOHVaVDluMlFTNEdZallKVnNXVlhxVml3Ykt30gG3AUFVX3lxTE9wdDJScDJXV3F4bFV0STZfd3NhcTAxYmdxQ2ZrazlvUGZlYmN0WnNpYmdXMm9VTmc5N3d6bkVRa1l0WDVUTjJGR3g0WHJ3R2pNMXV3XzBtTDd0LVNGUlZfNTZmZ216dThzWURDcm1iU05DaFlVdVEwMlhMZFA5d0twQTRJNklkVU9qNzNXc0dtRi03SHN0RDhhUHBNZmVtTjN4Ul9YTnktOHF6eGdMUDI1QW9GQWVsSQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
       "id": "c67d08618e085deb",
@@ -172,66 +247,6 @@
       "confidence": 0.7
     },
     {
-      "id": "1c6dff5bf5c0909e",
-      "published_at": "2026-09-12T19:52:00+00:00",
-      "title": "Live - China offers help to end war ahead of Iran-Arab talks in Oman - iranintl.com",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBWUkFCaXFNOVJFN2ZucUJZTEIyTW1YS2owX21jVGhhS2V4VFlLVXRvdkR5aURSZmlTX0hSRFRQeGlrNlZqWGRnb0hMb2JJdklBQzIzdlctdERIc2RPSUE?oc=5",
-      "source_name": "iranintl.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "30bf65d0e9f5b018",
-      "published_at": "2026-09-12T19:46:00+00:00",
-      "title": "Saudi Arabia has few options as it faces mounting threats from Iran and its allies - AP News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNOUJiN1dOV3FIZXZvbVNWRXlnYXhiT01xMGV4VERWd095cldKWVR6MzBvWEtoVno3S214Y0VDSTVUZ0FXTHl2RjhkTzh4aHRBdktkOEJRd0Rhc2d2MFdwdUFJWDVoY215MTEyTk13d3FOd0laTThYM00yUkhHdG1YLTR0N0VoUWk0Tm9vMHNLeVlhU2gwb214ZklSQQ?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "239657bc4f8dd89b",
-      "published_at": "2026-09-12T19:42:35+00:00",
-      "title": "Iran latest: Trump says Houthis asked US not to intervene in Yemen - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQ3dTSUlMN2VMS3Nob2FINTVqSEwtNlhmR015aU53VjVKN2gxZ1pUc3RydzlqY0lkbXpXSXdXbE1pUXNVSWRKaURlVldPU01KcXlKaWRvR0hTLU9jV3JNNzlqN2tMYy1HR09rUVZfRkFIaDF1elhCRGZEeEJJOFFvMFBtLTFTX3dSZDRXVkNLdThudzdIQTBkQUdvRDdJZ3lNaEZ5TThSRXExZGNYajJzT0h4R20tZw?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0f2f3e9d6d00665c",
-      "published_at": "2026-09-12T19:37:38+00:00",
-      "title": "Bahrain says it will not participate in Iran\u2019s proposed Hormuz meeting - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQenZrdVZPOWNmS1hoSTVLS3VhT2JBYTF6V3FLV0lrMl9Ua1pRNktYQ1BKbU01aWhkMDVVQmJlM2dQN240TjZqNzVXQm9xV25KYTNUSUhPTkdZYXpmR0JLNTBsSGV0bG9LNW5zMzRZLWpnYmZpaGQ2NWF2d2plc19jU01pSTJqb2FlZFRFZXBKM2h6Y2RBWTNqYnNKNzljR2ZBZGptNkZYNmd2ckhrdkw40gG0AUFVX3lxTFBETmp2czJZVkpwMEdTNnQyRUZPT1RyRHFRRlRZMHUtVGdHbFI1bGpPWm10THZkXzd1X2l0VTkwbkZCMDBHM08zSHBoQ2xUeDZEQlhSN0t1NXdLX054NGFVVXFUZkk3a0lxWFNFSVN0QmZzajVac0hMSW1PRzB3Sk5ObEhBMmdLWDI3N1FpZWhYcFo3cHVtZmprYW1KSnRtRWFWSjBoNjJtVlJ4ZmNyUTlJajZyNg?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "b0f5f272c3ad3fae",
       "published_at": "2026-09-12T19:17:47+00:00",
       "title": "Will Houthi advances in Yemen give Iran leverage in its war with the US? - Al Jazeera",
@@ -247,38 +262,8 @@
       "confidence": 0.55
     },
     {
-      "id": "6f5cbb06ec59c2e3",
-      "published_at": "2026-09-12T19:09:46+00:00",
-      "title": "US Iran War Live Updates: Two injured, mosque damaged as projectile falls in Saudi Arabia's Jazan region - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPN1FGNkU2NF9BSmlnYWIyYVoyc0s4TTRueEh1M24yNmROYXRUY1d2Qmw4OXFBbUlmUGl0TWtyLWY3RjhJQkZOUmNHek52UFhjbnRYSHZpd0l6SWtQeTZQTGRPcjBGOGNaeW1ZLW02d2xIZkpWTjluSVFzNmJYbk1VX0tzSnRENkxMc0NxZW9aSTFvZ2VJU2o4YnlBQkJMQ3FCZHFiZXQzc1JJdzQ5ZmxjbFB1TGZIX3ZaMklEMDE2dVh0bloybU9qcXVQVGcya1dQSVIzcXRmVkNPdGQtUHZtOHp1SVBobnFaWTRMSjF2eHJDVHhaZHBzTjBJQ2hHMnp1QkVleURRMEJjeDZvWTdSejJWOXpMd9IBmwJBVV95cUxPcmVsLThDQjVpZmVMdjRQc2xIYzA5WjZWVFd4amVzUEk5Wk54dktCTU1WNVFKMmlvZUJnLWl6eGJ5YkVLWGk5allBM1hlc1dodDB3elJtNUxBUF9oejVPdFluUU9GYXcwamN4Znh0RTFweTdJME92R0JBeWE4YWxjWXFkVUMycTZiRG5ZWGlVdVVRWDU1ajFQbHc5dWFiQ20teDRDcElvVUFuMjhScm5mRlRwMzBlZkctMS04ZVRFclE5TGZYQmxfdUJKU0RXTVpncGtnbFVuaWFFREhDSnJZNTN3Rk5BekRqM1BTQ2NDTXlPZXNnOTNZU2liRmI4SE8xU1lDdHR3cmp1RkxLaS1ycVMyMnFLN3ZUQzU4?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b47b2e4597c50b89",
-      "published_at": "2026-09-12T19:00:00+00:00",
-      "title": "Iran\u2019s war didn\u2019t end. It changed units. - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTnozb2VKZXV5VS1mOWdDTEpoWl9VeTdmd0hIZGRJUzRtUG5qdUNqTG5FdkNxOFRZYm9QeUJJcGo5UGFWSGtqNzJ6VmtjM0o0T2daUndpRmtsaGJhQWo0bDdLdXVJaEZWQjNHUUJPN1ptd3dyM0RqdzU3ZVVSRHl5Y1d3UG9DNEEtOGZMSXh0OVF3QdIBlwFBVV95cUxQVWtNQktwMnY3U0Y3dVNmMzd2UlNGR1U5SWk5cW5raDM2bEVIYUhzVlFsWUJBZTRzNWozaWR4QWRzcEVXbnpreDdSSzl6d0R4ZVdPZUlRV1RRdm9YYVJfWDFxdVlSMDBicVQ4M2tha1Z2OXpZV283M3RrV1A2VWRmX0J4ZVk0d202OFdNM0JweENFaGFIQjBN?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "3b5bbb7dc2a912f6",
-      "published_at": "2026-09-12T15:23:04+00:00",
+      "published_at": "2026-09-12T18:07:10+00:00",
       "title": "Iran Finds Escalation Is Fruitful Path to Leverage in War With U.S. - The New York Times",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeGt3bmM5Z3hRbkRTZlVJbUhxRnY2YmdMNUVJVHRaNTNJeXlYYzNNdFNZcW9qdjBta0Q5cDNTUWxfZjZVUzdNRUV1U0VVNERzeERvUE5VS3p0VTk3V3JkN3JjV01tOU1va2Z1djJxbU1LbHlPVkFBZzRsb054Z1dhOXcwOGV4LWVBaElIa1U2bnE0akJJZTlwMms5MUU?oc=5",
       "source_name": "The New York Times",
@@ -292,86 +277,56 @@
       "confidence": 0.7
     },
     {
-      "id": "28327af7b1ccea00",
-      "published_at": "2026-09-12T14:50:00+00:00",
-      "title": "Trump: Iran likely behind attack on Saudi pipeline, Houthis told us they don\u2019t want to fight - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMkxYR05Hb1NfTndoTTVULVRHNUgyR2o3dngxV0FMWHBJLUVxV1R2Tk94SDZLandDTDI1cGprMzZuVktsTmJCd2d2V1I2MVVOdFYyRVA4alJnaVUtMThpVnZpdGVubGdZclpPM2RoT2hvMFhaUVdGTUlnQWZ4RFN1d19nZXhucWNJRjdKcTcyZXFScUt3YWlYbnZIU2JUaGpxX0xlV3R3OGtDY1BrWFNTTTFrTzBQUnQzRE9rZ9IBwgFBVV95cUxNbDJPUk0xV1lnRTJBNEFJTDI3NEQ5alBSSUhKakZFNWhQREpPZDZSaGotR0JUYUEyZ2JCbDduSFd0cFVQTEVWLWRjb3BiR1dXT2tMTjFLckR2d0tZd2xwLXBTQ2Nkd3V1M3ZNNjlRM2VfaUcyd2NCdkJ4eExlaW5qbXd4OThIR0phNTZhSUsxMTVwdGtEUzZhdFdweXQ3LWM1d0dqWXE3ZU5EeEtjMmV2UExHaWlGQ3BqbkhXNUpFZnJQQQ?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
+      "id": "8a0a55ed43e02995",
+      "published_at": "2026-09-12T17:58:00+00:00",
+      "title": "U.S. redirects 100 ships as Iran tensions grip key oil route - Newsweek",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPTlNlLWpVVHJYcWlGa01rSnNNZjAteVZMMnR6QmxhVDUwMFVZRFd1RXRZXy1aMGY4eDgwRHYxTWI0TTF0QTJkWGNBRXJ5cjZlbWFNS3ZlVXY3SUhxOE05dG9xSUNVeW1OY1dXckYwTW0wVjRmdG90ZUNSUGFibXZIOUNwQi1xUDJLY0g5SmxFdUFlZ3F0aU1zM196TWhoMU9MWmxFRQ?oc=5",
+      "source_name": "Newsweek",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 3
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "28fd4dba6b0ee222",
+      "published_at": "2026-09-12T11:58:31+00:00",
+      "title": "Trump expects Iran war to end after US midterm elections, says \u2018oil prices will come tumbling down\u2019 | World News - Hindustan Times",
+      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPblB1UXNEVWdfNkVBM2JVZGlOdmdpTmI4UTNMaE5heWVYeDBLNUVMX3ZscTBLS2dWbC15blJhNVF2UGVSTGR6VWNWRFhMdXJlRndmcU1FcnhWclZDUWpkQUlOQ2lRZlptNTZ6cV9PUmFwSDREUUl1dlRrR1g2X1lkOUcteUFBaG1mQy1hdkZmZnZhS3ZpeHR0VVVXTDVkVFJlcmhMaXFnMUdGZGR2dWs2YnNSZUc2ell0TzJ6RGpsSTY1dkEzLVl1V0lYdWxKVXhpSlY1YVZQcnRMdEdvZTVzc0NVYXhWZ1dmelhoek9pbXbSAfYBQVVfeXFMT3hUOWowNGd6cTRtamNpWFpGR18yX1NsVVA1QzBtVWtrUEVNRkxjc3dpckdDSzllaFBjRlVlSm85UFI1RVphbTdEdTVTZGRhc2NTSk5weFZUdHZYTjVBYUwzUWJPeUNWV0t0REdKQ1BObWdYTUZpZVJvMDJXelhtTGV5TTBiNnJZR1VTX0xRV2xNc1c3c1VDOGNQNy1jZ0NvVndhdXo1VC1RRjNCX0hjTGdRTmM0Qlp5VFZ3U1diOHloVHZER25TZkMyajdSaV9QR3V0RXRjQmFqWTJaUmJwVzlwVjBZNGRuZ3RUeEhwOENHbHVOeHVB?oc=5",
+      "source_name": "Hindustan Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "83483e9c7c671d5f",
+      "published_at": "2026-09-12T11:23:04+00:00",
+      "title": "Iran war latest: Iran was 'probably responsible' for Saudi attack, says Trump - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZ1lFNWJ0SXB5WWJRMjdPdGhIazVKQXRmZmx4Y3dqaDlXQkxwdVRMVVQ1RkMxekdBNExXZXRyRGxmYW1EX0V4STV3dnFzU002YjJwLVk5YkYzYi0xSVdUb0ZfUk9raVROaFhWSDZ5NXRHX2J4bjN1Z1dMYjJyN3RTR1I0QWxCUk9wNFV0SW1GQlRma3M?oc=5",
+      "source_name": "thenationalnews.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.65
     },
     {
-      "id": "e7cc434ada3e94a5",
-      "published_at": "2026-09-12T13:02:15+00:00",
-      "title": "Trump sees Iran war ending soon after midterm elections, predicts oil prices will then fall sharply - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnNmT0R6dktjR19lNm1jYUVSaTk5dmJTTWhsZXNoeVFwT2haX0JRZFBhT3lXUTA2V3Myem1NTEEwQ2RNRGZMcVdnaTYxZzlySVJyaW82Mm1TcmRjQmRJSmc0ZXV5V3V6TE90RjlVc3JPS1hMdG95dS05R1lMNFV3OWc5bmtPQlJzTkhod3lBRnFLZklfeVlJSXpKVkMzd9IBowFBVV95cUxPU3BrdUFqUUl0UkctWHNVOXFjcUZFWkZaYlFXWlJTNGJrQWpjMTNERXdxX09Oa0IxQmVqTzZsSDdkZl9MQS1JaTlsa1prbWdxNkZ4aGhZOEZjeExHd0Vjc095QXBXaWpuRjZSZV8xaGZpUFpKSklQM3dESXVOSGtYNWs4NFQzR1doRmtzaXFjcEtqbHVkS3A3VWIyZlZsenVZTXFB?oc=5",
-      "source_name": "CNBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ca3b4931c0a7848d",
-      "published_at": "2026-09-12T11:26:09+00:00",
-      "title": "Trump says Iran war could end soon, blames Tehran for prolonging conflict - TRT World",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBhYko0U3lnX3FOdjlmS05qaEJ3d01CaWJwTjBWd2tBengzNEc0Z2taZC1sLURnaHc5UUZiUS0yUFZLTElRRkdDaDNQMmFqeWxWNFVvMVlQYVA?oc=5",
-      "source_name": "TRT World",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c6b6dfb2d549e411",
-      "published_at": "2026-09-12T10:30:44+00:00",
-      "title": "Trump says Iran war will end 'very soon' - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUFFzRnp6cko3RlBobGJCeDI5N0x4S3FJbWpuYndBeGtUWUhCb3U5R0R3SU5JNmlNOVRvdFRab0pBU0VwdWNPYXBURGNJbFVrQmFjVVZ4TjdFN3BzdEI0a2drc3lmRjVCNkR5X2lDTzlXOHVxRml3REl2XzA3YnhUNHdoQktnY28?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5e1f94f535375d5d",
-      "published_at": "2026-09-12T10:30:29+00:00",
-      "title": "Can the oil market survive a forever war with Iran? - cnn.com",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56dlhoUmFzYjFwamxKSGZpZEltZ3laVUJZdmNNYUJCQUR6RE5Gc3p4NF81bldSbGhoM0Z4SFM2UW1oWUFnc2pEV29Fb2xnaUF3WUViektRUHUzT3NvZ0paNEdYWjlXNUJtZy00?oc=5",
-      "source_name": "cnn.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3f9a9024518b069d",
+      "id": "3e9effc56fd5914f",
       "published_at": "2026-09-12T10:21:26+00:00",
-      "title": "Exclusive: On US-Iran War, Malaysia PM's \"Reluctance To State Facts\" Charge - ndtv.com",
+      "title": "Exclusive: On US-Iran War, Malaysia PM's \"Reluctance To State Facts\" Charge - NDTV",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd1lmaXdCVWVPUzdKOWdQcmhZZUdIckZSelRmcVk4WE1NNWd0X1JJWF9XaTFpS0JsNlMteUtJdUN3MUVSV1JLTXEzZGJsbVd1NkpYTnRwSEtPbHloREdCRTR1Rm1PcFFJdVU1NW1udzZYR3VkQ3RjR054OTNuUU9wREt0N0k4dElTZG1KU2hCR3JMU3p4cURyaXhfTzFNcm1hMlhNYjhJbUt6akVQc25lRU5jYjd1SmlSRFNGMlpnLXVfY1FwaDJFVzVwM3lSMFXSAdcBQVVfeXFMT2lVTEEweFhYM3lMaS1QUHNkYnhUTGZkLTk2cFBtbjVPV21XVFp6Zm5vcHpvTnFIVkJReW0zMktxclFtVGZyZGJRSTR5LUJ6bjN3YnJ2SXprV2JPX3hVdDREOW8xbDJFTGNoN3NKRHZBMXZGMUFaOFU3bVdwN3AxSm5Td3E5bDhPQ0hmMkhqNlRObThBbUMtWW5ycXgxZ3hYUVl2aVh2dlh5dk91dklVV1NIMkZ5c3d5dmVSNGJ2cXA2REN5N2pZUDlZV1pYYXNobWJpU21NYnc?oc=5",
-      "source_name": "ndtv.com",
+      "source_name": "NDTV",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -382,11 +337,56 @@
       "confidence": 0.55
     },
     {
-      "id": "040ff4ac9574860a",
+      "id": "4ab7ed75668132b4",
       "published_at": "2026-09-12T09:13:03+00:00",
-      "title": "Trump again tells Iranians to take their government. This time nobody blinked - iranintl.com",
+      "title": "Trump again tells Iranians to take their government. This time nobody blinked - Iran International",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ualB2aEZzUWhJZlkwWlB4YnppTTVDSTFnektqeUFTX0NmX3B6WVhTRW9pQlY5MTZkbVVpRlk2YVJuNkRsVzMtYkxjbDFWd2JOZlE?oc=5",
-      "source_name": "iranintl.com",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ea2b89a9f70a1324",
+      "published_at": "2026-09-12T09:00:00+00:00",
+      "title": "Deepening US-Iran War Spells Political Trouble for Trump and Pezeshkian - Newsweek",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUDdLZEIxa0dmRmd3S1V4U1M1dGJhZXVCeWwyeGNONUdoU0pfT1QwUVFtdUY4S0JWbVpCTWJ3LUNrN1pYZmJPcmIxd21scmxQSV9DOW9SaHpYb1l1MWJaZTdYbEllLWRSN25Bd2pFQ0RVTmFFMG84aGEyUFpMalBfVDdMa2h2UU1xTXFwaE9NVDREczV5T05QMjlmYklRQmkxWC00U2RlYUc?oc=5",
+      "source_name": "Newsweek",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5bfaa9e2b66dc437",
+      "published_at": "2026-09-12T08:04:45+00:00",
+      "title": "Heavy fighting spreads in southeastern Iran, with security force casualties reported - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBPaXM5SUFsWndkZVdxaVNtVURYTHpuVnFkZlhzdXlJTDZxaHNzSVNobzduMjJCOWlhdHo4TkNIN3VzZmpYUGE5NlFXWTNGLUphMkE?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9c1022764288a28b",
+      "published_at": "2026-09-12T06:44:18+00:00",
+      "title": "Iran war latest: Yemenis flee port city of Mokha after Houthi advance - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUU1qeFFWU2lhSHpsOFI5VEhkMW5FMWhJUENsd1N1VThlQnVpM2JsaUV1NWs3azR0S0tIRDBZejNyYkJOaks1WWlmbUVSRFc2RzdSYmo2Q1g2bjRvc0JlR0pSSDdlWjlXWWRCYlluTERoa1hVRk9Xd3I3Z1lQQS0za2d3cXhBR1lWbzI5Mg?oc=5",
+      "source_name": "thenationalnews.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
