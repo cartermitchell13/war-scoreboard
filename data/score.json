@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-09-14T05:03:27.037295+00:00",
+  "generated_at": "2026-09-14T12:57:47.561127+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 108,
+  "event_count_window": 100,
   "totals": {
-    "usa": 49,
-    "iran": 18,
-    "lead": 31,
+    "usa": 39,
+    "iran": 22,
+    "lead": 17,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 19,
-    "iran": 14,
-    "delta": 5
+    "usa": 9,
+    "iran": 18,
+    "delta": -9
   },
   "confidence": {
-    "score": 66.1,
+    "score": 66.2,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 50,
-    "other": 51,
-    "diplomatic": 7
+    "diplomatic": 9,
+    "other": 46,
+    "attack": 44,
+    "material_loss": 1
   },
   "history": [
     {
@@ -61,13 +62,13 @@
     },
     {
       "date": "2026-09-08",
-      "usa": 6,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-09-09",
       "usa": 3,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-09-10",
@@ -76,7 +77,7 @@
     },
     {
       "date": "2026-09-11",
-      "usa": 3,
+      "usa": 0,
       "iran": 1
     },
     {
@@ -87,21 +88,66 @@
     {
       "date": "2026-09-13",
       "usa": 0,
-      "iran": 4
+      "iran": 3
     },
     {
       "date": "2026-09-14",
-      "usa": 4,
-      "iran": 3
+      "usa": 0,
+      "iran": 11
     }
   ],
   "latest_events": [
     {
-      "id": "cd7d42ffd04e797b",
-      "published_at": "2026-09-14T04:09:58+00:00",
-      "title": "US-Iran war LIVE: Oil prices jump more than 3% after Houthis launch fresh strikes on Saudi Arabia - Livemint",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeHltMURHZVQwUHdremFUN29QcXZuUWtLVHg3S3VFbWZhT2VWQ3FIZXRaZEhyZEtGczVUbzR4QkstQmJ2T1J1d0Z1UlVMMUI3dWpsZWpqR2x3ei1SSGNIa0dMZUIteEw5bkcyNUtwdUlxTzBiRTVBa2oyMFVqU0FkNGhsMW43LUlPdGRJVWFkdERYUlpSM3RXRk9qRThaNWtTVlBNWE1TTUFscnM0emhvcWkzSTh2T3ZQMDI5cWE1aHpHdUo1SDkzTS1ESjJ4eXpQcldhQWJlZWlJQWVKOC1KbUVRYnM5MndyS3NoZC1CUmw5OE1nV3VQY0d5VUswMUVqX1hlR19aMA?oc=5",
-      "source_name": "Livemint",
+      "id": "e8c27ec9261a695b",
+      "published_at": "2026-09-14T12:48:14+00:00",
+      "title": "Iran war live: Blow to peace as crucial talks postponed after Trump\u2019s wild claim - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2Zmd2ZBYUtlVTQ3Z0NoX2l5clptSzN0dkxTRnpRTjZXdTh1ODg2YmlsNGhkMTQyRGNzaVU5MGQyVEttZUwwY2dBcDdTdmk3dlhRX2FiNFUxU3VtTl9WNmtFNFo1RVBZd3Z6dFBuX1lDY1NYbGN1NTUwM2MxWFdQdjRtdndYZ3BJUWRYRmpDdnFaejJtQnNQOUxrSnpfRWkxY0F4QlBUajg5aHJLUXJKLTV3c3I?oc=5",
+      "source_name": "The Independent",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d0036c6d5a0d110a",
+      "published_at": "2026-09-14T12:16:49+00:00",
+      "title": "US says it\u2019s clearing Hormuz traffic: Why are oil futures beyond $100? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRVJLUUM4UnRmZWJsRjBJdjhwNUlLeGJZaU5DdG1FanJFX05zaFI0bjluVGg5eGRHMmd1eVVhckpEaWFuTDVvYk53NFRVY2libnFfdWRwYXE2aTkxODVtUC13dW5ScjlaZkVqRWhYUGdkS1pjMnBraERycGFRc3dBZ2ZrcUxfT2ZJOUVzNTU2SVhBTEpfWnJnTDF3eW92Y3J5QXVpMGlGM3ROZ1HSAbABQVVfeXFMTnBLdlRWd05WRUpEMVBQV2hDTXlLaXJiQVNLUG9mU0d5ZFRCeGR0c0lvUzlnMFBDZDBvMExKTTE2QlBfdE0tOUFyNllCTGNYMVhOR0JBU0xUVjBTSnNmRmd0ZDJISGJUbmp0R0FPUXFHZVQ1UE5tQUhycFlHT3RtM3FVMU9GWGJDU1d1azBlVGJ6RDBHYnNFSXRJOEdjMnZ2aGlva2VXV3lEWVFEemFHZk0?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fc4ec68970989567",
+      "published_at": "2026-09-14T12:07:44+00:00",
+      "title": "Iran war live: Houthis claim \u2018direct hits\u2019 on Saudi airbase after strikes - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkdWRTVPYmhhU0JEMzRYay1oaUF2Wjh2bllaTmgtSUE3QlpOZUtaSWd2WDVoRnkwYmZTMVlSZ2E4bVdYdl81TXF6TDRqbURlaXMyU3ZOTXFLNlhaRE9qTms5UDJNNC1tQy1POVFjUXBqNHdXQmZNTHJKYV84QWp0UzNTSVhnLUt3dUZVUVZqT0FuYXU4Y0F1OGFVOUtaRnJVUG5qYTYwSXJCa1NEUGJUb0VyY1F2WHlkQkHSAb8BQVVfeXFMTWRfblJYLTZiSV81MlE0Vjl5NmhiRkFYdFBfTjZGck5MZmZRUHZpbUI1Q2lwclNCVXNjNUZSdFdYZnFFVkpXT2ZjMldOM1R5OVVWOFRRdllvaU1fcjFTQnIteVJQWnlWdktHREV4ekJYcm9IYTNKR0hqVHZnWlF3UHI2bEhWMzNKbjYybkN4dXJrVHk2Z0UwVFZoYjluVXpuYW12R3ZyZnJMQ1Vram1TUWNCbmFpRVdCTjhxTU5Xa3M?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "f3a67dea8fa22098",
+      "published_at": "2026-09-14T12:01:23+00:00",
+      "title": "World News Today Live Updates: Oil prices continue surge, rising 3% amid Saudi pipeline outage after attack - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQczlBS1FvaDVjYThPRFZpMnlPalZtRXVya3lwdnhyUHNKSVB1cnloOUIwWnNfeE9TQkxMajdadElZSU90Skh0eFlBbVlKT2o0RE5OOWs5eFMyclpHcEQtdlhWMnNLdkZIZUJqQUdUQzRSZl9KYks3SmwtNnExbnJsWWRFSEE0WjQ4SzVmTDNyVVg3ZzloTGVJWEljWEhYTnItdVp2dEp6UF9vUjJIRlpuV1VaRG83dHJpb2c2VEEwMXR5VTFTcnhfLTg4OVNVTnNKdzZtS0ExeWVoTlhYdk5SUnhkb3d5UTQxNlhMbm8waVF5UdIB-AFBVV95cUxQbU1QMlFySjZZcGYzMWx3U3JUNHBVbVEzbWNfNEFHejRmSWVnelRUcHZfc1UyRFRBR05NZnE1QnlacFFUX0xvYXcxdjduTktvRzVpVzJoMkF0WU9feHBPRllBZXYzcnJkcTJBR0xqM296RkF6NTJsbVUtUHJBZE1zOFFQOElHUE1ZSVBYNFM5NHJ0eFo5eWtNaTFOQVlIQlZ2RzkxV3ljN2RtMXluUGExbkE3SVBZR3Bad2J2V0JkZmtGMUE3LThCM1NsVklHR0RndEoxMGEzTkxCX3J0a3BGdm1HbWZOdGFMcmg1TjRldXhFSFQxNW5iWQ?oc=5",
+      "source_name": "The Indian Express",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -112,17 +158,182 @@
       "confidence": 0.65
     },
     {
-      "id": "0f13c5788a647bb3",
-      "published_at": "2026-09-14T03:54:29+00:00",
-      "title": "Iran latest: Houthis claim attack on Saudi base as advance intensifies - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQT2Z0d3l4T0dlTHN0U2ZCTGg5RXZLRHdaN2ZQU2pXM2pvTTFpYzRUYnZQWS0tRVZyc2IyWUFHN0poZzhmZ1IxU01ZSVJJbmh3d3VOTmZXaWQ3c2V3RmVQTmlIdHlCSnpPckZTbGVfM1dHejZaWkdqWHdJRHlrMFJlUmxDZFBFaG5zM3Vtd25QdDdod3phdU9TTU52M0JITEFZZG43NEo0b3pSeXRhV0N1c1ZPT1JvOGM1Wm5GbDBUdWp6NVM2?oc=5",
-      "source_name": "The Independent",
+      "id": "845dbf6d8f0e437c",
+      "published_at": "2026-09-14T11:52:00+00:00",
+      "title": "Iran War Updates: Oil prices jump to near 4-month high as Oman-Iran talks on Strait of Hormuz postponed - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4d08b9980a9f68a0",
+      "published_at": "2026-09-14T11:48:33+00:00",
+      "title": "A spreading war threatens Trump and MBS - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZFpBYlJTSktGSHJqcDlLdUZhQWstdGJBcmE3Uy1jRmpVN1o3eUpnamhZcU0wS0J4anBoNDJZQVNtUHVUWFhWdW1ycjRVRXVIQUN1WWs0b2Z0T1NibUlsRm94NVY1Rm5QaVBFQ3VxcDB1T0h0V3pqTklWMC1mZlVMeDRHZ04?oc=5",
+      "source_name": "Financial Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d6088494fa191e7c",
+      "published_at": "2026-09-14T11:26:11+00:00",
+      "title": "US Air Force Officer Details Ordeal After Jet Shot Down Over Iran - TODAY.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYWNPNGVBOEdnbndqQnEzMGlfcVdCNUZYV1FGM3JrTHdRbGNPUUhNZmtNaDhfT0N4bUwzSGlXUFN4ZE02UGt1LUxGY3ZXazRuOXFRSnVJd0dseFZTUjlLRWJfVXIwcHBOeVRrbDFLV3ZQZ1EyX2Z6aDhLNjNHeWdNdmI0T1dyc1dJYy1fMk9JTjB6NWRjdDA3U21sVQ?oc=5",
+      "source_name": "TODAY.com",
+      "event_type": "other",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "103db9f52927a553",
+      "published_at": "2026-09-14T11:21:31+00:00",
+      "title": "US-Iran war LIVE: US blocks Iran nuclear chief from attending IAEA conference over sanctions - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeHltMURHZVQwUHdremFUN29QcXZuUWtLVHg3S3VFbWZhT2VWQ3FIZXRaZEhyZEtGczVUbzR4QkstQmJ2T1J1d0Z1UlVMMUI3dWpsZWpqR2x3ei1SSGNIa0dMZUIteEw5bkcyNUtwdUlxTzBiRTVBa2oyMFVqU0FkNGhsMW43LUlPdGRJVWFkdERYUlpSM3RXRk9qRThaNWtTVlBNWE1TTUFscnM0emhvcWkzSTh2T3ZQMDI5cWE1aHpHdUo1SDkzTS1ESjJ4eXpQcldhQWJlZWlJQWVKOC1KbUVRYnM5MndyS3NoZC1CUmw5OE1nV3VQY0d5VUswMUVqX1hlR19aMA?oc=5",
+      "source_name": "Livemint",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b8e06be12c2078de",
+      "published_at": "2026-09-14T11:03:15+00:00",
+      "title": "Strait of Hormuz talks postponed due to Yemen events, says Iran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOV0htemxhSU5icWVPQVh4XzBWX3BSWlQzZUF1SjNWNTNLRmhfN3V4bndrc09KaVVYanZpbXJIT1Nsdm8yWmhuMk1jb29GRGxNSWtSM0JkNW5od3JWZFpIcnR0dlViWElsRC1Ma3RHZjFlc0VRWVZxMURtYzk1S1lwOC16ZzhLN1FyYmc5aTE1a3JGOUlhamR5NERXVGM0TXU0Nmhjd2VB0gGrAUFVX3lxTE12eUU0RWRoUHlFaU5JSXpwVHI1bFBtcWNtSjl5RW1HUzdiZGhLVEdtRlZycGN5Y2xiT3JwVms1a012UmozZGlsN1RISVdfb2NvX3BYZlV3R2RaeDhLWDU5dDRZVHpmbHFGdkhWcXU5NGEtWUpNUmpNV19HeWN5YjJkS3NRRms2U0F6YWJmcHlhM3ZoZGI0MF8tdkFEWWpOazBVb1Fqd2VoNENUMA?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "ef8e5266671b3576",
+      "published_at": "2026-09-14T10:35:16+00:00",
+      "title": "EXPLAINER - US-Iran war ushers in new era of missile warfare - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQT2s2LVZ5SGZCclB3bHdJcEpkeGU3RzBUTGxjLUNVNWI1ajVHcjRoQXd6RkdBUF9NRGZ3ZDBjUHlxZVJ4X2h4RzdaclhwREU1SVF6SU9RdlUtdVNQdzRRWjBmRmJsaThsTDIzaFpaM2FIdDI1eWw4TUhTUWdVejBPRVA4c1BUY2tXT3N3WUVUQ3NSNXo5SHY2eFpLVG9Ic0NBNmNNVmFR?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0ff00b3b551ab631",
+      "published_at": "2026-09-14T10:14:00+00:00",
+      "title": "The situation in Iran is dangerously escalating \u2013 but whatever you do, don\u2019t call it a war | Arwa Mahdawi - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ29ONy1oT25tVVc3UDQ5M0prLW43WHNoY3pfN194Y2pLaTlLY1ZLaWpLZEs4NFZaWmJlbktfem8ycVBobzVKZzZjNGRlTkhQQS05RzhDUTVyMElFcDZjajJ3b1pTX0xRYzdxb0hfU0ExbzItZHNKMVg0SmNpYjJmZS1GdzA?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9ddda626ad4cabb0",
+      "published_at": "2026-09-14T10:00:00+00:00",
+      "title": "How the Iran War Forced the Gulf to Rethink Its Security - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1TSFJ4M0w4Y0pkbnAwUmtkSzZmWVBkZkhXdjhfU016cF9hMWNfeml3YmRRYnFIc2YtMW83Ul90bERzS1VXZTJzT0dCU2NKYWRzYTBUZ1ZKRHpqb2h3MTM0bVZVc3E1b3I1VklUZkYyYjBBWEljbHdlQTY4eUxsQQ?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "f7457a03672c8dca",
+      "published_at": "2026-09-14T09:22:40+00:00",
+      "title": "Iran: Strait of Hormuz to stay closed as Saudi pipeline shutdown adds pressure - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWkR0VnVLanJOb0tRQ3JuWEpET3g0YU5rQzJDb05JYzZLSm9fcmVUeGQ0OWxTbmdtZU5PT1hTaUpJb0Z1bF9oazhIUTFzOGJNUzRIUG53NXBtUE91cC1UdTg0aG9xYi0wVFEzaEVZNHdXaG4tZUxtcGIxc2JWMFpHbktzdktoYUhLZTJNT0lIMkVxRjJp0gGaAUFVX3lxTFBraWhRLVlOT2RtZHRPOU1MTkNqbk40WGV1R29IVEk1R2NONHhMVGpKZlU0N0JUeUV1cFQtdFFmR0Y4eEd0RVBWUHEtNkwwOFd5VmgwUkNiN2VjWnRyemdGekl4NkZPdGdFQ3ZHX0NsV0tucFRHTS1qdmFXX3EyUHNLWkIxOVdGVjVYTlVEcDgxckJsMVhNcVBRRXc?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "28973077802e82d5",
+      "published_at": "2026-09-14T09:20:04+00:00",
+      "title": "Monday Commentary: For the Arab states of the Gulf the US-Iran war is a big test of their resilience - commonspace.eu",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOXlqXzdsUWxWcGxsdWVzeE5McFJrQkxjWF9icFlodjhlSU5vWERJVm15WmtGeFRDMzBid3RyMFNFUzhGbnJJbG56RlVtd1ItblI2UG8zNkJmYllxZVdnbzlveXZ5am5hd2hNNndqTmVFNHB6aF9NQXUxaExrOGwyQ19rN1JuTHBRaG5kTE52SzNVZm5HOEdRb2V4RzRRbzV2Y0lWc25QZ0pjcmVvMTZyaw?oc=5",
+      "source_name": "commonspace.eu",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a449dce6bf196200",
+      "published_at": "2026-09-14T08:04:16+00:00",
+      "title": "Iran Steps Up Attacks On US Targets As Trump Focuses On Midterm Polls - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNazVMZHRSUncxMWdKQmdXaWZlaFpKcHZVSFlyc0JBbEc5aHowY3Fld293eXA3NmZXdHFvNm11WmVveHktbk5teVZPY2dIMVZfUklzTzlTM0lTNzhzMWd3VTZyeW81Z1NhSlREY2U0Ynd3RFg0QUtjRm5tUWhRT21RS3VLZkRjbDVOOU9HSTE4NGFKdEJuTFRCZUducnJ3VVo4aXlMMzFfdEczdDdqVXNZejdoNFVMLTNWY05HYU1WY1kzclVOcTd4NHJqV0paTkMzZUtNMno2c2tITHZOaG1tTDBxRDU2UdIB7gFBVV95cUxPOGdqRDh5dmduQUd4ckQ0aWJhWTZIY0t0SzU4aG9BZDVFdEszZktSSVNtRzMwWkRjcVBjNmVtRUwtSWltcll6c0RHYVVnR1packJvbmNnVThEWVdrOVRoNmZZODVzWEd6czFTc05nZGY1UXlGSFJuU01Ccy1NOUFhajd3U3c5a25BWGQwUHJKRHUwUllWNEtBekdGMGtzaGR2WkhlOGNpVFkxN0wyQU02SVlnbzd5VzNOTElzcFpkXzZ0MTdfdkJaYUNNNnRJR1JqVEhLSnpPMktIazcwNnpFY1dCLXdGdHA1NjBXYW1n?oc=5",
+      "source_name": "NDTV",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8b94a9662c83b360",
+      "published_at": "2026-09-14T07:30:33+00:00",
+      "title": "Iran war latest: Oman shelves Gulf-Iran talks saying conditions not right - thenationalnews.com",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS3lEdTNPbUduZ3hySHQyVWxURHU5M0ZvWERFTkRCandZclFXNFR4bVFRRzhweXZ3cFVuYTJmLVJ4eURZZmxmQlJZOE15RGlJbGRHRGdCWWNxbnh2b1pValAzbTEzUk91cEtJRUV2ZERQZ0hnUjcwOHAtRnFKTFBFQ0kyZ3p0dw?oc=5",
+      "source_name": "thenationalnews.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
       },
       "confidence": 0.65
     },
@@ -142,9 +353,9 @@
       "confidence": 0.55
     },
     {
-      "id": "6e0d779108012ced",
+      "id": "17efa2a8eabf7691",
       "published_at": "2026-09-14T03:24:00+00:00",
-      "title": "Analysis \u2022 Trump's Iran war is spreading \u2013 and Netanyahu is eager to pull Israel deeper in - Haaretz",
+      "title": "Analysis \u2022 Iran is exacting a price on Trump's energy war as Netanyahu eyes escalation - Haaretz",
       "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxPd2xBUlN0NlktU2ZZcXg2WEphanBKVGlKZWxHdjlJMnpRQUVBWlk5NXBNaXFXdWdjOWt5d08zRXJkZEJwZFBDN0xTTHBlUjFkX1VzTDhUUjhMbENLcklMU3Bad2JySEd1dFcxVVRkNW52TlVkMkdqWF9BbFhCOEZ1Q2RwR3RUQUJqWlBhVjNSVTJ4RWZHdTNUeHZqbzQ0ZWtJLUhvNWZ0bmUzOXFYb0FLZ0JQaU0yU0M3SUFxaVlvSFhiVnhWWnctOUVTdmphQ2NIRndZdmhZZ2NFWDRnQkxObXZKb1NkRE1FcE5fVVplb05NVnA2QkRCeFpvRnFlc3Q5SEFtWVh4WkxWWnJGWUozVXc4bw?oc=5",
       "source_name": "Haaretz",
       "event_type": "other",
@@ -157,161 +368,26 @@
       "confidence": 0.55
     },
     {
-      "id": "582a9708202439ff",
+      "id": "b14b45e19901349c",
       "published_at": "2026-09-14T03:01:00+00:00",
-      "title": "Trump says U.S. may keep Iranian oil 'like Venezuela' as Gulf-Iran Hormuz talks stall - CNBC",
+      "title": "Iran says it destroyed U.S. advanced drone over Hormuz as Middle East conflict intensifies - CNBC",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQVFU1OERQaW5PLWR6STV5TEE2NjZqaXhsZmItQy1yUXlFNnBtam9sM09EbTFzUmYwVEpqLXhYNHZyWThheWNUb1ZJbFB3Z1JhY3ppNElYNFRtbnVxcVJWRFIyb1RwMUVhTDRZdlRLRmw3UHNORHRjVHJndE4tN3E2VndXbE5CZ9IBiwFBVV95cUxNQUxLdTB2b0RST1RCQUx6Zk84Q3psbDctNV9tT2x2SEMxZ3lVVUo5QWpneEhUaXU5UWNoNHVlOUlLampoOWwxN3lvVXlwbVY5b2hEdC1HalF5SlRNWi1ZVVRXQ1pGWkhGaXMwWFVnLTdXbUtVdFFtLXdxdjVUVGdqYTlqUWw4TFpFVzZF?oc=5",
       "source_name": "CNBC",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
       "points": {
-        "usa": 1,
-        "iran": 0
+        "usa": 0,
+        "iran": 4
       },
       "confidence": 0.8
     },
     {
-      "id": "6b31df7adcb69b56",
-      "published_at": "2026-09-14T02:41:47+00:00",
-      "title": "Iran war live: Oman says Hormuz talks with Iran, Gulf states postponed - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkdWRTVPYmhhU0JEMzRYay1oaUF2Wjh2bllaTmgtSUE3QlpOZUtaSWd2WDVoRnkwYmZTMVlSZ2E4bVdYdl81TXF6TDRqbURlaXMyU3ZOTXFLNlhaRE9qTms5UDJNNC1tQy1POVFjUXBqNHdXQmZNTHJKYV84QWp0UzNTSVhnLUt3dUZVUVZqT0FuYXU4Y0F1OGFVOUtaRnJVUG5qYTYwSXJCa1NEUGJUb0VyY1F2WHlkQkHSAb8BQVVfeXFMTWRfblJYLTZiSV81MlE0Vjl5NmhiRkFYdFBfTjZGck5MZmZRUHZpbUI1Q2lwclNCVXNjNUZSdFdYZnFFVkpXT2ZjMldOM1R5OVVWOFRRdllvaU1fcjFTQnIteVJQWnlWdktHREV4ekJYcm9IYTNKR0hqVHZnWlF3UHI2bEhWMzNKbjYybkN4dXJrVHk2Z0UwVFZoYjluVXpuYW12R3ZyZnJMQ1Vram1TUWNCbmFpRVdCTjhxTU5Xa3M?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b8d62fcaee59776c",
-      "published_at": "2026-09-14T02:14:55+00:00",
-      "title": "US-Iran War Live Updates: 'In interests of consesus' - Iran's regional meeting with Gulf states postponed - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNWFprMnlmTVJQWkV5VmJISExjLU52bzlrUUttUmdUMUJkR3JVR1BIbzRNc2hINmRuX3VWN3NlaXZ1dUg3U0N6dnQ0VjNMcUkzNVJjMFh4eDZYMFVSVm1mbDhtX0xxZ1BFWjhSTllORXA4WTBraklZNkliNzV3UnJwZi1heGU0eGZmZmR0SEk4MWFFdEFvdTBCUEhWYnlfR0RFNW1uWWJhTTlqM0RKM2NZV21TQmdwMzdLRTFMY1dlU0YtN3NwbWxwVzBiUXB4bFRWZTA4UzdPdEIxQ3NoTEgyOVpRSVU0bmxPS09NMl8weXJIdm5fZ3hEMFlaR1R5a1lXLWlaRkpud18tSlBqNEHSAZMCQVVfeXFMT3ltVEwxNFBxLXJZY2JsRkJOOTFFOEdGcXJ3ZkJ1Unc1ODg1MmYyNzBQRDNsTFNmREV2LTFBZFBMTy1pUGRuVUtEQjFLaGp1R2tFaG42NTZUVERjajlqU2h5UnZIY19JbVU1cUpMOUZHam5ndXJJQWxpQ0dBclRnUGQ4bElONE15ejN1MERIdFoxVTkweGstRFNjRVJwQlBtOUFmak1HTEYtZ29hVzJoRlF1bE5KNzJEeE5vQjh6WXJVQVpmbEthRzdmRzVzTF81Q0N2Ui1ONDByMHIwZ05nSUZIangzSFNYTXFQR2xvRm9mdl9hSXRmWDFjVTJrQ1p5c1o1UW9uZE1QcG9yblktUXlyaFU?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "11b6d3679b012594",
-      "published_at": "2026-09-14T02:10:37+00:00",
-      "title": "Trump says US could stay in Iran and keep oil, like Venezuela deal - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdHl5emUyQUtRZE1aYmc5MkNUb3QwMG5Oemdoa2FubU1aRXBIQ3JYdGJZRDBTaVhtSWJiMVk5aTY3dzVyR19UX1B5Y0h1V1dZMS05eDNva0lXdE5zNWIwUlJYUjlGNGlfcG5YT0sxNzk1V0hYa1E2M3l3cmFITVIyS2h0NjRtXzFEd2E0elFZbFoxZHRrRjlEMEI0V1NBLUYwaGRWaHpzVVhySWVmU3l2a3JR?oc=5",
-      "source_name": "\u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "749318cb8cef6b2d",
-      "published_at": "2026-09-14T01:43:00+00:00",
-      "title": "Air Force colonel recounts how he survived after F-15E jet was shot down over Iran - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVnFQb1JUdmZhdG9GTWhhUl9VNWpCcEFuYVlsRW9sM2YxRnlWOEU4Zkp2X24tcEhkV2VFaHFvektsT09HWE1fSmwySDJCT1pDbklSVTVlVFdjSlNLOUVrSTBtT2EzUUYwRHFjTkNjNERlUXN3aTN5U0xJUGN2LWppTzh30gGHAUFVX3lxTE04Ym5HM211TDFJRmxFVmpPSXFYYVF0bjFyUlNXRTZIeE4yMUUzRUZ0NjltdFpiWjAyTTRyeFR5UHJCZVdfMGxMclcxYmcwVHF1YjVmdkZ5dXNzOGVybzdJWkxKM0RUc0xYVWc5T1BCMGJyS01wZVZYQm9iRHE3Q3ZnMUhsTjlXSQ?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "540859276d6f3cb9",
-      "published_at": "2026-09-14T01:42:29+00:00",
-      "title": "US hosts G20 energy talks in Texas as Iran war disrupts global fuel markets - France 24",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HY1l1MHlORU1nTkZ2V3NWY2lpRnd4aTBPSERnRlJPcUFReGNha2xHa3VLdkRmaXUtQTVSVXFuUWtEWUlQeWV4ZnE4UkE4ZmRoMWxoemcwUnV1QVloUkVrRElvODBYM1d5U21LMW5kQmJ0RVpUenRmQkpFNDJjenM?oc=5",
-      "source_name": "France 24",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "55ce8d1c7f9e17cb",
-      "published_at": "2026-09-14T01:26:25+00:00",
-      "title": "Trump dismisses report China entities helped Iran before attack that killed US troops - The Mighty 790 KFGO",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWXRsRXJTSXdBWWw4Y3pRS3hTRnVuSk5tUGN2TTNWd25iR040MjFtZGVmVTJvMmRJWGlLZEpKYzJrbGRvZ0M5Umx2RG5wR1Q2QlpLNGxITXE1T0FhS2Z2T2w3bkl5ejVLZEVLOVhWdHFucVEzWjRLVDhsdV93VjJRaVZ5X3ZsME9xY2twcWtGTW0yY1YxZG4xRmNlWjRxWkFHVHN6YllfczdfUjFsbEtQWWtEdFc?oc=5",
-      "source_name": "The Mighty 790 KFGO",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1b06ba8031a907c1",
-      "published_at": "2026-09-14T01:17:00+00:00",
-      "title": "Iranian cargo ship is struck, and talks between Tehran and its neighbors are postponed - AP News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNMG04XzJlaFg3N0hjVGVucURCODFNSFJKYkdZaHY0aWZxMWJCXzlPY1pGOUNrWHRhWkc3NnJXQms3X1ZxaHBxOTBHTUZVNUFWWXBJV0hLcG9PaEg0Nm9VaTQxbVNfallyV0ZhVzlfMGpqaWMwLTV2ZmYwRGZYNm9EUzFLMnMzZkREbzRlR1JqR0tBd1Fs?oc=5",
-      "source_name": "AP News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "c2cb16aa24863d1c",
-      "published_at": "2026-09-14T01:00:30+00:00",
-      "title": "US aviator shot down over Iran recalls 'free-falling' in first interview since rescue - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oLTJpQ19zckFPRzVHTTJzeFFpLXA3UDk0a3FHSkw2eWl2bHpBaFl0Z1dXVXdBTDAzLWg1VFRONDlZbE1PUTdoNDd6bFFlWEM2czhWVU13eS1MUQ?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "874de0b2489ba5cd",
-      "published_at": "2026-09-14T00:01:00+00:00",
-      "title": "COMMENTARY: Oil markets survived the Iran war sprint. Now comes the marathon - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYkNyZjhwWkFHcjR0aVV2b3lPNFROSy0tNDZBQVJpWE9JelJyVWhtNFJjWlY3OW56NmdXY2s3Q0luV1h1cGZnRXJiM0VzMWxqVDFROENnOEFFMHpPN2VfWXJYTjZ3TW1EWlZLdU16clZBN28wVlI4SXJYeWR1U3kzZlAyempIWXVhaC1LdWNKbVo3QS1YMjZucjZnd3FTdnNaWmpNd2phODkxTlFwcng2aWo3WjZhdUdCOXZBejRyaW5kdw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "da41d3b18f9e6e43",
-      "published_at": "2026-09-13T23:28:05+00:00",
-      "title": "Iran war updates: Houthi vehicles in Dhubab, Mocha hit by Yemen\u2019s army - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdjJYYTEtc01jR1hnV3dPbDl1SW9GTlM3cmpZSkM1OFBsNm5pLVpTS3ZwbkdMQXN3YkdkVW5wUDNyUHBKeE01NUFvd3RDYUlMUlM2VGwwbUtodV9uTkhNYzFTR0h4NTdRbklvNUlZbjQ5aDZ1WTZZbzUtQTJ6U3BsaHRHZGVibkdVSkZaQ2NUMDk2Vk5lbHgwZFhjT0JvTjJOSkRjT01EYVNMOVFCbWF6bENSRWU5bjFRN0s3YlRR0gHDAUFVX3lxTE80eEFuVVFCNXR0dWhobEFRNTFGX0ZTQzJVT2NGQlh4djNpR2cySEl0ZHlXdmdNQ2I4Y0xhRDBOLXYzdGt6bkRRNlJCcFJ2X2dkMDg4R1hFeUplLTEwM3dDS2E4RU1GWllqU205OFgtVFJsWDk0OHk4RTdGX0F2MWppZW5vbGxjcTdteFZTZ1VzaVVaTlpWaGYzZE9IQzFfOFFVdUF2TzZUV3ZYSUhmSG9FenEyWkRGMkFtOHFfaUpoOFRUYw?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "9c1c67a22bef2d9e",
+      "published_at": "2026-09-14T02:15:00+00:00",
+      "title": "Iranian vessel struck on Strait of Hormuz, as Houthis expand control of oil shipping lane - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeUpPLURuUGtNWW5MdUstN2NHalFnV1d0bFN5bl9MbHJHa0l0RGQ1X1UzWm85X0lVcmxKT2I2V01NdTlOWmtYcE1ESTFFNTQ5Z1FVVmFncXlZWUVtcFNENmlsTFUzMmE0LU12QTZlMlp1cDdtN042UUJhS0Z3TkcxYU5tUW9fRXdLMUE?oc=5",
+      "source_name": "CBS News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -320,81 +396,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "91078caaa69670dc",
-      "published_at": "2026-09-13T22:22:48+00:00",
-      "title": "Tehran and Muscat delay talks, citing regional consensus need - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZFZtTWphS29IZmJ6Y1pjUVBqUnFFRGhFdzNlU3BFWjM5aloxT3ZHYnRUREtwMFN3cF90WUVfdW02MjhFRmh4dE01SG5zRGRrQmNldE1xSjVlcFRZRGh4VnNESUNRSTBoUC1rRTBXM3VTVXhlSVpNUUVubGJTbmp5bjdLNGtDQWd5OGNOcVE2cEVxMGpvZVNuVC16UmhyUmwtakZZ0gGoAUFVX3lxTE80RUg0ZTNRVWs0VzFreUJWNVZfVUZsSnJyLU1jYUZlcC1obXprdndZeEg4Ynp3b0RkUVU0YUNWUHE1NHlIMXN4U0ZlNDY5R0dvMlUyVS1xemVwRzR3MXVHc25jb0NINE9IcEJmejIwa1VURktZQU9jVkh6MlpkckhsLVJkVTU3QmVUT1Z3ai0yM1ZvLWZYLWU4X25uRnNzSkV0QVpxTVk0eg?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "804d661d618cb222",
-      "published_at": "2026-09-13T21:25:42+00:00",
-      "title": "Netanyahu\u2019s 1,000 Hours on U.S. TV\u2014and America\u2019s Iran War - International Policy Digest",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTE5GZV9GdV8tMHpqOWxWVVZkWWE4NEFaNW4xVFFWWWVEZTI4aUF1ZGpkdEgwNUU1eGlhajU2MmhFZnVNcjdzcjFZemFEeVFzd0dMMUJac29tTHdWaVdlTlRWa3RiajNBQ0NoVmpkVVpRbEdIZFFndU5ZczJMU3BMQ2JEQ1phMTF6dDI3Ng?oc=5",
-      "source_name": "International Policy Digest",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "65f5b4330f37566e",
-      "published_at": "2026-09-13T20:58:18+00:00",
-      "title": "Meeting Between Iran, Arab States Postponed as Mideast Diplomacy Stalls - nytimes.com",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR3M3U3hWNjVhYmNZUnZTdTJnZXNEYTNfV25MVGVKU2JxSGZaZXAxNFdFMnotX1pNVDB5OVhtT05WVngzTG1VcWtuS2dyYkg3MFJPYjcwRUM4UV9NMF96T1lFa0k0dDFXekkxNUNHd1RFLTgtUnhFeldaMEJCSUV6dk80T0RndldjSVQzVVRlZw?oc=5",
-      "source_name": "nytimes.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4ea9eaea5d11d1e3",
-      "published_at": "2026-09-13T18:47:12+00:00",
-      "title": "Trump Wants Ukraine to Stop Striking Russian Refineries. What Would That Mean for the War? - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPajFRMWFuclRrV1ZNNGNNcUQyekVES2R1VzlWdjM5RjJ3ekFTTjFQN3ZHcE51WWxOREFLUXJQOUt5UjFQUlF3RzhqN2lwMlp5U3hrVDN3QnkxTmNBczFEU1ppTGl0SVRKVzVpcnFnOGFRSElycVJPRDl2VFExbzRNZTk5UWFkMzJpSTFMTXF2Mm4zakIwWTNhbTVONGk2c0ozQUg4MFNEVVdTYXdBUDJETDlKTVN4a0duQU5uYUQ0OHpSVHF1?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "960d70f0f3f81128",
-      "published_at": "2026-09-13T16:48:00+00:00",
-      "title": "Trump says US could 'decide to stay' in Iran and 'keep the oil' - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObk1OMkRCeTUtWGI5dm9aQjYwTzJHdVkzdFpxTkZZUXc3dXNxRmxfNUY0dWFKaXhKVnZPQ3VXT29UNENoOHUwXzhhdXBPal9seTJ3WmFQNjNnYjFDajZueG1UVHlOeGxmNldWLVppTWlseTg0bEd0aS1nNDNQSVF4M08tbm9HQkJOel9aNVRyWkF4a1ZXdjlaT3BqMA?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
