@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-09-14T23:53:21.814246+00:00",
+  "generated_at": "2026-09-15T04:59:59.950929+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 98,
+  "event_count_window": 99,
   "totals": {
-    "usa": 39,
-    "iran": 16,
-    "lead": 23,
+    "usa": 36,
+    "iran": 17,
+    "lead": 19,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 12,
-    "iran": 9,
-    "delta": 3
+    "usa": 9,
+    "iran": 10,
+    "delta": -1
   },
   "confidence": {
-    "score": 66.1,
+    "score": 66.8,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 6,
-    "other": 44,
-    "attack": 47,
+    "other": 45,
+    "diplomatic": 7,
+    "attack": 46,
     "material_loss": 1
   },
   "history": [
-    {
-      "date": "2026-09-01",
-      "usa": 9,
-      "iran": 3
-    },
     {
       "date": "2026-09-02",
       "usa": 9,
@@ -92,14 +87,34 @@
     },
     {
       "date": "2026-09-14",
-      "usa": 6,
-      "iran": 8
+      "usa": 3,
+      "iran": 7
+    },
+    {
+      "date": "2026-09-15",
+      "usa": 0,
+      "iran": 2
     }
   ],
   "latest_events": [
     {
-      "id": "787f81ff64f9cd0a",
-      "published_at": "2026-09-14T23:34:42+00:00",
+      "id": "5b0ef6ba97cc8564",
+      "published_at": "2026-09-15T04:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1CM3lwVkFyQkZZYzdSTFBqUUwzR20td3daRjdXdXlWSVN1SFhXeWd6MWlBZHRDU3dndTBheXUxbG5NYWY0UXV4LXlNbXpTbjVkTFp3SDNZZ3ZKNUxGTWhXdlJLb1RoejFFNVVtaHk5UnpEZEd2LVRaUlFKX2NwcVE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3f00c68f70383091",
+      "published_at": "2026-09-15T03:48:14+00:00",
       "title": "Iran war live: Trump dodges blame for rising prices as he makes claim on peace talks - The Independent",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNU2Zmd2ZBYUtlVTQ3Z0NoX2l5clptSzN0dkxTRnpRTjZXdTh1ODg2YmlsNGhkMTQyRGNzaVU5MGQyVEttZUwwY2dBcDdTdmk3dlhRX2FiNFUxU3VtTl9WNmtFNFo1RVBZd3Z6dFBuX1lDY1NYbGN1NTUwM2MxWFdQdjRtdndYZ3BJUWRYRmpDdnFaejJtQnNQOUxrSnpfRWkxY0F4QlBUajg5aHJLUXJKLTV3c3I?oc=5",
       "source_name": "The Independent",
@@ -109,6 +124,201 @@
       "points": {
         "usa": 0,
         "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "cd91d792ccbcf045",
+      "published_at": "2026-09-15T03:47:07+00:00",
+      "title": "Iran war exposed 'strategic' US munitions shortfalls: Pentagon watchdog - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTHFHRFVTTWRtQ1hyY3hISFZoWnIzTWlTQVV2d3RlY1NSS2lxcDJyZ1hNUm4tblBFcFVXXzJmWklNMTVtVHY3a2VUV0JiMUE1dmdFWHotbGt0RWdtMTBrMi0yN2dkT2MzNVdDM1B4UTRBUHFYN2tzdXU0bkJQbzFxVU43VFZUNWdQR2JsUnlXWW9yMk9GZkN3dlBHZmhTVlo0U1ZVV2lVWnJ5VmM?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "220c82da23d70e4d",
+      "published_at": "2026-09-15T03:45:00+00:00",
+      "title": "Weapon shortfalls, 'hundreds' of buildings and aircraft damaged, $33.4 billion spent: the U.S. government tallies costs of the Iran war - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOU2g2cmRJTDd4WUJrcVIwTVhrbGZZZm5iZi1MWEpoTWdUdGY3dmI2ZUFQaVc3WE45eHNac2c3eHFzVy10dGI2Qm5PbFRlM3pvSmw5bGhLMVVmZU9aRDVRM05Ya2xJYlc1WkhyVGhtM0tqeTdDTFRTeDZvSHllend3Ui16ejNoSzZpLWdsN2ItMDF2LWNj0gGaAUFVX3lxTE16bzhDWEpYVUNNRkVRbTVGZmFYZEFVaW1zZV90M3dGNVlmTFNuTnVEdW92cmhqSEt3VE9leVN3a2F5ZjN0X0lrM09jdnZuS1NYZHdtejlYWEZ6NVVZMFhLSWtzcG5QUmd6dWRkdzFiUFoxNE9DcjZyc1NiWWFybkE5Tzl5LXgyOThaS1NPZWxEZE9hSEhBeER2NGc?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "4dd557b6aec45aa1",
+      "published_at": "2026-09-15T03:05:24+00:00",
+      "title": "Pentagon rejects Iranian account of Panama tanker incident - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWkR0VnVLanJOb0tRQ3JuWEpET3g0YU5rQzJDb05JYzZLSm9fcmVUeGQ0OWxTbmdtZU5PT1hTaUpJb0Z1bF9oazhIUTFzOGJNUzRIUG53NXBtUE91cC1UdTg0aG9xYi0wVFEzaEVZNHdXaG4tZUxtcGIxc2JWMFpHbktzdktoYUhLZTJNT0lIMkVxRjJp0gGaAUFVX3lxTFBraWhRLVlOT2RtZHRPOU1MTkNqbk40WGV1R29IVEk1R2NONHhMVGpKZlU0N0JUeUV1cFQtdFFmR0Y4eEd0RVBWUHEtNkwwOFd5VmgwUkNiN2VjWnRyemdGekl4NkZPdGdFQ3ZHX0NsV0tucFRHTS1qdmFXX3EyUHNLWkIxOVdGVjVYTlVEcDgxckJsMVhNcVBRRXc?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "87c1bf669bd065e6",
+      "published_at": "2026-09-15T03:02:10+00:00",
+      "title": "SCO anti-terrorism group condemns latest US strikes on Iran - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSXluc3JVdHB4SERqS1JPZHpSTlBCX19Pemp2SDdfaG5BU05jVmluWWZOTmpzVXIwQ2tOWW5yRWZrcEcxYXI0LWV5aGE2aVdGZklHcnZic0VUVE1CeS13RWQtWlJEVGtkWHdFUkYtdUIyeUhNbWJzMkZBNmRuTXlFVTRYOHhWeVhUbDMxMmxQTVlkZnQwZGllOUhR?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "96395002daa93166",
+      "published_at": "2026-09-15T01:55:00+00:00",
+      "title": "Oil extends gains following Houthi strikes on Saudi Arabia - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQV9wNE85VzFIRFBUV1ZCd1RLX00yTlF3eW5WNi1vX2FKbU53X09ZMVljYlBrTjZnZUJTQ0RmRWVjVXh1a2dsRy1KQ1NUeVpUTVg3RC1TUzVrWHpuX00wZkN2bURLYjFJdTRrWmlhdU5uUDZMVjRHdm0yVzZYeFVvbUNLc2xza1BrNlh6WEcwMUplNGJCdGdLQ0U1ONIBoAFBVV95cUxPVHp5bVZ4Nzh6VWJqdldveXVnR0gtZEMyeWc0eGdhNXBqbEFiM0xLQVZSYlp5elF4TGotRUVKTExYUklxeHhqQ0VBNHBVZmhvcG1YeTV1U2xYcjZsa1FtS2ZRNWN0UkdpMHJZY1NSOXhNTXdvUERWeVFneWZWVlhtLVZZblIwd2JKU2xRclBSWS13blFjU1pfUUNQLVF3RURF?oc=5",
+      "source_name": "CNBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7f7526eff414a9f0",
+      "published_at": "2026-09-15T01:46:54+00:00",
+      "title": "US-Iran war has caused supply-chain bottlenecks in Pentagon, report finds - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sU05ZekFnWWUySFBiRkJvN1hzQm8zWDFpUDQ2Q2UyS2FqSzNQWlFXQlh1OWFCWlZKS05uYmNKTUhJQWNQdS1vcGNqamd6YnpEemE5VnBzaWhIYzY5WmJCV3FtWnNMVkFLdFE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "4cdc8ed5b8734cc7",
+      "published_at": "2026-09-15T01:40:59+00:00",
+      "title": "US, Iran give conflicting signals on talks as Hormuz traffic stays low - news.cgtn.com",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPcHRrVEtrUkhUVzVra2otTm1GeHlfMGZTQzlSMjE0WkhmMTF4b3ZHNnR2Z3pUblU0anBySTNBcGxmSHRyNEVtbnNVYzhzNURvOXBfZ0ctTW5CTTRhTVkySEJKMmVsQV9xMWxXaFVKSlYxT1JIbjhWR0MzdXJLNlBaODBkRFVmWjR5SDdyb3VEVi13ZGw2SkE4azRLUmVSWVdyRlhlVmswWm9kYkgycGwyNU5nbHBkeEgxbFRpVl9XTmh6bFM0?oc=5",
+      "source_name": "news.cgtn.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "afbb24a112129d61",
+      "published_at": "2026-09-15T01:29:37+00:00",
+      "title": "Pentagon watchdog releases Iran report, mentions munitions shortfall - upi.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOcWdscXlkRktzd0ZJN1NETXNtTElJSmY2NEhIYWlZTjNudzBOQVRZNjc1aG5Zbl9relZOR013dUh4dDdVMFRDVTB2MWpFcEZNTHBIZldLM21sQ085YWpQcG8zeHptMzB6V0NYcDVBWGNsR3pZbzY0T21fMGFVX1JtZ0dhOHhKOGJFTnJNUjVSYzZvQmNaU1F5VTBGSmzSAaIBQVVfeXFMTlBCTUZNYzJwYU50SzVwVUZIUFFWNDdkZl82X3VrdW5Sdmo0VDVDUE0yLWtlNFdCQlZPQVBKZzhGUmFFN0Q1U2c1ZFE5SHJMUHlUQmRiaFFyQzVoMFZ5N0I4cG45b2c4OXczd2N6LVZaWlBiRVNnZDVybk45clRiTDZqWnBiQVlCV1E3Y1hzMlVlRE1ZbUgtUEJESXIzSHYwVXBB?oc=5",
+      "source_name": "upi.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "815888f378ba2886",
+      "published_at": "2026-09-15T00:38:26+00:00",
+      "title": "US-Iran war highlights: Houthis say 'Saudi criminal air force' targeted Yemen with 54 strikes in 24 hours - Livemint",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPeHltMURHZVQwUHdremFUN29QcXZuUWtLVHg3S3VFbWZhT2VWQ3FIZXRaZEhyZEtGczVUbzR4QkstQmJ2T1J1d0Z1UlVMMUI3dWpsZWpqR2x3ei1SSGNIa0dMZUIteEw5bkcyNUtwdUlxTzBiRTVBa2oyMFVqU0FkNGhsMW43LUlPdGRJVWFkdERYUlpSM3RXRk9qRThaNWtTVlBNWE1TTUFscnM0emhvcWkzSTh2T3ZQMDI5cWE1aHpHdUo1SDkzTS1ESjJ4eXpQcldhQWJlZWlJQWVKOC1KbUVRYnM5MndyS3NoZC1CUmw5OE1nV3VQY0d5VUswMUVqX1hlR19aMA?oc=5",
+      "source_name": "Livemint",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "de1e7d6944df2700",
+      "published_at": "2026-09-15T00:32:17+00:00",
+      "title": "US acknowledges for first time that war in Iran caused weapons shortage - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9pQnZPUWlQZmZYa2xFWW5VSUlOZjNzeUVlWHkybm92LUNUNUNRa1p3SXdyT3pTYXdWSlIybmZza2tyQzRKQ1J2dmhqVVViTVBXWXg2andB?oc=5",
+      "source_name": "Ynetnews",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "99245a3fe55aaba2",
+      "published_at": "2026-09-15T00:09:07+00:00",
+      "title": "Iran war updates: Houthis seize 2 islands, Saudis intensify air attacks - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkdWRTVPYmhhU0JEMzRYay1oaUF2Wjh2bllaTmgtSUE3QlpOZUtaSWd2WDVoRnkwYmZTMVlSZ2E4bVdYdl81TXF6TDRqbURlaXMyU3ZOTXFLNlhaRE9qTms5UDJNNC1tQy1POVFjUXBqNHdXQmZNTHJKYV84QWp0UzNTSVhnLUt3dUZVUVZqT0FuYXU4Y0F1OGFVOUtaRnJVUG5qYTYwSXJCa1NEUGJUb0VyY1F2WHlkQkHSAb8BQVVfeXFMTWRfblJYLTZiSV81MlE0Vjl5NmhiRkFYdFBfTjZGck5MZmZRUHZpbUI1Q2lwclNCVXNjNUZSdFdYZnFFVkpXT2ZjMldOM1R5OVVWOFRRdllvaU1fcjFTQnIteVJQWnlWdktHREV4ekJYcm9IYTNKR0hqVHZnWlF3UHI2bEhWMzNKbjYybkN4dXJrVHk2Z0UwVFZoYjluVXpuYW12R3ZyZnJMQ1Vram1TUWNCbmFpRVdCTjhxTU5Xa3M?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "3af5b24218e93740",
+      "published_at": "2026-09-15T00:06:00+00:00",
+      "title": "US watchdog tallies Iran war\u2019s hit to weapons stockpiles, military bases and more - AP News",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYjVWMldhTVpoOHNsSUs4MWdVbGl1MjBPVThUUUczaVJTc2FMWEFBV3NUb2ZpUC1qRVB6WGUwWlJBNzdPdk5fMTBzc0l6cVZjRl90SzFIZkFnYVpRWFd3bFRvcUprenFncXp6VGJMQUJXS3VQTExRZTB0ZC11MXFVYlM0UGk0TkdwQkkta2VydmFZS2V5dmJlc1V0QWwtRjlyU0l2Uw?oc=5",
+      "source_name": "AP News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "fdd0c7efb1e712eb",
+      "published_at": "2026-09-14T23:30:00+00:00",
+      "title": "New Mexico gas prices surge again amid U.S.-Iran conflict - Santa Fe New Mexican",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNOFhwbUlRb3lOdW0tUmRvcV9WX01uLURnbU9mWk42WE1TTkNOdXFPYWNaZXBqc0pFLWJSS0wxdDNxaXhoTURyaHhsdFhIQW0wSFdhaXZ0THpEZ3RWcC1uRWF1ek02R2lRMnJYUVRkQ29wUVFjam01cmJYNVM1ajNpOHZoMmp6Q2RMTTFwcHJndHhFYXVVVU5JNnY0V3JZVm1QNVdQTndmdmNrVDlYMHQxa0wyUEZDOXhsVUJfNEZHRnI0QUpMcTV4cnFVdFFJcldkWTBGcTZldnVyQkttUENBcWU3WklQMzdQ?oc=5",
+      "source_name": "Santa Fe New Mexican",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.7
     },
@@ -128,6 +338,21 @@
       "confidence": 0.55
     },
     {
+      "id": "9982be4e88917ed2",
+      "published_at": "2026-09-14T23:20:00+00:00",
+      "title": "Iran strikes on US diplomatic facilities in 4 Gulf countries cost $184M: IG report - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeVA2cllGRlV5amN6U1l1TmZmUlFObXlNczVfWDdaQTZROVVTMWV6dENqRjZWOVJxMTNKMHI2SEh4UTM3c3NVMFFwcWVOTnljZGZLamRlSFJhazV1NEZINVdzWjQtbFQyd3AzaHlyWkM3OEdkVjFabnVoX1E5amd5bjR3aXZ3cXfSAYwBQVVfeXFMTkt4a2JKeGJIdlZCSHE4TmpkelZqbjdxNGhjUE9nUWxmUTM4YkExZ3dxQVJSREEyTm5qX2xLckp3QWE5S1pyVDdFV2ktbUZqODF3VzZkLUdBajI5RXNGX2V3emJTYTVmemJIYlBaa2VuOTM0NDJuRkxEOGlOZERyZ3Jmel9DRGg2UHhpdUs?oc=5",
+      "source_name": "The Hill",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "f3f9b7597e33b364",
       "published_at": "2026-09-14T23:20:00+00:00",
       "title": "Iran strikes on US diplomatic facilities raise war cost - The Hill",
@@ -143,19 +368,19 @@
       "confidence": 0.7
     },
     {
-      "id": "9982be4e88917ed2",
-      "published_at": "2026-09-14T23:20:00+00:00",
-      "title": "Iran strikes on US diplomatic facilities in 4 Gulf countries cost $184M: IG report - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeVA2cllGRlV5amN6U1l1TmZmUlFObXlNczVfWDdaQTZROVVTMWV6dENqRjZWOVJxMTNKMHI2SEh4UTM3c3NVMFFwcWVOTnljZGZLamRlSFJhazV1NEZINVdzWjQtbFQyd3AzaHlyWkM3OEdkVjFabnVoX1E5amd5bjR3aXZ3cXfSAYwBQVVfeXFMTkt4a2JKeGJIdlZCSHE4TmpkelZqbjdxNGhjUE9nUWxmUTM4YkExZ3dxQVJSREEyTm5qX2xLckp3QWE5S1pyVDdFV2ktbUZqODF3VzZkLUdBajI5RXNGX2V3emJTYTVmemJIYlBaa2VuOTM0NDJuRkxEOGlOZERyZ3Jmel9DRGg2UHhpdUs?oc=5",
-      "source_name": "The Hill",
-      "event_type": "attack",
+      "id": "f6c9719ec6abd9a8",
+      "published_at": "2026-09-14T23:18:00+00:00",
+      "title": "Iran live updates: Trump says US 'open' to 'concept' of negotiating deal with Iran - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmxjTXJvNEtUeGNnaGJNQUVhS01VLXQ4eXRmSlNTZkhneFlFMDRsRTdIaTM5X1BNMXVMeC1GNUZSWDB3SmJqVGxYazRjcV9VWTlnYVM3S3NSNm80NldUMDhMNzZrR3R5NW9RUlRlNTFvMDFUNGoxZTBPYWc5ejdkczA1RmowRXNwaTRwOXRHZDFIWmYtV3VVV05RRVd3SDBSS0dBMTFFbURFVW5L0gGyAUFVX3lxTE5WZXFyeDRIdEpHUUxMbWhoZWJQMkM0cldmMEJHZnFOaGpQZnRtUWp3OFBHSGk1X0RRdXBjaGN2OWlaUERtalQtcGdGbzJFNHVnX2JscHpUV284cTUySGNRdldXVGo4ZUt3Q1I5Y0x5QUVMUG9kM25nVXhsZEdBc2JPeFpRM21hZzNZZzR0eEdydGUzUXdPSWhPbUYwekVDdm9hMU1sbU55alJJLWJpSlBKakE?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
       "id": "6a372e7406ae1706",
@@ -171,231 +396,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "f13bd52614c252f1",
-      "published_at": "2026-09-14T23:02:47+00:00",
-      "title": "Missile shortages, damage to US facilities: Pentagon watchdog issues first review of Iran war - KTEN",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPOWd5ejcyVjZTcWdzc05NcVh3OUY2aGg0SkliZVpvMUlKYkZhMlI5Ym9iODJCd055ejZPdTVUVkhtOGRSa01xbDJVRjRPWmVoekd5RVY5NUVvOFk0X1JWT1VVbk9EeFJiVVhhd0l1dGhzZ0I0VkIwZlY3YVhtRTF1ckN0N2VWc2RNOWFpaDZJT3ZSd29HZktaWF91RDhZLUk0OEJCbDh4c01hOTV3VGJJRExUWFpFbmtSRU5taFdzNjQyVzdaYkZwWDZ2SU5NZ0JpN1R4eVhlU1JCVlhyQV9iWTdSazdkT2h4UzBvNmFqZXY2QmFQRzFCbTJHQTVkcGJuRGVPWnFIdw?oc=5",
-      "source_name": "KTEN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "ef994fc21fae53ec",
-      "published_at": "2026-09-14T22:59:10+00:00",
-      "title": "US watchdog tallies Iran war\u2019s hit to weapons stockpiles, military bases and more - bostonherald.com",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYa0FkUVZmYVNsMHYzSzdIVlFRNEp1aEFtQmZURU1TNjFidWRkZmVhdG5NLUdWZFYzb0lRb3EyU29WNUgzVUdiN1daLWtSNWhqRnJ3ZWdBQ3pKOVhodnh4Y0l5VzJMWExRdHc?oc=5",
-      "source_name": "bostonherald.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2218b35f11b1d66e",
-      "published_at": "2026-09-14T22:47:00+00:00",
-      "title": "US watchdog tallies Iran war's hit to weapons stockpiles, military bases and more - Bozeman Daily Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOSDJlVzIxclU2dGJIeEMyT1h1blFodGozYnlra2ZlX0lYXzltLWM4ZzR6TGhHZDlrQlNMeDF2X2JkRlRDWXNEdVR5S0ltVm9VM1A5TTExZkpCeWU4TXVBcVFhM0JzMkx3bEZKaWJKa0tDbXp1bm5RMGgteUhmNjYtekpVY1JHMk1fVld1QS05WHVGUFViaEFjTzVDNjY4c1RkYzN0OXY1SHNIdHhJODFTTjJIS3l3czdGOWtrZkFwZHBXU0Y5cXNjR0ZFNUsxUkJmVnNTU3Z0TVB6ak84MU1VNlNuaVpuNHJnSFAyN1h4eXVwRDZQc0l3eWZ4bWJrcUZhYTBfak1mMA?oc=5",
-      "source_name": "Bozeman Daily Chronicle",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a3b4a03705a8c9bc",
-      "published_at": "2026-09-14T22:04:24+00:00",
-      "title": "US, Iran hint at talks even as sanctions tighten and Hormuz tensions stay high - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE54R3dxTWNoNUw5REpLS0JOY0xwcTF3RnlKQ3dNNWlNTGFEZ2xhYVNOUGRKT05DYUx1OFFRU1RkdGNFTFRlVUN2eHZWM3gxUkJGdFE?oc=5",
-      "source_name": "Iran International",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4591920231e6b360",
-      "published_at": "2026-09-14T21:36:00+00:00",
-      "title": "Iran live updates: Trump says US 'open' to 'concept' of negotiating deal with Iran - abcnews.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmxjTXJvNEtUeGNnaGJNQUVhS01VLXQ4eXRmSlNTZkhneFlFMDRsRTdIaTM5X1BNMXVMeC1GNUZSWDB3SmJqVGxYazRjcV9VWTlnYVM3S3NSNm80NldUMDhMNzZrR3R5NW9RUlRlNTFvMDFUNGoxZTBPYWc5ejdkczA1RmowRXNwaTRwOXRHZDFIWmYtV3VVV05RRVd3SDBSS0dBMTFFbURFVW5L0gGyAUFVX3lxTE5WZXFyeDRIdEpHUUxMbWhoZWJQMkM0cldmMEJHZnFOaGpQZnRtUWp3OFBHSGk1X0RRdXBjaGN2OWlaUERtalQtcGdGbzJFNHVnX2JscHpUV284cTUySGNRdldXVGo4ZUt3Q1I5Y0x5QUVMUG9kM25nVXhsZEdBc2JPeFpRM21hZzNZZzR0eEdydGUzUXdPSWhPbUYwekVDdm9hMU1sbU55alJJLWJpSlBKakE?oc=5",
-      "source_name": "abcnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a17c0d6649e61270",
-      "published_at": "2026-09-14T21:07:55+00:00",
-      "title": "Pentagon watchdog says Iran war has led to munitions shortfall - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDJMMGxRblFITlJtQllWa2Njd1NvWnZXejVlVmRXQjd1bmstSWU4Ykd5cjl6RzRvaEUyYTZUdXF5VWMxN09GaHdWSmw1OVgxZ3JEdlJHWU5WeTF0eXVHbkNQQTVGTVNId1BtY0pJcFlJY0JjNU1MRFhfQ25SMkZqVWVHTHVTNmVzdEdkR1YxNkp6SldBUXA3NnNqdWZRMGJWaHE0eE55TGxFcll1R0dGVllGR09xZURn?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "4477a1f8bcf0ae32",
-      "published_at": "2026-09-14T20:26:00+00:00",
-      "title": "Gulf states postpone strait of Hormuz talks with Iran as Yemen conflict intensifies - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPYXNIZWY4ZFJBOU1SblVmLVNwRGxjMlhXZXhqSDRySkU5UTU5Q2p0VHNCOVlmQ0hkbXNKcGlHVnpfLW13OWNHb1EtOVI1QTM1SWZGWHZ2Y0U3WUVRdGt4M0x3bVZ2QUE0SUJTTzRTMHhseVl2eEt2dGtUeWEyeFZfMHdtRmI1S1pzYmMwQ1BTZTFwaFFnYkdVMEZ3NU4tWFVCbUllM2ViYU5icm5RbTdnVXNBOTcwSXdDdzcwbkc0NkQtWTNUeFd6b21aQUxSRU9ZY3RN?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5143721fafe4ac57",
-      "published_at": "2026-09-14T20:06:06+00:00",
-      "title": "Iran war: Reuters tracks US\u2011Israel strikes and widening regional risks - eciks.org",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE11eEoyRk9sV3IzT3lUb0dUUExHeS1xc0JqN1J0REdOZU9HX3NsNkx1TGZFWVQxRTQ1ZlhTOFYxUkdySmZxblVjdERzV21Ja0Nfc1VXX1J0RmZoRXFEUXNn?oc=5",
-      "source_name": "eciks.org",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "7bd3891023d5750d",
-      "published_at": "2026-09-14T19:57:31+00:00",
-      "title": "Iran War Updates: Oil prices stay above $100 per barrel as Oman-Iran talks on Strait of Hormuz postponed - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "69aede2c88755259",
-      "published_at": "2026-09-14T19:38:05+00:00",
-      "title": "Iran war latest: Iran protests as US prevents its nuclear chief attending IAEA meeting - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOS3lEdTNPbUduZ3hySHQyVWxURHU5M0ZvWERFTkRCandZclFXNFR4bVFRRzhweXZ3cFVuYTJmLVJ4eURZZmxmQlJZOE15RGlJbGRHRGdCWWNxbnh2b1pValAzbTEzUk91cEtJRUV2ZERQZ0hnUjcwOHAtRnFKTFBFQ0kyZ3p0dw?oc=5",
-      "source_name": "thenationalnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0d7163e77028eb76",
-      "published_at": "2026-09-14T19:30:49+00:00",
-      "title": "Tanker on fire, Iranian media claims - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWkR0VnVLanJOb0tRQ3JuWEpET3g0YU5rQzJDb05JYzZLSm9fcmVUeGQ0OWxTbmdtZU5PT1hTaUpJb0Z1bF9oazhIUTFzOGJNUzRIUG53NXBtUE91cC1UdTg0aG9xYi0wVFEzaEVZNHdXaG4tZUxtcGIxc2JWMFpHbktzdktoYUhLZTJNT0lIMkVxRjJp0gGaAUFVX3lxTFBraWhRLVlOT2RtZHRPOU1MTkNqbk40WGV1R29IVEk1R2NONHhMVGpKZlU0N0JUeUV1cFQtdFFmR0Y4eEd0RVBWUHEtNkwwOFd5VmgwUkNiN2VjWnRyemdGekl4NkZPdGdFQ3ZHX0NsV0tucFRHTS1qdmFXX3EyUHNLWkIxOVdGVjVYTlVEcDgxckJsMVhNcVBRRXc?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "da34079a19449ee0",
-      "published_at": "2026-09-14T19:24:07+00:00",
-      "title": "Saudi Leader Meets U.S. Commander as Houthi Attacks Threaten Oil Markets - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMU1ma1lSbnByR0FITm9HOS1qYmNIRkVkcE11TWJyZklTU0lXWWJJOUZhRy0wYXFxSy1NZFNqeDI4RzN3YjZpa25DRUhuX3FJUzF1OF9YQnRYTHU0Sm9nRnhoTEk0VVltZ29iNGdSLVMtdHZhZDVrcXNLN19rUUdVaTlPd3otUlY2ZjZR?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2fcf0230af12dbd8",
-      "published_at": "2026-09-14T18:57:35+00:00",
-      "title": "Iran war live: Houthis seize 2 islands, Saudis intensify air attacks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdkdWRTVPYmhhU0JEMzRYay1oaUF2Wjh2bllaTmgtSUE3QlpOZUtaSWd2WDVoRnkwYmZTMVlSZ2E4bVdYdl81TXF6TDRqbURlaXMyU3ZOTXFLNlhaRE9qTms5UDJNNC1tQy1POVFjUXBqNHdXQmZNTHJKYV84QWp0UzNTSVhnLUt3dUZVUVZqT0FuYXU4Y0F1OGFVOUtaRnJVUG5qYTYwSXJCa1NEUGJUb0VyY1F2WHlkQkHSAb8BQVVfeXFMTWRfblJYLTZiSV81MlE0Vjl5NmhiRkFYdFBfTjZGck5MZmZRUHZpbUI1Q2lwclNCVXNjNUZSdFdYZnFFVkpXT2ZjMldOM1R5OVVWOFRRdllvaU1fcjFTQnIteVJQWnlWdktHREV4ekJYcm9IYTNKR0hqVHZnWlF3UHI2bEhWMzNKbjYybkN4dXJrVHk2Z0UwVFZoYjluVXpuYW12R3ZyZnJMQ1Vram1TUWNCbmFpRVdCTjhxTU5Xa3M?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "c9a7838b4f425432",
-      "published_at": "2026-09-14T18:56:13+00:00",
-      "title": "Houthis target Saudi base as Iran denies involvement in Yemen war - Courthouse News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdFVhRVFmcGhiZzNnYlRJbmlYMHdhNkRkeE12ZTJ4SnQ4cVMxYUgtQUtmZ0tzY1RleG15NlpaTUlPNlZWZjlWUEI2UlFfT2t1NkszdmFMX2ZPbU82ek5Bd3lncVh2NFZKaFdwaENRczhFam1wd1o2SHltVjBxVFJ4MFB0OW5TaWZJN1Jqb0lTaXhuY3FHeUZ4R3pqQ3Q?oc=5",
-      "source_name": "Courthouse News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "796f050969ab51dc",
-      "published_at": "2026-09-14T18:20:48+00:00",
-      "title": "US-Iran War Ushers in New Era of Missile Warfare - Caspian Post",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQUFJtSFZMdmlWMUE1TDk4WkZjZzlTTEF2MnFYeEJUbnJrR213ZC0yeHRlRjRpb05xNThPVTAtLVZReVh4YUpPc3ZVLTlVMFhFZzhLbVg1dHduQjgyY0JUTW13c18tdXc5OVI1MmtUdDBFa0E3U0tLQ094MzkycWwzaThwam9SdHh5UWc?oc=5",
-      "source_name": "Caspian Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
     }
   ]
 }
