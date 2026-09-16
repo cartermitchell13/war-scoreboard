@@ -1,36 +1,31 @@
 {
-  "generated_at": "2026-09-15T21:26:30.575857+00:00",
+  "generated_at": "2026-09-16T04:55:39.924485+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 97,
+  "event_count_window": 109,
   "totals": {
-    "usa": 35,
-    "iran": 29,
-    "lead": 6,
+    "usa": 56,
+    "iran": 27,
+    "lead": 29,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 11,
-    "iran": 22,
-    "delta": -11
+    "usa": 16,
+    "iran": 23,
+    "delta": -7
   },
   "confidence": {
-    "score": 68.8,
+    "score": 68.6,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 46,
-    "diplomatic": 6,
+    "attack": 53,
     "other": 41,
-    "intercept": 3,
-    "material_loss": 1
+    "intercept": 5,
+    "material_loss": 3,
+    "diplomatic": 7
   },
   "history": [
-    {
-      "date": "2026-09-02",
-      "usa": 9,
-      "iran": 0
-    },
     {
       "date": "2026-09-03",
       "usa": 0,
@@ -43,7 +38,7 @@
     },
     {
       "date": "2026-09-05",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -53,12 +48,12 @@
     },
     {
       "date": "2026-09-07",
-      "usa": 0,
+      "usa": 3,
       "iran": 3
     },
     {
       "date": "2026-09-08",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -69,7 +64,7 @@
     {
       "date": "2026-09-10",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-09-11",
@@ -83,7 +78,7 @@
     },
     {
       "date": "2026-09-13",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -94,10 +89,300 @@
     {
       "date": "2026-09-15",
       "usa": 5,
-      "iran": 18
+      "iran": 11
+    },
+    {
+      "date": "2026-09-16",
+      "usa": 2,
+      "iran": 7
     }
   ],
   "latest_events": [
+    {
+      "id": "616e949e9da5e96f",
+      "published_at": "2026-09-16T04:30:00+00:00",
+      "title": "Iran's attacks on US bases caused 'major damage that hasn't been communicated to American public' - report - i24NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQSU5TaGU2dDhMa2FidmRwQ05qYWVCQVhRNFlZRzUxRE5qSnF2cE9YOFBWRV9tcUJCMDU2eHVXT1NFbnFxSF8xdFpjM0YtLXg2YjVYdmFKZ0kxM1lJYjVJSnk1S0tHWVNSSXpXeURMWk9UY00tM3pwNFRUc3piZnBfNkFBUnNIRU5tbWdtMW5PXzRpLU5wd2RrTEVNVzlsZXhzQ0VqRWNlUXRnY2ZRem1YLUZmMGxqeFV1bkVhNUVpbWpjUjV2WlBaelN6Q2p2dmV5cDlEbnlVdk5tdDNhOFBXTXhocThINm9Ic3Fpaml0TTU5aWs?oc=5",
+      "source_name": "i24NEWS",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "ee0a0542cfc5a62b",
+      "published_at": "2026-09-16T04:07:45+00:00",
+      "title": "Iran war live: Saudi Arabia says it shot down drone near Mecca - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXhhSV9VWk1WTFloaXNKWDR1ZzVFdkdpOHQ3MDBJcGlnY2NzSGpadDR2LTJCay1xX0daRU83R2VGaXJuMm1MVDVHNGlUTVJzMEhvbXE0RjltZzZzSFdIVlB5Rm5jdlpuMEtZNHc3NnR3NzBVWnE4Y1hoTmw1VXN6ZzVpXy1KVmF2bDE0M2RaZkRadlRXeXptM2F5Z1BZeXJrbTk5dTBaWXdPMGdQeFZ5QjRB?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "567ed0e6839a4bd3",
+      "published_at": "2026-09-16T03:51:00+00:00",
+      "title": "US fires up to 70 interceptors against Iran attack on Jordan, putting supplies under pressure - WION",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYVdQNTdSd2ZVWkQ3Qmg0c2p4VmxXZWdYWUNMSFR3bnd3aW95d3NhelMzVGItNXg5MGV5a2k5akdmR1dvYTFuV091bThFNTJhM1hFS0cwajJYcXdRVjR1dllrOWNZN1J2V2t6SHFvVDJZeXhOcVNEdXBvYmRmRjFBa20tUjNnMDEzNGdkUUNuTE9aQ2tuM2xlSzFkRmgyeWxUdk54cnh4OXN5VDVmT0Q2RFl4d2JKaEFwajhoZVZTOTFqQmVSMnNweVpuMXJqMFN3UHfSAdcBQVVfeXFMUGRXYnZ5bmxnbDUwMTA5cFNYQjZVQzNySUV3TnJGOGFkOS1KaGFGSWdQeks4cnppWlliTHRMdHVCMG40UGV3QVNIbU53Q1R6R0lXWm9ySzV0NldmSGh1N0xpajYtamwtNkJYV0RWWDNxWmZ2OTdFNnNWd09lbjVnZkZndkhXQldaNlRpaXdfSHJDY3dvZTg2aUJrLWZYWTI1SzM5dEJTVUZod21QLXFVdzVySl9LNEJIeUdqLWVvT0tDSi02VGFrTm9tb3ZFUWN0SzBwbjB0Vzg?oc=5",
+      "source_name": "WION",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "efb3429a5dde7bbc",
+      "published_at": "2026-09-16T03:46:00+00:00",
+      "title": "US House votes for third time to end Iran war after $38bn cost is revealed - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBPbkJDX3hRSWxCaGZHWHZFODhxTmllWmZ6UVI4R1pPWGZkMnA5YTJyaTd1WGo5NjlHOWduRTNxdlRSX3JpcHc0WDVwem9sdEdGeXh4T0NIRGpfNTBYcmt2Z1lFdzl2UzhGNjVRTUpvLTN4czBKQWtLTlVR?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "98a018131f3fe02c",
+      "published_at": "2026-09-16T02:39:50+00:00",
+      "title": "Iran war live: Saudi coalition intercepts, destroys drone headed for Mecca - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa3QzUGUxYjdPU1JjbDBHUkY1UWFISWxIZ2YxeVk1N29WOG1ZdkszZEswZHdtempBRFNXSGJFcDBJZUpsUjZQTEtaTFMyZHp5Wm5oOTdfY24yS1E2YWpvejNhc1JXUDlNbUhBQXQzVUlVMGdIZmpiX0VqeXZaZUF1ek5fWVZsZFBSeGNkeWZ2VmllN05icFNaZWhmU0dkaUxqV2ZMZHBnMGo0eFJaZnQ4UlZac9IBuAFBVV95cUxNOVBwZkNVQjRaYlhQUUk2UGJ1MFM4QU9nQy1xSmVycTJPbnJkakFBQlN2MG9paXFYVU5pUzVzOEdYZ3ZCWUxvWjEtUWxEZHYwOGJ3RlFrUE42U2pBTFBHLVh3VzZLejVLcm1tUE84aklZdEdkS0x2VTg1ZEJRYUxfRS11bVJ4Q1h2Y0FGYmhKNmpwRlhnN2E5WjUwd0RkTUhINi01Qk1KTUtRLThPeFdKU3ljVDFTd2M1?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bf50ac01831920b3",
+      "published_at": "2026-09-16T02:35:41+00:00",
+      "title": "US-Iran War Live Updates: 'Just the tip of iceberg' - Iran FM Araghchi teases major revelation on US losses 'in due course' - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTVRWQ1NvT014WmxYN3c5R0VrQVNVOFkyNVg1S1dwVTZCVUMzUnFsTF9LclIyckRkQ05BaEwtY2FLMk9yRVYwekNGS2FjTHRUSTJ4ZGQ4MGdXQlpnTUVtX1ItVDFVSmtQanVPRDRMdlBBX0V2Ukl0YVhTQmg2ZFJTMEZ0TE5jRXF0Mm9GLVpCNTZVSFd3dmtiZjlfUHFuV1FaUVZIU213V01TYzdyR1VET0lCZ09ndWhzbUZVZm9YYW9NaWJEWXhEeDlZN0R2TXdEeWUyclFyeVFicElPZXBJakQzdmpzRU1NWEpjZVptRk1BSHJzbW1yc1B3WDhiOXd4TFpMaHF2aVRNRkp2bkdBVnNPZjJBaU1sYnlBVXFFVHgzbTV2M0N0atIBrgJBVV95cUxPY0ROemNvSVNFV3BNamdzQ3dIeHdtYjdPVEZHZktYSXE4VFNtZGNSWHNtQlFmdjNoY0R4RmMxOVhMdjQ3ckxMWXJDZUtfMFF6VXRqdllBRHRUU0xJX21JVEtwUEl0VGVMc3hyeFZlQTRsYXZmWUpXR2VKRUZJODFTYzEyN0Nqbk9Gdkg5bG5Ba3c5WV9PRlFBT3BuRDBxdVNCdEhZdmVtSXItZzhNSVllZ1FCSUFKSTlEdjhOT3VudS1oUWtDMEx2cmtORml3Wm5HalNsNTJmTkdWT2Ftdlgyb0VOZTlnTU1IY2YtSVRha1doa1VlZ2ZLUVVzUGdlT2JfME1HTXJadk45TVhBUUVITTJXQW5fdzYzZGY1WnN2dXNvUW9adXQxLUpmVDN6UQ?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c61757ffd2457832",
+      "published_at": "2026-09-16T02:35:00+00:00",
+      "title": "House votes to limit Trump's power to strike Iran for 3rd time, as 7 Republicans defect - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPemFWRzlJa1NQdVdadlg4NW84NFJXaGlybDJfTDYwWkV1WjE2VTFlZGxxV1pTZjZ6UWtQa3FkODEwQWpXaV9UeVZBT0JzVnZfTDgxUDUtWHJtNlg5VVg4QzNJZlk3RzExMUppcXN6N0JKUUFlSEtKeWxIdWw1YzBMSTZZa2hUOG12UHc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c51435f2ba23ebe4",
+      "published_at": "2026-09-16T01:28:43+00:00",
+      "title": "Vance signals \u2018much different phase\u2019 in Iran war within 'couple of months' - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLU9NeEhPUkpoNVJPTmg3LTJWZG1leVVWQTBkNHdBMVpWcnkzM09NdE1LQXlTdWpDdGtCTFE0WUQxQUEtV0xuZ1ZzaFEzNkxrdDI5UXhMQm0tZUZmY3JLMkZIa2pCUVQzeHlkMUZZWDhaQVBGYWxZQ1JweDdmS2VWVk9UcnRoUVp0X1lHTVoxV3liaWd4ZHc?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6436fdaad3bc5cfd",
+      "published_at": "2026-09-16T01:06:22+00:00",
+      "title": "US VP Vance says Iran war 'will end immediately after the election' - report - jpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WNWtVZktuelp2c2NNeFFGMUdmY3BzdGJaV19Dd3pNaFhYVDFxZG8ySTB1QVd3bFZfOWNZYzl5Z2hldXVENVFLU0FMUldOQnNMUGM2TFpFYlFLb0V2VHZUamlnOFE?oc=5",
+      "source_name": "jpost.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cb510c56fa6039de",
+      "published_at": "2026-09-16T01:00:00+00:00",
+      "title": "The U.S. Is Burning Through Its Supply of Interceptors to Counter Iran\u2019s Attacks - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQck9yb19kRTZiOThmMjIzMG44RDBDQ214RHQxUEFnRm9sM0pIb0E0ZVlLNGNsZDh5Z3dxR2lhZEotY09ORnI5cDBPZjM1N3dQYk9yWFVxZ0RfN1pGQnRwcFd4Ukk1ZFpxcmYtMGRTdnFkV0oxSjAwakYwWnRfd2x2QUlWa2VfYWl4N1dIWnBPcDNoRFhqYkdfNmxjd19DOUZEN0ZYUkpnMVRBbDUyLWkxcmZXWmtmOVZrQzhqbHQyekpESHc?oc=5",
+      "source_name": "WSJ",
+      "event_type": "intercept",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 2,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "f41fa60a4c0c8a8f",
+      "published_at": "2026-09-16T00:57:22+00:00",
+      "title": "Iran war increasing inflation, straining US munitions: congressional report - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPQkxVbTZwTHBPc3ZaTFhWcTduWVZ0U2hjQ3hHek8yQkVhazl5dXdCS1p6WGJnb0JnclJlU0d0MkJ4OHJIc3dOWVZIR3dTZWRma2taSGlsVDYzT0xqaElvZ29EMzlYcC15SEYwMXlFMF84TkRMVE84MW16c3JnWVM3WlpHVHZVXzJtVlVUZ1M2enpOQ0NvdXd6RHVWUzdITE1Sc2xQVlF4cWNINFZMMTNYQURnT0rSAboBQVVfeXFMUDBUU2RHREliYVljZjNCU3FVcW1md212MF9hV0xOVGdhYXU5blB3OUlJUFNKSVpQVFBTS0p4am4tUkhvamVERjctZzZfdlJzZFJ5TkZ0LW16SkFKX2NzQURfd3RpUDBEbUptbHpIYUJiNVo1MGRkX1hyTm5VRW1vOEQ3OFc1UDFmdnM3M09EYWdwWFdkWkVhSk1GX2hwMGMzc0dvM3pjd3ZJRzZSREJhZUdmeFRORTFZWXp3?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "486c4ecf0b2bbd44",
+      "published_at": "2026-09-16T00:07:56+00:00",
+      "title": "Iran war updates: US says Saudi pipeline to resume as Yemen fighting rages - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTjlaYWFaQXNPbFE1Z3VwTXFPNUtkWmhMTFJ3YXk2MWVIUFV4ZnpNQkxFaEhwNjREWVlBVWktYm0zdDRJZ0Rhc3IzNkNRVzFQbG9VMWI3VExxOFFJSzhXZzdGV0tfWnlrb09xV2c1NjF5eklyYUI5eWpPMkJyRjRoT0J5SmNNZk9ubWk3UHZLR1hjeWJCX2dwVEZnakxQRllFb21teFd5aE5Cc0hEWnBaMTNrY05kcnlRaXZV0gHAAUFVX3lxTE51V3J2YldvbldYcHRSUFRlSVpuZzlYbjRQbWJwSDJzd255REhySHN3U3lrdHFjNmhfclNZSEcwXzlBVW04VDFYQkdnMDZOMjJCVzZOZEdXWXIydl9seEp5RU43NVd1WGF4WjZ0dmFENlpyLWJvVHJ3cV9KSFp3Z1U1eGRWYS02NnkyWG5zdlFhTjJYS2xzWmhvQ1VSRlZFZHZnbjJQbGlYREpUVVJGWU03TXhzMnVqWWJfeEtNUEFnaw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "bf97f0ecba909396",
+      "published_at": "2026-09-16T00:03:52+00:00",
+      "title": "Pentagon Inspector General Details U.S. Losses and Challenges in Iran War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNnNCQmRnaWpmUXJsSTBYSFhuMm1XWldQMjBKVHgxSW0zQ3R4MHJfYUkxbklibVl1UVZwYWY4OU5SN2tYNjFKNDJiQUFhRGhlN3BRamhwQUdNS05vYVc1SFdwaklHa3FOT21QdjJJelhsZTc4NDVpNmxnZUVFTVpuSFZkTjdibklQRjlVN0VhZUo?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "b759eebef6424c81",
+      "published_at": "2026-09-15T23:14:34+00:00",
+      "title": "Iran-US war latest: US military facing weapons shortages after dozens of aircraft destroyed as cost of war hits $33bn - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNd3Z6R252azgwM3M3YVlJdXR4TlhDZXpXUWVBVlcycTZKbXYtQ3BLWGpiaHh2OFB3NUQydW5lZHJ4dHZYUHlHVC1xUVpKVFl5NnFCSnVlaWRpNmVsWWV6U1QtMm81SGdwd0dySl91RWh3MU5qc1c2UDFKRGQ1YXVwZGhkdHFOVmNYOUx6UUl6Z2lnZDU4MTZxdmVlME9uTW5pVlliMml3b0JWSVU?oc=5",
+      "source_name": "The Independent",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "07d03b1eb6518c13",
+      "published_at": "2026-09-15T23:01:00+00:00",
+      "title": "New images show widespread damage at U.S. bases in Middle East after Iran attacks - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUTl1VWZ2VWFiekdIQmIwVFpsdy16eEFsRGY4NUZTY3drVUNJSDQ1SkgwRTVGVlV4cE5MS01sY0oxRDI4T1lMNk5hSDl1ejl5d0Nmc3BkZW9NUFlmSWI3WlBSLUJJYllsNEl0eFVvSXRSUUc3NkRCbzlIWXVLQ2dseWJkWUJtTlBBbFdZN2gyRXV6eDFxQWwtXzYzRHFOcnplVERwX2FkSWtLSUNRNXdGcw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "1c9fe25b173f6dc1",
+      "published_at": "2026-09-15T22:22:00+00:00",
+      "title": "Vance: US-Iran war will enter 'much different phase' within months - Israel National News",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBhQS1ib0pzRDFhX1JPWGZVMkg3QjlfMnpySjAwVmNxcDdQZGt1cGhvYXBJQ21iOUdUZnU5blU4Rmc1azNscUo5ZnV1LS1LTlhObUhXdVNObndwZw?oc=5",
+      "source_name": "Israel National News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ef3cb37d64f0e020",
+      "published_at": "2026-09-15T22:00:00+00:00",
+      "title": "The Iran Blockade\u2019s Growing Price Tag Is Draining America\u2019s Global Military Power - bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zQWJnblFpYnExUllUVGRiWUNPN1RJTDRqR0xESk5oay1QdDRDbXUwMzgzVGllcGR6Mk9Cb0hRMEsxN1c5WW1mRENFa2o3YzctWGhNZXRHT1dXZG13Y1ZxbzlQd1RDUFFRX1VreGtR?oc=5",
+      "source_name": "bloomberg.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "b03d5dc51efd67c1",
+      "published_at": "2026-09-15T21:30:00+00:00",
+      "title": "Iran War Updates: White House backs Hegseth amid impeachment effort as new details come out about war's cost - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7d898772792dbe8c",
+      "published_at": "2026-09-15T21:26:00+00:00",
+      "title": "Pentagon watchdog says Iran war has led to munitions shortfall - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxObDJMMGxRblFITlJtQllWa2Njd1NvWnZXejVlVmRXQjd1bmstSWU4Ykd5cjl6RzRvaEUyYTZUdXF5VWMxN09GaHdWSmw1OVgxZ3JEdlJHWU5WeTF0eXVHbkNQQTVGTVNId1BtY0pJcFlJY0JjNU1MRFhfQ25SMkZqVWVHTHVTNmVzdEdkR1YxNkp6SldBUXA3NnNqdWZRMGJWaHE0eE55TGxFcll1R0dGVllGR09xZURn?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
     {
       "id": "7ffc20bda70067f3",
       "published_at": "2026-09-15T21:14:00+00:00",
@@ -112,291 +397,6 @@
         "iran": 0
       },
       "confidence": 0.8
-    },
-    {
-      "id": "680a35db047c1957",
-      "published_at": "2026-09-15T21:13:48+00:00",
-      "title": "Middle East latest: Iran gives Trump talks ultimatum - as Houthis say strait access 'free for all' except Saudi Arabia - news.sky.com",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQay1QUWdjbk42dWhUNUxJZWJEVjZpZFB0cF9FVHp4dXU2bnltTUt0MVFlWTFuOWJacHVCVHBzR3RobWpVTU0xejVnd0s5Z1NlSGpCaGZ6WU1zSi1qYmZoUFh0Q3ZvaFpJT09zSzlFWWoxMjRDdjhzWmJHdUkzZE1oRmF3THBmemZtU25VbkJHdUY?oc=5",
-      "source_name": "news.sky.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e1cdd427c6ff3cb0",
-      "published_at": "2026-09-15T21:09:43+00:00",
-      "title": "Iran war cost hits $38 billion, forecast to rise $3 billion a month, CBO says - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNEs4SmV2UTYzblAwenVTemk5SWQtMTRPbkpoLTVxaEVrYzBYNDJfX0RrSmVVZVZadlFBVnF0WkJNeGc5czMxVWREeDFtS0dZeGJ2V2tqSVg5VWM5UUFtN1hsMXlPX3g4d1RMbk5BR1oxcVdyYjBIaHg0bFl1SXY1dDMzazVEZlNBOHdCWm8zRno2Vjc1TEJ6ekdnQ25COEVkS3FVNHJmeWEyRVZJd2p3aF80RFlhZmVtREhQbkpIdw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "1649d7cc32ad3e51",
-      "published_at": "2026-09-15T20:58:00+00:00",
-      "title": "Iran war caused destruction to U.S. bases, military aircraft: report - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQS3V5cGNHQ3BNMTZBWmR1VGFmS2hkRHI5OVVDRzFCRUhjS3FLc0pmaDl1bkJBMUdiVXNsVzNIdzhCQmFBWlFJTVc3YWZjVzZpZDd5ZU81ZkFqWTIxWkZjb3ZiTDcxc1JUdHFLaFJmVlpIYUktQmNYM1dRN1lHWEUyaUJYZWF4NVA1emhSQ05LbXd0YjdXMk9nWERyWkE?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "409c6f0fb672f905",
-      "published_at": "2026-09-15T20:45:13+00:00",
-      "title": "Iran War cost $38 billion through July, report says - washingtonpost.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMkZrejJPakpDWHluTFctS3pQc2NiVzV4Ukg1RUpjTnZDSlhTSmk2aHFQUlowQ1k0a290X3ZWMmJ1YWU5ZjRJc09LWmphTzF2anh4WVZLQzgweTh0TjQ0SmNFTEdHTmgyZHBPejhETm1peGlmcG0wN21RTGY1TzFWZzZrMEZfYm9RQTdYYlFJSkV3ZzlRZkUyZXdwcm1ZQWNUMWtj?oc=5",
-      "source_name": "washingtonpost.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "0f25c0128348265f",
-      "published_at": "2026-09-15T20:39:47+00:00",
-      "title": "Iran war costs $38 billion so far, could rise by up to $3 billion per month: US budget office - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOckFrYmNPRU9NSks2WVBwbVJySHdKRDNvSV8ybzdSSkhnNXJDdmdvNTVBRHNKSWtpSGttc1Q4RnlQeEpURzhfZ3pCM0JmVm0wX1RjSjB6Y0ljYTQ1ZE5UMHJyYnZiOUNhaGFoUGl1S3h3c1c5Rmw2dS1WQ2tQR2toaHBtX2RFWWNFZWxLelBDLUZkM3J3VHc2MlhfM2VxX3R3MlZNVURncmJVLTd4WUNMa3BrS1NTWXdaT2l0WFVxN002MFRqSURrU1NIVklhbW5WeFZqZjhIdFY?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ec89c378740d5dc5",
-      "published_at": "2026-09-15T20:26:52+00:00",
-      "title": "Iran balks at Trump's openness to restarting peace talks - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPLU9NeEhPUkpoNVJPTmg3LTJWZG1leVVWQTBkNHdBMVpWcnkzM09NdE1LQXlTdWpDdGtCTFE0WUQxQUEtV0xuZ1ZzaFEzNkxrdDI5UXhMQm0tZUZmY3JLMkZIa2pCUVQzeHlkMUZZWDhaQVBGYWxZQ1JweDdmS2VWVk9UcnRoUVp0X1lHTVoxV3liaWd4ZHc?oc=5",
-      "source_name": "Fox News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "82ea22a214265246",
-      "published_at": "2026-09-15T20:26:41+00:00",
-      "title": "Independent Budget Office Estimates Iran War Has Cost $38 Billion - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UM2lFREJyVTNRT1pQMF9EVk9uRnNFNTl4OW9CMUJhdTVRbTNXTDRtNXZXMlRPZnlDcmVHMDhXeEozNVpuM2lQdTRJSGlseEsySVFBeWhxc3V4dElZLVJyc1ktS3JaMjNpcGduS1gzOVJGSmc?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "038f42470e524075",
-      "published_at": "2026-09-15T19:58:15+00:00",
-      "title": "What Is the Status of the U.S.-Iran Peace Talks? Here's What Both Sides Are Saying - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVUU3WUswTzNxOVJxNGRmQ2VhZFhxSDhkc21LMlJkVDJhMW42NlQ3eHhqWlJmRmhjdHVLZk9oUTF1eVBONGRGbTctWXRlamxwekZyeU1SdWJfU3U3NlVQc0d0TEl1d0tFS3cwX1Nyd2dyYzdRX0ZrZ1pMWjlXQjhmLV9PVF9qaVIxaVlBRThQVEYyMm9PbFF5X3NqamlzZVlvYjR5WHhfQ0c2X2s?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "cced4aa4314fc290",
-      "published_at": "2026-09-15T19:52:56+00:00",
-      "title": "Iran war has cost $38 billion, depleted two-thirds of US missile interceptors, CBO says - militarytimes.com",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxORk0zVHZuVDhTcmRiaWZMR21ldzRmN3BpTmxJOW1PX1B1SXhjbzJ0RmRxbGxJQnBfa3lwU0E4NVI0T1BCVm93WWFUbE1yTGJXaXRvQXR6OTVDX0VnUXJ1WUxtbHJKbnZmanBmNUxqb0xNTU43dGk2VU1oTkFfVG42NXJfSUFNc1dDREJFRkpIU2Zrb0dhV0N5VlNzak52ZGRqcDdway0xQnN5R2VVSks1dDNmc0VHcmw5WW5kZ2RJTGFpZ3FVeXB2enZtSlpobEh5aFNrNndWQkhlYmxZd1E?oc=5",
-      "source_name": "militarytimes.com",
-      "event_type": "intercept",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2d82f598aa5ca9cc",
-      "published_at": "2026-09-15T19:44:00+00:00",
-      "title": "Iran war could cost $2 billion per month, Congressional Budget Office estimates - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObUhHVE9zVTFpYzRVX0hvZ0ZOT1JDQm9CV1N6VG4xeS01N1h2d2VGa2tRSFBMLXp2ZGVIdFVveVVZYjM4alp1dDlpUVozOGJIX2JCWHpSX09IbVBJMnpTRlp6NnlWdUFBZzV2TkdROUhUbDgxNjRMbHRMUEtCVzZxZFJRVDVFM2xRUVR3a1VJZ3loYURIRVE?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4ad6f3c0fe71df7d",
-      "published_at": "2026-09-15T19:31:00+00:00",
-      "title": "More than 750 US service members wounded since start of Iran War - KOCO",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeGxubmF2dU5XdXZvWXBDWE1VeXhwbDhURHhxZk9yTEtjZTdMNVZ6ZEVXR1RCSjlJRHlPY2ozUFc5VnQwNTdJZFQ5VTdOM2xBT2k1V1lfZVFxZjNEYk1qcjBEU05HN1pnbFhCbUgwSy1KU2RJRjhHb3Z1QklEXzNBZEZvVQ?oc=5",
-      "source_name": "KOCO",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f8ecb728fb6084cf",
-      "published_at": "2026-09-15T19:27:00+00:00",
-      "title": "Iran war has cost taxpayers $38B \u2014 and counting - Politico",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9DZ2txYXByMUlubURKS2Y1UXA3dlp2UFFEOW5RTWFxM1BKNHo4VEhlUHdOaUlESjdwbGd4ZDFkNlRfT2lMZEhNMHNnQTVfcmVlbXVMbGN6OEJWNGF4V3d3TVhqT3Rva2NzNDFVcndfQQ?oc=5",
-      "source_name": "Politico",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5a9fcf9801195843",
-      "published_at": "2026-09-15T19:21:14+00:00",
-      "title": "Iran war live: US says Saudi pipeline to resume as Yemen fighting rages - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOTjlaYWFaQXNPbFE1Z3VwTXFPNUtkWmhMTFJ3YXk2MWVIUFV4ZnpNQkxFaEhwNjREWVlBVWktYm0zdDRJZ0Rhc3IzNkNRVzFQbG9VMWI3VExxOFFJSzhXZzdGV0tfWnlrb09xV2c1NjF5eklyYUI5eWpPMkJyRjRoT0J5SmNNZk9ubWk3UHZLR1hjeWJCX2dwVEZnakxQRllFb21teFd5aE5Cc0hEWnBaMTNrY05kcnlRaXZV0gHAAUFVX3lxTE51V3J2YldvbldYcHRSUFRlSVpuZzlYbjRQbWJwSDJzd255REhySHN3U3lrdHFjNmhfclNZSEcwXzlBVW04VDFYQkdnMDZOMjJCVzZOZEdXWXIydl9seEp5RU43NVd1WGF4WjZ0dmFENlpyLWJvVHJ3cV9KSFp3Z1U1eGRWYS02NnkyWG5zdlFhTjJYS2xzWmhvQ1VSRlZFZHZnbjJQbGlYREpUVVJGWU03TXhzMnVqWWJfeEtNUEFnaw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "8dc3ceb566ece4fe",
-      "published_at": "2026-09-15T19:06:38+00:00",
-      "title": "Iranian strikes damaged hundreds of US military buildings, dozens of aircraft - militarytimes.com",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPMXlmQzNrdGJacjYxUHlIQ1JYTjRfczEzR2Q2cjZaejNqNVA4ZlluSGdoMTFNalotejBQQnI2Sm82a2NBSUNBSVF1VU42SUx4X3FoSGU1RDhFcFVxTWRIS0Rsa0RNUng2aTk0dmNCdUxBc2dWQ09NOHJjM0V2OThaUHFVTXZkbUtxYzlEbS0zSS1FM0VHT3VPaUtZUG02MjB3QW9WYTRRd0JWN1lHOExoSW81TC1FajNPb2ZhdUY2SW1UM1BlaFg5bkpyYlF5TnN2bTJpcjNjTVA?oc=5",
-      "source_name": "militarytimes.com",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "3929dcf643b42b7c",
-      "published_at": "2026-09-15T19:01:51+00:00",
-      "title": "Iran live updates: Trump says US 'open' to Iran deal, tanker hit in Strait of Hormuz - Yahoo",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTjhjRzJZSzR3WWxvNzVNQ2taejl1MTNDcG4zV0E4ZktCUW0wQUlyejREZ21uUmZhOG9jTmFhdWNNUHpDV1VPXzIzRC1kQzJnazJUdG8yMlpUSng1cG5GT2cwVVVlZV9JRkt0dHFiSEV5SkI3MkZKdFZKQy1OYng1SzBSeHd3VjYwM3hnWDZwT29HUQ?oc=5",
-      "source_name": "Yahoo",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "37883f26be49b2d2",
-      "published_at": "2026-09-15T18:57:00+00:00",
-      "title": "Iran war has cost the US more than $38B, budget office says - AP News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSlVudVlJaVNXS1VsYmhrcERoX0RMS3hueWJDektSZXlfVW5YRUdUSm5HUS1WVElHUEc1SjgyOUhyQm5MSVpxOXFOVnFhUEVnZkdkenE0bDAtV29OS1lFNG5iZl9wTENjQUZkOURzeHV3LXRRejYySEZVM1pxcVI0WkcwTDIwTThK?oc=5",
-      "source_name": "AP News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8d674e8ff95f454e",
-      "published_at": "2026-09-15T18:50:55+00:00",
-      "title": "Iran war costs $38 billion as CBO warns of higher inflation, depleted weapons - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObjVDbU1sS21tb05haFVjUDkxaW1yS0NPcEhjdzAzbnFmTWJFOGs2UFh4RmVoSFV0S3JxTUlxbVVpUUdzNmEtMWM2QmdSVS1tS2ZBdGhwcnRQcDNDTDg0eWdlTnF5TFJfb1NvNFpRcVRfNmdCMy1HTVEwUjE2LWNsU25vdGl6bFdmZ28yTXFxN0F5MXF10gGaAUFVX3lxTE9hNnphTWhRTmJRVUhIa2d6ZnpFQk9pb3NOcWRZc2dtRUtfLTFTbkNCNEJ6VG5KRzMtS0VZaGR0VGlVemE5eTFacW1XeEdBVU5ITU5mVS14MFpiVTdnZXlZRC1ReHJTa2xkVVRtWXFPamFuQnF2QVNQU1Q3dEtoZmhLZDBQR3RDLWZBWWFjcV9rVlJRc01lSGprSGc?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "63701bcb465e719c",
-      "published_at": "2026-09-15T18:49:17+00:00",
-      "title": "Iran war driving up inflation for Americans, CBO report says - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNajZheUhzdWlQX0M5dnp5bnAteWMyZWNCbTdpUU1qWllFd2NxTkNYV29OVUNsT3VyRkVCUG8zdWpWdUU1ZXBzNW95RklLWUhwVUlvTlBUOWVnbVpyaTF2aF9QekJtWnJZOGlCS2djNkpVcEFCeDNZU3RneFRoNHg2VWJUZTdaQzNMcjc3RXVhbGlucnNlY09aZGJmY0kzLWJWMFpVVUl3SUExZ0d4bm1JRmdVU3g?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "6fa88c2d9060b217",
-      "published_at": "2026-09-15T18:46:18+00:00",
-      "title": "Iranian strikes have damaged hundreds of structures at U.S. bases, watchdog says - washingtonpost.com",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWHVUdFB5Z1ZSVjdYUFp3NkJDNHdQa2M0ckdvWGNRb3E3dUVLVkp6djlUeXlvbVdGTHZZbnZVazZDOEw3dnFDTGVnQVRyV2VxZEhBWDdGS3JoTUFTMVVEcjg1dHlWQWFXbUJsOGtYQ21mZFVwLXByVWNLLXFWNWpMbm5HdElBRWZnRldTZVVlQ2lSN1dJYWxsSlE2VFRZblh2X2tjWjBqbklIQnFaSmVLZEZDZklzM0ZpYnJFYmlNRmo0Q3hlc2RrYWtHSQ?oc=5",
-      "source_name": "washingtonpost.com",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
     }
   ]
 }
