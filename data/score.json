@@ -1,36 +1,31 @@
 {
-  "generated_at": "2026-09-16T21:22:35.532918+00:00",
+  "generated_at": "2026-09-17T04:58:23.961097+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 112,
+  "event_count_window": 108,
   "totals": {
-    "usa": 48,
-    "iran": 38,
-    "lead": 10,
+    "usa": 51,
+    "iran": 40,
+    "lead": 11,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 13,
-    "iran": 31,
-    "delta": -18
+    "iran": 29,
+    "delta": -16
   },
   "confidence": {
-    "score": 67.7,
+    "score": 68.9,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 57,
-    "other": 39,
     "diplomatic": 11,
-    "material_loss": 3,
-    "intercept": 2
+    "other": 37,
+    "attack": 57,
+    "intercept": 2,
+    "material_loss": 1
   },
   "history": [
-    {
-      "date": "2026-09-03",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-09-04",
       "usa": 3,
@@ -53,7 +48,7 @@
     },
     {
       "date": "2026-09-08",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -84,39 +79,89 @@
     {
       "date": "2026-09-14",
       "usa": 3,
-      "iran": 4
+      "iran": 5
     },
     {
       "date": "2026-09-15",
-      "usa": 2,
-      "iran": 10
+      "usa": 5,
+      "iran": 9
     },
     {
       "date": "2026-09-16",
-      "usa": 5,
-      "iran": 16
+      "usa": 2,
+      "iran": 13
+    },
+    {
+      "date": "2026-09-17",
+      "usa": 0,
+      "iran": 2
     }
   ],
   "latest_events": [
     {
-      "id": "a4940feab5d5f209",
-      "published_at": "2026-09-16T21:04:59+00:00",
-      "title": "Iran strikes US-contracted vessel - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52eUFTcGdLYkttUl84UXd1T2Q1aUw5N1FEdGE4X2Z5QS04SkJfakYwSXFqRWI3Y0ZWSXVYcXNNRU1qX1ZMSlFEa084OUNjeEp6YkIzNjRB?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
+      "id": "a5a1d82aeb11f56d",
+      "published_at": "2026-09-17T04:10:40+00:00",
+      "title": "Iran war live: Trump says US nearing end of war, claims Tehran direct talks - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVHB3aXFTV0ljVmRIR19sOXZVMDlhS0dIUmEwekRvNWVRUWlBU1B4TFA1VWpsT3h3em1FUGlsQnllSFhpWXBWbEFKX2N0VTRMQTdvV1FqMWR4RWN0WUQ3QkhvczRYaGE3MENaMk5QLWFqZ0JoQVZZSU5jaGJjRjhVc1lfdUc0V0E1RUZGX0cxZDBaT0lxX0pVb2tDaGprX2NHTXllcmlYQnpWbDVZXzBZYjFCa1piemxQUUJ6V1JMcHfSAcYBQVVfeXFMTWlGUFhlT3NpcFFfOXpjMWY4TTVIcHB5ekZDWDUxVFdkbWQtY1FXajJndkN0YXhBcTRXV0RqZWlJdk5Ia3NKQURZNlBjamJEMUxQVjJfVGpEc1hMOU1hWjZiTlJ2ckVycDM1RDFET1dha0x5VmpoM2JmSF83UTdKRkdzb2psTnBWeTNjNTR2V0VMcEk4a3dCY2cxUGZZdTcyTDNBZ0xFWnZxTFNJV0s4Z1k1X3NCR3pkc2VyS2xKWFJBTVVyTFZB?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "baf2694e089b8ebe",
+      "published_at": "2026-09-17T04:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE16UGs4a21mWVJCQ2dkalNrUk9JZzNyNmdHQ3VQMlcyeG5RcDI0RHNoSjJoekhQN0NqLVo2MjRkX3hUdWR1YzJPRy1qSVZSbDNSaDN1RE9PUEtzVmdodVRmWmpyNFdkY1NtYm9sQ0dKRTVfbnlnci1EdW5ONkNhTjA?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.55
+    },
+    {
+      "id": "0e4a1b71c680e4fb",
+      "published_at": "2026-09-17T02:05:21+00:00",
+      "title": "Iran-US war latest: Tehran vows to fight on \u2018until the last drop of blood\u2019 after Trump talks threat - the-independent.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNZktjdzZic1hFX0xzTy1MbHFkZUFFRExzYmpBRGRNa29KXzgxQW4yWElBc1BrSTdzZUJlajRTYzRxR01DbjkzX3A1VXdyZkVuQVNXLUFzQ2w0SGMycDJkY2IxYXBUeXNVSGFPYlVTYUQxbGRxQjVZcTViQkx4NTdydVJSRW5mMktGcWFjUG9ZQm0za1JKZTlHcjU5bjYtUW1XeEMtdjNrLThEWEp3WHBCeDRia1Q?oc=5",
+      "source_name": "the-independent.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
       "confidence": 0.65
     },
     {
-      "id": "9fee6dfd60c3c2b4",
-      "published_at": "2026-09-16T20:49:45+00:00",
-      "title": "Iran war live: Israel shells southern Lebanon as Yemen combat escalates - Al Jazeera",
+      "id": "67f9560bc52842f7",
+      "published_at": "2026-09-17T00:47:00+00:00",
+      "title": "Iran War Updates: House speaker declares Iran nuclear issue \"taken care of\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3c0732adfbed5ba4",
+      "published_at": "2026-09-17T00:11:44+00:00",
+      "title": "Iran war live: Trump says war \u2018toward the end\u2019, claims he spoke with Tehran - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNa3QzUGUxYjdPU1JjbDBHUkY1UWFISWxIZ2YxeVk1N29WOG1ZdkszZEswZHdtempBRFNXSGJFcDBJZUpsUjZQTEtaTFMyZHp5Wm5oOTdfY24yS1E2YWpvejNhc1JXUDlNbUhBQXQzVUlVMGdIZmpiX0VqeXZaZUF1ek5fWVZsZFBSeGNkeWZ2VmllN05icFNaZWhmU0dkaUxqV2ZMZHBnMGo0eFJaZnQ4UlZac9IBuAFBVV95cUxNOVBwZkNVQjRaYlhQUUk2UGJ1MFM4QU9nQy1xSmVycTJPbnJkakFBQlN2MG9paXFYVU5pUzVzOEdYZ3ZCWUxvWjEtUWxEZHYwOGJ3RlFrUE42U2pBTFBHLVh3VzZLejVLcm1tUE84aklZdEdkS0x2VTg1ZEJRYUxfRS11bVJ4Q1h2Y0FGYmhKNmpwRlhnN2E5WjUwd0RkTUhINi01Qk1KTUtRLThPeFdKU3ljVDFTd2M1?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
@@ -129,11 +174,41 @@
       "confidence": 0.55
     },
     {
-      "id": "3e6bb585734e369b",
-      "published_at": "2026-09-16T20:24:07+00:00",
-      "title": "Photos show damage to US equipment from Iranian strikes: Report - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONk1BZWhVSlRGaFNuLWNYVmg4NlNxVXZIRGxCbTFibkd3X2NsNE8zN25INEVvYlFEdjNra0RYRDA5QVY4RFM2VENYZFlfQnhxR21iUGhFZGl5bzg2T3ZJZ0tkOVpyelpPRDVyRW1YejJ2b2FmR2h3bVlmaVlCNkQ2bDVLOEs2a2NaMEZQeXlQd9IBlAFBVV95cUxNZmIxaTB3akd3cUpwc01rVHhfZ0NsMGlpdWpvekZESGpaRnBabS1ZNEdHd2hBUE80TjI5OU1qeVRxV0hVdkZCZkhsSGpBVHhxZUkwMGtaZ19pelV0YjFLTnl2TGFUSjF0NkZmWW5JcmJuVzZtX0ZlcXBlN2MxUUlScDFiY3hGdkRtOWxfVHdzSndXanA3?oc=5",
-      "source_name": "NewsNation",
+      "id": "2405682cd1daead6",
+      "published_at": "2026-09-16T23:42:18+00:00",
+      "title": "US-Iran War Live Updates: Trump says US is 'hopefully toward end' of Iran war, claims direct contact with Tehran - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTVRWQ1NvT014WmxYN3c5R0VrQVNVOFkyNVg1S1dwVTZCVUMzUnFsTF9LclIyckRkQ05BaEwtY2FLMk9yRVYwekNGS2FjTHRUSTJ4ZGQ4MGdXQlpnTUVtX1ItVDFVSmtQanVPRDRMdlBBX0V2Ukl0YVhTQmg2ZFJTMEZ0TE5jRXF0Mm9GLVpCNTZVSFd3dmtiZjlfUHFuV1FaUVZIU213V01TYzdyR1VET0lCZ09ndWhzbUZVZm9YYW9NaWJEWXhEeDlZN0R2TXdEeWUyclFyeVFicElPZXBJakQzdmpzRU1NWEpjZVptRk1BSHJzbW1yc1B3WDhiOXd4TFpMaHF2aVRNRkp2bkdBVnNPZjJBaU1sYnlBVXFFVHgzbTV2M0N0atIBrgJBVV95cUxPY0ROemNvSVNFV3BNamdzQ3dIeHdtYjdPVEZHZktYSXE4VFNtZGNSWHNtQlFmdjNoY0R4RmMxOVhMdjQ3ckxMWXJDZUtfMFF6VXRqdllBRHRUU0xJX21JVEtwUEl0VGVMc3hyeFZlQTRsYXZmWUpXR2VKRUZJODFTYzEyN0Nqbk9Gdkg5bG5Ba3c5WV9PRlFBT3BuRDBxdVNCdEhZdmVtSXItZzhNSVllZ1FCSUFKSTlEdjhOT3VudS1oUWtDMEx2cmtORml3Wm5HalNsNTJmTkdWT2Ftdlgyb0VOZTlnTU1IY2YtSVRha1doa1VlZ2ZLUVVzUGdlT2JfME1HTXJadk45TVhBUUVITTJXQW5fdzYzZGY1WnN2dXNvUW9adXQxLUpmVDN6UQ?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0120fdbe78e70876",
+      "published_at": "2026-09-16T21:24:24+00:00",
+      "title": "Watch: Leaked photos reveal extensive damage at US bases in Gulf - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lVmFYb3RzbS1QU3lMOENoM0hvT3FNeFdRMHlFcDNvYVpvQjJVQzJPUVVJMjg3ak5pNjZ2bFNJT1dXM3VnSHFvY2NmbTFTSlVrSWhPRG5Qcy0?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2fadeed705be8cfb",
+      "published_at": "2026-09-16T20:12:22+00:00",
+      "title": "Report: U.S. Personnel Injured in Iranian Attack on Boat Near Hormuz - The Maritime Executive",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPbGlFUHltWFVqOWlrSEJhRW5nWC1PSnEwX2pyT0tKYThkSlZ5ZWlIRVRHSlhwS2F6ZXZZRThwSFRmWnQ5SlNjNE9fU3AzcWc5Q0FKeVczMlI1SmNLQVdWVEJnZGRfY1pPeGNiM0JuRmFrRGdpaDVEQ0ozY0JfNzZDWEZIWmVNb0RiV1dvMXl6QnNZajktRVhkRzM5TVBlNzBYSm1EY2NpNHY?oc=5",
+      "source_name": "The Maritime Executive",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -141,22 +216,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "b73bc3aa0748dd32",
-      "published_at": "2026-09-16T20:08:28+00:00",
-      "title": "Middle East latest: Iran gives Trump talks ultimatum - as Houthis say strait access 'free for all' except Saudi Arabia - Sky News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQay1QUWdjbk42dWhUNUxJZWJEVjZpZFB0cF9FVHp4dXU2bnltTUt0MVFlWTFuOWJacHVCVHBzR3RobWpVTU0xejVnd0s5Z1NlSGpCaGZ6WU1zSi1qYmZoUFh0Q3ZvaFpJT09zSzlFWWoxMjRDdjhzWmJHdUkzZE1oRmF3THBmemZtU25VbkJHdUY?oc=5",
-      "source_name": "Sky News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
+      "confidence": 0.8
     },
     {
       "id": "186e132592479e58",
@@ -174,26 +234,41 @@
       "confidence": 0.8
     },
     {
-      "id": "de2c149d6e461187",
-      "published_at": "2026-09-16T20:05:21+00:00",
-      "title": "Iran-US war latest: Tehran vows to fight on \u2018until the last drop of blood\u2019 after Trump talks threat - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMXhhSV9VWk1WTFloaXNKWDR1ZzVFdkdpOHQ3MDBJcGlnY2NzSGpadDR2LTJCay1xX0daRU83R2VGaXJuMm1MVDVHNGlUTVJzMEhvbXE0RjltZzZzSFdIVlB5Rm5jdlpuMEtZNHc3NnR3NzBVWnE4Y1hoTmw1VXN6ZzVpXy1KVmF2bDE0M2RaZkRadlRXeXptM2F5Z1BZeXJrbTk5dTBaWXdPMGdQeFZ5QjRB?oc=5",
-      "source_name": "The Independent",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "5dba7f19daabf067",
+      "published_at": "2026-09-16T19:56:21+00:00",
+      "title": "Iran war has cost the U.S. more than $38 billion so far, budget office says - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxON0w5T0N0a2JNYkg5aTJQd3pYUmZicGVsZ2RpZHpCX3BwQnpzWXIyZzJWb2paaC1hNVhnclZHa21McjZ4dGt3TkVDTElUbFdlTDI1WnBVS2tpNWlIckhsQXVBOFVST2xRWGIxcHBKbDFIcWNEcDR0dk5VZVVYMkptdGxKMFk5cFREOFZPbVFwbmF1MmduejVJbDVZaEE1b1dTV0JVWk1ZMkl4NFXSAbABQVVfeXFMTll0T1RfZTU1d2JmOGVXS05kakZsLWdHbUlHRmk3bGxsLWZpN3VSNnUwUENFeTRxelV0bjM3NF91OGVVNWhsLVJvTDVnSTMzTWxjV3pEYmRoajQ4Ymt6WDFrd0hyT2JSZUxJU2E3dEFWR21ZQ3N2YzluU3h4U2NaMEZMY3JwMkMzbDRORmNjM01CZHpUY3FienNpYVVuWkUxQno0WDltVTdRVTJMbTNMOWQ?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
-      "id": "83bf4a306fc6210d",
-      "published_at": "2026-09-16T19:45:00+00:00",
-      "title": "\u2018Sitting ducks\u2019: Military families live in fear as U.S. troops face undisclosed missile attacks - MS NOW",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMlUtTWN3SDljUGNvLXpXQ2FkR3JHVjY4eFJ2VFVIa3Y2OUt0djJCdjZqdjQ5OG9jYUlOSmE2S0pfeFM0N3p6Ry10eWtFRkpXUGI3cTliUW1uU1FveGNnd25aVnpSZUJiUDlmTTFBY2lDVF9LSTBlMmYzSGltcnVRcG00UVRpX2c?oc=5",
-      "source_name": "MS NOW",
+      "id": "f83bd0cceade0329",
+      "published_at": "2026-09-16T19:14:51+00:00",
+      "title": "Iran strikes U.S.-contracted vessel - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcFBjUXE0RGtkU0RIXy13YUFJRUZEZ3hXUXp0SHNvMmdScW5WRkQ1cUU2NE5vYlpDWk9UTlM3Mm1vX2w2MWptMWFTejhKXzRoS3dGTjFzaDEza0k0bjZGbUxzbFhGY3JDUkY0aG9pU3c4UWQtT1V3ZFM4Y01MRGxsZmhHVTR0ckZz?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "3e6bb585734e369b",
+      "published_at": "2026-09-16T18:40:14+00:00",
+      "title": "Photos show damage to US equipment from Iranian strikes: Report - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONk1BZWhVSlRGaFNuLWNYVmg4NlNxVXZIRGxCbTFibkd3X2NsNE8zN25INEVvYlFEdjNra0RYRDA5QVY4RFM2VENYZFlfQnhxR21iUGhFZGl5bzg2T3ZJZ0tkOVpyelpPRDVyRW1YejJ2b2FmR2h3bVlmaVlCNkQ2bDVLOEs2a2NaMEZQeXlQd9IBlAFBVV95cUxNZmIxaTB3akd3cUpwc01rVHhfZ0NsMGlpdWpvekZESGpaRnBabS1ZNEdHd2hBUE80TjI5OU1qeVRxV0hVdkZCZkhsSGpBVHhxZUkwMGtaZ19pelV0YjFLTnl2TGFUSjF0NkZmWW5JcmJuVzZtX0ZlcXBlN2MxUUlScDFiY3hGdkRtOWxfVHdzSndXanA3?oc=5",
+      "source_name": "NewsNation",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -201,52 +276,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "8c6c19e20c74531d",
-      "published_at": "2026-09-16T19:19:36+00:00",
-      "title": "US positions across the Middle East have been severely damaged by Iranian missiles: report - WSET",
-      "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPVkpSNnBGMEFoSlVwVDhkSGJ1ejdyUFlkQUdEUVF4aGxPR3VwZVRhbVIwX2VIOUcwOW9NdGREZmJPOTZlQTFmcVRYSWVDaEpZYVJrQkRleDNXdElid2lwLXRfa3A3cThKRFJ2UHFsWTVrbkVxY1RxaUVCZW9ja2Fxek9QbHFkUUJQUmRoWC1wbDFEQ2c3X1NiVmw1SmRMQmw2MkhaTW9fYUQ5bFZBRGt4Z05fQ3p1YzZ4TDhOMzBKZ3dDV1E3TTE1akpsZDhiWXN3R21NQl9FQjFqVE5felpIcFV0bnVSakFOWGlEUXEzbF9NWTg?oc=5",
-      "source_name": "WSET",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3f7e9faa3f4151b5",
-      "published_at": "2026-09-16T19:00:00+00:00",
-      "title": "Iran War Updates: House speaker declares Iran nuclear issue \"taken care of\" - cbsnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXp0eWtpUmdlTkZzTzBhcTRLYkpaSE1vWEFIY09xR3JjcFhYRVhoMlVjcmJYVWdROU9WZENBNEt5NXVncjBmaXA4R1FVRExBOGNVSlVxV0FZYzl1Q3RnNGVrdEpncWFqNVZBQ2gzZnYwbF9Sa1g2Z2R4Y2Q1RHpVbTNB?oc=5",
-      "source_name": "cbsnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "fbe2d48dd66439ad",
-      "published_at": "2026-09-16T18:56:20+00:00",
-      "title": "Iran war latest: Saudi Arabia warns of 'red line' after Houthi drone downed near Makkah - thenationalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQV3N5enJjeWZOMHp3d0xqVDd4YXIyWEJ2aDJ4Y0IySFUyTC1MUjFnLTRZRnVRSmZkTFczcjJFRXltSjRmc0pXTXhXTkRQUS1mYWZMaHdhMXp6UWVGMWtBRS1iNzRvb1FJMFNiVkZhbnlRUXVaTjNBdXZWMmlvckFweXZOVnZGZw?oc=5",
-      "source_name": "thenationalnews.com",
-      "event_type": "material_loss",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "80615b44e940be18",
@@ -261,7 +291,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
       "id": "cd62e51af34dbd58",
@@ -279,26 +309,11 @@
       "confidence": 0.8
     },
     {
-      "id": "db48aae9e5a64b91",
-      "published_at": "2026-09-16T17:58:48+00:00",
-      "title": "Saudi Arabia Calls Mecca a \u2018Red Line\u2019 After Alleged Houthi Drone Attack on the Holy Site - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOdW5TVWxYUEt6ZG1Ua2F3XzBjQkx0NzNwcTZMc0ZlZU5iMjBDVWVBMUJXTHY2RG1EWmNnVkdneHE0OV9udXpWbWZiN1E3ZENOT2t1MmRRajdZcE8wQkVNRkc4cDFCN2p1bUU3OFhJRGpsclByVFFaVWlJNmZGWlByOXVSLUdjQ2phZXdBMTk4aUVLUVpwZ3U2ZU50bXl6MVJEWXUxaWUxaWw2emRyUjR3cA?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "27c5766dbdf06509",
-      "published_at": "2026-09-16T17:33:35+00:00",
-      "title": "Iran War Live Updates: Iran not interested in continuing US conflict, foreign minister Araghchi tells China - livemint.com",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQYmJPd3RrajJWSWItdDJ3RjIyVGd5cE1mR1pLakZVdVJlT1BWazlwZzVjQV9DOGxzUnFiRmprdms4dlJjVE9famJnZTdOdHJSVUFOd2FwSE5kUWRjRXhOUDFqbW1RVVVMTFB4clY2Y1lXMW5FMkxoUGFndkZNZndJdXFhQmh4ZjhYeC1DeFJtRk5tUWRtR1JrNm5uUDBXQmpkR0pKV0IwdmpXR0JWbkNoeGJraFc0Z0xpdGt3YU9LMmJXbk9XQlVLVF9oOXVvUQ?oc=5",
-      "source_name": "livemint.com",
+      "id": "d4ff895f007d8717",
+      "published_at": "2026-09-16T15:34:26+00:00",
+      "title": "New Photos Show Just How Much Damage U.S. Has Suffered in Iran War - The New Republic",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qVEZ6dHo4cGVvNGZ2czFrZzl2REhoak42a2Flc1g2OXFKMzBDci0tSjBtRGcwLTVWUjFEajVqMGw5Ymo1Wmk5ZFlzOG5yYnp3eEtvWVJUcVJYY2pHNTlwOVBERTBPX1VrX19QbXh6MEc0QTg?oc=5",
+      "source_name": "The New Republic",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -306,52 +321,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "d4711598e8f5dd81",
-      "published_at": "2026-09-16T17:05:21+00:00",
-      "title": "US-Iran War Live Updates: Houthis claim attacks on Aramco facilities, air base in Saudi Arabia - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxPTVRWQ1NvT014WmxYN3c5R0VrQVNVOFkyNVg1S1dwVTZCVUMzUnFsTF9LclIyckRkQ05BaEwtY2FLMk9yRVYwekNGS2FjTHRUSTJ4ZGQ4MGdXQlpnTUVtX1ItVDFVSmtQanVPRDRMdlBBX0V2Ukl0YVhTQmg2ZFJTMEZ0TE5jRXF0Mm9GLVpCNTZVSFd3dmtiZjlfUHFuV1FaUVZIU213V01TYzdyR1VET0lCZ09ndWhzbUZVZm9YYW9NaWJEWXhEeDlZN0R2TXdEeWUyclFyeVFicElPZXBJakQzdmpzRU1NWEpjZVptRk1BSHJzbW1yc1B3WDhiOXd4TFpMaHF2aVRNRkp2bkdBVnNPZjJBaU1sYnlBVXFFVHgzbTV2M0N0atIBrgJBVV95cUxPY0ROemNvSVNFV3BNamdzQ3dIeHdtYjdPVEZHZktYSXE4VFNtZGNSWHNtQlFmdjNoY0R4RmMxOVhMdjQ3ckxMWXJDZUtfMFF6VXRqdllBRHRUU0xJX21JVEtwUEl0VGVMc3hyeFZlQTRsYXZmWUpXR2VKRUZJODFTYzEyN0Nqbk9Gdkg5bG5Ba3c5WV9PRlFBT3BuRDBxdVNCdEhZdmVtSXItZzhNSVllZ1FCSUFKSTlEdjhOT3VudS1oUWtDMEx2cmtORml3Wm5HalNsNTJmTkdWT2Ftdlgyb0VOZTlnTU1IY2YtSVRha1doa1VlZ2ZLUVVzUGdlT2JfME1HTXJadk45TVhBUUVITTJXQW5fdzYzZGY1WnN2dXNvUW9adXQxLUpmVDN6UQ?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "dbcb23e67a84aab8",
-      "published_at": "2026-09-16T16:40:11+00:00",
-      "title": "Iran strikes on Amazon data centers caused permanent loss of customer data - Ars Technica",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQalZZRmgxTy0zOF9Ma25HU2JhRU9RbFpVakJKdHExOFlNSHZrU3hrcDhCT3JVRDRTRlJmR1VCY3hqNG5qX2NXWHJyY2k5bGRIOHRMRklLNmF1YXdHUm5DNmpMU0g4aVdlZ1IyX2N5TVBNb0FOalBocThUalludGN0Z1RRMzRfZkprVFJUTzc1Y0REZ0FNVDRMRzl4Y29YdXo1VzBGZGtkQTNqdi1qdWtYM2FGN21oQQ?oc=5",
-      "source_name": "Ars Technica",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "523849f8fe54d825",
-      "published_at": "2026-09-16T15:09:34+00:00",
-      "title": "Iran says US warships suffered \u2018serious damage\u2019 in strikes - The Express Tribune",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNb3A1SUFkQmRHSkc2SGRVOG1HOE9lNUc2TTQxOGE0MEs1bFMzd2RvbG93QWVzZGZLbFlmaWtxQXd0QjNVSmNZT1BBemVvZ1BBQXFfOW5YdTgxcVhaekpOcjMzOENNRzNBbHdJTjJNYVA0MGYybE9qTzlDTy0wcUF4QzdhT29lLVU1N250NmhIZnhOa3J2cnZndQ?oc=5",
-      "source_name": "The Express Tribune",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "b948b5aac21c28bf",
@@ -369,26 +339,56 @@
       "confidence": 0.55
     },
     {
-      "id": "85e126856564882c",
-      "published_at": "2026-09-16T14:47:40+00:00",
-      "title": "New Images Show Widespread Damage to U.S. Military Bases in Region - IranWire",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQVIzLVZOLXNSRE1NSWhpQzFDckJZRmN3WHlVWXV0N0l5WFI5QjItU3llem1jRTJCVDM0dzB2QURGcUlZQTVjbzluSWt5VFdxV1ctREJsaFI4UTFwejdfNUlaT2hlWUFpVVhJRF82QUNqMF9RMUxiLTRhbksyU3Y1SnFCNWRXdHl4MGNzX2g4NjROVUhyOWhzNWFOMl9DTTNleDU4?oc=5",
-      "source_name": "IranWire",
-      "event_type": "other",
+      "id": "c61757ffd2457832",
+      "published_at": "2026-09-16T14:29:12+00:00",
+      "title": "House votes to limit Trump's power to strike Iran for 3rd time, as 7 Republicans defect - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPemFWRzlJa1NQdVdadlg4NW84NFJXaGlybDJfTDYwWkV1WjE2VTFlZGxxV1pTZjZ6UWtQa3FkODEwQWpXaV9UeVZBT0JzVnZfTDgxUDUtWHJtNlg5VVg4QzNJZlk3RzExMUppcXN6N0JKUUFlSEtKeWxIdWw1YzBMSTZZa2hUOG12UHc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
-      "id": "2c9b1fb9fd3b5f72",
-      "published_at": "2026-09-16T14:29:12+00:00",
-      "title": "House votes to limit Trump's power to strike Iran for 3rd time, as 7 Republicans defect - cbsnews.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPemFWRzlJa1NQdVdadlg4NW84NFJXaGlybDJfTDYwWkV1WjE2VTFlZGxxV1pTZjZ6UWtQa3FkODEwQWpXaV9UeVZBT0JzVnZfTDgxUDUtWHJtNlg5VVg4QzNJZlk3RzExMUppcXN6N0JKUUFlSEtKeWxIdWw1YzBMSTZZa2hUOG12UHc?oc=5",
-      "source_name": "cbsnews.com",
+      "id": "657c8bfbcf0ffa9b",
+      "published_at": "2026-09-16T14:23:51+00:00",
+      "title": "US-contracted vessel struck in Iranian attack near Strait of Hormuz: Report - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNSG9nbEd1c3Z0VWd0bUNSN1hOWURrNENNcjZ3eEN0UGpORWV6R0UzX21pOEZYTzFkdjdMaUQ1UmFzWDNTZnU4V05VeEFaU0k3MUVRbG1mOHF0cFVkeE16bHNSNFQ5dlJSWm16NnhyMlpJVVlzSW8zd2pNY05WXzY5V3NhTC00Wk9VdTFqWWl5b045SjdkZy16MUU1dTBmbWRZU3NMM1J0ckpVc1pSQnk3elFONFpJRUk?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "45c8cb9a03965e54",
+      "published_at": "2026-09-16T12:53:00+00:00",
+      "title": "Iran said to have relied on Russian satellites to carry out major strike on US base \u2014 report - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT0tYX09HX2FZSDY0cm43RjNWOUF4bUJQTE9ScXd1alduallVdlk3NDZXREd0NFVxZHlGSTFxSWUyUlNwcDhNcUh3aUhWSzktM21rVVFadE93VVU0YkNVdlNpR2FkV1BxRFljMi1Tckcyengtc19waW5WSWpnbEVaM09hQ25LYTdFdjhHT2plR2ttR1VmNXQwWTFXTlJjNWpheXJwZnZsMmFxNFFBRUZ5TWoxQ2l1S0w3RjlwZDh30gHDAUFVX3lxTFA2S1NoUGM1a1VGRWFrcUN2eUh2X3E0SkFZOU1va1hnV2d5a2dsRTZuQVMwajR2TXlndTlkbVh2MjA4T1RRY2VrWXhtZ0JSbjBqUDdsNGRRY05icGRoSkZtUi0tRXZWUnUySkZ4Q0hvelNEbXhVODRZSmNDOTFVUnY4UGdrcXNNVGVibVNMejFkbWhUUmZkaE4tVVhyQ3hZckItWkNDSGpuLWd2eFhMVzNHWG9fZW5mMkppVkM2UXIxZ2Ztaw?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "878038e3bcc4758c",
+      "published_at": "2026-09-16T10:52:56+00:00",
+      "title": "New photos reveal extensive damage to US bases from Iranian missile and drone strikes - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE91YnBVRzlkQjB3YURDLVpwcTAxR3A4RWJ0dnBCcHVwNE1fOVlyems4aGRsaVE0bDdjV09lNlBsRlhhT1B4Sm9QbG4zSzNKMnlLNEhDZjNR?oc=5",
+      "source_name": "Ynetnews",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
