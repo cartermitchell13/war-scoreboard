@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-09-18T16:29:59.087078+00:00",
+  "generated_at": "2026-09-18T20:57:59.410422+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 104,
   "totals": {
-    "usa": 43,
-    "iran": 16,
-    "lead": 27,
+    "usa": 41,
+    "iran": 19,
+    "lead": 22,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 15,
-    "iran": 9,
-    "delta": 6
+    "usa": 13,
+    "iran": 13,
+    "delta": 0
   },
   "confidence": {
-    "score": 67.3,
+    "score": 66.6,
     "label": "Medium"
   },
   "event_types": {
-    "other": 49,
-    "attack": 44,
-    "diplomatic": 6,
-    "intercept": 1,
-    "material_loss": 1
+    "material_loss": 3,
+    "other": 52,
+    "attack": 43,
+    "diplomatic": 5,
+    "intercept": 1
   },
   "history": [
     {
@@ -78,7 +78,7 @@
     },
     {
       "date": "2026-09-15",
-      "usa": 0,
+      "usa": 1,
       "iran": 0
     },
     {
@@ -93,16 +93,76 @@
     },
     {
       "date": "2026-09-18",
-      "usa": 6,
-      "iran": 0
+      "usa": 3,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "a5f824dc69ac3244",
-      "published_at": "2026-09-18T16:16:58+00:00",
-      "title": "Opinion | The Iran war has disrupted oil markets. The fallout goes beyond that. - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSUFTUEJEVTBQQ2VkUDVGcGx4bXUxdzZEZXk2Si05VEFySnpFYU1zZUZpRWtqYTRQdGZqX29QUGNuSFZlQm5UR1MtRW44RmJyaWwtQUhSYVhlMXVPSjBlclY0NW9yVUlzZFlyUHhXRHFhMGhVQ0daSjlKbm1fQUFNRTJ6c0hHT3NTeXRtRWo3bzU5MFlfMWljcDZfc0NrMTZ1WW43T2dyOXdNcC10QURzV3RBdkc1dHN2?oc=5",
+      "id": "e5ca9a7d53b08d60",
+      "published_at": "2026-09-18T20:17:24+00:00",
+      "title": "Trump Admin Covering Up Number of U.S. Troops Killed in Iran War - The New Republic",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMU0xRmF0MUJXY3d2dEdOdk9qYTAwaWhTSEUxT0NtZzJMWU5oZHFaLU8zd2VLbm1jcHdPN2VCUlVsenEtLTlCM1R6NWFKMjljdjJFelJJZHhUQ1NqdGgtN1d6Qmp3bTYwMTVJTUQ2ZlByZWlLaFBqN2hLOFN4enFQeGdHUkNDTGJD?oc=5",
+      "source_name": "The New Republic",
+      "event_type": "material_loss",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 4
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4100ba7b7409545c",
+      "published_at": "2026-09-18T20:03:39+00:00",
+      "title": "US-Iran war fatality accounting by Pentagon may not be accurate - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tSFlEOHN3TFRnT0lyb1liWTlGYzBCTzZlVzZsckY3angwS0lPNmVIU3J0NUVQbGNJTUxWWnhZa3FtNnRYNEwyWU5kRTVTb053Mzk0X3hIcTVBY20zX213OVRaNTBrV3d6ckE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "93076ab4f36dea54",
+      "published_at": "2026-09-18T19:57:12+00:00",
+      "title": "Iran war live: Tehran holds huge pro-regime march in defiance of Trump threats - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDNjdTktb3hZS0lnMzhXN1o1aWxOSEQwaFlSNXVXMzd3NzlsSkVqLVRsY3k5YWJtLWxPZ01sQ2p1ZDg5WkRTYzVtZ3ZWT1gwcWxURFFUc2NoNmNCV2gtR3VzV3VKWHMtckE0NHVWQ0QyWFZnakc4c011OHhmQklKMXNuMzZibHhmb2Z1YzNVUFRNeEtjUDBRYXhnbzd2NFJUeWs3R2RBbnl6d0FzRVg0alJVWQ?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8d927ee1338c059c",
+      "published_at": "2026-09-18T19:56:58+00:00",
+      "title": "Trump: We are winning the war in Iran very handily - Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdUV1cjVpc1lmOFp6R1UtR2U5NVUySU5yNldEZlFMRUI0aXZBcVZSU0MtM09pSEdMVEd4Y0V2SFY5WE1JQzhzMnRsWjN5RGxuYzNUTlhYVTdGUmFUSndhZk05V3JReW0wU3o3aExxN2djSVhRcHU1bGJOYkpoUWpJeUZLVGFPVHk4Y1hMUVZKaWpfZ1RtZVlZTA?oc=5",
+      "source_name": "Kurdistan24",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3f2cc71915f394fd",
+      "published_at": "2026-09-18T19:55:53+00:00",
+      "title": "More U.S. troops have died amid Iran war than Pentagon has disclosed publicly - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?oc=5",
       "source_name": "The Washington Post",
       "event_type": "other",
       "actor": "unknown",
@@ -114,8 +174,53 @@
       "confidence": 0.7
     },
     {
+      "id": "130346f09f91b369",
+      "published_at": "2026-09-18T19:39:39+00:00",
+      "title": "Democrats seize on Iran war costs to hit Trump ahead of midterms - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRZDU4bEZYT0lhUk9pUGNUbE1HdklJTmU0U0JjOUhBVWN6TXpGcXVDMENoaGhWQTQ4N3BFNkw2NXlvNGxLNXRjTzdhdUJfSWtRUVE?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "67461d2d331773aa",
+      "published_at": "2026-09-18T19:30:00+00:00",
+      "title": "Iran's 'new Hezbollah:' How powerful are the Houthis now? - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOanpVaUp2aVVCemtwSVBXc0tzMXZWTjhDZEgtSjZSMzhRNDZLYk9ZUWdqdTFSdGlodWhnWkxHTklNMmtxUXB1WnM4VU9oMjgxSi03aThXMk5jeDJlUWpxdzNOb1ZWN25ZMXhRSE5Id1FoeVZFWU4zZlg1c1VWb3FZWFJSS1gzT3NaODk3Vkd30gGOAUFVX3lxTE1qazJNcTcwcU0wakpPWGs0alpVTlpTYks1OEdpTDJrY3dEdm42VWo0cGFWSzQxWmpqUGk2TmVJaE1hRDdjRlhyeGQ1NTdjVU03RkhnTUZKWXNURVBZQ0VUajV1ams3WTBfdzNPM2VqQ3BKQzV4TDdzVEhFLVpBWkhkTk0tNzhnclVYemdSb0E?oc=5",
+      "source_name": "DW.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "462887d641ae5403",
+      "published_at": "2026-09-18T19:23:12+00:00",
+      "title": "Cost of Iran War Estimated at $43.6 Billion - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3V0dNYTZMWkY0VjIzUTQ1TVhwdFdzSlpKd0pMUkJza2pUTUEtSzBEalMwSDJDRUpDR1h2V1NHTUdVZEp5OXdpMFdHTFpmbmtHc3ZDUERuWGFHMTBUQ3AwQ1ZqR1g3dXBqWm5fWE5kZDJFaDNuTVhGaHJSeHp4TDg?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "b84b5cd655922f0b",
-      "published_at": "2026-09-18T16:12:24+00:00",
+      "published_at": "2026-09-18T19:14:08+00:00",
       "title": "By nearly every metric, the U.S. is losing the Iran war - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMVdacDRMRDJXUnQzeXF4bldVYXlvMXlKWVJXM2hfMXpDQXZXZkJHY09sbzBvZy1Tdk4yNE9oZEhqNUk2TWpzeW55OFRxNzd6OFczdTI1bXVPOUxqWTlWQWVuLXdEVldOYjZpdmI2RlNMc0NGWEVUZG5ueWpFMXY4dWJ0WndEVHpiX0MzcTZ3?oc=5",
       "source_name": "The Washington Post",
@@ -129,11 +234,56 @@
       "confidence": 0.7
     },
     {
-      "id": "27f5f8c4ac5f4b49",
-      "published_at": "2026-09-18T15:27:12+00:00",
-      "title": "Iran war live: Tanker struck in Hormuz as Trump weighs \u2018big decision\u2019 on war - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDNjdTktb3hZS0lnMzhXN1o1aWxOSEQwaFlSNXVXMzd3NzlsSkVqLVRsY3k5YWJtLWxPZ01sQ2p1ZDg5WkRTYzVtZ3ZWT1gwcWxURFFUc2NoNmNCV2gtR3VzV3VKWHMtckE0NHVWQ0QyWFZnakc4c011OHhmQklKMXNuMzZibHhmb2Z1YzNVUFRNeEtjUDBRYXhnbzd2NFJUeWs3R2RBbnl6d0FzRVg0alJVWQ?oc=5",
-      "source_name": "The Independent",
+      "id": "c8c2d35e02ee2b56",
+      "published_at": "2026-09-18T19:00:00+00:00",
+      "title": "Iran War Updates: 2 ships attacked in Strait of Hormuz as Trump says next move could be to \"annihilate\" regime - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON1ROYVJ6T0RNSzVUbXVHZTJTc0NDajFSSzB4VjdJcWVpX2JVVk9KcnpmZHNMZFZxS3pIaTFRMlUzSExKZHBiUlRYa2l2M0s1amg4aTd6alZNLW53cmZsWVhFZFRsUG91NnNLMXNSdnhGckhpTTlRTF9JV0xRS0dDNEh3cUhMcFl3NGNCdQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "be769b46b5bc68b7",
+      "published_at": "2026-09-18T18:48:48+00:00",
+      "title": "More US troops killed in Iran war than Pentagon has announced \u2014 report - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWZBbXVaUXRyNndycFNtSW4xRHBGYWd0OGZoZmNkWHRWUkNBLTZFNl9xUXZKc21YbFNGWnMwYUo0S05EZ3dHQzNZd2lFOXpnWFVTa2lRb1lQZ3VMb1NoaUNpQV9RRHNiT0Qwalg1SEYwbDU5bGtmdV9KUXZVXy1Za042RzYzRGp5a2dYdjV3dDd6VDZRdEg1UGp3Y3dVZG5oVFk4QURCejlIZ1E0cFdvVkVOcjg?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "327504c9888e3b4d",
+      "published_at": "2026-09-18T18:36:03+00:00",
+      "title": "US troop deaths in Iran war exceed Pentagon count by at least four, Washington Post reports - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWTJWTFE3dlFIRDVOVDZiY01XQXNxNDI0Z1RiWlFybTFpaEFEQUtpcVRnaEVNUUxPSkl3eFpLc1JzakdRWHNFQWZSUHhQMmQ0T0MtOHBrUjFYTGIzM0dMUmFwNGZPdWhkZUdUSmR1Q29mTHZXNDJuY2d6MllvMXNTM3pGM1BHQmVvQkstdEd2SDE2ZjJ4dXpxdmVSa25KcWJxaUV5eUFrNGFLSUJoT21wNDRieGxuQjFzTXNxU1dFZFlCT3R3aEJESmRR?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "f6e8ad218390b7e4",
+      "published_at": "2026-09-18T17:57:30+00:00",
+      "title": "'We simply don't know' - JP Morgan struggling to forecast oil prices due to Trump's war with Iran - bbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tZlBZZ1NnUnFqdmhqR0JDZkVwQlJ6ZTlZQ25LdFdjX2JYa3VOTlFWZXZQUWtseE5XMDlpRVJIczJxMzlQVkx6VWFVaEpJLXljNWJlc3V0aDdWUTA?oc=5",
+      "source_name": "bbc.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -144,11 +294,71 @@
       "confidence": 0.55
     },
     {
-      "id": "b54e51f58f18a864",
-      "published_at": "2026-09-18T14:55:07+00:00",
-      "title": "Yemen Conflict Intensifies, Reverberating Beyond the Region - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YTHdtM0VncDJzMW5fSzRmNDFyTXpKd2J3YUNWNVcwYzJ0LTVKQVA3aGZVZjdyZFllY3k5S0pxN05veGtJU05RdUEzbXE0NVhxUEpzdE9WcTZVRENEcmJTVVJGU3BUOERzUEszbzFUa2ZjQ2tHX2hHYkVJTFUyQdIBgAFBVV95cUxOWklvOG9Mc1c3aFhPYXBTQ2FkamJGWnprNWtFa1MyQk1GdUpmTU5sdnk0SThaU01OVDFuNjA3djdnSkJMT3JDcWVYSUJZaENuaV9LMzNQS2l0M3hiTmhiU3B0ZExFRHZTd0N0TjNTNWRhRG1PUWk4RlJMTmZOekN5ZA?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
+      "id": "eb28cdbf08c5bc13",
+      "published_at": "2026-09-18T17:38:16+00:00",
+      "title": "Iranians rally in biggest show of defiance against US since war began - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZlpJOHVYajJFa1F2WUt3VTcyYW9MdmFZQUlnUEdxRmYxXzBIMGhXZFd5aGRGUTQxbWRlbllsM3U4Um5fZndXYkxFeUJlZ2pET3dPS3c5ZkJCbWp3ck1rTVhteGg4Qm9FS09ONzJXT1dXTkowMFdndnNqYzFzVDNuMGt0Skc5SGxsVG5TRVc5YWdBNlVoeHY2dTN4ckJ6MGZXY3NWdDVNMTh0YkZyQ1Zj0gG0AUFVX3lxTE9ScC1qWlBkSWsyRl9XUTFMX0thY0g2R3dGQlByR29Ub3I0ZDlGVEgyRTlqZnVBNm9TZ3JYR1FLdkpWNE1aZmZVOEFjNlg1Ql94QV9DTXR3eUEzUm4wUTZtc0hBRG9LN2xVdnp6V1oxc0x2WllOTl9McG9jUlFNTFBmSS1tWk5jV3p3WW1rSlVjYjYzbnlRRWNuRk1iMkdVT20xX3lQNXc1TDBQa1VMUzNzLXVNSg?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5208cef4e0f34a1c",
+      "published_at": "2026-09-18T17:20:24+00:00",
+      "title": "Iran war live: Second tanker reported struck in the Strait of Hormuz - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONndDQ09UalE3Z0xiVExKRExDa2w5Z0Z5VVpNMTZkSlpxTU50MTVfTm1DenZwdGlPSnlqZlRLWXJjc2daZFc5Y255MGxnSmRiQzFDcFhfODVuVzl6Y0J5V2tWZzFVVHBjNUUydU96VkN4SlIwYWJKRFo5THJNYVBuc2w1REpIS2p6NUZsRHo0aktHV3I1NVZnc2NrUV9CZ1FxZ1pfUXBJS2E5NTVrTlVieU01eHNHbk82TlHSAb8BQVVfeXFMTm44UEh3eklJNENHWTVwRFFtQXRLYkYzMGlnMjl3TXF0N2p2RGVWTVNCVEVRREZDY2JDY3BxS1NSc2NVU1RURmplb00xLXpwWXFfUk5YTEtTeEduTVJ1bWdkQmhtY0dkVlU3UkotbWhxLWt6V2JISlNlQkExWkZiQlJUdUxlUGxCM2pEWXVfNHVnNVRJUDhWeWZiTk1INWd6X1lhS2lCTlEwazFXMmRDejVyME5rdG5jV2NFbFhOeEE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a5f824dc69ac3244",
+      "published_at": "2026-09-18T17:15:00+00:00",
+      "title": "Opinion | The Iran war has disrupted oil markets. The fallout goes beyond that. - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSUFTUEJEVTBQQ2VkUDVGcGx4bXUxdzZEZXk2Si05VEFySnpFYU1zZUZpRWtqYTRQdGZqX29QUGNuSFZlQm5UR1MtRW44RmJyaWwtQUhSYVhlMXVPSjBlclY0NW9yVUlzZFlyUHhXRHFhMGhVQ0daSjlKbm1fQUFNRTJ6c0hHT3NTeXRtRWo3bzU5MFlfMWljcDZfc0NrMTZ1WW43T2dyOXdNcC10QURzV3RBdkc1dHN2?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "86c8ef777af80a9f",
+      "published_at": "2026-09-18T15:32:00+00:00",
+      "title": "Slotkin urges Trump to press Xi on report that Iran used Chinese satellite info in deadly Jordan attack - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdktWZUlValdmemJ0MWNCcFl0TVh5LVJsRXh4RHZmNFlLT1VxS2Q4QjRnNjBtS2VyVE5qZFo1dDlmSmhxcEpqTnJyZHVqZTFabFhDQ25udno1dFlnYy1HU3cwWWJRdTlHbUtyalVKd3pmdnhZUjA4UDRTNU5NenBOVGdlRVpsQjJHUTJHOWZiYkJZbWZKV2Zn?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fbf773784a543120",
+      "published_at": "2026-09-18T15:13:14+00:00",
+      "title": "Trump tells NewsNation \u2018we\u2019ll see\u2019 on whether to \u2018annihilate\u2019 Iran - newsnationnow.com",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nbjRKR0l5dUhZN1dELTUzbmRQTUNsY2NOaGpaa3VqdUk4WlpjdFdpWkxPeEJKdVVUQnNKOWRMSjZGTkhta0pBbEpDbHlPWXotRmVSM2g0NDNJb1RCc0w5Vm5fUkFkMzdrUTRsQUtwTHg4QTE2RzdTNFIza9IBgAFBVV95cUxQbEpQbmxxdkpSUDJMUFZDcmVsSlIzMWNvNEk4STFKQ2s2bVRlRnFTMkxVckNnaTdiOUN4VlV0anl0dlhLeFp5YXFnN3NqbWtQWDg5MHZVOVhYMWdQRlUxT09JanAtcF9lanF4dTBEMEc1WmlsZzNlcFA0SDVlZ1ZGSg?oc=5",
+      "source_name": "newsnationnow.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -171,89 +381,14 @@
         "usa": 3,
         "iran": 0
       },
-      "confidence": 0.85
+      "confidence": 0.8
     },
     {
-      "id": "5208cef4e0f34a1c",
-      "published_at": "2026-09-18T14:36:13+00:00",
-      "title": "Iran war live: Second tanker reported struck in the Strait of Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONndDQ09UalE3Z0xiVExKRExDa2w5Z0Z5VVpNMTZkSlpxTU50MTVfTm1DenZwdGlPSnlqZlRLWXJjc2daZFc5Y255MGxnSmRiQzFDcFhfODVuVzl6Y0J5V2tWZzFVVHBjNUUydU96VkN4SlIwYWJKRFo5THJNYVBuc2w1REpIS2p6NUZsRHo0aktHV3I1NVZnc2NrUV9CZ1FxZ1pfUXBJS2E5NTVrTlVieU01eHNHbk82TlHSAb8BQVVfeXFMTm44UEh3eklJNENHWTVwRFFtQXRLYkYzMGlnMjl3TXF0N2p2RGVWTVNCVEVRREZDY2JDY3BxS1NSc2NVU1RURmplb00xLXpwWXFfUk5YTEtTeEduTVJ1bWdkQmhtY0dkVlU3UkotbWhxLWt6V2JISlNlQkExWkZiQlJUdUxlUGxCM2pEWXVfNHVnNVRJUDhWeWZiTk1INWd6X1lhS2lCTlEwazFXMmRDejVyME5rdG5jV2NFbFhOeEE?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "13ed660af7d8120f",
-      "published_at": "2026-09-18T14:25:24+00:00",
-      "title": "Iranians rally by the hundreds of thousands in biggest show of defiance since war began - PBS",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRHdVQllzQjYzdHFvOWZ4MHpyYnZfd0xuVDNyUko4cUpSTU9qeWlhVXhwWHJiWmlUblVCRUg3S21SNk9iSmJjZlRncDRRMm9Eamd1QlRnZ0JZWmpVRi1nei1vdlpPRGhBdU1SLTN1Q3dYMHp1Rjc0VDduNExjOVFWMXVQdFVaYlRoVjBuWjhQc0xiZUQ5YmRyNUtvTC1sVU1MX2pFeGFWMUJMeDNlUmxJa1ZiOXByTDdPWktQNlhtb9IBxAFBVV95cUxNSVkzdDNORVplRGh6bXRiNW1qdDVGTklrdGZFWVNKVlg3TXQyeTY1aEFwNmdpZFVpN2JOTnRTTGtza3hoZDRfMFpJU0ZfYU1ZMUtZNEpSdGdUX3dhb2RSaFRpUHo3OWg5Wi1lMGR3VmFHRFhSVWxnQk5LdE9XRUVFTkJrUEFkQjk0ck4tQXJRM19sb0Q0WThHSHdQSW9oUUo2b3NfTGp3ZFZvbmdrZzVlSFhuYTBmRUdHbjN0VWFXRXkwRDlV?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d24e6ea8ce992d98",
-      "published_at": "2026-09-18T14:21:00+00:00",
-      "title": "Iran says it struck oil tanker; rally held in support of Tehran - spectrumlocalnews.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMkNVM2xMVS1nZFFKS196dmRVNlpveVpka2JOZWlfdjBlT1NBSVR5M0VvenVFLVgxN084cUI0OWFXUnNoUW5jLU02NUt5WmpSc0xuWjlXWXlrcDI0U3NuWXIzWmNhalBLQ0x2cWsxOUxSTHJsc1htU1VoWEVXN3JLMDUwV3VlV0hDWW0xT2NhWnJRMVZjZUFXazZpQ0U5bGlONnh0TkxsOGFuekd0djdlRVpB?oc=5",
-      "source_name": "spectrumlocalnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2df400d3e5ea0d6a",
-      "published_at": "2026-09-18T13:20:07+00:00",
-      "title": "US voter opposition to war on Iran grows to new highs: Poll - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQMWNvcnozNmZuM09zbkliVmdvZXlfN21hQUtFRzFhWENvTjRLcWZtNXN4WFQ5amxoWWJNa1NETTNWaGJNeE5ZY1pubGRTWnFkUjBZXzBMNWkwbHlfTF9DR2E2bXJ0cmFNNldsajc1azJUQVRjOGk5UU5qVVl4d0NBc1VIWTJYQkdCVEE3SmFTRnZzc0xRNEhRUUxSTzFnYlBm0gGmAUFVX3lxTFBSNjdZZ3Iwc2g4a1lVRERKQTVBZWVwbGc4RFFFZ1VqLVlacUtNQzlzMnVwM0pTMGhqLVlHQTlqUXh0WGF6dzVXWFFBeFY3Tm1Qcm9hWmpHN1F5cHRoMnhwcDlic0NGemlYTko3NWRMUW1hRTBTQ2ZSVFJlMVY1a241YWZkNXJUeVlHUEdrLUF0YUxDWXRuX0ptdEFQNWZDTnZQdmppdHc?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "186029854b0bd0bc",
-      "published_at": "2026-09-18T12:58:05+00:00",
-      "title": "As Houthis grab Bab al-Mandeb, US appears willing to watch from sidelines - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRHBtUU5kYndPUnFFdUpNMmxNS0N2TEFZVGdoRFE3UXFBUVhFQ2djbDVBWkpfWXZFUFluTF9Ic2NwVFJSY3NabmFEWVlkcjhBY3FYMWhkcDZEY1FxQkFTZUxqX3V5dGVsWjI5QkhGMS1iZi05NnRCaDNLVnoyOVBrYzRLWXZsWFBIQURleUl2dGdvclN2TXZYdG5hbWtXWEVUVHdIbmQ3VU5QbVd2LW0zUW00RdIBuAFBVV95cUxQRnNvd0h3X2RPNDhuUGhpS1ctNVo2ZXRIekNYZmt6UlUzblphdGRvNm5IUU9KMzR1MWhILV9Pb3dVcm1FMUtWbEhaX28xb3RPd0p5Mlo0TFpncVN6OVM2QV9SaXRPTm1GVnhEaVNuZU02NkIyVDlLMDNvV0YyY0U1bzJZR2ZWZ2x5VWFLeVRvcHZGdU50YUs5ZWN5YW9pSWJpYUNuNHlxZzdzOEJubC1PYm52UGNHMHAw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "be5708ccb78b61fe",
-      "published_at": "2026-09-18T11:41:21+00:00",
-      "title": "UN report cites possible US war crimes in deadly strikes on Iran school, sports center - stripes.com",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ0FOSWRmR2FueVU2MmhXdkZsSFVLeUh3S0JkU19veWVOa2l2c0VlRWRMdTAzRlJJcTJUODUtWFZoX0VTbWNzVGRnUXN1Q0xHWlR0bUZGZG5IYkRwWmNVeGtpNnJfOEdXbzhnR0NFbnY4bFBtbnUzbDdMUFBvQ3hORlJjLWpzUXFmeXFqQlNnbG5xUXVSLTRHMTQtRWI3OEJUMzRYV1M1RlBtYnZx?oc=5",
-      "source_name": "stripes.com",
+      "id": "bb98016f748bf224",
+      "published_at": "2026-09-18T14:37:40+00:00",
+      "title": "Iran Strikes More Ships in Strait of Hormuz as Trump Dismisses Soaring Gas Prices - Democracy Now!",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOcUs0anluZG56U0tnU1l2YkVjSjlvdzhqem45Q3Y2UldYQ0o3REY4ZUNFTGhxVnd4Q0JzWno0NUpab0xfdmFjSW44SkZxM3lxaUhNaUh5ejAxWnY1Uy1RVk1TT2prbHR5ZHI0dmpENnJxSVprbFJNeXBRbllWTExyUm1Pc0s4aDhJWWg1WTU3S1F1dkdyMGZPNlpnSmJ0OERoQzVGTGxocWJULTdGX1h1cFFUNGdsWng0X0s3R3l1N2lDTXJ5anIwNmhB?oc=5",
+      "source_name": "Democracy Now!",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -262,141 +397,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "208239f0ce2af999",
-      "published_at": "2026-09-18T10:55:01+00:00",
-      "title": "The next Iran strike: How legal, economic, and diplomatic pressures are priming the region for war - Bulletin of the Atomic Scientists",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQMVFBemVSQkVySzlVSzBKcHFuWWdLTDEtNHZNQmRaakNBR0FDY3FlREt3T1dmcjg1aXFhSmtWamxzQUlGTzRSeXVFSVJlLTRxMDdkN3diVzVqWVo1NWR1ZVhqNlVzdzQwSjBwMjlRaG4wM0hMSVNnNS1iN2R4VUdnTldVU3U2c0lIUEhvZExiT0NaY1RNSEU5cUJlcFdraXZfcDNGYnJVcGhNX0tETUY3X2l5QnV1SGp3UWJweGZ1Rlc4QnRTaThN?oc=5",
-      "source_name": "Bulletin of the Atomic Scientists",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "915a6eb28773a388",
-      "published_at": "2026-09-18T10:53:16+00:00",
-      "title": "Trump weighs \u2018annihilating\u2019 Iran as war drags into seventh month - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nbjRKR0l5dUhZN1dELTUzbmRQTUNsY2NOaGpaa3VqdUk4WlpjdFdpWkxPeEJKdVVUQnNKOWRMSjZGTkhta0pBbEpDbHlPWXotRmVSM2g0NDNJb1RCc0w5Vm5fUkFkMzdrUTRsQUtwTHg4QTE2RzdTNFIza9IBgAFBVV95cUxQbEpQbmxxdkpSUDJMUFZDcmVsSlIzMWNvNEk4STFKQ2s2bVRlRnFTMkxVckNnaTdiOUN4VlV0anl0dlhLeFp5YXFnN3NqbWtQWDg5MHZVOVhYMWdQRlUxT09JanAtcF9lanF4dTBEMEc1WmlsZzNlcFA0SDVlZ1ZGSg?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "488621424580f439",
-      "published_at": "2026-09-18T10:45:59+00:00",
-      "title": "United Nations says US may have committed war crimes in Iran: What it means - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOW13MjVKdFFVZWFWcFJDWHJKWTVSTnFmQ3RRV04yWHdwMkRXbXFVU2FKQ0RfX3dDYjVRVnc4MTJyZUtSX2hqTERlc3o3RUdFbmFwZTIxOEptZHRXWl93eTQxMjVMNG1kUk96RjRZME1fWVpZcEZJOHRqTVBLTjNFaV9SOHF1SzRhT19ZSWVxZkdfUEVnR2ZXMXo1SVM5TjR0VkQ5YWFtVEhZMGNDTU9ONTAyMGVQZ9IBuwFBVV95cUxOMExGYjl6ZURSSFhwMXpUUURBM2VVUVp2ZjM1aUZMZnVDREw5U3VLNlJtb1liWXZ1enpUSFVLcHBJRU5hWFF6UGRNTGI5SnZ0dURielBScG9LcDdwbUZmb3UtWVpxNnpFNjlHZVR5WkNYZjhYeF9vTHlrRno1WXh3MFBUaWxDc2l3UlJub3N6eWZQd0FTR1pCSjl4Rk55YnY0NnI2Y0RpdE1SZzZvNDdJLUhkRHdIRVM1SFRV?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "1f2dce07b5db2c0e",
-      "published_at": "2026-09-18T10:37:14+00:00",
-      "title": "UN mission: US strike that hit Iran school was \u2018indiscriminate,\u2019 likely a war crime - timesofisrael.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNbVVtZ1pya3hOM1dyY1EybjRfV1RjSWxkeWlndFlUN0tKbmcyNHhNd0JwM1loM1QyNm1UbFlkUGVwRTVyWHRFenlmZU9Bb3RBZ3JrenBEVFNWZnB0SlBNcFRReHdwSjJEa283U2drcjdCVEtYWkpiN2RVU0RRa1ZGN2F3clRKYV9WMm5SWjA0QnRSTWc5ejFyYU5sbVBVVG1CNTUxdjlCV2s4amxYLUtF0gG0AUFVX3lxTE9KakJFbnZaVDhKSEtLeUhSYk82ejBuS3ozMGdsc2M0TlNucVZSUl91aS0wQ2M2MjRuTDB5Q213ZXNVbnRxRGpiVnVnYTBvUExkV21wS0Rtbk5HZzZkUjAxZjVVc1JCNjYzdDdoSHpWUDlMTnNSdUZsSm10ZTJDOXJWWWNqbWVGSmswUXFaQnZBNWFXNnlTWk9SZXhCWFVrT3ZaNjJYSVdjbmZaR0ZwYmxxZTUybA?oc=5",
-      "source_name": "timesofisrael.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "6658a9484a358859",
-      "published_at": "2026-09-18T10:00:00+00:00",
-      "title": "U.S. May Have Committed War Crimes in Iran, U.N. Report Says - time.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPRElSQ0J1MVh1ck0tb3dwbUZrZFdNVmVfRE1xYl85LXAzM0xhRFZvbHNDLXo2bHhITTkxUjJOaU9xV2JlOTBqalFVWFZBejdtanJJT19FdjR1bTc1R2U3REh1c291X3hhSG85QmFKRHg4WVJTWmplUVdabkM3TnE4UTVfdW5aUXRVcy14Tl9rS0w5ZXNxRXY0?oc=5",
-      "source_name": "time.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "51e5da03f2ab0ea9",
-      "published_at": "2026-09-18T09:41:48+00:00",
-      "title": "Iranians rally by the hundreds of thousands in biggest show of defiance since war began - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPd0p4dWlSa3FmbWxfWTAydTdQNlB6Vzc3dTY2dFhaUl8zRGt1aEQyaHYtVUlpVm5NQjY0OXFTcl8xbEtOT2UwOHBETkhadEpBcjNRNHRyNVcydWNiNjhjNUJNb2lRM3J3R2UzRTVScVQwMV9TUm01NWxua1BLcHVSek9maTZxR2ZtaHRGcGxMLU12V0VCRjZwVV9CU2R1dEM1RDBKNzUzN0FGMzl3TDdLaw?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "befb0aef65512f6e",
-      "published_at": "2026-09-18T06:53:42+00:00",
-      "title": "President Trump Weighs Renewed Iran Strikes Ahead of Gulf Leaders Meeting - The Media Line",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZ1Nnalp5M2VZeUVwU25PbUNMY3lfS25EYzVqZVdiQ0RCZWhGS1RmZGIzV2h2Z1ZDS19YOTFaa29rUUs0aWMyR0l3dzlGb0IteDg5Q0pLRVgtUmxWdFhxdDVNanFmTWJhUnNnempnX0cybGVVU0tNSHBCcHpaWGtYd0FkZS1ZdlpJcnkxODB2UnJ1SmRLV0FkdmE1X3lxSkxoV3RMTEVxVkt5SXNuVUE?oc=5",
-      "source_name": "The Media Line",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "31779df1fb3c6a93",
-      "published_at": "2026-09-18T06:45:00+00:00",
-      "title": "South Korean president rules out military involvement in Middle East conflict - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYmhTXzQzd1lBdXQ2ZHRaTHNveVlxSmF6QkZJS090M0FEa1prTXR2Vk5mcS1PeGRMXzFkRzJ3ZjJ0WEk3bmRxeFJqYUV1eXZKelVJbU9DQWZRSFVEX2tkR2tuZ1hPV28xV1VFRThoOFppdzQyWWZLdGtOcnhldnRCZUp5Vlk5cHkzN0xHVVVHWUliWEk0WU1iVS1kbXZVZWdhbHBjR05BRVVUSTlfaXc?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0890501febfc0f20",
-      "published_at": "2026-09-18T06:26:49+00:00",
-      "title": "Deadly US strike on Iran school may have been a war crime, UN report finds - CNN",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSEk5MndlMzRMVTEydmdvWDlTRG5TdlpKX2RBel9fY1J0dV9pM1BYbC15OHh5SU1hS25OS0Vqc1FpN01hd1NUR1U1eTg3UURoTFFReUNnTndUNWVGWjNoOTJxVUp6RXlwRDR4U3ZxVVQ5MDg3TjVhLXZRb05NY2xLclNZU0IyUHVHS1NJTEdn?oc=5",
-      "source_name": "CNN",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
