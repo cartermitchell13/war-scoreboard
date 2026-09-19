@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-09-19T20:47:19.408647+00:00",
+  "generated_at": "2026-09-19T23:11:34.989078+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 95,
+  "event_count_window": 97,
   "totals": {
-    "usa": 38,
-    "iran": 15,
-    "lead": 23,
+    "usa": 37,
+    "iran": 19,
+    "lead": 18,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 4,
-    "iran": 9,
-    "delta": -5
+    "usa": 3,
+    "iran": 13,
+    "delta": -10
   },
   "confidence": {
-    "score": 66.7,
+    "score": 66.9,
     "label": "Medium"
   },
   "event_types": {
-    "other": 45,
-    "diplomatic": 8,
-    "attack": 42
+    "other": 46,
+    "diplomatic": 7,
+    "attack": 43,
+    "material_loss": 1
   },
   "history": [
     {
@@ -67,11 +68,11 @@
     {
       "date": "2026-09-14",
       "usa": 0,
-      "iran": 0
+      "iran": 4
     },
     {
       "date": "2026-09-15",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -82,7 +83,7 @@
     {
       "date": "2026-09-17",
       "usa": 3,
-      "iran": 4
+      "iran": 3
     },
     {
       "date": "2026-09-18",
@@ -92,16 +93,16 @@
     {
       "date": "2026-09-19",
       "usa": 0,
-      "iran": 4
+      "iran": 5
     }
   ],
   "latest_events": [
     {
-      "id": "dd6e8f4ca1e8f075",
-      "published_at": "2026-09-19T19:31:49+00:00",
-      "title": "Iran-US war latest: Trump issued fresh demands to end war by Tehran as smoke and flames seen at Riyadh Airport - independent.co.uk",
+      "id": "18970f71e88b6c06",
+      "published_at": "2026-09-19T22:31:30+00:00",
+      "title": "Iran-US war latest: Trump issued fresh demands to end war by Tehran as smoke and flames seen at Riyadh Airport - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbTgtY0otTzJNQ1RmdVk4SzZLS0FpWWZNSUFNTmlOY2VtbkRwOEFWUUlSMDdON19BSklMaUhlRFJBQ2cxWmdXQ3FIRFpodUFuZmt4aTNGOVpmV0xpLUFMZnRramsxVTBzU2d3THM3aEFpLXNGZmtZTXpMQ2ZCUG5OckJJTEFpdlJLUWxqYUIzalJBcGxoR3N1aVFoTDBZMjFGNXVNdU1lMHc4b2NIWEdrZnhCaE9GYXIxZkE?oc=5",
-      "source_name": "independent.co.uk",
+      "source_name": "The Independent",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -110,6 +111,36 @@
         "iran": 0
       },
       "confidence": 0.6
+    },
+    {
+      "id": "8bf3d7dc741f3e82",
+      "published_at": "2026-09-19T20:56:00+00:00",
+      "title": "Iran War Updates: U.S. touts 1 billion barrels of oil escorted out of Strait of Hormuz by military - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON1ROYVJ6T0RNSzVUbXVHZTJTc0NDajFSSzB4VjdJcWVpX2JVVk9KcnpmZHNMZFZxS3pIaTFRMlUzSExKZHBiUlRYa2l2M0s1amg4aTd6alZNLW53cmZsWVhFZFRsUG91NnNLMXNSdnhGckhpTTlRTF9JV0xRS0dDNEh3cUhMcFl3NGNCdQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "30dc30aa27b6d44a",
+      "published_at": "2026-09-19T20:04:43+00:00",
+      "title": "Iran sends US \u2018seven conditions\u2019 for talks, warns nuclear doctrine could change - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RSE40a3lJek0tY2hOY0pudzd4dVI0bUNTOHIxaVhtTTlFdkxlcEJpOGthNGZla0lXZlZud0ZYbkpBeGNPVDI1ZWdodlBjM2ZqS29vamtn?oc=5",
+      "source_name": "Ynetnews",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
     },
     {
       "id": "9081da9726d4a539",
@@ -124,14 +155,29 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.6
     },
     {
-      "id": "eea0e18a67c9530d",
-      "published_at": "2026-09-19T18:33:45+00:00",
-      "title": "Iran says conditions to re-engage in talks, end war sent to US via Qatar - Al Jazeera",
+      "id": "bfde20a53e23065f",
+      "published_at": "2026-09-19T19:06:09+00:00",
+      "title": "Pentagon Is Undercounting US Death Toll Amid Iran War, Washington Post Reports - Truthout",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZWlGWUM0NmI1ZXBoQU52dXZDRXZqdFJQanRNd3VKU2ZoeG5UejZ3RXhmcklPbW13UEtreFlUdTJBT0l4ZlpGVWJuSl82a3RMc191VDZuZzBmOXVIQTl5Y0tic2VUMXRlODhfVWVLMWhtNVV3UHhwU0ZSWWlZdTlZRkw4WGVmb0UwRVhzQnV1d3pqR1llcE5SdjRvdGM5VWd1Z3JYamU0TmtJUGNF?oc=5",
+      "source_name": "Truthout",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "26488c81909b67e7",
+      "published_at": "2026-09-19T18:34:55+00:00",
+      "title": "Iran says conditions to re-engage in talks, end war sent to US via Qatar - aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ1JPc2xzcDhQMWhGREtsMUlPTnpUNDJ6dDRGZ0dNb0NYYUlMVnVJcnoyb1ZKSUFMdmdrQTVELTdaR2huNVdkQU9KRkVZRUdUcTREU25LSTJoeGt1WG1EZzZfV1pOREZhVmtmT0I2NkZKaE9uZUhMekpvSmN2MWZuWjc4cTEzZ2JUd1RoandXSG9fMUZickh4Y25TVzV3UEVQcmduVWd1cXhOaDJkVjBraUVR0gG3AUFVX3lxTFAwY3hyelpiTHdEV000Vm1PXzJ5YVpIUldCZnRnWEJLelBBQmVUMDFVTkluRlcxemVBOWVVXzdoQURGNnhDTU5PWjFUSFcxcHIwMTVIOS1QWG50TjIxbDhFdG1yWFdRS3JQeTNQRWVMUEpMcDdRNGJzSVZILTZ3MjZVQS1FQ0tyVFRQV3R1MG5qTkVwY3E1Sk5kdDk0ZGk1bHRZemVobm53Q1pRWTktRUhLMnZ4M0s2WQ?oc=5",
-      "source_name": "Al Jazeera",
+      "source_name": "aljazeera.com",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -142,11 +188,11 @@
       "confidence": 0.75
     },
     {
-      "id": "8870deeec336865f",
+      "id": "56ab07b057e37eaa",
       "published_at": "2026-09-19T18:30:00+00:00",
-      "title": "Iran sets terms for renewed US talks, says ready for escalation - Iran International",
+      "title": "Iran sets seven terms for renewed US talks, says ready for escalation - iranintl.com",
       "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9DeVM2bGEydEZHZjQtTExKU1RiV0V1Q296Yk5vYUtWdFRrN0s1cG85Ri0zcnJsNFZwelRET3ZOdERJNGJVQ0ZrUlFGLVBTVTZpVVE?oc=5",
-      "source_name": "Iran International",
+      "source_name": "iranintl.com",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -157,11 +203,11 @@
       "confidence": 0.7
     },
     {
-      "id": "8bf3d7dc741f3e82",
-      "published_at": "2026-09-19T17:50:00+00:00",
-      "title": "Iran War Updates: U.S. touts 1 billion barrels of oil escorted out of Strait of Hormuz by military - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxON1ROYVJ6T0RNSzVUbXVHZTJTc0NDajFSSzB4VjdJcWVpX2JVVk9KcnpmZHNMZFZxS3pIaTFRMlUzSExKZHBiUlRYa2l2M0s1amg4aTd6alZNLW53cmZsWVhFZFRsUG91NnNLMXNSdnhGckhpTTlRTF9JV0xRS0dDNEh3cUhMcFl3NGNCdQ?oc=5",
-      "source_name": "CBS News",
+      "id": "96fa72d69b061b38",
+      "published_at": "2026-09-19T17:38:13+00:00",
+      "title": "JP Morgan admits it can't forecast end of Iran war due to Trump - The New Arab",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNS1ZuZzFybERHR1VlX0hwalZqZU9zWXVMaDNyQlN6ekI5MHctaGdyNjlweVpmQ2JtZm9UemstRko2cllsLWl3R1U0N241Uk1LQVRGNlppYk0wU3F4RDRoYzRoblh0V19XRnllUkk1UUQ4TTRMY2tZTmF6emVoY1NMdTVjWGhrazVMMmlqLWRn0gGTAUFVX3lxTE0yTHRDc0F3SkN2bFhpRFNtQ3NvRHBJYjJmb1FKMVpQT2NIMW5Lcm5kTFhZNVViYzFDdVctQVFOVFlBX2lEZHRPdTg2QnNqcGNvaHVraWdZRGpHeVlReG5USk4xQXhQX2Q0MEtIajJUSjRHbmNlUnBKUzdRc3JLVW81MG1zMG9uanpwX2NXZGRqdjJlNA?oc=5",
+      "source_name": "The New Arab",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -169,7 +215,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
       "id": "0dfe46214145da7f",
@@ -184,7 +230,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
       "id": "52fb886d8c1840b1",
@@ -202,11 +248,11 @@
       "confidence": 0.65
     },
     {
-      "id": "09d6c300a47f2d71",
+      "id": "b885e030d3bc8673",
       "published_at": "2026-09-19T16:05:14+00:00",
-      "title": "Iran war live: Tehran says conditions for ending war sent to US via Qatar - Al Jazeera",
+      "title": "Iran war live: Tehran says conditions for ending war sent to US via Qatar - aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNS0tMRnMtZVNISzhaMjNjZmJTbjBacUhkQS1yLURFSzY4bEJ0SXk5a3ItWjRNV09qXzZZa0Y2cklJMG5nVTZNZ0pNbDdGRnhSSzJSenF6MVBYTG9BZlhMemdnQVdqVUc3U29kdGRQN3l5R1BfTnpFRDBDTUNPOXVmLWduYklpWEkxZVZ3cFFnQlVWbFpja1FhMWl1UDZpRHZsZmZ5anRFenJlc0g3dTdVd000bWVCbVdfalBpRDlna9IBxAFBVV95cUxQMVJTWmQ5YVJYRE5vUERTYk8tR1Z0bWxWTWRVdnF5Y3g5Qy1IdjVOVHBzZ3lLdm9zZWhDRC1GOWNKcHBWQVZEa3JraXI0T0h0YjB4eHNIR3NwMGlfSnNBRHhuaXVhdjJGaVpmbVNSX1FaWVBoSk9NekE1VkZ4SUlnRGJzZ3JYeDRVdTFzemp4N2U4WWU0QmJVRU9aNVZMVGhBOGRONmlkN1FIRU9zUHgzcUQwamhSNmJhaEl6WFRVMlJaRUFF?oc=5",
-      "source_name": "Al Jazeera",
+      "source_name": "aljazeera.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -215,21 +261,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "5a96c0e03b731d82",
-      "published_at": "2026-09-19T15:52:00+00:00",
-      "title": "US-Iran War Live Updates: Explosions heard in Riyadh after Saudi issues danger alerts amid Houthi attack threat - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMilAJBVV95cUxOQjRLbHlfREhhSUF6bngyVjJHX3ZKMnVUTzRtODdBeEhLQnJlYTdOYV9zbEVGR2VGUWhVdmNpYktVVFdDdlU2RUhwT3hpb21SQnpLNEZ5Z2pGSHIzUFptNUVQTFhoQ0VQTlBtQkYyM2VOdEJoTGllcFlCZlhjVmVrNmpUaFExYzZrWDNoMFZidlRGSmVmWXhZRDdxdDVBTHZMRmVKTUJnV0tKYnYtQVBrX0pZcXpwTkhSc1ByUEFvVERDNUdNbHhmXzJRU2xlaWF6VjYwSDd3NEM0MnprUVZjV2lCWDZlTk1VejZTSWYybVdxdGlHZlJyU0YyZTRHYWxCVUNDcl8tdEVjcndDMlMwekdyc1XSAZoCQVVfeXFMTmpmWGdOR2I2SXQ0SjNaTEJyRzV2N0taMzBSOUxJSzN1UjJMekRsV05vNXNkMXdmOW5DM01QZl95Z2w5QzFKdWRlMnhsUGFVejk3eTZaTmdoRHRUamg1eXNuaGZNSmVoRk9KSGMwcUg2ZEN0YjQteE1UcGFCb1pzdUpYYk9PWVRkX1Y5QjJVYlJ5TXQzUEZNMGY0cWJudzZESHJGNWJwWUhTV3N0bzlqVDJBdzJYX0ZKSTJYcktGeTNiSHJNUkxMUEljYjZJMlFqRnNwZTVteVNSbkNXZ2hfZjZvRkVmUlp6LURsSU1xSkd4djdPTXRxVUkxTFdiSUZzUURBaWxLQ1lXVzUtbmd2Q3VpS0lEZFJXbjFB?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     },
     {
       "id": "23e1b70c6ef728fb",
@@ -247,11 +278,11 @@
       "confidence": 0.7
     },
     {
-      "id": "a56d65fddd95e8eb",
+      "id": "bd48d871f4d8d896",
       "published_at": "2026-09-19T15:27:12+00:00",
-      "title": "Iran war live: Black smoke seen near Riyadh airport after Houthis vowed revenge - independent.co.uk",
+      "title": "Iran war live: Black smoke seen near Riyadh airport after Houthis vowed revenge - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNTDNjdTktb3hZS0lnMzhXN1o1aWxOSEQwaFlSNXVXMzd3NzlsSkVqLVRsY3k5YWJtLWxPZ01sQ2p1ZDg5WkRTYzVtZ3ZWT1gwcWxURFFUc2NoNmNCV2gtR3VzV3VKWHMtckE0NHVWQ0QyWFZnakc4c011OHhmQklKMXNuMzZibHhmb2Z1YzNVUFRNeEtjUDBRYXhnbzd2NFJUeWs3R2RBbnl6d0FzRVg0alJVWQ?oc=5",
-      "source_name": "independent.co.uk",
+      "source_name": "The Independent",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -259,7 +290,37 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
+    },
+    {
+      "id": "bb68794e4814b849",
+      "published_at": "2026-09-19T13:20:04+00:00",
+      "title": "Iran war causes global pain at the pump - Axios",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnanlKeWpKZ2FjZG5NZkk5c28zekxlMWFQeU9iSzRfRGUzOFFyWjctVHZTdnpOYjNyNzRvNzhqTm9iRWlNTEpMc0JrWXpqN3RMQWpnSHk3Qy1BQkRUeXBNckNrcjBPVWhkX0lMVV9qa0FSck0?oc=5",
+      "source_name": "Axios",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a9e1743e5cbeea34",
+      "published_at": "2026-09-19T11:16:44+00:00",
+      "title": "Iranian, Pakistani foreign ministers discuss regional developments amid US-Iran deadlock - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdldVUzhfbm9hVmFnR0lvQ1llM0JRaF91QlJfNElHdG9vY0VibEFJM0d6YmFVZ1hKZTVPaFhNQ0hKYy1aR1JZMUgzQTVoOVFERzl4S3paVGZINzNCTURvRENUN0xOdlAxM2d4UExQbElEUG0xdkJXN0hDUml5Y2luZWxkc29wUHMxaUV3MXBtN3RIdE10N2YybWl4enRrYTNDbGc5Z29oS0l4aDBxQklWTnQ2QVpKWmppSTdQQjJKMDdVOEFJdkQxdi1kMFhhUQ?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "feb2ba60963f0330",
@@ -275,6 +336,21 @@
         "iran": 0
       },
       "confidence": 0.55
+    },
+    {
+      "id": "957842f9833ae2d8",
+      "published_at": "2026-09-19T08:34:00+00:00",
+      "title": "Iran claims strike on tanker; US reports casualties - arkansasonline.com",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMGlBM3NWLV8yNHJIM3dMNGdJaXgyRHV4TU11cFB2RmUtTzFIRTg0U3hnS2hIMkFGOVUxdTBtNmw4QUhvNzBiMmplX0FSN3ZpWnp2RUxYSEdvc3gtV0ZQNnczM3ZMV3A2Unp6WDRCZFdueUdLNU05NHd3Tk0wNkRqSHRQNWxqMTNMT2M4djNtb2lydE1tWXNuZGV1SW1pOFpN?oc=5",
+      "source_name": "arkansasonline.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "4288ae9bfe697ded",
@@ -307,11 +383,11 @@
       "confidence": 0.7
     },
     {
-      "id": "e2caceee0a18f809",
-      "published_at": "2026-09-19T05:02:23+00:00",
-      "title": "Trump tells NewsNation \u2018we\u2019ll see\u2019 on whether to \u2018annihilate\u2019 Iran - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9nbjRKR0l5dUhZN1dELTUzbmRQTUNsY2NOaGpaa3VqdUk4WlpjdFdpWkxPeEJKdVVUQnNKOWRMSjZGTkhta0pBbEpDbHlPWXotRmVSM2g0NDNJb1RCc0w5Vm5fUkFkMzdrUTRsQUtwTHg4QTE2RzdTNFIza9IBgAFBVV95cUxQbEpQbmxxdkpSUDJMUFZDcmVsSlIzMWNvNEk4STFKQ2s2bVRlRnFTMkxVckNnaTdiOUN4VlV0anl0dlhLeFp5YXFnN3NqbWtQWDg5MHZVOVhYMWdQRlUxT09JanAtcF9lanF4dTBEMEc1WmlsZzNlcFA0SDVlZ1ZGSg?oc=5",
-      "source_name": "NewsNation",
+      "id": "403dbb648f28b2a2",
+      "published_at": "2026-09-19T04:00:29+00:00",
+      "title": "Frustration grows as Houthis widen Middle East conflict with US unwilling to intervene - CNN",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYzNZVTNfVjNwQmhpUi1STHZJb01EMGVBMjQyS0dkS1MzNV9JZ191Tkhxb0xQV25yWXhvck5maWR1dGRrc3MwLXc3cmdxdWZnZEFuTTdLT09aZWRqOTlUNHQ4Sk44TUxvWXUtZWtRU2hJOGRySXdjdEZHX2tURUkxaV9Waw?oc=5",
+      "source_name": "CNN",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -320,81 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "a96b4722a3bf4af9",
-      "published_at": "2026-09-19T03:36:34+00:00",
-      "title": "Middle East tensions persist as Iran war strains regional security and oil supplies - news.cgtn.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOX012WWpjZW9wazNGYkw2NnVBVXppRF9yMGY2ZVFGbXRmb1pOZ09HMFo3V1hpQWs4eklBZXhibnpuY1lMbFVMM01lUVo2TXNGRlVvNXhjdGo4RjlFR1d5OElyUFM1RU1VZEp0VHJRUTB2VzZzbldtT0F6ck10RHhwVjh1cVhiT0o1NjdfMGUxOG9VMnVQR2JIUDc1NlJYbmlWdFA3S1liNHZMeEZCSHdzUE5ZWmFTZWs?oc=5",
-      "source_name": "news.cgtn.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b263c1197384ce46",
-      "published_at": "2026-09-19T02:32:08+00:00",
-      "title": "Iran Update, September 18, 2026 - Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMHZTUm5LQTliUnR6YXpoNzE5b2NWMDc4VVpRS1c5QXk5QmRBZ3pBTXJpX1lYSUhTbG1vdUFnLVp0NjYwUGdQUF9VMlU1UGhZMDBxbnJMZXFsWVNqMkQ4c0pJbGVTZXhibXlkVGY0UkpNZG80ZzVBMDZhVFZjYmluZDRCWVpTRHM?oc=5",
-      "source_name": "Institute for the Study of War",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a414317ffc27c1d1",
-      "published_at": "2026-09-19T01:23:56+00:00",
-      "title": "More U.S. troops have died amid Iran war than Pentagon has disclosed publicly - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQYk51QUpzSHBoWFR4UjJDZjhsbUNqck1YU2RndG93S2tzZjBMS2RqTWFKRURWenlzYzFpTGJYV2k4STFQZjNCbjhHaE5kUnZfeUlMNmhtblBBYzRzV1B0SHREbGk3R2JqbDVKSTJRMWduU2dTZzZ6Qkh0XzV3OUEyWWVldnJrTW00bDk0ZU5VbzBzVS1GSTJIVnpXLU00eVhuLUJ4V2llajVJdlJoN2EwXzhtTkwycklCS3dnNkRMd056Qm5Bd0N2MndkU0FBaTlRZEE?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "21ba7a8879a3d928",
-      "published_at": "2026-09-18T22:37:56+00:00",
-      "title": "Iran war updates: Thousands march for Houthis in Sanaa, fighting rages - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONndDQ09UalE3Z0xiVExKRExDa2w5Z0Z5VVpNMTZkSlpxTU50MTVfTm1DenZwdGlPSnlqZlRLWXJjc2daZFc5Y255MGxnSmRiQzFDcFhfODVuVzl6Y0J5V2tWZzFVVHBjNUUydU96VkN4SlIwYWJKRFo5THJNYVBuc2w1REpIS2p6NUZsRHo0aktHV3I1NVZnc2NrUV9CZ1FxZ1pfUXBJS2E5NTVrTlVieU01eHNHbk82TlHSAb8BQVVfeXFMTm44UEh3eklJNENHWTVwRFFtQXRLYkYzMGlnMjl3TXF0N2p2RGVWTVNCVEVRREZDY2JDY3BxS1NSc2NVU1RURmplb00xLXpwWXFfUk5YTEtTeEduTVJ1bWdkQmhtY0dkVlU3UkotbWhxLWt6V2JISlNlQkExWkZiQlJUdUxlUGxCM2pEWXVfNHVnNVRJUDhWeWZiTk1INWd6X1lhS2lCTlEwazFXMmRDejVyME5rdG5jV2NFbFhOeEE?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4100ba7b7409545c",
-      "published_at": "2026-09-18T20:03:39+00:00",
-      "title": "US-Iran war fatality accounting by Pentagon may not be accurate - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tSFlEOHN3TFRnT0lyb1liWTlGYzBCTzZlVzZsckY3angwS0lPNmVIU3J0NUVQbGNJTUxWWnhZa3FtNnRYNEwyWU5kRTVTb053Mzk0X3hIcTVBY20zX213OVRaNTBrV3d6ckE?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
