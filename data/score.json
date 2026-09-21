@@ -1,38 +1,37 @@
 {
-  "generated_at": "2026-09-21T12:57:12.861441+00:00",
+  "generated_at": "2026-09-21T20:00:29.640761+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 101,
+  "event_count_window": 98,
   "totals": {
-    "usa": 41,
-    "iran": 13,
-    "lead": 28,
+    "usa": 37,
+    "iran": 14,
+    "lead": 23,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 4,
-    "iran": 10,
-    "delta": -6
+    "usa": 3,
+    "iran": 11,
+    "delta": -8
   },
   "confidence": {
-    "score": 66.3,
+    "score": 66.1,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 47,
-    "other": 44,
-    "material_loss": 2,
-    "diplomatic": 8
+    "diplomatic": 6,
+    "attack": 46,
+    "other": 46
   },
   "history": [
     {
       "date": "2026-09-08",
-      "usa": 6,
+      "usa": 0,
       "iran": 0
     },
     {
       "date": "2026-09-09",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -68,7 +67,7 @@
     {
       "date": "2026-09-16",
       "usa": 0,
-      "iran": 0
+      "iran": 1
     },
     {
       "date": "2026-09-17",
@@ -83,131 +82,41 @@
     {
       "date": "2026-09-19",
       "usa": 0,
-      "iran": 3
+      "iran": 1
     },
     {
       "date": "2026-09-20",
       "usa": 0,
-      "iran": 7
+      "iran": 5
     },
     {
       "date": "2026-09-21",
-      "usa": 4,
-      "iran": 0
+      "usa": 3,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "acae355b73aaf438",
-      "published_at": "2026-09-21T12:40:30+00:00",
-      "title": "Iran-US war latest: Trump threatens to \u2018blow the entire nation up\u2019 after Tehran warns of \u2018painful strikes\u2019 - The Independent",
+      "id": "77b964e4b2a27853",
+      "published_at": "2026-09-21T19:20:03+00:00",
+      "title": "Iran war live: Trump threatens to \u2018blow entire nation up\u2019 after Iran issues warning - The Independent",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxONFktdnhCT3AxSGs2MXB6RzcwaTJJc21tZVg4MXVsU0FKZjgxRHgtSW84RURmVElnbWNvOWZlWlBfZW9uSG1veTI1SVNIQnNJS0UtTEd2QjRsTzdfS2VwbDdHaGUwcUtVN2x0M1Q5dWlpNmJMaTNIMk1Uam93c3hRUGRkODlZWDBWU3dpWFhTWW0xVXlROXlJWWprZ09sTFg3UnFxckVLd0I4NThLM2VRV1BydDlhRjUwUzRvTm1ySGE?oc=5",
       "source_name": "The Independent",
-      "event_type": "attack",
-      "actor": "unknown",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 1
       },
       "confidence": 0.7
     },
     {
-      "id": "e2eadfcdf70affea",
-      "published_at": "2026-09-21T12:20:00+00:00",
-      "title": "Trump Considers Major Escalation in Iran Conflict - 700wlw.iheart.com",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLTRRVExYOThzVTFSU1Y1VHZaSUl2NTBnSFFZUmF4X0FDUGFnZzVuRGtyeTlyZ2hkVkxJRGgzNmdOUDBsY0hCRjV5dEpHX09aeW13OWdlSlI4TFA4czJHOGpRS1JQcHN6LUM1X3k3WWl2bU5kZlA5VmVaSklzS3o0emxUT2YyZExkTkFXTHpnSTN1WkhhMWtYX0Zmaw?oc=5",
-      "source_name": "700wlw.iheart.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "54efa027049c8ec2",
-      "published_at": "2026-09-21T12:06:55+00:00",
-      "title": "Iran war live: Army chief says forces \u2018fully prepared\u2019 for US-Israel attack - aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVzJrZ1NJdmRaZ2drbFBiSlE2WEpQTUtkX1NiVTlRTG5yVE54MXhIWFZKR0thdTF0RzI1NldwRUpFdGZwTjNlLVNMOXA4TEVQV0QxSjFJcURoVG1vWjBkckc0cEFDeG81MnVyOGE5TG1fVlNNOHExNmN4NGpPSzNoUGVmWmxXcUJqQWdteFRyN3JJTVJFalBDY0NKM1BGa0wtb08zWDVLNXlvM2FxdVdKUFI2OWtDMUNfT0JWRVcxcVXSAcYBQVVfeXFMUDJHemVRSDFibC00SUI2OG1xNmVqMzFwWmVEZHJqMU5lUVN5bTZYQnpjLW5nVExXZ08tRDYxbGVRMGYtd2NoZzc3cDZvYW9raE42WkY0ZUdNa0tXSUhETnJ6OUtmUmFFMjl5U2FCcDdEVmdwcUxhQXo4dVplSEJmWjZUQTFsQ05zN3F5THotU2Z5TjF3Q1Y4TGxjLTFmdER5b2hKTk93VHNWOFYzaDhLRXNaVURKT0tSSy1FSWtmOGNDQXZwX29B?oc=5",
-      "source_name": "aljazeera.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "87c9e2ec261b2731",
-      "published_at": "2026-09-21T12:02:00+00:00",
-      "title": "Live Updates: Iran warns \"geography of the war\" would expand in response to any new U.S. assault - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGRLV0xqY1AyaEVCb1I0bnRJcm5hVnkzRmZWUDhtR1cxdHdBbTJwTFllNkdhejlhWGx2b3ktdGhVcXdlam1iM2d0TDJPMHN4azB1RWI2TklLVENrdHlSVE5yNHpsWFVlSWpaWk9NbGtGMlZNTW1iLW5DWF9UM2tkc3RpaXRhRFpQbkFsWkw5VXZxQU1a?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "513a7fb35e565395",
-      "published_at": "2026-09-21T11:54:00+00:00",
-      "title": "U.S. Forces Redirect 109 Commercial Vessels To Enforce Iran Naval Blockade - Marine Insight",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPY3B1QjZzVU44Q1QwcUNwalAwVzdMQ09kX0p6UDF3ZHBxZGJqXzdvblVUajdaVDlqb0RZWFBDUk9wX3RfUWZZOFVwUmE4ZVNLUXR3SGlxTUh3VVdJNG5XaF9rVm1EUDZMcFlGZ0k5THNUV0NxeWtIQjJ5bElqRFltd09IU0lRRUJlYVo3eXVIR3RrNGZPRlBod3lqWVVlZHR2MWNZMDFB?oc=5",
-      "source_name": "Marine Insight",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "f088236241c33057",
-      "published_at": "2026-09-21T11:46:00+00:00",
-      "title": "Trump 'deciding' whether to 'blow the entire nation up' in Iran threat - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMU9acUJTVEVaQXNRR09ycmdRc0tLZUZiOGdWNXFhR3hhNFlDcFZuWjZEcTY2bzQ4bTJTR3JsZGRkZkhaTjUySHlLRmxaeGFNR1hGSTNyLTRxLXdfcmN3OHJITzYxc1kyZTN6NFBaSDdoZXluQ2xEZm81X2FTeU9yZFM0VVRtSjZaTlo0TGpIYWZKUTBXR1lQeUxlMTR1QXpXYUJGSy1rQkwtMWo4?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d856346e95b0753e",
-      "published_at": "2026-09-21T11:30:32+00:00",
-      "title": "Will China play a role in ending Iran war? - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYmVwbUpLU25EOUk3dU15dU13TFRyZEFfY0xXYTNycnJaMUJBMGZwa2UtcUVrRWNLMWREQVlXMzBHQTdsM01zdktjZjVpZ3dfdXJHSU45UHhLbXJqeUJoWTVmNjAtQUI0NEE0VXpid3diRWg0Nk5iODh0NHpOcWkwYURwWGhMblhwMmNRVQ?oc=5",
-      "source_name": "\u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c863ef63226d5f8d",
-      "published_at": "2026-09-21T11:29:16+00:00",
-      "title": "Houthis push for control of Yemen highlands as Trump reported to have called off airstrikes - reuters.com",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5",
-      "source_name": "reuters.com",
+      "id": "dff6463f3e4c65c2",
+      "published_at": "2026-09-21T19:13:15+00:00",
+      "title": "Trump\u2019s approval rating hits record low amid Iran war, economy fallout - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPeWszSTJGbXh4dEk1WXZGTi01YWtmNnJ0VkNzUTJwVUt2ODJGc3FnMVR2UHZVVUhScEtPWGR3R2o4ZEFLaC16dUZxa2t5NDBGNFYtNGdycFNZVkJNQVItWWU0YmlRci1NX2V1SktCMFJUVHU2YURVaUtaLUhJaFIyWHBweTQzRENULXdjcUkwTnZKY0NkYk45RmpTUjExWGFTaEpPRzNnVmRjN1pnR0E?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -218,11 +127,101 @@
       "confidence": 0.65
     },
     {
-      "id": "9b3fb44235138a90",
-      "published_at": "2026-09-21T11:03:48+00:00",
-      "title": "Iranian Military Command Warns of Sustained Retaliation Over Any New U.S. Strike - teleSUR English",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPeUtBU3JZWmZ0eE1WUnNYdUtQNFI4eXJQVnh2ZXZqVW9JRmRrckpLRWVBdW4yZ28wZUtqTDBFdTV3c1V1RFloZjRmR0lwMnRUN0RGc0pqcnY4cEpvdFU3TlBzc3lKSkgya3g5YWNLZUdhaUpBZ0tLeThBRUtiTlNwQ3dXUXJIRG9jTWJ0eG14bEpvcmZBbm1CX0M4cFZmbENuU3lCVU1VSUZxU193a1EwTg?oc=5",
-      "source_name": "teleSUR English",
+      "id": "ec47bc8acc3cd9a9",
+      "published_at": "2026-09-21T18:46:49+00:00",
+      "title": "The US needs an information-warfare strategy for Iran \u2014 and beyond - Breaking Defense",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbDhuM1Bpb0ZJb2JEWXk2Ym9WZXV4VENOTVFXaDdtRnpIWmlfc1g3VDhod3pKWEtwVkh4Z08tRzY1WGtIbWV5N0JZUDdJNnQ4SDV3MXZTRmRydUdVU3M1N1lYbEJzV3h0eDQ2LTdRVEZwdGRoR25heUtaazdPb1hEczBxRHpCU202Rmg2OEltM3VpWmVpMWpGM1N4bk5LdXRscV9B?oc=5",
+      "source_name": "Breaking Defense",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "35177ee5a2c1d8f3",
+      "published_at": "2026-09-21T18:27:35+00:00",
+      "title": "Saudi Arabia faces a two-front war as it seeks support at UNGA - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWejFXNUdDUlhMS0lwZWNZNUdpbl9EaU9RSTdwd3cxdlBUbWxseXJRTkNCQjlQSEw5SXQ3c3Vwa3dibEpJeGt0Y3hZeXJLVnIxT05tTS00Q3hlSkNT?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f391158585aa1755",
+      "published_at": "2026-09-21T18:23:42+00:00",
+      "title": "Iran to attend UN assembly in New York \u2014 even as peace with US remains elusive - CNN",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxObk5TZXpFS292M1JJZ2FPMWFzTHg2ZFlVaE1DV1JFWndUWDB2NkMwUG5ZVDdNVW5ENS0yenJmX1pzTm1NOG8yN05YQTV0ZVRpaTdZcW1NUWx6aWFuNDhGTUJac2FJVkNpRlpPUUpZUXpienJfWldZY0NVeHdtcndyMGtjWEVIQkV4LV95MDJ1eGdCeXNz?oc=5",
+      "source_name": "CNN",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0c94c75f62effaff",
+      "published_at": "2026-09-21T18:11:15+00:00",
+      "title": "Iran war live: Yemeni forces says Houthi drone, fighters targeted - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVzJrZ1NJdmRaZ2drbFBiSlE2WEpQTUtkX1NiVTlRTG5yVE54MXhIWFZKR0thdTF0RzI1NldwRUpFdGZwTjNlLVNMOXA4TEVQV0QxSjFJcURoVG1vWjBkckc0cEFDeG81MnVyOGE5TG1fVlNNOHExNmN4NGpPSzNoUGVmWmxXcUJqQWdteFRyN3JJTVJFalBDY0NKM1BGa0wtb08zWDVLNXlvM2FxdVdKUFI2OWtDMUNfT0JWRVcxcVXSAcYBQVVfeXFMUDJHemVRSDFibC00SUI2OG1xNmVqMzFwWmVEZHJqMU5lUVN5bTZYQnpjLW5nVExXZ08tRDYxbGVRMGYtd2NoZzc3cDZvYW9raE42WkY0ZUdNa0tXSUhETnJ6OUtmUmFFMjl5U2FCcDdEVmdwcUxhQXo4dVplSEJmWjZUQTFsQ05zN3F5THotU2Z5TjF3Q1Y4TGxjLTFmdER5b2hKTk93VHNWOFYzaDhLRXNaVURKT0tSSy1FSWtmOGNDQXZwX29B?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "238ed8eb9febee08",
+      "published_at": "2026-09-21T18:04:39+00:00",
+      "title": "Fallout From U.S. Strikes In Iran Under Scrutiny - Legis1",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9WeVJ1WmNRM01FQ3hZUnFhS3N5UlIzZXFJMkRSVV8zMXV5bnBsZUVDdldodEhWOHU0cHJONF9XNzFZS2VmR0ZUbGdzeVdmVGYyS2FWQ2FLeXlvSU8xMzhHd0JXUVhlcEt4cE1zMFd3?oc=5",
+      "source_name": "Legis1",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "87c9e2ec261b2731",
+      "published_at": "2026-09-21T18:02:00+00:00",
+      "title": "Live Updates: Iran warns \"geography of the war\" would expand in response to any new U.S. assault - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGRLV0xqY1AyaEVCb1I0bnRJcm5hVnkzRmZWUDhtR1cxdHdBbTJwTFllNkdhejlhWGx2b3ktdGhVcXdlam1iM2d0TDJPMHN4azB1RWI2TklLVENrdHlSVE5yNHpsWFVlSWpaWk9NbGtGMlZNTW1iLW5DWF9UM2tkc3RpaXRhRFpQbkFsWkw5VXZxQU1a?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "ad25f2ebad3bd7df",
+      "published_at": "2026-09-21T18:00:36+00:00",
+      "title": "Iran says it has new targets, weapons ready if US launches new attack, Fars news says - report - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5fcUdSU0NaUWVzYzRKenc3MmlucHlHSEx1UzY1bXhiNGN3MEx6cjhkYjV3dGNhVTVqMUo4MkFJTHR4LTVqZkVGUmJ1dDVNMlZBZVQyYjAxbm9obzBaZGwySVZ2YnlCdkp1Mnc?oc=5",
+      "source_name": "The Jerusalem Post",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -230,26 +229,131 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.65
     },
     {
-      "id": "1ec2f8c33a516784",
-      "published_at": "2026-09-21T10:44:53+00:00",
-      "title": "How oil, gas losses have shrunk Iran\u2019s GDP by 10 percent during war - aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQcFNseXpCVmJUTWVPSTdnMG0yQUo1Zm5RQkVxM0dIVkxEOE5mYWxmcm1fSmNwekxacm83c3ctY21YVC1pb2FrUkhfQ0RTakRJb2d1S0hTSzVTNWNvc0tBSXBweUNSb3NJMXh6MVpuTUpwSEZtZW9PYWU3OVprMnhKNGQtdWtpZl9GWHhaVHJNNFdpZUtzTGJ1dEtWM2NING1JY004YTVsTFJmQdIBrwFBVV95cUxPam1TVjUtRDluV2pseWpDVVRUMFotNlFjVGtvWl8xUlNJODBocklZVDdFdExLYy1CNkszQkNDcmhzakFBLXFuVW1ob0I5ZUJybTdZTVd2d1NMc1BjRTNwMVdDRmpYRk56blBJR1BDcUU2eW9SN0ZwTDZ6QW1JWkZCQVVBeFdUT0huRHJIZzNMTnp4V3lMME93Z3ZON1dNVUY5OEo0WVVQUlgwdFB3a09j?oc=5",
-      "source_name": "aljazeera.com",
-      "event_type": "material_loss",
+      "id": "6a9ea7d46c9427dd",
+      "published_at": "2026-09-21T18:00:24+00:00",
+      "title": "US-Iran War Live Updates: 760 vessels damaged, 12 killed in Bandar Abbas attacks, Iran says - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSktJM2EyWmVkcUJFMURQbnBUUDlVVUQ1QnRGYWZybUwxLVl4cXBJTlBJWlpHVlNFSWFQWHVaT096QWJzbjVwTzJUSVN0aGpTMW5zS0w3dWRVTFZPVXNET3dsV1pjV2RYSHliY0NMX1BRdXV0N0xXb0xqUFJVaDBoU1hGQ0pzMy1wd25SUU1JcXk1aTRTMXdkbEotWmZrd1lDQ2g3dEViZmpZNDZwVUoyNzM3NmJJYXc4b3k2UmpLclZ2a1ZJQzVGQjNDODBMbld0TjAzdTZuUUE2UXdHQlJXMzlEWUFtRVBtSWt5ZmVVeVVXX0Vvc3RoREQ2VzZvUG9Rb1ZQSGE2N0HSAY4CQVVfeXFMT2ktM0FIN0Z2T2dFR2J6ZHY2UjNJazFkcHBoWG9BNXduZFdfeHNPSGZjeWxGR3UtZXRZa3RIaEI5U3pvZEJwWVZ2S3JNbFFpbXdYU0NFSHV2SklJUUd1YUxLYVlJbi0wSlZqbk11dDVVNmpzbXo0WmNkbUxRUV9sd1VNR0hnNUxkdzU0ZWlHTmtSNnhlUkdvSkswdlpqaExHbEtHOXZSbWpGNElsNXZTdWN3TTZEOW15UElVdkpra3JnSUQzbHMyUFFlTlJlSHFQZDZNRlhPb3FsLU9NYXZVcHptRmlyU19wNEl3NnlUVU1IVUxQcDBoeVFibWJzT05Qc2NEWTN0T1BxQnVoR1h3?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.65
+    },
+    {
+      "id": "27c9f99fd8c0bc69",
+      "published_at": "2026-09-21T17:41:37+00:00",
+      "title": "Iran attacked US Navy base in Bahrain before families were evacuated \u2014 CBS News - UA.NEWS",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdkZHMEF2ZDg0bDVQR1BkZ2FldndWWk5xM1pjel9keG00ZWN3VjE1MUd5R3c0R2w2aC1BVG1rZmRiTnNsYnhvWjdUOGlMRWRKVDdmbUJobEtNZnowTXFacmZpSUZOTTdMc0JXQk9NWjYwbWx3dXR0ZU81MmVfeHZuMlJOdlp4UEp4UlExLXRSOEJZYzdtbUo3VzBn?oc=5",
+      "source_name": "UA.NEWS",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "03e72a092c061fc0",
+      "published_at": "2026-09-21T17:41:33+00:00",
+      "title": "Iran is prepared for a protracted war: IRGC - Tehran Times",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPaUktWFlaTktTWU16Z2xBSjRqQkdZVkdfc1NmU1ozM3RxcTlpSWNibE5RaVVRS3BhMUZCbjhRQ0RRWFBCaDRaNjdpRXZfQ3gtOWdwMFFCeks5cExUQzN0OWI5LTlmRlZ2Z0Q0czJPcTJyRVNNa3lvcjh6MHo0VGs0QmpDTU81Z2xzY1E?oc=5",
+      "source_name": "Tehran Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f088236241c33057",
+      "published_at": "2026-09-21T17:13:00+00:00",
+      "title": "Trump 'deciding' whether to 'blow the entire nation up' in Iran threat - USA Today",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMU9acUJTVEVaQXNRR09ycmdRc0tLZUZiOGdWNXFhR3hhNFlDcFZuWjZEcTY2bzQ4bTJTR3JsZGRkZkhaTjUySHlLRmxaeGFNR1hGSTNyLTRxLXdfcmN3OHJITzYxc1kyZTN6NFBaSDdoZXluQ2xEZm81X2FTeU9yZFM0VVRtSjZaTlo0TGpIYWZKUTBXR1lQeUxlMTR1QXpXYUJGSy1rQkwtMWo4?oc=5",
+      "source_name": "USA Today",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "2a2a9040f84c52bf",
+      "published_at": "2026-09-21T17:10:41+00:00",
+      "title": "Trump weighs next move in Iran war as Tehran threatens new weapons - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZ0h5cWtOMUJyZzU5RHVnMmp6eU0za0JybEs4aUhzYVRxNW9keWluNW9aMnJoM0pkQjByVEpaem45UkRGSzk2T2RRQThvaEVTeXpqWVFoNkZZaFp1MUQyZzRHY1NvaHVfR1hHVDFvMTd5SmhnYWdHS0ZINXVRZFppT3A4WGE?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7c3d27a2e3602209",
+      "published_at": "2026-09-21T16:56:44+00:00",
+      "title": "Day 206 | Iran warns of \u2018painful\u2019 response if US launches new attack - Roya News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONEpXd2o4VVZSdk5MX1ZONFBYSnA0VWZlcHM0b1ktbDRhMnZNUzlhNG4zUE1CeVc4REFQVk5aU3M5SlZhd1IyQUxkRmwyelZXR0xUb3RybS1jTFRWYTRMcE1HRS1LeHFyR21vcUFRMFMwLTYzTHZCRkxsOTdVVzY0MU51RkN6Y3dqTHFVeWVwVmVjallSZzdSNTNuaWZWak5rMF9zRHo4c0tadDNlVWVTenBvbTAzVjVWUmZzYg?oc=5",
+      "source_name": "Roya News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "08c6c0ec5d18249f",
+      "published_at": "2026-09-21T15:56:43+00:00",
+      "title": "Why the Iran-Backed Houthis in Yemen and Saudi Arabia Are Back at War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQa3ZvZG1DVHkwY2JmZkZlVjJLeFRCTE1udWpqdnZKcEJwWjQ4eW5RUTR0dGp1ak1uODluWFY4YlNWakV3SmxMQi02OWprNHhyT252RHprcjRIVDhGTHRMRUx0VEs0c1UtLXdlZ3huMGJxNTJPMkhfYXdQdlZ6aWFoR21aZks5amM?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a28b76b2f9fa9e6a",
+      "published_at": "2026-09-21T15:56:19+00:00",
+      "title": "US-Iran War Live Updates: LPG tanker hit by debris from unknown projectile off Strait of Hormuz - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOeTI2R3Q1QUNxU1ZHSnVSNEZpd3JvSjV1cmxFMEZxZE1kSjdEdXZ6WHRFOXRxUXhiVTdlandSOURxM0E0T3p6VWtJLWlsV1FrZGtOVW5pWEFFY1A3dmlwcFVxdER1X1hhS1JYTUlOak5BQ0RQRmNhQmpXNXdqTXNlbUZCV3NKdVMta1lWWkpyRzFsdXhybWVyOWJpU3hndDZoYWNmVGgxb2hpLWpjNE5xUTIyR3NQTzV3UG1qZG1tN0dSUTZtNVJabjR3S1F2RlNScmQ4NV9FTjdVMkVZNndhSGJ2SDjSAesBQVVfeXFMTWl3Q01LWkwyejBlel9tWlJ5M19jQjZKQnJoRG10RE9pTTZHcDNEX0VKRTBkcm5rMWhUOHc5cXhvN0NnWHpUU1o0bEgzdWItakREVW0xc1NhNk1vNVFnTE04RUdXN0I1YnViNEEtOF93bzRvWU03enJBbURVSmNNd2trQ1ZvU0lzcWpfOG1obC1XQ3ZHYmxJbGxqRmZFZkNleTdIdWFIUjA0cmFxekVDVFJVdHlhY2I3VnBFdXVvTk0wQURSWXl2cmp4elBocUNDakdHQU1nZGl5S09ZT2xDR2lzR29VMlFyNXdHZw?oc=5",
+      "source_name": "The Indian Express",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "09e51834d2b2eb13",
-      "published_at": "2026-09-21T10:36:00+00:00",
+      "published_at": "2026-09-21T15:39:00+00:00",
       "title": "The Houthis\u2019 offensive is the latest spillover from Trump\u2019s Iran disaster | Mohamad Bazzi - The Guardian",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOejBsQkhONWlNVG5XSm85TlJveFhrS05kaDJydmxJcXpJbGdKV1JRN2lIS3FlcmkyRTVOM1RvMllfLXh3TmpTVnJOZDJPLWFtYWFwclhNd01rUjlYNGo4X0psQXNPZTR4SWw5U3IwWGlIWTJyeWdTV2dFZkZqaEdHNQ?oc=5",
       "source_name": "The Guardian",
@@ -263,11 +367,11 @@
       "confidence": 0.55
     },
     {
-      "id": "c7a2a8b20e909de3",
-      "published_at": "2026-09-21T10:35:34+00:00",
-      "title": "Iran Threatens To Widen War If U.S. Launches New Strikes - Northeast Times",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONWpjMmFQUGZQMF93TUxvNl9DS2tiaGQ2YVh5bnRmZnM5djRvcWtIc3BXejNCcHRYSXdYN01BQXFBTksteHA1VFFPMDlISUhma1dCZ2tFVjcwU1BrMjZtRGlwb0x3SGV5WU53MnJjZVZnamJ0eExnUURUSkZrdjdtYkkyeHVQVTZmQ2dtc3NxNGl1a3hSbnZ1SkRB?oc=5",
-      "source_name": "Northeast Times",
+      "id": "dcdcf08fcd35602f",
+      "published_at": "2026-09-21T15:26:41+00:00",
+      "title": "Houthis push for control of Yemen highlands as Trump is said to have called off strikes - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNbHBmWjNkMFR2Skw0MWVFaENxamFwbXN0RGxRei1RenlFVk11R1loSlZtdm16SW5ITGFMalY1bkNBOUVONnVVdENtbDZSdzByT0l0NkJiZUlSSzBvRHBBNWxKd01ja09Eb1Nla205aW5oQkxGVGpiUjZQUTJVYy1EWGx6R2JPN2pGWXVUU29CQ1ZyQmpSMWlzQ1VYUzhidC1SZ3VSMFhyVndUYUZYTXItOGgyTktsQnV1QW1ETzN4NnI2eWhZMXhoZ1h4eEU?oc=5",
+      "source_name": "Reuters",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -275,14 +379,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.8
+      "confidence": 0.7
     },
     {
-      "id": "7a217bdbd13c153e",
-      "published_at": "2026-09-21T10:32:38+00:00",
-      "title": "US and Iran trade threats as fears of return to all-out war mount - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOUVFfam11S2JPYWF4eG9ITW9VOEhuenBMaHJpSnQwRnliVUpGUFZQSU91Sk5xQW9fb2R1Z1lPaTMtUTc4SnRsMTlhZ0wxdDZ2T2ZYbUNGSExrbTd1dHJVRVItQTBpV3VfX0dCZVZvY0lLR2w1bmdleVNQREtoSldNcUlCdjk5NEVZdDgzdk9mak1sMU8ydzRrcXc2Mkdvb1pLZEpF?oc=5",
-      "source_name": "Euronews.com",
+      "id": "1f607fbf940c06e1",
+      "published_at": "2026-09-21T15:24:10+00:00",
+      "title": "US threatens to ground Iranian airlines worldwide from Wednesday - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPUnA3ZVpTSEZkaFpxcjBwSFhuemhzNlBSY05kVkZEY3FxWEdrblNXeVpzQ19fWHRUVGkxWTdaRkhnTlR3U1hxZEVWdWVqREVGcmlNWHh4YTBrSFhwVmZYQzN3NUlHSGs5eUlEUGtJUU9teHBDTC14S01QVlRoTE9Ea0dqcXVaalc0ejhKeko4M1JQX0pUT3BNS2gtUndXZG9MNGxpU2xUa3JNb0tT0gGyAUFVX3lxTE9pcTdGNXVzX2JQTm5iamZCaHllcnhEbkdOYlRfbXZUeTBLMkVyOF9vSFRKS3BGQk1iVGswWlUzcUQ0cXdBUUZOdVc1eGdTZ3p2N0FMWUxnUGxva3ltTUJBWHczbzEtU00xSWh6MXQ0N1kybG15SXRXRHlmN0ZaSEdTR1ppSjNBajdPbk1tYURfVGQ5eWtYTVRxc3pYUTJWUFNaMEZZaXZuNWdscFRRMjZVSGc?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -290,112 +394,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "7f3b7f6abd497f20",
-      "published_at": "2026-09-21T10:14:22+00:00",
-      "title": "Iran warns US against new strikes as Trump says Houthis will not fight US - Gulf News",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZVpoYnJGSHd3bS1LeW5TaEdtZnhLR3B0TjJfQnNzQ2xPMXVYUW9ya1hoUzdSbnVRRXdxczZBeUtNYXFZZWJrNjdlcTZqaWwyN2FMVzl4UG1MRlRCWTdENC1URjNQd2dZRUg1Y3BmYWVQMEVzenh2dFpZczlXa1hQZ1VTTnRJTXlfeVQ3MG42SnBSY2RWamNMUHdmZDA4X0U2akljcmVBNEV3V21WcDhDV0dKc0xveUNq0gHLAUFVX3lxTFB4SWFKVUZuZU9GUzlLeEdZczNHenl5ODVzWkctUDdfWE9KeUcwTURnMVlpaUZBcW50Y1d4eUdzcFhwREkzcXRtZE1IVEJMbEV4MDRDNk01S2pwWjUzQlhnRTN1LTFRbEdXM01oMDRNc3RsTi10UUJGRWFOdVpla1l2R0dmaEJHb3gtNnFZSkROV0pNeURmSFEzMlNMLTRFVlR2b3h5akZ3dkRTa3p4YUFqNGdlamlMUFFtcG9MNTRRdl9LcEFxSm9KU2VV?oc=5",
-      "source_name": "Gulf News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "51019a6a67775d25",
-      "published_at": "2026-09-21T10:04:51+00:00",
-      "title": "A simple guide to the Yemen conflict - aljazeera.com",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOaTlhWGNXUWtmX1lqalR2aFd2dWg2U3dETFRlNUkwVmZlRU1SdEU1Y3ExTHlmbzJ0cng3a3lGRlNGeXBpZzNWUF82SGVTVVc4OXJvblU0cjlQWEpKcnRHYTFlQW15TE9XcHNHTnllLUp1alA3VWREd0xFN0F1eTFjWWRrNUPSAYoBQVVfeXFMTlRPbGQzbmNmMTJfeDFUVERTX0F0VF9oa0FYbE1hX0dlMEE5eTA2Y2lRTGNhMUR6TmdPUlFKZDkxakJWT2psRVVsQ1pFc1d3UThLMXlPTTVvX1huQ1cyN1JpdlBJUU5yVVNINUt1RWw1d1E4XzdwNVFKOVNTMVF6YWgwbTFvWm84MU9n?oc=5",
-      "source_name": "aljazeera.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ccacf0e489c288b1",
-      "published_at": "2026-09-21T10:00:00+00:00",
-      "title": "Don\u2019t Ask How This War Ends - theatlantic.com",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQXNoMGF5WGdOZndnOXk0MkVPc2RsT2tEXzdvTWF0dGd1eXozQTcxXzYzdWJmeV9hQ2Z4NTFRM1BTT3ZvRXhIX3NiN2JVNVNtcnV0OTJTRC0yU3ZKaVJ4NGVfQUt2c3dCTzJsM3ptNUVRcl81dEVCM01VVUhkTXVNdGluLUx4V2M?oc=5",
-      "source_name": "theatlantic.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b70edd7731c6c44c",
-      "published_at": "2026-09-21T10:00:00+00:00",
-      "title": "Inside the U.S. \u2018kill chain\u2019 that destroyed an Iranian school - Los Angeles Times",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNR25idFB5TXlZWkh6UlQtUHJ5THh6MTVNRlgxeUlpUW12TVFTSDFmR0UyX0hidnJUQWpXVlJHQzJrWXF1eHVpRE9ZUUlsaHg3MGt4RzV1MHB3WnRTa1lZVmhjanVFeHJER2hYck1tZTRMMWM3T2hxeW1qRG1pMDdRcWxpeTd4MkVDQmZxSnFDYmdJQjZmX3EwUEV6eUsxenV0VmxLZzB4LXE?oc=5",
-      "source_name": "Los Angeles Times",
-      "event_type": "material_loss",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 4,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "255eb1f7d6266e18",
-      "published_at": "2026-09-21T09:41:00+00:00",
-      "title": "Iran live updates: IRGC ready for 'counteroffensive' if US attacks, spokesperson says - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNUGpVLW52MGVOSFZka1dvNzNWdlREU0VObW96TWl3VTdJRHo3LWR2a3Y1VGdWSTdoakNJOU12YVVTamRfN3c4VUdPa0lndHZ3d0x2Z3VJRW05RVhSRHFDTW8weHFPclVnOXdFTkV3WXlieDBDa0NZR2NoZ3FaS2N0MzdaM2l5Qmt6LVdIT0RFR1NHLU1fQUJ5cE9aSTVmTll6RkhpRGtfUkRPcFN0TUZXLVljcDJKUnpw0gG-AUFVX3lxTE51cXR0MEZ0eXRuYWtZc1JKOF92d09DY001TEx3QUV5QnFpMnltdkMtVUNrNFp0WU9LdU1PUDR2X29naENEcER3QWgzQWg3REhtR0tORzlqTVY3cFJkckF6YjNzbGt0S3RHX2NmRWtoZFhzc1ZtQ0RxOUFFS1VhWElLa1RvVDBBM2tpM1dIVG9qWVB2TTlLd1hFMmhady0waDh4d0xKVGtBdW5sZHJzVVFZUktnSzRocmpyM1ZGTEE?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4497c4b15b6ca122",
-      "published_at": "2026-09-21T09:28:00+00:00",
-      "title": "JPM Analysts No Longer Have USA-Iran Conflict Baseline - Rigzone",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaFlWOHBGSUY2bVlnaVhEOGpXSEJ5X2czeVVmWWZ2cEExWFVtbHNzaWpPWDZoRFk3cFVxQ3NHbGUxYmpwNFRNcmdjamVYNXNVMHg2X0d0NkpaeG5ySlptMTROX1JGbHc1emFGb2tWTDBlTGMwUWRjYkFvMnB5UThaMDJlUDFJRHk1Z0FPOXNncmx0V0labmVycV9IdkthbC1PT0lFV04wVE83T1hPSjk4?oc=5",
-      "source_name": "Rigzone",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e3d0fd61ead4742a",
-      "published_at": "2026-09-21T09:00:55+00:00",
-      "title": "After 6 months of war, US must prepare for a future after Iran\u2019s government falls - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOaVV0dEJuamdMSGJUTjNvRmVhS2I4U09VQ0dweFRMYVcyZUlyV2t0VlBud2JVSDUtNnhVOE1FZS1TaGp0Qk5NQnFOd2VsZ0dZQjFHekFvZ0k0T21OTzBTYkloUHdJZWk3eVdzX2NxLUVPU216ZWxSX0NLQmNYWXp5dDYzTlhocXNfUk1nUmNYcS1WYnBsb1NtV1FBVEVVc1NHbWFHVNIBqgFBVV95cUxNYzVKWEM4YVdaaHBDVjhXY3ZQa0FLeWl2a2xTWXBYLU9MOXJ5RHZvNXlicG1ISkFzUWMyYjYxZjhnODBqQnNIVVBsak5NREtIOVRxZ2RJajVJaS0wT3praTdJSzUtQjhpeW0xRFFOME02SmNfdkVvdzNZcHBrbmpyWTJSUGMxMllWWDlrQ19fZEpEOWNCc2tiMEhaR0hGYkZCbEFJOWNsTGxnQQ?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.6
     }
   ]
 }
