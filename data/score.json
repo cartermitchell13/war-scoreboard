@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-23T11:46:23.668561+00:00",
+  "generated_at": "2026-09-23T17:10:00.939686+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 99,
+  "event_count_window": 101,
   "totals": {
-    "usa": 38,
-    "iran": 14,
+    "usa": 41,
+    "iran": 17,
     "lead": 24,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 7,
-    "delta": -7
+    "usa": 1,
+    "iran": 10,
+    "delta": -9
   },
   "confidence": {
-    "score": 65.4,
+    "score": 66.3,
     "label": "Medium"
   },
   "event_types": {
-    "other": 47,
-    "attack": 44,
-    "diplomatic": 7,
+    "diplomatic": 10,
+    "other": 52,
+    "attack": 38,
     "material_loss": 1
   },
   "history": [
@@ -32,7 +32,7 @@
     },
     {
       "date": "2026-09-11",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -52,7 +52,7 @@
     },
     {
       "date": "2026-09-15",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -92,15 +92,105 @@
     },
     {
       "date": "2026-09-23",
-      "usa": 0,
-      "iran": 4
+      "usa": 1,
+      "iran": 7
     }
   ],
   "latest_events": [
     {
-      "id": "b2df1511bd3c203e",
-      "published_at": "2026-09-23T11:37:30+00:00",
-      "title": "Iran war live: Trump threat \u2018demonstrates America\u2019s strategic dead end\u2019 - Al Jazeera",
+      "id": "0fc578544c89dbe8",
+      "published_at": "2026-09-23T16:53:00+00:00",
+      "title": "Iran War Updates: U.S. and Iran hold first talks since June after Trump threatens regime with annihilation - cbsnews.com",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?oc=5",
+      "source_name": "cbsnews.com",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "3831ea021548cb3a",
+      "published_at": "2026-09-23T15:52:40+00:00",
+      "title": "Iran's Pezeshkian accuses Trump of 'bullying mentality,' vows no surrender - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNMjhvWl9UZXFUYjJ2MHhOTWJvdFgxYUN2b1NuVXYtYTNwVXEzS0J6cVVrZTVBYWxmNHJTLUZ6SG55eFE4azRCZVZDUloyUnVtNE85dGp5Q2xDUmtOVEdVUl8wenVVdUZpWm5ONE5OQUhSYjd1VWNfNm9Ib3g0VjBqdXItY1pTdW5XekI5MFJOWGpoazl2Y29Zb2dMSWx6S2VRckFRVm1WVUlYUkQ1S0dGM3piVGZ6TjgyNGZXcWNFVWFxN2M?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f6b8f8123e265ca0",
+      "published_at": "2026-09-23T15:42:49+00:00",
+      "title": "Another U.S. service member dies amid Iran war, Pentagon tally shows - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPU0Zza0o3MjZKaHdDNGo2eU1tdWREejVYamZGZThZdXNPN2V4MXNIZHVRczlYaHRCdzQ5T3BQZ3VqT3NVbmxPdXd0V3dhMjZDbVhqR3dJN01VOWp6bFduMXRDczBhaHBLZlRDYnR3SzZSQWxwcnM2TW1GajhNS0lGQkk2WDJjWEV0SDNTY3oxNm1COTlNd2RCWmhMTkJWRW9SMm9FVWRRaUZudVVONUtteENB?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8091c2bab355b179",
+      "published_at": "2026-09-23T15:19:13+00:00",
+      "title": "U.S. and Iran officials meet in New York to discuss ending the war - axios.com",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9fSDdtMjE4M3BicXVNZ1R3UUNETkI5S0xUTWtBVzdfdi1ieFBIbUxGbHNwcTdBMUxtdDgtZmp6SVRmanlCWnZzZmpDQmp4V0RFYUM3eXU2Ulg3b202Sk5Qa0p1b1d4Zw?oc=5",
+      "source_name": "axios.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a7ff2928a8e9fa46",
+      "published_at": "2026-09-23T15:12:04+00:00",
+      "title": "U.S. Rep. Leaves U.N. as Iranian President Calls Out Strikes on Kids - The New Republic",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNT0pFZzBDYWhVMzdWUWFLVDk5US03VTJVckRscTVXU2Uxcm5HVWYwaUIxaVFMdUlWblRsNkR4cnNsMUh3dG1tVURBSHhmWDFvcU1VMmYwUjhyUU52eXMwN3ZidXJZSW1iVy15cnlPTXFCRnlfUGZmRE1rcmZpTHlucjV1MmFUbHJPbVJWLWFJaVF4VzBmRXdiSlpR?oc=5",
+      "source_name": "The New Republic",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "f5c0b615b99f9fb6",
+      "published_at": "2026-09-23T15:08:21+00:00",
+      "title": "Rubio Talks Iran and Ukraine Conflicts on Fox - hungarianconservative.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVkNVX1hRc2FwVy02dG80bzctUGdBRDN4R3ZUQ19hbGMtcUZ2eFNmS3BzTlNGRFVQNVRMWExUcS10dXVIYkxuYUloYmhsVkhia2pLcE1oZDI5OE5BMDkwTnFuZ0JIdVNMdElZdldJZTVHSXcxOXJqbGJ2TF9Na0VUbnRfVmVvWWRXaE1n?oc=5",
+      "source_name": "hungarianconservative.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f0b15ea2d339000c",
+      "published_at": "2026-09-23T15:06:02+00:00",
+      "title": "Iran war live: Rubio says any deal with Tehran will involve hard work - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNQU1vV1JGYzkxNmZDcEs0eUFYYlZtTHQ4ZTJzcWZQREo5NzhHZ2dsTGdIMUQyWTZuMUk2NzZZVVE4QUh0M0ZyS0V4WjdFd0loR1JDZEpkSE9RWjliam5uUVpHTHV0LXhmeHdTa3c5TG1RVzJvRmJqMWFCOUxXckpBRlRTLV9PTDgzd0JodjgwWDc3aWF6MV9SMmJWT1dWUFpkWEt2dWhDRVkxMDNBVFpnZVBB0gG3AUFVX3lxTE5KdWw4dkNsRGxUTjdRb1JxamNPN1JKVUFTdzVfZUxFS2t5em9ENTdRNE1lMlhVbHhpOEJxM24yUm9LeW80WE1yQy1Vdy1XekttNTZwNVlhRTB0UzFGc0xKajJwamZWTFE3clhUWTFpRVN0b0tCWnhGelJ0V0s1Y3hBcjB6NWhJNk9xeDVYUnJuZXNaQ2xaSHBzRUl5cV8yNEtLaExlTDlwbXNBcl92czVWNVQ1ZUYwRQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
@@ -113,11 +203,176 @@
       "confidence": 0.55
     },
     {
-      "id": "1508d18bc5e9f6dd",
-      "published_at": "2026-09-23T10:26:54+00:00",
-      "title": "Strait of Hormuz shut until Tehran's conditions met, Ghalibaf says - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmxjTXJvNEtUeGNnaGJNQUVhS01VLXQ4eXRmSlNTZkhneFlFMDRsRTdIaTM5X1BNMXVMeC1GNUZSWDB3SmJqVGxYazRjcV9VWTlnYVM3S3NSNm80NldUMDhMNzZrR3R5NW9RUlRlNTFvMDFUNGoxZTBPYWc5ejdkczA1RmowRXNwaTRwOXRHZDFIWmYtV3VVV05RRVd3SDBSS0dBMTFFbURFVW5L0gGyAUFVX3lxTE5WZXFyeDRIdEpHUUxMbWhoZWJQMkM0cldmMEJHZnFOaGpQZnRtUWp3OFBHSGk1X0RRdXBjaGN2OWlaUERtalQtcGdGbzJFNHVnX2JscHpUV284cTUySGNRdldXVGo4ZUt3Q1I5Y0x5QUVMUG9kM25nVXhsZEdBc2JPeFpRM21hZzNZZzR0eEdydGUzUXdPSWhPbUYwekVDdm9hMU1sbU55alJJLWJpSlBKakE?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "id": "762453f9da0e4b0f",
+      "published_at": "2026-09-23T15:00:05+00:00",
+      "title": "Pezeshkian says Iran won't surrender, after Trump's annihilation threat - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWjBhV01rbEcwcTJwZjdTbjF1ekxtTnZiRzc2b3p3d1NRVjZZWEUyM0gtQlFPeXBWX0hRdlVpMS11d01GVHpiQmdVY1FlN3dIZUQ4eDRTcTZBRFJxYjRMeVp3eWg5M0Q1YWw5a2N3cEhOUHlhOWRxNmZQTjVLenl2MjRrSENSaUYyTkFhc0ZNdnNoNnN0VXZOM2NhRGRLOWcyUEtXUk9wbThsdXBzc1ZYQW5iRQ?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5f343c299068782e",
+      "published_at": "2026-09-23T14:27:51+00:00",
+      "title": "US, Iran hold talks but fail to make breakthrough in effort to end war - stripes.com",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZDlQSEhhMEphRGMzaE9VeUsteGhjLW5iZHhUQlA0NEtscVlQcEVYVUlwYTZYZDZXdnhhbGNHNDRmWEF0WTROOC1BaF9kcWdfaE5id1JoTnB1ZlROZTZmaGRGb05JajRPX3dwS2thZjVaVHNvakNZR19SS2VtZWJpa2JZZ0l2WGlLZU5WZG82a29NMmZxVmVZNTNOdm5XSlVBQk9Wd2trX0tadw?oc=5",
+      "source_name": "stripes.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f249ecd077a25910",
+      "published_at": "2026-09-23T14:00:29+00:00",
+      "title": "WATCH: Iranian President Pezeshkian addresses 2026 UN General Assembly - PBS",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdGVwQTd0TVh0YW5rbU5EQWo3QkVXYk9BWE0wZG5XLVZjZEgxdjBndURxZEFnQmo3aFR6Vk1oSlpiUFFmUXl0S3lUd1NvOGFXNnA0UmJmLVhXRE1pS01hMkkzTUl0ZGZJTVhVclRadnRkclVXUjlBbUctZkhzMFB1RTlvenlhWVp4NEZVVUd5cE44WTNONG5JSXQ0QUY4Q2pkRVYyX3BUVmVCdEMwSmfSAbMBQVVfeXFMTlNKMmxzYVBqRnY3Q0p4QUQ0eUp2cXZlTkxFNDNIeVpuWEY2TVNCYjN6ODBBZkNJU21tN2xRbHdsd0duWUJ3Y3ZsQ3B6cFVTSC1hRWJEck44VnVUczZtVEtiVXRQX3UzNkFuWmJLeUVCeURNVHlrWl9PUm1oZ0IyNThuSS1oTkRsbkN0akpJVFk2TndvbUNzOUg5VFlfZkdqZk0ySjNwMENzeGZNazhpcXpsSUk?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3725f0a2bfe973d5",
+      "published_at": "2026-09-23T13:57:15+00:00",
+      "title": "Can flurry of New York diplomacy lead to US-Iran diplomatic breakthrough? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOUxOdXNwSnIxX1oxekgzRktvVVIyRFExQ3l4dTZKZnVmVGZkT2R5VkgtZXZWbUlSTEVFNkpwd1RadEtxUVlIN0VOaEVjQXVRTjB6Z2NqWGVtQTA2dVRxemlUX01aSE5jalk4WHlIajgya0tPZ1ZsSkU5Y3FrU3FmVDZHRzVEX3kyQ0U1LU5RZmJVcnNPMVBoZmFKUGVlb1BJMzg3YzRTOUpWaFRWYmVGSVpn0gG3AUFVX3lxTE8tSV9jNjVNQlBFUmRqR1RWbUVNMGxqVW9qdlJJckxwT1hlbEZ1RTNmLVc1UGNBcTJDSmJIXzgzZmc3R0Z6QlZUd2JXUkIxZGduSllYd09fU1hCR3kyS3hNOEdpNTZEeUVmUUtzdFphVjhjeGRzSHZJYTdXLVFOeG5ab1lFREg3cUk5b2FlUkNQWHNDU0RtVUx4YWlrM3hTOFBEczVpMGZvcFNRbTk1T1BIT0dxbThRaw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a007675a1cb7ad0b",
+      "published_at": "2026-09-23T13:40:10+00:00",
+      "title": "COMMENTARY: Asia's crude oil imports hit post-Iran conflict high in September, but remain weak - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOeFFxTmNRWmhLTU95M3RUZ2NLTDJLOXF4MnNFLU9xY3JGZ3BSNC1qRWdhYnI3dTJFSGxXS0hJQ2VQMVZGS1ZidVFTeEtVdTJHQmxHcGtPUk9nZEpRcU9lLTFGejJrejNMc1BPNEx1ejhpUS1jb2NWSWUtcUpTcm1pRVlyLWcwbjBLdWNIVi1HQU9SLWtDQWRRWWFMZmR5XzF1RFVFSHFsMGhmbXc0TEM0SGFjTU9vWS03UlZ2NVpJS2pCdVQxTHZCNUx6T2p3UEg5MmtxeDQyYzNnZw?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "719919492e536baf",
+      "published_at": "2026-09-23T13:00:04+00:00",
+      "title": "WATCH LIVE: Day 2 of the 2026 United Nations General Assembly - PBS",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTThteHItanV4azdKZUtGRnhaQkFqN3dMakdPbXJsMzlaNURpVVlDVG56YUhVVmR1QTYxN3FQOEg2MGJzZmVDQzEyYnhOX1EyZ1dzR3lSSnd3VEJMcllUS2NVS1dFRmtlRmI2QmpXanhKanJfMU41VjFrZnBsUTRMNVA5WEZ0U1I1VG1KSXAzZmlvZ2ducTlfSHA2UdIBoAFBVV95cUxObXBWNllUeVlWeUFFaW9zVFI2UDA0YkRhRTlLQ2JKRm1RQ0xveHRLbUxWOWdHUl84RWhYdERfRVQwYklsRzlYeTJHTjdrdDJ2SG94ek1VOGw3d1V3WjQ3d1dRR1djbTNZcGZNTDdCMzFYWUlKMjV0LVlnT0ZtbzRwb2dYVjVUa0ZsVlFaRnZuV0ZBZTFENHlIZkljQzhhV0xw?oc=5",
+      "source_name": "PBS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a0d6e6562f29d3a0",
+      "published_at": "2026-09-23T12:00:40+00:00",
+      "title": "The U.S. economy before and after the Iran war, in five charts - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOa0dDM1A3eDlVM1Y3VGl3UWpERk1hYzllZUlSMnlpd0dYVFpXZmNvanFENm1MLUFWU05KNXhtQzNxWkxrSG9yRkxveExxdUMzYlNMMkJLaTJPSWJUbHE1VGpfUk9hRG1rckNjMDFJSHQ4TGJLMndkdURIa1RFSTVWQmdGWExoQWVJX1hF?oc=5",
+      "source_name": "NBC News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "bdf9efc7220fd671",
+      "published_at": "2026-09-23T10:53:34+00:00",
+      "title": "Iran offers to reopen Strait of Hormuz within days amid UN talks - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWjFrLVd6QXBIMDQzeTRWN2JodlBKeGhXYjFXWDBzdGR4ZTRpVHNHQU91VzkyaHpycVF0NUlzRjlBWUxTZTJncFU0XzU1ekt1ang0S1dsd0xWQ204QVMtOVh1S0ZWaVdhLXF0SVhyWl8xeldEdFhpU09qMXB0dVZkdURjQV9MNVRk0gGOAUFVX3lxTE5yWU5tZTJzZklpTGVSbmxHNGM5d3FqVlF4UUFzNC1jbVl6NmVOTnNxdFU3OVZFS0tfQlNfb08tTmdoQ2FmYm5hNS1ETG81akQ5bS1vSnhSb1IyTXRmTzhEOEZZUkZsY1NwNVIzeGpjRGF0cDNIdFNNemd4YThVb3pNZTFjSTNrUkdSeWtCQXc?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4c514dda30e78bbc",
+      "published_at": "2026-09-23T10:40:00+00:00",
+      "title": "Iran denies dropping preconditions amid \u2018very productive\u2019 three-hour UN talks in New York - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQa3FFVEtERF9lUEJSdEtfQTgxVHY0SHR5M1pjc3M2V1pRQXVQSmlVczNHN19Eb24yVWQ0anI3TVppUDJ4WENSZ3Z3TW1kUkhPRGdRVUI1RWRyMVd5ZGJXMVYwUFRGb0tUcGxrNG1FZFU5S1JPanJodWRiSlBXUVpXSWF5Z0k4Mm9DMXBudXN4MXlZX2lVa0kzTGlIY0pSY1dNSkJGU1ZSM3hZNld1RzhlRGNrTGhSaWRsbW9DSnBPaUNnbnM?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "101a58d76375db4d",
+      "published_at": "2026-09-23T10:30:00+00:00",
+      "title": "Pentagon Reveals 19th U.S. Troop Death Linked to Iran War - Newsweek",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOQjNpUWJHXzBFQXN0LUhxSzlZU3pNQ0t2em5EcjNMbDZhV0xub0hBSWdRSGFDQTM0SF9MVDB4Q1RYZktkeWlDWE1feThZczl0cmJhQUoyQUhqUy1Rc3FwaldEZFdPeUdNd0wtejFtZEdQU3RxdmdSOFNDcnZndUkxaFRubnhaOTBzRmNhdkJyUmgtZnM?oc=5",
+      "source_name": "Newsweek",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "b2602777c65ba7b4",
+      "published_at": "2026-09-23T10:26:05+00:00",
+      "title": "Trump-backed Iowa US Senate hopeful says Iran war must 'be brought to a successful and immediate end' - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQSzNfazV3MHNkcFY4UW1ZbzJKTWtZVnJYTmc0dU1GcGRkTTB4bjY2NkhpdkdWYjNhREVwb2FwaVp3bmM2d2hjbTF4MFQ3QnRNV3d5SFh2SUlNSU9NUDBzc1l5eGZCcGgzOEp6S2t1ZEVqeXZJZURETlNMSHlHc0JqeEd1NnhuU1hEMldRYURVb2p1aHlLY3hlenJiLVM4SWd4b0EteUl6ZXJ2emhMNTFvNDhja1pXVzY2YWthSGdlc0LSAcYBQVVfeXFMUGo5N05PQlZCbjhxcloxcjNNQ245OGZvVXIyVHdJaDBZNml3MkdSZHJEbE5FVDNEN2JzOGV1V3AyTXVncHhSdU8tV29oQTkyaVBaNHMxQTJKZzkycm5LTTJONHp0MEpka1Q0eWJnUjBCcVZ5cW5aQzV5aEhZY0FiNS1fRjhoZmtwZUwtY2tVOGM5UURhZnZQOWo2ZmZLNGJpRk5qbThHMHlaSEhSbXpZbVB6Rkk3eWM0NmpoYnpMcTNPZGpIblJn?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "35552f71931f0ee7",
+      "published_at": "2026-09-23T10:01:00+00:00",
+      "title": "Trump says US-Iran meeting was \u2018very good\u2019 - arkansasonline.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNkg5ZzNKamNiTUxrQm9xay1BUnJ6RVF5STQzRW04MTdCU21ncWFheFY2VndPaHlnQmRLQmZLTk1zS0JlZjlfcWJIa2EyWXhRNzlnaWhDMEtWMDV6Qmd3VTI0UEhVSWNWdEZkZ195dEg0TC1pc3JtV20wUVllN3p4NmpLUDRURVhRcks3ZEVSTFlibUk?oc=5",
+      "source_name": "arkansasonline.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -141,261 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "8ab4c4c44f0c640a",
-      "published_at": "2026-09-23T09:43:07+00:00",
-      "title": "\u2018Annihilate\u2019 vs \u2018crushing\u2019 attacks: Why Iran, US up rhetoric amid talks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM00tdGJYVTZKd1NBNFBDTllXU21LZE02VkR0UnU3dkxNakphNkp0OXFuSFc0cmlTUC1XZktybmlHRU5TZ2xEczFjV1pvZHZheHpnTXJOR0VaY2pZRm81bG8zcDc3YzJUZzZrcGQta0RBQTRYcmtpem9ra0w3bmJoMjhpYkZCbG1CU3hnNFpWSGh5LVVRQ0ZBT1ZtQzd1NDUzZ3c2WHhCQlFJUdIBrwFBVV95cUxQcnNnN0doNUNIV3ZUMjVyRUQwZ3ZUdW9TQUo5VVpWb25UTnYyNkFCMkdscTNKSVdCTXNoVDhOVjlvWTBIanRxTlRpd0hYSURibU9QX1ZnU0NnQS0taVJQeXV5ZGsxREotS00tQXhLRXg5V04xa01VNUdwb3BIeFRHUTNmY3JzRGtBZS12Zm1Ha2lDazl0djc1cDVFSDY5YkIwN1J1VUxBX3ZtOFpxemJr?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "4e771893edc3dd64",
-      "published_at": "2026-09-23T09:05:57+00:00",
-      "title": "Iran War: Latest News, Live Coverage and Video - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "19171b5f4e8a38db",
-      "published_at": "2026-09-23T08:44:17+00:00",
-      "title": "Trump Threatens to \u201cDestroy\u201d Iran if No Deal Is Reached, Warns US Ready for More Strikes - Khaama Press",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZWhTSGVjX0pPYmJiRk5qQm91eUNPWVZDVncteW9Nd0dZSm8wTFVkSE1URFQ0bTMwVmV1d1RwaGpSV1V4QXA5YVc3d0NUblNvUXZKcEIwWFNzZWRLMzRtbFRRdDBTOWZjdFJEWVR4R19RUmxjcEtkSHNvN0xnWjl5VkdUbC1VRDJJRkljQnJQV1l4d0IwVk9MREYwbDZTZ0tvOUtISW94cS05SlYyaWc?oc=5",
-      "source_name": "Khaama Press",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "dd6caf1c24cffc78",
-      "published_at": "2026-09-23T08:06:02+00:00",
-      "title": "US-Iran War Live Updates: Trump says \u2018good meeting\u2019 with Iran as Tehran lays out conditions to end war - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNLVRaSTJITDdMaVJ2dmdTYkZvbkMxdUY5dEdaYzFncFNXaG9zUVFaajhLMXA4WnpRNnBadEU5dW52YnZJeGVrdmh3TzloUklab2N4dVgzd2hOYTh5UTc3RUpIa3Z4X3VoWXM0ZVhUeEtocThsd19wNmJUbUE3V0I4a204YThnMTFCV1k4S2NOLVZ0TlVuNlFuWlRPamhSdXloa1pEWFl6elZ2VFJ4dmtaYnZyWDdRT0VQRjZobzZPVlQxby0xNW5DWDlsMTQ4QzhZeUE1WjVXOUd1MVFrRUFkd0xHY29XaERSQVoxbXZrUVBPMFFhOFMxcFQwbkFUMGMxU3lxakVzclJycTFuTURoWHB1ekRRTGtEUHoxcDhJYzg0V1c2djBsWmY0WEZsZEHSAbQCQVVfeXFMTlE0TENpbkh0MXU4S3dFUlZZRDlNRGdMelFhbmY5MC05WnRQaWh5ZDI1aVhxR0RuS2luVFFQOVBzNWszREVFT3I3WVlySTlRVDNiX2VfbnI5bGIyQWYzTmZtaS1hZ2gtZGFHejlDOFFCOGE0S1JPWUp2TTdSZWl1SzRsMGpQdjlBMU9JTjYyWGw0cGlmd3p2OWVyWnBBNkZ0UWdCNTc1QV9fTEt2M0lfVTVVR2UzVFNMVXB4U0s3Mm1Jd2dsN1FrWHZQYU1sSDdlcEl1cTh5MUNjVWxfY09qRl9mbTZKOTRaVTBMb3RTM1JhaU16dlQ0V0UyN1daSDFNRjZQUGhVb2JCcXRCdHBlcjlXYzRtOUxUZldhSU9QMG1nUlRMZngxclVaN2FGLTV1czZ4WWg?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "129214635343b659",
-      "published_at": "2026-09-23T07:48:11+00:00",
-      "title": "Iran General Staff Dismisses Trump's Threats as Sign of US Deadlock - \u062a\u0633\u0646\u06cc\u0645",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZlNzX2EyR3RFQnVWS3l1N0Jidmo3V3ZXVjlBUktmaVBYNG13NGt0V2FDUmcyVV8yNE5uOXhjMkJsZjVFTTlPYWRRN01VTGJGTGs4WlBuM0JIQXg0SnA4T3hUdGhBV3M4T3lpQ2hKY0xVOFlSdmZaVllMYnVhZmZ3ME5PYmxWdDJ5bzRQWnJvdlFOWDg2bjRXRm9mRXc1RXlJd19yZnlIWXdxcW1BX003RzM4OFMxTkdoci0tbtIBwgFBVV95cUxPVWQzeDk4S041aTM0TW9rQ1F2dXM3X0htc3d2T2NJSjY2eXRRY19pdC1HS1BvR2QxRlVobHJOYzlSenZEdGdvSzVCQVZfclhGeHBuWmhnbGNjZnZoYXZQSmJHb25kU2g0TlhHV3k4ejdRbG5zTnJ1Sk94V0hYeUpwMndXcFdJc0gxdl9LX1RFQjJyWTdETHJRWHpYQWRLeVdWS05xWFdobWN4V1NZemNrRHNXclR3WXpXd2xQb04zSE93QQ?oc=5",
-      "source_name": "\u062a\u0633\u0646\u06cc\u0645",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "60e16f2f6ef70504",
-      "published_at": "2026-09-23T06:29:00+00:00",
-      "title": "Live Updates: Iranian president arrives in New York as Trump weighs cutting a deal or driving Iran \"into hell\" - cbsnews.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOZGRLV0xqY1AyaEVCb1I0bnRJcm5hVnkzRmZWUDhtR1cxdHdBbTJwTFllNkdhejlhWGx2b3ktdGhVcXdlam1iM2d0TDJPMHN4azB1RWI2TklLVENrdHlSVE5yNHpsWFVlSWpaWk9NbGtGMlZNTW1iLW5DWF9UM2tkc3RpaXRhRFpQbkFsWkw5VXZxQU1a?oc=5",
-      "source_name": "cbsnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "8d20152bddae8212",
-      "published_at": "2026-09-23T04:55:02+00:00",
-      "title": "Iran war live: Trump says they must choose between a peace deal and \u2018annihilation\u2019 - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPckFheUVsV0VxWUwtM3BwLXVSenhKQ3FfNlladEI1bzFLUTNuWGQ1VThITkdXQTdjVWRMeEs0OHY4WUE0aVJDRXQ4X2U4dUh6YkpTcFRLYVlFVC1KbDd0UjdvTUNXb0xYZVVtdnZFMFdBLTFOVmFLWnlQVklEejlNTl9tZVFZLURUVDNOY1dMNGU3Qzl1WjRZUk1PRXhNUHZEcmFaSmIwMm5kMlFFWmkxYTRubEY?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4728baf5c82fad17",
-      "published_at": "2026-09-23T04:52:53+00:00",
-      "title": "US-Iran War Highlights: Trump, Greenland, and Denmark sign US Security deal, - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMWlIa1pZc3NleE5HUkFCWW9vQmZUcnYyQllndldrQ3Nsa3N2aDhPUWNWbUFCSnJYdlV1TzEzTk9ib2pfVzJSb0JCcEZNTm95T0dGbTlEOXFKck1KOW9yUTBma0M2SlEwSXFUR2xRcVZmcFQ4ZWtxVDBtZnRXNGxOUy14WUcwdElKZzY1YkJvT0V4M2VSZXJzS2libFJiYWtRWkRWQWF6Z0RNTkJJbThYTldfMDNWbmxuZVVZWC1fOE9qS01ncjI2UmVBdFI5aWsyZHdvY1FtbklnRWRac0g5d1lBZkJyTkRrd1M2c3pR0gH0AUFVX3lxTE92VE5pSnhjWURyOWt1NWxidXFBR0hQVXNZTmNFTHFib2F2T0xueUR0eXNiR3I5NkJRY3l4NHlTclNxWmtlWUUtcTc1aXZ6b1FkQWZNWXlJaUdQSmNGZFk5cHdBdG5kdU9lRHBVLXZRUnEzcVA4VFJST0gxTU84dlhQR0lRdHZhVlhnNU9RZE9kb1kxZ0pBNGx3S2dnUVhPeEp2RTYzOXpPX0w2ajV1cjI2WW0yd1d2WDVWSkF3VXpuTFkxRmxJMmtEREhCUWVLMnNORU1CekwxdzUtWm1xOFdVbUJwSG5nVEhHQTZFYURYVGwyX0k?oc=5",
-      "source_name": "The Indian Express",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a0c6ffb03207480f",
-      "published_at": "2026-09-23T04:47:52+00:00",
-      "title": "US, Iran hold mediated UNGA talks on ending war, opening Strait of Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNLXRPQTVqXzVzVmR1V3YtSUptb2pyejlHYzRaOWFQR2dhdmNrdnBkTUpVUU9ETy1kRTJhRkE1SlpidGF5UU1KZ0ZOSlJ2WjU4bWlkMUQ3WVZGdGlNS2ZiQWU3Q3pqdHVHV211TGpnVzloZG9LcDlXeEliY01ueTg1dmc5RzZUZEwzamJnZlZZYlRpc1ZLcWZQQXNkQzhqdzFBM00xdzZRZnJEbDlpOE4yVWRR0gG3AUFVX3lxTE02elBuektCcFRIeV9GcFF0TS0zNEhPR2hLM0NoYVNiZzRFcUIyd0NmVlgyTFV3OUFqbGRuVHVVVWRwVUlOMDlSRkJ2VGZxc0Y5WEt4NWpycC1MLVFhaHVUM3drd2xTWUhVdW8xYnBERXBvZnJMMmFFZFBNZno5WjRqTVJzWlBOQUdrT2E5YTdiQ0c5em9abmdBQ0tUUnM1dDlfODk3dGcweE1PZmtaemt1bjZIakMwYw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ceaa1699005086b2",
-      "published_at": "2026-09-23T03:35:01+00:00",
-      "title": "Tehran sets out terms as US-Iran talks intensify in New York - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8zeTUtckVhZ0VkdVRsOWlMeVQwUHZ5LVZndW1ZRkVDdEQtQS1fMUpyMGJzQWp6NnpCbHFsWi1BOVJ2MzR3V19HZnJDSHdIdkVHV1E?oc=5",
-      "source_name": "Iran International",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "9773a0875793b676",
-      "published_at": "2026-09-23T03:24:00+00:00",
-      "title": "Iran's Armed forces calls Trump's annihilation threat \"a tool for propaganda\", Tehran set for strong response at UNGA - ANI News",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQOXFDNWNzTTZEOWV6NGl0eTJMVTV2dGJmbDNBUmx2TzdvVVUzeGl6SHl3WE1fdHJuNnlnUHVOVXN6SVBPRXpjZ2FtSlFsNGUtdVdTN2MtRjgtT1R3T3doSzFrZVNtMGRzTk1BUUhIRmU5QXV0Z0V0NW5GQVhfSHVORklFSmVGU285cHFxZzhOaEgtTjN0aFEyUmJkYXJuTlBqUnBhSVBzZHZsd2FWMlhLa0hRcjBFa2J3Z01EelFSMzA5VjZlRVNkTlVpSWZTcmFDRUstbmEwcGhHeDdCTExrbUpmeUdfQ2dSZVRUVUpua2ZKRnVrVHpNMGJKRHo2MHdBeXc?oc=5",
-      "source_name": "ANI News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "acba5b491dd4e4ca",
-      "published_at": "2026-09-23T03:14:15+00:00",
-      "title": "US-Iran War Live Highlights: Explosion heard near Iran\u2019s Qeshm Island as Iranian, US officials hold rare talks on Strait of Hormuz - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxNSktJM2EyWmVkcUJFMURQbnBUUDlVVUQ1QnRGYWZybUwxLVl4cXBJTlBJWlpHVlNFSWFQWHVaT096QWJzbjVwTzJUSVN0aGpTMW5zS0w3dWRVTFZPVXNET3dsV1pjV2RYSHliY0NMX1BRdXV0N0xXb0xqUFJVaDBoU1hGQ0pzMy1wd25SUU1JcXk1aTRTMXdkbEotWmZrd1lDQ2g3dEViZmpZNDZwVUoyNzM3NmJJYXc4b3k2UmpLclZ2a1ZJQzVGQjNDODBMbld0TjAzdTZuUUE2UXdHQlJXMzlEWUFtRVBtSWt5ZmVVeVVXX0Vvc3RoREQ2VzZvUG9Rb1ZQSGE2N0HSAY4CQVVfeXFMT2ktM0FIN0Z2T2dFR2J6ZHY2UjNJazFkcHBoWG9BNXduZFdfeHNPSGZjeWxGR3UtZXRZa3RIaEI5U3pvZEJwWVZ2S3JNbFFpbXdYU0NFSHV2SklJUUd1YUxLYVlJbi0wSlZqbk11dDVVNmpzbXo0WmNkbUxRUV9sd1VNR0hnNUxkdzU0ZWlHTmtSNnhlUkdvSkswdlpqaExHbEtHOXZSbWpGNElsNXZTdWN3TTZEOW15UElVdkpra3JnSUQzbHMyUFFlTlJlSHFQZDZNRlhPb3FsLU9NYXZVcHptRmlyU19wNEl3NnlUVU1IVUxQcDBoeVFibWJzT05Qc2NEWTN0T1BxQnVoR1h3?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "744e74c02d2075ce",
-      "published_at": "2026-09-23T02:57:00+00:00",
-      "title": "Trump threatens to 'annihilate' Iran in UN speech as officials from both countries meet on sidelines - BBC",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5ibnAxMnNWQ0xzYjdoWFlDOWNZSkhoNXdKVm5QanZsMmg5Wno3cDEtTzUxOVI0U0hGWU9rdmFwX2l2TTVTaXYzMTJlMFZEMEotRE1sdHJEQWdoQlE?oc=5",
-      "source_name": "BBC",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "66b2e94a5b17c5c7",
-      "published_at": "2026-09-23T01:29:19+00:00",
-      "title": "Trump says Iran deal nearing after UN talks as Tehran sets conditions to reopen Strait of Hormuz - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeE11UGpHWkxSTTh5SnRGZkIwNkY3SzNhbFhzTWZ6RnlxaEUzbVZkdldsTE0zRHhUQXN5eC1BNk9HQURiemZ0TUhTTm1lM3RMWmNVZ0w5UFo3aGZSZV82Yjg4NFBsSFk2bFBIOVlvRWlxeUVtWXZWaHJUSjFwdnR0NVV4TEpJbnZWY3YxbzFBZVlISDdUU2tfeW5rbmFGdw?oc=5",
-      "source_name": "Fox News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2d2590d07319411f",
-      "published_at": "2026-09-23T00:06:26+00:00",
-      "title": "Iran war updates: Witkoff, Iran\u2019s FM Araghchi meet in New York - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSXdSNjVvOUhQbm9XZ2xSR2lRZXBfLVVDd2VUQm96RGFOSXZVdUFTc0VRWndsRUtseTBlR3hQa010Unlaa2xNTlNhcHNyX2p3MVJtZ1ZGR2NoVE0tN1JSaDY2dGtVZkV3OXdqdzYxTkR5VGUya3htYmZEMkxYeUhaMGprS0l1a1ZFMi04YmVHeUNOTnJNeHBuRmxaUW0tclh2aFh6ekp3bm5sVWRTZ3dIeUJSVjRlT1Y5N3fSAb8BQVVfeXFMTnU3cXBNVTZkd0RVTUhyRlpGbzh3Y1FEMVRNUjVwSGpSeGsybEZiNGdPUVk2UDdzOG9NemJubmRDeXJiblFIOHNxbmF0bnNRMUxhX0tkaFVUREExUkk5NnVrQV82Q3YwVTJRQ0wwemlEYTZpZ2JoRF8zbE51eXQtLS1LR2tuNTNPWFpocC1rcFNoR1lKZFdOcGpuUnpVV2tENTZmYXU1TXJabFQ0dmVTRm1IODBDVnh1eFdDY3QtUFE?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e90ef4fb078851cf",
-      "published_at": "2026-09-22T22:55:13+00:00",
-      "title": "Trump defends Iran war and threatens annihilation at UN General Assembly - PBS",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOU2s3VVRrb3hVTmx1ZG1sR3RQOXFVY2JLYjhya09sck5ndE1wNzM3U2ZYQmJMUHdoNG5uaU43UnVzUjRmNTQzUW9lcGxWMUpic3o3TDNFLVYwd0F2eEhxMDFuSW5hTTItMWU4RFNfamVtLVg1SlRRVEk0Y3cxMVg5RkVXV0pEdVRRV1Brb3E5bVR3VVNrVV9WRERUWl9NbkdmdnpIdm9UNWI3dw?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "af5539fb9d807a77",
-      "published_at": "2026-09-22T22:16:06+00:00",
-      "title": "Iran Military: Trump's UN Speech Is Propaganda; Ready for Devastating Strikes - news.sbs.co.kr",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BdnIzbmhFbC02b2xvazFnbGp4UVRfUVRVZUtSNXA5ajhqMHV3ZmlhaG43X3dFNnNLeXYtaFZJSzhDeXFoU0Y1clIzV3VpSlFKUU9ZY2t2cWxKblRCcG1OZGRKb2dEaExUME9ObXZn?oc=5",
-      "source_name": "news.sbs.co.kr",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
