@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-25T05:03:43.267195+00:00",
+  "generated_at": "2026-09-25T11:56:52.280119+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 103,
   "totals": {
-    "usa": 24,
-    "iran": 21,
-    "lead": 3,
+    "usa": 34,
+    "iran": 19,
+    "lead": 15,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 3,
-    "iran": 11,
-    "delta": -8
+    "usa": 9,
+    "iran": 8,
+    "delta": 1
   },
   "confidence": {
-    "score": 64.8,
+    "score": 65.0,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 39,
-    "other": 51,
-    "diplomatic": 12,
+    "other": 47,
+    "attack": 44,
+    "diplomatic": 11,
     "material_loss": 1
   },
   "history": [
@@ -42,8 +42,8 @@
     },
     {
       "date": "2026-09-15",
-      "usa": 0,
-      "iran": 0
+      "usa": 1,
+      "iran": 1
     },
     {
       "date": "2026-09-16",
@@ -87,22 +87,127 @@
     },
     {
       "date": "2026-09-24",
-      "usa": 3,
-      "iran": 7
+      "usa": 9,
+      "iran": 3
     },
     {
       "date": "2026-09-25",
       "usa": 0,
-      "iran": 2
+      "iran": 3
     }
   ],
   "latest_events": [
     {
-      "id": "aa3dae222b0d272c",
-      "published_at": "2026-09-25T04:54:11+00:00",
-      "title": "Iran-US war latest: Netanyahu tells UN Iran attack was \u2018one of his easiest decisions\u2019 - independent.co.uk",
+      "id": "c32785d3811c5a4e",
+      "published_at": "2026-09-25T11:16:25+00:00",
+      "title": "Oil prices back up as U.S. and Iran trade fresh threats to expand 7-month war - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "252068a46d4b0deb",
+      "published_at": "2026-09-25T11:00:00+00:00",
+      "title": "US-Iran conflict: American employees searching for roles to avoid gas prices - Fortune",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9kTEhsQllINU14ZXgtblhsVlktbTQ2YjNrM2kyV2ZmZW5fejUtRDgyZ201U2ExN2daOUR0TUJFT2xDY0NCM1Q2bUVLMkdzZVVVeHVJRl9tc1lzQzJ2MW5NNjdnbW5JUjhHSHZSTUxqRHJqTjM2RTk0THZVcGpyMEE?oc=5",
+      "source_name": "Fortune",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a3e444f3293643e4",
+      "published_at": "2026-09-25T10:45:15+00:00",
+      "title": "Iran-US war latest: Tehran raises reopening Strait of Hormuz in 7 days as part of \u2018phased\u2019 end to war - The Independent",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOelM4Qld0RXBSek9RamprTnR6YXpuYXc0eW9GWXVNa0V3NkhPa1pVU0R1RkEwbkIyWkdibGZCcUxmWHFuYkYyOG44bVVKVUl4Sm1MSWF5bkh6OW9QdFppTVoybkdaNmNDNE02ZXI0ZnBSVjQ3SHhqbHY4MUFPeEpQMHQxd3hvaFgzLW8yVVk3eHVUSWtIVGtvV0hrV0MwS1c2UzJuS1REMks3WWdpRkQ2ZXdNSElTRFVXTmI0NA?oc=5",
-      "source_name": "independent.co.uk",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "48a3b87f1ce9e563",
+      "published_at": "2026-09-25T10:12:28+00:00",
+      "title": "Iran pitches seven-day roadmap to end conflict with US - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQ2p2aDJ4dC1JV2lYaGZXWXBpenhCOEpxVWlubEQxUUZkTEd1VGxMZmJEY0FfdzllbUNGSDZLZEhuY0EwWXNlTk1xcDhNMkRLRGY1RlBoNkkwQzlqc2tUQ1NxRUNtM0hJRXROUjdKdzZuWXFtTTRJUlpEcjJLVkRkTWhIS1A2RnJObFhPYmdERy1EelZFUWFGNmc5b9IBoAFBVV95cUxNVEowcUwwd0U1VGp0TXQ2dGtTMm5RYm1DUy1Xem5ZVzFETzdHZWladVJuZHNWQzljM0l0SVlWUEk2VlJCcy1SWC05YTRZcXhhT0hMWWpINVBrby1RNTJrSHR2a3YzQ0x1U1NERm9MeXdtQlpYN2tfQ191UEkyVk9DQXFWSG16ZDZ5NHhnMkVEa2FfOTZWejVMT1dsZk1NY25a?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "9e16e9636cd5f76a",
+      "published_at": "2026-09-25T09:45:00+00:00",
+      "title": "The US kill count in Iran makes the phrase \u2018precision strikes\u2019 absurd - responsiblestatecraft.org",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rY2YzWVFDb0hHRWwxb1Z3b0FvdncxWm9ZYml6bzh1OXlvbGFvcFBqYnQ0Sl9ybzRlM3AyNzhVb1FpR19LZDFLenNCbWV4aVFsSUM5WWdSNmtBcmhWZnhYZ2owaXNCNXQxYUF2T3l5elZxVzhRS2c?oc=5",
+      "source_name": "responsiblestatecraft.org",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f7afc651d4cdf97b",
+      "published_at": "2026-09-25T09:05:57+00:00",
+      "title": "Iran war live: Saudi, Turkish and Pakistani army heads to hold urgent talks - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLWNiekZna1Vxd3hyeGktbzdsREZHVDV4Y2N3MGZFMkpYcmVMTkFBWHZDVWtEOHRvOThtZzFvN01pZHhhcUYxN2k0UC00UThtVW9iT1Bta2pJNTMtQUREQ0dQWER5VHFGbTl2aGdacGVCZEZaaDBTMXlaRFY4dUNkUENlWmVsOUZNVWlxWFZuZHBHVk5kUU1oTHJjQVZHakdSTWMycGdjMUFycTVlQnZxTjdPZEN2WU51NFVxU0pQRdIBxAFBVV95cUxQSzQ4TTI0WV9MLUpMV3IwLXZhUDQ1aVVfODAtMUs0ZUVZNjQ4ZzJVQm84RVl0bVZCU2QyUzJPZHpmazZWaExTdGdjV2cyS3JyLWhsMHUwdDhGTURsSzBncDRsSlhEMEpCaS1nUGEwUnd0Rkc2dVpMOEN1NFhSRjlieHdhdEdxRUtOYXNPX2hzaFptNHlSb19xWXNjVVE1SjE2NlhCQ3EzSWZDcTNrSzZIUTQxUlJuMEhYZU1BUkh1RTN6S1FG?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0e19016030fd3504",
+      "published_at": "2026-09-25T07:54:24+00:00",
+      "title": "Saudi Arabia, UAE urge Trump to maintain pressure on Iran - WSJ - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBFc1o3czBLMHpZRl9SM0hUMzEwUEJIOUxzX3U0eHVKX01abzRrMUlKblVZazlDS2NIRFNTVDhCOXg5S3dLUWdhVzhLWEdhNVRPOEE?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "c3e9823389dfc081",
+      "published_at": "2026-09-25T05:50:53+00:00",
+      "title": "Iran-US war latest: Netanyahu tells UN Iran attack was \u2018one of his easiest decisions\u2019 - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa0NDTXpuN1NsbVJtMHllamM1ZHU3STBVUllTdTFHVHl4NWJ5V01UbGdsV2xUczdNT3dMTDN6YnBwTjAwNmIycjZoMVh1LUd0QTI1TUxPZkRkM0k2T3pWMm5sbjFKOVRDX3h5UWs1ZlRYcHdPVWdieU9Lb0IxanNMRE5pZXFna085d2Eyd1pzNFp6VjR5bi1KRWJsb2hqTlFpcXVyS0VhWm9FMl9WdW4wTHF3TFdNZU9ZX2NTVE91QQ?oc=5",
+      "source_name": "The Independent",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -111,6 +216,66 @@
         "iran": 0
       },
       "confidence": 0.7
+    },
+    {
+      "id": "f1ad035dc3d059f8",
+      "published_at": "2026-09-25T05:37:21+00:00",
+      "title": "Iran says it's up to U.S. to end war as China presses for de-escalation - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aZ0hqeDJKZlFWZTE2eWwxei1Cd21MaFNkZFZPRWxzNllJdmUzUXVGMFZ6THlXempxQmo1NzhRV1FuNG1sd3hTSW9NT1hvSVdEMVhfVDI5bFBlYWk0T3pvTGd3ZXpjcDJIbEHSAW9BVV95cUxQbGRDUzktQ3JVU3VVcnpXSk5LN20tZEVPbEZ1d3NjSDJKa0xleWt4V054NFNtYU54WElPeWE5ZXk4VnlDVUg4TUIxaExtbGZBS2xkZEdXeVpPd0Z4VFk1cWo1QnRQSFBOUXNUUE5nbW8?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "a42cb26b8dbd15fb",
+      "published_at": "2026-09-25T04:55:00+00:00",
+      "title": "Iran offers US 7-day plan to end war, reopen Strait of Hormuz - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPNm52T2dxUlg4VFZfZVAzZjJ0dXM5RHNMZmZwVGRYYjJhcnllOGdibURNSEJyZjBBVjVLemFXbXZGQnN3cHRzR0EtRm9neU4xUkZ0YW1QUVRJcjZUNWdvWUtUZGVCSXVDM0JqWkZ4TUN2aXNIZEpwWjh0M1lGdnpMeGtILXdzbkE2UUZzVnU5c2VmeWJSVnNSLTZCS2dfM3FQXzhvYkNtOWgzeWJHdl9xNGlSTGk3eHhvbjljdklITmozVVlBNDYyWFFpY1VDX1htWFVqemE3SdIB3AFBVV95cUxNcm42OHNZRW40cm1yeVh6dG9sakFsNDNQb05kX0l3NnhzODNZX3d3c1VIMnVYQXhqb3V5d0tqQ1hQTExMczlnVjh3XzdFeDAxclpkRmtvSDJyRTd1UXRkM29sclBHNEN3V1FDU3hNTm01SlZnRjVIV254VTJuSUEtTWR1LUNGbTRQSWJZcElscnJJRm5mOUZJak1HOFJzSnJzRjZINVdHdS1Pc25HckRiVk1hckN2dWx0aVU5dVRqc1pLQTJpX0FURzNFWlNfOTVsNTNqNk1Sa1BsT2hi?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bf698cf272cda398",
+      "published_at": "2026-09-25T04:49:38+00:00",
+      "title": "Netanyahu speaks at UN as Senate votes down Iran war powers resolution - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZzBaYnh1NUxUMmR3dmFzaF8xM1JJQWYtT1EtSWRzX1pycXVMcldja3hqVHhWOTVTem9Fa2EwMGN6WWJOX1lSei1CbU1UUU4zSVRJMkRlLUozZlJDM1ZHRnh0Um1VYUNRMU1iamJ6OVhiWmN6cFkwX2ZuM1N5SWV2Y3ZuVFZNQVZEYzAzcktxNNIBlAFBVV95cUxOSVRFcERqUjJhak9mektZWlFhTkkyX0tVYTdGaWh0R0MtV25meGJGS2hjc2lPVzk4eXozSUZwSEJSM1hqSmNaTDFXM2JPM3Rpam1NN1h6eUV2REh6T1RoUlBJUGtDSjdzZlFUWWp2UTF1cmZsQWFLTkxEUTZJSWVEbVI5TDE5c2FPb0N4RmM3SE9nWDRQ?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9d892fcc55023d58",
+      "published_at": "2026-09-25T04:45:42+00:00",
+      "title": "Allies unite behind Saudi Arabia as Houthis step up attacks - WTVB",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNT3MweGhBRUV4LWxpNTg2Z3pONDlaa0pjbEFVOUV3bmtiVml1c3BMT00tQjR2bHhLVWY5Z1cteW8xTXpyQmpydnhWSDNiZmN2T0JXV3J1aEdWRUJfbHU3UUFPQUxNX2ZHVW5hQVRtdmc2Nm1sbmY0amdtQTVDSmc5c3YxeDFYa3RFSHRtUDNIT0xtSTMx?oc=5",
+      "source_name": "WTVB",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "470693d6bdf23129",
@@ -128,24 +293,9 @@
       "confidence": 0.55
     },
     {
-      "id": "bf698cf272cda398",
-      "published_at": "2026-09-25T03:03:41+00:00",
-      "title": "Netanyahu speaks at UN as Senate votes down Iran war powers resolution - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQZzBaYnh1NUxUMmR3dmFzaF8xM1JJQWYtT1EtSWRzX1pycXVMcldja3hqVHhWOTVTem9Fa2EwMGN6WWJOX1lSei1CbU1UUU4zSVRJMkRlLUozZlJDM1ZHRnh0Um1VYUNRMU1iamJ6OVhiWmN6cFkwX2ZuM1N5SWV2Y3ZuVFZNQVZEYzAzcktxNNIBlAFBVV95cUxOSVRFcERqUjJhak9mektZWlFhTkkyX0tVYTdGaWh0R0MtV25meGJGS2hjc2lPVzk4eXozSUZwSEJSM1hqSmNaTDFXM2JPM3Rpam1NN1h6eUV2REh6T1RoUlBJUGtDSjdzZlFUWWp2UTF1cmZsQWFLTkxEUTZJSWVEbVI5TDE5c2FPb0N4RmM3SE9nWDRQ?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "1ab32729e70b39d0",
+      "id": "88338ee042ae28eb",
       "published_at": "2026-09-25T03:02:59+00:00",
-      "title": "Iran offers US new \u20187-day\u2019 ceasefire proposal - Financial Times",
+      "title": "Iran offers US new seven-day ceasefire proposal - Financial Times",
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNLVdxRWJpMmsyWENVM1FFSEJ2X250RVZPdlVWbnVLNmszQlNsc184dlp2SEM1eVE5S1U0VjZRT0VGY2ZBSGg3Q2J0djZrU3VvQjk4MlY3V3BZUzU0RF9GTnVyMHB4eWdGZUtNU3NNQ0R5N1JsWFEzcHkxWU9lUXhTck03Wkk?oc=5",
       "source_name": "Financial Times",
       "event_type": "diplomatic",
@@ -173,19 +323,19 @@
       "confidence": 0.55
     },
     {
-      "id": "e694e8c63d9222ad",
-      "published_at": "2026-09-25T02:44:56+00:00",
-      "title": "Iran war live: Tehran wants Washington to re-enter MoU before US midterms - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPLWNiekZna1Vxd3hyeGktbzdsREZHVDV4Y2N3MGZFMkpYcmVMTkFBWHZDVWtEOHRvOThtZzFvN01pZHhhcUYxN2k0UC00UThtVW9iT1Bta2pJNTMtQUREQ0dQWER5VHFGbTl2aGdacGVCZEZaaDBTMXlaRFY4dUNkUENlWmVsOUZNVWlxWFZuZHBHVk5kUU1oTHJjQVZHakdSTWMycGdjMUFycTVlQnZxTjdPZEN2WU51NFVxU0pQRdIBxAFBVV95cUxQSzQ4TTI0WV9MLUpMV3IwLXZhUDQ1aVVfODAtMUs0ZUVZNjQ4ZzJVQm84RVl0bVZCU2QyUzJPZHpmazZWaExTdGdjV2cyS3JyLWhsMHUwdDhGTURsSzBncDRsSlhEMEpCaS1nUGEwUnd0Rkc2dVpMOEN1NFhSRjlieHdhdEdxRUtOYXNPX2hzaFptNHlSb19xWXNjVVE1SjE2NlhCQ3EzSWZDcTNrSzZIUTQxUlJuMEhYZU1BUkh1RTN6S1FG?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
+      "id": "60e0cf7ce839be28",
+      "published_at": "2026-09-25T02:00:19+00:00",
+      "title": "Senate rejects measure to block Trump from ordering more strikes on Iran - washingtonpost.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNME9ERHJpUjN5al9WcXpBN2swOXk5RWVLM3hQRkRxWVpnMVlyODlwYThYZG96eGlZbzhkSU91UDhZWFo5ajRjWHQ0NE9GQTFVYkpKMThKaDg4aVFFZGprbHc5UHlIOW10WkVaQlh1MlhJTGJDSjB2ZFJPTndTaU9TbWhMN213TUphMmZxc0hobFRkdExIUFVQZk9DRm1BR0NwU0p6WFBwdFo5WDFNMDFyTTVjNA?oc=5",
+      "source_name": "washingtonpost.com",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.8
     },
     {
       "id": "5f7ad764ca61fe2d",
@@ -203,19 +353,19 @@
       "confidence": 0.65
     },
     {
-      "id": "311b5de003d89efe",
-      "published_at": "2026-09-25T01:09:00+00:00",
-      "title": "Iran War Updates: Oil prices back up as U.S. and Iran trade fresh threats to expand 7-month war - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSWU4WXp4UDJYb25pa3BRYTNqSW1rcFhDdF9vMXdoekszMG1JbEttak9SWDhnWnotU21ucFhVYlByOGQwaFdoRE1DeU04WXVjTVN2a0dmSzJoR3VsNGozZi0zQ0tNbkdMRkVRd0Z3MzE3QnFNWkNpYTgycTBqLUJ3QUNYN1hWVFA5NGdnS2JycV9KUTE1VnBQcQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
+      "id": "5f201c67d056ef22",
+      "published_at": "2026-09-25T01:11:00+00:00",
+      "title": "Oil slides as US-Iran truce hopes outweigh Houthi attacks on Saudi Arabia - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV3EzX3oydnQxRk5Ld1BKbk82ek14ZVdyLVpTdldjdEpqeDJfTVZ2Q0F1TnhvaWlhR1p0Z3hScDV0S2Z1UFR5OXhKSWk3NmtqTzd0SkJfa2RLRFpOOUlEcE5mR1d4Z21Td2FCQVZqNHV1eDloQkplT1NHaHhyTDlqOG5DYlFFdnRERThxNU0yX29LcTRyal9pMHQ4ZzNoU0VKZkdHN2hFYjhCZUpZZ3d2am11SDJYYVBiN0JxWVBtczNRYkh1?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.75
+      "confidence": 0.65
     },
     {
       "id": "4dfad3b54371d6e5",
@@ -246,156 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "d120eb6d6138eaba",
-      "published_at": "2026-09-25T00:15:30+00:00",
-      "title": "Iran Proposes 7-Day Plan to End War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5ZNjJzT2M3cmx3aVBfd2c3ZmptNmhmVW5PeE94UEVqS0RkZ3pWN3pjQ2oweFUyMkxVN1A1NU5iOUxNUEpuTzZ5TFNIR0UzUE9Nd1pIUDdDanZnclRxUGUyMzJCejNrcl9fRWpnNlg3cEh5bXh5OGIzNm1R?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "14ab26acad8fd1b2",
-      "published_at": "2026-09-24T23:42:35+00:00",
-      "title": "Iran's president says it is up to US to choose if it wants to end Iran war - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOb21pSm1ydXhYbXJ1SFNldm9vNm5nS0t3bmhGczZBS1Vfd3QwMTRJcnExUUY5cXh1OEZ4aDVSbDE2eFAtYk03Y0RfS1VROXZSV21mWkNwRUdjYWxqa2dzNVpVbWVxNGxEalNZc01qa3JVa1FGd3JVbXY4Ujdtb1dQcWFFdlVEUngyZng4WTlMZjhEa2dJVGY5OHhqNXFpZGxxVlFWLWl5d3FtNGV4aXdpYWVYaWQtMFI0dmc?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c7bd2e173a4e7db8",
-      "published_at": "2026-09-24T23:30:37+00:00",
-      "title": "S&P 500 ends marginally lower as investors focus on US-Iran war - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdkxPUUdXbDkwcTdtbC1yM0NWMldPb2lpeExQRVh2SVFWQUl4Q3haSlp4U04yU1BoanNVeWF5bTIwbWJRQXVEQkIwMm0taFZ4eDJ3dUVjOTVuSWhEMVRZNV9vdUNab01CS1o4aUpoQVE5TmFqV1BMTFVaZVJzVEFES3Y4S1BLZFQ1TDFtR2dLZklJRkdFN3hTaENjVDhSc05sT1BVZ09idlU1ZGkwdTZLRi1n?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "62b3eb0c51889951",
-      "published_at": "2026-09-24T22:10:09+00:00",
-      "title": "US 'must choose' whether to end war: Iran president to Fox News - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWkFKSnhUZ0N3c05USV9aWW9fS194NEdkQ1hhNURVTFRERjNhM0xBYWtjNUxiajBNOHNsOGtsOGRvblJqbHJUd29XT2Fia2tYby12M0lMY1AwSHZCajY3amNOaDRqN0VQZ0I1ZVpuTzlxMFhEcHVucl9pU0FkRVBOQVRVUUotVHE2ZUVvamx3cGVLOVRhSmlpTWppcDBEYnJK?oc=5",
-      "source_name": "Al-Monitor",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "befde7186d33af15",
-      "published_at": "2026-09-24T20:56:41+00:00",
-      "title": "We aren\u2019t trying to kill Trump, Iran\u2019s president insists to reporters at New York hotel - CNN",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWEQ2Z3M4SWZSejhfVjg4dVlpNEFrZ0Zmelc2YUMxQjRRU3dQWnlqVjVyWVQyMzhiRm9wSUlEVndzeC1VTXJTS29zOHhQZW9xT1R0TXplME53U0MtWm9ObnM5WllERXU4LWVuWEpXYTJHVWRpZG9EWjJPaC1VbGw4NHIwZl9oai1ObmdMQ0hjOVU5a2I0?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "576d9395583f68a7",
-      "published_at": "2026-09-24T20:44:21+00:00",
-      "title": "Senate Defeats Bid to Direct Trump to End Iran War or Seek Approval - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQUFESGsybWJYSHd5OVVqVUh0Y3lOMlhMQ2oxMWo2SHhwTWNMR0tYdlBJNWUzQ05lcVNRV29WWk04QU1qcE13NzBjaUV0Y3hnVGxkcjIxTmlyRlNEckllSXdRSU9FU0pQX0Y5QkF1bk11dzd0UkNEdEZtZjRyREZiX0prMVNOSUU?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "413842baf0eb4b84",
-      "published_at": "2026-09-24T20:42:00+00:00",
-      "title": "Iranian president says country wants deal with US made before midterms - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaEhvRVB4Q0trdXRKMU9NYzN1Ull5X2tFZF9oWEJweHNEY1kxQ1Y4VHd3TGdadnd4c1hpMXZ1djduendpb1ZUb3A5SmlRSUZ3TlNMNVI3VkhLX0tEN3ltN2l5WGMwOFdaZkRoTkZfX2lVeldwVFRjbjJPdUdNSy1BbjAwOGhsTGZSTm9aY3NISjVxTG5v0gGaAUFVX3lxTE9PYmVOSzlyVEljd1c0UUlWYl9zVzBWcUZ3NklGTVpRTmg1MUdjSnVuV1FsV0Z3c1RtZmRZbkVYNUFyamdiVjBxMmQyUXlpN2xrV2hsdXBxcjM0MWJ2bjNtSUtaU1VhZTJpN19qWVZvSUQzUG9lM2pJX2FVWl9Pd1Jub05aLUNqOUVMMXZ5akpGUmdGbmJDY08wRHc?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ef8901c0342db486",
-      "published_at": "2026-09-24T20:38:10+00:00",
-      "title": "Iranian-American group sues Trump, claiming Iran war is unconstitutional without Congressional approval - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSjZfSXR2b1lYRWQySkwtV2RadEoyVjl6c05WRTlsRUxNY3I4SkU4QUFOZy1zVHBLUENIeEdpUDhDMnlEUkdzbnVtam84aEZNeTU2azhfakdqd1g5RUlMVF9xUFVNemF4WUh1WXlBcnRZZ1dORUo2aU1Za2xlNC1XSVZfRWp3NEpNZU1xSkR4NjBwYlJ5akpsaUNtRURCTTRaNmJJVnREYXVQSGRfUl91NmlXWExRRGZaSG9yem94SGRLbkxCSElvUkt5bXZ6OFB0b2Nucnh2VFV6RXVhSS01eA?oc=5",
-      "source_name": "Scripps News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "4f24394ead9ad6f4",
-      "published_at": "2026-09-24T20:34:36+00:00",
-      "title": "US Senate rejects Democratic-led resolution to curb Trump's Iran war powers - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNMU45a3FvODBzSXpndWg1QUVuQzlqUmVJWjZEWUFXNWltVUx0Sm4zbDE1X3lFSnFYd2hQeGotT1YtejB1NU9lZDJKcnJjeEZqNkJtZkQ0anhFUG92V3pWLXlyQzhIalFwTzRuVnVvd3BGQ2tfYTJ3RUxMRlhlWTdTUFE3MnAzMUxmallxcE9SZU5ldmxJeE1fYnhyT0c5eG9lVXVydVg2TFhnbnFJYUFsOE56U194eTltTnc2bGFR?oc=5",
-      "source_name": "Reuters",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "c7e713722c94f7ea",
-      "published_at": "2026-09-24T20:01:00+00:00",
-      "title": "Oil Prices Jump on Houthi Attacks, U.S.-Iran Escalation Fears - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcUtBVUJSRWdjelUySnhBRGJUNDN2TEd4QndjRnBXa0NJS1h3cVBBaFJkdlF3SHBrTTJJYUhScUt5WVFQRHZObXVJLXF3aUhqSVVReFFmcnRtMGEtclVxZXJnZjF3TW93eFJjYXM2VUw3S0txTnNhNU9leFRiSGpXcFNwVElPTEJlZ2VwYnByUXRvOUo3N2p4X3dRaURoMld3VEprbTBiWGMtMXhGXzdPYTlfaWZsSXB0NmN1NlM1dmxBcVE?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
     }
   ]
 }
