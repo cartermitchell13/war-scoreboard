@@ -1,35 +1,35 @@
 {
-  "generated_at": "2026-09-28T05:31:40.180321+00:00",
+  "generated_at": "2026-09-28T14:06:21.417524+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 100,
+  "event_count_window": 107,
   "totals": {
-    "usa": 24,
-    "iran": 17,
-    "lead": 7,
+    "usa": 32,
+    "iran": 21,
+    "lead": 11,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 7,
+    "usa": 5,
+    "iran": 12,
     "delta": -7
   },
   "confidence": {
-    "score": 64.6,
+    "score": 65.6,
     "label": "Medium"
   },
   "event_types": {
+    "other": 50,
     "attack": 43,
-    "other": 46,
-    "intercept": 1,
-    "diplomatic": 8,
-    "material_loss": 2
+    "intercept": 2,
+    "diplomatic": 11,
+    "material_loss": 1
   },
   "history": [
     {
       "date": "2026-09-15",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-09-16",
@@ -79,7 +79,7 @@
     {
       "date": "2026-09-25",
       "usa": 0,
-      "iran": 2
+      "iran": 0
     },
     {
       "date": "2026-09-26",
@@ -88,50 +88,65 @@
     },
     {
       "date": "2026-09-27",
-      "usa": 0,
-      "iran": 2
+      "usa": 1,
+      "iran": 3
     },
     {
       "date": "2026-09-28",
-      "usa": 0,
-      "iran": 0
+      "usa": 4,
+      "iran": 6
     }
   ],
   "latest_events": [
     {
-      "id": "8e8fe23db4c08b3d",
-      "published_at": "2026-09-28T05:15:00+00:00",
-      "title": "Trump says fresh Iran strikes before US midterms \u2018possible\u2019; Tehran warns of \u2018doomsday war\u2019 - The Statesman",
-      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPeHlHRlZ1Nll4SDlGMUEzVzdLX0V4WmF0d0dpNUI0bWFBQXNFeWp1RXJZV0p0S0N6UjVsR1hNUnV6RFA3U2VGazIyVHZzb3NaX041Zk9meXdWSnBncFpXUjlZRFJ4MlJIMHdES1Q4ci1YTXFzZEJfMVJtMklqM2VNZnpqV2xZeWJlTFQxNEFmQTVuX0VVQVRVT29oTjdzMzhfbDZoNm9qdnpYOFNRNEowU29rMEFLdGFFMFY1aXVsRVY3UVRTYWdFNmNZOXZwakhhWTNN0gHYAUFVX3lxTE9ucEhwcTBPWU16R1dRcno1bzA0QnlkWlJfY0FlWTNrSGplRGE2WTZpMjRHczFURUZfdXBNdm5LZU9mcVRNOUJ3QjhQdzdPSm82Vjc2T0owbFBBYXB1Q0NBVWxxdGxwY002YjVVWEtvU1pQRkpnWkZFaHVnVldVUGhkVy1qemc4NFJzdlQtdEVGS1dTeXFIWGFDSlVnMnh1NTJaUlpBZU1fMDlWU0E5enVwQzdXdHdVN0pUU3pobkhtdzFiOGRKWi05TkczZTdBWVZocnpQQ1NaTA?oc=5",
-      "source_name": "The Statesman",
-      "event_type": "attack",
+      "id": "bc368427d011d3e7",
+      "published_at": "2026-09-28T14:02:37+00:00",
+      "title": "Opinion | Iran destroys a fundamental U.S. military assumption - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcjY2aXVFZERlM1VJa0I4cm1aUWRDUkplRFFqVTllYkpNOGwtd0dmSG5GejlYV29kbnRicHZDbC1ZaG92OTVBVG1UdHFlRlpfN3REdTVhTzB4MVIwWlViU1Nuek9yR2M1dWU4UzM2S0Y2WlZoZ2tRejdwcGhIVVJ2bEg5RF96WUF2eWFYVFZIRFNMdVVCUHZjenVsU0VZWjY1V2xnSjB2WQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
-      "id": "12bd73a7adaf2578",
-      "published_at": "2026-09-28T05:12:32+00:00",
-      "title": "US Iran War Live Updates: \u2018Will win very soon\u2019 - Trump hints at possible pre-midterm strikes on Iran - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQS2JMSDJSSXR6NldaSmtEX2ZrOEtBdEFmQnFrVF82cGhmUVRNZ09jTktiODhvNndHR2VEUlFaWEk4elA3VlUxa1o1REJ5NUtlS0haRXFZbHRvc1gwVXA3NkpDZnMwZGJNWmVIc1owSVVDVDQ1V3hmbWRKSmRrZ1NqblJCNVE4WDZOUjJId1NGZjdsdzY4Yy1Xb2NwXzlHUTdaZU5JdmhTX0hVN0NlcHJsTVVTTGQ4bkhjdEowX1BqQ0c1Yzc4ZF9od2dhUFZzRzA4N1JFaXVBbmdjNkNkY0dTSFFYMnZ5cmNCVDc5N3hlT2VjNmZ4ZWFYNEEtS1VINzhNYnNEZTlKb0luekVCQnY2MVl6aG12VmFJclY2WmJiVlZFeUdqSENqbUxHNk5UTGwxVmfSAbcCQVVfeXFMUFBnN2NLNGUyeUVqM3pOVmNMSElkZDNqc1dTSHZZdEdkSG1VdG5vTmY2TU5QZXZhNTZJMmhHUE1XMVlDa2dCZUdRTDgzUUdFNzlpRkpSOG9EdDJHLVk0d0lyWXRTczM2YkZBQkJpNmxiSERva3puLWhLbWhNMkowQWFFakRSaDhDdlpHY1FxOURzMjhFcFBjUWExMkExWVdlbWpja2Iza0gyTEJ4dGNPZTdiOC1kcVprbGZsV1AyRjhBZkxuZjdsSXJ5T1UxenFyRS1NQTQxeVgzSEVPcHJZTUFhcGhROUxLVGo2Y3gxTlFSdExVeVp3S0dfNkJiaW5MZ3pwa3JRNDhzLWt0MmhGeVNWUjlvUm5OcVRLVnMySGFvb28zMGxRTGh0TXpCRHRvZmZaYksxUm8?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
+      "id": "6c6beb930d0e1123",
+      "published_at": "2026-09-28T13:41:36+00:00",
+      "title": "Officials say mediators are still working with Iran and the US on a possible deal - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPblhCbnZVM2k1TzN2akRZNy1rbFlweTV3R1BvQ2stUm96eFQ5WWRNUi1LdG9nb2lLRGlWVnFYemZtSW40YmRKbU1xSFNFQ1pYTUR2YkFPR0NxNDlIcmMzbFB3VkxiRDE1UnNuRndOLXZPUjBJLTJmMnlRbnhWc2JOckhUQlNGNEZjSmRNeHprQW5YZGVCVFNFWE1Za2lEVE02SXpuMWZhZEJSdmxqTlAtcWJwc3oyZGxlUXdyR3lWT1FPb0JFSUNZ?oc=5",
+      "source_name": "\u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
-      "id": "451a990f62961641",
-      "published_at": "2026-09-28T04:18:05+00:00",
-      "title": "Iran live: Tehran warns of \u2018doomsday\u2019 war as Trump rejects roadmap to end conflict - The Independent",
+      "id": "9b1b939d40f57781",
+      "published_at": "2026-09-28T13:24:01+00:00",
+      "title": "5 British suspects arrested, explosives found near U.S.-run air base. Iran denies role - npr.org",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaU1SYzBjWVVaY2hSelNacVZxeTlyRy1pS1VIM3BmanNUWVFaTjU5Z1lfMm8wNnBVYWRqYjN0OFFXbm9HdWNNYUV1NmJVdjhTbVBmYm9OSFYyWFhXbEIwX1dWdjVuUHdzZENSaGpaUy1QOXhrYTl4cGdwUEtXUlJIZHZmdjdOTms2SUE?oc=5",
+      "source_name": "npr.org",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d583e94b776b058a",
+      "published_at": "2026-09-28T13:18:06+00:00",
+      "title": "Iran-US war latest: Tehran warns it is ready for \u2018doomsday\u2019 war as Trump rejects roadmap to end conflict - The Independent",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNSFo1WVBaMExSMl9qYTM0X3pGdUtGcXk3STk0NVZYcjlXVTZMR0NDWUwwbXhrSWVkU3BObFkxUGNVQlRpa18yOEFqMmFDSUtZazhmVUtxRXBTNHBJU0YxbFpBNXJHWUNIOGJyUDJtejBJUzFnTjZ2QldkbTkwSjc0Mm50UFhpZi1CLUxITkdhUHVRbjI4am1GQjF1YXZuMTBiQnNLUHlpeTVlSEx4NG5jZTNFZC04OTE1Nlpxdw?oc=5",
       "source_name": "The Independent",
       "event_type": "other",
@@ -144,86 +159,11 @@
       "confidence": 0.55
     },
     {
-      "id": "c495c565b0453205",
-      "published_at": "2026-09-28T04:01:00+00:00",
-      "title": "Bitcoin, NASDAQ futures fall as Trump hints at more Iran strikes - TradingView",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdmdnNFlLQ2c0RTZMUS1sWWdxcm9EMG84cVp6M0NoZjlJZE41V2NNUW5nQ2U0QnNpbEtMTUlHaEpPczJBRnFsZFdvM3pyN1NMRzZqNlNiQ29WeFJWaXFXcHFkSnNwS3U1aWJfb05pSExXdVp0SlFzZXg5U1FoSzRFb0FRZUdrd3ZUZG1aeEtoVUlHWlNsWHQzRVF4OEhpUHJiWDUtWWhXQWZEWl83eHlvalZTTk9MYUwtRHkwQ0JLOXpsTW12OHBJ?oc=5",
-      "source_name": "TradingView",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "bec0c53c2b493931",
-      "published_at": "2026-09-28T03:58:00+00:00",
-      "title": "Bitcoin, Nasdaq futures decline as Trump won\u2019t rule out more Iran strikes - CoinDesk",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2xYbTdCMmYycWJ1MlpwbWg0djFrZlRleGdaZTU4d3NZYS1PODVzYnFDaWFkekNPMGo5dVYtVFNtNzhBNF9sZklaM0dPLXFXWlNCbEcxUm9BYUtncE5kbjVtQ3pLYkd4U0tPYWZSeUNzQnhOUkV3dkFXN2Z0SkM0T1FBRlBoZ0JBamhGNzhaT21EQWlJUVBSeEdWalg5TFlzMFliY29PemhXM290T09PYjBnSUIzUVBEbS1QZA?oc=5",
-      "source_name": "CoinDesk",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0346517a53b38184",
-      "published_at": "2026-09-28T03:45:00+00:00",
-      "title": "8 US Marines reportedly injured near Hormuz by Iranian attack earlier this month | LIVE BLOG - i24NEWS",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQcmVVVTVfZUVwMkJaZFNLemhQUkVWcnhwOF9Yclk0QWJ2LVZZc3FWRjBjczZraFlUY3hpSlNhSHJESzQwelBCbzFiWm9VMWhuVldWRUpqTlpCZlZlbDlyay1iTVZsRVNBNTFQajNMVWlnb1JJZ3dMNzgyN2FXTkFQVGVWT1BfRVpFcVpCeExLazRzWE9kZlNpcWcyOTZRV0dnSW9fMWpGeFNnV2RWRmduSlJGN0xuUVJhOE1uTDQ2MUJ0T1BaZGdyVU8wR1BCb1hnVG9ySw?oc=5",
-      "source_name": "i24NEWS",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "8974ad2a65adb7a6",
-      "published_at": "2026-09-28T03:06:17+00:00",
-      "title": "Trump says fresh Iran strikes before midterms 'not ruled out' - Rediff",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSEp4cG9FRHZWMHBvbE1hLXBuV3ZzQWk1NjBTaVNVTGR4eEljR2twTVBCMVU1d21VcXpuZUJHU0RQQWZSZ1NIdXYySWh3TVRvQ09ZQ180UXdvOXY3WkU4czNucDN5MDlyVHpOZTNFMnBpeWdiY2hVX2NtTGN1Y3NIVHlyWTBjcXJEbkhESVk4dXRrN2ZycS1nTHJoZFJyR2ZYcUlzVk1uWmczZ1HSAa4BQVVfeXFMTnpCZmFhVHZoempEOGF0cTQ0TzI4aFo3Z0szWGR1VmtCbE9oVWViODV5cTJfVWM3aTY5Nm9Sb3czNXJzWUJRVjduY2lPSlJGY2k1Ty1oUEZlWUQxYWtueWpDYkVOQ3BCV2lSUmlJQlZ0cm5zT3d4eldkUmJaSFZyZnBDclVzb3NWNkx3U2k4MW5Sd1pVcjlTYzdRXzlNNjRNejFhSUZjR21xSTZGTzZB?oc=5",
-      "source_name": "Rediff",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e8f47276ebd88357",
-      "published_at": "2026-09-28T03:01:00+00:00",
-      "title": "US, Iran signal possibility for both talks and strikes as tensions persist - \u5df4\u58eb\u7684\u5831",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN1p1MzNYRGhZSDdrN05VTmpnSExTRC1GajVGZzUwckg4LWplaUpnQi1NWk5YNzVBZTVxcmFjcXNneGt4ekdJamw2NnM3U004LVQ0ZWRIbUpLdjg0Z1BMQ1c2cnNwT1l1d3pRN0RLMjJBUVprZ3JzTjM5SXprdHBWY1FmdXgxcElneERXbzcyVUlmc0tZSVFtd3d5RlBmVXA0Zm5XN2tSUGpmOUFrNFc0cE9UeEdVcVZ1Mk52QmM3d19vY00?oc=5",
-      "source_name": "\u5df4\u58eb\u7684\u5831",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "7fec851225e4f5ab",
-      "published_at": "2026-09-28T02:55:14+00:00",
-      "title": "Iran tells Trump negotiations are only way to break war deadlock: Live - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOelM4Qld0RXBSek9RamprTnR6YXpuYXc0eW9GWXVNa0V3NkhPa1pVU0R1RkEwbkIyWkdibGZCcUxmWHFuYkYyOG44bVVKVUl4Sm1MSWF5bkh6OW9QdFppTVoybkdaNmNDNE02ZXI0ZnBSVjQ3SHhqbHY4MUFPeEpQMHQxd3hvaFgzLW8yVVk3eHVUSWtIVGtvV0hrV0MwS1c2UzJuS1REMks3WWdpRkQ2ZXdNSElTRFVXTmI0NA?oc=5",
-      "source_name": "The Independent",
+      "id": "24850c31ce3873d8",
+      "published_at": "2026-09-28T12:40:05+00:00",
+      "title": "US, Iran signal they are ready for negotiations or potential military conflict - WPLG Local 10",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeURiZ2R6UnN2X2UyNk9iV2IyaEw5U2c3eEpqTkNaSEU3ZGhMUktYQjlfQl94UGpfckZuMmRCamFwQ1FfbXRValdqTnNqc0lzRmxjZGtXNEJrWTRtdEduVTBPSFB6UFdqYW4wWWFVeTBMMERlcmtiR0N0OFV4dEhzdTN3UUd5eG1VcE11Tk1rODM3Z2ppSHp0ZmhHYS0ycjF6SThqZzlPNzByQkRETG5COTU3OUZrMEJvcjBjZ1pXVDJuZw?oc=5",
+      "source_name": "WPLG Local 10",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -231,14 +171,44 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.55
     },
     {
-      "id": "4101eb1fc35aa87d",
-      "published_at": "2026-09-28T02:52:00+00:00",
-      "title": "'Very soon': Trump says US will win Iran war, refuses to rule out further strikes - WION",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSXoxRzVRRi1WT2Q0dV9DLWVhRTF0ODBLY0E2eXFGSktKcjBVOVVIMTNQNW5SeWFEMDQ3ZmlkY0NzSmQ2ZklRSUE2OVFZN0JvTkhMOUlZVDNhVVNtTUZkSEZvLWtqaUJGV0tNRWVFbnFaVzJzRGpab2FvUHN2UUhrdjlQNGp2X0h3Q3l0eWV3TU5zeldKV3Y0RVV1WUhMTHotMUVXcjhrN3VPdUlrN01MdkRSRkhMRXU0ZzVGcEp30gHDAUFVX3lxTE9yYXBLTDM0OWk1TW83Yk9QbUUyNDRuMmszOXpVOU1IXzdySThQNzI2dVNra19GemNDQ21iVkoyRmVtXy1qSWZIckJPZXd5Zml6eUluUzJFMllHQTV4OF9WUHhXd2FFTUQ5MGZBbzNtbmJPUzdPV3NmSkZFWlBGRWpmVmFtVTB2VWdkUE1FZWdFTjhWdnZSbHFXTFhRakRYZXBLQ0NkeTZhZ0pfOUl2R3RuNXFhY1ZRSjd4UHZvbGUzV2FnSQ?oc=5",
-      "source_name": "WION",
+      "id": "2cc07364064c9ff0",
+      "published_at": "2026-09-28T12:19:16+00:00",
+      "title": "5 British nationals arrested on suspicion of terror offenses near base U.S. used to strike Iran - nbcnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOGw4LVZEV0t0U3lJZ01tZjcxZDlkUGdUUC0xTUpNVmltSW53cDROWnhXZngyQnRZMnVrdUZtdHpkNG1IUFo4amdwTEluX2JHazVaOWJ1ek5jS0RUTldieHNsWGxXa2F2REg5ODlzckFWSlVhUzlWWnR2aTFIalg0V3MyWGZaY0RnNnFoZm1tS25MM0tmb1lNZTcyS3o1N3daRWpQRThvdlg?oc=5",
+      "source_name": "nbcnews.com",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "a8c385a4131da4aa",
+      "published_at": "2026-09-28T12:00:00+00:00",
+      "title": "More than three dozen sailors and Marines wounded this month in support of the Iran war - Task & Purpose",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLTBGbUZFRi00REd4ek8yYkRyY1pLQzNrM1BaRXZUXzBfRXU3UURjeTZPVkh5ZXZndnFmV1J6SEdadmhhS3NtVnRFLVNIREUySXNpaUU1d2dtZlNjUVgzbTFpaW1qMDE1QjMzMGNSMlJ2LWF4eURFSUdmV3FRWC1KLQ?oc=5",
+      "source_name": "Task & Purpose",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ad17e78f4e1e0cd7",
+      "published_at": "2026-09-28T12:00:00+00:00",
+      "title": "Iran says it\u2019s \u2018fully prepared\u2019 for war as Trump leaves more strikes on table - Straight Arrow",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaHhfaGkwdjRyWW9YcTZUREZlenNreGtscGVXa1JFRmw3Q3FUSThxeC13LWRua1BWTXoyeFRSRXRFSEU1LWRTLVItNkZRZXpsN0RpWDlyRV9Ncmo1a0pDSHY1UERJQWx4dmNwSGc0YmdueTNiT0diLU80VTJsT2dTOWZIX2FRYVdhSTg4VzB5TVFDN1ZkY29qaTRB?oc=5",
+      "source_name": "Straight Arrow",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -249,71 +219,11 @@
       "confidence": 0.65
     },
     {
-      "id": "6797d86cc974415e",
-      "published_at": "2026-09-28T02:42:15+00:00",
-      "title": "Trump Says Iran Strikes Possible Before Midterms; Tehran Warns of \u2018Doomsday War\u2019 - Open Magazine",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbFdBbklIZjVjSFdvR2lHTWdjT0NxN1BLZFdzdmRHcHAtX2FfN29NVHg2cl9lLThfeDNaVk5Kc1EwQ0dCRl9RUDYwdTF3U3ZRNXVOa3hGMkItaWJNaHd6TWIxVDFEWi05QnJGRFpmaEhicC03cU9MeUxxNkNlYVJualM0UHNwT29iYS1HVi1yVzF6dnp5UEZwam9CYnlvZkJNcUh3b3NBa1k3a1RTSE1Faw?oc=5",
-      "source_name": "Open Magazine",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d423218cbd4bd257",
-      "published_at": "2026-09-28T01:58:47+00:00",
-      "title": "More US Strikes On Iran? Trump Hints 'It's Possible'; Tehran Says Fully Prepared For 'Doomsday' War - NDTV Profit",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPekFVR3AyYkI5RzFPMmZzejdGWjVwY1FOaHBpR0s2bVRRSWQ0UnotNG1LeUtyS0JzQ014aDdmRWM2ZTJZc3VvQzBsbzZ0amZWTGtnUW13TC0yUWNGaHczaGc3UERIaHI0YWlUNl8wMW5qS3JsdEoteUk2TTY0WlNEdnRIOEFaMmlzOFBzRWJxbUNael8yOTViVUtpT3VJZ0taMXRoSkJ6U0I0UGlCc2hHSlY0RmhrOXVqZjhydTJtaUhFOGpmdF9tYjFpenpyeEtBOUJ3aEppcnc0MG9rSV9aUlFjWlFNTlpVMy1MQXZaS1ozaXo5QUpyRU1wd3V4QdIBhgJBVV95cUxPWWN4azdLaWJnOVRhU2RhT0I5SFJ0RzhWeC1NejBJaFlYc3V3SDRMTnpYdXNjQU4zdGRmOTdSMEZ5YUFqYXJ4bVJDOUVIX196RjRMZHJLeWVnVXA3M2Y2LTdmZzRPS29MSkx0QXkxbzJDMDhrS1duZDZHZUJxNFJSeDhzWjcyU2cwYkZDUTdaVmtvSnRteWp4NWlYMy1lTHcwSVpBWTA5bHBPYkZCVFZNUkMtT3htLVRFRzBmZTZfOEpVdVF3M1hjLXVGNmRtelhRQWNIekR0RmkwYzFfREVlOERDOExrbFZndkF5R04weUtvMGJXWlZvcnV3X25Ma3Axb25PRWFn?oc=5",
-      "source_name": "NDTV Profit",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d57593d62f53b0ed",
-      "published_at": "2026-09-28T01:49:55+00:00",
-      "title": "Trump won't rule out more Iran strikes as Pezeshkian touts path back to nuclear talks - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNSG0tRnFMZnlTYjQ0TWREQUhMbml5eS14RnNfTzZUUlFMQXI1dFgtQ0J1Ty15SXU4R0FrRERjSkVoUVlPc3ZVdmFkNmhTNUpHOWZ0b09qREx1STF0MkhiczZYblRZdFBITDBaRGR2dUFWOTZXeHRRSDJHT1gxRmVxQUE4ZWh4TzdE?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f4828b2525d3d7d4",
-      "published_at": "2026-09-28T01:02:12+00:00",
-      "title": "US Iran War Live Updates: Trump signals possible new Iran strikes before midterms, says war could end \u2018very soon\u2019 - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMinwJBVV95cUxONWE3UWtid2NPUlM4eFNSeWZRMERaYTRUQTI0cm5aeFNUbnB0MGExVE1UNklrdHpqQ0VvUnJpbW51QWRXT0pTNlBPRWc3SHRhTUhibTZfbkJRRmhHOTg2RnpxYWJ6aF90cDgwOE9UUjFNVXY1X3ZvUFBxejRSY0YzZlpKTlp4ZlBlMktGOHBEZXZEYXRfeVpESTJNOU1ETFdRRmZYN0dFN1pEdFJUUGxDVHpJLXVnb29FNnZENHAxZEhIRmxlRDB3VHd3azRrdGxlUjdVeHB5VERxN0pVTUVPRFBOb0VJcDY2dDZOSzlwRDJkRmZ1SmVpcHZoTjVCbXRkVWtfU0JNRk1OTjdHZnliSnB0aUNxNnRrb042Zm53ONIBpAJBVV95cUxNR0tLTGJmdmxHS2VEUzRlMVY0ZEh5RWxTUzlIUVlmOW9yekdfRWdXMGRSb2NDWDFfaV8xNXIwQU0wUC1zakxpcHkzS014VllpbHNDRy1wY3h4OXN4RUVxS1VkZlBiMk5DbDIwZzYxYmZndE0xc2tVel8wR24taFNDVzVMNmwxOWxISVdIR0taM2c1NGRDeXo4aTE0NHJPQ21Eai1LNEdKVzNaOXlFUDVkeEx5eXN1bUJNTVh3Mmp2MV8zcFhwcWU0SFp2QkZSWGhEaXdXOUpiQ1FhM2Uya2F5Vmg5UnNtaU9BZXJTV1I4Wm1fc3k1SVRZQVNOOGtoS0M4V2w0ZFpZNmNvaEVzOUJSbmNIQy1OaVdkUEY3d1dXa0VqSlZr?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "92c2669955c2e103",
-      "published_at": "2026-09-28T01:01:00+00:00",
-      "title": "U.S. stock futures dip as markets parse Iran tensions, OpenAI training halt - Yahoo Finance",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWkh3S0VscGVtVmNpUWFORjhYWGRTTXBLMU5QY1pkcHVHTXJiY2xsUlYtWl9PQ2c2S3BKaTRvd05LU1ZxdHFycDNCQkdBZkVLTG5fMFpENUZGdXE4RXBZZGYxU1h5c1Y5WFhJbjAxZl9LVC1MZ3puQXlvVS14SDJpb2QwVk1HUEUyYkM0Tm1sVjh0eG1QMVhv?oc=5",
-      "source_name": "Yahoo Finance",
+      "id": "7468dc7fdf0f2d9f",
+      "published_at": "2026-09-28T11:59:01+00:00",
+      "title": "How the Iran War Could Shape the U.S. Midterm Election - atlantik-bruecke.org",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWEFTcGV2Nmc2UlE4M2p3S1liTzRyeHJRb21qTUNCODc0dDBmcGJJenM0ZS1UQ3RfTzlBTGFvdGNVbVRJUXdIZ0p3elpnZ1ZIVEQ1WDN3Q2lRSXpLUXRxeU9HaTVHMUVGVXlJZmxYVndCbWh1Qk1tQXNuV2s4c2JZR25FX1Q2Mzl6ZjZXZHVIQ2JXODFRUWdQa1h2TVdvdTBZbUh0ZXNpMHp2b2ljck04N1VVTQ?oc=5",
+      "source_name": "atlantik-bruecke.org",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -324,40 +234,25 @@
       "confidence": 0.7
     },
     {
-      "id": "beb9b3ce05541f35",
-      "published_at": "2026-09-28T00:52:34+00:00",
-      "title": "UK Thwarts Suspected Terrorist Plot Against Base Used by US Bombers for Strikes on Iran - airandspaceforces.com",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9YMjF0MHpsSVk5dC1lalVjU250dFhxb1gyeTd0VzE0dm81SFhQU3ViRUNINEZ6Z2p1ZmpDcnBaSXRfUml6Ul9mR2t5N1oxMy1LQXJQSFRYRExCY3JFWjVsU2YyMEZnSGR5WDlXdW5mdmxmRWZmdlZKZjAxMUgwZw?oc=5",
-      "source_name": "airandspaceforces.com",
-      "event_type": "intercept",
+      "id": "ef82402bd178cc23",
+      "published_at": "2026-09-28T11:55:36+00:00",
+      "title": "What is known about arrests at US airbase in Britain - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbnV2QWZzNUNIR09FaDEtTFBwU0g2SmZwZ0U3YVNNd0kyVGFQTDFLU2Y1T1FSOUFnSVNHNmtoc2hCYklVeHg4QVJ0UDJPRndqZVBiV3h1U3ZsZmpRQzdELWdMejhzazZMenlmT3FrdkVaM0dBRlBieGRlWG1DRDVnOTB0bjhiT3ppNzZSaWFwc2tGMU83U2c?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.55
     },
     {
-      "id": "0f4a5f13d5fa822b",
-      "published_at": "2026-09-28T00:19:49+00:00",
-      "title": "US President Donald Trump says he will not rule out more Iran strikes - FXStreet",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZERqZGJQZWpCaTg0a2diUUdoMFF4alo3bDI3SGFFOTlZM2ppRVhsaGtmNjNLSG1Uc1NnS1NWb3hGWl9WTFNrLXFMR1F4cW1LRUdvbEZSaFV2YTlaY2VWUlA4QXd6eGw0UVNGUlllZHRPLTdWSG41eVd4MFdKMW5CQVVGZjVQUklTZHFBdDdMMDExaDNGUWhLang2aUs1MXhadmtjZUZIR2ZueEhGVXJNSkxR?oc=5",
-      "source_name": "FXStreet",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "2de18bfcbb133ebc",
-      "published_at": "2026-09-28T00:07:33+00:00",
-      "title": "Iran war updates: US refutes claim that \u2018advanced\u2019 drone seized in Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQjdfZnJBZTZaWGl2aVo5eXpTQ1Q0TnJJUGRrdDQ4cUROVl9rXzU5Wm94ZExVUVByVFprYURNYlBMamVfZVJUT0dEcjFXa0I5Q1pIWTZNQUEwMTZ0UE9LWWVNazNyZnBvZ3dZdnVQNEpNamJKTmRKNW9BWW9FZjNpV3h6dmhRRVVocjJXT2I1RDVnN2dBWTRiVUV0aXA5akNqUlgwYWRfdVBBWXZ3TlpKSHB5SHNIWl9zTjA1aFpFUGtYd9IBxwFBVV95cUxPS0ZYZE0xUmhJVnNZOEpfZFN0QjFITVh3Y29VSUNta3ZFVzZSY1Ezd3hrODY4TWJFOFBKek9rTjlKa2lQVGk0WGpHVThKV1FyWFFUX21FTWRNOFNkZDQ0Nkk2cTNUa2Mwakl4dHFhVG1RRlBZa0FLRU53czZlRkJhbXVlS2hyMGZfdm9reXJRUlk4SksyaUhydFc1SnpQOUk4dzFqbGZJUjZBeGtuNUQxNmpocVdfSlFQTE42dTgxcXJmOFZfaW80?oc=5",
+      "id": "19d547319a7b06a7",
+      "published_at": "2026-09-28T11:43:38+00:00",
+      "title": "Police probe \u2018terror\u2019 incident near RAF base used in Iran war: What we know - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNX01hV3BoUG5vRXFIRmcycDhNV0dnaWZsVzA3QWg5Mk12NU1oUFF1bWlERHVRRFpFTi1fMlYxdnMzNFp2WnZxaXFKUEViYTZyajJ4NTI4RS1fc0tyblAwLTRkUGI4OF90VGN5bFM0cE84dmFTWlpWdFM4bV9oMjNobWVXZ1Q2OC1ycEZYQWtmN3Zfb3JxbVFpd1dGQWpDM1FleFNZ0gGoAUFVX3lxTE16eTRSRk9tT3N0Q0ZLbDg3NC1zcnN4R1hPZ3I1VndHZ000Sk5UU2lLMk9RRzBEY1dYWG4tYXJYZE9feWV6TVYwWXJGcXE1SzYxcWhsTEx5bVZlN1dOSzNfa1phWWVheVA4Z2tVUk1IWEp0Y0VCOEVlRjdsMGdNR3hHYzFSU29DQ0htRFZvcGZpOXA5cF95T1F2TmJEWFRYZm5qa21ES2xzSQ?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -369,11 +264,11 @@
       "confidence": 0.55
     },
     {
-      "id": "b6300502750b34b0",
-      "published_at": "2026-09-28T00:00:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - jpost.com",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82S1NiVGlfWDJLZHFrUnFpbExONXhPaWxpOVRDa1haTUtrbjBMVW9mSXRFR19XZTM0REhGUkVEekxYdE1kdjM4RlNoWkxoYUk0RFFLQm9IbWQtYWpNM19ia2liWEN4RmNWRnI3Z2hSQjYyNDVxZTdud1h6QVF2Z2s?oc=5",
-      "source_name": "jpost.com",
+      "id": "96b407b3ae500aa1",
+      "published_at": "2026-09-28T11:24:00+00:00",
+      "title": "US Iran War Live Updates: Khamenei says 'enemy forces' would soon be driven out of Arabian Sea - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQS2JMSDJSSXR6NldaSmtEX2ZrOEtBdEFmQnFrVF82cGhmUVRNZ09jTktiODhvNndHR2VEUlFaWEk4elA3VlUxa1o1REJ5NUtlS0haRXFZbHRvc1gwVXA3NkpDZnMwZGJNWmVIc1owSVVDVDQ1V3hmbWRKSmRrZ1NqblJCNVE4WDZOUjJId1NGZjdsdzY4Yy1Xb2NwXzlHUTdaZU5JdmhTX0hVN0NlcHJsTVVTTGQ4bkhjdEowX1BqQ0c1Yzc4ZF9od2dhUFZzRzA4N1JFaXVBbmdjNkNkY0dTSFFYMnZ5cmNCVDc5N3hlT2VjNmZ4ZWFYNEEtS1VINzhNYnNEZTlKb0luekVCQnY2MVl6aG12VmFJclY2WmJiVlZFeUdqSENqbUxHNk5UTGwxVmfSAbcCQVVfeXFMUFBnN2NLNGUyeUVqM3pOVmNMSElkZDNqc1dTSHZZdEdkSG1VdG5vTmY2TU5QZXZhNTZJMmhHUE1XMVlDa2dCZUdRTDgzUUdFNzlpRkpSOG9EdDJHLVk0d0lyWXRTczM2YkZBQkJpNmxiSERva3puLWhLbWhNMkowQWFFakRSaDhDdlpHY1FxOURzMjhFcFBjUWExMkExWVdlbWpja2Iza0gyTEJ4dGNPZTdiOC1kcVprbGZsV1AyRjhBZkxuZjdsSXJ5T1UxenFyRS1NQTQxeVgzSEVPcHJZTUFhcGhROUxLVGo2Y3gxTlFSdExVeVp3S0dfNkJiaW5MZ3pwa3JRNDhzLWt0MmhGeVNWUjlvUm5OcVRLVnMySGFvb28zMGxRTGh0TXpCRHRvZmZaYksxUm8?oc=5",
+      "source_name": "The Times of India",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -384,19 +279,124 @@
       "confidence": 0.55
     },
     {
-      "id": "578bd64f3ffc0d9d",
-      "published_at": "2026-09-27T22:10:00+00:00",
-      "title": "Trump expects Iran talks next week after rejecting seven-day truce proposal - France 24",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPcUg1Qm1MRFBkVkZXNXpESGdlc3NGaTdGWVVwRjhVNEZKZ3dkdTg3VDZlSG9GdGdYd2U5bXFvUmZ5alA0Ui0tWlZtX2JSTU5zeVhqamFxaGY2dWNNLTNjRFk2S3F1MWFxZFc1emdaLVd6Z1hDMmlSal9CRDN2YV9xQm0zM1lCTDBjYURfZWhaaV83S1QyZklKR3lPV3pOdWxfNTdLSm5lb01rX2x0V3J2cW4ySVZyRzBhcU52LTdwZHNKdw?oc=5",
-      "source_name": "France 24",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "f8cb4c1d4689c4ff",
+      "published_at": "2026-09-28T11:10:35+00:00",
+      "title": "Iran war live: Supreme leader vows to drive \u2018enemy forces\u2019 from Arabian Sea - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOUFM5LW1PcF91S3BjU1poOUEtMnJPM19MQk9XYXR2YUZabDhidnprYU5fQXM5Qm5DSDN6RGZKRDN5SG01cVBNZ2hBWTFETmdsWnVGT3dwY3Z1NkVpMkhCb3BIVEs2ZWNuMmxTVjdrZVFuelVLM3hFUUhUQXpwZy1JMlFYMTZsbFRuYVMwUWxxNUdZSHVJSnp0SXozNjZGc0ZSVmctbmFEZ0x5aEQ3UFRMcmtJaTROZ0JsR0xXcW5nUmJvQdIBxwFBVV95cUxOemhaT1hVUVlZNFg0d2lqYV9MQXQ1Qjl2cTRWck9DdkluZFoxY1FuTUF3WVVmR1pOVEY5c0VQQXRPdm1qdmFuVGpFb1Z2QjhQNVgyRFlkdHJDNjFkc3hxNDcwYW8xZk1fLTNNUWQyMk1oek5qd0FEbjBnLXhQakkwVWJjMFhDdHd6Z2tJLUkwcm1nY2djM1FFZi14cmRDVkhmOTJYQ3hJWkhXRXVPT2daeEp6Q21SUlQxYXZXWTl5VEpTa0ZmU0hn?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3185dc5100cd3af8",
+      "published_at": "2026-09-28T11:03:49+00:00",
+      "title": "U.S. Marines injured in Iran attack and Taylor Swift sets VMAs record: Morning Rundown - nbcnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPU3ZTWnJxVTYyLVB0MW5JbGlMSUstekJPclNkblpOZzIzaGt2dERKUmNzMjhWYi1QeDFXeGsyNTF1ZExLVDIzbkNjUEhSd2VkZ0NfWlVnZUpHQnBXVWFnQWRFNUVoVEg4RnpoS0hBVU1wWVdrUGRCZ2Q3T3hQa2VoVHdxcVZ6V09QTm8wTXhzRXl3Ty10YVhLSjhrR2FLUXhBTjlHRzhvblRvcEs0VVFRVi10QU1KYVBBWHc?oc=5",
+      "source_name": "nbcnews.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "2ac1b86e860f6f1d",
+      "published_at": "2026-09-28T10:41:00+00:00",
+      "title": "UK foils suspected attack on air base used to strike Iran - Semafor",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQM2djMWlDZ2dOSEJHSFM5LUJtUWNKN3hzdmJMbWRzMkZKTVo2cDAtSmdUM3N4U2FJUWFFV3NPc2RScEVSZU9pOTFrQ0ZLVi13SV91eXMtS0VfaFc4eFVxTEMwR255TzM5YzFjdVBleDlqd1J1OF8yWXFlUHl6V2tiS0xMMkxzQmNuN2lSZ2RvRTdJbFdqY3lPTjZnNGR0LVVZdnc?oc=5",
+      "source_name": "Semafor",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.65
+    },
+    {
+      "id": "9665a20625796b5a",
+      "published_at": "2026-09-28T09:34:12+00:00",
+      "title": "The Decades-Old Roots of Trump\u2019s War on Iran - The Nation",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5QYnoxNzRnRDZCdUNBTF9zYnJlczh4SWUtMlJnNUJVTGlvemthX0hSZHhtLUFtZnFGN2tiRXFNSVEzSE1ObUd4bllGNDF4WjZBbkdHbTlEcXM1bDRMSGhjUTJNQdIBmwFBVV95cUxOV0pJZ3FNUDNPc3BUd1dKWmljUjVzY0ZNZXhaNUttLURQQXlqWkp3RFBjVWZob0VZOVdGd1F1dkVMS0pNc3VPbngyRnNsdTdBVHVVMEx5TUpkVENCekV3X0lqRXJDTFFvMXJnUmFKeURQNzdkRG5YVC1lNEU1d2VHcVB6SDlncDlfaW12cjlHSzIzakVoaU1vTmZGRQ?oc=5",
+      "source_name": "The Nation",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "651ab28bf4a1b066",
+      "published_at": "2026-09-28T09:33:23+00:00",
+      "title": "Qatar-linked LNG traffic through Hormuz strait picks up despite conflict - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWGJVSUk3X2d2T1ZVNjM0UmE0RTRXZEpvMWwyaXNrbFkzeWFEWG9RUTlLMFhyaUJ5NjJKb01FTEcyMXYtaXc4V29xRnc1WWJqeDZrQzlZZ2h3cUM0ZGhjWDJUQ0tiTFVJUzNlNjJPRVJSSTJYWUlhejNDeHFZeGRNS2M1YlNvbG1oaXZnaXo1VHJPeWxvTzJab1U4Zk5mb3IxeWR0QUhtbjZjYnlyUU8wVmRNZ1BBX3VpS2IzYlRvdS11QQ?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "aad44a7d52511ec1",
+      "published_at": "2026-09-28T08:48:05+00:00",
+      "title": "Iran\u2019s children return to school under the shadow of war - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYjhaQThZd1VYT19jaEoxYWNIYk5LYmRRckt5eWdzYllDdU8yYzFlZTVYeTBPQjBmdmlfUHpWYTNOVnBYb2NPWjdXMllObHhjLWtoajBLM3pzQWxaWVZWWlZubDlMQnpEdmJVYy1TbVNtT2ZFZFI0a3VMNWpOUGt2VllJcEVEZzFzSkU1cG5SM3htRlNIbTA3eFZhWS1NcTBNVVHSAacBQVVfeXFMUHM2M1FlVUpnck1YRXh5U01OWENyU2hrUmpBdWozeEJ5RHFDdDI2QmVtTGE4bktXUXg2aHhNYWpGUFdubGJPSWM4ekl2M3NHNzNCMmpYaVhoN29BeG1yOHRGaXI5cHJWX3lvSDQzYnp1N1U3M3Z6N2xxaW4xbjJ5RWUyanBBZmY5R0t4UHN0NHVNVEN6U3VPREMycEtkakpSd2RyUTA4SjA?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "a738cabb22554aa5",
+      "published_at": "2026-09-28T08:17:17+00:00",
+      "title": "Iran War: Latest News, Live Coverage and Video - nbcnews.com",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?oc=5",
+      "source_name": "nbcnews.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "1c710fc2c433c36f",
+      "published_at": "2026-09-28T08:13:05+00:00",
+      "title": "U.K. Probes Possible Iran Link To Foiled Attack On Base With U.S. Jets - Forbes",
+      "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRTNJTzNnbTFCRGhDdVRlMkt1bF9SS1cyMFduMnBSRERvcmE0ZThOcERyOG1QOFQ3RVROd3Y5cWpwREt2XzU0czlIUW02blJ4b3JRVTZxMHZidXVmbGNfZVl6MTFHOVJ0RTVYaXRWeEJLVlRhRU1WUU5Gb3AzVjF6R3VOVlRwUmxQSGtXVmYtWFh4RUJHNGJGOVAwSm1VQUlUY0JLbzhaT0tlMFJVanhyaTJDZTk2bzhPaWdmQUJtcVVZcndYcXBsN1lwZ0JiWFJhSnFn?oc=5",
+      "source_name": "Forbes",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
     }
   ]
 }
