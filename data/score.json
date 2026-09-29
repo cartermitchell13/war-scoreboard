@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-09-29T18:07:03.094896+00:00",
+  "generated_at": "2026-09-29T22:21:04.400875+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 105,
   "totals": {
-    "usa": 34,
-    "iran": 28,
-    "lead": 6,
+    "usa": 31,
+    "iran": 21,
+    "lead": 10,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 7,
-    "iran": 18,
-    "delta": -11
+    "iran": 14,
+    "delta": -7
   },
   "confidence": {
-    "score": 64.7,
+    "score": 64.5,
     "label": "Medium"
   },
   "event_types": {
-    "other": 53,
-    "diplomatic": 11,
-    "attack": 40,
+    "other": 54,
+    "attack": 36,
+    "diplomatic": 13,
+    "intercept": 1,
     "material_loss": 1
   },
   "history": [
@@ -32,7 +33,7 @@
     },
     {
       "date": "2026-09-17",
-      "usa": 3,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -83,26 +84,206 @@
     {
       "date": "2026-09-27",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-09-28",
-      "usa": 6,
-      "iran": 1
+      "usa": 3,
+      "iran": 0
     },
     {
       "date": "2026-09-29",
-      "usa": 1,
-      "iran": 15
+      "usa": 4,
+      "iran": 13
     }
   ],
   "latest_events": [
     {
-      "id": "b32b628a62605b97",
-      "published_at": "2026-09-29T17:51:43+00:00",
-      "title": "Trump administration \u2018must be changed\u2019: Iran\u2019s IRGC appeals to US voters - Al Jazeera",
+      "id": "b658637f38fc14af",
+      "published_at": "2026-09-29T21:09:11+00:00",
+      "title": "Iran-US war latest: Tehran taunts Trump by saying US \u2018will inevitably leave this region\u2019 - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNa2hXTzNjZHRvZDlsQ1E4VzB6VzVrTnQ3VF9WZ2pXSHVIdnBCamQtN09PTmxndExSbXZkOHVqeWRZdjAxUDVCQTMwZ3ZlREtYQWJLVXBUcWd6aFZBem9SOFBoYkQ5dmJHRmxDOGZmQTJmMDFMcVc1anBsZm5fWWtETC1GdWlKb3J0TVNBcXJiZDd1LWtaMm52c0xVMWUtSXI3eUdPVHZmY2NXUThLVmw4SkhNbE1pNjg?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "afb443b5c48d83bf",
+      "published_at": "2026-09-29T20:51:46+00:00",
+      "title": "Iran war live: US, Iran trade barbs as Saudi crown prince and UAE VP meet - aljazeera.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOGR3S3NmdVpaZUR1OGdBX0hBTU5TbTFDcDRVbThaY05EU1Q3Qk9Sa3AwNFlkT3RrU0ZZb19DYmlaZlFQa09DT3d1eGxuZFJnZVJpT1NSTkpVVy1pUEt4MmZVR1JqeWR0YWRLNUdfcFp2WjVMV1lMNVllaF9ELVF3bmhrUUhscEFwcDJVSE9feWtzYldxNGF2NGNEZUZVZm05Z0ZoamNsd2dZNVcxNWE4V0luaVZpd9IBuwFBVV95cUxPSUdtckw3eUdwd1UweVd6Tm1YWG55cXBIaTZrdVJtTWRKdmN3LWk5aGxtOTFtbFNQcVdfN3g2ekVUR0NGVHNXRXFQYjJrbjNiNUNwVUREUWp1M1laYkZQMng0SzJIcmN1RnR1bVpXU3FBbnRaaWxsQllnNmV1ZU1nMG1QT0RFR1JnUDZoaFpoc2VsbTFfMGpjUVotZ2dnR3hFVEl2Z0kyNl90enlOX2J4YUYxVXNpQlBMbDFR?oc=5",
+      "source_name": "aljazeera.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8d05b48427f6b13a",
+      "published_at": "2026-09-29T20:17:09+00:00",
+      "title": "Qatar\u2019s PM says he got heads up from US half an hour before Iran strikes on Feb. 28 - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOT1AzQ0RiOVdtc1ZmMTdtLVo1ZnNOaUg1b0dGYklNTmxPQnhETGU5SklGRVF6cTh3bFBMVHNHel83dTFSLVRYYjU1UThVMUhRMHZST3F4ZWVjSS1iMkZCVVhFOEltOGY5LVl1bWdUa1g3d2p4RnczeWtJV29admZINzlOSUVoRWp1ZW41OXd6ZjBtNXlPa3lGUk5oMzkwUU53QUxfbXdzb2dGUk1OSlRVOE56Z0pYN0J2Y1k5blEtcHZPc1RPX0E?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "aa72247db85f36a9",
+      "published_at": "2026-09-29T20:03:45+00:00",
+      "title": "Iran tells the US public that Trump's war has failed, and other Mideast developments - KSL.com",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNc0JDemVmVUdtVHlRZTNRT1lNUFA0S1JSSS1lWEFpYms2Nmd5TTBjam5YZWlyMS1qQk9EYzRMWmtPZmRmZ1JOd3dfQjNWa3VZWWM1TGo2cV9QaVFqWGFEaG9JQm8zdDBFVjNienZpd0gtVGt6Z2ZzRnZHV1pQZzd0RWZDNDR6aUdySi1yT0p3MHUxb3pTT3czZlNsMklzd0FRVkdIdW5CbzNVSlRqQzl2bFRSakFFdHVRVWtz?oc=5",
+      "source_name": "KSL.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "60161e86480dec7b",
+      "published_at": "2026-09-29T19:38:16+00:00",
+      "title": "The Parade of Hormuz Horribles Fizzles Out - National Review",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNR29IQ1h5LUVTTURaSzViTmNvZjJDVkVjdE15TEpvQ21qcmdKUTA4cUxBQk1ucXN6di1PUTJta3RIUEtjX3E1aEJoanR6eWJKQmhiLUNpcDNGNWNJSWVpMXVrTHV4N2RNQVdfRGoyZDYtdEd3UnNnVkR6dVg1YmdhVDZkVzRtQUtvSUHSAY8BQVVfeXFMUEVDZnJCUHBSWXFlWnNoNXRKMFhXZWJVRktWOHhJLUp4TTFaRGpmclcxVkFJenNibDVudHRlUUlTQjctXzBNcEtsTHBWeXZIWHlXT3pHOC00WngwekVKeFlQYWV3OWEyeG53SzM2WE81Qnh5dGUxbWhZWFY4R2g0VVNiZmxDby1hVXBrWGp4RWM?oc=5",
+      "source_name": "National Review",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "27d63e6b90fce5a6",
+      "published_at": "2026-09-29T18:43:00+00:00",
+      "title": "American Troops Leave Iraq With a Warning for Iran - Newsweek",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZzMtRTJnNXNaV1RDUFlmLTlzd0cyMnhmNWxiOHAzUHBWclE5MU9EN2ZWNXNrNVNZaHVybklWQ1puMHBqZjMzUkN0bjBldi1hYlczNXFxdmVaRUNZaHBWYnFEQ1MtS3E3dDVjSTV1NUFBZ3lqcVI5aTVhM21UNHQ1VQ?oc=5",
+      "source_name": "Newsweek",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "5e768f6f011b1d99",
+      "published_at": "2026-09-29T18:39:26+00:00",
+      "title": "U.S. targets Iran's military supply chain as diplomatic talks remain uncertain - PBS",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbjFPcHBidVlJamxFUW0xeHp0UkxqWlZoNjFHSkxuT3FCOXRjYkNRdVN3VVdVQkI0M0Z1OGowbVJHclYzMldCZUFCZk5DSU52elI1c3lzVWE5bjFycG1HZENDR0tTTkhNdGJ5cHVzRGwzek1ESTdvZ1ZscmsyNXhCbkY1TFBOamFOQ3Btb3ZSWURMODBCT2dtcDFaSG5PYzNYN19fdzdPNjdweDN5TXdjMdIBtgFBVV95cUxPUW9YYWdrbThFMkhwVWpfWk9selpIdXJpYTVkdUVGRUc2alp6aEV5T0Jicm9hWFFrbklvRVRERWdlSUh6SDExQWZHc1EwQTE3aEZGTFdLZlZfb3hWVXcwbVA4a2dqS19Qa21MQ3pzLU0ySlhOSUhua2pkQmppZTExdm1tZ2ZzS0o5Y05PdUFLTTIwaUhMYXFsTlQtN01kMzhidUNtekhtSHpULUpYRG1LTnJfSUF5Zw?oc=5",
+      "source_name": "PBS",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "cabf5aa114bf1132",
+      "published_at": "2026-09-29T18:31:00+00:00",
+      "title": "Iran War Updates: Tehran says it expects U.S. response to ceasefire proposal already rejected by Trump today - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "4654a3b4c6240760",
+      "published_at": "2026-09-29T18:30:00+00:00",
+      "title": "Mediators push to break US-Iran deadlock - Financial Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbmsybG5jSXdISm1ZWFhsbmVRUjQxNzlJMEZSQzZPd25sTGRPVEFxQW9IbnFOX1ZKU2J1eWJONVlKb0ZrNFRpTVpuVUgzQnV4TnRjWGdYRFZqeTgtNURJZVY0LVF4bkxTcHA1SDJSQWp2Z1VKLXoySlo2V01zU0o0U0ZsMkY?oc=5",
+      "source_name": "Financial Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "131d995fba99a562",
+      "published_at": "2026-09-29T18:24:31+00:00",
+      "title": "Iran tells the US public that Trump\u2019s war has failed, and other Mideast developments - Boston News, Weather, Sports - WHDH",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdWZRRExVd0FSajFTQUJwcGxGR08zSjliLWkwZ3dqcmNwNDY0SDNCYUlrSE1XUFBDZXl4OXRGLW9VQUJ2TGZSem85a196YXV4Z1FGWmliMzAzTjJmY3BvSm1relpTb2VYakQ1QWc2cXllWFQ5UG9PMzB4WExTNUtyLW9aXzdBZ1VsZmFZUmhHYUVGWmQ0cFpQdkZRSVdaOGZvSVFDZjhSekI?oc=5",
+      "source_name": "WHDH",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9a4052365dcad0fd",
+      "published_at": "2026-09-29T18:11:55+00:00",
+      "title": "Trump denies reports he offered Iran sanctions relief and access to frozen assets - Yahoo",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSTJ5b0FiT2luQTdWbkxNSFNDR2REWnAtcU5qdU1PNXROMzNWbElHQVJRQUxkN3hCT3QtZ2luVmx6ZGhwdkgyb1Fjb1BqWWV4bzM5ZmlBeTVwcEN6TjdvUVI1NzhpUzBJX084LWgtOHR6Tk9WVFZjYng1UWdOeEU5YXRmUjA3T01ld1RNYnVnVVpXa2xn?oc=5",
+      "source_name": "Yahoo",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "70857dd3adcda6b2",
+      "published_at": "2026-09-29T17:53:15+00:00",
+      "title": "Trump administration \u2018must be changed\u2019: Iran\u2019s IRGC appeals to US voters - aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWld5VDBKeU0wYllNM1F2V195bjZFc0xhN1ZSejExRFBqdEs5T2p4MU80WXJwZ1NINVFUZU1EV2hfOGtvalJ3NGdFelVCN0dQWEFOWnJHRHlkRnpjQzhKd2NTRmQ3N1lrb2RZY0VlSXZJQnVXQVJ2eUpUc0tjNThtczB1RXd4aS1LRWlZeUdBT19BSnEtS0dSTUpyOUN6X3NxTHkwT1pnOGFHeExvcVHSAbMBQVVfeXFMUGNnOS1ka0hrN1NrYVdUSjZGNWVyOXp2dW55SXNDLW9tTXdjSEJzNUxGT2lnb0RJMUQ3VW1ZV2RoOUZJeURPUTJDZDhBOExJSmh3R3NfdkVOTkkteExhaHJFeXhRTU1FaTlMYUFlVXh3aHY4Mmd5dWI1ZGJ6VWszcERlZHd1emtwdlBrcG9tYmtCTU5tWDVyT1BKYTlIczFvcDVIWWh2RHdLZXAzNnp5ZDV3ZEU?oc=5",
-      "source_name": "Al Jazeera",
+      "source_name": "aljazeera.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d8d88559b7802d52",
+      "published_at": "2026-09-29T17:39:36+00:00",
+      "title": "Trump says Iran is \u2018failing very badly' in war against the US - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6VTRlQlFnVzd2RV9ydnlwajRfLUJvOWgxMVhPdWp3VUR5QWJyenAxRDFQWnM0M09yS1ktbDBfTHZ4eERtdl9mUHBkWklJMFRXYV9nT3RB?oc=5",
+      "source_name": "Fox News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -128,11 +309,11 @@
       "confidence": 0.55
     },
     {
-      "id": "3daeef91be6b947b",
+      "id": "e892b1b40ff22516",
       "published_at": "2026-09-29T17:27:20+00:00",
-      "title": "Rubio Says Incident at UK Air Base RAF Fairford \u2018Clearly Involved\u2019 a Foreign Actor - The New York Times",
+      "title": "Rubio Says Incident at UK Air Base RAF Fairford \u2018Clearly Involved\u2019 a Foreign Actor - nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQTVpfc0otQi04dzZ0S1E4TXBKbjlaQ252aXE1Q2hQbUw1WURoU2ViTlhsSVFoY2hFRklCdXZLdzFvYk51VlFIYkZvY0RjNDZPRDNtdlg1T29KbmdFZE1ha25MRzVMTDRQWEZuYXJlLTM4N3RuYndFZnFUVVZXdkVYdF9JMTRuT1BRT214eVEzN0ZqSm5Uc0VPaXc2WQ?oc=5",
-      "source_name": "The New York Times",
+      "source_name": "nytimes.com",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -141,21 +322,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "fb77bef6b0c06c9d",
-      "published_at": "2026-09-29T17:05:01+00:00",
-      "title": "Trump denies reports he offered Iran sanctions relief and access to frozen assets - yahoo.com",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSTJ5b0FiT2luQTdWbkxNSFNDR2REWnAtcU5qdU1PNXROMzNWbElHQVJRQUxkN3hCT3QtZ2luVmx6ZGhwdkgyb1Fjb1BqWWV4bzM5ZmlBeTVwcEN6TjdvUVI1NzhpUzBJX084LWgtOHR6Tk9WVFZjYng1UWdOeEU5YXRmUjA3T01ld1RNYnVnVVpXa2xn?oc=5",
-      "source_name": "yahoo.com",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
     },
     {
       "id": "69123e0146105618",
@@ -173,11 +339,11 @@
       "confidence": 0.7
     },
     {
-      "id": "d5d9234aacde62a9",
-      "published_at": "2026-09-29T16:20:59+00:00",
-      "title": "Preemptive attack on Iran's agenda in case of imminent threat - Tabnak",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPR1pZcGhWMEswRTA5akRMeTZlOUZxR3B0VE52NExmeUtFVjI2QzU4WGx6WE44OE41Um1JdllvNEd4NzhiZHpWNGVfaVdOcndoM19mRVN6RjFEUmMwRzZUXzgxTGNva2VnNzdjYm13ZHU3cjRYOWdWS2kzYmRtN1pSOHpreUMxSWo3Ql9KWFpoS0FGcEc4dFRvbXYwNGpESzJ6REE?oc=5",
-      "source_name": "Tabnak",
+      "id": "1bf529a7f633a8f4",
+      "published_at": "2026-09-29T15:58:07+00:00",
+      "title": "Iran's currency hits a new record low as war erodes the country's economic stability - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPU0RUODQzTENLckJvVkNWSC1OTUpnVWNuWU9BUUtsSmpTT0ZNb2lFUlNxWmRwaHotMlNqS1NJNVVRdzA4WWdpQjBLMk9QMVk5UW4weE9PNnk2QWlaQ3lRaEpiWTFueFBHcjhaakswaU55VW9tRXo3ak9OOHNzVkUzLTVFVWE0Y1gzNWEzUExYWlBkczJWMUxrRTVkek9Ia0hPc05kUXUyWHBXZUpWcUhhZV9sNEdKdzN10gG-AUFVX3lxTE90eVRPWG5GcElJUUJQbkN5ZFpBNnZXZDBJcG9oUzBYR2NiMU1Wd2YzUXNIOW9ja0JBNHc5d3VWZXhKY20zNktrVWo1VjRET3lNOTBNVm42V2FBaUt6UHRKR1FfZXhnM2lja3d1ajA3T1JKQUdxTWlteHp0T0oxcjFhcFUzLTlkRUpCNmdJWk1jSFB3OTFmT25FOVBSeWJIaU14UUdUSG8xcUU0VktCX1U5MUtPRThvR3Q4WnB0aWc?oc=5",
+      "source_name": "PBS",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -203,26 +369,11 @@
       "confidence": 0.55
     },
     {
-      "id": "ac564bbbe85d7465",
-      "published_at": "2026-09-29T15:43:00+00:00",
-      "title": "Iran War Updates: Tehran says it expects U.S. response to cease-fire proposal already rejected by Trump today - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTWE0SmFYMGplRWp0MEtWY3Fia2dlSW1QTEQxa2hyQTBHdE9MU213SFhMRU5EaGZQaUZSV0hlLWhjWWpZMHFuSWQ0MjhlczBvbVFvSkVNRDgxT0pHN0dOd2l0WS1TNGE5OEpiWG5YODg1cDRXZnpjZXBVQ1c3SXFJTEFxYjM?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5994ed6c1b8b5b0f",
+      "id": "1c525bb95da95d1f",
       "published_at": "2026-09-29T15:39:00+00:00",
-      "title": "Trump says Iran conflict to end \u2018very soon\u2019 - Middle East Eye",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQR3ZLd3NjdVhHbXJVcWtLSExWTk9Yc1N5TkpDcDVwOXJ3RDB6LVFBR3ZJVUlDODFCOFJEYW1mU0VoWFdmU1l1RzB2Tk1UclpJMVMtQnc1NDBGOXpwN3B5ZGNCWVppaUJYVFRuVHlMTEJoNkdnSjF5c3BfMGZhdVhNUlJlSzlMV1lxTl90bmVNdXhMOExZTllLejNsUQ?oc=5",
-      "source_name": "Middle East Eye",
+      "title": "Opinion | Why Iran May Be America\u2019s Last Mideast War - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9uZkxTLUxjUFU0Sl9SXzlUM05TVXpkTEJ2TGd0dXlYN180MnBacE9SV3FaemZtVXRfbkx2MV9ZSkVLVUFtNXdyenBNWUZHcHVid3NfNHFsbDk2dXNvdloycjZXeTJ5LWR3Q3g1c3BzeDVaQ3lNWTBhZWdOWkpZU00?oc=5",
+      "source_name": "WSJ",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -233,161 +384,11 @@
       "confidence": 0.55
     },
     {
-      "id": "800303f0912769ab",
+      "id": "5a308ecbe611de15",
       "published_at": "2026-09-29T15:35:00+00:00",
-      "title": "Iran live updates: Tehran waiting for US response to 7-point proposal, Araghchi says - abcnews.com",
+      "title": "Iran live updates: Tehran waiting for US response to 7-point proposal, Araghchi says - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRzRzcHhnTV9vel83UHVOd3d4T3Z2SWcwVGI3MnJtMlNsdG8xS0pDZHFZZFVMekJ4b0QtWmNRUlg2S0hELUZMZHR6TmxuMlh6S2EwWVExbGVDRmNSM1FxdGZyUnB0eExmeXYzY2hXLUp2c1ZfQllzOHZNNzdRT1F4MUJFQkhlQXE2OVpVUGdtcVRkcmNXbDVGSGprTGczVmkwQUxiT2swV2xKdVdEd1pTRFd30gG3AUFVX3lxTE93Q2Y1c3h4VDh5Rm9GbDE1STh0UjNlTV9uZDQyUzUxV2JWdGVzZEVGa1BVSUY3TmhwMzFYVFB6Qjc2bUp4ZTRjWWI3OXRxUEdUNW5wSnh0OEFMcFBhbDhhUlh0RWU1RktPWEZqUHE4RlFwUkUwZ3M4cXA2VEFZbmJRaGJOZkRDMVJDVG8xLWlLY0Y5Wkl5MzlER05Oak1aeGtPdGdoRGxEQzY5SjVPQkRROXJBTTVNRQ?oc=5",
-      "source_name": "abcnews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "488d81e406180689",
-      "published_at": "2026-09-29T15:32:06+00:00",
-      "title": "\u2018About Two Weeks\u2019: New project takes aim at Trump\u2019s shifting Iran war timeline - Scripps News",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNQ09KY2Y5YjJZLU5Pa1JidlFBYU9wWldjZTNCSUdobldZV1ZFNGgzZGJJektNTlBaa3VxN1FEbGhuT3cyb2o1WnBkMTU0ejNPeGNveUYzVDhKLVVocmYtU0xSSmpNM1A4M2NqdTUzaGJONTc1MEhvM29zSGQ0Nmh5VmdsdUd6cU1FcVNfcWU2blExY1cwNFBlYzN2dXNPMXJSa1gxdklLUFRwVUVwZDlhZXFGMWlVZmJJbzNr?oc=5",
-      "source_name": "Scripps News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "37ad604e695b6223",
-      "published_at": "2026-09-29T15:22:30+00:00",
-      "title": "US-Iran talks in New York: What\u2019s the latest? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNG50cEdnZFdwcmRTQkdwbjhYcWdINUtIWndKTW9Nb2ZkeG0xeU9XWG5fMmI3SUFKUE1LMHVFRU5QYWFENG9IbEtNVlhhLVRtVkNuSzlCT1ZhS1g1ZWJVX2VtUUNQMGdxREU0VW02Z0NBNFZRZ04zVUMtNjY0Y2VOOWEzWnZkc2FkWlJN0gGQAUFVX3lxTE5uV2c4R2U5c0FJRHFIazhwQU5ILWJBS1BnLXkyRkdXM29YSzdFUFlYVzZmY2dUSDNraHRESExaVUZLUjh4SWlvT21kaEJSNGJyOVlsYnQydlhsMUZOUWI2U05fSktNQkZ1UnZtTVZvLUk5elN1am8yT01DSThyOXBaUENENmlESzdxeEg5emhUUQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8aa43fe2b699b896",
-      "published_at": "2026-09-29T15:17:00+00:00",
-      "title": "'This is how the war will end': Iran's currency hits new record low - Fortune",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2RThpaExQZjB2dXR4T21SNFJZR1ZTdmNuQkFhQTMzRTk5Z1VzRXNQeENrWi1UVC04bnF3UnpKWnQtQnlMVGJBQUxSZjN2TWlmZjB2YXNmWGhSWTR3M1cyTlh5YmJ0SFdtZ1lVc2R2T3Y1SmtybXFMUjdlSGEtZw?oc=5",
-      "source_name": "Fortune",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "24916ad9b161a306",
-      "published_at": "2026-09-29T15:02:45+00:00",
-      "title": "Iran war live: Top Iranian official says \u2018US will inevitably leave region\u2019 - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOGR3S3NmdVpaZUR1OGdBX0hBTU5TbTFDcDRVbThaY05EU1Q3Qk9Sa3AwNFlkT3RrU0ZZb19DYmlaZlFQa09DT3d1eGxuZFJnZVJpT1NSTkpVVy1pUEt4MmZVR1JqeWR0YWRLNUdfcFp2WjVMV1lMNVllaF9ELVF3bmhrUUhscEFwcDJVSE9feWtzYldxNGF2NGNEZUZVZm05Z0ZoamNsd2dZNVcxNWE4V0luaVZpd9IBuwFBVV95cUxPSUdtckw3eUdwd1UweVd6Tm1YWG55cXBIaTZrdVJtTWRKdmN3LWk5aGxtOTFtbFNQcVdfN3g2ekVUR0NGVHNXRXFQYjJrbjNiNUNwVUREUWp1M1laYkZQMng0SzJIcmN1RnR1bVpXU3FBbnRaaWxsQllnNmV1ZU1nMG1QT0RFR1JnUDZoaFpoc2VsbTFfMGpjUVotZ2dnR3hFVEl2Z0kyNl90enlOX2J4YUYxVXNpQlBMbDFR?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "2cee640e0750aef9",
-      "published_at": "2026-09-29T15:02:04+00:00",
-      "title": "Tehran Threatens US Infrastructure, Awaits Response on Hormuz Strait - Ratopati",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUGV0N29JbjJMV0xJemtybEVMTlduS3pzQTRiRXNldEMzMV8xcy1TZXVWMzMtN3duU280alZDVmVZSjV4Y3dpVVNWZE1acVQzWUZyWVlxR3ViakxHUWNRMlppRlc0ajhPeTlhTE8wX094TmZLbVpaMDR3alUwLWhqdDd3QjVPQQ?oc=5",
-      "source_name": "Ratopati",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0036e5486b8d22d9",
-      "published_at": "2026-09-29T15:00:00+00:00",
-      "title": "Iran\u2019s currency drops to record low as war destroys economy - newsnationnow.com",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRDNYcXFLNGFpYTFZRVVCdUYzVkwzWmtBNUFHYjVWdmxjUGg5U2p4N0puVldzM3RfR1JXWlVSa0hHbFpCWkhXU1VqNUxfN0pYVWExYnRSb2gtal9hNTdmdWRZQm1jR3NoVTI0M1poVm1GZnFmdkRWbkQ0amlfeENpZ1c0bXd6NVdkVU1RZDh30gGTAUFVX3lxTE9UXzNycWFpUzh0WkpDNGljYUt0MFRhcDdMSTVlcXZIakh0empHamhUZk9sMGxjbzFGWDZBRVV5VTJfRU9KV0hhNjhEYkxIcGZMbDZLTHZpMGJGWi1EQzJIaEY0Nlh4NG1VMUhlZVFSV0N5Zko5aFMySURNZnZiMlUxbEZ4b0VveTgwUnNERjBEWDdCYw?oc=5",
-      "source_name": "newsnationnow.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e612db13edea46da",
-      "published_at": "2026-09-29T14:35:28+00:00",
-      "title": "Mr Mojtaba lays out a plan for Iran's response to the American war - \u0631\u0623\u064a \u0627\u0644\u064a\u0648\u0645",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVkpkRjB6ZEVXODdZOGZHVkZ1QWFwRUtLdWEtNmFxWjN3bTlmaVplUzk4VXB2Qk9ybjlpWjZxa2lUX3dhMUtvZl9CbThaZzAxUC1Jc3pzN0NPdHRLdHpTcEctc29Rd1JjZ2V4QWdORW5RSm4zVW8xbGRCLUNsZ0JPelROUlFBTk5zYXJxMmFIQTEtSVF3c2I0?oc=5",
-      "source_name": "\u0631\u0623\u064a \u0627\u0644\u064a\u0648\u0645",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "39450936ca9d0286",
-      "published_at": "2026-09-29T14:17:17+00:00",
-      "title": "Iran threatens new strikes as it awaits US response to Hormuz plan - novanews.co.za",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQV9IOXp1YXZkMjh1VEkzWGQ4N3RETG1ZdjMza0RIWjFHSmxTbEVnQmljQXpCN2Z3TXNaalpCZ3FiNEZMU3JSU0lRTzF3MmRHWjMweTNEaWJhNnBWR196c0t6dkhfa01ZcVN3dUhfV3V1bGY2NEthQl9keVFJX0hPZy1ybHp2OWM0ai0ySzJ5RUNUZUpK?oc=5",
-      "source_name": "novanews.co.za",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c4a20a5c5e90bab4",
-      "published_at": "2026-09-29T14:08:13+00:00",
-      "title": "Qatar confirms relaying messages between US, Iran to end war - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZzJ3cHJRd0JVV2g2MEx5SXhGZm9LTEZlT2ZhTGVTRkRtMXdiNC0zSDg2QncyS21mM3ZWelF4UXRwN2pqVVJ2Ri0yM2t6S05UbkFqeW1GUlM4bzJJRTJiM2V6Uk5ZcC1MVXpEVXlJWWNCU0lDVTQtT3VCbDhNU20ta25XX0VqMFlqYjZaM2c3LWc2QUl5Q2dLUFZkUHBlRzhUWVVnMGlHUQ?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "938b298a358f85a3",
-      "published_at": "2026-09-29T14:08:03+00:00",
-      "title": "Bail for RAF base suspects suggests no evidence of \u2018terror\u2019, say analysts - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOOHlfcm0yaS1VMnhERGtpdmVFTERSYjBNUXhtbVptaHJmY1ZidEQ3ZnBpX0tWWWFnZUE3UGd2T1hVWTZkX0RwMXFuLWQxVi14U2ZPX0IwdEZEQXc2aGlIRU5UNEgwRFp2bkJ6UnpXX1ppRnN1RkxxdVJOdjQzTVc3Y01SeEFjQldLN1JtTFFkU0VQTmFwMW9vc2Uxb2htRTdaXzdrMGVmNy0zM1hHYzU1aWxKUzk1UdIBuwFBVV95cUxQRWxfY182M3VoNWZNWmZfdllmLVJRcU9iU1I0OEwzeFBIQ3B5aVBUa3RoVzZpRmZkbElsal9VTkdjS3dYbWdlWDJjc1VKeExmZ3IwMzZEdzNPUXdMT2tZLWM2YUs5M2ZId1EtRm1iN0Fia3NCYkllalh3dWpvN0x1YkFQUS02QU9RM3ZfQ2ZQWkI1cDlFMXJKU19lVXpxblRyX2ZWYUdDU3hMRDZrYmc5UzZrLUJXdXE1XzlF?oc=5",
-      "source_name": "Al Jazeera",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
