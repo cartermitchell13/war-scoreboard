@@ -1,26 +1,27 @@
 {
-  "generated_at": "2026-10-06T15:59:43.813561+00:00",
+  "generated_at": "2026-10-06T22:40:55.609901+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 88,
   "totals": {
     "usa": 6,
-    "iran": 7,
-    "lead": -1,
+    "iran": 10,
+    "lead": -4,
     "lead_side": "Iran"
   },
   "momentum": {
     "usa": 3,
-    "iran": 7,
-    "delta": -4
+    "iran": 10,
+    "delta": -7
   },
   "confidence": {
-    "score": 60.9,
+    "score": 61.7,
     "label": "Medium"
   },
   "event_types": {
-    "other": 62,
-    "attack": 22,
+    "other": 60,
+    "attack": 23,
+    "intercept": 1,
     "diplomatic": 4
   },
   "history": [
@@ -87,18 +88,123 @@
     {
       "date": "2026-10-05",
       "usa": 3,
-      "iran": 5
+      "iran": 4
     },
     {
       "date": "2026-10-06",
       "usa": 0,
-      "iran": 0
+      "iran": 4
     }
   ],
   "latest_events": [
     {
+      "id": "335c42c6214c0a55",
+      "published_at": "2026-10-06T21:38:58+00:00",
+      "title": "Base in UK faced Iran-linked threats to kill US troops and destroy planes, official says - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPb3hVNzEzdW5yQ040eGpTbUtkSEdSV01VWXhFSGFmT0U4NzlEWVVrbkhTY3ZCNmpjWk9vczJwTzgybXI3SFBUYXpkNks2WlUyZ21wcU1zeUhSNjl1Y3htNlNQd1RJRURzcEJaQXZ5S2ZZenNMaEFnOWo0VHZKOWk5TWhWdS1QTEcwLURlUVkzMFNMRHdMUW9uYURMNXl1SHZ2clQwRWgyUzBVdzRmR0hYcW8wa3pydHl1SEpRRU80UU5rR0c3dVl5QnRKcnQ?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "49ec3bc4d9cd6ee1",
+      "published_at": "2026-10-06T21:26:33+00:00",
+      "title": "Iran-US war latest: Saudi Arabia says Houthis have struck two airports as rebels lose ground around key strait - The Independent",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM1lTSHVxZ2R4RFRJUllfYUtqa3hYRHdndVM0N0d4S1VFN3RzVFhPWFlpaXFnNzBMRXZLZHRYX2VoWW9wMHdWdi1TYVpnbnFYekVTZXNHT2wwY21qVDV1cVFTMWp4Wll3Sk80Mkx5VTRtUE5Fb1pmQW9IOWpDNlBxYlpmMFlQUHhwVXRVMnhDYjZuS3NsV2xuNHJjWWVrZ25LdDhOTXY2cVJBLVZnM3J2TW1TM0YzZw?oc=5",
+      "source_name": "The Independent",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6aeb7f2c533bdc3a",
+      "published_at": "2026-10-06T21:21:57+00:00",
+      "title": "How to Avoid Disaster in the Next Iran War - Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUlRHTXZCS0t0bGFieG0za016SUVpTDhHb2plcE9YYzRBZ3ZnUXZFTGhtNjQtV1FFV0plVGVBSnAybHR4SThiVTctWjlLRWtNcHZ0c01HRzllLVBPTXF6RDBKc1ZxRC1xQjNfYTd1MjdnV1paTmduemktS3hVOVFDcHZfVHpGZFQyRjhRcF9n?oc=5",
+      "source_name": "Foreign Policy",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c947688a4a55b4c1",
+      "published_at": "2026-10-06T21:11:04+00:00",
+      "title": "Fact check: Where U.S. Senate candidates in Texas stand on Iran war - Fort Worth Star-Telegram",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNQWYwTlB6Z2xESVlEa2tkOGNrVmhBMmR0NEFPQUY0dHF6NkFpa0RJWGNiM1I5QlF3azZrbERKVjZ0YjJsWWJvN0l4TUdabll5c1l1ZVZOczBWZ3luMExmVjI4NVpUTkJveVlUNUJwQVh5VmxLRm9WaUEyaUhfWUtCbjFkcmpGSTJVenZnM1RhVnA0Ry1wYVHSAZYBQVVfeXFMTWRuU0xndWhOLWlXd0J3X3p0Qm1XeXlsRm0xNVpkbWhPNFgxZXZtZk8zeTc3UzV6U2M3bVZDVW1UZng2MTE5UEZQb3lFd2NBaWVfQUlTOXI1ZS00eFNQY29IaXRVRGlVYWNkLXF1M212ZkNhRWVEcVgzTGNfTVVrT3hMRW9iRVZSaXJPRXJLSGp5ZVpNaXVB?oc=5",
+      "source_name": "Fort Worth Star-Telegram",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a512ac48dadcaf39",
+      "published_at": "2026-10-06T20:58:00+00:00",
+      "title": "Trump suggests Iran could \u2018take out\u2019 Los Angeles or San Diego - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMk1uU3luOVlwcW5fN3VQd0h6dXExY3VOY0ZJRXNRZEs3d3E1azRvY0N3cVBJbmtsM05wQ0xSRE50WWRCeXh4T0RLTFNRbmlGSGQwSURUQVlGNktPSC1VcVRjSHdBVm1HZGxEWHNtWnowRDBWV3gxMzlKbXRyRlgyWVhpcE91SGNRLUs0b2FvX3ctUFBJT2piVFBVUU85TW85V0tDRg?oc=5",
+      "source_name": "The Guardian",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5cef5baf17701919",
+      "published_at": "2026-10-06T20:15:31+00:00",
+      "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego - BBC",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93cEtTcmRaQm04RTdROTUtUm80V214eGRjaDlLcGh5d0NLcG9Ud1VnM1Vhc1hpTzV5VDI1ZjQ4ZHZqLVZReGFHX2xFOXVEeTVJWThpVm1HNWRQdkU?oc=5",
+      "source_name": "BBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "d794c8cfea8d2167",
+      "published_at": "2026-10-06T20:12:00+00:00",
+      "title": "Live - Proposals exchanged as Qatar continues Iran-US mediation - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOTk9NY25oVDA1VHhzR0hxT0pvLWs0MkRyZGN4QU5NZjl5RHZRNk13anozbldGMi1HcGlvclRQWktscHRETDIyd0luOTBhN3N6aVViYnRRU0YwWHlSQnc?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "13542efe267be519",
-      "published_at": "2026-10-06T15:02:00+00:00",
+      "published_at": "2026-10-06T19:50:00+00:00",
       "title": "Live Updates: Iran-backed Houthis deny losing ground in Yemen as oil prices ease despite fierce fighting - CBS News",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQczhsWnBDYVFqOGRhcWt5dS1WUy01WWZyWjV0UEIxVTZwUVV0RlBlcnpwbnhhRHVEZG83dE5HS05LWUxKWWR2MG9oWDVNQzE1aElqVkN3Tzc4Mjl4ZTQtTmNJVXMyTWVESmJ5MEJIZ2RWME13WGszcEhmUENQUmdLdEkxRXJ1TWszcnZiUklfblBaVVQ1RVRWUDRXS3BfQ1BhTlhHSA?oc=5",
       "source_name": "CBS News",
@@ -112,71 +218,11 @@
       "confidence": 0.55
     },
     {
-      "id": "1a5577a142fcd29b",
-      "published_at": "2026-10-06T15:00:00+00:00",
-      "title": "Trump suggests he would let Iran \u2018take out\u2019 Los Angeles or San Diego - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOMk1uU3luOVlwcW5fN3VQd0h6dXExY3VOY0ZJRXNRZEs3d3E1azRvY0N3cVBJbmtsM05wQ0xSRE50WWRCeXh4T0RLTFNRbmlGSGQwSURUQVlGNktPSC1VcVRjSHdBVm1HZGxEWHNtWnowRDBWV3gxMzlKbXRyRlgyWVhpcE91SGNRLUs0b2FvX3ctUFBJT2piVFBVUU85TW85V0tDRg?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4f42ccfa7fc4b9d8",
-      "published_at": "2026-10-06T14:53:38+00:00",
-      "title": "\u2018Let them take out Los Angeles': President Trump defends ongoing war with Iran - NBC Los Angeles",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOWmQ1MmFtRVRVV3FBWXd1bGltbzd3bmVpWG1FZWRuRFYtVkdTVk9CeE1jdHJocVJlSG95RWVFd21lS3J0QjVVc3FBSGlwZVVFa0RXM3VoODJWYkpEeFZZZFpkcU0tQjdpOTFrMnpmQ1YtZ1YtQzdkMzBiRmJXYWpnOFAxeFdBZDZEV2pKM2N1X19POW9acG1wR1E2NmVVd0huQWg0Z1VqTUhzX2pYeDhBTjhnYzA1dmpfeXZ6U3F2WjFna3fSAcsBQVVfeXFMTVpteE80ellNOFhHRnNualZCZUthT20wS1lkaUpRVGxJaFlxXzBuNllBTGpGUGthb1BPa1RLaUd4d3FYclQyNDBtQThKMzhDRjRGSzZLQmp3c25obVQwLVlpV0taS0FRbmtqdDJjbUt1Q2hFMkxBQlFLcVY4bnh0RGVVS3NsZDRCYU5MR2plRURpMjd1UFZYUGxjNkpxNkF6RHk1STFiQ0ZXRTl0SjJZVlBwRGI5WlJBbHF4V3UtcTNPNzFZUjlTZ2gtMGs?oc=5",
-      "source_name": "NBC Los Angeles",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "dc56df1c6fd2df70",
-      "published_at": "2026-10-06T14:49:49+00:00",
-      "title": "What new measures is Iran taking to counter US economic pressure? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZ2ZFQnNmdE8wMGsyUElSa2dwLXdfMU8tcE9CN0tQb1R1NUhidk1PczMxRl9QbFA1U19DUFlyQWw4VUo2YVhGcWxzSzBvMU5TSFdZRjRYMG5LLUxRSThaLWRIaGpXd2lwNldxQWdEUklmNWROdXFZNnpYdG5uYklpdUlDeDRZNFBXNlVlVmwzODhDWTdwcVVjNzNaeldzdlZ4VkhFOG1meGbSAa4BQVVfeXFMTmEtUFg4NEU1UXgyRXRUdHhoSDhEMzhKQkExU0dvaFBBbFprQUNxcDZ6U1h0aUtOZUlMNlliUkswYXNZVWhuZWVfQmhuS0xSaWdsMlJ0M3VIbmR5Qkc5TzZaSFdtWTBVb1BWQUV6RG5QRUwyWGMzM2VOcEQ1QkxDekw1SnJyNmppdjBLOTEzSXRQOHgyWXhQLWRXeGhwdWtBYWwzRXVUYzh0ZUlqbjFR?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "49ec3bc4d9cd6ee1",
-      "published_at": "2026-10-06T14:36:39+00:00",
-      "title": "Iran-US war latest: Saudi Arabia says Houthis have struck two airports as rebels lose ground around key strait - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM1lTSHVxZ2R4RFRJUllfYUtqa3hYRHdndVM0N0d4S1VFN3RzVFhPWFlpaXFnNzBMRXZLZHRYX2VoWW9wMHdWdi1TYVpnbnFYekVTZXNHT2wwY21qVDV1cVFTMWp4Wll3Sk80Mkx5VTRtUE5Fb1pmQW9IOWpDNlBxYlpmMFlQUHhwVXRVMnhDYjZuS3NsV2xuNHJjWWVrZ25LdDhOTXY2cVJBLVZnM3J2TW1TM0YzZw?oc=5",
-      "source_name": "The Independent",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "79a2c4e9d2c053b3",
-      "published_at": "2026-10-06T14:18:18+00:00",
-      "title": "Hormuz ship attacks surge: Are increased oil exports sustainable? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVnFNeVMyVzdON0JXdkZIUGZsOEFHQXVRMEtFMkZwVFl6WU9GbzFJUk9IVGNQZGo4LXpaUmRXT2tVcUI5U2N5TDFaMldvYi1yOXlnT3dGd1Y3T2VDdkdzVldUdE94eEN0Vklua2lmYUNsLWZtZXFNUkZGWlQxQTh0OFJfZlRwc2xVNFlXWTFPOHhrQ2ttcWxveVg3dTFPNE1YeFloVDN0c9IBrAFBVV95cUxQV1owS1kzb2tQZERLRjQ1TTFQOFNNVkxvd0I2VTZnVV9sQXBuLWo0b3Jwel9Sd1UzNzhUbnpKMzJsSmZmaUpsSENvc0VfdU9JZm5YT3JKZ1p1QjZJLUhSOEhrYWZBVnNXRlA0VzZvM1FmeVpGekdNYzE4VEZiT1UyLXZuOWNoRE9QVlJmbWZMemowTWpaYjdJVXFCc2txUG8zMlBEQ21YZkZVRGty?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "dcf97cb6c9436f39",
+      "published_at": "2026-10-06T19:36:07+00:00",
+      "title": "Most families of US troops killed in the Iran war's deadliest attack won't be at White House event - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUzRtZVZkLWx4X1Y0ZGo1MlVoa1g5dFE5aVZDbF9XTC1fcUFjSWJWZmMyMkM2LXJzSUFXVkhOZElGVm1ia3VZd19fOHlTbm9VOGpQQUJGbHE5UXRmc1J0M1B4cDdIdGtYSExXSVpPTFByRmZpam11WGE3T3FRYmx5S1QtbnJYRFl2ZEJEQlRYeUpHblgybUVVZjlONNIBoAFBVV95cUxNcDRPb3lJMEY3Ym84WlFTLVBreVFTc0l6RDNjdHRDejBkektlMXJlRkJWclByWVp3cHk1enlQOFZLQTl4SnJEbjBUcWdZQ2FqYlN2UWJwN0o2U0VBMW1rQThabVV5NlkwNnYxZTRENmw4eHNJbkZsUk9sbkJ1Skt2OThINGZmZ0NvUHAwVjdEZl9kSWJkMW1PNXRqT3RrRWJf?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -187,11 +233,11 @@
       "confidence": 0.7
     },
     {
-      "id": "96b271829af1ea39",
-      "published_at": "2026-10-06T14:15:06+00:00",
-      "title": "White House defends Trump comment to let Iran 'take out' LA and San Diego - bbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE93cEtTcmRaQm04RTdROTUtUm80V214eGRjaDlLcGh5d0NLcG9Ud1VnM1Vhc1hpTzV5VDI1ZjQ4ZHZqLVZReGFHX2xFOXVEeTVJWThpVm1HNWRQdkU?oc=5",
-      "source_name": "bbc.com",
+      "id": "d33c8ffc221088c9",
+      "published_at": "2026-10-06T19:33:58+00:00",
+      "title": "Iran war live: Saudi-led forces down Houthi missile as Yemen fighting rages - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNZDRzOG9HWklVZXk2aFY2eWl0bDZzUnQ4NXBYdUl6UEZnTzFTX2VIeGh4RmNwRTZRcEFZanYzSlZJYUc3WUtCdmppMy05SWNxVGw4cEJLTEJaUEhSTXRmWC12cEFBOThyNUdsblVDNG91TFQ4cjFITHZ1UG5mdDBXYjZDS3JFVGNNRVVNdTJudGJsOHdDNXdoWGdvOGNMLUE0cUY4ZFRPcGRuaDY4dW5vb0lXblFyaDMzalFvTlVySWfSAcYBQVVfeXFMTlVxUkNhY0x3VElxcE42cGFoSnFXcWNhV3dQLXBRbURFbFNSb1RpdTd3Z2pLdGxVUGlZS0lPZDBoY0ZOU0VLb2czaVJOY0F2aGkydW9MczBibFJtdXRJVUxPdlJBQmxkam14VWxDd21PRG42YXpoM1pkbi1GanFOdHJoVFowSWNPOHJWaElDZXphUDFZMnpVU21VUERrMURwWlIwTkczREhwNE9TV3gyUE52YlhpVTgtZ3J4YzJ2UWo0SkZFN3Jn?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -202,10 +248,55 @@
       "confidence": 0.55
     },
     {
-      "id": "faea7f6d8410511f",
-      "published_at": "2026-10-06T14:06:39+00:00",
-      "title": "Californians blast Trump remark that Iran could 'take out' Los Angeles, San Diego - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMTY3RjZOMDVYS2VsdWNRS0ZWR0FoRTU1V1MtQk8wLWdEMmdvTXYwVUxORXFpQXNFM25wbU9uVFFKNnhMSmlYUkFEQ0xhNnNKMk5hTjZURGhtV3piTlhieVVhb3h4N3hCYmtTQUVZZUh5dkhPaERqT0hFWXdPQl8wYVNfemd6VkZqSXVEVHQ0Q2NzWWpQUlVjVUhpdHhDWnZUMWl4RUZKTVplVWp6c3prRDhGZw?oc=5",
+      "id": "1a11d0ba007b22c2",
+      "published_at": "2026-10-06T19:02:00+00:00",
+      "title": "Democratic senator says Pentagon denied him access to US base in Qatar \u2018to hide the costs\u2019 of Iran war - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NVTN3dmlfZDEzVk1yRks3LWs5QmxUa2taUmcxbXRJU0ZRM2FsQWhyb004dlNTQW1OVXhJcHo5dk5YNFlycG84c0tiNm13NlNWS3l4S24wZkdKcGFVdUVVbkhSNXhtanB1Q0c5YUZ6OU5BRTRsemJmMjF5N2VFN3PSAYQBQVVfeXFMTTZyblk1cGFSeEZndTl3elRBeldaWm1yTk0yQWJwcUhId1V5Q1BxdXJHdzFvMFhJbmUtXzZnRmFiT2d6anR3VFJ4S3RmdWZUNEdFaVJsTl9mUFNGMWhJLVZNWnY3ajd4UEMtSUp6cTVBT2RvZUZ6ZnFDZUhIZ0d6ZlhQZjJ6?oc=5",
+      "source_name": "The Hill",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "50eab1e084bd1945",
+      "published_at": "2026-10-06T19:00:15+00:00",
+      "title": "Trump Condemned for Invoking Nuclear Attacks on US Cities to Defend Iran War - Truthout",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdmkxR2NDU09pMm4zQi1jVllzaVJQcDVFYU1sdVN2eWc1X0hjUFZ6UjhQX0RISUU5a08xTVJQZkVXbzJSRnJQUjBqekRPY1VBVndLakJBeF9oSlRpOXZybFVkdXR3YWNaTUpIWkQtcUFGYUNNNmxVTnlpNTlmRG1JZkhsYkRpX3Y5WHBHRXpsZ2RyOUU3S3d5WExHNVVlQlAxU0RtSU40QjBMcjg?oc=5",
+      "source_name": "Truthout",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0ef0ec4256f63899",
+      "published_at": "2026-10-06T19:00:06+00:00",
+      "title": "UN chief urges diplomacy in US-Iran war, restoration of shipping rights - Arab News",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZWlMRXYwN2s0R2JLLTZDbGd0RGdnT2U1ZU5XNnhSMUhvNE52V1R6Sk5Lc0dvd2lDd0Y1SnQtUnl5dkpncmV0RDNjaUVTT012QU13OHpKb2pJYWxqUGFEeWRqT0Y0N20weFpZOUczV0pVZ1c1dDNqS1hUVzZXekxUTHpweDRhTU4wcjljeERhOEgxQUZhTm9hZHlqdEpaSWlTMUdDRnlCZDZ1RkRUNjZ1Ri1aS1RxZw?oc=5",
+      "source_name": "Arab News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c65320fc4fec9f00",
+      "published_at": "2026-10-06T17:39:05+00:00",
+      "title": "US EIA hikes oil price forecasts again as Iran war drains global stockpile - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZk8xUmkwZm83ZUdaTWpWaEVibFZzckNxOVFNOG9OTjlWdzJBdXRqWk5GUUFoME5DWXJmNThNRlIzdVBxUXNfeGd5cTFFNjlVZmg1VkFwVXdONzVLNGh0RVF5S203NlRieWFBNEY3b0dnZlZ3MERxUGlYWTRDaGwzYUJaYWJxWjI1WTlJbDNfMFJ0TVlqSjdFNnl6SVF6UVhmQlhNM2pRUnltSDVMMXNmS21JZkMySWNFVjhtbXVSMUw?oc=5",
       "source_name": "Reuters",
       "event_type": "other",
       "actor": "unknown",
@@ -217,38 +308,23 @@
       "confidence": 0.55
     },
     {
-      "id": "543653c71673bd34",
-      "published_at": "2026-10-06T14:03:45+00:00",
-      "title": "'You buffoons': Trump team defends remarks about Iran 'taking out' LA, San Diego - WCHS",
-      "url": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQRTUwTFl3bE1HY3dpNU1PeEdlX3lRUVZRSU1DcWNVa1lIaFBKbnFVUXVQOWRlejY0bVVTaEdCOTNuY05qTmZNYUdHaHl2WS1XUlNDTjI2TXpraTRhLWt4VFlkakFmd3NPWGNIR2g3WHozSFo1WVhkSkM3RkJsOU5sZExvV0dQOTBEOXZTdjlEOHZJM1hxZk9vTzFmSWkzVHctVjIyV3hlNXhueWYwRDVVQkt2SmNSSkh3cUZpdzJXMUFLbkR6M25oSVlxVi1zbjlialI0TTF6cVZjRk55dUhWSnpOTnl5cjZ0b1c5VDRnVEx6OC1SVFR2eVhOb050SlNuRGhqM1duYWNMbktnUFVEMUtrQWxhX29tdjRzMVlib0M0S0g3Q01yZHN5YjgyWjF3N1VPN2tVZ0dpNmJ5U1RtaURZcmlxOE1SUV81VHJKdVN1WFRKbXNLRUpFWlFSbUk?oc=5",
-      "source_name": "WCHS",
-      "event_type": "other",
+      "id": "7b638b71ac314dd8",
+      "published_at": "2026-10-06T17:25:09+00:00",
+      "title": "The U.S. Military Struggles to Protect Its Bases Amid Failing Iran War - The Intercept",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LVWIyanVfYXhxbk9Ec3RQa3pYeXhqN1RCeE9WTjRVcGFGcVNiLTZaQ181c1VNWm1BZFZDakJWTk14dUU5cTF3ajlfbGxMRlVZYWxjVEdwelhobWxoR1lORk1SZWpyZVVRNVJtSTB5R3p2eHBpUmpGWlRad20?oc=5",
+      "source_name": "The Intercept",
+      "event_type": "intercept",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
-    },
-    {
-      "id": "93a08c3425b73376",
-      "published_at": "2026-10-06T13:57:49+00:00",
-      "title": "In Islamabad, Guterres calls for end to US-Iran conflict - UN News",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9LYVBUSm1sdE5oRFZaY3BUS3Vhbk8ySkFRakwzM2JiMHNEcmJ6czcyeWp4VDJnNjNCUVd5cUZVZzc4VVlxNHNOTGpSWF9JU2NvSHUyaTNsOA?oc=5",
-      "source_name": "UN News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.8
     },
     {
       "id": "80b5e45e8b8c8b29",
-      "published_at": "2026-10-06T13:52:37+00:00",
+      "published_at": "2026-10-06T17:21:57+00:00",
       "title": "Trump sparks criticism with comments on potential Iranian attacks on US cities - Scripps News",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbTVfSnJTVmMwN09KVS1wekVYV2FiTmRicXpGZ3dHbmFSS2dtMXZiQU81WkF6ZGJ5X1BEdkhtbk0xNEZKS3pSaGlCZkFXdFFsTEdiYlBqMVRRT1paR2wzQzVDd3ppMjhibHNMZU0wYjlRaklVZkFWcENnSnVTQUVSM3JFTTVwZ0hsYk5tQWEycC1Xcmo5WS01dk13bEJfMV9tNDhxcFFmcXpyQi1OVmZISW02YUVNdXlzQ2QybWVxQ3Q?oc=5",
       "source_name": "Scripps News",
@@ -262,10 +338,25 @@
       "confidence": 0.7
     },
     {
-      "id": "823eb893b12d3bbe",
-      "published_at": "2026-10-06T13:28:00+00:00",
-      "title": "US-Iran war, Trump policies: Why India should brace for an economic hit despite high GDP growth - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQLXIwNVBsZm5TSXItN3BNaEdFaEFLZ2IzcXBGZkxVVDJTSnJ0cEZUZ0Y5eFFqOG1wcXpCVFQzV00zTXVFbFpXakppNUE2UngxNnN1SlEzRTJpczJpY0R4SmtSTXdHZ1FGbHRKWWZNOUMzdXhjU3FPTW1HQkloTnVhMlVnclkyeVF1QWxsNXgwYU8tNnNkNlB2Sm9fLWR6N1FUd0k5N0k5UlRZRzZSSkZ2Xy1qNFQwX3BtUmZXU3lueEhzdFZhcERqUURRWFpmWGRWTDM2S0dLaThINzZ0T20wQlgxRlpPbWJ3Wk41RlZlQWoxaEszTU02Q1RudWNFekNpZnAxUDJNV3FLREHSAZACQVVfeXFMTXkwbEtMXzVFM1V4WjhzU0J2d1ZJX05rMGhrV2JDbDVEM1J6Uk1tYk9uOU8xOTZTWFpSZFdINUVvZ1o4VUpRYWtqN0xVRUhoM0lGQm44R01SN2tfNWxDS29PdE5IMUtHM3B0Y2hKYjdhSVRHVmk1QjdKUDZMdE1lYmJfVU1zNzlJMFVURmpYYldfdjVNQ2tzcWk4QXlZQ3hFa1hVRGwybHpWYW9DR0pVZDduS2hJZWpVZGR6RDhuTEthYk5aVGQ2MmJYSDhZay1nRGdjSG9EYkhGci1qRkJISzBEVldONHhHanhiR1ZyQUlfZThmQ182ZU9ZOE1EWmxseDkzaE40LXk1aTNtSm0zbkg?oc=5",
+      "id": "faea7f6d8410511f",
+      "published_at": "2026-10-06T17:16:50+00:00",
+      "title": "Californians blast Trump remark that Iran could 'take out' Los Angeles, San Diego - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNMTY3RjZOMDVYS2VsdWNRS0ZWR0FoRTU1V1MtQk8wLWdEMmdvTXYwVUxORXFpQXNFM25wbU9uVFFKNnhMSmlYUkFEQ0xhNnNKMk5hTjZURGhtV3piTlhieVVhb3h4N3hCYmtTQUVZZUh5dkhPaERqT0hFWXdPQl8wYVNfemd6VkZqSXVEVHQ0Q2NzWWpQUlVjVUhpdHhDWnZUMWl4RUZKTVplVWp6c3prRDhGZw?oc=5",
+      "source_name": "Reuters",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9f6941e67260361d",
+      "published_at": "2026-10-06T17:08:41+00:00",
+      "title": "US Iran War Live Updates: Yemen forces recapture Mocha, launch counteroffensive - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQUGsyMXk1ckEwR0tzMVpUQVYzdHpJclNXOHVVNG9Vb24wa29UWl9xcFA1XzNTUkIyR2dNWEE2bEJFeEVzeElBRXUtNjdoZ015Q2tpOHowdi11NGdtTVV2WUhOQXBMbTduQ0ExVndCUS11c1phdTBHcUNCdy1hZHMzRWdvZ29ORGdXTzdKQXBuQktfNUZDWDVuT3R6a2FwYlJiWUpRV2Y4OE03VHFPTmp0eVR2Qnl5NU9fQW03VWc0U2FwZFk5TVRnSVktbXkwMlFhXzF6X0RUbGRRMnBIbkJPZ1Zn0gHnAUFVX3lxTFBIeDNCWWpDM1B0ekNXSlZYbUJnMTRCRWpIaHdJUThjX3p1aUVObk5CRmpTQlZNOTNZOGg2Zk5RYzRsMm1ScFg4aVk0dXNnaGpEWG5ZTGRueGwwQ2s4b0MyTk1TZmNzaEl5UTNNc3h5WFh4SGhvNVIxWU05UzNUMzdFMmxaZWVaQ1RzU0cyWXVKdHNqNExnLVVnQlVfWnJUVS1tVzcyemJuWW9jbVRES2pyTWdGM1dxQWE4NDRQUzNYTHZzQ2RhX3dhRkhWbnlBNUhDdlZySld4dEIxLU9QOGswS0xMdWR4OA?oc=5",
       "source_name": "The Times of India",
       "event_type": "other",
       "actor": "unknown",
@@ -277,116 +368,26 @@
       "confidence": 0.55
     },
     {
-      "id": "61dcdc50e76caf27",
-      "published_at": "2026-10-06T13:20:02+00:00",
-      "title": "Iran conflict risks turning hybrid, and other geopolitical stories to know this month - The World Economic Forum",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNWNiMTFacGRWeDBSWGM0Y3VoLUd1T1l5TzEwajB6dmV4QmRTM1c1Wjg5UVgyb3ZyNE5hVFp0bXExbmV3NUNFNDJvT19jSjFDdlE3cGV0UDIzQnNzMzhsb3hHclVaNENxcHkzaF9YQzhCY0pKU1pkNG9EbEFfaHZwY1JCN2hDeHdVcTBIdFcyN2dGVjBPRGd4QkI4RTJId1JKRzc2YjhrX2s4NWFsczlvTmdqZHQ1OXBxeEtWYWZLMU4?oc=5",
-      "source_name": "The World Economic Forum",
-      "event_type": "other",
-      "actor": "unknown",
+      "id": "64f7bb434190c4e3",
+      "published_at": "2026-10-06T16:50:55+00:00",
+      "title": "Qatar says US, Iran still in talks to end war - Arab News",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRU00S3FKT3p0QS1WLW9xNnA2VU5NZ1Bxb0RZYWp2V2ZRM19WWEVEUE9ZQ3U3dS0wb25rZkgzNkFrVlAyZWF5eGpCSEotWEVKZkFEUEJhcW9uNWJycncwRVFpZjFvSzJLakJjSGpVOVBQQldxbUNZY25xOHBIZE5HTUNlNmt0Rm56emhkTmszQUhHUVU?oc=5",
+      "source_name": "Arab News",
+      "event_type": "diplomatic",
+      "actor": "iran",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "85d7db5fa3fcca8e",
-      "published_at": "2026-10-06T13:09:00+00:00",
-      "title": "\u2018Deranged\u2019 and \u2018dangerous\u2019 Trump calls for Iran to strike US cities amid historic ratings low | First Thing - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcndSWUtaWnNaczcyaWdUbUFRZVNNUWc2aXpRZlF0cVRWbDVwMjJqcWlfbUhJNGtFUGtBNk4wQ0Y5YkJ1SXJpUFJJeXNCUmUxTEQzdzVZQXhIaXRLQVJFWU5qdFFxYTFXbTJiMUVQT19mWmtOME5hOHc5Ykl1Z3V4YWJvbTJMTnRvQURMQ013VUcwUEZpbTducHlfQQ?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
+        "iran": 1
       },
       "confidence": 0.65
     },
     {
-      "id": "409d28504a7865be",
-      "published_at": "2026-10-06T12:54:00+00:00",
-      "title": "UN chief lauds Pakistan's trusted mediatory role in US-Iran conflict - Geo News",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdDRXUVRiM293X1ZybVA1aVhHMlZvZXJWQ2g4YmVkVGRMdG1id3duR2g1YTk1NmkzMnZySDhsSGRDbWp3QUVkcEZHeWlKQnMzMFpGRzlsMUdYSUk0ZTk4N2lzTjJhMjVaTm5BcURBU2xYZ2haQWNOTk1sa3ZvaG9NbUMzSjdZQkhOTWFVTWdRNDF6TWw4MnRYcjNDLUZpMDhkNkE?oc=5",
-      "source_name": "Geo News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "4e881bdb600cec26",
-      "published_at": "2026-10-06T12:16:05+00:00",
-      "title": "UN chief urges US, Iran to return to diplomacy, end war, hails Pakistan\u2019s \u2018pivotal role\u2019 - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRlVrUHlDSEhHM05kMVN6Snh6UV9DYnVxbV9NSGE1QjNud0hCZi0wNFJNZkJZZGpKSkFndFozTDFsdHpYb0I2NEgya3FxV3poSTlVV28wUThiblRCdFFjYS1GZnJnRkdBUzFxRzhldkQ2V2xIX2dWWGFQWksxMkZrMW9wQjRDVzNrd3daeGdCRFgtSHlMNXhfeEN5WFI3d2hTUlhxc3FGUWk3N0o5VUgteFlQV1pxM3pGbWNF?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "70a46a361cea9868",
-      "published_at": "2026-10-06T12:16:05+00:00",
-      "title": "Iran warns US, Israel against new attack, says arms production capacity up 2.5-fold - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOclIyWFBQNy1VSi1wVnBna2pLc09rX3J4aVU1eGRCLVYyV24zQXdsOFVEV3JES2J4dWlPaWIwX09ibGt1cUtpQTJqZWNmT2s3aXpqZG9ZYXNnTTkyNjRBemNmLVV0cTA3ZEdfYzNiVVlvZ1hQU0JsV1hkamJtU2VTbzRMQW14Umg2M3RyTWpjWUFyWXVkNnRQYkRtWlUwbW1xdkFrZ0s1dGhGdmVpbnFLdUNmUkJqYnp6cGVONWVR?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "db35a719ec539b43",
-      "published_at": "2026-10-06T12:04:48+00:00",
-      "title": "Trump says Iran could 'take out' LA, San Diego at 'small price' - KVII",
-      "url": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOWk5kYWw0M2ktS1R4NkFaR29lUlFTRHFuUGxMaU5UY0otT0k5c2lMRXdfNkdQUXlURmpRNDNjZHZwNTdvVlRjMHBnOFIzMUI1dk9SRUFWVkVDdS1ITklhbklOV05pd3RmZ2tIeTM4MnB5ZDBsMmYzVXhXNXZ3MWFkUU42REN1Z1pQVlplcWJvU2U1OF9GRzI0VGhSUF81N0U3amdxMmRWY2dLWS1MeTdDUUFhVmdrbEJ1eGpEbzA4aG5EWXY3SV82eWQxSS02X0t1QTl6SVRsam5zRUFKcS1xSjBTd2VYZjF4b3ktVXdYSTJoc2J0cFdJWUxsa2JISE9GblQ0OVF5cXpEcEVua3JMaEFIaTFGX3NzQnNTUzZKcmVOVm53VVRPMW1mZUtRUmVqNUZhVXRwTkNCLUVmb1lOU2ZzZ2lIV1RGTTItLUZYRVFaaFRJTVFWbEg4VkNLT0xadXFYRm1WWQ?oc=5",
-      "source_name": "KVII",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b68b34836c15c62b",
-      "published_at": "2026-10-06T11:06:49+00:00",
-      "title": "\u2018Deranged\u2019: Trump\u2019s US cities claim - news.com.au",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS3U1OU42OGNSSHpXMV8wa0x0NVBPYkVZbFFiVzd6eVRsVzFUYUVxbU1YTWsyRjNyczZZMVZxYnYxRk9hc0I3b0Q3N29STTM4cFBmcDRXMEtmZEg0aVRKVlhYWVFocnEyQ216dlBqUVRYeDZqVTJQLW01NU9jVjlrdXB2c3ZQZWZLQW1kZk5rU0NjazJaM2FZeGNWVm9OMnR2bnJva2VsRHQ5THBZNnVPeEJTVzc5NDNXWU8wWjU5ZWJhXzFrM0RmNmFlZEJXX2dlbmfSAdcBQVVfeXFMTTdlNVB3OGg2QUpXTVQxTmEzZGlzU051a1JMN0F5Vk1jMTJEM09IejFRNHd5MTdMaVJDU2dESGJYVG9qT182MkRDY0ZPV2VXM3BaSHY4Q3RZekRGOUZWOHc5ME80cTNBejhReEd5V0NLcGlxaG9PRXNvVFVzbE4xUUVBY3ZMVEJ1R3pCaDg1X1NHS2RZZUtTTEY5VGUzOGs5MU02cEFPTUFCRjVmNkZVd3psWmNJRThFbTBGUkVsRDNReDV6eTdGd0dlbG5tODJmTFE4WGdhRFU?oc=5",
-      "source_name": "news.com.au",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "162aadcf9724dafb",
-      "published_at": "2026-10-06T11:00:00+00:00",
-      "title": "The Battle for Hormuz Is Not the War - The Atlantic",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSlVkbGNRc1lxMUtSNVpVaWxoY24yWnRPSy1KNXphZHZHeFZYTFJQZUJZVVpJTzAtQUkzNVpOZ1ZiUzBBRXN1SEh0dU1YNzBLcjNvb0owakswWXV5SGMwZ1ZkMmtzNkNuX2l3UXZmVnpiN21BZ0pLcjllWXd5YV8tSzVjaw?oc=5",
-      "source_name": "The Atlantic",
+      "id": "d952b770e1f5e46b",
+      "published_at": "2026-10-06T16:31:21+00:00",
+      "title": "Iran, US back to \u2018square one\u2019 as diplomacy stalls - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yNjRYcWtoOFpDMk5zclo4YzM4dFdxRlNUc2VQQmpWYjBvU3FqWFcyYzZzbzN6T3ctME04LXZDWkQ2WnJVdUpWRG11bXpvRGdjMGc?oc=5",
+      "source_name": "Iran International",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
