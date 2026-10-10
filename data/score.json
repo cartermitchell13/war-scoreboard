@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-10-09T18:23:42.966797+00:00",
+  "generated_at": "2026-10-10T00:56:51.542622+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 82,
   "totals": {
-    "usa": 21,
-    "iran": 18,
-    "lead": 3,
-    "lead_side": "USA"
+    "usa": 15,
+    "iran": 16,
+    "lead": -1,
+    "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 21,
-    "iran": 18,
-    "delta": 3
+    "usa": 15,
+    "iran": 16,
+    "delta": -1
   },
   "confidence": {
-    "score": 66.5,
+    "score": 65.7,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 49,
-    "other": 30,
-    "diplomatic": 3
+    "other": 34,
+    "attack": 47,
+    "diplomatic": 1
   },
   "history": [
-    {
-      "date": "2026-09-26",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-09-27",
       "usa": 0,
@@ -77,7 +72,7 @@
     {
       "date": "2026-10-06",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-10-07",
@@ -86,19 +81,39 @@
     },
     {
       "date": "2026-10-08",
-      "usa": 15,
-      "iran": 7
+      "usa": 12,
+      "iran": 6
     },
     {
       "date": "2026-10-09",
-      "usa": 6,
+      "usa": 3,
       "iran": 6
+    },
+    {
+      "date": "2026-10-10",
+      "usa": 0,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "d440ae7c31148277",
-      "published_at": "2026-10-09T18:02:41+00:00",
+      "id": "85fa91eae6c74def",
+      "published_at": "2026-10-10T00:31:42+00:00",
+      "title": "Trump offers Iran path to nuclear deal while keeping up military pressure - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVTQ0RFFrNHNGVmJ5R21YTk1oeWQ5cjRLbzZEbVhzcHBYRzhVRjVDU3JJNTJmOG02RlhNVlBia3J4QkF1SW03LThGVFhRX3Y3UHlyWGlnaWhLSjZxR3BFeC05dzY3ZnZGaUxZU24xSndyckxIcExBclBTOGNvS084R2ZQOUVpdGlPTDEzbm55UGYwQkg4SGZsVEsxa2VhNE1RWmxNeWNEbV9EV0I2RFFLSFpn?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "cbe1212d4adca4f4",
+      "published_at": "2026-10-10T00:02:41+00:00",
       "title": "Iran-US war latest: Airline captain among three dead in Houthi attack on international airport - The Independent",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjNwSUxndUZFN0xrSFhmQzFVMkR4c08zc0JsZHU0ZTJ5TzB0aW8wSjRuY2l3YWNJelBydXZleXV3d2o4VWV5ZXFib09YV2Z3bjBrdGNXX1ptSTNVbVlOV2cxTTJtZjhvWXFUdGZVenplem1aeTY1bkFkLVc0Q2lPTjhBQmNhY0VsazkwbmZPRmh0dnBteWFBVk9xSWNhWS1OLVpjZU1jV3N1WDRTRHFrVkFiVVctNlBhbkpHTW5oMA?oc=5",
       "source_name": "The Independent",
@@ -109,11 +124,101 @@
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.7
+    },
+    {
+      "id": "1e8c7b42f6a47e97",
+      "published_at": "2026-10-09T23:57:00+00:00",
+      "title": "Iran war bared a hidden flaw: Shore up US bases \u2014 or risk disaster - New York Post",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUVU0UThBekppa1k3ck9SZTNfa2t4VVhqY3RkeU1Ra1lHWHNiQWowMkhqV2VhYkxyUXF6eFZ2cU1mTG55U3p5dXlLMVpLaVloRTZZSzM2LU1FQm9iSG1DVkdJNWlDSFlYT2tIeloyZ0dWVlVXMEdiSnVqTm42TER4dGxKbjJCYVRqVDBMOV94Q3JFV0VUbmdneFkwMHJMQ0tLMi1WYQ?oc=5",
+      "source_name": "New York Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2b1bc64d7ccba5fa",
+      "published_at": "2026-10-09T23:30:00+00:00",
+      "title": "Iran-linked actors used US AI for fake journalism, military targeting - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1WeFlrRnFhbmNUUU1PYUJIdzU5NUlGMlRrTTVTRG1ZVFJ3WHZ1bHU3UzhiRE9pMWl1dGV2Z01vNHRpNEpiTmprMFQwS3dLbmFGMXc?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "dc5639da296288a5",
+      "published_at": "2026-10-09T23:09:05+00:00",
+      "title": "Tanker hit as Iran expands strikes; Iran-backed Houthis hit Saudi airport - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa1JZekZ6Rl9INjU0dUFQNVRfRjUxcGVXQWRJajFXa0prQjk4VWY0WWpyY1ZVbUdjakxzelBPYldydktOdV9FTnlPSGVXczY2VDVtTWQ0ekcyRko2NHlNVkpQSnV4T2ZCUVVZdlg0bUxaaXpGQ1VYX0NHRUhvdUZYOWhuWUlnUUUtSzVDVFBB0gGTAUFVX3lxTE1EUzBOYXIya3RBQWhGd0xHNkFKMk9QTVNVYnR2OVNqOTdWRUpfbU5wUFVDNHV1MXcyYkhMUmktTjdyVVRiRTlsWEJrc2F3ZzJVbl9YNjl1YkU3VmltSnZiTlRicTYwN0JOcGRhcER3SVZTLVRxTUtJSVN3cEFZZ0VkNDMydS1GRk82OFBNMll1UmVmTQ?oc=5",
+      "source_name": "NewsNation",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
       "confidence": 0.65
     },
     {
+      "id": "6ab372cfcd848e84",
+      "published_at": "2026-10-09T22:03:00+00:00",
+      "title": "Donald Trump reverses stance on Iran strikes ahead of US midterms - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDZmVfaUtfeE93YV9iUkVNZG1zcTFXWXpncG91YzZQX2NwWVV6R2tKU3NfeEE5Z0lFeGZHdHdLWHJwN3VqVENnX1NWTS14Z19QSHhicDhtbVdJZGhxRElJ?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "99656289656b03b6",
+      "published_at": "2026-10-09T21:02:01+00:00",
+      "title": "Iran Protects Capacity to Build Missiles as Trump Pauses Strikes - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZmU2NW82Vk9haFhnenk4S2N1N01ud1BXWm9Ubm5GQXdfT0ZVZk5XTnNoLUtUNjlOZ1l5bVpHbnhBZ3hTVDB5MlJObmhKWi1IVm9IcVNFMGx5V0U1TmxoVEg2OURNVlNRd01ieWhBenEtTHplWlZrRDVxbnRfb3FYbjhuMHAwM19JTFdZY2dJZzdkNGpMbVFoTHhCUF96OWhxRDI1T3RyYWlzb2p5S1RmcWVsZGdsQQ?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "5db3f58a395e80d7",
+      "published_at": "2026-10-09T20:51:00+00:00",
+      "title": "U.S. Stocks Rise as Iran Escalation Fears Subside - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNUEk1S05kM2xybmFka25kR0pBbkNJeE8zUXJXSkt6eFJocUU3eUg2a1BjcGE4RnI2WEc2ZmFvQjNmTjlNc1BTeFNMZE90RnRjazNfQVdhU1I4ZTRFLTNwdUdnUDJxdEc5OVdxdGFnM3VReTgtY2NYLVByZ01GRkpuR3B1QW9lOHIyUVZqeDV4dW82LWRtT0Jj?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
       "id": "052e7f8379adf5f5",
-      "published_at": "2026-10-09T17:53:00+00:00",
+      "published_at": "2026-10-09T20:05:00+00:00",
       "title": "Live Updates: Iran's Houthi allies kill 3 in strike on Saudi airport as Trump rules out pre-midterms strikes - CBS News",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQkRLWlFxeDRfeGxUcGJ6dTM2X3l2cldSWlB4MDJIN3lpWXlRUE1sdE8tbHhtQzY5Ul9WRzJ0bk4taEVCOF9JVGkwN2d4S0xIQmJHbmlFZFlDZ3VDdXk1U3B6bHE4SExtTWZIcURVWkFmaXdNZ1QtdWdoNVR3Z2FBOHNxVmFwQTY2TXpUOWlja3hvdXdLekhv?oc=5",
       "source_name": "CBS News",
@@ -127,8 +232,53 @@
       "confidence": 0.65
     },
     {
+      "id": "d7209d3c875035df",
+      "published_at": "2026-10-09T19:33:00+00:00",
+      "title": "Oil Prices Steady After Trump Appears to Rule Out Iran Strikes Before Midterms - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPenNnUDYybWpPV1NGRGZCVnRjbGxHNEZVRnBobXR4YUlfZ3FuVDFrZF95enJwZUF1cm1vZEFCYkFLVmxTU2RwRzg1dGQyWVE2dDE2bks5YkxRNzhlaEt6eUJSVHpJdFlYRVpaMGtmX3l4T2NyUzZiSkhCMnFMWkFETjlZdG9WbVhqMkNqU0NzV0hxSzFKRE0yQWNZOFZxMFJMVF9meW1aa3FsZk9HV0luU0VVZVp0RE0xYXQyTTk1SlFoUW9uMEZ3?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "08cb00e84e8a9c32",
+      "published_at": "2026-10-09T18:03:13+00:00",
+      "title": "Trump rules out Iran strikes before vote; EU weighs Lebanon security mission TV7 Israel News 09 Oct. - TV7 Israel News",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5KclBpd1ZNQTZnWTlJQjAzS0hham1wVEJTcF94SzFvLWVoS1oyd1ZPdjlzNDA5Y2ZZU1o0Sk9PNWhmRklVMER4cm4wcVc4ZVRCcTFyUzg5c0VRXzFuUHI3cGRGemJfUlRmQktQZ3p4eWozdVFYck5R?oc=5",
+      "source_name": "TV7 Israel News",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9097d806e31b7806",
+      "published_at": "2026-10-09T17:59:50+00:00",
+      "title": "Donald Trump claims Iran war will 'end very soon' in White House speech - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16MUM0UzNXT3ItQVdfM283WS1aMm5kZVRmeW93SmdHa1Q4bkprc01YX2xKTWRuRGRMbEMtODRYMUhsaTRMRVFmb0RUQ2RpOW1NcGFMOVREOTVLcDZ5bWNMdFBteExpMVhJdmc?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
       "id": "b8d9dd02be980a22",
-      "published_at": "2026-10-09T16:30:57+00:00",
+      "published_at": "2026-10-09T16:33:30+00:00",
       "title": "As Trump mulls new strikes on Iran, what options does he have? - The New Arab",
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaFo4SVRDdEN3S1lWZXNITEhKQWhFcXNMUXFrVTZsYThuVWdmc0dfWXVINEt0b2RWaEdMcWc5cks3QTQ0TC1YT29VVDZYNXJfR1plUGFVN19nd0ROSlBRd1JDWnAzdWNoR0FsWGZyV2tCZ1hzd3B2UFEtaE11R0pfS0FHbC04UWhsS1A3aU1RSkk?oc=5",
       "source_name": "The New Arab",
@@ -140,21 +290,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "4c941e485b8f577e",
-      "published_at": "2026-10-09T16:27:35+00:00",
-      "title": "'War With Iran May Delay Elections,' IDF Chief Zamir Warns US | LIVE BLOG - i24NEWS",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRmNaYnVDLU1McWJkcS0yeXM5X0hxNmxZR1h3NkplVkxETXhqX0J5b2t0Z01vNTFuclNvQWhDYy1teFFobHFvRU1IazlrMF9nQ3B2VEJiTEYxQ3hkVUZtai1KUUpNR2NwLXhCZ1JGOUFzRVRhenVldURtbnRYcVFORkVYcUFvclYzSE9VRDRQeURDd2JkYWY0cG1pWGo1NXBiSWRlcXo4WFFYNGxob211blNzM3F6Z3phZ28w?oc=5",
-      "source_name": "i24NEWS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     },
     {
       "id": "ac393dc6137d2df0",
@@ -172,56 +307,11 @@
       "confidence": 0.7
     },
     {
-      "id": "6743a6dcbd8b51ca",
-      "published_at": "2026-10-09T14:56:54+00:00",
-      "title": "Houthi strikes on Riyadh airport killed three Saudis as war escalates - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQMEFCQWZhWGJXa25ZeDBOZlE3b3RWQldSSUM5MmRDd1JqdFNvbl83R19nc014ek1YTW1iQlBqbW1paUlManF3UzlNT21BTl81cG5NNGQ5MWhWOWZOMnpQamN6TmxrUFVLVXRCaTl2T0JYclhVc3dvLUpNeG5wY3JSci02OHVtWmRpemp2UExRUGRoTnpyN3lKUGlRQ3FHdS1pZDNvNVM0bWE2djAzNzNvNTg4RVdXVEhw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "dc5639da296288a5",
-      "published_at": "2026-10-09T14:44:08+00:00",
-      "title": "Tanker hit as Iran expands strikes; Iran-backed Houthis hit Saudi airport - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOa1JZekZ6Rl9INjU0dUFQNVRfRjUxcGVXQWRJajFXa0prQjk4VWY0WWpyY1ZVbUdjakxzelBPYldydktOdV9FTnlPSGVXczY2VDVtTWQ0ekcyRko2NHlNVkpQSnV4T2ZCUVVZdlg0bUxaaXpGQ1VYX0NHRUhvdUZYOWhuWUlnUUUtSzVDVFBB0gGTAUFVX3lxTE1EUzBOYXIya3RBQWhGd0xHNkFKMk9QTVNVYnR2OVNqOTdWRUpfbU5wUFVDNHV1MXcyYkhMUmktTjdyVVRiRTlsWEJrc2F3ZzJVbl9YNjl1YkU3VmltSnZiTlRicTYwN0JOcGRhcER3SVZTLVRxTUtJSVN3cEFZZ0VkNDMydS1GRk82OFBNMll1UmVmTQ?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "984f7d6547c1a187",
+      "id": "71ab309e0cbfab5e",
       "published_at": "2026-10-09T13:26:03+00:00",
-      "title": "Iran war live: IRGC hits tanker \u2018illegally\u2019 crossing Hormuz, causes fire - Al Jazeera",
+      "title": "Iran war updates: Saudi-led coalition hits Houthis; Putin, Trump talk Iran - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPT1ZDbTBzS2w5TzZUNTQ2TFhqTnFRd1VoRUZDYnhTWE9VSmZkTDlaMkZXc0xLX18ycl94ZnJnanJ3SnJueXpWOUpIRVZFbklFb0lCdUNDSFY3Rk9rNTJTSE1UYzhYYVNSZDNpeHBUb1Q5QS1OR05NWWdJOXlKcGhTWlRsN2hmTHluRkVYM25VSHNSQzZtSThPWmk4U2ZFOEJzNEtmUEtmcXlPQjRaWktUM295a1RmUWtPOFBXbzB30gHDAUFVX3lxTE85QjZwYndUd1RiczR0WFg2akJ5aVdIdS1sbUMyYUxGTjFyUG1idjhsRmlhb0VNWlIteDROYm1VTkF3MXZPYzZ1cEE1RDFXc3NzWW1DTnliQWVVQWlCUF9BNHFMWHBROUZxdVhNYTdIZkNtbWFROFNtZlFnUy1hdHp4eDQyUmlkVWZ1aVJBbVBIalRWeHM2VHh2bzJKdm9iNjdsdldFa2tvZzBTTHZXYm1ORmhZdUw2WVhxSk9hWEVpSFdHaw?oc=5",
       "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "eb41ed7b5548dc55",
-      "published_at": "2026-10-09T13:07:00+00:00",
-      "title": "Oil Prices Retreat After Trump Appears to Rule out Iran Strikes Before Midterms - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPenNnUDYybWpPV1NGRGZCVnRjbGxHNEZVRnBobXR4YUlfZ3FuVDFrZF95enJwZUF1cm1vZEFCYkFLVmxTU2RwRzg1dGQyWVE2dDE2bks5YkxRNzhlaEt6eUJSVHpJdFlYRVpaMGtmX3l4T2NyUzZiSkhCMnFMWkFETjlZdG9WbVhqMkNqU0NzV0hxSzFKRE0yQWNZOFZxMFJMVF9meW1aa3FsZk9HV0luU0VVZVp0RE0xYXQyTTk1SlFoUW9uMEZ3?oc=5",
-      "source_name": "WSJ",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -277,21 +367,6 @@
       "confidence": 0.55
     },
     {
-      "id": "c14b46718b106653",
-      "published_at": "2026-10-09T12:20:00+00:00",
-      "title": "Iran War Day 224: Trump Says U.S. Won\u2019t Attack Iran Before Midterms - The American Conservative",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOM3R5R1FRSHQtSUJ3VW1KTDR4MHVwVHBnck9WakNIOVZVb0J1ejgyMlUxdDFCWGZPaUM3b29qYjE3SDhTRmNTOHJWVmlsaldtU3VHRUtyTlo0YWlRMmRQQzNPQlRCU3NQc0ItXzg0dDhtWWhpekRNQ3hvTUtRbHlTUmlGOXBxV1pPS0xTNjJUV213V04xam5xYzdWaU9Id0U1NldhZFNNSlc?oc=5",
-      "source_name": "The American Conservative",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
       "id": "56c8ac341b153381",
       "published_at": "2026-10-09T12:16:00+00:00",
       "title": "US military draws up new Iran strike plan as Trump rules out attack before midterms - Saudi Gazette",
@@ -307,86 +382,11 @@
       "confidence": 0.8
     },
     {
-      "id": "b8ade1e5063f6038",
-      "published_at": "2026-10-09T11:53:33+00:00",
-      "title": "Putin offers help to end Iran war while Russia continues its own in Ukraine - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPOFZDRWVFcVlhRXB5OHpOYk1ZMFNDTUxfTmtzRWdIZEpMYXEtQVFPZUhyX2E1akVTTHNiT2tKdVk0THRDRFNWSHY2Zm1MamVJNGlua2VKbVF4OUVXVlFxS2k3UDBQRE1SRVFaZzNTSTFKbVcwa0xWTHkyNDk5SmJVY0EyWDNYQW0xTGtLRVNEVm0wamFibXFYQjJiWHJVSmpjY1g0cTNsdDVqbEQ4WlBBVg?oc=5",
-      "source_name": "Euronews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a83edd07176adf4c",
-      "published_at": "2026-10-09T11:43:37+00:00",
-      "title": "US Iran War Highlights: Scott Bessent says US will keep targeting those enabling Iranian oil sales - The Indian Express",
-      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQNV9NY1NFTmhWaV9DdFBiTnFFMV9jUmdMMmlzSlBDV25qZ19qdXU5N3pyTi1fbnFxMWVzQkVLZTNpZlFTeVg2Y2lMeF9mMnJJZk5HZjV5cFpTeWVvRGV4cFhObllselRRQUxtOE5xcFlyQXc0SUhNaTFIY2s0QVlnb3hZTS1IcnZqY2FXdFBPTjZCVTVyQWo2RWlYc3NDZVpYS0JTcjlPR3ZuZERGYkdLUnJrTHZnN3NxaVNCb2w4b29QUmNobEdyakxLTmxwcUtEcVFlOVJJX3pCWHp1TzRPOUtEZ2o4N01r0gHvAUFVX3lxTE5QMHE0NmVDTXZnc1FTaGhKNUxWMmFpUmd2LTJWdlAzT0dTS0w0MTVMTHA1VGRZeHhjUUhxWW9GX0Q3ZkJRVXZDUlRYcGVhTkhPd1FHOUpDNGRMaEVtRzJSWDE0ODJKc18tZFh2OGl2Z01PSmdNMWNyS21jTXhieHBkUjRQVmloU3ppTEt0TzVVbTlsOHRIU242QlNUaGdfRGdBWU9oTTZ2cGE3UnJyTWtqWTA3NHJBUDRLa2FGaGtSRU9RaGM5WmtqamFKbTFzUGkzeE55WW9aX2hsLUI2UzMzQW03YU80TlZGN3VwelAw?oc=5",
-      "source_name": "The Indian Express",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f059e7953e48ab61",
-      "published_at": "2026-10-09T11:37:04+00:00",
-      "title": "Trump says U.S. won't attack Iran before midterms. And, ICE agent shoots man in NYC - NPR",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQalhmck5wcTF4VERITW41U2xVWTNUX0NEelJ0b2VObGhmQW90cW1RcGx5VnpQMU9rajBwS1dKbUNnOUNPcnQ2ZWdlTE9abVJIV05UZEhDUnNzYzg5WUdjTDVFemxEYkVYcUpVaFRScGpvQmZvY3VOd3lwdl9UMFF5ZEFib21qYTdhNnp4aFpFMkxITEFvQTdJLUcwQUhPUGF4NkNVWkp0SVpKNXJQMlg1NlA1Q2ZVb1MwMnc?oc=5",
-      "source_name": "NPR",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "e7b86043ead194e9",
-      "published_at": "2026-10-09T11:15:00+00:00",
-      "title": "President Trump announces the US will not strike Iran before the November midterm elections - KCRA",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNUlgyYnh4OUhzakM0S3VuOThzekdYWk9MMG5WV2hnaHJ5andSUFNwODk3TF81NHpkVEtPeFZxRk91WlZhT3VScTEtaUFPTlRER1lCaE0tWkdZc3RDZjRGUURHVGRvVjdZc2NjaVpkZnY0UVJYYmg2OU5wSlEwU25nT01nLVRxRjZjbUQ4?oc=5",
-      "source_name": "KCRA",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "368e7d46a40fe31a",
-      "published_at": "2026-10-09T11:05:00+00:00",
-      "title": "First Thing: Hegseth promises execution live stream as Trump appears to \u2018pause\u2019 war on Iran - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNkdoY0U2QnhkeDJQUlo4ZHdJOHRMOGVRcU5PaEhHNXVLVThUSVM4bHdaTGRPRmRWYkR5MjRfOS1WV1RaTWt3M1c5VUtHUTRDeU5EcTA5VjhCMmt3Q0xSdW1iY1k2WFRkdnFuNWUyNXUxRGZSd2RIQk9OeEExMzZxaFluU0NGVVhrajRzZ0h4YWVTdl82aC00eW9MVXlkZmZTeVk2dWthTGNxMGlXZzFMVGFqYjFQc3Z1bnRV?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "9bc5611b8b0a2cd0",
-      "published_at": "2026-10-09T10:43:40+00:00",
-      "title": "Is Trump signalling a return to war with Iran after the midterms? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS2lheENhTTNsdUk1TWdiTURrdmN5NDdSMHNVUFdCdllxZXFKU2lhR3c3dG03a3lJc2ZnQnJMeHJ1TDFrNGR4STJ4eWpuRHowYVVoYTZSRF90ZTl2ZVRuQThVMmMyaEdRSUt3WUZ4MVBYNC11SGVlWXdqa1dadEdNM0R0ckQ2aFpqUVQzd2pmcThjNnQ5SDhuMlRXR0tveGhtRmE2MnNHYlbSAa4BQVVfeXFMUElKblZ0WUdJMFZNMDNLMEhDRlBidFpKY1M3WjItQlJra2pPdGJ3b2dLVlN3WkZSMWFHNzN2MHR0WXoyTkIxRThLdks2M3g4YUx6cTJ5Xzc3X0hYTE9IVEFxTVFSQm5ybjNPeUxlSGx5YXZYRmxUS1pxUGRBXzRFS1BtZXpyVEZ3TlJ5MWZiVWtHWm1ZTVQyajVjcTJmN3o1Ui1CazdzdG0xcTVsSXdn?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "c1da0b399ee51cff",
+      "published_at": "2026-10-09T11:47:46+00:00",
+      "title": "Command decisions: CENTCOM chief Brad Cooper's ups and downs in shaping Trump's war on Iran - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NTlpBZEVNN295eFVxc21MZ3UyMFc1NUVaUEhpX0p0MjBMUlJUblJ6Yk41VVFTMVNrak9VbXB6cVVUV2lKdVM0WHBBRW1uR0pXWXU2X3JfcmpmZ2hqU0ZyU09NV2d5ZEEwYmc?oc=5",
+      "source_name": "The Jerusalem Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
