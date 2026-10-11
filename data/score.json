@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-10-11T05:56:28.484709+00:00",
+  "generated_at": "2026-10-11T13:00:59.565639+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 87,
+  "event_count_window": 84,
   "totals": {
-    "usa": 13,
-    "iran": 15,
-    "lead": -2,
-    "lead_side": "Iran"
+    "usa": 22,
+    "iran": 13,
+    "lead": 9,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 12,
-    "iran": 14,
-    "delta": -2
+    "usa": 22,
+    "iran": 13,
+    "delta": 9
   },
   "confidence": {
-    "score": 65.7,
+    "score": 66.6,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 40,
-    "other": 43,
-    "diplomatic": 4
+    "attack": 44,
+    "other": 38,
+    "material_loss": 1,
+    "diplomatic": 1
   },
   "history": [
     {
@@ -31,7 +32,7 @@
     },
     {
       "date": "2026-09-29",
-      "usa": 1,
+      "usa": 0,
       "iran": 0
     },
     {
@@ -76,7 +77,7 @@
     },
     {
       "date": "2026-10-08",
-      "usa": 3,
+      "usa": 6,
       "iran": 3
     },
     {
@@ -87,21 +88,21 @@
     {
       "date": "2026-10-10",
       "usa": 3,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-10-11",
-      "usa": 0,
+      "usa": 7,
       "iran": 3
     }
   ],
   "latest_events": [
     {
-      "id": "abfd2c3594b67dee",
-      "published_at": "2026-10-11T05:30:28+00:00",
-      "title": "US hits commercial tanker in Gulf of Oman as tensions flare - Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZF9DS1hBWldLa0lJMWU3YkJTdkNKZGpCRlhlSnFPMFlMWmRLWUhZYW1ydmJSUGVvOU9NUTA3YWI5SDFKRy1mZ3ZWemRURF9XZVRhUmhBdXRGMnJSVGFYcmdoNHJHYlpveXl2djJFTmhzWjJ1ZU84VzJZc2Q5enVSdm1QTmU?oc=5",
-      "source_name": "Financial Times",
+      "id": "cc7ba5c8773dfd8f",
+      "published_at": "2026-10-11T11:54:18+00:00",
+      "title": "Oil Prices Steady After Trump Appears to Rule Out Iran Strikes Before Midterms - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPenNnUDYybWpPV1NGRGZCVnRjbGxHNEZVRnBobXR4YUlfZ3FuVDFrZF95enJwZUF1cm1vZEFCYkFLVmxTU2RwRzg1dGQyWVE2dDE2bks5YkxRNzhlaEt6eUJSVHpJdFlYRVpaMGtmX3l4T2NyUzZiSkhCMnFMWkFETjlZdG9WbVhqMkNqU0NzV0hxSzFKRE0yQWNZOFZxMFJMVF9meW1aa3FsZk9HV0luU0VVZVp0RE0xYXQyTTk1SlFoUW9uMEZ3?oc=5",
+      "source_name": "WSJ",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -112,11 +113,11 @@
       "confidence": 0.65
     },
     {
-      "id": "f106ba544b29d859",
-      "published_at": "2026-10-11T04:42:43+00:00",
-      "title": "Iran-US war latest: Airline captain among three dead in Houthi attack on international airport - The Independent",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYjNwSUxndUZFN0xrSFhmQzFVMkR4c08zc0JsZHU0ZTJ5TzB0aW8wSjRuY2l3YWNJelBydXZleXV3d2o4VWV5ZXFib09YV2Z3bjBrdGNXX1ptSTNVbVlOV2cxTTJtZjhvWXFUdGZVenplem1aeTY1bkFkLVc0Q2lPTjhBQmNhY0VsazkwbmZPRmh0dnBteWFBVk9xSWNhWS1OLVpjZU1jV3N1WDRTRHFrVkFiVVctNlBhbkpHTW5oMA?oc=5",
-      "source_name": "The Independent",
+      "id": "eb084fe63825461f",
+      "published_at": "2026-10-11T11:45:10+00:00",
+      "title": "Trump says he is 'going to look at' joining Saudi Arabia in the fight against Iran-backed Houthis after deadly airport strike - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE51bzM0YzNwbUhGUUpVMHhPQWNZenkwZDdQM3QxdVdpQ2xOYjROVkZpVHU5cko1VDFUMnRVd3o0S3dmZVdlTlZ6cldhZ0RqTEgzREZhSXA3d1hFakpMYnNiaUxja2hyTThCejJOVEhnSFEzcGR3eF9N0gF8QVVfeXFMTVZ4YzZyc1U3S2NyVFBIVXpPZ3BJenI3T1lTZ0tGZ0ozcDZRZGJ0SEM0a21KTDhXdjN3VGxocXEteUlhbnJVRVhTRGlNRkdrb25NaEdfNVFYc0J6ZUN6b2pTUHNYcDdIY3c2T1dTekwxYUJReTlwS2NoSFBZOQ?oc=5",
+      "source_name": "CNBC",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -127,11 +128,176 @@
       "confidence": 0.65
     },
     {
-      "id": "f424fa9786fbf7f6",
-      "published_at": "2026-10-11T04:39:41+00:00",
-      "title": "Live - Trump says Saudis can defend themselves after deadliest attack in 11 years - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FT3dpQlJkSFZUVG9GSmE0OERYLVdfZGdUN25jVzdfV0NDNG5yTGg0ZGs5WmRXb0QxUnJMSGh5Wkx5cU9FWUpvYTIzLUNXZHAxU1VSelFrNG9kQmRYVFE?oc=5",
+      "id": "960d7b8026a4d603",
+      "published_at": "2026-10-11T11:42:56+00:00",
+      "title": "Latest Status of US and Israeli Threats Against Iran - WANA News Agency",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5aaF91UUplQVVHUEVsMHBjdjNjNVhscEhFMUJ1aUNrd21JZVVZQ2liT2xndU5wTzFPLUJ5SER0OXJKTkZtOWJXeW1ZVW9rek5xLW1aSzRiVm9lbE1pcHZEeUZaMU16cnkyUDJBNzRTWDZ6TjBGNXRWUnRsOHE?oc=5",
+      "source_name": "WANA News Agency",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0a463906a4ae8869",
+      "published_at": "2026-10-11T11:00:05+00:00",
+      "title": "Iran war live: 12 killed in Riyadh, Saudi-led coalition vows to respond - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOG4wRG0xOU5UdG45YWVFYzNfSE5xMGJPY3M3bTMwT0NJLWFnSGJpd211eHBTVGNSNXlBekVHZFJIZ3FFLW1pV0RLSlhIdmxRZE1OTHRJNTg1SW1qemxqTTdMZk5zZjdYeE40bTB3Q2t2b2ktWHBXNHc5bGdaZXQ4dDlwY3Axc3dYaDBaMllmUUVvQmxmTFU2SVM0bldoVWZPUkN6bVhPMXNHdDVFeDZSSGFtQjdXdXFFSUNIbklTTnlWd9IBxwFBVV95cUxQTUdPNUxLbldYa1ZvckFxelBsWFBkaEFSN0NITWpqT21xU1V4aU1hdEphWGFqMXdSZ05lWFBqNUdhNjVDdHJUSW1hcjk3QWxTMEk2cWF5S0NlUTZMX3lYSTZJTC1TNUhOdDBwSXprM284RWlmZmJtRHB5T0FQQ1A1d0IxeVhXei1KREozV2dyMTFXMVRzWXRxNGRHMU5wMzZXMFBVLXM3Sy16cE93Z2wydU9sSnpOMkVVZ29uSXFjTnJXSjJGOTFF?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ca389fc3517f9799",
+      "published_at": "2026-10-11T10:59:16+00:00",
+      "title": "US War on Iran, Day 227: 12 Killed In Attack on Airport in Saudi Capital Riyadh - EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQamhtRG1qYXlZbmcteGFRb0g5eDVlc1NnWTNJaTZFVjUxMDV4LWdQbThxODljMTFkUm9KMEhTV2RPalZMY21JV3hCbDNEWG9nblhhWnhCZmN5UktBeUsxTHdpY2xVcmJZQnpQRHlTc0xJdFBuRUxkOXQ4aHRZSlYyTUVmVXVWZw?oc=5",
+      "source_name": "EA WorldView",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "056d9624691ef2b6",
+      "published_at": "2026-10-11T10:09:16+00:00",
+      "title": "US economic campaign targets Iran's political survival, experts say - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE10NjZHZXJNdlc3d2JudGw0OGhVWHVfMHZibWc2V2F5VV9wX3RUUG9jVXBuakNqeVpCclduY1ZvYmljQS1uNW1nQzlYeUd1S194Z2c?oc=5",
       "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "957a42aeefa965ed",
+      "published_at": "2026-10-11T10:09:11+00:00",
+      "title": "Major attack on Saudi airport kills 12 and leads Trump to weigh joining fight - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPd3M5MTVOZmhBYU5OT0RNMHd6dmN0RWgzb2hNRnRaYmRlbFZnQzB3TTVZWUZucDZXekNkSlFxS21TS2JhNUxJSElTNms1Q0hGOGYzUk9vWndFWHVoVlQ2emF1bFhMOWFZOGdGVDQ5Q0NsMHlUa1NIQ2t2SmpNTmcwWkFBSGE2aTRkanoyUF9iWk5xMUxqVGE5bFhmeFl0bFA5cWpV?oc=5",
+      "source_name": "NBC News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "a242513d4bd26e20",
+      "published_at": "2026-10-11T09:17:44+00:00",
+      "title": "Deputy FM Warns of Iran\u2019s Different Response to Fresh Aggression - \u062a\u0633\u0646\u06cc\u0645",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQmhfMzI2QlhMbEUtaERYY1RWUUJYcWNUTFVlMzlyMlRyeWtqOTZtRnQtM2pLaE5iaEhjeTktZktCUkx0OEc3NnBsbjlWaC0tc2sxQXFpZUFETy03SF9GcHBjZGdqRmx0NXd2LXItQUlNSzNfc0x5VUJLd0xhLWZrNGswNzl0dTJwbnlza1MzWWlPc0hPMmREcGxKZUw4VE1aNXBRY2pvazNHRldNZlM4dVhuSW9RLVZT0gG-AUFVX3lxTE1HNXBNWlg1cHdDd3hHTDRCeGVUanlGdHgyZWRnZmxpUHEzN2tpNDZLSHJ6aGJWcWhLMkx5ODdKOW5xZXBYWHBnVzBrY2ZCQzRJc3NVTUxCRENCWnRYSk81czlRSVhaYTVTSkRQOUpMcHBFSDVCVDVVY0NxUF9NWWcwRmlYaUxoYm9PYjYzRkpPckdmODFQUTJoVThQLVpZNVAyT0JNdWNWMHVybzhHazhwNHlmRDZwd3pBZGk0b0E?oc=5",
+      "source_name": "\u062a\u0633\u0646\u06cc\u0645",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "db9b9e3cff0ac892",
+      "published_at": "2026-10-11T08:09:41+00:00",
+      "title": "Trump says no Iran strikes before midterms, but Tehran won't back down as another war approaches - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BSXpJRTd1MjFweHcyVFlyRWJLa2lSSTJTeWQtUXQxRkdSM2NNQ21XWVdqc3d0bmQxcEl2cy1uOHJNVk5rQlBMeUdXejVJdjE0cFgtYWd0UThZdDhMdE1CR3daMFZTbVJlSFZneVV3?oc=5",
+      "source_name": "Ynetnews",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "df0adfd792225651",
+      "published_at": "2026-10-11T07:51:56+00:00",
+      "title": "US bombs cargo vessel in Gulf of Oman \u2018trying to run Iran blockade\u2019 - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUUk2UURLSzN3ZHZva05KbEktc1JBeXZnbHhjWWl5bm9LOGJGRnJ5MzUxSWkzbjVEZFd2YmUyVWc3NGd1czdLMWxkblFLNmpMdXJqWHota21BWEpoQVQxRGRFRzByS2tjaVJyVzMzWjdMY1NudmIwaHZIWFF2QnpDTWNuOWxFeTdBT3BLcWt0bDJtbWhjTlc2dEpoNEdfZlNhUEpPLU5GVE5YVkFIeEp3YVBZeGNVNzhf0gG-AUFVX3lxTE5pRGxvWktjYWdfcVpZbzNQZDlNdUdMdTlrZE9HMldvQVRUV0hfZjIzUHBua2Jydzgxck4zSVZJTnJJbEVHZlhqSzFLTXR1bnRabWsxY0VSQWZfUkRWM0dXa0tLbTdUY0RqSEdOUy1QTjFaaEp6UFVKQkYxM3QzVWRhRHdRek44dExIdURvYWlrOXZHb0VJREI4OWVpSnhJQ1NBaTI1ZlNSNnVCZ05adVpDczEyZm5CRTVJc1YxNGc?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "7472b6194f9cb406",
+      "published_at": "2026-10-11T07:09:00+00:00",
+      "title": "Trump Condemns Deadly Attack On Saudi Airport, Says US 'May' Join Fight - Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+      "source_name": "Radio Free Europe/Radio Liberty",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "50ccb2f73f0cb007",
+      "published_at": "2026-10-11T06:14:35+00:00",
+      "title": "US forces disable ship \u2018attempting to run\u2019 Iran blockade in Gulf of Oman - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNW9FeS0xY0pkWHlqMHYyZnVvVUUxd3RSOG5fdlFrY2pqcmt3T3htTXQxNjk1VHdVX3ZZZ0l2SmZSdE50UzZld3lYNWlDMk5kbnBFcTNPUjVrOXN4R1pNc3VnVkVHcmozZVpUSG9XT2tYWk1OZjI2M1RPU3ZkRHF0M3BkQ0J5dWN5c2NqOEUtWl9UOE0tNFpuZmVDZTRFVHRsTXlLUm9iOTFsbGtoQ0NLSDhR0gG3AUFVX3lxTE5oeXI0NjB5enlxWHA5LVQ1X3l6SU9CV2xzN2Jxa0tNbkVyX0VtZ1FTY21RMFh3M2plMUV4cUpzNC1aVkFYZHVxbGVWNHAwSDRBQ01QRXBnU1dyZFJ1SENOQjNWMmlzTF9tWmpReHdDeWhjOHE2RUdCbHJWamRRa3RCSV8yQkNLNGsxc1NoTU5mRlBlbm5VVnU4aXRYVW44Yzh1QTg4S2F6ZldxODhGMmMyLWk0VUtpSQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "f812302e0d0c8703",
+      "published_at": "2026-10-11T06:12:42+00:00",
+      "title": "US forces strike cargo ship attempting to breach Iran blockade in Gulf of Oman - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVnYyM3VLc3N1YXBETjFQU3dyODNPNnNHRDZJenhWaEJKTkRfNzh0djZOM2xEUERYLWN3VU5OZjlFNC1IaUFGWmdtTVNEdVp2dHgwMU55YkdLQko4dm01eDhHcTJJZjFmUWhtV1hGLWJTc2d5dFh1cElhd0E1SXRRcnE4bUhMNUZzdmtzZ0FVQVlNTDFMRG9pckJ5QXF3NEtKWEZlNzh5Zm9CRzd0VTZJSXRqSmFMU1E?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2da851c27f200349",
+      "published_at": "2026-10-11T05:54:06+00:00",
+      "title": "Trump Forces Netanyahu To Strike Iran Alone? IDF Warns Of Heavy Iranian Missile Response - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQV18zb2Q5VUkzQTVXemV2aW5XdUZtSnVCQThfLTVqTFMwQVUwVW9hbndWOVlxcjdHLVVrRGluQm9XMGVwQVlwVGg3U1d0TENobGpjT2NRWHh1UGFmVDJucEs2a3BLVnZGZ3E5SkduX01VU2l4T3hoNmJ3cVpHT1JNWG5ER3RMMjFtVjF2SVAwcTVFVmNPVWtoaEFxczdVQmI1bjBxVjFsal9pOC1va1lJdy1HNFB3SWQyV0UtcjhCZ3VJM2QwaFV0Z1dYbDVvTHEzazJndUF5ZFM0TzZqVDVnNEpsNFZkWlBBWHlRRWVZdnZLVWJzbXd1am0zLUjSAYICQVVfeXFMT0swSTVxYUhRbHF6S1RWMXpRaG9ibHluY2RsVWtyWEF5cnVhb1N0dlNBN2NIZ2RvR0RnQVJxOXJDTHRtOVVvMTZKUDVyZUhGZG5VXzI2RmpDQjZ1b1gwVklhOEZnLW1TeS03dkFJQl9SY19oSFVTUVJ0S29PQkxpbkNtamRISmpnRXk2YXRpVWI0UGxkTXQ3Skh6cDZNWGhwQ2dJa2ZjSUNRSGYtRDI3S2c5VTlZaTdZWXltTTZrVFN4SUR5SVV0QS1HMy1wUWlDY1pHTDRJWTRJVWRYMV95M28tR0VDVVpVTGVwdjRhd3ItNzh6MjNBT0Q5cktSTzRkakRB?oc=5",
+      "source_name": "The Times of India",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -187,21 +353,6 @@
       "confidence": 0.7
     },
     {
-      "id": "50ccb2f73f0cb007",
-      "published_at": "2026-10-11T03:19:21+00:00",
-      "title": "US forces disable ship \u2018attempting to run\u2019 Iran blockade in Gulf of Oman - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNW9FeS0xY0pkWHlqMHYyZnVvVUUxd3RSOG5fdlFrY2pqcmt3T3htTXQxNjk1VHdVX3ZZZ0l2SmZSdE50UzZld3lYNWlDMk5kbnBFcTNPUjVrOXN4R1pNc3VnVkVHcmozZVpUSG9XT2tYWk1OZjI2M1RPU3ZkRHF0M3BkQ0J5dWN5c2NqOEUtWl9UOE0tNFpuZmVDZTRFVHRsTXlLUm9iOTFsbGtoQ0NLSDhR0gG3AUFVX3lxTE5oeXI0NjB5enlxWHA5LVQ1X3l6SU9CV2xzN2Jxa0tNbkVyX0VtZ1FTY21RMFh3M2plMUV4cUpzNC1aVkFYZHVxbGVWNHAwSDRBQ01QRXBnU1dyZFJ1SENOQjNWMmlzTF9tWmpReHdDeWhjOHE2RUdCbHJWamRRa3RCSV8yQkNLNGsxc1NoTU5mRlBlbm5VVnU4aXRYVW44Yzh1QTg4S2F6ZldxODhGMmMyLWk0VUtpSQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "aec7ff6a960f5a31",
       "published_at": "2026-10-11T01:19:00+00:00",
       "title": "Iran live updates: Iran-backed Houthis blamed for Saudi airport strike that killed 12, including American - ABC News - Breaking News, Latest News and Videos",
@@ -237,156 +388,6 @@
       "title": "Pentagon raises official toll of troops who died during war with Iran to 21 - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPTHZoelUtdHRTbk42U19GLVM4OGV3QlR5SFI4VFJzQzNObUlUS19BR1UyMTE0alVmMFppTzF2NFpNQUdBTUhhTjJFVVlGanQwdUM0UGRSb2p6eWJJenZQbDlScGlFU2FfbWJncUd5ZEUwX1ZsY2N5dW5wRUU4MlctVUpUbWNRdmE0MkFDb0RkcjJYRWdSdm1LWnA0M0lmQkdBTjRDTE9PbkFPc2FhNnpsQ3JVQzZ2Z1FwaE9sRkxHX1hqcU5ENFlz?oc=5",
       "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a4df5f138e7d7ba5",
-      "published_at": "2026-10-11T00:00:03+00:00",
-      "title": "American among 12 dead after Iran-backed Houthis strike Saudi airport - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPalpibTQtRV90NWlPelFiMFY2R0ZKNk11dXhCNVZzVk9aLXhWbXUwN0t5bEtZMnNSRk5OcldHeHNfRlFxVWVDd1lvb0czU2FzNnpNTnB0ZkdaX0EyOG9IVFgxcDNxY1JwSm95UXhaQzhNdEp0dkpxU1Z3WnVQbzhKM2xsNndSS0xtQkFmeDJqYTVaT1lOeC1RNGE0STMxZU1ob1JabDV2M0hLLWpQTWtYSGVkZm9tcnM?oc=5",
-      "source_name": "New York Post",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "854d9375b8d262ef",
-      "published_at": "2026-10-10T23:37:35+00:00",
-      "title": "Iran Update, October 10, 2026 - Institute for the Study of War",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPSVFQZ3Y4RDZJZ3VDcmV3U1JITDZCWGdQNzVKWkd4ZVZfZEZ1akpWTk1yZzZyQVhndFVfTk5rdW1YYTNpZDE0NllNN015TWp2dDI1U0RqTWQxdDI2eU9udHdMZEc0NVlrVTI3QjVaUkRkazVRTTJEY3ROZVZWUHdIb1ZBMjA?oc=5",
-      "source_name": "Institute for the Study of War",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "72b2b4fe7f71eb63",
-      "published_at": "2026-10-10T23:28:00+00:00",
-      "title": "At Least 12 Killed, Hundreds Injured at Saudi Airport in Houthi Strikes - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOY3A1N0dSaEowdHRsQm11d1EzUnJneHRRYWRYa2NWU0ZfeUgwOUNzMHpNN2dVWFJQeVRZRDdYTTJ5YUtwX2YwUEprdWowUW1hYXplbjlsbnBuaTk1RUc3ZnBseDgyMFI2Q09BNllMRXVUWm52RXQ1R3ViSEZpZW1OOWlqenhMSDlPMXY2NWVzOEpHTkctQld3WWJaNVh0M05rdUhTQlBCNGl2SXVqR29UbkVNMm8wR00?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "cd4aed7e777e60d9",
-      "published_at": "2026-10-10T23:14:00+00:00",
-      "title": "Pentagon reveals more troops died during Iran war, raises toll to 21 - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPXzVnNzNzakd6UjBVbFJoQnhPZDRDTEdWMHY1YWJMdGkwZXk4a09CSldIOXZjUmc1OGYzc0N1OTdKVlJEdmF3aWtzdExZekV5SEIxR1pET2NjUFN6am5jZTZRZVludUtKWHFfbnB1bXVNdEVVbXRBbHpTbFBoUmtqeGFNdGJEQ2pnYlFnSHByYXFuLXJURUlLNHZ5cTl6cnVoSHhIUGRnblg?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a837703e55d7881a",
-      "published_at": "2026-10-10T23:11:02+00:00",
-      "title": "Pentagon updates U.S. death toll of Iran war to 21 - upi",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQTzlxUlNNUHRxV1k0TEZxQmNwRGFlTXB5MDJSWGo0RV9uRXdiY3l1cG05aFVienp4YzhRZWtMWE5feV80UFFrLUhpWU1WMUlNd0xUTjJYV0s0WFZVc1dyWXJISktDQ1otR084dVlpVW9pVHN0TVZnVl9QZkdvWUkzQ3VtNlZjdWpqSDladnNXY9IBlAFBVV95cUxQODJaYTVxMjFZaFMxRWZXOFhJUG1vc0hfMVlRVWRTTng1TTZtMUl6aXlSSFRfX2NGSVd1SzNuTTN6Ykg5b1FPZEJxQkVxekhqUm54LWF5TjVUcTNka0ZSVTh1eFBpQmpCdTVCT2lhdEtzaW5zYXFzTmFNYTkzdjJ1MTFPZjdsdWhZRzJreE55QnR1eHhM?oc=5",
-      "source_name": "upi",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e1fc8a703504bc46",
-      "published_at": "2026-10-10T22:44:06+00:00",
-      "title": "Pentagon Again Increases Number of U.S. Casualties in Iran War - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNXl5UlVxZURveWxEVGg4R3dwbXItWHl3WC1EaUYwVTh1MlVIY01Mb08yQ3liamhIYkpTY0ZUMi11dkNNRWZqQUxvRW02Vkt4M0N4YlotT2x3SHcxdUdHQWptazZIUDNXazEySEExMHpDWHM5dGYyS2w3blhqOEJiVGIzZ3BXM28?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "618e3c766bb4068e",
-      "published_at": "2026-10-10T21:59:00+00:00",
-      "title": "Pentagon updates death toll of troops during Iran war to 21 - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZk9jSzRiYTIzdmY4eG9uOFRWc015SktIakJ3M1RiaHZtUnNsU0tqd0xMWmdzTzFZWXJrNXRFTG5TRlpEc2VXT0FneEljVVp6NldUWF9yQXZ3VzBVSmh5VFliUDdaQ2ZhVUN3S0lTbFJaVXNuMWRGc2VZNjJLaXBGSHBVTdIBiAFBVV95cUxPcHVDSjNCb21lZjNlcWRQaTFyVHM3LV9Ra25sLTNQTFhhSXMzVC1reTJnT3libUJENnlkR2hXYlBCY21JU1VKOVN2N0F4UFRzTjNsbzVPdzdQSG1DN3RyVldoY0dVT0t2YTZ5SlB4QTM3em1xVlZxYV8wSkNoeldXWlM3czVodWRE?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a6b1d85124149e4a",
-      "published_at": "2026-10-10T21:22:07+00:00",
-      "title": "Trump Says U.S. May Join Saudi Strikes on Houthis After Riyadh Airport Attacks - Time Magazine",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcGphX1dFR19QNXZWNDE0eGd6WEd2bmRmc2x4dVJUZjIteXJxMFd5SFJWSnJ1T043RXExRmc0bTZhRkZ1V2UtN01JcG0wbDVJa3k1RmNscHEwVmp2X3JFUUtNLUd1VjljdjVqUmxweGQxcDVweExMbTVqb3NLaTYxYnZ4NVBpaXhYbUMtUnAyVnlqTDJrTGRIWUhTSTljc3Rub21IY3JDR05jZDU5by1udFJfMDY?oc=5",
-      "source_name": "Time Magazine",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "279fdce1249aaa6c",
-      "published_at": "2026-10-10T20:25:40+00:00",
-      "title": "Shafaq News..US-Iran war troop death toll rises to 21 - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4xckF3NWdROGNlc1p4LVVOOVNjMGdmV3BjSVFiODB3RmxQd1F2SkZkWktiVUdRbkZSdWpJTDdocDRMX3lkaFBvSVFQTEdwZkw0R3pnckxHNUViamFjNGtfd28tNDAzc3NKLTl5SDhnejNUQkkwMEdF?oc=5",
-      "source_name": "\u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "a4d44a297289e1dc",
-      "published_at": "2026-10-10T20:20:00+00:00",
-      "title": "US military loses 81 aircraft as cost of Iran war balloons to $44 billion - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5GcURnTFU1UkUxeWZ4bkoxQjFrMWlKbVpndE03OFZuY2tiUlllOThpZ0lPVUtTY0pBalZkRnBBVEZhUXVsU0hhRGxYNTYyRWF6WXpFUVUwbFpadXUyNmM4?oc=5",
-      "source_name": "The Jerusalem Post",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
