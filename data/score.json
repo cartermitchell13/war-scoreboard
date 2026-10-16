@@ -1,34 +1,29 @@
 {
-  "generated_at": "2026-10-15T21:29:17.278035+00:00",
+  "generated_at": "2026-10-16T04:39:20.119519+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 79,
   "totals": {
-    "usa": 21,
-    "iran": 5,
-    "lead": 16,
+    "usa": 26,
+    "iran": 4,
+    "lead": 22,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 21,
+    "usa": 26,
     "iran": 4,
-    "delta": 17
+    "delta": 22
   },
   "confidence": {
-    "score": 65.1,
+    "score": 66.6,
     "label": "Medium"
   },
   "event_types": {
-    "other": 38,
-    "attack": 39,
-    "diplomatic": 2
+    "diplomatic": 3,
+    "attack": 44,
+    "other": 32
   },
   "history": [
-    {
-      "date": "2026-10-02",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-10-03",
       "usa": 0,
@@ -37,7 +32,7 @@
     {
       "date": "2026-10-04",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-10-05",
@@ -71,7 +66,7 @@
     },
     {
       "date": "2026-10-11",
-      "usa": 0,
+      "usa": 1,
       "iran": 0
     },
     {
@@ -91,14 +86,154 @@
     },
     {
       "date": "2026-10-15",
-      "usa": 21,
+      "usa": 24,
       "iran": 1
+    },
+    {
+      "date": "2026-10-16",
+      "usa": 1,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "75f28d1e14a772db",
-      "published_at": "2026-10-15T21:23:56+00:00",
+      "id": "4fb78eb57bf75a3a",
+      "published_at": "2026-10-16T03:59:24+00:00",
+      "title": "Former Israeli ambassador to U.S. talks Palestinian statehood, Iran war at UT - The Daily Texan",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZmJXcFpqMnVGMHBZdVg2YlMyUTJHb1Rod1pSeVM2Wmp3NmdrUnlYakpsYnV0NzFUdkgyR3FnRmxISEZBbWFfa0txTVhOakpxNkNfdnRTWms5REdDci1rbDA2V21PQXBxVU1Eb1YzbUUtc2RHZEpvMUVNZVF2YnlwbEdqTnNnUVpOQzVsXzhnVmFNd2c3NVVTaWRMTVZVVXZRcVBsa1JLXzF6TEpOYmloZldxaw?oc=5",
+      "source_name": "The Daily Texan",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "d3d1bf9d486be2ee",
+      "published_at": "2026-10-16T03:23:00+00:00",
+      "title": "US considers using \u201cMother of All Bombs\u201d in Iran strikes - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbDlZWlRFZl9xekh6SmZuNjBld1NJbHNLRG4yRDlXS2dzNVd2eUpUOERyMGpwZlJrREFRYUJxWG1Eb2JLYV9idTVLV0hBWmZnaF9rS3U0d2VrYkQ0dldDc2IzdlhRWTd4dWFLTm5lNXV5blVvVDdsM0pNd1pDSGZObXNaZmFRTXRBYjlDaW5aM05EV2IxRGc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c9bb334e483bc41f",
+      "published_at": "2026-10-16T02:54:18+00:00",
+      "title": "Israel raises alert amid Iran war fears as Trump weighs strikes, Netanyahu wary before election - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSV2RSLTZKYXlsNGEzYmF1YnBmMjQ4U0YwZDl2MHVIdFNnVU91LXpUZ0Y5RmpBcjl4NUhFN3N1am5yUFNDbGk3bFZSSXNpcmIwZG1nOTRn?oc=5",
+      "source_name": "Ynetnews",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d35706e65e836b92",
+      "published_at": "2026-10-16T02:46:00+00:00",
+      "title": "Trump weighs new Iran strikes while insisting talks continue - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPZVEwRVd6QXJuQmVIbXRfMzMyTnFwRGZPRUN6cUwwaEN4WHdIMHBIOUlkY0FXaFlNdTJ1WDVFNVg1Zm9SbXhzNWNwSTF1aHBlU0hlWGhOMjh5NmFjZk04NUdma0I5Zm5xNjFRejBHY1JQU0JsckJQOGlhRXh6MFczZno5aS1JQ1FsNDE0c014RWhsb2h2QUdNcjZkaUc4WVNnSS1yOGNCSm9heldqdTl1bGY2SjJJa1ZWSG9hSG5vWThzTHEtSms2dEFFR2VyM1Y5M3UwVmNqbUtoZHl2LTQyZEgtMmVsMnpRMDBrMEo0OUtMaTc3S0hnRA?oc=5",
+      "source_name": "Middle East Eye",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bca54d6b04e782e5",
+      "published_at": "2026-10-16T01:29:48+00:00",
+      "title": "US Weighs Dropping 'Mother Of All Bombs' On Iran: Report - NDTV",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOaE12ZnhDRk0xVGNubEtRaWxTSHBjNkxyRGdQZUkyS2phOGF4cWxzeExvczJxeHNBS1ZmQW4wb2dRNXVYb0h6TWpEcTRVUGxRT1RlaDRTUTZ0TExHUDlGdlExV2VIa1pVNUZVSFVQNTdtWW5rdTBLV2Y5Q3hvWW51VVRvZ1VDbjNKMVRQSG9paVl0OFJ5YVRPcnpn0gGiAUFVX3lxTE5xRENuRTlNZktxTHlESGtRRE5JbXhoQW5CSkV1TXlwMDdhMUZXcmVrTkdMTDZ6cVBrWUJ6QjltY3diSzM1U25aVnZ6TlBvMGVPSUlZU2NqcVJpVzdDSE16VDdlR3RtRXpCbFhJRXNfZ0Vlbk05OEV2a2FyNVRuaVh1WWx4ZUFwMXJHZlR5bXZYQzdTdHNsYWZqUTRzOEh0NERLZw?oc=5",
+      "source_name": "NDTV",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1e61602ab94c794a",
+      "published_at": "2026-10-16T01:15:04+00:00",
+      "title": "At U.S. House debate, Begich defends the war in Iran while Hill refuses to say which party he\u2019ll caucus with - Anchorage Daily News",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQR1gzTGx2NDdzVE9GR3R1SWhHRDFOWklCTzQycUZWck5abW9PZE42NlVCa1lrNGtoSXNRMmp5SFlzbXhWeTJvblFneHk5NUl3UzFwU0hTOG1FazZIcWwwbFZTZVRTY0RUeHNsdlh5NDJLN2R1emRQYjZ0SzV4ZFpsaTdhazRCX0dnM0RreWNkVF8yVUNqM05faVg2dGE4empNekljdi1FbE1fcGNONUZ4QlVTaEwzSUhVTnFJWWRSaTNaZGNTVUNpNmloTHdPcGdDYUN3ckhra0ZKRWRoMEE?oc=5",
+      "source_name": "Anchorage Daily News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "efbc8c1577e18d5b",
+      "published_at": "2026-10-16T01:02:00+00:00",
+      "title": "US-Iran War Highlights: Trump says those leaking details of US strikes on Iran \u2018should be shot dead\u2019 - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNElnVEU1Y1BkWHY3WlB1QmUxNWlxdzdRN3lBZXMtRXRZWW5MMFdFU2dPbEItdFI3MDhEUExwSHpfTmE0VHNFaXhxWnlDY1ZsLWhmMVc4VTg1anF1LUtfN2VyUHRjM09LWUVfYi1leWpSaUdkbk44RTNZRWpJRDB0MmRHcUFMQzc5VXExSGU3WjM2UzBHVW9RNjctMFhnNUhzWjZHQjByLWhRMlR6aXVGWTRRQy0tQUxMYlF0ZzM1TjhCSWNNLTYtWWp1T0M4Y1gyU2lWYzJIR1dhODZXU2ZGd3B4UGPSAesBQVVfeXFMT2w4MktRakk5WGN1Q1B4OEdjZXBlMzBSa3RDeXAwaHBITGd4TkVLNGxMMHBoZkt0X01YWnV1U0g0ODRzM0hzTkE4RE5xR1Q0S0RwWHhnMmM5ZU9tRUhlYng1c0EwbWxuS1RuWFp2dnhuRFFSNXJYMnFrRFVGSzZtTm82RWhUV1lvZHVtVTZLR3hFa2tsSVlKWjFEM0VZYzRDeFk4QWZ6MFNneGY1RG0yOWpYeTRTd2RreEZEZE5NTGVRTjJBVHJ4NWl5QmhhV3dIMF9HZThGNEEwQUx2LTNfaXlKb1pncHh4Qlg3VQ?oc=5",
+      "source_name": "The Indian Express",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0e3c398ee47610db",
+      "published_at": "2026-10-16T00:55:39+00:00",
+      "title": "Why US is weighing \u2018Mother of all bombs\u2019 strikes against Iran - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQQWliX25LbmxpYjhLUDE1MVE5ZnNZUmFpZXYwbUdIQWdETW82SVlZaURveWJoVnRlRWJ6ZE5sNGhmdFJNeWhlQ0NtVmJWZlFhMzl0S044UXkxWWg5ZDdCR3h5NlVZTUhfQ3ZtZllSNlBUeXhaSkptcnRUWkNIaFRWQ2JNOF8yVDNJdU1vQ1FCeHUyX1pFWXZGYkJfTEQyR1FmR3JsOUxHRGZVM1BHcjFjOGRnWGpvVDVtVDhtc0Rn0gHEAUFVX3lxTE1pblp3WnJBclN6VTZrcUhoOWpxaTBibFk3WHJmSlJEd2xDNmVjLXU0M0h3ZnhMWmtYUl9scmVOb0JHS2hUUnlGelY3T294VG94c21MNFBzQ19SanlhM3lpMGpiQ2lsU2IxbmFxOVdtWmU4SnZJdmNfRWQxVWJyYVh3aUh6cERrY05MajV0bW1jMGhwektVSlZ2VzFmTzV0SHZ3dmhPdGVKUHZMb3pJUHZZLWVXR2RERUZhNTdMcVFNeFAwbUk?oc=5",
+      "source_name": "The Indian Express",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "51d4a8a85995345c",
+      "published_at": "2026-10-16T00:44:01+00:00",
+      "title": "In Alaska campaign rally, Trump and Sullivan say Iran war is worth the cost to Americans - Alaska Beacon",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSEJNdzNpQTVzY2VEWmt5eVBGSDZLRExRb1JSaDE2WXR3UGdZN2JNOGpheHQxVWdfRVFJTU5ISHlqcVhmbEpmdl9hYmFLTHZmekR3c1RzQTlaVVBQQVBHQXNyNXVsdUlPQktyMGZQYXVPLTBGUVFnRWNnWjg3YVBkdHR4dUlmNHhjVHBMM2lVaEpOTFdEWU81RWZxcWg5WFNId1RtNjJnZk9vTjJaMnczS25oWEh2U0FCS2VkRS1jWnpBQQ?oc=5",
+      "source_name": "Alaska Beacon",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8f8c96e78c68208c",
+      "published_at": "2026-10-16T00:43:01+00:00",
       "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBrR0VwYnI5Q2hxVGFJRmJ2ZEJYRkxYMnBJWWh6d0pkQmFHMk9iazVQcnFOdWdHbFJTQUxtaTUyS19CLW1kTGhYVXhYWE1HajVwRHJKN3NaRzFkZjdERlZVQ0tJVFlEd3gwcXRIRGhzd2tMcEhERldhRDRFZzhXLXM?oc=5",
       "source_name": "The Jerusalem Post",
@@ -112,11 +247,56 @@
       "confidence": 0.55
     },
     {
-      "id": "0043db5a6d63b898",
-      "published_at": "2026-10-15T21:06:40+00:00",
-      "title": "Here\u2019s how Husted answered our questions on data centers, Iran war, other issues in U.S. Senate race - Dayton Daily News",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWTZzd1ZDWDFrdEI3aXQzcGh5NGpuRnB2U2lZRDVRODFlMUNrWWZDYVVBcmt3ZWx3c3l0OHZseU40X1owdVpQMWFweUtPTmlQRU9qX3FmZlp3My15cWVKMU5pQVZudEs1U0xuMkFxZXZKZWowOVdsR3Mxb3g2N0sxdDJTSEo1S3RXcExVWTlGaXNIY2pxX3A4eERCeG9USmdYQWpSR2x0dzlPRk1TNmpyc25aYnQ5Q2FXRVZITC0zeE8xaU5WRFpqNUNmUEU4OTEySGZydHhneG1tZ1hqSEp6ckZ5T3NKWlhTNFZ0bjJhVEo4clJOYl9YM1pWU3RnZw?oc=5",
-      "source_name": "Dayton Daily News",
+      "id": "38b435cfbcdc0356",
+      "published_at": "2026-10-16T00:09:00+00:00",
+      "title": "Iran War Updates: Ships in Strait of Hormuz still face \"indiscriminate attacks,\" maritime monitor warns - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "7f7bbba3f17fb5e3",
+      "published_at": "2026-10-15T23:30:14+00:00",
+      "title": "Oil Prices Drop as US President Trump Rules Out Iran Strike - Mexico Business News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOC1wZDdHT2hUVWFTdlo5MUViTWFhS1dValIydVg3V3piVnZVZkhieTlDSmZrVHBiN09TZEZNT3N5Q09HVjl3QkNQQUFKajV0ZEljbmpJUDR3LURUSGdHVkNVLVVsWXdILTVMaGRORXZpTXhBSDBBMWRleXVlbGcyRXNwZ0ZNeXNWMzRPZGlJNm5MMnRfQUxyVjFkaEphaXQ1?oc=5",
+      "source_name": "Mexico Business News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2863112077733443",
+      "published_at": "2026-10-15T23:16:23+00:00",
+      "title": "Saudi diplomat says Iran is encouraging Houthi escalation of attacks on the kingdom - PBS",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNSHdCYjB6dzdtU1BtZlhtakJSSGlELWlVWURncXN0ZnQzRHRuX1N5YmlnRnBoN3lzQWhoWFRFYU9sN0RqTlZVdlJEUFBEQlYtS2Fpam82a0tyVm0wa3ZZZ04teUE0MVU2eEpvNXBCdXBfLThVT3lVZ190TGFicFJ3M3hzejE5UXdoUy0zM21lMVFVWEIydTBNRklpNlZwRlJ4X2FEcHdCcTJYTFdzdDdhUF9CajlKa2NVSnfSAb8BQVVfeXFMT0tBQ1NRMVBfdlh0UzNpd3VHcGZCVXJENWJaRW11dnphV0ZQVVotNmFkMktYUl80azdSemFWNXdneUxJRUFyYjVzVGYxTGFZTDJDdjZrVUFwNzI4QVhHalo2RGhFUUFGLVE0QXJ0dVBhXzR1NHExQXFqVmpPRVpjNUdUUDdYclA2dVlnLXB0UUlpMjJ0V1lXd2drUGVLbU9SeXZqM3RUNHNkWEtaYzBGUWt4SWtVMWItcE5PVEpLNGs?oc=5",
+      "source_name": "PBS",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "94007b6c92588895",
+      "published_at": "2026-10-15T22:58:19+00:00",
+      "title": "Arkansas U.S. Congressional District 2 candidates debate Iran war, gun regulations and housing - KARK",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQTWNVLUZVMDdIbEctTmRwQUZPMVc1dTBQSElySktzWFU5MkVfckNUMHU3MS1oMVlmQnFpRWpadDhxY2ZUVk9rTlRWYVNMU1ZBOTdiZHZTSUpoSWFBRGdzUy1McUJuYkxUTGI3cUV1aHUyWUVocEJNSmZBRFlFZ0UyRnQ1T2NVb2tQVkt6YTdaQlkzNjZXYkxvQndnenlNeGdmaU1DXzFpOE94RlFWUFJtS01PbkJvZFNRYlIyVXNZSG1hS190VlNVNnFhX3lPYW1JYWd4OVhUM0xhdw?oc=5",
+      "source_name": "KARK",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -125,6 +305,21 @@
         "iran": 0
       },
       "confidence": 0.7
+    },
+    {
+      "id": "9a5abc726f8ba2eb",
+      "published_at": "2026-10-15T21:11:46+00:00",
+      "title": "Why the Pentagon Was So Spooked About the B\u20131 Bombers in England - Carnegie Endowment for International Peace",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLTFNeUg1MXB5eU9RMGo4WFdkVDdIX1BDQ2lGU3d3N1NtcHlhY2dQUVR1cnAwMDBFZHQ0V0xkeWFZZEtac00tcGN6c2FYSTB6VDI3TW9ITWJGSWRsclhuRnhRR25LaGZoWmF5VE1qQ1JCbnp5NWlZZmFTQTg0c1FHRHNYdlVBbk5kTUdpaDRSbUFSSU5aYUU1UzlISQ?oc=5",
+      "source_name": "Carnegie Endowment for International Peace",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "e5138c722d97a7c0",
@@ -187,36 +382,6 @@
       "confidence": 0.8
     },
     {
-      "id": "5a9b07b801b08513",
-      "published_at": "2026-10-15T18:55:39+00:00",
-      "title": "US plans for Iran include \u2018mother of all bombs\u2019: CNN report - NewsNation",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTW0tQmJVN1hEbkZTQ1c5MmsycnVtVmVDU1drcGJHV05sZ2VFbFZidG5LVTI5by1WbDRoYVVTRURZbVE3VUNCclJ1SE80ZS1xWGxHVGFIU1FhQnM0cXlTM1pGUmtOZXlvWmJrVUxBRFBfLWRkRzRQb19hZ2laY084cFVB0gGHAUFVX3lxTFBNbWh3LWQ2ZnR1V3dYUW5xeTJrLWJlSWt0T3RVUnlGX1NyX3JfVmtUbHdyZm9vdVRRc0FHbUNXNmc4NkNSWUFXOEpFOXRwU2Q1VzZjaUxpaWdBZ2xDU0tfWlVTRU9OeVdLcGstWVNHaDNfM2ZZSl9iYnVJZnpjSUgxTmFXU0FGTQ?oc=5",
-      "source_name": "NewsNation",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d45e2dbf13c505b3",
-      "published_at": "2026-10-15T18:26:00+00:00",
-      "title": "Iran War Updates: Ships in Strait of Hormuz still face \"indiscriminate attacks,\" maritime monitor warns - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQT1N6LVU4X3R3a3ljSC1KY3BYOGI1bFVCWjA0bnM1WjE2eDRZQW43VVUxMnhFbThpcDdGSUdneU03ZFFjeFFmVWczeDVaelRBeXZGekhFdmNxeWZzUHlHNUpseS0tN09GMWtkSzB2WnJEV3ZnUXhqQnlyMEY3VVl0bA?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "e1cdd0c066567055",
       "published_at": "2026-10-15T18:17:04+00:00",
       "title": "Why Data Centers Have Become Military Targets - Time Magazine",
@@ -230,171 +395,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "9cb4ead26f7712a9",
-      "published_at": "2026-10-15T17:51:00+00:00",
-      "title": "Iran War Day 230: U.S. Considering Use of \u2018Mother of All Bombs\u2019 on Iran, Per Report - The American Conservative",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdllHdEVqNnBPTThDbTdJdFdRQThaQWJoOUpFWkQ4c09oUDYwNkxlMGxYRGpPajA2U0VZSWU1d1RlNDhacG95WWlITGRJb0MteEJtb1ZxWDFkaFVMaWswR0syT0xhQ2RmQVdXYlJVVEtuSFp0ZXg2YW9STmlJUXNvS3lkX3pCTk5UUnJmNkRRX2xkem4xWlJUQXlPMTZnaUtCRTNlUEswY2hFMTIzd1Z3X2hUZFQ0RGlGSHln?oc=5",
-      "source_name": "The American Conservative",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "c0af585e2efa4ed0",
-      "published_at": "2026-10-15T17:42:36+00:00",
-      "title": "How the Houthis are helping Iran turn Saudi Arabia into a pressure point - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGVvZWRvRzA4MGlxRTRTLU95S2ZWTnB2LVZ1ZDBPQTdxbW53SmViQk96X3FpTlVXNEtZaTRvMld4akRJUm9vOU56NjJfSnROV3pCeURHQ3BCcTBYbW1KVVZyLVBaT0VXaE55WGc0WGI5c2RRdC1RaVZiT092ZU9RaTBRdmluamFTQ0JuRWRWNTNYdzhOa1dfNWVBNV9RcVMydFZoaHpFMlJnSHhrckl2cnRyZC0xc0xMcW5Idw?oc=5",
-      "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "b4ac2ebb28d1a499",
-      "published_at": "2026-10-15T16:37:00+00:00",
-      "title": "Joe Rogan thinks Trump supporters feel betrayed by Iran war - USA Today",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOazFfUnQ3aGM1QWljWllub2Y4d0JBYmUwRlpSX2JEeEVHMGlBM3ZKRXNOeFpoV1U4MjhuZEJvRFQwWGRtR0ltT3R6UFhnUTU4YXFScW5pUnlDY0VodDJCZ2NiTHVTTEhRVEYxODVHb3IwLWtudEJuMG9PSFlqWGY4ZTduUFlJTFJ4bW03QlpFbks1OGk1dkw0T21rbzNBaWhEVGc?oc=5",
-      "source_name": "USA Today",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bd1a0e44defac459",
-      "published_at": "2026-10-15T15:51:16+00:00",
-      "title": "What is the \u2018Mother of All Bombs\u2019 US could use in Iran? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQnpfOHpvZ1VIWHJWQTg0bjRuRXRRMnN5UlBGUE9XaFU2S09EV3dRMFJCbHZDd0hEMnRrUUt2UFhvczBlZDctMTgxSDllOHJNbWlRRXhnZjJfV2xucEh4cy03WGY3YlktZXRTRlRzejdNd0RzQVJKeXduSTVXa2ZXVmxWaXBlUmxTaGdhSUtUWDZVNWFJTS0wdGFn0gGfAUFVX3lxTE1jX2dUMEplUm1OaHppTGpOR1BJX0ZidUVwYmt6RGdLLWtMMEJ6RHJ5NTBYd0RXVE5EX0tiUXlTUGVLdl9LYWVuZFktY2hsektwbzh0eU14WVVGcUVfSTdkbXhPR0I4MGUzUmk3N2FuOElxaGxFN1g2cjBBNjJMbXloTnJHazZSRGprVjYtMzFkb2lTUUxXQzNqcTI1c0tqdw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "f6ff930400d4af22",
-      "published_at": "2026-10-15T14:59:31+00:00",
-      "title": "Iran war live: Five killed, 16 wounded in Houthi attack on palace in Aden - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPR1JjYUZQU3NadzAtdmI5NEVMMmZBRk5Sc3pMOXdnQ1RuTElMNk50RGlLWUliVXpIRDBjT0JhRWh5eGppRUROWlRfTUc2MjdZYWFDeTAyUlh3Sk42alRmclZrdHRURzFZcUxCRVY2NEtKalo2QjdxZXZnSTF4X2dwTjhpRW9oU3I1ODRNLU5qQUQxbGRiaFhSckhFUXBvalVrZDVGcy1xUGFVX1cwMnNMUUl3MjdkOTFqYlNsN29SaEMwU2_SAcgBQVVfeXFMTzZvT0ItWnZkbVBON1lHN0VqcXA1ZWhVV25NSTVScThqM0x5bUk4OUN6cXFSN2xuVXljOE8zZGpDOE9EeTA2MmRfWlNCWE5iZGtZaE1BejB0QVh4NGZjZGxkdnhLZUF5RE1vQ0t4c1F1NjlZYk5qOVBOLTJGN2ozYnd2Yk9NQ2dqVmYwTlRXSE1mQTJPcVQycF9USlRBaXg0emFFdDZWUGV0TWdTSkR0UzNVdk9Ka0w2YVVQa3FvUEhoNlU1bVpaa1E?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "c98c68d9575e373b",
-      "published_at": "2026-10-15T14:28:13+00:00",
-      "title": "Trump Weighs Iran Strikes as US Prepares \u2018Mother of All Bombs\u2019 Options for Tehran's Nuclear Sites Before - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQNmctTUpiUlppZ3dHem9TcTVGRFpBOThFSTRQazVlQWR5eklMandJUkVkRXlzUTBlbFZiUmtDaHkyNEpXT0FqMVl6MjRlX0VoRjBZVFdwRDhjYTlzZHNLQ3ZJQWpWZHI4b1pjc0pzUXg5THBjZTcwTlE5UEVhVWYxelZ2WlhneTFRSVZGdWY1VlBWaWx0R1VLWC11OGo1MmdhVUVZd2xUV1ZhRmUwemtTVHV3bXNWTnhGSU5UbHF0akp2MTQ1bVhzZzRRaWhCXzJxdWU3b1VEckMwdlBLeHk2b1dJc084Sk1kdVhiZFFidms3RjNabkJnY3c4QmZLN0YzcVJ4dDFJZmc5SW1R?oc=5",
-      "source_name": "Benzinga",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "a0423e7b3effa74f",
-      "published_at": "2026-10-15T14:19:42+00:00",
-      "title": "Hezbollah told by Iran to raise level of readiness for regional conflict - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBfdFg2M0VaY2xOVnhWN2JIUzM5dnIyWlFPbkxqbUtMSjF0cjA0NkQwdFpOSmlLYnZwelA5eXZBTnpBYy04ZkYtVFhvb1JoazlicEJjZFBTWUM1ckRVZVhHZk1YSzRCY3ptd3c?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "ce9d45074a6a4e2e",
-      "published_at": "2026-10-15T14:16:15+00:00",
-      "title": "Iranian strikes sink two cargo ships on Strait of Hormuz - upi",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRWJQcjNrRWJuQ05vdkJjOUFpUTRIVzhYNEFmUnZpRkpyRnh5dHpad1FlR3pPanRualIzbXB4RG1VYXZWN25RUVd3S3dKcWIyVUkwQzRQbmlmdjliMFg5d0xHN1ZSVFB0QW9QdkMwbDFlN0g1S3ZKcW5vU3Jqa1EzN2JLRnZlem9DWnJZYjNnbE4yMElBRnRnN1Fza2tjbWlRVS11TU1OMUJ1RWR4dXpzQlp0dFA5Z21oTG9xQ2d30gHDAUFVX3lxTFBoeVYzOURaY25GZU1xa0hsUlhpdm9vT2xfdW1IN2xMUERmcDBiV3BRV05WRE9CVkhyMGszVXpkVWdjOTdZM3ozZU12VDRybTBuN3FxWFdVTjBDRmRpWlppaVE3aHFFRkZnTkFmUU9MX1NiTGlBYnd0ZS1uU2lZOW5HVUdLcnlyR01EMVRJTDhBZUl2dTNrMllrYjk0a0pTc0ZqLWlQWldKSjBvcTdNQnZidGZsc0txZHhDRkxPUGdxeE5yVQ?oc=5",
-      "source_name": "upi",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "56ecf4f60d84ccd1",
-      "published_at": "2026-10-15T12:22:10+00:00",
-      "title": "US weighs using 'mother of all bombs' in potential Iran strikes: report - The National Desk",
-      "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxOZ0g3UlpOMnhzYUNtbkhsTE1vQjhOTlFpcGRsdnBGMGx1NXJ4VWFwWTFIQnE0NnFsdDJwNHUtaDZTMDY2YXFsM3JvLXMwTzQ5QVJhWTJSVm9QRVlvWmo4NTctZTdDNDlPSVhXX1UyeHhUUUxQbkh2MzZMN2RDOG1uUjZ5ZXNjSmFYcWRiQS1PWC13Y3ZpOGV4QmpZOURkZjhIdlVWaHNGTUkxd3J5VVJ0T0RhVWNtVUV1Mk9ySDhiZTB4djhWTnY5LTdQRFJXLVVqYlBWNFNvWC1YYXFSY01iandYQ2pOcWNxeFp5STlTSERfNUdlWk9BRWpLWHgwY0d6X1BqbHZWdDVqQ3dKMm1pZFYtREdKOEg4S3hlbjdqbWNTWW5sc013aEF2a043cWd2VmpoQlE0MTF6QVdFTjZYTGxrZDJWQS16REN0d3lYWlFBSkxheHoydTVVVFdKLVN5QlBwUHJ5Q200V2E0OXJXYWFJLUt2d2VTMlZmWG5HMzVCb3Vhc0ZXR2tWNFNQSXFub0liMEdQbXpSeW1XVFgzRmMzc1lWYW1FaTQzYXQ3Uk5sZw?oc=5",
-      "source_name": "The National Desk",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "194ef1e81b40c2e7",
-      "published_at": "2026-10-15T11:46:00+00:00",
-      "title": "U.S. military weighs \u2018mother of all bombs\u2019 for potential Iran strikes - KTSA",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQendDazhzVTNmMlRtNDJuZkdvazI4cjJoUkdJTlVCenc0ZUFnRFY5UmdncVFVYnBxY05nV2xrOFhFcXJkZFZ0aWVwaHNabWhybDlFWDI0a3pka256RHM3X0xiaEJrb3hlNGZWbWtQdURONV9FcERlZm15T21BQV9DbXM1RU5lbFJTS2hDUnVDdHVhQQ?oc=5",
-      "source_name": "KTSA",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "bd9ca591aa09595b",
-      "published_at": "2026-10-15T11:45:06+00:00",
-      "title": "US-Iran stalemate: What are Trump\u2019s next military options? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOemE4b3pxbDZ6dkJpVk1GSWpQMnNSUkZVdzByRTVORTgtbDlaMTRaS2M0QUhOYUVsQWMwV1JON21rVE9NVUZYcl91cWRWYTg0ZElQM3BlVm4wMzhKbVpBTEtHdW9mSmw4eGNNeTBGZzRhR0lNSll1aXpMbEs0V2lZaDJQX3pDa1czNFdPTTdnQ0VHZ3pLbW1nYlhxZy1pQdIBowFBVV95cUxNSkVVT3EwYkdPa1FxbHlnUmh1dmt2WExwbVNaTEtaWmFvUXZwWTVibDB0bzhZTnE3SXRzT2ZIVGlhSWtRalBWQkRHWDRmVkRjWkozTGJyV1JIdFpNZ0d3V19NSWNGTklyNUtzNGFrQWFGWUJhOG5Ib293NVpFSWRZVFd6Z2FWdENySE5Lb2NiaUR4N3NIOTVKVG1UbVpJZGllcWtn?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
