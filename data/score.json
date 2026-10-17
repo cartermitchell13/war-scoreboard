@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-17T15:41:22.114185+00:00",
+  "generated_at": "2026-10-17T20:41:25.798175+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 81,
+  "event_count_window": 83,
   "totals": {
     "usa": 12,
-    "iran": 8,
-    "lead": 4,
+    "iran": 7,
+    "lead": 5,
     "lead_side": "USA"
   },
   "momentum": {
     "usa": 12,
-    "iran": 7,
-    "delta": 5
+    "iran": 6,
+    "delta": 6
   },
   "confidence": {
-    "score": 64.3,
+    "score": 64.2,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 2,
-    "attack": 40,
     "other": 38,
-    "intercept": 1
+    "attack": 42,
+    "intercept": 2,
+    "diplomatic": 1
   },
   "history": [
     {
@@ -93,22 +93,112 @@
     {
       "date": "2026-10-17",
       "usa": 0,
-      "iran": 4
+      "iran": 3
     }
   ],
   "latest_events": [
     {
-      "id": "7e2ae2790d3051c6",
-      "published_at": "2026-10-17T14:37:24+00:00",
-      "title": "Iranian lawmaker says indirect talks with US continuing through Qatar, Oman: Report - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUVhyZUxKajFHd2lQdTg0VW51U21ZUGVnUkFMWnp2RGM3dV9EMVRzb09mN3F3Rm43cXJhVFRWeS0tX2hvd2haNzlndGtsOVZ4QnV3WnpHZ0pMWW5ocnZkLWQ1R1QtUzZzXzBqUVRmM040ZmNaLUYzT20tNlo0YkEwUjA2NW15MDhtOWFaZjZ3eHlDUWFjWjZrY2RoUDJYVlhKcW54YlRSQ1JReUhzVzBMVEJ5V3FoNndQTTNHOHBzUnJrOTUw?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "diplomatic",
-      "actor": "iran",
+      "id": "0e776e8e9490cb5f",
+      "published_at": "2026-10-17T19:27:05+00:00",
+      "title": "US, Israel face threats of war if oil prices keep rising - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsY1JDdGkySENGaDFUSGF4MTdTTlNMeXFSYXhnZWZKdWxjeV9BREF3X0FVY2hCWmlQNl9DRE1ZdktlZWdqMGxQRE15dHZJdEc0c2NJdE1tLTQ5MzJwcEpjUGxkRmNPUE40NkE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 1
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7fc47596c92aafeb",
+      "published_at": "2026-10-17T19:16:19+00:00",
+      "title": "Iran says 'global economy will improve' if US removes forces from the Middle East - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOGlVZ2R6S3J6T1hVRmlEZkNJVWxkcG0zT0Z6OTRrMFJmcnh3RHdfdU9YeWhORGxlckVsdVZIQXlGT0I3T3dyT2UyQlJlSmpfOVN1UVdZQjg4N1pKOW5Kd0I5SWxQVHNVYTZnVXVWOEVIZzludmVYbHI0LXE1N2tFMmZJZmJQS2NkZlhnd0M0dUV5LVJiYUE?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "06bb07c2c9892b3c",
+      "published_at": "2026-10-17T18:46:00+00:00",
+      "title": "Live Updates: Reported attacks on ships in or near Strait of Hormuz reach record high, data shows - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c020a3962458d5db",
+      "published_at": "2026-10-17T17:54:32+00:00",
+      "title": "Russia-Iran relationship demonstrates Kremlin's Middle East strategy - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tdThqQWlqazVqWDZDaFJHdTRKYWpsX1dvR1BaeFdrbFo5S2pNbWlDektkWUZJUzNzTDZWcVdqcC1OdlhYeEZDVTlaMXZDd0JHbThqSFVUQVlnTFZpb2ZF?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "947d4c6d2e5bfa0d",
+      "published_at": "2026-10-17T17:50:44+00:00",
+      "title": "US Iran War News Live Updates: Yemen army claims over 1,400 strikes on Houthis in 24 hours - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcmRMZ1RQcW15aWtBTzc3WG9pX0hac1ZVdTQzWFEtSVozNTA4aVl5eTlIWDEwTTNiemR6Ql9ITUZ3UmlBWWtKaGllNEFlN1FyaGlycS11VC1hcDNIYnZwTHc3aUxIQ0p3cEhlVnF4YjFtQW92dkc1V1VqcGQ2QmZsZzV6QUhldUd5eFpHcDRiN3FmUnFrT2ZOZFhiajF4NGxmMENaOWNsR29xbkJWeW02b2xidEd1eEhza1pfTXVSOGZaRmVlQzZmdmR0UWlnbERRSjN5cWQwZGk3cWdmQWlVYzU4cjc0YkVJLXVsTU1pRUVBaUhTZ2xmYVQ4N0NabThv0gGGAkFVX3lxTFAzbzFzc0o2YTRLcXRkVFdENW84c1BobTdVUkhzNHczZ3FHM0xtUWgtTWdoU1U1VUp0anF0bFppRGxRVE81Z0FhLTNkWE1OV0k2N2pBRExGVkpUWnJBQUhuNVoySmtaWjJPN1EtcTJKdXRyYmNabGFfYlRMRUVHODItdXdKQW05RnZGUXBZRlY5Q1QzRUpnUVpmOGRNdFVqNlc4ZGxLZGdXZ25rdU1nS0VJYl9FZVBFTVBFWTlReTNIWWRvRW5Sa3MxNmFjU3Ryck8ybEV0ZWVWQmJFRDFYLXhtaDZtRmtVTjZFMnFRUHpjVmdZblFMWDM0ekxsanhubXZvdUZjYXc?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "0c089d258e785537",
+      "published_at": "2026-10-17T17:26:32+00:00",
+      "title": "'Mother of all bombs': US potential Iran strike plans include largest non-nuclear weapon - report - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBVeVQzcUFKRzBJWUVWT01RMWZfeUxoajdGd2tsVXhMZVRIV2RwbVotQ0tCT3B3NE1mY1ZibUp4Z3dScmhZa0NjYW01TUtGaTY0SlFNczlRdUMzZnN6MHd5VUZ6TXM1RFhTMkE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "faab45c5127766e0",
+      "published_at": "2026-10-17T15:46:37+00:00",
+      "title": "'Vast majority' of Iran's attempted attacks on Strait of Hormuz are unsuccessful, CENTCOM spokesman says - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVzJMUGhJTXYyZTNmVlBLWFZ1MTJkdGVYLWtDOFFVOEstclJiYzNhV2Y0RjFIdVIxUFNINEZZTzMxZnY4Vm9wSDZtMWdvQ1Rtak9UYVRxOU9DSGtVclgxeTQ1UGVFblU2SDdXcVFTQUlNbElTR1hKUG04N3ZvOXR1OFk3TjhuU2hockpfbjFXUlc5RVdkbWVLREV1NjEwM091WGNoa2pfTnpPb1pfb3gwOGg1bk9ibTl40gG-AUFVX3lxTE1mcFFfVEF4Nzk3aGRPWldUdzRYVE5VZjBldGxnZGdOWHZaazhkXzBKdzBObE1aNWhFQVBUQ2FpeVJ4dmd3QktZQ3FEdk0xRmlsT3JYNE8tLTJIbGhvZnRwdHdCZDZKeC1ubEVSTDNDS2xMZ1JfbzNyTWpuR1hGXy1CSC1qNnpoazFSZmV6NUt6bU1TeG1HWGw0UXZuMDljdjh5RVNGVFZTTUs5TldXR2EtUU91RFRYd3dTcHVKMmc?oc=5",
+      "source_name": "Fox News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
       },
       "confidence": 0.65
     },
@@ -143,26 +233,11 @@
       "confidence": 0.65
     },
     {
-      "id": "e15a11beb3b7a5e5",
-      "published_at": "2026-10-17T12:43:16+00:00",
-      "title": "Iran war live: IRGC warns Hormuz Strait \u2018closed\u2019 as 4 tankers reported hit - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1tVG50UENTRlZCYURUeTlpZjlxZ2w5VVVvRTdMWWdrRGZTYWNBMnRmblNIaGZtYlFvQmxEQjltZUwzZUZKYU9RSHV2SXFLaVpLWlNuQTV6aV85dUtWSV9lNi1rUFc4WTV6NVHSAW9BVV95cUxQalFsSzFzeHphVUVyU1NuanptU0h1QlF3LXc0dmQ2NEhXSDRZd0xwenVTWk5NMkhjZnFYTUJHQWNhT0lMb2RyTkhTX19LQV9paHkzTjRrYkdtQnlOc2QxUWtheXJEU3Q0dkhGZXRreUk?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3c9a287fd9075817",
-      "published_at": "2026-10-17T12:38:57+00:00",
-      "title": "US Iran War News Live Updates: Air India flights to Saudi Arabia cancelled till Oct 24 amid Houthi threat - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQcmRMZ1RQcW15aWtBTzc3WG9pX0hac1ZVdTQzWFEtSVozNTA4aVl5eTlIWDEwTTNiemR6Ql9ITUZ3UmlBWWtKaGllNEFlN1FyaGlycS11VC1hcDNIYnZwTHc3aUxIQ0p3cEhlVnF4YjFtQW92dkc1V1VqcGQ2QmZsZzV6QUhldUd5eFpHcDRiN3FmUnFrT2ZOZFhiajF4NGxmMENaOWNsR29xbkJWeW02b2xidEd1eEhza1pfTXVSOGZaRmVlQzZmdmR0UWlnbERRSjN5cWQwZGk3cWdmQWlVYzU4cjc0YkVJLXVsTU1pRUVBaUhTZ2xmYVQ4N0NabThv0gGGAkFVX3lxTFAzbzFzc0o2YTRLcXRkVFdENW84c1BobTdVUkhzNHczZ3FHM0xtUWgtTWdoU1U1VUp0anF0bFppRGxRVE81Z0FhLTNkWE1OV0k2N2pBRExGVkpUWnJBQUhuNVoySmtaWjJPN1EtcTJKdXRyYmNabGFfYlRMRUVHODItdXdKQW05RnZGUXBZRlY5Q1QzRUpnUVpmOGRNdFVqNlc4ZGxLZGdXZ25rdU1nS0VJYl9FZVBFTVBFWTlReTNIWWRvRW5Sa3MxNmFjU3Ryck8ybEV0ZWVWQmJFRDFYLXhtaDZtRmtVTjZFMnFRUHpjVmdZblFMWDM0ekxsanhubXZvdUZjYXc?oc=5",
-      "source_name": "The Times of India",
+      "id": "0279a179d42c3749",
+      "published_at": "2026-10-17T12:56:01+00:00",
+      "title": "Iran War: Latest News, Live Coverage and Video - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?oc=5",
+      "source_name": "NBC News",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -188,19 +263,19 @@
       "confidence": 0.7
     },
     {
-      "id": "06bb07c2c9892b3c",
-      "published_at": "2026-10-17T10:37:08+00:00",
-      "title": "Live Updates: Reported attacks on ships in or near Strait of Hormuz reach record high, data shows - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM3NTZE9fMEQ3MjZJZW1kbXZ0OE9RUlZTRkpUaTVQYmgtRE9GU3pKdVJmVFhZSUZBM3FrNjF0Q1VPdlU0MGFfZVBsQzhtTWszTWpvOThSNkpnaUJpaDZtUFNmYURteUJGZHdtNlpyVzNmRmJ6WHliZ19vWW1kYTNENE1BX3lUWTFrSHlZZW1uSGVvNWRETURlYXdBcXVyVUdj?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
+      "id": "28a3814edaf920ff",
+      "published_at": "2026-10-17T09:57:00+00:00",
+      "title": "Dems Have an Opportunity to Force an End to the Iran War. Will They Take It? - The Intercept",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdENTVFpnUzk4ZG5IT25CVU9GWkdhUTlLcDVtU0k0b1NGNmhob0RwRXdwaE1JdVVzZzA3WUhLVmQ3TkN5Ylhrc0lTSW95YXpoYlhYT0lWNngzNmEyUnFwZFhxeFNWTzdzM2hXT281WjdBenh2emtKajYyaTNpZzJKSUhTTQ?oc=5",
+      "source_name": "The Intercept",
+      "event_type": "intercept",
       "actor": "unknown",
       "target": "unknown",
       "points": {
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
       "id": "3cb35f8b43614ce9",
@@ -233,11 +308,11 @@
       "confidence": 0.85
     },
     {
-      "id": "959a72800a0ad0e8",
-      "published_at": "2026-10-17T08:46:46+00:00",
-      "title": "America\u2019s \u201cMother of All Bombs\u201d vs. Iran\u2019s \u201cFather of Missiles\u201d: War Closer Than Ever - WANA News Agency",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNX2pXQk5IVERLd3hOQkQ4Q1NhX0NfSDJyYWgzTXlXVnhoLXdvUnkxaG5MbFplYUUwME5jVGdyckJ0cXprYnFGTGE4ejh1OFFLbUN4ellOaWpMNFAzNVEtanJpVmRxOEhkODNudzFaLWNiYmJ3c292TEtMRkZiOUFtX3hncnBVd01HTlpVaVhUbFpSalJqUGs0SjlpMHQwdw?oc=5",
-      "source_name": "WANA News Agency",
+      "id": "ea0c69401724205a",
+      "published_at": "2026-10-17T08:52:24+00:00",
+      "title": "Iran giving Houthis targeting intelligence for Saudi attacks - WSJ - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9JVi1mYUoxZ0daQzVaeUF2bTZMR19mOXVvSFVMRTZkaVg0dC15dG94YW5KSGlPQS1SVm01X29XR1N1MmZYLU5ZcGVqQW0tN0dHUGc?oc=5",
+      "source_name": "Iran International",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -278,21 +353,6 @@
       "confidence": 0.55
     },
     {
-      "id": "7aa96148e97c9f06",
-      "published_at": "2026-10-17T07:39:29+00:00",
-      "title": "Trump Says US Doesn\u2019t Need Nukes in Iran War as \u2018Mother of All Bombs\u2019 Strike Plans Emerge: \u2018We Don\u2019t Have - Benzinga",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZzJUUVlTYnE1NUVTdHB0WC1wQ3V3dERmMTI3LTc2ek5kRzJMTDdLY1hJUVQwYU5odE9vbmhXTjkyYjh2N1JJSW90TnFnVDlsZktsMG5lSXpldHJtMmFFaEdfdXg5cy12bEpUbmJBbDRSaUpZUnZGVW1yTXdldjFMb0lfbGtaS09XTXh0eUtn?oc=5",
-      "source_name": "Benzinga",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
       "id": "4938988e70854ca4",
       "published_at": "2026-10-17T06:56:04+00:00",
       "title": "Iran war votes in Congress become a focal point for campaign ad attacks - ABC News - Breaking News, Latest News and Videos",
@@ -323,26 +383,11 @@
       "confidence": 0.65
     },
     {
-      "id": "5a24d9bbf8a2cad9",
-      "published_at": "2026-10-17T05:00:45+00:00",
-      "title": "How the US-Iran war upended two critical global trade routes - CNN",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWkhLc0FrR3BPSms3TDdwX1QxN2tFaUpMM2t5eHQyWWFyYUxqN3JNUkdfU2hERzltNkZJY09kc0RMVGF5cWNURjlkNndGUmpkMmFINk5za1AxOWZzSklYcHR6d09OYWR3TzM5LXd1bDItb0oxaGYzNmNwUUwwLW5xa18tRW5qYm0tVWQ3aFNteVZMa2pVX0pISEY3OUV4Vi1ZZUxCOA?oc=5",
-      "source_name": "CNN",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "3bc4ae8573775005",
-      "published_at": "2026-10-17T03:24:00+00:00",
-      "title": "Iran broke? $25 billion oil loss, $350 million crypto frozen as militias send money back to IRGC, says US - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNWGtTcG9rWEVsUi1uRTg4SllGa1dXNmZ5bGhoeUgycnJyaWFOUFlzbldmeVpsMUJtc3FoSy1Ta2tIUE5NS2FvQnlCaUFocFhyNGh1QUN5dVVvUkkxNzhkY3V0TktXM0tmVTBvdFNHUEtkay1Pa3Z0YmpQQkJPMXZXeFROTlBUb1cxZ2gzTXE2djhZSVF0LTYtTWxUaC1QY1YzTVRrRVRtWnFDMVF5NHNUOGZudGVTcFZ4NE1mc0YySGwyUFAxRmVsV05yNDFtZEN0RzFfc3l3MzFiZzJuN1J0NTdmbThkMlFrWjZpc2FNaHRSNXJnYkp5cXdOZWh4endEcU1BdjRVX0tSUXVj0gGSAkFVX3lxTE1zWG81MnBSaGNjY2g5MXM4X1loUkJfaERKY25kV2pTNm1kNzRMdFNhUXJtejNuMGg2RndIYklxMTAzUmRiTGkwcVBGNXY0NWY5di1GamcwX25ZSEp0eTZ1dXRwRkpYQWZ2Z1p4cW9aWUZHN1R0Qi15WXhOQlhuWG5xekROVkFFalAtTy1DQUxlWm8yMHVlbExFZlRQOE14RENZUk5fZnNTZzRQWVVpMDRWenhMWUZXWERsNG9oQWx1TjBlRHJSSUh2WW9MNkpZM1FKdnktN3RCR3QyVjZPb3dvamFlNldPVDdWOXFJLVk4ckpDX3VuMENJcG5oZkhrMFc2Sk9NT3ZvNG8ydzZjY0huNEE?oc=5",
-      "source_name": "The Times of India",
+      "id": "df579e223e4e1b73",
+      "published_at": "2026-10-17T06:30:54+00:00",
+      "title": "Iran Says Supertanker Hit Mine In Strait of Hormuz - Radio Free Europe/Radio Liberty",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9OeTc1VE5lcEx0QzNhVlh6TnBVZUhfdi1MR0xZQnJOLWo2U3dHb09ucVhPNXctSTFXNTF6R3EwZEJXSl96SF9zS2FPUWFwcHpHeFVMaGtUckZiaGIydHc1SFMwT3U1R1h5WnMtY2RGUkdtYm1jV2VUMWFB?oc=5",
+      "source_name": "Radio Free Europe/Radio Liberty",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -351,51 +396,6 @@
         "iran": 0
       },
       "confidence": 0.55
-    },
-    {
-      "id": "baca9e6ff771e909",
-      "published_at": "2026-10-17T02:00:00+00:00",
-      "title": "Iran Is Giving Houthis Targeting and Intelligence for Attacks on Saudi Arabia - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPOS1nT1V3ajJHakhMdm5jRDRqQW5PMlU5N1FidUlPemxtZFBFYV9UY0dJdGp2US1qU2NsbGRLazVUd2RsXzc3bWIxa00xcmpEbEY4aG9xcmkzX3g2ZDd2RVdlRGRGV0JUZjZLN0JTU2xybHFKQTlaV19oYUp3a2o5Wjg2Sk9kQQ?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "90ce8c266876a9e6",
-      "published_at": "2026-10-16T23:28:00+00:00",
-      "title": "Trump Calls Iran War a \u2018Military Exercise\u2019 After US Death Toll Climbs - Newsweek",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSnBtQmJhaHBjN05MaGdJZUh5Rmg1UFpFRlpzWXdQOWR3Rk1SdVh4ekFZbDZWU3YtT0FoeXV6cGJQUDdZeXBkYjBCcnFzSU1MN0VtNk1rTWtmOGdXd1UxQ0diQlpRWGoxY0RBTVl4VzR2T0JveFdWRWVYdVZrNzBiaUh2Nkc4YkxuZkdpcXJkV2Q?oc=5",
-      "source_name": "Newsweek",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "c9dd5677a1075600",
-      "published_at": "2026-10-16T22:51:30+00:00",
-      "title": "Shafaq News..US pauses strikes on Iranian missiles in Hormuz, Axios says - \u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcnZHbnk1bzh3NkhsX0NnWHVvZmtDSE91Z1BLVXZsZ3g4Qjc1QXpibXZBYXNSS2t0Zkd4RkREWHd3RjYtVy00VWxkTEZ3Z1FTS0R5djd3TTc3Q29KUE5CckQ3LXlkR0ZBNWFWWEpkU1JueVlZREFCT05FU25RWlJHX1NqOV9YZHZtdkM5VV9zZVdXOEJ3bnFr?oc=5",
-      "source_name": "\u0634\u0641\u0642 \u0646\u064a\u0648\u0632",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
     }
   ]
 }
