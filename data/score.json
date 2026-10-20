@@ -1,35 +1,30 @@
 {
-  "generated_at": "2026-10-19T20:37:00.409437+00:00",
+  "generated_at": "2026-10-20T00:24:40.294542+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 76,
+  "event_count_window": 74,
   "totals": {
-    "usa": 9,
-    "iran": 14,
-    "lead": -5,
+    "usa": 12,
+    "iran": 13,
+    "lead": -1,
     "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 9,
-    "iran": 13,
-    "delta": -4
+    "usa": 12,
+    "iran": 12,
+    "delta": 0
   },
   "confidence": {
-    "score": 63.9,
+    "score": 64.5,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 5,
-    "other": 46,
     "attack": 24,
+    "other": 45,
+    "diplomatic": 4,
     "material_loss": 1
   },
   "history": [
-    {
-      "date": "2026-10-06",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-10-07",
       "usa": 0,
@@ -92,17 +87,67 @@
     },
     {
       "date": "2026-10-19",
-      "usa": 3,
-      "iran": 6
+      "usa": 6,
+      "iran": 5
+    },
+    {
+      "date": "2026-10-20",
+      "usa": 0,
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "d6c31e1b26ece7b7",
-      "published_at": "2026-10-19T20:26:00+00:00",
-      "title": "Live Updates: Russian foreign minister says he's visiting Iran for talks to avert return to \"large-scale war\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQXBXMWdNYVRIU0pDdjdkTnZLOEhXdnE0dW9UYkl6NjVpcDRlWEE0MHoxS2VObkNYSjJsbzJCMkVxNlZaTHplRmV3aEtrMFNueEtRT1RreXNtLVhvNWoxVExlalo5UW9zU0hrQVhOMzBRZjhQMjRFNWN4SVduaTJ5Yi1uNE1sbjlBLThsZnln?oc=5",
-      "source_name": "CBS News",
+      "id": "5c60123a41b9204c",
+      "published_at": "2026-10-20T00:00:53+00:00",
+      "title": "Iran deal remains elusive amid risk of renewed strikes - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1GUk5Rak1sdEZRMHE3Z2NtX3VxaDdNd2wwVHI5Unk3eXNkWVl4NnFPUERoSW9nc1VTRFloNk5TV1RCUUdpRmNIS0UwMHBMTENma1E?oc=5",
+      "source_name": "Iran International",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6b341c3e6bb684c0",
+      "published_at": "2026-10-19T23:10:27+00:00",
+      "title": "Democratic senators demand Pentagon disclose cost of Iran war damage to US military bases - Stars and Stripes",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQQzVBMndIRWEtcEE3YnZLcmR1ZUJYYk10LU9yM2hTSjlrT3RicVlmOXlzaHdKMUtMTy1IY0Zib3pKMG9jakpNLUs2RjhaeWZTMWxyNlRWTHh3cl9vRjd0anFNOHpzYndiSnZUdGhZaXc2ZjJBMm8wMEFyQWhEbms1YUxja1l5UEJkSXRCVlVjM1p5SzMwd0pfZ28tTXRxaFE3Rm5n?oc=5",
+      "source_name": "Stars and Stripes",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d4153c5607a35e6b",
+      "published_at": "2026-10-19T22:58:41+00:00",
+      "title": "Iran war latest: Rubio claims Tehran now exporting no oil through Hormuz - The National",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPbUJCeUxWSldqNFZJOG9qLUNobS1ncGVZenVKZmNXcV9yZW5NMlRhcVlhbWM1NW9rWUVpV0RyM0l3Ujd2aXZaRV9mcTJuaFFLc21pb2hYZ25fU3dNTVNERmM0eVd0cXVwRVFwbk1pdGxWTFE3S2F6WWdFM1JxVENrdDV3?oc=5",
+      "source_name": "The National",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b36614265e9e4723",
+      "published_at": "2026-10-19T22:39:30+00:00",
+      "title": "Iran issues warning to US as Qatar prepares to announce regional defense agreement - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTUFPUFpGU3BuOGJsTXlVcDdTQ3NzNnZLQjdOd0c5ME5Ta3AtVzBwZ1RKRUtDY2QtLW1wMllqY3R1ZzJVSk5wRUxEUE1fZHdrYXNwZFBxTGZ2OWlMYVlRanNtUzNwU1Y4SlpBS2lfbFBqMGR4Y3ZUYWJVUzVhZlhlcFVvdjhLSGs?oc=5",
+      "source_name": "Fox News",
       "event_type": "diplomatic",
       "actor": "iran",
       "target": "unknown",
@@ -111,6 +156,111 @@
         "iran": 1
       },
       "confidence": 0.65
+    },
+    {
+      "id": "ad0b3ebb0de62d69",
+      "published_at": "2026-10-19T22:02:58+00:00",
+      "title": "Beleaguered Macron cites US-Iran war as factor in protests amid Trump, Vance criticism - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQNlltZXNrOFIwbDB6UEdhZzlvSHIzVVNCLVpyR1JLVUp6R0VxX0cxRnVlNjNJOVF4bXEzQUxoX1Roc2tNN2ktS2dra2ZnWDVudDhUQlI5OTFYbDFCUlR0VFZneThrX2xuRHNOUUkyU19hUGRXLXhBOUJLTjJJMkdENG8wOFJRRVdXRHIzWFRaU3FhNTdDX0lnRjRPMmlUcFd4cHJyRHpNNEt0WWNwTXfSAbMBQVVfeXFMTmJNWXJqT25sckkwcWN2Zk0wZUNXMVpubWJTRnZ2Wm5hcjZ5QXE4eXlLNlJ3UEIxaE1wXzJpRnRrYmRhbmo5d2lXeDN6NDdnd2ZfTmdHY1NaM0VtNk5UZjAyeF9oY0FkU0VnTTZ2UV9VWEE1ZTRNcWU4ZkVNTTljcE0tQTRuUktPZU95YWVtNmRMQmRBc1p0cHdFeTA0TXVtR2FJX2l3TGVieDk0YU5RVmxEbTQ?oc=5",
+      "source_name": "Fox News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ac9b33ac742c4355",
+      "published_at": "2026-10-19T21:53:09+00:00",
+      "title": "As Trump Claims Russia is \u2018Doing Very Little\u2019 for Iran, Top Russian Diplomat Lands in Tehran - National Review",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNYnhHbEVzU1lYYVIwN3YzZEFJWGtuOVJCamhIM1ZfX25XQnpNeWRTZkdkUEhHWXZLWm9vaWF5TVZmUGR1dDE2SVh1UDc2NmZjbDdscEpLeEVQbk9jc1Ytd3hCcThaOTJPOW80ZEFqb0xKVGlfOC16Zjk2M08yWDdQckpwY3pIeFkzMk9ZNXpDQ1dNTS1IOVBuU1RteHRkTFpHTkthX3YtakZ5MDE1UzhQYVYwOFR0bnNHVElqTno0NVZJTXhi0gHKAUFVX3lxTE8tci1sWnk3Uklhd2g3SlpYd2dZUGtQVVRieEU4aW9nTWprV2k0WlF5eFMxSzVfTERKanc2aDhDZGx2Q1hvRnJhejJhMGZlNHBLal9sdUl2V2xwTTVySUNlY1VQRkVGNzQ2SkpGbDd6Nk1KcnNRLWpmdmpBVHJVdXJic2Y0bS1fa19pSFNJVWtuY2luOFRIV0RUMFJVQkNIemxIeFVFdTdOTGpKbGRJRWlMREwxVXFlMzUyM20xOUNvSGJ3czVZN0I5T2c?oc=5",
+      "source_name": "National Review",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8966981d78545595",
+      "published_at": "2026-10-19T21:18:36+00:00",
+      "title": "Russia vows continued Iran ties as Trump welcomes limits on support - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JZUVBaEVHVHI4Zy04NUJUUnRhbW5ZdzIxS3Zpd2ZoRWtHMWxEU2laLURVclZwdkVidzJpTDJEaXcyNC1zTktmZUF1WGZybmh1N0E?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bb97dd49b8aa7b22",
+      "published_at": "2026-10-19T21:00:00+00:00",
+      "title": "How the Iran war is ruining Saudi Arabia\u2019s plans - Vox",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNd2I2bWZkUTFFRDVvUHYwU0dLS2otVkN3QUVsV3dOMXVvcm42azIzemxjTExOd0ZxTDdTVGN4NVN1bGRrelk5OVo2Tzc4T3lqTUdtalBGX1ZvQmlMUWNTdjV4WjlsQWNCNE40ejRZQThTWUhiNXBoQnhJVzVtUVBtM2NzcjZnZw?oc=5",
+      "source_name": "Vox",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "1e8bf98c5f29c2b3",
+      "published_at": "2026-10-19T20:59:00+00:00",
+      "title": "US-Iran War Live Updates: Houthis claim attack on several airports and energy sites in Saudi Arabia - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOcHNVOG4yQ0ZDTHcwNEV3emM1S25pTm83WUFHZlgtWHliR0NlZFpwb3IzWnp6LU5KQ2hlSkh5bHkzVW1NdTAyUjFvT2gzM0w0a1loUGhlZnhxdVA4LWE2dmRaMUI5dEVkaTV5azR5MlBSYmU5T3JNVEF6OEZ5Y0dxUzJXSThoVTF0Zk5IdHNtclUwb2cyZXd0NWo2MmhVa1FzRWJod2xzeThhMFBYNVl1MHp4c3czR1dKczQ5YzVqbVZtaVp0aFlhdWgxb0NlV2dtQ1RIMjJqblRSU014ek9hcWxzREVmbUlJeTQ0TFhQSnNpdnYwR1MzXzhQYVRIVmhFSFJQemhUMVNoM0FkSzBqddIBlgJBVV95cUxORzFZelYyWlhzRzFMd3F1Z29hYjdEcFh6SU9LQUVieG9PeUkzejM5SDlPbmhZRzBoT0pPWEFQdWF3eWpoUEUwd0pMLUFWTk5lYm4zajEzcnFRM1pZT3poVTZQdERkY0pEMUxGaW9McmZ1aHVIYnhCblJvZ1J6dFR2SW1OS3VkX3ZiNXlWWEEteXp4cDREUDFUMGZVS1B0UnU1RkVwUGFWQUZpZ2xDcHhiYldndGNfcVhLYUo0MFpOSnowMXVSY1J0SzQwdkFHSWVmN1hDMFR5Ql8wR1g0V25Qakp3ZzNURzNWT1l6ZTZJUjZWN1VrekpOajZmVkVsUVRxVmU5LUo2bkxFZ0RwTDU4eUZ4YVFIQQ?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6cc5a9d1e8944ff0",
+      "published_at": "2026-10-19T20:29:59+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yS0FDd1duN1hYeEFmX2xiNVVIdTN2bXQ5ZW9rYnpjazhyeHRaSGtEMjVDMXF4OFJyRXBwUDIyNFJLdTY0SFRsUTlxbi1qNW83eHB4VFpXVGRmM2lfVUJOY3lpVS1PckxYQ3BIZmNWMmVYOXRJZXozbTQwUC1JRlE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "52c9732a5e57867e",
+      "published_at": "2026-10-19T20:26:00+00:00",
+      "title": "Live Updates: Russian diplomat condemns U.S.-Israel attacks in Tehran visit as Netanyahu tells Trump \"we have a job to finish\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQXBXMWdNYVRIU0pDdjdkTnZLOEhXdnE0dW9UYkl6NjVpcDRlWEE0MHoxS2VObkNYSjJsbzJCMkVxNlZaTHplRmV3aEtrMFNueEtRT1RreXNtLVhvNWoxVExlalo5UW9zU0hrQVhOMzBRZjhQMjRFNWN4SVduaTJ5Yi1uNE1sbjlBLThsZnln?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
     },
     {
       "id": "16149daa59e79822",
@@ -125,7 +275,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.55
+      "confidence": 0.6
     },
     {
       "id": "abc91015f27c8b8e",
@@ -140,37 +290,7 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "b36614265e9e4723",
-      "published_at": "2026-10-19T18:55:02+00:00",
-      "title": "Iran issues warning to US as Qatar prepares to announce regional defense agreement - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTUFPUFpGU3BuOGJsTXlVcDdTQ3NzNnZLQjdOd0c5ME5Ta3AtVzBwZ1RKRUtDY2QtLW1wMllqY3R1ZzJVSk5wRUxEUE1fZHdrYXNwZFBxTGZ2OWlMYVlRanNtUzNwU1Y4SlpBS2lfbFBqMGR4Y3ZUYWJVUzVhZlhlcFVvdjhLSGs?oc=5",
-      "source_name": "Fox News",
-      "event_type": "diplomatic",
-      "actor": "iran",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 1
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "72cb8930aa24ca00",
-      "published_at": "2026-10-19T18:38:15+00:00",
-      "title": "Live - Tehran hosts diplomatic visits with Pakistan\u2019s top general due after Lavrov - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrcnBqMUFFX1cyREwxckpUbVNRS0FRcUhUS2dlMU1xWnZmWXFKR01HbFZqaHBhYTlJRk9Rb2kzN1FrbmNVbTRFVmViNFFtOVBRWkdXQWVXZkpyWEFfcGc?oc=5",
-      "source_name": "Iran International",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
+      "confidence": 0.7
     },
     {
       "id": "22a51aaaa0b5ce7d",
@@ -200,11 +320,11 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.65
     },
     {
       "id": "8186453634e284fc",
-      "published_at": "2026-10-19T17:26:52+00:00",
+      "published_at": "2026-10-19T17:42:59+00:00",
       "title": "Iran\u2019s Imperial Japan Syndrome: How Military Rule Could Jeopardize Its Future - Manara Magazine",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ndnZOZkNYa1o5NjEwaHBTN21YOGk1akdjN0hlUFFLM2RNa2w2ZmJwMDZxdDl6NlJ5OF9QQzNZQlZ3ektTa1BRc0psalBWTWZxTFVHdW1EN3kzLUdGeHdFR1E1MElnVjk1Z0VpV1hUVTFBdw?oc=5",
       "source_name": "Manara Magazine",
@@ -230,52 +350,7 @@
         "usa": 0,
         "iran": 3
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "6cc5a9d1e8944ff0",
-      "published_at": "2026-10-19T17:00:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5LVzV5X3UxenBzemdkR1N4S0h3U09XSjVlOWNNdWN6NlA2dDUtY2Z0X1ZSd1MwTi1VbXF6VjVFSDNBdmwzbHNpSlVJc2gtekI1ZExPTnozR1dxWi1LTHE0RWtDeVo0ZzIxT3FLbkI3SGZhMEJjVFBrOWdlRk5WeDg?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1e8bf98c5f29c2b3",
-      "published_at": "2026-10-19T16:43:24+00:00",
-      "title": "US-Iran War Live Updates: Houthis claim attack on several airports and energy sites in Saudi Arabia - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMikAJBVV95cUxOcHNVOG4yQ0ZDTHcwNEV3emM1S25pTm83WUFHZlgtWHliR0NlZFpwb3IzWnp6LU5KQ2hlSkh5bHkzVW1NdTAyUjFvT2gzM0w0a1loUGhlZnhxdVA4LWE2dmRaMUI5dEVkaTV5azR5MlBSYmU5T3JNVEF6OEZ5Y0dxUzJXSThoVTF0Zk5IdHNtclUwb2cyZXd0NWo2MmhVa1FzRWJod2xzeThhMFBYNVl1MHp4c3czR1dKczQ5YzVqbVZtaVp0aFlhdWgxb0NlV2dtQ1RIMjJqblRSU014ek9hcWxzREVmbUlJeTQ0TFhQSnNpdnYwR1MzXzhQYVRIVmhFSFJQemhUMVNoM0FkSzBqddIBlgJBVV95cUxORzFZelYyWlhzRzFMd3F1Z29hYjdEcFh6SU9LQUVieG9PeUkzejM5SDlPbmhZRzBoT0pPWEFQdWF3eWpoUEUwd0pMLUFWTk5lYm4zajEzcnFRM1pZT3poVTZQdERkY0pEMUxGaW9McmZ1aHVIYnhCblJvZ1J6dFR2SW1OS3VkX3ZiNXlWWEEteXp4cDREUDFUMGZVS1B0UnU1RkVwUGFWQUZpZ2xDcHhiYldndGNfcVhLYUo0MFpOSnowMXVSY1J0SzQwdkFHSWVmN1hDMFR5Ql8wR1g0V25Qakp3ZzNURzNWT1l6ZTZJUjZWN1VrekpOajZmVkVsUVRxVmU5LUo2bkxFZ0RwTDU4eUZ4YVFIQQ?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d4153c5607a35e6b",
-      "published_at": "2026-10-19T16:35:09+00:00",
-      "title": "Iran war latest: Rubio claims Tehran now exporting no oil through Hormuz - The National",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMkZGb21NbHY4RlNVT21fdGZTQkpwZG9oOTRfREFfbTVxZHRpSk9SV3o5ay0zeEJBQm40ajg0T3JyOU9TT2VtNktCUFlMUHhXci1wZUJxb05NblVZelZUTUEzd01iZlFlb0d4azl4ZlluMDZGQktILTI3bTJlOVdUU2lyTzd5RGlHUlYzOEd3?oc=5",
-      "source_name": "The National",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
+      "confidence": 0.7
     },
     {
       "id": "d752e57d249b05e2",
@@ -293,21 +368,6 @@
       "confidence": 0.6
     },
     {
-      "id": "0e2354d902226d95",
-      "published_at": "2026-10-19T16:17:52+00:00",
-      "title": "The lessons Israel must learn before the next war with Iran - www.israelhayom.com",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUmpqVC1fbC03bWtPV3R6MUxXZGw3VmhxVUtpR2I3NWc0RjRsbnI3RzZWYk5YOGN2ZHZ6b2R3VVBIWUVQSDRtcEN1Wmd1QWxLaWNsczJxQWJFaVJGT3FyYXFmcVFYdzBJbTdnQ2VRM3VUMUlobjNVWmg5OFdoNjZPSzFMOFpjeEtzSFRieThaZjlWMVBmQnRIT2h2X0lMbDRv?oc=5",
-      "source_name": "www.israelhayom.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "2c4f9b5285fbefff",
       "published_at": "2026-10-19T16:08:24+00:00",
       "title": "Iran says 7-day plan to reopen Strait of Hormuz still on the table - NewsNation",
@@ -323,71 +383,11 @@
       "confidence": 0.55
     },
     {
-      "id": "0c6173699126b7c0",
-      "published_at": "2026-10-19T16:00:00+00:00",
-      "title": "Tehran seeks to punish Trump in midterms with oil price pain, Iranian officials say - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQU9zWmplZXFuSDRfamdEOHBqZDlvY2VEYkNMTUZ6blFPN3ptd0tWZVBJU1FvSE90Z08xdjJTZEl2eXliTFJQVjExSENYMXhRMUhxVmZoSXQ5UVZIeGdPODBfa3d2eG9MZVdfeE5rQjloZ19zMkJORVFsaC1pV1RNXzRCcGhhVzdWSm1LMFFucG5GT19DcmlrcUhHbnRGWlJIYktoZHh0Q1J1SV82X2tfSkVoLVozbmVpOUUwMmVMMVI5Vk0?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
       "id": "d903a1966d717d59",
       "published_at": "2026-10-19T15:53:14+00:00",
       "title": "Explainer: What's behind Egypt's move towards possible military involvement in Saudi-Yemen conflict? - Reuters",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVEFCaTJXdXlZR1NxZkpndXE3d0hRYWpmRUtBOXpXeTI3M2hUVnFSVVJrQm1NS29LLWlobDd4enF2OWxOY1h1SmJidXVlUksxeDdZdVMyZF9tVklTdWJiQzJZZzRNVnFEX0tMQUdCTW04WHhmdWdhQW42cERybkd1QzBDTHgxMklXU3dvbF9mbUt3a3RSb3NhZlpNbkpWcFNaWXZhMWE5TUkzTTVFMlI1YWV3NXJjb0lSMTRQVFNqbzFsRmZwRmtB?oc=5",
       "source_name": "Reuters",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d24b7138c297bb46",
-      "published_at": "2026-10-19T15:46:50+00:00",
-      "title": "Iran Escalates Before U.S. Midterm Elections - JINSA",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9rN2lYaThDR2cwek41TnE5Z2ZsRWkwdEJjN3NyNkN3SnJYUEp6d2h2RGNXaTdnemlKaFdQbTJQWk5TakZXb28tVndacmFPSVczWEcwZTlfbjFXaEpjVG5idG9faG1ac3VnV0Q4c2tCTENVYm5nMWNnNHk1OA?oc=5",
-      "source_name": "JINSA",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "2f94c44452b4697d",
-      "published_at": "2026-10-19T15:24:58+00:00",
-      "title": "US Secretary of State says Iran lost control over Strait of Hormuz - Roya News",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9Rc1AtcWpobWpoU3RJWkhTUWdOazRhSnd1aXBrenpRMi0tX1hpdkJEb2xIU1JaNm9tVDJiVVVJeXd2bG94anBjTQ?oc=5",
-      "source_name": "Roya News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "0e5e204a35d10370",
-      "published_at": "2026-10-19T14:57:00+00:00",
-      "title": "Don\u2019t let history repeat: The next Congress must end the Iran War - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB2YUtUVVFVRGVvSjVJLURsemVBMWFpanJQXzVMcnNDNURYck96T2pIak1aRXBvTFhiUFZ1dXBrUFBXN0pHRUNDc0hkMk1XS19vRGJqNTNnTk5MbEszYkx2UXRjSVJYRTZSQ1UxaVdDOC1oc3l2VlppbE43MGTSAYIBQVVfeXFMT1ZRQ01mWkROQi1BQl9tcmoxSEppVmpxYWJnOW5Id09YWUJaOFZ5c195cF9JdEY2UW5JSThvbmtzWVhHQjBPdXZ6N25TbG5sUFQ0al81bjByWTZpU09WbFlKUW9TRFdHakc2bjhJaUhsSU9abnViWUJhc1hET3dUeTRxZw?oc=5",
-      "source_name": "The Hill",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
