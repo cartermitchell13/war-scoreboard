@@ -1,24 +1,29 @@
 {
-  "generated_at": "2026-10-21T11:59:27.546467+00:00",
+  "generated_at": "2026-10-21T17:18:38.517838+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 0,
+  "event_count_window": 92,
   "totals": {
-    "usa": 0,
-    "iran": 0,
-    "lead": 0,
-    "lead_side": "Tied"
+    "usa": 14,
+    "iran": 11,
+    "lead": 3,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 0,
-    "delta": 0
+    "usa": 14,
+    "iran": 11,
+    "delta": 3
   },
   "confidence": {
-    "score": 0,
-    "label": "Low"
+    "score": 63.4,
+    "label": "Medium"
   },
-  "event_types": {},
+  "event_types": {
+    "diplomatic": 8,
+    "other": 47,
+    "attack": 36,
+    "material_loss": 1
+  },
   "history": [
     {
       "date": "2026-10-08",
@@ -72,24 +77,325 @@
     },
     {
       "date": "2026-10-18",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-10-19",
-      "usa": 0,
-      "iran": 0
+      "usa": 3,
+      "iran": 3
     },
     {
       "date": "2026-10-20",
-      "usa": 0,
-      "iran": 0
+      "usa": 1,
+      "iran": 2
     },
     {
       "date": "2026-10-21",
-      "usa": 0,
-      "iran": 0
+      "usa": 7,
+      "iran": 6
     }
   ],
-  "latest_events": []
+  "latest_events": [
+    {
+      "id": "12a3eee6010199da",
+      "published_at": "2026-10-21T16:55:00+00:00",
+      "title": "Live Updates: Iran says indirect talks with U.S. on ceasefire proposal continue - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZDJacGlyUkJSMmZfSXF5dlBwLU5PRXdsQnZiMFRyRmJTeVU3dHZnQlF6WDVRQ0pjYlFFamxjV3dXU0E4SmZ0SkRUMW1uLVh6cE05SDBLTEhlTnI3T3dwQXNWbFQ3TzFaZ1lZY0RNeVlNSW8zaDN6aDh1NWg2ZTNvTV9OM0xYQQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "30c86fe2abdae2b5",
+      "published_at": "2026-10-21T16:22:15+00:00",
+      "title": "Iran war live: Tehran calls for diplomacy but is \u2018fully prepared\u2019 to defend itself - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQUDdudll1aUxJTEdvMlBrZGRqSENudHVWUy1HQml2LUM3TVZzUl96bUZSMTFSU1dtUGdKUkxZRkFwc3U5UzF5X0kzRDVoQm4wWkpjVWNlaHZpWkZQZEdOTTl3cnVjbF90UGJMZ1pGSU5CX0pjdUZlcnpabm1YYU1CcGN4djhIdWdkUHpob1RxTTQ2Um9id0tGRER4OTZMTUFvb1dNSnlpMW1aaFR4Z2RXVmNQUjFxbE5YRTl30gHAAUFVX3lxTFA2cERpMnJnd201QmtUaWV2aGQ4R0I2RDZYYVRRUUhtMi05ZllYOXpMbXN3b081RTNGa09tOTBJaENxcUtsYkhtLXRaU1AwbUhCTjNDQW5wY2R5NmU0U2ZPZXpfU3dMUXlGcE9raGRLcWp3RHZGeVNqOER2NkpJaUk0SDlVUV9mM1hHdG9mSjBqQ0xqSVdMN2wzdWxvaFNSTHpsSU1mV3U3NjlTTGFOM2haVEJsR0J2ZU9hMkRBYkFWaw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "5eecda93f52faa6b",
+      "published_at": "2026-10-21T15:59:41+00:00",
+      "title": "Live - Iran threatens offensive action as Putin urges diplomacy - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBrcnBqMUFFX1cyREwxckpUbVNRS0FRcUhUS2dlMU1xWnZmWXFKR01HbFZqaHBhYTlJRk9Rb2kzN1FrbmNVbTRFVmViNFFtOVBRWkdXQWVXZkpyWEFfcGc?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7e740eb8734b4afc",
+      "published_at": "2026-10-21T15:47:09+00:00",
+      "title": "Israel and the US weigh fresh Iran strikes as the Houthi siege deepens - AOL.com",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE03S2xvVzBIVHpaT2xFRExQajFNQ3BKamJ6UVU5SXFqNjUzMEhEM1VFd2V0M0ZHUlZodDZpWnQ5anFWb2Z1dzZjRm1lYnFlanJBdnh4LW9FTWhrVWZlcFNUUEhQU1RVWGQ1RVg2bkdJUDE0a0RpdUhpc2dR?oc=5",
+      "source_name": "AOL.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "6f69be2d789557ba",
+      "published_at": "2026-10-21T15:44:38+00:00",
+      "title": "Putin agrees to resume 3-way peace talks with Ukraine and US - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQXZaYTY5blYzZWJWYkJaQnI2M2RSSGJUcnpzSF9OMldoZjZxckRDRzhyb2JReEVNbEE5bjdZcUZlNzJ2b0YzQkRIZjltamVxVHVSaElldGhNUmlFZzdmZHpPOFBOSDNhbFV0NEdpYXBBN0w3VjlHV0JkSVQ3NG1hMHJMay14MWNuNDdQTldXaVE2Z205bjFkN05lVUh4TkloZWFvSm5FcGp0aS1nQ2JKcmNGTHB1NDhqdWJCaEM2NnoyRUE?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "791084a01256e26b",
+      "published_at": "2026-10-21T15:30:00+00:00",
+      "title": "Iran War Day 236: Netanyahu Pushing for New Iran Strikes, Per Report - The American Conservative",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNQnh6UzB4UE4wRUdlby1BdUVGQjg4RWpXSHVaaVNZS1dZRWNEQnFJUjJvWWFmczBhd2c2cnhTdzc4WWIwZHh5RnNKNng4MUo4ZE5kWFdQbFhxZ2VLR2J5cG5kQTAxSUN1Rnh1aXUwRzhaR1hSUDRkMEgtZjZxaXNxU21tR0s0Z1AxcWh4TU5ZOHdGUnFtRDJseEFxekk4aHFwalJFWHpPcGlYamc?oc=5",
+      "source_name": "The American Conservative",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "abfc2950e8216f3e",
+      "published_at": "2026-10-21T14:59:18+00:00",
+      "title": "Netanyahu planned attack on Iran earlier this month, but Trump opposed it \u2013 report - The Times of Israel",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR2tFek1CVWlzWW53MkZQekkzaUlZQkJwWEpHcm1mTmVfMWo0MkJMN0lhQ194ek5kYVpZUDI3TmdFVnNxelkyd1YwOHNQT0EtN2s2aGl3YmJjZmpGNTljdTJzOHZtZkluczNrVXhLX2RqMEZjQ2ZfV2ZlMldtendyR1IyWXBPNnRSOTJ6cXpoR2NpYVBBZnlQVDhzVEVkSlFyWXoyWGFqcVAwZmxUOGtn0gG0AUFVX3lxTFB4WXdiZm4zVlZxZy1EZDlUTy1rckxMSjlKSFJleURFdExHU3BoLWhCekp6R203ejJGVjZXaVRIRm56d3lienU2N2lqT2t6YmVFaHdBN1R2enhNbm05R3lXSzhXZE1HcUhqZTVsd2JWSHFjYlNhNEYzUjZiNktHQy10M1JMNG1iaXFWdFZ4bGdaWThqMGpBY3puQ0toZW80Q2lubW91V2NDeU9FUF9oOEFhNXVJQQ?oc=5",
+      "source_name": "The Times of Israel",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4b6fa5c93ad8498b",
+      "published_at": "2026-10-21T14:58:21+00:00",
+      "title": "Iran Tells US to Prove It Wants Peace by Lifting Blockade - Military.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOUxGRVJqSzhHeU1GcjZUOUtoZXNsZDg0MkpFQ25nR1I3M2VWMUFBT1R5QXFGTHkzTGFzcEpDVGQySWxGV0twMHc0TFZPSFVxUllmNDI3dkVrZGwzOFJCcHB5TmUxa0N6cE13Y3RZaTZxa1E5MmJWMmpiYklWS1FGY2xUdk1Ld1FNRnc?oc=5",
+      "source_name": "Military.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "36a894bd6900e696",
+      "published_at": "2026-10-21T14:37:00+00:00",
+      "title": "Putin tells Witkoff is ready to help resolve US-Iran conflict - Mehr News Agency",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTG1ld0t5X0NwOEVzaTY4dk5mTDhRcWRIWnd4Qnc0dmh3Z2ZLaGU5NVBFdWtqbWpaUGxqLWpHUjAzWTNTLWdhSjNwcTBacGhFM056TXF5a0k1dTZVZjI3a1AxdF9LUExkT2Z1QXcza0VJOGpMSENYV0RncnRfS01SS0swMEYtQ09YSl91Vld1M0ptZGlNNlpFVExOYUNQUQ?oc=5",
+      "source_name": "Mehr News Agency",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3407a07d83ac7d34",
+      "published_at": "2026-10-21T13:35:00+00:00",
+      "title": "U.S. Midterms Loom Over a Deadlock Between Trump and Tehran - Time Magazine",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNNU5FVl92Mld4b2F5QkY0WGtSblRnOGpmRmNNZkloaFM2OUJMUV9TZDBwYnI2Y0NLZy10VC1mNkZfZEs5REhZRkk1VTljajJPM21DV0lHUUZLSzc1SDFTaE9FMTcwWDZ6SmVpR2RrYloxbjhCOFlyZGhOMk9SbnlUd01hNjc?oc=5",
+      "source_name": "Time Magazine",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "b49e89ccaf89e59e",
+      "published_at": "2026-10-21T13:30:17+00:00",
+      "title": "Most Gulf bourses slip as Iran-US diplomacy hits a standstill - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdGVfYlNJZFNZQ3pscG5sYjNSVGZITlhmSl9MbjJHWXVFVjJPWEFCU2FaMTZmeFFRVnM4LTdGNWFhTm1USllBY3FOeTRQaWdDaEp5NVNtb0c0Q1hrejNVbGR4a1hHc3hkUGJ1NU1TMlFBamlCaTJEWUJZQjlkVW94VGJUYzFQWm1UOE40RUlRMkZGTmY5bW5pb3dGM21YOTBFV1BKX1Fn?oc=5",
+      "source_name": "Reuters",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a5b590d16f7c77f5",
+      "published_at": "2026-10-21T13:22:35+00:00",
+      "title": "Iran prepares new weapons, tactics for possible US-Israel war - The New Arab",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUzFFczZXaWoyWFpQT3RJelI5NzRQdnNVUW5BQXJ6NXpJWG9RSGdYZEpEMjA3eGtLYjZ3MGVhQ0lIM19SZ21XQ2dfb1VqQmhhQ190SHNYZjNfX3RuTlF5aDZOS0MxOXJHR2I3QVgwQWdlV3lNNE5VSnhLQmVUTWRud01SbzAxUHdWX2x3Y2xn?oc=5",
+      "source_name": "The New Arab",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "7226d6b6bcce5fd0",
+      "published_at": "2026-10-21T12:20:43+00:00",
+      "title": "Iran\u2019s enriched uranium re-emerges as point of contention in US talks - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObU1fR08wbW14TkFSa0ZmVW5ZbHd6ZDA3QzlyOXRXWGVtYW9wUEdhdlN1dENmUjdvbjRaLW55X01QMjZVcFVGdmhyQVc5ei1YSjM2S2xKQXZBZVNLOXJsQ2xqcWU5cnRTMVpJbml0eURYTGs4a1VyOUozdC1kSDNrWWN6Mk9FRmRwRzFjWWs2SmNGZzQ1QzNLV3JSY01Vcjg2MXVqYnRrRDFqUnEyTFpr0gG0AUFVX3lxTE9UZUJucFFuTnhUWDE5QnZIa2VabS1KX1R3MEhDX0VMcWtDdWg4OG9mR3ZZbTRyNjhJNTREOEZscV9LUzlFZmR0ZW1DMTJuV3RuYS1pRGZLNldNUjZIbzlDZHVuUXNwZHphODhFS1JnWDNXTktRYmhvSXlCbW9sZWNBXzZLbmxHS1otbl81NjJoTG1aQThfS25OX2R4RUZ0bUsxWk9QanBFbU5SQ1VueEJLZDB3aQ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "e3327fb2aa5b23da",
+      "published_at": "2026-10-21T11:31:09+00:00",
+      "title": "Benjamin Netanyahu Ordered IDF To Prepare October 10 Iran Strikes, Trump Opposed: who 17 outlets blamed - NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNZF9VVTJvU0dUYlQ1VTBGaGhnUkJPZmhJaHdHZFN3MXBmRUNfeDRqd3hxSjZ2RnE5OVdqUWExRjJaYjEtU21OUEVqR0VBSUZGMVZWLWdXcmhjdTMzc05UUldhTVdYTFp2ZjZWNHNMQkFnRTIzV2RnRDdxLUJKZ09jSnJ4Y3EyN3hJdWNicl9rb3dRa0ZEcHlCUHlHN18wTU8wZ2tRVl9FX1Q3SDlMOGV5bE1mSDNkaS1NOGpQQkxqaGdwN3FLWVp3LUhwVXQwUWRIbVQxbWZkOFRqUExSTnQwME51cWtlMWU3?oc=5",
+      "source_name": "NewsCord",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "388559d7a9109176",
+      "published_at": "2026-10-21T11:09:05+00:00",
+      "title": "US sends more warships as latest Iran peace push hits uranium roadblock \u2014 is war next? - Gulf News",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNQUh0Zl92NkRtcnFjcmJzcFRIWU8xTm5KNkxRUTlaNWltdTltaVFlNzdyak1fYU5fVmJOQ2JCV251ZGQyOEkyN3ZnaEFoZnU0ZTB0NEtMSnVSaGNCVkxyVkhxUV80NFl4bFkwMGxtc0YtSzVSN2lFUllfUGhyM3BXT1E2YjZjaFNTMEtYaTNPVXZ4aW1sZVJSYWthWjJVeVU4cGVXVzRrLTlIaHBSUEJHajdSSDlRLU5VZHhrZg?oc=5",
+      "source_name": "Gulf News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "80df754f51ef91ae",
+      "published_at": "2026-10-21T10:51:00+00:00",
+      "title": "US-Iran War Highlights: Netanyahu says he discussed \u2018eliminating Iran regime\u2019 with Trump - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxONnNTdy1lN0hReWxVVE1PYV9IZW1mV3pmMEVMRmVHck9KTTA2MkFjVzZzQm5HNlYwNGg5UDV4dWxJOGtuSW5yckNodlI4eVZtSTRMdF9lZjJleDZ1aDcyVHRjSXFiR3JUMWI2NjdWUXpseXNGQlBDVDh3M2VnTVNjMFN1X05ZS2ZpNEVVdDlMTHBmNkdjQ2pqXzhQeFJ3ckFWTFlWeEtMZmM4SjZhaEN1WGxRaEFxdHQteTE4VzNmbloxb3ZCTlptT2h1Zk5tR2tVQzE1YUdQV0VNVGxFV2ZPYS1jYw?oc=5",
+      "source_name": "The Indian Express",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "a6bcc90883320813",
+      "published_at": "2026-10-21T10:24:43+00:00",
+      "title": "US-Iran mediation persists as both sides prep for war - The New Arab",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQ3hnQWJoeWhwV2VmWVMyRmppTVh0MjRYYWYxTTVLV2ZMMDZKUV9HSlJORUN2NGF4UUgwVXU2M3Zab0h1YWUyc3NXZmNoYnFTOFJfMllKbVlmLWN6ZnItUHlpYllabHVwYnFSdU9wUXFNZ2hoNWdzUmotRl9iTWY5QQ?oc=5",
+      "source_name": "The New Arab",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "2098b82b335fee16",
+      "published_at": "2026-10-21T10:17:02+00:00",
+      "title": "Iran Urges US to Lift Blockade to Break Deadlock as Threats Grow - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQcEI5R3A4WElfYUxXcGUzOUlUVFdiRzcxVlNyeUtSSXFlNnd1bzRSQXY1NGdFMG54UU5iQ3JEb1JQYWF5RVVGaGQwUEhRWURyV1pUdXRHR3NsZEJySy1KbVM3dkRKM1diZl9kNFRtT01kSW4tSjNTQWNSdkwxSmZvVG9KdU5nLWhXbkdVTThDWkQ1aTgtZllQdm51QzBKT2lfMDg3bm4tOHk2dV9lWmtkMURtQnc5Zw?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "65db71b710f03b93",
+      "published_at": "2026-10-21T10:05:26+00:00",
+      "title": "Iran\u2019s defence minister vows to boost military readiness - Latest news from Azerbaijan",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQbWtnOURHT3FIT29KVFE5b284ZUxFRnFWdmpGUS11WDlQT3BzOE41THdVbl9WTFhfTjNXbWpTbzFqTFpuZUJUcG9NTkw4SE1PMGhqRUYzb1lsUHJLMGRKSHBuWjl6ZERGQlgyWGVUVXhTQWx2bnl0RGlEcmdIZWxYQnB3?oc=5",
+      "source_name": "Latest news from Azerbaijan",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "ab60207148351e35",
+      "published_at": "2026-10-21T10:02:14+00:00",
+      "title": "The US-Iran war is making world hunger much worse (Opinion) - Daily Camera",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1JOWoxR2lzNXhzeDFsM0dpSnFtalp4bmR2MDZUbTRtc3hKWUJXOTVjZS1ldHFscllqYW1jbHB6UUtJNjVtZU9ZbjJVdGRmZXpjbXg1bnExR1ljRTZ3Rkl2R0ZsSWpRSkxPV3NQLUpsNTZYVWJiX3FVOEpn?oc=5",
+      "source_name": "Daily Camera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    }
+  ]
 }
