@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-22T17:16:30.777269+00:00",
+  "generated_at": "2026-10-22T21:42:24.235906+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 90,
+  "event_count_window": 89,
   "totals": {
-    "usa": 47,
-    "iran": 9,
-    "lead": 38,
+    "usa": 55,
+    "iran": 13,
+    "lead": 42,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 47,
-    "iran": 9,
-    "delta": 38
+    "usa": 55,
+    "iran": 13,
+    "delta": 42
   },
   "confidence": {
-    "score": 63.9,
+    "score": 64.2,
     "label": "Medium"
   },
   "event_types": {
-    "diplomatic": 8,
-    "attack": 33,
-    "other": 49
+    "other": 48,
+    "attack": 36,
+    "diplomatic": 5
   },
   "history": [
     {
@@ -82,7 +82,7 @@
     {
       "date": "2026-10-20",
       "usa": 0,
-      "iran": 2
+      "iran": 1
     },
     {
       "date": "2026-10-21",
@@ -91,32 +91,92 @@
     },
     {
       "date": "2026-10-22",
-      "usa": 41,
-      "iran": 5
+      "usa": 49,
+      "iran": 10
     }
   ],
   "latest_events": [
     {
-      "id": "b00a0abc8be96503",
-      "published_at": "2026-10-22T16:52:00+00:00",
-      "title": "Iran War Updates: U.S. reduces troop footprint in Mideast as indirect talks with Iran continue - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZDJacGlyUkJSMmZfSXF5dlBwLU5PRXdsQnZiMFRyRmJTeVU3dHZnQlF6WDVRQ0pjYlFFamxjV3dXU0E4SmZ0SkRUMW1uLVh6cE05SDBLTEhlTnI3T3dwQXNWbFQ3TzFaZ1lZY0RNeVlNSW8zaDN6aDh1NWg2ZTNvTV9OM0xYQQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "diplomatic",
-      "actor": "usa",
+      "id": "ca8e3ef5649b3554",
+      "published_at": "2026-10-22T21:36:19+00:00",
+      "title": "Netanyahu says U.S. and Israel must topple Iranian regime - The Washington Post",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPblM5N2lNR1dGazZJNVFnYkhPeUU4bmlXTWJQX3JMX1ZNanBaM21EaTRzT0d0YUx4Rkg2bjQ1bXlSMjNFOWNKTGJ3WFcyQ0lTUUp1TmxSUlJQWV9qZjRONDY5SFZWQVRHd1l6c2ZsRmtONzYzTms4OGFzYlp2MUl6bTFPanBpaFNPbkI2cWxUS1pVdXpBcDl3Vk9uOExYd29JUlE?oc=5",
+      "source_name": "The Washington Post",
+      "event_type": "other",
+      "actor": "unknown",
       "target": "unknown",
       "points": {
-        "usa": 1,
+        "usa": 0,
         "iran": 0
       },
-      "confidence": 0.85
+      "confidence": 0.7
     },
     {
-      "id": "eb06cb650d4fdf21",
-      "published_at": "2026-10-22T16:35:42+00:00",
-      "title": "US, Israel weigh new Iran strikes as attacks on Hormuz shipping mount - Stars and Stripes",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTFU1NkJqRURqVVAzck4xVkpmbjF5ZEJMblM5OUMwQWt5YWZyVTY5LUVMRFdSdDF5T0IzOU1nU3RmQXhRMHZsc2J5MVNPVGo5dThmUHlpV0VTaHptRGhoZWp5NjM1bDBCVHNZemZwWGpjX09hY29OVFhfTzBYVTZrQVNaZVB0bE9oVnhOX1NwLTdiLUt2VWlWczV5bFdVdTg?oc=5",
-      "source_name": "Stars and Stripes",
+      "id": "0af550c5844f6277",
+      "published_at": "2026-10-22T21:00:05+00:00",
+      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9BRmRGc3ZtM0I1MHFweHAyVW80Z3hnUkpVQmprX1ZIVDBZMXFvWGswdHBVSUxaX1M4WWZ4c21pU0xKYTdmS0NtQWk0OFk1RVNYS25iQ0UwZDBfN0NPLTgwS0ZaZFZiZEFtMTBYLVFZR3VoWUNnNzNwTEdYTF9sOEU?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9d7bba2b736421ea",
+      "published_at": "2026-10-22T20:58:09+00:00",
+      "title": "US and Israel drawing up plans to resume attacks on Iran post-election, sources say - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPd19fS1N5MG9ScWZka1NXVEM3S1NoUlBSTURnR09nR3Y5SGIxRFFpRktHNHZXeElmbzFPcTBkMUdNNXE5MG01aWhRVmhKSTVGZVcwZVBNRWxHTGxQc1JpQWZBRnBLNTVPWkoyRnFIZkxSTnI0SktYRGQ5dlh2aWxhSWhOVVlMVjktd1hHak1PV19HbXpyNS0waGRfVXXSAaIBQVVfeXFMUGJ0OE81VjRRZ1dhN1gtLVd2d2szU19XZzRNREJQdWV6OG1mRUhtQ0JTWXZYc3Jqa0FOdkFoWTF3b19JMEx3YW9XYkJRbXRlVHkxcWpPbWx3bVVydFBySV9yMW9tVFZRVWljYUNXeEEwNXMzSWJmeEdwdTZwaHh6VG52alZDQ3dmcU5NTXE4MWk1V0w4ZHMzX2FkNXUydndhTktR?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "464df5d45a807efd",
+      "published_at": "2026-10-22T20:53:42+00:00",
+      "title": "Kansas Republican blames record-high diesel prices on Ukraine war, not Iran conflict - The National News Desk",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxOMDY4ckdGX1MwSkk2NnNiY1d0blNhNXF6LW1zZzVYOGlQZU9fSmJiSUg1Mk1vTUZmR3FUUW91cFpxMHZNdXhOREtGXzVjNFNhN0NFLUt0VnlhMHk4YklZdURwTE9uSEtPNUcwNkVzak9MTlR6WHA1SVEyOTRIWmE5NThFLXh1RkNhNG53YWpjNkVkNGZ3VW1SS1RTZHZpcVF3SW12SHhNU3BqMVd4am1neGZzaW5YSE5TODg5VnVNZkFOZGpxaVRySWFwM0o0RXFNdFBnUWxKR29qb3RhWnhrQUVtMDJuSldSVG5GRGhJUG52OGQ3RkdGMEY2V2RLTVJTQ3RKRU5mMA?oc=5",
+      "source_name": "The National News Desk",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0b48099c9791d459",
+      "published_at": "2026-10-22T20:48:24+00:00",
+      "title": "Will the Iran war resume before the US and Israeli elections? - The National",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVWhxZzAwSHRtb05SOEdqLVYyemdoWEJZSS1BQ1k0UVRaLVdxTnVCYUZWWDhKZmVpWjN3bVRnek5QMi1iWHBnLU1NeXV3VUZBUFNDdlhmUmRpbjBsd1NKMnFIdVlhLTNBWTNLZlcwZ0V0WlBrZGFORm9WZGZHdnZxMlNXWnBVUlpHOF82Z1BwaS1TeV9VMjliU1ZZMGZwTUxwYWNObE1BTmJ1M0swNF9hSW5R?oc=5",
+      "source_name": "The National",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "904ff72324d4dd67",
+      "published_at": "2026-10-22T20:23:52+00:00",
+      "title": "White House weighs renewed Iran strikes as US builds military options - Fox Business",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBidjFLRGFGdUM3TkJReTlYU1dpVjhjZkZXS0czanlpWEotdGVjM2phOHNWQ3pFVlBCdHI2bXFjTkNNa1J0ajR0YXo1bUw2UzRBMHF1NlVlNzdTVEU?oc=5",
+      "source_name": "Fox Business",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -127,26 +187,11 @@
       "confidence": 0.65
     },
     {
-      "id": "2fffd063420b0c72",
-      "published_at": "2026-10-22T16:33:34+00:00",
-      "title": "U.S., Israel draw up plans to renew Iran strikes, sources say - Central Oregon Daily",
-      "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNdC1fQUtFRW1WN0xZeWx1OUQ0RkQ4MFZtV3I4TWFNS1FSYzk4TXQzalJrTXcxTWhEdDNTN0U2MHkxOEg2ckhXWlNmR1cyTGpoRDRtVUFhMDRoT0xfalVZMmNkMFl4Q1gyd3Q2VnQxb0NvT3RnOGkybG5ieVZlZDB6d2R6R3p4NXlXZ0kwd3F6SkZjS3JOMXBGRmRXdzlRTTdTcEw5UnRNUzg3dDlOM0ZlajhIUGg1TTNRODNETDJOT1pKSmtQMW1LSHB1VjVUSWRSM0pxbUFhMWVVcElZTm1xbjB6ZGRkM1JmMC1BYTA5eGY?oc=5",
-      "source_name": "Central Oregon Daily",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "5ba6b3171658facc",
-      "published_at": "2026-10-22T16:07:30+00:00",
-      "title": "Trump has threatened to escalate his Iran war after the US midterm election. Is Tehran prepared for that? - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQkxDQ2tpZVRLa1c0UXF2cTdnODBiVGVMejNZRHQxUHc5RlhpXzVqLXBST1JwRENUVTIzX3NwNVgzU0FOQk9xejFJYm51eEFTWXpqMUl6SUd2cWxfdVVqRDZSdWhUZVZtVi1NeWVaQlFFN2lxYm5XaEFNTFlEVWpBcTZrNjFNMkJTeEhaRnpucFRScW5qS3ZhTmVTVW1jOEnSAZ8BQVVfeXFMTWlVUE5ZRTZ3VjFicDBkQnBwVml6NDBxbzF5Tlp4SjhZcnJiQ2g0bmMwQlJQRGR6RWJCWlFhZWxHeGk5Y05ndHlqWUtTUGQzdXkxTmF4blJQcVNFUnUyak9fWkVkc2FkNVYwM1U4V0FBZzNnTndKUHBaRXB0RjJxeDJYN1ltdlJHanczdXhJaUNLMzNMekNwYzJuZnBoMEE4?oc=5",
-      "source_name": "DW.com",
+      "id": "4cb55d20f6387cf7",
+      "published_at": "2026-10-22T20:22:45+00:00",
+      "title": "Iran says 7 vessels hit near Strait of Hormuz, warns US of wider response - NewsNation",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdzd2aFlGYzdlVW02UnBBaDJJck94ZVJXaVlmV0JRTGpIdjNIWUdXOG9rcGhjNW5jS0xpazROVG9OUXozOGoza3VFVWlzTV9WR3VFZktyWGxKZUJpZXd2VjNGTVl0OWE5QVUzRFNFLTNQd1pSc0dUMWJ2RXVUUnY2YUdEMNIBiAFBVV95cUxNZjh5RWEwNkYxbmRHNmNPWUE4NmM2OVdZWFA3QWNOS3hGQXJRbXB2eEh5SzB5WWJyTEtLTElCS1JjbXFkV1lGWUdIZnRUYU5OTnNJa0hnWWphcWU0Rk1lOGhZRFNyWHZlZzVIeTh4ZjVaR2JvejVYNE1uTlBRTnFTOVJ4ZnEwN20x?oc=5",
+      "source_name": "NewsNation",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -157,84 +202,9 @@
       "confidence": 0.55
     },
     {
-      "id": "aea02439abc93676",
-      "published_at": "2026-10-22T15:48:00+00:00",
-      "title": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?oc=5",
-      "source_name": "The Guardian",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e831b1cfafe8a5a2",
-      "published_at": "2026-10-22T15:38:00+00:00",
-      "title": "Lockheed Reports Q3; U.S.-Israel Sketch Out postelection Iran Attacks - Investor's Business Daily",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMm9ZN2dfa1gzaEV2UDNjbUE3d3R1Q082RURNMS1MaG9sald4NllZaFpNV3ZUaFliOGtLTDhabEJObDZDc0hmMDNWOTFTN2JaTXJQR0ZZTkJoQ0ZHQW5jUU9YcnhxLWhuN1FURk4zcWZwT2FwUml5QmF0ZkZLOXBJSGtMQ0FpMkdyYlBpSFFERkdPc2EzUFU0UUZPZERGYzBMTWV3N0hn?oc=5",
-      "source_name": "Investor's Business Daily",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "5b7a9575f7e7a5ab",
-      "published_at": "2026-10-22T15:29:33+00:00",
-      "title": "Ahead of US and Israeli elections, 3-day joint attack on Iran 'would not radically change conflict' - France 24",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNnAyZHA0SFRoOXBVVXBIVFhRLTRKclFzbVZTTFFUWHVWd2ZBUEM2MVl1REpmUzB1YTFkM3VrT2xLY1NqRm52ZXc4MTlLTzVENU84OENhenJDMEN6ZkVyUV95Z1I0VFE0R1dqa0JGTkpVUnd4aXpOSDJCbUNxek9SXzdMNmVLYXFMb19wd3JNWkRvVHJRQjdlLUw3enVNX282dm4yWXFTRnNOb1ZHamJORnZCbExWbV9VNXpxaGxXem1kQQ?oc=5",
-      "source_name": "France 24",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5f2ae79132340734",
-      "published_at": "2026-10-22T15:24:49+00:00",
-      "title": "Iran\u2019s Guards threaten US bases in retaliation for Hormuz escorts - Arab News",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWS13bjluT1hxRnpxV29LSjRJWmgteXkwR2lxQnlsb1pYYU4wMDVneFRNdjlJTkk0dndLS3hnS2Mwc3FzbklEeTFERWl5eXhMTVpmYkVuUWIxT0RCdlBRWDlIY3F1M3NMTG9PTDZxVHVfcDhJaTF3bVpnZFhrUWFlUURUQmIyTlhyejZVOVozUllPTC0yQ21mdm8wVHZPR1N0clFiWlpMLWFtQ0E5cWc?oc=5",
-      "source_name": "Arab News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f5a72c17a1bfc775",
-      "published_at": "2026-10-22T15:22:13+00:00",
-      "title": "Iran issues 'serious warning' to US military forces in Middle East - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa19HUXRONnZSZ3JPZDJDU2hkMzUtOUhOeXJad2RNanh5ME1uMFg3Si1oRkl3UGh2djVTLXNNQXJmbU1mVHgxbmxNNEwzbXdNQ2YtYnMyQ05Qb1ppNVZCY1VEQlhrd0VtbFdyOXZ3VE1hU3ExcjVqNEFYaVVBWGZNeks4eEhodw?oc=5",
-      "source_name": "Fox News",
-      "event_type": "diplomatic",
-      "actor": "usa",
-      "target": "unknown",
-      "points": {
-        "usa": 1,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "f9ef3c90d6f60af7",
-      "published_at": "2026-10-22T15:09:46+00:00",
-      "title": "Market sell-off gains steam as concerns about Iran war and high AI spending collide - NBC News",
+      "id": "a917b54ea100c549",
+      "published_at": "2026-10-22T20:12:29+00:00",
+      "title": "Markets tumble as concerns about Iran war and high AI spending collide - NBC News",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSVY4cFhVNmoxak9SOVdrbDh3NkozUkd0Wmc3YmtsWW9PWUFQWFgtb25pX2xhV2liWmxyRktLSjgwRkxLRERjaTk0Y1RyLWdFeVVHNFphUDY4aDZyVWhHdWltNnBtM0JWTTFVRXNjY2prMWZnRlJpeUFMeGxnb1VlOGlFWE5FRGNtNlpEUUtKVVFzT2J5dWc?oc=5",
       "source_name": "NBC News",
       "event_type": "other",
@@ -247,41 +217,11 @@
       "confidence": 0.6
     },
     {
-      "id": "f0cc43f9a7217403",
-      "published_at": "2026-10-22T15:08:00+00:00",
-      "title": "Iran live updates: IRGC Navy claims attacks on 4 vessels in Persian Gulf - ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYVFqc0lubVY2dlRqcFhLV0tWZy1fNG5HWXVLMVd2ZXVabUVkdHI0Y09wNXBxNzZRYWVsX0ZPbnJjRG9yckNHVnB3eS03OEJTZTdPU2hZZVpjZUYzX1dpT1dNdXl0eXJ2cjBpa0t3eUlSb3hGSE5IWk1ZcWlJNzZxSzVYdm_SAYoBQVVfeXFMTzlUajdJSDU5QzlnZnM1OG9wMHE4cWpmMlRyMG1SSkhLRWxYc0gyUXlnU3l0ZnhOYzh4UUFUX1V4ZVAwTUJLaGZXZ0VHM3RUVHphYXNVOGdZeWZTRHh3cVZEWUhXRUQza1VfOFp4UXlMLU82dU54S1pkRmdhaVZDVV8zUnpJWlNVLVdB?oc=5",
-      "source_name": "ABC News - Breaking News, Latest News and Videos",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "998a029a82cf9c93",
-      "published_at": "2026-10-22T15:07:59+00:00",
-      "title": "Netanyahu promises Iran regime change: Can Israel topple Tehran government? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVURJRWJIaVEwakEyTWRJSTh6WWJQRVh6WFRQMXR1dzIzRGMwdVNVSGEwbEZZbmlIZHNkbU1RbWZ6NFM5UnFLX3JxVERCRUZ1UlotTmdlcDZnTkxOX1Jkc3J4VzBiWjFYN282SzlUTEZTLWZVS0FpQ0RDalJDdjV2R29iS3N3Q21PeFBsbnRhdzNMZnZqQVBRempXT05DMWFBTURQVEpWcUtYOFp1VkhmejVoSGpYd9IBuwFBVV95cUxNbVRHRHFtcXUwRzRXU3Bfb1BCOGtaNU9XQTdxTmVFWFN6VWpCZmxQTFl4SGxCZDVtLS1neFBiMjROYXBXNjJ3NzdyQ3FnU3p4T3RSNUMzUGNHZGNIb3ltcDk3NjB2ZmVMb2Q3b2g4LWhacGxLdVhSS0stRDVIOHpRZDEwQjR2NWRQYktVaXlZdjAwN2puNXltdDVkLXlsNnY2bnVLR3UtQjVZdlhiSGhTbFBnSDFzSEJfRUw4?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "315437c9b22b2cd8",
-      "published_at": "2026-10-22T14:43:48+00:00",
-      "title": "US Pulls Diplomats From Saudi as Houthi and Iran Tensions Worsen - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOT09zNVVDVU9nY3h2QTYwUXRVLS1ROHhmeGRqaVJhWEQyQm5XWnotZ20zRDJFUC1RMjh4NThNSXRVRENlb0pEaTFhYl9qdUtONzUwdDlIcDVhVlVIVmhHaV9DVzBOQzJMOXBwc0VmLURLWG9nMUFfLVJhY0U5ZXpId3ZHZV9zQ29uZHJGeUtLWTRuYVFsMjRjZzJFQVB1QWxNa3AwNm1rNWpQTjFPVDJhTA?oc=5",
-      "source_name": "Bloomberg.com",
+      "id": "627e383b699c76c1",
+      "published_at": "2026-10-22T20:04:36+00:00",
+      "title": "Oil prices top $113 on worries of Iran-US escalations after midterms - Yahoo Finance",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ1lrWWZEZzJjT3ZLejlfMHVYXzhoWkMtMWlJMzZEelp6aWNsNk5wZU9mOFBwZDFhUi04SnpjTU1WQ3NndjZXeUJUNl9sTXBWakw2TTRRN2NWSGVmME9sWnpLcVZreVFfS25heWdwRk16RDZSRzhxbkFxckNxR3NQV244SEF1Yk5HaWJ0c2dVV0xFZnhzRGlzU0l0cm5Bb1dSTlk0NnIwZWhrbEJHdmdLangtUnAwcHJqTmhVTFFVUlFYTFpBb0pOYjlB?oc=5",
+      "source_name": "Yahoo Finance",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -292,11 +232,11 @@
       "confidence": 0.55
     },
     {
-      "id": "ff6a1483eb1ecfdd",
-      "published_at": "2026-10-22T14:41:57+00:00",
-      "title": "Reports show US and Israel are planning new strikes on Iran - France 24",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPLVpnbnd6VGVHYUQ5R2lJNGxpbVdwbjBPWnF6RFpTd3VZSGxOSFo2QldXcGFuSnRqYUpQaVEtMFhDVjVNdWZlZERUSXFabzNoTjlXbDU2YXlodVEzY2t0MF81VVlDN3BuSmdPSGhGY095VmEyN2VFdnhUVlVFZ0VOQWJqVkQ4eW1pcUJMWnNQZk9IZ3F6QmMwMnVB?oc=5",
-      "source_name": "France 24",
+      "id": "0e7e5d9455de6403",
+      "published_at": "2026-10-22T19:59:47+00:00",
+      "title": "US, Israel have drawn up detailed plans for renewed strikes on Iran - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VWmlfQ1hBVlVBX1JjQ0xkR25hSVA2UU93UmRvRVVKelJucUNHRDZUcUhtWXg1OGxMSkd4a18zZEMzU3RwZy1YdkNSV3dZS1c3ekV4X0xIUXZNVmUtNEUwMkF2eE9Va3lHRGc?oc=5",
+      "source_name": "The Jerusalem Post",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -304,11 +244,56 @@
         "usa": 3,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
+    },
+    {
+      "id": "d01f25c808a6c1e8",
+      "published_at": "2026-10-22T19:45:00+00:00",
+      "title": "Iran Threatens Attacks on U.S. Military Bases - www.stl.news",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16YVcwaWJvZWc1UWhWZmZ4UmRyc29vSHV3Y1pjRXF5Rm5SV3FoOVI3VnpGZUxIcmhGZFJ0MGVLcGtuSjFBeVlicVZwaDdVOWZIQndNZmkwZV81c2FsdjJqYXl2LUVEdlJlNDdtZXV0Ul93Ti01?oc=5",
+      "source_name": "www.stl.news",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "97971b56ea2d3620",
+      "published_at": "2026-10-22T19:29:00+00:00",
+      "title": "Oil Futures Rise as Attacks on Saudi Arabia, U.S.-Iran Risks Persist - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYjRlQlhGVEJPT2JaeEpGWkxTZFVEdnpuMUxLRUZhUU1EY09ZcnJMaFlZNmdUbHkwdlBpcURmeHpZXzl1c1Z4WW94YmtMNTJ2N0paSlQtNXJ2eGVfam4tdW5NekpScjdYLU1RSzVGRTJqN3hCT3NOWnNmNGZpYjEwemo3ejBfOTU2ODFoMWtFX1hWS3RHZU9lcm93anl4UUczODQyd1hrUVc4VHQ5ZEpPay1SWGhWbW9YdFFPVmZWd3ZwNmhV?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "52e9900240282a25",
+      "published_at": "2026-10-22T19:20:49+00:00",
+      "title": "Fears Iran war will reignite as US withdraws diplomats from Saudi Arabia - The Times",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX3JLbnNxZjlncjJjcnR4Wm4tUW1Oa0tQMkVFeG5Qcy1hU0Y1N1hlYW1lc3pMNzk1d21ZOGdhMThzZGc5WnI2dTNDY08ydk4xUHdqOVNKTGhUS3B1WDZETWwyMUVzMmd4NHdMSEsxdkhmWEEtWjVkVkZ0TDViVk5hYmlqOG9Gd0xpRHBUN3hKYUtPaFplT3ZMWklFWDNfalk4RlFlUUswaWQ5SUhq?oc=5",
+      "source_name": "The Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "605c257e8d8910a5",
-      "published_at": "2026-10-22T14:32:17+00:00",
+      "published_at": "2026-10-22T19:16:50+00:00",
       "title": "U.S. and Israeli Militaries Draft Plans to Resume Strikes on Iran After Midterm Elections - Democracy Now!",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOMVFlZDR2Ymxsc2hnc0JlNEtQX1BodEMyYmxSQmFiWG1qNU5mZXBlNlNwdG9yYlBmbTVDZGo1bGdzOExFclJfajJUU0FCUGZoUGkzbThwUjRyVktCbDNwN3NvV0ZzM1ktN2dGaTVDZDdrSE9mdlJRazF6T0hteVBBZUlCLTBBVXF0TFJucXQ5Z19MRlVjelJycWNGMFBPaUF6UEJQTTIxal9kNkwyZ0NlQ0dWeWJiWXFveGVQbUFtd2xhS1VSRmNONE5fbjJHb2VtaDB3?oc=5",
       "source_name": "Democracy Now!",
@@ -322,11 +307,56 @@
       "confidence": 0.8
     },
     {
-      "id": "34d25388d2b7512f",
-      "published_at": "2026-10-22T14:22:43+00:00",
-      "title": "Iran deploys heavy weaponry to Kurdish regions amid fears of renewed conflict with Israel, US - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9SN0pfaTlXeU00Ql92UVo1ZFZQVXR3Q2pkZURlbG9fbm9EZ241cnBJc3VsNjFKYlFWdDI4VzEtaWxCc0xBMXZXWmc2VEZ6VldZX1lKdFpXNmE0cFFs?oc=5",
-      "source_name": "The Jerusalem Post",
+      "id": "7c23f0e7c84a1186",
+      "published_at": "2026-10-22T19:07:00+00:00",
+      "title": "Iran War Day 237: U.S., Israel Planning to Resume Strikes in November, Per Report - The American Conservative",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPakNpeTZZX1JrdXBKaWhjMTI5S2xVX1JuMHhidXlCclotQ0l5U2JRRnNibVExeXg0Ymx4X2Z0cTVIa3dOM2F0eHVmaXBEbzk4NUJTZlBWTDBPbnFQZFFLS1BGUW9TUEM0dkJmOXltRTZfZXR3eE1Pb3RwOWlWeUV5MzBIRHpFWDFtTkR6T1RQMUpFUGlTeUpDcHUzYkJTUkk4aWVMckY0WWZVYktTYnl1d0VzZDdZLWVUc0E?oc=5",
+      "source_name": "The American Conservative",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "f5a72c17a1bfc775",
+      "published_at": "2026-10-22T18:38:16+00:00",
+      "title": "Iran issues 'serious warning' to US military forces in Middle East - Fox News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPa19HUXRONnZSZ3JPZDJDU2hkMzUtOUhOeXJad2RNanh5ME1uMFg3Si1oRkl3UGh2djVTLXNNQXJmbU1mVHgxbmxNNEwzbXdNQ2YtYnMyQ05Qb1ppNVZCY1VEQlhrd0VtbFdyOXZ3VE1hU3ExcjVqNEFYaVVBWGZNeks4eEhodw?oc=5",
+      "source_name": "Fox News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "697795789b2565f6",
+      "published_at": "2026-10-22T18:35:00+00:00",
+      "title": "Iran War Updates: Trump accuses Iran of making up fake strikes on ships to drive up oil prices - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZDJacGlyUkJSMmZfSXF5dlBwLU5PRXdsQnZiMFRyRmJTeVU3dHZnQlF6WDVRQ0pjYlFFamxjV3dXU0E4SmZ0SkRUMW1uLVh6cE05SDBLTEhlTnI3T3dwQXNWbFQ3TzFaZ1lZY0RNeVlNSW8zaDN6aDh1NWg2ZTNvTV9OM0xYQQ?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8f6b779095757d90",
+      "published_at": "2026-10-22T18:23:45+00:00",
+      "title": "Iran\u2019s Guards hit 4 ships in Gulf - The Daily Star",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPUTFtaUZaU2VyZWUzSUhET2FKNE5CWnZzUVhrNmsyakNpYVpWVDZkWG1fajV6ZEUwVW1ETkExWEY0Zl9wNkE3VXc3bFlzRThkQXBmdEZ5Uklzc0dCTU1LWEFTTFZ4dkU0enA5Y3M2M0RJWVNMcS1vdzFxRzBLWkVuZHNYVFNOaklpbFJXNUdFZFVfcXlmUjRzZ3JB?oc=5",
+      "source_name": "The Daily Star",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -337,41 +367,26 @@
       "confidence": 0.55
     },
     {
-      "id": "cda9160b1afdbc6d",
-      "published_at": "2026-10-22T13:02:00+00:00",
-      "title": "Tell us: do you live near the Strait of Hormuz? How is the US-Iran conflict affecting your life? - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1BzRE84R3lHeDgydERUM1pVbDZiZ3lCaTk4NUNtcUo3S3ctWGUwSENJYjlGaDRWOVItMmIwNHgyVmlsNzZjQnFTdnFfZW1QQ1FIeEdsNVd4NElTbU9DWVA5cFBtQUtobEdreTJjWEluWVcwNy10TlM4U0U0VVM4NnBvUE11UUU1RkZFU3ZJdzl0ZmRlMVhEUmEwLW1SZ1RpT1E?oc=5",
+      "id": "aea02439abc93676",
+      "published_at": "2026-10-22T18:12:00+00:00",
+      "title": "Iran threatens to strike oil and AI facilities across Gulf if US and Israel renew attacks - The Guardian",
+      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSkEyT2MxcnpyTV9nYUk1TXh1WlV5cUc5NWd1b1FZVjM3Q21KY1cwS1FuLWFsaGNVWTlHZzBuU2VxckxiLXdRcjZuQWliQVY5dTUwUG42RkJfZEpid2l6c3FQcmsxbi1BUU9kWUg2OEFEQlExTF9SdWRjdFYtamVfbVZ2bUZFZXhHTlRTTnRhZk0zaTdYaHZCTEdxTGVvM1RfbVFGX01vczM?oc=5",
       "source_name": "The Guardian",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
       "points": {
         "usa": 0,
-        "iran": 0
+        "iran": 3
       },
-      "confidence": 0.55
+      "confidence": 0.65
     },
     {
-      "id": "098aa7ddfc01f222",
-      "published_at": "2026-10-22T12:58:47+00:00",
-      "title": "Gulf nations brace for possible return to all-out war between US and Iran - Euronews.com",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUw5aDNFOXhGaTNETlYtbU9oNDBRSGl6QW8tU09QWGx1b0U0d2ZLQVdvMWp5STVyTXlMd3ZkQmZQU0x0RGNIeEhvSlc3S0ZpRlh3TE8yNndFWmRGLVhySWhMa3NPdkVnZWtqaEYzTjZzUXlkWGs2SFB1SUZGTXVxS1lxRENqdk1EWlJSck5QXzVhaW5UdGdoV3ZHNjE5Z2U1SGJlUE5XTjZIMW5oX3c?oc=5",
-      "source_name": "Euronews.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "7f47f9a11d24f863",
-      "published_at": "2026-10-22T12:53:34+00:00",
-      "title": "US, Israel said to draft plans for resumed strikes on Iran after midterm elections - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORG5EaGdJUGZNRDc3XzA5eUphY0hrMl9zS0V6djFQQVJCVG5HSEVreDNrTFdIWjczQ1pURjFrQ2xQSVhPa3Zva3hxNkRpMDhnZHAxTkpXLVpJMDlkQklvWXViTzNEV01FRXo5Z3ZSWTI0c0VZUW1ON05YVFJmTERTMHQ1T0pvYWs0RU5FQjR4UXlSX1BkdE5DREtiS3ZpZUluVzZmU2JBUnpkYzRvU2NyNTJn0gG3AUFVX3lxTE9Ma0l6QW1yS0tVQXpuOXlnNjhSa3p3Q1hRSTNPak1DS1JVRHR3SWtwRFNkOHZDcGxTdlkwV1NFeEZQV1I5NDl2bDVFbFMtS1RsOVdsTUNxMk5ZNWdyMEhSaml6XzlDeWw0YXZrVXY0NHZBOVVZYy11X1FLRzZnYzE4S1VoRVpJOEF3cWh0TGFSNWxhbURaV0R4QmM1Y250RmZmRWF4eTNNNnh3aEx2MWx0R3NwWkJDQQ?oc=5",
-      "source_name": "The Times of Israel",
+      "id": "62ac0682cc2a3a83",
+      "published_at": "2026-10-22T18:10:00+00:00",
+      "title": "Report: U.S. and Israel prepare plans for possible renewed strikes on Iran - KTSA",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYXpLZVdkNDlNS19pVnRPTlBxeEdvaDVDUnhrZUp3ZWR5d1RwRXhILVRmWWhYVnNWb0ZrcmNOUktsRGl0ZEZHdE5jV0dIWlFFZE56OGpwdFd6TG14NzVMQXQwUW9iM1I5TlVxRWdaR0x2N05JbjRvWGVwUy1mSmFLeXFOb0N4aEJvX2dudHp3T24?oc=5",
+      "source_name": "KTSA",
       "event_type": "attack",
       "actor": "usa",
       "target": "iran",
@@ -379,22 +394,7 @@
         "usa": 3,
         "iran": 0
       },
-      "confidence": 0.65
-    },
-    {
-      "id": "295096f34c49d55d",
-      "published_at": "2026-10-22T12:42:52+00:00",
-      "title": "Iran war live: UN says 8,513 casualties in Yemen conflict since August - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOSGdCWnRNNlluUVVqb3dZbVR5ZzUxb3NCTTVDVDNrYkxScUlvSWRCTzVGYWxXVS0zMnJxOEJ4cm92OHRnazVyYWItMWN2a2dJQVo4aUVLU3ZqdWFGT1REVDBwTG1JX1E5akp6c21nNHp6MXUxQ1ZkSGZna3lyNkpzT1pfUk5LdVRjenlra3ZEY3Nrcmd5X19QTUplVFhqc2FmUThKQWl3TUVsRTNSamJGaDhDYlAtMzQ3Q05j0gHAAUFVX3lxTE1FVFFibW1vUFcyYlVTNTlSV0Z2aTFxODdlY0VodzRtSFRjTGNLODU4QlU5dnFydWE2ZExucG9rZDc1OGtvd0NiTFhqdFEzZkVmYkFPSHBNakp0dXBZRnJaLWU4Y1h2QXNPQzVZRjdkcmdwMnBGU1RQUDJJU2tMUTdaMjRUM2VhbktIYTZ2aTZ2Uk5NVlJWbVVHRkloVlhXbG1HNzVlN3poSGZZUVpnb1FKZFJRQ1NfSHZXclY3MkF5UQ?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
+      "confidence": 0.8
     }
   ]
 }
