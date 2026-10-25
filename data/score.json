@@ -1,34 +1,30 @@
 {
-  "generated_at": "2026-10-24T23:20:25.523850+00:00",
+  "generated_at": "2026-10-25T04:51:53.942671+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 88,
+  "event_count_window": 90,
   "totals": {
-    "usa": 29,
-    "iran": 15,
-    "lead": 14,
+    "usa": 34,
+    "iran": 13,
+    "lead": 21,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 28,
-    "iran": 15,
-    "delta": 13
+    "usa": 34,
+    "iran": 12,
+    "delta": 22
   },
   "confidence": {
-    "score": 65.4,
+    "score": 65.8,
     "label": "Medium"
   },
   "event_types": {
-    "other": 50,
-    "attack": 36,
+    "other": 49,
+    "attack": 38,
+    "intercept": 1,
     "diplomatic": 2
   },
   "history": [
-    {
-      "date": "2026-10-11",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-10-12",
       "usa": 0,
@@ -81,24 +77,164 @@
     },
     {
       "date": "2026-10-22",
-      "usa": 18,
+      "usa": 21,
       "iran": 6
     },
     {
       "date": "2026-10-23",
-      "usa": 7,
+      "usa": 6,
       "iran": 3
     },
     {
       "date": "2026-10-24",
+      "usa": 4,
+      "iran": 3
+    },
+    {
+      "date": "2026-10-25",
       "usa": 0,
-      "iran": 6
+      "iran": 0
     }
   ],
   "latest_events": [
     {
-      "id": "18254f50ab459deb",
-      "published_at": "2026-10-24T23:14:23+00:00",
+      "id": "c926a5b23178244b",
+      "published_at": "2026-10-25T03:53:00+00:00",
+      "title": "Live Updates: Iran warns that U.S. military not allowed in Gulf \"under any circumstance\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXdRdW1Db041UUN4dlYyNURUdmFWS0V0V1hCc0hnNVBZWlIxYk5Pdkg0Nks0Ri01UkRsM0NVR3VVTEVzc2psaWhpZDk1ZlRTTG0tcHgzcEZkTURsUDFoejN3MVl0NVBKZXNwU1ZVeDI0VWY5TEJ2M2dqSXBDcFpRTzRvSExKWEtVQlNzLUZINnZsT3phZ0xROHd3VXc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "4564193cca74c6f1",
+      "published_at": "2026-10-25T02:46:19+00:00",
+      "title": "Iran Update, October 24, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUy1oVUkwV2F4LTdiOElJTjJ6UlFZcTNLZHpzS1Rob1dSRHo1V2FTNXY0QmdaWTNBWF9EYXlxQmpYcXM2dEpicU9taDdmWF8zUDZFSThidU10bVhsV19lZEV0YzZETTQybEYyelhqTk43YTBXWlB4eHRJeFRuTzB4NmlaVlg?oc=5",
+      "source_name": "Institute for the Study of War",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "441977a5a8227cb1",
+      "published_at": "2026-10-25T02:44:00+00:00",
+      "title": "\u2018Maybe tomorrow\u2019: Trump hints at fresh Iran strikes as Tehran denies Hormuz deal offer - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOaHFwYVpvXy1sVDhJM2hrWFEzclR6MVF6MjhfYUw3V2dJNDZkWU5yUDNPUGdrRVN2UE9yWjFfWXlNTHdta0lDY2dSa3VrQTdmN3JHd3JCMjV5ZEdQb2x0eHF6emNJLTBQMkUzN09xWjhmY1p0cEJjRjFmMDh1THc3dy1JZEd2VzFJdDJ4NktidWluMzhmQUk4QVVtS3Z4OVdxa2RFUTJCbWxCa3F3cERYaWRaNXBxNlllLWM5Rzh3TEdUSVV5UTFpQjI5R2tWRXhWelRqNktuN0VfcWEyVEMtYUtWMXNhckd3MXfSAe8BQVVfeXFMTlBUNF9hWERjWEpzUTQ5TThGUVFpVkhNak9OWHAxWmo5WDluX2dWdldITFgxYXhLMVNydG1IdmVvUk8wVnNKTERBcE5MNjRLTHR4X0NUdDV5Wjhla3EzN0dkX1JNLWxzd3JLcXVxbVlVT2xudTNwZm9WNmpPSFp3S0lhVjIxQWVERVJiTnRGZmE4cTVncy1nZ3JHRW9GUm9iUnRXMVdXSE9lU3FxOGNZMWpPNVFGQTRLdkU1eERFSG1kbjB1WUpNcEtvQmhTRjh0Rm1FM243SDZ6VlVqTWVBQzRLbjZmTTdhV3Z4Y3dOd1k?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "2333bcdf9dfc1ef8",
+      "published_at": "2026-10-25T02:43:21+00:00",
+      "title": "Tehran warns of nuclear options and infrastructure strikes if US attacks Iran - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9CeVBKZWd6VHJ4QjdOdFdSTzNVT2NDQUlsaUpfLXdvbjB6RndMSG4wUFZEbUk2R0M1MVRfOXBNTTU0NU1XRnNpVWxCaUlqUWVEd3B6ZTktX1VENnI2Q2E2cTN5RkxiN1BWVlE?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a63e140924e11d93",
+      "published_at": "2026-10-25T02:36:30+00:00",
+      "title": "Iran war live: Trump hints at possible Sunday Iran attack or deal reached - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPRy1XR2xLRHBpdDFLWmZBY0Q0QW95SXpadWRTS1Z2dlFYUWtfaEFsNTBfTEloZXRuTFlyWUdkLU9FSF84VkNoMmx6UXZiTWhyNmI4WnZZVlgtWHhHcllTcGgtRlV0RGMxWnRvczBuMDFBRXhwdUUxYXNaZVdUbkN6VTZrY3JTd1VIR0JPTWItOXp1NDFBWjlRMGdQeW03aGlpc3JVWm1BTThmNGQzZHgzVHNMRXJwZjFGVEE4Rk14SUHSAcYBQVVfeXFMTzk5N2k2NXlJMUtfdW9EZXh4dU9sdk1YdTJNMWh1cnpER2ZqR2pXZ2xmVU5peWVGMnduRlpDeklHcXJLX0dUQ25jY1dpWGg3aXAwaWNIdmpKdzlHV3ZHLWxveThZNlVCRGx2Wkd0T1ViVUhZc20yUDFHX0t0SW4yYkxmeU8yV1RUeG50SmVoYXpLalpaLW1UMlBmeUdnT1YzdUxrbHZWYWhxSTFfMGNaTUxsTTBxV0lvSE9GYmtGNnM4SVpiYVpB?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "14be626c8f709b59",
+      "published_at": "2026-10-25T01:36:57+00:00",
+      "title": "Live - Trump says Iran strike possible tomorrow, report points to post-election plans - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
+      "source_name": "Iran International",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "8feabfc44c1f5050",
+      "published_at": "2026-10-25T01:35:00+00:00",
+      "title": "Iran sends conflicting signals on US deal as Trump raises prospect of strikes - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9reFd6eFdFdzZFLUg1dS1pd3BGYmtJMjBzZktXY1NSaXc5QkJwZE5xQ0FMMDVwQzl0OG1kcWtReEtlZjE0dFdzUUJ2LXgxTU1Pc1E?oc=5",
+      "source_name": "Iran International",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "fe0fd6aae98b7db4",
+      "published_at": "2026-10-25T00:59:17+00:00",
+      "title": "US Iran War Live Updates: Saudi-led coalition intercepts drone over Riyadh; Houthis deny targeting Mecca - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQV1VvdXByMXVSRHVqQy16bzJpRnNQRlZJY0V1WWMzWG80czVFSXdJRGpCUDlucXRnTDltbjN5TGVyY2xFcUgzTTVlQkktRmEzcFZ2Q3VoeWlGd3RTM3JzWWVmVEw5cGhmOU80ZEtRQjhVUHE5NGNvbHZvXzRtaDd5OTV0NU5PS3dmdzZaZlBYU3I0dVV4YUczS1ZKNktTa0Q0SmlwMXVIQjU0b0pGQzhjU0gzak4tZWdLdGppMHJFUmc1bjFWY0F6VlJieUFoOUZWcVQ5UE5LaExBSjlPbTJKb0xPRFhqVVYxdHZRYmJuSUUxa2RSXzhjT1g0WFMxMGFuQ1BROHVQRWprX0pLaGNkMFByWk1lTUltUzduOXhtQ3DSAaYCQVVfeXFMUGJHNHZmZlg3X0plUno5Q3NnNjQ0LXkwR1kwWVViX0NSdzBXNWt1UWZLbE4zby1QV0tkQ3BwQmgxQnphT2tsMVdzZFVVMDU4N0N5Vm5LQjhQYjBodExUeG9ZVVlBak45OWFUa0xaQzY4c1BCd0pVMjB5NzVFeGRYUWtxVTZ5V3BMemxwbE93RHh1WWNNa0ZQbnREallRSDBmTEV2bUtkSzRPWEpIY0E3d2g0YnFIa3lwc0wtSlRUZnJYeDBrLXhaUERrWkJvXzNxdmVqSF84UUo2ZE5jSVhYUHJmWWtwODZyV3UwRkR0dmdYaFZYX1AyajRZazJvazBMSlNpanZOcmY5OEFkQkVEZWt4YkdFSEU5UVJtZ082M1QzcnRLS2RR?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "a7f16ca368652199",
+      "published_at": "2026-10-25T00:56:51+00:00",
+      "title": "A New Level of Threat and Fear Risks Pushing the U.S. and Iran Back to Full War - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOenJjWWFLN0xjSXdjOHdmUFJ5ekx1M0FLLWR0dGxDc1p6X2xJbDAzM2Zia0lIZFhwdTBJOExfNnVseXd4M1RzUjRDV2MySDBTTTFuQTFKYmVrd2JEWTdOUG9BM3kzU24waU9zQlJMV0d3cFR1VXJrdVZzd1FITEV4Y3lMbHVOM1hZWlFnQlZKd3FvVDA?oc=5",
+      "source_name": "The New York Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "8f923022d589a0db",
+      "published_at": "2026-10-25T00:10:56+00:00",
       "title": "Iran in \u2018advanced stages\u2019 of plots to kill U.S. officials abroad, memo warns - The Washington Post",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbTBsQXJ4YU5ycmhZRVMxSGhhLVBUMFo5NXBLM3FJMVM2cU53ZExHcmlZRDM5RXU2ZWtnUXNaOFprWXF1eWNEREhEUWtlejI3bWN0bEQyaWRVUGpIMkRNMF91NVRKVXIwdnNlSDhLWmdUeU4yVHB6Sm93TnNFTnYzQk9HMHpIZDBJZ0ZRcU1QTUZSX2ctZzRzRUF3RTRZTUlvV3ZLWnI5MmhCckROTHdZbQ?oc=5",
       "source_name": "The Washington Post",
@@ -110,6 +246,21 @@
         "iran": 0
       },
       "confidence": 0.7
+    },
+    {
+      "id": "b9ac56fd2b509d18",
+      "published_at": "2026-10-24T22:23:11+00:00",
+      "title": "Putin puts Trump ahead of Iran in bid to mediate war - Al-Monitor",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0w3bVVBMUswRGNUYVJKQUF0VEFwa2Q4V0pyWmVobnhpbExzeXhvMHA3ak1UNkN6NVhpVUVISk01OHY4UkhlQUJLRlBVM3BSVGVHekJtTEwyc014UFdDTFRBVHZCeVVrM0JkYXB5c3RxLWpDT05NczE2OUZ5bjFBalFtTG9ieW5KQ3gyWVBRU1pYZw?oc=5",
+      "source_name": "Al-Monitor",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
     },
     {
       "id": "d697a92a6e7f7920",
@@ -124,29 +275,14 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.6
+      "confidence": 0.65
     },
     {
-      "id": "1664df1a193e588e",
-      "published_at": "2026-10-24T20:24:33+00:00",
-      "title": "Middle East latest: Trump warns of 'another little Epic Fury' amid fears of renewed conflict - The National",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTngtWlZKb2lHN2huS0pfMUtPZi1SYm0tOHRhMVpRV3ZpbW5ydGZfUVJ2SGtLTGZTR2ZQS1RpZEtzeDhQcUYwOVdyUGZoc1dlQVpUbTdJbGp1UTU4aFplZkJFX0pGMm1JSmVaOVpTN3BVbHZURkpUXzN1b3IyQ05TZ1VkYlp5dlJYTE9aRGZETQ?oc=5",
-      "source_name": "The National",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "09a02a493aecabab",
-      "published_at": "2026-10-24T20:14:36+00:00",
-      "title": "Live - US warships ready for potential strikes on Iran, WSJ reports - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBiblkxNnVtVlJKZk9CWDVFRTZvY2F6bWZORmVtSkR4NVY4VzZQa3dPZy1KNE5EbUpvMWF3TDk0VEY5QnAzTmFWS3FjenBLRHdpU2UtMjVKZlphZl9tRkE?oc=5",
-      "source_name": "Iran International",
+      "id": "812151479aba7556",
+      "published_at": "2026-10-24T21:36:25+00:00",
+      "title": "Iran blames US for deal failure, urges new try amid fear of new attacks - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ05XMkJCM0VsWlpad3c3TDI0OTBlWEl4SnJrdlNfRmFyRXdTOGpEZUk2YWlUMFZHZ25qOTctZ282NXo1bXN6SXZGUFZTNTZwN2JBbVJtNjZzY1lmYkQzU3l6Y3N0U2ZERmJ4eHUwc3kxX3otMUFiUm12RWY2MVJWTUs4Sk54V3lOZURVOUYzQ2hWZzBQU3lhYTBQd0NCOGNFUUJ1QUdEREhXaTBLQkpDRTlB0gG3AUFVX3lxTE81TzJSMTVEOHE5ZWVybzFEVXRiWFJiYWo1VkJsVTJjbEp4WVE0eFFwSFp3VjhmVWpuSHRKVy1rdjFndzdQTG4xd0w1ejN0anp6T1U0a25Delkxc2Z5N0R6elBjMDVYVDU4SWlyQW5xQUFBcUtQVGtHRjM4TWk4eC0zUFUtd3VTdnd4ZnhBdUUwejUwdFE4eG1RSHlnRGNmNG9VXy1fNVRDUkFiNkVPc2djMFRfM2NsZw?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -154,7 +290,52 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.65
+    },
+    {
+      "id": "d31ba6cb344fb209",
+      "published_at": "2026-10-24T21:00:00+00:00",
+      "title": "Pentagon drafts Iran attack plans as Tehran threatens aggressive retaliation - The Hill",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM2k3eTl5VVh2RUxsbWREby1mUFRZblNhdGhfTkhNSHhuZlJkWHR5TkpZdG1LeEJLTUttSlNIcnZkdDRhRHFGY0lHWWJvWjJEXzBFelFYakdTUzRpNW54R0czY3pZeVIwV2xDcmNCZ2xFUl9RZldxcDQ2WWNQVldkUUZBTHBDZjFlbkJj0gGQAUFVX3lxTE1vN0R0YlVPa0dCSVRPNG5BYTUtYnhlMlZ1TEJJTU1vM1ZqMmVlLW93dmpjRG14X1pERG1mUF9hbnU1TkZDTlZaVFZPSFo4dXRyVEo5d0Vqakt6WVR1U0NBOFV4NmViS3BlZk51NW11WnRpNHBLNmttdHhUT3hESEc5Yy13ZHRRaWVUMk50b2ZLTg?oc=5",
+      "source_name": "The Hill",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "cffd1de0b71914bd",
+      "published_at": "2026-10-24T20:55:01+00:00",
+      "title": "Trump says US could strike Iran \u2018tomorrow\u2019 or reach \u2018big, beautiful\u2019 deal - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVVlUV194bG9BWmFubXdJc1ZZTGlYSHZadG5zNERMemhaVkZiNnNqRjlEM1dzMVg3dm1MeHZ4ZjJvNVY1ZEw2QkpSbVR4YW14VnNvcjI2aTBIMUQ3MTRxMk1uMXBJU3BNUGhZdlFSalg1cHBhbU9BTGM4M2Job0tjMDU4QnhSdTFLYnVrRW5GYnBxQVo2eUxkQmV5MW9FTGMtQjBQdVluRVVXNTA?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "13acef8ec4334d15",
+      "published_at": "2026-10-24T20:34:17+00:00",
+      "title": "Trump: We May Attack Iran Tomorrow Or We May Get A Great Deal, Either Way We Win - Kurdistan24",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNUzExcmJMTjBPUXVWR3BVUnRCYnJtRmJ5dGlMMmFEQl91Z2w2WFdJcy1TZWdITk8zbzdDcWNucEZoY28tUndTcnotRTJSS3RrTWg1SmxnR0M5Z0NrdjFtUlZ2NVprME95RGhONmpHdWVCUUFHSGZYUWoyYVhNZ0ZyTExhZkphUXg4Z2t3ZHlaQnZBNGR1VWlPb1dwWm91eTBkM1A1YjdadUQ5V1FtSjNJQzl3TGhSZ0R4ajBzMC1MOA?oc=5",
+      "source_name": "Kurdistan24",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
     },
     {
       "id": "6dbc5030e7ab44be",
@@ -187,66 +368,6 @@
       "confidence": 0.8
     },
     {
-      "id": "f37650848f1b4aa3",
-      "published_at": "2026-10-24T18:00:05+00:00",
-      "title": "Live Updates: Latest from Israel, Iran, and the Middle East - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85NlA1SmNrMExBRGxIeWlSS3U2a2NMU2t5dE9ZUGllc3RtVi1HY0V1ckx2eUtBck5wS1hOU2trZFVoR1RJQTdUMXNQcWlGOEJuaEN1NVk5MWRQWVIxVk1UZ29wLXA3SWZvcTFFRUVGQXljdXUyN01MX09DUUFZelk?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "545a339c08e5cfd5",
-      "published_at": "2026-10-24T17:44:19+00:00",
-      "title": "Iran vows \u2018apocalyptic war\u2019 if U.S. strikes again - The Hindu",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRXJ2ckJqZG5lTU1acFZlT1AxMVBWNWh1OXNaUS1zdE9NeklvUXlpR29EeDNwbmNJT3p3N2lHZnVaTmhnZ0lOMWc2YmJ3a1oyQUV4dHdMakJMLUlTeXZCVU1lQl9fZ25KSlFKYXM2T0lhX1BwS0ZJeFlxbU9QbEJCNmd0SUw3WWFURnJXR0JjUFVmek9XQmZUSzJ2bTh3YWhxV051aDR0eVhQV0dpSks1ZNIBtwFBVV95cUxORDRNUTlQcElOQlYxSXAyeW1DSXZSYnoteXA0NjBMNlJnRllYUHQzSjd2SmVVRkNxd0cxZjh4THhybFlGRGNHdXhCV2dtb3pGb2VmeVRfQ3N0aHMwNGFJamRvMWNSVTdIdmJldDd6SHQwMjZ5Q3ZBNldMR2JCNFdHSUJDX2lMOFFHZm1scXNhM0xLdkhhRUhDcVpjajYyLXM2bEJ0b3FPSU1la0JvSDRHSmZTVXExR3c?oc=5",
-      "source_name": "The Hindu",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.8
-    },
-    {
-      "id": "2f77ddd8252991d7",
-      "published_at": "2026-10-24T17:40:00+00:00",
-      "title": "Live Updates: Iran warns that U.S. military not allowed in Gulf \"under any circumstance\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXdRdW1Db041UUN4dlYyNURUdmFWS0V0V1hCc0hnNVBZWlIxYk5Pdkg0Nks0Ri01UkRsM0NVR3VVTEVzc2psaWhpZDk1ZlRTTG0tcHgzcEZkTURsUDFoejN3MVl0NVBKZXNwU1ZVeDI0VWY5TEJ2M2dqSXBDcFpRTzRvSExKWEtVQlNzLUZINnZsT3phZ0xROHd3VXc?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.75
-    },
-    {
-      "id": "11e8dabcbdfdd6ed",
-      "published_at": "2026-10-24T16:09:00+00:00",
-      "title": "Iran in \u2018Advanced Stages\u2019 of Planning Attacks Against Americans, Officials Say - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNYmtHSXQwRFhlWlZKbTU2TEhPODc5MERFTG9feGQwRUY1ZklES2JWS3UxTUxOelgxRExOSFdUWEJnVFFDX284OHNsZWxIUzBVRzdINlpRRVhIYlBTN3A4Q2JrYWFrZVZ0MEZGRXVXVXVKTW82dmgwRWROUHFXcVVPU0oxdkljc3lldHc?oc=5",
-      "source_name": "The New York Times",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.8
-    },
-    {
       "id": "59c31772c0ba9fad",
       "published_at": "2026-10-24T16:07:00+00:00",
       "title": "Iran has ramped up efforts to target US personnel, intelligence memo warns - The Straits Times",
@@ -262,136 +383,16 @@
       "confidence": 0.55
     },
     {
-      "id": "89d311282888d330",
-      "published_at": "2026-10-24T15:24:00+00:00",
-      "title": "'Israel will fire first shot, US will try to seize island': Iran believes attack likely next week - repor - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQZXAtbGxRUU5tMERfamJ5ZHBPMHVWUnNkbm0wMi1vQnBLUC1ldmxXUG5HNjVKa2NINjU0bHdadTVOVWNJWEN2bjVGdnJIVWg3STI1VTIzWHVlZldpOFR1RkY4cFM3UnR1TndFMUM4Y2VfMFpEeXhMSUdDdHU5cDltamszYmJRWnFvM0FNS2VIRzhJMHRDRWI2TkNEbF80cExQRkV6YlJ4R1NPNVBFQm1BOEw4VWJ0YkI5dzJhN1BTeDFRS1d3bWxPRmUwZFB5cVM5ZnZxQnU3OE55bkZreU1Bd29yZHplREJjYUZBNTBfNTh6VmtKTGIzamdPRnZPV1RQZW05c09HMlZWdXhS0gGSAkFVX3lxTFAxUE51QVhJZlVwcUltYk5Ec0xOMmtOSjFMOWhPQUdtVEh3Mm5ZS201X3ZUbFoxMlhkaGNoUlVRZ29sdGF4U1FQOFVYb3BtbXNMc2hhRm85ODdhRUhKdXNFRGlnY2s2YTc1eVVJcDlCLUhwbVlJNEFwR2pOWnp5b25KWGtJSjNSUkpqNjh5c2pNOFlpZHhpVU9LUlRUQmtieG56Smt3Z2ctRkZjZ1g5aEpQekxXeVlvdnpHcDVQTzItcm1JbFhscDRSYXdnelh0cGh5eW5waldTUWw4bUlpZzlwZEplZWJ6QzVFNHg1TFpibFVGTjQzOUVFMnNQOGV0RmF4bnRKSFBXUWF0aFFFVVpDMnc?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "attack",
-      "actor": "unknown",
+      "id": "e4dd96ec256933ae",
+      "published_at": "2026-10-24T15:44:53+00:00",
+      "title": "American embassies tighten security as Iran threat warnings intensify ahead of U.S. midterm elections - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jcDByc1pCbHFOTGQ2bmctZTc5WXRheFYzMW1NMWhUaVEtb1oxdFFYLVdmY2RieTNRTkJDWE5DMUFRTDdOdWZtcTVidHVZWHVvXzk3R3l4blBTblZFQW1Hd1hjSFhoMEpraXlzM2ptemN3aGVNR3NPTGFqRi01SG_SAYQBQVVfeXFMUG50WmZfWjJyR0t5clgtTTVuakRCcEkyZ0xiTE9TMlhLRzR6QWxLTGFYM1BCMkJYQ1lsMkZYTmpfWlVheHJGd3MxTVBpS3JEWE9FdTZMb3ZiTjZYMktQeDBUX3UwOU1wemFHSnBBZG9UcnZkMzkwSXpXTWp5QUIwWUpRMEFj?oc=5",
+      "source_name": "CNBC",
+      "event_type": "diplomatic",
+      "actor": "usa",
       "target": "unknown",
       "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b695cf5639e55d0b",
-      "published_at": "2026-10-24T15:09:20+00:00",
-      "title": "U.S. is reducing staffing at 4 Middle East embassies over increased threats from Iran - PBS",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV3l1bVFNb3RpVE5rOXRHdjgzNl9CcGtuZGNsRUpFa2JnMVd4UU9PaFI0MWRjYU8zT0FpWnZkNC1WVzFleGdkLWQ0OHRnX2pvOVhpcklWSGgxdVhmU05BUjRmSndFLXBMamhmMFBzM3ZGbnZsMmhPTmVCSXJYckFGeEpKN2w2aU9yUEN1a19sd3JibUoxajdxV1M1NjdiUW01Z3JrSnhPWXFOT1MyLVhzbEtQenZEZkdZaVJ2dnFhd9IBxAFBVV95cUxPY28tMWVESXd5dC1kQUwxQzNjVE5hbnR2aWdwWnQ3SnJfdEtkdTYyOUpqTk54bTJudGpDNjF0eTFpVTU3NGlFM2FUY09sbEUyUE1rUm5yQ0pPRWNNQkNSV0ljVUFUQWNCN1NSWWNqZC1xUzgxeGVRUnkxalpULWE2QzVGX1ZVWTJaY3k3ZTlvaFg2VkxWTjdqZTNjREZQQlN0dDM0U05NSFBSSXVHOG5maUZsSWF0QjhJdkNUVWtPbUR0Vnh3?oc=5",
-      "source_name": "PBS",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "57f1f396d220c8b1",
-      "published_at": "2026-10-24T15:08:17+00:00",
-      "title": "Iran warns of response \u2018several times greater\u2019 to any military action - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV2Rvbm1TRkJrZXNvVWdvSzJGSVV4Q1NxaUJNQnd1RUNpeWwteTlNZ29rSEZZcWo4ZFduQm1LMlc4VzJ4a2wzeGV5S3hQT01JR041Vy1paGp4aDVHaXVLMTZWRmtadXdQVGFhZk1sVndkaExWZ09CLXJVd3hUSnNDdFlqam9RMnFmVDMtZk1fREJBWlQ0bHFpXzQwU0p6MktFeEpUT0lCRGhMeUhvakJuODJB?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "fbd327f78215ce54",
-      "published_at": "2026-10-24T14:47:00+00:00",
-      "title": "U.S. Evacuates Mideast Outposts After Suspected Iranian Plot to Target Americans - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSHhub0JHVm1Ca0QxUlBiM1hjSjkxZE5ZcHU2RERranBCd0l5X1VTNTI0ZWpiRHdhbG96MmEtUGNnTHZiWUZFM2NRSWdMZjlIaDNORWIzMDAxMVJtQW5sSjgtaUZ2Qm93VFliS255SjZBdUpkaWVjMFdVUnkxOEo0Z0p3dUVnTVlzOXNuLS1saGZCb2JqMmgteG9aeFM5NTg4SEJJM0hsYXdNeTRBbkZmRXVOMHpfaHRmQ3RXQ1BmWlVlZDhB?oc=5",
-      "source_name": "WSJ",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "a1c768820a281f71",
-      "published_at": "2026-10-24T13:15:07+00:00",
-      "title": "Iran says won\u2019t allow US warships to get close as Trump ponders new attacks - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPbnhYekZtTGYtNUxRY1l0SkNlclVxV1JhVHJ2QUNzRFhRQW96Z0FWbXBSakNhblFEYk9kNHBibExfT0xFVFhLbUEzLWZpR0VNVC0tT2NlTTRIWmlaRThSTXN5OEF6d1ZiSEhGak11ck5zclJpYkRPODdJdFNqLXJTWjZiemlRSnZuOUV1MWY3eDZYMTBjaThzRDJaU3VVQnFqbFQ3bEt2enJEeHNUcm1nZTBnT1lXNXfSAbwBQVVfeXFMTzcyR081VVdqUVNRX05XQ0NxRFFPdm81M0NEV0hPcm9FYlZmTEJ4bTBPQUtjSjZvOEx3aGFWdGNDbHkyZzdoVDlVZzZyU1NrNkt4YkhBZGxZcm1vZ0tlWTB0T3lZbDdaX3dnSkZVdUpqc19KZnpWS3Vlc2tiN1JEQUNWZEVZYmV0ZWVyYXFENDU4a2FqU3ZWZGR5dFFreHl4VzVZellsU2hwQVcyZzBBTjl6SG9WQUpBNmprOXA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "e4fe0c5140ccbc79",
-      "published_at": "2026-10-24T13:00:00+00:00",
-      "title": "Trump Prepares for Iran Escalation After US, Israeli Elections - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNbS1tMzRuM2wzRGNDV0R5b3o5N3p0V1U1OVhreW01YXB6dWdmQlBCMS1Hb2FmQnJYYVZsSVJKNG5pVHFGN1pqWlJYUk13cC02OTR5RWpZczZ1c21KMjkyMmIxOXJOQ1VDZFg0V3pSTENZTi1DM1NDeGx1OHJBVVc4TjlyeG84ZUhTZ3NXVnVHZGZVaE9tVFFoSHVkUlJoeE5BMkJJVU9kOFNSUG05YVRtc09R?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "a2a3c3f2b88d2718",
-      "published_at": "2026-10-24T12:56:24+00:00",
-      "title": "Is Iran planning attacks on Americans; why is the US on alert? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLW1VRmdINS01R1dERWVkVzVMbEotdHBvbHZVSGhYV3EwSm1fdjIybjhWQjVwUTh5dmRwS19yRFRwSEpOMnpvQlZmNWtHX2FKd3JVdC01SU9GV0FJVnJSUFpfUndUSk9XampPNV9iZ1Qwc3hUcnlGb2JiSi1QU185YVdGNl9oV0JibXVwd2JObFlBbjRYZGJjVXNBRnQycS1POGt0eNIBqgFBVV95cUxNdmdPeEQzVDhtUDJVRVRLTUYzQ0xCZjFWZGU2ZlNjWDNlVlhTRzJqSm1mZmphWEdZTjlWRTVVUUFRWFVOdm5TRUt2eDRDWUNRdHpVVjlEV2dWTl9oVC1ULW1Sdk1QMUNDcS1aeklWNGZWcVJBX01YUjBKYmNXWnJrYUNUX1ljRXZKM3ZTaWxtcDhlcERILW82bjdZWHJtRUthVWwyN0ZFakRzdw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
-      "points": {
-        "usa": 0,
-        "iran": 3
-      },
-      "confidence": 0.85
-    },
-    {
-      "id": "534d8941fe6254a2",
-      "published_at": "2026-10-24T11:49:18+00:00",
-      "title": "Iranian plots to kill U.S. officials in Middle East have reached \u2018advanced stages,\u2019 intel memo warns - NBC News",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN25tNE9Tdk1Fd1ZBaDFpZjBsWXVwMV9uZVJjdnEwY3AwS2JScVlNNmU3eDIyVVFUeFZORDFVTGV4UUFldTFwOVFzWVpoUFl1LUhseGZZTVdHeVJvOVVpMGNvRmxwSXE5OEV6cTJ6dnZiMTJnVkd4QXBYN3JRbm5FbllvR0plWFNPSnNGdWRDNjhERTZtYnloRDg1YTVXcUFZRm5aeXFGdm1WUk1FR3NoQ1V3d3JGU2V0dC1tQ1RscW0?oc=5",
-      "source_name": "NBC News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "ae78c1888691fb37",
-      "published_at": "2026-10-24T09:32:00+00:00",
-      "title": "Aboard USS George Washington as It Rearms for Possible Iran Strikes - WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOUxveWNyQjdJTWRlS2FqTWxnQnp2TFB0WHplWjBCTTlpZ3VEUzFqNmtDbDA1ZVZtUktmUUpQMEprNDlKcm1nUkRtOVEybFZ3eGc2MjBTWVM1NVRUZFU2VExzNXpTdi1QRlpORUZIZTlsRUg2aG1WLVloenozUkJuM1ZuWnF1cTBONjhreTRhUGJlSnNTa0YxT1ZXM1NURjNCbFlwZTNhNFIwWmFwS29TbkJkUWkwSURndHZMckROUDM?oc=5",
-      "source_name": "WSJ",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
+        "usa": 1,
         "iran": 0
       },
       "confidence": 0.8
