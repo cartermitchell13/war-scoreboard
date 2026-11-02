@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-11-01T22:08:31.059491+00:00",
+  "generated_at": "2026-11-02T06:19:22.064631+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 0,
+  "event_count_window": 97,
   "totals": {
-    "usa": 0,
-    "iran": 0,
-    "lead": 0,
-    "lead_side": "Tied"
+    "usa": 17,
+    "iran": 4,
+    "lead": 13,
+    "lead_side": "USA"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 0,
-    "delta": 0
+    "usa": 13,
+    "iran": 4,
+    "delta": 9
   },
   "confidence": {
-    "score": 0,
-    "label": "Low"
+    "score": 62.9,
+    "label": "Medium"
   },
-  "event_types": {},
+  "event_types": {
+    "other": 46,
+    "attack": 44,
+    "material_loss": 1,
+    "diplomatic": 6
+  },
   "history": [
-    {
-      "date": "2026-10-19",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-10-20",
       "usa": 0,
@@ -32,7 +32,7 @@
     },
     {
       "date": "2026-10-21",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
@@ -82,14 +82,320 @@
     },
     {
       "date": "2026-10-31",
-      "usa": 0,
+      "usa": 3,
       "iran": 0
     },
     {
       "date": "2026-11-01",
-      "usa": 0,
+      "usa": 6,
+      "iran": 4
+    },
+    {
+      "date": "2026-11-02",
+      "usa": 4,
       "iran": 0
     }
   ],
-  "latest_events": []
+  "latest_events": [
+    {
+      "id": "59ddc131f78b9a02",
+      "published_at": "2026-11-02T05:59:51+00:00",
+      "title": "Trump says \u2018at some point\u2019 US will have to give Iran \u2018the hammer\u2019 - \u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1l2Tmhya0dkOEFob050aHFuV2FTOU5LdW5tdmdKOTJBYWltdkFmbVZwZlhudjR1dzJhWS16M1B2YzhRMndaTDhXR1FBb2VSbUVmMDFwYWF1bDJUSDg3b1ZFUk1Xa0FPNHM3aHA2VEdmWTdBd011cEk5YUl2TWdYWFl1RGlzNlhSMFJxT05MOEtpY2RFZnhYX1pKSUdyRkwzcTNzTTgzYlFBdG5p?oc=5",
+      "source_name": "\u30a2\u30e9\u30d6\u30cb\u30e5\u30fc\u30b9",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "395bb85b0d7448c7",
+      "published_at": "2026-11-02T05:58:12+00:00",
+      "title": "Iran warns of wider, longer conflict as Trump renews threats of strikes - China Daily Global Edition",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQnFfR0lFc2tzUVJEaXFqbjVHcno0MGZOVFYxaTZVcTdrZDBJZ1dDVE9iTS1wTWJJbFlsamdMNU9JRkpxQW5feXlJNmtJMHVkZG9DTTh2NWxQMWRMRV9HTkxJdnNQQkh1alNGdWdXWE9LNUxNMjU1VnptbzRxYkVGc3J3?oc=5",
+      "source_name": "China Daily Global Edition",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ce8158979ea9b231",
+      "published_at": "2026-11-02T05:23:24+00:00",
+      "title": "Iran war live: Tankers hit in Hormuz; Trump again says conflict to end soon - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcjVGR3A0SEhEamhNR1o0SjNiVGpIYmJLRmZiOHRLZm14dWZHUThVeXZDZlUwdEY2dHBpSFVDOHh0Yko1SzlWa3R4aFpzUVRIMFZjcl9pM0kySGpZbFVDQ0VfZFh5bjlfOE1kY2lFZV9nV3AxR1Y3NHdKS1J2Y0Z6d2pBZ3lzTUxUQ3JJS2s4eDdLd0JGdklYeTFVSFZrUGgyOTZOcnBaRGtkYVhhd0tRYlpKRU9IQUtXRlh1MW9ERWXSAcYBQVVfeXFMTXFrTVhnTVZCTzVIOUg4WXlJUHBKdlhIcHNlYk12RUZZUWNLS3UwZm0yWTZZNW5GNHZJYzlDUk1ORWRMWXZ6dlJWS29CMXJhUWVKOVNvdzRUM1pRejdKMzVwQkhvQ29Ca0RGSWZBVzNzS19JWFN5ekc1VnZIZE9RS1VpdVpobXZlQUdwZGFMakc5dkx6XzdEaFI0YnZPNVJvRW5ISmE2Tk1SZlMwbjUxdndOaTRLZXY4UWREcHhqdTFGRnR2bWZR?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "6a4f2cbf653b9522",
+      "published_at": "2026-11-02T04:42:44+00:00",
+      "title": "Iran's Supreme Leader Orders 'Geographically Unrestricted' Response to Any New U.S. Attack - SOFX",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZ201MjA4OXRzVDRnZjJzRldOcnVyeF9Nanh2STltbl8teUZnUGNZYUJWNnhsNVNqNTk1OWVkSUpxTlcyVTlJbmhCcGNsa1JIeWdLUV96VGxNWHI5Z2xlc3JKSGpzLWhQOFhEc3VpM2dacV9YdEVKSkIyODhaTVFiQTBFcDN0R2c1NE9jNURUZGhhX29QblM0Y3JYVWh1LXpwbnRQSG9fS2NSc1Q0?oc=5",
+      "source_name": "SOFX",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "091017b4d220e384",
+      "published_at": "2026-11-02T04:40:00+00:00",
+      "title": "Qatar turns to US LNG to cushion Iran war losses - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9VQ205aUlkZ2ZWbmlOTFJ6OExYYU5TMzlJUGstbnRXT1lGWFZ6N081RnRVMThVSEJ0SkJJaVJpb25QVzZMUElwaU1BSzhSWXQxbnc?oc=5",
+      "source_name": "Iran International",
+      "event_type": "material_loss",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 4,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "d4e298c25b9e763e",
+      "published_at": "2026-11-02T04:20:03+00:00",
+      "title": "Live - Tanker hit off Saudi Persian Gulf port amid Iran-US mediation efforts - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9xekJZZUdONFZIdzhFbVNUMUF1TXY3TTZfVVo1UEd6X0ktZGRwQURYcWFDNlcyaEg1Slo0bXdQVzZxVkItUVdOaWd5VF8tX1owdUcyNXZ2cWY0TUtSd3c?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "6f5e8f83d3973722",
+      "published_at": "2026-11-02T04:19:53+00:00",
+      "title": "Middle East latest: Oil prices slide more than 3% as Trump signals more time for Iran diplomacy - The National",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT2RZbUR3bEtVUzBna1hJbGUwNHBnLXRJQkhtZDRDLXkyNkFlYzFHTU1ndUh0T1J5RHQ4aEpjWVhfT3F1cUVkS2dqc2NIdXFIaTdDSk1BbXJtNmR2eDNMa3M2TEpEbXR4VEtyYmYyS3pDeW50SGhicmNha2NDc0xvTXFGUnJ0UTd3RWZQNA?oc=5",
+      "source_name": "The National",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3b4ef0994c97eb49",
+      "published_at": "2026-11-02T03:59:19+00:00",
+      "title": "Iran warns of \u2018destructive\u2019 response if U.S. launches new war - Myanmar International TV",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcGEyWU8yd3RoUGIyRV9tM2FjUDE5WnR4cHdoRTRBdmoyYlR2WnlmQTBQc25PZGI1OURHeTRDcmxZWjQtS01VRFhGb3pSS1FPYnZTakY5aWJzWHVKUjBkdHdzTEEwNm5uSC1Vb2ZSTmU4dEZsTkk0d2hqOXpLWUdManpsY0tjaWRKdVMyWW5Hd1RkTkt1Z2NWVVBxQkFudVNpR1loMVhtYw?oc=5",
+      "source_name": "Myanmar International TV",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "1949a46ac4843a4b",
+      "published_at": "2026-11-02T03:58:07+00:00",
+      "title": "Countdown until US midterm elections are over feels like waiting for war with Iran - editorial - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1KRGFHVjhuU1FqNTZFb2tVTlV3bGQwUXZtVXQ1OGE5MHlXTlFneGhMV0szd0FJZ05NWVoyX3BMNVRXUkttMDZtbU53TjUxbG5WLVVVdlJwSQ?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "b3484a0a065937b6",
+      "published_at": "2026-11-02T03:45:00+00:00",
+      "title": "'Iran\u2019s indiscriminate aggression is clearly evident and inexcusable,' US's Central Command declares | LIVE BLOG - i24NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxObjdILWpZTHRMaEEtWTF1SGMzb0xHdkhndkpBOE5PZDNIVHJKdDJyVWFtRXJ5UHN4U0I3cVNwRlhoOWpIckY4ZFA3Ti1kVlZTb3plZEE2UWIyRmt3ZDBsWUFyeVhhT2lLZkJxRmVlaGlHdVQzUWo0MkUxTjhraDhaM2pWNmtYZlRGZk11d1VKS3k5Sk9oN0J5eFVhUXJvX090VC1TZFpqaGZsVkg1TkQzU2lrSDVDTWh5MGtIb290b1ZBbWo1ZGFzS19PR3oweHV2RnNEZlFzdmxmSDdBN2oxWk1pcE5kazY5STZJ?oc=5",
+      "source_name": "i24NEWS",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "b722b60a18cdd3bb",
+      "published_at": "2026-11-02T03:18:48+00:00",
+      "title": "US Iran War Live Updates: Two unidentified projectiles strike tanker near Saudi Arabia's Ras al-Khafji - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMimgJBVV95cUxNbkl0eUhTcFpFWndKOWdpa1VJNXp0UHdzdkNWNk0xRUNsUzEzSzIzVE1PMXg1R2lZRVV4WHNQSTZLa3hIRTR5RFIxdzNfOENUN2hjSGZsLWdldXN4Zl9teTNXUUJ6YndzQVc5aUsyOFZGRVlqTUJtUmZMZ0FVV25GNUpXYzAwYllGUGJPM1FoRXNxMzRRa2JIamlac1Y5MmdhUV9iVERTSVNxSjIwQy11NDE1Z2hEUXBtcHZrMERBcHd0Unk5cG9GQ1RGSkpXcWNON3BjZGJjLUhOYldHMmZQeVZyMkdqa0tPR3hNWkdlcy1WTzN2MkFVd2EwbndnZEV4MkpDRmZRZG9PTkpwMjVWVUhuUVFYb01yY3c?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "c5f60d51de6fdf03",
+      "published_at": "2026-11-02T02:38:00+00:00",
+      "title": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE11eUlzaXI3dkRUenBJc3owdTRDRVUwR09hSmgxT3JnZzgtaDdxYnFFUnBCcVNBNWNwTld6Zy16Wkd3aFhkMjhmYVhOSnVBbGxHOE9GX2x5bWVxbHUteXQwTnI5WThiV25rdTN1YlNDSkQzQnpQaUHSAXtBVV95cUxNM01TMzdYYUozdjc1Qmd0S1YtVXVKMklRNVFieFRMdG1OenhzZXZ3VEhnMVlTUHpLUFJyOUZaQkpXWG9SdFlPTUh3ellpYk1FRHpIQXRHalczUXptZ1JUNnJxeWJpc2NrcUIwQVlpc3RYOHBwdC1xNHdrcmc?oc=5",
+      "source_name": "CNBC",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "1e4953d0ac1b2eaf",
+      "published_at": "2026-11-02T02:14:31+00:00",
+      "title": "Netanyahu urges Trump to attack Iran as US pursues further negotiations before midterms - report - The Jerusalem Post",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wTGVJeGZCRlBobWRwMnVBV3NEOFlnYTl5b1pUWFBSVi1Hb0pPTXJEWFVBd2FXSUlyQ1lxWmxOeXU0NWl6N29BXzlyemwtMmRZU0EwWjFIN2hDRm9pMXpwNFlwUm9vc2RxV1E?oc=5",
+      "source_name": "The Jerusalem Post",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "9204a29b5c98ba06",
+      "published_at": "2026-11-02T01:28:00+00:00",
+      "title": "Gulf States Fear Fiercer Iran Retaliation If US Strikes Again - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQLUJ2eUx2ekxlenJCallsY0ZFQi1OeW51dERMMWxCODlpREdmTWk5MzllOTVUSE5KYzI2bW9Jd3FhMG9wMnVWTmZycmZGdEd5TEtWamdmMF9wbEZHWDljdTJkX3I5dk5xQU91bVBNZHhRSE4tQ0pYdXJ6MmZQazlIQ0dBejlXbnMyd0tKbWNabmlTZk9hRVhpWEkwTUxLWkJoSnRvWDEwQkxteE81bVF2QXJn?oc=5",
+      "source_name": "Bloomberg",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1894414e5c97a1f1",
+      "published_at": "2026-11-02T00:40:00+00:00",
+      "title": "Iran\u2019s nuclear bomb debate gains ground on official platforms - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ncU5lU042bEhlZ2RxWkFMeFl3TFdqeHoyU045dTlPQ3EzTHpBRU1lOHBWblNBdGtFbEpQbEFZS3hRUmlfVzl5V2hxZm1VZEpyZWc?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "45183ea3c1d383dc",
+      "published_at": "2026-11-02T00:23:23+00:00",
+      "title": "Iran warns renewed war with US could outlast previous conflict - France 24",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOd3d5UEVHS2xoX29PNkd4M1hXbW80Rk05RWhnVVVvOEtiSVNyRTRkaWkwc19BV2VtNnBMYzcwejJKSERsR3BYYUlFSjZoTHJrQWNTNXlaajg1Q2xtX0pJbWY5LThKRkljVTNlVUR2OFVkdTc5WWRSSGdWNkd1LVFON0wtdV9mcDItOUxHYXptbFBoLTVfSURON2VWRmtUOTNwSmxpV0xjWXhoVm51U0tMeA?oc=5",
+      "source_name": "France 24",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "4397f29990550c76",
+      "published_at": "2026-11-02T00:19:06+00:00",
+      "title": "United Arab Emirates says military solutions offer no quick off-ramps to crisis with Iran - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOV0xHTnRsSkJaelRESVpQZWVMbVF3ZGdNTndjQ01kaHp4MWJJbW5hS1prY3pER2s2UEZtN1FhUzI3MEZVcjlHVkxFRkFlTk9HN0hFYUgxRVRGOFRmQ0EwMzY1TGQ1NGI4a0JIbWxyS1AxbnN3ck9Bcl9wbFhfRnBMd09OVWdTMXd0dDhIdDNuMmtYd0ZTc1VMVWJFU0RLdENaMTRJOGZqd9IBrAFBVV95cUxNaFhyTVF3ZS1xMmlFSlhDdFVfOW1XN2xxaURBQmtKLWF4Vm80dlI2TF9VeElOTFNpNTRWQnRkR1N3WUhNT0dlOEdNQ1BwRjFZUU1mMlpZS1MwUUt6ZU5ZOHNjMlExc1l0bmZKQUhWWUtGUm5YblI5ZVlhWFh2Q3BFakVnMHpldFdyek1wbWg1NVZCOTQ1RmtVaEJmaEpsNk0zamtfcmVoTGtZZmFF?oc=5",
+      "source_name": "ABC News - Breaking News, Latest News and Videos",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "242a1d72528454d7",
+      "published_at": "2026-11-02T00:05:00+00:00",
+      "title": "Live Updates: Trump says war in Iran will be put away very soon \"one way or the other\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQOU84MUlJV2w4ZEtpaS1ndkJieWpObTZJUzloRl8yUV9DSE54RFkyTklLUm1RSzVwUVNzMWQtNWRMc0RpLTZJQVRieS1qbVNLRGpRbnpYa3NxLUczeDdYdzBQUEtJTVg0NUlEbHZOaGJfQ2plTHFvTmZ0d2ZkMFo2aXNGWXY4SzNVRncxYUMwWVk?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "cebfa2834a86c2ea",
+      "published_at": "2026-11-02T00:00:00+00:00",
+      "title": "Watch Gulf States Fear Iran Retaliation If US Strikes Again - Bloomberg",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVlVRR3BIX2o5SG1ka3dxQ3BnWmM0SjlhSHYyb3N4Y0hFVDR0dFc3Mk5sMV9naVJpTEpYcWhTSlo2X1hRV001WU1HUUU4bjZzODlCM09kN05DeC1UZllOV2Q1cnV0WFg0azFGNnhFRHI1UlNHc2llbWN1X0NsTVhmOENQU0hlcFN6VFctd0JNV2JqNzY3VUQzR09lOFh0U1FaS25YaDh5bzFZcUVu?oc=5",
+      "source_name": "Bloomberg",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "73b6e15705fc54a0",
+      "published_at": "2026-11-01T23:13:28+00:00",
+      "title": "Netanyahu, Trump hold private phone call as fears of renewed Iran strikes grow, i24NEWS learns - i24NEWS",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPZkZGMl9xMkJ6M18zTUNlbGM2ZzJyN3ZwYUZjLTN0MVpvREhyaGVES0ctbVZhb1pSQ0tidHk3WVYyaTR5WERZdldsbkZQMGxTYVBhVlFOZUJpOHQzQ0tvdERvaUwwWU9yMHlESlVtb2VkemkwbTNidjhOck5Yb1ROd28zV20tSUhlQmZaZ1h4cl94M0NrUFpnbjFSNUwwNDRGOElPdWpJbms1S0Z4Ym5LQUptUWJmZTk1SFdldDJKX3cxdGIxNTRuMmRieUhhQ3BhZGg4Yng4SmwtR1JUUGc?oc=5",
+      "source_name": "i24NEWS",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    }
+  ]
 }
