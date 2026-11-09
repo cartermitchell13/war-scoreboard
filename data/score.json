@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-11-09T00:58:18.865527+00:00",
+  "generated_at": "2026-11-09T11:44:48.494752+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 72,
+  "event_count_window": 79,
   "totals": {
-    "usa": 13,
-    "iran": 3,
-    "lead": 10,
+    "usa": 17,
+    "iran": 6,
+    "lead": 11,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 12,
-    "iran": 2,
+    "usa": 16,
+    "iran": 6,
     "delta": 10
   },
   "confidence": {
-    "score": 64.7,
+    "score": 64.3,
     "label": "Medium"
   },
   "event_types": {
-    "attack": 40,
-    "other": 28,
-    "diplomatic": 4
+    "other": 37,
+    "attack": 33,
+    "diplomatic": 8,
+    "material_loss": 1
   },
   "history": [
     {
@@ -52,7 +53,7 @@
     {
       "date": "2026-11-01",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-11-02",
@@ -77,7 +78,7 @@
     {
       "date": "2026-11-06",
       "usa": 0,
-      "iran": 1
+      "iran": 2
     },
     {
       "date": "2026-11-07",
@@ -87,21 +88,36 @@
     {
       "date": "2026-11-08",
       "usa": 3,
-      "iran": 1
+      "iran": 2
     },
     {
       "date": "2026-11-09",
-      "usa": 0,
-      "iran": 0
+      "usa": 4,
+      "iran": 2
     }
   ],
   "latest_events": [
     {
-      "id": "7c646b374c49baa9",
-      "published_at": "2026-11-09T00:37:00+00:00",
-      "title": "Trump says renewed strikes on Iran \"highly unlikely\" if talks progress - People's Daily Online",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5S3JUamZJZGNVZlAxX1JJaGYwQnNiSzhsdFllV2I5MmkwMnpXQnR5WEVveXlER19tWGxYN3lFdzhzRF8wMTZfRzc0U3NNR2JfYmFUZXR5YnFiNXhGYnZKRzdwZw?oc=5",
-      "source_name": "People's Daily Online",
+      "id": "de16a24ba6092d31",
+      "published_at": "2026-11-09T11:36:57+00:00",
+      "title": "Middle East latest: 'We need both': No choice between deterrence and diplomacy, says Dr Gargash - The National",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQRkdzMDFwVFNGNEFRbmVXNUZ4MG5RTDExMlVPcmIxek5OaEpFOFp2c0NVUEhzcWt5TWVVb3NhUDQ5SzJQZjhqaU41ZnVEMldQRGNNTk1CWm9pS2h6WmxHdlpKMHlqZ3BFaXBDaXdRTzIyNlNTY19FY0MxelZ6bEh3MjFB?oc=5",
+      "source_name": "The National",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "58bceb248197b074",
+      "published_at": "2026-11-09T11:25:44+00:00",
+      "title": "US Iran War Live Updates: Iran confirms overnight US attack on Qeshm Island, but claims no damage to vital services - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOGY2VmROV3FXdkcta2Y3V25aal9lNlZGMFdSeW1QZDFGaXNXSGxfek9qYUh2bHdFazJhYTZjRXJRdmhHLWpvYmhncWVvZktreHBWWExOcDZhQ1BKYWVjd0NIb3I2N3l4OWp3Q3ZLLTJrSXZ6MHI0enN0cmpCdjhKUTFBTnpBTmlMYjZ2NmdDUVMza1dPTV8yblZILWJtQkFRcVMtYlh6V3ByUVc3WGJzRHI0TUpsZ1hiYmlRLXRKVV9NUTZIN2szWlNfc1VCTFpNZGhDemxLZUMtZ2VzQUxVdmdzczRSNHZLTTZMS0pLV1NVX09UTkhDYzNaam8zZkRfdWpzbVd3Z1oxbElfdjROUklZZ2V4Z9IBmwJBVV95cUxOck1OMkdiM1BCOVJmVEkwb3k4U0tfSUZwbU1WWHdad3R5NVd6cXk2WlIwT3pHbW5uZkZzZHc2ZEYwTmpkdWtob2JldDc3dGxlZTlzM0hoY01ubUQ5TUxFT2EzTUhCZ1VyZkJSeG00UnhHNl82dTVBRlhJYnE2RVFoRnc3akJnUGdma0lMYlhNblJQVTFteW1qSjJGYkRUVGdySnA2T3Z3b1c2VmNkVllUY3JCRjc1N1gyU3E3SnBJNndET29ZeXVIczVrazBUd2c1aVRIRDFqOWxFTzVCYy1wbWNnZGM5RmhPdjVvMDNwb2UtQ3dKYk52ekM4UHo1TzVxenZYMHpDRnVWTUtpVnpiSTczRVN3X0JUelNR?oc=5",
+      "source_name": "The Times of India",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -112,10 +128,145 @@
       "confidence": 0.65
     },
     {
-      "id": "9fef1464452bb355",
-      "published_at": "2026-11-09T00:18:08+00:00",
-      "title": "Iran war live: Trump says \u2018Iron Gate\u2019 in effect; drone hits Iraq gasfield - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS29zRkhhNG5BNFlmS0RkM2g4V1JrYU0xeVhNWWI2akxOdE9aTDRjSThIbUhMRmRMSjEzRDhMQzQyLTdsbVp4WTh4bEpuNXdMQjdjaGlVM0ZSZnhhSlg4WG01cU5qYkJsZTVJZUlnUHVaSEhhVXRIUzY5VVhoUXl2MlNWQnZYNlA0ZGpTMk5xR1VpbGpKdUk4ZXpFWUFlNkp5WTgtQl9LUUxJZjEwNlJ4NXRIX3hqWVBfOWJ5anhIdkLSAcYBQVVfeXFMTk5QeDgzSWFEQlV5MGt6bEhqWWFmWHVPS1doaHM4UHJsTjlIQUdiMmZiQUE4RWdPSHZ1V3J2RmtTVVRxNXlBMW9VTmtQa2dOOVZ3OXhvRGpRUHFESFdFQlZKM0xlV2VKQ1JJQ25nNS1CWGtyMjhPYlVua2JOcFdPZl92YW1JdjJKTUVVUFR5VUJQbTNhTTIybUJPOXBpaThYNTVrUEt2SkxvVjhLUWhfWGVQZWlBRTd0QzJaRUtRZUU1d2p5b3RR?oc=5",
+      "id": "c346e215ce8da919",
+      "published_at": "2026-11-09T11:25:00+00:00",
+      "title": "Live Updates: Trump says he sees no reason to escalate war with Iran, touts his long-term goals in the conflict - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0zN0FDMkRwcDVyZGFpV0dvRnhidUVyU1hrc2pKQzJZMmlLZDF1bHZ0dzBtMDJLOXc5T0xNYmRuS2Q4eU1QQmFqaHJ1cVg0VGkxcWN3dEZLVlo1UlQ0ckZCaW52b0lHQzVZN2N6UElySjhIWDdXWVh5T24xcmh4Zw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "49cfbd8cf8bf1b6b",
+      "published_at": "2026-11-09T11:22:23+00:00",
+      "title": "Iran defends 2-day proposal for peace talks after U.S. rejects \u2018outrageous\u2019 conditions - NBC News",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdlR0VXVrS0gwVEtoVFRwcWdBa05sVkk1S181WTVkZTM3N3lfSms2R0kxTk1IT25YWUFjYUlKMXFzNVFQZWlPV2JxQk5XTXB1U2RyMFdUZFpjSnJidVBzZHZid2hya3BzcVQxZ1dOODdfcmphZm14VXJpSXlhczJRQ1FWZDhoa2pWclY2Z3gyb3U3bHVFdmpRZTVucFEyRWpPUmdTcVF0aDljTXlhQU9OTjRoOTlueHc?oc=5",
+      "source_name": "NBC News",
+      "event_type": "diplomatic",
+      "actor": "usa",
+      "target": "unknown",
+      "points": {
+        "usa": 1,
+        "iran": 0
+      },
+      "confidence": 0.85
+    },
+    {
+      "id": "784b76207eacfc4d",
+      "published_at": "2026-11-09T11:22:00+00:00",
+      "title": "Trump Says Nations Should Pay US For Iran War\u2014How Much Would They Owe? - Newsweek",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5aT0FqYXhaMG8ydE9RdTRPVGtNT3lBd3NNdWw0T1Z6WGJ5amRIV0JtOVFOSEd2M21LSFVQWjdKQ0Y4OEhKdVl1YlRQdUJTN05NTFFkY0U4SmIxeXIweEFnTHRXRkswUXZydVFOdVhrei1iY0ZaUV9hMw?oc=5",
+      "source_name": "Newsweek",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "8b61bd02577759cb",
+      "published_at": "2026-11-09T11:13:40+00:00",
+      "title": "Trump Says Strikes Unlikely as Rubio Slams Iran\u2019s Demands - Bloomberg.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNR1JUa0FQMWUzTVllcmxJbGhSd2p0b3lwc0RKbmhiVE9WZzVmMmQtY3dQV180TlpoaFpFb0V0YWdjc1hCTzltckF6eVdFRHRibTlrQ25CWEdMMlBuMklWRDVkb0Q5WFE0RTlKWXRFVjhBMXJnZWRfUzFFWDNfaDdERGtQTDJRMlZHSUI4NlZjaTM5VnBNNVFZRWl5dmFZMzI4MU1IOVNSVWVHWkpqVnM1V3dTVQ?oc=5",
+      "source_name": "Bloomberg.com",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "ac232c6033e1c314",
+      "published_at": "2026-11-09T11:09:14+00:00",
+      "title": "Rubio sees little hope of diplomatic breakthrough to Mideast deadlock amid 'outrageous' Iranian demands - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5jUnFoaUY5Uk04NjQzYzVvZzIxYTVvbUhGZTMzSGFFUjdYcVc1ZS1lT3JqUi1rU3pZT1EyNUl2MkZHdFF2cGhzenBldXZJcEpBOXRJUEpjVGVpNUkzWUMtTklXLTNRT01pUmV6ajVR?oc=5",
+      "source_name": "CNBC",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "bdee00205bf964a0",
+      "published_at": "2026-11-09T10:48:00+00:00",
+      "title": "Iran\u2019s Army doctrine shifted towards an offensive approach - Mehr News Agency",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQeHJ2X2U3NEM3STR1UzNUR0RoRjVrV1kxRDN4UkxMSTZFeV9qNVRfaFlHQmpkV3ZGdXp4MDNfaDNfNW5YQ0ljal9yZkRvc0dFQ0ZqbU9MQ20tc1RwTVc0X19Cc2V6c2V3YU5MNjBERFNUNWFhTGtOeWVHa1FxVER5dmZYb1d1LTlkczRwT1BrM1N2NU5fVmNLWUVn?oc=5",
+      "source_name": "Mehr News Agency",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "0f3f06f67bb9794b",
+      "published_at": "2026-11-09T10:45:00+00:00",
+      "title": "Erdogan urges Trump to avoid fresh Iran strikes as Turkey pushes for deal - Middle East Eye",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxORGlGczVQWHM5QkhXWjZoMExpYzNXU0ZPNTFBWC1RbnExb1gyeXQ3NVRVQXo3MXFtM1A1M3YwSWk2VXdDQ2w5LVBWM1QtcjkwckEtT3NwZUFvX1RaTFhPelVJV29pdUJaYUM1aVpPbC1hZDFIa24yNWFFbDY3WHNwMzdrMXVBcFJRT0tKNWxacGJnMEFGanlVbG5KMzBRZ2M?oc=5",
+      "source_name": "Middle East Eye",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "72fcf70548353a87",
+      "published_at": "2026-11-09T10:42:38+00:00",
+      "title": "Trump says US has \u2018won\u2019 Iran war as Rubio reports no progress in talks - Euronews.com",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPUFk2SzhMUnZnbFhjV01RMWQ0bUQ4UG5tUVYwYVozNU1MQXc5MGgwUGNGRzY3bllMalF6cGo3R2tBektVaHNCQWU2ejZCUjNtZ2tESGZKVmNrY3QwWGpjdXRrTzVBQ0hSVVpyQm9iTlVSQzhUWVpJendyY2tJc28ySWNvR3VoYlVTX2ZpR0ZVbkVfQlB2WHIwdjl5MUp3Y2k5VUhtWG1DWQ?oc=5",
+      "source_name": "Euronews.com",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "91964c70678f1d69",
+      "published_at": "2026-11-09T10:38:00+00:00",
+      "title": "Iran challenges IAEA over response to strikes on nuclear facilities - AzerNews",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB5UUxOeENIakFZWGxsVG9uZ0g5cEFuT1dmcTJBcDFhLTJ3SHFjM2Z4VXE4SmRUaGUtVWl4TjdjWlNTa0lFQTVBOHRScUloVVA1N1MteQ?oc=5",
+      "source_name": "AzerNews",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ad06a433d0c2d806",
+      "published_at": "2026-11-09T10:00:44+00:00",
+      "title": "Iran\u2019s authorities harden domestic security controls amid US strike threats - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNejM4M1haR2lZMnBiOEpTSTJOazlhRHNRQ0N1Wk1GZGJlYzJpZGd5b1JBLXV6ZXVRMEhtZXJzdHVtSlBfNVMzdzNVTlF5cEVUNGwxbnB3VVBGMG9kMlpIM3g3ZDFvWVJKU084NnBndnpYdVFFMDY5eTBad3RrR1BoOHlwc0lyNnNMODJPbDR0SDhoVXRxUWdaRU9TUkd6T2hfRldBQTJPV3dJVEJCME9YVWtsM0Z6d9IBuwFBVV95cUxOcDI0VFBIaVBFVnVCa1UtV0IyZmVnWkhPNkM5T1p5dy1UMU9rMkRzMk96ZE1NLWlkS0pmNkJnVnNGQUFUNTBaQjJtSWZlYzhEamMxbzk2a29OSHdNWTREUDh3S3RJR3JvWHh1V1ktVFRxUWswSXBZUkV2UGtMbmtXeDR5UDBiM2hkai1kbzVvT056YjB2OUM4NmVzOVBURFJrUFNJT1NfT09ZZUpBSzVjMFh3NUFNWHNyQ3hV?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "attack",
       "actor": "unknown",
@@ -127,116 +278,11 @@
       "confidence": 0.65
     },
     {
-      "id": "c2fb609b9dd90009",
-      "published_at": "2026-11-09T00:11:00+00:00",
-      "title": "Trump unveils 'Iron Gate' task force against Iran as Saudis launch deadly strikes on Houthi rebels - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcDdXQmM2WGt1cDZsNmt4Nk1iUWZTdTdzT2lvNnJtak1XbUVURkNlaWNsci1wOEUxTkdwZjFHSUNkMENJWEJuX0J2RTZoXzh2NHUxUFZxZ2hfb3NPcE03UzBfdGs5ckxkNWtKS2RBM21KenFHRlgzRlJTdnA5RnRpQXBpcw?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "afe0d050d6a9abeb",
-      "published_at": "2026-11-08T23:57:00+00:00",
-      "title": "US-Iran war news: Donald Trump says renewed Iran attacks 'unlikely' if nuclear program, Strait of Hormuz talks show progress - ABC7 Chicago",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONURXUWVLdXpnZVBiZTdzY0pyR2ladzREeWhERWlkVGNRM053MjV3R1RUMnpCcEpZaXVfSHFMdDNKV3A3N3NxU0VxZzVsaVo2Y2g2X2x2cjBhRExKd3Qxakc0ejhvdS1MeDJRdmVIUkw5dmI4SkVMc2RHQmR4bDBOZS1aWjMzeGttNHFQSElIbURobDYzVlJTYXpTaXRDSmo3RkgwcWxvcHlVYWxlajA4cjJmcGZiU3pQT3RfYXpaZW5fUEVqN3Noc2ludUl2NDFpLVR4ZWtn0gHbAUFVX3lxTFBLODRUb2EwUV9iUEdnMmZoMldqV2xMekh6ZDAtOHhQU2JfZXBWTW5TdVlGUDRhWExIYThTclFyeDExTUhFM0xqTlF4aU13cFI4RzNIWFM4bnB1bTRfSUlfYjE3Zjh3R3ViNmgzUVFWU2N3ODlhSXZGanF5M2lPTE90UXVYTWNoOFBxZlFFaG5BNUdkemxnc0dnOEJNcjlEWVF5ODZJalppMWRybEE2VkNtZWxmQWtqU1JPNVFZNDlBWnY2WkV2Zl8wN05LX2RCdG51RlZpUUhUQ0QwNA?oc=5",
-      "source_name": "ABC7 Chicago",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "73a53feefc196b00",
-      "published_at": "2026-11-08T23:40:43+00:00",
-      "title": "Middle East latest: Trump plays down prospect of new strikes on Iran - The National",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNME42cE40Mk9sODA3dHc5LWNWZTRab1JhY1RmcVA0WklGQ0VOUlRUSkhXc0x2eThQM3lCVE43VlpnSWgwVUFSb29RVW5oZnBPMjFzWXkxYXAxSEUtTHpRcmRFR3pBTUxIX1F4clI5clBrTVNodTRPOHl2c3dlREFqdW9ROWx3R2xoS1JLMWVPSXI?oc=5",
-      "source_name": "The National",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "cc04c5c8c53873fc",
-      "published_at": "2026-11-08T23:14:00+00:00",
-      "title": "Live Updates: Iran downplays new U.S. task force aimed at disrupting ground transport routes - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTGRhLVU1VTVqNWp4WUduNU5uT1pwOEUwYnV1RmlnODdlUzduZDdsLTQzMkZLeVdiYlhBT09pMTI5RGN1a0NYVTl4Y3NDcmV2Q3BKZHJBZ1hEMTZsVXAwZkRyMGxZNDRYVXoyVV9qUXFoaDZrcHNmdXZwaEhMSE9raDJoSlM3a0Z4UVE?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "10afaee801d6d095",
-      "published_at": "2026-11-08T23:08:57+00:00",
-      "title": "Iran vows \u2018astonishing\u2019 strikes and lifts missile-range limit as US targets land routes - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVmFjY1UwcWdiOGlGSXgyQlZZakp5clRWaDZZeTUtay1ndlRWMTFUU3hSbGtVWFFUWERkN1VRVlByaXlRUGhlSWJQa09VSnNrUlRIYWpqWjhGZ0xEUXJKU3V0MXRHbGE5SVk1dHNWcTI1a0NlWlhHTEo0dHJHMXlrUDN5YVltc19XWVRBWDJLYVI5ZWVRZVl4RndYd2ZpdFA3bzVROURqS1ZFeXlv0gGyAUFVX3lxTE1OQmZMZjJrSEsxcXQ4WDlPUUlmZkVRcVBmaTRMdGQwTWRLM09EQ0dqSk5aWWhuZnRvVXFNNjVFZ1M4OFdHT3k4UkJpMS1Tc2dNQnVoc1RMbVdydWRzZHRsVmRfNVZjZDIwNmNoTDZkOHpSN3c4UV9KY3FFWU9panRjZm05WTEtb3RxdVFuRi1XVVBNTDVkLUlMdGlwc2o1QzBDQjFaNjVHaktKSE1GUk5VUEE?oc=5",
-      "source_name": "Fox News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ef1feb9c599bd672",
-      "published_at": "2026-11-08T22:56:05+00:00",
-      "title": "Trump Says New Iran Strikes Unlikely If Talks Progress, CNN Says - Bloomberg",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQZzA3VUJ1UWpnaXNfMkt1RFJGUWxuRG5EX3VsRWJBVngwNVJETXBfS1dUUGFZel9lMEJIdi10dFNlZWduc1ZSOU50bTBfbXVyLUpaQ2EzSmpXSWZGM2pNcFJJaFExVWhDTmxVSnc0TWozMTc5T1lhSHIwU2hTVU1XSzdYU3dDQldWZ2dRS012TUpsSFRBSmJjcEtRbkFIU09NMkFORGpxanpXaXhIVF81TzZoSTE?oc=5",
-      "source_name": "Bloomberg",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "0474b00cb817333b",
-      "published_at": "2026-11-08T22:45:54+00:00",
-      "title": "US Iran War Live Updates: Iran's FM Araghchi threatens to 'rain down hell' if US chooses war - The Times of India",
-      "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxQOGY2VmROV3FXdkcta2Y3V25aal9lNlZGMFdSeW1QZDFGaXNXSGxfek9qYUh2bHdFazJhYTZjRXJRdmhHLWpvYmhncWVvZktreHBWWExOcDZhQ1BKYWVjd0NIb3I2N3l4OWp3Q3ZLLTJrSXZ6MHI0enN0cmpCdjhKUTFBTnpBTmlMYjZ2NmdDUVMza1dPTV8yblZILWJtQkFRcVMtYlh6V3ByUVc3WGJzRHI0TUpsZ1hiYmlRLXRKVV9NUTZIN2szWlNfc1VCTFpNZGhDemxLZUMtZ2VzQUxVdmdzczRSNHZLTTZMS0pLV1NVX09UTkhDYzNaam8zZkRfdWpzbVd3Z1oxbElfdjROUklZZ2V4Z9IBmwJBVV95cUxOck1OMkdiM1BCOVJmVEkwb3k4U0tfSUZwbU1WWHdad3R5NVd6cXk2WlIwT3pHbW5uZkZzZHc2ZEYwTmpkdWtob2JldDc3dGxlZTlzM0hoY01ubUQ5TUxFT2EzTUhCZ1VyZkJSeG00UnhHNl82dTVBRlhJYnE2RVFoRnc3akJnUGdma0lMYlhNblJQVTFteW1qSjJGYkRUVGdySnA2T3Z3b1c2VmNkVllUY3JCRjc1N1gyU3E3SnBJNndET29ZeXVIczVrazBUd2c1aVRIRDFqOWxFTzVCYy1wbWNnZGM5RmhPdjVvMDNwb2UtQ3dKYk52ekM4UHo1TzVxenZYMHpDRnVWTUtpVnpiSTczRVN3X0JUelNR?oc=5",
-      "source_name": "The Times of India",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1904291a9b3a0d7a",
-      "published_at": "2026-11-08T22:43:00+00:00",
-      "title": "Live - Rubio casts doubt on Iran diplomacy, says Tehran's demands unrealistic - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE95U0ZtQmdNa0ZLb1ZDczdBNHVhcXJEdTRNLThfVWpPZW1WSjRwY0RERFEwTzFlOVJyb09UZ1h0aUh5OG1PNWI0YVFQeXhzbkdxOU0yX25yaDVwUFlHVWc?oc=5",
-      "source_name": "Iran International",
+      "id": "9a851910e0e9cdcf",
+      "published_at": "2026-11-09T09:37:47+00:00",
+      "title": "Iran war live: Diplomacy intensifies as Qatar PM to meet Trump and Vance - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOS29zRkhhNG5BNFlmS0RkM2g4V1JrYU0xeVhNWWI2akxOdE9aTDRjSThIbUhMRmRMSjEzRDhMQzQyLTdsbVp4WTh4bEpuNXdMQjdjaGlVM0ZSZnhhSlg4WG01cU5qYkJsZTVJZUlnUHVaSEhhVXRIUzY5VVhoUXl2MlNWQnZYNlA0ZGpTMk5xR1VpbGpKdUk4ZXpFWUFlNkp5WTgtQl9LUUxJZjEwNlJ4NXRIX3hqWVBfOWJ5anhIdkLSAcYBQVVfeXFMTk5QeDgzSWFEQlV5MGt6bEhqWWFmWHVPS1doaHM4UHJsTjlIQUdiMmZiQUE4RWdPSHZ1V3J2RmtTVVRxNXlBMW9VTmtQa2dOOVZ3OXhvRGpRUHFESFdFQlZKM0xlV2VKQ1JJQ25nNS1CWGtyMjhPYlVua2JOcFdPZl92YW1JdjJKTUVVUFR5VUJQbTNhTTIybUJPOXBpaThYNTVrUEt2SkxvVjhLUWhfWGVQZWlBRTd0QzJaRUtRZUU1d2p5b3RR?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -247,100 +293,10 @@
       "confidence": 0.6
     },
     {
-      "id": "0de6e8b4cdfb5c10",
-      "published_at": "2026-11-08T22:19:04+00:00",
-      "title": "Trump signals openness to Iran deal amid renewed Hormuz tensions - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fVmh0QnhrY1pkdGFDdlo0cWZOWUNHbDJadmRtN25wb05nc2RKMjUwYmhmczFNRzdYTFRlOTNpUWU4cXIwRDdHZ3NFSnRrQ0lMYlE?oc=5",
-      "source_name": "Iran International",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "f090f6a448ac3e9a",
-      "published_at": "2026-11-08T21:46:51+00:00",
-      "title": "Iran: Trump says strikes unlikely if peace talks keep moving - DW.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmJ1ZUpQbVJBVkZJRFduUlpvQllXakM0QzUwYWdObVFtd2tKTG5SNVFQM0lheTlVR00xYnBfZ2RHX0tzdktEZ0dHRk1jRnEtSzJZRE56VVJsbDZNcVM1bnZQckVmaGNlbjBXTThKVl9FZWkxVVdnRWp4cWJHNTVkTXVwQTJENHBpYV92MTJYZ1Fsdk02Q0pn0gGXAUFVX3lxTE5wN0VSZ2p6RUp4VXRqSVd1cDdkajh0U29FbjVRUEtEN180U3g5dm9BZnRTSF94Si1DdDJXUmZWN2ptN0xDSkJkQU9hRzZxWC00QXBFVUxqUkV4ekRTUXdyNEdoOWFsZVg0Y2hSM1JtSVpwOFhtdHViOEhNNWQzeUZNd05lcG9tNG1rMmo4d3FwaG1xWmtQMHc?oc=5",
-      "source_name": "DW.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "b6e9a6bf65b12fda",
-      "published_at": "2026-11-08T21:28:50+00:00",
-      "title": "Israel prepared for US strike on Iran, but Donald Trump held off - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GallITURTbUFkN1FiTHJHWFpQU2wxaWg1UzNBa0ctUkxvNENtU095bTV5M0IwU0s0ZkhWenNVWlUzYXBhMXVrTWNyTVVoaVN3dlkyS1ZmdnlPZGN2anVzR0pPY1Zyb096b3c?oc=5",
-      "source_name": "The Jerusalem Post",
-      "event_type": "attack",
-      "actor": "usa",
-      "target": "iran",
-      "points": {
-        "usa": 3,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "138c5cd382829eaa",
-      "published_at": "2026-11-08T21:28:12+00:00",
-      "title": "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but warns he could still strike - CNBC",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNb0l6UllaNWstdHV3YXVHY3FsaTV6blctcjJ2aDl5dnNwZF9OOFdrRXM5RlN6bUYzU2ZnTGU1bndLek5kTDFTWG1LZUFuamZLbFUwUmJiMDF1a21pOFNhcjI2SzdLVHRtWWYzOHVJVl9qMk9CY3E3Y2lEY1VOZ2txYTRHOA?oc=5",
-      "source_name": "CNBC",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "095f0f6bd925048f",
-      "published_at": "2026-11-08T21:06:00+00:00",
-      "title": "Iran gives US two-day diplomacy ultimatum - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTHpFQnJrS2J5UGR4S3M3SjZIVUJudmE0Rnd2OTVuajlHTmh1T01IUGN0Rk43VXdfRU51Qngxa0V3Q01tSTdTQkozenhjQ0xPUS1YSkFYYzctX3A1Mm5KOUN1aDhwdUNuNnZtdGdMbmpxUXp6SzZGZml5MFVRdXRnMnFxWHhPR2kwR1ZncUZEZVNJc3FncGfSAZsBQVVfeXFMT0M1d21OTVBXOWpVTkRVZFlieHRJQVA3a3c0akdpV01uUUdnQmpxLXZ1amozeFFtZS1yOFFGdTIwMjFka2RqN3ZBXzd5RkJrdVU4UHpHeDdkY3VsNVhuWlFIOHpGWXhGZWFQWEN4VURtUnduSEFFbU5wTnF0bDZ0NVVvTFdBTjBadC1SQ3dHUmVOd2ZUNXRTVUVQUEU?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "d940afe016850898",
-      "published_at": "2026-11-08T21:00:23+00:00",
-      "title": "Trump: Renewed strikes on Iran 'highly unlikely' - www.israelhayom.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNN3hKSDlmc0VwNVgzRkpKaHlLMF8zb1M1SmpVWTdtZmVFTjlMVC1GQVpwSjJlVVdZNmVVaFpVY3d2T3pfSmNabm11WVpRVy1jb0d4V0FUTnpNSDVxdUI4TGtfYzdMRG5ySmN4T2phbjlycVBRMkVUY2VicnlmS0JGbEZnZ1phaWNBVmFxQzdXU0FoNGRjVTFmeXBub1dSM2xIZWFF?oc=5",
-      "source_name": "www.israelhayom.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e46b76e0f688c981",
-      "published_at": "2026-11-08T20:16:12+00:00",
-      "title": "Iran threatens to \u2018rain down hell\u2019 if US escalates war - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNeGY4UThBZ2p5aG5CeVd1RWktVFhWbjVMUGJmaEZmdWdkLXpFa3dfcW1PRkZlcUJvLWFBbU1lc05NbmVTT2I1bDB3M1M4Rzg5VkxleDJJNkRZNlJPRHFrOFQxYkxZdzVRY29lR1hZY09oUko3Y2pUZGlqdG42Y2lIZ1lEWDQ1dlRSMXFoTnFTczZvclUzclMxNtIBngFBVV95cUxNNnV4cG5GTnQ4SmJXeWxmV1pXY0pQRDQyZWwtcWVFYnhPRHNsQ2VIRnhVZlhybWdObWVreUNJSGU1UzIzdHcxU2RkU3B5WFVHVHFrUFprNkthQ2JQaWNPMm1ET3ZKNTd2eW5wTkFDOC1GSDJpemZWelk4ZlhCaWdVUWdBRWx3TkFiWUd1OVlCTWktODJlNkVya1BmZDVTdw?oc=5",
+      "id": "cfe1db41a7ffb6de",
+      "published_at": "2026-11-09T09:31:52+00:00",
+      "title": "Qatar PM to meet Trump: What\u2019s the latest on US-Iran negotiations? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOTG54ck5HeEc1SFBfeF83WGR0SGxuS0FUcFhzQUtBa1pLOXphcDdvNk9QYS0xUkpBd1JnNkVybHoyOUlUeHVfYUF4eUpzWnd1Z2RWTW85VTdYdGVZb3NaekZOSUVsSmlWTXVqN1luWXV2ZjhtWWlpdElSY251Vkl4cTFWS3kxak9GZnBxS3JPckFmUlF6Nk9fOUl1R1gyckxIa19aX29mRdIBrAFBVV95cUxNYjNzN21zZTFQOFlUOUNqZndVM0IyMUgtZ2lZZlRtLWxRZm1ILV8yZ1pWc1NLWnJvd0p1QW13OS1mZERoLUkySDhFZDB6WmFmZEdHaDlCREdxeHd5N3ozVkJpeE5ndkl0YnJ3ekhYT1JaUGUtdXFSbWJDaUM0OU1VZWh5SU5ERGZWOVNPZEFWNTQ5dnVjMWxVd1Z2Z3I4ZDFmQ2laWC1MMnVaVE1O?oc=5",
       "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
@@ -349,14 +305,29 @@
         "usa": 0,
         "iran": 0
       },
+      "confidence": 0.6
+    },
+    {
+      "id": "96e38e17e1262a37",
+      "published_at": "2026-11-09T09:19:43+00:00",
+      "title": "Iran defends two-day proposal for peace talks after US rejects conditions - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQTF0eFRFOUtERE9BUEU4Sy13ZnpyT0pVdUo1aHRYY3ctUThfVzFOTlFmdlJvS1NYOExsalBydmhoQkpVOXRaVC1TTjZ0cDFVRWtnS2x1MGthR2RiQnQ3WC10emY1ck8yTUxZVU5LVHVmUmdkM2k0S2NEbWdKOEk5QnE3WGhBazc3aEpZaFdBMS1jVUJoOE81QXJHLU1HbGJMLXROZUlXa245Z0NIS05FSA?oc=5",
+      "source_name": "Reuters",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
       "confidence": 0.65
     },
     {
-      "id": "59aa8c578bcba0af",
-      "published_at": "2026-11-08T19:51:38+00:00",
-      "title": "Trump says he is highly unlikely to order Iran strikes if talks progress - Al-Monitor",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPR3ljQ2UzQjk3ckllT2VBaHAzbzF1RDVKWmxBOWNlLUQzWnlQTGplMURMRDNrTzlkTmhnZkFVVXcxVDV1cXppZjZrc0JFV1ZmOS1FQUNidmNNLVJIblRfQldwS0I3VGdCQjFRYUl1NUxZd25vcGJ5WFlYMEdKSVRoeHd6WlBIUVZub3cwMTlGQWpjVUFXamlrQVNHa2NrdkxFRjBPM1oySi03Zk8wX3BINA?oc=5",
-      "source_name": "Al-Monitor",
+      "id": "2dde12db12a0f096",
+      "published_at": "2026-11-09T08:21:45+00:00",
+      "title": "Gulf stocks gain on Trump's signal against renewed Iran strikes - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTktoWW9WcXF4bTZDdDJwR2Z4Rm1SdmZvZlR3Sl9NVmxPZUhZQVBhb2k4WXJUczBkLUxOV0dWaHZHZ0tuNUlEcVU3azhUem9ib1prV0xXNWdPdVZjNFAwYTBTNFRKWEgwMmNtMUQ5dG1zTzVFY3J1RmdHMk92d2pNYkoxaTBmdE9oaV9aUFdLc0tPdVNqRmNGTlpvS3hQSE5LaDdGbzJkVFdNNXNoSlJyZE1mQQ?oc=5",
+      "source_name": "Reuters",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -367,11 +338,11 @@
       "confidence": 0.65
     },
     {
-      "id": "a417d58dc9a3a2a4",
-      "published_at": "2026-11-08T18:38:54+00:00",
-      "title": "Iran Reverse-Engineering Captured US Military Equipment - WANA News Agency",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQS1c2OTJ3LVRqRXhCTzRWS0N4ZjRsbXlZQ09BdzNOdHYzb0ZBcDNQREtMZUV3NXBtLVI5WkRsWW12dUJnRVA5NjVhZUMycV9HVFdxaG5URVhOSHhFaUxLcTVQbnBiQnBPeEV5UGdRZXJRdWNxeE81cXNhQURCR2xxVw?oc=5",
-      "source_name": "WANA News Agency",
+      "id": "bd9df6f23769a0a5",
+      "published_at": "2026-11-09T08:10:29+00:00",
+      "title": "The Experts Are Taking Their Revenge Again - Foreign Policy",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1pNEdfYXlTd1VEdEdnMnpjaWFtRVVtNDVoblExc2sxU3I5ZU5aTXFGRHJWWm9MOUQ4WHVYcjJzWTdvRm1BdU5UTHJCQUg1bFNCc2pqOVhNLVZCcnRESElJQU11TU1UWVU0MTQxZUlURE1vWkU?oc=5",
+      "source_name": "Foreign Policy",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -379,14 +350,44 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.7
+      "confidence": 0.55
     },
     {
-      "id": "966693a68049965e",
-      "published_at": "2026-11-08T18:25:45+00:00",
-      "title": "Donald Trump tells CNN renew strikes on Iran \u2018highly unlikely\u2019 - The Jerusalem Post",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9pTmU4Uk5qUWJKZGpMd2U1djVkMk0yaEh6QmhjbENKblBNYm55dDRHNVVmOEVYMlFhWjhsOF9HeDJObEZXQ1hzd0RwWHF4UHNrMkZsSlZyeThaYnRlZDc4Z3dveXhmNzBCX2c?oc=5",
-      "source_name": "The Jerusalem Post",
+      "id": "de5e88caf04f4a4b",
+      "published_at": "2026-11-09T07:27:00+00:00",
+      "title": "Oil Prices Fall, Staying Below $100, After Trump Downplays Prospect of New Iran Strikes - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOS29XR2VmWjE0VXk0djYtZVB1ZHpfSXBjYS02b1psblVVYjBUWjMtejVmMzhmREwtNHZrdGFHQzNub0o1STNxRV9DclpWOG8tdTNGNzVJYnJKdWxiM1ZjOC1GLXQ0OGxvTXE3SWp2eGV3WEJ2ZS1VbnUxZk9aMHYtcEtVbi1MUTd1RnRLdjhudUcxbW9GOVh1akQyazdXSV83QURqM3g4VEtTc0VtNGd2a25pczBoT2FJ?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "37705146d6cb6bea",
+      "published_at": "2026-11-09T07:10:23+00:00",
+      "title": "Who are the seafarers caught in the US-Israeli war on Iran? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQbFZTaUdlS08tWmFfLUFBSjl2YWpsbTR0VnpJbVM0STRmVUtWc091VkpIXzdkamFnNW1PemNROXRrRExYZFZwOVhWeEhMcW5BbHAzcmctRUxHNE5uMFpMTUJxdDdLeHk0RGpJdWRFb0JYZnF4dURxdlV5bnp1YjFiSEUtX2RkYy13azUtdmtYSHo5cGNjbmhyS19NdUFMMHda0gGmAUFVX3lxTE9TNzdqWEVZaTRnSV8zLW01S1RrMWtPZEdlbVQyZG9fTngtUl82QU9oaUdLMmpxTDNqUzZoalh0SE5EUUwyNktoVHk0dFVVV2prSUxsV3VZSU5BRjFtaWEtQ19wYm9aR3NEZDc4X1J1ZkwzMUV2Vk52eHpyc3JELXJsdW9Xa3g2UVJjakRjX0YxQ21rREQzZk9EcXJXTFE2dkNsWFRmZkE?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "f91678b86849291e",
+      "published_at": "2026-11-09T07:03:32+00:00",
+      "title": "Iran: Trump says strikes unlikely if peace talks keep moving - DW.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNmJ1ZUpQbVJBVkZJRFduUlpvQllXakM0QzUwYWdObVFtd2tKTG5SNVFQM0lheTlVR00xYnBfZ2RHX0tzdktEZ0dHRk1jRnEtSzJZRE56VVJsbDZNcVM1bnZQckVmaGNlbjBXTThKVl9FZWkxVVdnRWp4cWJHNTVkTXVwQTJENHBpYV92MTJYZ1Fsdk02Q0pn0gGXAUFVX3lxTE5wN0VSZ2p6RUp4VXRqSVd1cDdkajh0U29FbjVRUEtEN180U3g5dm9BZnRTSF94Si1DdDJXUmZWN2ptN0xDSkJkQU9hRzZxWC00QXBFVUxqUkV4ekRTUXdyNEdoOWFsZVg0Y2hSM1JtSVpwOFhtdHViOEhNNWQzeUZNd05lcG9tNG1rMmo4d3FwaG1xWmtQMHc?oc=5",
+      "source_name": "DW.com",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
