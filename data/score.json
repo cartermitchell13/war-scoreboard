@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-11-14T22:32:27.473340+00:00",
+  "generated_at": "2026-11-15T06:44:19.831556+00:00",
   "window_days": 30,
   "momentum_days": 7,
   "event_count_window": 86,
   "totals": {
-    "usa": 16,
+    "usa": 13,
     "iran": 7,
-    "lead": 9,
+    "lead": 6,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 16,
+    "usa": 13,
     "iran": 7,
-    "delta": 9
+    "delta": 6
   },
   "confidence": {
     "score": 62.3,
@@ -20,17 +20,11 @@
   },
   "event_types": {
     "attack": 25,
-    "other": 56,
-    "material_loss": 1,
-    "diplomatic": 3,
-    "intercept": 1
+    "intercept": 3,
+    "other": 55,
+    "diplomatic": 3
   },
   "history": [
-    {
-      "date": "2026-11-01",
-      "usa": 0,
-      "iran": 0
-    },
     {
       "date": "2026-11-02",
       "usa": 0,
@@ -79,7 +73,7 @@
     {
       "date": "2026-11-11",
       "usa": 0,
-      "iran": 1
+      "iran": 0
     },
     {
       "date": "2026-11-12",
@@ -88,23 +82,238 @@
     },
     {
       "date": "2026-11-13",
-      "usa": 10,
+      "usa": 7,
       "iran": 3
     },
     {
       "date": "2026-11-14",
       "usa": 3,
       "iran": 3
+    },
+    {
+      "date": "2026-11-15",
+      "usa": 0,
+      "iran": 1
     }
   ],
   "latest_events": [
     {
-      "id": "85821b4eae31ea35",
-      "published_at": "2026-11-14T21:43:53+00:00",
-      "title": "Live - Iran hits more tankers, says US blockade seeks to starve Iranians - Iran International",
+      "id": "2c067115d695e9da",
+      "published_at": "2026-11-15T06:02:36+00:00",
+      "title": "Iran war live: Saudi-led coalition strikes down 3 drones - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQWNHaDFxOWY3NnRZZm4zTHZQandnM2NFaTYyY2pyallRb3poSURScEpTeDlweFhLcHRLRGdjSDZab1ZlUU5JOU1jUTJvNlQ2X1AzaHZRN1J0bDIzU1VmVTVlUzhaM0NicGE2ZmE4bEZsOVFRc0dqVXdjRF9EZEJZZkpKdVdVMFByUDhFRW5LRWlZSkJuWUQtd1NEbEhhM0dkN054ZzJJN1A3WXgtZjJER2NLdnRTNkNnTk1uUm9LbWjSAcYBQVVfeXFMTTlyNmYxSlo0T0QzX0c5NlNZQWFZdWF2N2dSVFNjXy1XX2c5R29xR1kzakNhR29xM2Y0aFlqNUlnWWJDeDdUR0NJQzZ5R2dhQ3B4WmtGNzZKYkxvYS1vMzMwQ09ldnZHdF9ld2dMTnJqRVhsTnI5ajRFVkpxZGt4VS1FelVFdE9ONEpRb1ZtbVJvQW9xYThqT2dWWjNSS2FWTEFvX195ejRNTDh6SjJ1TnQxT2xVeFJ5aVJfNmhSREpGdHhTWWhB?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "0034407cf94bad42",
+      "published_at": "2026-11-15T06:01:43+00:00",
+      "title": "US Iran War Live Updates: Iran claims attack on US base in Bahrain in response to 'hostile' actions - The Times of India",
+      "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPMUdRVnc1WUhlaG5GT0Nzc0tyclhpTUN3STdEcjl1R0Zjb2NwZXVDZ08zZi1vNTg2WjMtMFRCZWZodjhqdWZSeFRqdlNzbGxSN0NCZUgwNXY1NlAxWjBpbGN5RGkxdWNrY2VHZWh3NE5hX0JwV3Nfb2ZncmxPSTRLVERpR3RaeXJVc1lHUV9pLTB3Nzd0WFBTN3VEM1gzVzlJV21zbEM3VWlFZFVVc2V0enlYak0tcDdtLU9yMk9YT3RObVVJNkpLTDJNSTdpZG1ZZ042a2Q0eGFmdWFLX1ZseDJFbE5BSkoxclhsUG1wclRzanFCQ1pUbmg1M0ZJRDNSaU9va0QxTnZDNzlZYkhr0gGUAkFVX3lxTFBiaEJURS1qVVVFREpqMEdVZndUQURELTAwMm5nRl9qbUdCN3VpbmV4SHpMZ2FIWm41REpMQ2lrZDg0M3ljXy1hVlNUQzJfYklaWWpvLU9tWE1UOWh6Yy1YUmV4cEJsOHl0TTFpVWczM2o0YkJWRi1ROVFHYzFYU0FCQ2xMQWFkRXIwcklabDYtb1FrUWNZQWptWUZDZ3M2S1RJZUJxZzUtM1N6dkk5eUIwV1oyZktSMUFXM2R1Wm10d0FHYkgtTWhxdldkOXFQVUN2TkdveXd5ZXFhMzlUWTZ3cFBpaWRoaFB1M0w5bXQ2ZGFVUF9ycUpQM3NwUnN0cks2NFlURXlieXhjM3pCUG13V2dvTg?oc=5",
+      "source_name": "The Times of India",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "fb946d55c8de7559",
+      "published_at": "2026-11-15T05:57:20+00:00",
+      "title": "Live - Iran claims it hit US base in Bahrain after Manama intercepts drone - Iran International",
       "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1xYTFVTTdXUzNYNUhDSlpNS2VjV1VVTUs2MU43Z1lfamE5MkhlMFdtMVdReUVjTjNZZVpNSmZVUmJ6Ry1IWm9CTk1JUS1ONW1VTkVEX2tJdWJiNUMxZHc?oc=5",
       "source_name": "Iran International",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "f858369c09b643c7",
+      "published_at": "2026-11-15T05:41:12+00:00",
+      "title": "Iran's IRGC reports drone attack on US radar station in Bahrain - Trend News Agency",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1PR3BOOFdieG9hVmpRUkhUaUduenR0ZHlPd3lUWWNhWjg0YWFsNHZGSUFlWG91Y2NOTmVMS29UVjJMMkFNT1RKSkpJTjlHdVE?oc=5",
+      "source_name": "Trend News Agency",
       "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "b4c9cd5b5fac4650",
+      "published_at": "2026-11-15T05:22:56+00:00",
+      "title": "US Intelligence Estimates Iran Retains 1,500\u20132,500 Missiles Despite Strikes: 12 outlets compared - NewsCord",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQR1A1aFZqaXlpMDBwS1FEc3g0OW1WSF8xbmVPanZIOW9VZWpTVkoybUNXYTRieUlKdmdfalBGcTB4OG9Wd3otM0liR2l2ZHllZlktdUNJMjY2Vnl2MWgyZ3E5ZVFrTkhmcW5lLUlkcE00VFFuNlp2VDZ3Y05mOHBHUFE5eWgxWG9xMUFSZlNySGpadjBONWh0VEtBZVFZV0VzUmUxb2M1Sl9oTUZ3V0xmZFV5cmxlX2FsRDlqektTSUd3Ym51bVVmcnZnd0E3TFIweGt0MVdQQ2NoandLSlVB?oc=5",
+      "source_name": "NewsCord",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "1af40e82ea889d7e",
+      "published_at": "2026-11-15T04:54:46+00:00",
+      "title": "Iran Attacks Bahrain as Conflict Escalates - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPc3lsWFRDVTFjbUZFVHdTWkVtWklneU0tUGk0bmdSQUh1dlg0NTg5MXFMREhEOURUTC0zeEJyUUtPTmh6TGNPem92V3pWeUlLUkVKelRuY0VhaWUzaHgySnMtaG4wZmRUUDBQVmx4T18wd2tkVW1wMUppTmFscWlKT0NiaERXYkpPcElwTnNjZFVWWTg?oc=5",
+      "source_name": "WSJ",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "1e2bdcedf96ef8d4",
+      "published_at": "2026-11-15T03:22:52+00:00",
+      "title": "US intel estimates Iran retains up to 2,500 missiles despite war damage: Report - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRERKOGFNblFuMXowX3VMdEtEN0JqNXRJMlplZzRhYXhpTTd4RGowY0VLWDFLaWtNLU8zQ0RJZGR2NlY3clF4eW1BZ0dLMkJnYXVrQ2FMdy1ubE0tWVI1ME9FVW1kV2prT0YzY1VzTWxBcVloVllxSmEtNG9CTm83Y2thVmxQQjV0UEp0a0Ztb0k1S2h6U29UemNIdjV5a2pRUjJOX0l3TWZtcVlxVXN5RUJkMlVscHpHQ0RucA?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "a26f244cd88e4948",
+      "published_at": "2026-11-15T02:58:00+00:00",
+      "title": "Saudi-led coalition intercepts missiles towards Riyadh, drones in Eastern Province - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOemlqVE1TdmREQ0t3TjczWnBWVGZ3TkxTc0ZPVC1fZFlrUDJCZC1KV0liZGdUTHBXZEZpWG9SNkJJSlBYSjVPbE1aUnNtWHl2eE1FbzlURGRwckdIT3R2NG9rVm1oX1V0VEZoWmYxM1dSbmhNc1BidnFLX19YRVU3Q2tzR1F5Vk1QX3dDNXVCeXZ6bmVES0lZNTBlR3E0Z1hJcXFyYXpMam80TGRWbURod1NsUXBwZldjdHFVejFwaWtmVmo3ZWYzYW5QMzk?oc=5",
+      "source_name": "Reuters",
+      "event_type": "intercept",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8ae3129d4728ec8d",
+      "published_at": "2026-11-15T02:47:36+00:00",
+      "title": "How does Iran view Trump sidelining Vance from talks? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNU25YOEt2azhyMVliR1pCWFgyOEFLWW5wTmVwUEpxR2M1MVBNNUc3X2ROUjduSTBIOTVZelBtX0wxM2dnQ0dpb2hPbzlVc2lhV19KVm4wUDlMMk1EODlTb1VpM1ZyZnZzemtaQ2thZV9ZaFBnd3NROUZKS2dSRzNBeWQ3TnVZQmJLM3FERUxGN3dQQWdmckVMblhTYUZHSXNMQWY5c0RQMUJXQdIBrwFBVV95cUxQUlFndzRxWmxLRUxGT041VHg4R0ZfakRCU20wZUs3WXV3NW5obmYxVVFfNk1LZ1lSSE5QeElIVFhYQ3hmbWFJVXB2OG1ERHB4aDV0UzUyQm5PMmctNl9kVW5aMVRNa0xuMWNNdFRIQ0lmV0w4NzRsSEhOVDZ6alRQSkxvNWZNMmRGeHBiYVdLN0cyN2tWQTd0a2tMSHktc0ZJakZ0elNJZUJUaDdxdzhn?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "d8f451d34c1e3c1e",
+      "published_at": "2026-11-15T01:04:00+00:00",
+      "title": "Trump, Putin, Xi to Discuss Iran War at Unprecedented Trilateral Summit in China - Haaretz",
+      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxPd0xCUHc5Y2pqUFYtQ05JallueEoxaXQ1Q1FnSXd1b2liWUZrVV9xM3V5b1hhSjZOX0FqemVRWXpBdGw0N05MZ0VGZWlEc0k4TTBLTEMwd1RRZUFnVmJybWYyejQweWpnbTJjaWdsbWVJQUVWbmIyMDZlb3FyckF5UktvQXVWWEVOOTQwYWE4OTF0ZlRXRmw3WkZYaEktMjBBUVdVLXZORnFHN0haVkZVckVlMG9pT1BjbmZwM0xoa3RUNmZERHUwY2xVczNEb0REQVhhVGllbzhPb3ZpM3pxZ0VMWjRfdHJLdVdrWlczbVRLZUw1WFlrNXhoejBIMkVYenc?oc=5",
+      "source_name": "Haaretz",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "db7f63d8ce72be86",
+      "published_at": "2026-11-15T01:00:00+00:00",
+      "title": "U.S. Figures Iran Still Has up to 2,500 Missiles, Countering Trump Assertions - WSJ",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOUDVwNnk4SFpaRVhKQVNBZFI3VkdXM1VQaEtPcURJT3FMUUxXaVF5NjNVOUt6U0gyY0NWeV8tQkR5cXQtT2V0OUVncDhrdlh3amRZckptN2Uzbi1yNXhteFN2S1hMbGpIZEdXLTN0YTQ5aXVkVURRWmFHTTdIS2cxUjFKWVlFY19JbmZFN3ZucXVFTkV5OV83a2xrdnFRb0VUT0x2R3N5TVJFbWZFNzF5N0hSQlVhNmpYUDExU1Njbw?oc=5",
+      "source_name": "WSJ",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "2b9f7885f963dbb7",
+      "published_at": "2026-11-15T00:56:00+00:00",
+      "title": "Live Updates: Netanyahu says it's time to remove Iran threat \"once and for all\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeU5UZDJHMEc4OWsycksxeTkxZEs1R2s4clJCbG5wR2tMS3lyLWpsZU8zY1pFajlxSWtoeW42YzNxR0RZbTgyenlZYUFfQ3pBdzFiUDgwSEFWR1JZaGwta2hsZy1TMm15eHdrZm1OMmdpcXhBdzl3RDdPUnFiOFNsYXRjX2VVTHc?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "2a1502a789953c4f",
+      "published_at": "2026-11-15T00:37:12+00:00",
+      "title": "Iran Update, November 14, 2026 - Institute for the Study of War",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeHh0MDN0Uko2eHNzTS1lYnN6MUtXUE1pdTBGMll5RnZfd0FnNWI3UzBlM09NYzVrTzhLZ2xDQ3dUMHFGcTZaOUFENmoxQkl4ZWt4MWxjYW16SE16VTdpREFpWWF2ek85SnVOVVVDNUVVaVllZkZ0RWtoTFdnd3RoX25BYmNjQQ?oc=5",
+      "source_name": "Institute for the Study of War",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "b0ba80157f036967",
+      "published_at": "2026-11-14T23:58:00+00:00",
+      "title": "The U.S. and Iran are at war. But ICE is still working with Tehran on deportations - Los Angeles Times",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQlhzZnBndU5qUVhMS3NTQ3FhbXlFSHh2MXBISVI1TGUzNmRCTjcxWk9vUVREaEpRRjNfd2Q2Mkt4SGd0a3cydXctbzcwQmVnS2ViWXNOb0xVSUJCSnpKOVo1aFpGeGY0dXV6SUpVWjBVYkUtRzR3SWMwZnZ0cVBJLVlOcjE2emRCX1lN?oc=5",
+      "source_name": "Los Angeles Times",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "bf33fa70f1001a04",
+      "published_at": "2026-11-14T21:54:00+00:00",
+      "title": "Rep. Thomas Massie says he will force a vote to end U.S. involvement in Iran war - WLKY",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNd0JGSlpOOWlZNDFzdmZnS0xYcTRfUXN4dkJzaWJqazZod0xNX0xraE0tNi15VzFrM3prd2VCMzNudl9KbHE3U3hNd3VyT2MyN1dVM09ibThRVVl6MHJ1RHdEaUFiU21LT1daTF9WVGdTZnZmVmNMb2FmWWlKRktRVHlJWHp5S3BYMElPcEFWZFNMQQ?oc=5",
+      "source_name": "WLKY",
+      "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
       "points": {
@@ -144,21 +353,6 @@
       "confidence": 0.55
     },
     {
-      "id": "8caee5470a0a2710",
-      "published_at": "2026-11-14T20:42:00+00:00",
-      "title": "Democrats push to end Iran war, Republicans digs in - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSZXZqdDFGcDlMWjZFUUVIUlpYRl8wbXlNN19Hd3Z1ejMwZmo3VmgwWFJoWUtDWWRGeGNvSWM1a2VvV2s2MDJncW5vandObGwweWc?oc=5",
-      "source_name": "Iran International",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
       "id": "be00029daedc5bed",
       "published_at": "2026-11-14T20:40:30+00:00",
       "title": "Donald Trump weighs holding off on new Iran attacks despite Israeli lobbying - The Jerusalem Post",
@@ -174,9 +368,9 @@
       "confidence": 0.65
     },
     {
-      "id": "87b2c41a26e0b8bd",
+      "id": "a6bc8180f084e3a4",
       "published_at": "2026-11-14T20:00:28+00:00",
-      "title": "Israel fears surprise US strike on Iran as nuclear talks fuel concerns of escalation - analysis - The Jerusalem Post",
+      "title": "IDF fears surprise US attack on Iran as tensions rise over nuclear talks - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBLOFpzRl9MQUJDakYzbFlFLVRtXzRxdjVhT215Y0piSG9LRHJucXU1WmpzSDJXYi1zV3FyblIzWTQySzFBRWZkVnV4TEhZMDBUWE4tdjlZWGdlXzJMSmZsVXhqUldlNHN5T3c?oc=5",
       "source_name": "The Jerusalem Post",
       "event_type": "attack",
@@ -189,86 +383,11 @@
       "confidence": 0.65
     },
     {
-      "id": "26c44a761a453d1b",
-      "published_at": "2026-11-14T19:22:00+00:00",
-      "title": "Live Updates: Netanyahu says it's time to remove Iran threat \"once and for all\" - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeU5UZDJHMEc4OWsycksxeTkxZEs1R2s4clJCbG5wR2tMS3lyLWpsZU8zY1pFajlxSWtoeW42YzNxR0RZbTgyenlZYUFfQ3pBdzFiUDgwSEFWR1JZaGwta2hsZy1TMm15eHdrZm1OMmdpcXhBdzl3RDdPUnFiOFNsYXRjX2VVTHc?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "83751d4934bcd8cb",
-      "published_at": "2026-11-14T19:18:28+00:00",
-      "title": "Israeli intelligence warns of Iranian plot to target Trump, top US officials with drones - www.israelhayom.com",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUt2OUtaMmFKTHEydlFZLUt1bUFOcDcyQkRUMmhNT1JibnotekxjZFpySWN2RG9qNVdWUjdEVnltNklhem1rTXJMbHU0Mm5XS2VwdDRMVzl3cnl3RUNOazZzNXJqSnd3TlpaNGdMbmtFajlxOHdJdmVpenZ4c0lRRExXNjZwYXJrZU1LMGtMVU9fSmplRmR6c0N6dXR0U1pxeDA2eVllYnZ3czRSOFY4WFh4czBvZ0Rla0JJUFFsZV9nY25CdXc?oc=5",
-      "source_name": "www.israelhayom.com",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "b25e147d73c975d2",
-      "published_at": "2026-11-14T19:04:34+00:00",
-      "title": "Iran state TV says modified missile could reach US base in Britain - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBndmRoOUZWUkR1MVRJblRxYWNKWElFbl9WbjYyanUzVWswb1k4ZGExQzhsWUFPa1lxbUhVUzNRZU9wOFpRNlVNOVAtcjdEUTVpNWc?oc=5",
-      "source_name": "Iran International",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "38ccf8afa4aeeb01",
-      "published_at": "2026-11-14T17:28:14+00:00",
-      "title": "Netanyahu pushes Trump for Iran strikes amid Mossad US visit - The New Arab",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbURBNW9jQ2hZX1FLQjZzZ3lXMHVvdkh4eW9tcWFIdkg1b18tWk83b0p0MEw2M01KYUVrWXBPVy1FNVRuVVo3bFM5Sm1vWFZidU1WV0tQeGhKNGNiTzNVSmRMUU14WVcwbkt2LTlpXzRhWmlkV1VlXzl5by1JMDVPWmNHNVJjUDB6VHQ1ZVZR?oc=5",
-      "source_name": "The New Arab",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "8c7f97a0556aafeb",
-      "published_at": "2026-11-14T16:38:36+00:00",
-      "title": "Iran calls on US to end aggression, lift maritime blockade - Tehran Times",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQzNHWEdrV2lUS3I0MDNqd1NtOVJXVFFUVElIN0JKN29KYXlHN2ZmMHJOdEdDYmcyVVNGTWZXakJ6cDVUXy0yeVFHbjJWRU9Pb0FQRlVaMFJqdDBmMEFNc1FERDdVa3Z2Q1BLMXdnTi16WWU1SWxWYmZJdkNiWTV1X3A0cnM4M2dkTDU5UzJCZGtKSGNMNkJzSEp4aFZoUQ?oc=5",
-      "source_name": "Tehran Times",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "e15f261359f82794",
-      "published_at": "2026-11-14T14:01:00+00:00",
-      "title": "Trump weighs holding off on new Iran strikes unless Tehran provokes US - New York Post",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeFkya1I4ZDAxM1JfMDIxY1pqVVBLWERpN0ZXVl9EbzRqQmh3MXdOS0FOMmFiMGZ0blo4dk9ZY0pTZExMaC1jajdYYkZudmVPZVlidU1nYWlYb00yMUhHNzlWeHF6bVZaT2Z5R001TDRLTEtMLVdtSWVoSThSYWNmXzh3Z3l1VVFySkJrZktMUHpyUUpkSVM5c3ViOFp5NjQ0TEFzbldaYXJmdw?oc=5",
-      "source_name": "New York Post",
+      "id": "426042cbb27d4ca8",
+      "published_at": "2026-11-14T19:45:11+00:00",
+      "title": "Israel sees no immediate Iran threat, but prepares for possible solo strike - Ynetnews",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE15SER6d3VVNlFLc2w0bXJSaElhaUdPOFJYQWg3TVFqekpOc2xJdk5Cdk1zcTk3ck1KVUhQZS03bUQxUmVkRU5uOXlCckJwUmczLW15M1Fn?oc=5",
+      "source_name": "Ynetnews",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -277,126 +396,6 @@
         "iran": 0
       },
       "confidence": 0.65
-    },
-    {
-      "id": "80d1e0515ad1918e",
-      "published_at": "2026-11-14T13:31:16+00:00",
-      "title": "How does Iran view shift in US approach after JD Vance ordered away? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNU25YOEt2azhyMVliR1pCWFgyOEFLWW5wTmVwUEpxR2M1MVBNNUc3X2ROUjduSTBIOTVZelBtX0wxM2dnQ0dpb2hPbzlVc2lhV19KVm4wUDlMMk1EODlTb1VpM1ZyZnZzemtaQ2thZV9ZaFBnd3NROUZKS2dSRzNBeWQ3TnVZQmJLM3FERUxGN3dQQWdmckVMblhTYUZHSXNMQWY5c0RQMUJXQdIBrwFBVV95cUxQUlFndzRxWmxLRUxGT041VHg4R0ZfakRCU20wZUs3WXV3NW5obmYxVVFfNk1LZ1lSSE5QeElIVFhYQ3hmbWFJVXB2OG1ERHB4aDV0UzUyQm5PMmctNl9kVW5aMVRNa0xuMWNNdFRIQ0lmV0w4NzRsSEhOVDZ6alRQSkxvNWZNMmRGeHBiYVdLN0cyN2tWQTd0a2tMSHktc0ZJakZ0elNJZUJUaDdxdzhn?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
-    },
-    {
-      "id": "9cc60718877ff619",
-      "published_at": "2026-11-14T12:23:00+00:00",
-      "title": "US reveals its next move on Iran as economic pressure intensifies - AzerNews",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBhc3h4SHRzODV6ekpFMXhudVd5eTkzd0M4UFpSbDZCNXJiblhDUkctMnlUTDZWOFk4azYzV1FlOW0tOUNKbXpmWFYwZVBtWEdMTHd3QQ?oc=5",
-      "source_name": "AzerNews",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "3e5d9f76fcd9fd1b",
-      "published_at": "2026-11-14T12:11:25+00:00",
-      "title": "US Seeks To Disrupt Iran's Supply Networks Beyond Naval Blockade - Radio Free Europe/Radio Liberty",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbkMxbkh4U0ZDaThGVHRaaG8xUXh4eWd5QkxFa1UyUktfb3A5eEprd2ZuUnlFR1MyR2o0LVVJaXpCWHZqZDRYamZYOXlQSklwdVJ4amRwUnByMnVHaFdMZURsVDdSMUJkWU1qVF9jNUx1X25tMkhzUWR5ZFFMN1QyLXExTHBaRDFMVXFvRTNfWdIBkgFBVV95cUxPTzlwWGFaZjlFV3BFOHVUNHRkMDh2ay1qcUc3c0dsUWRRQmtlS0w5dTBGZ3lLd0UtXzl2ZjNZZ0E2QjhfckxrcUlOT3l5TDh2dGFVdkZRalY4V3k4cFFsSWEybG9obnZNb3hBSVFZNkw2d2d5YTBWVGZPNnlNOXZwMEFFNDVZenI5OGwtR3NZemx0dw?oc=5",
-      "source_name": "Radio Free Europe/Radio Liberty",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "ee55b3b0b2308319",
-      "published_at": "2026-11-14T11:49:05+00:00",
-      "title": "Trump told advisers he may not attack Iran as long as it doesn\u2019t provoke US, sources say - The Times of Israel",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQLVQyaDVDSGpTcEFSNnQyVGt6b1V0N0U5NVoxaXJhMFdhV0ZzZHlrVGZJMVhveS1vWF9iWHEteU44Zks3UWhRa2lCYlNMYUl1RVNDanNuWnlDUUd4X0hMaURwS3EyN29fZ2NvUWlZdlNwVHBZV25pbTRhQ1ZhOGpPWFJZQ0lZTm1GOFhPaFA4OHgyY0dfUDZheXFET0EyVzJsUjdCWkticFNUYlRWOGc0UGhSWng5Z2NTYTdWWGpJRXRNdy1xS2xVcEdVTTQ?oc=5",
-      "source_name": "The Times of Israel",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f36a6c9e8bff5176",
-      "published_at": "2026-11-14T11:04:10+00:00",
-      "title": "Trump tells advisers he may hold off on Iran attacks barring new provocations, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPR2NiU2RGMHprbUFIMnNuTGJheHdpTzhuZFRCSWVGcl9HZF9raUd2VXQxNHE1WldRVzNaZWx6YnlRZFpueGZlb05DMElhZ3FEOVdLakpQWkNLaGktQWh6THRxT3V0aGVPaXI0dW9LVm9DeTJRekF1enJaamZ5bEd2SFZtSVNtTFd5VEp0WFl6U2VWX3BCRkYzbnB1c25QRnU2M3FBbDJBMHRTVWU5T0hyZG5sWFRPWUFIYVhuT1BMWTBkUVdNbDlF?oc=5",
-      "source_name": "Reuters",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "5b9f7372033678a1",
-      "published_at": "2026-11-14T11:02:12+00:00",
-      "title": "Iran war live: Coalition downs 2 Houthi drones; 7 ships hit mines in Hormuz - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTk1OSExWR3RnVjVaQTRhcmd6WDRva3IzT3NiZWd6QlpLSllUbmZSUm5VZ1dyRHJna3AyVWhBem1SU3F0S1p1UW93WjMyM19uQzlwSHFjYzd0VjBIV21GaTBWaUx6MjhXU1VGN2hMX2tEVXo1amk0YXVyRTA4cnlXbzMyOUVVNnZkNGFfYlpSRW1Ia2d3MjkzTUZKam5qUWF6eE4xcGFaU2p3V0xvVXFsSFIzSHNzMVNnbWFnZdIBwgFBVV95cUxQVXJvM011WXlEMmp6dkxhcGFjc01ZSTlZaTlVdnNOWTY2NFdiU1F0LTJ6ZUFwQ1NpdTRhemlnVmp0MU1xaXVyS2c1S3lTWHhZZ1VxTk8xc0txSlZRbXdsOV90N0JjVUVDNzd6cWlTRU5JQS1FWFNyRWk1RTNiZmpkOERNd1c5NHZSNzBtSmstNGNobDdrU2pZRHdybnhrMV9TOXN2Yld0eGRrZUkzN012Y2Y2dERuYjZVSjR4TmxzSzg0Zw?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "11f496c933f18fa8",
-      "published_at": "2026-11-14T11:00:05+00:00",
-      "title": "Trump keeps signaling an end to Iran war, but expert warns a crucial piece of his strategy is missing - Fox News",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWJuc0RtNzJfUGxQdWRNNlJfeGkyTEpMLTNkU2hITkNlWEo1aGxkUy0zelNTNkJFemRVSmk3WG9aR2hLNXNqcTVjVFlYVnZCaEFYbXFvcnJ0LXRIM3puUTJRcjV6V3VCY2wzSU5HNThzWEt3WmlJdGxvOE1jSlVmQW9LVGVxRDBRZXZLMW5DYkNJOUZ1aDZ6S1QyV21mQWlqYkVCTlYwR1llUFBUcXlKeklCcnpXZ9IBuwFBVV95cUxPTGRPaE9ld0pFd3BXc0l4UHFqNmhFeVpqNjk4MFFBeS1ZSEQ3TXdYNUdaUDRRbkZ6eFlZenRsUmhiMHdyWV9sTEVodWg4cnp1eWdBcWVOcEFfdnNmM1NJNmpSX0MwdS1jdnZkZ3ZzYm82UERLcTZFNnd3eVl4cXI1cGgwc3Y1V0YxSlhSZVlUbjY4ckc1bTFsN09TaDFMdnY2ZFZMdUplSFRHSWp3Z0NRR0VVWkJxcnlxdnZr?oc=5",
-      "source_name": "Fox News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "1fa5c167601f30f6",
-      "published_at": "2026-11-14T11:00:00+00:00",
-      "title": "Trump says the Iran war \u2018effectively over.\u2019 It\u2019s still costing the US billions - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSVNZbjB3dnptVVYtWWVQMHBpZmZqX3lmTXVrdnloalBCZXczUTFiaEswUXN2a1o4Z2VpNVFxdVdFN3Btd3c0N2NFMHpwZ2k5bFNyWlc5elBwb0ZUaUJaemUyeDBRMmdzMC1fUTRWakFKVGY2RW9fMUd0amM0b1dlUNIBhgFBVV95cUxPVzdXcGJYNncwNXZzYWhOV29tS0dSTjNabHVBWFhaVlV6SEZhVmdVX2hXZGM0RnBxbE41RkFWXzR4QkpDMUVURGZ3VjdyeW5pRXF4VXRkdkQzZ0hsNTA0eVBEYzdGWTVyZ2c2eGZ4aWszSHRPRDJTenBzbmVJMndidDdObFVvZw?oc=5",
-      "source_name": "The Hill",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.6
     }
   ]
 }
