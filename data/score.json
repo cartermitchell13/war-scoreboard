@@ -1,24 +1,30 @@
 {
-  "generated_at": "2026-11-22T01:24:05.827928+00:00",
+  "generated_at": "2026-11-22T11:36:56.002456+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 0,
+  "event_count_window": 87,
   "totals": {
-    "usa": 0,
-    "iran": 0,
-    "lead": 0,
-    "lead_side": "Tied"
+    "usa": 19,
+    "iran": 27,
+    "lead": -8,
+    "lead_side": "Iran"
   },
   "momentum": {
-    "usa": 0,
-    "iran": 0,
-    "delta": 0
+    "usa": 4,
+    "iran": 27,
+    "delta": -23
   },
   "confidence": {
-    "score": 0,
-    "label": "Low"
+    "score": 64.9,
+    "label": "Medium"
   },
-  "event_types": {},
+  "event_types": {
+    "other": 42,
+    "attack": 39,
+    "diplomatic": 3,
+    "intercept": 2,
+    "material_loss": 1
+  },
   "history": [
     {
       "date": "2026-11-09",
@@ -73,23 +79,324 @@
     {
       "date": "2026-11-19",
       "usa": 0,
-      "iran": 0
+      "iran": 9
     },
     {
       "date": "2026-11-20",
       "usa": 0,
-      "iran": 0
+      "iran": 4
     },
     {
       "date": "2026-11-21",
-      "usa": 0,
-      "iran": 0
+      "usa": 4,
+      "iran": 1
     },
     {
       "date": "2026-11-22",
       "usa": 0,
-      "iran": 0
+      "iran": 13
     }
   ],
-  "latest_events": []
+  "latest_events": [
+    {
+      "id": "011d2e58cdbb742a",
+      "published_at": "2026-11-22T11:00:01+00:00",
+      "title": "The U.S. has sufficient munitions to fight Iran \u2014 but what about China? - Deseret News",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMGY2czNxNG1mZGNYS0tXWExDWExpWUxKaktOWk44Y2NwdnZ5VmtmRTJpc2VGN05oc1RfLWxvUXlnQm9YV3NLeUdkdzNoMU12T19PQWpVaWFhZENMckFLOG9BbGpqYllvTDZQNnk3a2Nna1hDNFZlZ2RuaXlXZGdVYVRueDAxSDhC?oc=5",
+      "source_name": "Deseret News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "1ca9dc0e9ddea42b",
+      "published_at": "2026-11-22T10:54:42+00:00",
+      "title": "Iran calls US airspace violations \u2018a red line\u2019 after IRGC strikes on Bahrain - thecradle.co",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQU5jbHBEXzBIOEJHV3c3RmRqcUxTVnlQSzFEQlVVOVpfV1pNVTRkYnFiTHNmaGluaTk3ekUxNGNXclZLQzBublBEMU0tSWhYNkVTNHhQNENYRzQ4MUFUVHhpaUV6NjJCZWFyRnEyVTlQMVFHVkpSc1RPa19weWt6cno2bEl2QmZMSVFLX1BOYkxITDltckRVUjd5Ymk1bnlkZWdGbERXUQ?oc=5",
+      "source_name": "thecradle.co",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "fc82e4bfb7db549d",
+      "published_at": "2026-11-22T10:53:27+00:00",
+      "title": "US-Iran War Live Updates: Iran says US \u2018a defeated country in war\u2019, can\u2019t dictate terms - The Indian Express",
+      "url": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNMUJtUU43cGtFVW1aQ1FRX3d0ZUxxNFkySnQ5REFsY3RiV3hkb0RIRS1oRTlYcnZIRXpCWGowcTVQNlVsSnVwbjR4eURjMnRVYXpwTklYc0ZSeU1Lb1JwdzZnSjZrdktwb094NkhfZDZQanRKS3pUOU9nbU1iamt1TEtLYjhTUzNpTFNxUXFQS3ktY1gyUEszbWZERTJMN3FNb09TdVZYQkxVaHZVMlFZekhhNGFqZWI5UFFxazIwZ0tDU0VxVkF5T3ZoUU01NlphdUxYejBLbjVvMGk5VU8wc0FfVUIxSEF5NVQycFh0Q01SWTZjTkZiSHRFcm90U01SeHljZg?oc=5",
+      "source_name": "The Indian Express",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "eb8558179ab2a810",
+      "published_at": "2026-11-22T10:52:03+00:00",
+      "title": "New US target bank points to wider campaign against Iran - The Arab Weekly",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdU9KTkhOTkhrVjdnUlZJYjBpdWpxRkV0cWtrN09YSlloeDFvTzl3WlpBb203MGpLSWU4dzBRcDZBSnVMWU4yTW5ETktoV25WMk5SWFZRWVUxNHRUTlAwUU9iZzlZZDZtMGdRNTFzUmw0N0YxTWdENTl3R1Bza0tENHFHVzJ4UQ?oc=5",
+      "source_name": "The Arab Weekly",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "5d661e322034e893",
+      "published_at": "2026-11-22T10:11:35+00:00",
+      "title": "Iran war live: US \u2018defeated\u2019 and cannot dictate peace deal terms \u2013 Tehran - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONUdmdEJGUnZfMzVyUjZSNGF6VjBWNkd3d1NWM1d2SEZUNTV6aVRjLVR4X1pKbmtMRHp2R1NjQ1JzOGRTVVdBQ2ZHcmJ5bHZvczR6OC1wV3luZEFpSVlJZ2FUcERvaGQzRUswb1lkRFpMcFlzTW85MmVvQkxhNldua3dKWmZBcXk2Nk15QkZPWENhNzNDUjNBMkEtcUxXZVNZWWRwMlE2T3JyZE12ZmowcXgxZ1JKeGhfcVBGdEtBUlI5Z9IBxwFBVV95cUxOTTdmYm1DcmxqeU9HQ1I4UWZnNzAyeFpZdWU4ejZEbFJNcHhWcXpRS2gwVW1oU1lGaDBCVzE1ZUV2M0pHY2ppY2ktVTF5MzI3WG9PVDZDR05XTUY3MURoZFQwenRZTm1wZ2ZScHZFNmh1NUJUWVVoeDltbGtoWkdQSDB4RjVFRHItWDJEOW1HM3dsZnFpdVZsR3NvVW1WMVNUWExtYVEycEtianlfTWItLU9KSF96R3pCSXhhNmgzbjRSMHZhcVJZ?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.6
+    },
+    {
+      "id": "11961a4d46ddf403",
+      "published_at": "2026-11-22T09:58:00+00:00",
+      "title": "Incoming House Speaker Hakeem Jeffries Vows to End Iran War, Levy Sanctions on Violent Settlers - Haaretz",
+      "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQNEFRakFEcm9lMXhRejc1LVF6dUM4ZWNBY1hXZHRKSm1uV29JNk8wYzJJMnRVOVlmM2J2SmFRTklGbktSX1hPT3NrMkM5VjdMNDJXa1kwYTdVSzJfNWo2R2Vxb1RMNi1hY2p1eWdNNkNhUGprSXNwZ2paTl9PZ3Y5d0d4OENYcWpnQUdRZmt5NzhfSDBjeXl1TEFzM2pzSW1FQnlibThFaEsxY0pVUFJGSTJVSVBwZUNQcElsZm5PQkhNNzJBMDdDZ0Uxa05ZbVZLSlV6eF9HOXJOT2x3T0ZGbERxeVBaVF9PbndLNzBUdEs2Y1dS?oc=5",
+      "source_name": "Haaretz",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "bb4a561a709f891f",
+      "published_at": "2026-11-22T09:52:57+00:00",
+      "title": "Bahrain says Iranian attack caused fire at industrial facility - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNaVlibGxsbXZhME1WYWYtNmJmUHpzSTg5RHRBUVlEbmkxUUk1X183TE9xbV9raDRRTkxZcXZIa3VMX0d3RFU2OEh1YXRLMkNObnUtbEp3cC1WcTUzUXl2dlNBdk02cHdPdXBxeG41NVVHTWk3dEpabE14bGpVemx1aXFrX3pDMUZVZGVSWDhMb1JfcjhPa2FIdGkwMk1zSmVGSVJwMHFfMNIBrAFBVV95cUxOcmJjTXlwWFQ5ak4yeS1scHJoUVVGYVhqSkF1WS13TXR1RFFLdUwtSDZwYmJ2ajZWOGJtcGlLU1diU1NwTXNhaEs3MTlPUnNyUlNNSXVOMXp4ZmVIZVpuX1l4akQ2S09pMWN3eTdhVW81akVGYm50cUIwQ2duZ0ExdFNnN3B0OGwzMGlnc01oMjhyRjlTQjNMa1JrNlpRZlktNkZrUTZZV2xkR2kt?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.75
+    },
+    {
+      "id": "04c77d9d2b60b60a",
+      "published_at": "2026-11-22T08:34:45+00:00",
+      "title": "Israel, US agree to develop joint plans for possible escalation against Iran: Report - Anadolu Ajans\u0131",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQY3BFZWNpVm05VDlFVkV2eVFQX05tSkI5bjhPeWd3WkttNE9LazFxY3dUU2c5X3M0MmxvS19OcV9UT3c4WnlCa1hXU2tPVFJFUXN0U2J4WDQ4bnNrVzM0a2pkTU9uVmt1WWRrY2ttUHVJT3VmcU5sd3pvU3pudG80Wk9JRGJja19iWGVZUXZFOHV4emh3bG8xWU1YeE0xRVRLcVlIXzEwVDlTNDkzdmlxRHhDYkN0dlFOaWs2Tw?oc=5",
+      "source_name": "Anadolu Ajans\u0131",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4ce307511021648a",
+      "published_at": "2026-11-22T08:07:07+00:00",
+      "title": "UPDATES: US War on Iran, Day 269 \u2014 Houthi Missile Attacks on Saudi Arabia - EA WorldView",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNM2RrVEhkLTl5UDFBVUdjZ1NZTXN2RzgzSnhUUGZ3enFsWVA1ZllBbUc2QU9UNVpkcDN3UUFiMlpfVHZVVzBjYUtScVg1UDFMYmFNLXhjLVc5aG1xSjhRQ0J2ZXpNVHRYbEx2NmxrTXRlZ09BUHdqZ2tuTms2a3pNWGtR?oc=5",
+      "source_name": "EA WorldView",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ff068d3f05ec2bdf",
+      "published_at": "2026-11-22T07:50:09+00:00",
+      "title": "DW News. . Iran is openly threatening European countries with missile attacks and clandestine operations if the US bombs again. How big of a threat is the Islamic Republic really for Europe? #dwgeopolitics - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNdjhYZHFjTTNnQWVNLTVnRHpOeFYyM2Q2YVpDUjByMkFabjVqV1RqdEVYZ1BmRzVjdjQteWlqY0daZ0g5aFd3LTNBQ1lpY09ZaGNHMk10aHBfRS1CdEVtanZhVkFHZ3VNUHI3UXAtUnNULUVDT2t4S2pCejJHSTlENzRwOGlpYzNVWGg0SXN2bUZQMzJsSmY3enpXZVV1NHFjZFdB?oc=5",
+      "source_name": "Facebook",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "2dd6a72a72d0c9a2",
+      "published_at": "2026-11-22T06:42:03+00:00",
+      "title": "Iran war dominates UK government's concerns, Bloomberg reports - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Zc2Nrc215dEwxSUo3Mkk2ZDJrYVVwV3NDbHZ1U1p6MjdvU0ZfVkYtQ0lhZTEwZzBJMTBQRFlJLVplbVlsU1VJUVU2STNVVnJvT1E?oc=5",
+      "source_name": "Iran International",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "34dd0074c84c8357",
+      "published_at": "2026-11-22T05:56:32+00:00",
+      "title": "Vahidi: Iran\u2019s Airspace Is a Red Line for Armed Forces - WANA News Agency",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9IOUZGb0xSWlk0REdpWWF3ZmRmUW54cjlMbXZTYlJqcDBNd3N2V0NCNEIxS19pYzBPTVhDMTg3Y0wzWnB1d3RwcU1IU2JKb1FZZ3M0VWVVNW1kaHk2N1ZHa19DS2ZJNGVXci15bllHV2d0N19UZDlxLXlXQmk?oc=5",
+      "source_name": "WANA News Agency",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "c82efdef4f0f59c4",
+      "published_at": "2026-11-22T05:49:44+00:00",
+      "title": "Iran claims to have attacked a US military base in Bahrain. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORlBpUTNRdlBTVWZWTjI4dy1ISmJabnAyazlqdnZwNUJvNk5GUG5CMDFwTGVXaC1hcVVWTWZRV19BMnBiTFVGamozLUtzdF9id3YzRnZVUHFlQTFBckJxck11MVVoc0g2RW9OVE5HX1B6bFgwTUwzTE9hamVVeU0yVk5WZjE?oc=5",
+      "source_name": "Vietnam.vn",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "878f3f5de459cec1",
+      "published_at": "2026-11-22T05:01:36+00:00",
+      "title": "Pakistan FM hopeful for US-Iran deal, warns against prolonged war - Arab News",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRjZFeDJFbTdjUFI5UDUzbUhTMGNtVEpmVFhUYkQ4YURQS21NMXdHbXhSeExSRXc4NnZZeDNRaGtUNXg2bmh5YW5LUmlCVVNtcDNoanY5Zk1WSU5uQ0pnYlAxYWtteVpQU1kzcExydEF0VUREdUZ3emN6OGM4VXBBNUxNRy03QlpOUmNkNUpXUjZkNlF1WkV5WG02ak9mSlRkOHhoWEJ3?oc=5",
+      "source_name": "Arab News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9d42c132332cc598",
+      "published_at": "2026-11-22T03:32:00+00:00",
+      "title": "Iran attacks US Patriot radars at Bahrain bases - Mehr News Agency",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQnA2SndXaVdjaHJVUldVZ25wbktXOWdEZVpiby1kWVJVRzhoQWRpd1FKYzdaNUFJQWpEYlhGQUtFd3ZWcjk3eWpBS2hNSFBVMW90QXNFSVU5TG9fZVJTQlVyZFJhbjBrZjdha0hwZkFwaFJoQjRBcHU4RWttTWRfUUl2TkMyc0pNM0ZCag?oc=5",
+      "source_name": "Mehr News Agency",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "791a6d59eb728911",
+      "published_at": "2026-11-22T03:16:27+00:00",
+      "title": "Iran claims to have attacked two US military bases in Bahrain. - Vietnam.vn",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPajRCclBWYU8yWlo0MmhPUGpNeFNjbEFRdUZwZ1NYbzRXaURiNGNnT05idlRhRTMzVDA5ajRXeGs5WUJ2M01Ia2lELTZKejdFY213dXdxYmx1UHlYRHVPZVFkT2hLUzFhZGlkRDdVR2YzUDc2clBJdGdUUW1vVnRuc2t5MnhVY3U1WkE?oc=5",
+      "source_name": "Vietnam.vn",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    },
+    {
+      "id": "7cbb23e6ca251e41",
+      "published_at": "2026-11-22T03:14:23+00:00",
+      "title": "Iran\u2019s IRGC says targeted US positions at two bases in Bahrain with missiles, drones - Telangana Today",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTDBqbl9BM2kwLUliRC1sRGZBbjBpVmx1N055c09ueEg5MG96S2NmWVp3bXZ3eUwzaHFQeEcySW1GemVuZFJVUjYxN2ppdk4xcm9hOHNKSUhqWWQ3UkdDM3VEQTdCb05uazB6TWlKY090Wlk2OGJlcXRIeTZ1N1BMd09OMVEyWmdEMkpVUnJabXJnMmhrYUhocmNwUnp2VFE4ajNNSTFla0g4TFA1OFE?oc=5",
+      "source_name": "Telangana Today",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "4458c92be0a77111",
+      "published_at": "2026-11-22T02:45:15+00:00",
+      "title": "Iran declares attack on two US Patriot radars in Bahrain - Laodong.vn",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZUlscFJYejgwZHExSmRMOTVjWmVDSGpuWWRVT1VsTFZZUkJ4ODRYS3VtR2N4bGlTWkVsazdJcUpJU0ZmVUNQb1dySUhlemlvZGY5cXJpUFpUSjhQNnl1Y1JLTXZGQ3FhVkF2TWhuUzlCUW5zbW9lSGpsbE95RWUzRWFZRmU2Mzg1SUZ3VVdQcXBzU1BJY0kzRFdFZTVjV2ZuVTdBREdZcw?oc=5",
+      "source_name": "Laodong.vn",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4c725d4c206aa9c3",
+      "published_at": "2026-11-22T01:34:00+00:00",
+      "title": "Live Updates: Trump says he wants \"permanent\" deal with Iran; warns next move may not come until 2027 - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTGgwZTZaQWNtSzNpRDhQajRHRHFFTDhiVXczZmUtaFJiMVdTMFcwN1dWV053c1lGY2hiUnJrNnc3X1JoREFHLWNYTG52bVk5cXhMSDlCU2NkcDVCeWhQamZsX3JXdVBYdzJSdWQ1NDlKaTE4ZzIxc3U1SE1lcnhjdm45TmtHVzBMTmI4?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "3bbad63fe4afe338",
+      "published_at": "2026-11-22T01:25:17+00:00",
+      "title": "Bahrain said on Saturday that an Iranian attack had hit a civilian industrial facility, causing a fire but no injuries, while Iran's Revolutionary Guards said they launched a missile-and-drone attack on US military positions in the kingdom, home to the US Navy's Fift - Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQV1ZQTlpObjFaWTFwVFNIQzU1b0FQU0t3b3FMdm51TVVtaDB5b0pVelM5WHFwa3FORXNWZHpUUDE0d2Q3TEdYc04xRnNVY1UzaEozR0xrSEFBdjlJb2dXRFVmN2E5dXl4dTBneWRKNVd0NF9VQTlsVTlya3dRUDhDN1BEQUhIVkZqaG5neW9yVXgweHQybWlMd1lxZ2dZbGpFVDM1ZlFVN09QYWhwMl94SmFPU0ZRZkxxTTVhVWJnSmpxdE1wXzlhS1pXQ2pOOU5ObGoyQg?oc=5",
+      "source_name": "Facebook",
+      "event_type": "attack",
+      "actor": "iran",
+      "target": "usa",
+      "points": {
+        "usa": 0,
+        "iran": 3
+      },
+      "confidence": 0.8
+    }
+  ]
 }
