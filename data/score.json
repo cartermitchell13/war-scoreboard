@@ -1,27 +1,28 @@
 {
-  "generated_at": "2026-11-27T01:46:30.329279+00:00",
+  "generated_at": "2026-11-27T12:40:00.374325+00:00",
   "window_days": 30,
   "momentum_days": 7,
-  "event_count_window": 82,
+  "event_count_window": 98,
   "totals": {
-    "usa": 27,
-    "iran": 9,
-    "lead": 18,
+    "usa": 30,
+    "iran": 17,
+    "lead": 13,
     "lead_side": "USA"
   },
   "momentum": {
-    "usa": 3,
-    "iran": 7,
-    "delta": -4
+    "usa": 12,
+    "iran": 8,
+    "delta": 4
   },
   "confidence": {
-    "score": 63.9,
+    "score": 65.2,
     "label": "Medium"
   },
   "event_types": {
-    "other": 46,
-    "attack": 34,
-    "diplomatic": 1,
+    "material_loss": 1,
+    "other": 49,
+    "attack": 44,
+    "diplomatic": 3,
     "intercept": 1
   },
   "history": [
@@ -43,12 +44,12 @@
     {
       "date": "2026-11-17",
       "usa": 3,
-      "iran": 0
+      "iran": 3
     },
     {
       "date": "2026-11-18",
       "usa": 0,
-      "iran": 0
+      "iran": 3
     },
     {
       "date": "2026-11-19",
@@ -73,7 +74,7 @@
     {
       "date": "2026-11-23",
       "usa": 0,
-      "iran": 3
+      "iran": 0
     },
     {
       "date": "2026-11-24",
@@ -83,7 +84,7 @@
     {
       "date": "2026-11-25",
       "usa": 0,
-      "iran": 1
+      "iran": 4
     },
     {
       "date": "2026-11-26",
@@ -92,17 +93,32 @@
     },
     {
       "date": "2026-11-27",
-      "usa": 0,
-      "iran": 3
+      "usa": 9,
+      "iran": 4
     }
   ],
   "latest_events": [
     {
-      "id": "60de247134c69f39",
-      "published_at": "2026-11-27T00:41:00+00:00",
-      "title": "Trump says US has \"victory at hand\" in Iran war, offers Tehran chance for deal - ANI News",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZmhFWEh2VWNMVmxoQnZPVWlkTXpqdk0wX0s5ZjBQNE0tUmtCUVAta3YwWjBPaGxSX0hyUzlQRjdJYXEzeHNrUVhIOGJLY3pwOXo4b0hOM0FSdmh6dXdqazNBZmZwMHlaYUg4b3VaT1FrZjFMY19sdWdSME9mWm5qRFc0MWQwbXFrUWhoWEwtX2Z4aVdhZFU1U3JZSmJfdDRwUExtMzVFSmNnQ0FuRWFYUzdiSDRhV3hGZFFFZ1ZFWWo5cjNR?oc=5",
-      "source_name": "ANI News",
+      "id": "b42f80c1ed6dbbde",
+      "published_at": "2026-11-27T11:55:06+00:00",
+      "title": "Italians killed in Kuwait: Why is Iran denying responsibility? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQM3JrUmVYMExlMzNxaTY5VU1YWXctcThoZUJmU2FBN1lhbElJVGFrcTBnQWZUTVBtVUpaOTlKcUFwcUZkbTR4UHp1aS1mTUtZYUtmZjZFTGdRdzN3RXduVzZLZTJMLVlTc0tKMGRzTUM1UG9sMDF1dEZHZVZXak5HZnd2dFhkY1RxTFQyTVNpVTJnMU5Vd1NBOU9rYzNmbFlWUE1jQ9IBqgFBVV95cUxONkE1UFBtWXZSQnl0eGFwN2FHMFlrNzE5NEVGYW9ESWVoU2d0S3RUQUtBREdVMGxGOFdtd1hhN3FVVWlBaTYzS1RFLW9IcWZtMTIzdXJDZ2cybWkzWWpqemtqTG5QUFR0eU1pcFpnd2RsbkNldEFFNlo3QmFLc2JZZ21PbDZFaVdOanllUEZERk9IdDBHNjVNXzNKTGtmd0VyTHdfYXNFRzd0Zw?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "material_loss",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "836d1ef968bb9dbb",
+      "published_at": "2026-11-27T11:41:54+00:00",
+      "title": "Iran war live: Iran\u2019s navy says it recovered 2 tankers stolen by US forces - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPZ2RxcE5iYnBZYlRaUVlCWlItc3RheVVQaUxibTBva203bG9lVVhCbTFEOFI1bHhrUzBTalBNX1R1QW01ai1IWFBTQkdKa0dGVTgwaTVaRDR5ZWVHOWlKWkdxN21qa3JzclhuTlJUUjA3NnhwN1pDQXVOLUh4Q203dmhVaFR1VzVHTGNmaVFUSDN1UUNrem5ITzFlbTg5ekpsTjlBYk1kckFOSkJQdS00YllVTnNPbWU20gG-AUFVX3lxTE5EdzdTTDR0WkNDT0hEeDZHenktRk9fWjIzVl91WFo1RUxCWFZHUHVtS3F4SkVRWU8tTE9EeHFlZ3VLdHg3MnlNSlVrVktUV0FwTy1WOV9TY1JWaDUwRF9aQThHbTZZS0o0RlljdTJuV05DOHhSSkZaTDNJZEl1WEpvMWVDdFlnSnBPb2JTOXFpb2lvR0hfMFV0M1VmeFFmZl80UEotdWhzSHh6TWtwU2FxeE1BZENfRndsdlFhQ2c?oc=5",
+      "source_name": "Al Jazeera",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -113,23 +129,173 @@
       "confidence": 0.55
     },
     {
-      "id": "08d35064bd1782c3",
-      "published_at": "2026-11-27T00:34:52+00:00",
-      "title": "Two Italians killed in Kuwait as a strained Iran ramps up attacks - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdFVJenQ4a3hlOERnbnhWVGJ1QkNhUVQ1UjFGdUl2QjRFTjVaQUM4VC1sN2ZIWV9INVA3Y1hjUDA5VV94Zk4yOGF2Z00zak5OcGVNYTA3d2trbUxneVR6NnV0YXZ5Y3R5RDh3cTN0LVNqenltbmZMX2E1VkswTmNOT0t4R3hKWDNNeTRRbThMN2lFcUpRUjRwTjVnWS1sSDRLN2NTczlQNGg1Zw?oc=5",
-      "source_name": "The Washington Post",
-      "event_type": "attack",
-      "actor": "iran",
-      "target": "usa",
+      "id": "76e6b0a0c99d2313",
+      "published_at": "2026-11-27T11:40:02+00:00",
+      "title": "Donald Trump\u2019s \u2018Despicable\u2019 Iran War Remark To U.S. Service Member Sparks Backlash - Yahoo News Singapore",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA1ZXZZTjFpS3FtbGxySGh5MzFleEdHUlBLeVAzV1VucmdJT0hxWXpFTEVFWlhocVNnS0o5bU5lQnk3NFl2N040NVUwR0I5cy1XRFZwcm1zOHFBVWY3TlhFcFJBbHViZF9VTkZERnJxUmRFWnQtN2tHOGdxWGVLQQ?oc=5",
+      "source_name": "Yahoo News Singapore",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
       "points": {
         "usa": 0,
-        "iran": 3
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "ce2c72d7aef5de04",
+      "published_at": "2026-11-27T11:37:30+00:00",
+      "title": "Iran War Updates: Trump says he's giving Iran \"a chance to be smart\" - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa0lGZ2x0YXZLeTRTdE1zN09yX3E5enVIX0ZnUmhUVDVfMlVNeVpqUmlxN3ZLZFM1X2hfZGl0MVZmV1ZQZTFoUkpFNDVMM3E5bVhpZTRWdWZ5SVQtTEx6UFBGRWRkNjM0b0hvbnRpNzJscmVLMG95Mk1vUGt0YW1DQmxxbTZzUEVVOFJWdTVGNThiLU9G?oc=5",
+      "source_name": "CBS News",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9d8d06b387f3a0f8",
+      "published_at": "2026-11-27T11:19:33+00:00",
+      "title": "Mossad chief backs Israeli attack on Iran without the US - The New Arab",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQcklGaVpYLVU0S1RHVEhMZ1JWOHZhdmxQblVKMTctSVpqUGs4eVBSRWlOMFFnd1dXcEROaVRqWVk1YWpSZDZ5ampyNk4wLVNsVFBCcGk4OEk0SGYxR21HRjlJcjYxSGUzQVFSOXowODhIbDhLeldsckpWNENUekFneWc2dUvSAYoBQVVfeXFMUFFybG42YkVoMkw3YTJ0UWZXeTdLeHMwLVJDT3Z2S2gwYmtZb3dISzVfRE9GVDZJTktPRFk1M281bWFxUmF5a0dCNEpDdkpZUFZ2MHFZZWk3THVBaDdBWjF2UVNYLW1UTzNkZGtxd1dJczBMMHFYYjg1MXhjaXl4eXFtZzVKTTN6eURn?oc=5",
+      "source_name": "The New Arab",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "4e03a073ef213153",
+      "published_at": "2026-11-27T10:38:00+00:00",
+      "title": "Iran claims air defenses forced US F-16 jet to withdraw near Hengam Island - Middle East Monitor",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU05Db0JpcjlRUC1rcUVaOTFpcHNpMElvNGdSLVpKM0ZGNzAzRjFvekNIczY5QWROMDNzTVRyTGdPUEVuWGR4V2FfWkwzbGM1REEyeEpNbG1KX3ZmQ2hHOF9uTXd0QzhoV0VUQ09OT2dvcW9Zc3lJLV9EaG5YZzFBMmlCQm1jM05kaUt3SlhoOUNLWEFWLVk2TTVrRnRNWGpsTVlQRG5mQ29qMkRYMlUybDZxSTExa0RlYVHSAb8BQVVfeXFMTnZlOHRJRWc5NzFMYThtR0x2ZzM1ejBaLU1DWlZUTEdDa0s4NzE0ZkJyQUhTMmNvUlRiMW05WnhrMklfVUNtZzRJR1RhSTNlWW10dnpSdl9ZZE1OazFoMVdjbjVSTDRjMS14YnF4NG1LUHBUVl85YTF1bUFfNG5Xc1BQRVRJa2lQNGNiLWV1c3J0V0hnYW5Xdk53U3VRQXhhZFdzR3pIeXk3OGRtZFAtN3N5ZEV2cC1mUklHSUhnblE?oc=5",
+      "source_name": "Middle East Monitor",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "458d05c15f9fbfa4",
+      "published_at": "2026-11-27T10:17:19+00:00",
+      "title": "Israel divided over whether to strike Iran without US backing - The Arab Weekly",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQYkZ6LXJGY3AyWnVjbGlBWFFkcElKWVd3d080NncwNEkyWmdkNktybDNTNTVpdG5FZk9qTVBnN1FuOHg4bE4xR3RlMnR4S3ZjY3BBeTdyYXRlTVF1eGRjTm90TnBFeXI5MzlhSGRKMk9yVlc4d2tIMFhuWjViRmplOXRVTEcyV0dqRk16cg?oc=5",
+      "source_name": "The Arab Weekly",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "ec33810e7dbd3288",
+      "published_at": "2026-11-27T10:07:00+00:00",
+      "title": "Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05bmJOWEtxU1hnYmlGcXV2cHM2SzlfUnBhVUk3QklXMzFEd3Eyd1BhRmhORDBNM21BZmhfMnZObENxQTB4QWFDWnJwX0xhdnFUQmVkT1FSYnlBWUNsc0dtc1hVZTk5eDBMbEJDV2hNcl9qN2tEX2Q0RUl6N3pFdw?oc=5",
+      "source_name": "CBS News",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "98bc28ab46578289",
+      "published_at": "2026-11-27T08:39:33+00:00",
+      "title": "Gaza, Lebanon face new Israeli strikes as Iran-U.S. mediation continues - ArabAmericanNews",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQVXBPcXZCMDQ0Qmg1WkQ1b3c2a2g2TVpobVJKcHM5QmttZm90RGlGNWE0bmNJTW9sT1g1WEVYLVM4bmFGUTNSUWQtY2tpTG9XcHlOV2R6aWdpNS1XUVlIVjNINWZMci04WW9KSGJLeHRvNTZIcXF4OExkVnNFWkVGTWFaeS1QdE9FRHhMXzlCVUQ2MlFIeFdsek1uMUktZ242anctVDBIaGpwYVFtcHk1SG9HcS1tRFQyb0dibmpTcUlNR1lONXRlQ3IzZHM5VmJZM1dWd3BFYw?oc=5",
+      "source_name": "ArabAmericanNews",
+      "event_type": "attack",
+      "actor": "usa",
+      "target": "iran",
+      "points": {
+        "usa": 3,
+        "iran": 0
       },
       "confidence": 0.8
     },
     {
-      "id": "99138f91da361d0a",
-      "published_at": "2026-11-26T23:20:17+00:00",
+      "id": "0729687ff8c7134e",
+      "published_at": "2026-11-27T07:37:48+00:00",
+      "title": "Two Italians Killed After Iran Attacks Critical Facility in Kuwait - Tempo.co English",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaDhnUTE1dUhPbmdJeC1hUG9wNkREQ1ByZG94bFNBTUx4UHhtNzh1MkNnUDk4S3dRU2lGcnlueWRBZXRBUmZxR2VKTmlfaUtSR1owdzByUHl1UVBaNE45RlkwcTA4cW5CeHhTRGNackNxN2NINktucmE4OWp0a1ZWd1N6SjlPT1p6UU1ZOHR5cXAzOFhwclVmbTNiRFJScU00?oc=5",
+      "source_name": "Tempo.co English",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "415acb693c7a0072",
+      "published_at": "2026-11-27T07:27:55+00:00",
+      "title": "Can the Mecca pact turn its collective defence promise into real support? - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbkZDZkZudnVZY1pudllWNWQwN3RDbjlKWEFKOC1tV3ltUlpkV21RMmZKMjkyRlNEUTdEbElUU0s3OWFnZWxwSTZsYTFnZWE4WVc0dnNkSjdIS2VFc1ZMOEhrMEhrSzlUSF9BMngxOFFpeVRDN25OamJVbGtLWC1oTXRmSUZNb1Ztcm9CZE5tM0N4WV9TVDdfdjc4cTYwbnNRT29ybEo0QXpqNC0zZXNydFBGb281Y1dtMWRCYWx3elDSAcYBQVVfeXFMTjl4VmFaUTlKRHRqeXZNQmlSd1lGMWR4ejJZWVRmSHg4ZEZNd3RGRnktSF9MNlZ6MW1HNFBWZENVU0h5NG43MVhVWHhVTnVmd0dPVkVDbGJNRmhERHU4S2FSWjhYWUR3a2puRzBkaHhRR3ptdjM0Vm8zalpoT3lJbko2SEtCelppRTBORWpfNDNuX3gybXhvc19QWTJkZ01jb01YbGVORHZkLUVwU3hyVWNveGhZbDFMc2ZTdXduangwSFJaV1RB?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.55
+    },
+    {
+      "id": "9557ef38378b1784",
+      "published_at": "2026-11-27T06:12:17+00:00",
+      "title": "US could hit Iran's Pickaxe Mountain nuclear site if strikes resume: Trump - Business Standard",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOelRvbk1IZ2xBMnhGUXJ3Z0pKQ2hYUDhUaHR3UVdjd2ZmdWVjN2F3bmVidVdZS2JWZnl0aEhhSDU3cVVoNFFXY1NLX1dMWERaa2JmNXBOVWlYeDd4anNOaWpuWmU4UGJpQ3EtRi1UN3NWOVBqckI5S3RrcXhrZlppelRFQWVPd29ZTWs4NFh1akNmSDN1WUxhZnRkX2U0bkViX2ZSUlhVS1Q0cm01cTd1M0xOd1pCY3VvdDdqWE12eXZITDdYeHgyWk9MTWhDTzRzMGdFUtIB2gFBVV95cUxOakNqdlVXRFlHXzdma1UzN1FvellXdTdxMXZ5c2hSaXFzaVZCdFkzOWRiRTNEeF80VVN2a1ZJVF9oNGdOVGktRDdLb0xwZUF4R2F4M3RuT1pFeEpHNXpMZDJQZFUxYnQwM2RPaHdPYkpwMG5Bbk05QmJ5UndQY1RiR2p3NExiaHo2ZWlYX2p1eHJTWUpCSnVPZjJva2JBbEk1WkVqM1drVEdVN0NkVkRJX2VYS3pDbTc0aEhoY3JDc3RoYlA5cW5LOG9MbGthdzFyTVFKMmRaOXhMdw?oc=5",
+      "source_name": "Business Standard",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "5c050f0b410fe34e",
+      "published_at": "2026-11-27T05:40:35+00:00",
+      "title": "Drone Strike in Kuwait Increases Tensions in US-Iran Relations - India News Network",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNeExDeXM4alByLUJabl9kd2hhNkJaZWsxOFpjZjd3aXNra1JDbVZRcmdtY001R05TSE5HT25KcnJRTDFLWjR1bjM4X2JZMExBMlBhbU1VczBXWUdOX3hSUzg1RExISWpDSjkzQ3hfR3NpOXdVNGdtZTQ1X0czb2Y5TjNkYUcyMmVZOVdXWWliVDlEajlGZGZsNDBVV0dIZklXWFA4?oc=5",
+      "source_name": "India News Network",
+      "event_type": "attack",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "8800f5744cd7748d",
+      "published_at": "2026-11-27T05:21:07+00:00",
       "title": "Trump says \u2018victory at hand\u2019 on Iran, names Pickaxe Mountain as target if US strikes again - The Jerusalem Post",
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9RMS1zQ3RRTlRBTlBkNlc3TXEyUTRKa1JGal9GSEx3NnFQbko1T0pkejZlbnlqQlZtdkhQQ2dvYjhRU3lyY2lvaWkzbU54Ykp5SXgzaUptQkFtNG8yV0dPcGdTamFrSGVvcGc?oc=5",
       "source_name": "The Jerusalem Post",
@@ -143,11 +309,26 @@
       "confidence": 0.65
     },
     {
-      "id": "ec87d2da4a6a0ca9",
-      "published_at": "2026-11-26T22:00:00+00:00",
-      "title": "Democrats\u2019 plan to end funding for Iran war leaves open what comes next - The Hill",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPUUhrUHE4bV96ODIwUnRhWG9jbS1jUFNOUGc3amdUMWJGX0QyanFoLUhaeDc0Z3M4SzhiRkZscDcxQjR6Uzd5STlFVFFOUmlEME0zc1AzdERzaFBFeVhMdm80ZE0xbHFsN3pqcnFIcVBNaHA5d0VwTzlkcjZZNVRDSVFOUVQzTnZUUW9UYUtFMULSAZYBQVVfeXFMT3lENlZLYzFTVHFmdWJUSHBibnRCQlR0eUg4bER2QU5IS1E2WnhuVHRXLW1HV0ZoZ1AwdlVaaEcxUE1pUDBuY3Z5Vm5YY21WT0dQcHoycjdRd2liWXQ3T1lmVzItcVBEVVVtOW4xLVg5NVE1R3ZNOFl0dFc4MS1ISmZQZUM3YndRM01UZlFBam5jWDY3ckNn?oc=5",
-      "source_name": "The Hill",
+      "id": "6c4230fbbc0350f9",
+      "published_at": "2026-11-27T05:03:00+00:00",
+      "title": "Congress Should Do Its Job and Defund Iran War - The American Conservative",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRnFzLWVEZUYxNnBkbnBDYmU3bFlHUk5rZHJIX2xzcW9LVzFobzVKV3c2TjBvemRuRDhlM0g5c3JQVUh1b2ZPMjBqMW9VR0g1ZE1TaHk4WXFvaVZIT1EzNnY4cXZmV2U0UGRIT28zTHhWR2xuVXdGVkhya2U2ZS1uXzIwVzU2akR1ckVHRG14bEc?oc=5",
+      "source_name": "The American Conservative",
+      "event_type": "other",
+      "actor": "unknown",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 0
+      },
+      "confidence": 0.7
+    },
+    {
+      "id": "4935b8416948eda0",
+      "published_at": "2026-11-27T05:00:00+00:00",
+      "title": "How the Iran war ripples unexpectedly out to rolling English farm country - The Christian Science Monitor",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNYnVfTlBDT0M5OFpxaS11LWdyZndDLUUzTEpmV0VtQmRMMWRXZmdqSW1rSkdlZFRhSkR3NjhmRExELVB1TTFnelZMU1FXcG5iaC1HS2F3OVlRaGgxWDR0dFVOTE92cXM5Z3V3OEVNLWlqQWNOZ0s1WFA3Ull0TmpTZG5EZk1QZ3JKY3pHSXk1S1M?oc=5",
+      "source_name": "The Christian Science Monitor",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -158,11 +339,26 @@
       "confidence": 0.55
     },
     {
-      "id": "9cda625d472e9d86",
-      "published_at": "2026-11-26T22:00:00+00:00",
-      "title": "Iran faces global condemnation over Kuwait attack that killed two Italians - Iran International",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8td2ZGUC00MC1pNmFwV2MxazNoQnV1b0tTU3RvVDlMX3VocmdYUnJ5VjdqZENuZ2hGTl9pMHRyZnVhY3RaZGtKbGVpRUhGVDZwbXc?oc=5",
-      "source_name": "Iran International",
+      "id": "d7fdce8ccebffd62",
+      "published_at": "2026-11-27T03:52:18+00:00",
+      "title": "Trump downplays Russia, China support for Iran during talks with US troops - Al Jazeera",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPd256NGN4WEpKSTFrZzlVR21VZl81clNOdVdhUzkzQTktcHhIV1VzaUppUEdxUUZISXFlRmFMaEdCWGlMcmZDMVlfSVZjbTNnMGIyS3NJUlZGZEIxYldYcThUaERlU2xvN09fRE1ta2drMWtuSXRLdGhfdFZqZG9ob2daNmFDV295dENhUlNuR2M3ZDF6UnlMMWRCcXY4MTdkQ2NnSExkUHBLSEV5bWhsd2xZOW8xZ9IBuwFBVV95cUxPa25QTFBRVHdYUE5CQS1aZDlNa3VKUlVYd2FQQTJ1SDhlbXV2LVhJM2xFQkxhN1doYnBUNDJ5V1NYMWNqOFRQV1hMSlVjNjZhVlpvdW1EY2prYkVsVmV1QkFqWHdEZVEtTDdNUDRqRXZyWlZJeVZvMjZDUFNyT1J5ZkZPbTlfNTJmeG5rY28yZDFwMTBDcUVRODF6Z2UwWFZTWFloa2NXUm5vOHFfSWJjODY4VEI5V3dFRzg4?oc=5",
+      "source_name": "Al Jazeera",
+      "event_type": "diplomatic",
+      "actor": "iran",
+      "target": "unknown",
+      "points": {
+        "usa": 0,
+        "iran": 1
+      },
+      "confidence": 0.65
+    },
+    {
+      "id": "94d72d338bd09280",
+      "published_at": "2026-11-27T03:30:00+00:00",
+      "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends \u2018whenever I want it\u2019 - CNBC",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWXdZWk9aY1VrSmlEbExnWV93RnFxTDFwV3RLdjhtYW1SaXU0aXJCbGJBRUVOS0FramRyaVdva0VwUWRLQlBZdHcwYktUWVlwaEp4MTNEeUN3Y2Q1bi1RUG5TRTZoWlY0S2lFUVpqSVF3NzJQZ2hiUGFjU19LTW93cERfYzNNY3VKalHSAY8BQVVfeXFMTXlQSEhkZ20xOFJXTzlvczJPelo5S294dENlYTBpMzAxVHVxeHhFNUk3eHZVYVQzY0t6cWZ5T1hEYUdjbkc1SmROUVVTVWc4Mjdza3FYNXplRTE0Qk5NY1NyTTNwdEN6Z2JyWEJhOVRVd3RVOVRoTVlubGNUYTBsWS1zTkZ3czV6WThYWkk4RVU?oc=5",
+      "source_name": "CNBC",
       "event_type": "attack",
       "actor": "unknown",
       "target": "unknown",
@@ -170,41 +366,11 @@
         "usa": 0,
         "iran": 0
       },
-      "confidence": 0.65
+      "confidence": 0.7
     },
     {
-      "id": "0e7692428420d946",
-      "published_at": "2026-11-26T21:52:29+00:00",
-      "title": "Middle East latest: Two Italians killed in Iranian drone attack in Kuwait - The National",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjlZcjNRWExvSC0zaURTVmE2YjJuTHI5Z3ZQb3dxMGtCS09EMEVwNVc3T1hzTnZ5Z3czZGhqWDRNU2tNb1RTTFZOempjZHFKNE95SG54NjBGSlBHb2VqVlRqTTlwd3h0UUcyd3lGMDZuejRyamV5cmg5cVBlNlVZeVdNTDlyXzRhRjR1Qm1pbWI?oc=5",
-      "source_name": "The National",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f0570ad123e7d4d7",
-      "published_at": "2026-11-26T21:05:00+00:00",
-      "title": "What is behind Iran\u2019s latest Bahrain and Kuwait strikes? | Daily Sabah - Daily Sabah",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNThQeWVxbGFxZkc1d2tua1lJZUxoZzZoUHBQVVY5amNmVTh4TklvVFBHaDNEQUFnNGx5MllIVm80WGt6cHpSODlNdU9HV05MMXg2VVJDZm5TM1FObkVxVjFKdE9YOERlYndaTmhFUWdLLUk0SnV3X2xGWkxSSUxfeUUxay1xR3BMTHk3aE9kQjl0S0dzZXZkUXQ1SdIBoAFBVV95cUxQQ2FUM19maHBoUG5NMkgxLVI2U1lzWEpvWGR6NnBhMXlWTU5SRXMzSEhRN1AzaUtpTFVpUks3SGpFSUFqSWdLT2dkQUd3LXN5RHBUcDk4elVpWEZPMWVJTW5pY0R6MWN0ME9OaERmVzNRQlJfMEVqeG9BVFUxaU8wUEk1M180SE9Wb0lZYlNENzlSZEllaWk4R2g4R0h4Nm94?oc=5",
-      "source_name": "Daily Sabah",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "f70a747a8f2e7b96",
-      "published_at": "2026-11-26T20:52:42+00:00",
+      "id": "1ebca17eade42080",
+      "published_at": "2026-11-27T03:04:58+00:00",
       "title": "Two Italians killed by \u2018drone strike debris\u2019 in Kuwait - Al Jazeera",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTTJLR040dFNoUlFYaVk0RF9CMUp2d1drUlVYVkNXWGQ4MldxM0VFTE52MDMzTHNXVmpFVEZjeGUteHlCY00zWjFNcFVVX1ZWOWhLSE9GeF9tRGE2bWVVd1l4eHVtY3hUc0dnN19rbVZfN0k4cUtZcTRwQlgzbXF5NUZmM242RmU2UGVXR2tGRHM1RUNOMF9qdVZDTjBFZFZDOWp1blozM3lhU1VXcVhR0gG0AUFVX3lxTFBoVDAzRnVkN1JNUEliazROM0hQamFsWVF0a3lxZXBISlcwOFhoWndKNnlDU1JVMzZWVXM1aVVLRm1aQXNNOU45bnZIVHlqcUg2R2hCbHY4bEtHaEFqS2dmY0RmUlpRMG9MRTZoZTYxMDRLLXhaLWtla2dzNWY1b0xzMU15R0dlVkdJTW9EeFNHYkdRN0RwT2llT2ZWUVlKQ3IwS1ZrRWRHSXdwMUdGZGVkcjF0WA?oc=5",
       "source_name": "Al Jazeera",
@@ -218,131 +384,11 @@
       "confidence": 0.65
     },
     {
-      "id": "6fab81e36d3e3573",
-      "published_at": "2026-11-26T20:38:48+00:00",
-      "title": "Attack on Saudi\u2019s Jazan refinery kills one person, disrupts operations - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUGZnZjhfSVBOMkp2VnNxeTh6ZHVxQmQ4X09jMnFmMFg1VUlhQ3RSTlVUN09RZEZpUlZFeV96MlpENFFwTHhoS0dEWTk5Q0U0Y2F0QS1Zb0Q0amNWMkw3cEs3S0d3Rml4QTV0ZExPXzVBaVRaTkZHVUpmYVVIbVk2SGtkcWtJLXVTUkk4Y2gxelVuUGtnU1BxM0gtN2J6ZF92SnJvczdjaGQxQkZad0RzZF9pb9IBuAFBVV95cUxPbDVuYThMckJDbU1vT3VsN21LaEc5ZVVQZVZKUjZzMWQ3UnlhbmxQZlZkVzdFUWZFbzVEZ1FkZ3hJSFMzY1dHRzdkYUF4MDIxOEpNckdiZHpHTXIxWGxQb3hHbFBGZ3VEZjdPZXBPVWJEejNFaHMzaVpBeER5aEZKYzZlVFVWSEVnLWpsSHA3cTBvY0pqM3YySXRNZGxhS1hGN0Z0VEtBb3dPNnFwQ2JXWnA5TFl2dDNX?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "d91d1edf137e7f26",
-      "published_at": "2026-11-26T20:35:00+00:00",
-      "title": "Live Updates: Iran accused of deadly drone attack in Kuwait that sparks EU call to step up pressure on Tehran - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE05bmJOWEtxU1hnYmlGcXV2cHM2SzlfUnBhVUk3QklXMzFEd3Eyd1BhRmhORDBNM21BZmhfMnZObENxQTB4QWFDWnJwX0xhdnFUQmVkT1FSYnlBWUNsc0dtc1hVZTk5eDBMbEJDV2hNcl9qN2tEX2Q0RUl6N3pFdw?oc=5",
-      "source_name": "CBS News",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "4816d9b275adb0b4",
-      "published_at": "2026-11-26T20:24:53+00:00",
-      "title": "Iran attack on Kuwait kills two Italian Rheinmetall workers - The Spokesman-Review",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNUFfNEFKWExFblNISlc3cHh0Z0ZfUGdQR1F5WXVibjdqWm8tOWhSdTE3UlZHcDNhVGMyRmJQb3BmS05JblBqYWFxSFVhRnFEakxaaGJkQ3ZKa1RTaU5EVlBOT2pNTFFNTkViRjFYYlpYLW8zR2VWNjlhVC04amZTTUlRS0o3Y1RhWGU1OGp0LV9oNlVoS2VJTnYzY1FFZw?oc=5",
-      "source_name": "The Spokesman-Review",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "42ee4a9d236eb77e",
-      "published_at": "2026-11-26T17:33:36+00:00",
-      "title": "Iran Attack on Kuwait Kills Two Italian Rheinmetall Workers - Bloomberg.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVE9yWG9JenZCTFpSOFJUeGxZcDVXTXE1eXRUOTdkRW5nelVQcU9DU2RfNmQzTlBWWnZXdlFoWmpGNktHUnJBTjdaV0w0M2tZUlFjZzA2SEljMzlHVklrOU80R09oenRVRG9FT2puQWVhcjVFNjV6dDlvRmhta1NCMWF4c3ZUbFBSMzlaMU5Vd2syOHozTzNCQ0VMc1JCdjA5NW9kTjdkQ1F4Q0Q5cXRF?oc=5",
-      "source_name": "Bloomberg.com",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "20f44212633a76dd",
-      "published_at": "2026-11-26T16:18:46+00:00",
-      "title": "How the Black Sea front in the Russia-Ukraine war is threatening to pull the U.S. into the conflict - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1XSG11OFNDMy1CT0lldVd0S21WUVE4SERyVUFSRWpqZUw1LXo0MEdVWmJWNWpjaWcxUGVXeVREcGt5SGplbzZsQURVdUVJZjZZQkEyMUh1cHl4RXpxV1pDblUyNUkweXJ5THRiNWJhSGNQMm14QVdFS2IyUEZyQQ?oc=5",
-      "source_name": "CBS News",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "5c20954e6c52d8d4",
-      "published_at": "2026-11-26T16:00:02+00:00",
-      "title": "Two dead after Iranian drone attack on Kuwait - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMnFuM1JtRWRtNFU3aVhGYWlUNllTMXIyVkZNR2V0QlF5R3pRdkVjUktFdXc3NDc0RVpKV1BMVWhqQXpaS2N6Q0oxamNHdXlOZmZ4bU5UaDZSbjktc1VmZ1QybzFWcTREVWwzY0RqZ1NSbk5VdjM3YVltLW5nVG12cUpSenNhX0czUFZETGFVZUNJa0NWV0JLOXFDeENwd9IBowFBVV95cUxQa3dBMWhNVnpzSVJjcFQ1bWtvTEp0S2x1TWxmYmF6bkRCTzVCb2RVUHdoMDNFNnM0N2NYcmlFN0RHQ3VKLXZmOEowdjNDTGRTd0xPVFJJRTZUb1FUbWlUc0RoN2NFbF9mM1hBME1naXlSaWdtXzJQOEpxSlZwZ0xKX1daTnpyX2ZyUFNYbTBldUVRWU9fWFQ5LXpEWWVLMUNuX1o0?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "ff0188eaa3ef6695",
-      "published_at": "2026-11-26T16:00:00+00:00",
-      "title": "China and the Iran War: Peacemaker or Profiteer? - Lowy Institute",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNMmExSFhWemJESEhyM21TdWxjN2czeVhhWWhjdU1TUE9FcUlTX2FXUUJMc1RVY2F6eG45ZWdEaWxpZWFIWXlFR2VWLU5PVGxETmlmX2p3X3BVYVk3eGMtS2R1dWNtRmlaNEItSGM3NlRoRWYydzVWQ2ZQS0p5SC0wODRPbnRGdnBjNXpkV0s3MFJhUFY3V25B?oc=5",
-      "source_name": "Lowy Institute",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "6814974e8902f4ee",
-      "published_at": "2026-11-26T15:02:27+00:00",
-      "title": "Pashinian Rules Out U.S. Military Presence Along Armenia-Iran Border - \u0531\u0566\u0561\u057f\u0578\u0582\u0569\u0575\u0578\u0582\u0576 \u054c\u0561\u0564\u056b\u0578\u056f\u0561\u0575\u0561\u0576",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5mTllpbmhLSnd5RU9vZVdfdE9DZHpNOW03anhSaXcyX0VUVUowX01JNjBsSWFmTjF6TEFXTVBIcGhrTlhhS1hCaDhIT1h6cGxuZHfSAVRBVV95cUxPWjBkXzBRb09lTXlvb0FyNHBaTjgwRVAwWmxmNWMwdHF3WWdaTVNaNWFkTmlXV0taekRsYjI0RFBUNmxyUGxmR0l0cHozUWZWYjRyTi0?oc=5",
-      "source_name": "\u0531\u0566\u0561\u057f\u0578\u0582\u0569\u0575\u0578\u0582\u0576 \u054c\u0561\u0564\u056b\u0578\u056f\u0561\u0575\u0561\u0576",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
-    },
-    {
-      "id": "67d7a49e4a5cc53d",
-      "published_at": "2026-11-26T14:20:59+00:00",
-      "title": "Can Trump continue with Iran war despite funding restrictions? - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPU3RqQ0dlWHRjbm5jSTd1SjV0YU9vUlhIX1JCUTh6ZFh6RWVHSFY4V2ZWWWNjMG9DVEd6QnUxckNYdFZ1TGtjTjZqTDc5U3E4eUJwYUw5S0dUN0JLR19QazVucDdlai1IN1FTZlhZbGc3dmY3R1o5UEZVRFFiRmNGd2RUQ3piVmZ2VlBaczVkYXN0Yy01N1Fjd1B5cTVOYTl5NnpFZElB0gGrAUFVX3lxTFBzYkdXQXFreExwcXdDQ2Q3Ung3MlFVU21HMnA2RnN5dFdUeklpWHNtX3lBTUxPaThVSDBZMmZzOE5aYldab3l4cHJwQW1tTzNfODZGYTZOUlk2eEQwRFV1VWotclhidVlwVVc0SVRUODRGVGhKRUZqa3ptZ1M3MExfMUdVLUsyaTVvallfbTg3aldjNHNCS1ZlVHJNYWFPN1pMSk9QNTlaNXdQOA?oc=5",
-      "source_name": "Al Jazeera",
+      "id": "98bab0e666b1819d",
+      "published_at": "2026-11-27T01:47:11+00:00",
+      "title": "Trump deploys extra aircraft carrier, says Iran is making \u2018big mistakes\u2019 - Iran International",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzM2pBN2tuWFNDdnBuT3o3SmpBUDZQTUh1TTlmM3hpcnpjZURfV05xYTktcW05YUU0OXNLNENoX0RmZ0x3bmliWkJuYnhsRGVvR1E?oc=5",
+      "source_name": "Iran International",
       "event_type": "other",
       "actor": "unknown",
       "target": "unknown",
@@ -351,51 +397,6 @@
         "iran": 0
       },
       "confidence": 0.6
-    },
-    {
-      "id": "396480ed5f65638d",
-      "published_at": "2026-11-26T13:07:23+00:00",
-      "title": "Regional Security Spillover: The Impact of the US-Israeli-Iran Conflict on the GCC States - Mepei",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSDhUR1VNeTZFQVNQOV9tQmd3dVVhenEtYjBHc0k5MFZ3TC1yWXFXQk15WUs1T2t3bENlLXdCOUFnTjRjRWtvUUtwa2lEZ0NCcGVmX29DMEtKQURLUnlxbGZ4QTFlWkVOdHFoc3I1UngyTkl0OGNCQVpFVDYzWHZKakhHSXhNR2ZLYmJGV0Utb3NjTmVDTUNHSjZVOVBha0I0LUZnVzhyc1F1VTg?oc=5",
-      "source_name": "Mepei",
-      "event_type": "other",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.55
-    },
-    {
-      "id": "bc5dab45679405fd",
-      "published_at": "2026-11-26T12:31:39+00:00",
-      "title": "EXPLAINER - Could Netanyahu\u2019s pressure push Trump toward renewed strikes on Iran? - Anadolu Ajans\u0131",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPamlHNVBQT3BkNklKYmVRQ1VlemJWck01Y2VjNmljYXlrcEl2R3NIcG1ZY3NfWWFNWllDRHkzbDlKT2d4bkJpTVlmWkQ1aVgyV3M3eHc4UVJJaHUzMkNHY24zVFVpUGpRS3lVWm9jb09VS2VlZllYLTBZcE9ENDY0aEdyNll1aHAzdTd0RlZrd2Q3X05wTjZLdVpQWFBGYW5EdGhnRTRxODgySjd0bWpEQ24yQnZORHpRckE4WmNQMmE?oc=5",
-      "source_name": "Anadolu Ajans\u0131",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.65
-    },
-    {
-      "id": "e6a5696ccab30f75",
-      "published_at": "2026-11-26T11:12:02+00:00",
-      "title": "Iran war updates: Tehran denies carrying out drone attack that killed two - Al Jazeera",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUHBLNS01bDVwTEVEWk1ZZktDNEZCc0l6SnJzZklteEZsV1NaLWV2NGFBQUFxT1kyTHJZSXhrMzIySDFySnZOSTZueDJuTElIYWRIOTFCWlZrc2RiYUdPNDNla1FwNWpZb2JkbDlFNVJadEtCa1B6VFZVdmdaS3hiTmJHS2dQWElXQTJWTnp2RmFFcTQ5dTR6MXBDYXlRM0dfVWtTYm9OTy0wZ3JxNUdISWV6cFJTdWlUNmVF0gHAAUFVX3lxTFBzd0RmSHRJLXFKcks2dndWNFlPdWRvdmVQc0ZWQVhmR0FXZ0h1NHJRcHdUZDFKQ3hwWHZyYngwZHNPU2Q0MDNJVFJmdDM3R2t6Y2g2ZjBOblJUWTh6d2cyTVV2YW1NRGZLejRxaUxtZGZjOXNuTVNKYlNwbFdaVVBsVzNSM1hzcUM5dkJvNXFEQjVvUVprRnB3SEE1RVRnR19hOVFVZ3RoMUVGQk43Z19xYk5CVTFscDYxRi1GNXNUdA?oc=5",
-      "source_name": "Al Jazeera",
-      "event_type": "attack",
-      "actor": "unknown",
-      "target": "unknown",
-      "points": {
-        "usa": 0,
-        "iran": 0
-      },
-      "confidence": 0.7
     }
   ]
 }
